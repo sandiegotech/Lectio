@@ -3,38 +3,22 @@ import SwiftUI
 struct LibraryView: View {
     @EnvironmentObject var library: Library
     @State private var path: [Work] = []
-    private let columns = [GridItem(.adaptive(minimum: 158), spacing: 22)]
+    private let pal = Palette.natural
 
     var body: some View {
         NavigationStack(path: $path) {
             ScrollView {
-                VStack(alignment: .leading, spacing: 32) {
+                VStack(alignment: .leading, spacing: 34) {
+                    masthead
                     ForEach(library.collections) { collection in
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text(collection.title)
-                                .font(.system(.title2, design: .serif).weight(.medium))
-                                .foregroundStyle(Palette.natural.ink)
-                            Text(collection.blurb)
-                                .font(.subheadline)
-                                .foregroundStyle(Palette.natural.inkSoft)
-                                .fixedSize(horizontal: false, vertical: true)
-
-                            LazyVGrid(columns: columns, alignment: .leading, spacing: 22) {
-                                ForEach(library.works(in: collection)) { work in
-                                    NavigationLink(value: work) {
-                                        SpineCard(work: work)
-                                    }
-                                    .buttonStyle(.plain)
-                                }
-                            }
-                        }
+                        shelf(collection)
                     }
+                    instituteCredit
                 }
-                .padding(24)
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.vertical, 6)
             }
-            .background(Palette.natural.paper.ignoresSafeArea())
-            .navigationTitle("Lectio")
+            .background(pal.paper.ignoresSafeArea())
+            .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: Work.self) { work in
                 ReaderView(work: work)
             }
@@ -46,6 +30,84 @@ struct LibraryView: View {
                 path = [work]
             }
         }
+    }
+
+    // MARK: masthead
+
+    private var masthead: some View {
+        VStack(spacing: 8) {
+            Text("Lectio")
+                .font(.system(size: 44, weight: .semibold, design: .serif))
+                .foregroundColor(pal.ink)
+            HStack(spacing: 10) {
+                Rectangle().fill(pal.accent.opacity(0.65)).frame(width: 30, height: 1)
+                Image(systemName: "diamond.fill").font(.system(size: 6)).foregroundColor(pal.accent)
+                Rectangle().fill(pal.accent.opacity(0.65)).frame(width: 30, height: 1)
+            }
+            Text("The great books, made to read")
+                .font(.system(.subheadline, design: .serif)).italic()
+                .foregroundColor(pal.inkSoft)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.top, 26)
+        .padding(.bottom, 6)
+    }
+
+    // MARK: a shelf (one collection, books standing on a ledge)
+
+    private func shelf(_ collection: BookCollection) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(collection.title)
+                    .font(.system(.title2, design: .serif).weight(.medium))
+                    .foregroundColor(pal.ink)
+                Text(collection.blurb)
+                    .font(.subheadline)
+                    .foregroundColor(pal.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.horizontal, 24)
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(alignment: .bottom, spacing: 18) {
+                    ForEach(library.works(in: collection)) { work in
+                        NavigationLink(value: work) {
+                            SpineCard(work: work)
+                        }
+                        .buttonStyle(.plain)
+                        .frame(width: 150)
+                    }
+                }
+                .padding(.horizontal, 24)
+                .padding(.top, 4)
+                .padding(.bottom, 10)
+            }
+
+            // shelf ledge the books rest on
+            Rectangle()
+                .fill(LinearGradient(
+                    colors: [Color(hex: 0x9A8763).opacity(0.55), Color(hex: 0x6E5C3E).opacity(0.55)],
+                    startPoint: .top, endPoint: .bottom))
+                .frame(height: 4)
+                .clipShape(RoundedRectangle(cornerRadius: 2))
+                .shadow(color: .black.opacity(0.16), radius: 4, y: 3)
+                .padding(.horizontal, 14)
+        }
+    }
+
+    // MARK: institute credit
+
+    private var instituteCredit: some View {
+        VStack(spacing: 8) {
+            Rectangle().fill(pal.rule).frame(width: 40, height: 1)
+            Text("SAN DIEGO INSTITUTE OF TECHNOLOGY")
+                .font(.system(size: 10.5, weight: .medium))
+                .tracking(1.8)
+                .foregroundColor(pal.inkSoft)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.top, 22)
+        .padding(.bottom, 30)
     }
 }
 
