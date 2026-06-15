@@ -1,7 +1,7 @@
 import SwiftUI
 
-// "The Margin" design language: a single warm "Natural" parchment theme with one
-// rubrication-red accent used only for emphasis, never decoration.
+// "The Margin" design language: a warm parchment theme by day and a warm dark theme
+// by night, both with one rubrication-red accent used for emphasis, never decoration.
 
 struct Palette {
     var paper: Color
@@ -21,6 +21,39 @@ struct Palette {
         rule: Color(hex: 0x26221A).opacity(0.14),
         rail: Color(hex: 0xEFE7D6)
     )
+
+    // Night: warm near-black paper, soft cream ink, a brighter rubrication red so the
+    // accent still reads against the dark.
+    static let dark = Palette(
+        paper: Color(hex: 0x1C1813),
+        ink: Color(hex: 0xE6DCC6),
+        inkSoft: Color(hex: 0xA39A85),
+        accent: Color(hex: 0xC8553F),
+        gold: Color(hex: 0xC9A968),
+        rule: Color(hex: 0xE6DCC6).opacity(0.14),
+        rail: Color(hex: 0x262019)
+    )
+}
+
+// App-wide appearance, persisted. Day = parchment, Night = warm dark.
+enum AppearanceMode: String { case light, dark }
+
+final class AppTheme: ObservableObject {
+    @Published var mode: AppearanceMode {
+        didSet { UserDefaults.standard.set(mode.rawValue, forKey: key) }
+    }
+    private let key = "appearanceMode.v1"
+
+    init() {
+        let raw = UserDefaults.standard.string(forKey: key) ?? ""
+        mode = AppearanceMode(rawValue: raw) ?? .light
+        // Debug hook: LECTIO_DEBUG_DARK launches in night mode (for screenshots).
+        if ProcessInfo.processInfo.environment["LECTIO_DEBUG_DARK"] != nil { mode = .dark }
+    }
+
+    var palette: Palette { mode == .dark ? .dark : .natural }
+    var colorScheme: ColorScheme { mode == .dark ? .dark : .light }
+    func toggle() { mode = (mode == .dark) ? .light : .dark }
 }
 
 extension Color {

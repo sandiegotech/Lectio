@@ -2,13 +2,20 @@ import SwiftUI
 
 struct LibraryView: View {
     @EnvironmentObject var library: Library
+    @EnvironmentObject var theme: AppTheme
     @State private var path: [Work] = []
-    private let pal = Palette.natural
+    private var pal: Palette { theme.palette }
 
     var body: some View {
         NavigationStack(path: $path) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 34) {
+                    HStack {
+                        Spacer()
+                        appearanceButton
+                    }
+                    .padding(.horizontal, 18)
+                    .padding(.top, 8)
                     masthead
                     ForEach(library.collections) { collection in
                         shelf(collection)
@@ -30,6 +37,18 @@ struct LibraryView: View {
                 path = [work]
             }
         }
+    }
+
+    private var appearanceButton: some View {
+        Button { withAnimation(.easeInOut(duration: 0.25)) { theme.toggle() } } label: {
+            Image(systemName: theme.mode == .dark ? "sun.max" : "moon")
+                .font(.system(size: 15))
+                .foregroundColor(pal.inkSoft)
+                .padding(8)
+                .background(Circle().fill(pal.rail))
+                .overlay(Circle().stroke(pal.rule))
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: masthead

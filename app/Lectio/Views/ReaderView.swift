@@ -17,8 +17,9 @@ struct ReaderView: View {
     @State private var scrollTarget: String?
     @State private var showWordSheet = false
     @State private var showProvenance = false
+    @EnvironmentObject private var theme: AppTheme
 
-    private let pal = Palette.natural
+    private var pal: Palette { theme.palette }
 
     // Ordered: Lectio Modern Edition first, then translations latest-first, original last.
     private var editions: [Edition] {
@@ -127,6 +128,9 @@ struct ReaderView: View {
             editionMenu
             iconButton("info.circle") { showProvenance = true }
             Spacer()
+            iconButton(theme.mode == .dark ? "sun.max" : "moon") {
+                withAnimation(.easeInOut(duration: 0.25)) { theme.toggle() }
+            }
             explorePill
         }
         .padding(.horizontal, 16)
@@ -347,6 +351,8 @@ struct ReaderView: View {
                     .tint(pal.accent)
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(pal.paper)
             .navigationTitle("Contents")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
