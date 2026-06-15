@@ -17,6 +17,14 @@ COLLECTIONS = {
             "assembled in 1909 to deliver a liberal education in fifteen minutes a day."
         ),
     },
+    "collection.epics": {
+        "title": "Epics of War & Homecoming",
+        "curator": "A Lectio collection",
+        "blurb": (
+            "The founding epics of the Western imagination — war, the long road home, "
+            "gods and mortals, and the weight of fate."
+        ),
+    },
 }
 
 

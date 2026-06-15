@@ -16,7 +16,9 @@ from .segment import build_section
 
 _MODERN_DIR = os.path.join(os.path.dirname(__file__), "modern")
 
-_ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
+_ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII",
+          "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII",
+          "XXIII", "XXIV"]
 
 MEDITATIONS_WORK_ID = "work.marcus-aurelius.meditations"
 RETRIEVED = "2026-06-15"
@@ -188,4 +190,72 @@ def meditations():
     return work, [modern, long_ed, casaubon, greek], None
 
 
-RECIPES = [meditations]
+# ---------------------------------------------------------------------------
+# The Iliad — Pope (verse, 1715), Butler (prose, 1898), + the Vernacular
+# ---------------------------------------------------------------------------
+
+ILIAD_WORK_ID = "work.homer.iliad"
+
+
+def _iliad_book_sections(edition_id: str, body: str, form: str):
+    raw = gutenberg.split_sections(body, heading_re=r"^BOOK [IVXL]+\.[ \t]*$")
+    if len(raw) != 24:
+        raise ValueError(f"Iliad ({edition_id}): expected 24 books, got {len(raw)}")
+    return [
+        build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}", text, form=form)
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+
+
+def _iliad_pope_edition() -> Edition:
+    edition_id = "edition.iliad.pope-1715"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(6130))
+    body = body.split("END OF THE ILIAD")[0]   # drop trailing notes/appendix
+    body = re.sub(r"\[\d+\]", "", body)         # strip footnote-reference markers
+    return Edition(
+        id=edition_id, workId=ILIAD_WORK_ID, kind="translation", language="en",
+        form="verse", translator="Alexander Pope", translatorYears="1688–1744",
+        publishedYear=1715,
+        character="Stately heroic couplets — 18th-century grandeur.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Pope's verse Iliad, 1715–20.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/6130",
+                              sourceId="6130", retrievedDate=RETRIEVED),
+        sections=_iliad_book_sections(edition_id, body, form="verse"),
+    )
+
+
+def _iliad_butler_edition() -> Edition:
+    edition_id = "edition.iliad.butler-1898"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2199))
+    return Edition(
+        id=edition_id, workId=ILIAD_WORK_ID, kind="translation", language="en",
+        form="prose", translator="Samuel Butler", translatorYears="1835–1902",
+        publishedYear=1898,
+        character="Plain, clear Victorian prose.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Butler's prose Iliad, 1898.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2199",
+                              sourceId="2199", retrievedDate=RETRIEVED),
+        sections=_iliad_book_sections(edition_id, body, form="prose"),
+    )
+
+
+def iliad():
+    pope = _iliad_pope_edition()
+    butler = _iliad_butler_edition()
+    modern = _modern_edition(ILIAD_WORK_ID, "iliad", [pope, butler])
+
+    work = Work(
+        id=ILIAD_WORK_ID, title="The Iliad", author="Homer",
+        originalLang="grc", composed="c. 8th century BCE", type="epic_poem",
+        referenceScheme="book.line",
+        defaultEditionId=modern.id,
+        blurb=("Homer's epic of the Trojan War — rage, honor, grief, and mortality, "
+               "set in a few weeks of the war's tenth year."),
+        collections=["collection.epics"],
+    )
+    return work, [modern, pope, butler], None
+
+
+RECIPES = [meditations, iliad]

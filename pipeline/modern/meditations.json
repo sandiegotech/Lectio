@@ -1,6 +1,6 @@
 {
   "workId": "work.marcus-aurelius.meditations",
-  "method": "The Lectio Modern Edition: a plain-modern-English rendering produced by deep research, grounded in the public-domain George Long (1862) and Méric Casaubon (1634) translations and cross-checked against the Greek original, then reviewed for fidelity. This is Lectio's own modern edition, derived from public-domain sources — not a historical translation.",
+  "method": "The Vernacular (SDIT): a plain-modern-English rendering produced by deep research, grounded in the public-domain George Long (1862) and Méric Casaubon (1634) translations and cross-checked against the Greek original, then reviewed for fidelity. This is Lectio's own modern edition, derived from public-domain sources — not a historical translation.",
   "model": "claude-opus-4-8",
   "date": "2026-06-15",
   "vintage": 2026,
@@ -14,7 +14,7 @@
     "Méric Casaubon, translation (1634)",
     "Greek original — Τὰ εἰς ἑαυτόν (Wikisource)"
   ],
-  "introduction": "Marcus Aurelius never meant these notes to be read. He was the most powerful man in the world — emperor of Rome — yet he wrote them at night, on campaign, as private reminders to himself about how to live: with reason, justice, and steadiness in the face of death. That is why the book has no argument and no audience. It is a mind talking to itself.\n\nThis Lectio Modern Edition renders his Greek into clear, contemporary English — grounded in the public-domain translations of George Long (1862) and Méric Casaubon (1634) and checked against the original. Read it straight through, or tap any line to compare a historical translation or the Greek.",
+  "introduction": "Marcus Aurelius never meant these notes to be read. He was the most powerful man in the world — emperor of Rome — yet he wrote them at night, on campaign, as private reminders to himself about how to live: with reason, justice, and steadiness in the face of death. That is why the book has no argument and no audience. It is a mind talking to itself.\n\nThis Vernacular edition renders his Greek into clear, contemporary English — grounded in the public-domain translations of George Long (1862) and Méric Casaubon (1634) and checked against the original. Read it straight through, or tap any line to compare a historical translation or the Greek.",
   "books": [
     {
       "order": 1,

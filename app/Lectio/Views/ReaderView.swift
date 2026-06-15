@@ -156,8 +156,8 @@ struct ReaderView: View {
     private func editionLabel(_ ed: Edition) -> String {
         switch ed.kind {
         case "modern":
-            if let v = ed.provenance.vintage { return "Lectio Modern Edition · \(v)" }
-            return "Lectio Modern Edition"
+            if let v = ed.provenance.vintage { return "The Vernacular · \(v)" }
+            return "The Vernacular"
         case "original": return "Original · \(languageName(ed.language))"
         default:
             let year = ed.publishedYear.map { " · \($0)" } ?? ""
@@ -374,7 +374,7 @@ struct ReaderView: View {
     }
 
     private func provenanceLine(_ ed: Edition) -> String {
-        if ed.kind == "modern" { return "Lectio Modern Edition · from public-domain sources" }
+        if ed.kind == "modern" { return "The Vernacular · from public-domain sources" }
         return "Public domain · \(provenanceSource(ed.provenance))"
     }
 
