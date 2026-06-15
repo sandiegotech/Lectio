@@ -26,10 +26,13 @@ class Provenance:
     sourceUrl: Optional[str] = None
     sourceId: Optional[str] = None
     retrievedDate: Optional[str] = None
-    # AI editions:
-    aiModel: Optional[str] = None
+    # AI / Lectio Modern Edition:
+    aiModel: Optional[str] = None     # model used to produce the edition
     aiSourceEditionId: Optional[str] = None
     aiProfile: Optional[str] = None   # plain_modern | faithful | poetic
+    sourcesCited: Optional[list] = None   # named sources synthesized (translations, scholarship)
+    tokensEstimated: Optional[int] = None # est. tokens used to produce (input sources + output)
+    vintage: Optional[int] = None         # edition year, for citable vintages
     # Museum images:
     creator: Optional[str] = None
     holdingInstitution: Optional[str] = None
@@ -78,6 +81,7 @@ class Edition:
     translatorYears: Optional[str] = None
     publishedYear: Optional[int] = None
     character: str = ""               # one-line "feel" of this translation
+    introduction: Optional[str] = None  # short, skippable intro shown before the text (Lectio editions)
     sections: list[Section] = field(default_factory=list)
 
 

@@ -115,14 +115,38 @@ def _greek_edition() -> Edition:
     )
 
 
-def _modern_edition(work_id: str, slug: str) -> Edition:
+def _estimate_tokens(*editions: Edition, output_chars: int) -> int:
+    """Rough token estimate (~4 chars/token) for producing the Modern Edition:
+    the source editions fed in + the modern text produced. Honest approximation."""
+    src_chars = sum(len(seg.text) for e in editions for s in e.sections for seg in s.segments)
+    return round((src_chars + output_chars) / 4)
+
+
+def _modern_edition(work_id: str, slug: str, sources: list) -> Edition:
     """The Lectio Modern Edition — authored/reviewed modern English produced by deep
     research from public-domain sources (see pipeline/modern/<slug>.json)."""
     with open(os.path.join(_MODERN_DIR, f"{slug}.json"), encoding="utf-8") as f:
         data = json.load(f)
+    books = list(data["books"])
+
+    # Additional books live as bare paragraph-array files in modern/<slug>-books/book-NN.json
+    extra_dir = os.path.join(_MODERN_DIR, f"{slug}-books")
+    if os.path.isdir(extra_dir):
+        have = {b["order"] for b in books}
+        for n in range(1, 100):
+            path = os.path.join(extra_dir, f"book-{n:02d}.json")
+            if n in have or not os.path.exists(path):
+                continue
+            with open(path, encoding="utf-8") as f:
+                paragraphs = json.load(f)
+            books.append({"order": n, "label": f"Book {_ROMAN[n - 1]}", "paragraphs": paragraphs})
+    books.sort(key=lambda b: b["order"])
+
     edition_id = f"edition.{slug}.lectio-modern"
     sections = []
-    for book in data["books"]:
+    output_chars = 0
+    for book in books:
+        output_chars += sum(len(p) for p in book["paragraphs"])
         body = "\n\n".join(book["paragraphs"])
         sections.append(
             build_section(edition_id, f"book-{book['order']:02d}", book["order"],
@@ -132,21 +156,25 @@ def _modern_edition(work_id: str, slug: str) -> Edition:
         id=edition_id, workId=work_id, kind="modern", language="en", form="prose",
         translator=None, translatorYears=None, publishedYear=None,
         character="Plain modern English — the sense of the original, made to read with ease today.",
+        introduction=data.get("introduction"),
         provenance=Provenance(
             source="lectio", rightsStatus="lectio-original",
             rightsNote=data["method"], aiModel=data.get("model"),
             aiSourceEditionId=(data.get("sourceEditionIds") or [None])[0],
             aiProfile="plain_modern", retrievedDate=data.get("date"),
+            sourcesCited=data.get("sourcesCited"),
+            vintage=data.get("vintage"),
+            tokensEstimated=_estimate_tokens(*sources, output_chars=output_chars),
         ),
         sections=sections,
     )
 
 
 def meditations():
-    modern = _modern_edition(MEDITATIONS_WORK_ID, "meditations")
     long_ed = _long_edition()
     casaubon = _casaubon_edition()
     greek = _greek_edition()
+    modern = _modern_edition(MEDITATIONS_WORK_ID, "meditations", [long_ed, casaubon, greek])
 
     work = Work(
         id=MEDITATIONS_WORK_ID, title="Meditations", author="Marcus Aurelius",

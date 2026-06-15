@@ -31,17 +31,31 @@ read today.
 original, in the language people actually read now. Not a dumbed-down summary; a real, readable edition.
 
 **How it's made (the deep-research process).** For each section we:
-1. Gather *all* the public-domain translations of that passage + the original-language text.
-2. Research the passage: what it means, where translators diverge, what context a modern reader is missing.
-3. Produce a modern rendering that is faithful to the original and grounded in the existing translations —
-   not invented from nothing, but triangulated from the source and the scholarly record.
-4. **Human review gate** before publish — checked against the sources for accuracy and flagged where the text
-   is genuinely interpretive.
+1. Gather *all* available material: every public-domain translation, the original-language text, and all
+   relevant scholarship — modern translations (Wilson, Fagles, Lattimore), academic commentaries, critical
+   editions, and the ancient scholia. Copyrighted works are research inputs, not reproduced content:
+   copyright protects expression, not facts or ideas. What scholarship says about a passage can be
+   synthesized and cited; the text of a copyrighted translation cannot be included.
+2. Research the passage: what it means, where translators diverge, what context a modern reader is missing,
+   what the best scholarship has established.
+3. Produce a modern rendering synthesized from the full scholarly record — faithful to the original, informed
+   by every serious reading of it, expressed in original language.
+4. **Human review gate** before publish — checked against sources, flagged where the text is interpretive.
 
-**Honesty is non-negotiable.** The Modern Edition is clearly labeled as *Lectio's* modern edition, a
-derivative of public-domain sources. Its provenance records the source editions consulted, the method, the
-model/researcher, and the date. It is **never** passed off as a historical translation. This is the same
-provenance discipline applied to every word in the app (see §6).
+**Provenance is a first-class feature, not fine print.** Every Lectio Modern Edition carries a full
+provenance record:
+- **Model** — the AI model used (e.g., *claude-sonnet-4-6*)
+- **Date produced** — when this edition was generated (e.g., *June 2026*)
+- **Sources consulted** — the scholarship and editions that informed it, cited by name
+- **Method** — a plain-language description of the deep-research process above
+
+The reading surface shows only "Lectio Modern Edition." The full provenance record is one tap away and
+included in any exported PDF. It is **never** passed off as a historical translation.
+
+**Editions have vintages.** As models improve, the Lectio Modern Edition can be regenerated — producing a
+2026 edition, a 2028 edition, and so on. The current edition is always the default. Older vintages are
+archived with their original provenance intact: the 2026 edition with claude-sonnet-4-6 remains a permanent,
+citable record. Readers who care about consistency (students citing a passage) can pin to a specific vintage.
 
 **It's the default, not the only option.** You read the Modern Edition by default; one tap switches to any
 public-domain translation (Pope, Butler, Long, Casaubon…) or the original language. *Accessibility by
@@ -53,8 +67,20 @@ default, depth on demand.*
 
 Every work carries multiple **editions**: the Lectio Modern Edition, every public-domain translation we can
 source, and the **original-language** text. The reader has an edition switcher: latest/most-readable first,
-the original last. Switching keeps your place (same book/chapter across editions). Each edition shows its
-translator, year, a one-line "character," and its provenance.
+the original last. Switching keeps your place (same book/chapter across editions).
+
+Each edition carries a **provenance card** shown in the switcher and available in full on export:
+
+| Edition type | Label | Provenance shown |
+|---|---|---|
+| Lectio Modern Edition | "Lectio Modern Edition · 2026" | Model, date, sources consulted, method |
+| Historical PD translation | "Alexander Pope · 1715" | Translator, year, source (e.g. Standard Ebooks) |
+| Original language | "Greek original" | Source edition (e.g. Wikisource) |
+
+The reading surface stays clean — translator + year is enough. The full record (for Lectio editions: which
+model, which scholarship informed it; for historical editions: which digitization source) lives one tap away
+and in any exported PDF. Students citing a passage pin to a specific vintage; the citation includes the
+edition, vintage year, and model.
 
 *Status: shipped for Meditations (George Long 1862, Méric Casaubon 1634, and the Greek original).*
 
@@ -88,17 +114,23 @@ Getting these three right — especially the Modern Edition quality — is the w
 
 ## 6. Sourcing & Rights (the discipline)
 
-| Layer | Source | Rights |
+| Layer | Source | Rights posture |
 |---|---|---|
-| Public-domain translations | Standard Ebooks, Project Gutenberg, Wikisource | PD; redistributable |
-| Original-language texts | Wikisource, etc. | PD |
-| **Lectio Modern Edition** | Produced by us from PD sources via deep research | Ours; provenance = sources + method + date |
-| Modern in-copyright translations (Fagles, Wilson…) | — | **Never included** |
-| Dictionary | Webster's 1913 (PD) | PD |
+| Public-domain translations | Standard Ebooks, Project Gutenberg, Wikisource | PD; redistributable; included in app |
+| Original-language texts | Wikisource, etc. | PD; included in app |
+| **Lectio Modern Edition** | AI synthesis from all available scholarship | Ours; provenance = model + date + sources cited |
+| Modern in-copyright translations (Fagles, Wilson, Lattimore…) | Research input only | **Never reproduced**; cited as source in provenance |
+| Copyrighted scholarship (Knox, Graziosi, academic papers…) | Research input only | **Never reproduced**; synthesized and cited |
+| Annotation dictionary | AI synthesis from full scholarly record | Ours; each entry cites its sources |
+| Dictionary | Webster's 1913 (PD) | PD; fallback for unannotated words |
 | Art (later) | Museum open-access, Wikimedia Commons | PD / CC0 |
 
-**Rule:** every piece of content carries a provenance record or it doesn't ship. The Modern Edition lives or
-dies on this — accessibility must never come at the cost of honesty about what the reader is reading.
+**The reproduction / synthesis distinction.** Copyright protects expression, not facts or ideas. Modern
+translations and scholarly commentary are research inputs — the pipeline reads them, synthesizes their
+insights, and cites them; it never reproduces their text. The output (Modern Edition, annotation entries)
+is original expression informed by the full scholarly record. This is the same thing a human researcher does.
+
+**Rule:** every piece of content carries a provenance record or it doesn't ship.
 
 ---
 
@@ -121,6 +153,29 @@ layer with interchangeable backends:
 - **Apple Foundation Models** — on-device, free, offline; light aids (define, recap, simplify) where hardware allows.
 - **Gemma (MLX)** — later optional offline pack.
 - **Claude API** — the cloud tuned "Philosopher"; highest fidelity, cross-app, any device.
+
+**AI cost architecture — pre-generate, don't stream.** The goal is near-zero per-user API cost. The way to
+achieve it is to treat AI generation as a pipeline responsibility, not a runtime one:
+
+1. **Annotation dictionary per work.** For each text the pipeline runs a generation pass — feeding the AI
+   the full available scholarship (PD translations, modern translations as research, academic commentaries,
+   the ancient scholia) — to produce ~300–400 annotation entries: proper nouns (Achilles, xenia, the
+   Furies), recurring concepts, and high-frequency allusions a modern reader will stumble on. Each entry
+   cites the sources it synthesized from. Entries are generated once, human-reviewed, and committed to
+   `content/` as static data alongside the text. Tap-to-explore resolves against this dictionary first.
+2. **Webster's 1913 fallback.** Any word not in the annotation dictionary falls through to Webster's 1913
+   (public domain, already in the plan). No API call.
+3. **On-device for the rest.** Anything genuinely unanticipated — an arbitrary tap on a word not in either
+   dictionary, a quick contextual gloss mid-sentence — routes to Apple Foundation Models. Free, offline,
+   no latency.
+4. **Live API only for personalized inference.** The only remaining use case for a server-side call is
+   something genuinely personalized: a recap of exactly where a specific reader stopped, a custom
+   difficulty-dial adjustment on an arbitrary passage. These features can be deferred until there is a
+   student cohort and an institutional API budget to support them, or gated behind an SDIT account.
+
+The pre-generated annotation dictionary is the better product anyway — a student tapping "xenia" should get
+a considered, edited definition, not whatever the model generates cold that afternoon. The pipeline
+produces quality; the device handles edge cases.
 
 **Business model — SDIT subscription.**
 - **Free** — read any public-domain edition + the original, the Margin's basic aids, dictionary, saved words.

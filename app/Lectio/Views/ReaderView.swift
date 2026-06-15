@@ -15,6 +15,7 @@ struct ReaderView: View {
     @State private var currentEditionId: String?
     @State private var scrollTarget: String?
     @State private var showWordSheet = false
+    @State private var showProvenance = false
 
     private let pal = Palette.natural
 
@@ -83,6 +84,12 @@ struct ReaderView: View {
         }
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showContents) { contentsSheet }
+        .sheet(isPresented: $showProvenance) {
+            if let ed = currentEdition {
+                ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
+                    .presentationDetents([.medium, .large])
+            }
+        }
         .sheet(isPresented: $showWordSheet) {
             if let term = selectedTerm {
                 WordDetail(term: term, definition: selectedDef, workTitle: work.title, pal: pal)
@@ -111,6 +118,7 @@ struct ReaderView: View {
             iconButton("chevron.left") { dismiss() }
             iconButton("list.bullet") { showContents = true }
             editionMenu
+            iconButton("info.circle") { showProvenance = true }
             Spacer()
             explorePill
         }
@@ -147,7 +155,9 @@ struct ReaderView: View {
 
     private func editionLabel(_ ed: Edition) -> String {
         switch ed.kind {
-        case "modern": return "Lectio Modern Edition"
+        case "modern":
+            if let v = ed.provenance.vintage { return "Lectio Modern Edition · \(v)" }
+            return "Lectio Modern Edition"
         case "original": return "Original · \(languageName(ed.language))"
         default:
             let year = ed.publishedYear.map { " · \($0)" } ?? ""
@@ -213,6 +223,9 @@ struct ReaderView: View {
         ScrollViewReader { proxy in
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 14) {
+                    if let intro = ed.introduction, !intro.isEmpty {
+                        introBlock(intro)
+                    }
                     ForEach(rows(ed)) { row in
                         switch row {
                         case .header(let section):
@@ -239,13 +252,32 @@ struct ReaderView: View {
                 guard let target else { return }
                 withAnimation { proxy.scrollTo(target, anchor: .top) }
             }
-            .onChange(of: currentEditionId) { _, _ in
-                // Stay on the same book when switching translation.
-                guard let ed = currentEdition, ed.sections.indices.contains(currentBookIndex) else { return }
+            .onChange(of: currentEditionId) { oldValue, _ in
+                // Stay on the same book when the user switches translation — but not on
+                // the initial nil -> default assignment, which would scroll past the intro.
+                guard oldValue != nil,
+                      let ed = currentEdition, ed.sections.indices.contains(currentBookIndex) else { return }
                 let id = ed.sections[currentBookIndex].id
                 DispatchQueue.main.async { proxy.scrollTo(id, anchor: .top) }
             }
         }
+    }
+
+    private func introBlock(_ text: String) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Introduction")
+                .font(.caption).tracking(2).foregroundColor(pal.inkSoft)
+            ForEach(Array(text.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, para in
+                Text(para)
+                    .font(.system(size: 16, design: .serif))
+                    .italic()
+                    .lineSpacing(5)
+                    .foregroundColor(pal.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            Rectangle().fill(pal.rule).frame(height: 1).padding(.top, 6)
+        }
+        .padding(.bottom, 4)
     }
 
     private func sectionHeader(_ section: Section) -> some View {

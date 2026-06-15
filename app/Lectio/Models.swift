@@ -14,6 +14,9 @@ struct Provenance: Codable, Hashable {
     var aiModel: String?
     var aiSourceEditionId: String?
     var aiProfile: String?
+    var sourcesCited: [String]?
+    var tokensEstimated: Int?
+    var vintage: Int?
     var creator: String?
     var holdingInstitution: String?
 }
@@ -50,6 +53,7 @@ struct Edition: Codable, Hashable, Identifiable {
     var translatorYears: String?
     var publishedYear: Int?
     var character: String
+    var introduction: String?
     var sections: [Section]
 }
 
