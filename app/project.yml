@@ -7,7 +7,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.0"
-    CODE_SIGNING_ALLOWED: "NO"
+    DEVELOPMENT_TEAM: "72D37KMVAU"
+    CODE_SIGN_STYLE: Automatic
 targets:
   Lectio:
     type: application
