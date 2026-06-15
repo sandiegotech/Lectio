@@ -1,9 +1,9 @@
 ---
 name: ingest-book
-description: Ingest a public-domain book into the Classics content bundle. Use when adding a new work/translation to the reader — fetching from Project Gutenberg (or Standard Ebooks), writing a recipe in pipeline/recipes.py, building, and verifying the output is clean. Trigger on "ingest", "add a book", "add a translation", "add <title> to the library".
+description: Ingest a public-domain book into the Lectio content bundle. Use when adding a new work/translation to the reader — fetching from Project Gutenberg (or Standard Ebooks), writing a recipe in pipeline/recipes.py, building, and verifying the output is clean. Trigger on "ingest", "add a book", "add a translation", "add <title> to the library".
 ---
 
-# Ingest a book into Classics
+# Ingest a book into Lectio
 
 Goal: add a new work (or another translation of an existing work) to `content/` cleanly,
 with stable IDs and full provenance. The pipeline is documented in `CONTENT_PIPELINE.md`;

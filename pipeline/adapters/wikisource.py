@@ -13,7 +13,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-_UA = {"User-Agent": "classics-pipeline/0.1 (public-domain content ingestion; contact: classics app)"}
+_UA = {"User-Agent": "lectio-pipeline/0.1 (public-domain content ingestion; contact: lectio app)"}
 _CACHE = os.path.join(os.path.dirname(__file__), "..", ".cache")
 
 

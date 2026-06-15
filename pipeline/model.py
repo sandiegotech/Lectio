@@ -1,8 +1,8 @@
-"""Canonical data model for Classics content.
+"""Canonical data model for Lectio content.
 
 These dataclasses ARE the contract. The pipeline produces them; they serialize to
 the JSON bundle the app consumes (see CONTENT_PIPELINE.md §2, §7). Keep field names
-and shapes in sync with the Swift Codable models in app/Sources/Classics/Model.
+and shapes in sync with the Swift Codable models in app/Lectio/Models.swift.
 
 Design rules:
 - Stable IDs never change once published (see id-ledger handling in publish.py).
@@ -69,7 +69,8 @@ class Section:
 class Edition:
     id: str
     workId: str
-    kind: str                         # translation | original | ai_translation
+    kind: str                         # modern | translation | original | ai_translation
+                                      #   modern = the Lectio Modern Edition (deep-research; default for reading)
     language: str                     # ISO 639-1
     form: str                         # verse | prose
     provenance: Provenance

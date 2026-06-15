@@ -1,4 +1,4 @@
-# Classics content pipeline
+# Lectio content pipeline
 
 Offline build tool: public-domain books → the portable JSON bundle in `../content/`
 that the app consumes. No AI in v1 (see [BIBLE.md](../BIBLE.md) §10.1); the AI seam is
@@ -41,4 +41,4 @@ so re-runs are offline and fast.
 - **Stable IDs are frozen.** `seg-NNNN` order must not change once published; the ledger
   guards this. Reordering content breaks user highlights/notes.
 - **Every edition carries provenance.** No source → it doesn't publish.
-- **Output is app-agnostic JSON** — readable by Classics and sibling apps (Gloss).
+- **Output is app-agnostic JSON** — readable by Lectio and sibling apps (Gloss).

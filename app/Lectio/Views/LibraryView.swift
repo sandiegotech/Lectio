@@ -34,14 +34,14 @@ struct LibraryView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
             .background(Palette.natural.paper.ignoresSafeArea())
-            .navigationTitle("Codex")
+            .navigationTitle("Lectio")
             .navigationDestination(for: Work.self) { work in
                 ReaderView(work: work)
             }
         }
         .onAppear {
-            // Debug hook: CLASSICS_OPEN_WORK=<workId> opens straight into the reader.
-            if let wid = ProcessInfo.processInfo.environment["CLASSICS_OPEN_WORK"],
+            // Debug hook: LECTIO_OPEN_WORK=<workId> opens straight into the reader.
+            if let wid = ProcessInfo.processInfo.environment["LECTIO_OPEN_WORK"],
                let work = library.works.first(where: { $0.id == wid }) {
                 path = [work]
             }

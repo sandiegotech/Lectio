@@ -4,10 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A dynamic reader for public-domain classics (iPad-first). Three parts:
+**Lectio** — an iPad-first reader whose goal is to let anyone today read a great work of the Western canon
+(the Harvard Classics) with ease. The headline feature is the **Lectio Modern Edition**: a fresh, plain-modern-
+English edition of each work produced by deep research, read by default — with one tap to any public-domain
+translation or the original language. Initial corpus: **3 works** — Meditations, The Iliad, and Plato/Aristotle.
+
+Three parts:
 - `pipeline/` — an offline Python tool that turns public-domain books into a portable JSON content bundle.
 - `content/` — the generated bundle (committed; it's the app's input).
-- `app/` — a SwiftUI iPad app that reads the bundle.
+- `app/` — the SwiftUI app (target `Lectio`, bundle `com.sdit.Lectio`) that reads the bundle.
 
 Product vision is in `BIBLE.md`; content/data design is in `CONTENT_PIPELINE.md`. Read those before large changes.
 
@@ -22,7 +27,7 @@ Generate + build the app (XcodeGen at /opt/homebrew/bin/xcodegen; the `.xcodepro
 ```
 cd app
 xcodegen generate
-xcodebuild -project Classics.xcodeproj -scheme Classics -sdk iphonesimulator \
+xcodebuild -project Lectio.xcodeproj -scheme Lectio -sdk iphonesimulator \
   -destination 'platform=iOS Simulator,name=iPad Pro 11-inch (M5)' \
   -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
 ```
@@ -30,11 +35,11 @@ xcodebuild -project Classics.xcodeproj -scheme Classics -sdk iphonesimulator \
 Run in the simulator and screenshot (headless; there's no tap support, so use the debug hook):
 ```
 xcrun simctl boot <iPad-udid>
-xcrun simctl install booted app/build/Build/Products/Debug-iphonesimulator/Classics.app
+xcrun simctl install booted app/build/Build/Products/Debug-iphonesimulator/Lectio.app
 # Debug hook opens straight into the reader. Env MUST use the SIMCTL_CHILD_ prefix —
 # `simctl launch <dev> <bundle> KEY=VALUE` passes KEY=VALUE as an ARGUMENT, not an env var.
-SIMCTL_CHILD_CLASSICS_OPEN_WORK=work.marcus-aurelius.meditations \
-  xcrun simctl launch --terminate-running-process booted com.sdit.Classics
+SIMCTL_CHILD_LECTIO_OPEN_WORK=work.marcus-aurelius.meditations \
+  xcrun simctl launch --terminate-running-process booted com.sdit.Lectio
 xcrun simctl io booted screenshot /tmp/shot.png
 ```
 
@@ -42,7 +47,7 @@ There is no test suite yet.
 
 ## Architecture & invariants
 
-**The pipeline → bundle → app contract.** `pipeline/model.py` dataclasses define the JSON shape; `app/Classics/Models.swift` is the Swift mirror. These must stay in sync — change one, change the other. The bundle layout (`manifest.json` → `works/<id>/work.json` + `editions/<short>.json`, `collections/`, optional per-work `enrichment.json`, `dictionary/`) is documented in `CONTENT_PIPELINE.md §7`.
+**The pipeline → bundle → app contract.** `pipeline/model.py` dataclasses define the JSON shape; `app/Lectio/Models.swift` is the Swift mirror. These must stay in sync — change one, change the other. The bundle layout (`manifest.json` → `works/<id>/work.json` + `editions/<short>.json`, `collections/`, optional per-work `enrichment.json`, `dictionary/`) is documented in `CONTENT_PIPELINE.md §7`.
 
 **Stable segment IDs are frozen.** Every readable unit is a `Segment` with an ID like `<editionId>.<sectionSlug>.seg-NNNN`. IDs are deterministic from content order; `pipeline/idledger.py` records them in `content/.idledger.json` and the build flags drift. Never reorder published content — highlights, notes, the alignment spine, and saved words all anchor to these IDs.
 

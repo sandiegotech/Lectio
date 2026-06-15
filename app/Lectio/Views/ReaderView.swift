@@ -18,10 +18,17 @@ struct ReaderView: View {
 
     private let pal = Palette.natural
 
-    // All editions for this work, ordered: translations latest-first, original last.
+    // Ordered: Lectio Modern Edition first, then translations latest-first, original last.
     private var editions: [Edition] {
-        work.editionIds.compactMap { library.editions[$0] }.sorted { a, b in
-            if (a.kind == "original") != (b.kind == "original") { return b.kind == "original" }
+        func rank(_ e: Edition) -> Int {
+            switch e.kind {
+            case "modern": return 0
+            case "original": return 2
+            default: return 1
+            }
+        }
+        return work.editionIds.compactMap { library.editions[$0] }.sorted { a, b in
+            if rank(a) != rank(b) { return rank(a) < rank(b) }
             return (a.publishedYear ?? 0) > (b.publishedYear ?? 0)
         }
     }
@@ -84,12 +91,12 @@ struct ReaderView: View {
         }
         .onAppear {
             if currentEditionId == nil { currentEditionId = work.defaultEditionId }
-            // Debug hook: CLASSICS_DEBUG_EDITION=<editionId> opens a specific edition.
-            if let ed = ProcessInfo.processInfo.environment["CLASSICS_DEBUG_EDITION"], !ed.isEmpty {
+            // Debug hook: LECTIO_DEBUG_EDITION=<editionId> opens a specific edition.
+            if let ed = ProcessInfo.processInfo.environment["LECTIO_DEBUG_EDITION"], !ed.isEmpty {
                 currentEditionId = ed
             }
-            // Debug hook: CLASSICS_DEBUG_SELECT=<word> preselects a word (for screenshots).
-            if let dbg = ProcessInfo.processInfo.environment["CLASSICS_DEBUG_SELECT"], !dbg.isEmpty {
+            // Debug hook: LECTIO_DEBUG_SELECT=<word> preselects a word (for screenshots).
+            if let dbg = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SELECT"], !dbg.isEmpty {
                 let w = WordDictionary.normalize(dbg)
                 selectedTerm = w
                 selectedDef = dictionary.define(w)
@@ -139,11 +146,13 @@ struct ReaderView: View {
     }
 
     private func editionLabel(_ ed: Edition) -> String {
-        if ed.kind == "original" {
-            return "Original · \(languageName(ed.language))"
+        switch ed.kind {
+        case "modern": return "Lectio Modern Edition"
+        case "original": return "Original · \(languageName(ed.language))"
+        default:
+            let year = ed.publishedYear.map { " · \($0)" } ?? ""
+            return "\(ed.translator ?? "Unknown")\(year)"
         }
-        let year = ed.publishedYear.map { " · \($0)" } ?? ""
-        return "\(ed.translator ?? "Unknown")\(year)"
     }
 
     private func languageName(_ code: String) -> String {

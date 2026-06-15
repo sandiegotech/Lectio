@@ -11,7 +11,7 @@ venv/
 .DS_Store
 
 # Xcode / app build (project is generated from app/project.yml via XcodeGen)
-app/Classics.xcodeproj/
+app/Lectio.xcodeproj/
 app/build/
 DerivedData/
 *.xcuserstate

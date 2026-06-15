@@ -1,4 +1,4 @@
-# Content Pipeline Spec — Classics
+# Content Pipeline Spec — Lectio
 
 > How raw public-domain books become structured, provenance-tracked, multi-translation content that the iPad
 > reader (and sibling apps like Gloss) can consume. This is the foundation everything else depends on.
@@ -18,7 +18,7 @@ reader + **translation-compare for *The Iliad***.
    breaks.
 3. **Provenance travels with content.** Every text segment knows its source edition; every AI-or-art asset
    knows its origin and rights. No orphan content.
-4. **Output is portable.** The published format is plain, versioned JSON (+ media), readable by Classics *and*
+4. **Output is portable.** The published format is plain, versioned JSON (+ media), readable by Lectio *and*
    Gloss *and* future siblings. It is not coupled to SwiftUI or any single app.
 5. **Human-in-the-loop gate.** Auto-cleaning gets us 90%; a review step catches the rest before publish. A book
    is not "published" until it passes review.

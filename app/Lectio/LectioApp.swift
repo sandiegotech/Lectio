@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct ClassicsApp: App {
+struct LectioApp: App {
     @StateObject private var library = Library()
     @StateObject private var dictionary = WordDictionary()
     @StateObject private var saved = SavedStore()
