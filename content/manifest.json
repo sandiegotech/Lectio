@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generator": "classics-pipeline",
+  "generator": "lectio-pipeline",
   "collections": [
     {
       "id": "collection.harvard-classics",
@@ -14,11 +14,20 @@
       "title": "Meditations",
       "author": "Marcus Aurelius",
       "referenceScheme": "book.section",
-      "defaultEditionId": "edition.meditations.long-1862",
+      "defaultEditionId": "edition.meditations.lectio-modern",
       "collections": [
         "collection.harvard-classics"
       ],
       "editions": [
+        {
+          "id": "edition.meditations.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "d5c191751b095dc8"
+        },
         {
           "id": "edition.meditations.long-1862",
           "translator": "George Long",
@@ -48,7 +57,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "2848d418f15df791"
+      "checksum": "30bddd52ddb4e7ba"
     }
   ],
   "dictionaries": []

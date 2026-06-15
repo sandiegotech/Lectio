@@ -4,6 +4,16 @@
   "note": "Hand-authored editorial seed for the margin rail, keyed by sectionId (so it is edition-specific). Demonstrates the data shape the connection graph (BIBLE.md §4.3) will later populate. Definitions are from Webster's 1913 (public domain). The pipeline does not overwrite this file.",
   "passages": [
     {
+      "sectionId": "edition.meditations.lectio-modern.book-01",
+      "people": ["Verus", "Diognetus", "Rusticus", "Apollonius", "Maximus", "Antoninus Pius"],
+      "connections": [
+        { "label": "Epictetus, Discourses", "kind": "author" },
+        { "label": "Seneca, Letters", "kind": "author" },
+        { "label": "gratitude", "kind": "idea" },
+        { "label": "the examined life", "kind": "idea" }
+      ]
+    },
+    {
       "sectionId": "edition.meditations.long-1862.book-01",
       "people": ["Verus", "Diognetus", "Rusticus", "Apollonius", "Maximus", "Antoninus Pius"],
       "define": [

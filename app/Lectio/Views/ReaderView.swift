@@ -300,8 +300,9 @@ struct ReaderView: View {
 
     private var footer: some View {
         HStack {
-            if let p = currentEdition?.provenance {
-                Label("Public domain · \(provenanceSource(p))", systemImage: "checkmark.shield")
+            if let ed = currentEdition {
+                Label(provenanceLine(ed),
+                      systemImage: ed.kind == "modern" ? "sparkles" : "checkmark.shield")
                     .font(.caption2).foregroundColor(pal.inkSoft)
             }
             Spacer()
@@ -338,6 +339,11 @@ struct ReaderView: View {
         guard let section = currentSection,
               let passage = library.passage(workId: work.id, sectionId: section.id) else { return nil }
         return passage.define?.first { WordDictionary.normalize($0.term) == word }?.gloss
+    }
+
+    private func provenanceLine(_ ed: Edition) -> String {
+        if ed.kind == "modern" { return "Lectio Modern Edition · from public-domain sources" }
+        return "Public domain · \(provenanceSource(ed.provenance))"
     }
 
     private func provenanceSource(_ p: Provenance) -> String {

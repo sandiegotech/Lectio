@@ -6,11 +6,15 @@ translations + the original-language text). Add a function, append it to RECIPES
 """
 from __future__ import annotations
 
+import json
+import os
 import re
 
 from .adapters import gutenberg, wikisource
 from .model import Edition, Provenance, Work
 from .segment import build_section
+
+_MODERN_DIR = os.path.join(os.path.dirname(__file__), "modern")
 
 _ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
 
@@ -111,7 +115,35 @@ def _greek_edition() -> Edition:
     )
 
 
+def _modern_edition(work_id: str, slug: str) -> Edition:
+    """The Lectio Modern Edition — authored/reviewed modern English produced by deep
+    research from public-domain sources (see pipeline/modern/<slug>.json)."""
+    with open(os.path.join(_MODERN_DIR, f"{slug}.json"), encoding="utf-8") as f:
+        data = json.load(f)
+    edition_id = f"edition.{slug}.lectio-modern"
+    sections = []
+    for book in data["books"]:
+        body = "\n\n".join(book["paragraphs"])
+        sections.append(
+            build_section(edition_id, f"book-{book['order']:02d}", book["order"],
+                          book["label"], body, form="prose", title=book.get("title"))
+        )
+    return Edition(
+        id=edition_id, workId=work_id, kind="modern", language="en", form="prose",
+        translator=None, translatorYears=None, publishedYear=None,
+        character="Plain modern English — the sense of the original, made to read with ease today.",
+        provenance=Provenance(
+            source="lectio", rightsStatus="lectio-original",
+            rightsNote=data["method"], aiModel=data.get("model"),
+            aiSourceEditionId=(data.get("sourceEditionIds") or [None])[0],
+            aiProfile="plain_modern", retrievedDate=data.get("date"),
+        ),
+        sections=sections,
+    )
+
+
 def meditations():
+    modern = _modern_edition(MEDITATIONS_WORK_ID, "meditations")
     long_ed = _long_edition()
     casaubon = _casaubon_edition()
     greek = _greek_edition()
@@ -120,12 +152,12 @@ def meditations():
         id=MEDITATIONS_WORK_ID, title="Meditations", author="Marcus Aurelius",
         originalLang="grc", composed="c. 170–180 CE", type="philosophy",
         referenceScheme="book.section",
-        defaultEditionId=long_ed.id,   # the readable default ("latest version")
+        defaultEditionId=modern.id,   # the Lectio Modern Edition reads by default
         blurb=("The private notebook of a Roman emperor — Stoic reflections on duty, "
                "mortality, and how to live well, written only for himself."),
         collections=["collection.harvard-classics"],
     )
-    return work, [long_ed, casaubon, greek], None
+    return work, [modern, long_ed, casaubon, greek], None
 
 
 RECIPES = [meditations]
