@@ -105,7 +105,8 @@ struct Enrichment: Codable {
     }
     var workId: String
     var source: String?
-    var passages: [Passage]
+    var passages: [Passage]?
+    var chapters: [String: String]?   // book number (string) -> overview
 }
 
 // Just enough of manifest.json to enumerate what to load.

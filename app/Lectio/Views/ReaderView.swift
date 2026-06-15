@@ -7,8 +7,9 @@ struct ReaderView: View {
     @EnvironmentObject var saved: SavedStore
     @Environment(\.dismiss) private var dismiss
 
-    @State private var explore = true
+    @State private var explore = false
     @State private var showContents = false
+    @State private var expandedBooks: Set<String> = []
     @State private var selectedTerm: String?
     @State private var selectedDef: String?
     @State private var currentBookIndex = 0
@@ -107,6 +108,12 @@ struct ReaderView: View {
                 let w = WordDictionary.normalize(dbg)
                 selectedTerm = w
                 selectedDef = dictionary.define(w)
+                explore = true
+            }
+            // Debug hook: LECTIO_DEBUG_CONTENTS opens the contents with book 1 expanded.
+            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTENTS"] != nil {
+                showContents = true
+                if let first = currentEdition?.sections.first { expandedBooks = [first.id] }
             }
         }
     }
@@ -135,14 +142,19 @@ struct ReaderView: View {
                 }
             }
         } label: {
-            VStack(alignment: .leading, spacing: 1) {
-                Text(work.title).font(.subheadline.weight(.medium)).foregroundColor(pal.ink)
-                HStack(spacing: 4) {
+            HStack(spacing: 9) {
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(work.title).font(.subheadline.weight(.semibold)).foregroundColor(pal.ink)
                     Text(currentEdition.map(editionLabel) ?? work.author)
-                        .font(.caption2).foregroundColor(pal.inkSoft)
-                    Image(systemName: "chevron.down").font(.system(size: 9)).foregroundColor(pal.inkSoft)
+                        .font(.caption).foregroundColor(pal.accent)
                 }
+                Image(systemName: "chevron.down.circle.fill")
+                    .font(.system(size: 17)).foregroundColor(pal.accent)
             }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 7)
+            .background(RoundedRectangle(cornerRadius: 9).fill(pal.rail))
+            .overlay(RoundedRectangle(cornerRadius: 9).stroke(pal.rule))
         }
     }
 
@@ -184,8 +196,8 @@ struct ReaderView: View {
     private var explorePill: some View {
         Button { explore.toggle() } label: {
             HStack(spacing: 4) {
-                Image(systemName: "sparkles").font(.caption2)
-                Text("Explore").font(.caption.weight(.medium))
+                Image(systemName: "lightbulb").font(.caption2)
+                Text("Understand").font(.caption.weight(.medium))
             }
             .padding(.horizontal, 10)
             .padding(.vertical, 5)
@@ -295,28 +307,45 @@ struct ReaderView: View {
 
     private var contentsSheet: some View {
         NavigationStack {
-            List(currentEdition?.sections ?? []) { section in
-                Button {
-                    if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
-                        currentBookIndex = idx
-                    }
-                    scrollTarget = section.id
-                    showContents = false
-                } label: {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(section.label).font(.body)
+            List {
+                ForEach(currentEdition?.sections ?? []) { section in
+                    let isCurrent = section.id == currentSection?.id
+                    DisclosureGroup(isExpanded: expandedBinding(section.id)) {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text(library.chapterOverview(workId: work.id, order: section.order)
+                                 ?? "Overview coming soon.")
+                                .font(.callout)
+                                .foregroundColor(pal.inkSoft)
+                                .fixedSize(horizontal: false, vertical: true)
+                            Button { jumpTo(section) } label: {
+                                HStack(spacing: 6) {
+                                    Image(systemName: "book")
+                                    Text("Read \(section.label)")
+                                }
+                                .font(.subheadline.weight(.medium))
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 14).padding(.vertical, 8)
+                                .background(Capsule().fill(pal.accent))
+                            }
+                            .buttonStyle(.plain)
+                        }
+                        .padding(.vertical, 4)
+                    } label: {
+                        HStack(spacing: 8) {
+                            Text(section.label)
+                                .font(.body.weight(isCurrent ? .semibold : .regular))
+                                .foregroundColor(pal.ink)
                             if let title = section.title {
-                                Text(title).font(.caption).foregroundColor(.secondary)
+                                Text(title).font(.caption).foregroundColor(.secondary).lineLimit(1)
+                            }
+                            Spacer()
+                            if isCurrent {
+                                Image(systemName: "book.fill").font(.caption2).foregroundColor(pal.accent)
                             }
                         }
-                        Spacer()
-                        if section.id == currentSection?.id {
-                            Image(systemName: "book").foregroundColor(pal.accent)
-                        }
                     }
+                    .tint(pal.accent)
                 }
-                .tint(pal.ink)
             }
             .navigationTitle("Contents")
             .navigationBarTitleDisplayMode(.inline)
@@ -326,6 +355,23 @@ struct ReaderView: View {
                 }
             }
         }
+    }
+
+    private func expandedBinding(_ id: String) -> Binding<Bool> {
+        Binding(
+            get: { expandedBooks.contains(id) },
+            set: { open in
+                if open { expandedBooks.insert(id) } else { expandedBooks.remove(id) }
+            }
+        )
+    }
+
+    private func jumpTo(_ section: Section) {
+        if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
+            currentBookIndex = idx
+        }
+        scrollTarget = section.id
+        showContents = false
     }
 
     // MARK: footer

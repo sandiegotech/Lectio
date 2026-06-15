@@ -27,6 +27,15 @@ struct MarginRail: View {
             VStack(alignment: .leading, spacing: 20) {
                 if let term = selectedTerm {
                     selectionSection(term)
+                } else {
+                    railSection("Understand") {
+                        HStack(alignment: .top, spacing: 6) {
+                            Image(systemName: "hand.tap").font(.caption2).foregroundColor(pal.gold)
+                            Text("Press and hold any word in the text to look it up and save it.")
+                                .font(.footnote).foregroundColor(pal.inkSoft)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                    }
                 }
 
                 if let people = passage?.people, !people.isEmpty {
@@ -38,7 +47,7 @@ struct MarginRail: View {
                 }
 
                 if let defs = passage?.define, !defs.isEmpty {
-                    railSection("Define · Webster 1913") {
+                    railSection("Interesting words") {
                         VStack(alignment: .leading, spacing: 8) {
                             ForEach(defs, id: \.term) { d in
                                 (Text(d.term)
@@ -48,21 +57,6 @@ struct MarginRail: View {
                                     .font(.system(.footnote, design: .serif))
                                     .foregroundColor(pal.inkSoft))
                                 .fixedSize(horizontal: false, vertical: true)
-                            }
-                        }
-                    }
-                }
-
-                if let conns = passage?.connections, !conns.isEmpty {
-                    railSection("Connections") {
-                        VStack(alignment: .leading, spacing: 7) {
-                            ForEach(conns, id: \.label) { c in
-                                HStack(alignment: .top, spacing: 6) {
-                                    Image(systemName: c.kind == "idea" ? "lightbulb" : "arrow.up.right")
-                                        .font(.caption2).foregroundColor(pal.gold)
-                                    Text(c.label).font(.footnote).foregroundColor(pal.ink)
-                                        .fixedSize(horizontal: false, vertical: true)
-                                }
                             }
                         }
                     }

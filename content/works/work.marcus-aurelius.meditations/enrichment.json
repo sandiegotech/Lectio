@@ -2,6 +2,20 @@
   "workId": "work.marcus-aurelius.meditations",
   "source": "editorial",
   "note": "Hand-authored editorial seed for the margin rail, keyed by sectionId (so it is edition-specific). Demonstrates the data shape the connection graph (BIBLE.md §4.3) will later populate. Definitions are from Webster's 1913 (public domain). The pipeline does not overwrite this file.",
+  "chapters": {
+    "1": "Marcus opens not with doctrine but with gratitude, naming the family, teachers, and friends who shaped him and the specific virtue he owes to each. It reads as a quiet inventory of a good character and where it came from.",
+    "2": "Written on campaign, these notes brace him for difficult people and his own mortality. Expect the famous morning resolution that he will meet the ungrateful and arrogant today, and the reminder that he is only flesh, breath, and a ruling mind.",
+    "3": "A meditation on time running out and on living well now. He urges urgency before the mind itself fades, and finds an unexpected beauty in ordinary, imperfect things when seen clearly.",
+    "4": "One of the richest books, turning on the idea that you can retreat into your own soul anywhere for peace. Themes of impermanence, the constant change of all things, and acting with purpose run throughout.",
+    "5": "Begins with the struggle to get out of bed and do the work you were made for. He examines duty, doing your nature's task without complaint, and accepting whatever the whole assigns you.",
+    "6": "Short, sharp reflections on the orderly reason that governs the universe and on duty done without fuss. A recurring note: the best revenge is simply not to become like the person who wronged you.",
+    "7": "There is nothing new under the sun, he reminds himself, so judgments, not events, disturb us. He returns to the power of opinion, recovering composure, and keeping good humor amid the noise of human affairs.",
+    "8": "He lets go of the wish to seem like a philosopher and aims only to live rightly with the time left. Reflections on judging your own acts, contentment, and acting for the common good.",
+    "9": "Centers on justice and truth as obligations we owe one another, since we were made to cooperate. To lie, to be unjust, or to chase pleasure as the only good is to fight against nature itself.",
+    "10": "An intimate appeal to his own soul to become simple, content, and free of craving. He works on accepting his lot from the gods and looking honestly at people and things as they really are.",
+    "11": "Explores the rational soul's unique powers, its kinship with others, and how to handle those who offend us with understanding rather than anger. The book closes with a set of borrowed maxims, several from Epictetus.",
+    "12": "A gathering of final reflections on living each moment with piety and justice and meeting death without fear. It ends with the image of life as a play: leave the stage content when nature, the one who cast you, calls you off."
+  },
   "passages": [
     {
       "sectionId": "edition.meditations.lectio-modern.book-01",

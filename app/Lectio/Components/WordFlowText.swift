@@ -17,7 +17,7 @@ struct WordFlowText: View {
                     .foregroundColor(pal.ink)
                     .underline(isHighlighted(token), color: pal.accent)
                     .contentShape(Rectangle())
-                    .onTapGesture {
+                    .onLongPressGesture(minimumDuration: 0.3) {
                         let word = WordDictionary.normalize(token)
                         if !word.isEmpty { onSelect(word) }
                     }

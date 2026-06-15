@@ -55,6 +55,10 @@ final class Library: ObservableObject {
     }
 
     func passage(workId: String, sectionId: String) -> Enrichment.Passage? {
-        enrichment[workId]?.passages.first { $0.sectionId == sectionId }
+        enrichment[workId]?.passages?.first { $0.sectionId == sectionId }
+    }
+
+    func chapterOverview(workId: String, order: Int) -> String? {
+        enrichment[workId]?.chapters?[String(order)]
     }
 }
