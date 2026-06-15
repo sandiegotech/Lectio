@@ -5,12 +5,12 @@
     {
       "id": "collection.harvard-classics",
       "title": "The Harvard Classics",
-      "checksum": "cd29aeaa76cad09a"
+      "checksum": "6efff43dc7c70ce9"
     },
     {
       "id": "collection.epics",
       "title": "Epics of War & Homecoming",
-      "checksum": "3838d63ca9c8a681"
+      "checksum": "c1d5b1ec0cd32c68"
     }
   ],
   "works": [
@@ -104,6 +104,54 @@
       ],
       "hasAlignment": false,
       "checksum": "ca8e9b38a359a3ee"
+    },
+    {
+      "id": "work.homer.odyssey",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "referenceScheme": "book.line",
+      "defaultEditionId": "edition.odyssey.butler-1900",
+      "collections": [
+        "collection.epics",
+        "collection.harvard-classics"
+      ],
+      "editions": [
+        {
+          "id": "edition.odyssey.butler-1900",
+          "translator": "Samuel Butler",
+          "publishedYear": 1900,
+          "form": "prose",
+          "kind": "translation",
+          "character": "Plain, clear Victorian prose.",
+          "checksum": "de906332a03da254"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "0430371515cccd9f"
+    },
+    {
+      "id": "work.virgil.aeneid",
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "referenceScheme": "book.line",
+      "defaultEditionId": "edition.aeneid.dryden-1697",
+      "collections": [
+        "collection.epics",
+        "collection.harvard-classics"
+      ],
+      "editions": [
+        {
+          "id": "edition.aeneid.dryden-1697",
+          "translator": "John Dryden",
+          "publishedYear": 1697,
+          "form": "verse",
+          "kind": "translation",
+          "character": "Stately heroic couplets — the great English Virgil.",
+          "checksum": "7e8fe57889543ca0"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "5fa5418ae2a095de"
     }
   ],
   "dictionaries": []

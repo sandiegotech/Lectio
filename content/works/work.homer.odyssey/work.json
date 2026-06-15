@@ -1,0 +1,18 @@
+{
+  "id": "work.homer.odyssey",
+  "title": "The Odyssey",
+  "author": "Homer",
+  "originalLang": "grc",
+  "composed": "c. 8th century BCE",
+  "type": "epic_poem",
+  "referenceScheme": "book.line",
+  "defaultEditionId": "edition.odyssey.butler-1900",
+  "blurb": "Homer's epic of the long way home — Odysseus's ten-year voyage back from Troy through monsters, gods, and temptations to Ithaca.",
+  "collections": [
+    "collection.epics",
+    "collection.harvard-classics"
+  ],
+  "editionIds": [
+    "edition.odyssey.butler-1900"
+  ]
+}

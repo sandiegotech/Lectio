@@ -258,4 +258,82 @@ def iliad():
     return work, [modern, pope, butler], None
 
 
-RECIPES = [meditations, iliad]
+# ---------------------------------------------------------------------------
+# The Odyssey — Samuel Butler prose (1900), Gutenberg #1727
+# ---------------------------------------------------------------------------
+
+def odyssey():
+    work_id = "work.homer.odyssey"
+    edition_id = "edition.odyssey.butler-1900"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(1727))
+    raw = gutenberg.split_sections(body, heading_re=r"^BOOK [IVXL]+[ \t]*$")
+    if len(raw) != 24:
+        raise ValueError(f"Odyssey: expected 24 books, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}", text, form="prose")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="Samuel Butler", translatorYears="1835–1902", publishedYear=1900,
+        character="Plain, clear Victorian prose.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Butler's prose Odyssey, 1900.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/1727",
+                              sourceId="1727", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Odyssey", author="Homer", originalLang="grc",
+        composed="c. 8th century BCE", type="epic_poem", referenceScheme="book.line",
+        defaultEditionId=edition_id,
+        blurb=("Homer's epic of the long way home — Odysseus's ten-year voyage back "
+               "from Troy through monsters, gods, and temptations to Ithaca."),
+        collections=["collection.epics", "collection.harvard-classics"],
+    )
+    return work, [edition], None
+
+
+# ---------------------------------------------------------------------------
+# The Aeneid — John Dryden verse (1697), Gutenberg #228
+# ---------------------------------------------------------------------------
+
+def aeneid():
+    work_id = "work.virgil.aeneid"
+    edition_id = "edition.aeneid.dryden-1697"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(228))
+    # Drop the table of contents: start at the real "BOOK I" (the one followed by
+    # its ARGUMENT); the contents lists BOOK I–XII with deeper indentation.
+    m = re.search(r"^ *BOOK I[ \t]*\n+ *THE ARGUMENT\.", body, re.M)
+    if m:
+        body = body[m.start():]
+    body = re.sub(r"\[\d+\]", "", body)   # strip footnote-reference markers
+    raw = gutenberg.split_sections(body, heading_re=r"^ *BOOK +[IVXL]+[ \t]*$")
+    if len(raw) != 12:
+        raise ValueError(f"Aeneid: expected 12 books, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}", text, form="verse")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="verse",
+        translator="John Dryden", translatorYears="1631–1700", publishedYear=1697,
+        character="Stately heroic couplets — the great English Virgil.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Dryden's verse Aeneid, 1697.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/228",
+                              sourceId="228", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Aeneid", author="Virgil", originalLang="la",
+        composed="29–19 BCE", type="epic_poem", referenceScheme="book.line",
+        defaultEditionId=edition_id,
+        blurb=("Virgil's Roman epic — Aeneas's flight from fallen Troy to found the "
+               "race that would build Rome. Descended from Homer; ancestor of Dante."),
+        collections=["collection.epics", "collection.harvard-classics"],
+    )
+    return work, [edition], None
+
+
+RECIPES = [meditations, iliad, odyssey, aeneid]
