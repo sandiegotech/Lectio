@@ -1,0 +1,17 @@
+{
+  "id": "work.marcus-aurelius.meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "originalLang": "grc",
+  "composed": "c. 170–180 CE",
+  "type": "philosophy",
+  "referenceScheme": "book.section",
+  "defaultEditionId": "edition.meditations.casaubon-1634",
+  "blurb": "The private notebook of a Roman emperor — Stoic reflections on duty, mortality, and how to live well, written only for himself.",
+  "collections": [
+    "collection.harvard-classics"
+  ],
+  "editionIds": [
+    "edition.meditations.casaubon-1634"
+  ]
+}

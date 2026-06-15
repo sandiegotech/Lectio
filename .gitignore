@@ -1,0 +1,14 @@
+# Pipeline raw-source cache — regenerable, large, not the deliverable
+pipeline/.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Note: content/ (the published bundle) and content/.idledger.json ARE committed —
+# the ledger is the source of truth for frozen segment IDs and must travel with the repo.
