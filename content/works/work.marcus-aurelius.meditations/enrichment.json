@@ -1,0 +1,24 @@
+{
+  "workId": "work.marcus-aurelius.meditations",
+  "source": "editorial",
+  "note": "Hand-authored editorial seed for the margin rail. Demonstrates the data shape the connection graph (BIBLE.md §4.3) will later populate. Definitions are from Webster's 1913 (public domain). Survives pipeline rebuilds (the pipeline does not write enrichment.json).",
+  "passages": [
+    {
+      "sectionId": "edition.meditations.casaubon-1634.book-01",
+      "people": ["Verus", "Diognetus", "Rusticus", "Antoninus Pius", "Maximus"],
+      "define": [
+        {
+          "term": "shamefastness",
+          "gloss": "the quality of being modest; bashfulness restrained by a sense of propriety.",
+          "source": "Webster 1913"
+        }
+      ],
+      "connections": [
+        { "label": "Epictetus, Discourses", "kind": "author" },
+        { "label": "Seneca, Letters", "kind": "author" },
+        { "label": "gratitude", "kind": "idea" },
+        { "label": "the examined life", "kind": "idea" }
+      ]
+    }
+  ]
+}

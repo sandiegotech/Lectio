@@ -10,5 +10,11 @@ venv/
 # macOS
 .DS_Store
 
+# Xcode / app build (project is generated from app/project.yml via XcodeGen)
+app/Codex.xcodeproj/
+app/build/
+DerivedData/
+*.xcuserstate
+
 # Note: content/ (the published bundle) and content/.idledger.json ARE committed —
 # the ledger is the source of truth for frozen segment IDs and must travel with the repo.
