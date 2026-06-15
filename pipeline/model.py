@@ -1,8 +1,8 @@
-"""Canonical data model for Codex content.
+"""Canonical data model for Classics content.
 
 These dataclasses ARE the contract. The pipeline produces them; they serialize to
 the JSON bundle the app consumes (see CONTENT_PIPELINE.md §2, §7). Keep field names
-and shapes in sync with the Swift Codable models in app/Sources/Codex/Model.
+and shapes in sync with the Swift Codable models in app/Sources/Classics/Model.
 
 Design rules:
 - Stable IDs never change once published (see id-ledger handling in publish.py).

@@ -1,14 +1,7 @@
 import SwiftUI
 
-// "The Margin" design language. Two reading themes (BIBLE.md §4.5): a warm
-// "Natural" parchment book and a clean "Modern" reader. A single rubrication-red
-// accent for emphasis — never decoration.
-
-enum ReaderMode: String, CaseIterable, Identifiable {
-    case natural = "Natural"
-    case modern = "Modern"
-    var id: String { rawValue }
-}
+// "The Margin" design language: a single warm "Natural" parchment theme with one
+// rubrication-red accent used only for emphasis, never decoration.
 
 struct Palette {
     var paper: Color
@@ -28,20 +21,6 @@ struct Palette {
         rule: Color(hex: 0x26221A).opacity(0.14),
         rail: Color(hex: 0xEFE7D6)
     )
-
-    static let modern = Palette(
-        paper: Color(hex: 0xFBFAF7),
-        ink: Color(hex: 0x1E1B16),
-        inkSoft: Color(hex: 0x6E6A61),
-        accent: Color(hex: 0x9E3B2E),
-        gold: Color(hex: 0x9A7320),
-        rule: Color.black.opacity(0.08),
-        rail: Color(hex: 0xF4F2ED)
-    )
-
-    static func of(_ mode: ReaderMode) -> Palette {
-        mode == .natural ? .natural : .modern
-    }
 }
 
 extension Color {

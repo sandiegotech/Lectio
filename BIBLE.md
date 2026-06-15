@@ -1,4 +1,4 @@
-# Project Bible — "Codex" (working title)
+# Project Bible — "Classics" (working title)
 
 > A living reader for the great public-domain books — not just to *store* the classics, but to make them
 > explorable, connected, and genuinely inviting. Built for iPad first, with iPhone and Mac to follow.
@@ -10,7 +10,7 @@
 Most reading apps (Kindle, Apple Books) treat every book as an undifferentiated stream of text. That works
 for a beach novel and fails completely for *The Iliad*, *The Divine Comedy*, or *The Brothers Karamazov* —
 books that are long, culturally dense, written in unfamiliar registers, and surrounded by 2,000 years of
-commentary, art, and influence. **Codex** is a reader designed specifically for those books. It treats each
+commentary, art, and influence. **Classics** is a reader designed specifically for those books. It treats each
 classic not as a flat file but as a *node in a web*: multiple translations, the art it inspired, the works it
 descends from and the works that descend from it, the people and places inside it, and modern aids that make a
 daunting text feel navigable instead of intimidating. It ships with curated **collections** (starting with the
@@ -155,13 +155,13 @@ that we're allowed to show it, it doesn't ship.
 
 ## 7. Naming & Ecosystem
 
-Working title **Codex**. Other candidates: **Athenaeum**, **Folio**, **Vellum**, **Lyceum**, **Marginalia**,
+Working title **Classics**. Other candidates: **Athenaeum**, **Folio**, **Vellum**, **Lyceum**, **Marginalia**,
 **Palimpsest**, **Five-Foot Shelf**.
 
-**This app is one of several.** Codex is part of a small suite that shares a single, account-level **tuned AI**
+**This app is one of several.** Classics is part of a small suite that shares a single, account-level **tuned AI**
 ("the Philosopher") — the same intelligence powers **Gloss** (the connection/annotation layer) and future
 sibling apps. Implication for architecture: the AI capability and the user account/subscription live at the
-**ecosystem level**, not inside this app. Codex *consumes* the shared AI service and the shared identity; it
+**ecosystem level**, not inside this app. Classics *consumes* the shared AI service and the shared identity; it
 does not own them. The content pipeline's output must therefore be portable enough for sibling apps to read.
 
 ---

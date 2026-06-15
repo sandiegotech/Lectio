@@ -40,8 +40,8 @@ struct LibraryView: View {
             }
         }
         .onAppear {
-            // Debug hook: CODEX_OPEN_WORK=<workId> opens straight into the reader.
-            if let wid = ProcessInfo.processInfo.environment["CODEX_OPEN_WORK"],
+            // Debug hook: CLASSICS_OPEN_WORK=<workId> opens straight into the reader.
+            if let wid = ProcessInfo.processInfo.environment["CLASSICS_OPEN_WORK"],
                let work = library.works.first(where: { $0.id == wid }) {
                 path = [work]
             }

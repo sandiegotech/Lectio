@@ -1,4 +1,4 @@
-name: Codex
+name: Classics
 options:
   bundleIdPrefix: com.sdit
   deploymentTarget:
@@ -9,11 +9,11 @@ settings:
     SWIFT_VERSION: "5.0"
     CODE_SIGNING_ALLOWED: "NO"
 targets:
-  Codex:
+  Classics:
     type: application
     platform: iOS
     sources:
-      - path: Codex
+      - path: Classics
       # The content bundle lives at the repo root; include it as a folder
       # reference so its directory structure is preserved inside the app bundle.
       - path: ../content
@@ -22,7 +22,7 @@ targets:
     settings:
       base:
         GENERATE_INFOPLIST_FILE: "YES"
-        PRODUCT_BUNDLE_IDENTIFIER: com.sdit.Codex
+        PRODUCT_BUNDLE_IDENTIFIER: com.sdit.Classics
         MARKETING_VERSION: "0.1"
         CURRENT_PROJECT_VERSION: "1"
         TARGETED_DEVICE_FAMILY: "1,2"

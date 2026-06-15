@@ -54,7 +54,7 @@ def publish(
 
     manifest = {
         "schemaVersion": SCHEMA_VERSION,
-        "generator": "codex-pipeline",
+        "generator": "classics-pipeline",
         "collections": [],
         "works": [],
         "dictionaries": [],
