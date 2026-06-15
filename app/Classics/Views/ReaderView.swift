@@ -11,22 +11,35 @@ struct ReaderView: View {
     @State private var showContents = false
     @State private var selectedTerm: String?
     @State private var selectedDef: String?
-    @State private var currentSectionId: String?
+    @State private var currentBookIndex = 0
+    @State private var currentEditionId: String?
     @State private var scrollTarget: String?
     @State private var showWordSheet = false
 
     private let pal = Palette.natural
-    private var edition: Edition? { library.edition(for: work) }
+
+    // All editions for this work, ordered: translations latest-first, original last.
+    private var editions: [Edition] {
+        work.editionIds.compactMap { library.editions[$0] }.sorted { a, b in
+            if (a.kind == "original") != (b.kind == "original") { return b.kind == "original" }
+            return (a.publishedYear ?? 0) > (b.publishedYear ?? 0)
+        }
+    }
+
+    private var currentEdition: Edition? {
+        if let id = currentEditionId, let e = library.editions[id] { return e }
+        return library.editions[work.defaultEditionId] ?? editions.first
+    }
 
     private var currentSection: Section? {
-        guard let ed = edition else { return nil }
-        return ed.sections.first { $0.id == currentSectionId } ?? ed.sections.first
+        guard let ed = currentEdition, !ed.sections.isEmpty else { return nil }
+        return ed.sections.indices.contains(currentBookIndex)
+            ? ed.sections[currentBookIndex] : ed.sections.first
     }
 
     private var progress: Double {
-        guard let ed = edition, !ed.sections.isEmpty, let cur = currentSection,
-              let idx = ed.sections.firstIndex(where: { $0.id == cur.id }) else { return 0 }
-        return Double(idx + 1) / Double(ed.sections.count)
+        guard let ed = currentEdition, !ed.sections.isEmpty else { return 0 }
+        return Double(currentBookIndex + 1) / Double(ed.sections.count)
     }
 
     var body: some View {
@@ -36,7 +49,7 @@ struct ReaderView: View {
                 header
                 Divider().overlay(pal.rule)
 
-                if let ed = edition {
+                if let ed = currentEdition {
                     HStack(alignment: .top, spacing: 0) {
                         readingColumn(ed, wide: wide)
                         if explore && wide {
@@ -70,7 +83,11 @@ struct ReaderView: View {
             }
         }
         .onAppear {
-            if currentSectionId == nil { currentSectionId = edition?.sections.first?.id }
+            if currentEditionId == nil { currentEditionId = work.defaultEditionId }
+            // Debug hook: CLASSICS_DEBUG_EDITION=<editionId> opens a specific edition.
+            if let ed = ProcessInfo.processInfo.environment["CLASSICS_DEBUG_EDITION"], !ed.isEmpty {
+                currentEditionId = ed
+            }
             // Debug hook: CLASSICS_DEBUG_SELECT=<word> preselects a word (for screenshots).
             if let dbg = ProcessInfo.processInfo.environment["CLASSICS_DEBUG_SELECT"], !dbg.isEmpty {
                 let w = WordDictionary.normalize(dbg)
@@ -86,10 +103,7 @@ struct ReaderView: View {
         HStack(spacing: 14) {
             iconButton("chevron.left") { dismiss() }
             iconButton("list.bullet") { showContents = true }
-            VStack(alignment: .leading, spacing: 1) {
-                Text(work.title).font(.subheadline.weight(.medium)).foregroundColor(pal.ink)
-                Text(byline).font(.caption2).foregroundColor(pal.inkSoft)
-            }
+            editionMenu
             Spacer()
             explorePill
         }
@@ -98,12 +112,46 @@ struct ReaderView: View {
         .background(pal.paper)
     }
 
-    private var byline: String {
-        guard let e = edition else { return work.author }
-        var parts = [work.author]
-        if let t = e.translator { parts.append(t) }
-        if let y = e.publishedYear { parts.append(String(y)) }
-        return parts.joined(separator: " · ")
+    private var editionMenu: some View {
+        Menu {
+            Picker("Edition", selection: editionSelection) {
+                ForEach(editions) { ed in
+                    Text(editionLabel(ed)).tag(ed.id)
+                }
+            }
+        } label: {
+            VStack(alignment: .leading, spacing: 1) {
+                Text(work.title).font(.subheadline.weight(.medium)).foregroundColor(pal.ink)
+                HStack(spacing: 4) {
+                    Text(currentEdition.map(editionLabel) ?? work.author)
+                        .font(.caption2).foregroundColor(pal.inkSoft)
+                    Image(systemName: "chevron.down").font(.system(size: 9)).foregroundColor(pal.inkSoft)
+                }
+            }
+        }
+    }
+
+    private var editionSelection: Binding<String> {
+        Binding(
+            get: { currentEdition?.id ?? work.defaultEditionId },
+            set: { switchEdition(to: $0) }
+        )
+    }
+
+    private func editionLabel(_ ed: Edition) -> String {
+        if ed.kind == "original" {
+            return "Original · \(languageName(ed.language))"
+        }
+        let year = ed.publishedYear.map { " · \($0)" } ?? ""
+        return "\(ed.translator ?? "Unknown")\(year)"
+    }
+
+    private func languageName(_ code: String) -> String {
+        switch code {
+        case "grc", "el": return "Greek"
+        case "la": return "Latin"
+        default: return code.uppercased()
+        }
     }
 
     private func iconButton(_ name: String, _ action: @escaping () -> Void) -> some View {
@@ -161,7 +209,11 @@ struct ReaderView: View {
                         case .header(let section):
                             sectionHeader(section)
                                 .id(section.id)
-                                .onAppear { currentSectionId = section.id }
+                                .onAppear {
+                                    if let idx = ed.sections.firstIndex(where: { $0.id == section.id }) {
+                                        currentBookIndex = idx
+                                    }
+                                }
                         case .segment(let segment):
                             WordFlowText(text: segment.text, pal: pal,
                                          highlight: selectedTerm,
@@ -177,7 +229,12 @@ struct ReaderView: View {
             .onChange(of: scrollTarget) { _, target in
                 guard let target else { return }
                 withAnimation { proxy.scrollTo(target, anchor: .top) }
-                currentSectionId = target
+            }
+            .onChange(of: currentEditionId) { _, _ in
+                // Stay on the same book when switching translation.
+                guard let ed = currentEdition, ed.sections.indices.contains(currentBookIndex) else { return }
+                let id = ed.sections[currentBookIndex].id
+                DispatchQueue.main.async { proxy.scrollTo(id, anchor: .top) }
             }
         }
     }
@@ -197,8 +254,11 @@ struct ReaderView: View {
 
     private var contentsSheet: some View {
         NavigationStack {
-            List(edition?.sections ?? []) { section in
+            List(currentEdition?.sections ?? []) { section in
                 Button {
+                    if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
+                        currentBookIndex = idx
+                    }
                     scrollTarget = section.id
                     showContents = false
                 } label: {
@@ -210,7 +270,7 @@ struct ReaderView: View {
                             }
                         }
                         Spacer()
-                        if section.id == currentSectionId {
+                        if section.id == currentSection?.id {
                             Image(systemName: "book").foregroundColor(pal.accent)
                         }
                     }
@@ -231,7 +291,7 @@ struct ReaderView: View {
 
     private var footer: some View {
         HStack {
-            if let p = edition?.provenance {
+            if let p = currentEdition?.provenance {
                 Label("Public domain · \(provenanceSource(p))", systemImage: "checkmark.shield")
                     .font(.caption2).foregroundColor(pal.inkSoft)
             }
@@ -247,6 +307,12 @@ struct ReaderView: View {
     }
 
     // MARK: actions
+
+    private func switchEdition(to id: String) {
+        guard id != currentEditionId else { return }
+        currentEditionId = id
+        clearSelection()
+    }
 
     private func selectWord(_ word: String, wide: Bool) {
         selectedTerm = word

@@ -1,96 +1,131 @@
 """Per-book build recipes.
 
-A recipe fetches a source, applies the book's specific structure (heading patterns,
-labels), and returns (Work, [Edition], spine_or_None). Recipes are where editorial
-decisions live; the generic modules stay dumb. Add a function, append it to RECIPES.
+A recipe fetches sources, applies each book's structure, and returns
+(Work, [Edition], spine_or_None). One Work can carry several Editions (multiple
+translations + the original-language text). Add a function, append it to RECIPES.
 """
 from __future__ import annotations
 
-from .adapters import gutenberg
+import re
+
+from .adapters import gutenberg, wikisource
 from .model import Edition, Provenance, Work
 from .segment import build_section
 
-# Casaubon's books are headed "THE FIRST BOOK" ... "THE TWELFTH BOOK".
-_ORDINAL_TO_ROMAN = {
-    "FIRST": "I", "SECOND": "II", "THIRD": "III", "FOURTH": "IV",
-    "FIFTH": "V", "SIXTH": "VI", "SEVENTH": "VII", "EIGHTH": "VIII",
-    "NINTH": "IX", "TENTH": "X", "ELEVENTH": "XI", "TWELFTH": "XII",
-}
+_ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
+
+MEDITATIONS_WORK_ID = "work.marcus-aurelius.meditations"
+RETRIEVED = "2026-06-15"
 
 
-def meditations():
-    """Marcus Aurelius, *Meditations* — Méric Casaubon translation (1634), Gutenberg #2680.
+# ---------------------------------------------------------------------------
+# Meditations — three editions: George Long (1862), Casaubon (1634), Greek original
+# ---------------------------------------------------------------------------
 
-    The work is in the Harvard Classics (Vol. 2). Note: the HC volume printed the
-    later George Long translation; Casaubon is the edition we ingest here and can sit
-    alongside a George Long edition later (the collection references the *work*).
-    """
+def _casaubon_edition() -> Edition:
     edition_id = "edition.meditations.casaubon-1634"
-    work_id = "work.marcus-aurelius.meditations"
-
-    raw = gutenberg.fetch(2680)
-    body = gutenberg.strip_boilerplate(raw)
-    raw_sections = gutenberg.split_sections(
-        body,
-        heading_re=r"^THE [A-Z]+ BOOK[ \t]*$",
-        end_re=r"^APPENDIX[ \t]*$",  # cut the trailing APPENDIX/NOTES/GLOSSARY off Book XII
-    )
-    if len(raw_sections) != 12:
-        raise ValueError(f"Meditations: expected 12 books, got {len(raw_sections)}")
-
-    sections = []
-    for order, (heading, text) in enumerate(raw_sections, start=1):
-        ordinal = heading.replace("THE ", "").replace(" BOOK", "").strip()
-        roman = _ORDINAL_TO_ROMAN[ordinal]
-        sections.append(
-            build_section(
-                edition_id=edition_id,
-                section_slug=f"book-{order:02d}",
-                order=order,
-                label=f"Book {roman}",
-                body=text,
-                form="prose",
-            )
-        )
-
-    edition = Edition(
-        id=edition_id,
-        workId=work_id,
-        kind="translation",
-        language="en",
-        form="prose",
-        provenance=Provenance(
-            source="gutenberg",
-            rightsStatus="public_domain",
-            rightsNote="US public domain; Casaubon translation first published 1634.",
-            sourceUrl="https://www.gutenberg.org/ebooks/2680",
-            sourceId="2680",
-            retrievedDate="2026-06-15",
-        ),
-        translator="Méric Casaubon",
-        translatorYears="1599–1671",
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2680))
+    raw = gutenberg.split_sections(body, heading_re=r"^THE [A-Z]+ BOOK[ \t]*$",
+                                   end_re=r"^APPENDIX[ \t]*$")
+    if len(raw) != 12:
+        raise ValueError(f"Casaubon: expected 12 books, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}", text, form="prose")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    return Edition(
+        id=edition_id, workId=MEDITATIONS_WORK_ID, kind="translation", language="en",
+        form="prose", translator="Méric Casaubon", translatorYears="1599–1671",
         publishedYear=1634,
         character="The first English Meditations — ornate, archaic, devotional.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Casaubon translation first published 1634.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2680",
+                              sourceId="2680", retrievedDate=RETRIEVED),
         sections=sections,
     )
 
-    work = Work(
-        id=work_id,
-        title="Meditations",
-        author="Marcus Aurelius",
-        originalLang="grc",
-        composed="c. 170–180 CE",
-        type="philosophy",
-        referenceScheme="book.section",
-        defaultEditionId=edition_id,
-        blurb=(
-            "The private notebook of a Roman emperor — Stoic reflections on duty, "
-            "mortality, and how to live well, written only for himself."
-        ),
-        collections=["collection.harvard-classics"],
+
+def _clean_long(text: str) -> str:
+    """Long's text is interleaved with scholarly footnotes. Drop footnote-definition
+    paragraphs ([A] ...) and strip inline footnote markers, keeping the prose."""
+    out = []
+    for para in re.split(r"\n\s*\n", text):
+        if re.match(r"^\s*\[[A-Z]{1,3}\]", para):       # a footnote definition block
+            continue
+        if re.match(r"^\s*\[Illustration", para):       # plate/figure caption
+            continue
+        para = re.sub(r"\[Illustration:[^\]]*\]", "", para)  # inline caption
+        para = re.sub(r"\[[A-Z]{1,3}\]", "", para)      # inline footnote markers like [A]
+        if para.strip():
+            out.append(para)
+    return "\n\n".join(out)
+
+
+def _long_edition() -> Edition:
+    edition_id = "edition.meditations.long-1862"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(15877))
+    raw = gutenberg.split_sections(body, heading_re=r"^[IVXL]+\.[ \t]*$",
+                                   end_re=r"^INDEXES\.[ \t]*$")
+    if len(raw) != 12:
+        raise ValueError(f"Long: expected 12 books, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}",
+                      _clean_long(text), form="prose")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    return Edition(
+        id=edition_id, workId=MEDITATIONS_WORK_ID, kind="translation", language="en",
+        form="prose", translator="George Long", translatorYears="1800–1879",
+        publishedYear=1862,
+        character="The classic Victorian standard — clear, dignified, widely read.",
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; George Long translation, 1862.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/15877",
+                              sourceId="15877", retrievedDate=RETRIEVED),
+        sections=sections,
     )
 
-    return work, [edition], None
+
+def _greek_edition() -> Edition:
+    edition_id = "edition.meditations.greek-original"
+    sections = []
+    for i in range(1, 13):
+        wikitext = wikisource.fetch_wikitext(f"Τα εις εαυτόν/{i}", lang="el")
+        aphorisms = wikisource.list_items(wikitext)
+        if not aphorisms:
+            raise ValueError(f"Greek: book {i} produced no aphorisms")
+        body = "\n\n".join(aphorisms)
+        sections.append(
+            build_section(edition_id, f"book-{i:02d}", i, f"Book {_ROMAN[i-1]}", body, form="prose")
+        )
+    return Edition(
+        id=edition_id, workId=MEDITATIONS_WORK_ID, kind="original", language="grc",
+        form="prose", translator=None, translatorYears=None, publishedYear=None,
+        character="The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
+        provenance=Provenance(source="wikisource", rightsStatus="public_domain",
+                              rightsNote="Ancient Greek source text (c. 170–180 CE); public domain.",
+                              sourceUrl="https://el.wikisource.org/wiki/Τα_εις_εαυτόν",
+                              sourceId="el:Τα εις εαυτόν", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+
+
+def meditations():
+    long_ed = _long_edition()
+    casaubon = _casaubon_edition()
+    greek = _greek_edition()
+
+    work = Work(
+        id=MEDITATIONS_WORK_ID, title="Meditations", author="Marcus Aurelius",
+        originalLang="grc", composed="c. 170–180 CE", type="philosophy",
+        referenceScheme="book.section",
+        defaultEditionId=long_ed.id,   # the readable default ("latest version")
+        blurb=("The private notebook of a Roman emperor — Stoic reflections on duty, "
+               "mortality, and how to live well, written only for himself."),
+        collections=["collection.harvard-classics"],
+    )
+    return work, [long_ed, casaubon, greek], None
 
 
 RECIPES = [meditations]

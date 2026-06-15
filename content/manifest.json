@@ -14,11 +14,20 @@
       "title": "Meditations",
       "author": "Marcus Aurelius",
       "referenceScheme": "book.section",
-      "defaultEditionId": "edition.meditations.casaubon-1634",
+      "defaultEditionId": "edition.meditations.long-1862",
       "collections": [
         "collection.harvard-classics"
       ],
       "editions": [
+        {
+          "id": "edition.meditations.long-1862",
+          "translator": "George Long",
+          "publishedYear": 1862,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The classic Victorian standard — clear, dignified, widely read.",
+          "checksum": "062658c50339a2ce"
+        },
         {
           "id": "edition.meditations.casaubon-1634",
           "translator": "Méric Casaubon",
@@ -27,10 +36,19 @@
           "kind": "translation",
           "character": "The first English Meditations — ornate, archaic, devotional.",
           "checksum": "767b3c4978530333"
+        },
+        {
+          "id": "edition.meditations.greek-original",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "original",
+          "character": "The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
+          "checksum": "84ee2d62270d6440"
         }
       ],
       "hasAlignment": false,
-      "checksum": "c6daba78382919d9"
+      "checksum": "2848d418f15df791"
     }
   ],
   "dictionaries": []
