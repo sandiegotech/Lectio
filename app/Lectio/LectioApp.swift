@@ -14,7 +14,7 @@ struct LectioApp: App {
                 .environmentObject(dictionary)
                 .environmentObject(saved)
                 .environmentObject(theme)
-                .preferredColorScheme(theme.colorScheme)
+                .preferredColorScheme(theme.preferredColorScheme)
         }
     }
 }

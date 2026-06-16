@@ -6,13 +6,14 @@
   "composed": "29–19 BCE",
   "type": "epic_poem",
   "referenceScheme": "book.line",
-  "defaultEditionId": "edition.aeneid.dryden-1697",
+  "defaultEditionId": "edition.aeneid.lectio-modern",
   "blurb": "Virgil's Roman epic — Aeneas's flight from fallen Troy to found the race that would build Rome. Descended from Homer; ancestor of Dante.",
   "collections": [
     "collection.epics",
     "collection.harvard-classics"
   ],
   "editionIds": [
+    "edition.aeneid.lectio-modern",
     "edition.aeneid.dryden-1697"
   ]
 }

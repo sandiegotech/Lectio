@@ -191,7 +191,7 @@ def meditations():
 
 
 # ---------------------------------------------------------------------------
-# The Iliad — Pope (verse, 1715), Butler (prose, 1898), + the Vernacular
+# The Iliad — Pope (verse, 1715), Butler (prose, 1898), + the Lectio Edition
 # ---------------------------------------------------------------------------
 
 ILIAD_WORK_ID = "work.homer.iliad"
@@ -283,15 +283,16 @@ def odyssey():
                               sourceId="1727", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "odyssey", [edition])
     work = Work(
         id=work_id, title="The Odyssey", author="Homer", originalLang="grc",
         composed="c. 8th century BCE", type="epic_poem", referenceScheme="book.line",
-        defaultEditionId=edition_id,
+        defaultEditionId=modern.id,
         blurb=("Homer's epic of the long way home — Odysseus's ten-year voyage back "
                "from Troy through monsters, gods, and temptations to Ithaca."),
         collections=["collection.epics", "collection.harvard-classics"],
     )
-    return work, [edition], None
+    return work, [modern, edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -325,15 +326,16 @@ def aeneid():
                               sourceId="228", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "aeneid", [edition])
     work = Work(
         id=work_id, title="The Aeneid", author="Virgil", originalLang="la",
         composed="29–19 BCE", type="epic_poem", referenceScheme="book.line",
-        defaultEditionId=edition_id,
+        defaultEditionId=modern.id,
         blurb=("Virgil's Roman epic — Aeneas's flight from fallen Troy to found the "
                "race that would build Rome. Descended from Homer; ancestor of Dante."),
         collections=["collection.epics", "collection.harvard-classics"],
     )
-    return work, [edition], None
+    return work, [modern, edition], None
 
 
 RECIPES = [meditations, iliad, odyssey, aeneid]

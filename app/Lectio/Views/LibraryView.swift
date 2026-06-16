@@ -2,9 +2,9 @@ import SwiftUI
 
 struct LibraryView: View {
     @EnvironmentObject var library: Library
-    @EnvironmentObject var theme: AppTheme
+    @Environment(\.colorScheme) private var colorScheme
     @State private var path: [Work] = []
-    private var pal: Palette { theme.palette }
+    private var pal: Palette { Palette.forScheme(colorScheme) }
 
     var body: some View {
         NavigationStack(path: $path) {
@@ -12,14 +12,12 @@ struct LibraryView: View {
                 VStack(alignment: .leading, spacing: 34) {
                     HStack {
                         Spacer()
-                        appearanceButton
+                        AppearanceMenu(pal: pal)
                     }
                     .padding(.horizontal, 18)
                     .padding(.top, 8)
                     masthead
-                    ForEach(library.collections) { collection in
-                        shelf(collection)
-                    }
+                    booksShelf
                     instituteCredit
                 }
                 .padding(.vertical, 6)
@@ -37,18 +35,6 @@ struct LibraryView: View {
                 path = [work]
             }
         }
-    }
-
-    private var appearanceButton: some View {
-        Button { withAnimation(.easeInOut(duration: 0.25)) { theme.toggle() } } label: {
-            Image(systemName: theme.mode == .dark ? "sun.max" : "moon")
-                .font(.system(size: 15))
-                .foregroundColor(pal.inkSoft)
-                .padding(8)
-                .background(Circle().fill(pal.rail))
-                .overlay(Circle().stroke(pal.rule))
-        }
-        .buttonStyle(.plain)
     }
 
     // MARK: masthead
@@ -72,24 +58,13 @@ struct LibraryView: View {
         .padding(.bottom, 6)
     }
 
-    // MARK: a shelf (one collection, books standing on a ledge)
+    // MARK: the shelf (every work once, standing on a ledge)
 
-    private func shelf(_ collection: BookCollection) -> some View {
+    private var booksShelf: some View {
         VStack(alignment: .leading, spacing: 12) {
-            VStack(alignment: .leading, spacing: 4) {
-                Text(collection.title)
-                    .font(.system(.title2, design: .serif).weight(.medium))
-                    .foregroundColor(pal.ink)
-                Text(collection.blurb)
-                    .font(.subheadline)
-                    .foregroundColor(pal.inkSoft)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            .padding(.horizontal, 24)
-
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .bottom, spacing: 18) {
-                    ForEach(library.works(in: collection)) { work in
+                HStack(alignment: .bottom, spacing: 20) {
+                    ForEach(library.works) { work in
                         NavigationLink(value: work) {
                             SpineCard(work: work)
                         }

@@ -17,9 +17,10 @@ struct ReaderView: View {
     @State private var scrollTarget: String?
     @State private var showWordSheet = false
     @State private var showProvenance = false
-    @EnvironmentObject private var theme: AppTheme
+    @State private var passageSheetSegment: Segment?
+    @Environment(\.colorScheme) private var colorScheme
 
-    private var pal: Palette { theme.palette }
+    private var pal: Palette { Palette.forScheme(colorScheme) }
 
     // Ordered: Lectio Modern Edition first, then translations latest-first, original last.
     private var editions: [Edition] {
@@ -98,6 +99,17 @@ struct ReaderView: View {
                     .presentationDetents([.medium])
             }
         }
+        .sheet(item: $passageSheetSegment) { segment in
+            PassageSheet(
+                segmentId: segment.id, text: segment.text, workTitle: work.title,
+                chapterLabel: currentSection?.label ?? "",
+                chapterOverview: currentSection.flatMap {
+                    library.chapterOverview(workId: work.id, order: $0.order)
+                },
+                pal: pal
+            )
+            .presentationDetents([.medium, .large])
+        }
         .onAppear {
             if currentEditionId == nil { currentEditionId = work.defaultEditionId }
             // Debug hook: LECTIO_DEBUG_EDITION=<editionId> opens a specific edition.
@@ -116,6 +128,12 @@ struct ReaderView: View {
                 showContents = true
                 if let first = currentEdition?.sections.first { expandedBooks = [first.id] }
             }
+            // Debug hook: LECTIO_DEBUG_PASSAGE opens the passage sheet on a paragraph.
+            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PASSAGE"] != nil {
+                if let seg = currentEdition?.sections.first?.segments.dropFirst(2).first {
+                    passageSheetSegment = seg
+                }
+            }
         }
     }
 
@@ -128,9 +146,7 @@ struct ReaderView: View {
             editionMenu
             iconButton("info.circle") { showProvenance = true }
             Spacer()
-            iconButton(theme.mode == .dark ? "sun.max" : "moon") {
-                withAnimation(.easeInOut(duration: 0.25)) { theme.toggle() }
-            }
+            AppearanceMenu(pal: pal)
             explorePill
         }
         .padding(.horizontal, 16)
@@ -172,8 +188,8 @@ struct ReaderView: View {
     private func editionLabel(_ ed: Edition) -> String {
         switch ed.kind {
         case "modern":
-            if let v = ed.provenance.vintage { return "The Vernacular · \(v)" }
-            return "The Vernacular"
+            if let v = ed.provenance.vintage { return "Lectio Edition · \(v)" }
+            return "Lectio Edition"
         case "original": return "Original · \(languageName(ed.language))"
         default:
             let year = ed.publishedYear.map { " · \($0)" } ?? ""
@@ -256,6 +272,8 @@ struct ReaderView: View {
                             WordFlowText(text: segment.text, pal: pal,
                                          highlight: selectedTerm,
                                          onSelect: { selectWord($0, wide: wide) })
+                                .contentShape(Rectangle())
+                                .onTapGesture { passageSheetSegment = segment }
                         }
                     }
                 }
@@ -426,7 +444,7 @@ struct ReaderView: View {
     }
 
     private func provenanceLine(_ ed: Edition) -> String {
-        if ed.kind == "modern" { return "The Vernacular · from public-domain sources" }
+        if ed.kind == "modern" { return "Lectio Edition · from public-domain sources" }
         return "Public domain · \(provenanceSource(ed.provenance))"
     }
 

@@ -18,7 +18,7 @@ struct ProvenanceSheet: View {
 
                 if edition.kind == "modern" {
                     let p = edition.provenance
-                    row("Edition", "The Vernacular" + (p.vintage.map { " · \($0)" } ?? ""))
+                    row("Edition", "Lectio Edition" + (p.vintage.map { " · \($0)" } ?? ""))
                     if let m = p.aiModel { row("Model", m) }
                     if let d = p.retrievedDate { row("Produced", d) }
                     if let t = p.tokensEstimated { row("Tokens used", "≈ \(formatted(t)) (estimated)") }
@@ -53,7 +53,7 @@ struct ProvenanceSheet: View {
                 }
 
                 Text(edition.kind == "modern"
-                     ? "The Vernacular is SDIT's own edition, synthesized from public-domain sources. Not a historical translation."
+                     ? "Lectio Edition is SDIT's own edition, synthesized from public-domain sources. Not a historical translation."
                      : "Public-domain edition.")
                     .font(.caption2).foregroundColor(pal.inkSoft)
                     .padding(.top, 4)

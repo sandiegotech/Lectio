@@ -35,25 +35,55 @@ struct Palette {
     )
 }
 
-// App-wide appearance, persisted. Day = parchment, Night = warm dark.
-enum AppearanceMode: String { case light, dark }
+extension Palette {
+    // The active palette is chosen by the resolved color scheme, so "Automatic"
+    // (follow the device, which darkens at night) needs no special handling.
+    static func forScheme(_ scheme: ColorScheme) -> Palette {
+        scheme == .dark ? .dark : .natural
+    }
+}
+
+// App-wide appearance, persisted. Automatic follows the device (auto-darkens at night).
+enum AppearanceMode: String, CaseIterable, Identifiable {
+    case system, light, dark
+    var id: String { rawValue }
+    var label: String {
+        switch self {
+        case .system: return "Automatic"
+        case .light: return "Day"
+        case .dark: return "Night"
+        }
+    }
+    var icon: String {
+        switch self {
+        case .system: return "circle.lefthalf.filled"
+        case .light: return "sun.max"
+        case .dark: return "moon.stars"
+        }
+    }
+}
 
 final class AppTheme: ObservableObject {
     @Published var mode: AppearanceMode {
         didSet { UserDefaults.standard.set(mode.rawValue, forKey: key) }
     }
-    private let key = "appearanceMode.v1"
+    private let key = "appearanceMode.v2"
 
     init() {
         let raw = UserDefaults.standard.string(forKey: key) ?? ""
-        mode = AppearanceMode(rawValue: raw) ?? .light
-        // Debug hook: LECTIO_DEBUG_DARK launches in night mode (for screenshots).
+        mode = AppearanceMode(rawValue: raw) ?? .system
+        // Debug hook: LECTIO_DEBUG_DARK forces night mode (for screenshots).
         if ProcessInfo.processInfo.environment["LECTIO_DEBUG_DARK"] != nil { mode = .dark }
     }
 
-    var palette: Palette { mode == .dark ? .dark : .natural }
-    var colorScheme: ColorScheme { mode == .dark ? .dark : .light }
-    func toggle() { mode = (mode == .dark) ? .light : .dark }
+    // nil = follow the system (Automatic); otherwise force the chosen scheme.
+    var preferredColorScheme: ColorScheme? {
+        switch mode {
+        case .system: return nil
+        case .light: return .light
+        case .dark: return .dark
+        }
+    }
 }
 
 extension Color {

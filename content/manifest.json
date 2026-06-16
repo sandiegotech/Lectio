@@ -31,7 +31,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "c0048ccbb4b93a5c"
+          "checksum": "b9d441c6c9876151"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -81,7 +81,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "7d220cb52a872c35"
+          "checksum": "e32ba5a5726fd940"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -110,12 +110,21 @@
       "title": "The Odyssey",
       "author": "Homer",
       "referenceScheme": "book.line",
-      "defaultEditionId": "edition.odyssey.butler-1900",
+      "defaultEditionId": "edition.odyssey.lectio-modern",
       "collections": [
         "collection.epics",
         "collection.harvard-classics"
       ],
       "editions": [
+        {
+          "id": "edition.odyssey.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "435cdc9c28b3d9ae"
+        },
         {
           "id": "edition.odyssey.butler-1900",
           "translator": "Samuel Butler",
@@ -127,19 +136,28 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "0430371515cccd9f"
+      "checksum": "445f00d093d0d31e"
     },
     {
       "id": "work.virgil.aeneid",
       "title": "The Aeneid",
       "author": "Virgil",
       "referenceScheme": "book.line",
-      "defaultEditionId": "edition.aeneid.dryden-1697",
+      "defaultEditionId": "edition.aeneid.lectio-modern",
       "collections": [
         "collection.epics",
         "collection.harvard-classics"
       ],
       "editions": [
+        {
+          "id": "edition.aeneid.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "296b36902afed2d8"
+        },
         {
           "id": "edition.aeneid.dryden-1697",
           "translator": "John Dryden",
@@ -151,7 +169,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "5fa5418ae2a095de"
+      "checksum": "0491335e35f76c8b"
     }
   ],
   "dictionaries": []

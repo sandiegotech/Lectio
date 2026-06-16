@@ -6,13 +6,14 @@
   "composed": "c. 8th century BCE",
   "type": "epic_poem",
   "referenceScheme": "book.line",
-  "defaultEditionId": "edition.odyssey.butler-1900",
+  "defaultEditionId": "edition.odyssey.lectio-modern",
   "blurb": "Homer's epic of the long way home — Odysseus's ten-year voyage back from Troy through monsters, gods, and temptations to Ithaca.",
   "collections": [
     "collection.epics",
     "collection.harvard-classics"
   ],
   "editionIds": [
+    "edition.odyssey.lectio-modern",
     "edition.odyssey.butler-1900"
   ]
 }
