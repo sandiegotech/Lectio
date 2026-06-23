@@ -21,7 +21,7 @@
       "Emily Wilson (2017, consulted for accuracy)",
       "the Greek (Homeric text)"
     ],
-    "tokensEstimated": 584577,
+    "tokensEstimated": 612370,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -472,6 +472,69 @@
       "older": "“Idiot” (Butler)",
       "lectio": "“Fool”",
       "note": "A word of contempt for the suppliant — literally ‘childish, witless one.’ Lectio uses ‘Fool’ for the man Achilles answers, matching the hard address he uses elsewhere, and lets the gods’ jeering at one another later in the book carry its own scorn."
+    },
+    {
+      "locus": "Book 22, line 9",
+      "phrase": "θεὸν ἄμβροτον (theon ambroton)",
+      "older": "\"a god whom you pursue\" (Butler), \"a godhead to pursue\" (Pope)",
+      "lectio": "\"an immortal god\" / \"I cannot die\"",
+      "note": "Apollo's taunt turns on a single word: ambrotos, deathless. The point is not merely that Achilles chases a god, but that he chases the one thing his spear can never reach — the un-killable. Lectio keeps the deathlessness in the foreground, the way the Greek does, since it is the bitter joke that opens the book and seals Hector's fate the moment the god turns away."
+    },
+    {
+      "locus": "Book 22, lines 126-128",
+      "phrase": "ἀπὸ δρυὸς ... ὀαριζέμεναι (apo druos ... oarizemenai)",
+      "older": "\"prattle ... as young men and maidens\" (Butler), \"as man conversing man\" (Pope)",
+      "lectio": "\"whispering ... soft and intimate ... the way a young man and a girl whisper\"",
+      "note": "Hector's strangest line: there's no chatting with Achilles \"from oak or rock, the way a girl and a boy whisper.\" The verb oarizein is not neutral talk — it's intimate, tender, lovers'-talk (it shares a root with the word for wife). Older versions flatten it to \"prattle\" or \"converse.\" Lectio keeps the erotic warmth, because the horror of the moment is precisely that warmth set against the cold certainty that Achilles will simply kill him."
+    },
+    {
+      "locus": "Book 22, lines 208-213",
+      "phrase": "δύο κῆρε ... ῥέπε δ' Ἕκτορος αἴσιμον ἦμαρ (duo kēre ... rhepe d' Hektoros aisimon ēmar)",
+      "older": "\"placed a doom in each\" of the scales (Butler), \"golden balances\" weighing \"destinies\" (Pope)",
+      "lectio": "\"two fates of death ... Hector's day of doom sank down\"",
+      "note": "The kēre are not abstract \"dooms\" but death-spirits — the personified powers of dying — that Zeus drops into the golden scales. And what sinks is Hector's aisimon ēmar, his \"fated day.\" Lectio keeps the physical image (a fate has weight; it falls toward Hades) rather than the smoother Victorian abstraction, so the reader feels the death decided as a thing tipping in a balance, not a sentiment."
+    },
+    {
+      "locus": "Book 23, line 100",
+      "phrase": "ψυχὴ … ἠ῝τε καπνὸς … τετριγυῖα (psychē … ēüte kapnos … tetriguia)",
+      "older": "the spirit “vanished as a vapour, gibbering and whining” (Butler); “like a vapour … with a faint shriek” (Lang/Leaf/Myers)",
+      "lectio": "“down into the earth like smoke, with a thin cry”",
+      "note": "When the ghost of Patroclus slips from Achilles' arms, Homer says it went “like smoke” — kapnos, smoke, not the “vapour” of the older versions — and made a sound, tetriguia, the same thin, shrill verb Homer uses elsewhere for bats and birds. It is a high, eerie squeak, not a groan or a moan. Lectio keeps the smoke and the thin cry, where the Victorians softened both."
+    },
+    {
+      "locus": "Book 23, line 104",
+      "phrase": "ψυχὴ καὶ εἴδωλον, ἀτὰρ φρένες οὐκ ἔνι πάμπαν (psychē kai eidōlon … phrenes ouk eni pampan)",
+      "older": "“a soul and phantom … but no real life in it” / “the life be not anywise therein” (Lang/Leaf/Myers)",
+      "lectio": "“a soul and a phantom, but no mind in it at all”",
+      "note": "Achilles wakes to a hard discovery about the dead. Homer names three things: the psychē (soul/breath) and the eidōlon (image, likeness) persist, but the phrenes — the seat of thought and feeling — do not. ‘Life’ blurs that; the point is that the thinking, feeling core is gone, while the look and the voice remain. Lectio renders phrenes as ‘mind’ to keep Homer’s exact loss."
+    },
+    {
+      "locus": "Book 23, line 315",
+      "phrase": "μῆτις … ἠὲ βίηφι (mētis … ēe biēphi)",
+      "older": "“cunning … by force” (Lang/Leaf/Myers); “by art … by force” (Pope)",
+      "lectio": "“by skill … than by main strength” (Nestor: woodman, steersman, charioteer)",
+      "note": "Nestor coaches Antilochus with the word mētis — the cunning, practical intelligence that defines Odysseus — set three times against biē, brute force. Lectio renders it ‘skill’ rather than ‘cunning’ here: in the chariot, mētis is craft and timing, not trickery, and ‘skill’ keeps the contrast with raw strength clean across all three of Nestor’s examples."
+    },
+    {
+      "locus": "Book 24, lines 527–533",
+      "phrase": "δοιοὶ γάρ τε πίθοι (doioi pithoi) — the two jars of Zeus",
+      "older": "“two urns, the one filled with evil gifts, and the other with good ones” (Butler); “Two urns by Jove’s high throne have ever stood” (Pope, who adds the throne)",
+      "lectio": "“On the floor of Zeus’s house stand two jars of the gifts he gives — one of evils, the other of blessings”",
+      "note": "The heart of the poem’s consolation, and one of its oldest images. The Greek word is pithos — a great earthenware storage jar set into the floor, not an “urn,” which in English suggests ashes. Lectio keeps the homelier ‘jar,’ and keeps the image plain: Zeus mostly hands out a mixture, good and evil together, and the man who gets only sorrow is the truly cursed one. Homer offers no reconciliation here, only endurance — Achilles, who has dealt this old man the worst of evils, is the one who speaks it."
+    },
+    {
+      "locus": "Book 24, lines 486, 503–506 (Priam’s supplication)",
+      "phrase": "μνῆσαι πατρὸς … χεῖρ’ ὀρέγεσθαι (remember your father … to reach out to the hand)",
+      "older": "“Think of your father, O Achilles” … “have raised to my lips the hand of him who slew my son” (Butler); Pope expands it into polished couplets",
+      "lectio": "“Remember your own father, godlike Achilles” … “to lift to my lips the hand of the man who killed my son”",
+      "note": "The hinge of the whole Iliad, and the line the poem has been driving toward since Book I. Homer’s force is in the plainness: Priam asks Achilles not to forgive but simply to remember — to see his own father, Peleus, in the old man before him. Lectio renders it with the utmost restraint, adding nothing; the horror of a father kissing his son’s killer’s hands is left to stand bare, exactly as the Greek leaves it."
+    },
+    {
+      "locus": "Book 24, line 804 (the last line of the poem)",
+      "phrase": "ὤς οἱ γ’ ἀμφίεπον τάφον Ἕκτορος ἱπποδάμοιο (Hēktoros hippodamoio)",
+      "older": "“Thus, then, did they celebrate the funeral of Hector tamer of horses” (Butler); “Such honours Ilion to her hero paid, / And peaceful slept the mighty Hector’s shade” (Pope, who rewrites the ending entirely)",
+      "lectio": "“Such was the funeral of Hector, breaker of horses.”",
+      "note": "The Iliad ends not on Achilles but on Hector, and not on a battle but on a burial — the enemy given his rites at last. The fixed epithet hippodamos (‘horse-taming’) is the last word of the poem. Lectio keeps the line whole and ends on the epithet, as Homer does, in the heroic-register ‘breaker of horses’ used by the major modern renderings — a quiet, formulaic close that lets the enormous grief settle into the calm of ritual. Pope could not bear to end so plainly and added two lines of his own; Lectio, like the Greek, stops exactly here."
     }
   ],
   "sections": [
@@ -6106,6 +6169,840 @@
           "order": 32,
           "kind": "paragraph",
           "text": "He spoke, and his strong hand let the javelin go, and it struck Achilles on the shin below the knee. The new tin greave rang out sharply, but the bronze sprang back from the man it had hit and did not go through — the god's gift held it. Then Achilles lunged at noble Agenor in turn, but Apollo would not let him have the glory: he snatched Agenor away and hid him in a deep mist and sent him out of the battle unharmed. And then, by a trick, he drew the son of Peleus away from the army. He put on the very likeness of Agenor and stood in front of Achilles, who broke into a run to chase him, hunting him over the wheatlands of the plain, swerving him toward the deep current of the Scamander. Apollo kept just a little ahead, always seeming about to be caught, drawing him on by his cunning. And meanwhile the routed mass of the Trojans was glad to crowd, thankful, back inside the walls, until the city was packed full of them. They no longer dared to wait for one another outside, to learn who had come through and who had fallen — every man whose feet and knees could still carry him poured headlong into the town."
+        }
+      ]
+    },
+    {
+      "id": "edition.iliad.lectio-modern.book-22",
+      "order": 22,
+      "label": "Book XXII",
+      "title": "The Death of Hector",
+      "segments": [
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "So the Trojans, who had run for the city like terrified fawns, leaned against the fine battlements and cooled the sweat from their bodies and drank to quench their thirst. The Greeks came on toward the wall, their shields slung over their shoulders. But Hector stayed where he was, held fast by deadly fate, out in front of Ilium and the Scaean gates. Then Phoebus Apollo spoke to the son of Peleus: \"Why do you keep chasing me, son of Peleus, you who are only a man, when I cannot die? You still haven't grasped that I am a god — that's how furious your pursuit is. So much for the Trojans you routed; they're crowded safe inside their walls now, while you've been lured out here. You'll never kill me. There's no death in me to take.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Deeply angered, swift-footed Achilles said: \"You've cheated me, Far-Shooter, cruelest of all the gods — turning me away from the wall when many another man would still be biting the dust before he reached Ilium. You've robbed me of great glory and saved the Trojans easily, since you had nothing to fear in return. I'd pay you back for this, if I had the power.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "With that he set off for the city, full of fury, running like a prize-winning chariot horse that stretches at full stride across the plain — so fast and light did Achilles drive his legs and feet. Old Priam was the first to see him, blazing across the flat ground like the star that comes at harvest-time, the one men call Orion's Dog: brightest of all the stars, and yet a sign of evil, for it brings raging fever to wretched mortals. Just so the bronze flamed on Achilles' chest as he ran. The old man groaned and beat his head with his hands and lifted them high, and cried aloud to his beloved son, who stood determined before the gates, burning to fight Achilles. Stretching out his arms, the old man begged him: \"Hector — my dear child — don't stand out there alone, with no one beside you, to meet that man, or you'll soon meet your death at the hands of the son of Peleus. He is far stronger than you. The monster — I wish the gods loved him only as much as I do; then dogs and vultures would make short work of him where he lay, and a terrible grief would lift from my heart. He has stripped me of so many fine sons, killing them or selling them off to distant islands. Even now I cannot find two of them among the Trojans crowded into the city — Lycaon and Polydorus, the sons Laothoe bore me, that queen among women. If they're alive and held in the Greek camp, we'll ransom them with gold and bronze; we have plenty, for old Altes gave his daughter a rich dowry. But if they're already dead and in the house of Hades, then their mother and I, who gave them life, will grieve — though the rest of the people will grieve less, and not for long, unless you die too at Achilles' hands. So come inside the wall, my child. Be the guardian of the men and women of Troy. Don't hand a great triumph to the son of Peleus and lose your own dear life. And pity me, your poor father, while I can still feel — your father, whom the son of Cronus will destroy by a hard fate on the threshold of old age, after I have seen it all: my sons cut down, my daughters dragged off, the bridal chambers ransacked, the little children dashed to the ground in the horror of battle, the wives of my sons hauled away by the brutal hands of the Greeks. And at the last, the dogs will tear me to pieces at my own gates, when someone's sword or spear has beaten the life out of me — the very dogs I reared at my table to guard my doors, who'll lap my blood and then lie there in the gateway, out of their minds. When a young man falls in battle, cut down by the bronze, let him lie; everything about him is honorable in death, whatever shows. But when the dogs defile the gray head and gray beard and the nakedness of an old man killed — there is nothing more pitiable in all this wretched world.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "So spoke the old man, and he tore at his gray hair and ripped it from his head — but he could not move Hector's heart. And nearby his mother wept and wailed, loosening the folds of her gown and baring her breast with the other hand, and through her tears she cried out to him: \"Hector, my child — have some respect for this, and pity me. If I ever gave you my breast to quiet you, remember it now, dear son, and come inside the wall to drive off this man. Don't stand out there to face him. He is without mercy. If he kills you, then I will never weep for you on your bier, my own dear branch, nor will your richly dowered wife; far from us both, the dogs will devour you beside the Greek ships.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "So the two of them pleaded with their son, weeping, calling out again and again — but they could not move Hector's heart, and he held his ground as huge Achilles came on toward him. As a snake in the mountains waits by its hole for a man, gorged on poisonous herbs, filled with cold fury, glaring terribly as it coils about its den — so Hector, his courage unquenched, would not give way, and leaned his bright shield against the jutting tower and stood his ground. And, troubled, he spoke to his own great heart: \"This is bad. If I go inside the gates, Polydamas will be the first to throw it in my face — he who told me to lead the Trojans back into the city that ruinous night, when great Achilles roused himself again. I wouldn't listen. It would have been far better if I had. Now that my own recklessness has destroyed the army, I am ashamed to face the men and women of Troy, ashamed that some lesser man might say, 'Hector trusted his own strength too far and brought us to ruin.' That's what they'll say. Better, then, to stand and fight Achilles — to come back having killed him, or die with honor here before the city. But what if I set down my bossed shield and my heavy helmet, lean my spear against the wall, and go out myself to meet the noble son of Peleus? What if I promised to give Helen back, and all the treasure with her — everything Alexandros carried off to Troy in his hollow ships, the very thing that started this war — to hand it all over for the Greeks to take, and beyond that to divide with them, fairly, everything else the city holds; to bind the Trojan elders by oath to hide nothing, but to split in two all the wealth this lovely town contains? But why does my heart even argue this with me? I can't go up to him and expect any mercy, any respect; he'd cut me down on the spot, defenseless, stripped of my armor, as easily as a woman. There's no whispering with him now, soft and intimate, from oak tree or rock, the way a young man and a girl whisper to each other, a boy and a girl. Better to clash at once, and see which of us the Olympian hands the glory.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "So he stood and waited, turning it over — and Achilles came on, terrible as Ares, the war-god with the flashing helmet. Over his right shoulder he balanced the dreadful Pelian ash spear, and the bronze flared around him like a blaze of fire, or the light of the rising sun. And as Hector saw him, terror took hold of him, and he could not bear to stay; he left the gates behind and ran, and the son of Peleus rushed after him, sure of his speed. As a hawk in the mountains, fastest of all the birds, swoops light after a trembling dove — the dove darts away beneath him, but the hawk keeps screaming close behind, again and again, his whole heart set on the kill — so Achilles flew straight at Hector in his fury, and Hector ran in terror beneath the wall of Troy, his knees pumping hard."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Past the lookout point and the windswept wild fig tree they raced, on along the wagon-road that ran under the wall, and came to the two clear springs that feed the eddying Scamander. From one of them hot water flows, and steam rises off it like smoke from a fire; the other runs cold even in summer, cold as hail, or snow, or ice frozen out of water. And right there beside the springs are the broad stone troughs, beautiful, where the wives and lovely daughters of the Trojans used to wash their shining clothes in the days of peace, before the Greeks ever came. Past these they ran, one fleeing and one giving chase — a good man in front, but a far better one hunting him down — and they ran hard, for the prize they raced for was no sacrificial beast, no oxhide such as men win in a footrace: they were running for the life of Hector, breaker of horses. As prize-winning horses round the turning-post at full gallop, when some great prize is set out — a tripod, or a woman — at the funeral games of a man who has died, so the two of them circled the city of Priam three times, on flying feet, while all the gods looked on. And the father of gods and men was the first to speak: \"This is a hard thing to see — a man I love being chased around the wall, and my heart grieves for Hector, who has burned the thighs of so many oxen for me, now on the ridges of Ida with its many valleys, now on the heights of the city. And there is brilliant Achilles, running him down around Priam's town. Consider it, gods, and decide: shall we save him from death, or shall we let Achilles, for all Hector's courage, bring him down at last?\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Then the bright-eyed goddess Athena answered him: \"Father — lord of the white lightning, lord of the dark cloud — what are you saying? A man who is mortal, long ago marked for death — would you set him free again from death's hard grip? Do it, then. But the rest of us gods will not all praise you for it.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Zeus who gathers the clouds answered her: \"Take heart, Tritogeneia, dear child. I don't mean it with my whole will, and I want to be kind to you. Do as your own mind moves you. Don't hold back.\" So he urged on Athena, who was already eager, and she came swooping down from the peaks of Olympus."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "And still swift Achilles drove Hector on, hard and relentless. As a hound in the mountains starts a fawn from its lair and hunts it through the glens and hollows, and even when the fawn ducks shivering under a thicket, the hound keeps tracking it, running it down — so Hector could not lose the fast-footed son of Peleus. Every time he made a dash for the Dardanian gates, to get under the well-built towers where his own men might cover him with their spears from above, Achilles would cut across and head him back toward the open plain, keeping always to the city side himself. As in a dream a man cannot catch the one who flees from him — the one cannot escape, and the other cannot catch him — so Achilles could not run Hector down, nor could Hector pull away. And how could Hector have outrun his death so long, if Apollo had not come close to him, one last time, and roused his strength and his swift knees? And brilliant Achilles signaled to his men with his head: not one of them was to throw at Hector, in case another struck the blow and won the glory, and he came in second. But when they reached the springs the fourth time, then the Father lifted his golden scales and set in them two fates of death that lays men low — one for Achilles, one for Hector, breaker of horses — and he took the balance by the middle and lifted it, and Hector's day of doom sank down, down toward the house of Hades. And Phoebus Apollo left him."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Then the bright-eyed goddess Athena came up to the son of Peleus and stood beside him, and spoke winged words: \"Now, brilliant Achilles, dear to Zeus — now I think the two of us will carry off great glory for the Greeks beside the ships, and bring down Hector, insatiable for battle as he is. There's no escaping us now, whatever Apollo does, however he grovels before Father Zeus who wields the storm-shield. Stop here and get your breath. I'll go to Hector and talk him into standing to fight you, face to face.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "So Athena spoke, and Achilles obeyed her gladly and stopped, leaning on his bronze-tipped ash spear. And she left him and went to noble Hector, taking on the shape of Deiphobus and his strong voice. She came close and spoke winged words: \"Dear brother — Achilles is wearing you down, chasing you on swift feet around the city of Priam. Come, let's make a stand here and beat him back.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "And great Hector of the flashing helmet answered her: \"Deiphobus — you were always the dearest to me of all my brothers, the sons of Hecuba and Priam. And now I'll honor you in my heart still more, since for my sake you've dared to come outside the wall, seeing me out here, while all the rest stay in.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "Then the bright-eyed goddess Athena answered: \"Brother — our father and our honored mother begged me on their knees, and my comrades all around me, to stay inside; such terror has taken hold of every one of them. But my heart was breaking with grief for you. Now let us go at him hard, and fight, and spare nothing of our spears, and find out whether Achilles kills the two of us and carries our bloody armor to the hollow ships — or whether he goes down beneath your spear.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "So Athena lured him on by her cunning. And when the two had come close, facing each other, great Hector of the flashing helmet spoke first: \"I'll run from you no longer, son of Peleus, as I have these three times around the great city of Priam, never daring to wait for your charge. Now my heart drives me to stand and face you — to kill you, or be killed. But come, let us call the gods to witness; they are the best guardians of an oath between us. If Zeus grants me the endurance to take your life, I will do nothing shameful to your body: I will strip your famous armor, Achilles, and give the rest of you back to the Greeks. Swear you'll do the same for me.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "Glaring at him, swift-footed Achilles answered: \"Hector — don't talk to me of agreements, curse you. There are no binding oaths between lions and men, and wolves and lambs are never of one mind; they hate each other through and through, always. So there can be no love between us, no oaths, until one of us falls and gluts Ares, the war-god with the bull's-hide shield, with his blood. Call up every bit of fighting you have in you. Now you must prove yourself a spearman and a soldier with nerve. There's no more getting away from me. Pallas Athena will bring you down beneath my spear this moment, and you'll pay all at once for the grief of my companions, the men you killed in your raging.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "With that he balanced his long-shadowed spear and let it fly — but glorious Hector saw it coming and dropped beneath it, watching, so the bronze flew over his head and stuck in the ground. But Athena snatched it up and gave it back to Achilles, and Hector, the people's shepherd, did not see. And Hector said to the matchless son of Peleus: \"You missed. So godlike Achilles did not know my fate from Zeus after all — though you spoke as if he had. You silver-tongued trickster — you thought you'd shake my nerve with words and make me forget my courage and my strength. Well, you won't drive your spear into the back of a running man. Send it through my chest as I charge straight at you, if a god lets you. And now dodge this bronze of mine — I'd be glad to see you take the whole length of it in your body. The war would be lighter for the Trojans with you dead, you who have been their worst grief.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "With that he balanced his long-shadowed spear and threw, and his aim was true — he struck the middle of Achilles' shield, but the spear glanced off it, far away. Hector was furious that the swift cast had left his hand for nothing, and he stood there stunned, for he had no second spear. He shouted out to Deiphobus of the white shield, calling for his long spear — but Deiphobus was nowhere near him. And then Hector understood, in his heart, and said: \"This is it. The gods have called me to my death. I thought the warrior Deiphobus was beside me — but he is inside the wall, and Athena has tricked me. Now ugly death is close, no longer far off, and there is no escape. This is what Zeus and the son of Zeus, the far-shooter, wanted all along, the gods who once protected me so readily. Now my fate has caught me. But let me not die without a fight, without glory, without some great deed done for men to come to hear of.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "So he spoke, and drew the keen sword that hung sharp and heavy at his side, and gathering himself he swooped like a high-flying eagle that drops through the dark clouds toward the plain to seize a soft lamb or a cowering hare — so Hector swooped, swinging his sharp sword. And Achilles charged, his heart full of savage fury, holding the splendid, intricate shield before his chest, his bright four-horned helmet nodding, and the golden plumes that Hephaestus had set thick along the crest tossing around it. As the evening star moves among the stars in the dead of night — Hesperus, the loveliest star set in the sky — so the light flashed off the keen spear-point that Achilles balanced in his right hand, his heart set on killing noble Hector, his eyes searching the handsome body for the place to drive it home. Now the rest of Hector was covered by the fine bronze armor he had stripped from mighty Patroclus when he killed him; but there was one gap, where the collarbones hold the neck off from the shoulders, at the throat — the spot where life is destroyed fastest. There, as Hector came on, brilliant Achilles drove the spear, and the point went clean through the soft neck. But the bronze-weighted ash did not cut his windpipe, so that he could still speak, and answer. He crashed down in the dust, and brilliant Achilles cried his triumph over him: \"Hector — you thought, when you stripped Patroclus, that you'd be safe; you gave no thought to me, far off. Fool. Down by the hollow ships there was a defender left for him, better by far — me — and I have brought you low. The dogs and the birds will tear you apart in shame, while the Greeks give Patroclus his rites of burial.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Then, his strength failing, Hector of the flashing helmet answered: \"I beg you — by your life, by your knees, by your own parents — don't let the dogs devour me beside the Greek ships. Take the bronze and gold, all the rich ransom my father and honored mother will give you, and send my body home, so the Trojans and their wives can grant me my share of fire in death.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "Glaring at him, swift-footed Achilles answered: \"Don't beg me, you dog, by my knees or my parents. I only wish my fury and my heart would drive me to carve your flesh and eat it raw, for what you've done — that's how sure it is that no one will keep the dogs off your head. Not if they brought me ten times, twenty times the ransom, weighed it out before me here and promised more. Not if Priam, son of Dardanus, told them to give your weight in gold — not even then will your honored mother lay you on the bier and mourn the son she bore. The dogs and the birds will eat every part of you.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "And dying, Hector of the flashing helmet said: \"I know you well, looking at you now. I was never going to move you. The heart in you is iron. But take care — I may become a cause of the gods' anger against you, on the day when Paris and Phoebus Apollo destroy you, brave as you are, at the Scaean gates.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "Even as he spoke, the end that is death covered him over, and his soul slipped from his limbs and went down to the house of Hades, weeping for its fate, leaving behind its youth and strength. And though he was dead, brilliant Achilles spoke to him still: \"Lie there dead. I will take my own death whenever Zeus and the other immortal gods choose to bring it.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "He drew the bronze spear out of the body and set it aside, and stripped the bloody armor from Hector's shoulders. And the other Greeks came running up to gather around, marveling at Hector's stature and his terrible beauty — and not one of them came near without driving in a fresh wound. And a man would say, glancing at his neighbor: \"You can put your hands on Hector more easily now than when he was setting our ships on fire\" — and as he said it, he would stab the body again. When swift Achilles had finished stripping the armor, he stood among the Greeks and spoke winged words: \"Friends — leaders and counselors of the Greeks — now that the gods have let us bring down this man, who did us more harm than all the rest together, let us go in arms around the city and test it, and learn the Trojans' minds — whether they'll abandon the high town now that Hector has fallen, or hold out even with him gone. But why does my heart argue this with me? There by the ships lies a dead man, unwept, unburied — Patroclus, whom I will never forget as long as I am among the living and my own knees move. And even if men forget their dead down in the house of Hades, still I will remember my dear companion even there. Come now, young men of the Greeks — let us go back to the hollow ships singing the song of triumph, and take this man with us. We have won a great glory: we have killed noble Hector, to whom the Trojans prayed throughout their city as if he were a god.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "And then he did a shameful thing to noble Hector. He cut through the tendons of both feet behind, from heel to ankle, and threaded oxhide thongs through them, and bound the body to his chariot, leaving the head to drag. Then he lifted the famous armor aboard and mounted, and lashed the horses on, and they flew, not unwilling. A cloud of dust rose where Hector was dragged, and his dark hair streamed loose on either side, and the head that had once been so handsome lay all in the dust — for Zeus had given him up now to his enemies, to be defiled in his own native land."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "So Hector's head was fouled in the dust. And his mother tore her hair and flung off her shining veil and cried out, a long wail, seeing her son. His dear father groaned pitifully, and all around them the people gave themselves to weeping and wailing through the city. It was as if all of frowning Ilium were burning, top to bottom, in fire. The people could barely hold the old king back as he raged to go out through the Dardanian gates. He rolled in the filth and begged them all, naming each man by name: \"Let me go, friends — leave me, for all your care for me. Let me go alone from the city to the Greek ships. Let me beg that violent man, that worker of terror; maybe he'll feel some shame before his own years, some pity for an old man. He too has a father, Peleus, who fathered and reared him to be a curse to the Trojans — and to me above all others, so many of my sons cut down by him in their first youth. And yet for all of them I do not grieve so much as for this one — Hector — and the sharp grief for him will carry me down to the house of Hades. If only he had died in my arms; then his ill-fated mother who bore him, and I, could have had our fill of weeping and mourning over him.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "So he spoke, weeping, and the people of the city groaned with him. And among the women of Troy, Hecuba led the long lament: \"My child — what is left for me, in my misery, now that you are dead? Night and day you were my pride throughout the city, and a help to all in Troy, men and women alike, who welcomed you like a god. You were their great glory while you lived. Now death and fate have come for you.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "So she spoke, weeping. But Hector's wife knew nothing yet; no true messenger had come to tell her that her husband had stayed outside the gates. She was at her loom, deep in the high house, weaving a wide purple cloth and working into it intricate flowers. And she had called through the house to her fair-haired maids to set a great tripod on the fire, so there would be a warm bath ready for Hector when he came home from the fighting — poor woman, she did not know how far he was now from any bath, how Athena had brought him down beneath the hands of Achilles. Then she heard the wailing and the cries of grief from the wall, and her body shook, and the shuttle fell from her hands to the floor. At once she called again to her fair-haired maids: \"Come, two of you, follow me — I must see what has happened. I heard the voice of my husband's honored mother, and my own heart leaps to my mouth, my knees are frozen under me. Some terrible thing is near for the children of Priam. I pray it never reaches my ears — but I am sick with fear that brilliant Achilles has cut my bold Hector off from the city, alone, and driven him out onto the plain, and put an end to the deadly courage that always took him; for he would never hold back in the crowd of men, but always charged out ahead, yielding to no one in his fighting spirit.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "So she spoke, and rushed out through the hall like a madwoman, her heart pounding, her maids following after. And when she reached the wall and the crowd of men, she stopped on the rampart and looked out — and saw him: Hector, dragged in front of the city, the fast horses hauling him without mercy toward the hollow ships of the Greeks. And black night came down over her eyes, and she fell backward, fainting, and the breath went out of her. Far from her head she flung the shining bands that bound her hair — the frontlet, the netted snood, the woven headband, and the veil that golden Aphrodite had given her on the day Hector of the flashing helmet led her from the house of Eetion, after he had brought countless gifts to win her. Her husband's sisters and his brothers' wives crowded around her and held her up, dazed and half-dead between them. But when at last she breathed again and the spirit came back into her breast, she lifted her voice in broken grief among the women of Troy: \"Hector — I am lost. So we were both born to one fate, you in Troy in the house of Priam, and I in Thebe, under wooded Placus, in the house of Eetion, who raised me when I was small — an ill-starred father, an ill-starred child. I wish he had never fathered me. Now you go down to the house of Hades, into the hidden places under the earth, and you leave me a widow in your halls, in terrible grief — and the boy is still only a baby, the child we two bore, doomed as we are. You will be no help to him now, Hector, now that you are dead, and he will be no help to you. Even if he comes through this miserable war with the Greeks, his life from now on will be all hardship and sorrow; other men will move his boundary stones and take his land. The day a child is left fatherless cuts him off from all his friends. He goes with his head bowed, his cheeks wet with tears, and in his need he goes to his father's friends, tugging at one man's cloak, another's tunic; one of them, out of pity, may hold a cup to him for a moment, just enough to wet his lips, not enough to wet the roof of his mouth. And a boy with both parents living shoves him away from the feast with his fists and hard words: 'Get out — your father isn't dining here.' And the child goes back crying to his widowed mother — Astyanax, who once sat on his father's knees and ate only the marrow and the rich fat of sheep, and when sleep took him and he was tired of his play, slept soft in a bed, in his nurse's arms, his heart full of good things. But now, with his dear father gone, he has much to suffer — Astyanax, 'lord of the city,' the name the Trojans gave him, because you alone, Hector, guarded their gates and their long walls. And now, far from your parents, by the curved ships, the writhing worms will eat you when the dogs have had their fill, and you will lie there naked — though in your halls there is fine clothing, soft and lovely, made by women's hands. All of it I will burn in the fire. It is no use to you now; you will never lie in it again. But let it be your honor, in the eyes of the men and women of Troy.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-22.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "So she spoke, weeping, and the women wailed in answer."
+        }
+      ]
+    },
+    {
+      "id": "edition.iliad.lectio-modern.book-23",
+      "order": 23,
+      "label": "Book XXIII",
+      "title": "The Funeral Games for Patroclus",
+      "segments": [
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "So the Trojans mourned throughout their city. But the Greeks, when they reached the ships and the Hellespont, scattered each man to his own vessel — all but the Myrmidons. Achilles would not let them go. He spoke to his battle-hardened companions: \"Myrmidons, my swift horsemen, my trusted friends — not yet. Don't unyoke the horses. Drive close to the body with chariot and team, and mourn Patroclus; that is the due of the dead. When we have had our fill of grieving, then we'll loose the horses and take our meal here together.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "At that they raised one cry of lament, and Achilles led them. Three times they drove their horses around the body, weeping, and Thetis stirred a deeper longing in them still. The sands were wet with their tears, and so was their armor — such a man was the one they had lost, who could turn the tide of fear. Above them all grieved the son of Peleus. He laid his man-killing hands on his friend's breast and said: \"Fare well, Patroclus, even in the house of the dead. I am keeping every promise I made you. I have dragged Hector here for the dogs to tear raw, and at your pyre I will cut the throats of twelve sons of the Trojans, in payment for your death.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And as he spoke, he did a shameful thing to noble Hector: he stretched the body face-down in the dust beside the bier of Patroclus. Then the others stripped off their bronze armor, unyoked their high-whinnying horses, and sat down in their thousands beside the ship of swift-footed Achilles, who set out a great funeral feast for them. Many sleek oxen went under the knife, bellowing, and many sheep and bleating goats; many tusked boars rich with fat were singed and stretched out to roast in the fire of Hephaestus. And around the body the blood ran everywhere, deep enough to dip a cup in."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then the leaders of the Greeks brought the son of Peleus to Agamemnon — and it was hard to bring him, so furious was he still over his dead companion. When they reached the king's hut, they ordered the servants to set a great cauldron over the fire, hoping to persuade Achilles to wash the clotted gore from his body. But he refused them flatly, and swore an oath on it: \"No — by Zeus, the highest and the greatest of the gods, it is not right that water touch my head until I have laid Patroclus on the fire, raised him a mound, and cut my hair. Never again, as long as I live, will grief like this come over me. So for now, let us submit to this bitter feast. But at first light, lord Agamemnon, have the men bring wood and lay in everything a dead man needs for his road down into the dark. Then the fire can take him quickly out of our sight, and the army can turn back to its work.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "So he spoke, and they listened and obeyed. They made the meal ready in haste, and ate, and no one's hunger went unsatisfied at the shared feast. When they had put away their desire for food and drink, the rest went off to rest, each to his own hut. But the son of Peleus lay down among his Myrmidons by the shore of the sounding sea, groaning, in an open place where the surf came washing in. And there a deep sleep took hold of him and loosed the weight from his heart, for his fine limbs were worn out with the chase, running Hector down around windy Troy. Then the spirit of grieving Patroclus came to him — the same in height, the same beautiful eyes, the same voice, dressed as he had dressed in life. It hovered above his head and spoke:"
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "\"You sleep, Achilles, and you have forgotten me. You never neglected me alive — only now that I'm dead. Bury me, and quickly, so I can pass the gates of the house of the dead. The spirits keep me out, the phantoms of the worn-out dead; they won't yet let me cross the river to join them, and I drift, lost, along the wide gates of that house. Give me your hand — I beg you — for I will never come back out of the dark once you have given me my share of the fire. Never again will the two of us sit apart from our friends and take counsel together, alive. The fate I was born to has opened its jaws and swallowed me. And you too, Achilles, godlike as you are — it is set down that you will die beneath the wall of the rich Trojans."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "\"And one thing more I ask, if you'll grant it. Don't let my bones lie apart from yours, Achilles — let them lie together, as we grew up together in your house, from the day Menoetius brought me, only a boy, out of Opoeis. I had killed another child — by an unlucky accident, a quarrel over the dice, not meaning to — and your father Peleus took me into his home, raised me with kindness, and named me your squire. So let one urn hold us both — the golden two-handled jar your mother gave you.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Swift-footed Achilles answered him: \"Why have you come to me, dear heart, to lay all these charges on me? Of course I will do every one of them, just as you ask. But come closer — let us hold each other, just once more, and take what comfort we can in our cold grief.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "He reached out his arms — and held nothing. The spirit was gone, down into the earth like smoke, with a thin cry. Achilles started up, stunned, and struck his two hands together, and his words came out broken with grief: \"There it is, then — even in the house of the dead something remains, a soul and a phantom, but no mind in it at all. All night long the spirit of poor Patroclus stood over me, weeping and wailing, telling me everything I must do — and it looked so exactly like himself.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "His words set them all weeping again over the pitiful dead, and they were still mourning when rosy-fingered Dawn appeared. Then King Agamemnon sent out men and mules from across the whole camp to bring the wood, and Meriones, the squire of Idomeneus, went in charge of them. They set out with axes for cutting timber and stout ropes in their hands, and the mules went ahead. Up the slopes and down, this way and that, they climbed, until they came to the spurs of Ida with its many springs. There they fell to work with the bronze, and the tall oaks came crashing down. They split the trunks and lashed them to the mules, which picked their way down through the thick brush to the plain. The men carried logs themselves, for Meriones had ordered it, and they laid them down in a line on the shore, at the place where Achilles meant to raise a great mound for Patroclus, and for himself."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "When they had laid down the great logs all over the ground, they sat and waited. Then Achilles ordered his Myrmidons to gird on their armor and yoke their horses. They rose and armed and mounted their chariots, drivers and fighters both, the chariots leading, a cloud of foot soldiers behind them in their thousands. And in the middle his companions bore Patroclus, covering the body with locks of their hair that they cut off and cast upon it. Last of all came Achilles, cradling the head of his friend in his hands, grieving — for he was sending so true a comrade down into the dark."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "When they reached the place Achilles had named, they set the body down and built up the wood. Then the son of Peleus thought of one more thing. He stood apart from the pyre and cut off the golden lock he had let grow long for the river Spercheius, and he looked out, full of sorrow, over the dark sea, and said: \"Spercheius — it was for nothing that my father Peleus vowed to you that when I came home to my own dear country I would cut this lock for you and offer you a holy sacrifice, fifty rams at your springs, where your sacred grove and your altar stand. That was his vow, and you have not answered his prayer. So now, since I will never see my home again, let me give this lock instead to the warrior Patroclus, to carry with him.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "He placed the lock in the hands of his dead friend, and a fresh wave of longing and lament ran through them all. The sun would have gone down on their weeping, but Achilles turned to Agamemnon and said: \"Son of Atreus — it is you the army listens to — there is a time to mourn, and a time to have done with mourning. Send the men away from the pyre now to see to their meal. We who were closest to the dead will take care of what remains; only let the other leaders stay here with me.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "When Agamemnon, lord of men, heard this, he sent the army off to the ships. But those who tended the dead stayed, and heaped up the wood, and built a pyre a hundred feet on every side, and laid the body, heavy with grief, on the top of it. They flayed and dressed many fat sheep and oxen before the pyre, and great-hearted Achilles took the fat from all of them and wrapped the dead from head to foot in it, and piled the flayed carcasses around. Against the bier he leaned two-handled jars of honey and oil. Four strong-necked horses he threw on the pyre, groaning aloud. Patroclus had kept nine house-dogs at his table; Achilles cut the throats of two of them and threw them on. And twelve brave sons of the great-hearted Trojans he put to the sword and laid among the rest — for his heart was set on cruelty. Then he let loose the iron strength of the fire to feed on it all. He cried out and called his dead friend by name: \"Fare well, Patroclus, even in the house of the dead. I am keeping every promise I made you. Twelve brave sons of the Trojans the fire is eating along with you — but Hector, son of Priam, I will not give to the fire. The dogs will have him.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "So he threatened. But no dogs came near the body of Hector. Day and night Aphrodite, daughter of Zeus, kept them off and anointed him with rose-sweet oil, divine, so his flesh would not be torn as Achilles dragged him. And Phoebus Apollo drew a dark cloud down from the sky over the whole place where the body lay, so the heat of the sun would not shrivel the skin on the limbs."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "But the pyre of dead Patroclus would not catch. Then swift-footed Achilles thought of one more thing. He stood apart from the fire and prayed to the two winds, Boreas of the north and Zephyr of the west, promising them rich offerings. Pouring from a golden cup, he begged them again and again to come and make the wood burn fast, so the bodies would be consumed. Swift Iris heard his prayer and went racing off to fetch the winds. They were all together, feasting in the house of the blustering West, when Iris came running and halted at the stone threshold. The moment they saw her they leaped up, every one of them calling her to his side — but she would not sit. \"No time,\" she said. \"I'm bound back to the streams of Ocean, to the land of the Ethiopians, where they are making their great sacrifices to the immortals, and I'll have my share. But Achilles is praying that Boreas and the loud West Wind will come — and he promises you rich offerings — to blow on the pyre of Patroclus, for whom all the Greeks are mourning.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "With that she was gone, and the two winds rose with a great roar, driving the clouds before them. They swept out over the sea, and the waves climbed under their breath; and when they reached the rich land of Troy they fell on the pyre, and the huge flame leaped and roared. All night long together they beat upon the fire, blowing shrill, and all night long swift-footed Achilles, holding a double cup, drew wine from a golden bowl and poured it on the ground, soaking the earth, calling on the spirit of poor Patroclus. As a father weeps when he burns the bones of his own son — a young man, just married, whose death has broken his parents' hearts — so Achilles wept as he burned the bones of his friend, dragging himself around the pyre, groaning without end."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "At last, when the Morning Star rose to herald the light, and after it Dawn spread her saffron robe over the sea, the flames sank and the fire began to die down. The winds went home again, back over the Thracian sea, which heaved and boiled as they passed. And the son of Peleus turned away from the pyre and lay down, worn out, and sweet sleep came over him. Then the men around Agamemnon gathered and came near, and the noise and tramp of them woke him. He sat up and said: \"Son of Atreus, and you other leaders of the Greeks — first put out the pyre with red wine, everywhere the fire reached. Then let us gather the bones of Patroclus, son of Menoetius, picking them out with care. They are easy to find: he lay in the middle of the pyre, while the rest, men and horses, burned at the edge, all thrown together. We'll lay his bones in a golden urn, sealed in a double layer of fat, to wait until I myself go down into the dark. And for the mound — don't trouble to build a great one now, only a fair one. Later, those of you who are left at the ships when I am gone can raise it broad and high.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "So he spoke, and they did as the son of Peleus asked. First they quenched with red wine all the ground the fire had touched, where the ash lay deep, and through their tears they gathered the white bones of their gentle friend into a golden urn, sealed in a double layer of fat. They wrapped the urn in soft linen and carried it into the hut, and laid it away. Then they marked out the circle of the mound, set its foundation around the pyre, and heaped up the earth. When they had raised it, they began to leave — but Achilles held the people back and sat them down in a wide ring, and brought out prizes from the ships: cauldrons and tripods, horses and mules and strong oxen, women with lovely belts, and gray iron."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "For the chariot race he set out the prizes first. For the winner, a woman skilled in fine work, and a tripod with handle-ears that held twenty-two measures. For second, a six-year-old mare, unbroken, carrying a mule foal. For third, a cauldron never touched by fire, still bright from the maker, holding four measures. For fourth, two bars of gold; for fifth, a two-handled jar, untouched by smoke. Then he stood and spoke among the Greeks: \"Son of Atreus, and you other Greeks — these are the prizes waiting for the charioteers. If we were holding these games for anyone else, I would take the first prize back to my own hut myself; you know how far my horses are the best, for they are immortal. Poseidon gave them to my father Peleus, and he gave them to me. But I will hold back, I and my team. They have lost the noble, gentle driver who so often poured clean water over their manes and rubbed them with soft oil. Look at them, standing there mourning him, their manes trailing in the dust, sick at heart. The rest of you, take your places, every man who trusts his horses and his strong-built car.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "So spoke the son of Peleus, and the drivers came forward. First of all rose Eumelus, son of Admetus, a fine horseman. After him came mighty Diomedes, son of Tydeus, yoking the Trojan horses he had once taken from Aeneas, the day Apollo carried Aeneas out of the fight. Then golden-haired Menelaus, son of Atreus, yoked his fast pair — Agamemnon's mare Aethe and his own horse Podargus. Echepolus had given the mare to Agamemnon as a bribe to be left at home, in his comfort, in broad Sicyon, where Zeus had made him rich, rather than march to Troy. Her Menelaus put under the yoke, and she strained to run."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "Fourth, Antilochus made his fine-maned horses ready — the son of noble Nestor, who was the son of Neleus. His horses had been bred in Pylos, and his father came up beside him with good advice, though he scarcely needed it: \"Antilochus, you're young, but Zeus and Poseidon have loved you and made you a fine horseman, so I don't need to teach you much. You know how to wheel close around the post. But your horses are slow — that's what I'm afraid will cost you. The other men have faster teams, but they themselves know less than you do. So put your mind to work, son, and find some skill to keep the prize from slipping away. A woodman does more by skill than by main strength; by skill the steersman holds his fast ship straight on the wine-dark sea in a gale; and by skill one driver beats another. The man who trusts only his horses and his car swings out wide at the turn, this way and that, and lets his team wander, and never holds them in hand. But the man who knows his craft, even with the slower horses, keeps his eye on the post and cuts it close, knows from the start how to play out the reins, and watches the man ahead of him. Let me give you a sure mark you can't miss. There's a dry stump standing about six feet up — oak, or pine — not yet rotted by the rain, with a white stone set on either side of it, at the fork of the track, and clear ground all around it. It may be the grave-marker of some man long dead, or a turning-post from races before our time; now Achilles has set it as the mark to round. Hug it close as you wheel. Lean a little to the left in the car, and call to your right-hand horse and lash him on and give him the rein, while you let the left-hand horse run so tight to the post that the wheel-hub almost grazes the stone — but only almost. Touch the stone, and you'll wound your horses and smash the car to pieces, and you'll be the others' sport and your own ruin. Keep your wits about you, son. If you round the post first, no one will catch you after — not if they had Adrestus's horse Arion behind them, that swift, half-divine animal, or the horses of Laomedon, the finest bred in this land.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "When Nestor had finished counseling his son, he sat down. Fifth, Meriones made his fine-maned horses ready. Then they all mounted their chariots and cast their lots. Achilles shook the helmet, and the lot of Antilochus, Nestor's son, jumped out first; then King Eumelus; then Menelaus, son of Atreus; then Meriones; and last, best of them all, came the lot of Diomedes, son of Tydeus. They took their stations in a line. Achilles showed them the turning-post, far off on the level plain, and stationed Phoenix beside it, his father's old companion, to watch the running and report the truth."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "All at once, every man lifted his whip and cracked it down, shook the reins, and shouted the horses on. They flew out over the plain, away from the ships, and the dust rose under their chests like a cloud, like a whirlwind, and their manes streamed in the wind of their own speed. One moment the cars seemed to skim the ground, the next they leaped clear into the air. The drivers stood tall, and the heart of each beat hard with the hunger to win. Every man called to his horses, and the horses tore across the plain in the storm of dust they raised."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "It was on the last stretch, racing back toward the gray sea, that each team showed its full speed, and the field broke open. The mares of the son of Admetus took the lead, and right behind them came the Trojan stallions of Diomedes — so close they seemed about to climb into his car, their hot breath on Eumelus's back and broad shoulders, their heads almost laid on him as they flew. And now Diomedes would have passed him, or at least drawn even — but Phoebus Apollo, who bore a grudge, struck the shining whip from his hand. Tears of rage filled his eyes as he watched the mares pulling away while his own horses lost ground with no lash to drive them. But Athena saw the trick Apollo had played on the son of Tydeus. She flew to him, gave him back the whip, and put fresh fire into his horses — and then, in her anger, she went after the son of Admetus and broke his yoke. The mares bolted apart, one to each side of the track, and the pole crashed and twisted to the ground. Eumelus was flung from the car beside the wheel, his elbows and mouth and nose torn open, his forehead gashed above the brows; his eyes filled with tears, and his strong voice failed him. But Diomedes swung his team wide and shot far out in front, for Athena had put strength into his horses and crowned him with the glory."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "Behind him came golden-haired Menelaus, son of Atreus. But Antilochus called out to his father's horses: \"On with you, both of you — full speed now. I'm not telling you to beat the team of Tydeus's son; Athena has put running into them and given Diomedes the glory. But catch the horses of Atreus's son, and don't be left behind — or Aethe, a mare, will shame you. Why are you falling back, you brave hearts? I'll tell you, and I mean it: Nestor will not feed either of you another day; he'll put you to the sword if we carry off a poorer prize through your slacking. After them, fast as you can. I'll find the way to slip past them where the track narrows — it won't fail me.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "They were afraid of their master's voice, and for a short stretch they ran harder. And soon Antilochus saw the narrow place, where the track had sunk — a broken hollow, where winter rain had pooled and worn the road away. Menelaus was driving straight for it, holding the line to keep clear of a collision. But Antilochus turned his horses off the track and came up hard alongside, just to one side. Menelaus took fright and shouted: \"Antilochus — this is reckless driving! Rein in! The road is too narrow here. It widens just ahead — pass me there. Foul my car, and you'll wreck us both.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "But Antilochus only plied the whip and drove faster, as if he hadn't heard. They ran neck and neck about as far as a young man can fling a discus testing his strength — and then Menelaus's mares dropped back. He himself eased off, afraid the teams would tangle and the cars go over, and both of them pitch headlong into the dust in their hunger to win. And he shouted after Antilochus in anger: \"There is no greater cheat alive than you. To hell with you — we Greeks were fools to call you a man of sense. Even so, you won't carry off the prize without swearing an oath for it.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "Then he called to his own horses: \"Don't slacken, don't stand there grieving. Their legs will tire before yours — neither of them is young anymore.\" They feared their master's voice and ran harder, and soon they were closing on the team ahead."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "Meanwhile the Greeks sat watching from the rings, as the horses scoured the plain in their own storm of dust. Idomeneus, the captain of the Cretans, was the first to make out the running, for he was sitting apart from the crowd, high up on the best vantage. He heard the driver shouting, far off, and made out the leading horse clearly — all chestnut, with a round white blaze like the moon on its forehead. He stood and spoke among the Greeks: \"Friends — leaders and counselors of the Greeks — am I the only one who can see the race, or can you see it too? It seems to me another team is in front now, with another driver. The mares that led off at the start must have come to grief out on the plain. I saw them first, rounding the post; now, search the plain of Troy as I will, I can't find them anywhere. Maybe the reins slipped from the driver's hands and he couldn't hold them at the turn, and missed the wheel and was thrown, and broke his car, and his mares bolted off the course in a panic. Stand up and look for yourselves — I can't be sure — but the man leading looks to me like an Aetolian by birth, a lord among the Greeks: brave Diomedes, the son of Tydeus.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "Ajax, the son of Oileus, jeered at him rudely: \"Idomeneus — why this rush to talk? The mares are still way out on the plain. You're not the youngest among us, and your eyes aren't the sharpest, but you're forever holding forth. You've no business doing it — there are better men than you here. Those are Eumelus's mares in front, same as they've been the whole way, and there he stands on the car holding the reins.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "The captain of the Cretans rounded on him in anger: \"Ajax — champion at insults, but short on sense, and the worst-tempered of the Greeks besides. Come, I'll wager you a tripod, or a cauldron, and we'll name Agamemnon, son of Atreus, to judge whose horses are first. Then you'll learn, at your own cost.\" Ajax, son of Oileus, was on his feet to answer in fury, and the quarrel would have gone further still, but Achilles himself rose and stepped between them: \"Stop trading insults, the two of you — Ajax, Idomeneus. It isn't seemly. You'd be the first to blame anyone else for it. Sit down and keep your eyes on the track. The horses are coming in fast, straining for the line; any moment now you'll both see for yourselves whose team is first and whose comes after.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "Even as he spoke, the son of Tydeus came driving in, swinging the whip hard from the shoulder, his horses stepping high as they flew over the ground. The sand spattered up over the driver, and the car, inlaid with gold and tin, ran close behind the racing team; the wheels left scarcely a trace in the fine dust, so fast they came. He pulled up in the middle of the ring, sweat streaming from his horses' necks and chests to the ground, and sprang down from the gleaming car and leaned the whip against the yoke. Sthenelus lost no time: he took up the first prize, gave the woman and the eared cauldron to his men to lead away, and unyoked the team."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "Next in came Antilochus, of the line of Neleus — who had passed Menelaus by a trick, not by the speed of his horses. Even so, Menelaus drove in close behind him, no further off than the wheel is from the horse that draws the master and his car at full stretch: the tail-hairs brush the rim, and there's no gap to speak of as it runs. That was how close Menelaus came in behind Antilochus, though at the start he'd been a full discus-throw back. He had caught up fast, for Agamemnon's mare Aethe pulled harder with every stride; and had the course run a little longer, he'd have passed him clean, with no question of a tie. A spear-cast behind Menelaus came Meriones, the noble squire of Idomeneus, with the slowest horses of all and the least skill at driving. Last of them came the son of Admetus, dragging his fine car, driving his horses on foot before him. When Achilles saw him, he pitied him, and stood and spoke among the Greeks: \"The best man comes in last. Come — let us give him a prize; it's only right. The second prize; the first must go to the son of Tydeus.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "So he spoke, and they all agreed, and would have done it — but Antilochus, Nestor's son, stood up and claimed his right against the son of Peleus: \"Achilles, I'll take it very ill if you do this. You mean to rob me of my prize, because you think Eumelus's car and horses came to grief, and the good man with them. He should have prayed to the immortals — then he'd not have finished last. If you pity him so much, you have plenty of gold in your hut, and bronze, and sheep, and serving-women, and horses. Take from those later and give him a still greater prize, or give it now, and let the Greeks praise you for it. But the mare I will not give up. Let any man who wants her come and fight me for her.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "Swift-footed Achilles smiled, glad in Antilochus, who was one of his dearest friends, and answered: \"Antilochus — if you want me to find Eumelus some other prize from my own store, I will. I'll give him the breastplate I stripped from Asteropaeus, bronze, with a casting of bright tin running all around the rim. It will be worth a great deal to him.\" He told his companion Automedon to bring the breastplate from the hut, and he brought it, and Achilles put it in Eumelus's hands, and he took it gladly."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "But Menelaus rose, sore at heart, his anger hot against Antilochus. A herald set the staff in his hand and called the Greeks to silence, and the great man spoke: \"Antilochus — you, who had been so sound until now — what have you done? You've shamed my skill and fouled my horses, throwing your slower team across their path. So I ask you, leaders and counselors of the Greeks: judge between us, and show neither of us favor — or one of the Greeks may someday say, 'Menelaus won the mare by browbeating Antilochus; his horses were the slower, but he had the rank and the weight.' No — I'll settle it myself, and no man will fault me; I'll do what's fair. Come here, Antilochus, as our custom is. Stand before your horses and your car, take in your hand the supple whip you drove with, lay your hand on the horses, and swear by Poseidon, who holds and shakes the earth, that you did not foul my car on purpose, by a trick.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0038",
+          "order": 38,
+          "kind": "paragraph",
+          "text": "And Antilochus, with good sense, answered: \"Forgive me. I'm much the younger, King Menelaus; you are the elder and the better man. You know how a young man oversteps — quick-tempered, short on judgment. Let your heart bear with me. I'll give up the mare I won of my own free will; and if you asked anything more of mine, I would rather hand it to you here and now than fall, all my days after, out of your good favor, and stand in the wrong before the gods.\" With that the son of Nestor led the mare over and put her in the hands of Menelaus, and his anger melted — as the dew softens the standing grain when the fields bristle with the ripening harvest. So your heart softened, Menelaus, within you. And he answered him warmly: \"Antilochus, now it is I who give way to you, of my own will, for all my anger. You were never reckless or foolish before this; it was only your youth that got the better of your sense. Another time, think twice before you outwit your betters. No other man could have talked me round so easily — but you and your good father and your brother have suffered too much on my account. So I yield to your asking, and I give you the mare, though she is mine by right; and let the people see that my heart is neither hard nor unforgiving.\" He gave the mare to Antilochus's companion Noemon to lead away, and took the gleaming cauldron for himself."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0039",
+          "order": 39,
+          "kind": "paragraph",
+          "text": "Meriones, who came in fourth, carried off the two bars of gold. The fifth prize — the two-handled jar — went unclaimed, and Achilles carried it across the ring to Nestor and set it in his hands, and said: \"Take this, old friend, and keep it as a treasure, a remembrance of the funeral of Patroclus — for you will see him no more among the Greeks. I give it to you for nothing won, for you can no longer box, or wrestle, or enter the javelin, or run the footrace. The weight of the years lies hard on you now.\" And he put the jar in his hands. Nestor took it gladly and answered: \"Yes, my son, everything you say is true. The strength is gone from my legs and my feet, and my arms no longer flash out quick from the shoulder. If only I were young again, and my strength still whole, as in the days when the Epeans buried lord Amarynceus at Buprasium, and his sons set out games in his honor! No man could match me there — not of the Epeans, nor the Pylians themselves, nor the brave Aetolians. In boxing I beat Clytomedes, son of Enops; in wrestling, Ancaeus of Pleuron, who stood up against me. I outran Iphiclus, fast as he was, and I threw the spear past both Phyleus and Polydorus. Only in the chariot race did the two sons of Actor get the better of me, crowding me with their numbers, sore that the greatest prizes were still to come. They were twins: one held the reins, steady, while the other plied the whip. That was the man I was. But these things are for younger men now; I must bow to bitter old age, though once I shone among heroes. Go on, then — honor your friend with the games. This gift I take with gladness, and my heart is warm that you remember me, and remember the honor that is due me among the Greeks. May the gods give you grace in return, in full measure.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0040",
+          "order": 40,
+          "kind": "paragraph",
+          "text": "When the son of Peleus had heard out all of Nestor's thanks, he went back through the gathered Greeks and set out the prizes for the hard art of boxing. He led out a sturdy mule and tied her in the middle of the ring — six years old, unbroken, and a mule is hardest of all to break at that age. That was for the winner; for the loser, a two-handled cup. He stood and spoke among the Greeks: \"Son of Atreus, and you other Greeks — let our two best men stand up and box for these prizes, hands high. The man Apollo grants the longer wind, and the Greeks acknowledge the winner, takes the mule home to his own hut; the loser carries off the two-handled cup.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0041",
+          "order": 41,
+          "kind": "paragraph",
+          "text": "At that a man rose — big, and brave, and a skilled boxer — Epeius, son of Panopeus. He laid his hand on the mule and said: \"Let the man who'll settle for the cup come forward — for the mule, I tell you, no one but me is leading away. I'm the best boxer here. Isn't it enough that I fall short on the battlefield? No man can be good at everything. But this I'll say plainly, and it will come true: I'll smash whoever fights me, I'll break his bones. Better have his people standing by in a crowd to carry him off when I'm done.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0042",
+          "order": 42,
+          "kind": "paragraph",
+          "text": "They all sat silent. Only one man rose against him: Euryalus, son of Mecisteus, who was the son of Talaus — Mecisteus, who once went to Thebes for the funeral games after the fall of Oedipus, and beat every son of Cadmus there. Diomedes, the son of Tydeus, was Euryalus's second, cheering him on, longing with all his heart to see him win. He buckled the belt around his waist and gave him well-cut thongs of ox-hide. The two men, girded, stepped into the middle of the ring, and squared off, and threw up their heavy fists at each other. There was a terrible grinding of jaws, and the sweat ran from every limb. Then Epeius came in and caught Euryalus on the cheek as he glanced aside, and his legs went out from under him on the spot. As a fish leaps clear of the water in the weed-strewn shallows when the North Wind ruffles the surface, and the dark wave takes it back — so Euryalus leaped at the blow. But great-hearted Epeius caught him in his arms and set him on his feet, and his companions gathered round and led him out of the ring, his legs dragging, his head lolling to one side, spitting out clots of blood. They sat him down among them, dazed, and went themselves to fetch the two-handled cup."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0043",
+          "order": 43,
+          "kind": "paragraph",
+          "text": "Then the son of Peleus set out the prizes for the third contest, the hard art of wrestling, and showed them to the Greeks. For the winner, a great tripod for the fire, which the Greeks valued among themselves at twelve oxen. For the loser, a woman skilled in fine work, valued at four oxen. He stood and spoke: \"Stand up, the two who will try this contest.\" And up rose great Ajax, the son of Telamon, and Odysseus rose too, full of cunning. The two girded themselves and stepped into the ring, and gripped each other in their strong arms like the crossed rafters a master builder pitches in a high house to hold out the wind. Their backbones cracked under the strain of those mighty arms, and the sweat poured down. Welts rose red along their ribs and shoulders, but they wrestled on, straining for the win and the tripod. Odysseus could not throw Ajax, nor Ajax Odysseus — Odysseus was too solid. But when the Greeks were tiring of the long contest, the great Ajax, son of Telamon, said: \"Son of Laertes, resourceful Odysseus — lift me, or I'll lift you, and let Zeus settle the rest.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0044",
+          "order": 44,
+          "kind": "paragraph",
+          "text": "And he heaved him up. But Odysseus did not forget his cunning: he kicked Ajax behind the knee, buckled his legs, and dropped him on his back, and came down on his chest — and the watchers stared in wonder. Then Odysseus tried to lift Ajax in turn, and stirred him just clear of the ground, but could not heave him up; his own knee gave, and the two of them went down side by side and were caked with the dust. They sprang up to grapple a third time — but Achilles rose and held them back: \"No more — don't wear each other down with this hard punishment. The win is with you both. Take equal prizes, and go, and let the other Greeks have their turn.\" They heard him gladly and obeyed, wiped the dust from their bodies, and put their tunics back on."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0045",
+          "order": 45,
+          "kind": "paragraph",
+          "text": "Then the son of Peleus set out the prizes for the footrace. First, a mixing-bowl of worked silver, holding six measures, the loveliest thing of its kind in all the world — the work of master craftsmen of Sidon, carried over the misty sea by Phoenician traders, who had given it to Thoas; Euneus, son of Jason, had passed it to Patroclus as the ransom for Priam's son Lycaon; and now Achilles set it down as a prize in his friend's honor, for the swiftest runner. For second, a great ox, fat and well-fed; for last, half a bar of gold. He stood and spoke: \"Stand up, the men who will try this contest.\" And up rose swift Ajax, son of Oileus, and resourceful Odysseus, and Antilochus, Nestor's son, the fastest of all the young men of his day. They lined up side by side, and Achilles showed them the mark. From the start the son of Oileus shot to the front, and right on his heels came Odysseus — as close as the weaving-rod rides to a woman's breast when she draws the thread across the warp and holds it tight against herself; that close Odysseus ran, his feet falling in the prints before the dust could rise in them, his breath on the back of Ajax's head. All the Greeks shouted for him as he strained for the win. But as they came into the last of the course, Odysseus prayed in his heart to bright-eyed Athena: \"Hear me, goddess — be a good help to my feet.\" So he prayed, and Pallas Athena heard him and made his limbs light, his legs and his arms. And just as they were about to lunge for the prize, Athena tripped Ajax in his stride, where the dung lay strewn from the bellowing oxen swift Achilles had slaughtered for Patroclus — and his mouth and his nostrils were filled with the filth. So resourceful Odysseus, getting in front, carried off the silver bowl, and Ajax took the ox and stood holding it by the horn, spitting out the dung, and said to the Greeks: \"Damn it — the goddess fouled my running. She stands by Odysseus like a mother, and always has.\" And they all laughed at him, hard."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0046",
+          "order": 46,
+          "kind": "paragraph",
+          "text": "Then Antilochus carried off the last prize, smiling, and said to them all: \"You see it again, friends — the gods still honor the older men. Ajax is a little older than I am, but Odysseus belongs to an earlier generation altogether — and yet they call him green old age. It's no light thing for a Greek to race him; only Achilles.\" So he spoke, and paid a compliment to the swift-footed son of Peleus, and Achilles answered: \"Antilochus — that praise won't go unpaid. I'll add a half-bar of gold to your prize.\" And he put it in his hands, and Antilochus took it gladly."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0047",
+          "order": 47,
+          "kind": "paragraph",
+          "text": "Then the son of Peleus brought out into the ring a long spear, a helmet, and a shield — the gear that had been Sarpedon's, that Patroclus stripped from him. He stood and spoke: \"Let two champions stand up — the best — and arm themselves, take up the cutting bronze, and try each other before the whole company. Whichever of the two first reaches the other's flesh, through the armor, and draws dark blood, to him I'll give this fine Thracian sword, silver-studded, that I took from Asteropaeus; the armor the two will hold in common, and I'll set a good meal before them both in my hut.\" At that great Ajax, son of Telamon, rose, and mighty Diomedes, son of Tydeus, rose too. When they had armed, each on his own side of the ring, they came together in the middle, hungry to fight, the glint of it terrible in their eyes, and the Greeks marveled to see them. Three times they closed and lunged, and three times they tried to strike. Ajax drove his spear through the round shield of Diomedes, but did not reach the flesh — the breastplate behind it held. Then the son of Tydeus, over the top of the great shield, kept reaching again and again for the throat of Ajax with the point of his spear. And the Greeks, afraid for Ajax, called out for them to stop and to share the prizes between them. But Achilles gave the great sword to the son of Tydeus, with its sheath and the well-cut sword-belt."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0048",
+          "order": 48,
+          "kind": "paragraph",
+          "text": "Next the son of Peleus brought out a lump of pig-iron, the unworked mass that mighty Eetion used to hurl, until Achilles killed him and carried it off among the rest of the spoils in his ships. He stood and spoke: \"Stand up, the men who will try this contest. Win this, and a man will have iron enough to last him five whole years, however far his good fields lie from a town. His shepherd and his plowman won't have to make the journey for it — he'll have his own store at home.\" At that rose the two strong men Polypoetes and Leonteus, and Ajax, son of Telamon, and noble Epeius. They took their stand in turn. Epeius gripped the mass, swung it, and let it fly — and set all the Greeks laughing, it fell so short. Then Leonteus, of the line of Ares, threw. Third, Ajax, son of Telamon, hurled it past every mark made yet. But when mighty Polypoetes took the iron, he sent it as far past the others as a herdsman flings his throwing-stick to wheel his cattle in. The whole crowd roared, and his companions carried the prize off for him to his ship."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0049",
+          "order": 49,
+          "kind": "paragraph",
+          "text": "Then for the archers he set out dark iron — ten double axes and ten single. He raised a ship's mast far off in the sand and tethered a fluttering dove to it by the foot with a fine cord, and that was the mark. \"Whoever hits the dove,\" he said, \"takes all ten double axes home; whoever misses the bird but hits the cord has shot worse, and takes the single axes.\" Up rose lord Teucer, and Meriones, the strong squire of Idomeneus, rose too. They shook lots in a bronze helmet, and Teucer's came out first. He let his arrow fly at once — but he had not promised Apollo, the lord of the bow, a glad sacrifice of first-born lambs, and so he missed the bird; the god begrudged him that. But he struck the cord that tethered her, close by the foot, and the sharp arrow cut it clean through, so the cord swung down toward the ground and the dove shot up into the sky, and the Greeks shouted. Then Meriones, who had his own arrow ready while Teucer aimed, snatched the bow from his hand, and at once vowed to Apollo, the lord of the bow, a glad sacrifice of first-born lambs. High up under the clouds he saw the dove still circling, and as she wheeled he struck her clean through the wing; the arrow passed through and came back down and stood in the ground at his feet, while the bird settled on the mast with her head drooping and her thick feathers slack, and the life went out of her, and she dropped, far off, from the mast. The people watched, and marveled. Meriones took all ten double axes, and Teucer carried the single ones away to his ships."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0050",
+          "order": 50,
+          "kind": "paragraph",
+          "text": "Last, the son of Peleus brought in a long spear and a cauldron, untouched by fire, chased with a flower-pattern, worth one ox. The spear-throwers stood up: Agamemnon, son of Atreus, lord of men, and Meriones, the strong squire of Idomeneus. But swift-footed Achilles spoke: \"Son of Atreus — we know how far you surpass all others, and how far the strongest you are at the throw. So take this prize back to your ships, and let us give the spear to Meriones — if it pleases you. That, at least, is what I would wish.\" And Agamemnon, lord of men, did not refuse him. Achilles gave the bronze spear to Meriones, and put the splendid cauldron, Agamemnon's prize, into the hands of the herald Talthybius."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-23.seg-0051",
+          "order": 51,
+          "kind": "paragraph",
+          "text": "[Trans. note: Achilles ends the games by handing Agamemnon a prize he never has to throw for — a deliberate gesture of honor to the king he had defied in Book I. The quarrel that opened the poem is, for a day, formally laid to rest.]"
+        }
+      ]
+    },
+    {
+      "id": "edition.iliad.lectio-modern.book-24",
+      "order": 24,
+      "label": "Book XXIV",
+      "title": "The Ransom of Hector",
+      "segments": [
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The assembly broke up, and the men scattered, each to his own ship. They made their supper and turned to the blessing of sleep. But Achilles wept, remembering his dear friend, and sleep, that masters all things, could get no hold on him. He turned this way and that, aching for Patroclus — his strength, his manhood, all they had done and suffered together, the battles fought side by side, the hard miles of the cruel sea. The memory broke him, and he wept, lying now on his side, now on his back, now face down — until at last he rose and wandered out along the shore like a man out of his mind. And when he saw the dawn breaking over the beach and the water, he yoked his horses to the chariot, lashed Hector's body behind it, and dragged it three times around the tomb of the son of Menoetius. Then he went back inside, and left the body stretched in the dust, face down. But Apollo would not let it be disfigured. He pitied the man, dead though he was, and sheltered him with his golden aegis, so the body took no hurt as Achilles dragged it."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So in his fury Achilles shamed noble Hector. But the blessed gods looked down and pitied him, and pressed Hermes, the keen-eyed slayer of Argus, to steal the body away. All of them wanted it — all but Hera and Poseidon and the bright-eyed daughter of Zeus, who held to the hatred they had carried for sacred Troy from the start, for Priam and his people, ever since Paris insulted the goddesses who came to his sheepfold, and chose the one who offered him the wages of lust and his own ruin."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "When the twelfth morning came, Phoebus Apollo spoke out among the immortals: \"You gods are cruel, and hard to the bone. Did Hector never burn for you the thigh-bones of bulls and unblemished goats? And now you cannot bring yourselves to save even his dead body — for his wife to look on, and his mother, and his child, and his father Priam, and his people, who would give him to the fire and bury him with honor? No, it's murderous Achilles you would help — a man with no decency, no pity, nothing to bend him. His heart is iron. He is like a lion that gives in to its own great strength and savage pride and falls on a flock of sheep to make its feast. So Achilles has thrown away pity, and that sense of shame that ruins a man, or saves him, depending on how he heeds it. A man may lose someone dearer than Achilles has lost — a brother born of the same mother, or a son. He weeps, he mourns, and then he lets him go, for the Fates have given mortals an enduring heart. But this one — he has killed noble Hector, and now he ties him behind his chariot and drags him round the tomb of his friend. There's no honor in it, no good for him. Let him take care: brave as he is, he may stir our anger, for it is dead, dumb earth he rages against.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then white-armed Hera rounded on him in anger: \"What you say might stand, lord of the silver bow, if you gods meant to give Hector and Achilles equal honor. But Hector is a mortal, and a mortal woman's breast suckled him; Achilles is the child of a goddess — and I myself raised her and brought her up and gave her in marriage to Peleus, the man the immortals loved above all others. Every one of you came to the wedding; you sat at the feast among us, lyre in hand, you who keep low company and break faith.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Then Zeus who gathers the clouds answered her: \"Hera, don't turn on the gods like this. The two men will not have equal honor. But of all the mortals in Troy, Hector was dearest to the gods, and dearest to me — for he never failed in his offerings. My altar never went without its share, the libation and the savor of sacrifice, the honor that is ours by right. Still, we will not let his body be stolen; there is no doing it behind Achilles' back, for his mother is always at his side, night and day. Let one of you call Thetis to me. I have something to say to her — that Achilles is to take a ransom from Priam, and give the body up.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "At that, Iris, swift as the storm, went to carry his word. Down she plunged into the dark sea, midway between Samos and rocky Imbros, and the water groaned as it closed over her. She sank like the lead weight on a fishing line, set in a tube of wild-ox horn, that drops down carrying death to the fish. She found Thetis in a hollow cave, the sea-goddesses gathered around her, and Thetis there in the middle of them, weeping for her flawless son, who was fated to die far from home on the rich earth of Troy. Swift Iris came up to her and said: \"Rise, Thetis. Zeus, whose counsels never fail, calls you to him.\" And the silver-footed goddess answered: \"Why does the great god summon me? I shrink from going among the immortals; my heart is heavy with endless grief. Still, I will go, and whatever he says will not be said in vain.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Then the lovely goddess took her veil, and there is no darker robe than that, and went out, swift Iris leading the way before her, and the swell of the sea parted around them. They climbed up onto the shore, then up into the sky, and found the wide-seeing son of Cronus, with the other blessed immortals seated around him. Athena gave up her place, and Thetis sat down beside Father Zeus. Hera put a fair golden cup into her hand and spoke a word of comfort, and Thetis drank, and gave it back. Then the father of gods and men was the first to speak."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "\"You have come up to Olympus, goddess, for all your sorrow — and I know the grief that never leaves your heart. Even so, I'll tell you why I called you. For nine days the immortals have quarreled over Hector's body and Achilles, sacker of cities. They would have keen-eyed Hermes steal the corpse away. But I mean to give your son this honor instead, and keep your love and goodwill in the days to come. Go quickly to the camp, and lay this on him: tell him the gods are angry, and that I am angrier than them all, that in his fury he keeps Hector at the ships and will not give him up. Let him fear me, then, and release the body. Meanwhile I will send Iris to great-hearted Priam, to bid him go to the ships of the Greeks and ransom his dear son, carrying gifts to soften Achilles' heart.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Silver-footed Thetis did not refuse. Down she darted from the peaks of Olympus and came to her son's shelter. She found him there, groaning without end, while his companions moved about him, busy, making the morning meal — a great fleeced ram lay slaughtered in the hut. His honored mother sat close beside him, stroked him with her hand, and spoke his name: \"My child, how long will you eat your own heart out with grief and mourning? You think nothing of food, nothing of a woman's bed. It would do you good — for you have little time left; already death and the hard hand of fate are standing close. Now listen to me. I come to you from Zeus. He says the gods are angry with you, and that he is angrier than them all, that in your fury you keep Hector at the ships and will not give him up. Let the body go, then, and take a ransom for the dead.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "And swift-footed Achilles answered her: \"So be it. Let the man who brings the ransom take the body away, if the Olympian himself, of his own will, commands it.\" So at the ships, mother and son spoke on together at length."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Meanwhile the son of Cronus sent Iris to holy Troy: \"Go, swift Iris, down from the heights of Olympus, and tell great-hearted Priam in the city to go to the ships of the Greeks and ransom his dear son, bearing gifts to soften Achilles' heart. He is to go alone — no other Trojan with him, only an old herald to drive the mules and the smooth-running wagon, and to carry home the body of the man noble Achilles killed. Let him put away the thought of death, and any fear; I will give him keen-eyed Hermes as escort, to lead him all the way to Achilles. And once Hermes has brought him inside, Achilles will not kill him — he will hold the others back as well. He is no fool, nor blind, nor hardened against the gods; he will spare a suppliant, and treat him with the honor that is owed.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "So Iris, swift as the wind, sped off with the message. She came to Priam's house and found it full of weeping and wailing. The king's sons sat in the courtyard around their father, their clothes soaked with tears, and the old man in their midst, wrapped close in his cloak, his head and neck fouled with the dung he had clawed up and ground into himself, rolling on the ground. His daughters and his sons' wives moved through the house lamenting, remembering all the brave men who lay dead, cut down by the Greeks. The messenger of Zeus came up to Priam and spoke softly, and the trembling took him as she did. \"Take heart, Priam, son of Dardanus,\" she said. \"Take heart, and have no fear. I am not here to bring you harm, but good. I come from Zeus, who, far off as he is, takes thought for you and pities you. The Olympian commands you to go and ransom noble Hector, carrying gifts to soften Achilles' heart. You are to go alone, no other Trojan with you, only an old herald to drive the mules and the smooth-running wagon, and to bring back to the city the body of the man noble Achilles killed. Put away the thought of death, and any fear. Hermes will go as your escort and guide, and lead you all the way to Achilles. And when he has brought you inside the tent, Achilles will not kill you — he will hold the others back as well. He is no fool, nor blind, nor hardened against the gods; he will spare a suppliant, and treat him with the honor that is owed.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "With that, swift Iris was gone. Priam told his sons to make ready a strong-wheeled mule-cart and to lash the wicker body fast on top of it. Then he went down to his fragrant storeroom, high-roofed and built of cedar, where his many treasures lay, and called his wife Hecuba to him. \"Wife,\" he said, \"a messenger has come to me from Olympus and told me to go to the ships of the Greeks and ransom our dear son, carrying gifts to soften Achilles' heart. Tell me — what do you make of it? My own heart and spirit drive me hard to go down there, to the ships, to the broad camp of the Greeks.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "His wife cried out and answered him: \"No — where has your judgment gone, the judgment that once made you famous among strangers and among your own? How can you bring yourself to go alone to the ships of the Greeks, to look in the face of the man who has killed so many of your brave sons? Your heart is iron. If that cruel, faithless man lays eyes on you and gets you in his hands, he will show you no respect, no pity at all. No — let us mourn Hector here, in our own house, from far off. This is the doom that fate spun for him at his birth, when I bore him: that he should glut the swift dogs far from his parents, in the house of that violent man. I wish I could fasten on his liver and eat it. That would be some payment for my son — who was no coward when Achilles killed him; he stood his ground for the men of Troy and the deep-girdled women of Troy, with no thought of flight or hiding.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Then the old man, godlike Priam, answered: \"I am set on going. Do not hold me back, and do not be a bird of ill omen in my own house — you will not turn me. If some mortal had told me this — a prophet, a reader of sacrifice, a priest — I would have called it a lie and turned my back on it. But I heard the goddess myself; I saw her face to face. So I will go, and her word will not be in vain. And if it is my fate to die at the ships of the Greeks, then let it be. Let Achilles cut me down — once I have taken my son in my arms, once I have let my grief have its way.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "So he lifted the lids of his fine chests and chose out twelve splendid robes, twelve single cloaks, twelve blankets, twelve white mantles, and as many tunics with them. He weighed out ten full talents of gold, and brought two gleaming tripods, four cauldrons, and a cup of great beauty that the men of Thrace had given him when he went to them as an envoy — a treasured thing, but the old man spared not even this, so fiercely did he long to ransom his dear son. Then he drove all the Trojans from his porch, scolding them in his anger: \"Out — you good-for-nothings, you disgraces. Have you no grief of your own at home, that you come to torment me here? Is it nothing to you that Zeus has sent me this sorrow — to lose the best of my sons? You'll learn what it is soon enough; now that he's dead, you'll be that much easier for the Greeks to kill. But as for me, let me go down into the house of Hades before my eyes see the city sacked and laid waste.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "He drove them off with his staff, and they fled before the old man's fury. Then he called angrily to his own sons — Helenus and Paris and noble Agathon, Pammon and Antiphonus and Polites of the war cry, Deiphobus and Hippothous and brave Dius. To these nine the old man shouted his commands: \"Hurry, you worthless sons, my shame. I wish all of you had been killed at the ships instead of Hector. What a wretched man I am. I fathered the best sons in all wide Troy, and not one of them is left — not Mestor like a god, nor Troilus who fought from his chariot, nor Hector, who walked among men like a god, who seemed the son of no mortal but of a god. Ares has destroyed them all, and only the shameful ones are left me — the liars, the dancers, fine heroes at beating the floor, thieves of lambs and kids from your own people. Will you not get the wagon ready for me, now, this moment, and load all this on it, so I can be on my way?\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "They cringed under their father's rebuke and brought out the strong, new mule-cart, and lashed the wicker body fast on top of it. They lifted down the boxwood mule-yoke from its peg, knobbed and fitted with rings for the reins, and brought the yoke-strap with it, eleven cubits long. They settled the yoke on the polished pole at the upturned end, slipped the ring over the peg, lashed it with three turns each way around the knob, then bound the loose end fast and tucked it under. Then they carried out from the storeroom the boundless ransom for Hector's head and stacked it on the cart, and yoked the strong-hooved mules the Mysians had once given Priam as a fine gift. And for Priam they led under the yoke the horses the old king himself had bred and reared at his own stall."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "So the two of them, the king and his herald, both with care on their minds, were having the chariot yoked in the high palace, when Hecuba came near them, grieving. She carried sweet wine in a golden cup in her right hand, for them to pour an offering before they went. She stood in front of the horses and spoke: \"Here — pour to Father Zeus, and pray for a safe return from the hands of your enemies, since your heart is set on going to the ships against my will. Pray to the son of Cronus, lord of the storm-cloud, who watches over all of Troy from Ida, and ask him to send his swift bird of omen on your right — the bird he loves best, the strongest in the sky — so you may see it with your own eyes and trust it as you go down to the ships of the Greeks. But if Zeus the wide-seeing will not send you his messenger, then I would not have you go, however set on it you are.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "And godlike Priam answered: \"Wife, I will not refuse you in this. It is good to lift the hands to Zeus, in hope that he will pity us.\" So the old man told the housekeeper to pour clean water over his hands, and she came, holding the basin and the pitcher. He washed, and took the cup from his wife, and standing in the middle of the courtyard he prayed, looking up to the sky, and poured the wine: \"Father Zeus, who rule from Ida, greatest and most glorious — grant that I find welcome and mercy when I come to Achilles. Send me your swift bird of omen on the right, the bird you love best, the strongest in the sky, so I may see it with my own eyes and trust it as I go down to the ships of the Greeks.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "So he prayed, and Zeus the lord of counsel heard him. At once he sent down an eagle, surest of all winged omens, the dark hunter that men also call the dusky eagle. Wide as the well-fitted, well-bolted door of a rich man's high chamber were its wings, spread on either side; and it swept across the city on their right. They saw it, and their hearts lifted in their breasts. The old man climbed quickly into his chariot and drove out through the gateway and the echoing portico. Before him the mules drew the four-wheeled cart, driven by wise Idaeus, and behind came the horses, which the old man drove with the lash, fast through the city. His kinsmen all followed, weeping for him as if he were going to his death. But when they had come down out of the city onto the plain, the sons and the sons-in-law turned back to Troy."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "Priam and Idaeus did not pass unseen out onto the plain. Zeus the wide-seeing looked down on the old man and pitied him, and at once he spoke to his dear son Hermes: \"Hermes — escorting a man is the work you love best of all, and you listen to whom you please. Go now, and lead Priam to the hollow ships of the Greeks so that no one sees him, no one of the Greeks marks him, until he reaches the son of Peleus.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "So he spoke, and the guide, the slayer of Argus, obeyed. At once he bound under his feet the lovely golden sandals, undying, that bore him over the water and the boundless earth as fast as the breath of the wind. And he took up the wand with which he lulls men's eyes to sleep, or wakes the sleeping as he pleases, and flew, holding it, the strong slayer of Argus, until he came to Troy and the Hellespont. There he went on in the likeness of a young prince with the first down on his lip, in the loveliest hour of youth."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "Now when the two had driven past the great barrow of Ilus, they halted the mules and horses at the river to let them drink, for darkness was coming down over the land. And the herald looked up and made out Hermes close beside them, and he said to Priam: \"Look hard, son of Dardanus — this calls for a careful mind. I see a man, and I think we are about to be cut down. Come, let us flee with the horses — or take hold of his knees and beg him to have pity.\" At that the old man's mind reeled and the fear ran cold through him; the hair stood up on his bent body, and he stood there, stunned. But the kindly god came up to him on his own, took the old man by the hand, and asked him: \"Where are you going, father, with your horses and mules, through the deep of the night, when other men are asleep? Are you not afraid of the Greeks, breathing their fury so near you, men with no mercy and no relenting? If one of them caught you carrying such treasure through the swift black night — what then? You are not young, and the man with you is old; you could not fend off an attacker. But I will do you no harm — I will keep others off you. You are like my own father in my eyes.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "And the old man, godlike Priam, answered him: \"It is just as you say, dear child. But still, some god has held his hand over me, to send a traveler like you across my path at such an hour — for you are beautiful in form and bearing, and your mind is sound. You must be born of blessed parents.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "Then the guide, the slayer of Argus, answered: \"Old man, all of that is true. But tell me this, and tell me straight: are you sending all this rich treasure off to safety among foreign people — or are you all abandoning sacred Troy in fear, now that the best of your men has fallen, your son, who never gave ground to the Greeks in battle?\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "And the old man, godlike Priam, said: \"Who are you, fine young man? Whose son? How is it you speak so truly of the fate of my doomed son?\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "And the guide, the slayer of Argus, answered: \"You are testing me, old man, asking about noble Hector. Many a time I saw him with my own eyes in the fighting that wins glory, and again when he drove the Greeks back on their ships and cut them down with the bronze. We stood there in wonder, for Achilles in his anger at the son of Atreus would not let us fight. I am Achilles' man; the same ship carried us here. I am a Myrmidon. My father is Polyctor — a rich man, about as old as you. He has seven sons; I am the seventh. We cast lots, and the lot fell on me to come here with Achilles. I have come up from the ships to the plain just now, for at dawn the bright-eyed Greeks will set the battle around the city. They chafe at sitting idle, and their kings can no longer hold them back from war.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "And the old man, godlike Priam, answered: \"If you are truly a man of Achilles, son of Peleus, then tell me the whole truth: is my son still lying by the ships, or has Achilles already hacked him limb from limb and thrown him to the dogs?\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "Then the guide, the slayer of Argus, said: \"Old man, the dogs have not eaten him, nor the birds. He still lies there by the ship of Achilles, in the shelter, just as he was. This is the twelfth day he has lain there, and his flesh has not rotted, nor have the worms touched him, the worms that eat men killed in war. True, every dawn Achilles drags him without mercy round the tomb of his dear friend — but it does him no harm. You would marvel to come and see how he lies, fresh as dew, the blood all washed from him, no stain on him anywhere. Every wound has closed, all the wounds men dealt him, for many drove their bronze into him. So the blessed gods care for your good son, even dead, for he was dear to their hearts.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "The old man was glad to hear it, and said: \"My child, it is a good thing to give the immortals their due. As surely as he was ever mine, my son never forgot, there in our halls, the gods who hold Olympus — and now they remember him in the house of death. Come, take this fine cup from my hands; and in return, guard me, and lead me, with the gods' help, until I come to the shelter of the son of Peleus.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "Then the guide, the slayer of Argus, answered: \"You are testing me, old man, and I am young — but you will not move me, asking me to take a gift behind Achilles' back. I have too much fear and reverence for him to rob him; some harm might come of it later. But I would be your guide, with all care, even all the way to famous Argos, on a swift ship or on foot, and no one would scorn your escort and attack you.\" With that the kindly god leapt up into the chariot, took the whip and the reins in his hands, and breathed fresh strength into the horses and mules."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "When they came to the trench and the wall before the ships, the sentries were just then setting out their supper, and the slayer of Argus poured sleep over them all, and drew back the bolts, and opened the gates, and led Priam in, and the splendid gifts on the cart. And they came to the high shelter of the son of Peleus, which the Myrmidons had built for their king, cutting the pine themselves; they roofed it with shaggy reeds they had mown from the meadow, and around it they raised a great courtyard for their king, fenced with close-set stakes. One bar of pine held the gate — it took three men to drive it home and three to draw it back, but Achilles could work it alone. Then Hermes, the kindly god, opened the gate for the old man and brought in the glorious gifts for the swift-footed son of Peleus, and stepped down from the chariot to the ground, and said: \"Old man, it is a god who has come with you — I am the immortal Hermes; my father sent me to be your guide. But now I will go; I will not come into Achilles' sight. It would give offense for a god to show such open favor to mortals. You go in, and take the knees of the son of Peleus, and beg him by his father, by his lovely-haired mother, and by his son, to move his heart.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "With that Hermes was gone, back to high Olympus. And Priam stepped down from the chariot to the ground, leaving Idaeus there to keep the horses and mules. The old man went straight to the shelter where Achilles, beloved of Zeus, was sitting. He found him within, his companions seated apart; only two, the warrior Automedon and Alcimus, son of Ares' line, were busy near him, waiting on him. He had just finished his meal, eating and drinking, and the table still stood beside him. Great Priam came in unseen, and standing close he took Achilles' knees in his arms, and kissed his hands — those terrible, man-killing hands that had killed so many of his sons."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "As when blind madness takes a man, and in his own land he kills another, and flees to a far country, to a rich man's house, and all who see him stare — so Achilles stared, amazed, at the sight of godlike Priam. The others looked at one another in wonder. But Priam made his plea: \"Remember your own father, godlike Achilles — a man as old as I am, on the bitter threshold of old age. Maybe his neighbors are pressing him hard, with no one to keep off ruin and harm. Yet even so, while he hears that you are still alive, his heart lifts, and every day he hopes to see his beloved son come home from Troy. But I — I am the most cursed of men. I fathered the bravest sons in all wide Troy, and I tell you, not one of them is left. Fifty I had when the Greeks came: nineteen from a single womb, the rest borne to me by women of my house. Furious Ares has cut the knees out from under most of them. And the one who was left, who alone guarded the city and its people — him you have just now killed, fighting for his own land: Hector. For his sake I have come to the ships of the Greeks, to ransom him from you, and I bring a boundless ransom. So have reverence for the gods, Achilles, and pity me, remembering your own father. I am more to be pitied than he. I have brought myself to do what no other man on earth has done — to lift to my lips the hand of the man who killed my son.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "So he spoke, and he stirred in Achilles a longing to weep for his own father. He took the old man's hand and pushed him gently away. And the two of them remembered: Priam, crouched at Achilles' feet, wept hard for Hector the killer of men, and Achilles wept now for his father, now again for Patroclus, and the sound of their mourning filled the house. But when noble Achilles had had his fill of grief, and the ache had gone out of his heart and his limbs, he rose from his seat and lifted the old man up by the hand, pitying his gray head and gray beard, and spoke to him with winged words: \"Poor man — what your heart has borne. How could you bring yourself to come alone to the ships of the Greeks, to the eyes of the man who killed so many of your fine sons? Your heart is iron. Come, sit on this seat. However much it hurts us, let us let our grief lie quiet in our hearts. There is nothing to be gained by cold mourning. This is the way the gods have spun it for us, for wretched mortals: that we live in sorrow, while they themselves have no cares."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "\"On the floor of Zeus's house stand two jars of the gifts he gives — one of evils, the other of blessings. To the man Zeus the thunderer hands a mixture from both, evil and good come by turns. But to the man he gives only from the jar of sorrows, that man he makes a thing of contempt — a raw hunger drives him over the shining earth, and he wanders honored by neither gods nor men. So it was with Peleus. The gods gave him glittering gifts from his very birth: he outshone all men in wealth and good fortune, he was king over the Myrmidons, and the gods gave him, a mortal, a goddess for his wife. But even on him a god laid an evil too — no line of strong sons born in his halls to come after him, only one child, doomed to an early death. And I am no comfort to him in his old age, since here I sit, far from my own country, in Troy, bringing grief to you and to your children. And you, old man — once, we hear, you too were happy. In all the land bounded by Lesbos out to sea and Phrygia inland and the wide Hellespont, they say no one matched you in wealth and in sons. But ever since the gods of heaven brought this affliction on you, there has been nothing around your city but battle and the killing of men. Bear it. Do not grieve on and on without end. You will gain nothing by mourning for your son. You will not raise him up again, and you may suffer some new sorrow first.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0038",
+          "order": 38,
+          "kind": "paragraph",
+          "text": "And the old man, godlike Priam, answered: \"Do not seat me, beloved of Zeus, while Hector lies uncared-for in your shelter. Give him to me, quickly, let me look on him with my own eyes — and take the great ransom we have brought. May you have the good of it, and come home safe to your own land, since you have let me go on living and looking on the light of the sun.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0039",
+          "order": 39,
+          "kind": "paragraph",
+          "text": "Swift-footed Achilles looked at him from under his brows and said: \"Push me no further, old man. I mean of my own will to give Hector back to you. My mother came to me from Zeus, the daughter of the old man of the sea. And I see clearly, Priam — you cannot hide it — that some god led you to the ships of the Greeks. No mortal, however young and strong, would dare to come into our camp; he could not pass the sentries unseen, nor lever back the bar of my gate so easily. So do not provoke my grief any further, or I may not spare you, old man, suppliant though you are in my shelter — and I would sin against the command of Zeus.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0040",
+          "order": 40,
+          "kind": "paragraph",
+          "text": "The old man was afraid, and obeyed. Then the son of Peleus sprang to the door like a lion, and not alone — two of his men went with him, the warrior Automedon and Alcimus, whom Achilles honored most of his companions now that Patroclus was dead. They unyoked the horses and mules, and led in the old king's herald and seated him, and lifted down from the polished cart the boundless ransom for Hector's head. But they left two cloaks and a fine-woven tunic, to wrap the body for the journey home. Then Achilles called the serving-women out to wash the body and anoint it, but first to carry it apart, so that Priam would not see his son — lest in his grief he could not hold his anger at the sight, and rouse the heart of Achilles, who might then kill him and sin against the command of Zeus. So the women washed the body and rubbed it with oil and wrapped it in the fine tunic and the cloak, and Achilles himself lifted it and laid it on a bier, and his men raised it onto the polished cart. Then he groaned, and called on the name of his dear friend: \"Do not be angry with me, Patroclus, if you learn, even in the house of Hades, that I have given noble Hector back to his father. He has paid a ransom that is not unworthy — and I will share it fairly with you, your due.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0041",
+          "order": 41,
+          "kind": "paragraph",
+          "text": "Then noble Achilles went back inside and sat down on the richly worked couch he had risen from, against the far wall, and spoke to Priam: \"Your son is given back to you, old man, as you asked. He lies on the bier. At first light you will see him for yourself, and carry him home. For now, let us think of supper. Even lovely-haired Niobe remembered to eat, when twelve of her children had died in her halls — six daughters and six sons in the prime of their youth. Apollo killed the sons with arrows from his silver bow, in anger at Niobe, and Artemis the archer killed the daughters, because Niobe had set herself beside lovely Leto: she said Leto had borne only two, while she herself had borne many. So the two, for all they were only two, destroyed them all. Nine days they lay in their blood, with no one to bury them, for the son of Cronus had turned the people to stone; and on the tenth the gods of heaven buried them. And then Niobe, worn out with weeping, remembered to eat. Now, somewhere among the rocks, in the lonely mountains of Sipylus, where they say the goddesses sleep, the nymphs who dance along the river Achelous — there, though she is stone, she still broods over the sorrows the gods gave her. So come, noble old man, let the two of us think of food. You can weep for your dear son again, once you have brought him into Troy — and he will cost you many tears.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0042",
+          "order": 42,
+          "kind": "paragraph",
+          "text": "With that swift Achilles sprang up and killed a white sheep, and his companions skinned it and dressed it well, and cut the meat skillfully, and ran it onto spits, and roasted it through, and drew it off. Automedon took the bread and set it round the table in fine baskets, and Achilles served the meat. They reached out their hands to the good things laid ready before them. And when they had put away their desire for food and drink, Priam, son of Dardanus, gazed at Achilles in wonder — how tall, how beautiful he was, the very likeness of a god to look on. And Achilles in turn wondered at Priam, son of Dardanus, at his noble face and the words he heard him speak. When they had had their fill of gazing at each other, the old man, godlike Priam, spoke first: \"Let me lie down now, beloved of Zeus, and quickly, so we may take our rest in the sweetness of sleep. Not once have my eyes closed beneath their lids since my son lost his life under your hands. Ever since, I have grieved and brooded over my countless sorrows, grinding myself into the dung of my courtyard. Only now have I tasted food, and let the bright wine pass my throat. Until now, I had taken nothing.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0043",
+          "order": 43,
+          "kind": "paragraph",
+          "text": "So Achilles told his men and the serving-women to set up beds under the portico, and to lay fine purple rugs on them, and spread blankets over them, and put thick cloaks on top to wrap themselves in. The women went out, torch in hand, and quickly made up the two beds. Then Achilles, the great runner, said to Priam, half in jest: \"Sleep outside, dear old man, in case one of the Greek counselors should come — they are always coming to sit with me and lay their plans, as is right. If one of them caught sight of you here through the swift black night, he would tell Agamemnon at once, and the giving-back of the body might be delayed. But tell me this, and tell me true: how many days do you need for the funeral of noble Hector? I will hold back myself, and hold back the army, for that long.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0044",
+          "order": 44,
+          "kind": "paragraph",
+          "text": "And the old man, godlike Priam, answered: \"If you would truly let me give noble Hector his burial, then, Achilles, you would do me a kindness in this. You know how we are penned inside the city; it is far to bring wood from the mountain, and the Trojans are full of fear. For nine days we would mourn him in our halls; on the tenth we would bury him and the people would feast; on the eleventh we would raise a mound over him; and on the twelfth we will fight again, if we must.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0045",
+          "order": 45,
+          "kind": "paragraph",
+          "text": "Then swift-footed noble Achilles answered: \"It shall be as you ask, old Priam. I will hold back the war for as long as you have named.\" And he clasped the old man's right hand at the wrist, so that his heart would have no fear. So they lay down to sleep there in the forecourt of the house, Priam and his herald, with much on their minds; but Achilles slept in the inner room of the well-built shelter, and beside him lay fair-cheeked Briseis."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0046",
+          "order": 46,
+          "kind": "paragraph",
+          "text": "Now all the other gods and the men who fight from chariots slept the whole night through, mastered by gentle sleep. But sleep took no hold of Hermes, the kindly god, as he turned over in his mind how to lead King Priam back from the ships unseen by the strong guards at the gate. He stood over Priam's head and spoke: \"Old man, you have no fear at all of harm, the way you sleep among your enemies, now that Achilles has spared you. You have ransomed your dear son, and paid a great price. But for your life, the sons you left behind would pay three times as much, if Agamemnon, son of Atreus, learned you were here, and all the Greeks knew it.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0047",
+          "order": 47,
+          "kind": "paragraph",
+          "text": "At that the old man took fright, and woke his herald. Hermes yoked the horses and mules for them and drove them quickly through the camp, and no one saw. But when they reached the ford of the lovely, eddying river Xanthus, born of immortal Zeus, Hermes left them and went up to high Olympus, as Dawn in her saffron robe was spreading over all the earth. And the two drove the horses on toward the city, mourning and groaning, and the mules drew the body. No one saw them, no man and no fair-belted woman — no one but Cassandra, lovely as golden Aphrodite. She had climbed to the height of Pergamus, and from there she saw her dear father standing in the chariot, and the herald, the city's crier, beside him, and behind them, on the bier on the cart, the body the mules were drawing. Then she cried out, and called through all the city: \"Come, men of Troy, come, women of Troy — look on Hector, if ever you rejoiced to see him come home alive from battle. He was the great joy of the city and all its people.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0048",
+          "order": 48,
+          "kind": "paragraph",
+          "text": "At that, not a man, not a woman, was left in the city — a grief past bearing had come over them all. Close by the gates they met Priam bringing in the body. First of all, Hector's wife and his honored mother flung themselves on the smooth-wheeled cart, tearing at their hair, and laid their hands on his head, and the crowd stood weeping around them. And there before the gates they would have wept for Hector the whole day long, to the setting of the sun, had the old man not spoken to them from the chariot: \"Let the mules through. You will have your fill of weeping later, once I have brought him home.\" So the people drew apart and made way for the cart."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0049",
+          "order": 49,
+          "kind": "paragraph",
+          "text": "When they had brought him into the great house, they laid him on a corded bed and set singers beside him to lead the dirge, men who chanted the mourning-song, and the women wailed in answer. And white-armed Andromache led the lament, cradling the head of man-killing Hector in her arms: \"My husband — you have died young, and left me a widow in your house, and the boy is still only a baby, the child you and I bore, ill-fated both of us. I do not think he will reach his manhood. Long before that, this city will be sacked from top to bottom. For you who watched over it are gone — you who guarded it, who kept its loyal wives and little children safe. Soon they will be carried off in the hollow ships, and I among them. And you, my child, will come with me, to labor at harsh work for a brutal master. Or some Greek will seize you by the arm and hurl you from the wall to a pitiful death, in his rage that Hector killed his brother, or his father, or his son — for many a Greek bit the dust under Hector's hands. Your father was no gentle man in the grief of battle; that is why the people mourn him through the city. You have left your parents an unspeakable grief, Hector — and to me, most bitter of all. You did not reach your arms to me from your deathbed, you spoke me no last close word that I might have kept and wept over, day and night, forever.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0050",
+          "order": 50,
+          "kind": "paragraph",
+          "text": "So she spoke, weeping, and the women wailed with her. Then Hecuba took up the lament in her turn: \"Hector — dearest by far to my heart of all my children. While you lived, the gods loved you well, and even in your death they have not forgotten you. The others of my sons that Achilles caught, he sold across the barren sea, to Samos, to Imbros, to Lemnos lost in mist. But you — when he had taken your life with the long bronze, he dragged you again and again round the tomb of his friend Patroclus, whom you killed; and yet it did not bring him back. Now here you lie in my halls, fresh as dew, like a man whom Apollo of the silver bow has come upon and killed with his gentle arrows.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0051",
+          "order": 51,
+          "kind": "paragraph",
+          "text": "So she spoke, weeping, and stirred their endless grief. Then Helen, third of them, led the mourning: \"Hector — dearest by far to my heart of all my husband's brothers. My husband is Paris, godlike to see, who brought me to Troy. I wish I had died first. This is the twentieth year since I came from my own land and left my home, and in all that time I never heard from you one cruel word, one unkind word. If anyone else in the house spoke against me — a brother, a sister, a brother's fair-robed wife, or my husband's mother (though Priam was always gentle to me, like a father) — you would check them, you would talk them round with your own gentleness, your kind words. So I weep for you and for my own wretched self together, with grief in my heart. There is no one left in all wide Troy who is kind to me, or my friend. They all shrink from me, and shudder.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0052",
+          "order": 52,
+          "kind": "paragraph",
+          "text": "So she spoke, weeping, and the great crowd mourned with her. Then old Priam said to his people: \"Now, men of Troy, bring wood into the city, and have no fear of some Greek ambush. Achilles, when he sent me from the black ships, gave me his pledge that he would do us no harm until the twelfth dawn comes.\""
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0053",
+          "order": 53,
+          "kind": "paragraph",
+          "text": "So they yoked their oxen and mules to the wagons and gathered before the city. For nine days they hauled in a vast store of wood. And when the tenth dawn came with its light for mortals, they carried out brave Hector, weeping, and laid his body on the top of the pyre, and set fire to it. When the next day's child, rosy-fingered Dawn, appeared, the people gathered around the pyre of glorious Hector. First they quenched the embers with bright wine, wherever the fire's strength had reached. Then his brothers and his companions gathered up his white bones, mourning, the heavy tears running down their cheeks. They wrapped the bones in soft purple cloth and laid them in a golden chest, and set it down in a hollow grave, and roofed it over with great close-set stones. Then they heaped a mound over it quickly, with lookouts posted on every side, in case the Greeks should attack before the time. And when they had raised the mound, they went back into the city, and gathered together, and held a great and fitting feast in the house of Priam, the king cherished by Zeus."
+        },
+        {
+          "id": "edition.iliad.lectio-modern.book-24.seg-0054",
+          "order": 54,
+          "kind": "paragraph",
+          "text": "Such was the funeral of Hector, breaker of horses."
         }
       ]
     }
