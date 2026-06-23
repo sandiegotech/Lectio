@@ -1,6 +1,6 @@
 {
   "workId": "work.gilgamesh",
-  "method": "Lectio Edition (SDIT): a fresh modern English of the Standard Babylonian text, synthesized from the public-domain scholarly tradition (George Smith 1876; R. Campbell Thompson 1928; Jastrow & Clay 1920) and checked against the Akkadian; modern critical editions consulted, not quoted. First pass — Tablet I of XI.",
+  "method": "Lectio Edition (SDIT): a fresh modern English of the Standard Babylonian text, synthesized from the public-domain scholarly tradition (George Smith 1876; R. Campbell Thompson 1928; Jastrow & Clay 1920) and checked against the Akkadian; modern critical editions consulted, not quoted. A first pass, built tablet by tablet.",
   "model": "claude-opus-4-8",
   "date": "2026-06-23",
   "vintage": 2026,
@@ -13,7 +13,7 @@
     "Benjamin R. Foster, The Epic of Gilgamesh: A Norton Critical Edition (2001, consulted, not quoted)",
     "Andrew George, The Babylonian Gilgamesh Epic (2003, the standard critical edition; consulted for the Akkadian, not quoted)"
   ],
-  "overview": "The Lectio Edition renders the world's oldest epic in clear modern English that keeps the plainness and force of the original without the scholar's brackets and ellipses. This is a first pass: Tablet I of eleven, the coming of Enkidu.",
+  "overview": "The Lectio Edition renders the world's oldest epic in clear modern English that keeps the plainness and force of the original without the scholar's brackets and ellipses. A first pass of the eleven-tablet epic, rendered and refined tablet by tablet.",
   "introduction": "The Epic of Gilgamesh is the oldest great story we have — older than Homer by a thousand years and more, written in Akkadian on clay tablets and lost for two thousand years until they were dug out of the ruins of Nineveh in the 1850s. It is the root beneath much of what came after: a flood survived in a boat, a snake that steals the cure for death, a man who will not accept that he must die. There is a reason Lectio builds Gilgamesh fresh rather than reprinting an old translation. The text is a reconstruction, pieced together from broken tablets that scholars are still completing; the first English versions (Smith, Thompson) are public domain but halting and dated, and every readable complete English Gilgamesh — Speiser, Foster, George, Mitchell — is modern and under copyright. So the Lectio Edition is the primary edition here, not a modernization of an older one: a new rendering drawn from the public-domain scholarly record and checked against the Akkadian. Tablet I sets the whole epic in motion. Gilgamesh, king of Uruk, is too strong and gives his people no peace; the gods answer by making him a match — Enkidu, a wild man who lives with the animals until a woman named Shamhat draws him into the human world.",
   "divergences": [
     {
@@ -36,6 +36,69 @@
       "older": "stresses that he was “grown weak,” diminished, when the animals flee him",
       "lectio": "“his mind had widened; now he understood”",
       "note": "When the gazelles bolt from Enkidu, the Akkadian says he had gained ṭēmu — reason, understanding. He loses the wild and gains a mind. The scene is a loss, but it is first of all a birth, and Lectio makes the gain explicit, not just the cost."
+    },
+    {
+      "locus": "Tablet II, the shepherds' camp",
+      "phrase": "akala ikul Enkīdu ... awīliš īwe",
+      "older": "stresses being “tamed,” “civilized,” made tractable like an animal broken to use",
+      "lectio": "“he ate the bread until he was full ... and he became a man”",
+      "note": "Bread and beer are not a taming; they are the last step of a birth begun in Tablet I, where Enkidu's mind first widened. The Akkadian says plainly that he became a man — awīliš īwe, “he turned human.” Lectio keeps it a coming-into-personhood, glad and full and singing, not a domestication."
+    },
+    {
+      "locus": "Tablet II, the stranger's news",
+      "phrase": "the king's claim to the bride",
+      "older": "“the harlot's bed,” “the right of the first night,” often rendered as lurid royal lust",
+      "lectio": "“before the bridegroom touches her, the king touches her first ... it has been his by right”",
+      "note": "The tablet states the custom flatly, as a decree from the day Gilgamesh's birth-cord was cut, not as a scene of appetite. The horror is in its being lawful, not in its being lewd. Lectio states the right plainly and lets the outrage land where the text puts it — on the law, not on the bed."
+    },
+    {
+      "locus": "Tablet II, the proposal",
+      "phrase": "Humbaba (Standard Babylonian)",
+      "older": "Huwawa, in the older Sumerian and Old Babylonian poems",
+      "lectio": "“Humbaba, the terror set to guard it”",
+      "note": "The guardian's name shifts across the tradition — Huwawa in the oldest tellings, Humbaba in the Standard Babylonian recension this edition follows. Lectio uses Humbaba throughout, the form of the eleven-tablet text it renders, and keeps his three terrors in the old triad: roar a flood, mouth fire, breath death."
+    },
+    {
+      "locus": "Tablet III, Ninsun's prayer",
+      "phrase": "lā ṣalāla — the restless heart",
+      "older": "“a heart that knows no rest,” a son “afflicted” with restlessness (Thompson and the older versions render it as affliction)",
+      "lectio": "“why have you given Gilgamesh a heart that will not rest? You laid this restlessness on him — you yourself”",
+      "note": "Ninsun's prayer is also an accusation. The sense of the Akkadian is that Shamash is the one who imposed the sleeplessness driving Gilgamesh, so Shamash is bound to protect what he set in motion. Older translations keep the petition but soften the reproach; Lectio keeps the edge — a mother holding the god responsible — because the theology of the scene depends on it."
+    },
+    {
+      "locus": "Tablet III, the winds",
+      "phrase": "the thirteen winds against Humbaba",
+      "older": "Many popular versions place the winds only in the battle of Tablet V and leave them out of Ninsun's prayer entirely",
+      "lectio": "Ninsun asks Shamash, in Tablet III, to rouse the winds against Humbaba — “let the winds be the weapons of my son”",
+      "note": "The Standard Babylonian text reconstructed by George has Ninsun pray here for the winds that are later unleashed in the Cedar Forest. Lectio follows that reading and frames the winds as a request made now and answered later, rather than weather already blowing — the prayer plants what Tablet V harvests."
+    },
+    {
+      "locus": "Tablet III, the adoption",
+      "phrase": "the token on Enkidu's neck",
+      "older": "“a pendant(?),” “an amulet,” “a badge,” “symbols” — translators differ and many add a question mark, because the word and the line are damaged",
+      "lectio": "“a token on Enkidu's neck — the kind the temple-women wear, the sign of those who belong to the god”",
+      "note": "The exact object Ninsun hangs on Enkidu is uncertain in the broken text. Rather than name a specific jewel the tablet does not clearly give us, Lectio renders it as the neck-token of the dedicated temple servers, which is what the surrounding lines point to: the act enrolls Enkidu among Ninsun's household and makes him, formally, a son and a brother."
+    },
+    {
+      "locus": "Tablet IV, the marching formula",
+      "phrase": "ana 20 bēr iksupu kusāpa",
+      "older": "rendered loosely as “after a journey” or smoothed into a single sentence of travel (Smith, Thompson)",
+      "lectio": "“At twenty leagues they broke bread. At thirty leagues they stopped for the night.”",
+      "note": "The Akkadian repeats the same measured couplet at the head of each leg of the march, a deliberate drumbeat that makes the impossible distances feel ritual and inevitable. Older translations often compressed or varied it; Lectio keeps the repetition exactly, because the repetition is the point."
+    },
+    {
+      "locus": "Tablet IV, Shamash's warning",
+      "phrase": "melammū / pulḫātu",
+      "older": "“seven splendors,” “seven coats of armor,” “seven garments” (various translators)",
+      "lectio": "“seven cloaks of terror”",
+      "note": "Humbaba's melammū are an aura of divine, terror-spreading radiance — not cloth, not metal. “Armor” makes it ordinary; “splendor” makes it pretty. Lectio keeps both halves: a thing worn (a cloak) and the thing it sheds (terror), so the reader feels the dread the word carries."
+    },
+    {
+      "locus": "Tablet IV, the dreams",
+      "phrase": "the falling mountain, the wild light, the storm",
+      "older": "treated as straightforward nightmares; the bad omen taken at face value",
+      "lectio": "kept terrifying, then turned good by Enkidu, word for word each time",
+      "note": "Tablet IV is built on a frame that repeats: a horrifying dream, then a calm reading of it as victory. The horror and the reassurance are both meant to stay, in full, every cycle. Lectio resists the urge to vary or shorten the frame, so the back-and-forth lands the way it was made to."
     }
   ],
   "books": [
@@ -61,6 +124,73 @@
         "Ninsun was wise and knew all things, and she said to her son: “The thing like a star from heaven that fell beside you, that you could not lift — that is a strong companion who is coming to you, a friend who rescues his friend. He is the strongest in the land; his force is like a rock from the sky. You leaned on him the way a man leans on his wife, and he will never leave you. That is the meaning of your dream.”",
         "“Mother, I dreamed again. In the street of Uruk an axe was lying, and a crowd stood around it. I saw it and was glad; I loved it the way a man loves his wife; I bent and picked it up and set it at my side — and you made it my equal.” And Ninsun answered: “The axe you saw is a man. You will love him as you love a wife, and I will make him your equal. A strong companion is coming, one who saves his friend, the strongest in the land, his strength like a rock from the sky.” And Gilgamesh said: “Then let it fall this way. Let me find a friend to stand beside me.” So he read his dreams."
       ]
+    },
+    {
+      "order": 2,
+      "label": "Tablet II",
+      "paragraphs": [
+        "Shamhat took Enkidu by the hand and led him like a child. She brought him to a camp of shepherds out where the sheepfolds stood, and the shepherds gathered around to look at him. They said to one another: “This man is built like Gilgamesh — shorter, maybe, but heavier in the bone. He was raised in the open country; he was suckled on the milk of wild things.”",
+        "They set bread before him and he did not know what it was. All his life he had drawn the milk of wild animals; now they put bread in front of him, and he squinted at it and stared. Enkidu did not know how to eat bread. He had not been taught how to drink beer.",
+        "So Shamhat opened her mouth and said to him: “Eat the bread, Enkidu. It is what life is made of. Drink the beer. It is the custom of the land.” Enkidu ate the bread until he was full. He drank the beer — seven jugs of it — and the heart in him lifted, and his face shone, and he sang for the gladness of it.",
+        "Then they took water and washed the matted hair from his body, and they rubbed him with oil, and he became a man. They put clothes on him, and he was dressed like a husband. He took up a weapon and went out against the lions, so the shepherds could lie down and sleep. He ran off the wolves; he drove away the lions. He kept watch over the flock in the dark of the night, and the men of the camp lay easy, and Enkidu was their guard — a man awake while everyone else slept.",
+        "One day a stranger came along the road, hurrying toward Uruk. Enkidu and Shamhat were sitting there, and Enkidu raised his eyes and saw the man, and called to him. “You there — where are you running in such a hurry? What hard road has you out at this pace?”",
+        "The man caught his breath and answered: “They have called me to a wedding. That is the custom here — a man chooses a wife and the city comes to feast. I have piled the wedding table high with good things to eat. But before the bridegroom touches her, the king touches her first. For Gilgamesh, the king of Uruk, the bride is opened to him first of all. The gods decreed it; from the day his birth-cord was cut, it has been his by right. He goes in to the bride before the husband does.”",
+        "When Enkidu heard the man's words, his face went pale, then dark with anger. “Take me to Uruk,” he said. “Take me to where Gilgamesh is. I will stand in front of him. I will shout in his face, ‘I am the strongest here!’ I will change the way things have always been. The one born in the wild country is the stronger man — and I will prove it.”",
+        "He went on ahead, and Shamhat came behind him, and they entered Uruk. The people crowded around him in the street. They gathered at his feet and looked him up and down. “He is built like Gilgamesh,” they said. “The very image of him — shorter, but heavier in the bone. Here is one born in the open country, raised on the milk of wild beasts. Now there will never be quiet in Uruk again.” And the men were glad, in spite of themselves: “At last, a man to stand against Gilgamesh. At last, someone has come who is his match.”",
+        "That night the bed was laid for the goddess and the bride; Gilgamesh was coming to lie with the new wife as he always did. But Enkidu stepped into the street and planted himself at the door of the wedding house. He set his foot against the door and would not let Gilgamesh pass.",
+        "They came together at the door of the wedding house. They grabbed each other and locked, two great oxen lowering their heads to gore. They smashed the doorpost. They cracked the wall. They wrestled through the street, and the whole of Uruk shook with it — doorframes splitting, the houses trembling on their foundations, the people pressed back against the walls to watch two men try to break each other.",
+        "Gilgamesh bent his knee, one foot still planted on the ground — and with that turn his fury broke and ran out of him. He stepped back. And when he had drawn back, Enkidu spoke to him, and the heat went out of both of them. Enkidu said: “Your mother bore one man like you and no other. She is the wild cow of the byre, Ninsun, and she lifted your head higher than any man's. Enlil himself has given you the kingship over the people. There is no shame in this. You are what they say you are.”",
+        "They threw their arms around each other and kissed. The anger was gone as if it had never been. They took each other by the hand, and from that hour Gilgamesh and Enkidu were one heart — the friend who saves his friend, the companion who will never let the other stand alone.",
+        "Time passed, and Enkidu grew heavy and quiet. He sat down and his eyes filled, and his arms hung loose, and the strength in him had no work to do. Gilgamesh saw it and asked him: “My friend, why are your eyes full of tears? Why are your shoulders down, and your heart sick inside you?” And Enkidu answered: “There is a crying in my throat and nothing to fight. My arms have gone slack. The life is draining out of me from doing nothing.”",
+        "Then Gilgamesh said: “There is a forest far off, the Cedar Forest, and a thing lives in it called Humbaba, the terror set to guard it. Let us go there, the two of us, and cut down the cedar, and kill the guardian. Whatever is evil in the land, let us drive it out. I am set on this. A man does not live forever; only the gods do. Whatever a man does, it is wind in the end. But a name — a name stands. Let us go and cut our names into the world, so that when I am gone the people will say, ‘Gilgamesh did this. He went into the Cedar Forest and he did not turn back.’”",
+        "Enkidu had known that forest once, when he ranged the hills with the beasts, and the thought of it stopped his breath. “My friend,” he said, “that country is no place for men. I knew it when I lived among the animals. The forest runs sixty leagues in every direction; who would go down into that? Humbaba — his roar is the floodwater coming, his mouth is fire, and his breath is death itself. He hears the wild cattle stir a half-day off, deep in his trees. Enlil set him there to keep men out, and laid a weakness on whoever goes in. Why do you want this thing? No one comes back from a fight with Humbaba.”",
+        "But Gilgamesh would not be turned, and when the elders of Uruk heard what he meant to do they came and stood before him, troubled. “You are young, Gilgamesh,” they said. “Your heart runs ahead of you, and you do not yet know what you are reaching for. We have heard of Humbaba. His roar is a flood. His mouth is fire. His breath is death. Why do you want this? No one stands against him and lives.” But Gilgamesh only laughed, and looked at his friend, and set his face toward the cedar and the long road out of the city."
+      ],
+      "title": "Bread, Beer, and the Wrestling at the Gate"
+    },
+    {
+      "order": 3,
+      "label": "Tablet III",
+      "paragraphs": [
+        "The elders of Uruk came to Gilgamesh, the great men of the city, and they gave him their counsel for the road. “Gilgamesh,” they said, “do not lean on your own strength alone. Keep your eyes open, and make every blow land where you aim it. The one who goes in front keeps his companion safe. The one who knows the road brings his friend home. Let Enkidu walk ahead of you. He knows the way to the Cedar Forest; he has seen the fight that Humbaba gives. Let him guard your body and bring you back.”",
+        "Then they turned to Enkidu and laid the king in his hands. “In our assembly we have given the king into your keeping. When you return, give the king back to us. Bring Gilgamesh home.”",
+        "Gilgamesh said to Enkidu: “Come, my friend. Let us go to the Egalmah, to Ninsun, the great queen, my mother. Ninsun is wise; she knows all things. She will set our feet on a sure path.” So the two of them went together to the temple, to Ninsun.",
+        "Gilgamesh stood before his mother and said: “Ninsun, hear me. I am setting out on a long road, to the place where Humbaba is. I go to a fight I have never fought, down a road I have never traveled. From the day I leave until I come back, until I reach the Cedar Forest and cut down the evil that Shamash hates — pray for me to Shamash. Speak to him on my behalf.”",
+        "Ninsun heard the words of her son, and her face was troubled. She went into her chamber and washed herself with the purity plant. She put on a robe worthy of her body, and over her breast she fastened an ornament worthy of her breast. She wound her sash about her, and set her crown upon her head. Then she climbed the stairs and went up onto the roof of the temple.",
+        "On the roof she set a censer before Shamash and laid the incense down. She scattered the fragrant offering, and she raised her arms to the rising sun. Then she spoke to the sun-god, and her prayer was also a complaint.",
+        "“Shamash,” she said, “why did you do this to my son? Why have you given Gilgamesh a heart that will not rest? You laid this restlessness on him — you yourself — and now it drives him out the door, down a far road to Humbaba, into a fight he does not know and a country he has never seen. From the day he leaves until the day he comes home, watch over him. When you cross the sky by day, keep your eye on him. When you go down at night, do not let go of him.”",
+        "“And when you sink below the world and the dark comes,” she went on, “let Aya, your bride, remind you of him without fear. Hand him to the Watchmen of the Night, to the stars. And in the night let your father Sin keep him as well, so that there is no hour when no god is holding my son.”",
+        "“Rouse the great winds against Humbaba,” she prayed — “the south wind and the north, the east wind and the west, and every storm wind there is. Set them on him so that Gilgamesh and Enkidu can stand against his face. Let the winds be the weapons of my son.”",
+        "When she had finished her prayer, she put out the censer and came down from the roof. She did not weep where they could see her, for she was a goddess and the mother of the king; but her heart had said what a mother's heart says.",
+        "Then Ninsun called Enkidu to her, and she spoke to him before the holy women of the temple, the votaries who served in the house. “Enkidu the strong,” she said, “you did not come out of my body. But here, now, I take you as my own, and I name you among the dedicated of Gilgamesh.” And she laid a token on Enkidu's neck — the kind the temple-women wear, the sign of those who belong to the god — and she made him her son and the brother of the king.",
+        "“Enkidu,” she said, “you are my son now, and Gilgamesh is your brother. Go in front of him on the road. The companion who leads the way must bring his friend back whole. I lay the king on you, as the elders laid him on you. Whatever the Cedar Forest holds, come back to me with my son.” And the holy women answered her, and they did what was done at such a time.",
+        "After this much is lost — some lines broken away from the clay, so that we cannot follow every word. When the tablet can be read again, the heroes are making their last preparations, and Gilgamesh is leaving word for the keeping of Uruk while he is gone.",
+        "And once more the elders gave their charge, the same words they had spoken at the start, as men say a thing twice when they mean it: “In our assembly we have given the king into your keeping, Enkidu. When you return, give the king back to us.” So Gilgamesh and Enkidu turned their faces to the Cedar Forest and the long road — and here the tablet breaks off, with the gate of the city behind them and the mountain still far ahead.",
+        "[A long stretch of Tablet III is missing — perhaps sixty lines, and the closing lines as well. What survives of the departure, and the road itself, is taken up in Tablet IV.]"
+      ],
+      "title": "The Mother's Prayer"
+    },
+    {
+      "order": 4,
+      "label": "Tablet IV",
+      "paragraphs": [
+        "At twenty leagues they broke bread. At thirty leagues they stopped for the night. In a single day they walked what an ordinary man would walk in a month and a half. They were going toward the Cedar Forest, toward Humbaba and the road that no one returns from, and they made nothing of the distance. They dug a well before the setting sun, so that there would be fresh water in it.",
+        "Gilgamesh climbed the hill, and he poured out a handful of flour on the ground, and he said: “Mountain, bring me a dream. Let me see a good sign.” Enkidu fixed the place where Gilgamesh would sleep, like a man making a shelter against a storm wind. Gilgamesh lay down with his chin on his knees, and sleep came over him, the way sleep falls on all people.",
+        "But in the middle of the night his sleep broke off, and he started up and said to his friend: “Enkidu — did you wake me? Why am I awake? Did you call out, or did a god pass by? My flesh is crawling. Enkidu, I had a dream, and it was a hard one. We were standing in a gorge between two mountains, and the mountains came down. Beside the two of us we were no bigger than reeds in a marsh.” And Enkidu, who was born in the wild and knew the meaning of such things, said to him: “My friend, your dream is good. The dream is a piece of luck. The mountain you saw is Humbaba. We will take Humbaba, we will throw him down, and his great body will lie out flat on the ground.”",
+        "At twenty leagues they broke bread. At thirty leagues they stopped for the night. In a single day they walked what an ordinary man would walk in a month and a half. They dug a well before the setting sun, so that there would be fresh water in it.",
+        "Gilgamesh climbed the hill and poured out a handful of flour on the ground, and he said: “Mountain, bring me a dream. Let me see a good sign.” Enkidu fixed the place where Gilgamesh would sleep, and Gilgamesh lay down with his chin on his knees, and sleep came over him, the way sleep falls on all people.",
+        "But in the middle of the night his sleep broke off, and he started up and said to his friend: “Enkidu, I had a second dream, and it was worse than the first. A mountain stood before me. It threw me down and pinned my feet, and a great light grew brighter and brighter overhead. Then a man stepped out of it — the most handsome man in the land — and he pulled me out from under the mountain. He gave me water to drink, and my heart grew steady, and he set my feet back on the ground.” And Enkidu said: “My friend, your dream is good. The dream is a piece of luck. The mountain is Humbaba. Even if he throws you down, you will not stay down. The one who pulled you free and gave you water — that is the sun-god Shamash, who loves you, and Lugalbanda, your own father, the god who watches over you. The two of them will lift you out of every danger, and we will do a thing the world will remember.”",
+        "At twenty leagues they broke bread. At thirty leagues they stopped for the night. In a single day they walked what an ordinary man would walk in a month and a half. They dug a well before the setting sun, so that there would be fresh water in it.",
+        "Gilgamesh climbed the hill and poured out a handful of flour on the ground, and he said: “Mountain, bring me a dream. Let me see a good sign.” Enkidu fixed the place where Gilgamesh would sleep, and Gilgamesh lay down with his chin on his knees, and sleep came over him, the way sleep falls on all people.",
+        "But in the middle of the night his sleep broke off, and he started up and said to his friend: “Enkidu, I had a third dream, and the whole earth was in an uproar. The ground cracked and split. The sky went black as pitch, and lightning struck across it, and fire broke loose. The flames stood up tall — and then death came raining down. The light died out, the fire went out, and everything that had fallen turned to ash.” For a long time Gilgamesh could not speak; the dream had frightened him to the bone. But Enkidu turned the dream over in his mind and said: “My friend, this dream too is good. We will come down on Humbaba like that storm. Take heart. We will go up against him, and he will not stand.”",
+        "And as Gilgamesh prayed once more to the sun-god, Shamash heard him out of heaven, and a voice came to him in warning. “Hurry,” the god said. “Stand against him now, before he reaches the deep wood and goes down among the trees and wraps himself in his power. Humbaba wears seven cloaks of terror. He has put on only one; the other six are laid aside. Strike while he wears the one. Once he is armored in all seven, no one alive can come near him.” And the warm wind of Shamash blew at Humbaba's face, so that he could not move, and could not go forward, and could not go back.",
+        "There were more dreams along the road, and not all of them can be read now, for the clay is broken. But the shape of them was always the same: a terror in the night, and Enkidu in the morning turning the terror inside out, until the worst of the signs had become the best of the omens, and the road grew shorter under their feet.",
+        "At last they came to the edge of the Cedar Forest, and they stood still. The trees rose up before them, taller than any trees they had ever seen, and the green of them was deep and dark and went on without end. They saw the cedar mountain, the home of the gods, the throne of Irnini. From the face of the mountain the cedars threw down their shade, and the shade was rich and full of rest, and the path that ran up into the wood was thick with brush, and it was good to walk.",
+        "And there was the gate of the forest, broad and high. Enkidu reached out and put his hand against it — and the moment he touched it his hand went heavy and his arm went numb, and the strength drained out of it for a while. He stood there, his hand hanging useless, afraid; and the tears ran down his face, and he could not lift his arm.",
+        "Gilgamesh said to him: “Enkidu, my friend — why are you crying like a coward? You who were never afraid, you who came down out of the hills, who killed lions at the watering place and never flinched — why has your courage gone? Take my hand. We will go on together. Forget death; think of life. A man who walks in front of his friend keeps him safe, and his name lives after him. Two people will not drown — a boat with two ropes does not sink, and a rope braided three ways is not easily cut. You hold me up, and I will hold you, and let whatever comes, come. We have come this far. There is no turning back now.”",
+        "So they steeled themselves at the gate of the wood. The strength came back into Enkidu's arm. They looked once more at the dark of the trees and the height of the cedars, and they breathed deep, and they went in."
+      ],
+      "title": "The Road to the Cedars"
     }
   ]
 }
