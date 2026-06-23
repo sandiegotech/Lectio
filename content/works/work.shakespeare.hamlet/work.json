@@ -1,0 +1,18 @@
+{
+  "id": "work.shakespeare.hamlet",
+  "title": "Hamlet",
+  "author": "William Shakespeare",
+  "originalLang": "en",
+  "composed": "1600–1601",
+  "type": "drama",
+  "referenceScheme": "act.scene",
+  "defaultEditionId": "edition.hamlet.original",
+  "blurb": "Shakespeare's deepest tragedy: a prince, a murdered father, and the paralysis of thought. 'To be, or not to be' — the play that holds more of the language's famous lines than any other.",
+  "tradition": "West",
+  "collections": [
+    "collection.lectio"
+  ],
+  "editionIds": [
+    "edition.hamlet.original"
+  ]
+}

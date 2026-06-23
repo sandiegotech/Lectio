@@ -1,0 +1,18 @@
+{
+  "id": "work.gilgamesh",
+  "title": "The Epic of Gilgamesh",
+  "author": "Anonymous · Sumer & Akkad",
+  "originalLang": "akk",
+  "composed": "2100–1200 BCE",
+  "type": "epic_poem",
+  "referenceScheme": "tablet.line",
+  "defaultEditionId": "edition.gilgamesh.lectio-modern",
+  "blurb": "The oldest surviving epic. The king Gilgamesh and the wild man Enkidu become friends; when Enkidu dies, Gilgamesh refuses his own death and sets out to find the secret of living forever — and learns, instead, how to come home. The root beneath both East and West.",
+  "tradition": "East",
+  "collections": [
+    "collection.eastern-canon"
+  ],
+  "editionIds": [
+    "edition.gilgamesh.lectio-modern"
+  ]
+}

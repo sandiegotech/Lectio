@@ -1,7 +1,7 @@
 {
   "workId": "work.virgil.aeneid",
   "source": "editorial",
-  "note": "Editorial chapter overviews shown when a reader opens a book in the contents. Keyed by book number; applies across all editions of the work.",
+  "note": "Hand-authored editorial seed for the margin rail. Chapter overviews are keyed by book number (all editions); passages carry the people and connections shown in the rail, keyed by edition-specific sectionId. The pipeline does not overwrite this file.",
   "chapters": {
     "1": "A storm whipped up by the goddess Juno wrecks the Trojan fleet and casts Aeneas ashore in north Africa. There he is welcomed into the rising city of Carthage by its queen, Dido, who begins to fall for him and asks to hear his story.",
     "2": "Aeneas tells the queen how Troy fell: the Greeks' hollow wooden horse, the traitor Sinon, and a city betrayed and burned in a single night. Warned by visions, he carries his aged father on his back and leads his son out through the flames, but loses his wife in the chaos.",
@@ -15,5 +15,346 @@
     "10": "Aeneas returns to break the siege, and the fighting turns savage. Turnus kills the young Pallas, and Aeneas, in grief and rage, cuts down the proud tyrant Mezentius and his brave, doomed son Lausus.",
     "11": "A truce falls so both sides can bury their dead and mourn, and Pallas is sent home with great ceremony. As peace talks falter into bitter quarreling, the fighting resumes, and the warrior-maiden Camilla blazes through the cavalry battle before she falls.",
     "12": "Turnus and Aeneas agree to settle the war in single combat, but the truce shatters and the armies clash again. Wounded and healed, Aeneas drives toward his rival for the final duel that ends the poem."
-  }
+  },
+  "passages": [
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-01",
+      "people": [
+        "Aeneas",
+        "Juno",
+        "Venus",
+        "Dido",
+        "Jupiter",
+        "Aeolus",
+        "Neptune"
+      ],
+      "connections": [
+        {
+          "label": "pietas — duty to gods and family",
+          "kind": "idea"
+        },
+        {
+          "label": "the wrath of Juno",
+          "kind": "idea"
+        },
+        {
+          "label": "Carthage",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-02",
+      "people": [
+        "Aeneas",
+        "Sinon",
+        "Priam",
+        "Laocoön",
+        "Anchises",
+        "Creusa",
+        "Ascanius"
+      ],
+      "connections": [
+        {
+          "label": "the fall of Troy",
+          "kind": "idea"
+        },
+        {
+          "label": "the wooden horse",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-03",
+      "people": [
+        "Aeneas",
+        "Anchises",
+        "Helenus",
+        "Andromache",
+        "the Harpies"
+      ],
+      "connections": [
+        {
+          "label": "the long wandering",
+          "kind": "idea"
+        },
+        {
+          "label": "misread prophecy",
+          "kind": "idea"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-04",
+      "people": [
+        "Dido",
+        "Aeneas",
+        "Anna",
+        "Mercury",
+        "Juno",
+        "Venus"
+      ],
+      "connections": [
+        {
+          "label": "love against duty",
+          "kind": "idea"
+        },
+        {
+          "label": "the tragedy of Dido",
+          "kind": "idea"
+        },
+        {
+          "label": "Ovid",
+          "kind": "author"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-05",
+      "people": [
+        "Aeneas",
+        "Anchises",
+        "Acestes",
+        "Palinurus",
+        "Nisus",
+        "Euryalus"
+      ],
+      "connections": [
+        {
+          "label": "funeral games",
+          "kind": "idea"
+        },
+        {
+          "label": "the burning of the ships",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-06",
+      "people": [
+        "Aeneas",
+        "the Sibyl",
+        "Anchises",
+        "Charon",
+        "Dido",
+        "Palinurus"
+      ],
+      "connections": [
+        {
+          "label": "the descent to the underworld",
+          "kind": "idea"
+        },
+        {
+          "label": "the parade of Roman heroes",
+          "kind": "idea"
+        },
+        {
+          "label": "the underworld",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-07",
+      "people": [
+        "Latinus",
+        "Lavinia",
+        "Juno",
+        "Turnus",
+        "Aeneas",
+        "Allecto"
+      ],
+      "connections": [
+        {
+          "label": "arrival in Italy",
+          "kind": "idea"
+        },
+        {
+          "label": "the cause of war",
+          "kind": "idea"
+        },
+        {
+          "label": "Latium",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-08",
+      "people": [
+        "Aeneas",
+        "Evander",
+        "Pallas",
+        "Venus",
+        "Vulcan",
+        "Tiber"
+      ],
+      "connections": [
+        {
+          "label": "the shield of Aeneas",
+          "kind": "idea"
+        },
+        {
+          "label": "ekphrasis — art within poetry",
+          "kind": "idea"
+        },
+        {
+          "label": "the future Rome",
+          "kind": "place"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-09",
+      "people": [
+        "Turnus",
+        "Nisus",
+        "Euryalus",
+        "Ascanius"
+      ],
+      "connections": [
+        {
+          "label": "the night raid",
+          "kind": "idea"
+        },
+        {
+          "label": "friendship and sacrifice",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-10",
+      "people": [
+        "Aeneas",
+        "Pallas",
+        "Turnus",
+        "Mezentius",
+        "Lausus",
+        "Jupiter",
+        "Juno"
+      ],
+      "connections": [
+        {
+          "label": "the death of Pallas",
+          "kind": "idea"
+        },
+        {
+          "label": "grief and rage",
+          "kind": "idea"
+        },
+        {
+          "label": "the gods in council",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-11",
+      "people": [
+        "Aeneas",
+        "Pallas",
+        "Camilla",
+        "Turnus",
+        "Latinus",
+        "Drances"
+      ],
+      "connections": [
+        {
+          "label": "the warrior-maiden Camilla",
+          "kind": "idea"
+        },
+        {
+          "label": "mourning and truce",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.dryden-1697.book-12",
+      "people": [
+        "Turnus",
+        "Aeneas",
+        "Latinus",
+        "Lavinia",
+        "Juno",
+        "Jupiter",
+        "Juturna"
+      ],
+      "connections": [
+        {
+          "label": "the final duel",
+          "kind": "idea"
+        },
+        {
+          "label": "wrath and mercy",
+          "kind": "idea"
+        },
+        {
+          "label": "the founding of Rome",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.aeneid.lectio-modern.book-01",
+      "people": [
+        "Aeneas",
+        "Juno",
+        "Venus",
+        "Dido",
+        "Jupiter",
+        "Aeolus",
+        "Neptune"
+      ],
+      "connections": [
+        {
+          "label": "pietas — duty to gods and family",
+          "kind": "idea"
+        },
+        {
+          "label": "the wrath of Juno",
+          "kind": "idea"
+        },
+        {
+          "label": "Carthage",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    }
+  ]
 }

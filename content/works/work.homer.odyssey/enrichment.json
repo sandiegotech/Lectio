@@ -1,7 +1,7 @@
 {
   "workId": "work.homer.odyssey",
   "source": "editorial",
-  "note": "Editorial chapter overviews shown when a reader opens a book in the contents. Keyed by book number; applies across all editions of the work.",
+  "note": "Hand-authored editorial seed for the margin rail. Chapter overviews are keyed by book number (all editions); passages carry the people and connections shown in the rail, keyed by edition-specific sectionId. The pipeline does not overwrite this file.",
   "chapters": {
     "1": "The gods decide it's time for Odysseus to come home from his long absence after the Trojan War. Athena, disguised as a visitor, urges his son Telemachus to stand up to the arrogant suitors crowding his house and go searching for news of his father.",
     "2": "Telemachus calls an assembly of Ithaca and demands the suitors leave, but they only mock him. With Athena's quiet help he secretly readies a ship and crew and sets sail to seek word of whether his father is alive or dead.",
@@ -27,5 +27,538 @@
     "22": "Odysseus strings the bow, and with Telemachus and his two faithful men he turns the contest into slaughter, killing the suitors one by one in the hall. The disloyal serving maids are made to clean away the carnage and then hanged.",
     "23": "Cautious after twenty years, Penelope tests the stranger with a secret about their marriage bed; only when he answers does she finally embrace her husband. Before dawn Odysseus and his companions slip out of the town toward his father's farm.",
     "24": "The slain suitors' ghosts descend to the land of the dead, while Odysseus reveals himself to his aged father, Laertes. As the dead men's kin rise up for revenge, Athena steps in to halt the bloodshed and seal a lasting peace on Ithaca."
-  }
+  },
+  "passages": [
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-01",
+      "people": [
+        "Athena",
+        "Telemachus",
+        "Odysseus",
+        "Zeus",
+        "Penelope",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "nostos — the homecoming",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        },
+        {
+          "label": "Ithaca",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-02",
+      "people": [
+        "Telemachus",
+        "Athena",
+        "Antinous",
+        "Penelope",
+        "Mentor"
+      ],
+      "connections": [
+        {
+          "label": "the suitors",
+          "kind": "idea"
+        },
+        {
+          "label": "a son comes of age",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-03",
+      "people": [
+        "Telemachus",
+        "Nestor",
+        "Athena",
+        "Peisistratus"
+      ],
+      "connections": [
+        {
+          "label": "xenia — guest-friendship",
+          "kind": "idea"
+        },
+        {
+          "label": "Pylos",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-04",
+      "people": [
+        "Menelaus",
+        "Helen",
+        "Telemachus",
+        "Proteus",
+        "Antinous"
+      ],
+      "connections": [
+        {
+          "label": "the scattered homecomings",
+          "kind": "idea"
+        },
+        {
+          "label": "Sparta",
+          "kind": "place"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-05",
+      "people": [
+        "Calypso",
+        "Odysseus",
+        "Hermes",
+        "Poseidon",
+        "Zeus",
+        "Athena",
+        "Ino"
+      ],
+      "connections": [
+        {
+          "label": "temptation and home",
+          "kind": "idea"
+        },
+        {
+          "label": "the wrath of Poseidon",
+          "kind": "idea"
+        },
+        {
+          "label": "endurance (polytlas)",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-06",
+      "people": [
+        "Nausicaa",
+        "Odysseus",
+        "Athena",
+        "Alcinous",
+        "Arete"
+      ],
+      "connections": [
+        {
+          "label": "xenia — guest-friendship",
+          "kind": "idea"
+        },
+        {
+          "label": "the suppliant",
+          "kind": "idea"
+        },
+        {
+          "label": "Scheria",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-07",
+      "people": [
+        "Odysseus",
+        "Alcinous",
+        "Arete",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "the gracious host",
+          "kind": "idea"
+        },
+        {
+          "label": "Scheria",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-08",
+      "people": [
+        "Alcinous",
+        "Demodocus",
+        "Odysseus"
+      ],
+      "connections": [
+        {
+          "label": "the bard and memory",
+          "kind": "idea"
+        },
+        {
+          "label": "the wooden horse",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-09",
+      "people": [
+        "Odysseus",
+        "Polyphemus",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "cunning (mētis) versus force",
+          "kind": "idea"
+        },
+        {
+          "label": "the Cyclops",
+          "kind": "idea"
+        },
+        {
+          "label": "hospitality violated",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-10",
+      "people": [
+        "Aeolus",
+        "Circe",
+        "Odysseus",
+        "Eurylochus"
+      ],
+      "connections": [
+        {
+          "label": "enchantment and transformation",
+          "kind": "idea"
+        },
+        {
+          "label": "the crew's folly",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-11",
+      "people": [
+        "Tiresias",
+        "Odysseus",
+        "Anticleia",
+        "Agamemnon",
+        "Achilles",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "the nekyia — journey to the dead",
+          "kind": "idea"
+        },
+        {
+          "label": "speaking with the dead",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-12",
+      "people": [
+        "Odysseus",
+        "Circe",
+        "Scylla",
+        "Charybdis",
+        "Helios"
+      ],
+      "connections": [
+        {
+          "label": "the song of the Sirens",
+          "kind": "idea"
+        },
+        {
+          "label": "the cattle of the Sun",
+          "kind": "idea"
+        },
+        {
+          "label": "sacrilege and ruin",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-13",
+      "people": [
+        "Alcinous",
+        "Odysseus",
+        "Athena",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "the disguised return",
+          "kind": "idea"
+        },
+        {
+          "label": "Ithaca",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-14",
+      "people": [
+        "Eumaeus",
+        "Odysseus"
+      ],
+      "connections": [
+        {
+          "label": "loyalty of the humble",
+          "kind": "idea"
+        },
+        {
+          "label": "the disguised king",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-15",
+      "people": [
+        "Telemachus",
+        "Athena",
+        "Theoclymenus",
+        "Eumaeus",
+        "Odysseus"
+      ],
+      "connections": [
+        {
+          "label": "the son returns",
+          "kind": "idea"
+        },
+        {
+          "label": "prophecy",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-16",
+      "people": [
+        "Telemachus",
+        "Odysseus",
+        "Eumaeus",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "father and son reunited",
+          "kind": "idea"
+        },
+        {
+          "label": "plotting the reckoning",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-17",
+      "people": [
+        "Telemachus",
+        "Odysseus",
+        "Penelope",
+        "Antinous",
+        "Argos",
+        "Eumaeus"
+      ],
+      "connections": [
+        {
+          "label": "Argos the faithful dog",
+          "kind": "idea"
+        },
+        {
+          "label": "the beggar at his own door",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-18",
+      "people": [
+        "Odysseus",
+        "Irus",
+        "Penelope",
+        "Antinous",
+        "Amphinomus"
+      ],
+      "connections": [
+        {
+          "label": "the beggars' brawl",
+          "kind": "idea"
+        },
+        {
+          "label": "the warning unheeded",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-19",
+      "people": [
+        "Odysseus",
+        "Penelope",
+        "Eurycleia",
+        "Telemachus"
+      ],
+      "connections": [
+        {
+          "label": "the recognition by the scar",
+          "kind": "idea"
+        },
+        {
+          "label": "Penelope's dream",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-20",
+      "people": [
+        "Odysseus",
+        "Penelope",
+        "Theoclymenus",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "omens of doom",
+          "kind": "idea"
+        },
+        {
+          "label": "restraint before the storm",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-21",
+      "people": [
+        "Penelope",
+        "Odysseus",
+        "Telemachus",
+        "Antinous",
+        "Eumaeus"
+      ],
+      "connections": [
+        {
+          "label": "the contest of the bow",
+          "kind": "idea"
+        },
+        {
+          "label": "the king revealed",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-22",
+      "people": [
+        "Odysseus",
+        "Telemachus",
+        "Antinous",
+        "Eurymachus",
+        "Eumaeus"
+      ],
+      "connections": [
+        {
+          "label": "the slaying of the suitors",
+          "kind": "idea"
+        },
+        {
+          "label": "vengeance and justice",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-23",
+      "people": [
+        "Penelope",
+        "Odysseus",
+        "Eurycleia",
+        "Laertes"
+      ],
+      "connections": [
+        {
+          "label": "the secret of the marriage bed",
+          "kind": "idea"
+        },
+        {
+          "label": "recognition and reunion",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.butler-1900.book-24",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Odysseus",
+        "Laertes",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "the second journey to the dead",
+          "kind": "idea"
+        },
+        {
+          "label": "peace restored",
+          "kind": "idea"
+        },
+        {
+          "label": "Ithaca",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.odyssey.lectio-modern.book-01",
+      "people": [
+        "Athena",
+        "Telemachus",
+        "Odysseus",
+        "Zeus",
+        "Penelope",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "nostos — the homecoming",
+          "kind": "idea"
+        },
+        {
+          "label": "The Iliad",
+          "kind": "work"
+        },
+        {
+          "label": "Ithaca",
+          "kind": "place"
+        }
+      ]
+    }
+  ]
 }

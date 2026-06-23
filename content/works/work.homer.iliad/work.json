@@ -3,13 +3,15 @@
   "title": "The Iliad",
   "author": "Homer",
   "originalLang": "grc",
-  "composed": "c. 8th century BCE",
+  "composed": "800–701 BCE",
   "type": "epic_poem",
   "referenceScheme": "book.line",
   "defaultEditionId": "edition.iliad.lectio-modern",
   "blurb": "Homer's epic of the Trojan War — rage, honor, grief, and mortality, set in a few weeks of the war's tenth year.",
+  "tradition": "West",
   "collections": [
-    "collection.epics"
+    "collection.epics",
+    "collection.great-books"
   ],
   "editionIds": [
     "edition.iliad.lectio-modern",

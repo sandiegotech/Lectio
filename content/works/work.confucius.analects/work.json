@@ -1,0 +1,18 @@
+{
+  "id": "work.confucius.analects",
+  "title": "The Analects",
+  "author": "Confucius",
+  "originalLang": "lzh",
+  "composed": "479–221 BCE",
+  "type": "philosophy",
+  "referenceScheme": "book.chapter",
+  "defaultEditionId": "edition.analects.legge-1893",
+  "blurb": "The recorded conversations of Confucius and his students — the ground text of East Asian ethics. Becoming fully human through learning, ritual, and ren (human-heartedness); the golden rule, stated as a negative.",
+  "tradition": "East",
+  "collections": [
+    "collection.eastern-canon"
+  ],
+  "editionIds": [
+    "edition.analects.legge-1893"
+  ]
+}

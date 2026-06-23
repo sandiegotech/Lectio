@@ -1,72 +1,179 @@
 import SwiftUI
 
-// Renders a paragraph as individually tappable words so a reader can select one and
-// explore it. Each token carries its trailing space, so horizontal spacing is 0 and
-// FlowLayout only adds vertical line spacing.
+// Collects each token's frame (in global space) so taps and drags can be mapped to words.
+struct TokenFrameKey: PreferenceKey {
+    static var defaultValue: [Int: CGRect] = [:]
+    static func reduce(value: inout [Int: CGRect], nextValue: () -> [Int: CGRect]) {
+        value.merge(nextValue(), uniquingKeysWith: { _, new in new })
+    }
+}
+
+// Renders a paragraph as individually tappable words so the reader can:
+//   • tap a word            → look it up (popup anchored at the word)
+//   • press & hold a word   → highlight the sentence it's in, to save
+// Both are per-token tap/long-press gestures (no continuous drag), so they never
+// compete with the ScrollView — you can scroll anywhere over the text.
 struct WordFlowText: View {
+    // Holds token frames without triggering a re-render (used only to anchor the popup).
+    final class FrameBox { var frames: [Int: CGRect] = [:] }
+
     let text: String
     let pal: Palette
-    var highlight: String? = nil
-    let onSelect: (String) -> Void
+    var space: String = "reader"
+    var holdSeconds: Double = 0.8
+    var definedWord: String? = nil
+    var focusWord: String? = nil          // a saved word jumped-to from the panel: lightly highlighted
+    var savedWords: Set<String> = []      // saved words: a light underline wherever they appear
+    var savedRanges: [ClosedRange<Int>] = []
+    var activeRange: ClosedRange<Int>? = nil
+    var onWord: (String, CGPoint) -> Void = { _, _ in }
+    var onSelectCommit: (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in }
+
+    @State private var box = FrameBox()
+    @Environment(\.colorScheme) private var scheme
 
     var body: some View {
         FlowLayout(spacing: 0, lineSpacing: 7) {
-            ForEach(Array(tokens.enumerated()), id: \.offset) { _, token in
-                Text(token)
+            ForEach(tokens.indices, id: \.self) { i in
+                Text(tokens[i])
                     .font(.system(size: 19, design: .serif))
                     .foregroundColor(pal.ink)
-                    .underline(isHighlighted(token), color: pal.accent)
+                    .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
+                    .background(tokenHighlight(i))
+                    .background(GeometryReader { g in
+                        Color.clear.preference(key: TokenFrameKey.self,
+                                               value: [i: g.frame(in: .named(space))])
+                    })
                     .contentShape(Rectangle())
-                    .onLongPressGesture(minimumDuration: 0.3) {
-                        let word = WordDictionary.normalize(token)
-                        if !word.isEmpty { onSelect(word) }
-                    }
+                    .onTapGesture { tap(i) }
+                    .onLongPressGesture(minimumDuration: holdSeconds) { hold(i) }
             }
         }
+        .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
     }
 
     private var tokens: [String] {
         text.split(separator: " ", omittingEmptySubsequences: true).map { String($0) + " " }
     }
 
-    private func isHighlighted(_ token: String) -> Bool {
-        guard let h = highlight else { return false }
-        return WordDictionary.normalize(token) == h
+    private func norm(_ i: Int) -> String { WordDictionary.normalize(tokens[i]) }
+
+    private func center(_ i: Int) -> CGPoint {
+        let f = box.frames[i] ?? .zero
+        return CGPoint(x: f.midX, y: f.midY)
+    }
+
+    // Dark mode washes the reading text out under a solid tint — keep highlights lighter at night.
+    private func op(_ light: Double, _ dark: Double) -> Double { scheme == .dark ? dark : light }
+
+    // MARK: interactions
+
+    private func tap(_ i: Int) {
+        let w = norm(i)
+        if !w.isEmpty { onWord(w, center(i)) }
+    }
+
+    private func hold(_ i: Int) {
+        let r = sentenceRange(around: i)
+        onSelectCommit(r, selectedText(r), center(i))
+    }
+
+    // The token range of the sentence containing token i.
+    private func sentenceRange(around i: Int) -> ClosedRange<Int> {
+        var lo = i
+        while lo > 0 && !endsSentence(tokens[lo - 1]) { lo -= 1 }
+        var hi = i
+        while hi < tokens.count - 1 && !endsSentence(tokens[hi]) { hi += 1 }
+        return lo...hi
+    }
+
+    private func endsSentence(_ token: String) -> Bool {
+        let s = token.trimmingCharacters(in: .whitespaces)
+        guard let last = s.last else { return false }
+        if ".!?".contains(last) { return true }
+        // also handle a closing quote after terminal punctuation: ." ?" !”
+        return s.count >= 2 && "”\"’'".contains(last) && ".!?".contains(s[s.index(s.endIndex, offsetBy: -2)])
+    }
+
+    // MARK: appearance
+
+    private func underlineColor(_ i: Int) -> Color? {
+        let w = norm(i)
+        if let d = definedWord, !d.isEmpty, w == d { return pal.accent }
+        if !w.isEmpty, savedWords.contains(w) { return pal.gold.opacity(op(0.7, 0.55)) }
+        return nil
+    }
+
+    @ViewBuilder
+    private func tokenHighlight(_ i: Int) -> some View {
+        let inActive = activeRange?.contains(i) ?? false
+        let inSaved = savedRanges.contains { $0.contains(i) }
+        let isFocus = (focusWord != nil) && norm(i) == focusWord
+        if inActive {
+            Rectangle().fill(pal.accent.opacity(op(0.22, 0.16)))
+        } else if inSaved {
+            Rectangle().fill(pal.gold.opacity(op(0.30, 0.18)))
+        } else if isFocus {
+            Rectangle().fill(pal.gold.opacity(op(0.22, 0.14)))
+        } else {
+            Color.clear
+        }
+    }
+
+    private func selectedText(_ r: ClosedRange<Int>) -> String {
+        r.compactMap { tokens.indices.contains($0) ? tokens[$0] : nil }
+            .joined()
+            .trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
 
-// Word/phrase detail card — used in the narrow-width sheet (the rail shows its own
-// inline version when there's room).
-struct WordDetail: View {
+// Compact lookup card shown in the popup overlay when a word is tapped.
+struct WordCard: View {
     let term: String
     let definition: String?
     let workTitle: String?
+    let workId: String?
     let pal: Palette
+    let onClose: () -> Void
     @EnvironmentObject var saved: SavedStore
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            Text(term)
-                .font(.system(.title2, design: .serif))
-                .foregroundColor(pal.accent)
-            if let def = definition {
-                Text(def).font(.system(.body, design: .serif)).foregroundColor(pal.ink)
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Text(term).font(.system(.title3, design: .serif)).foregroundColor(pal.accent)
+                Spacer()
+                Button(action: onClose) {
+                    Image(systemName: "xmark").font(.caption2)
+                }
+                .buttonStyle(.plain).foregroundColor(pal.inkSoft)
+            }
+            if let def = definition, !def.isEmpty {
+                Text(def).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
+                    .fixedSize(horizontal: false, vertical: true)
             } else {
-                Text("No definition yet — the full Webster's 1913 dictionary isn't ingested. You can still save this word.")
-                    .font(.footnote).foregroundColor(pal.inkSoft)
+                Text("No definition yet — the full Webster's 1913 dictionary isn't ingested. You can still save it.")
+                    .font(.caption).foregroundColor(pal.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
             }
             Button {
-                saved.toggle(SavedWord(term: term, definition: definition ?? "", workTitle: workTitle))
+                saved.toggle(SavedWord(term: term, definition: definition ?? "",
+                                       workTitle: workTitle, workId: workId))
             } label: {
                 Label(saved.isSaved(term) ? "Saved" : "Save word",
                       systemImage: saved.isSaved(term) ? "bookmark.fill" : "bookmark")
+                    .font(.caption.weight(.medium))
+                    .padding(.horizontal, 10).padding(.vertical, 5)
+                    .background(saved.isSaved(term) ? pal.accent : pal.paper)
+                    .foregroundColor(saved.isSaved(term) ? .white : pal.accent)
+                    .clipShape(RoundedRectangle(cornerRadius: 7))
+                    .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
             }
-            .buttonStyle(.bordered)
-            .tint(pal.accent)
-            Spacer()
+            .buttonStyle(.plain)
         }
-        .padding(20)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(pal.paper)
+        .padding(14)
+        .frame(width: 260)
+        .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
+        .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
+        .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
     }
 }

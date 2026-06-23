@@ -3,14 +3,16 @@
   "title": "The Odyssey",
   "author": "Homer",
   "originalLang": "grc",
-  "composed": "c. 8th century BCE",
+  "composed": "800–701 BCE",
   "type": "epic_poem",
   "referenceScheme": "book.line",
   "defaultEditionId": "edition.odyssey.lectio-modern",
   "blurb": "Homer's epic of the long way home — Odysseus's ten-year voyage back from Troy through monsters, gods, and temptations to Ithaca.",
+  "tradition": "West",
   "collections": [
     "collection.epics",
-    "collection.harvard-classics"
+    "collection.harvard-classics",
+    "collection.great-books"
   ],
   "editionIds": [
     "edition.odyssey.lectio-modern",

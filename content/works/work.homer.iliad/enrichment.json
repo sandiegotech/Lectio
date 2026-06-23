@@ -1,7 +1,7 @@
 {
   "workId": "work.homer.iliad",
   "source": "editorial",
-  "note": "Editorial chapter overviews shown when a reader opens a book in the contents. Keyed by book number; applies across all editions of the work.",
+  "note": "Hand-authored editorial seed for the margin rail. Chapter overviews are keyed by book number (all editions); passages carry the people and connections shown in the rail, keyed by edition-specific sectionId. The pipeline does not overwrite this file.",
   "chapters": {
     "1": "A plague tears through the Greek camp, and a furious quarrel erupts between Agamemnon and Achilles over a captive woman. Achilles withdraws from the war and begs his goddess mother to make the Greeks pay for the insult.",
     "2": "Agamemnon, tricked by a false dream, tests his weary army by proposing they sail home, and nearly loses them when they bolt for the ships. Order is restored, and the great armies on both sides muster for battle.",
@@ -27,5 +27,1158 @@
     "22": "Hector stands alone outside the walls to face Achilles while his parents beg him to come inside. Their final duel decides the fate that has loomed over Troy from the start.",
     "23": "Achilles holds a grand funeral for Patroclus, complete with athletic games where the Greek heroes compete in honor of the dead. It is a rare pause for mourning and ceremony amid the war.",
     "24": "Guided by the gods, old King Priam crosses into the enemy camp at night to beg Achilles for the body of his son Hector. The poem closes with grief, mercy, and Hector's funeral."
-  }
+  },
+  "passages": [
+    {
+      "sectionId": "edition.iliad.butler-1898.book-01",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Chryses",
+        "Calchas",
+        "Apollo",
+        "Thetis",
+        "Zeus",
+        "Briseis",
+        "Chryseis",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "mēnis — the wrath of Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "honor and shame (timē)",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-02",
+      "people": [
+        "Agamemnon",
+        "Odysseus",
+        "Nestor",
+        "Thersites",
+        "Zeus",
+        "Hector"
+      ],
+      "connections": [
+        {
+          "label": "the catalogue of ships",
+          "kind": "idea"
+        },
+        {
+          "label": "the authority of kings",
+          "kind": "idea"
+        },
+        {
+          "label": "Mycenae",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-03",
+      "people": [
+        "Paris",
+        "Menelaus",
+        "Helen",
+        "Priam",
+        "Aphrodite",
+        "Hector"
+      ],
+      "connections": [
+        {
+          "label": "Helen and the cause of the war",
+          "kind": "idea"
+        },
+        {
+          "label": "the duel as trial by combat",
+          "kind": "idea"
+        },
+        {
+          "label": "Sparta",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-04",
+      "people": [
+        "Pandarus",
+        "Menelaus",
+        "Agamemnon",
+        "Athena",
+        "Hera",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the gods take sides",
+          "kind": "idea"
+        },
+        {
+          "label": "the broken truce",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-05",
+      "people": [
+        "Diomedes",
+        "Aphrodite",
+        "Ares",
+        "Athena",
+        "Pandarus",
+        "Aeneas"
+      ],
+      "connections": [
+        {
+          "label": "aristeia — a hero's finest hour",
+          "kind": "idea"
+        },
+        {
+          "label": "mortals wounding gods",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-06",
+      "people": [
+        "Hector",
+        "Andromache",
+        "Astyanax",
+        "Glaucus",
+        "Diomedes",
+        "Helen",
+        "Paris"
+      ],
+      "connections": [
+        {
+          "label": "xenia — guest-friendship",
+          "kind": "idea"
+        },
+        {
+          "label": "the war's cost at home",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-07",
+      "people": [
+        "Hector",
+        "Ajax",
+        "Nestor",
+        "Priam",
+        "Menelaus"
+      ],
+      "connections": [
+        {
+          "label": "the duel and gift-exchange",
+          "kind": "idea"
+        },
+        {
+          "label": "burying the dead",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-08",
+      "people": [
+        "Zeus",
+        "Hector",
+        "Hera",
+        "Athena",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "the will of Zeus (Dios boulē)",
+          "kind": "idea"
+        },
+        {
+          "label": "the tide of battle turns",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-09",
+      "people": [
+        "Achilles",
+        "Odysseus",
+        "Phoenix",
+        "Ajax",
+        "Agamemnon",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the embassy to Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "the choice of two fates",
+          "kind": "idea"
+        },
+        {
+          "label": "Plato",
+          "kind": "author"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-10",
+      "people": [
+        "Odysseus",
+        "Diomedes",
+        "Dolon",
+        "Rhesus",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "the night raid (the Doloneia)",
+          "kind": "idea"
+        },
+        {
+          "label": "cunning versus force",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-11",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Patroclus",
+        "Nestor",
+        "Hector",
+        "Paris",
+        "Diomedes"
+      ],
+      "connections": [
+        {
+          "label": "the wounding of the kings",
+          "kind": "idea"
+        },
+        {
+          "label": "Patroclus sent to look",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-12",
+      "people": [
+        "Hector",
+        "Sarpedon",
+        "Glaucus",
+        "Polydamas",
+        "Asius"
+      ],
+      "connections": [
+        {
+          "label": "Sarpedon on why heroes fight",
+          "kind": "idea"
+        },
+        {
+          "label": "mortality and glory",
+          "kind": "idea"
+        },
+        {
+          "label": "omens ignored",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-13",
+      "people": [
+        "Poseidon",
+        "Idomeneus",
+        "Hector",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "a god aids the Greeks",
+          "kind": "idea"
+        },
+        {
+          "label": "holding the line",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-14",
+      "people": [
+        "Hera",
+        "Zeus",
+        "Poseidon",
+        "Hector",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "the deception of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "seduction as strategy",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-15",
+      "people": [
+        "Zeus",
+        "Hector",
+        "Apollo",
+        "Patroclus",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "the will of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "fire at the ships",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-16",
+      "people": [
+        "Patroclus",
+        "Hector",
+        "Sarpedon",
+        "Achilles",
+        "Apollo",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the borrowed armor",
+          "kind": "idea"
+        },
+        {
+          "label": "hubris and overreach",
+          "kind": "idea"
+        },
+        {
+          "label": "the death of Sarpedon",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-17",
+      "people": [
+        "Menelaus",
+        "Hector",
+        "Ajax",
+        "Euphorbus",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the battle over the body",
+          "kind": "idea"
+        },
+        {
+          "label": "loyalty to the fallen",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-18",
+      "people": [
+        "Achilles",
+        "Thetis",
+        "Hephaestus",
+        "Hector",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the shield of Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "ekphrasis — art within poetry",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-19",
+      "people": [
+        "Achilles",
+        "Agamemnon",
+        "Briseis",
+        "Thetis",
+        "Odysseus"
+      ],
+      "connections": [
+        {
+          "label": "reconciliation",
+          "kind": "idea"
+        },
+        {
+          "label": "renewed wrath",
+          "kind": "idea"
+        },
+        {
+          "label": "the doomed hero arms",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-20",
+      "people": [
+        "Achilles",
+        "Aeneas",
+        "Hector",
+        "Poseidon",
+        "Apollo",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the gods in battle",
+          "kind": "idea"
+        },
+        {
+          "label": "Aeneas spared by fate",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-21",
+      "people": [
+        "Achilles",
+        "Scamander",
+        "Hephaestus",
+        "Apollo",
+        "Priam"
+      ],
+      "connections": [
+        {
+          "label": "man against nature",
+          "kind": "idea"
+        },
+        {
+          "label": "the rivers and the gods",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-22",
+      "people": [
+        "Hector",
+        "Achilles",
+        "Priam",
+        "Hecuba",
+        "Andromache",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "the death of Hector",
+          "kind": "idea"
+        },
+        {
+          "label": "the scales of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-23",
+      "people": [
+        "Achilles",
+        "Patroclus",
+        "Diomedes",
+        "Ajax",
+        "Odysseus",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "funeral games",
+          "kind": "idea"
+        },
+        {
+          "label": "honoring the dead",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.butler-1898.book-24",
+      "people": [
+        "Priam",
+        "Achilles",
+        "Hermes",
+        "Hecuba",
+        "Hector",
+        "Andromache",
+        "Helen"
+      ],
+      "connections": [
+        {
+          "label": "the ransom of Hector",
+          "kind": "idea"
+        },
+        {
+          "label": "mercy and shared grief",
+          "kind": "idea"
+        },
+        {
+          "label": "an end to wrath",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.lectio-modern.book-01",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Chryses",
+        "Calchas",
+        "Apollo",
+        "Thetis",
+        "Zeus",
+        "Briseis",
+        "Chryseis",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "mēnis — the wrath of Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "honor and shame (timē)",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-01",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Chryses",
+        "Calchas",
+        "Apollo",
+        "Thetis",
+        "Zeus",
+        "Briseis",
+        "Chryseis",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "mēnis — the wrath of Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "honor and shame (timē)",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        },
+        {
+          "label": "The Odyssey",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-02",
+      "people": [
+        "Agamemnon",
+        "Odysseus",
+        "Nestor",
+        "Thersites",
+        "Zeus",
+        "Hector"
+      ],
+      "connections": [
+        {
+          "label": "the catalogue of ships",
+          "kind": "idea"
+        },
+        {
+          "label": "the authority of kings",
+          "kind": "idea"
+        },
+        {
+          "label": "Mycenae",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-03",
+      "people": [
+        "Paris",
+        "Menelaus",
+        "Helen",
+        "Priam",
+        "Aphrodite",
+        "Hector"
+      ],
+      "connections": [
+        {
+          "label": "Helen and the cause of the war",
+          "kind": "idea"
+        },
+        {
+          "label": "the duel as trial by combat",
+          "kind": "idea"
+        },
+        {
+          "label": "Sparta",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-04",
+      "people": [
+        "Pandarus",
+        "Menelaus",
+        "Agamemnon",
+        "Athena",
+        "Hera",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the gods take sides",
+          "kind": "idea"
+        },
+        {
+          "label": "the broken truce",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-05",
+      "people": [
+        "Diomedes",
+        "Aphrodite",
+        "Ares",
+        "Athena",
+        "Pandarus",
+        "Aeneas"
+      ],
+      "connections": [
+        {
+          "label": "aristeia — a hero's finest hour",
+          "kind": "idea"
+        },
+        {
+          "label": "mortals wounding gods",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-06",
+      "people": [
+        "Hector",
+        "Andromache",
+        "Astyanax",
+        "Glaucus",
+        "Diomedes",
+        "Helen",
+        "Paris"
+      ],
+      "connections": [
+        {
+          "label": "xenia — guest-friendship",
+          "kind": "idea"
+        },
+        {
+          "label": "the war's cost at home",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-07",
+      "people": [
+        "Hector",
+        "Ajax",
+        "Nestor",
+        "Priam",
+        "Menelaus"
+      ],
+      "connections": [
+        {
+          "label": "the duel and gift-exchange",
+          "kind": "idea"
+        },
+        {
+          "label": "burying the dead",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-08",
+      "people": [
+        "Zeus",
+        "Hector",
+        "Hera",
+        "Athena",
+        "Poseidon"
+      ],
+      "connections": [
+        {
+          "label": "the will of Zeus (Dios boulē)",
+          "kind": "idea"
+        },
+        {
+          "label": "the tide of battle turns",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-09",
+      "people": [
+        "Achilles",
+        "Odysseus",
+        "Phoenix",
+        "Ajax",
+        "Agamemnon",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the embassy to Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "the choice of two fates",
+          "kind": "idea"
+        },
+        {
+          "label": "Plato",
+          "kind": "author"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-10",
+      "people": [
+        "Odysseus",
+        "Diomedes",
+        "Dolon",
+        "Rhesus",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "the night raid (the Doloneia)",
+          "kind": "idea"
+        },
+        {
+          "label": "cunning versus force",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-11",
+      "people": [
+        "Agamemnon",
+        "Achilles",
+        "Patroclus",
+        "Nestor",
+        "Hector",
+        "Paris",
+        "Diomedes"
+      ],
+      "connections": [
+        {
+          "label": "the wounding of the kings",
+          "kind": "idea"
+        },
+        {
+          "label": "Patroclus sent to look",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-12",
+      "people": [
+        "Hector",
+        "Sarpedon",
+        "Glaucus",
+        "Polydamas",
+        "Asius"
+      ],
+      "connections": [
+        {
+          "label": "Sarpedon on why heroes fight",
+          "kind": "idea"
+        },
+        {
+          "label": "mortality and glory",
+          "kind": "idea"
+        },
+        {
+          "label": "omens ignored",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-13",
+      "people": [
+        "Poseidon",
+        "Idomeneus",
+        "Hector",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "a god aids the Greeks",
+          "kind": "idea"
+        },
+        {
+          "label": "holding the line",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-14",
+      "people": [
+        "Hera",
+        "Zeus",
+        "Poseidon",
+        "Hector",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "the deception of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "seduction as strategy",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-15",
+      "people": [
+        "Zeus",
+        "Hector",
+        "Apollo",
+        "Patroclus",
+        "Ajax"
+      ],
+      "connections": [
+        {
+          "label": "the will of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "fire at the ships",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-16",
+      "people": [
+        "Patroclus",
+        "Hector",
+        "Sarpedon",
+        "Achilles",
+        "Apollo",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the borrowed armor",
+          "kind": "idea"
+        },
+        {
+          "label": "hubris and overreach",
+          "kind": "idea"
+        },
+        {
+          "label": "the death of Sarpedon",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-17",
+      "people": [
+        "Menelaus",
+        "Hector",
+        "Ajax",
+        "Euphorbus",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the battle over the body",
+          "kind": "idea"
+        },
+        {
+          "label": "loyalty to the fallen",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-18",
+      "people": [
+        "Achilles",
+        "Thetis",
+        "Hephaestus",
+        "Hector",
+        "Patroclus"
+      ],
+      "connections": [
+        {
+          "label": "the shield of Achilles",
+          "kind": "idea"
+        },
+        {
+          "label": "ekphrasis — art within poetry",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-19",
+      "people": [
+        "Achilles",
+        "Agamemnon",
+        "Briseis",
+        "Thetis",
+        "Odysseus"
+      ],
+      "connections": [
+        {
+          "label": "reconciliation",
+          "kind": "idea"
+        },
+        {
+          "label": "renewed wrath",
+          "kind": "idea"
+        },
+        {
+          "label": "the doomed hero arms",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-20",
+      "people": [
+        "Achilles",
+        "Aeneas",
+        "Hector",
+        "Poseidon",
+        "Apollo",
+        "Zeus"
+      ],
+      "connections": [
+        {
+          "label": "the gods in battle",
+          "kind": "idea"
+        },
+        {
+          "label": "Aeneas spared by fate",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-21",
+      "people": [
+        "Achilles",
+        "Scamander",
+        "Hephaestus",
+        "Apollo",
+        "Priam"
+      ],
+      "connections": [
+        {
+          "label": "man against nature",
+          "kind": "idea"
+        },
+        {
+          "label": "the rivers and the gods",
+          "kind": "idea"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-22",
+      "people": [
+        "Hector",
+        "Achilles",
+        "Priam",
+        "Hecuba",
+        "Andromache",
+        "Athena"
+      ],
+      "connections": [
+        {
+          "label": "the death of Hector",
+          "kind": "idea"
+        },
+        {
+          "label": "the scales of Zeus",
+          "kind": "idea"
+        },
+        {
+          "label": "Troy",
+          "kind": "place"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-23",
+      "people": [
+        "Achilles",
+        "Patroclus",
+        "Diomedes",
+        "Ajax",
+        "Odysseus",
+        "Nestor"
+      ],
+      "connections": [
+        {
+          "label": "funeral games",
+          "kind": "idea"
+        },
+        {
+          "label": "honoring the dead",
+          "kind": "idea"
+        },
+        {
+          "label": "The Aeneid",
+          "kind": "work"
+        }
+      ]
+    },
+    {
+      "sectionId": "edition.iliad.pope-1715.book-24",
+      "people": [
+        "Priam",
+        "Achilles",
+        "Hermes",
+        "Hecuba",
+        "Hector",
+        "Andromache",
+        "Helen"
+      ],
+      "connections": [
+        {
+          "label": "the ransom of Hector",
+          "kind": "idea"
+        },
+        {
+          "label": "mercy and shared grief",
+          "kind": "idea"
+        },
+        {
+          "label": "an end to wrath",
+          "kind": "idea"
+        }
+      ]
+    }
+  ]
 }

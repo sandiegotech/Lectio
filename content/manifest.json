@@ -3,14 +3,74 @@
   "generator": "lectio-pipeline",
   "collections": [
     {
-      "id": "collection.harvard-classics",
-      "title": "The Harvard Classics",
-      "checksum": "6efff43dc7c70ce9"
+      "id": "collection.lectio",
+      "title": "The Lectio Collection",
+      "checksum": "489c4d7c02aefb29"
     },
     {
-      "id": "collection.epics",
-      "title": "Epics of War & Homecoming",
-      "checksum": "c1d5b1ec0cd32c68"
+      "id": "collection.great-books",
+      "title": "Great Books of the Western World",
+      "checksum": "9d1f46d85cc099d8"
+    },
+    {
+      "id": "collection.harvard-classics",
+      "title": "The Harvard Classics",
+      "checksum": "70d69e75abb0b03c"
+    },
+    {
+      "id": "collection.beyond",
+      "title": "Beyond the Collections",
+      "checksum": "3a7c3ea26d431521"
+    },
+    {
+      "id": "collection.eastern-canon",
+      "title": "Great Books of the Eastern World",
+      "checksum": "286a9415231129d4"
+    },
+    {
+      "id": "genre.religion",
+      "title": "Religion",
+      "checksum": "4c14f99f0a64e8e2"
+    },
+    {
+      "id": "genre.philosophy",
+      "title": "Philosophy",
+      "checksum": "f2cb89ca998ba5fd"
+    },
+    {
+      "id": "genre.history-biography",
+      "title": "History & Biography",
+      "checksum": "ff6d01f6cbf257bb"
+    },
+    {
+      "id": "genre.science-mathematics",
+      "title": "Science & Mathematics",
+      "checksum": "92cdab690566a24c"
+    },
+    {
+      "id": "genre.politics-economics",
+      "title": "Politics & Economics",
+      "checksum": "1cd108cc5f381aab"
+    },
+    {
+      "id": "genre.fiction",
+      "title": "Fiction",
+      "checksum": "9d882260b37c9f78"
+    },
+    {
+      "id": "genre.poetry-epic",
+      "title": "Poetry & Epic",
+      "checksum": "2c8d371b52272d15"
+    },
+    {
+      "id": "genre.drama",
+      "title": "Drama",
+      "checksum": "ef6264bc03a30f27"
+    },
+    {
+      "id": "genre.essays-letters",
+      "title": "Essays & Letters",
+      "checksum": "b9401a3692455ae6"
     }
   ],
   "works": [
@@ -21,7 +81,8 @@
       "referenceScheme": "book.section",
       "defaultEditionId": "edition.meditations.lectio-modern",
       "collections": [
-        "collection.harvard-classics"
+        "collection.harvard-classics",
+        "collection.great-books"
       ],
       "editions": [
         {
@@ -31,7 +92,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "b9d441c6c9876151"
+          "checksum": "58d730c020702e70"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -40,7 +101,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian standard — clear, dignified, widely read.",
-          "checksum": "062658c50339a2ce"
+          "checksum": "6125a288d08afe57"
         },
         {
           "id": "edition.meditations.casaubon-1634",
@@ -49,7 +110,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The first English Meditations — ornate, archaic, devotional.",
-          "checksum": "767b3c4978530333"
+          "checksum": "10493e7eb0932b06"
         },
         {
           "id": "edition.meditations.greek-original",
@@ -58,11 +119,11 @@
           "form": "prose",
           "kind": "original",
           "character": "The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
-          "checksum": "84ee2d62270d6440"
+          "checksum": "21feb93d1d3026b6"
         }
       ],
       "hasAlignment": false,
-      "checksum": "30bddd52ddb4e7ba"
+      "checksum": "cef4561fe6679902"
     },
     {
       "id": "work.homer.iliad",
@@ -71,7 +132,8 @@
       "referenceScheme": "book.line",
       "defaultEditionId": "edition.iliad.lectio-modern",
       "collections": [
-        "collection.epics"
+        "collection.epics",
+        "collection.great-books"
       ],
       "editions": [
         {
@@ -81,7 +143,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "e32ba5a5726fd940"
+          "checksum": "dca9784f507ea920"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -90,7 +152,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — 18th-century grandeur.",
-          "checksum": "9d7c426a4751240a"
+          "checksum": "617c441ba5fadd76"
         },
         {
           "id": "edition.iliad.butler-1898",
@@ -99,11 +161,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "ab9d116988e29438"
+          "checksum": "0852abf7713cab10"
         }
       ],
       "hasAlignment": false,
-      "checksum": "ca8e9b38a359a3ee"
+      "checksum": "280b7b82da65bb5f"
     },
     {
       "id": "work.homer.odyssey",
@@ -113,7 +175,8 @@
       "defaultEditionId": "edition.odyssey.lectio-modern",
       "collections": [
         "collection.epics",
-        "collection.harvard-classics"
+        "collection.harvard-classics",
+        "collection.great-books"
       ],
       "editions": [
         {
@@ -123,7 +186,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "435cdc9c28b3d9ae"
+          "checksum": "545c516dcb870ab0"
         },
         {
           "id": "edition.odyssey.butler-1900",
@@ -132,11 +195,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "de906332a03da254"
+          "checksum": "ca0b3e9a87372f3a"
         }
       ],
       "hasAlignment": false,
-      "checksum": "445f00d093d0d31e"
+      "checksum": "ae6f3ae41899084a"
     },
     {
       "id": "work.virgil.aeneid",
@@ -146,7 +209,8 @@
       "defaultEditionId": "edition.aeneid.lectio-modern",
       "collections": [
         "collection.epics",
-        "collection.harvard-classics"
+        "collection.harvard-classics",
+        "collection.great-books"
       ],
       "editions": [
         {
@@ -156,7 +220,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "296b36902afed2d8"
+          "checksum": "c4deb11fdbce366b"
         },
         {
           "id": "edition.aeneid.dryden-1697",
@@ -165,11 +229,174 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — the great English Virgil.",
-          "checksum": "7e8fe57889543ca0"
+          "checksum": "6e76745908790b3b"
         }
       ],
       "hasAlignment": false,
-      "checksum": "0491335e35f76c8b"
+      "checksum": "3d798bfb07de7f3b"
+    },
+    {
+      "id": "work.plato.republic",
+      "title": "The Republic",
+      "author": "Plato",
+      "referenceScheme": "book.section",
+      "defaultEditionId": "edition.republic.jowett-1871",
+      "collections": [
+        "collection.great-books"
+      ],
+      "editions": [
+        {
+          "id": "edition.republic.jowett-1871",
+          "translator": "Benjamin Jowett",
+          "publishedYear": 1871,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The classic Victorian Republic — Jowett's lucid, hugely influential standard.",
+          "checksum": "f3e3f05913bfdca0"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "8946f6ac6152c8ed"
+    },
+    {
+      "id": "work.aristotle.nicomachean-ethics",
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "referenceScheme": "book.chapter",
+      "defaultEditionId": "edition.nicomachean-ethics.chase-1911",
+      "collections": [
+        "collection.great-books"
+      ],
+      "editions": [
+        {
+          "id": "edition.nicomachean-ethics.chase-1911",
+          "translator": "D. P. Chase",
+          "publishedYear": 1911,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The compact Everyman Ethics — Chase's plain, readable Victorian prose.",
+          "checksum": "25e09fc29a7b4abd"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "24bd4ca1fb2339f8"
+    },
+    {
+      "id": "work.machiavelli.the-prince",
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "referenceScheme": "chapter",
+      "defaultEditionId": "edition.the-prince.marriott-1908",
+      "collections": [
+        "collection.great-books",
+        "collection.harvard-classics"
+      ],
+      "editions": [
+        {
+          "id": "edition.the-prince.marriott-1908",
+          "translator": "W. K. Marriott",
+          "publishedYear": 1908,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The standard public-domain Prince — Marriott's clear, faithful Edwardian English.",
+          "checksum": "82bd1bcc78990e30"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "21f100c1c165ea68"
+    },
+    {
+      "id": "work.confucius.analects",
+      "title": "The Analects",
+      "author": "Confucius",
+      "referenceScheme": "book.chapter",
+      "defaultEditionId": "edition.analects.legge-1893",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.analects.legge-1893",
+          "translator": "James Legge",
+          "publishedYear": 1893,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
+          "checksum": "92f35e42dac51a77"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "2c07544eb9324806"
+    },
+    {
+      "id": "work.augustine.confessions",
+      "title": "Confessions",
+      "author": "Saint Augustine",
+      "referenceScheme": "book.chapter",
+      "defaultEditionId": "edition.confessions.pusey-1838",
+      "collections": [
+        "collection.great-books",
+        "collection.harvard-classics"
+      ],
+      "editions": [
+        {
+          "id": "edition.confessions.pusey-1838",
+          "translator": "E. B. Pusey",
+          "publishedYear": 1838,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The devotional classic Confessions — Pusey's reverent, 'Thou'-keeping English.",
+          "checksum": "3f4c4c233b452e3b"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "c14fa4ab06368209"
+    },
+    {
+      "id": "work.shakespeare.hamlet",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "referenceScheme": "act.scene",
+      "defaultEditionId": "edition.hamlet.original",
+      "collections": [
+        "collection.lectio"
+      ],
+      "editions": [
+        {
+          "id": "edition.hamlet.original",
+          "translator": null,
+          "publishedYear": 1603,
+          "form": "verse",
+          "kind": "original",
+          "character": "Shakespeare's text — the tragedy entire, in five acts.",
+          "checksum": "bc536bccaf5d7574"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "310e0e6990ee654c"
+    },
+    {
+      "id": "work.gilgamesh",
+      "title": "The Epic of Gilgamesh",
+      "author": "Anonymous · Sumer & Akkad",
+      "referenceScheme": "tablet.line",
+      "defaultEditionId": "edition.gilgamesh.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.gilgamesh.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "f3264835a46ed4f6"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "4e054d4676c961c1"
     }
   ],
   "dictionaries": []

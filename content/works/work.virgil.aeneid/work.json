@@ -8,9 +8,11 @@
   "referenceScheme": "book.line",
   "defaultEditionId": "edition.aeneid.lectio-modern",
   "blurb": "Virgil's Roman epic — Aeneas's flight from fallen Troy to found the race that would build Rome. Descended from Homer; ancestor of Dante.",
+  "tradition": "West",
   "collections": [
     "collection.epics",
-    "collection.harvard-classics"
+    "collection.harvard-classics",
+    "collection.great-books"
   ],
   "editionIds": [
     "edition.aeneid.lectio-modern",

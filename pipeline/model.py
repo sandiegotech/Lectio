@@ -81,7 +81,10 @@ class Edition:
     translatorYears: Optional[str] = None
     publishedYear: Optional[int] = None
     character: str = ""               # one-line "feel" of this translation
+    overview: Optional[str] = None    # fuller note: the translator's approach + how it compares to other editions
     introduction: Optional[str] = None  # short, skippable intro shown before the text (Lectio editions)
+    divergences: Optional[list] = None  # Lectio Edition only: notable departures from older translations, with reasons
+                                        #   each: {locus?, phrase?, older, lectio, note}
     sections: list[Section] = field(default_factory=list)
 
 
@@ -96,6 +99,7 @@ class Work:
     referenceScheme: str              # "book.line" | "book.chapter" | "linear"
     defaultEditionId: str
     blurb: str = ""
+    tradition: str = "West"           # West | East — drives broad shelf identity and cover theme
     collections: list[str] = field(default_factory=list)
     editionIds: list[str] = field(default_factory=list)
 
@@ -108,12 +112,33 @@ class CollectionItem:
 
 
 @dataclass
+class PlannedWork:
+    """A shell on a shelf — a work not yet ingested, shown as a 'coming soon' placeholder.
+    Ingest the work and add it to the collection to replace the shell."""
+    title: str
+    author: str = ""
+    era: str = ""        # when the work is from, for context (e.g. "c. 800–200 BCE")
+    part: str = ""       # sub-section within a collection (e.g. "India", "China")
+    note: str = ""       # a basic one-line overview of the book
+    tradition: str = ""  # West | East — drives broad shelf identity and cover theme
+    cover: Optional[str] = None  # optional path under content/ for a planned-work cover
+    originalCover: Optional[str] = None  # optional cover for the public-domain/source translation
+    rights: Optional[str] = None  # "in-copyright" for works not yet free; else public domain / Lectio edition
+    opens: Optional[int] = None   # year an in-copyright work enters the public domain
+
+
+@dataclass
 class Collection:
     id: str
     title: str
     curator: str
     blurb: str
+    about: Optional[str] = None    # the backstory, shown on the collection's own page
+    introduction: Optional[str] = None   # a longer readable Lectio overview (the "introduction" book)
+    kind: str = "series"   # series = a recognized canon; theme = a Lectio cross-cutting grouping
+    group: Optional[str] = None   # optional umbrella header several shelves share (e.g. "Religious Texts")
     items: list[CollectionItem] = field(default_factory=list)
+    planned: list[PlannedWork] = field(default_factory=list)
 
 
 def to_json_dict(obj) -> dict:

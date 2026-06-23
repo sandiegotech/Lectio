@@ -17,7 +17,31 @@
     "Emily Wilson (2017, consulted for accuracy)",
     "the Greek (Homeric text)"
   ],
+  "overview": "The Lectio Edition renders the Iliad in clear modern English that keeps Homer’s speed and weight while dropping the archaism. It is built from the public-domain Pope and Butler versions and checked against the Greek — aiming for the directness of Butler with more of the original’s force, and none of Pope’s Augustan ornament.",
   "introduction": "The Iliad is the oldest book in the Western canon that still reads like life. It tells of a few weeks in the tenth year of the war at Troy, and beneath the spears and the gods it is about something every reader already knows: what a person does with anger, with grief, and with the certainty of death. The Greeks sang it for centuries before anyone wrote it down. This is the Lectio Edition — Homer in clear, living English, made to be read straight through.\n\nA few choices shape this rendering. The poem's first Greek word is mēnis — a divine, world-scale fury — and we render it \"rage,\" the modern word closest to its scale, where older translations reached for \"wrath.\" Homer's repeated phrases — swift-footed Achilles, Apollo who strikes from afar, the wine-dark sea — are kept each time they recur; the repetition is the poem's architecture, not decoration. Homer names the Greek army several ways — Achaeans, Argives, Danaans — all meaning the same coalition; for clarity we mostly say \"Greeks.\" The rendering is a synthesis of the whole tradition, from Pope through Lattimore, Fagles, and Wilson, checked against the Greek; it copies none of them.",
+  "divergences": [
+    {
+      "locus": "Book 1, line 1",
+      "phrase": "μῆνις (mēnis)",
+      "older": "“wrath” (Pope), “anger” (Butler)",
+      "lectio": "“rage”",
+      "note": "The poem’s first word. Mēnis is a rare, heavy word Homer uses almost only for the anger of gods — a destructive, near-sacred fury, not ordinary anger. Recent translators (Lattimore, Fagles, Wilson) favour ‘rage’ for its weight; Lectio follows them."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "Ἀχαιοί / Ἀργεῖοι / Δαναοί",
+      "older": "“Achaeans,” “Argives,” “Danaans” (transliterated)",
+      "lectio": "mostly “the Greeks”",
+      "note": "Homer has three interchangeable names for the Greek side, chosen largely to fit the metre. Keeping all three puzzles modern readers; Lectio renders them as ‘the Greeks’ for clarity and notes the original variety in the introduction."
+    },
+    {
+      "locus": "Book 1",
+      "phrase": "ἄναξ ἀνδρῶν Ἀγαμέμνων",
+      "older": "smoothed to “King Agamemnon” or dropped",
+      "lectio": "“Agamemnon, lord of men”",
+      "note": "A fixed epithet of the oral poem. Lectio keeps Homer’s recurring epithets where they carry weight rather than smoothing them away, so the formulaic texture of a sung poem survives."
+    }
+  ],
   "books": [
     {
       "order": 1,

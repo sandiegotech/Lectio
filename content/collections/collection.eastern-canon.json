@@ -1,0 +1,616 @@
+{
+  "id": "collection.eastern-canon",
+  "title": "Great Books of the Eastern World",
+  "curator": "An original Lectio collection",
+  "blurb": "The essential works of the Eastern mind — Gilgamesh to the haiku — gathered as one conversation across four civilizations and four thousand years.",
+  "about": "Lectio's own collection of the East, built deliberately as the equal of the great Western sets — the same depth and range, sixty books deep. Four civilizations and one prologue: the Near Eastern root, India, China, Persia and the Islamic world, and Japan, set in a rough order of age.\n\nThe rule is balance. Scripture and philosophy take their place, but so do the historians, the poets, and the novelists — because a library that is all Veda, Quran, and Analects records a civilization's theology, not its mind. Here the Tang poets, the Tale of Genji, and Bashō keep their seats beside the prophets and sages.",
+  "introduction": "The works without which no account of the Eastern mind is complete. An original Lectio collection, built deliberately as the equal of the great Western sets — not a sampler of the exotic but a full shelf, scripture and philosophy standing beside history, poetry, and the novel, across five civilizations and four thousand years.\n\nThe cut refuses one temptation in particular — letting the easy availability of old scripture crowd out literature. A library of the East that is all Veda, Quran, and Analects, with no Tang poetry, no Genji, no Bashō, is a record of a civilization's theology, not its mind. Here the poets and novelists keep their seats beside the prophets and philosophers.\n\nFour civilizations and one prologue, in a rough order of age — four thousand years, Gilgamesh to the haiku. Read straight through, the set is a single conversation about the self, the state, the sacred, and the passing moment, carried by voices that mostly never heard one another and arriving again and again at the same questions.\n\nThe Common Root. Before the traditions divided, the Near East set down the first epic. The Epic of Gilgamesh (c. 2100–1200 BCE) is older than all of them and a parent to both East and West: a king loses his friend, refuses his own death, and comes home empty-handed and wiser.\n\nIndia. The longest unbroken philosophical tradition on earth, turned from the start toward the inner question. The Upanishads discover that the self within and the ground of being are one; the Bhagavad Gita answers a warrior who will not fight; the Mahabharata and Ramayana hold the whole of dharma and its impossible ambiguities; the Dhammapada gives the Buddha's path in its plainest form; and Kalidasa is the summit of Sanskrit literature as distinct from its scripture.\n\nChina. Three thousand years of one literate civilization arguing over a single question: what is the well-ordered life, and the well-ordered state? The Analects and the Tao Te Ching set the poles; the Zhuangzi is its freest book; Sun Tzu wins without fighting; Sima Qian founds its history; the Tang poets are the summit of its verse; and Dream of the Red Chamber the subtlest of its novels.\n\nPersia & the Islamic World. For five centuries the most advanced civilization on the planet — it kept Greek philosophy alive when Europe had lost it and founded the science of history. The Quran; Al-Ghazali, who put reason in its place; Ibn Khaldun's Muqaddimah, sociology founded three centuries early; Ferdowsi's Shahnameh; the Persian lyric poets, never bettered; and the Thousand and One Nights.\n\nJapan. An island that took Chinese letters and Buddhist thought and made an aesthetic of impermanence and restraint. The Tale of Genji — the world's first psychological novel, written by a woman a thousand years ago; the Pillow Book; Bashō's haiku journey; and the way of the warrior, from the duelist's strategy to the acceptance of death.\n\nRead straight through, the set is one argument carried by many voices that the West joined late and has never finished. Compiled for the Lectio library.",
+  "kind": "series",
+  "group": "The Eastern World",
+  "items": [
+    {
+      "workId": "work.confucius.analects",
+      "note": ""
+    },
+    {
+      "workId": "work.gilgamesh",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Epic of Gilgamesh",
+      "author": "Anonymous · Sumer & Akkad",
+      "era": "2100–1200 BCE",
+      "part": "Prologue · The Common Root",
+      "note": "The oldest surviving epic: a king loses his friend, refuses his own death, and comes home wiser — the root beneath East and West.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gilgamesh.jpg"
+    },
+    {
+      "title": "The Code of Hammurabi",
+      "author": "Babylon",
+      "era": "1754 BCE",
+      "part": "Prologue · The Common Root",
+      "note": "The oldest great code of law — an eye for an eye, carved in stone four thousand years ago.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-code-of-hammurabi.jpg"
+    },
+    {
+      "title": "The Enuma Elish",
+      "author": "Babylon",
+      "era": "1200–1100 BCE",
+      "part": "Prologue · The Common Root",
+      "note": "The Babylonian creation epic — the world made from the body of a slain god.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-enuma-elish.jpg"
+    },
+    {
+      "title": "The Egyptian Book of the Dead",
+      "author": "Anonymous · Egypt",
+      "era": "1550–1070 BCE",
+      "part": "Prologue · The Common Root",
+      "note": "Spells to guide the soul through the underworld — Egypt's map of death and judgment.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-egyptian-book-of-the-dead.jpg"
+    },
+    {
+      "title": "The Rig Veda",
+      "author": "Anonymous",
+      "era": "1500–1100 BCE",
+      "part": "India",
+      "note": "The oldest scripture of India — hymns to the gods at the source of the whole tradition.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-rig-veda.jpg"
+    },
+    {
+      "title": "The Upanishads",
+      "author": "Anonymous",
+      "era": "800–200 BCE",
+      "part": "India",
+      "note": "The fountainhead of Indian philosophy — the discovery that the self within and the ground of all being are one.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-upanishads.jpg"
+    },
+    {
+      "title": "The Mahabharata",
+      "author": "Attributed to Vyasa",
+      "era": "400 BCE–400 CE",
+      "part": "India",
+      "note": "The longest epic ever composed — a war between cousins that swells to hold the whole of dharma and its ambiguities.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mahabharata.jpg"
+    },
+    {
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "era": "200–101 BCE",
+      "part": "India",
+      "note": "On the eve of battle a warrior refuses to fight; a god answers him — act without grasping at the fruit of action.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-bhagavad-gita.jpg"
+    },
+    {
+      "title": "The Ramayana",
+      "author": "Valmiki",
+      "era": "500–301 BCE",
+      "part": "India",
+      "note": "The exile of a prince and the war to win back his abducted wife — order tested against grief; living scripture across Asia.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-ramayana.jpg"
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "era": "300–201 BCE",
+      "part": "India",
+      "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-dhammapada.jpg"
+    },
+    {
+      "title": "The Arthashastra",
+      "author": "Kautilya",
+      "era": "300 BCE–100 CE",
+      "part": "India",
+      "note": "Kautilya's unsparing manual of statecraft and power — India's answer to Machiavelli, written far earlier.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-arthashastra.jpg"
+    },
+    {
+      "title": "The Yoga Sutras",
+      "author": "Patanjali",
+      "era": "200 BCE–400 CE",
+      "part": "India",
+      "note": "Patanjali's terse map of the mind and the eightfold path to stilling it.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-yoga-sutras.jpg"
+    },
+    {
+      "title": "The Panchatantra",
+      "author": "Anonymous",
+      "era": "300 BCE–300 CE",
+      "part": "India",
+      "note": "The world's most-traveled fables — animal tales of cunning and rule that reached every continent.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-panchatantra.jpg"
+    },
+    {
+      "title": "The Lotus Sutra",
+      "author": "Mahayana Buddhist tradition",
+      "era": "100–200 CE",
+      "part": "India",
+      "note": "The central scripture of Mahayana Buddhism — the promise that all beings may awaken.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-lotus-sutra.jpg"
+    },
+    {
+      "title": "The Kama Sutra",
+      "author": "Vatsyayana",
+      "era": "200–300 CE",
+      "part": "India",
+      "note": "Far more than its reputation — Vatsyayana's classical treatise on desire, love, and the art of living well.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kama-sutra.jpg"
+    },
+    {
+      "title": "The Tirukkural",
+      "author": "Tiruvalluvar",
+      "era": "450–500 CE",
+      "part": "India",
+      "note": "Tamil couplets on virtue, wealth, and love — South India's most beloved book of wisdom.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tirukkural.jpg"
+    },
+    {
+      "title": "The Plays & Poems of Kalidasa",
+      "author": "Kalidasa",
+      "era": "301–500 CE",
+      "part": "India",
+      "note": "The summit of Sanskrit literature — the drama Shakuntala and the lyric Cloud Messenger.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kalidasa-plays-and-poems.jpg"
+    },
+    {
+      "title": "The Gita Govinda",
+      "author": "Jayadeva",
+      "era": "1200",
+      "part": "India",
+      "note": "Jayadeva's rapturous song of Krishna and Radha — devotion sung as love poetry.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gita-govinda.jpg"
+    },
+    {
+      "title": "The Songs of Kabir",
+      "author": "Kabir",
+      "era": "1440–1518",
+      "part": "India",
+      "note": "The poet-weaver who mocked temple and mosque alike — India's fiercest voice for the God beyond religion.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-songs-of-kabir.jpg"
+    },
+    {
+      "title": "Gitanjali",
+      "author": "Rabindranath Tagore",
+      "era": "1910",
+      "part": "India",
+      "note": "Tagore's song-offerings — the lyric devotion that brought India its first Nobel in literature.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gitanjali.jpg"
+    },
+    {
+      "title": "The Book of Songs",
+      "author": "Anonymous",
+      "era": "1000–600 BCE",
+      "part": "China",
+      "note": "China's oldest poetry — three hundred ancient odes and folk songs, edited, by tradition, by Confucius.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-book-of-songs.jpg"
+    },
+    {
+      "title": "The I Ching",
+      "author": "Anonymous",
+      "era": "800–200 BCE",
+      "part": "China",
+      "note": "The Book of Changes — the oracle and cosmology at the root of Chinese thought.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-i-ching.jpg"
+    },
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "era": "551–479 BCE",
+      "part": "China",
+      "note": "The ground text of East Asian ethics — becoming fully human through ritual, learning, and human-heartedness.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-analects.jpg"
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "era": "500–401 BCE",
+      "part": "China",
+      "note": "Thirteen chapters: the supreme excellence is to win without fighting, and every battle is decided before it is joined.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-art-of-war.jpg"
+    },
+    {
+      "title": "The Mozi",
+      "author": "Mozi",
+      "era": "470–391 BCE",
+      "part": "China",
+      "note": "Mozi's case against Confucius — impartial love, plain living, and the first logic in China.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mozi.jpg"
+    },
+    {
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "era": "400–301 BCE",
+      "part": "China",
+      "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
+    },
+    {
+      "title": "The Doctrine of the Mean",
+      "author": "Attributed to Zisi",
+      "era": "400 BCE",
+      "part": "China",
+      "note": "One of the Confucian Four Books — the path of balance and sincerity at the still center of all things.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-doctrine-of-the-mean.jpg"
+    },
+    {
+      "title": "The Mencius",
+      "author": "Mencius",
+      "era": "300–250 BCE",
+      "part": "China",
+      "note": "The 'second sage' of Confucianism — human nature is good, and a ruler governs by virtue or not at all.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mencius.jpg"
+    },
+    {
+      "title": "The Zhuangzi",
+      "author": "Zhuangzi",
+      "era": "369–286 BCE",
+      "part": "China",
+      "note": "Philosophy by parable and joke — the man who dreams he is a butterfly; the freest book in the tradition.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-zhuangzi.jpg"
+    },
+    {
+      "title": "The Han Feizi",
+      "author": "Han Fei",
+      "era": "280–233 BCE",
+      "part": "China",
+      "note": "The masterwork of Legalism — order through law and power, the philosophy that unified China.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-han-feizi.jpg"
+    },
+    {
+      "title": "Records of the Grand Historian",
+      "author": "Sima Qian",
+      "era": "145–86 BCE",
+      "part": "China",
+      "note": "The founding work of Chinese history, whose author chose disgrace over death to finish it.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-records-of-the-grand-historian.jpg"
+    },
+    {
+      "title": "The Platform Sutra",
+      "author": "Huineng",
+      "era": "700–800 CE",
+      "part": "China",
+      "note": "The founding text of Zen — Huineng's teaching that awakening is sudden and within.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-platform-sutra.jpg"
+    },
+    {
+      "title": "The Poems of the Tang",
+      "author": "Li Bai, Du Fu, Wang Wei",
+      "era": "701–900 CE",
+      "part": "China",
+      "note": "The summit of Chinese verse — Li Bai's moonlight, Du Fu's grief, Wang Wei's empty mountains.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-poems-of-the-tang.jpg"
+    },
+    {
+      "title": "The Song Lyrics",
+      "author": "Su Shi & Li Qingzhao",
+      "era": "1050–1150",
+      "part": "China",
+      "note": "The ci poetry of the Song dynasty — Su Shi and Li Qingzhao, the most intimate verse in Chinese.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-song-lyrics.jpg"
+    },
+    {
+      "title": "The Romance of the West Chamber",
+      "author": "Wang Shifu",
+      "era": "1295–1307",
+      "part": "China",
+      "note": "China's most beloved love comedy — a scholar, a minister's daughter, and the maid who outwits everyone.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-romance-of-the-west-chamber.jpg"
+    },
+    {
+      "title": "Romance of the Three Kingdoms",
+      "author": "Luo Guanzhong",
+      "era": "1321–1400",
+      "part": "China",
+      "note": "China's great historical epic — war, loyalty, and strategy in the empire's collapse.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-romance-of-the-three-kingdoms.jpg"
+    },
+    {
+      "title": "The Water Margin",
+      "author": "Shi Nai'an",
+      "era": "1368–1400",
+      "part": "China",
+      "note": "Outlaws of the marsh — a band of rebels turned folk heroes, China's tale of honor among bandits.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-water-margin.jpg"
+    },
+    {
+      "title": "Journey to the West",
+      "author": "Wu Cheng'en",
+      "era": "1592",
+      "part": "China",
+      "note": "The Monkey King escorts a monk to fetch the scriptures — China's beloved comic-spiritual epic.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-journey-to-the-west.jpg"
+    },
+    {
+      "title": "The Peony Pavilion",
+      "author": "Tang Xianzu",
+      "era": "1598",
+      "part": "China",
+      "note": "The summit of Chinese drama — a love so strong it brings the dead back to life.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-peony-pavilion.jpg"
+    },
+    {
+      "title": "Dream of the Red Chamber",
+      "author": "Cao Xueqin",
+      "era": "1750–1791",
+      "part": "China",
+      "note": "The slow ruin of a great family seen through a doomed love — the subtlest of the Chinese novels.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-dream-of-the-red-chamber.jpg"
+    },
+    {
+      "title": "The Qur'an",
+      "author": "",
+      "era": "610–632 CE",
+      "part": "Persia & the Islamic World",
+      "note": "For Muslims the literal speech of God, and the standard of the Arabic language — the book that shaped a civilization.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-quran.jpg"
+    },
+    {
+      "title": "The Virtuous City",
+      "author": "Al-Farabi",
+      "era": "940",
+      "part": "Persia & the Islamic World",
+      "note": "Al-Farabi imagines the ideal state — Plato's Republic remade for the Islamic world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-virtuous-city.jpg"
+    },
+    {
+      "title": "The Shahnameh",
+      "author": "Ferdowsi",
+      "era": "940–1020",
+      "part": "Persia & the Islamic World",
+      "note": "Fifty thousand couplets recovering all of Persian myth and history, written to save the language itself.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-shahnameh.jpg"
+    },
+    {
+      "title": "The Canon of Medicine",
+      "author": "Avicenna",
+      "era": "1025",
+      "part": "Persia & the Islamic World",
+      "note": "Avicenna's encyclopedia of medicine — the standard text in East and West for six hundred years.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-canon-of-medicine.jpg"
+    },
+    {
+      "title": "The Revival of the Religious Sciences",
+      "author": "Al-Ghazali",
+      "era": "1058–1111",
+      "part": "Persia & the Islamic World",
+      "note": "Al-Ghazali put reason in its place and rescued faith through the inner life — the most influential Muslim after the Prophet.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-revival-of-the-religious-sciences.jpg"
+    },
+    {
+      "title": "The Rubaiyat",
+      "author": "Omar Khayyam",
+      "era": "1048–1131",
+      "part": "Persia & the Islamic World",
+      "note": "Omar Khayyam's quatrains — wine, doubt, and the fleeting day, beloved across the world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-rubaiyat.jpg"
+    },
+    {
+      "title": "The Maqamat",
+      "author": "Al-Hariri",
+      "era": "1100–1110",
+      "part": "Persia & the Islamic World",
+      "note": "Al-Hariri's dazzling tales of a silver-tongued rogue — the showpiece of classical Arabic prose.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-maqamat.jpg"
+    },
+    {
+      "title": "The Conference of the Birds",
+      "author": "Attar",
+      "era": "1177",
+      "part": "Persia & the Islamic World",
+      "note": "Attar's Sufi allegory — the birds journey to find their king and discover themselves.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-conference-of-the-birds.jpg"
+    },
+    {
+      "title": "The Decisive Treatise",
+      "author": "Averroes",
+      "era": "1180",
+      "part": "Persia & the Islamic World",
+      "note": "Averroes argues that philosophy and revelation, rightly read, cannot conflict — the book that taught Europe Aristotle.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-decisive-treatise.jpg"
+    },
+    {
+      "title": "Layla and Majnun",
+      "author": "Nizami",
+      "era": "1192",
+      "part": "Persia & the Islamic World",
+      "note": "Nizami's tragic romance — the lover driven mad by love, the East's Romeo and Juliet.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-layla-and-majnun.jpg"
+    },
+    {
+      "title": "The Masnavi",
+      "author": "Rumi",
+      "era": "1258–1273",
+      "part": "Persia & the Islamic World",
+      "note": "Rumi's vast spiritual epic — called 'the Quran in Persian,' the summit of Sufi poetry.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-masnavi.jpg"
+    },
+    {
+      "title": "The Gulistan",
+      "author": "Saadi",
+      "era": "1258",
+      "part": "Persia & the Islamic World",
+      "note": "Saadi's 'Rose Garden' — wise, witty tales and verse on how to live, the most read book in the Persian world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gulistan.jpg"
+    },
+    {
+      "title": "The Divan",
+      "author": "Hafez",
+      "era": "1320–1390",
+      "part": "Persia & the Islamic World",
+      "note": "Hafez's ghazals — wine, love, and the divine entwined in the most cherished poetry of Iran.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-divan.jpg"
+    },
+    {
+      "title": "The Travels of Ibn Battuta",
+      "author": "Ibn Battuta",
+      "era": "1355",
+      "part": "Persia & the Islamic World",
+      "note": "Thirty years and the whole medieval world on foot — the greatest travel book before modern times.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-travels-of-ibn-battuta.jpg"
+    },
+    {
+      "title": "The Muqaddimah",
+      "author": "Ibn Khaldun",
+      "era": "1377",
+      "part": "Persia & the Islamic World",
+      "note": "The first science of history and society — why civilizations cohere, harden, and fall; sociology founded centuries early.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-muqaddimah.jpg"
+    },
+    {
+      "title": "One Thousand and One Nights",
+      "author": "",
+      "era": "800–1400",
+      "part": "Persia & the Islamic World",
+      "note": "Scheherazade's treasury of tales — the wellspring of the frame narrative.",
+      "tradition": "East",
+      "cover": "collections/book-covers/lectio-thousand-and-one-nights.jpg"
+    },
+    {
+      "title": "The Kojiki",
+      "author": "Ō no Yasumaro",
+      "era": "712",
+      "part": "Japan",
+      "note": "Japan's oldest book — the myths of the gods and the origins of the islands and their emperors.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kojiki.jpg"
+    },
+    {
+      "title": "The Manyoshu",
+      "author": "Compiled",
+      "era": "759",
+      "part": "Japan",
+      "note": "The first great anthology of Japanese poetry — ten thousand leaves, from emperors to frontier guards.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-manyoshu.jpg"
+    },
+    {
+      "title": "The Kokinshu",
+      "author": "Compiled",
+      "era": "905",
+      "part": "Japan",
+      "note": "The first imperial anthology of Japanese verse — the collection that fixed the nation's taste for a thousand years.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kokinshu.jpg"
+    },
+    {
+      "title": "The Pillow Book",
+      "author": "Sei Shōnagon",
+      "era": "1002",
+      "part": "Japan",
+      "note": "A lady-in-waiting's lists and merciless judgments — the sharpest eye in classical literature.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-pillow-book.jpg"
+    },
+    {
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "era": "1008",
+      "part": "Japan",
+      "note": "The world's first psychological novel — the loves and aging of a Heian prince, written by a woman a thousand years ago.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tale-of-genji.jpg"
+    },
+    {
+      "title": "The Tale of the Heike",
+      "author": "Anonymous",
+      "era": "1300–1330",
+      "part": "Japan",
+      "note": "The fall of a samurai clan — Japan's national war epic, on glory and impermanence.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tale-of-the-heike.jpg"
+    },
+    {
+      "title": "Essays in Idleness",
+      "author": "Yoshida Kenkō",
+      "era": "1330–1332",
+      "part": "Japan",
+      "note": "Kenkō's reflections of a recluse monk — the classic of Japanese taste and the beauty of transience.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-essays-in-idleness.jpg"
+    },
+    {
+      "title": "On the Art of the Noh Drama",
+      "author": "Zeami",
+      "era": "1400–1420",
+      "part": "Japan",
+      "note": "Zeami's secret teachings on Noh — the deepest meditation on acting before the modern age.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-art-of-the-noh-drama.jpg"
+    },
+    {
+      "title": "The Narrow Road to the Deep North",
+      "author": "Bashō",
+      "era": "1644–1694",
+      "part": "Japan",
+      "note": "Bashō's journey on foot through northern Japan, prose and haiku woven, the eternal held in a few syllables.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-narrow-road-to-the-deep-north.jpg"
+    },
+    {
+      "title": "The Book of Five Rings & Hagakure",
+      "author": "Musashi & Tsunetomo",
+      "era": "1645 & 1716",
+      "part": "Japan",
+      "note": "The way of the warrior from two sides — a duelist's strategy and a samurai's meditations on death.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-book-of-five-rings-hagakure.jpg"
+    }
+  ]
+}

@@ -142,10 +142,56 @@ Margin is already the surface for this; the graph fills it in. Shared with the s
 
 ---
 
+## 7b. Lectio Editions, in print (planned)
+
+The Lectio Modern Edition deserves a permanent form. A printed **Lectio Edition** — a beautifully made
+modern translation of a great work — is the natural physical artifact of this project (Craft; a finished
+thing that ships). Print is not a separate product; it is **another rendering of the same content bundle**.
+
+- **Print is a bundle render target.** The same `content/` data drives it: Modern Edition segments → the body;
+  the spine / `referenceScheme` (e.g. book.line) → the running header; the per-passage "understand" layer →
+  the page's footer gloss; the `Provenance` record → the colophon. Stable segment IDs anchor every note.
+- **The footer gloss — orient, don't spoil.** Each page carries a brief footer line that helps the reader
+  follow along: *where we are, who these people are, what just shifted* — never what is about to happen. It is
+  a companion, not a study guide. **Depth is opt-in:** the page stays clean; discreet markers lead the curious
+  to fuller notes (back matter / margin). This honors the principle that the work *strengthens the mind rather
+  than dissolves it* and *assumes the reader is capable*. (Historical editions did a coarse version of this —
+  Pope's and Dryden's "The Argument" before each book; Lectio does it finer and fresh.)
+- **Beautiful covers.** Each Lectio Edition gets a fine, made-to-keep cover — the clothbound spirit of the
+  in-app `SpineCard`, realized as a real object. The cover is part of the artifact, not an afterthought.
+- **Provenance is printed, and review is non-negotiable.** You cannot patch a printed book. Therefore the
+  **human-review gate (§2) is absolute**: every Lectio Edition must be *read and approved in full before it
+  goes to print*, and every copy carries its provenance colophon (model, vintage, sources consulted, method).
+  The editor of record signs it. This is the honesty principle made physical — and a selling point: a modern
+  translation that tells you exactly how it was made.
+- **Vintages become editions.** The 2026 vintage is a real printed edition year on the spine; later vintages
+  are new printings with their own provenance, the earlier ones preserved as citable records.
+
+---
+
 ## 8. Ecosystem, AI & Business Model
 
 **Ecosystem.** Lectio is one of several apps sharing an account-level identity and a tuned AI ("the
 Philosopher") with the sibling app **Gloss**. Lectio *consumes* these; it doesn't own them.
+
+**One SDIT account, one synced library.** Eventually a single **SDIT account works across every SDIT app**.
+The reader's *personal layer* — saved words, highlights, notes, and reading places — belongs to the account,
+not to any one app, and **syncs everywhere**: a word saved in Lectio is there to study in **Gloss**; a note
+taken in one app is yours in all. The "Connect Gloss" affordance and the on-device collection are the first
+visible step toward this.
+
+- **What syncs (the account library):** saved words (the shared vocabulary layer with Gloss), highlights,
+  per-work reading position + bookmark, and notes (later).
+- **Architecture (the seam).** All personal data routes through one sync seam (`app/Lectio/AccountSync.swift`:
+  `SyncProvider` / `SyncCoordinator`), mirroring the AI capability seam. **v1 is local-only** — there is no
+  account yet, so the default `LocalSyncProvider` is a no-op and data lives in `UserDefaults` (`SavedStore`,
+  `ReadingState`). When the SDIT account ships, a cloud-backed provider plugs in at that seam and nothing above
+  it changes. Never call a sync backend directly.
+- **Privacy ("The Compact").** The personal layer is the reader's. Sync is account-scoped and opt-in; the
+  collection is never sold or mined. Public-domain reading needs no account at all.
+
+> Cross-repo note: this unified-account direction is also recorded in the institutional bible
+> (`San Diego Tech/internal/bible.html`, Open Notes) so the website and the apps stay aligned.
 
 **AI strategy (swappable, deferred).** The pipeline ships no live AI; the Modern Edition is produced offline
 and reviewed, then served as static, finished content. Runtime comprehension aids route through a capability
@@ -177,12 +223,41 @@ The pre-generated annotation dictionary is the better product anyway — a stude
 a considered, edited definition, not whatever the model generates cold that afternoon. The pipeline
 produces quality; the device handles edge cases.
 
-**Business model — SDIT subscription.**
-- **Free** — read any public-domain edition + the original, the Margin's basic aids, dictionary, saved words.
-- **SDIT subscription** — the **Lectio Modern Edition** (the deep-research modern translations) + the cloud AI
-  comprehension aids and cross-app intelligence. Tiers: *Student* and *Philosopher*. Login ships from day one.
+**Business model — the app is free and open; print funds the university.**
 
-The split: **public-domain reading is free; the modern, made-for-today experience is the paid value.**
+Lectio the app is **free and open, end to end**. Public-domain reading, the original languages, the Margin's
+aids, the dictionary, the saved-words layer — **and the Lectio Modern Edition itself** — are all free in the
+app, with no subscription and no paywall on the text. This is the SDIT tools compact made literal: it *costs
+nothing*, *strengthens the mind*, *keeps nothing of yours*, and the source is public. The near-zero AI cost
+architecture above is what makes free sustainable — content is pre-generated and served static, so each
+additional reader costs essentially nothing.
+
+Revenue comes from the **physical artifact, not the text**. The thing sold is the printed **Lectio Edition**
+(§7b): a beautifully made, human-reviewed modern translation as a real object — e.g. *The Iliad — A Lectio
+Modern Translation (2026)* — produced **on demand (Amazon KDP / print-on-demand), so there is no inventory, no
+overhead, and no risk**. Whoever wants only to read pays nothing; whoever wants to *keep* a fine edition buys
+the book. Proceeds flow through SDIT and **fund the university** — the self-funding structure the institution
+needs (the Black Mountain lesson: take the pedagogy *and* the structure). The product *is* the mission: great
+works made readable, sold to make more of them.
+
+- **The wall is clean.** The knowledge is never gated; only the made object is sold. No feature of the app is
+  ever withheld to drive print sales.
+- **Many titles, many languages — the catalog compounds.** Every work × every language is a SKU with zero
+  carrying cost. Modern editions in other languages — **Spanish first, fitting San Diego** — multiply both
+  reach and funding. The win is breadth, not any single title.
+- **Honesty is the product.** Every printed edition is read and approved in full before printing (§2, §7b) and
+  carries its provenance colophon. A modern translation that tells you exactly how it was made is the selling
+  point, not a disclaimer.
+- **Channels, not masters.** Print-on-demand marketplaces (Amazon to start; IngramSpark later for bookstore and
+  library reach) are fulfillment channels — non-exclusive, no lock-in. The free, open app is always the front door.
+- **Naming.** The line is the **Lectio Edition** / **Lectio Modern Edition**; use "translation" where the work
+  is literally translated (*The Iliad — A Lectio Modern Translation*), "edition" for English-origin works
+  modernized rather than translated (*Hamlet*).
+- **The cloud "Philosopher" AI stays institutional.** Personalized server-side aids remain a feature for SDIT
+  students, funded by the institution — never a consumer paywall that would compromise the free app.
+
+> Cross-repo note: this free-app / print-funds-SDIT model should be mirrored in the institutional bible
+> (`San Diego Tech/internal/bible.html`) alongside the unified-account note, so the website and apps stay aligned.
 
 ---
 
@@ -193,15 +268,26 @@ The split: **public-domain reading is free; the modern, made-for-today experienc
 - **P2 — The 3-work corpus**: ingest Iliad (multiple PD translations) + Plato/Aristotle; fuller enrichment;
   full Webster's 1913 dictionary so every word resolves.
 - **P3 — The Modern Edition**: build the deep-research production process; produce + review the Modern Edition
-  for the 3 works; ship it as the default edition; account/login + subscription gating.
+  for the 3 works; ship it as the default edition, **free in-app**; optional account/login for cross-device sync.
+- **P3b — Print, the revenue arm**: a print render target from the same bundle (§7b); the first printed Lectio
+  Editions on print-on-demand (Amazon to start), human-reviewed, proceeds funding SDIT; then other languages.
 - **P4 — Depth**: connection graph, art per scene, the 15-min/day Harvard reading path, streaks.
+- **P4b — On-demand download ("checked out = downloaded")**: content moves behind a `ContentSource`
+  seam (`app/Lectio/Downloads.swift`) so the app ships tiny and fetches a book's text + cover on
+  checkout from a CDN — **Cloudflare R2** (free egress, ~$0.015/GB-month storage). My Collection (the
+  *intent*) syncs via iCloud; downloads (the *bytes*) are device-local, so checking out on one device
+  pulls the book down on each. **Current interim model:** the ingested ("working") works ship in the
+  bundle and live on the tablet; coming-soon shells are *simulated* as in-the-cloud — full descriptions
+  available (the Explore/overview layer), no book text downloaded. The seam makes the real R2 backend a
+  swap, not a rewrite. Build the library content first; stand up R2 when the catalog outgrows a bundled app.
 - **P5 — Scale**: the rest of the Harvard Classics; more collections.
 
 ## 10. The MVP
 
 **A reader where a newcomer opens one of the 3 works, reads the Lectio Modern Edition with ease, taps a hard
 word and gets it, switches to a historical translation or the Greek out of curiosity, and finishes feeling it
-was approachable.** Free public-domain reading + the paid Modern Edition, proven on three works.
+was approachable.** Every edition — including the Lectio Modern Edition — free and open in the app; the printed
+Lectio Edition is the product that funds SDIT. Proven on three works.
 
 ## 11. Open questions
 - Plato vs. Aristotle for work #3 (recommend Plato's *Apology/Crito/Phaedo*).

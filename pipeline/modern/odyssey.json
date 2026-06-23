@@ -4,7 +4,9 @@
   "model": "claude-opus-4-8",
   "date": "2026-06-16",
   "vintage": 2026,
-  "sourceEditionIds": ["edition.odyssey.butler-1900"],
+  "sourceEditionIds": [
+    "edition.odyssey.butler-1900"
+  ],
   "sourcesCited": [
     "Samuel Butler, prose (1900, public domain)",
     "Butcher & Lang, prose (1879, public domain)",
@@ -13,7 +15,31 @@
     "Emily Wilson (2017, consulted)",
     "the Greek (Homeric text)"
   ],
+  "overview": "The Lectio Edition tells the Odyssey in clear modern English, keeping the pace of the adventure and the warmth of the homecoming. Built from Butler’s public-domain prose and checked against the Greek, it aims to be as readable as Butler while restoring some of the poem’s music and the doubleness of its famously cunning hero.",
   "introduction": "The Odyssey is the great poem of homecoming — ten years of one soldier's struggle to get back to his wife, his son, and his own small island after the Trojan War. Beneath the monsters and the gods it is about cunning, endurance, and the pull of home. This is the Lectio Edition — Homer in clear, living English, made to be read straight through.\n\nThe Greeks called Odysseus polytropos, \"the man of many turns\" — both far-traveled and quick-witted — and we keep that doubleness in the opening line. As in our Iliad, Homer's epithets (grey-eyed Athena, the wine-dark sea) are kept where they recur, and the gods and heroes keep their Greek names: Odysseus, not the Roman Ulysses; Athena, not Minerva. The rendering synthesizes the whole tradition — from Butler and Butcher–Lang through Fitzgerald, Fagles, and Wilson — checked against the Greek; it copies none of them.",
+  "divergences": [
+    {
+      "locus": "Book 1, line 1",
+      "phrase": "πολύτροπος (polytropos)",
+      "older": "“the man … never at a loss” (Butler); “for wisdom’s various arts renowned” (older verse)",
+      "lectio": "“the man of many turns”",
+      "note": "Polytropos literally means ‘of many turns’ — at once Odysseus’s much-wandering journey and his versatile, twisting cunning. Older versions pick one sense; Emily Wilson’s ‘complicated man’ keeps the doubleness. Lectio renders ‘the man of many turns’ to hold both."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "πολύτλας δῖος Ὀδυσσεύς",
+      "older": "“the much-enduring noble Odysseus”",
+      "lectio": "“long-suffering Odysseus”",
+      "note": "His standing epithet. Lectio keeps the key recurring epithets so the hero’s defining trait — endurance — stays audible, while modernising the phrasing."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "ξενία (xenia)",
+      "older": "“hospitality,” often unmarked",
+      "lectio": "“guest-friendship,” with the idea drawn out",
+      "note": "Xenia — the sacred bond between host and guest — is the moral engine of the whole poem, the thing the suitors violate and the Cyclops perverts. Lectio renders it so a modern reader feels it as the binding law it was, not mere good manners."
+    }
+  ],
   "books": [
     {
       "order": 1,

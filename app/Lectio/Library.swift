@@ -8,6 +8,7 @@ final class Library: ObservableObject {
     @Published var editions: [String: Edition] = [:]
     @Published var collections: [BookCollection] = []
     @Published var enrichment: [String: Enrichment] = [:]
+    @Published var explore: [ExploreRecord] = []
 
     private let decoder = JSONDecoder()
 
@@ -46,9 +47,53 @@ final class Library: ObservableObject {
                 enrichment[work.id] = en
             }
         }
+
+        if let data = decode(ExploreData.self, "explore", in: "content") {
+            explore = data.records
+        }
+    }
+
+    // Build a book-overview route from a title (real work or planned shell) — used by the
+    // Explore feed's connection links to jump between related books.
+    func bookOverview(title: String) -> BookOverview? {
+        if let w = works.first(where: { $0.title == title }) {
+            return BookOverview(title: w.title, author: w.author, era: w.composed,
+                                overview: w.blurb, workId: w.id, coverPath: nil, tradition: w.tradition)
+        }
+        for c in collections {
+            if let p = (c.planned ?? []).first(where: { $0.title == title }) {
+                return BookOverview(title: p.title, author: p.author ?? "", era: p.era ?? "",
+                                    overview: p.note ?? "", workId: nil, coverPath: p.cover, tradition: p.tradition)
+            }
+        }
+        return nil
     }
 
     func edition(for work: Work) -> Edition? { editions[work.defaultEditionId] }
+
+    // A work's cover art, if one is bundled at content/works/<id>/cover.jpg.
+    func coverURL(_ workId: String) -> URL? {
+        Bundle.main.url(forResource: "cover", withExtension: "jpg",
+                        subdirectory: "content/works/\(workId)")
+    }
+
+    // A planned work's cover art, if one is bundled under content/.
+    func plannedCoverURL(_ coverPath: String?) -> URL? {
+        guard let coverPath, !coverPath.isEmpty else { return nil }
+        let ns = coverPath as NSString
+        let ext = ns.pathExtension.isEmpty ? nil : ns.pathExtension
+        let name = ns.deletingPathExtension.components(separatedBy: "/").last ?? ns.deletingPathExtension
+        let dir = ns.deletingLastPathComponent
+        let subdirectory = dir.isEmpty ? "content" : "content/\(dir)"
+        return Bundle.main.url(forResource: name, withExtension: ext, subdirectory: subdirectory)
+    }
+
+    // A collection's featured introduction image, if bundled at
+    // content/collections/<collectionId>-intro.jpg.
+    func collectionImageURL(_ collectionId: String) -> URL? {
+        Bundle.main.url(forResource: "\(collectionId)-intro", withExtension: "jpg",
+                        subdirectory: "content/collections")
+    }
 
     func works(in collection: BookCollection) -> [Work] {
         collection.items.compactMap { item in works.first { $0.id == item.workId } }

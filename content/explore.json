@@ -1,0 +1,684 @@
+{
+  "records": [
+    {
+      "title": "The Iliad",
+      "author": "Homer",
+      "quote": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans.",
+      "source": "Homer, Iliad I.1, tr. Samuel Butler (1898) — public domain",
+      "essence": "The founding war epic of the West: one man's rage in the tenth year of the Trojan War, and the mortality and honor that drive mortals and gods alike.",
+      "themes": [
+        "rage",
+        "honor",
+        "fate",
+        "mortality",
+        "war"
+      ],
+      "original": "Homeric Greek (~8th c. BCE) — public-domain text via the Perseus Digital Library.",
+      "translationNote": "Every age re-translates Homer — Pope (1715) made him rhyme, Butler (1898) made him prose; the first word, mēnis ('rage'), is famously hard to land.",
+      "connections": [
+        {
+          "to": "The Aeneid",
+          "type": "influences",
+          "note": "Virgil wrote Rome's epic as a deliberate answer to Homer — Aeneas is the anti-Achilles, duty chosen over rage."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "East and West both open on a battlefield: Achilles' wrath and Arjuna's refusal both ask how a warrior should face duty and death."
+        },
+        {
+          "to": "The Analects",
+          "type": "contrasts",
+          "note": "Homeric glory (kleos), won by force, against Confucian virtue (ren), won by character — two rival ideals of a life worth remembering."
+        }
+      ]
+    },
+    {
+      "title": "The Republic",
+      "author": "Plato",
+      "quote": "Until philosophers are kings, or the kings and princes of this world have the spirit and power of philosophy… cities will never have rest from their evils.",
+      "source": "Plato, Republic V (473d), tr. Benjamin Jowett (1871) — public domain",
+      "essence": "Plato builds an ideal city to discover what justice really is — and argues that only those who love wisdom are fit to hold power.",
+      "themes": [
+        "justice",
+        "the good",
+        "the soul",
+        "the ideal state",
+        "knowledge"
+      ],
+      "original": "Classical Greek (~375 BCE) — public-domain text via the Perseus Digital Library.",
+      "translationNote": "Jowett's Victorian English is the classic version; later translators tighten his long sentences, but the Cave is the Cave in all of them.",
+      "connections": [
+        {
+          "to": "The Analects",
+          "type": "shares-theme",
+          "note": "The same question an ocean apart: Plato's philosopher-king and Confucius's sage-ruler both hold that a state is only as good as the wisdom of whoever governs it."
+        },
+        {
+          "to": "The Tao Te Ching",
+          "type": "contrasts",
+          "note": "Plato engineers the perfect city by reason; Laozi says the best ruler governs least (wu-wei) — opposite cures for the same disease."
+        },
+        {
+          "to": "Confessions",
+          "type": "influences",
+          "note": "Augustine turns Plato's eternal Forms toward a Christian God — Platonism baptized."
+        },
+        {
+          "to": "Meditations",
+          "type": "influences",
+          "note": "Marcus's Stoicism descends from the Socratic conviction that the examined life is the only one worth living."
+        }
+      ]
+    },
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "quote": "What you do not want done to yourself, do not do to others.",
+      "source": "Confucius, Analects XV.23, tr. James Legge (1893) — public domain",
+      "essence": "The recorded conversations of Confucius and his students on becoming fully human — through learning, ritual, and ren, human-heartedness.",
+      "themes": [
+        "virtue",
+        "ritual",
+        "learning",
+        "the golden rule",
+        "the good ruler"
+      ],
+      "original": "Classical Chinese (~5th c. BCE) — public-domain text via the Chinese Text Project.",
+      "translationNote": "Legge (1893) is literal and learned; Waley (1938) made it readable — and 'ren' has been rendered everything from 'benevolence' to 'human-heartedness.'",
+      "connections": [
+        {
+          "to": "Nicomachean Ethics",
+          "type": "parallel",
+          "note": "Aristotle and Confucius reach the same place by different roads: virtue is a habit, formed by practice, poised between extremes."
+        },
+        {
+          "to": "The Republic",
+          "type": "shares-theme",
+          "note": "What makes someone fit to rule? Confucius's answer — the cultivated sage — rhymes with Plato's philosopher-king."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "Both anchor the good life in duty to one's station — the Confucian roles and the Gita's dharma."
+        }
+      ]
+    },
+    {
+      "title": "Confessions",
+      "author": "Saint Augustine",
+      "quote": "Thou hast made us for Thyself, and our heart is restless, until it repose in Thee.",
+      "source": "Augustine, Confessions I.1, tr. E. B. Pusey (1838) — public domain",
+      "essence": "The first true autobiography of a soul — a restless, brilliant life turning, at last, toward God.",
+      "themes": [
+        "restlessness",
+        "conversion",
+        "time",
+        "memory",
+        "longing"
+      ],
+      "original": "Latin (397–400 CE) — public-domain text.",
+      "translationNote": "Pusey (1838) keeps the 'Thou'; modern versions drop it — but 'our heart is restless until it rests in Thee' survives every rendering.",
+      "connections": [
+        {
+          "to": "The Republic",
+          "type": "responds-to",
+          "note": "Augustine inherits Plato's eternal truths and re-grounds them in a personal God — the Forms become the divine."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "Two traditions on the soul's longing for the divine: Augustine's restless heart and the Gita's path of devotion (bhakti)."
+        },
+        {
+          "to": "The Tao Te Ching",
+          "type": "contrasts",
+          "note": "Augustine finds peace by seeking until he rests in God; Laozi finds it by ceasing to seek — two routes to stillness."
+        }
+      ]
+    },
+    {
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "quote": "Your business is with action alone, not by any means with its fruits.",
+      "source": "Bhagavad Gita 2.47, tr. Kashinath Trimbak Telang (1882, Sacred Books of the East) — public domain",
+      "essence": "On the edge of battle a warrior refuses to fight; the god Krishna answers him — act from duty, without grasping at the outcome.",
+      "themes": [
+        "duty (dharma)",
+        "detachment",
+        "action",
+        "the eternal self",
+        "devotion"
+      ],
+      "original": "Sanskrit (~200 BCE–200 CE), within the Mahabharata — public-domain text.",
+      "translationNote": "Arnold (1885) set it in Victorian verse, 'The Song Celestial'; Telang (1882) kept it literal — verse 2.47 on detached action is the line everyone returns to.",
+      "connections": [
+        {
+          "to": "The Iliad",
+          "type": "shares-theme",
+          "note": "Both open on a battlefield where a warrior must decide how to meet duty and death — Arjuna's doubt mirrors Achilles' wrath."
+        },
+        {
+          "to": "Meditations",
+          "type": "parallel",
+          "note": "Do what is right and let go of the result — the Gita's karma-yoga and Marcus's Stoicism land on nearly the same discipline, worlds apart."
+        },
+        {
+          "to": "Confessions",
+          "type": "shares-theme",
+          "note": "The soul's longing for the eternal — devotion in the Gita, restlessness-toward-God in Augustine."
+        }
+      ]
+    },
+    {
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "quote": "Arms, and the man I sing, who, forced by fate, and haughty Juno's unrelenting hate, expelled and exiled, left the Trojan shore.",
+      "source": "Virgil, Aeneid I.1, tr. John Dryden (1697) — public domain",
+      "essence": "Rome's national epic: a refugee from fallen Troy carries his gods and his son toward Italy to found the race that will become Rome — duty over passion.",
+      "themes": [
+        "duty (pietas)",
+        "fate",
+        "empire",
+        "exile",
+        "war"
+      ],
+      "original": "Latin (~29–19 BCE) — public-domain text via the Perseus Digital Library.",
+      "translationNote": "Dryden (1697) made Virgil rhyme in heroic couplets; modern versions free the line — but every one opens on 'arma virumque cano,' 'arms and the man I sing.'",
+      "connections": [
+        {
+          "to": "The Iliad",
+          "type": "responds-to",
+          "note": "Virgil rewrites Homer on purpose — the first half echoes the Odyssey's wandering, the second the Iliad's war, with Roman duty in place of Greek rage."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "Aeneas leaving Dido for his destiny and Arjuna doing his duty are the same hard lesson: the call of fate over the heart's desire."
+        },
+        {
+          "to": "Confessions",
+          "type": "influences",
+          "note": "Augustine wept over Dido as a boy (he says so in the Confessions) before he learned to weep for his own soul."
+        }
+      ]
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "quote": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+      "source": "Marcus Aurelius, Meditations 5.16, tr. George Long (1862) — public domain",
+      "essence": "A Roman emperor's private notebook — Stoic reminders to himself on duty, mortality, and the mastery of one's own mind.",
+      "themes": [
+        "stoicism",
+        "self-mastery",
+        "mortality",
+        "duty",
+        "the present moment"
+      ],
+      "original": "Koine Greek (~170–180 CE) — Lectio carries the Greek original.",
+      "translationNote": "Marcus, a Roman, wrote to himself in Greek; Casaubon (1634) made him ornate, Long (1862) made him plain — the Stoic bones are unchanged.",
+      "connections": [
+        {
+          "to": "The Bhagavad Gita",
+          "type": "parallel",
+          "note": "Act rightly and release the outcome — the Gita's karma-yoga and Marcus's Stoicism arrive at nearly the same discipline, worlds apart."
+        },
+        {
+          "to": "The Republic",
+          "type": "influences",
+          "note": "Stoicism grows from the Socratic root Plato planted: the examined life, the soul ordered by reason."
+        },
+        {
+          "to": "The Analects",
+          "type": "parallel",
+          "note": "Daily self-correction and the cultivation of character — Marcus's morning reminders echo Confucian self-examination."
+        },
+        {
+          "to": "Confessions",
+          "type": "contrasts",
+          "note": "Two interior books: Marcus steadies the self by reason, Augustine surrenders it to God."
+        }
+      ]
+    },
+    {
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "quote": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+      "source": "Laozi, Tao Te Ching 1, tr. James Legge (1891) — public domain",
+      "essence": "Eighty-one terse verses on the Way that cannot be named, and the power (te) that works by yielding rather than forcing.",
+      "themes": [
+        "the Way (Tao)",
+        "wu-wei (non-action)",
+        "yielding",
+        "simplicity",
+        "paradox"
+      ],
+      "original": "Classical Chinese (~4th c. BCE) — public-domain text via the Chinese Text Project.",
+      "translationNote": "The most-translated Chinese book; the opening line — that the Tao you can name isn't the real Tao — is itself a warning about translation.",
+      "connections": [
+        {
+          "to": "The Republic",
+          "type": "contrasts",
+          "note": "Plato governs by reason and design; Laozi by wu-wei, ruling least — opposite political visions, East and West."
+        },
+        {
+          "to": "The Analects",
+          "type": "contrasts",
+          "note": "Within China itself: Confucian striving, ritual, and order against Taoist yielding and naturalness — the two poles of Chinese thought."
+        },
+        {
+          "to": "Meditations",
+          "type": "shares-theme",
+          "note": "Accept the flow of nature rather than fight it — Stoic and Taoist acceptance reaching for the same calm."
+        },
+        {
+          "to": "Confessions",
+          "type": "contrasts",
+          "note": "Two paths to peace: Augustine by restless seeking until he rests in God, Laozi by ceasing to seek at all."
+        }
+      ]
+    },
+    {
+      "title": "The Epic of Gilgamesh",
+      "author": "Anonymous · Sumer & Akkad",
+      "quote": "The life you seek you will never find; for when the gods created man, they allotted to him death, but life they kept in their own keeping.",
+      "source": "The Epic of Gilgamesh, Old Babylonian version (Siduri's counsel to Gilgamesh) — public-domain translation",
+      "essence": "The oldest surviving epic: a king's friendship and grief, and his failed quest for immortality — he comes home mortal, and wiser.",
+      "themes": [
+        "mortality",
+        "friendship",
+        "the search for immortality",
+        "kingship",
+        "grief"
+      ],
+      "original": "Akkadian, in cuneiform (~2100–1200 BCE) — reconstructed from many broken clay tablets; public-domain editions of the cuneiform exist.",
+      "translationNote": "There is no single 'Gilgamesh' — it survives on broken tablets in several versions, so every translation is also an act of reconstruction.",
+      "connections": [
+        {
+          "to": "The Iliad",
+          "type": "influences",
+          "note": "The oldest war-and-grief epic, a root beneath Homer: Enkidu's death prefigures Patroclus', and Gilgamesh's wild grief, Achilles'."
+        },
+        {
+          "to": "Confessions",
+          "type": "shares-theme",
+          "note": "The restless search for what this life cannot give — immortality for Gilgamesh, God for Augustine."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "Both face mortality head-on and ask what, if anything, survives it."
+        }
+      ]
+    },
+    {
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "quote": "Happiness is a certain working of the soul in the way of perfect excellence.",
+      "source": "Aristotle, Nicomachean Ethics I.7 (1098a), tr. D. P. Chase (1847) — public domain",
+      "essence": "Aristotle's inquiry into the good life: happiness (eudaimonia) as the soul's activity in excellence, and virtue as a trained habit poised between extremes.",
+      "themes": [
+        "virtue",
+        "happiness (eudaimonia)",
+        "the golden mean",
+        "habit",
+        "the good life"
+      ],
+      "original": "Classical Greek (~340 BCE) — public-domain text via the Perseus Digital Library.",
+      "translationNote": "The famous line 'we are what we repeatedly do; excellence is a habit' is actually Will Durant summarizing Aristotle — not Aristotle himself. A caution about famous quotes.",
+      "connections": [
+        {
+          "to": "The Analects",
+          "type": "parallel",
+          "note": "Virtue as a habit, balanced between extremes — Aristotle and Confucius converge on the same ethics from opposite ends of the world."
+        },
+        {
+          "to": "The Republic",
+          "type": "responds-to",
+          "note": "Aristotle, Plato's own student, grounds the good in human flourishing here on earth rather than in the eternal Forms."
+        },
+        {
+          "to": "Meditations",
+          "type": "influences",
+          "note": "The Stoic practice of virtue descends from this Greek tradition of character and the well-lived life."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "contrasts",
+          "note": "Aristotle seeks happiness through virtuous activity; the Gita seeks release through detached action — two visions of the good life."
+        }
+      ]
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "quote": "Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy.",
+      "source": "Homer, Odyssey I.1, tr. Samuel Butler (1900) — public domain",
+      "essence": "The long way home: ten years of wandering, monsters, and cunning as Odysseus fights to return to Ithaca — the West's first great homecoming.",
+      "themes": [
+        "homecoming",
+        "cunning",
+        "perseverance",
+        "hospitality",
+        "fate"
+      ],
+      "original": "Homeric Greek (~8th c. BCE) — public-domain text via the Perseus Digital Library.",
+      "translationNote": "Butler (1900) put the Odyssey in plain prose, arguing Homer should read like a story; verse translators from Pope onward disagree — the homecoming survives both.",
+      "connections": [
+        {
+          "to": "The Iliad",
+          "type": "shares-theme",
+          "note": "Homer's two halves: the Iliad is war and rage, the Odyssey the long road home — together they frame the whole heroic life."
+        },
+        {
+          "to": "The Aeneid",
+          "type": "influences",
+          "note": "Virgil's first six books are a deliberate Odyssey — wandering toward a promised land — before the Iliad of war."
+        },
+        {
+          "to": "The Epic of Gilgamesh",
+          "type": "shares-theme",
+          "note": "Both are journey epics: a hero ranges to the ends of the earth and comes home changed."
+        }
+      ]
+    },
+    {
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "quote": "All hope abandon, ye who enter in!",
+      "source": "Dante, Inferno III.9, tr. Henry Wadsworth Longfellow (1867) — public domain",
+      "essence": "A journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination, guided first by Virgil, then by love itself.",
+      "themes": [
+        "sin and redemption",
+        "the afterlife",
+        "divine love",
+        "justice",
+        "the journey"
+      ],
+      "original": "Medieval Tuscan Italian (~1308–1320) — public-domain text.",
+      "translationNote": "Dante wrote in Italian, not Latin, to reach ordinary readers — the original 'vernacular.' Longfellow (1867) and Cary (1814) are the great public-domain English versions.",
+      "connections": [
+        {
+          "to": "The Aeneid",
+          "type": "influences",
+          "note": "Dante takes Virgil himself as his guide through Hell — the Aeneid's underworld (Book VI) is the model for the whole descent."
+        },
+        {
+          "to": "Confessions",
+          "type": "shares-theme",
+          "note": "Both chart a soul's road from sin to God — Augustine in memory, Dante in vision."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "shares-theme",
+          "note": "Each stages the soul's journey to the divine as a guided dialogue — Dante led by Virgil and Beatrice, Arjuna by Krishna."
+        }
+      ]
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "quote": "It is much safer to be feared than loved, when, of the two, either must be dispensed with.",
+      "source": "Machiavelli, The Prince XVII, tr. W. K. Marriott (1908) — public domain",
+      "essence": "A cold, clear handbook on how power is actually won and kept — politics described as it is, not as it ought to be.",
+      "themes": [
+        "power",
+        "fear and love",
+        "virtù and fortune",
+        "statecraft",
+        "realism"
+      ],
+      "original": "Italian (1513) — public-domain text.",
+      "translationNote": "Marriott's 1908 English is the standard public-domain version — and the 'feared than loved' line is almost always quoted shorn of his careful 'if you must choose between the two.'",
+      "connections": [
+        {
+          "to": "The Republic",
+          "type": "contrasts",
+          "note": "Plato asks how a state *ought* to be ruled by the wise and good; Machiavelli, how it *is* ruled by those who keep power — the great split in political thought."
+        },
+        {
+          "to": "The Art of War",
+          "type": "shares-theme",
+          "note": "Two unsentimental manuals of power — Sun Tzu on the battlefield, Machiavelli in the court."
+        },
+        {
+          "to": "The Analects",
+          "type": "contrasts",
+          "note": "Confucius says a ruler holds power by virtue and the people's trust; Machiavelli, by fear and necessity — East and West on what a ruler owes."
+        }
+      ]
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "quote": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+      "source": "Dhammapada I.1, tr. F. Max Müller (1881, Sacred Books of the East) — public domain",
+      "essence": "The Buddha's path at its plainest — the mind makes the world, craving makes the suffering, and a way out exists.",
+      "themes": [
+        "the mind",
+        "craving",
+        "impermanence",
+        "the middle way",
+        "liberation"
+      ],
+      "original": "Pali (~3rd c. BCE) — public-domain text.",
+      "translationNote": "Müller (1881) brought the Pali Dhammapada into English for his Sacred Books of the East; later versions still split over 'dhamma' itself — law, truth, teaching, way.",
+      "connections": [
+        {
+          "to": "The Bhagavad Gita",
+          "type": "contrasts",
+          "note": "Two Indian paths: the Gita acts within the world through detached duty; the Dhammapada steps off the wheel of craving altogether."
+        },
+        {
+          "to": "The Tao Te Ching",
+          "type": "shares-theme",
+          "note": "Both teach release rather than striving — let go, and suffering loosens its grip."
+        },
+        {
+          "to": "Meditations",
+          "type": "parallel",
+          "note": "Master your own judgments and you master your world — the Buddha and the Stoic agree on where the work happens."
+        }
+      ]
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "quote": "Supreme excellence consists in breaking the enemy's resistance without fighting.",
+      "source": "Sun Tzu, The Art of War III, tr. Lionel Giles (1910) — public domain",
+      "essence": "Thirteen terse chapters: the best victory is won before the battle — by knowledge, position, and deception rather than force.",
+      "themes": [
+        "strategy",
+        "deception",
+        "knowing yourself and the enemy",
+        "winning without fighting",
+        "leadership"
+      ],
+      "original": "Classical Chinese (~5th c. BCE) — public-domain text via the Chinese Text Project.",
+      "translationNote": "Giles (1910) is the scholarly public-domain standard; the wildly popular 'subdue the enemy without fighting' line is a looser paraphrase of his careful wording.",
+      "connections": [
+        {
+          "to": "The Prince",
+          "type": "shares-theme",
+          "note": "Two manuals of hard-eyed power a world and millennia apart — Sun Tzu on war, Machiavelli on rule."
+        },
+        {
+          "to": "The Iliad",
+          "type": "contrasts",
+          "note": "Homer glorifies the clash of heroes; Sun Tzu would call that a failure — the masterstroke is to win before a sword is drawn."
+        },
+        {
+          "to": "The Tao Te Ching",
+          "type": "shares-theme",
+          "note": "Winning by yielding, acting without forcing — Sun Tzu's strategy is Taoist wu-wei applied to war."
+        }
+      ]
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "quote": "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack.",
+      "source": "Cervantes, Don Quixote I.1, tr. John Ormsby (1885) — public domain",
+      "essence": "The first modern novel: an aging gentleman, his head full of chivalric romances, rides out to revive knighthood — and the world refuses to play along.",
+      "themes": [
+        "illusion vs reality",
+        "idealism",
+        "madness and sanity",
+        "the novel",
+        "comedy"
+      ],
+      "original": "Spanish (1605–1615) — public-domain text.",
+      "translationNote": "Ormsby (1885) is the great Victorian public-domain Quixote; beware the famous 'dream the impossible dream / see life as it should be' lines — those are from the musical Man of La Mancha, not Cervantes.",
+      "connections": [
+        {
+          "to": "The Divine Comedy",
+          "type": "contrasts",
+          "note": "Dante journeys through a real cosmos of fixed meaning; Quixote rides a disenchanted world where the meaning is only in his head — medieval certainty giving way to modern doubt."
+        },
+        {
+          "to": "The Iliad",
+          "type": "contrasts",
+          "note": "Homer's heroes really are heroes; Quixote only thinks he is — the mock-epic is the heroic epic turned inside out."
+        },
+        {
+          "to": "The Analects",
+          "type": "shares-theme",
+          "note": "Both weigh the gap between the ideal and the actual self — Confucian cultivation toward the gentleman, Quixote's doomed attempt to *become* his ideal."
+        }
+      ]
+    },
+    {
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "quote": "To be, or not to be: that is the question.",
+      "source": "Shakespeare, Hamlet III.1 (c. 1600) — public domain (original English)",
+      "essence": "A prince, a murdered father, a command for revenge — and a mind so alive to every consequence that it cannot act. Shakespeare's deepest study of thought and paralysis.",
+      "themes": [
+        "revenge",
+        "doubt",
+        "mortality",
+        "madness",
+        "action and inaction"
+      ],
+      "original": "Early Modern English (~1600) — the original; no translation needed for English readers.",
+      "translationNote": "Hamlet needs no English translation — but it has been carried into nearly every language; Schlegel's German Hamlet became almost a national poem of its own.",
+      "connections": [
+        {
+          "to": "Doctor Faustus",
+          "type": "shares-theme",
+          "note": "Two Renaissance minds undone from within — Faustus by forbidden knowledge, Hamlet by too much of the ordinary kind."
+        },
+        {
+          "to": "Meditations",
+          "type": "shares-theme",
+          "note": "Both circle death and the worth of action — but Marcus steadies himself to act, while Hamlet thinks himself out of it."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "contrasts",
+          "note": "Two princes frozen before a fateful act: Arjuna is moved to do his duty, Hamlet paralyzed by his — East and West on thought and action."
+        }
+      ]
+    },
+    {
+      "title": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "quote": "It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.",
+      "source": "Adam Smith, The Wealth of Nations I.2 (1776) — public domain",
+      "essence": "The founding work of modern economics: how the division of labor and self-interest, guided as if by an invisible hand, create the wealth of a nation.",
+      "themes": [
+        "the invisible hand",
+        "division of labor",
+        "self-interest",
+        "markets",
+        "free trade"
+      ],
+      "original": "English (1776) — the original.",
+      "translationNote": "Written in plain 18th-century English; the phrase everyone knows — the 'invisible hand' — appears just once in the whole book, almost in passing.",
+      "connections": [
+        {
+          "to": "Capital",
+          "type": "responds-to",
+          "note": "Marx wrote Capital as the great counter-argument: Smith's invisible hand, he said, hides exploitation rather than harmony."
+        },
+        {
+          "to": "The Republic",
+          "type": "contrasts",
+          "note": "Plato orders the economy from above by the wisdom of rulers; Smith says order emerges from below, from millions of self-interested choices."
+        },
+        {
+          "to": "The Prince",
+          "type": "shares-theme",
+          "note": "Both describe people as they actually are — driven by interest — rather than as moralists wish them to be."
+        }
+      ]
+    },
+    {
+      "title": "Genesis",
+      "author": "The Bible",
+      "quote": "In the beginning God created the heaven and the earth.",
+      "source": "Genesis 1:1, King James Version (1611) — public domain",
+      "essence": "The Bible's first book: creation, the fall, the flood, and the founding families of Israel — the headwaters of the Western religious imagination.",
+      "themes": [
+        "creation",
+        "the fall",
+        "covenant",
+        "the flood",
+        "origins"
+      ],
+      "original": "Biblical Hebrew (~1200–500 BCE) — public-domain Masoretic text.",
+      "translationNote": "The King James (1611) shaped English itself — 'let there be light' and dozens of everyday phrases come from it; the earlier Tyndale version it drew on cost the translator his life.",
+      "connections": [
+        {
+          "to": "The Epic of Gilgamesh",
+          "type": "shares-theme",
+          "note": "The flood is older than the Bible: Noah's ark closely echoes the Mesopotamian deluge in Gilgamesh — the same flood, two faiths."
+        },
+        {
+          "to": "Confessions",
+          "type": "influences",
+          "note": "Augustine spends the last books of the Confessions meditating, line by line, on the opening of Genesis."
+        },
+        {
+          "to": "The Bhagavad Gita",
+          "type": "contrasts",
+          "note": "Two visions of beginnings: Genesis opens with creation out of nothing by one God; Indian thought turns instead on cycles with no first moment."
+        }
+      ]
+    },
+    {
+      "title": "The Rubaiyat",
+      "author": "Omar Khayyam",
+      "quote": "The Moving Finger writes; and, having writ, moves on: nor all thy Piety nor Wit shall lure it back to cancel half a Line.",
+      "source": "Rubáiyát of Omar Khayyám, tr. Edward FitzGerald (1859) — public domain",
+      "essence": "A Persian astronomer-poet's quatrains on wine, doubt, and the fleeting day — made world-famous by a Victorian Englishman's loose, luminous rendering.",
+      "themes": [
+        "impermanence",
+        "carpe diem",
+        "doubt",
+        "fate",
+        "mortality"
+      ],
+      "original": "Persian (quatrains attributed to Omar Khayyam, ~11th–12th c.) — public-domain text.",
+      "translationNote": "FitzGerald (1859) is less a translation than a re-creation — he fused Khayyam's separate quatrains into one poem; scholars still argue how much is Khayyam and how much is FitzGerald.",
+      "connections": [
+        {
+          "to": "The Epic of Gilgamesh",
+          "type": "shares-theme",
+          "note": "Across four thousand years, the same counsel: life is short and death certain, so taste the day — Siduri's advice to Gilgamesh, sung again in Persian."
+        },
+        {
+          "to": "Meditations",
+          "type": "shares-theme",
+          "note": "Both keep the brevity of life steadily in view — Marcus to steel himself to duty, Khayyam to savor the passing hour."
+        },
+        {
+          "to": "The Tao Te Ching",
+          "type": "shares-theme",
+          "note": "Each makes peace with impermanence rather than fighting it — the fleeting moment accepted, even embraced."
+        }
+      ]
+    }
+  ]
+}

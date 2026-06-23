@@ -1,0 +1,19 @@
+{
+  "id": "work.augustine.confessions",
+  "title": "Confessions",
+  "author": "Saint Augustine",
+  "originalLang": "la",
+  "composed": "397–400 CE",
+  "type": "religion",
+  "referenceScheme": "book.chapter",
+  "defaultEditionId": "edition.confessions.pusey-1838",
+  "blurb": "The first true autobiography of a soul: Augustine's restless, brilliant life turning at last toward God. Sin and conversion, memory and time, and a heart that finds no rest until it rests in God.",
+  "tradition": "West",
+  "collections": [
+    "collection.great-books",
+    "collection.harvard-classics"
+  ],
+  "editionIds": [
+    "edition.confessions.pusey-1838"
+  ]
+}

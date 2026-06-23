@@ -16,8 +16,26 @@ struct ProvenanceSheet: View {
                     Text(title).font(.subheadline).foregroundColor(pal.accent)
                 }
 
+                if let overview = edition.overview, !overview.isEmpty {
+                    block("About this edition") {
+                        Text(overview).font(.footnote).foregroundColor(pal.ink)
+                            .lineSpacing(2)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+
                 if edition.kind == "modern" {
                     let p = edition.provenance
+                    if let divergences = edition.divergences, !divergences.isEmpty {
+                        block("Where this edition differs") {
+                            VStack(alignment: .leading, spacing: 14) {
+                                Text("Places where the Lectio Edition departs from older translations, and why.")
+                                    .font(.caption).foregroundColor(pal.inkSoft)
+                                    .fixedSize(horizontal: false, vertical: true)
+                                ForEach(divergences, id: \.note) { d in divergenceRow(d) }
+                            }
+                        }
+                    }
                     row("Edition", "Lectio Edition" + (p.vintage.map { " · \($0)" } ?? ""))
                     if let m = p.aiModel { row("Model", m) }
                     if let d = p.retrievedDate { row("Produced", d) }
@@ -44,7 +62,7 @@ struct ProvenanceSheet: View {
                     if let t = edition.translator { row("Translator", t) }
                     if let y = edition.publishedYear { row("Year", String(y)) }
                     row("Source", sourceLabel(edition.provenance))
-                    if !edition.character.isEmpty {
+                    if (edition.overview?.isEmpty ?? true), !edition.character.isEmpty {
                         block("Character") {
                             Text(edition.character).font(.footnote).foregroundColor(pal.inkSoft)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -85,6 +103,33 @@ struct ProvenanceSheet: View {
         VStack(alignment: .leading, spacing: 6) {
             Text(label.uppercased()).font(.caption2).tracking(1).foregroundColor(pal.inkSoft)
             content()
+        }
+    }
+
+    private func divergenceRow(_ d: Edition.Divergence) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack(spacing: 6) {
+                if let phrase = d.phrase, !phrase.isEmpty {
+                    Text(phrase).font(.system(.subheadline, design: .serif)).italic()
+                        .foregroundColor(pal.accent)
+                }
+                if let locus = d.locus, !locus.isEmpty {
+                    Text(locus).font(.caption2).foregroundColor(pal.inkSoft)
+                }
+            }
+            (Text("Older: ").font(.caption.weight(.semibold)).foregroundColor(pal.inkSoft)
+             + Text(d.older).font(.caption).foregroundColor(pal.ink))
+                .fixedSize(horizontal: false, vertical: true)
+            (Text("Lectio: ").font(.caption.weight(.semibold)).foregroundColor(pal.accent)
+             + Text(d.lectio).font(.caption).foregroundColor(pal.ink))
+                .fixedSize(horizontal: false, vertical: true)
+            Text(d.note).font(.footnote).foregroundColor(pal.inkSoft)
+                .lineSpacing(2)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(.leading, 10)
+        .overlay(alignment: .leading) {
+            Rectangle().fill(pal.rule).frame(width: 2)
         }
     }
 

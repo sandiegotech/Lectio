@@ -1,0 +1,19 @@
+{
+  "id": "work.machiavelli.the-prince",
+  "title": "The Prince",
+  "author": "Niccolò Machiavelli",
+  "originalLang": "it",
+  "composed": "1513",
+  "type": "politics",
+  "referenceScheme": "chapter",
+  "defaultEditionId": "edition.the-prince.marriott-1908",
+  "blurb": "Machiavelli's unflinching handbook of power — how principalities are won, held, and lost. Fortune and virtù, cruelty and mercy, and the founding text of modern political realism.",
+  "tradition": "West",
+  "collections": [
+    "collection.great-books",
+    "collection.harvard-classics"
+  ],
+  "editionIds": [
+    "edition.the-prince.marriott-1908"
+  ]
+}

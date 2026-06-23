@@ -1,0 +1,155 @@
+{
+  "id": "genre.essays-letters",
+  "title": "Essays & Letters",
+  "curator": "A Lectio section",
+  "blurb": "The art of thinking on the page — essays, letters, reflection.",
+  "kind": "genre",
+  "items": [],
+  "planned": [
+    {
+      "title": "The Essays",
+      "author": "Michel de Montaigne",
+      "era": "1580",
+      "part": "",
+      "note": "Montaigne invents the essay to study one subject without end — himself — and so discovers all of us.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-essays-montaigne.jpg"
+    },
+    {
+      "title": "The Pillow Book",
+      "author": "Sei Shōnagon",
+      "era": "1002",
+      "part": "",
+      "note": "A lady-in-waiting's lists and merciless judgments — the sharpest eye in classical literature.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-pillow-book.jpg"
+    },
+    {
+      "title": "Essays in Idleness",
+      "author": "Yoshida Kenkō",
+      "era": "1330–1332",
+      "part": "",
+      "note": "Kenkō's reflections of a recluse monk — the classic of Japanese taste and the beauty of transience.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-essays-in-idleness.jpg"
+    },
+    {
+      "title": "In Praise of Folly",
+      "author": "Erasmus",
+      "era": "1511",
+      "part": "",
+      "note": "Erasmus lets Folly praise herself — the witty satire that lit the fuse of the Reformation.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-in-praise-of-folly.jpg"
+    },
+    {
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "era": "1854",
+      "part": "",
+      "note": "Two years alone at a pond — the American testament of simplicity and self-reliance.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-walden.jpg"
+    },
+    {
+      "title": "Fruits of Solitude",
+      "author": "William Penn",
+      "era": "1693",
+      "part": "",
+      "note": "Aphorisms on living well from William Penn, founder of Pennsylvania.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-penn-fruits-of-solitude.jpg",
+      "originalCover": "collections/book-covers/harvard-classics-red-penn-fruits-of-solitude.jpg"
+    },
+    {
+      "title": "Essays, Civil and Moral",
+      "author": "Francis Bacon",
+      "era": "1597–1625",
+      "part": "",
+      "note": "The first great English essays — worldly, compressed wisdom on work, fortune, and friendship.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-essays-civil-and-moral.jpg"
+    },
+    {
+      "title": "Areopagitica",
+      "author": "John Milton",
+      "era": "1644",
+      "part": "",
+      "note": "Milton's classic defense of free speech and a free press, against censorship.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-areopagitica.jpg"
+    },
+    {
+      "title": "Essays & English Traits",
+      "author": "Ralph Waldo Emerson",
+      "era": "1841–1856",
+      "part": "",
+      "note": "American self-reliance and the transcendentalist vision, in Emerson's founding essays.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-essays-and-english-traits.jpg"
+    },
+    {
+      "title": "Letters",
+      "author": "Pliny the Younger",
+      "era": "100–112 CE",
+      "part": "",
+      "note": "Vivid letters from the Roman world — including the eyewitness account of Vesuvius.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-letters.jpg"
+    },
+    {
+      "title": "Characteristics & Inaugural Address",
+      "author": "Thomas Carlyle",
+      "era": "1831–1866",
+      "part": "",
+      "note": "Carlyle, the Victorian prophet, on work, heroism, and the machine age.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-characteristics-and-inaugural-address.jpg"
+    },
+    {
+      "title": "English Essays: Sidney to Macaulay",
+      "author": "",
+      "era": "1580–1840",
+      "part": "",
+      "note": "Four centuries of the English essay, Elizabethans to Victorians.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-english-essays-sidney-to-macaulay.jpg"
+    },
+    {
+      "title": "Essays: English and American",
+      "author": "",
+      "era": "1600–1900",
+      "part": "",
+      "note": "A gathering of the finest shorter prose on either side of the Atlantic.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-essays-english-and-american.jpg"
+    },
+    {
+      "title": "Literary and Philosophical Essays",
+      "author": "Montaigne, Sainte-Beuve, Renan",
+      "era": "1580–1900",
+      "part": "",
+      "note": "Montaigne, Sainte-Beuve, Renan and others — the Continental art of the essay.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-literary-and-philosophical-essays.jpg"
+    },
+    {
+      "title": "Letters on England",
+      "author": "Voltaire",
+      "era": "1733",
+      "part": "",
+      "note": "Voltaire's witty letters carrying English liberty and science to France.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-letters-on-england.jpg"
+    },
+    {
+      "title": "Prefaces and Prologues",
+      "author": "",
+      "era": "1580–1900",
+      "part": "",
+      "note": "Great writers introducing their own work — the craft of literature in its own words.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-prefaces-and-prologues.jpg"
+    }
+  ]
+}

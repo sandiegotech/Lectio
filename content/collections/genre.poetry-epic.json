@@ -1,0 +1,376 @@
+{
+  "id": "genre.poetry-epic",
+  "title": "Poetry & Epic",
+  "curator": "A Lectio section",
+  "blurb": "Verse and the great epics, from Homer to the moderns.",
+  "kind": "genre",
+  "items": [
+    {
+      "workId": "work.homer.iliad",
+      "note": ""
+    },
+    {
+      "workId": "work.homer.odyssey",
+      "note": ""
+    },
+    {
+      "workId": "work.virgil.aeneid",
+      "note": ""
+    },
+    {
+      "workId": "work.gilgamesh",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Epic of Gilgamesh",
+      "author": "Anonymous · Sumer & Akkad",
+      "era": "2100–1200 BCE",
+      "part": "",
+      "note": "The oldest surviving epic: a king loses his friend, refuses his own death, and comes home wiser — the root beneath East and West.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gilgamesh.jpg"
+    },
+    {
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "era": "1308–1320",
+      "part": "",
+      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
+    },
+    {
+      "title": "The Rubaiyat",
+      "author": "Omar Khayyam",
+      "era": "1048–1131",
+      "part": "",
+      "note": "Omar Khayyam's quatrains — wine, doubt, and the fleeting day, beloved across the world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-rubaiyat.jpg"
+    },
+    {
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "era": "1387–1400",
+      "part": "",
+      "note": "Chaucer's pilgrims trade stories on the road to Canterbury — the founding comedy of English literature.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-canterbury-tales.jpg"
+    },
+    {
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "era": "1667",
+      "part": "",
+      "note": "Milton's English epic of the fall — Satan, Eden, and the ways of God to men.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-paradise-lost.jpg"
+    },
+    {
+      "title": "The Waste Land",
+      "author": "T. S. Eliot",
+      "era": "1922",
+      "part": "",
+      "note": "T. S. Eliot's fractured masterpiece — the defining poem of the modern century.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Mahabharata",
+      "author": "Attributed to Vyasa",
+      "era": "400 BCE–400 CE",
+      "part": "",
+      "note": "The longest epic ever composed — a war between cousins that swells to hold the whole of dharma and its ambiguities.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mahabharata.jpg"
+    },
+    {
+      "title": "The Ramayana",
+      "author": "Valmiki",
+      "era": "500–301 BCE",
+      "part": "",
+      "note": "The exile of a prince and the war to win back his abducted wife — order tested against grief; living scripture across Asia.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-ramayana.jpg"
+    },
+    {
+      "title": "The Plays & Poems of Kalidasa",
+      "author": "Kalidasa",
+      "era": "301–500 CE",
+      "part": "",
+      "note": "The summit of Sanskrit literature — the drama Shakuntala and the lyric Cloud Messenger.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kalidasa-plays-and-poems.jpg"
+    },
+    {
+      "title": "The Gita Govinda",
+      "author": "Jayadeva",
+      "era": "1200",
+      "part": "",
+      "note": "Jayadeva's rapturous song of Krishna and Radha — devotion sung as love poetry.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gita-govinda.jpg"
+    },
+    {
+      "title": "The Songs of Kabir",
+      "author": "Kabir",
+      "era": "1440–1518",
+      "part": "",
+      "note": "The poet-weaver who mocked temple and mosque alike — India's fiercest voice for the God beyond religion.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-songs-of-kabir.jpg"
+    },
+    {
+      "title": "Gitanjali",
+      "author": "Rabindranath Tagore",
+      "era": "1910",
+      "part": "",
+      "note": "Tagore's song-offerings — the lyric devotion that brought India its first Nobel in literature.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gitanjali.jpg"
+    },
+    {
+      "title": "The Book of Songs",
+      "author": "Anonymous",
+      "era": "1000–600 BCE",
+      "part": "",
+      "note": "China's oldest poetry — three hundred ancient odes and folk songs, edited, by tradition, by Confucius.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-book-of-songs.jpg"
+    },
+    {
+      "title": "The Poems of the Tang",
+      "author": "Li Bai, Du Fu, Wang Wei",
+      "era": "701–900 CE",
+      "part": "",
+      "note": "The summit of Chinese verse — Li Bai's moonlight, Du Fu's grief, Wang Wei's empty mountains.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-poems-of-the-tang.jpg"
+    },
+    {
+      "title": "The Song Lyrics",
+      "author": "Su Shi & Li Qingzhao",
+      "era": "1050–1150",
+      "part": "",
+      "note": "The ci poetry of the Song dynasty — Su Shi and Li Qingzhao, the most intimate verse in Chinese.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-song-lyrics.jpg"
+    },
+    {
+      "title": "The Shahnameh",
+      "author": "Ferdowsi",
+      "era": "940–1020",
+      "part": "",
+      "note": "Fifty thousand couplets recovering all of Persian myth and history, written to save the language itself.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-shahnameh.jpg"
+    },
+    {
+      "title": "The Conference of the Birds",
+      "author": "Attar",
+      "era": "1177",
+      "part": "",
+      "note": "Attar's Sufi allegory — the birds journey to find their king and discover themselves.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-conference-of-the-birds.jpg"
+    },
+    {
+      "title": "Layla and Majnun",
+      "author": "Nizami",
+      "era": "1192",
+      "part": "",
+      "note": "Nizami's tragic romance — the lover driven mad by love, the East's Romeo and Juliet.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-layla-and-majnun.jpg"
+    },
+    {
+      "title": "The Masnavi",
+      "author": "Rumi",
+      "era": "1258–1273",
+      "part": "",
+      "note": "Rumi's vast spiritual epic — called 'the Quran in Persian,' the summit of Sufi poetry.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-masnavi.jpg"
+    },
+    {
+      "title": "The Gulistan",
+      "author": "Saadi",
+      "era": "1258",
+      "part": "",
+      "note": "Saadi's 'Rose Garden' — wise, witty tales and verse on how to live, the most read book in the Persian world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gulistan.jpg"
+    },
+    {
+      "title": "The Divan",
+      "author": "Hafez",
+      "era": "1320–1390",
+      "part": "",
+      "note": "Hafez's ghazals — wine, love, and the divine entwined in the most cherished poetry of Iran.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-divan.jpg"
+    },
+    {
+      "title": "The Manyoshu",
+      "author": "Compiled",
+      "era": "759",
+      "part": "",
+      "note": "The first great anthology of Japanese poetry — ten thousand leaves, from emperors to frontier guards.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-manyoshu.jpg"
+    },
+    {
+      "title": "The Kokinshu",
+      "author": "Compiled",
+      "era": "905",
+      "part": "",
+      "note": "The first imperial anthology of Japanese verse — the collection that fixed the nation's taste for a thousand years.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kokinshu.jpg"
+    },
+    {
+      "title": "The Tale of the Heike",
+      "author": "Anonymous",
+      "era": "1300–1330",
+      "part": "",
+      "note": "The fall of a samurai clan — Japan's national war epic, on glory and impermanence.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tale-of-the-heike.jpg"
+    },
+    {
+      "title": "The Narrow Road to the Deep North",
+      "author": "Bashō",
+      "era": "1644–1694",
+      "part": "",
+      "note": "Bashō's journey on foot through northern Japan, prose and haiku woven, the eternal held in a few syllables.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-narrow-road-to-the-deep-north.jpg"
+    },
+    {
+      "title": "The Poems of Sappho",
+      "author": "Sappho",
+      "era": "600 BCE",
+      "part": "",
+      "note": "The greatest lyric poet of antiquity — fragments of desire and longing that still feel newly broken open.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-poems-of-sappho.jpg"
+    },
+    {
+      "title": "Metamorphoses",
+      "author": "Ovid",
+      "era": "8 CE",
+      "part": "",
+      "note": "Ovid's endlessly inventive epic of transformation — the myths the whole West would draw on forever.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-metamorphoses.jpg"
+    },
+    {
+      "title": "Poems & The Reply to Sor Filotea",
+      "author": "Sor Juana Inés de la Cruz",
+      "era": "1690",
+      "part": "",
+      "note": "The brilliant nun of colonial Mexico — and her fierce defense of a woman's right to learn.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-poems-and-the-reply-to-sor-filotea.jpg"
+    },
+    {
+      "title": "Songs of Innocence and of Experience",
+      "author": "William Blake",
+      "era": "1789–1794",
+      "part": "",
+      "note": "Blake's visionary lyrics — the lamb and the tiger, innocence and its loss, in poems and his own engravings.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-songs-of-innocence-and-of-experience.jpg"
+    },
+    {
+      "title": "Lyrical Ballads",
+      "author": "Wordsworth & Coleridge",
+      "era": "1798",
+      "part": "",
+      "note": "The book that began English Romanticism — ordinary life and the rime of the ancient mariner.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-lyrical-ballads.jpg"
+    },
+    {
+      "title": "Eugene Onegin",
+      "author": "Alexander Pushkin",
+      "era": "1833",
+      "part": "",
+      "note": "Russia's beloved novel in verse — and the fountainhead of its entire literature.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-eugene-onegin.jpg"
+    },
+    {
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "era": "1855",
+      "part": "",
+      "note": "Whitman sings America and himself — the barbaric yawp that remade what a poem could be.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-leaves-of-grass.jpg"
+    },
+    {
+      "title": "The Poems of Emily Dickinson",
+      "author": "Emily Dickinson",
+      "era": "1860–1886",
+      "part": "",
+      "note": "Eighteen hundred tiny, electric poems on death, the soul, and the slant of light — published only after she died.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-poems-of-emily-dickinson.jpg"
+    },
+    {
+      "title": "The Complete English Poems",
+      "author": "John Milton",
+      "era": "1645–1671",
+      "part": "",
+      "note": "Paradise Lost and the shorter poems — the height of English epic and lyric.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-complete-english-poems.jpg"
+    },
+    {
+      "title": "Poems and Songs",
+      "author": "Robert Burns",
+      "era": "1786–1796",
+      "part": "",
+      "note": "Scotland's national poet — love, drink, and democratic feeling in living dialect.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-poems-and-songs.jpg"
+    },
+    {
+      "title": "English Poetry I: Chaucer to Gray",
+      "author": "",
+      "era": "1370–1750",
+      "part": "",
+      "note": "The first age of English verse, Chaucer through the eighteenth century.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-english-poetry-i-chaucer-to-gray.jpg"
+    },
+    {
+      "title": "English Poetry II: Collins to Fitzgerald",
+      "author": "",
+      "era": "1745–1860",
+      "part": "",
+      "note": "The Romantic century of English poetry.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-english-poetry-ii-collins-to-fitzgerald.jpg"
+    },
+    {
+      "title": "English Poetry III: Tennyson to Whitman",
+      "author": "",
+      "era": "1830–1892",
+      "part": "",
+      "note": "The Victorians and the first American voices.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-english-poetry-iii-tennyson-to-whitman.jpg"
+    },
+    {
+      "title": "Epic and Saga",
+      "author": "Beowulf, Roland, the Nibelungenlied",
+      "era": "700–1300",
+      "part": "",
+      "note": "Beowulf, the Song of Roland, and the Nibelungenlied — the epics of the North.",
+      "tradition": "West"
+    }
+  ]
+}

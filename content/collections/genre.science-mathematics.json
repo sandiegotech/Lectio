@@ -1,0 +1,125 @@
+{
+  "id": "genre.science-mathematics",
+  "title": "Science & Mathematics",
+  "curator": "A Lectio section",
+  "blurb": "The works that built our understanding of the natural world.",
+  "kind": "genre",
+  "items": [],
+  "planned": [
+    {
+      "title": "The Elements",
+      "author": "Euclid",
+      "era": "300 BCE",
+      "part": "",
+      "note": "Euclid's geometry — the model of reasoning from first principles that every later science would imitate.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-elements.jpg"
+    },
+    {
+      "title": "The Works of Archimedes",
+      "author": "Archimedes",
+      "era": "250 BCE",
+      "part": "",
+      "note": "The greatest mathematician of antiquity — levers, spheres, and the first reach toward the calculus.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-works-of-archimedes.jpg"
+    },
+    {
+      "title": "The Almagest",
+      "author": "Ptolemy",
+      "era": "150 CE",
+      "part": "",
+      "note": "Ptolemy's astronomy — the earth-centered cosmos that ruled the Western mind for fourteen centuries.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-almagest.jpg"
+    },
+    {
+      "title": "On the Revolutions of the Heavenly Spheres",
+      "author": "Nicolaus Copernicus",
+      "era": "1543",
+      "part": "",
+      "note": "Copernicus moves the earth — the book that began the scientific revolution.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-revolutions-of-the-heavenly-spheres.jpg"
+    },
+    {
+      "title": "On the Motion of the Heart and Blood",
+      "author": "William Harvey",
+      "era": "1628",
+      "part": "",
+      "note": "Harvey discovers the circulation of the blood — the birth of modern physiology.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-motion-of-the-heart-and-blood.jpg"
+    },
+    {
+      "title": "Two New Sciences",
+      "author": "Galileo Galilei",
+      "era": "1638",
+      "part": "",
+      "note": "Galileo founds modern physics — motion and materials, argued in plain dialogue against the schoolmen.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-two-new-sciences.jpg"
+    },
+    {
+      "title": "The Principia",
+      "author": "Isaac Newton",
+      "era": "1687",
+      "part": "",
+      "note": "Newton's laws of motion and gravity — the mathematical system of the world.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-principia.jpg"
+    },
+    {
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "era": "1859",
+      "part": "",
+      "note": "The book that remade biology — evolution by natural selection.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-origin-of-species.jpg"
+    },
+    {
+      "title": "The Principles of Psychology",
+      "author": "William James",
+      "era": "1890",
+      "part": "",
+      "note": "William James founds modern psychology — the stream of consciousness, habit, and the self.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Interpretation of Dreams",
+      "author": "Sigmund Freud",
+      "era": "1899",
+      "part": "",
+      "note": "Freud opens the unconscious — dreams as the royal road to the hidden mind.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Canon of Medicine",
+      "author": "Avicenna",
+      "era": "1025",
+      "part": "",
+      "note": "Avicenna's encyclopedia of medicine — the standard text in East and West for six hundred years.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-canon-of-medicine.jpg"
+    },
+    {
+      "title": "Scientific Papers: Physics & Chemistry",
+      "author": "Faraday, Helmholtz, Kelvin & others",
+      "era": "1800–1900",
+      "part": "",
+      "note": "Landmark papers of physics and chemistry, in the words of their discoverers.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-scientific-papers-faraday-helmholtz-kelvin.jpg"
+    },
+    {
+      "title": "Scientific Papers: Medicine & Biology",
+      "author": "Harvey, Jenner, Lister, Pasteur",
+      "era": "1628–1878",
+      "part": "",
+      "note": "The papers that founded modern medicine — circulation, vaccination, antisepsis, germs.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-scientific-papers-harvey-jenner-lister-pasteur.jpg"
+    }
+  ]
+}

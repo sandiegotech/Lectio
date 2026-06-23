@@ -14,7 +14,31 @@
     "Méric Casaubon, translation (1634)",
     "Greek original — Τὰ εἰς ἑαυτόν (Wikisource)"
   ],
+  "overview": "The Lectio Edition renders Marcus's notebook in clear, living modern English — the sense and force of the Stoic original without the Victorian stiffness of George Long or the archaism of Méric Casaubon. It is synthesised from the public-domain translations and cross-checked against the Greek, then reviewed for fidelity, aiming to read as Marcus's own plain, urgent voice to himself.",
   "introduction": "Marcus Aurelius never meant these notes to be read. He was the most powerful man in the world — emperor of Rome — yet he wrote them at night, on campaign, as private reminders to himself about how to live: with reason, justice, and steadiness in the face of death. That is why the book has no argument and no audience. It is a mind talking to itself.\n\nThis Lectio Edition renders his Greek into clear, contemporary English — grounded in the public-domain translations of George Long (1862) and Méric Casaubon (1634) and checked against the original. Read it straight through, or tap any line to compare a historical translation or the Greek.",
+  "divergences": [
+    {
+      "locus": "The title",
+      "phrase": "Τὰ εἰς ἑαυτόν",
+      "older": "“Meditations” (traditional editorial title)",
+      "lectio": "kept as “Meditations,” read as “To Himself”",
+      "note": "Marcus gave the work no title; ‘Meditations’ is a later editor’s label. The Greek means ‘To Himself’ — a private notebook, not a treatise. Lectio keeps the familiar name but reads the text as the self-address it actually is."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "τὸ ἡγεμονικόν (to hēgemonikon)",
+      "older": "“the ruling faculty,” “the governing part” (Long)",
+      "lectio": "“the mind that governs you,” “your directing mind”",
+      "note": "Long’s literal ‘ruling faculty’ is accurate but opaque. The hēgemonikon is the Stoic term for the rational command-centre of the self; Lectio renders its function plainly rather than transliterating the philosophy."
+    },
+    {
+      "locus": "e.g. 2.13, 3.3, 5.27",
+      "phrase": "δαίμων (daimōn)",
+      "older": "“the daemon,” “the divinity within” (Long)",
+      "lectio": "“the spirit within you,” “your inner guide”",
+      "note": "‘Daemon’ misleads a modern reader toward ‘demon.’ For the Stoics it is the divine spark of reason each person carries; Lectio renders the idea, not the loaded word."
+    }
+  ],
   "books": [
     {
       "order": 1,

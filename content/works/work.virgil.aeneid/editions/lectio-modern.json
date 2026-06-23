@@ -23,7 +23,31 @@
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
+  "overview": "The Lectio Edition carries the Aeneid into clear modern English, keeping Virgil’s gravity and momentum without Dryden’s 17th-century couplets. Built from Dryden’s public-domain verse and checked against the Latin, it aims to let a modern reader feel the cost of Aeneas’s duty as directly as Virgil’s first readers did.",
   "introduction": "The Aeneid is Rome's national epic — the story of Aeneas, a Trojan refugee who carries his household gods out of a burning city to found the race that will become Rome. Beneath the wars and wanderings it is about duty, loss, and the terrible cost of empire. This is the Lectio Edition — Virgil in clear, living English, made to be read straight through.\n\nVirgil's hero is defined by one word, pietas — devotion to gods, country, and family — which we render not as cold \"piety\" but as faithfulness, the thread that runs through the poem. The names keep their familiar Roman forms (Aeneas, Juno, Venus, Jupiter, Dido). The famous line sunt lacrimae rerum we keep close to its weight: \"there are tears for the way of things.\" The rendering synthesizes the tradition — from Dryden through Mandelbaum, Fitzgerald, and Fagles — checked against the Latin; it copies none of them.",
+  "divergences": [
+    {
+      "locus": "Book 1, line 462",
+      "phrase": "sunt lacrimae rerum et mentem mortalia tangunt",
+      "older": "expanded and paraphrased (Dryden)",
+      "lectio": "“there are tears for things, and mortal matters touch the heart”",
+      "note": "One of the most famous and most ambiguous lines in Latin. ‘Lacrimae rerum’ can mean ‘tears for things,’ ‘tears in the nature of things,’ or ‘the world’s tears.’ Lectio takes the reading most scholars favour — grief for the world’s suffering — while this note flags the ambiguity."
+    },
+    {
+      "locus": "Book 1, line 1",
+      "phrase": "arma virumque cano",
+      "older": "“Arms, and the man I sing” (Dryden)",
+      "lectio": "“I sing of arms and of a man”",
+      "note": "Virgil’s opening fuses the Iliad (arms, war) and the Odyssey (the man, wandering) in three words. Lectio keeps the plain order and the indefinite ‘a man’ — Aeneas enters as one man, not yet a legend."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "pietas",
+      "older": "“piety,” “pious Aeneas”",
+      "lectio": "“duty,” “dutiful Aeneas” (with ‘pietas’ noted)",
+      "note": "Aeneas’s defining virtue. Latin pietas means devotion to gods, country, and family — not modern religious ‘piety.’ Lectio renders it as ‘duty’ so the modern reader feels what drives him, noting the original term."
+    }
+  ],
   "sections": [
     {
       "id": "edition.aeneid.lectio-modern.book-01",

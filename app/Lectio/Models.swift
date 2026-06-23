@@ -43,6 +43,14 @@ struct Section: Codable, Hashable, Identifiable {
 }
 
 struct Edition: Codable, Hashable, Identifiable {
+    // A notable place where the Lectio Edition departs from older translations, with the reason.
+    struct Divergence: Codable, Hashable {
+        var locus: String?      // "Book 1, line 1"
+        var phrase: String?     // the original-language word/phrase at issue
+        var older: String       // how earlier translations render it
+        var lectio: String      // how the Lectio Edition renders it
+        var note: String        // why — the scholarly reasoning
+    }
     var id: String
     var workId: String
     var kind: String
@@ -53,7 +61,9 @@ struct Edition: Codable, Hashable, Identifiable {
     var translatorYears: String?
     var publishedYear: Int?
     var character: String
+    var overview: String?       // fuller note: the translator's approach + how it compares to others
     var introduction: String?
+    var divergences: [Divergence]?
     var sections: [Section]
 }
 
@@ -67,6 +77,7 @@ struct Work: Codable, Hashable, Identifiable {
     var referenceScheme: String
     var defaultEditionId: String
     var blurb: String
+    var tradition: String?        // "West" | "East"
     var collections: [String]
     var editionIds: [String]
 }
@@ -78,11 +89,36 @@ struct CollectionItem: Codable, Hashable {
 }
 
 struct BookCollection: Codable, Hashable, Identifiable {
+    // A shell on the shelf — a planned work not yet ingested.
+    struct Planned: Codable, Hashable {
+        var title: String
+        var author: String?
+        var era: String?       // when the work is from (e.g. "c. 800–200 BCE")
+        var part: String?      // sub-section within the collection (e.g. "India")
+        var note: String?      // a basic one-line overview
+        var tradition: String? // "West" | "East"
+        var cover: String?     // optional path under content/ for a planned-work cover
+        var originalCover: String? // optional cover for the public-domain/source translation
+        var rights: String?    // "in-copyright" when not yet free to read
+        var opens: Int?        // year it enters the public domain
+
+        var isLocked: Bool { rights == "in-copyright" }
+    }
     var id: String
     var title: String
     var curator: String
     var blurb: String
+    var about: String?         // backstory shown on the collection's own page
+    var introduction: String?  // a longer readable Lectio overview (the "introduction")
+    var kind: String?          // "series" | "theme" (defaults to series when absent)
+    var group: String?         // optional umbrella header (e.g. "Religious Texts")
     var items: [CollectionItem]
+    var planned: [Planned]?
+
+    var isGenre: Bool { kind == "genre" }
+
+    // Total readable works on the shelf (ingested works + planned shells).
+    var workCount: Int { items.count + (planned?.count ?? 0) }
 }
 
 // Editorial enrichment sidecar that powers the margin rail. Hand-authored seed
@@ -115,4 +151,26 @@ struct Manifest: Codable {
     struct WorkRef: Codable { var id: String }
     var collections: [CollRef]
     var works: [WorkRef]
+}
+
+// The Explore / "famous lines" layer (content/explore.json) — a discovery nugget per book:
+// a signature quote, its essence, themes, and cross-tradition connections to other works.
+struct ExploreData: Codable { var records: [ExploreRecord] }
+
+struct ExploreRecord: Codable, Hashable, Identifiable {
+    struct Link: Codable, Hashable {
+        var to: String      // target work title
+        var type: String    // influences | responds-to | shares-theme | parallel | contrasts
+        var note: String
+    }
+    var title: String
+    var author: String
+    var quote: String
+    var source: String
+    var essence: String
+    var themes: [String]
+    var connections: [Link]
+    var original: String?         // the original-language source text + where the PD version lives
+    var translationNote: String?  // an interesting note on how the work has been translated
+    var id: String { title }
 }

@@ -1,0 +1,218 @@
+{
+  "id": "genre.religion",
+  "title": "Religion",
+  "curator": "A Lectio section",
+  "blurb": "Scripture and theology from the world's faiths.",
+  "kind": "genre",
+  "items": [
+    {
+      "workId": "work.augustine.confessions",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "Genesis",
+      "author": "The Bible",
+      "era": "1200–500 BCE",
+      "part": "",
+      "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "era": "200–101 BCE",
+      "part": "",
+      "note": "On the eve of battle a warrior refuses to fight; a god answers him — act without grasping at the fruit of action.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-bhagavad-gita.jpg"
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "era": "300–201 BCE",
+      "part": "",
+      "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-dhammapada.jpg"
+    },
+    {
+      "title": "Confessions",
+      "author": "Saint Augustine",
+      "era": "397–400 CE",
+      "part": "",
+      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-confessions.jpg"
+    },
+    {
+      "title": "The City of God",
+      "author": "Saint Augustine",
+      "era": "413–426 CE",
+      "part": "",
+      "note": "Written as Rome fell — the eternal city of God set against the earthly city of men.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-city-of-god.jpg"
+    },
+    {
+      "title": "Summa Theologica",
+      "author": "Thomas Aquinas",
+      "era": "1265–1274",
+      "part": "",
+      "note": "Aquinas's towering synthesis of faith and reason — medieval theology's masterwork.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-summa-theologica.jpg"
+    },
+    {
+      "title": "The Enuma Elish",
+      "author": "Babylon",
+      "era": "1200–1100 BCE",
+      "part": "",
+      "note": "The Babylonian creation epic — the world made from the body of a slain god.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-enuma-elish.jpg"
+    },
+    {
+      "title": "The Egyptian Book of the Dead",
+      "author": "Anonymous · Egypt",
+      "era": "1550–1070 BCE",
+      "part": "",
+      "note": "Spells to guide the soul through the underworld — Egypt's map of death and judgment.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-egyptian-book-of-the-dead.jpg"
+    },
+    {
+      "title": "The Rig Veda",
+      "author": "Anonymous",
+      "era": "1500–1100 BCE",
+      "part": "",
+      "note": "The oldest scripture of India — hymns to the gods at the source of the whole tradition.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-rig-veda.jpg"
+    },
+    {
+      "title": "The Upanishads",
+      "author": "Anonymous",
+      "era": "800–200 BCE",
+      "part": "",
+      "note": "The fountainhead of Indian philosophy — the discovery that the self within and the ground of all being are one.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-upanishads.jpg"
+    },
+    {
+      "title": "The Lotus Sutra",
+      "author": "Mahayana Buddhist tradition",
+      "era": "100–200 CE",
+      "part": "",
+      "note": "The central scripture of Mahayana Buddhism — the promise that all beings may awaken.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-lotus-sutra.jpg"
+    },
+    {
+      "title": "The Platform Sutra",
+      "author": "Huineng",
+      "era": "700–800 CE",
+      "part": "",
+      "note": "The founding text of Zen — Huineng's teaching that awakening is sudden and within.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-platform-sutra.jpg"
+    },
+    {
+      "title": "The Qur'an",
+      "author": "",
+      "era": "610–632 CE",
+      "part": "",
+      "note": "For Muslims the literal speech of God, and the standard of the Arabic language — the book that shaped a civilization.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-quran.jpg"
+    },
+    {
+      "title": "The Revival of the Religious Sciences",
+      "author": "Al-Ghazali",
+      "era": "1058–1111",
+      "part": "",
+      "note": "Al-Ghazali put reason in its place and rescued faith through the inner life — the most influential Muslim after the Prophet.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-revival-of-the-religious-sciences.jpg"
+    },
+    {
+      "title": "Religio Medici",
+      "author": "Sir Thomas Browne",
+      "era": "1643",
+      "part": "",
+      "note": "A physician's eloquent meditation on faith, doubt, and the mysteries of the self.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-religio-medici.jpg"
+    },
+    {
+      "title": "The Imitation of Christ",
+      "author": "Thomas à Kempis",
+      "era": "1418–1427",
+      "part": "",
+      "note": "The most read Christian devotional after the Bible — humility and the inner life.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-imitation-of-christ.jpg"
+    },
+    {
+      "title": "Ninety-Five Theses & Addresses",
+      "author": "Martin Luther",
+      "era": "1517–1520",
+      "part": "",
+      "note": "The spark of the Reformation and Luther's founding manifestos.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-ninety-five-theses-and-addresses.jpg"
+    },
+    {
+      "title": "Sacred Writings I",
+      "author": "Confucian, Hebrew, Christian",
+      "era": "1000 BCE–100 CE",
+      "part": "",
+      "note": "Confucian, Hebrew, and Christian scripture, set side by side.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-sacred-writings-i.jpg"
+    },
+    {
+      "title": "Sacred Writings II",
+      "author": "Buddhist, Hindu, Mohammedan",
+      "era": "500 BCE–650 CE",
+      "part": "",
+      "note": "Buddhist, Hindu, and Muslim scripture, set side by side.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-sacred-writings-ii.jpg"
+    },
+    {
+      "title": "The Holy Bible",
+      "author": "King James Version",
+      "era": "1200 BCE–100 CE",
+      "part": "",
+      "note": "The scriptures of Judaism and Christianity, whole — law, poetry, prophecy, and gospel.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Tanakh",
+      "author": "The Hebrew Bible",
+      "era": "1200–165 BCE",
+      "part": "",
+      "note": "The Hebrew Bible — Torah, Prophets, and Writings, the scripture of Judaism.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Talmud",
+      "author": "",
+      "era": "200–500 CE",
+      "part": "",
+      "note": "The central text of rabbinic Judaism — the law argued out across generations.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Hadith",
+      "author": "",
+      "era": "700–900 CE",
+      "part": "",
+      "note": "The recorded sayings and deeds of the Prophet Muhammad — Islam's second source after the Qur'an.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-hadith.jpg"
+    }
+  ]
+}

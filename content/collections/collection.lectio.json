@@ -1,0 +1,233 @@
+{
+  "id": "collection.lectio",
+  "title": "The Lectio Collection",
+  "curator": "Where to begin",
+  "blurb": "The curated starting point — a short, balanced shelf drawn from the great sets of East and West and the world's scriptures. If you read nothing else, read these.",
+  "about": "The two great sets behind this app — the Western and the Eastern — run to sixty books each. That is a library, not a starting point. The Lectio Collection is the starting point: a short, deliberately balanced shelf, drawn from both and from the world's scriptures, of the books we'd put in a reader's hands first.\n\nIt crosses every border on purpose — Homer beside the Analects, Augustine beside the Bhagavad Gita, Austen beside the Tale of Genji — so a first year of reading is a conversation across civilizations, not a tour of one. Every work is offered in a clear modern Lectio edition; public-domain first, and growing over time.",
+  "kind": "series",
+  "items": [
+    {
+      "workId": "work.marcus-aurelius.meditations",
+      "note": ""
+    },
+    {
+      "workId": "work.homer.iliad",
+      "note": ""
+    },
+    {
+      "workId": "work.homer.odyssey",
+      "note": ""
+    },
+    {
+      "workId": "work.virgil.aeneid",
+      "note": ""
+    },
+    {
+      "workId": "work.plato.republic",
+      "note": ""
+    },
+    {
+      "workId": "work.aristotle.nicomachean-ethics",
+      "note": ""
+    },
+    {
+      "workId": "work.machiavelli.the-prince",
+      "note": ""
+    },
+    {
+      "workId": "work.confucius.analects",
+      "note": ""
+    },
+    {
+      "workId": "work.augustine.confessions",
+      "note": ""
+    },
+    {
+      "workId": "work.shakespeare.hamlet",
+      "note": ""
+    },
+    {
+      "workId": "work.gilgamesh",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "Genesis",
+      "author": "The Bible",
+      "era": "1200–500 BCE",
+      "part": "",
+      "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Epic of Gilgamesh",
+      "author": "Anonymous · Sumer & Akkad",
+      "era": "2100–1200 BCE",
+      "part": "",
+      "note": "The oldest surviving epic: a king loses his friend, refuses his own death, and comes home wiser — the root beneath East and West.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-gilgamesh.jpg"
+    },
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "era": "551–479 BCE",
+      "part": "",
+      "note": "The ground text of East Asian ethics — becoming fully human through ritual, learning, and human-heartedness.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-analects.jpg"
+    },
+    {
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "era": "400–301 BCE",
+      "part": "",
+      "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
+    },
+    {
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "era": "200–101 BCE",
+      "part": "",
+      "note": "On the eve of battle a warrior refuses to fight; a god answers him — act without grasping at the fruit of action.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-bhagavad-gita.jpg"
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "era": "300–201 BCE",
+      "part": "",
+      "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-dhammapada.jpg"
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "era": "500–401 BCE",
+      "part": "",
+      "note": "Thirteen chapters: the supreme excellence is to win without fighting, and every battle is decided before it is joined.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-art-of-war.jpg"
+    },
+    {
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "era": "340 BCE",
+      "part": "",
+      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
+    },
+    {
+      "title": "Confessions",
+      "author": "Saint Augustine",
+      "era": "397–400 CE",
+      "part": "",
+      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-confessions.jpg"
+    },
+    {
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "era": "1308–1320",
+      "part": "",
+      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "era": "1513",
+      "part": "",
+      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-prince.jpg"
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "era": "1605–1615",
+      "part": "",
+      "note": "The first modern novel, entire — a mad knight, his earthbound squire, and the comedy of ideals meeting the world.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-don-quixote-part-i.jpg"
+    },
+    {
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "era": "1600–1601",
+      "part": "",
+      "note": "Shakespeare's deepest tragedy — a prince, a murder, and the paralysis of thought.",
+      "tradition": "West"
+    },
+    {
+      "title": "One Thousand and One Nights",
+      "author": "",
+      "era": "800–1400",
+      "part": "",
+      "note": "Scheherazade's treasury of tales — the wellspring of the frame narrative.",
+      "tradition": "East",
+      "cover": "collections/book-covers/lectio-thousand-and-one-nights.jpg"
+    },
+    {
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "era": "1008",
+      "part": "",
+      "note": "The world's first psychological novel — the loves and aging of a Heian prince, written by a woman a thousand years ago.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tale-of-genji.jpg"
+    },
+    {
+      "title": "The Rubaiyat",
+      "author": "Omar Khayyam",
+      "era": "1048–1131",
+      "part": "",
+      "note": "Omar Khayyam's quatrains — wine, doubt, and the fleeting day, beloved across the world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-rubaiyat.jpg"
+    },
+    {
+      "title": "Candide",
+      "author": "Voltaire",
+      "era": "1759",
+      "part": "",
+      "note": "Voltaire's lightning satire — innocence loose in a brutal world, and the case for tending one's garden.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-candide.jpg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "era": "1813",
+      "part": "",
+      "note": "Austen's perfect comedy of manners — wit, money, and the slow education of the heart.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-pride-and-prejudice.jpg"
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "era": "1880",
+      "part": "",
+      "note": "Dostoevsky's final novel — a murder, three brothers, and the deepest argument in fiction over God and freedom.",
+      "tradition": "West"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "era": "1818",
+      "part": "",
+      "note": "A teenager invents science fiction — the creature, its maker, and the terror of what we make.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-frankenstein.jpg"
+    }
+  ]
+}

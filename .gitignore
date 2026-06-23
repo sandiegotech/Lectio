@@ -18,3 +18,5 @@ DerivedData/
 
 # Note: content/ (the published bundle) and content/.idledger.json ARE committed —
 # the ledger is the source of truth for frozen segment IDs and must travel with the repo.
+# Cover art ships compressed (JPEG) in content/; high-res masters live OUTSIDE the repo at
+# ~/Documents/Lectio-Masters (see CLAUDE.md "Cover assets").

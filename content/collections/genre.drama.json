@@ -1,0 +1,139 @@
+{
+  "id": "genre.drama",
+  "title": "Drama",
+  "curator": "A Lectio section",
+  "blurb": "The stage — tragedy and comedy across the ages.",
+  "kind": "genre",
+  "items": [
+    {
+      "workId": "work.shakespeare.hamlet",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "era": "1600–1601",
+      "part": "",
+      "note": "Shakespeare's deepest tragedy — a prince, a murder, and the paralysis of thought.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Greek Tragedies",
+      "author": "Aeschylus, Sophocles & Euripides",
+      "era": "472–405 BCE",
+      "part": "",
+      "note": "The masterpieces of the Athenian stage — Aeschylus, Sophocles, and Euripides on fate, the gods, and the cost of pride.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-greek-tragedies.jpg"
+    },
+    {
+      "title": "The Plays and Sonnets",
+      "author": "William Shakespeare",
+      "era": "1590–1613",
+      "part": "",
+      "note": "Shakespeare whole — the tragedies, comedies, histories, and sonnets that map the range of what we are.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-plays-and-sonnets.jpg"
+    },
+    {
+      "title": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "era": "1808–1832",
+      "part": "",
+      "note": "Goethe's supreme drama — the scholar who wagers his soul for the whole of human experience.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-faust-goethe.jpg"
+    },
+    {
+      "title": "A Doll's House",
+      "author": "Henrik Ibsen",
+      "era": "1879",
+      "part": "",
+      "note": "Ibsen's quiet bombshell — a wife walks out of her marriage, and the modern theater begins.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Romance of the West Chamber",
+      "author": "Wang Shifu",
+      "era": "1295–1307",
+      "part": "",
+      "note": "China's most beloved love comedy — a scholar, a minister's daughter, and the maid who outwits everyone.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-romance-of-the-west-chamber.jpg"
+    },
+    {
+      "title": "The Peony Pavilion",
+      "author": "Tang Xianzu",
+      "era": "1598",
+      "part": "",
+      "note": "The summit of Chinese drama — a love so strong it brings the dead back to life.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-peony-pavilion.jpg"
+    },
+    {
+      "title": "On the Art of the Noh Drama",
+      "author": "Zeami",
+      "era": "1400–1420",
+      "part": "",
+      "note": "Zeami's secret teachings on Noh — the deepest meditation on acting before the modern age.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-art-of-the-noh-drama.jpg"
+    },
+    {
+      "title": "Tartuffe & The Misanthrope",
+      "author": "Molière",
+      "era": "1664–1666",
+      "part": "",
+      "note": "The master of French comedy — hypocrisy and honesty skewered with perfect timing.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-tartuffe-and-the-misanthrope.jpg"
+    },
+    {
+      "title": "Waiting for Godot",
+      "author": "Samuel Beckett",
+      "era": "1953",
+      "part": "",
+      "note": "Two men wait for someone who never comes — the play that remade modern theater.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-waiting-for-godot.jpg",
+      "rights": "in-copyright",
+      "opens": 2049
+    },
+    {
+      "title": "Nine Greek Dramas",
+      "author": "Aeschylus, Sophocles, Euripides, Aristophanes",
+      "era": "472–405 BCE",
+      "part": "",
+      "note": "The masterpieces of Athenian tragedy and comedy — Aeschylus, Sophocles, Euripides, Aristophanes.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-nine-greek-dramas.jpg"
+    },
+    {
+      "title": "Doctor Faustus",
+      "author": "Christopher Marlowe",
+      "era": "1592",
+      "part": "",
+      "note": "Marlowe's Elizabethan tragedy of forbidden knowledge and the bargain with the devil.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-doctor-faustus.jpg"
+    },
+    {
+      "title": "Elizabethan Drama I",
+      "author": "Marlowe & Shakespeare",
+      "era": "1590–1610",
+      "part": "",
+      "note": "Marlowe and Shakespeare — the birth of the English stage.",
+      "tradition": "West"
+    },
+    {
+      "title": "Elizabethan Drama II",
+      "author": "Jonson, Webster, Massinger & others",
+      "era": "1600–1630",
+      "part": "",
+      "note": "Jonson, Webster, and the other masters of the Jacobean stage.",
+      "tradition": "West"
+    }
+  ]
+}

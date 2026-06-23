@@ -1,0 +1,327 @@
+{
+  "id": "genre.philosophy",
+  "title": "Philosophy",
+  "curator": "A Lectio section",
+  "blurb": "The love of wisdom — how to think, and how to live.",
+  "kind": "genre",
+  "items": [
+    {
+      "workId": "work.marcus-aurelius.meditations",
+      "note": ""
+    },
+    {
+      "workId": "work.plato.republic",
+      "note": ""
+    },
+    {
+      "workId": "work.aristotle.nicomachean-ethics",
+      "note": ""
+    },
+    {
+      "workId": "work.confucius.analects",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Analects",
+      "author": "Confucius",
+      "era": "551–479 BCE",
+      "part": "",
+      "note": "The ground text of East Asian ethics — becoming fully human through ritual, learning, and human-heartedness.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-analects.jpg"
+    },
+    {
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "era": "400–301 BCE",
+      "part": "",
+      "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
+    },
+    {
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "era": "340 BCE",
+      "part": "",
+      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
+    },
+    {
+      "title": "On the Nature of Things",
+      "author": "Lucretius",
+      "era": "50 BCE",
+      "part": "",
+      "note": "Lucretius sets the whole universe in verse — atoms, mortality, and freedom from the fear of death.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-nature-of-things.jpg"
+    },
+    {
+      "title": "The Enneads",
+      "author": "Plotinus",
+      "era": "250–270 CE",
+      "part": "",
+      "note": "Plotinus and the last great vision of pagan philosophy — the soul's ascent toward the One.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-enneads.jpg"
+    },
+    {
+      "title": "The New Organon",
+      "author": "Francis Bacon",
+      "era": "1620",
+      "part": "",
+      "note": "Bacon's manifesto for a new science built on experiment and evidence rather than authority.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-new-organon.jpg"
+    },
+    {
+      "title": "Discourse on Method",
+      "author": "René Descartes",
+      "era": "1637",
+      "part": "",
+      "note": "Descartes founds modern philosophy on doubt — 'I think, therefore I am.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-discourse-on-method.jpg"
+    },
+    {
+      "title": "Pensées",
+      "author": "Blaise Pascal",
+      "era": "1670",
+      "part": "",
+      "note": "Pascal's fragments on faith and doubt — the wager, the abyss, and the thinking reed.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-pensees.jpg"
+    },
+    {
+      "title": "Ethics",
+      "author": "Baruch Spinoza",
+      "era": "1677",
+      "part": "",
+      "note": "Spinoza proves a philosophy like geometry — God, nature, and freedom as one necessary order.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-ethics-spinoza.jpg"
+    },
+    {
+      "title": "The Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "era": "1781",
+      "part": "",
+      "note": "Kant remakes philosophy — what the mind can know, and the limits it cannot cross.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-critique-of-pure-reason.jpg"
+    },
+    {
+      "title": "The Philosophy of History",
+      "author": "G. W. F. Hegel",
+      "era": "1837",
+      "part": "",
+      "note": "Hegel reads all of history as the unfolding of freedom — the idea that shaped the modern age.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-philosophy-of-history.jpg"
+    },
+    {
+      "title": "Fear and Trembling",
+      "author": "Søren Kierkegaard",
+      "era": "1843",
+      "part": "",
+      "note": "Kierkegaard on Abraham and the leap of faith — the birth of existential thought.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-fear-and-trembling.jpg"
+    },
+    {
+      "title": "Beyond Good and Evil",
+      "author": "Friedrich Nietzsche",
+      "era": "1886",
+      "part": "",
+      "note": "Nietzsche's assault on inherited morality — and his demand that we create our own values.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Yoga Sutras",
+      "author": "Patanjali",
+      "era": "200 BCE–400 CE",
+      "part": "",
+      "note": "Patanjali's terse map of the mind and the eightfold path to stilling it.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-yoga-sutras.jpg"
+    },
+    {
+      "title": "The Kama Sutra",
+      "author": "Vatsyayana",
+      "era": "200–300 CE",
+      "part": "",
+      "note": "Far more than its reputation — Vatsyayana's classical treatise on desire, love, and the art of living well.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kama-sutra.jpg"
+    },
+    {
+      "title": "The Tirukkural",
+      "author": "Tiruvalluvar",
+      "era": "450–500 CE",
+      "part": "",
+      "note": "Tamil couplets on virtue, wealth, and love — South India's most beloved book of wisdom.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tirukkural.jpg"
+    },
+    {
+      "title": "The I Ching",
+      "author": "Anonymous",
+      "era": "800–200 BCE",
+      "part": "",
+      "note": "The Book of Changes — the oracle and cosmology at the root of Chinese thought.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-i-ching.jpg"
+    },
+    {
+      "title": "The Mozi",
+      "author": "Mozi",
+      "era": "470–391 BCE",
+      "part": "",
+      "note": "Mozi's case against Confucius — impartial love, plain living, and the first logic in China.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mozi.jpg"
+    },
+    {
+      "title": "The Doctrine of the Mean",
+      "author": "Attributed to Zisi",
+      "era": "400 BCE",
+      "part": "",
+      "note": "One of the Confucian Four Books — the path of balance and sincerity at the still center of all things.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-doctrine-of-the-mean.jpg"
+    },
+    {
+      "title": "The Mencius",
+      "author": "Mencius",
+      "era": "300–250 BCE",
+      "part": "",
+      "note": "The 'second sage' of Confucianism — human nature is good, and a ruler governs by virtue or not at all.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-mencius.jpg"
+    },
+    {
+      "title": "The Zhuangzi",
+      "author": "Zhuangzi",
+      "era": "369–286 BCE",
+      "part": "",
+      "note": "Philosophy by parable and joke — the man who dreams he is a butterfly; the freest book in the tradition.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-zhuangzi.jpg"
+    },
+    {
+      "title": "The Virtuous City",
+      "author": "Al-Farabi",
+      "era": "940",
+      "part": "",
+      "note": "Al-Farabi imagines the ideal state — Plato's Republic remade for the Islamic world.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-virtuous-city.jpg"
+    },
+    {
+      "title": "The Decisive Treatise",
+      "author": "Averroes",
+      "era": "1180",
+      "part": "",
+      "note": "Averroes argues that philosophy and revelation, rightly read, cannot conflict — the book that taught Europe Aristotle.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-decisive-treatise.jpg"
+    },
+    {
+      "title": "The Book of Five Rings & Hagakure",
+      "author": "Musashi & Tsunetomo",
+      "era": "1645 & 1716",
+      "part": "",
+      "note": "The way of the warrior from two sides — a duelist's strategy and a samurai's meditations on death.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-book-of-five-rings-hagakure.jpg"
+    },
+    {
+      "title": "The Consolation of Philosophy",
+      "author": "Boethius",
+      "era": "524 CE",
+      "part": "",
+      "note": "Awaiting execution, Boethius is visited by Philosophy herself — the most read book of the Middle Ages after the Bible.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-consolation-of-philosophy.jpg"
+    },
+    {
+      "title": "Tractatus Logico-Philosophicus",
+      "author": "Ludwig Wittgenstein",
+      "era": "1921",
+      "part": "",
+      "note": "Seven austere propositions on the limits of language — 'whereof one cannot speak, thereof one must be silent.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-tractatus-logico-philosophicus.jpg"
+    },
+    {
+      "title": "The Second Sex",
+      "author": "Simone de Beauvoir",
+      "era": "1949",
+      "part": "",
+      "note": "'One is not born, but rather becomes, a woman' — the foundation of modern feminist thought.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-second-sex.jpg",
+      "rights": "in-copyright",
+      "opens": 2045
+    },
+    {
+      "title": "Apology, Crito & Phaedo",
+      "author": "Plato",
+      "era": "399–387 BCE",
+      "part": "",
+      "note": "The trial, imprisonment, and death of Socrates — the founding drama of the examined life.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-plato-apology-crito-phaedo.jpg",
+      "originalCover": "collections/book-covers/harvard-classics-red-plato-apology-crito-phaedo.jpg"
+    },
+    {
+      "title": "The Golden Sayings",
+      "author": "Epictetus",
+      "era": "108 CE",
+      "part": "",
+      "note": "The Stoic handbook of the slave-philosopher: master what is yours, accept what is not.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-epictetus-golden-sayings.jpg",
+      "originalCover": "collections/book-covers/harvard-classics-red-epictetus-golden-sayings.jpg"
+    },
+    {
+      "title": "On Friendship & On Old Age",
+      "author": "Cicero",
+      "era": "44 BCE",
+      "part": "",
+      "note": "Cicero's wise essays on the goods that ripen with age.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-friendship-and-on-old-age.jpg"
+    },
+    {
+      "title": "An Essay Concerning Human Understanding",
+      "author": "John Locke",
+      "era": "1689",
+      "part": "",
+      "note": "Locke on the mind as a blank slate — the foundation of empiricism.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-essay-concerning-human-understanding.jpg"
+    },
+    {
+      "title": "Principles of Human Knowledge",
+      "author": "George Berkeley",
+      "era": "1710",
+      "part": "",
+      "note": "Berkeley's startling case that to be is to be perceived.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-principles-of-human-knowledge.jpg"
+    },
+    {
+      "title": "An Enquiry Concerning Human Understanding",
+      "author": "David Hume",
+      "era": "1748",
+      "part": "",
+      "note": "Hume's elegant skepticism — cause, habit, and the limits of reason.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-enquiry-concerning-human-understanding.jpg"
+    }
+  ]
+}

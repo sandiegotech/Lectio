@@ -1,0 +1,384 @@
+{
+  "id": "genre.fiction",
+  "title": "Fiction",
+  "curator": "A Lectio section",
+  "blurb": "Novels and stories — the truth told through invention.",
+  "kind": "genre",
+  "items": [],
+  "planned": [
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "era": "1605–1615",
+      "part": "",
+      "note": "The first modern novel, entire — a mad knight, his earthbound squire, and the comedy of ideals meeting the world.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-don-quixote-part-i.jpg"
+    },
+    {
+      "title": "One Thousand and One Nights",
+      "author": "",
+      "era": "800–1400",
+      "part": "",
+      "note": "Scheherazade's treasury of tales — the wellspring of the frame narrative.",
+      "tradition": "East",
+      "cover": "collections/book-covers/lectio-thousand-and-one-nights.jpg"
+    },
+    {
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "era": "1008",
+      "part": "",
+      "note": "The world's first psychological novel — the loves and aging of a Heian prince, written by a woman a thousand years ago.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-tale-of-genji.jpg"
+    },
+    {
+      "title": "Candide",
+      "author": "Voltaire",
+      "era": "1759",
+      "part": "",
+      "note": "Voltaire's lightning satire — innocence loose in a brutal world, and the case for tending one's garden.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-candide.jpg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "era": "1813",
+      "part": "",
+      "note": "Austen's perfect comedy of manners — wit, money, and the slow education of the heart.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-pride-and-prejudice.jpg"
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "era": "1880",
+      "part": "",
+      "note": "Dostoevsky's final novel — a murder, three brothers, and the deepest argument in fiction over God and freedom.",
+      "tradition": "West"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "era": "1818",
+      "part": "",
+      "note": "A teenager invents science fiction — the creature, its maker, and the terror of what we make.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-frankenstein.jpg"
+    },
+    {
+      "title": "Gargantua and Pantagruel",
+      "author": "François Rabelais",
+      "era": "1532–1564",
+      "part": "",
+      "note": "Rabelais's giant, riotous satire — learning and appetite, the body and the book, in full Renaissance laughter.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-gargantua-and-pantagruel.jpg"
+    },
+    {
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "era": "1726",
+      "part": "",
+      "note": "Swift's voyages to impossible lands — the sharpest satire of human folly ever written.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-gullivers-travels.jpg"
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "era": "1851",
+      "part": "",
+      "note": "Melville's white whale — an American epic of obsession, the sea, and the unknowable.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-moby-dick.jpg"
+    },
+    {
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "era": "1861",
+      "part": "",
+      "note": "Dickens's masterpiece of self-deception — a poor boy, a secret fortune, and the cost of becoming a gentleman.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-great-expectations.jpg"
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "era": "1869",
+      "part": "",
+      "note": "Tolstoy's vast novel of Russia at war with Napoleon — the whole of life held in one book.",
+      "tradition": "West"
+    },
+    {
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "era": "1871–1872",
+      "part": "",
+      "note": "George Eliot's study of a provincial town — the grandest English novel of ordinary lives and thwarted hopes.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "era": "1884",
+      "part": "",
+      "note": "Twain's runaway boy and a freedom-seeking man on a raft — the great American novel of conscience.",
+      "tradition": "West"
+    },
+    {
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "era": "1899",
+      "part": "",
+      "note": "Conrad's voyage up the Congo into the heart of empire — and of human darkness.",
+      "tradition": "West"
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "era": "1922",
+      "part": "",
+      "note": "Joyce remakes the novel — one Dublin day rendered whole, the Odyssey turned inside out.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "era": "1925",
+      "part": "",
+      "note": "Kafka's nightmare of a man arrested for a crime never named — the modern condition as parable.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Panchatantra",
+      "author": "Anonymous",
+      "era": "300 BCE–300 CE",
+      "part": "",
+      "note": "The world's most-traveled fables — animal tales of cunning and rule that reached every continent.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-panchatantra.jpg"
+    },
+    {
+      "title": "Romance of the Three Kingdoms",
+      "author": "Luo Guanzhong",
+      "era": "1321–1400",
+      "part": "",
+      "note": "China's great historical epic — war, loyalty, and strategy in the empire's collapse.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-romance-of-the-three-kingdoms.jpg"
+    },
+    {
+      "title": "The Water Margin",
+      "author": "Shi Nai'an",
+      "era": "1368–1400",
+      "part": "",
+      "note": "Outlaws of the marsh — a band of rebels turned folk heroes, China's tale of honor among bandits.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-water-margin.jpg"
+    },
+    {
+      "title": "Journey to the West",
+      "author": "Wu Cheng'en",
+      "era": "1592",
+      "part": "",
+      "note": "The Monkey King escorts a monk to fetch the scriptures — China's beloved comic-spiritual epic.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-journey-to-the-west.jpg"
+    },
+    {
+      "title": "Dream of the Red Chamber",
+      "author": "Cao Xueqin",
+      "era": "1750–1791",
+      "part": "",
+      "note": "The slow ruin of a great family seen through a doomed love — the subtlest of the Chinese novels.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-dream-of-the-red-chamber.jpg"
+    },
+    {
+      "title": "The Maqamat",
+      "author": "Al-Hariri",
+      "era": "1100–1110",
+      "part": "",
+      "note": "Al-Hariri's dazzling tales of a silver-tongued rogue — the showpiece of classical Arabic prose.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-maqamat.jpg"
+    },
+    {
+      "title": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "era": "1353",
+      "part": "",
+      "note": "A hundred tales told by ten young Florentines fleeing the plague — the birth of European prose fiction.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-decameron.jpg"
+    },
+    {
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe",
+      "era": "1719",
+      "part": "",
+      "note": "The castaway who built a world from nothing — often called the first English novel.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-robinson-crusoe.jpg"
+    },
+    {
+      "title": "The Red and the Black",
+      "author": "Stendhal",
+      "era": "1830",
+      "part": "",
+      "note": "A carpenter's son claws toward the top of Restoration France — the first great psychological novel.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-red-and-the-black.jpg"
+    },
+    {
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "era": "1857",
+      "part": "",
+      "note": "A provincial wife dreams beyond her life — the novel that made prose an exact art.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-madame-bovary.jpg"
+    },
+    {
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "era": "1862",
+      "part": "",
+      "note": "An ex-convict's long redemption against the barricades of Paris — the great novel of mercy and justice.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-les-miserables.jpg"
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "era": "1847",
+      "part": "",
+      "note": "A governess who will not be owned — the novel that gave the heroine her own fierce voice.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-jane-eyre.jpg"
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "era": "1847",
+      "part": "",
+      "note": "Love as a force of nature on the Yorkshire moors — wild, strange, and unlike anything before it.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-wuthering-heights.jpg"
+    },
+    {
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "era": "1913–1927",
+      "part": "",
+      "note": "Memory, time, and a taste of cake — the longest and deepest novel of the modern age.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-in-search-of-lost-time.jpg"
+    },
+    {
+      "title": "Mrs Dalloway",
+      "author": "Virginia Woolf",
+      "era": "1925",
+      "part": "",
+      "note": "One London day inside many minds — Woolf remakes the novel as the flow of consciousness.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-mrs-dalloway.jpg"
+    },
+    {
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "era": "1942",
+      "part": "",
+      "note": "A man who feels nothing at his mother's funeral — the novel of the absurd that defined an era.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-stranger.jpg",
+      "rights": "in-copyright",
+      "opens": 2038
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "era": "1949",
+      "part": "",
+      "note": "Big Brother, Newspeak, and the boot on the human face forever — the century's defining dystopia.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-1984.jpg",
+      "rights": "in-copyright",
+      "opens": 2045
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "era": "1952",
+      "part": "",
+      "note": "An old fisherman, a great marlin, and the dignity of struggle — Hemingway at his sparest.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-old-man-and-the-sea.jpg",
+      "rights": "in-copyright",
+      "opens": 2048
+    },
+    {
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "era": "1958",
+      "part": "",
+      "note": "An Igbo leader and the coming of the British — the novel that gave modern African literature its voice.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-things-fall-apart.jpg",
+      "rights": "in-copyright",
+      "opens": 2054
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "era": "1967",
+      "part": "",
+      "note": "The Buendía family across generations — the masterpiece of magical realism.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-one-hundred-years-of-solitude.jpg",
+      "rights": "in-copyright",
+      "opens": 2063
+    },
+    {
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "era": "1987",
+      "part": "",
+      "note": "A mother, a ghost, and the unhealed wound of slavery — the great American novel of memory.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-beloved.jpg",
+      "rights": "in-copyright",
+      "opens": 2083
+    },
+    {
+      "title": "The Pilgrim's Progress",
+      "author": "John Bunyan",
+      "era": "1678",
+      "part": "",
+      "note": "The great allegory of the Christian life as a perilous journey.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-pilgrim-s-progress.jpg"
+    },
+    {
+      "title": "Folklore and Fable",
+      "author": "Aesop, Grimm & Andersen",
+      "era": "600 BCE–1850",
+      "part": "",
+      "note": "Aesop, Grimm, and Andersen — the fables and fairy tales that raised the West.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-folklore-and-fable.jpg"
+    },
+    {
+      "title": "The Betrothed",
+      "author": "Alessandro Manzoni",
+      "era": "1827",
+      "part": "",
+      "note": "Italy's great historical novel — two lovers kept apart by power and plague.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-betrothed.jpg"
+    }
+  ]
+}

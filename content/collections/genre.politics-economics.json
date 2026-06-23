@@ -1,0 +1,168 @@
+{
+  "id": "genre.politics-economics",
+  "title": "Politics & Economics",
+  "curator": "A Lectio section",
+  "blurb": "Power, the state, wealth, and how we govern ourselves.",
+  "kind": "genre",
+  "items": [
+    {
+      "workId": "work.machiavelli.the-prince",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "era": "500–401 BCE",
+      "part": "",
+      "note": "Thirteen chapters: the supreme excellence is to win without fighting, and every battle is decided before it is joined.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-art-of-war.jpg"
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "era": "1513",
+      "part": "",
+      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-prince.jpg"
+    },
+    {
+      "title": "Leviathan",
+      "author": "Thomas Hobbes",
+      "era": "1651",
+      "part": "",
+      "note": "Hobbes on the state of nature and the social contract — life without authority, 'nasty, brutish, and short.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-hobbes-of-man-leviathan.jpg"
+    },
+    {
+      "title": "Two Treatises of Government",
+      "author": "John Locke",
+      "era": "1689",
+      "part": "",
+      "note": "Locke on natural rights and government by consent — the philosophy behind modern liberty.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-two-treatises-of-government.jpg"
+    },
+    {
+      "title": "The Spirit of the Laws",
+      "author": "Montesquieu",
+      "era": "1748",
+      "part": "",
+      "note": "Montesquieu on what makes laws just — and the separation of powers that shaped every later republic.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-spirit-of-the-laws.jpg"
+    },
+    {
+      "title": "The Social Contract",
+      "author": "Jean-Jacques Rousseau",
+      "era": "1762",
+      "part": "",
+      "note": "Rousseau on freedom and the general will — 'man is born free, and everywhere he is in chains.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-social-contract.jpg"
+    },
+    {
+      "title": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "era": "1776",
+      "part": "",
+      "note": "The founding work of modern economics — the division of labor and the invisible hand.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-wealth-of-nations.jpg"
+    },
+    {
+      "title": "The Federalist Papers",
+      "author": "Hamilton, Madison & Jay",
+      "era": "1788",
+      "part": "",
+      "note": "The argument for the American Constitution — the finest writing on how a free republic actually works.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-federalist-papers.jpg"
+    },
+    {
+      "title": "On Liberty",
+      "author": "John Stuart Mill",
+      "era": "1859",
+      "part": "",
+      "note": "Mill's classic argument for individual freedom against the tyranny of the majority.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-liberty.jpg"
+    },
+    {
+      "title": "Capital",
+      "author": "Karl Marx",
+      "era": "1867",
+      "part": "",
+      "note": "Marx's anatomy of capitalism — labor, value, and the engine he believed would undo it.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-capital.jpg"
+    },
+    {
+      "title": "The Code of Hammurabi",
+      "author": "Babylon",
+      "era": "1754 BCE",
+      "part": "",
+      "note": "The oldest great code of law — an eye for an eye, carved in stone four thousand years ago.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-code-of-hammurabi.jpg"
+    },
+    {
+      "title": "The Arthashastra",
+      "author": "Kautilya",
+      "era": "300 BCE–100 CE",
+      "part": "",
+      "note": "Kautilya's unsparing manual of statecraft and power — India's answer to Machiavelli, written far earlier.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-arthashastra.jpg"
+    },
+    {
+      "title": "The Han Feizi",
+      "author": "Han Fei",
+      "era": "280–233 BCE",
+      "part": "",
+      "note": "The masterwork of Legalism — order through law and power, the philosophy that unified China.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-han-feizi.jpg"
+    },
+    {
+      "title": "A Vindication of the Rights of Woman",
+      "author": "Mary Wollstonecraft",
+      "era": "1792",
+      "part": "",
+      "note": "The founding work of feminist thought — reason and education are not the property of men.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-vindication-of-the-rights-of-woman.jpg"
+    },
+    {
+      "title": "Reflections on the Revolution in France",
+      "author": "Edmund Burke",
+      "era": "1790",
+      "part": "",
+      "note": "The founding text of modern conservatism — order, tradition, and the danger of abstraction.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-reflections-on-the-revolution-in-france.jpg"
+    },
+    {
+      "title": "A Discourse on Inequality",
+      "author": "Jean-Jacques Rousseau",
+      "era": "1755",
+      "part": "",
+      "note": "Rousseau on how society made men unequal — a seed of the French Revolution.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-rousseau-discourse-on-inequality.jpg"
+    },
+    {
+      "title": "Utopia",
+      "author": "Sir Thomas More",
+      "era": "1516",
+      "part": "",
+      "note": "More's book that named the genre — an island of perfect order, half-ideal, half-warning.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-utopia.jpg"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "genre.history-biography",
+  "title": "History & Biography",
+  "curator": "A Lectio section",
+  "blurb": "The record of what happened, and the lives that shaped it.",
+  "kind": "genre",
+  "items": [],
+  "planned": [
+    {
+      "title": "The Histories",
+      "author": "Herodotus",
+      "era": "440 BCE",
+      "part": "",
+      "note": "The first work of history — Herodotus on the war between Greece and Persia, and everything he learned along the way.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-histories.jpg"
+    },
+    {
+      "title": "History of the Peloponnesian War",
+      "author": "Thucydides",
+      "era": "400 BCE",
+      "part": "",
+      "note": "Thucydides on the war that broke Athens — history written cold, as a possession for all time.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-history-of-the-peloponnesian-war.jpg"
+    },
+    {
+      "title": "Lives",
+      "author": "Plutarch",
+      "era": "100–120 CE",
+      "part": "",
+      "note": "Plutarch's paired lives of Greeks and Romans that taught Europe what greatness looks like.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-lives.jpg"
+    },
+    {
+      "title": "The Annals",
+      "author": "Tacitus",
+      "era": "110–120 CE",
+      "part": "",
+      "note": "Tacitus on the early Roman emperors — power, fear, and corruption, in the most unsparing prose of antiquity.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-annals.jpg"
+    },
+    {
+      "title": "The Decline and Fall of the Roman Empire",
+      "author": "Edward Gibbon",
+      "era": "1776–1789",
+      "part": "",
+      "note": "Gibbon's vast, ironic chronicle of how the greatest empire of antiquity came undone.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-decline-and-fall-of-the-roman-empire.jpg"
+    },
+    {
+      "title": "Democracy in America",
+      "author": "Alexis de Tocqueville",
+      "era": "1835–1840",
+      "part": "",
+      "note": "Tocqueville's clear-eyed report on the young United States — democracy's promise and its perils.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-democracy-in-america.jpg"
+    },
+    {
+      "title": "Records of the Grand Historian",
+      "author": "Sima Qian",
+      "era": "145–86 BCE",
+      "part": "",
+      "note": "The founding work of Chinese history, whose author chose disgrace over death to finish it.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-records-of-the-grand-historian.jpg"
+    },
+    {
+      "title": "The Travels of Ibn Battuta",
+      "author": "Ibn Battuta",
+      "era": "1355",
+      "part": "",
+      "note": "Thirty years and the whole medieval world on foot — the greatest travel book before modern times.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-travels-of-ibn-battuta.jpg"
+    },
+    {
+      "title": "The Muqaddimah",
+      "author": "Ibn Khaldun",
+      "era": "1377",
+      "part": "",
+      "note": "The first science of history and society — why civilizations cohere, harden, and fall; sociology founded centuries early.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-muqaddimah.jpg"
+    },
+    {
+      "title": "The Kojiki",
+      "author": "Ō no Yasumaro",
+      "era": "712",
+      "part": "",
+      "note": "Japan's oldest book — the myths of the gods and the origins of the islands and their emperors.",
+      "tradition": "East",
+      "cover": "collections/book-covers/eastern-kojiki.jpg"
+    },
+    {
+      "title": "Narrative of the Life of Frederick Douglass",
+      "author": "Frederick Douglass",
+      "era": "1845",
+      "part": "",
+      "note": "The escaped slave who wrote his own freedom — the most powerful American memoir of the century.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-narrative-of-the-life-of-frederick-douglass.jpg"
+    },
+    {
+      "title": "Seven Pillars of Wisdom",
+      "author": "T. E. Lawrence",
+      "era": "1926",
+      "part": "",
+      "note": "Lawrence's first-hand epic of the Arab Revolt — guerrilla war across the desert, and the making and unmaking of a legend.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Autobiography of Benjamin Franklin",
+      "author": "Benjamin Franklin",
+      "era": "1771–1790",
+      "part": "",
+      "note": "The model American life, told by the man who invented himself — printer, scientist, statesman.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-franklin-autobiography.jpg",
+      "originalCover": "collections/book-covers/harvard-classics-red-franklin-autobiography.jpg"
+    },
+    {
+      "title": "Journal",
+      "author": "John Woolman",
+      "era": "1774",
+      "part": "",
+      "note": "The inner life of a Quaker conscience — an early, searching American voice against slavery.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-woolman-journal.jpg",
+      "originalCover": "collections/book-covers/harvard-classics-red-woolman-journal.jpg"
+    },
+    {
+      "title": "The Lives of Donne and Herbert",
+      "author": "Izaak Walton",
+      "era": "1640–1670",
+      "part": "",
+      "note": "Izaak Walton's tender biographies of two English poet-priests.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-lives-of-donne-and-herbert.jpg"
+    },
+    {
+      "title": "Two Years Before the Mast",
+      "author": "Richard Henry Dana",
+      "era": "1840",
+      "part": "",
+      "note": "A Harvard man's plain account of life as a common sailor — the sea without romance.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-two-years-before-the-mast.jpg"
+    },
+    {
+      "title": "The Voyage of the Beagle",
+      "author": "Charles Darwin",
+      "era": "1839",
+      "part": "",
+      "note": "The young naturalist's travel journal — the voyage that planted evolution.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-voyage-of-the-beagle.jpg"
+    },
+    {
+      "title": "The Autobiography of Benvenuto Cellini",
+      "author": "Benvenuto Cellini",
+      "era": "1558–1563",
+      "part": "",
+      "note": "The swaggering memoir of a Renaissance goldsmith — art, brawls, and bravado.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-cellini-autobiography.jpg"
+    },
+    {
+      "title": "Voyages and Travels",
+      "author": "",
+      "era": "400 BCE–1900",
+      "part": "",
+      "note": "Great first-hand accounts of exploration, ancient and modern.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-voyages-and-travels.jpg"
+    },
+    {
+      "title": "Chronicle and Romance",
+      "author": "Froissart, Malory, Holinshed",
+      "era": "1370–1580",
+      "part": "",
+      "note": "Froissart, Malory, and Holinshed — the chronicles and legends behind medieval England.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-chronicle-and-romance.jpg"
+    },
+    {
+      "title": "American Historical Documents",
+      "author": "",
+      "era": "1000–1904",
+      "part": "",
+      "note": "The charters and speeches that made a nation, 1000–1904.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-american-historical-documents.jpg"
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "id": "collection.great-books",
+  "title": "Great Books of the Western World",
+  "curator": "Hutchins & Adler (1952)",
+  "blurb": "Britannica's mid-century collection — the long conversation of the West, from Homer to the moderns, gathered as one continuous argument.",
+  "about": "Conceived at the University of Chicago by Robert Hutchins and Mortimer Adler and published by Encyclopædia Britannica in 1952, the Great Books of the Western World gathered the central works of Western thought — 54 volumes, Homer to Freud — into a single 'Great Conversation.'\n\nIts spine was the Syntopicon: Adler's vast index of 102 'Great Ideas' that let a reader trace one theme — justice, the soul, time — across three thousand years of authors answering one another. It was the mid-century heir to Eliot's shelf — more philosophical, more systematic — and the foundation of the Great Books movement.\n\nA second edition in 1990 grew the set to sixty volumes, carrying the conversation into the twentieth century. Lectio shelves it in its own volume order — author and principal work, the Greeks to the moderns, each a voice the next one answers.",
+  "kind": "series",
+  "group": "The Western World",
+  "items": [
+    {
+      "workId": "work.marcus-aurelius.meditations",
+      "note": ""
+    },
+    {
+      "workId": "work.homer.iliad",
+      "note": ""
+    },
+    {
+      "workId": "work.homer.odyssey",
+      "note": ""
+    },
+    {
+      "workId": "work.virgil.aeneid",
+      "note": ""
+    },
+    {
+      "workId": "work.plato.republic",
+      "note": ""
+    },
+    {
+      "workId": "work.aristotle.nicomachean-ethics",
+      "note": ""
+    },
+    {
+      "workId": "work.machiavelli.the-prince",
+      "note": ""
+    },
+    {
+      "workId": "work.augustine.confessions",
+      "note": ""
+    }
+  ],
+  "planned": [
+    {
+      "title": "The Greek Tragedies",
+      "author": "Aeschylus, Sophocles & Euripides",
+      "era": "472–405 BCE",
+      "part": "Greece & Rome",
+      "note": "The masterpieces of the Athenian stage — Aeschylus, Sophocles, and Euripides on fate, the gods, and the cost of pride.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-greek-tragedies.jpg"
+    },
+    {
+      "title": "The Histories",
+      "author": "Herodotus",
+      "era": "440 BCE",
+      "part": "Greece & Rome",
+      "note": "The first work of history — Herodotus on the war between Greece and Persia, and everything he learned along the way.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-histories.jpg"
+    },
+    {
+      "title": "History of the Peloponnesian War",
+      "author": "Thucydides",
+      "era": "400 BCE",
+      "part": "Greece & Rome",
+      "note": "Thucydides on the war that broke Athens — history written cold, as a possession for all time.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-history-of-the-peloponnesian-war.jpg"
+    },
+    {
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "era": "340 BCE",
+      "part": "Greece & Rome",
+      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
+    },
+    {
+      "title": "The Elements",
+      "author": "Euclid",
+      "era": "300 BCE",
+      "part": "Greece & Rome",
+      "note": "Euclid's geometry — the model of reasoning from first principles that every later science would imitate.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-elements.jpg"
+    },
+    {
+      "title": "The Works of Archimedes",
+      "author": "Archimedes",
+      "era": "250 BCE",
+      "part": "Greece & Rome",
+      "note": "The greatest mathematician of antiquity — levers, spheres, and the first reach toward the calculus.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-works-of-archimedes.jpg"
+    },
+    {
+      "title": "On the Nature of Things",
+      "author": "Lucretius",
+      "era": "50 BCE",
+      "part": "Greece & Rome",
+      "note": "Lucretius sets the whole universe in verse — atoms, mortality, and freedom from the fear of death.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-nature-of-things.jpg"
+    },
+    {
+      "title": "Lives",
+      "author": "Plutarch",
+      "era": "100–120 CE",
+      "part": "Greece & Rome",
+      "note": "Plutarch's paired lives of Greeks and Romans that taught Europe what greatness looks like.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-lives.jpg"
+    },
+    {
+      "title": "The Annals",
+      "author": "Tacitus",
+      "era": "110–120 CE",
+      "part": "Greece & Rome",
+      "note": "Tacitus on the early Roman emperors — power, fear, and corruption, in the most unsparing prose of antiquity.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-annals.jpg"
+    },
+    {
+      "title": "The Almagest",
+      "author": "Ptolemy",
+      "era": "150 CE",
+      "part": "Greece & Rome",
+      "note": "Ptolemy's astronomy — the earth-centered cosmos that ruled the Western mind for fourteen centuries.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-almagest.jpg"
+    },
+    {
+      "title": "The Enneads",
+      "author": "Plotinus",
+      "era": "250–270 CE",
+      "part": "Greece & Rome",
+      "note": "Plotinus and the last great vision of pagan philosophy — the soul's ascent toward the One.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-enneads.jpg"
+    },
+    {
+      "title": "The City of God",
+      "author": "Saint Augustine",
+      "era": "413–426 CE",
+      "part": "The Middle Ages",
+      "note": "Written as Rome fell — the eternal city of God set against the earthly city of men.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-city-of-god.jpg"
+    },
+    {
+      "title": "Summa Theologica",
+      "author": "Thomas Aquinas",
+      "era": "1265–1274",
+      "part": "The Middle Ages",
+      "note": "Aquinas's towering synthesis of faith and reason — medieval theology's masterwork.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-summa-theologica.jpg"
+    },
+    {
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "era": "1308–1320",
+      "part": "The Middle Ages",
+      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
+    },
+    {
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "era": "1387–1400",
+      "part": "The Middle Ages",
+      "note": "Chaucer's pilgrims trade stories on the road to Canterbury — the founding comedy of English literature.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-canterbury-tales.jpg"
+    },
+    {
+      "title": "On the Revolutions of the Heavenly Spheres",
+      "author": "Nicolaus Copernicus",
+      "era": "1543",
+      "part": "The Renaissance",
+      "note": "Copernicus moves the earth — the book that began the scientific revolution.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-revolutions-of-the-heavenly-spheres.jpg"
+    },
+    {
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "era": "1513",
+      "part": "The Renaissance",
+      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-prince.jpg"
+    },
+    {
+      "title": "Gargantua and Pantagruel",
+      "author": "François Rabelais",
+      "era": "1532–1564",
+      "part": "The Renaissance",
+      "note": "Rabelais's giant, riotous satire — learning and appetite, the body and the book, in full Renaissance laughter.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-gargantua-and-pantagruel.jpg"
+    },
+    {
+      "title": "The Essays",
+      "author": "Michel de Montaigne",
+      "era": "1580",
+      "part": "The Renaissance",
+      "note": "Montaigne invents the essay to study one subject without end — himself — and so discovers all of us.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-essays-montaigne.jpg"
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "era": "1605–1615",
+      "part": "The Renaissance",
+      "note": "The first modern novel, entire — a mad knight, his earthbound squire, and the comedy of ideals meeting the world.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-don-quixote-part-i.jpg"
+    },
+    {
+      "title": "The Plays and Sonnets",
+      "author": "William Shakespeare",
+      "era": "1590–1613",
+      "part": "The Renaissance",
+      "note": "Shakespeare whole — the tragedies, comedies, histories, and sonnets that map the range of what we are.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-plays-and-sonnets.jpg"
+    },
+    {
+      "title": "The New Organon",
+      "author": "Francis Bacon",
+      "era": "1620",
+      "part": "The Renaissance",
+      "note": "Bacon's manifesto for a new science built on experiment and evidence rather than authority.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-new-organon.jpg"
+    },
+    {
+      "title": "On the Motion of the Heart and Blood",
+      "author": "William Harvey",
+      "era": "1628",
+      "part": "The Renaissance",
+      "note": "Harvey discovers the circulation of the blood — the birth of modern physiology.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-the-motion-of-the-heart-and-blood.jpg"
+    },
+    {
+      "title": "Two New Sciences",
+      "author": "Galileo Galilei",
+      "era": "1638",
+      "part": "The Renaissance",
+      "note": "Galileo founds modern physics — motion and materials, argued in plain dialogue against the schoolmen.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-two-new-sciences.jpg"
+    },
+    {
+      "title": "Discourse on Method",
+      "author": "René Descartes",
+      "era": "1637",
+      "part": "The Enlightenment",
+      "note": "Descartes founds modern philosophy on doubt — 'I think, therefore I am.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-discourse-on-method.jpg"
+    },
+    {
+      "title": "Leviathan",
+      "author": "Thomas Hobbes",
+      "era": "1651",
+      "part": "The Enlightenment",
+      "note": "Hobbes on the state of nature and the social contract — life without authority, 'nasty, brutish, and short.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-hobbes-of-man-leviathan.jpg"
+    },
+    {
+      "title": "Paradise Lost",
+      "author": "John Milton",
+      "era": "1667",
+      "part": "The Enlightenment",
+      "note": "Milton's English epic of the fall — Satan, Eden, and the ways of God to men.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-paradise-lost.jpg"
+    },
+    {
+      "title": "Pensées",
+      "author": "Blaise Pascal",
+      "era": "1670",
+      "part": "The Enlightenment",
+      "note": "Pascal's fragments on faith and doubt — the wager, the abyss, and the thinking reed.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-pensees.jpg"
+    },
+    {
+      "title": "Ethics",
+      "author": "Baruch Spinoza",
+      "era": "1677",
+      "part": "The Enlightenment",
+      "note": "Spinoza proves a philosophy like geometry — God, nature, and freedom as one necessary order.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-ethics-spinoza.jpg"
+    },
+    {
+      "title": "Two Treatises of Government",
+      "author": "John Locke",
+      "era": "1689",
+      "part": "The Enlightenment",
+      "note": "Locke on natural rights and government by consent — the philosophy behind modern liberty.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-two-treatises-of-government.jpg"
+    },
+    {
+      "title": "The Principia",
+      "author": "Isaac Newton",
+      "era": "1687",
+      "part": "The Enlightenment",
+      "note": "Newton's laws of motion and gravity — the mathematical system of the world.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-principia.jpg"
+    },
+    {
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "era": "1726",
+      "part": "The Enlightenment",
+      "note": "Swift's voyages to impossible lands — the sharpest satire of human folly ever written.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-gullivers-travels.jpg"
+    },
+    {
+      "title": "The Spirit of the Laws",
+      "author": "Montesquieu",
+      "era": "1748",
+      "part": "The Enlightenment",
+      "note": "Montesquieu on what makes laws just — and the separation of powers that shaped every later republic.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-spirit-of-the-laws.jpg"
+    },
+    {
+      "title": "Candide",
+      "author": "Voltaire",
+      "era": "1759",
+      "part": "The Enlightenment",
+      "note": "Voltaire's lightning satire — innocence loose in a brutal world, and the case for tending one's garden.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-candide.jpg"
+    },
+    {
+      "title": "The Social Contract",
+      "author": "Jean-Jacques Rousseau",
+      "era": "1762",
+      "part": "The Enlightenment",
+      "note": "Rousseau on freedom and the general will — 'man is born free, and everywhere he is in chains.'",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-social-contract.jpg"
+    },
+    {
+      "title": "The Wealth of Nations",
+      "author": "Adam Smith",
+      "era": "1776",
+      "part": "The Enlightenment",
+      "note": "The founding work of modern economics — the division of labor and the invisible hand.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-wealth-of-nations.jpg"
+    },
+    {
+      "title": "The Decline and Fall of the Roman Empire",
+      "author": "Edward Gibbon",
+      "era": "1776–1789",
+      "part": "The Enlightenment",
+      "note": "Gibbon's vast, ironic chronicle of how the greatest empire of antiquity came undone.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-decline-and-fall-of-the-roman-empire.jpg"
+    },
+    {
+      "title": "The Critique of Pure Reason",
+      "author": "Immanuel Kant",
+      "era": "1781",
+      "part": "The Enlightenment",
+      "note": "Kant remakes philosophy — what the mind can know, and the limits it cannot cross.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-critique-of-pure-reason.jpg"
+    },
+    {
+      "title": "The Federalist Papers",
+      "author": "Hamilton, Madison & Jay",
+      "era": "1788",
+      "part": "The Enlightenment",
+      "note": "The argument for the American Constitution — the finest writing on how a free republic actually works.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-federalist-papers.jpg"
+    },
+    {
+      "title": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "era": "1808–1832",
+      "part": "The Nineteenth Century",
+      "note": "Goethe's supreme drama — the scholar who wagers his soul for the whole of human experience.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-faust-goethe.jpg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "era": "1813",
+      "part": "The Nineteenth Century",
+      "note": "Austen's perfect comedy of manners — wit, money, and the slow education of the heart.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-pride-and-prejudice.jpg"
+    },
+    {
+      "title": "Democracy in America",
+      "author": "Alexis de Tocqueville",
+      "era": "1835–1840",
+      "part": "The Nineteenth Century",
+      "note": "Tocqueville's clear-eyed report on the young United States — democracy's promise and its perils.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-democracy-in-america.jpg"
+    },
+    {
+      "title": "The Philosophy of History",
+      "author": "G. W. F. Hegel",
+      "era": "1837",
+      "part": "The Nineteenth Century",
+      "note": "Hegel reads all of history as the unfolding of freedom — the idea that shaped the modern age.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-philosophy-of-history.jpg"
+    },
+    {
+      "title": "Fear and Trembling",
+      "author": "Søren Kierkegaard",
+      "era": "1843",
+      "part": "The Nineteenth Century",
+      "note": "Kierkegaard on Abraham and the leap of faith — the birth of existential thought.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-fear-and-trembling.jpg"
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "era": "1851",
+      "part": "The Nineteenth Century",
+      "note": "Melville's white whale — an American epic of obsession, the sea, and the unknowable.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-moby-dick.jpg"
+    },
+    {
+      "title": "On Liberty",
+      "author": "John Stuart Mill",
+      "era": "1859",
+      "part": "The Nineteenth Century",
+      "note": "Mill's classic argument for individual freedom against the tyranny of the majority.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-on-liberty.jpg"
+    },
+    {
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "era": "1859",
+      "part": "The Nineteenth Century",
+      "note": "The book that remade biology — evolution by natural selection.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-the-origin-of-species.jpg"
+    },
+    {
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "era": "1861",
+      "part": "The Nineteenth Century",
+      "note": "Dickens's masterpiece of self-deception — a poor boy, a secret fortune, and the cost of becoming a gentleman.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-great-expectations.jpg"
+    },
+    {
+      "title": "Capital",
+      "author": "Karl Marx",
+      "era": "1867",
+      "part": "The Nineteenth Century",
+      "note": "Marx's anatomy of capitalism — labor, value, and the engine he believed would undo it.",
+      "tradition": "West",
+      "cover": "collections/book-covers/lectio-capital.jpg"
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "era": "1869",
+      "part": "The Nineteenth Century",
+      "note": "Tolstoy's vast novel of Russia at war with Napoleon — the whole of life held in one book.",
+      "tradition": "West"
+    },
+    {
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "era": "1871–1872",
+      "part": "The Nineteenth Century",
+      "note": "George Eliot's study of a provincial town — the grandest English novel of ordinary lives and thwarted hopes.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "era": "1880",
+      "part": "The Nineteenth Century",
+      "note": "Dostoevsky's final novel — a murder, three brothers, and the deepest argument in fiction over God and freedom.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "era": "1884",
+      "part": "The Nineteenth Century",
+      "note": "Twain's runaway boy and a freedom-seeking man on a raft — the great American novel of conscience.",
+      "tradition": "West"
+    },
+    {
+      "title": "Beyond Good and Evil",
+      "author": "Friedrich Nietzsche",
+      "era": "1886",
+      "part": "The Nineteenth Century",
+      "note": "Nietzsche's assault on inherited morality — and his demand that we create our own values.",
+      "tradition": "West"
+    },
+    {
+      "title": "A Doll's House",
+      "author": "Henrik Ibsen",
+      "era": "1879",
+      "part": "The Nineteenth Century",
+      "note": "Ibsen's quiet bombshell — a wife walks out of her marriage, and the modern theater begins.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Principles of Psychology",
+      "author": "William James",
+      "era": "1890",
+      "part": "The Modern World",
+      "note": "William James founds modern psychology — the stream of consciousness, habit, and the self.",
+      "tradition": "West"
+    },
+    {
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "era": "1899",
+      "part": "The Modern World",
+      "note": "Conrad's voyage up the Congo into the heart of empire — and of human darkness.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Interpretation of Dreams",
+      "author": "Sigmund Freud",
+      "era": "1899",
+      "part": "The Modern World",
+      "note": "Freud opens the unconscious — dreams as the royal road to the hidden mind.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Waste Land",
+      "author": "T. S. Eliot",
+      "era": "1922",
+      "part": "The Modern World",
+      "note": "T. S. Eliot's fractured masterpiece — the defining poem of the modern century.",
+      "tradition": "West"
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "era": "1922",
+      "part": "The Modern World",
+      "note": "Joyce remakes the novel — one Dublin day rendered whole, the Odyssey turned inside out.",
+      "tradition": "West"
+    },
+    {
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "era": "1925",
+      "part": "The Modern World",
+      "note": "Kafka's nightmare of a man arrested for a crime never named — the modern condition as parable.",
+      "tradition": "West"
+    }
+  ]
+}

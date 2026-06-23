@@ -1,0 +1,18 @@
+{
+  "id": "work.aristotle.nicomachean-ethics",
+  "title": "Nicomachean Ethics",
+  "author": "Aristotle",
+  "originalLang": "grc",
+  "composed": "340 BCE",
+  "type": "philosophy",
+  "referenceScheme": "book.chapter",
+  "defaultEditionId": "edition.nicomachean-ethics.chase-1911",
+  "blurb": "Aristotle's enquiry into the good life: happiness (eudaimonia) as the soul's activity in accordance with virtue, virtue as a mean formed by habit, and friendship and contemplation as the crown of a human life.",
+  "tradition": "West",
+  "collections": [
+    "collection.great-books"
+  ],
+  "editionIds": [
+    "edition.nicomachean-ethics.chase-1911"
+  ]
+}

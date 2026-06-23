@@ -13,6 +13,13 @@ targets:
   Lectio:
     type: application
     platform: iOS
+    # iCloud key–value sync for the personal layer (saved words, highlights, reading
+    # places, My Collection) via CloudStore/NSUbiquitousKeyValueStore. Active in signed
+    # builds with the iCloud capability; degrades to local-only otherwise.
+    entitlements:
+      path: Lectio.entitlements
+      properties:
+        com.apple.developer.ubiquity-kvstore-identifier: $(TeamIdentifierPrefix)$(CFBundleIdentifier)
     sources:
       - path: Lectio
       # The content bundle lives at the repo root; include it as a folder
