@@ -9,6 +9,7 @@ final class Library: ObservableObject {
     @Published var collections: [BookCollection] = []
     @Published var enrichment: [String: Enrichment] = [:]
     @Published var explore: [ExploreRecord] = []
+    @Published var concepts: [String: Concept] = [:]   // concept.id -> node
 
     // workId -> normalized term/alias -> curated glossary entry. Built once at load so
     // a tap is an O(1) dictionary hit regardless of which edition's name was tapped.
@@ -63,6 +64,10 @@ final class Library: ObservableObject {
 
         if let data = decode(ExploreData.self, "explore", in: "content") {
             explore = data.records
+        }
+
+        if let graph = decode(GraphData.self, "concepts", in: "content/graph") {
+            concepts = Dictionary(graph.concepts.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
         }
     }
 
@@ -121,6 +126,10 @@ final class Library: ObservableObject {
     func glossEntry(workId: String, term: String) -> Enrichment.GlossEntry? {
         glossIndex[workId]?[WordDictionary.normalize(term)]
     }
+
+    func concept(id: String) -> Concept? { concepts[id] }
+
+    func workTitle(id: String) -> String? { works.first { $0.id == id }?.title }
 
     func chapterOverview(workId: String, order: Int) -> String? {
         enrichment[workId]?.chapters?[String(order)]

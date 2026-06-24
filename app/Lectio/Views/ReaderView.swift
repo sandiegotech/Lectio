@@ -46,7 +46,7 @@ struct ReaderView: View {
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
     // A word lookup popup, anchored near the tapped word.
-    struct WordPopup { var term: String; var def: String?; var kind: String?; var point: CGPoint }
+    struct WordPopup { var term: String; var def: String?; var kind: String?; var conceptId: String?; var point: CGPoint }
     // A "save this highlight" popup, anchored near the end of a selection drag.
     struct SelPopup { var segmentId: String; var range: ClosedRange<Int>; var text: String; var point: CGPoint }
 
@@ -125,8 +125,8 @@ struct ReaderView: View {
                                 .onTapGesture { dismissPopups() }
                         }
                         if let wp = wordPopup {
-                            WordCard(term: wp.term, definition: wp.def, kind: wp.kind, workTitle: work.title,
-                                     workId: work.id, pal: pal, onClose: dismissPopups)
+                            WordCard(term: wp.term, definition: wp.def, kind: wp.kind, conceptId: wp.conceptId,
+                                     workTitle: work.title, workId: work.id, pal: pal, onClose: dismissPopups)
                                 .position(popupPosition(wp.point, in: rgeo.size, card: CGSize(width: 260, height: 150)))
                         }
                         if let sp = selPopup {
@@ -183,7 +183,8 @@ struct ReaderView: View {
             if let dbg = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SELECT"], !dbg.isEmpty {
                 let w = WordDictionary.normalize(dbg)
                 let r = resolveWord(w)
-                wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, point: CGPoint(x: 240, y: 360))
+                wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, conceptId: r.conceptId,
+                                      point: CGPoint(x: 240, y: 360))
             }
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
@@ -692,17 +693,18 @@ struct ReaderView: View {
     private func showWord(_ word: String, at point: CGPoint) {
         selPopup = nil; selRange = nil; selSegmentId = nil; focusWord = nil
         let r = resolveWord(word)
-        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, point: point)
+        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, conceptId: r.conceptId, point: point)
     }
 
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
     // then any passage-level note. A nil def means the word is outside the curated
-    // corpus — the WordCard offers Apple's on-device dictionary, then Gloss.
-    private func resolveWord(_ word: String) -> (def: String?, kind: String?) {
+    // corpus — the WordCard offers Apple's on-device dictionary, then Gloss. A curated
+    // entry may carry a conceptId linking to the shared cross-work Concept node.
+    private func resolveWord(_ word: String) -> (def: String?, kind: String?, conceptId: String?) {
         if let entry = library.glossEntry(workId: work.id, term: word) {
-            return (entry.gloss, entry.kind)
+            return (entry.gloss, entry.kind, entry.conceptId)
         }
-        return (passageGloss(word), nil)
+        return (passageGloss(word), nil, nil)
     }
 
     private func backgroundTap() {

@@ -1,0 +1,585 @@
+{
+  "concepts": [
+    {
+      "id": "concept.menis",
+      "term": "rage",
+      "kind": "concept",
+      "gloss": "The poem's true subject — the towering, ruinous wrath of Achilles. Not ordinary temper but a near-sacred fury, the kind usually reserved for gods, turned by a mortal against his own side.",
+      "original": {
+        "lang": "grc",
+        "lemma": "μῆνις",
+        "translit": "mēnis",
+        "literal": "wrath (esp. divine, abiding)"
+      },
+      "senseHistory": "In Homer mēnis is a special, almost cultic word — elsewhere it names the anger of gods. English 'rage' keeps the heat but loses the sense of a sanctioned, cosmic wrath, which is why translators argue over the poem's very first word.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.cholos",
+          "type": "contrasts",
+          "note": "Homer distinguishes Achilles' mēnis from ordinary cholos — gall, the anger any man feels."
+        },
+        {
+          "to": "concept.kleos",
+          "type": "shares-theme",
+          "note": "The rage and the glory are the same bargain: a short life spent loudly."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "The Odyssey opens on a different passion — not wrath but longing for home."
+        }
+      ]
+    },
+    {
+      "id": "concept.cholos",
+      "term": "wrath (cholos)",
+      "kind": "concept",
+      "gloss": "Everyday anger — the gall that rises in any fighter's chest. Homer uses it for the common rage that Achilles' singular mēnis stands apart from.",
+      "original": {
+        "lang": "grc",
+        "lemma": "χόλος",
+        "translit": "cholos",
+        "literal": "gall, bile, anger"
+      },
+      "senseHistory": "Literally 'gall/bile' — anger located in the body, like English 'galled' or 'bilious.' The Greeks sited emotion in the organs; the metaphor survives in our 'venting your spleen.'",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.menis",
+          "type": "contrasts",
+          "note": "The ordinary anger against which Achilles' sacred wrath is measured."
+        }
+      ]
+    },
+    {
+      "id": "concept.time",
+      "term": "honor",
+      "kind": "concept",
+      "gloss": "A warrior's public worth — respect made visible in prizes, precedence, and the deference of others. To be stripped of it is the deepest injury, which is what ignites the quarrel.",
+      "original": {
+        "lang": "grc",
+        "lemma": "τιμή",
+        "translit": "timē",
+        "literal": "honor, worth, price"
+      },
+      "senseHistory": "The same word means 'price' or 'value' — honor was quantifiable, paid out in spoils and seats at the feast. English keeps the split in 'esteem' (regard) versus 'estimate' (price).",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.geras",
+          "type": "shares-theme",
+          "note": "Honor is made concrete in the geras, the prize that proves it."
+        },
+        {
+          "to": "concept.kleos",
+          "type": "shares-theme",
+          "note": "Honor is paid in life; glory is what outlasts it."
+        }
+      ]
+    },
+    {
+      "id": "concept.kleos",
+      "term": "glory",
+      "kind": "concept",
+      "gloss": "The undying fame a hero wins by great deeds — the nearest thing to immortality a mortal can earn, since his life is short and certain to end.",
+      "original": {
+        "lang": "grc",
+        "lemma": "κλέος",
+        "translit": "kleos",
+        "literal": "glory, fame, 'what is heard'"
+      },
+      "senseHistory": "Kleos is rooted in the verb 'to hear' — glory is literally what gets said and re-said about you. The epic itself is the machine that delivers it; English 'glory' comes instead through Latin gloria.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.menis",
+          "type": "shares-theme",
+          "note": "Achilles trades a long life for kleos — the rage is the price of the fame."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "Odysseus chooses homecoming over the bare glory Achilles took."
+        }
+      ]
+    },
+    {
+      "id": "concept.moira",
+      "term": "fate",
+      "kind": "concept",
+      "gloss": "The portion of life and death allotted to each person — a destiny so fixed that even Zeus hesitates to overrule it.",
+      "original": {
+        "lang": "grc",
+        "lemma": "μοῖρα",
+        "translit": "moira",
+        "literal": "portion, allotted share"
+      },
+      "senseHistory": "Moira literally means 'a share/portion,' as of meat at a feast — your fate is the lot dealt to you. Latin reframes it as fatum, 'what has been spoken,' a destiny pronounced rather than apportioned.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey",
+        "work.virgil.aeneid"
+      ],
+      "connections": [
+        {
+          "to": "work.virgil.aeneid",
+          "type": "contrasts",
+          "note": "Virgil's fatum drives toward Rome's founding; Homer's moira simply marks each man's end."
+        },
+        {
+          "to": "concept.mortality",
+          "type": "shares-theme",
+          "note": "To know your moira is to know you will die — the weight every hero carries."
+        }
+      ]
+    },
+    {
+      "id": "concept.mortality",
+      "term": "mortality",
+      "kind": "concept",
+      "gloss": "The fact that defines the human in these poems: mortals (brotoi) set against the deathless gods (athanatoi). Knowing the end is fixed is what gives every choice its weight.",
+      "original": {
+        "lang": "grc",
+        "lemma": "βροτός",
+        "translit": "brotos",
+        "literal": "mortal, a dying one"
+      },
+      "senseHistory": "Greek names humans by their deaths — brotoi, 'the mortals,' opposed to a-thanatoi, 'the un-dying.' The same anxiety drives Gilgamesh's failed search for immortality and Hamlet's graveyard.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.gilgamesh",
+        "work.marcus-aurelius.meditations",
+        "work.shakespeare.hamlet"
+      ],
+      "connections": [
+        {
+          "to": "work.gilgamesh",
+          "type": "shares-theme",
+          "note": "Gilgamesh, like Achilles, learns that even the strongest man must die."
+        },
+        {
+          "to": "work.marcus-aurelius.meditations",
+          "type": "shares-theme",
+          "note": "Marcus turns the same fact into a discipline: remember you will die, and live now."
+        }
+      ]
+    },
+    {
+      "id": "concept.xenia",
+      "term": "guest-friendship",
+      "kind": "concept",
+      "gloss": "The sacred bond of hospitality between host and guest, guarded by Zeus himself. Paris broke it by stealing Helen from his host; the whole war is, in one sense, the price of that violation.",
+      "original": {
+        "lang": "grc",
+        "lemma": "ξενία",
+        "translit": "xenia",
+        "literal": "guest-friendship, hospitality"
+      },
+      "senseHistory": "Xenos means both 'stranger' and 'guest' — the one word holds the bond that turns the first into the second. English kept only the wary half, in 'xenophobia.'",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "work.homer.odyssey",
+          "type": "shares-theme",
+          "note": "The Odyssey is one long test of xenia — every household Odysseus enters either honors the guest or abuses him."
+        },
+        {
+          "to": "concept.time",
+          "type": "shares-theme",
+          "note": "Both are codes of honor: how you treat a guest is who you are."
+        }
+      ]
+    },
+    {
+      "id": "concept.nostos",
+      "term": "homecoming",
+      "kind": "concept",
+      "gloss": "The hero's return home from the war — the governing desire of the Odyssey, as rage is of the Iliad.",
+      "original": {
+        "lang": "grc",
+        "lemma": "νόστος",
+        "translit": "nostos",
+        "literal": "homecoming, return"
+      },
+      "senseHistory": "Nostos plus algos ('pain') gives us 'nostalgia' — literally the ache for a homecoming. The Odyssey is the great poem of that ache.",
+      "appearsIn": [
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "work.homer.odyssey",
+          "type": "part-of",
+          "note": "The organizing idea of the Odyssey."
+        },
+        {
+          "to": "concept.kleos",
+          "type": "contrasts",
+          "note": "Glory keeps you on the battlefield; nostos pulls you home."
+        }
+      ]
+    },
+    {
+      "id": "concept.ate",
+      "term": "ruin (atē)",
+      "kind": "concept",
+      "gloss": "The blind delusion sent by the gods that leads a person into ruin — both the folly and the disaster it brings. Agamemnon blames atē, not himself, for the quarrel.",
+      "original": {
+        "lang": "grc",
+        "lemma": "ἄτη",
+        "translit": "atē",
+        "literal": "blind folly leading to ruin"
+      },
+      "senseHistory": "Atē names both the mental blindness and its catastrophe — cause and consequence in one word. It later becomes a goddess, Ruin herself, cast out of Olympus.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.menis",
+          "type": "shares-theme",
+          "note": "Agamemnon calls his seizure of Briseis an act of atē — a god-sent blindness."
+        }
+      ]
+    },
+    {
+      "id": "concept.metis",
+      "term": "cunning (mētis)",
+      "kind": "concept",
+      "gloss": "Practical intelligence — craft, strategy, the clever workaround. The quality that defines Odysseus as force defines Achilles.",
+      "original": {
+        "lang": "grc",
+        "lemma": "μῆτις",
+        "translit": "mētis",
+        "literal": "cunning intelligence, craft"
+      },
+      "senseHistory": "Odysseus' standing epithet is polymētis, 'of many wiles.' Mētis is skill that bends a situation rather than overpowering it — the opposite virtue to brute biē.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.bie",
+          "type": "contrasts",
+          "note": "Cunning against force — the two ways to win, embodied by Odysseus and Achilles/Ajax."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "shares-theme",
+          "note": "Odysseus survives the Odyssey on mētis, not strength."
+        }
+      ]
+    },
+    {
+      "id": "concept.bie",
+      "term": "force (biē)",
+      "kind": "concept",
+      "gloss": "Brute strength and might in arms — the heroic virtue of Achilles and Ajax, set against Odysseus' cunning.",
+      "original": {
+        "lang": "grc",
+        "lemma": "βίη",
+        "translit": "biē",
+        "literal": "force, bodily strength, might"
+      },
+      "senseHistory": "Biē is raw physical power; the epics constantly weigh it against mētis (cunning), asking which truly wins a war.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.metis",
+          "type": "contrasts",
+          "note": "The eternal pairing: force versus wits."
+        }
+      ]
+    },
+    {
+      "id": "concept.psyche",
+      "term": "soul / shade",
+      "kind": "concept",
+      "gloss": "The life-breath that leaves the body at death and goes down to Hades as a strengthless shade — a faint image of the living person.",
+      "original": {
+        "lang": "grc",
+        "lemma": "ψυχή",
+        "translit": "psychē",
+        "literal": "breath, life, soul"
+      },
+      "senseHistory": "Psychē first means simply the breath that departs at death; only later does it become 'soul,' and later still the root of 'psyche' and 'psychology.' Homer's dead are barely there — breath and image, with the mind gone.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.mortality",
+          "type": "shares-theme",
+          "note": "What death leaves: a breath, an image, no mind."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "Odysseus meets these shades face to face when he goes down among the dead."
+        }
+      ]
+    },
+    {
+      "id": "concept.geras",
+      "term": "prize (geras)",
+      "kind": "concept",
+      "gloss": "The share of war-spoils awarded to a warrior as the public token of his honor. Briseis is Achilles' geras — taking her is a calculated insult, not mere theft.",
+      "original": {
+        "lang": "grc",
+        "lemma": "γέρας",
+        "translit": "geras",
+        "literal": "prize of honor, gift of esteem"
+      },
+      "senseHistory": "A geras is honor you can hold in your hands — which is exactly why losing it wounds: the public worth goes with the object.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ],
+      "connections": [
+        {
+          "to": "concept.time",
+          "type": "part-of",
+          "note": "The geras is honor (timē) made tangible."
+        }
+      ]
+    },
+    {
+      "id": "concept.zeus",
+      "term": "Zeus",
+      "kind": "god",
+      "gloss": "King of the gods, lord of sky and thunder, who holds the balance of the war and tries to keep the other gods from tipping fate too far.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ζεύς",
+        "translit": "Zeus",
+        "literal": "sky-father"
+      },
+      "senseHistory": "Zeus, Roman Jove/Jupiter, Latin deus, and Sanskrit Dyaus all descend from one ancient root meaning 'sky/bright day' — the same sky-father worshipped across the Indo-European world. (Older translations of Homer call him Jove.)",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey",
+        "work.virgil.aeneid"
+      ],
+      "connections": [
+        {
+          "to": "work.virgil.aeneid",
+          "type": "parallel",
+          "note": "As Jupiter he steers Rome's destiny in the Aeneid."
+        }
+      ]
+    },
+    {
+      "id": "concept.athena",
+      "term": "Athena",
+      "kind": "god",
+      "gloss": "Goddess of wisdom, craft, and strategic war — the Greeks' most powerful divine champion, guiding her favorites with cool intelligence.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ἀθήνη",
+        "translit": "Athēnē",
+        "literal": "(of Athens)"
+      },
+      "senseHistory": "Older translations call her by her Roman name, Minerva, or the epithet Pallas. She is mētis made divine — the patron of the cunning Odysseus.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.metis",
+          "type": "shares-theme",
+          "note": "The goddess of cunning intelligence."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "Odysseus' constant protector in the Odyssey."
+        }
+      ]
+    },
+    {
+      "id": "concept.apollo",
+      "term": "Apollo",
+      "kind": "god",
+      "gloss": "God of archery, prophecy, healing, and plague — a leading backer of the Trojans, who opens the poem by raining arrows of pestilence on the Greeks.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ἀπόλλων",
+        "translit": "Apollōn"
+      },
+      "senseHistory": "Often called Phoebus ('bright') — the same god who gives and withholds plague, the ancient link between the arrow and the disease.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ]
+    },
+    {
+      "id": "concept.troy",
+      "term": "Troy",
+      "kind": "place",
+      "gloss": "The great walled city under siege near the coast of Asia Minor — also called Ilium. The whole poem unfolds on the plain before its walls.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ἴλιον",
+        "translit": "Ilion",
+        "literal": "Troy"
+      },
+      "senseHistory": "From Ilion comes the title 'Iliad' — the song of Ilium. Troy's fall, only foretold here, becomes the starting point of Virgil's Aeneid.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey",
+        "work.virgil.aeneid"
+      ],
+      "connections": [
+        {
+          "to": "work.virgil.aeneid",
+          "type": "influences",
+          "note": "The Aeneid begins where the Iliad's world ends — a survivor fleeing burning Troy."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "Odysseus' ten-year road home begins at Troy's fall."
+        }
+      ]
+    },
+    {
+      "id": "concept.achilles",
+      "term": "Achilles",
+      "kind": "person",
+      "gloss": "The greatest Greek warrior, whose rage drives the poem. He fights for the Greeks but withdraws when his honor is insulted, and returns only out of grief.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ἀχιλλεύς",
+        "translit": "Achilleus"
+      },
+      "senseHistory": "His name was anciently linked to akhos ('grief') and laos ('the army') — 'grief of the people,' a fit for the man whose wrath brings the Greeks endless suffering.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.menis",
+          "type": "part-of",
+          "note": "The owner of the rage the poem sings."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "parallel",
+          "note": "His shade tells Odysseus he'd rather be a poor man's slave alive than king of the dead."
+        }
+      ]
+    },
+    {
+      "id": "concept.odysseus",
+      "term": "Odysseus",
+      "kind": "person",
+      "gloss": "King of Ithaca, the Greeks' shrewdest tactician — cunning where Achilles is fierce. His own epic, the Odyssey, follows his long road home.",
+      "original": {
+        "lang": "grc",
+        "lemma": "Ὀδυσσεύς",
+        "translit": "Odysseus"
+      },
+      "senseHistory": "Older translations use his Roman name, Ulysses. He is the hero of mētis — the mind that outlasts the strong arm.",
+      "appearsIn": [
+        "work.homer.iliad",
+        "work.homer.odyssey"
+      ],
+      "connections": [
+        {
+          "to": "concept.metis",
+          "type": "part-of",
+          "note": "Cunning intelligence, given a face."
+        },
+        {
+          "to": "work.homer.odyssey",
+          "type": "influences",
+          "note": "The hero of the Odyssey, already the cleverest man at Troy."
+        }
+      ]
+    },
+    {
+      "id": "concept.ichor",
+      "term": "ichor",
+      "kind": "thing",
+      "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows.",
+      "original": {
+        "lang": "grc",
+        "lemma": "ἰχώρ",
+        "translit": "ichōr",
+        "literal": "the gods' blood"
+      },
+      "senseHistory": "A purely divine word in Homer; modern medicine borrowed 'ichor' for a thin, watery discharge from a wound — a small demotion from the blood of gods.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ]
+    },
+    {
+      "id": "concept.aegis",
+      "term": "aegis",
+      "kind": "thing",
+      "gloss": "The terrifying storm-shield of Zeus, often wielded by Athena or Apollo — shaken over a battlefield, it spreads panic or courage like a weapon.",
+      "original": {
+        "lang": "grc",
+        "lemma": "αἰγίς",
+        "translit": "aigis",
+        "literal": "goatskin (storm-shield)"
+      },
+      "senseHistory": "Likely from aix, 'goat' — a goatskin mantle become a divine shield. English keeps it in 'under the aegis of,' meaning under someone's protection.",
+      "appearsIn": [
+        "work.homer.iliad"
+      ]
+    },
+    {
+      "id": "concept.duty",
+      "term": "duty",
+      "kind": "concept",
+      "gloss": "The claim of obligation over desire — answering to gods, city, and kin rather than to one's own passion. The counter-virtue to Achilles' rage, and a hinge between traditions.",
+      "original": {
+        "lang": "lat",
+        "lemma": "pietas",
+        "translit": "pietas",
+        "literal": "dutiful devotion (to gods, country, family)"
+      },
+      "senseHistory": "The West names it pietas (Aeneas' defining virtue); India names it dharma (Arjuna's question in the Gita). Where Achilles follows his rage, Aeneas and Arjuna are asked to follow their duty — the same human crux, answered differently East and West.",
+      "appearsIn": [
+        "work.virgil.aeneid",
+        "work.bhagavad-gita",
+        "work.marcus-aurelius.meditations"
+      ],
+      "connections": [
+        {
+          "to": "work.virgil.aeneid",
+          "type": "shares-theme",
+          "note": "Aeneas is the anti-Achilles: duty chosen over rage."
+        },
+        {
+          "to": "work.bhagavad-gita",
+          "type": "shares-theme",
+          "note": "Arjuna, like a Homeric hero, must decide how duty binds him on the battlefield."
+        },
+        {
+          "to": "concept.menis",
+          "type": "contrasts",
+          "note": "Rage versus duty — the two ways an epic hero can answer the call to fight."
+        }
+      ]
+    }
+  ]
+}

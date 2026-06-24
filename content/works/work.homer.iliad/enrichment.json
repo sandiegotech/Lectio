@@ -1191,7 +1191,8 @@
         "son of Peleus",
         "Achilleus",
         "Aeacides"
-      ]
+      ],
+      "conceptId": "concept.achilles"
     },
     {
       "term": "Agamemnon",
@@ -1221,7 +1222,8 @@
       "aliases": [
         "Ulysses",
         "Odysseus'"
-      ]
+      ],
+      "conceptId": "concept.odysseus"
     },
     {
       "term": "Nestor",
@@ -1464,7 +1466,8 @@
         "son of Cronos",
         "Zeus'",
         "Jove's"
-      ]
+      ],
+      "conceptId": "concept.zeus"
     },
     {
       "term": "Hera",
@@ -1488,7 +1491,8 @@
         "Athene",
         "Athena's",
         "Minerva's"
-      ]
+      ],
+      "conceptId": "concept.athena"
     },
     {
       "term": "Apollo",
@@ -1500,7 +1504,8 @@
         "Apollo's",
         "the far-darter",
         "Smintheus"
-      ]
+      ],
+      "conceptId": "concept.apollo"
     },
     {
       "term": "Poseidon",
@@ -1659,7 +1664,8 @@
         "Troia",
         "Pergamus",
         "Troy's"
-      ]
+      ],
+      "conceptId": "concept.troy"
     },
     {
       "term": "Mount Olympus",
@@ -1746,7 +1752,8 @@
         "wrath",
         "menis",
         "mēnis"
-      ]
+      ],
+      "conceptId": "concept.menis"
     },
     {
       "term": "honor",
@@ -1755,7 +1762,8 @@
       "aliases": [
         "time",
         "timē"
-      ]
+      ],
+      "conceptId": "concept.time"
     },
     {
       "term": "glory",
@@ -1764,7 +1772,8 @@
       "aliases": [
         "kleos",
         "renown"
-      ]
+      ],
+      "conceptId": "concept.kleos"
     },
     {
       "term": "prize",
@@ -1774,7 +1783,8 @@
         "geras",
         "prize of honor",
         "spoils"
-      ]
+      ],
+      "conceptId": "concept.geras"
     },
     {
       "term": "guest-friendship",
@@ -1783,7 +1793,8 @@
       "aliases": [
         "xenia",
         "hospitality"
-      ]
+      ],
+      "conceptId": "concept.xenia"
     },
     {
       "term": "aristeia",
@@ -1802,7 +1813,8 @@
         "doom",
         "destiny",
         "the fates"
-      ]
+      ],
+      "conceptId": "concept.moira"
     },
     {
       "term": "hecatomb",
@@ -1836,7 +1848,8 @@
         "shades",
         "soul",
         "shadow"
-      ]
+      ],
+      "conceptId": "concept.psyche"
     },
     {
       "term": "funeral games",
@@ -1852,7 +1865,8 @@
       "gloss": "The terrifying storm-shield (or goatskin mantle) of Zeus, often wielded by Athena or Apollo — when shaken over a battlefield it spreads panic or courage like a weapon.",
       "aliases": [
         "aegis'"
-      ]
+      ],
+      "conceptId": "concept.aegis"
     },
     {
       "term": "greaves",
@@ -1865,7 +1879,8 @@
     {
       "term": "ichor",
       "kind": "thing",
-      "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows."
+      "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows.",
+      "conceptId": "concept.ichor"
     },
     {
       "term": "ambrosia",

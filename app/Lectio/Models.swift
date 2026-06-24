@@ -154,8 +154,39 @@ struct Enrichment: Codable {
         var gloss: String
         var kind: String?            // person | god | place | people | concept | thing
         var aliases: [String]?
+        var conceptId: String?       // links to a shared Concept node (content/graph/concepts.json)
     }
     var glossary: [GlossEntry]?
+}
+
+// The shared cross-work concept layer (content/graph/concepts.json, CONTENT_PIPELINE §7
+// "/graph"). A Concept is work-agnostic: the in-context gloss and cross-edition aliases
+// live in each work's enrichment glossary, while the Concept holds the universal data —
+// original-language lemma, how the word traveled into English, which works it appears in,
+// and edges to other concepts/works. This is the backbone the glossary, Explore, and the
+// alignment spine all resolve against.
+struct GraphData: Codable { var concepts: [Concept] }
+
+struct Concept: Codable, Hashable, Identifiable {
+    struct Original: Codable, Hashable {
+        var lang: String        // grc | lat | ...
+        var lemma: String       // μῆνις
+        var translit: String?   // mēnis
+        var literal: String?    // "wrath, rage"
+    }
+    struct Edge: Codable, Hashable {
+        var to: String          // "concept.kleos" | "work.homer.odyssey"
+        var type: String        // influences | contrasts | shares-theme | parallel | part-of
+        var note: String?
+    }
+    var id: String              // concept.menis
+    var term: String
+    var kind: String?
+    var gloss: String           // cross-work default explanation
+    var original: Original?
+    var senseHistory: String?
+    var appearsIn: [String]?    // workIds
+    var connections: [Edge]?
 }
 
 // Just enough of manifest.json to enumerate what to load.

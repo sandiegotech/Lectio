@@ -133,12 +133,15 @@ struct WordCard: View {
     let term: String
     let definition: String?
     var kind: String? = nil           // set when the entry came from the curated glossary
+    var conceptId: String? = nil      // links to a shared Concept node, if any
     let workTitle: String?
     let workId: String?
     let pal: Palette
     let onClose: () -> Void
     @EnvironmentObject var saved: SavedStore
+    @EnvironmentObject var library: Library
 
+    private var concept: Concept? { conceptId.flatMap { library.concept(id: $0) } }
     private var hasDefinition: Bool { (definition?.isEmpty == false) }
     // Tier 2: offer Apple's on-device dictionary only when the word isn't curated
     // and the OS actually has an entry for it.
@@ -167,6 +170,7 @@ struct WordCard: View {
                     .font(.caption).foregroundColor(pal.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
+            if let concept { conceptBlock(concept) }
             HStack(spacing: 8) {
                 Button {
                     saved.toggle(SavedWord(term: term, definition: definition ?? "",
@@ -202,6 +206,41 @@ struct WordCard: View {
         .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
         .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
         .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
+    }
+
+    // The shared-concept payoff: the original-language word, how it traveled into
+    // English, and the other works where the same idea recurs (the cross-work web).
+    @ViewBuilder
+    private func conceptBlock(_ c: Concept) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            if let o = c.original {
+                HStack(spacing: 6) {
+                    Text(o.lemma).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
+                    if let t = o.translit { Text(t).font(.caption.italic()).foregroundColor(pal.inkSoft) }
+                    if let lit = o.literal {
+                        Text("“\(lit)”").font(.caption).foregroundColor(pal.inkSoft)
+                    }
+                }
+            }
+            if let sense = c.senseHistory {
+                Text(sense).font(.caption).foregroundColor(pal.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            if !otherWorks(c).isEmpty {
+                (Text("Also in ").foregroundColor(pal.inkSoft)
+                 + Text(otherWorks(c).joined(separator: ", ")).foregroundColor(pal.accent))
+                    .font(.system(size: 11, design: .serif))
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(.top, 2)
+    }
+
+    // Titles of the other works this concept appears in (excluding the one being read).
+    private func otherWorks(_ c: Concept) -> [String] {
+        (c.appearsIn ?? [])
+            .filter { $0 != workId }
+            .compactMap { library.workTitle(id: $0) }
     }
 
     private func kindChip(_ kind: String) -> some View {
