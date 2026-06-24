@@ -19,7 +19,7 @@
       "Charles Eliot Norton, prose (1892, public domain)",
       "modern verse translations (Ciardi, Mandelbaum, Hollander, consulted, not quoted)"
     ],
-    "tokensEstimated": 166713,
+    "tokensEstimated": 167926,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -256,6 +256,27 @@
       "older": "But fifty times shall not rekindled be / The countenance of the Lady who reigns here (Longfellow)",
       "lectio": "the face of the lady who reigns down here / will not be rekindled fifty times",
       "note": "Farinata's prophecy of Dante's exile, given as a riddle of time. 'The lady who reigns here' is the moon — Proserpina/Hecate, queen of the underworld, identified with the moon — so 'fifty kindlings of her face' means fifty new moons, about four years, before Dante himself learns 'how heavy that art is' (the art of returning from exile). We keep the veil exactly as Dante leaves it — a named goddess only by epithet, her 'face' the lunar disk relit each month — rather than flatten it to 'fifty months,' because the prophecy is meant to be decoded, not handed over."
+    },
+    {
+      "locus": "XI.25-27",
+      "phrase": "frode, ond' ogne coscïenza è morsa ... d'ogne malizia ... ingiuria è 'l fine",
+      "older": "But because fraud is man's peculiar vice, / More it displeases God (Longfellow); fraud, / By which the conscience feels itself gnawn (Cary)",
+      "lectio": "because fraud is the vice unique to man, / it offends God more",
+      "note": "This is the moral hinge of the whole lower Hell: of every malice, the end is injury, and injury comes by force or by fraud — but fraud is 'l'uom proprio male,' the evil proper to humankind, because it abuses reason, the faculty that makes us human. Longfellow's 'man's peculiar vice' has drifted in modern English toward 'odd' or 'quirky'; we render it 'the vice unique to man' so the reader hears the real claim — that fraud is the distinctly human sin, and so the one God hates most."
+    },
+    {
+      "locus": "XI.82-83",
+      "phrase": "incontenenza, malizia e la matta bestialitade",
+      "older": "Incontinence, and Malice, and insane / Bestiality (Longfellow); Incontinence, malice, and mad brutishness (Cary)",
+      "lectio": "incontinence, malice, and the mad brutality",
+      "note": "Virgil sends Dante back to his 'Etica' — Aristotle's Nicomachean Ethics — for the three dispositions Heaven rejects. 'Matta bestialitade' is Dante's Italian for Aristotle's thēriotēs, a savagery below ordinary vice. We keep all three terms as a fixed triad and render 'matta' as 'mad' (not 'insane,' which reads clinical) and 'bestialitade' as 'brutality,' since the point is conduct that has fallen out of the human and into the beast — the load-bearing distinction the canto turns on."
+    },
+    {
+      "locus": "XI.105",
+      "phrase": "sì che vostr' arte a Dio quasi è nepote",
+      "older": "So that your art is, as it were, God's grandchild (Longfellow); your art / Is grandchild of the Deity (Cary, paraphrasing)",
+      "lectio": "so that your art is, you might say, God's grandchild",
+      "note": "The crux of Virgil's argument against usury: Nature follows the divine Intellect, and human art (industry, craft, honest work) follows Nature 'as the student follows the master' — so art stands two generations from God, his 'grandchild' (nepote). The usurer breaks this lineage by making money breed money, scorning both Nature and her follower, art. We keep Dante's startling kinship metaphor exactly ('God's grandchild') rather than abstracting it, because the whole Genesis-and-Aristotle case rests on that genealogy of honest labor."
     }
   ],
   "sections": [
@@ -3068,6 +3089,241 @@
           "order": 46,
           "kind": "verse_block",
           "text": "whose stench, even up there, turned the stomach."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-11",
+      "order": 11,
+      "label": "Inferno: Canto XI",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "Along the edge of a high bank we came,\nbuilt up of great rocks broken in a ring,\nand reached a still more cruel pen of souls."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "And there, because of the appalling stench\nthe deep pit threw up at us, we drew aside\nand took shelter behind a great tomb,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "on which I saw an inscription that read:\n\"I hold Pope Anastasius, the one\nPhotinus drew out of the straight way.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "\"We have to go down slowly,\" said my guide,\n\"so the senses get used to the foul blast first,\nand then we'll pay it no more mind.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "So said the Master, and I answered him:\n\"Then find us something, so the time's not wasted.\"\nAnd he: \"You see, I'm already thinking of it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "My son, inside these rocks,\" he began,\n\"there are three smaller circles, one below\nthe next, like the ones you are leaving now."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "All of them are packed with cursed spirits.\nBut so the sight alone will tell you later,\nlearn how they are penned, and why."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "Every malice that earns Heaven's hatred\nhas injury as its aim, and every such aim\nharms someone — by force, or else by fraud."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "But because fraud is the vice unique to man,\nit offends God more. So the fraudulent\nlie lowest, and the heavier pain is theirs."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "The whole first circle is for the violent.\nBut since force can be turned against three persons,\nit is built and divided in three rounds."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "Against God, against ourselves, against\nour neighbor — against them and what they own\nwe can use force, as I'll make plainly clear."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "Death by violence, and grievous wounds,\nare dealt to a neighbor; and against his goods,\nruin, and arson, and extortion."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "So the first round torments, in separate bands,\nmurderers, and any who strikes to wound,\nplunderers, and those who rob the roads."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "A man can lay violent hands upon himself\nand on his own goods; so in the second round\nthere is no help for it — he must repent,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "whoever robs your world of his own self,\nor gambles away and squanders all he has,\nand weeps there, where he should have been glad."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "Violence can be done against the Godhead too —\ndenying him in the heart, and cursing him,\nand scorning Nature and what she gives."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "And so the smallest round stamps with its mark\nSodom and Cahors, and everyone\nwho scorns God and speaks against him from the heart."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "Fraud, which gnaws at every conscience,\na man can work against one who trusts him,\nor against one who lends him no such trust."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "This second kind seems only to cut through\nthe bond of love that Nature herself makes;\nand so, down in the next circle, nest"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "hypocrisy, flattery, those who deal in spells,\nforgery, theft, and the selling of holy things,\npimps, grafters, and filth of that kind."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "The first kind forgets not only the love\nthat Nature makes, but the trust that's added on,\nthe special bond it builds beyond the rest."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "So in the smallest circle — the still point\nof all the universe, where Dis sits enthroned —\nwhoever betrays is eaten forever.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "And I: \"My Master, your reasoning runs clear,\nand it lays out this pit for me precisely,\nand the people who fill it, group by group."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "But tell me — those in the thick of the swamp,\nthe ones the wind drives, and the rain beats down,\nand those who clash with such bitter tongues —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "why aren't they punished inside the red city,\nif God is truly angry with them? And if\nhe isn't, why are they suffering at all?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "And he to me: \"Why does your mind\nwander so far from its usual track?\nOr where else are your thoughts looking now?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "Have you forgotten the words your Ethics uses,\nthe ones that lay out, point by point, the three\ndispositions Heaven will not abide —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "incontinence, malice, and the mad\nbrutality? And how incontinence\noffends God less, and earns less blame?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "If you take that conclusion to heart,\nand call to mind exactly who they are\ndoing their penance up there outside the walls,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "you'll see clearly why they are set apart\nfrom these worse felons, and why divine justice\ncomes down on them with a lighter hammer.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "\"O Sun, that heals every clouded sight,\nyou content me so much when you untie a knot\nthat doubting pleases me as much as knowing."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "Go back a little, once more,\" I said,\n\"to where you said that usury offends\nGod's goodness — and undo that knot for me.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "\"Philosophy,\" he said, \"to one who heeds it,\npoints out, and not in one place only,\nhow Nature takes the course she takes"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "from the divine Intellect and its art.\nAnd if you read your Physics carefully,\nyou'll find, not many pages in,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "that your human art follows hers as far\nas it can — the student following the master —\nso that your art is, you might say, God's grandchild."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "From these two, art and Nature — if you call\nthe opening of Genesis to mind —\nmankind is meant to make its living and rise."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "But the usurer takes another road:\nhe scorns Nature herself, and her follower, art,\nsince he puts his hope somewhere else."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-11.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "Now follow me — I'd like to be moving on.\nThe Fish are quivering up at the horizon,\nthe Wain lies wholly over Caurus now,\nand the cliff goes down, farther on, over there.\""
         }
       ]
     }
