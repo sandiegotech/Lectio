@@ -19,7 +19,7 @@
       "Charles Eliot Norton, prose (1892, public domain)",
       "modern verse translations (Ciardi, Mandelbaum, Hollander, consulted, not quoted)"
     ],
-    "tokensEstimated": 252100,
+    "tokensEstimated": 256434,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -1467,6 +1467,76 @@
       "older": "From the most holy water I returned / Regenerate, in the manner of new trees / That are renewed with a new foliage, / Pure and disposed to mount unto the stars (Longfellow)",
       "lectio": "From those most holy waters I came back / remade — the way new plants are renewed / with new leaves — / pure and ready to rise to the stars",
       "note": "The end of the entire Purgatorio, and one of three lines in the poem that close each cantica on the word \"stelle,\" stars. Dante has drunk of Eunoë, the river that restores the memory of every good deed, and is made new like a plant in spring — \"rifatto... rinovellate di novella fronda,\" a triple chime of renewal (re-made, re-newed, new) that we keep audible with \"remade... renewed... new leaves.\" We render \"disposto a salire\" as \"ready to rise\" rather than Longfellow's \"disposed to mount\": disposto carries readiness and right-ordering at once — he is not merely able to ascend but now rightly inclined to. The line is left to land bare on \"the stars,\" with no added image, so the cantica ends exactly where Dante leaves it: pointed upward, toward Paradise."
+    },
+    {
+      "locus": "I.70",
+      "phrase": "Trasumanar significar per verba",
+      "older": "To represent transhumanise in words (Longfellow); Words may not tell of that transhuman change (Cary); Transhumanizing cannot be signified in words (Norton)",
+      "lectio": "To say in words what it is to pass beyond the human",
+      "note": "Trasumanar is Dante's own coinage — a verb he invents on the spot because no word exists for what he means: a human nature exceeding itself into the divine. The paradox is that by minting the word he proves language can graze the unsayable. The older 'transhumanise / transhumanizing' is a dead Latinate calque a modern reader bounces off; we keep the strangeness of the act by stating it plainly ('to pass beyond the human') rather than resolving it into a smoother abstraction."
+    },
+    {
+      "locus": "I.103",
+      "phrase": "Le cose tutte quante / hanno ordine tra loro, e questo è forma / che l'universo a Dio fa simigliante",
+      "older": "All things whate'er they be / Have order among themselves, and this is form, / That makes the universe resemble God (Longfellow)",
+      "lectio": "All things whatever they are / have order among themselves, and this is the form / that makes the universe resemble God",
+      "note": "This opens Beatrice's great discourse on the order of the universe — that every nature carries an inborn bent drawing it toward God as its final harbor, the way a freed soul rises as naturally as a river falls. 'Forma' here is the scholastic term for the shaping principle, not mere shape; we keep 'the form' rather than flatten it to 'pattern' or 'design,' since the whole argument turns on order being what makes the cosmos God-like."
+    },
+    {
+      "locus": "I.112",
+      "phrase": "per lo gran mar de l'essere",
+      "older": "O'er the great sea of being (Longfellow); Through the vast sea of being (Cary)",
+      "lectio": "over the great sea of being",
+      "note": "The image is exact and we hold it whole: all created things, each carried by an instinct given it, sail toward their different harbors across one 'great sea of being.' It is the line that makes the metaphysics concrete — a seascape — and a modern reader needs no help with it, so we change nothing but the archaic 'O'er.'"
+    },
+    {
+      "locus": "II.1",
+      "phrase": "piccioletta barca",
+      "older": "some pretty little boat (Longfellow); little bark (Cary)",
+      "lectio": "a little boat",
+      "note": "Longfellow's \"pretty\" mistakes the Italian: piccioletta is simply the diminutive of piccola, small, with no prettiness about it. The point is the boat's smallness against an uncrossed sea — the reader who is not ready will be lost. We keep it plainly small."
+    },
+    {
+      "locus": "II.10-11",
+      "phrase": "pan de li angeli",
+      "older": "the bread of Angels (Longfellow); the bread of Angels (Cary)",
+      "lectio": "the bread of the angels",
+      "note": "The metaphor is the food of the intellect that feeds on God — wisdom one can taste in this life but never finish. We keep the image literal rather than glossing it; lowercase \"angels\" reads as Dante's plain Italian (li angeli) and lets the figure carry its own weight."
+    },
+    {
+      "locus": "II.49-51",
+      "phrase": "li segni bui ... di Cain favoleggiare",
+      "older": "the dusky spots ... that fabulous tale of Cain (Longfellow); the dusky spots ... the fabled tale of Cain (Cary)",
+      "lectio": "the dark markings ... that old fable about Cain",
+      "note": "The \"man in the moon\" — the dark patches medieval folklore read as Cain banished there with his bundle of thorns. Dante asks the literal question (what causes the spots) and gets a lesson in cosmology back. We name the legend plainly as a fable rather than dressing it in \"fabulous,\" which now reads as praise instead of \"made-up.\""
+    },
+    {
+      "locus": "II.145-147",
+      "phrase": "essa è formal principio",
+      "older": "This is the formal principle that produces (Longfellow); 'tis the form / Productive (Cary)",
+      "lectio": "This is the formative principle that makes",
+      "note": "Beatrice's conclusion overturns Dante's guess: the differences across the heavens come not from matter being dense or thin but from differing formative virtues — the influence the angelic Intelligences shed down through the spheres, as joy shines through a living eye. We render principio formal as \"formative principle\" rather than the scholastic \"formal principle,\" so a modern reader hears what it does — it forms, it shapes — instead of stalling on a term of art."
+    },
+    {
+      "locus": "III.18",
+      "phrase": "ch'accese amor tra l'omo e 'l fonte",
+      "older": "to that which kindled love 'twixt man and fountain (Longfellow)",
+      "lectio": "the error opposite to the one that lit love between the boy and the spring",
+      "note": "Dante never names Narcissus, but the whole image turns on him: Narcissus mistook a real reflection for a real person; Dante does the reverse, mistaking real souls for mere reflections. Longfellow's bare 'man and fountain' leaves a modern reader stranded. We keep Dante's allusive method — no footnote name — but render 'fonte' as 'spring' (the pool Narcissus bent over) and 'omo' as 'the boy,' so the myth surfaces on its own. The strangeness of the inverted error is the point and is kept intact."
+    },
+    {
+      "locus": "III.70-72",
+      "phrase": "frate, la nostra volontà quïeta / virtù di carità",
+      "older": "Brother, our will is quieted by virtue / Of charity (Longfellow)",
+      "lectio": "Brother, the power of charity quiets our will / and makes us wish only for what we have",
+      "note": "This is the canto's doctrine and its emotional core: Piccarda, placed in the lowest sphere, feels no lack. The older 'quieted by virtue / Of charity' reads as abstraction; the Italian is active — charity does the quieting. We make charity the agent and 'will' the thing acted on, and keep Dante's plain follow-through ('nor gives us thirst for more') rather than smoothing it into philosophy. The thought is hard and is left hard; only the grammar is modernized."
+    },
+    {
+      "locus": "III.85",
+      "phrase": "E 'n la sua volontade è nostra pace",
+      "older": "And his will is our peace (Longfellow)",
+      "lectio": "And in his will is our peace. It is the sea toward which all things are moving",
+      "note": "The most quoted line of the canto, and arguably of the Paradiso. We keep it almost exactly as the tradition has fixed it — 'in his will is our peace' — because the cadence is load-bearing and any cleverness here would be vandalism. The one decision is to let the following image stand as its own sentence: the will is 'quel mare,' the sea toward which everything created moves. Longfellow's enjambment ('this is the sea / To which is moving') is faithful but tangled; we give the metaphor a clean breath of its own so the line lands and then opens out, the way the Italian does."
     }
   ],
   "sections": [
@@ -21136,6 +21206,879 @@
           "order": 48,
           "kind": "verse_block",
           "text": "From those most holy waters I came back\nremade — the way new plants are renewed\nwith new leaves —\npure and ready to rise to the stars."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-68",
+      "order": 68,
+      "label": "Paradiso: Canto I",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "The glory of the One who moves all things\npenetrates the universe, and shines\nin one part more, in another less."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "I have been in the heaven that takes\nthe most of His light, and seen things\nno one coming back down can know how to tell, or can tell at all;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "for as it draws near the thing it longs for,\nour mind goes down so deep\nthat memory cannot follow after."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "Yet whatever of that holy kingdom\nI had the power to hoard in my mind\nshall now become the matter of my song."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "Good Apollo, for this last labor\nmake me so fit a vessel of your power\nas you ask of the one you give the beloved laurel."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "Until now one peak of Parnassus\nhas been enough for me; but now\nI need them both to enter the ground that's left."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "Come into my chest, and breathe through me\nthe way you breathed the day you drew Marsyas\nout of the sheath of his own limbs."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "Power of God, if you lend yourself to me\nso that I can show even the shadow\nof that blessed kingdom stamped in my brain,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "you will see me come to your cherished tree\nand crown myself there with the leaves\nthat the theme — and you — will make me worthy of."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "So seldom, Father, are they gathered\nto mark the triumph of a Caesar or a poet\n— the fault and shame of what we want —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "that the leaf of Peneus should make any man\nthirst for it, and bring joy\nto the glad god of Delphi who gives it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "A great flame follows a little spark:\nperhaps after me, with stronger voices,\nthe prayer will rise that Cyrrha may answer."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "The lamp of the world rises on mortal men\nby different gates; but from the one\nthat joins four circles with three crosses"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "it comes out on a better course,\njoined to a better star, and stamps and tempers\nthe wax of the world more after its own kind."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "That gate had made it nearly morning there\nand evening here, and there the whole\nhemisphere was white, the other side was black,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "when I saw Beatrice turned to the left\nand gazing into the sun:\nno eagle ever fixed on it like that."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "And just as a second ray will spring\nout of the first and climb back up,\nlike a pilgrim longing to go home,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "so from her act, poured through my eyes\ninto my mind, I made my own,\nand fixed my eyes on the sun past all our power —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "for much is allowed us there that here\nis not, by virtue of the place\nmade to be the home of humankind."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "I could not bear it long, and yet not so short\na while that I did not see it sparkle round\nlike iron drawn molten from the fire;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "and all at once it seemed that day\nwas added to day, as if the One who can\nhad decked the heaven with a second sun."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "Beatrice stood with all her gaze\nupon the eternal wheels, and I\nfixed mine on her, drawn up from there above;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "and gazing at her I became within\nwhat Glaucus became, tasting the herb\nthat made him consort of the gods beneath the sea."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "To say in words what it is to pass beyond the human\ncannot be done; let the example serve\nthe one for whom grace keeps the experience."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "Whether I was only that part of me\nyou made last, Love who governs heaven,\nyou know — you who lifted me with your light."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "When the wheel you make turn forever,\nspinning in its longing for you, drew my notice\nwith the harmony you tune and measure,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "so much of heaven then seemed to me to blaze\nwith the sun's fire that no rain, no river,\never spread a lake so wide."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "The newness of the sound and the great light\nlit in me a hunger for their cause\nsharper than any I had felt before;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "so she, who saw me as I saw myself,\nto settle my unsettled mind\nopened her mouth before I opened mine,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "and began: \"You make yourself so dull\nwith false imagining that you can't see\nwhat you would see if you had shaken it off."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "You are not on the earth, the way you think;\nbut lightning, fleeing the place it belongs to,\nnever ran as you do, climbing home.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "If those few words, more smiled than spoken,\nfreed me of my first doubt,\nI was caught the deeper in a new one,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "and said: \"Already I was at rest\nfrom my great wonder; but now I marvel\nhow I can rise through these light bodies.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "At that, after a pitying sigh,\nshe turned her eyes on me with the look\na mother gives a child gone out of its mind,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "and began: \"All things whatever they are\nhave order among themselves, and this is the form\nthat makes the universe resemble God."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "Here the higher creatures see the trace\nof the Eternal Power, which is the end\nfor which that order was made."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "In the order I am speaking of, all natures\nincline, each by its different lot,\nnearer or less near to where they began;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "and so they move toward different harbors\nover the great sea of being, each one\ncarried by an instinct given it to bear it on."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "This instinct drives the fire toward the moon;\nthis is the moving power in mortal hearts;\nthis binds the earth together and makes it one."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "And this bow shoots not only the things\nthat have no mind, but those as well\nthat are made with intellect and love."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "The Providence that orders all of this\nstills with its light the heaven that holds\nthe sphere that turns with the greatest haste;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "and there, as to the place appointed,\nthe power of that bowstring now bears us,\nthe one that aims its arrows at a joyful mark."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "True, as often the shape\nfalls short of what the artist meant,\nbecause the matter is deaf and will not answer,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "so the creature sometimes swerves\nfrom this course, having the power,\nthough driven this way, to turn off another —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "the way you can watch fire fall\nfrom a cloud — if the first thrust\nis wrenched toward earth by some false pleasure."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "You should no more wonder at your rising,\nif I judge rightly, than at a stream\nthat falls from a high mountain to the valley floor."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0047",
+          "order": 47,
+          "kind": "verse_block",
+          "text": "It would be a marvel if you, set free\nof every weight, had stayed below —\nas if a living flame on earth held still.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-68.seg-0048",
+          "order": 48,
+          "kind": "verse_block",
+          "text": "And with that she turned her face again to heaven."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-69",
+      "order": 69,
+      "label": "Paradiso: Canto II",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "You who are out in a little boat,\nhungry to listen, who have followed\nbehind my ship as it sails along singing —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "turn back now and look for your own shores.\nDon't push out onto the open sea: lose me,\nand you may find yourselves lost too."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "These waters I sail have never been crossed.\nMinerva fills my sail, Apollo steers,\nand the nine Muses point me to the Bears."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "But you few who lifted your necks early\ntoward the bread of the angels — the bread\none lives on here, and never has enough of —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "you may put your vessel out on the deep salt\nwithout fear, holding to my wake\nwhile the water it cuts smooths flat again."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "Those heroes who crossed the sea to Colchis\nwere not as struck with wonder as you will be,\nthe day they saw Jason turned into a plowman."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "The thirst born in us with our birth, the thirst\nfor that God-shaped kingdom, carried us up\nalmost as fast as you watch the sky turn."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "Beatrice was gazing upward, and I at her;\nand in about the time an arrow takes\nto strike, to fly, to leave the string —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "I saw I had come to where a wonder\npulled my eyes to itself; and she, from whom\nno turn of my mind could ever be hidden,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "swung toward me, as glad as she was lovely,\nand said: \"Lift your mind to God in thanks —\nhe has brought us up to the first star.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "It seemed a cloud had closed around us, bright\nand dense, packed solid and shining hard\nas a diamond struck by the sun."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "Into itself the eternal pearl\ntook us in, the way water takes in\na ray of light and stays unbroken."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "If I was still a body — and down here\nwe can't conceive how one dimension makes room\nfor another, as it must when body enters body —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "all the more should the longing burn in us\nto see that being in which we can watch\nhow God and our own nature were made one."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "There we will see what we now take on faith,\nnot proved out but self-evident,\nlike the first truth a person simply knows."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "I answered: \"Lady, as devoutly\nas I am able, I give thanks to him\nwho has lifted me out of the mortal world."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "But tell me — what are the dark markings\non this body, the Moon, that make people back on earth\ntell that old fable about Cain?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "She gave a slight smile, then: \"If the opinion\nof mortals goes wrong,\" she said, \"there\nwhere the key of the senses can't unlock the door,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "then the arrows of surprise should not be piercing you\nnow — you can see for yourself how reason,\nwhen it trails the senses, flies on short wings."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "But tell me what you yourself make of it.\"\nAnd I: \"What looks to us, up here, like difference,\nis caused, I think, by matter dense and thin.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "And she: \"You'll see your belief sunk deep\nin error, if you'll only listen well\nto the argument I'm about to set against it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "The eighth sphere shows you lights past counting,\nand you can mark in them, by their quality\nand their quantity, faces that differ."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "If thin and dense alone were the cause,\nthen one single power would run through them all,\nshared out more, or less, or evenly."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "Different powers have to be the fruit\nof formative principles — and by your reasoning\nall but one of those would be destroyed."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "Besides: if thinness were the cause\nof this dimness you ask about, then either\nthis planet is starved of matter clean through,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "or else, the way a body parcels out\nits fat and its lean, this one would trade\nthick layers and thin across its bulk."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "If the first were true, it would show in an eclipse\nof the sun — the light would shine straight through,\nthe way it passes anything sheer."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "It does not. So we turn to the other case;\nand if I take that one apart as well,\nthen your opinion stands proven false."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "If this thinness does not run clean through,\nthere has to be a limit, past which\nits opposite blocks any further passage,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "and there the borrowed light bounces back,\nthe way a color returns to you from glass\nthat hides a backing of lead behind it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "Now you'll say the sunbeam shows itself\ndimmer there than it does in the other parts,\nbecause it's thrown back from farther in."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "From that reply experiment can free you,\nif you ever try one — experiment, the spring\nthat feeds the rivers of all your arts."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "Take three mirrors. Set two of them\nthe same distance from you; let the third,\nfarther off, meet your eyes between the two."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "Turning toward them, have a light set up\nbehind your back to fill the three mirrors\nand come back to you reflected from them all."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "The farthest image won't be as large,\nbut you will see it shine back at you\njust as bright as the nearer ones do."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "Now: as the ground beneath the snow comes bare\nunder the touch of the warm rays, stripped\nof the snow's old color and its cold —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "so I will inform your mind, left bare like that,\nwith such a living light\nthat it will tremble as you look at it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "Inside the heaven of the divine repose\na body turns, and in its power lies\nthe being of all the heaven holds."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "The next heaven down, the one with so many eyes,\ndivides that being among its many essences,\ndistinct from it, yet held within it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "The other spheres, by their various differences,\norder the distinctions each one carries\ntoward their own ends and their own effects."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "So these organs of the world go on,\nas you can see now, grade by grade:\ntaking from above, acting below."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "Watch closely how I work my way through here\nto the truth you want, so that from now on\nyou'll know how to keep this ford alone."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "The power and the motion of the holy spheres\nmust breathe down from the blessed movers,\nas the craft of the hammer comes from the smith."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "The heaven that so many lights make lovely\ntakes its image from the deep Mind that turns it,\nand of that image makes itself a seal."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "And just as the soul inside your dust\nspreads itself out through different organs,\neach shaped to a different faculty,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "so this Intelligence unfolds its power,\nmultiplied among the stars,\nwhile it keeps revolving on its own oneness."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0047",
+          "order": 47,
+          "kind": "verse_block",
+          "text": "A different power makes a different alloy\nwith the precious body it brings to life,\nbound into it as life is bound in you."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0048",
+          "order": 48,
+          "kind": "verse_block",
+          "text": "And out of the glad nature it comes from,\nthe mingled power shines through the body,\nthe way gladness shines through a living eye."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0049",
+          "order": 49,
+          "kind": "verse_block",
+          "text": "From this comes all that, from light to light,\nlooks different — not from dense and thin.\nThis is the formative principle that makes,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-69.seg-0050",
+          "order": 50,
+          "kind": "verse_block",
+          "text": "out of its own goodness, the dark and the bright.\""
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-70",
+      "order": 70,
+      "label": "Paradiso: Canto III",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "That Sun which first had warmed my heart with love\nhad now unveiled for me the lovely face\nof truth, by proof and counter-proof made plain;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "and so, to own myself convinced and sure\nas far as it was fitting that I should,\nI raised my head a little, ready to speak."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "But a vision appeared and drew me to it,\npressing so close to be seen\nthat I forgot the confession I had meant to make."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "The way a face comes faintly back to us\nthrough clear and polished glass, or through still water\nso untroubled and not so deep the bed is lost —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "the outline returning so faint that a pearl\non a white brow comes to the eye\nno harder to make out than that —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "so I saw many faces eager to speak,\nand fell into the error opposite\nto the one that lit love between the boy and the spring."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "The moment I became aware of them,\ntaking them for reflections in a mirror,\nI turned my eyes to find whose they might be,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "and saw nothing; and turned them forward again,\nstraight into the light of my sweet Guide,\nwhose holy eyes had kindled as she smiled."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "\"Don't wonder,\" she said, \"that I smile\nat this childish notion of yours, since it will not yet\nset its foot on the truth,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "but turns you, as it always does, on emptiness.\nThese are true substances you see before you,\nset here for having left some vow undone."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "So speak with them, and listen, and believe;\nfor the true light that gives them peace\nwill not let them turn their feet away from it.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "And I turned toward the shade that seemed most eager\nto speak, and I began,\nlike a man bewildered by too much eagerness:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "\"O spirit well created, you who taste,\nin the rays of life eternal, that sweetness\nwhich, untasted, can never be understood,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "it would be a kindness if you'd content me\nwith your name and with your destiny.\"\nAt which, with smiling eyes, she answered at once:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "\"Our love never shuts its door\nagainst a rightful wish — no more than the Love\nthat wills its whole court should be like itself."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "In the world I was a virgin, a vowed sister;\nand if your memory searches itself with care,\nmy being more beautiful now will not hide me from you,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "but you will know again that I am Piccarda,\nwho, stationed here among these other blessed,\nam blessed myself in the slowest of the spheres."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "All our affections, which take fire\nonly in the pleasure of the Holy Spirit,\nrejoice to be shaped to his order;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "and this place, which seems so low,\nis given to us because our vows\nwere left undone, in some part void.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "Then I to her: \"In your wondrous faces\nsomething divine shines through I cannot name,\ntransforming you from what I first remembered."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "That is why I was slow to know you again;\nbut what you tell me now so helps me\nthat the refiguring comes easier to me."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "But tell me — you who are happy in this place —\ndo you long for a higher station,\nto see more, or to be more dear to God?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "She smiled a little, first, with the other shades;\nthen answered me so full of gladness\nshe seemed to burn in love's first fire:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "\"Brother, the power of charity quiets our will\nand makes us wish only for what we have,\nand gives us no thirst for anything more."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "If we longed to be set higher,\nour longing would fall out of tune\nwith the will of Him who assigns us here;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "and you will see there is no room for that\nwithin these circles, if it is the nature of love\nto live here — and if you look well into what love is."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "No, it belongs to the heart of this blessed life\nto hold itself within the will divine,\nso that our wills are gathered into one;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "so that, however we are ranked\nfrom sphere to sphere across this realm,\nit pleases the whole realm, as it pleases the King\nwho draws our will into his own."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "And in his will is our peace. It is the sea\ntoward which all things are moving —\nall that his will creates, and all that nature makes.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "Then it was clear to me how everywhere\nin heaven is Paradise, even though the grace\nof the highest Good does not rain down in one measure."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "But as it happens that when one food fills us\nand the craving for another still remains,\nwe ask for that, and decline the first with thanks —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "so I did, with gesture and with word,\nto learn from her the weaving in which\nshe had not drawn the shuttle to the end."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "\"A perfect life and a high merit lift\na lady higher up,\" she said, \"and by her rule\ndown in your world they take the veil and gown,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "so that till death they may both wake and sleep\nbeside the Bridegroom who accepts every vow\nthat charity has shaped to his own pleasure."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "To follow her I fled the world while still a girl,\nand shut myself inside her habit,\nand pledged myself to the way of her order."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "Then men more used to evil than to good\ntore me out of the sweet cloister;\nGod knows what my life became after that."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "And this other brightness, who shows herself\nto you here at my right hand, and burns\nwith all the light our sphere can give —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "what I have said of myself applies to her:\na nun she was, and from her head, as well,\nthe shadow of the sacred veil was torn."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "But when she too was returned to the world,\nagainst her will and against all right usage,\nfrom the veil of her heart she was never stripped."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "This is the radiance of the great Constance,\nwho from the second wind of Swabia\nbrought forth the third and final power.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "So she spoke to me, and then began\nto sing \"Ave Maria\" — and singing, faded,\nlike something heavy sinking through deep water."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "My sight, which followed her as long\nas it was able, when it had lost her,\nturned back toward the mark of its greater longing,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "and gave itself wholly again to Beatrice;\nbut she flashed such lightning into my eyes\nthat at first my sight could not endure it —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-70.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "and that made me slower to ask what came next."
         }
       ]
     }
