@@ -143,6 +143,19 @@ struct Enrichment: Codable {
     var source: String?
     var passages: [Passage]?
     var chapters: [String: String]?   // book number (string) -> overview
+
+    // Work-level annotation dictionary (BIBLE §8.1): curated, in-context entries a
+    // modern reader will stumble on (people, gods, places, concepts). `aliases` let a
+    // tap resolve across editions — Butler/Pope use Roman names ("Jove") and
+    // patronymics ("Pelides"); lectio-modern uses the Greek. Tap-to-define resolves
+    // against this first, then falls through to Webster's 1913, then to Gloss.
+    struct GlossEntry: Codable, Hashable {
+        var term: String
+        var gloss: String
+        var kind: String?            // person | god | place | people | concept | thing
+        var aliases: [String]?
+    }
+    var glossary: [GlossEntry]?
 }
 
 // Just enough of manifest.json to enumerate what to load.

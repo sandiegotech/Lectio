@@ -10,6 +10,10 @@ final class Library: ObservableObject {
     @Published var enrichment: [String: Enrichment] = [:]
     @Published var explore: [ExploreRecord] = []
 
+    // workId -> normalized term/alias -> curated glossary entry. Built once at load so
+    // a tap is an O(1) dictionary hit regardless of which edition's name was tapped.
+    private var glossIndex: [String: [String: Enrichment.GlossEntry]] = [:]
+
     private let decoder = JSONDecoder()
 
     init() { load() }
@@ -45,6 +49,15 @@ final class Library: ObservableObject {
 
             if let en = decode(Enrichment.self, "enrichment", in: dir) {
                 enrichment[work.id] = en
+                if let glossary = en.glossary {
+                    var index: [String: Enrichment.GlossEntry] = [:]
+                    for entry in glossary {
+                        for key in [entry.term] + (entry.aliases ?? []) {
+                            index[WordDictionary.normalize(key)] = entry
+                        }
+                    }
+                    glossIndex[work.id] = index
+                }
             }
         }
 
@@ -101,6 +114,12 @@ final class Library: ObservableObject {
 
     func passage(workId: String, sectionId: String) -> Enrichment.Passage? {
         enrichment[workId]?.passages?.first { $0.sectionId == sectionId }
+    }
+
+    // Curated, in-context entry for a tapped word — resolved by term or any alias
+    // (Roman names, patronymics, variant spellings). nil if the word isn't curated.
+    func glossEntry(workId: String, term: String) -> Enrichment.GlossEntry? {
+        glossIndex[workId]?[WordDictionary.normalize(term)]
     }
 
     func chapterOverview(workId: String, order: Int) -> String? {

@@ -47,7 +47,7 @@ struct ReaderView: View {
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
     // A word lookup popup, anchored near the tapped word.
-    struct WordPopup { var term: String; var def: String?; var point: CGPoint }
+    struct WordPopup { var term: String; var def: String?; var kind: String?; var point: CGPoint }
     // A "save this highlight" popup, anchored near the end of a selection drag.
     struct SelPopup { var segmentId: String; var range: ClosedRange<Int>; var text: String; var point: CGPoint }
 
@@ -126,7 +126,7 @@ struct ReaderView: View {
                                 .onTapGesture { dismissPopups() }
                         }
                         if let wp = wordPopup {
-                            WordCard(term: wp.term, definition: wp.def, workTitle: work.title,
+                            WordCard(term: wp.term, definition: wp.def, kind: wp.kind, workTitle: work.title,
                                      workId: work.id, pal: pal, onClose: dismissPopups)
                                 .position(popupPosition(wp.point, in: rgeo.size, card: CGSize(width: 260, height: 150)))
                         }
@@ -183,7 +183,8 @@ struct ReaderView: View {
             // Debug hook: LECTIO_DEBUG_SELECT=<word> shows the word popup (for screenshots).
             if let dbg = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SELECT"], !dbg.isEmpty {
                 let w = WordDictionary.normalize(dbg)
-                wordPopup = WordPopup(term: w, def: dictionary.define(w), point: CGPoint(x: 240, y: 360))
+                let r = resolveWord(w)
+                wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, point: CGPoint(x: 240, y: 360))
             }
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
@@ -691,7 +692,18 @@ struct ReaderView: View {
 
     private func showWord(_ word: String, at point: CGPoint) {
         selPopup = nil; selRange = nil; selSegmentId = nil; focusWord = nil
-        wordPopup = WordPopup(term: word, def: dictionary.define(word) ?? passageGloss(word), point: point)
+        let r = resolveWord(word)
+        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, point: point)
+    }
+
+    // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
+    // then Webster's 1913, then any passage-level note. A nil def means the word is
+    // outside the corpus — the WordCard offers to look it up in Gloss.
+    private func resolveWord(_ word: String) -> (def: String?, kind: String?) {
+        if let entry = library.glossEntry(workId: work.id, term: word) {
+            return (entry.gloss, entry.kind)
+        }
+        return (dictionary.define(word) ?? passageGloss(word), nil)
     }
 
     private func backgroundTap() {

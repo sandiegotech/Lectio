@@ -1,7 +1,7 @@
 {
   "workId": "work.homer.iliad",
   "source": "editorial",
-  "note": "Hand-authored editorial seed for the margin rail. Chapter overviews are keyed by book number (all editions); passages carry the people and connections shown in the rail, keyed by edition-specific sectionId. The pipeline does not overwrite this file.",
+  "note": "Hand-authored editorial seed for the margin rail and tap-to-define. `glossary` is the work-level annotation dictionary (CONTENT_PIPELINE/BIBLE §8.1): curated in-context entries with aliases so a tap resolves across editions (Butler/Pope use Roman names + patronymics). Chapter overviews are keyed by book number; passages carry people/connections keyed by edition-specific sectionId. The pipeline does not overwrite this file.",
   "chapters": {
     "1": "A plague tears through the Greek camp, and a furious quarrel erupts between Agamemnon and Achilles over a captive woman. Achilles withdraws from the war and begs his goddess mother to make the Greeks pay for the insult.",
     "2": "Agamemnon, tricked by a false dream, tests his weary army by proposing they sail home, and nearly loses them when they bolt for the ships. Order is restored, and the great armies on both sides muster for battle.",
@@ -1178,6 +1178,736 @@
           "label": "an end to wrath",
           "kind": "idea"
         }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Achilles",
+      "kind": "person",
+      "gloss": "The greatest warrior among the Greeks — son of the mortal king Peleus and the sea-goddess Thetis, and leader of the Myrmidons. His rage is the engine of the whole poem: insulted by Agamemnon, he withdraws from the fighting and lets his own side suffer to make a point about honor.",
+      "aliases": [
+        "Pelides",
+        "son of Peleus",
+        "Achilleus",
+        "Aeacides"
+      ]
+    },
+    {
+      "term": "Agamemnon",
+      "kind": "person",
+      "gloss": "Commander-in-chief of the Greek army and king of Mycenae — the most powerful of the Greek kings, and Menelaus' brother. Proud and quick to assert rank, he triggers the quarrel by seizing Achilles' prize.",
+      "aliases": [
+        "Atrides",
+        "Atreides",
+        "son of Atreus",
+        "Agamemnon's",
+        "King Agamemnon"
+      ]
+    },
+    {
+      "term": "Menelaus",
+      "kind": "person",
+      "gloss": "King of Sparta and Agamemnon's brother. Helen was his wife; her flight to Troy with Paris is the cause of the war. The whole Greek expedition exists to win her back for him.",
+      "aliases": [
+        "Menelaos",
+        "the younger Atrides"
+      ]
+    },
+    {
+      "term": "Odysseus",
+      "kind": "person",
+      "gloss": "King of Ithaca, famous for cunning and persuasive speech. The Greeks' shrewdest tactician and diplomat — the one sent to argue, scheme, or smooth over a crisis. His own epic, the Odyssey, follows his long road home.",
+      "aliases": [
+        "Ulysses",
+        "Odysseus'"
+      ]
+    },
+    {
+      "term": "Nestor",
+      "kind": "person",
+      "gloss": "The aged king of Pylos and the army's elder statesman. Too old to fight at the front, he advises the younger kings, tells long stories of his youth, and tries to keep the peace between Achilles and Agamemnon.",
+      "aliases": [
+        "Nestor's"
+      ]
+    },
+    {
+      "term": "Ajax",
+      "kind": "person",
+      "gloss": "The giant Greek warrior, son of Telamon — second only to Achilles in raw strength, the army's defensive wall. Steady and unshakable rather than clever. Carries a huge tower-like shield.",
+      "aliases": [
+        "Aias",
+        "Telamonian Ajax",
+        "Greater Ajax",
+        "Ajax the Greater",
+        "son of Telamon",
+        "Telamon"
+      ]
+    },
+    {
+      "term": "Ajax the Lesser",
+      "kind": "person",
+      "gloss": "A second, smaller Ajax — son of Oïleus, swift on his feet, often fighting alongside the greater Ajax. Quick-tempered and less honorable than his namesake.",
+      "aliases": [
+        "Oilean Ajax",
+        "son of Oileus",
+        "Oileus",
+        "Lesser Ajax"
+      ]
+    },
+    {
+      "term": "Diomedes",
+      "kind": "person",
+      "gloss": "A young, fearless Greek king of Argos — in his great day on the battlefield he wounds even gods. One of the army's best fighters and most level-headed counselors.",
+      "aliases": [
+        "Tydides",
+        "son of Tydeus",
+        "Tydeus",
+        "Diomed"
+      ]
+    },
+    {
+      "term": "Patroclus",
+      "kind": "person",
+      "gloss": "Achilles' closest companion and dearest friend, gentle where Achilles is fierce. What happens to him is the hinge of the poem — it is grief over Patroclus that finally drives Achilles back into the war.",
+      "aliases": [
+        "Patroclus'",
+        "Patroklos",
+        "Menoetius' son",
+        "son of Menoetius"
+      ]
+    },
+    {
+      "term": "Idomeneus",
+      "kind": "person",
+      "gloss": "King of Crete and one of the older front-line Greek commanders, still a formidable spearman despite his years.",
+      "aliases": [
+        "Idomeneus'"
+      ]
+    },
+    {
+      "term": "Calchas",
+      "kind": "person",
+      "gloss": "The army's chief prophet, who reads the will of the gods through birds and omens. It is his reading that exposes why Apollo sent the plague — and sets the quarrel in motion.",
+      "aliases": [
+        "Calchas'"
+      ]
+    },
+    {
+      "term": "Briseis",
+      "kind": "person",
+      "gloss": "A captive woman awarded to Achilles as his prize of honor. When Agamemnon takes her to replace his own forfeited prize, the insult — not love — is what enrages Achilles.",
+      "aliases": [
+        "Briseis'"
+      ]
+    },
+    {
+      "term": "Chryseis",
+      "kind": "person",
+      "gloss": "The captive daughter of Chryses, a priest of Apollo, held by Agamemnon. His refusal to return her brings down Apollo's plague on the Greek camp.",
+      "aliases": [
+        "Chryseis'"
+      ]
+    },
+    {
+      "term": "Chryses",
+      "kind": "person",
+      "gloss": "A priest of Apollo and father of Chryseis. When Agamemnon insults him and refuses ransom for his daughter, he prays to Apollo, who answers with a plague.",
+      "aliases": [
+        "Chryses'"
+      ]
+    },
+    {
+      "term": "Phoenix",
+      "kind": "person",
+      "gloss": "An old warrior who helped raise Achilles and serves as a father-figure and tutor to him. Sent to plead with Achilles to return to battle."
+    },
+    {
+      "term": "Teucer",
+      "kind": "person",
+      "gloss": "The best archer among the Greeks and half-brother of the great Ajax, often sheltering behind Ajax's shield to loose his arrows.",
+      "aliases": [
+        "Teucer's"
+      ]
+    },
+    {
+      "term": "Antilochus",
+      "kind": "person",
+      "gloss": "Nestor's son — a brave, swift young Greek fighter and a close friend of Achilles.",
+      "aliases": [
+        "Antilochus'"
+      ]
+    },
+    {
+      "term": "Machaon",
+      "kind": "person",
+      "gloss": "A son of the healer Asclepius and the army's battlefield surgeon; when he is wounded the Greeks worry for the loss of his skill."
+    },
+    {
+      "term": "Automedon",
+      "kind": "person",
+      "gloss": "Achilles' loyal charioteer, who drives the immortal horses of his master into battle."
+    },
+    {
+      "term": "Hector",
+      "kind": "person",
+      "gloss": "The greatest Trojan warrior and Troy's chief defender — eldest son of King Priam, husband of Andromache, father of the infant Astyanax. Brave and dutiful, he fights for his city and family rather than for glory. He is Achilles' great opponent.",
+      "aliases": [
+        "Hector's",
+        "Hektor"
+      ]
+    },
+    {
+      "term": "Priam",
+      "kind": "person",
+      "gloss": "The aged king of Troy, father of Hector, Paris, and many other sons. He watches the war devour his city and family from the walls, and his grief gives the poem its closing note.",
+      "aliases": [
+        "Priam's",
+        "Priamus"
+      ]
+    },
+    {
+      "term": "Paris",
+      "kind": "person",
+      "gloss": "A prince of Troy, son of Priam, whose abduction of Helen started the war. Handsome and a fine archer but reluctant in close combat — the Trojans often resent him for the ruin he brought.",
+      "aliases": [
+        "Alexander",
+        "Alexandros",
+        "Paris'"
+      ]
+    },
+    {
+      "term": "Helen",
+      "kind": "person",
+      "gloss": "The most beautiful woman in the world — wife of Menelaus, carried off to Troy by Paris. The war is fought over her. She lives among the Trojans full of regret and self-reproach.",
+      "aliases": [
+        "Helen's"
+      ]
+    },
+    {
+      "term": "Andromache",
+      "kind": "person",
+      "gloss": "Hector's devoted wife and mother of their infant son. Her farewell to Hector at the city wall is one of the poem's most tender and tragic scenes.",
+      "aliases": [
+        "Andromache's"
+      ]
+    },
+    {
+      "term": "Hecuba",
+      "kind": "person",
+      "gloss": "Queen of Troy, wife of Priam and mother of Hector and Paris. She pleads with her sons and mourns the city's losses.",
+      "aliases": [
+        "Hecuba's"
+      ]
+    },
+    {
+      "term": "Aeneas",
+      "kind": "person",
+      "gloss": "A Trojan prince, son of Aphrodite, and one of Troy's strongest fighters after Hector. The gods protect him; tradition holds he will survive Troy's fall and found a new line.",
+      "aliases": [
+        "Aeneas'",
+        "AEneas"
+      ]
+    },
+    {
+      "term": "Sarpedon",
+      "kind": "person",
+      "gloss": "A son of Zeus and leader of the Lycians, allies of Troy — one of the noblest warriors on the field. His reflections on why heroes must risk death state the poem's heroic code most clearly.",
+      "aliases": [
+        "Sarpedon's"
+      ]
+    },
+    {
+      "term": "Glaucus",
+      "kind": "person",
+      "gloss": "A Lycian captain and ally of Troy, companion of Sarpedon — remembered for exchanging armor and friendship with the Greek Diomedes on the battlefield.",
+      "aliases": [
+        "Glaucus'"
+      ]
+    },
+    {
+      "term": "Pandarus",
+      "kind": "person",
+      "gloss": "A Trojan archer whose treacherous arrow shatters a sworn truce, reigniting the war.",
+      "aliases": [
+        "Pandarus'"
+      ]
+    },
+    {
+      "term": "Polydamas",
+      "kind": "person",
+      "gloss": "A level-headed Trojan commander and Hector's advisor, who repeatedly counsels caution that Hector, to his cost, ignores."
+    },
+    {
+      "term": "Dolon",
+      "kind": "person",
+      "gloss": "A Trojan sent to spy on the Greek camp by night, caught and questioned in one of the poem's tensest episodes."
+    },
+    {
+      "term": "Astyanax",
+      "kind": "person",
+      "gloss": "The infant son of Hector and Andromache — the small, vulnerable future of Troy, who famously cries at the sight of his father's helmet."
+    },
+    {
+      "term": "Antenor",
+      "kind": "person",
+      "gloss": "A wise elder of Troy who urges that Helen be returned to the Greeks to end the war."
+    },
+    {
+      "term": "Zeus",
+      "kind": "god",
+      "gloss": "King of the gods, lord of sky and thunder, who holds the ultimate balance of the war in his hands. He tries to honor a promise to Achilles' mother while keeping the other gods from tipping fate too far.",
+      "aliases": [
+        "Jove",
+        "Jupiter",
+        "Cronion",
+        "son of Cronos",
+        "Zeus'",
+        "Jove's"
+      ]
+    },
+    {
+      "term": "Hera",
+      "kind": "god",
+      "gloss": "Queen of the gods, wife and sister of Zeus, and a fierce partisan of the Greeks. She schemes, argues, and even deceives Zeus to help the Greek side.",
+      "aliases": [
+        "Juno",
+        "Hera's",
+        "Juno's",
+        "ox-eyed Hera"
+      ]
+    },
+    {
+      "term": "Athena",
+      "kind": "god",
+      "gloss": "Goddess of wisdom, craft, and strategic war — Zeus's daughter and the Greeks' most powerful divine champion. She guides her favorites (Odysseus, Diomedes, Achilles) with cool intelligence.",
+      "aliases": [
+        "Minerva",
+        "Pallas",
+        "Pallas Athena",
+        "Athene",
+        "Athena's",
+        "Minerva's"
+      ]
+    },
+    {
+      "term": "Apollo",
+      "kind": "god",
+      "gloss": "God of archery, prophecy, healing, and plague — a leading supporter of the Trojans. He opens the poem by raining arrows of pestilence on the Greek camp.",
+      "aliases": [
+        "Phoebus",
+        "Phoebus Apollo",
+        "Apollo's",
+        "the far-darter",
+        "Smintheus"
+      ]
+    },
+    {
+      "term": "Poseidon",
+      "kind": "god",
+      "gloss": "God of the sea and earthquakes, brother of Zeus, and a backer of the Greeks. Powerful and resentful of Zeus's authority.",
+      "aliases": [
+        "Neptune",
+        "Poseidon's",
+        "Neptune's",
+        "earth-shaker"
+      ]
+    },
+    {
+      "term": "Aphrodite",
+      "kind": "god",
+      "gloss": "Goddess of love and beauty, mother of Aeneas, and a protector of Paris and the Trojans. Out of her element on the battlefield, where she is even wounded.",
+      "aliases": [
+        "Venus",
+        "Cytherea",
+        "Aphrodite's",
+        "Venus'"
+      ]
+    },
+    {
+      "term": "Ares",
+      "kind": "god",
+      "gloss": "God of war in its raw, bloody, destructive form — fighting for the Trojans. Even the other gods find him hateful.",
+      "aliases": [
+        "Mars",
+        "Ares'",
+        "Mars'"
+      ]
+    },
+    {
+      "term": "Hephaestus",
+      "kind": "god",
+      "gloss": "The lame smith-god of fire and craftsmanship, who forges armor for the gods and heroes — including a famous new shield for Achilles.",
+      "aliases": [
+        "Vulcan",
+        "Hephaestus'",
+        "Vulcan's"
+      ]
+    },
+    {
+      "term": "Artemis",
+      "kind": "god",
+      "gloss": "Goddess of the hunt and the wild, Apollo's twin sister, aligned with the Trojans.",
+      "aliases": [
+        "Diana",
+        "Artemis'"
+      ]
+    },
+    {
+      "term": "Hermes",
+      "kind": "god",
+      "gloss": "The messenger god, guide and patron of travelers and cunning — who escorts Priam safely through the enemy camp.",
+      "aliases": [
+        "Mercury",
+        "Hermes'",
+        "Argeiphontes"
+      ]
+    },
+    {
+      "term": "Thetis",
+      "kind": "god",
+      "gloss": "A sea-goddess and the mother of Achilles. Devoted to her mortal son, she carries his appeals straight to Zeus and grieves the short life fate has given him.",
+      "aliases": [
+        "Thetis'"
+      ]
+    },
+    {
+      "term": "Iris",
+      "kind": "god",
+      "gloss": "The gods' swift messenger, who travels on the rainbow to carry their commands to mortals and to other gods."
+    },
+    {
+      "term": "Hades",
+      "kind": "god",
+      "gloss": "God of the underworld and the realm of the dead itself — the shadowy place where the souls of slain heroes go.",
+      "aliases": [
+        "Pluto",
+        "the underworld",
+        "house of the dead",
+        "Hades'"
+      ]
+    },
+    {
+      "term": "Leto",
+      "kind": "god",
+      "gloss": "A goddess, mother of Apollo and Artemis by Zeus.",
+      "aliases": [
+        "Latona"
+      ]
+    },
+    {
+      "term": "Scamander (god)",
+      "kind": "god",
+      "gloss": "The river-god of Troy's great river, who rises in anger against Achilles when the slaughter chokes his waters.",
+      "aliases": [
+        "Xanthus (god)"
+      ]
+    },
+    {
+      "term": "Achaeans",
+      "kind": "people",
+      "gloss": "One of Homer's three interchangeable names for the Greeks — the invading army besieging Troy. Homer also calls them Argives and Danaans; there is no difference in meaning.",
+      "aliases": [
+        "Achaean",
+        "Achaians",
+        "Argives",
+        "Argive",
+        "Danaans",
+        "Danaan",
+        "Achaeans'",
+        "the Greeks",
+        "Hellenes"
+      ]
+    },
+    {
+      "term": "Trojans",
+      "kind": "people",
+      "gloss": "The defenders of the city of Troy and its surrounding people, led by Hector under King Priam — together with allied contingents from across Asia Minor.",
+      "aliases": [
+        "Trojan",
+        "Trojans'",
+        "Dardanians",
+        "Teucrians",
+        "men of Troy"
+      ]
+    },
+    {
+      "term": "Myrmidons",
+      "kind": "people",
+      "gloss": "Achilles' own fierce contingent of warriors from Phthia. When he withdraws, they withdraw with him, and the Greeks feel the gap.",
+      "aliases": [
+        "Myrmidon"
+      ]
+    },
+    {
+      "term": "Lycians",
+      "kind": "people",
+      "gloss": "A people of Asia Minor, allied to Troy, led by Sarpedon and Glaucus — among the strongest of the Trojan allies.",
+      "aliases": [
+        "Lycian",
+        "Lycia"
+      ]
+    },
+    {
+      "term": "Troy",
+      "kind": "place",
+      "gloss": "The great walled city under siege, near the coast of Asia Minor (modern Turkey) — also called Ilium. The whole poem unfolds on the plain before its walls.",
+      "aliases": [
+        "Ilium",
+        "Ilion",
+        "Ilios",
+        "Troia",
+        "Pergamus",
+        "Troy's"
+      ]
+    },
+    {
+      "term": "Mount Olympus",
+      "kind": "place",
+      "gloss": "The high mountain that is home of the gods, above the world of mortals, where Zeus holds court and the gods argue over the war.",
+      "aliases": [
+        "Olympus",
+        "Olympos",
+        "Olympian"
+      ]
+    },
+    {
+      "term": "Mount Ida",
+      "kind": "place",
+      "gloss": "The mountain range above Troy from which Zeus often watches the fighting and directs the course of the war.",
+      "aliases": [
+        "Ida",
+        "Idaean"
+      ]
+    },
+    {
+      "term": "Scamander",
+      "kind": "place",
+      "gloss": "The chief river of the plain of Troy — also called Xanthus. Its banks see some of the fiercest fighting.",
+      "aliases": [
+        "Xanthus",
+        "Scamander's"
+      ]
+    },
+    {
+      "term": "Argos",
+      "kind": "place",
+      "gloss": "A major Greek city and kingdom; 'Argos' and 'Argives' are also used loosely for Greece and the Greeks as a whole.",
+      "aliases": [
+        "Argive land"
+      ]
+    },
+    {
+      "term": "Mycenae",
+      "kind": "place",
+      "gloss": "Agamemnon's rich and powerful kingdom in the Greek mainland — the seat of the leader of the whole expedition.",
+      "aliases": [
+        "Mycenae's"
+      ]
+    },
+    {
+      "term": "Sparta",
+      "kind": "place",
+      "gloss": "Menelaus' kingdom in Greece, and Helen's home before Paris carried her to Troy.",
+      "aliases": [
+        "Lacedaemon"
+      ]
+    },
+    {
+      "term": "Phthia",
+      "kind": "place",
+      "gloss": "Achilles' homeland in Greece, ruled by his father Peleus — the home he longs for and threatens to sail back to."
+    },
+    {
+      "term": "Ithaca",
+      "kind": "place",
+      "gloss": "Odysseus' island kingdom, far to the west — the home he is famous for striving to return to."
+    },
+    {
+      "term": "Hellespont",
+      "kind": "place",
+      "gloss": "The narrow strait (today the Dardanelles) beside which the Greek ships are beached — the army's lifeline and line of retreat."
+    },
+    {
+      "term": "Pylos",
+      "kind": "place",
+      "gloss": "Nestor's prosperous kingdom on the Greek coast."
+    },
+    {
+      "term": "Crete",
+      "kind": "place",
+      "gloss": "The large island kingdom ruled by Idomeneus, which sent a strong contingent to the war."
+    },
+    {
+      "term": "rage",
+      "kind": "concept",
+      "gloss": "The poem's first word and true subject — the wrath of Achilles (Greek mēnis). Not ordinary anger but a towering, ruinous fury that he nurses against his own side, with deadly consequences.",
+      "aliases": [
+        "wrath",
+        "menis",
+        "mēnis"
+      ]
+    },
+    {
+      "term": "honor",
+      "kind": "concept",
+      "gloss": "Greek timē — a warrior's public worth, measured in respect and in tangible prizes. To strip a man of his prize is to strip his honor, and that insult, not greed, is what ignites the quarrel.",
+      "aliases": [
+        "time",
+        "timē"
+      ]
+    },
+    {
+      "term": "glory",
+      "kind": "concept",
+      "gloss": "Greek kleos — the undying fame a hero wins by great deeds, the 'glory that does not die.' Since a warrior's life is short, kleos is the nearest thing to immortality he can earn.",
+      "aliases": [
+        "kleos",
+        "renown"
+      ]
+    },
+    {
+      "term": "prize",
+      "kind": "concept",
+      "gloss": "Greek geras — the share of war-spoils (treasure, armor, or a captive) awarded to a warrior as a public token of his honor. Briseis is Achilles' geras; taking her is a calculated insult.",
+      "aliases": [
+        "geras",
+        "prize of honor",
+        "spoils"
+      ]
+    },
+    {
+      "term": "guest-friendship",
+      "kind": "concept",
+      "gloss": "Greek xenia — the sacred bond of hospitality between host and guest, protected by Zeus himself. Paris violated it by stealing Helen from his host Menelaus; it also lets enemies on the field recognize an old family tie and refuse to fight.",
+      "aliases": [
+        "xenia",
+        "hospitality"
+      ]
+    },
+    {
+      "term": "aristeia",
+      "kind": "concept",
+      "gloss": "A hero's day of supreme excellence — a sustained battlefield rampage in which a single warrior dominates, like Diomedes' great day. The Greek word means 'being the best.'",
+      "aliases": [
+        "aristeía"
+      ]
+    },
+    {
+      "term": "fate",
+      "kind": "concept",
+      "gloss": "The portion of life and death allotted to each person (Greek moira / aisa) — a destiny that even Zeus is reluctant to overrule. Heroes know their span is fixed and choose how to spend it.",
+      "aliases": [
+        "moira",
+        "doom",
+        "destiny",
+        "the fates"
+      ]
+    },
+    {
+      "term": "hecatomb",
+      "kind": "concept",
+      "gloss": "A grand sacrifice to the gods — strictly a hundred oxen, but used for any large ritual offering meant to win divine favor or lift a curse.",
+      "aliases": [
+        "hecatombs"
+      ]
+    },
+    {
+      "term": "libation",
+      "kind": "concept",
+      "gloss": "A ritual pouring of wine onto the ground or altar as an offering to the gods, usually before a prayer, oath, or meal.",
+      "aliases": [
+        "libations"
+      ]
+    },
+    {
+      "term": "ransom",
+      "kind": "concept",
+      "gloss": "Treasure offered to buy back a captive or a body. The poem opens with a refused ransom (for Chryseis) and closes with an accepted one (for Hector's body).",
+      "aliases": [
+        "apoina"
+      ]
+    },
+    {
+      "term": "shade",
+      "kind": "concept",
+      "gloss": "The ghost or soul of a dead person, which goes down to the house of Hades — a faint, strengthless image of the living self.",
+      "aliases": [
+        "shades",
+        "soul",
+        "shadow"
+      ]
+    },
+    {
+      "term": "funeral games",
+      "kind": "concept",
+      "gloss": "Athletic contests — chariot racing, boxing, wrestling, footraces — held to honor a dead hero, with rich prizes awarded by the mourner.",
+      "aliases": [
+        "games"
+      ]
+    },
+    {
+      "term": "aegis",
+      "kind": "thing",
+      "gloss": "The terrifying storm-shield (or goatskin mantle) of Zeus, often wielded by Athena or Apollo — when shaken over a battlefield it spreads panic or courage like a weapon.",
+      "aliases": [
+        "aegis'"
+      ]
+    },
+    {
+      "term": "greaves",
+      "kind": "thing",
+      "gloss": "Bronze shin-guards strapped over the lower legs — part of a warrior's armor, so standard that the Greeks are called 'well-greaved.'",
+      "aliases": [
+        "greave"
+      ]
+    },
+    {
+      "term": "ichor",
+      "kind": "thing",
+      "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows."
+    },
+    {
+      "term": "ambrosia",
+      "kind": "thing",
+      "gloss": "The food of the gods, which (with nectar, their drink) sustains their immortality and is sometimes used to preserve a hero's body.",
+      "aliases": [
+        "nectar"
+      ]
+    },
+    {
+      "term": "lyre",
+      "kind": "thing",
+      "gloss": "A stringed instrument plucked to accompany song and poetry — the very instrument a bard would use to sing a tale like the Iliad.",
+      "aliases": [
+        "phorminx",
+        "harp"
+      ]
+    },
+    {
+      "term": "pyre",
+      "kind": "thing",
+      "gloss": "The great stack of wood on which a dead body is burned in funeral rites, the ashes then gathered for burial.",
+      "aliases": [
+        "funeral pyre"
+      ]
+    },
+    {
+      "term": "black ships",
+      "kind": "thing",
+      "gloss": "The Greek fleet, beached in a long line on the shore by Troy — the army's home, supply base, and only way back across the sea. Their hulls were sealed with dark pitch.",
+      "aliases": [
+        "hollow ships",
+        "the ships"
+      ]
+    },
+    {
+      "term": "chariot",
+      "kind": "thing",
+      "gloss": "A light two-horse cart that carries a warrior swiftly to and across the battlefield, driven by a charioteer so the fighter can dismount to duel.",
+      "aliases": [
+        "chariots",
+        "car"
       ]
     }
   ]
