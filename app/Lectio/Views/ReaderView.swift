@@ -40,6 +40,12 @@ struct ReaderView: View {
     @State private var showMarksSheet = false
     @State private var compare = false
     @State private var compareEditionId: String?
+    // Compare-sync: tap a passage in one column and the proportionally-matching passage
+    // lights up (and scrolls into view) in the other. Best-effort by position within the
+    // shared book until the alignment spine exists.
+    @State private var syncMainSegId: String?
+    @State private var syncCmpSegId: String?
+    @State private var compareScrollTarget: String?
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.horizontalSizeClass) private var hSize
 
@@ -195,6 +201,14 @@ struct ReaderView: View {
                 compare = true
                 if !c.isEmpty { compareEditionId = c }
                 else { compareEditionId = editions.first { $0.id != currentEdition?.id }?.id }
+                // Debug: pre-trigger a compare-sync highlight (headless screenshots can't tap).
+                if ProcessInfo.processInfo.environment["LECTIO_DEBUG_SYNC"] != nil {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                        if let segs = currentEdition?.sections.first?.segments, segs.count > 3 {
+                            syncFromMain(segs[3].id)
+                        }
+                    }
+                }
             }
             // Debug hook: LECTIO_DEBUG_PROVENANCE opens the provenance sheet (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PROVENANCE"] != nil {
@@ -255,6 +269,40 @@ struct ReaderView: View {
         if let seg = firstSegment(containing: term) { jumpToSegment(seg) }
     }
 
+    // MARK: compare-sync — proportional passage matching across editions
+
+    // The passage in `to` that best lines up, by position within the shared book, with
+    // `segId` in `from`. Best-effort until the alignment spine (book.line) is built.
+    private func counterpart(of segId: String, from: Edition?, to: Edition?) -> String? {
+        guard let from, let to else { return nil }
+        guard let bi = from.sections.firstIndex(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }),
+              to.sections.indices.contains(bi) else { return nil }
+        let src = from.sections[bi].segments
+        let dst = to.sections[bi].segments
+        guard let i = src.firstIndex(where: { $0.id == segId }), !dst.isEmpty else { return nil }
+        let j = src.count <= 1 ? 0 : Int((Double(i) * Double(dst.count - 1) / Double(src.count - 1)).rounded())
+        return dst[min(max(j, 0), dst.count - 1)].id
+    }
+
+    // Tapped a passage in the main column → light up its match in the compare column.
+    private func syncFromMain(_ segId: String) {
+        guard compare, hSize == .regular else { return }
+        syncMainSegId = segId
+        if let match = counterpart(of: segId, from: currentEdition, to: compareEdition) {
+            syncCmpSegId = match
+            compareScrollTarget = match
+        }
+    }
+
+    // Tapped a passage in the compare column → light up its match in the main column.
+    private func syncFromCompare(_ segId: String) {
+        syncCmpSegId = segId
+        if let match = counterpart(of: segId, from: compareEdition, to: currentEdition) {
+            syncMainSegId = match
+            scrollTarget = match
+        }
+    }
+
     // MARK: header (small, always present)
 
     private var header: some View {
@@ -284,6 +332,8 @@ struct ReaderView: View {
                     if compareEditionId == nil || compareEditionId == currentEdition?.id {
                         compareEditionId = editions.first { $0.id != currentEdition?.id }?.id
                     }
+                } else {
+                    syncMainSegId = nil; syncCmpSegId = nil
                 }
             }
         } label: {
@@ -436,13 +486,18 @@ struct ReaderView: View {
                                 savedWords: savedWordSet,
                                 savedRanges: saved.ranges(forSegment: segment.id),
                                 activeRange: selSegmentId == segment.id ? selRange : nil,
-                                onWord: { word, point in showWord(word, at: point) },
+                                onWord: { word, point in showWord(word, at: point); syncFromMain(segment.id) },
                                 onSelectCommit: { range, text, point in
                                     selSegmentId = segment.id
                                     selRange = range
                                     selPopup = SelPopup(segmentId: segment.id, range: range,
                                                         text: text, point: point)
                                 }
+                            )
+                            .background(
+                                RoundedRectangle(cornerRadius: 6)
+                                    .fill(compare && syncMainSegId == segment.id ? pal.accent.opacity(0.13) : .clear)
+                                    .padding(.horizontal, -6).padding(.vertical, -3)
                             )
                             .overlay(alignment: .topLeading) {
                                 if reading.bookmark(work.id) == segment.id {
@@ -489,19 +544,34 @@ struct ReaderView: View {
             Divider().overlay(pal.rule)
             if ed.sections.indices.contains(currentBookIndex) {
                 let sec = ed.sections[currentBookIndex]
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 14) {
-                        sectionHeader(sec)
-                        ForEach(sec.segments) { seg in
-                            Text(seg.text)
-                                .font(.system(size: 17, design: .serif))
-                                .lineSpacing(6)
-                                .foregroundColor(pal.ink)
-                                .fixedSize(horizontal: false, vertical: true)
+                ScrollViewReader { proxy in
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 14) {
+                            sectionHeader(sec)
+                            ForEach(sec.segments) { seg in
+                                Text(seg.text)
+                                    .font(.system(size: 17, design: .serif))
+                                    .lineSpacing(6)
+                                    .foregroundColor(pal.ink)
+                                    .fixedSize(horizontal: false, vertical: true)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 6)
+                                            .fill(syncCmpSegId == seg.id ? pal.accent.opacity(0.13) : .clear)
+                                            .padding(.horizontal, -6).padding(.vertical, -3)
+                                    )
+                                    .id(seg.id)
+                                    .contentShape(Rectangle())
+                                    .onTapGesture { syncFromCompare(seg.id) }
+                            }
                         }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 24).padding(.vertical, 20)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal, 24).padding(.vertical, 20)
+                    .onChange(of: compareScrollTarget) { _, t in
+                        guard let t else { return }
+                        withAnimation { proxy.scrollTo(t, anchor: .center) }
+                    }
                 }
                 .id(sec.id)   // reset scroll to top when the synced book changes
             } else {
