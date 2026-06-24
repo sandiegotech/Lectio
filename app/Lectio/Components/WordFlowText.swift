@@ -36,25 +36,40 @@ struct WordFlowText: View {
     var body: some View {
         FlowLayout(spacing: 0, lineSpacing: 7) {
             ForEach(tokens.indices, id: \.self) { i in
-                Text(tokens[i])
-                    .font(.system(size: 19, design: .serif))
-                    .foregroundColor(pal.ink)
-                    .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
-                    .background(tokenHighlight(i))
-                    .background(GeometryReader { g in
-                        Color.clear.preference(key: TokenFrameKey.self,
-                                               value: [i: g.frame(in: .named(space))])
-                    })
-                    .contentShape(Rectangle())
-                    .onTapGesture { tap(i) }
-                    .onLongPressGesture(minimumDuration: holdSeconds) { hold(i) }
+                if tokens[i] == "\n" {
+                    // A hard line break (verse): zero-size marker the layout breaks on.
+                    Color.clear.frame(width: 0, height: 0)
+                        .layoutValue(key: LineBreakKey.self, value: true)
+                } else {
+                    Text(tokens[i])
+                        .font(.system(size: 19, design: .serif))
+                        .foregroundColor(pal.ink)
+                        .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
+                        .background(tokenHighlight(i))
+                        .background(GeometryReader { g in
+                            Color.clear.preference(key: TokenFrameKey.self,
+                                                   value: [i: g.frame(in: .named(space))])
+                        })
+                        .contentShape(Rectangle())
+                        .onTapGesture { tap(i) }
+                        .onLongPressGesture(minimumDuration: holdSeconds) { hold(i) }
+                }
             }
         }
         .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
     }
 
+    // Word tokens (each keeps its trailing space), with a "\n" marker wherever the
+    // source text breaks a line — so verse keeps its lines while prose flows normally.
     private var tokens: [String] {
-        text.split(separator: " ", omittingEmptySubsequences: true).map { String($0) + " " }
+        var out: [String] = []
+        for (li, line) in text.components(separatedBy: "\n").enumerated() {
+            if li > 0 { out.append("\n") }
+            for w in line.split(separator: " ", omittingEmptySubsequences: true) {
+                out.append(String(w) + " ")
+            }
+        }
+        return out
     }
 
     private func norm(_ i: Int) -> String { WordDictionary.normalize(tokens[i]) }
