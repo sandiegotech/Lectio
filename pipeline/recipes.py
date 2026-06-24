@@ -168,10 +168,12 @@ def _modern_edition(work_id: str, slug: str, sources: list) -> Edition:
         body = "\n\n".join(book["paragraphs"])
         sections.append(
             build_section(edition_id, f"book-{book['order']:02d}", book["order"],
-                          book["label"], body, form="prose", title=book.get("title"))
+                          book["label"], body, form=data.get("form", "prose"),
+                          title=book.get("title"))
         )
     return Edition(
-        id=edition_id, workId=work_id, kind="modern", language="en", form="prose",
+        id=edition_id, workId=work_id, kind="modern", language="en",
+        form=data.get("form", "prose"),
         translator=None, translatorYears=None, publishedYear=None,
         character="Plain modern English — the sense of the original, made to read with ease today.",
         overview=data.get("overview"),
@@ -475,7 +477,7 @@ def nicomachean_ethics():
                "friendship and contemplation as the crown of a human life."),
         collections=["collection.great-books"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "nicomachean-ethics", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -645,7 +647,7 @@ def hamlet():
                "famous lines than any other."),
         collections=["collection.lectio"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "hamlet", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -706,7 +708,7 @@ def divine_comedy():
                "poems of any age."),
         collections=["collection.great-books"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "divine-comedy", [edition]), edition], None
 
 
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,

@@ -1,0 +1,1829 @@
+{
+  "id": "edition.hamlet.lectio-modern",
+  "workId": "work.shakespeare.hamlet",
+  "kind": "modern",
+  "language": "en",
+  "form": "verse",
+  "provenance": {
+    "source": "lectio",
+    "rightsStatus": "lectio-original",
+    "rightsNote": "Lectio Edition (SDIT): a faithful modern-English rendering of Shakespeare's Early Modern English — verse lines kept, imagery and wordplay kept, only genuine language-friction removed (archaic grammar, dead idiom, lost allusion). Not a paraphrase; the original is the default edition and always one tap away. In progress, act by act.",
+    "retrievedDate": "2026-06-24",
+    "aiModel": "claude-opus-4-8",
+    "aiSourceEditionId": "edition.hamlet.original",
+    "aiProfile": "plain_modern",
+    "sourcesCited": [
+      "Shakespeare's text (the conflated Second Quarto / First Folio Hamlet, public domain)",
+      "the OED and a standard glossarial edition (Arden, consulted, not quoted) for archaic senses"
+    ],
+    "tokensEstimated": 52951,
+    "vintage": 2026
+  },
+  "character": "Plain modern English — the sense of the original, made to read with ease today.",
+  "overview": "The Lectio Edition opens Hamlet to readers who bounce off the Early Modern English — keeping the verse, the metaphors, and the famous lines, but clearing away the archaic grammar and dead idiom that block the meaning. A companion to Shakespeare's own words, not a replacement.",
+  "introduction": "With Shakespeare, unlike Homer or Dante, the English is the art — so this edition is the lightest of touches. It keeps the verse lines and nearly all of Shakespeare's words; it only steps in where the language itself blocks a modern reader: an archaic construction untangled, a dead word glossed in place, an inverted clause set right. The original is the default reading here; this is the on-ramp, always a tap away.",
+  "divergences": [],
+  "sections": [
+    {
+      "id": "edition.hamlet.lectio-modern.book-01",
+      "order": 1,
+      "label": "Act I",
+      "segments": [
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "SCENE I. Elsinore. A platform before the Castle."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "Enter Francisco and Barnardo, two sentinels."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "BARNARDO\nWho's there?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nNo—you answer me. Stand, and reveal yourself."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "BARNARDO\nLong live the King!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nBarnardo?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "BARNARDO\nThe same."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nYou come right on the stroke of your hour."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "BARNARDO\nIt's just struck twelve. Get to bed, Francisco."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nFor this relief, many thanks. It's bitter cold,\nand I am sick at heart."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "BARNARDO\nHave you had a quiet watch?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nNot a mouse stirring."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "BARNARDO\nWell, good night.\nIf you do meet Horatio and Marcellus,\nthe partners of my watch, tell them to hurry."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "Enter Horatio and Marcellus."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nI think I hear them. Stand, there! Who's that?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "HORATIO\nFriends to this country."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nAnd loyal men to the Dane."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nGood night to you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nOh, farewell, honest soldier. Who has relieved you?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "FRANCISCO\nBarnardo has my place. Good night to you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "[_Exit._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nHey there, Barnardo!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "BARNARDO\nWhat—is Horatio there?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "HORATIO\nA piece of him."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "BARNARDO\nWelcome, Horatio. Welcome, good Marcellus."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nSo, has this thing appeared again tonight?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "BARNARDO\nI have seen nothing."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nHoratio says it's only our imagination,\nand won't let belief take hold of him\nabout this dreaded sight we've seen twice.\nSo I've begged him to come along\nand keep watch with us through the minutes of this night,\nso that if this apparition comes again\nhe can confirm our eyes, and speak to it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "HORATIO\nNonsense, nonsense, it won't appear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "BARNARDO\nSit down awhile,\nand let us once again besiege your ears,\nso fortified against our story,\nwith what we two have seen these last two nights."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "HORATIO\nWell, let's sit down,\nand let us hear Barnardo speak of this."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "BARNARDO\nJust last night,\nwhen that same star, westward from the pole,\nhad traveled its course to light that part of heaven\nwhere now it burns—Marcellus and myself,\nthe bell just then striking one—"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nHush, stop—look where it comes again."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "Enter Ghost."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "BARNARDO\nIn the same shape, like the King who's dead."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nYou're a scholar—speak to it, Horatio."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "BARNARDO\nDoesn't it look like the King? Look at it, Horatio."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "HORATIO\nExactly like. It harrows me with fear and wonder."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "BARNARDO\nIt wants to be spoken to."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nQuestion it, Horatio."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat are you, that lay claim to this hour of night,\ntogether with that fair and warlike form\nin which the majesty of buried Denmark\nonce marched? By heaven, I command you, speak."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nIt is offended."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "BARNARDO\nSee, it stalks away."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "HORATIO\nStay! Speak, speak! I command you, speak!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "[_Exit Ghost._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nIt's gone, and will not answer."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0047",
+          "order": 47,
+          "kind": "verse_block",
+          "text": "BARNARDO\nHow now, Horatio! You tremble and look pale.\nIs this not something more than imagination?\nWhat do you make of it?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0048",
+          "order": 48,
+          "kind": "verse_block",
+          "text": "HORATIO\nBefore my God, I could not have believed this\nwithout the solid, true witness\nof my own eyes."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0049",
+          "order": 49,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nIs it not like the King?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0050",
+          "order": 50,
+          "kind": "verse_block",
+          "text": "HORATIO\nAs you are like yourself.\nThat was the very armor he had on\nwhen he fought the ambitious King of Norway;\nthat same frown, once, when in a furious parley\nhe struck the sledded Poles down on the ice.\nIt's strange."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0051",
+          "order": 51,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nTwice before, and exactly at this dead hour,\nwith soldier's stride he has passed by our watch."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0052",
+          "order": 52,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat to make of it exactly, I don't know;\nbut in the broad sweep of my opinion,\nthis forebodes some strange upheaval in our state."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0053",
+          "order": 53,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nAll right, sit down, and tell me—whoever knows—\nwhy this strict and watchful guard\nworks the people of this land so hard each night;\nand why this daily casting of bronze cannon,\nand foreign trade for tools of war;\nwhy this conscription of shipwrights, whose harsh labor\ndoesn't even spare the Sunday from the week.\nWhat could be coming, that this sweating haste\nmakes night a fellow-laborer with the day?\nWho can inform me?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0054",
+          "order": 54,
+          "kind": "verse_block",
+          "text": "HORATIO\nThat I can do—\nat least, the rumor goes like this. Our late King,\nwhose image just now appeared to us,\nwas, as you know, by Fortinbras of Norway—\nspurred on by a most jealous pride—\ndared to single combat; and our valiant Hamlet\n(for so this side of the known world esteemed him)\nslew this Fortinbras; who by a sealed agreement,\nwell ratified by law and heraldry,\nforfeited, with his life, all those his lands\nthat he possessed, to the conqueror.\nAgainst this, an equal portion\nwas staked by our King; which would have passed\nto the inheritance of Fortinbras\nhad he been the victor—just as by that same compact,\nand the terms of the article drawn up,\nhis lands fell to Hamlet. Now, sir, young Fortinbras,\nof untested mettle, hot and full,\nhas, in the outskirts of Norway, here and there,\nscraped up a band of lawless desperadoes,\npaid in food and rations, for some venture\nthat takes some nerve; which is no other,\nas it appears clearly to our state,\nthan to recover from us, by strong hand\nand forced terms, those same lands\nso lost by his father. And this, I take it,\nis the main reason for our preparations,\nthe source of this our watch, and the chief cause\nof this headlong haste and bustle in the land."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0055",
+          "order": 55,
+          "kind": "verse_block",
+          "text": "BARNARDO\nI think it's nothing other than just that.\nIt may well fit, that this ominous figure\ncomes armed through our watch so like the King\nwho was, and is, the very point of these wars."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0056",
+          "order": 56,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt's a speck to trouble the mind's eye.\nIn the highest and most flourishing days of Rome,\na little before the mightiest Julius fell,\nthe graves stood empty, and the shrouded dead\ndid squeak and gibber in the Roman streets;\nstars trailing fire, and dews of blood,\nblights upon the sun; and the moist moon,\nwhose pull governs Neptune's ocean empire,\nwas sick almost to doomsday with eclipse.\nAnd the very same omens of fierce events—\nas heralds always coming before the fates,\nand prologue to the doom on its way—\nheaven and earth together have shown\nto our own region and countrymen."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0057",
+          "order": 57,
+          "kind": "verse_block",
+          "text": "Re-enter Ghost."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0058",
+          "order": 58,
+          "kind": "verse_block",
+          "text": "HORATIO\nBut wait, look! See, where it comes again!\nI'll cross its path, though it strike me dead. Stay, illusion!\nIf you have any sound, or use of voice,\nspeak to me.\nIf there is any good thing to be done\nthat may bring you ease, and grace to me,\nspeak to me.\nIf you are privy to your country's fate,\nwhich, by good luck, foreknowing might avoid—\noh, speak!\nOr if you have hoarded up, in your life,\nplundered treasure in the womb of earth\n(for which, they say, you spirits often walk in death),\nspeak of it. Stay, and speak!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0059",
+          "order": 59,
+          "kind": "verse_block",
+          "text": "[_The cock crows._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0060",
+          "order": 60,
+          "kind": "verse_block",
+          "text": "HORATIO\nStop it, Marcellus!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0061",
+          "order": 61,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nShall I strike at it with my spear?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0062",
+          "order": 62,
+          "kind": "verse_block",
+          "text": "HORATIO\nDo, if it won't stand still."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0063",
+          "order": 63,
+          "kind": "verse_block",
+          "text": "BARNARDO\nIt's here!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0064",
+          "order": 64,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt's here!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0065",
+          "order": 65,
+          "kind": "verse_block",
+          "text": "[_Exit Ghost._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0066",
+          "order": 66,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nIt's gone!\nWe do it wrong, it being so majestic,\nto offer it this show of violence,\nfor it is like the air, beyond all wounding,\nand our useless blows are spiteful mockery."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0067",
+          "order": 67,
+          "kind": "verse_block",
+          "text": "BARNARDO\nIt was about to speak, when the cock crowed."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0068",
+          "order": 68,
+          "kind": "verse_block",
+          "text": "HORATIO\nAnd then it flinched, like a guilty thing\nat a dreaded summons. I have heard\nthat the cock, the trumpet of the morning,\nwith his high and shrill-sounding throat\nwakes the god of day; and at his warning,\nwhether in sea or fire, in earth or air,\nthe wandering and straying spirit hurries\nback to its confine. And of the truth of this,\nthis very thing just gave the proof."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0069",
+          "order": 69,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nIt faded at the crowing of the cock.\nSome say that always, just before the season comes\nin which our Savior's birth is celebrated,\nthe bird of dawn sings all night long;\nand then, they say, no spirit dares stir abroad,\nthe nights are wholesome, then no planets blast,\nno fairy steals, no witch has power to charm—\nso holy and so gracious is the time."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0070",
+          "order": 70,
+          "kind": "verse_block",
+          "text": "HORATIO\nSo I have heard, and partly believe it.\nBut look, the morning, robed in russet mantle,\nwalks over the dew of that high eastern hill.\nLet's break off our watch; and, by my advice,\nlet us tell what we have seen tonight\nto young Hamlet—for, upon my life,\nthis spirit, silent to us, will speak to him.\nDo you agree we should inform him of it,\nas our love requires, and our duty fits?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0071",
+          "order": 71,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nLet's do it, I beg you; and I know this morning\nwhere we shall find him most conveniently."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0072",
+          "order": 72,
+          "kind": "verse_block",
+          "text": "[_Exeunt._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0073",
+          "order": 73,
+          "kind": "verse_block",
+          "text": "SCENE II. Elsinore. A room of state in the Castle."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0074",
+          "order": 74,
+          "kind": "verse_block",
+          "text": "Enter Claudius King of Denmark, Gertrude the Queen, Hamlet, Polonius, Laertes, Voltemand, Cornelius, Lords and Attendant."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0075",
+          "order": 75,
+          "kind": "verse_block",
+          "text": "KING\nThough the memory of our dear brother Hamlet's\ndeath is still fresh, and though it suited us\nto hold our hearts in grief, and our whole kingdom\nto be drawn together in one brow of woe;\nyet good sense has so far wrestled with nature\nthat we now think of him with wisest sorrow,\nwhile remembering ourselves as well.\nTherefore our former sister, now our queen,\nthe imperial widow of this warlike state,\nwe have—as if with a defeated joy,\nwith one eye smiling and one eye dropping tears,\nwith mirth at the funeral and a dirge at the wedding,\nweighing delight and grief in equal scale—\ntaken to wife; nor in this have we ignored\nyour better wisdoms, which have freely gone\nalong with this affair. For all, our thanks.\nNow, you should know that young Fortinbras,\nholding a low opinion of our worth,\nor thinking that, by our late dear brother's death,\nour state is disjointed and out of frame,\nallied with this dream of his advantage,\nhas not failed to pester us with messages\ndemanding the surrender of those lands\nlost by his father, with all bonds of law,\nto our most valiant brother. So much for him.\nNow for ourself, and for this present meeting:\nhere is the business. We have written\nto Norway, uncle of young Fortinbras—\nwho, sick and bedridden, scarcely hears\nof this his nephew's plans—to put a stop\nto his advance; since the levies,\nthe musters, and the full forces are all drawn\nfrom Norway's subjects. And we now dispatch\nyou, good Cornelius, and you, Voltemand,\nto carry this greeting to old Norway,\ngiving you no further personal power\nto deal with the King than the scope\nof these detailed articles allows.\nFarewell; and let your haste reflect your duty."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0076",
+          "order": 76,
+          "kind": "verse_block",
+          "text": "CORNELIUS and VOLTEMAND\nIn this, and all things, we will show our duty."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0077",
+          "order": 77,
+          "kind": "verse_block",
+          "text": "KING\nWe doubt it not. Heartily, farewell."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0078",
+          "order": 78,
+          "kind": "verse_block",
+          "text": "[_Exeunt Voltemand and Cornelius._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0079",
+          "order": 79,
+          "kind": "verse_block",
+          "text": "KING\nAnd now, Laertes, what's the news with you?\nYou told us of some request. What is it, Laertes?\nYou cannot speak of anything reasonable to the Dane\nand waste your breath. What could you ask, Laertes,\nthat would not be my offer before your asking?\nThe head is no more natural to the heart,\nthe hand no more useful to the mouth,\nthan the throne of Denmark is to your father.\nWhat would you have, Laertes?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0080",
+          "order": 80,
+          "kind": "verse_block",
+          "text": "LAERTES\nMy dread lord,\nyour leave and favor to return to France—\nfrom which, though I came willingly to Denmark\nto do my duty at your coronation;\nyet now, that duty done, I must confess\nmy thoughts and wishes bend again toward France,\nand bow before your gracious leave and pardon."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0081",
+          "order": 81,
+          "kind": "verse_block",
+          "text": "KING\nHave you your father's leave? What says Polonius?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0082",
+          "order": 82,
+          "kind": "verse_block",
+          "text": "POLONIUS\nHe has, my lord, wrung from me my reluctant leave\nby tireless petition; and at last\nI sealed my hard consent upon his will.\nI beg you, give him leave to go."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0083",
+          "order": 83,
+          "kind": "verse_block",
+          "text": "KING\nTake your good hour, Laertes; the time is yours,\nand spend it as your best graces will!\nBut now, my nephew Hamlet, and my son—"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0084",
+          "order": 84,
+          "kind": "verse_block",
+          "text": "HAMLET\n[_Aside._] A little more than kin, and less than kind."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0085",
+          "order": 85,
+          "kind": "verse_block",
+          "text": "KING\nHow is it that the clouds still hang on you?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0086",
+          "order": 86,
+          "kind": "verse_block",
+          "text": "HAMLET\nNot so, my lord. I am too much in the sun."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0087",
+          "order": 87,
+          "kind": "verse_block",
+          "text": "QUEEN\nGood Hamlet, cast off that nighttime color,\nand let your eye look on Denmark like a friend.\nDon't forever, with your lowered lids,\nsearch for your noble father in the dust.\nYou know it's common—all that lives must die,\npassing through nature on to eternity."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0088",
+          "order": 88,
+          "kind": "verse_block",
+          "text": "HAMLET\nYes, madam, it is common."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0089",
+          "order": 89,
+          "kind": "verse_block",
+          "text": "QUEEN\nIf it is,\nwhy does it seem so particular with you?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0090",
+          "order": 90,
+          "kind": "verse_block",
+          "text": "HAMLET\nSeems, madam? No, it is. I don't know \"seems.\"\nIt's not just my black cloak, good mother,\nnor the customary suits of solemn black,\nnor gusty sighing of forced breath,\nno, nor the flowing river in the eye,\nnor the downcast look upon the face,\ntogether with all forms, moods, shows of grief,\nthat can express me truly. These indeed seem,\nfor they are actions that a man might play;\nbut I have that within which goes beyond all show—\nthese are merely the trappings and the suits of woe."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0091",
+          "order": 91,
+          "kind": "verse_block",
+          "text": "KING\nIt's sweet and admirable in your nature, Hamlet,\nto pay these mourning duties to your father;\nbut you must know, your father lost a father;\nthat father lost, lost his; and the survivor, bound\nin a son's obligation, for some time\nto observe a dutiful grief. But to persist\nin stubborn mourning is a course\nof ungodly obstinacy. It's unmanly grief.\nIt shows a will most disobedient to heaven,\na heart unfortified, a restless mind,\nan understanding simple and untaught.\nFor what we know must happen, and is as common\nas the most ordinary thing to the senses—\nwhy should we, in our peevish resistance,\ntake it to heart? Shame—it's a fault to heaven,\na fault against the dead, a fault to nature,\nmost absurd to reason, whose constant theme\nis the death of fathers, and which has always cried,\nfrom the first corpse to the man who died today,\n\"This must be so.\" We beg you, throw to earth\nthis useless grief, and think of us\nas of a father; for let the world take note,\nyou are the closest in line to our throne,\nand with no less nobility of love\nthan that which the dearest father bears his son\nI hold toward you. As for your intention\nto go back to school in Wittenberg,\nit runs entirely against our wish;\nand we beg you, bring yourself to stay\nhere in the cheer and comfort of our eye,\nour foremost courtier, nephew, and our son."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0092",
+          "order": 92,
+          "kind": "verse_block",
+          "text": "QUEEN\nLet not your mother lose her prayers, Hamlet.\nI beg you, stay with us; do not go to Wittenberg."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0093",
+          "order": 93,
+          "kind": "verse_block",
+          "text": "HAMLET\nI shall, as best I can, obey you, madam."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0094",
+          "order": 94,
+          "kind": "verse_block",
+          "text": "KING\nWhy, that's a loving and a fair reply.\nBe like ourself in Denmark. Madam, come;\nthis gentle, unforced agreement of Hamlet's\nsits smiling at my heart; and in its honor,\nno merry toast that Denmark drinks today\nbut the great cannon shall announce it to the clouds,\nand the King's carousing the heavens shall echo back,\nresounding earthly thunder. Come away."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0095",
+          "order": 95,
+          "kind": "verse_block",
+          "text": "[_Exeunt all but Hamlet._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0096",
+          "order": 96,
+          "kind": "verse_block",
+          "text": "HAMLET\nOh, that this too, too solid flesh would melt,\nthaw, and resolve itself into a dew!\nOr that the Everlasting had not fixed\nhis law against self-slaughter. O God! O God!\nHow weary, stale, flat, and unprofitable\nseem to me all the uses of this world!\nShame on it! Oh, shame! It's an unweeded garden\ngone to seed; things rank and gross in nature\npossess it utterly. That it should come to this!\nBut two months dead—no, not so much, not two:\nso excellent a king, who was to this one\nas a sun-god to a satyr; so loving to my mother\nthat he would not let the winds of heaven\ntouch her face too roughly. Heaven and earth!\nMust I remember? Why, she would cling to him\nas if her appetite had only grown\nby what it fed on; and yet, within a month—\nlet me not think on it—Frailty, thy name is woman!—\na little month, before the very shoes were old\nin which she followed my poor father's body,\nlike Niobe, all tears—why she, even she—\nO God! A beast that has no power of reason\nwould have mourned longer—married my uncle,\nmy father's brother; but no more like my father\nthan I am like Hercules. Within a month,\nbefore the salt of her most unrighteous tears\nhad left the redness in her chafed eyes,\nshe married. Oh, most wicked speed, to rush\nwith such dexterity to incestuous sheets!\nIt is not, nor can it ever come to good.\nBut break, my heart, for I must hold my tongue."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0097",
+          "order": 97,
+          "kind": "verse_block",
+          "text": "Enter Horatio, Marcellus and Barnardo."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0098",
+          "order": 98,
+          "kind": "verse_block",
+          "text": "HORATIO\nHail to your lordship!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0099",
+          "order": 99,
+          "kind": "verse_block",
+          "text": "HAMLET\nI am glad to see you well.\nHoratio—or I've forgotten myself."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0100",
+          "order": 100,
+          "kind": "verse_block",
+          "text": "HORATIO\nThe same, my lord,\nand your poor servant always."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0101",
+          "order": 101,
+          "kind": "verse_block",
+          "text": "HAMLET\nSir, my good friend—\nI'll trade that name with you.\nAnd what brings you from Wittenberg, Horatio?—\nMarcellus?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0102",
+          "order": 102,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nMy good lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0103",
+          "order": 103,
+          "kind": "verse_block",
+          "text": "HAMLET\nI'm very glad to see you.—Good evening, sir.—\nBut really, what brings you from Wittenberg?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0104",
+          "order": 104,
+          "kind": "verse_block",
+          "text": "HORATIO\nA truant's mood, my good lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0105",
+          "order": 105,
+          "kind": "verse_block",
+          "text": "HAMLET\nI wouldn't let your enemy say that;\nnor shall you do my ear that violence\nof making it believe your own report\nagainst yourself. I know you are no truant.\nBut what's your business here in Elsinore?\nWe'll teach you to drink deep before you leave."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0106",
+          "order": 106,
+          "kind": "verse_block",
+          "text": "HORATIO\nMy lord, I came to see your father's funeral."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0107",
+          "order": 107,
+          "kind": "verse_block",
+          "text": "HAMLET\nPlease don't mock me, fellow student.\nI think it was to see my mother's wedding."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0108",
+          "order": 108,
+          "kind": "verse_block",
+          "text": "HORATIO\nIndeed, my lord, it followed close upon it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0109",
+          "order": 109,
+          "kind": "verse_block",
+          "text": "HAMLET\nThrift, thrift, Horatio! The funeral's baked meats\nwere served up cold for the marriage tables.\nI'd rather have met my worst enemy in heaven\nthan ever have seen that day, Horatio.\nMy father—I think I see my father."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0110",
+          "order": 110,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhere, my lord?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0111",
+          "order": 111,
+          "kind": "verse_block",
+          "text": "HAMLET\nIn my mind's eye, Horatio."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0112",
+          "order": 112,
+          "kind": "verse_block",
+          "text": "HORATIO\nI saw him once; he was a fine king."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0113",
+          "order": 113,
+          "kind": "verse_block",
+          "text": "HAMLET\nHe was a man, take him all in all.\nI shall not look upon his like again."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0114",
+          "order": 114,
+          "kind": "verse_block",
+          "text": "HORATIO\nMy lord, I think I saw him last night."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0115",
+          "order": 115,
+          "kind": "verse_block",
+          "text": "HAMLET\nSaw? Who?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0116",
+          "order": 116,
+          "kind": "verse_block",
+          "text": "HORATIO\nMy lord, the King your father."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0117",
+          "order": 117,
+          "kind": "verse_block",
+          "text": "HAMLET\nThe King my father!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0118",
+          "order": 118,
+          "kind": "verse_block",
+          "text": "HORATIO\nCalm your astonishment a while,\nwith an attentive ear, until I can deliver,\non the witness of these gentlemen,\nthis marvel to you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0119",
+          "order": 119,
+          "kind": "verse_block",
+          "text": "HAMLET\nFor God's love, let me hear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0120",
+          "order": 120,
+          "kind": "verse_block",
+          "text": "HORATIO\nFor two nights running, these gentlemen,\nMarcellus and Barnardo, on their watch,\nin the dead, vacant middle of the night,\nhad this encounter. A figure like your father,\narmed at every point exactly, head to foot,\nappears before them, and with solemn march\ngoes slow and stately by them. Three times he walked\nbefore their oppressed and fear-struck eyes,\nwithin his baton's length, while they, dissolved\nalmost to jelly by the act of fear,\nstand dumb, and do not speak to him. This, to me,\nin dreadful secrecy they confided;\nand I, with them, the third night kept the watch,\nwhere, just as they'd reported—both in time,\nand in the form of the thing, each word made true—\nthe apparition comes. I knew your father:\nthese hands are not more alike."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0121",
+          "order": 121,
+          "kind": "verse_block",
+          "text": "HAMLET\nBut where was this?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0122",
+          "order": 122,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nMy lord, upon the platform where we watch."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0123",
+          "order": 123,
+          "kind": "verse_block",
+          "text": "HAMLET\nDid you not speak to it?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0124",
+          "order": 124,
+          "kind": "verse_block",
+          "text": "HORATIO\nMy lord, I did;\nbut it made no answer. Yet once I thought\nit lifted up its head, and began\nto move, as if it would speak.\nBut just then the morning cock crowed loud,\nand at the sound it shrank away in haste\nand vanished from our sight."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0125",
+          "order": 125,
+          "kind": "verse_block",
+          "text": "HAMLET\nIt's very strange."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0126",
+          "order": 126,
+          "kind": "verse_block",
+          "text": "HORATIO\nAs I live, my honored lord, it's true;\nand we thought it set down in our duty\nto let you know of it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0127",
+          "order": 127,
+          "kind": "verse_block",
+          "text": "HAMLET\nIndeed, indeed, sirs, but this troubles me.\nDo you hold the watch tonight?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0128",
+          "order": 128,
+          "kind": "verse_block",
+          "text": "MARCELLUS and BARNARDO\nWe do, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0129",
+          "order": 129,
+          "kind": "verse_block",
+          "text": "HAMLET\nArmed, you say?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0130",
+          "order": 130,
+          "kind": "verse_block",
+          "text": "BOTH\nArmed, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0131",
+          "order": 131,
+          "kind": "verse_block",
+          "text": "HAMLET\nFrom top to toe?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0132",
+          "order": 132,
+          "kind": "verse_block",
+          "text": "BOTH\nMy lord, from head to foot."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0133",
+          "order": 133,
+          "kind": "verse_block",
+          "text": "HAMLET\nThen you didn't see his face?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0134",
+          "order": 134,
+          "kind": "verse_block",
+          "text": "HORATIO\nOh yes, my lord. He wore his visor up."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0135",
+          "order": 135,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhat, did he look angry?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0136",
+          "order": 136,
+          "kind": "verse_block",
+          "text": "HORATIO\nAn expression more in sorrow than in anger."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0137",
+          "order": 137,
+          "kind": "verse_block",
+          "text": "HAMLET\nPale, or flushed?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0138",
+          "order": 138,
+          "kind": "verse_block",
+          "text": "HORATIO\nNo, very pale."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0139",
+          "order": 139,
+          "kind": "verse_block",
+          "text": "HAMLET\nAnd fixed his eyes on you?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0140",
+          "order": 140,
+          "kind": "verse_block",
+          "text": "HORATIO\nMost steadily."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0141",
+          "order": 141,
+          "kind": "verse_block",
+          "text": "HAMLET\nI wish I had been there."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0142",
+          "order": 142,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt would have amazed you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0143",
+          "order": 143,
+          "kind": "verse_block",
+          "text": "HAMLET\nVery likely, very likely. Did it stay long?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0144",
+          "order": 144,
+          "kind": "verse_block",
+          "text": "HORATIO\nLong as one might count to a hundred, at a moderate pace."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0145",
+          "order": 145,
+          "kind": "verse_block",
+          "text": "MARCELLUS and BARNARDO\nLonger, longer."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0146",
+          "order": 146,
+          "kind": "verse_block",
+          "text": "HORATIO\nNot when I saw it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0147",
+          "order": 147,
+          "kind": "verse_block",
+          "text": "HAMLET\nHis beard was grizzled, was it not?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0148",
+          "order": 148,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt was, as I have seen it in his life,\na sable touched with silver."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0149",
+          "order": 149,
+          "kind": "verse_block",
+          "text": "HAMLET\nI will watch tonight.\nPerhaps it will walk again."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0150",
+          "order": 150,
+          "kind": "verse_block",
+          "text": "HORATIO\nI guarantee it will."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0151",
+          "order": 151,
+          "kind": "verse_block",
+          "text": "HAMLET\nIf it takes on my noble father's form,\nI'll speak to it, though hell itself should gape\nand bid me hold my peace. I beg you all—\nif you have until now concealed this sight,\nkeep it locked still in your silence;\nand whatever else may happen tonight,\ngive it understanding, but no tongue.\nI will repay your loves. So, fare you well.\nUpon the platform, between eleven and twelve,\nI'll visit you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0152",
+          "order": 152,
+          "kind": "verse_block",
+          "text": "ALL\nOur duty to your honor."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0153",
+          "order": 153,
+          "kind": "verse_block",
+          "text": "HAMLET\nYour love, as mine to you. Farewell."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0154",
+          "order": 154,
+          "kind": "verse_block",
+          "text": "[_Exeunt Horatio, Marcellus and Barnardo._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0155",
+          "order": 155,
+          "kind": "verse_block",
+          "text": "HAMLET\nMy father's spirit in arms! All is not well.\nI suspect some foul play. Would the night were here!\nTill then sit still, my soul. Foul deeds will rise,\nthough all the earth should bury them, to men's eyes."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0156",
+          "order": 156,
+          "kind": "verse_block",
+          "text": "[_Exit._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0157",
+          "order": 157,
+          "kind": "verse_block",
+          "text": "SCENE III. A room in Polonius's house."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0158",
+          "order": 158,
+          "kind": "verse_block",
+          "text": "Enter Laertes and Ophelia."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0159",
+          "order": 159,
+          "kind": "verse_block",
+          "text": "LAERTES\nMy gear is aboard. Farewell.\nAnd, sister, whenever the winds are favorable\nand a ship is bound your way, do not sleep,\nbut let me hear from you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0160",
+          "order": 160,
+          "kind": "verse_block",
+          "text": "OPHELIA\nDo you doubt that?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0161",
+          "order": 161,
+          "kind": "verse_block",
+          "text": "LAERTES\nAs for Hamlet, and the trifle of his attention,\ntreat it as a passing fancy, a whim of the blood—\na violet in the springtime of youth,\nearly, not lasting; sweet, but not enduring;\nthe fragrance and diversion of a minute;\nno more."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0162",
+          "order": 162,
+          "kind": "verse_block",
+          "text": "OPHELIA\nNo more than that?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0163",
+          "order": 163,
+          "kind": "verse_block",
+          "text": "LAERTES\nThink it no more.\nFor as nature grows, it grows not only\nin muscle and bulk; but as this body matures,\nthe inward work of the mind and soul\ngrows broad with it. Perhaps he loves you now,\nand no stain or deceit now sullies\nthe purity of his intent; but you must fear—\nweighing his rank—his will is not his own,\nfor he himself is subject to his birth.\nHe may not, as common persons do,\ncarve his own portion; for on his choice depends\nthe safety and the health of this whole state;\nand therefore his choice must be confined\nto the voice and consent of that body\nwhose head he is. So if he says he loves you,\nit suits your wisdom to believe it only\nso far as he, in his particular rank and place,\ncan match his words with deeds; which is no further\nthan the main voice of Denmark will allow.\nThen weigh what your honor stands to lose\nif, with too trusting an ear, you take his songs,\nor lose your heart, or open your chaste treasure\nto his uncurbed insistence.\nFear it, Ophelia; fear it, my dear sister;\nand keep yourself behind your affection,\nout of the reach and danger of desire.\nThe most careful girl is reckless enough\nif she unveils her beauty to the moon.\nVirtue itself does not escape slander's blows.\nThe cankerworm bites the buds of spring\ntoo often before they even open;\nand in the morning, the fresh dew of youth,\ncontagious blights are most threatening.\nBe wary, then: the best safety lies in fear.\nYouth rebels against itself, with no one near."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0164",
+          "order": 164,
+          "kind": "verse_block",
+          "text": "OPHELIA\nI'll keep the meaning of this good lesson\nas a guard upon my heart. But, good my brother,\ndon't, like some ungodly preachers do,\nshow me the steep and thorny way to heaven\nwhile you yourself, a reckless, swollen libertine,\ntread the primrose path of pleasure\nand pay no heed to your own advice."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0165",
+          "order": 165,
+          "kind": "verse_block",
+          "text": "LAERTES\nOh, fear not for me.\nI stay too long. But here my father comes."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0166",
+          "order": 166,
+          "kind": "verse_block",
+          "text": "Enter Polonius."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0167",
+          "order": 167,
+          "kind": "verse_block",
+          "text": "LAERTES\nA double blessing is a double grace;\nchance smiles upon a second leave-taking."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0168",
+          "order": 168,
+          "kind": "verse_block",
+          "text": "POLONIUS\nStill here, Laertes? Aboard, aboard, for shame!\nThe wind sits in the shoulder of your sail,\nand they are waiting for you. There—my blessing on you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0169",
+          "order": 169,
+          "kind": "verse_block",
+          "text": "[_Laying his hand on Laertes's head._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0170",
+          "order": 170,
+          "kind": "verse_block",
+          "text": "POLONIUS\nAnd these few precepts—in your memory\nsee that you write them. Give your thoughts no tongue,\nnor any rash thought any action.\nBe friendly, but by no means common.\nThose friends you have, and whose loyalty you've tested,\nbind them to your soul with hoops of steel;\nbut don't wear out your palm with greeting\nevery new-hatched, half-grown comrade. Beware\nof getting into a quarrel; but once in,\nbear it so that your opponent learns to fear you.\nGive every man your ear, but few your voice;\ntake each man's opinion, but reserve your judgment.\nLet your clothes be costly as your purse can buy,\nbut not showy; rich, not gaudy—\nfor the clothes often proclaim the man,\nand those in France of the best rank and station\nare most refined and generous in just that.\nNeither a borrower nor a lender be,\nfor a loan often loses both itself and the friend,\nand borrowing dulls the edge of thrift.\nThis above all: to your own self be true,\nand it must follow, as the night the day,\nyou cannot then be false to any man.\nFarewell; may my blessing ripen this in you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0171",
+          "order": 171,
+          "kind": "verse_block",
+          "text": "LAERTES\nMost humbly do I take my leave, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0172",
+          "order": 172,
+          "kind": "verse_block",
+          "text": "POLONIUS\nThe time invites you; go, your servants wait."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0173",
+          "order": 173,
+          "kind": "verse_block",
+          "text": "LAERTES\nFarewell, Ophelia, and remember well\nwhat I have said to you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0174",
+          "order": 174,
+          "kind": "verse_block",
+          "text": "OPHELIA\nIt's locked within my memory,\nand you yourself shall keep the key of it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0175",
+          "order": 175,
+          "kind": "verse_block",
+          "text": "LAERTES\nFarewell."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0176",
+          "order": 176,
+          "kind": "verse_block",
+          "text": "[_Exit._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0177",
+          "order": 177,
+          "kind": "verse_block",
+          "text": "POLONIUS\nWhat is it, Ophelia, that he said to you?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0178",
+          "order": 178,
+          "kind": "verse_block",
+          "text": "OPHELIA\nIf you please—something concerning the Lord Hamlet."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0179",
+          "order": 179,
+          "kind": "verse_block",
+          "text": "POLONIUS\nWell thought of, indeed.\nI'm told that he has, very often lately,\ngiven private time to you; and you yourself\nhave been most free and generous with your company.\nIf this is so—as it's been reported to me,\nand that by way of warning—I must tell you,\nyou don't understand yourself as clearly\nas befits my daughter and your honor.\nWhat is between you? Give me up the truth."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0180",
+          "order": 180,
+          "kind": "verse_block",
+          "text": "OPHELIA\nHe has, my lord, of late made many offers\nof his affection to me."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0181",
+          "order": 181,
+          "kind": "verse_block",
+          "text": "POLONIUS\nAffection! Pah! You talk like a green girl,\nuntested in such perilous circumstances.\nDo you believe his offers, as you call them?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0182",
+          "order": 182,
+          "kind": "verse_block",
+          "text": "OPHELIA\nI do not know, my lord, what I should think."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0183",
+          "order": 183,
+          "kind": "verse_block",
+          "text": "POLONIUS\nWell, I'll teach you. Think yourself a baby,\nthat you have taken these offers for true coin,\nwhich are not sterling. Hold yourself more dear—\nor (not to wear out the poor word,\nrunning it like this) you'll show me up a fool."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0184",
+          "order": 184,
+          "kind": "verse_block",
+          "text": "OPHELIA\nMy lord, he has pressed his love on me\nin honorable fashion."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0185",
+          "order": 185,
+          "kind": "verse_block",
+          "text": "POLONIUS\nYes, fashion, you may call it. Come, come."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0186",
+          "order": 186,
+          "kind": "verse_block",
+          "text": "OPHELIA\nAnd has backed up his words, my lord,\nwith almost all the holy vows of heaven."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0187",
+          "order": 187,
+          "kind": "verse_block",
+          "text": "POLONIUS\nYes—snares to catch foolish birds. I know well,\nwhen the blood is burning, how freely the soul\nlends the tongue its vows. These flares, daughter,\ngiving more light than heat, going out in both,\neven as they're promised, in the very making,\nyou must not mistake for fire. From this time on,\nbe somewhat more sparing of your company.\nSet your conversation at a higher price\nthan a mere command to talk. As for Lord Hamlet,\nbelieve only this much in him: that he is young,\nand may walk on a longer leash\nthan can be granted you. In short, Ophelia,\ndon't believe his vows; for they are go-betweens,\nnot of the color that their garments show,\nbut mere petitioners for unholy ends,\nbreathing like holy and pious pimps,\nthe better to deceive. This is the sum:\nin plain terms, from this time forward\nI'll not have you so slander any moment's leisure\nas to give words or talk with the Lord Hamlet.\nSee to it, I command you. Come along."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0188",
+          "order": 188,
+          "kind": "verse_block",
+          "text": "OPHELIA\nI shall obey, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0189",
+          "order": 189,
+          "kind": "verse_block",
+          "text": "[_Exeunt._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0190",
+          "order": 190,
+          "kind": "verse_block",
+          "text": "SCENE IV. The platform."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0191",
+          "order": 191,
+          "kind": "verse_block",
+          "text": "Enter Hamlet, Horatio and Marcellus."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0192",
+          "order": 192,
+          "kind": "verse_block",
+          "text": "HAMLET\nThe air bites sharply; it is very cold."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0193",
+          "order": 193,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt is a nipping and a biting air."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0194",
+          "order": 194,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhat hour now?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0195",
+          "order": 195,
+          "kind": "verse_block",
+          "text": "HORATIO\nNot quite twelve, I think."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0196",
+          "order": 196,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nNo, it has struck."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0197",
+          "order": 197,
+          "kind": "verse_block",
+          "text": "HORATIO\nReally? I didn't hear it. Then it draws near the time\nwhen the spirit usually walks."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0198",
+          "order": 198,
+          "kind": "verse_block",
+          "text": "[_A flourish of trumpets, and ordnance shot off within._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0199",
+          "order": 199,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat does this mean, my lord?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0200",
+          "order": 200,
+          "kind": "verse_block",
+          "text": "HAMLET\nThe King is up tonight, and carousing,\nholding his revels, the staggering dance reeling;\nand as he drains his cups of Rhine wine down,\nthe kettle-drum and trumpet bray out\nthe triumph of his toast."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0201",
+          "order": 201,
+          "kind": "verse_block",
+          "text": "HORATIO\nIs it a custom?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0202",
+          "order": 202,
+          "kind": "verse_block",
+          "text": "HAMLET\nYes, indeed it is;\nand to my mind, though I'm a native here\nand born to it, it is a custom\nmore honored in the breaking than the keeping.\nThis heavy-headed drinking, east and west,\nmakes us slandered and condemned by other nations.\nThey call us drunkards, and with filthy words\nstain our reputation; and indeed it strips\nfrom our achievements—even at their best—\nthe very heart and substance of our good name.\nSo it often happens with particular men\nthat, for some single flaw of nature in them—\nas in their birth, in which they have no guilt,\nsince nature cannot choose its own origin—\nby the overgrowth of some one temperament,\noften breaking down the fences and forts of reason,\nor by some habit that too much corrupts\nthe form of pleasing manners—that these men,\ncarrying, I say, the stamp of one defect,\nwhether nature's marking or fortune's mark,\ntheir other virtues, be they pure as grace,\nas infinite as any man may have,\nshall, in the general judgment, take corruption\nfrom that one particular fault. The dram of evil\ndoes drag down all the noble substance\nto its own disgrace."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0203",
+          "order": 203,
+          "kind": "verse_block",
+          "text": "HORATIO\nLook, my lord, it comes!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0204",
+          "order": 204,
+          "kind": "verse_block",
+          "text": "Enter Ghost."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0205",
+          "order": 205,
+          "kind": "verse_block",
+          "text": "HAMLET\nAngels and ministers of grace defend us!\nWhether you are a spirit of health or a goblin damned,\nwhether you bring airs from heaven or blasts from hell,\nwhether your intentions are wicked or kind,\nyou come in such a questionable shape\nthat I will speak to you. I'll call you Hamlet,\nKing, father, royal Dane. Oh, answer me!\nLet me not burst with ignorance; but tell me\nwhy your sanctified bones, sealed up in death,\nhave burst their burial shroud; why the tomb,\nin which we saw you quietly laid to rest,\nhas opened its heavy marble jaws\nto cast you up again. What can it mean,\nthat you, dead corpse, again in full armor,\nrevisit the moonlight like this,\nmaking the night hideous, and we, fools of nature,\nso horribly shake our composure\nwith thoughts beyond the reach of our souls?\nSay, why is this? Why? What should we do?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0206",
+          "order": 206,
+          "kind": "verse_block",
+          "text": "[_Ghost beckons Hamlet._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0207",
+          "order": 207,
+          "kind": "verse_block",
+          "text": "HORATIO\nIt beckons you to go away with it,\nas if it wished to make some communication\nto you alone."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0208",
+          "order": 208,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nLook with what courteous gesture\nit waves you to a more secluded ground.\nBut do not go with it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0209",
+          "order": 209,
+          "kind": "verse_block",
+          "text": "HORATIO\nNo, by no means."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0210",
+          "order": 210,
+          "kind": "verse_block",
+          "text": "HAMLET\nIt will not speak; then I will follow it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0211",
+          "order": 211,
+          "kind": "verse_block",
+          "text": "HORATIO\nDo not, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0212",
+          "order": 212,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhy, what is there to fear?\nI do not value my life at a pin's worth;\nand as for my soul, what can it do to that,\nbeing a thing immortal as itself?\nIt waves me forward again. I'll follow it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0213",
+          "order": 213,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat if it tempts you toward the flood, my lord,\nor to the dreadful summit of the cliff\nthat overhangs its base into the sea,\nand there takes on some other horrible form\nthat might strip your reason of its rule\nand draw you into madness? Think of it.\nThe very place breeds desperate fancies\nin every brain, with no other cause,\nthat looks down so many fathoms to the sea\nand hears it roar below."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0214",
+          "order": 214,
+          "kind": "verse_block",
+          "text": "HAMLET\nIt waves me still.\nGo on, I'll follow you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0215",
+          "order": 215,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nYou shall not go, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0216",
+          "order": 216,
+          "kind": "verse_block",
+          "text": "HAMLET\nTake your hands off."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0217",
+          "order": 217,
+          "kind": "verse_block",
+          "text": "HORATIO\nBe ruled; you shall not go."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0218",
+          "order": 218,
+          "kind": "verse_block",
+          "text": "HAMLET\nMy fate cries out,\nand makes each tiny artery in this body\nas tough as the Nemean lion's sinew."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0219",
+          "order": 219,
+          "kind": "verse_block",
+          "text": "[_Ghost beckons._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0220",
+          "order": 220,
+          "kind": "verse_block",
+          "text": "HAMLET\nStill it calls me. Let go of me, gentlemen."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0221",
+          "order": 221,
+          "kind": "verse_block",
+          "text": "[_Breaking free from them._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0222",
+          "order": 222,
+          "kind": "verse_block",
+          "text": "HAMLET\nBy heaven, I'll make a ghost of anyone who stops me.\nI say, away!—Go on, I'll follow you."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0223",
+          "order": 223,
+          "kind": "verse_block",
+          "text": "[_Exeunt Ghost and Hamlet._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0224",
+          "order": 224,
+          "kind": "verse_block",
+          "text": "HORATIO\nHe grows desperate with imagination."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0225",
+          "order": 225,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nLet's follow. It's not right to obey him in this."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0226",
+          "order": 226,
+          "kind": "verse_block",
+          "text": "HORATIO\nLet's go after him. What will this come to?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0227",
+          "order": 227,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nSomething is rotten in the state of Denmark."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0228",
+          "order": 228,
+          "kind": "verse_block",
+          "text": "HORATIO\nHeaven will direct it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0229",
+          "order": 229,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nNo, let's follow him."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0230",
+          "order": 230,
+          "kind": "verse_block",
+          "text": "[_Exeunt._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0231",
+          "order": 231,
+          "kind": "verse_block",
+          "text": "SCENE V. A more remote part of the Castle."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0232",
+          "order": 232,
+          "kind": "verse_block",
+          "text": "Enter Ghost and Hamlet."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0233",
+          "order": 233,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhere will you lead me? Speak. I'll go no further."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0234",
+          "order": 234,
+          "kind": "verse_block",
+          "text": "GHOST\nMark me."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0235",
+          "order": 235,
+          "kind": "verse_block",
+          "text": "HAMLET\nI will."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0236",
+          "order": 236,
+          "kind": "verse_block",
+          "text": "GHOST\nMy hour is almost come,\nwhen I to sulfurous and tormenting flames\nmust render up myself."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0237",
+          "order": 237,
+          "kind": "verse_block",
+          "text": "HAMLET\nAlas, poor ghost!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0238",
+          "order": 238,
+          "kind": "verse_block",
+          "text": "GHOST\nDo not pity me, but lend your serious hearing\nto what I shall reveal."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0239",
+          "order": 239,
+          "kind": "verse_block",
+          "text": "HAMLET\nSpeak. I am bound to hear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0240",
+          "order": 240,
+          "kind": "verse_block",
+          "text": "GHOST\nSo are you bound to revenge, when you shall hear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0241",
+          "order": 241,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhat?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0242",
+          "order": 242,
+          "kind": "verse_block",
+          "text": "GHOST\nI am your father's spirit,\ndoomed for a certain term to walk the night,\nand by day confined to fast in fires,\ntill the foul crimes done in my lifetime\nare burnt and purged away. But that I am forbidden\nto tell the secrets of my prison house,\nI could unfold a tale whose lightest word\nwould harrow up your soul, freeze your young blood,\nmake your two eyes, like stars, start from their orbits,\nyour knotted and combined locks part,\nand each particular hair to stand on end\nlike quills upon the bristling porcupine.\nBut this revelation of eternity must not be\nfor ears of flesh and blood. Listen, listen, oh, listen!\nIf you did ever love your dear father—"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0243",
+          "order": 243,
+          "kind": "verse_block",
+          "text": "HAMLET\nO God!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0244",
+          "order": 244,
+          "kind": "verse_block",
+          "text": "GHOST\nRevenge his foul and most unnatural murder."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0245",
+          "order": 245,
+          "kind": "verse_block",
+          "text": "HAMLET\nMurder!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0246",
+          "order": 246,
+          "kind": "verse_block",
+          "text": "GHOST\nMurder most foul, as even the best of murders are;\nbut this one most foul, strange, and unnatural."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0247",
+          "order": 247,
+          "kind": "verse_block",
+          "text": "HAMLET\nHaste me to know it, so that I, with wings as swift\nas thought, or the imaginings of love,\nmay sweep to my revenge."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0248",
+          "order": 248,
+          "kind": "verse_block",
+          "text": "GHOST\nI find you ready;\nand you would be duller than the bloated weed\nthat rots itself in ease on Lethe's shore\nif you would not stir at this. Now, Hamlet, hear.\nThe story given out is that, sleeping in my orchard,\na serpent stung me; so the whole ear of Denmark\nis, by a faked account of my death,\ngrossly deceived. But know, you noble youth,\nthe serpent that did sting your father's life\nnow wears his crown."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0249",
+          "order": 249,
+          "kind": "verse_block",
+          "text": "HAMLET\nO my prophetic soul!\nMy uncle!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0250",
+          "order": 250,
+          "kind": "verse_block",
+          "text": "GHOST\nYes, that incestuous, that adulterous beast,\nwith the witchcraft of his wit, with traitorous gifts—\noh, wicked wit, and gifts, that have the power\nso to seduce!—won to his shameful lust\nthe will of my most seemingly virtuous queen.\nO Hamlet, what a falling-off was there!\nFrom me, whose love was of that dignity\nthat it went hand in hand even with the vow\nI made to her in marriage; and to sink down\nto a wretch whose natural gifts were poor\nbeside my own. But just as virtue is never moved,\nthough lewdness courts it in the shape of heaven,\nso lust, though linked to a radiant angel,\nwill gorge itself in a heavenly bed\nand feed on garbage.\nBut wait! I think I scent the morning air.\nLet me be brief. Sleeping within my orchard,\nas was always my custom in the afternoon,\nin my unguarded hour your uncle stole upon me\nwith the juice of cursed henbane in a vial,\nand in the porches of my ears he poured\nthe leprous distillation, whose effect\nholds such an enmity with the blood of man\nthat, swift as quicksilver, it courses through\nthe natural gates and alleys of the body,\nand with a sudden force it clots and curdles,\nlike sour drops dripped into milk,\nthe thin and wholesome blood. So it did mine;\nand instantly a scabbing crust spread over,\nmost leper-like, with vile and loathsome scab,\nall my smooth body.\nThus was I, sleeping, by a brother's hand,\nof life, of crown, of queen at once cut off;\nstruck down in the full blossom of my sins,\nwith no last rites, no sacrament, no anointing;\nno final reckoning made, but sent to my account\nwith all my imperfections on my head.\nO horrible! O horrible! most horrible!\nIf you have any natural feeling in you, do not bear it;\nlet not the royal bed of Denmark be\na couch for lust and damnèd incest.\nBut however you pursue this act,\ndo not taint your mind, nor let your soul plot\nanything against your mother; leave her to heaven,\nand to those thorns that lodge within her breast\nto prick and sting her. Fare you well at once!\nThe glow-worm shows the morning to be near,\nand begins to dim his feeble fire.\nAdieu, adieu, adieu. Remember me."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0251",
+          "order": 251,
+          "kind": "verse_block",
+          "text": "[_Exit._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0252",
+          "order": 252,
+          "kind": "verse_block",
+          "text": "HAMLET\nOh, all you host of heaven! O earth! What else?\nAnd shall I add hell too? Oh, no! Hold, my heart;\nand you, my sinews, do not grow old in an instant,\nbut bear me stiffly up. Remember you?\nYes, you poor ghost, while memory holds a seat\nin this distracted head. Remember you?\nYes—from the tablet of my memory\nI'll wipe away all trivial, foolish records,\nall sayings from books, all forms, all impressions past\nthat youth and observation copied there;\nand your commandment, all alone, shall live\nwithin the book and volume of my brain,\nunmixed with baser matter. Yes, by heaven!\nO most pernicious woman!\nO villain, villain, smiling, damnèd villain!\nMy notebook. It's only right that I set it down,\nthat a man may smile, and smile, and be a villain—\nat least I'm sure it may be so in Denmark."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0253",
+          "order": 253,
+          "kind": "verse_block",
+          "text": "[_Writing._]"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0254",
+          "order": 254,
+          "kind": "verse_block",
+          "text": "HAMLET\nSo, uncle, there you are. Now to my watchword:\nit is \"Adieu, adieu, remember me.\"\nI have sworn it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0255",
+          "order": 255,
+          "kind": "verse_block",
+          "text": "HORATIO and MARCELLUS\n[_Within._] My lord, my lord!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0256",
+          "order": 256,
+          "kind": "verse_block",
+          "text": "MARCELLUS\n[_Within._] Lord Hamlet!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0257",
+          "order": 257,
+          "kind": "verse_block",
+          "text": "HORATIO\n[_Within._] Heaven keep him safe."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0258",
+          "order": 258,
+          "kind": "verse_block",
+          "text": "HAMLET\nSo be it!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0259",
+          "order": 259,
+          "kind": "verse_block",
+          "text": "MARCELLUS\n[_Within._] Hey, ho, ho, my lord!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0260",
+          "order": 260,
+          "kind": "verse_block",
+          "text": "HAMLET\nHey, ho, ho, boy! Come, bird, come."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0261",
+          "order": 261,
+          "kind": "verse_block",
+          "text": "Enter Horatio and Marcellus."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0262",
+          "order": 262,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nHow is it, my noble lord?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0263",
+          "order": 263,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat news, my lord?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0264",
+          "order": 264,
+          "kind": "verse_block",
+          "text": "HAMLET\nOh, wonderful!"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0265",
+          "order": 265,
+          "kind": "verse_block",
+          "text": "HORATIO\nGood my lord, tell it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0266",
+          "order": 266,
+          "kind": "verse_block",
+          "text": "HAMLET\nNo, you'll reveal it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0267",
+          "order": 267,
+          "kind": "verse_block",
+          "text": "HORATIO\nNot I, my lord, by heaven."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0268",
+          "order": 268,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nNor I, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0269",
+          "order": 269,
+          "kind": "verse_block",
+          "text": "HAMLET\nHow say you, then—would the heart of man ever think it?—\nbut you'll keep it secret?"
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0270",
+          "order": 270,
+          "kind": "verse_block",
+          "text": "HORATIO and MARCELLUS\nYes, by heaven, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0271",
+          "order": 271,
+          "kind": "verse_block",
+          "text": "HAMLET\nThere's not a villain living in all Denmark\nbut he's a thorough scoundrel."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0272",
+          "order": 272,
+          "kind": "verse_block",
+          "text": "HORATIO\nThere's no need for a ghost, my lord, to come from the grave\nto tell us this."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0273",
+          "order": 273,
+          "kind": "verse_block",
+          "text": "HAMLET\nWhy, right; you're in the right;\nand so, without any more ado,\nI think it fitting that we shake hands and part:\nyou, where your business and desire shall point you—\nfor every man has business and desire,\nsuch as it is—and for my own poor part,\nlook you, I'll go pray."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0274",
+          "order": 274,
+          "kind": "verse_block",
+          "text": "HORATIO\nThese are only wild and whirling words, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0275",
+          "order": 275,
+          "kind": "verse_block",
+          "text": "HAMLET\nI'm sorry they offend you, heartily;\nyes, truly, heartily."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0276",
+          "order": 276,
+          "kind": "verse_block",
+          "text": "HORATIO\nThere's no offense, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0277",
+          "order": 277,
+          "kind": "verse_block",
+          "text": "HAMLET\nYes, by Saint Patrick, but there is, Horatio,\nand much offense too. As for this vision here—\nit is an honest ghost, that I can tell you.\nAs for your desire to know what's between us,\nmaster it as best you can. And now, good friends,\nas you are friends, scholars, and soldiers,\ngrant me one poor request."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0278",
+          "order": 278,
+          "kind": "verse_block",
+          "text": "HORATIO\nWhat is it, my lord? We will."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0279",
+          "order": 279,
+          "kind": "verse_block",
+          "text": "HAMLET\nNever make known what you have seen tonight."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0280",
+          "order": 280,
+          "kind": "verse_block",
+          "text": "HORATIO and MARCELLUS\nMy lord, we will not."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0281",
+          "order": 281,
+          "kind": "verse_block",
+          "text": "HAMLET\nNo, but swear it."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0282",
+          "order": 282,
+          "kind": "verse_block",
+          "text": "HORATIO\nIn faith, my lord, not I."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0283",
+          "order": 283,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nNor I, my lord, in faith."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0284",
+          "order": 284,
+          "kind": "verse_block",
+          "text": "HAMLET\nUpon my sword."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0285",
+          "order": 285,
+          "kind": "verse_block",
+          "text": "MARCELLUS\nWe have sworn already, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0286",
+          "order": 286,
+          "kind": "verse_block",
+          "text": "HAMLET\nIndeed, upon my sword, indeed."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0287",
+          "order": 287,
+          "kind": "verse_block",
+          "text": "GHOST\n[_Cries under the stage._] Swear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0288",
+          "order": 288,
+          "kind": "verse_block",
+          "text": "HAMLET\nHa, ha, boy! Is that what you say? Are you there, trusty fellow?\nCome on—you hear this fellow in the cellar.\nConsent to swear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0289",
+          "order": 289,
+          "kind": "verse_block",
+          "text": "HORATIO\nPropose the oath, my lord."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0290",
+          "order": 290,
+          "kind": "verse_block",
+          "text": "HAMLET\nNever to speak of what you have seen.\nSwear by my sword."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0291",
+          "order": 291,
+          "kind": "verse_block",
+          "text": "GHOST\n[_Beneath._] Swear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0292",
+          "order": 292,
+          "kind": "verse_block",
+          "text": "HAMLET\nHic et ubique? [Here and everywhere?] Then we'll shift our ground.\nCome over here, gentlemen,\nand lay your hands again upon my sword.\nNever to speak of what you have heard.\nSwear by my sword."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0293",
+          "order": 293,
+          "kind": "verse_block",
+          "text": "GHOST\n[_Beneath._] Swear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0294",
+          "order": 294,
+          "kind": "verse_block",
+          "text": "HAMLET\nWell said, old mole! Can you work in the earth so fast?\nA fine sapper! Once more move, good friends."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0295",
+          "order": 295,
+          "kind": "verse_block",
+          "text": "HORATIO\nO day and night, but this is wondrous strange."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0296",
+          "order": 296,
+          "kind": "verse_block",
+          "text": "HAMLET\nAnd therefore, as a stranger, give it welcome.\nThere are more things in heaven and earth, Horatio,\nthan are dreamt of in your philosophy. But come—\nhere, as before, swear: never, so help you mercy,\nhowever strange or odd I bear myself\n(since I may think it fitting, hereafter,\nto put on an antic, madman's manner),\nthat you, at such times, seeing me, shall never,\nwith arms folded thus, or with this shake of the head,\nor by the uttering of some doubtful phrase\nlike \"Well, we know,\" or \"We could, if we would,\"\nor \"If we cared to speak,\" or \"There are those who could, if they might\"—\nor any such ambiguous hint—to show\nthat you know anything of me. This you must not do—\nso grace and mercy at your hour of greatest need help you.\nSwear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0297",
+          "order": 297,
+          "kind": "verse_block",
+          "text": "GHOST\n[_Beneath._] Swear."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0298",
+          "order": 298,
+          "kind": "verse_block",
+          "text": "HAMLET\nRest, rest, troubled spirit. So, gentlemen,\nwith all my love I commend myself to you;\nand whatever so poor a man as Hamlet is\nmay do to express his love and friendship to you,\nGod willing, shall not be lacking. Let us go in together;\nand keep your fingers on your lips, I beg you.\nThe time is out of joint. O cursèd spite,\nthat ever I was born to set it right!\nNo, come, let's go together."
+        },
+        {
+          "id": "edition.hamlet.lectio-modern.book-01.seg-0299",
+          "order": 299,
+          "kind": "verse_block",
+          "text": "[_Exeunt._]"
+        }
+      ]
+    }
+  ]
+}

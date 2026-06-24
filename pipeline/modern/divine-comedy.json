@@ -1,0 +1,97 @@
+{
+  "workId": "work.dante.divine-comedy",
+  "method": "Lectio Edition (SDIT): clear modern English of Dante, synthesized from the public-domain translation tradition (Longfellow 1867; Cary 1814; Norton's prose 1892) and checked against the Italian; modern verse translations consulted, not quoted. Verse lines kept. In progress, canto by canto.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-24",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.divine-comedy.longfellow-1867"
+  ],
+  "sourcesCited": [
+    "Italian, Dante's Commedia (Petrocchi text)",
+    "Henry Wadsworth Longfellow (1867, public domain)",
+    "Henry Francis Cary (1814, public domain)",
+    "Charles Eliot Norton, prose (1892, public domain)",
+    "modern verse translations (Ciardi, Mandelbaum, Hollander, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders Dante in clear modern English that keeps the forward pull of the journey and the sharpness of his images, without the inversions and archaism of the older verse. Kept line by line, canticle by canticle.",
+  "introduction": "Longfellow's 1867 Dante is faithful and grave, but its nineteenth-century inversions slow a modern reader. The Lectio Edition keeps Dante's line-by-line structure and his concrete, startling imagery — the dark wood, the gates of Hell, the souls like autumn leaves — in English that moves the way Dante moves. The older verse translations and the Italian are a tap away.",
+  "divergences": [
+    {
+      "locus": "I.2",
+      "phrase": "selva oscura",
+      "older": "a forest dark (Longfellow); a gloomy wood (Cary)",
+      "lectio": "a dark wood",
+      "note": "Longfellow's inverted 'a forest dark' is the kind of nineteenth-century word-order that trips a modern reader; the Italian is plainly noun-then-adjective, 'dark wood.' We keep it concrete and unadorned — it is the canto's master image."
+    },
+    {
+      "locus": "I.60",
+      "phrase": "là dove 'l sol tace",
+      "older": "where the sun is silent (Longfellow)",
+      "lectio": "the place where the sun is silent",
+      "note": "Dante writes that the sun is silent, not merely dark — a deliberate crossing of senses (a place where light has gone so dead it has no voice). We keep the strangeness rather than tidy it into 'where the sun never shines.'"
+    },
+    {
+      "locus": "I.105",
+      "phrase": "tra feltro e feltro",
+      "older": "'Twixt Feltro and Feltro (Longfellow); 'Twixt either Feltro (Cary)",
+      "lectio": "between felt and felt",
+      "note": "The veltro's (Greyhound's) birthplace is one of the most debated lines in the poem — whether 'feltro' means the towns Feltre and Montefeltro, humble felt cloth, or something else. The line is meant to be a riddle, so we keep it as a riddle rather than resolve it for the reader."
+    }
+  ],
+  "books": [
+    {
+      "order": 1,
+      "label": "Inferno: Canto I",
+      "paragraphs": [
+        "Midway along the journey of our life\nI came to myself in a dark wood,\nfor the straight road had been lost.",
+        "How hard it is to say what it was like —\nthat wood, so wild and rough and unrelenting\nthe fear comes back the moment I think of it.",
+        "It was so bitter that death is hardly worse.\nBut to tell of the good I found there too,\nI'll speak of the other things I saw.",
+        "How I came to enter it I can't say clearly,\nso heavy was I with sleep at the moment\nI wandered off from the true way.",
+        "But once I had reached the foot of a hill,\nthere where the valley came to an end\nthat had pierced my heart with dread,",
+        "I looked up and saw its shoulders\nalready wrapped in that planet's rays\nthat lead us straight down every road.",
+        "Then the fear grew a little quieter\nthat had lasted through the lake of my heart\nall that night I'd spent in such misery.",
+        "And like a man who, gasping for breath,\ndrags himself out of the sea onto the shore\nand turns to stare back at the dangerous water,",
+        "so my mind, still racing in flight,\nturned back to look again at that pass\nno living person has ever left.",
+        "After I had rested my worn-out body\nI took up the climb again on the empty slope,\nmy lower foot always the steady one.",
+        "And there, almost where the climb began,\na leopard — quick and very light on its feet,\nits coat all covered in spots —",
+        "would not move out of my path.\nIt blocked my way so completely\nthat again and again I turned to go back.",
+        "It was the early hour of morning,\nand the sun was climbing with the same stars\nthat rode beside it when Divine Love",
+        "first set those beautiful things in motion.\nSo the hour of the day and the sweet season\ngave me good reason to hope",
+        "even against that beast with its bright pelt —\nbut not enough to keep me from fear\nwhen a lion came into view.",
+        "It looked like it was coming straight at me,\nhead high, in a fury of hunger,\nuntil the very air seemed afraid of it.",
+        "And a she-wolf, who in her gauntness\nseemed loaded down with every craving\nand has made so many live in grief —",
+        "she laid such a weight on me,\nsuch terror came off the sight of her,\nthat I gave up all hope of the height.",
+        "And like a man who gladly piles up gains,\nbut when the time comes that he loses them\nweeps and despairs in all his thoughts,",
+        "that restless beast did the same to me:\ncoming on, pushing me back step by step\ntoward the place where the sun is silent.",
+        "While I was sliding down toward the low ground,\nbefore my eyes someone appeared\nwho seemed faint, hoarse from long silence.",
+        "When I saw him there in the vast waste,\n\"Have pity on me,\" I cried out to him,\n\"whatever you are — a shade, or a real man.\"",
+        "He answered: \"Not a man. I was one once.\nMy parents both came from Lombardy,\nMantuans, both of them, by birth.",
+        "I was born under Julius, though late in his day,\nand lived at Rome under the good Augustus,\nin the time of the false and lying gods.",
+        "I was a poet, and I sang of that just\nson of Anchises who came out of Troy\nafter proud Ilion was burned to the ground.",
+        "But you — why turn back to all that misery?\nWhy not climb the mountain of delight,\nthe source and cause of every joy?\"",
+        "\"Then are you that Virgil, that fountain\nthat pours out so wide a river of speech?\"\nI answered him, my head bowed in shame.",
+        "\"You, the honor and the light of all the other poets —\nlet the long study and the great love\nthat drove me to your book stand for me now.",
+        "You are my master, you are my author.\nYou alone are the one from whom I took\nthe noble style that has earned me my name.",
+        "Look at the beast that turned me back.\nSave me from her, famous sage,\nfor she sets my veins and pulses shaking.\"",
+        "\"You have to go another way,\"\nhe answered, when he saw me weeping,\n\"if you want to escape this wild place,",
+        "because this beast that makes you cry out\nlets no one pass along her road,\nbut harries him until she kills him.",
+        "Her nature is so cruel, so vicious,\nthat she never fills her greedy appetite —\nafter feeding she's hungrier than before.",
+        "Many are the animals she mates with,\nand more there'll be, until the Greyhound comes\nwho will hunt her down to a painful death.",
+        "He won't feed on land or money,\nbut on wisdom, on love and courage,\nand his birthplace will lie between felt and felt.",
+        "He'll be the salvation of that low Italy\nfor which the maiden Camilla died,\nand Euryalus, Turnus, and Nisus, of their wounds.",
+        "Through every city he'll drive her down,\nuntil he's chased her back into Hell,\nout of which envy first turned her loose.",
+        "And so, for your own good, I judge it best\nthat you follow me. I'll be your guide,\nand lead you out of here through an eternal place,",
+        "where you'll hear the cries of the hopeless,\nwhere you'll see the ancient spirits in their grief,\neach one screaming for a second death.",
+        "And then you'll see those who are content\nwithin the fire, because they hope to come,\nwhenever it may be, among the blessed.",
+        "And if you want to climb up to them after that,\na soul worthier than I am will be there for it;\nI'll leave you with her when I go,",
+        "because that Emperor who reigns above —\nsince I rebelled against his law —\nwills that none come through me into his city.",
+        "He governs everywhere, but he rules from there.\nThere is his city and his high throne.\nHappy the one he chooses for it!\"",
+        "And I said to him: \"Poet, I beg you,\nby that same God you never knew,\nso that I escape this evil and worse,",
+        "lead me to the place you spoke of,\nso I may see the gate of Saint Peter\nand those you call so wretched.\"",
+        "Then he set out, and I followed behind."
+      ]
+    }
+  ],
+  "form": "verse"
+}

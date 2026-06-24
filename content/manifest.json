@@ -269,6 +269,15 @@
       ],
       "editions": [
         {
+          "id": "edition.nicomachean-ethics.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "7200edf36dd340dd"
+        },
+        {
           "id": "edition.nicomachean-ethics.chase-1911",
           "translator": "D. P. Chase",
           "publishedYear": 1911,
@@ -279,7 +288,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "24bd4ca1fb2339f8"
+      "checksum": "f799ca50ca23bde1"
     },
     {
       "id": "work.machiavelli.the-prince",
@@ -363,6 +372,15 @@
       ],
       "editions": [
         {
+          "id": "edition.hamlet.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "verse",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "58076abfab8a1926"
+        },
+        {
           "id": "edition.hamlet.original",
           "translator": null,
           "publishedYear": 1603,
@@ -373,7 +391,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "310e0e6990ee654c"
+      "checksum": "1f311075fde62a70"
     },
     {
       "id": "work.gilgamesh",
@@ -409,6 +427,15 @@
       ],
       "editions": [
         {
+          "id": "edition.divine-comedy.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "verse",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "6046ef6a34c4c79f"
+        },
+        {
           "id": "edition.divine-comedy.longfellow-1867",
           "translator": "Henry Wadsworth Longfellow",
           "publishedYear": 1867,
@@ -419,7 +446,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "f5d6551287281a1b"
+      "checksum": "11c89a8cd8b82d68"
     }
   ],
   "dictionaries": []
