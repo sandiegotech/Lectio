@@ -19,7 +19,7 @@
       "Charles Eliot Norton, prose (1892, public domain)",
       "modern verse translations (Ciardi, Mandelbaum, Hollander, consulted, not quoted)"
     ],
-    "tokensEstimated": 162565,
+    "tokensEstimated": 166713,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -193,6 +193,69 @@
       "older": "And this is she who is so crucified (Longfellow); This is she so reviled (often softened in prose)",
       "lectio": "And this is the one so often nailed to the cross",
       "note": "Dante uses 'posta in croce' — literally put on the cross, crucified — for the abuse people heap on Fortune, a deliberately shocking word that casts her as wrongly condemned, even martyred, by the very people who profit from her. We keep the crucifixion image ('nailed to the cross') rather than flattening it to 'reviled' or 'blamed,' because the violence of the metaphor is the point: those who should praise her instead crucify her with their cursing, and she, blessed, does not even hear it."
+    },
+    {
+      "locus": "VIII.70",
+      "phrase": "le sue meschite",
+      "older": "Its mosques (Longfellow); the mosques (Cary)",
+      "lectio": "its mosques",
+      "note": "Dante calls the buildings of the infernal city 'meschite' — mosques — because to a medieval Christian the mosque was the architecture of the enemy faith, so the word marks Dis as utterly hostile ground. The image is strange to a modern reader, but we keep 'mosques' rather than soften it to 'towers' or 'temples,' because the strangeness is the point: this is how Dante's world saw the citadel of the damned."
+    },
+    {
+      "locus": "VIII.36-39",
+      "phrase": "Con piangere e con lutto ... spirito maladetto, ti rimani",
+      "older": "With weeping and with wailing, / Thou spirit maledict, do thou remain (Longfellow)",
+      "lectio": "With your weeping and your wailing, / you cursed spirit, stay right where you are",
+      "note": "This is the harsh exchange with Filippo Argenti, and Dante's contempt is meant to be felt, not smoothed. We straighten Longfellow's inverted 'do thou remain' and archaic 'maledict' into plain, cutting modern speech, so the reader hears the cold satisfaction the pilgrim takes in the man's torment — a hardness Dante deliberately stages and Virgil then blesses."
+    },
+    {
+      "locus": "VIII.115",
+      "phrase": "le porte ... ne richiusero",
+      "older": "They closed the portals, those our adversaries, / On my Lord's breast (Longfellow)",
+      "lectio": "They slammed the gates, those enemies of ours, / in my lord's face",
+      "note": "The fallen angels shut Hell's inner gate against Virgil — the poem's guide, who has never before been refused. Longfellow's 'closed the portals ... on my Lord's breast' is grave but slack. We render the verb hard ('slammed') and put the door 'in his face,' because the humiliation is the dramatic hinge of the canto: even Virgil's authority fails here, and only the coming heavenly messenger will open the way."
+    },
+    {
+      "locus": "IX.61-63",
+      "phrase": "O voi ch'avete li 'ntelletti sani, / mirate la dottrina che s'asconde / sotto 'l velame de li versi strani",
+      "older": "O ye who have undistempered intellects, / Observe the doctrine that conceals itself / Beneath the veil of the mysterious verses! (Longfellow); O ye of sound intellect, mark well the lore / Conceal'd under the veil of strange verse (Cary)",
+      "lectio": "O you who have sound and steady minds, / look hard at the teaching that hides itself / beneath the veil of these strange verses.",
+      "note": "Dante's most direct address to the reader, breaking the frame to say outright that this scene is an allegory with a hidden meaning. The Italian 'intelletti sani' means healthy, sound minds, not Longfellow's clinical 'undistempered intellects.' We keep the famous metaphor 'veil of strange verses' (velame de li versi strani) intact rather than explaining what lies under it — the whole point of the tercet is that Dante refuses to lift the veil for us, and so do we."
+    },
+    {
+      "locus": "IX.81",
+      "phrase": "passando per lo Stige con le piante asciutte",
+      "older": "Was passing o'er the Styx with soles unwet (Longfellow); o'er the Stygian ferry pass'd with unwet feet (Cary)",
+      "lectio": "crossing the Styx on foot, his soles never touching the water",
+      "note": "The heaven-sent messenger walks dry-shod across the swamp that the damned must wade or be ferried through — a quiet, deliberate miracle that marks him as belonging to a different order entirely. Longfellow's 'soles unwet' is exact but archaic and easy to skim past; we slow the image down ('his soles never touching the water') so the reader registers the wonder of it, since the dry feet are the whole sign of his power."
+    },
+    {
+      "locus": "IX.89",
+      "phrase": "con una verghetta",
+      "older": "with a little rod / He opened it (Longfellow); with a wand he touch'd / The gate (Cary)",
+      "lectio": "with a little wand he opened it, and nothing held against him",
+      "note": "The messenger opens the iron-barred gates of Dis that defeated Virgil with nothing but a 'verghetta' — a slender wand or twig — and meets no resistance ('sanza alcun contasto'). We keep the diminutive ('a little wand') because the contrast is the meaning: the gate that all of Hell's demons held shut against the poets gives way to a touch. We render 'non v'ebbe alcun contasto' as 'nothing held against him,' plainer than Longfellow's 'there was no resistance,' so the effortlessness lands."
+    },
+    {
+      "locus": "X.36",
+      "phrase": "com'avesse l'inferno a gran dispitto",
+      "older": "E'en as if Hell he had in great despite (Longfellow); As if he entertain'd / Great scorn of hell (Cary)",
+      "lectio": "as if he held all Hell in great contempt",
+      "note": "The defining image of Farinata — the proud Ghibelline leader rising erect from the burning tomb. Dante's 'a gran dispitto' is plain and total: not flinching scorn but settled, towering contempt for the whole place that holds him. Longfellow's archaic 'in great despite' has dropped out of living English, so we render it 'in great contempt' and keep 'all Hell' so the defiance is aimed at the entirety of his damnation, which is the point of the man."
+    },
+    {
+      "locus": "X.67-68",
+      "phrase": "dicesti \"elli ebbe\"? non viv'elli ancora?",
+      "older": "Saidst thou,—he had? Is he not still alive? (Longfellow)",
+      "lectio": "You said held — held? Is he not still alive?",
+      "note": "The hinge of Cavalcante's collapse. Dante said his guide led him perhaps to one Guido 'ebbe a disdegno' — used the past tense 'ebbe' (held) — and the grieving father seizes on that one verb, reading his son's death into it. Everything turns on a tense, so the English must put the same word under the same stress; we isolate and repeat 'held' (matching the 'disdain' verb three tercets up) rather than Longfellow's vaguer 'he had,' so a modern reader feels exactly what the father heard."
+    },
+    {
+      "locus": "X.79-81",
+      "phrase": "non cinquanta volte fia raccesa / la faccia de la donna che qui regge",
+      "older": "But fifty times shall not rekindled be / The countenance of the Lady who reigns here (Longfellow)",
+      "lectio": "the face of the lady who reigns down here / will not be rekindled fifty times",
+      "note": "Farinata's prophecy of Dante's exile, given as a riddle of time. 'The lady who reigns here' is the moon — Proserpina/Hecate, queen of the underworld, identified with the moon — so 'fifty kindlings of her face' means fifty new moons, about four years, before Dante himself learns 'how heavy that art is' (the art of returning from exile). We keep the veil exactly as Dante leaves it — a named goddess only by epithet, her 'face' the lunar disk relit each month — rather than flatten it to 'fifty months,' because the prophecy is meant to be decoded, not handed over."
     }
   ],
   "sections": [
@@ -2174,6 +2237,837 @@
           "order": 44,
           "kind": "verse_block",
           "text": "and we came at last to the foot of a tower."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-08",
+      "order": 8,
+      "label": "Inferno: Canto VIII",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "I should say, going on, that long before\nwe had reached the foot of the high tower,\nour eyes had gone up to its top,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "because of two small flames we saw set there,\nand another, far off, signaling back,\nso far that the eye could barely catch it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "And I turned to that sea of all understanding\nand said: \"What does this one say? And what reply\ndoes that other fire give? Who lit them?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "And he to me: \"Out across the murky waves\nyou can already make out what is coming,\nif the marsh-fog doesn't hide it from you.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "No bowstring ever drove an arrow from itself\nthat cut through the air so fast\nas the little boat I saw in that moment,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "coming toward us over the water,\nunder the steering of a single pilot,\nwho was shouting, \"Now you're caught, vicious soul!\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "\"Phlegyas, Phlegyas, you cry out for nothing\nthis time,\" said my lord. \"You'll have us\nonly long enough to cross the swamp.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "Like a man who hears of some great trick\nthat has been played on him, and then seethes,\nso Phlegyas seethed in his gathered rage."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "My guide stepped down into the boat,\nand then he had me get in after him,\nand only when I entered did it sit low in the water."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "As soon as my guide and I were aboard,\nthe ancient prow moves off, cutting\nmore of the water than it does for others."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "While we were running across the dead channel,\none rose up in front of me, caked in mud,\nand said, \"Who are you, coming before your hour?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "And I to him: \"If I come, I do not stay.\nBut who are you, gone so foul?\"\nHe answered: \"You see I am one who weeps.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "And I to him: \"With your weeping and your wailing,\nyou cursed spirit, stay right where you are,\nfor I know you, filthy as you are.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "Then he reached both his hands toward the boat,\nbut my wary master shoved him back,\nsaying, \"Get away there, with the other dogs!\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "Then he put his arms around my neck,\nkissed my face, and said: \"Disdainful soul,\nblessed is the woman who carried you."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "In the world that one was an arrogant man.\nNo good deed adorns his memory,\nso here his shade is wild with fury."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "How many up there are taken for great kings\nwho will lie here like pigs in the muck,\nleaving nothing behind but contempt!\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "And I: \"Master, I would dearly love\nto see him ducked down into this sludge\nbefore we make it out of the lake.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "And he to me: \"Before the far shore\ncomes into view, you'll be satisfied.\nIt's only right you should enjoy that wish.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "A little after, I watched the people of the mud\ntear into him with such fury\nthat to this day I praise and thank God for it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "They were all screaming, \"Get Filippo Argenti!\"\nand that raging Florentine spirit\nturned his teeth against his own flesh."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "We left him there — I'll tell no more of him.\nBut a sound of grief struck against my ears,\nand I strained my eyes wide ahead."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "And the good master said: \"Now, my son,\nthe city is coming close whose name is Dis,\nwith its grim citizens, its great throng.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "And I: \"Master, I can already see\nits mosques there, plainly, down in the valley,\nglowing red as if they'd come out of fire.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "And he to me: \"The eternal fire\nthat burns inside them turns them red,\nas you can see, here in lower Hell.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "Then we came inside the deep moats\nthat wall that desolate city all around.\nThe ramparts looked to me to be of iron."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "Not without making a wide circuit first,\nwe came to a place where the pilot\nbellowed at us, \"Out — here is the entrance.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "Over the gates I saw more than a thousand\nrained down from Heaven, who in their fury\nwere saying, \"Who is this, with no death in him,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "who walks through the kingdom of the dead?\"\nAnd my knowing master made a sign\nthat he wished to speak with them in private."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "Then they held back a little of their great scorn\nand said: \"You come alone. Let him go —\nthe one who's pushed so boldly into this realm."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "Let him go back alone on his crazed road.\nLet him try, if he can. You will stay here,\nyou who have led him through such dark country.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "Imagine, reader, how I sank\nat the sound of those accursed words,\nfor I believed I would never come back."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "\"O my dear guide, who more than seven times\nhave handed me back my safety, and drawn me\nout of the dangers standing in my path,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "don't leave me wrecked like this,\" I said.\n\"And if going on is forbidden us,\nlet's turn back together, and quickly.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "And that lord, who had brought me there,\nsaid to me: \"Don't be afraid. No one\ncan take our crossing — it is granted by One above."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "But wait for me here, and feed your worn spirit,\ncomfort it with a better hope,\nfor I will not abandon you in this low world.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "So he goes off and leaves me there,\nmy sweet father, and I am left in doubt,\nwith Yes and No at war inside my head."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "I couldn't hear what he proposed to them,\nbut he had not stood with them long\nbefore each one scrambled back inside, racing."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "They slammed the gates, those enemies of ours,\nin my lord's face — and he was left outside,\nand turned to me with slow, dragging steps."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "His eyes were on the ground, his brow stripped\nof all its boldness, and he said with sighs:\n\"Who has shut the houses of grief against me?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "And to me: \"Don't you be afraid\nbecause I'm angry — I will win this trial,\nwhatever they scheme up for defense inside."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "This arrogance of theirs is nothing new.\nThey tried it once at a less hidden gate,\nwhich stands to this day without a lock."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "Over it you saw the inscription of death.\nAnd already this side of it, coming down the slope,\ncrossing the circles with no escort,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-08.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "is one by whose power the city will be opened.\""
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-09",
+      "order": 9,
+      "label": "Inferno: Canto IX",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "The color that my cowardice had painted\nover my face, seeing my guide turn back,\nmade him the quicker to swallow his own."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "He stopped and listened hard, like a man straining,\nbecause his eyes could carry him no distance\nthrough the black air and the thick fog."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "\"Still, we have to win this fight,\" he began —\n\"unless . . . But such a one offered her help . . .\nOh, how I wish that someone would arrive!\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "I saw clearly how he covered the beginning\nof what he'd said with what came after it,\nso that the end ran counter to the start —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "but his words frightened me all the same,\nbecause I drew out of the broken phrase\na worse meaning, maybe, than he meant."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "\"Down into this sad pit of a shell,\ndoes anyone ever come from the first ring,\nwhere the only punishment is hope cut off?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "This was my question, and he answered me:\n\"It rarely happens that one of us\nmakes the journey I am making now."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "It's true that once before I came down here,\nconjured by that pitiless Erichtho,\nwho called the shades back into their dead bodies."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "My flesh had been stripped from me a short while\nwhen she sent me inside that wall to bring\na spirit out of the circle of Judas."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "That is the lowest place, the darkest,\nthe farthest from the heaven that turns all things.\nI know the road well — so set your mind at ease."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "This marsh that breathes out such a monstrous stench\nrings the whole city of grief around,\nwhere now we cannot enter without rage.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "And he said more, but I can't hold it in mind,\nbecause my eyes had drawn me all the way\nto the high tower with its red-flaming top,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "where, in an instant, I saw rise straight up\nthe three infernal Furies, stained with blood,\nwho had the limbs of women and their look,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "and were girdled with the greenest water-snakes;\nsmall serpents and horned vipers were their hair,\nbound around their savage temples."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "And he, who knew well the handmaids\nof the queen of everlasting grief,\nsaid to me: \"Look at the fierce Furies."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "That is Megaera, there on the left.\nThe one weeping on the right is Alecto.\nTisiphone is between them.\" Then he was still."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "Each one was tearing at her breast with her nails;\nthey beat themselves with their palms and shrieked so loud\nthat in dread I pressed close against the poet."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "\"Let Medusa come, and we'll turn him to stone!\"\nthey all cried, looking down. \"It was a bad day\nwe failed to avenge the assault of Theseus.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "\"Turn around, and keep your eyes shut tight,\nbecause if the Gorgon shows herself and you look,\nthere'd be no climbing back up, ever.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "So said the master, and he turned me himself,\nand did not trust it to my own hands,\nbut sealed my eyes shut with his too."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "O you who have sound and steady minds,\nlook hard at the teaching that hides itself\nbeneath the veil of these strange verses."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "And now, across the muddy water, came\nthe crash of a sound so full of terror\nthat both the banks of the marsh were trembling."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "It was just like a wind, turned violent\nby the clash of opposing heats, that strikes\nthe forest and, holding nothing back,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "rips the branches off, beats them down, sweeps them away,\nand goes on in a proud cloud of dust,\nputting the wild beasts and the shepherds to flight."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "He freed my eyes and said: \"Now aim the line\nof your sight across that ancient scum,\nover there, where the smoke is thickest.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "The way frogs, before the snake that hunts them,\nscatter every which way through the water\nuntil each one is hunched down in the mud,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "I saw more than a thousand ruined souls\nfleeing before one who was crossing the Styx\non foot, his soles never touching the water."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "He fanned that greasy air away from his face,\nwaving his left hand over and over in front of him,\nand only that disgust seemed to weary him."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "I saw at once that he was sent from Heaven,\nand turned to my master, who made a sign\nthat I should stand quiet and bow to him."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "Ah, how full of scorn he seemed to me!\nHe came to the gate, and with a little wand\nhe opened it, and nothing held against him."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "\"O you cast out of Heaven, despised people,\"\nhe began on that hideous threshold,\n\"where does this arrogance of yours come from?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "Why do you kick against that will\nwhose end can never be cut short,\nand which has many times piled on your pain?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "What good does it do to butt against the fates?\nYour own Cerberus, if you remember,\nstill carries his chin and throat rubbed raw for it.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "Then he turned back along the filthy road\nand said no word to us, but wore the look\nof a man gripped and driven by another care"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "than the one of whoever stands before him.\nAnd we set our feet toward the city,\nsure of ourselves now after those holy words."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "We went in without any struggle,\nand I, who was eager to see\nwhat such a fortress holds inside,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "once I was in, threw my eyes all around me,\nand saw on every side a wide plain,\nfull of suffering and terrible torment."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "The way it is at Arles, where the Rhone goes still,\nor at Pola, near the Quarnaro gulf\nthat closes Italy in and bathes its edges,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "where the tombs make the whole ground uneven —\nso it was here, on every side,\nexcept the manner of it was far more bitter,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "for flames were scattered in among the tombs,\nand they were heated so completely by them\nthat no craft needs iron made any hotter."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "All of their lids had been lifted off,\nand out of them came such grievous laments\nthey sounded like the truly wretched and tortured."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "And I said: \"Master, who are all these people\nburied inside these vaults, who make themselves\nheard by their mournful sighing?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "And he to me: \"Here are the arch-heretics,\nwith their followers from every sect, and the tombs\nare loaded far more full than you would think."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "Like is buried here together with like,\nand the monuments burn hotter and less hot.\"\nAnd then he turned to the right, and we passed"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-09.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "between the torments and the high parapets."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-10",
+      "order": 10,
+      "label": "Inferno: Canto X",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "Now my master goes along a hidden path\nbetween the city wall and the tormented,\nand I follow at his back."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "\"O highest power, who wheel me as you please\nthrough these unholy circles,\" I began,\n\"speak to me, and satisfy my longing."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "The people lying here in these tombs —\ncould they be seen? All the lids\nare already lifted, and no one stands guard.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "And he to me: \"They will all be sealed\nwhen they come back here from Jehoshaphat\nwith the bodies they left up above."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "On this side they have their burial ground,\nEpicurus and all his followers,\nwho make the soul die along with the body."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "But the question you put to me\nwill be answered soon enough in here,\nand so will the wish you keep to yourself.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "And I: \"Good guide, I don't hide my heart\nfrom you, except to say less than I might —\nand you yourself have inclined me to that.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "\"O Tuscan, you who go alive\nthrough the city of fire, speaking so plainly,\nbe pleased to stop a moment in this place."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "Your way of speaking makes it clear\nyou were born in that noble homeland\nto which I was, perhaps, too much a scourge.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "All at once this sound came out\nfrom one of the tombs; and so, afraid,\nI drew a little closer to my guide."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "And he said to me: \"Turn around. What are you doing?\nLook at Farinata, who has risen there —\nfrom the waist up you'll see the whole of him.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "I had already fixed my eyes on his,\nand he was rising, with his chest and brow erect,\nas if he held all Hell in great contempt."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "And my guide's hands, bold and quick,\npushed me toward him between the tombs,\nsaying: \"Let your words be clear and exact.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "As soon as I stood at the foot of his tomb,\nhe looked me over, and then, almost scornful,\nasked me: \"Who were your ancestors?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "And I, who wanted only to obey,\nhid nothing, but laid it all open to him;\nat which he raised his brows a little."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "Then he said: \"They were fierce enemies\nto me, to my forefathers, and to my party,\nso that twice over I scattered them.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "\"If they were driven out, they came back —\nfrom every side, both times,\" I answered him.\n\"But your people never quite learned that art.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "Then, rising into view beside him,\nuncovered to the chin, a shade appeared;\nI think he had risen onto his knees."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "He looked around me, as if he longed\nto see whether someone else was with me;\nand when his hope was wholly spent,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "weeping, he said: \"If you go through this blind\nprison by the height of your own genius,\nwhere is my son? Why isn't he with you?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "And I to him: \"I don't come on my own.\nThe one waiting over there leads me here —\nperhaps to one your Guido held in disdain.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "His words, and the kind of punishment he bore,\nhad already spelled his name out to me;\nthat's why my answer was so full."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "Suddenly standing bolt upright, he cried:\n\"What? You said held — held? Is he not still alive?\nDoes the sweet light no longer strike his eyes?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "When he saw that I had paused,\nthat I held back a moment before answering,\nhe fell flat again, and showed himself no more."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "But that other, the great-souled one, at whose word\nI had stayed, did not change his look,\nnor move his neck, nor bend his side."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "Picking up his first thread, he went on:\n\"If they have learned that art so badly,\nit torments me more than this bed does."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "But the face of the lady who reigns down here\nwill not be rekindled fifty times\nbefore you'll know the weight of that art yourself."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "And as you hope to return to the sweet world,\ntell me: why is that people so merciless\nagainst my line in every one of its laws?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "And I to him: \"The slaughter and the carnage\nthat stained the Arbia red\nmakes such prayers be said in our temple.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "Then, having shaken his head with a sigh,\nhe said: \"There I was not alone,\nnor surely without cause did I move with the rest."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "But I was alone, there where every one of them\nagreed to wipe Florence off the earth —\nI was the one who defended her openly.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "\"Ah, so may your seed find rest one day,\"\nI begged him, \"untie this knot for me\nthat has tangled up my thinking here."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "It seems, if I hear you rightly, that you see\nbeforehand what time is bringing on,\nbut have some other way with the present.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "\"We see, like men with failing sight,\nthe things,\" he said, \"that are far off from us;\nthat much the highest Ruler still grants us."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "When they draw near, or arrive, our minds\nare blank; and unless someone brings us word,\nwe know nothing of your human state."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "So you can understand that all our knowledge\nwill be dead from the very moment\nthe door of the future is shut.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "Then, stung as if at fault, I said:\n\"Now will you tell that fallen one\nthat his son is still joined to the living;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "and if I stood mute just now before answering,\ntell him I did it because I was already\nthinking of the error you have solved for me.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "And now my master was calling me back;\nso I asked the spirit, more urgently,\nto tell me who else lay there with him."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "He said: \"More than a thousand lie here with me.\nInside is the second Frederick,\nand the Cardinal; of the rest I say nothing.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "Then he hid himself; and I turned my steps\nback to the ancient poet, turning over\nthat saying that had sounded like a threat."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "He moved on, and as we went, he said:\n\"Why are you so lost in yourself?\"\nAnd I answered the question he had asked."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "\"Keep in your mind what you have heard\nspoken against you,\" the sage commanded me.\n\"And now listen here,\" and he raised his finger:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "\"When you stand before the sweet light\nof her whose lovely eyes see everything,\nfrom her you'll learn the journey of your life.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "Then he turned his feet to the left.\nWe left the wall and went toward the center,\nalong a path that cuts down into a valley"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-10.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "whose stench, even up there, turned the stomach."
         }
       ]
     }
