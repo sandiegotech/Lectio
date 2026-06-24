@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 // Collects each token's frame (in global space) so taps and drags can be mapped to words.
 struct TokenFrameKey: PreferenceKey {
@@ -131,16 +132,20 @@ struct WordFlowText: View {
 struct WordCard: View {
     let term: String
     let definition: String?
+    var kind: String? = nil           // set when the entry came from the curated glossary
     let workTitle: String?
     let workId: String?
     let pal: Palette
     let onClose: () -> Void
     @EnvironmentObject var saved: SavedStore
 
+    private var hasDefinition: Bool { (definition?.isEmpty == false) }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            HStack {
+            HStack(spacing: 8) {
                 Text(term).font(.system(.title3, design: .serif)).foregroundColor(pal.accent)
+                if let kind, !kind.isEmpty { kindChip(kind) }
                 Spacer()
                 Button(action: onClose) {
                     Image(systemName: "xmark").font(.caption2)
@@ -151,29 +156,77 @@ struct WordCard: View {
                 Text(def).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
             } else {
-                Text("No definition yet — the full Webster's 1913 dictionary isn't ingested. You can still save it.")
+                Text("Not in this book's glossary. Save it for study, or look it up in Gloss.")
                     .font(.caption).foregroundColor(pal.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            Button {
-                saved.toggle(SavedWord(term: term, definition: definition ?? "",
-                                       workTitle: workTitle, workId: workId))
-            } label: {
-                Label(saved.isSaved(term) ? "Saved" : "Save word",
-                      systemImage: saved.isSaved(term) ? "bookmark.fill" : "bookmark")
-                    .font(.caption.weight(.medium))
-                    .padding(.horizontal, 10).padding(.vertical, 5)
-                    .background(saved.isSaved(term) ? pal.accent : pal.paper)
-                    .foregroundColor(saved.isSaved(term) ? .white : pal.accent)
-                    .clipShape(RoundedRectangle(cornerRadius: 7))
-                    .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
+            HStack(spacing: 8) {
+                Button {
+                    saved.toggle(SavedWord(term: term, definition: definition ?? "",
+                                           workTitle: workTitle, workId: workId))
+                } label: {
+                    Label(saved.isSaved(term) ? "Saved" : "Save word",
+                          systemImage: saved.isSaved(term) ? "bookmark.fill" : "bookmark")
+                        .font(.caption.weight(.medium))
+                        .padding(.horizontal, 10).padding(.vertical, 5)
+                        .background(saved.isSaved(term) ? pal.accent : pal.paper)
+                        .foregroundColor(saved.isSaved(term) ? .white : pal.accent)
+                        .clipShape(RoundedRectangle(cornerRadius: 7))
+                        .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
+                }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
+            glossLink
         }
         .padding(14)
         .frame(width: 260)
         .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
         .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
         .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
+    }
+
+    private func kindChip(_ kind: String) -> some View {
+        Text(kind.uppercased())
+            .font(.system(size: 9, weight: .semibold)).tracking(0.6)
+            .foregroundColor(pal.inkSoft)
+            .padding(.horizontal, 6).padding(.vertical, 2)
+            .background(Capsule().stroke(pal.rule))
+    }
+
+    // Subtle bridge to the sibling app — prominent when the word is outside this
+    // book's corpus, a quiet "study deeper" link when we already have a definition.
+    private var glossLink: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Divider().overlay(pal.rule)
+            Button {
+                GlossLink.open(term: term)
+            } label: {
+                HStack(spacing: 6) {
+                    Image(systemName: "sparkle.magnifyingglass").font(.caption2)
+                    Text(hasDefinition ? "Study in Gloss" : "Look up “\(term)” in Gloss")
+                        .font(.caption.weight(.medium))
+                    Spacer(minLength: 0)
+                    Text("powered by Gloss")
+                        .font(.system(size: 8, weight: .regular)).tracking(0.3)
+                        .foregroundColor(pal.inkSoft.opacity(0.7))
+                }
+                .foregroundColor(hasDefinition ? pal.inkSoft : pal.accent)
+            }
+            .buttonStyle(.plain)
+        }
+    }
+}
+
+// Opens the word in the sibling SDIT app, Gloss — trying its URL scheme first and
+// falling back to the web. The personal vocabulary layer is shared across SDIT apps
+// (BIBLE §8): a word looked up here is there to study in Gloss.
+enum GlossLink {
+    static func open(term: String) {
+        let q = term.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? term
+        guard let scheme = URL(string: "gloss://define?term=\(q)") else { return }
+        let web = URL(string: "https://sandiegotech.org/gloss?q=\(q)")
+        UIApplication.shared.open(scheme, options: [:]) { opened in
+            if !opened, let web { UIApplication.shared.open(web) }
+        }
     }
 }
