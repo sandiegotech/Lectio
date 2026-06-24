@@ -21,13 +21,11 @@ struct ReaderView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var scenePhase
 
-    @State private var explore = false
-    @State private var showContents = false
+    @State private var panel: SidePanel?
     @State private var expandedBooks: Set<String> = []
     @State private var currentBookIndex = 0
     @State private var currentEditionId: String?
     @State private var scrollTarget: String?
-    @State private var showProvenance = false
     @State private var introExpanded = true
     @State private var topSegmentId: String?
     @State private var didRestore = false
@@ -37,8 +35,6 @@ struct ReaderView: View {
     @State private var selSegmentId: String?
     @State private var selRange: ClosedRange<Int>?
     @State private var selPopup: SelPopup?
-    @State private var showMarksSheet = false
-    @State private var compare = false
     @State private var compareEditionId: String?
     // Compare-sync: tap a passage in one column and the proportionally-matching passage
     // lights up (and scrolls into view) in the other. Best-effort by position within the
@@ -50,6 +46,42 @@ struct ReaderView: View {
     @Environment(\.horizontalSizeClass) private var hSize
 
     private var pal: Palette { Palette.forScheme(colorScheme) }
+
+    // One right-side drawer, switchable between all the ways to interact with the book.
+    enum SidePanel: String, CaseIterable, Identifiable {
+        case contents, compare, marks, info
+        var id: String { rawValue }
+        var icon: String {
+            switch self {
+            case .contents: return "list.bullet"
+            case .compare:  return "rectangle.split.2x1"
+            case .marks:    return "lightbulb"
+            case .info:     return "info.circle"
+            }
+        }
+        var title: String {
+            switch self {
+            case .contents: return "Contents"
+            case .compare:  return "Compare"
+            case .marks:    return "Marks"
+            case .info:     return "About"
+            }
+        }
+    }
+    private var compare: Bool { panel == .compare }
+    // Open the panel to a mode, or close it if that mode is already showing.
+    private func togglePanel(_ p: SidePanel) {
+        withAnimation(.easeInOut(duration: 0.2)) {
+            if panel == p { panel = nil }
+            else {
+                panel = p
+                if p == .compare, compareEditionId == nil || compareEditionId == currentEdition?.id {
+                    compareEditionId = editions.first { $0.id != currentEdition?.id }?.id
+                }
+                if p != .compare { syncMainSegId = nil; syncCmpSegId = nil }
+            }
+        }
+    }
 
     // A word lookup popup, anchored near the tapped word.
     struct WordPopup { var term: String; var def: String?; var kind: String?; var conceptId: String?; var point: CGPoint }
@@ -103,21 +135,12 @@ struct ReaderView: View {
                         if let ed = currentEdition {
                             HStack(alignment: .top, spacing: 0) {
                                 readingColumn(ed)
-                                if compare, hSize == .regular, let cmp = compareEdition {
+                                if hSize == .regular, let p = panel {
                                     Divider().overlay(pal.rule)
-                                    compareColumn(cmp)
-                                        .frame(width: geo.size.width * 0.44)
-                                        .background(pal.paper)
+                                    sidePanel(p)
+                                        .frame(width: min(480, max(320, geo.size.width * 0.42)))
+                                        .background(p == .marks ? pal.rail : pal.paper)
                                         .transition(.move(edge: .trailing))
-                                } else if explore && hSize == .regular {
-                                    MarginRail(
-                                        work: work, pal: pal,
-                                        onJump: jumpToSegment,
-                                        onWordJump: jumpToWord
-                                    )
-                                    .frame(width: max(240, geo.size.width * 0.30))
-                                    .background(pal.rail)
-                                    .transition(.move(edge: .trailing))
                                 }
                             }
                         } else {
@@ -146,21 +169,13 @@ struct ReaderView: View {
             .background(pal.paper)
         }
         .toolbar(.hidden, for: .navigationBar)
-        .sheet(isPresented: $showContents) { contentsSheet }
-        .sheet(isPresented: $showProvenance) {
-            if let ed = currentEdition {
-                ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
-                    .presentationDetents([.medium, .large])
+        // On iPhone (compact) the same switchable panel comes up as a bottom sheet.
+        .sheet(isPresented: compactPanelBinding) {
+            if let p = panel {
+                sidePanel(p)
+                    .background(p == .marks ? pal.rail : pal.paper)
+                    .presentationDetents([.large])
             }
-        }
-        .sheet(isPresented: $showMarksSheet) {
-            MarginRail(
-                work: work, pal: pal,
-                onJump: { id in showMarksSheet = false; jumpToSegment(id) },
-                onWordJump: { term in showMarksSheet = false; jumpToWord(term) }
-            )
-            .background(pal.paper)
-            .presentationDetents([.medium, .large])
         }
         .onAppear {
             if currentEditionId == nil { currentEditionId = work.defaultEditionId }
@@ -194,11 +209,11 @@ struct ReaderView: View {
             }
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
-                explore = true
+                panel = .marks
             }
             // Debug hook: LECTIO_DEBUG_COMPARE turns on side-by-side compare (for screenshots).
             if let c = ProcessInfo.processInfo.environment["LECTIO_DEBUG_COMPARE"] {
-                compare = true
+                panel = .compare
                 if !c.isEmpty { compareEditionId = c }
                 else { compareEditionId = editions.first { $0.id != currentEdition?.id }?.id }
                 // Debug: pre-trigger a compare-sync highlight (headless screenshots can't tap).
@@ -212,11 +227,11 @@ struct ReaderView: View {
             }
             // Debug hook: LECTIO_DEBUG_PROVENANCE opens the provenance sheet (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PROVENANCE"] != nil {
-                showProvenance = true
+                panel = .info
             }
             // Debug hook: LECTIO_DEBUG_CONTENTS opens the contents with book 1 expanded.
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTENTS"] != nil {
-                showContents = true
+                panel = .contents
                 if let first = currentEdition?.sections.first { expandedBooks = [first.id] }
             }
         }
@@ -310,40 +325,34 @@ struct ReaderView: View {
             iconButton("chevron.left") { dismiss() }
             editionMenu
             Spacer()
-            iconButton("list.bullet") { showContents = true }
+            panelButton(.contents)
             bookmarkButton
-            iconButton("info.circle") { showProvenance = true }
-            if hSize == .regular, editions.count > 1 { compareButton }
-            contextButton
+            if hSize == .regular, editions.count > 1 { panelButton(.compare) }
+            panelButton(.marks)
+            panelButton(.info)
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 6)
         .background(pal.paper)
     }
 
-    // Side-by-side translation compare (iPad). Reads the same book in two editions at once,
-    // following you book-to-book as you scroll the main column.
-    private var compareButton: some View {
-        Button {
-            withAnimation(.easeInOut(duration: 0.2)) {
-                compare.toggle()
-                if compare {
-                    explore = false
-                    if compareEditionId == nil || compareEditionId == currentEdition?.id {
-                        compareEditionId = editions.first { $0.id != currentEdition?.id }?.id
-                    }
-                } else {
-                    syncMainSegId = nil; syncCmpSegId = nil
-                }
-            }
-        } label: {
-            Image(systemName: compare ? "rectangle.split.2x1.fill" : "rectangle.split.2x1")
+    // A header toggle for one drawer mode; lit when that mode is open.
+    private func panelButton(_ p: SidePanel) -> some View {
+        Button { togglePanel(p) } label: {
+            Image(systemName: p.icon)
                 .font(.body.weight(.medium))
-                .foregroundColor(compare ? pal.accent : pal.inkSoft)
+                .foregroundColor(panel == p ? pal.accent : pal.inkSoft)
         }
         .buttonStyle(.plain)
     }
 
+    private var compactPanelBinding: Binding<Bool> {
+        Binding(get: { hSize == .compact && panel != nil },
+                set: { if !$0 { panel = nil } })
+    }
+
+    // Side-by-side translation compare (iPad). Reads the same book in two editions at once,
+    // following you book-to-book as you scroll the main column.
     private var bookmarkButton: some View {
         let bm = reading.bookmark(work.id)
         return Button { bookmarkAction() } label: {
@@ -366,22 +375,6 @@ struct ReaderView: View {
         } else {
             jumpToSegment(bm)
         }
-    }
-
-    private var contextButton: some View {
-        let active = hSize == .regular && explore
-        return Button {
-            if hSize == .regular {
-                withAnimation(.easeInOut(duration: 0.2)) { explore.toggle(); if explore { compare = false } }
-            } else {
-                showMarksSheet = true     // iPhone: marks open as a bottom sheet
-            }
-        } label: {
-            Image(systemName: active ? "lightbulb.circle.fill" : "lightbulb.circle")
-                .font(.body.weight(.medium))
-                .foregroundColor(active ? pal.accent : pal.inkSoft)
-        }
-        .buttonStyle(.plain)
     }
 
     private var editionMenu: some View {
@@ -540,7 +533,24 @@ struct ReaderView: View {
     @ViewBuilder
     private func compareColumn(_ ed: Edition) -> some View {
         VStack(spacing: 0) {
-            compareHeader(ed)
+            HStack(spacing: 6) {
+                Text("Showing").font(.caption2).foregroundColor(pal.inkSoft)
+                Menu {
+                    Picker("Compare with", selection: compareSelection) {
+                        ForEach(editions.filter { $0.id != currentEdition?.id }) { e in
+                            Text(editionLabel(e)).tag(e.id)
+                        }
+                    }
+                } label: {
+                    HStack(spacing: 4) {
+                        Text(editionLabel(ed)).font(.caption.weight(.medium))
+                            .foregroundColor(pal.accent).lineLimit(1)
+                        Image(systemName: "chevron.down").font(.caption2).foregroundColor(pal.accent)
+                    }
+                }
+                Spacer()
+            }
+            .padding(.horizontal, 14).padding(.vertical, 6)
             Divider().overlay(pal.rule)
             if ed.sections.indices.contains(currentBookIndex) {
                 let sec = ed.sections[currentBookIndex]
@@ -586,36 +596,68 @@ struct ReaderView: View {
         }
     }
 
-    private func compareHeader(_ ed: Edition) -> some View {
-        HStack(spacing: 8) {
-            Text("COMPARE").font(.caption2).tracking(2).foregroundColor(pal.inkSoft)
-            Spacer()
-            Menu {
-                Picker("Compare with", selection: compareSelection) {
-                    ForEach(editions.filter { $0.id != currentEdition?.id }) { e in
-                        Text(editionLabel(e)).tag(e.id)
-                    }
-                }
-            } label: {
-                HStack(spacing: 4) {
-                    Text(editionLabel(ed)).font(.caption.weight(.medium))
-                        .foregroundColor(pal.accent).lineLimit(1)
-                    Image(systemName: "chevron.down").font(.caption2).foregroundColor(pal.accent)
-                }
-            }
-            Button { withAnimation(.easeInOut(duration: 0.2)) { compare = false } } label: {
-                Image(systemName: "xmark").font(.caption2).foregroundColor(pal.inkSoft)
-            }
-            .buttonStyle(.plain)
-        }
-        .padding(.horizontal, 14).padding(.vertical, 8)
-    }
-
     private var compareSelection: Binding<String> {
         Binding(
             get: { compareEdition?.id ?? "" },
             set: { compareEditionId = $0 }
         )
+    }
+
+    // MARK: the one right-side drawer (switchable: Contents · Compare · Marks · About)
+
+    @ViewBuilder
+    private func sidePanel(_ p: SidePanel) -> some View {
+        VStack(spacing: 0) {
+            panelTabBar(p)
+            Divider().overlay(pal.rule)
+            switch p {
+            case .contents:
+                contentsPanel
+            case .compare:
+                if let cmp = compareEdition { compareColumn(cmp) }
+                else { emptyPanelNote("No other edition to compare yet.") }
+            case .marks:
+                MarginRail(work: work, pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
+            case .info:
+                if let ed = currentEdition {
+                    ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
+                } else { emptyPanelNote("No edition available.") }
+            }
+        }
+    }
+
+    private func panelTabBar(_ p: SidePanel) -> some View {
+        let tabs = SidePanel.allCases.filter { $0 != .compare || (hSize == .regular && editions.count > 1) }
+        return HStack(spacing: 6) {
+            Text(p.title).font(.subheadline.weight(.semibold)).foregroundColor(pal.ink)
+            Spacer(minLength: 0)
+            ForEach(tabs) { tab in
+                Button { withAnimation(.easeInOut(duration: 0.15)) { panel = tab } } label: {
+                    Image(systemName: tab.icon)
+                        .font(.system(size: 15, weight: .medium))
+                        .foregroundColor(p == tab ? pal.paper : pal.inkSoft)
+                        .frame(width: 32, height: 28)
+                        .background(RoundedRectangle(cornerRadius: 7)
+                            .fill(p == tab ? pal.accent : pal.rule.opacity(0.35)))
+                }
+                .buttonStyle(.plain)
+            }
+            Button { withAnimation(.easeInOut(duration: 0.2)) { panel = nil } } label: {
+                Image(systemName: "xmark").font(.system(size: 13, weight: .semibold))
+                    .foregroundColor(pal.inkSoft).frame(width: 28, height: 28)
+            }
+            .buttonStyle(.plain)
+            .padding(.leading, 2)
+        }
+        .padding(.horizontal, 12).padding(.vertical, 8)
+    }
+
+    private func emptyPanelNote(_ s: String) -> some View {
+        VStack(spacing: 10) {
+            Image(systemName: "book.closed").font(.title2).foregroundColor(pal.inkSoft.opacity(0.5))
+            Text(s).font(.callout).foregroundColor(pal.inkSoft).multilineTextAlignment(.center)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity).padding(28)
     }
 
     private func introBlock(_ text: String) -> some View {
@@ -668,12 +710,11 @@ struct ReaderView: View {
         return currentEdition?.sections.first { bm == $0.id || bm.hasPrefix($0.id + ".") }
     }
 
-    private var contentsSheet: some View {
-        NavigationStack {
+    private var contentsPanel: some View {
             List {
                 if let bm = reading.bookmark(work.id) {
                     Button {
-                        jumpToSegment(bm); showContents = false
+                        jumpToSegment(bm); panel = nil
                     } label: {
                         Label("Return to your bookmark", systemImage: "bookmark.fill")
                             .font(.subheadline.weight(.medium)).foregroundColor(pal.accent)
@@ -725,14 +766,6 @@ struct ReaderView: View {
             }
             .scrollContentBackground(.hidden)
             .background(pal.paper)
-            .navigationTitle("Contents")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { showContents = false }
-                }
-            }
-        }
     }
 
     private func expandedBinding(_ id: String) -> Binding<Bool> {
@@ -749,7 +782,7 @@ struct ReaderView: View {
             currentBookIndex = idx
         }
         scrollTarget = section.id
-        showContents = false
+        panel = nil
     }
 
     // MARK: actions
