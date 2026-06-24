@@ -19,7 +19,7 @@
       "Charles Eliot Norton, prose (1892, public domain)",
       "modern verse translations (Ciardi, Mandelbaum, Hollander, consulted, not quoted)"
     ],
-    "tokensEstimated": 154193,
+    "tokensEstimated": 156957,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -46,6 +46,48 @@
       "older": "'Twixt Feltro and Feltro (Longfellow); 'Twixt either Feltro (Cary)",
       "lectio": "between felt and felt",
       "note": "The veltro's (Greyhound's) birthplace is one of the most debated lines in the poem — whether 'feltro' means the towns Feltre and Montefeltro, humble felt cloth, or something else. The line is meant to be a riddle, so we keep it as a riddle rather than resolve it for the reader."
+    },
+    {
+      "locus": "II.13–18",
+      "phrase": "Beatrice am I, who do bid thee go",
+      "older": "I am Beatrice, who do bid thee go; / I come from there, where I would fain return; / Love moved me, which compelleth me to speak.",
+      "lectio": "I am Beatrice, who send you on this. / I come from the place I long to return to. / Love moved me, and makes me speak.",
+      "note": "Italian 'Amor mi mosse, che mi fa parlare' — the engine of the whole rescue is love, stated plainly. We keep the simple subject 'Love' so it lands as a force, not a flourish, and drop 'fain'/'compelleth.'"
+    },
+    {
+      "locus": "II.32",
+      "phrase": "I not Aeneas am, I am not Paul",
+      "older": "I not Aeneas am, I am not Paul, / Nor I, nor others, think me worthy of it.",
+      "lectio": "I am not Aeneas, I am not Paul. / Neither I nor anyone thinks me worthy of it.",
+      "note": "Dante's 'Io non Enea, io non Paulo sono' is two stark, parallel denials — the hinge of the canto's self-doubt. We straighten Longfellow's inverted word order so the repetition hits like the original's, with nothing between the reader and the names."
+    },
+    {
+      "locus": "II.76",
+      "phrase": "the smallest of the heavens",
+      "older": "all contained / Within the heaven that has the lesser circles",
+      "lectio": "all that the smallest of the heavens holds",
+      "note": "'Il ciel c'ha minor li cerchi sui' is the sphere of the Moon, whose orbit is smallest — i.e., everything beneath the heavens, the whole sublunary world. We name the cosmology plainly rather than reproduce Longfellow's 'lesser circles,' which leaves a modern reader guessing."
+    },
+    {
+      "locus": "III.9",
+      "phrase": "Lasciate ogne speranza, voi ch'intrate",
+      "older": "All hope abandon, ye who enter in! (Longfellow); All hope abandon, ye who enter here (Cary)",
+      "lectio": "Abandon every hope, you who enter here.",
+      "note": "The most famous line carved over Hell's gate. Longfellow's inverted 'All hope abandon, ye who enter in' is exactly the archaic word-order The Vernacular removes. The Italian is a plain, terrible imperative — verb, object, then the address — so we keep it that way: 'Abandon every hope.' We say 'every' (ogne) rather than 'all,' since Dante stresses each separate hope being given up, and 'here' for the gate the reader is standing at."
+    },
+    {
+      "locus": "III.60",
+      "phrase": "che fece per viltade il gran rifiuto",
+      "older": "Who made through cowardice the great refusal (Longfellow); who in his cowardice / Made the great refusal (Cary)",
+      "lectio": "who out of cowardice made the great refusal",
+      "note": "Dante deliberately leaves this shade unnamed — most readers take it for Pope Celestine V, who abdicated the papacy, but the poem will not say so. We keep the figure anonymous and keep the resonant phrase 'the great refusal' intact rather than explaining it, because the withholding is the point."
+    },
+    {
+      "locus": "III.112-117",
+      "phrase": "Come d'autunno si levan le foglie",
+      "older": "As in the autumn-time the leaves fall off (Longfellow); As fall off the light autumnal leaves (Cary)",
+      "lectio": "The way the leaves let go in autumn",
+      "note": "The canto's central image — the dead dropping one by one into Charon's boat like falling leaves. Dante's verb is 'si levan' (lift away / let go), gentler and stranger than 'fall off.' We keep that releasing motion ('let go') so the simile carries the eerie willingness Dante gives it, matching the falling-leaves image already named in this edition's overview."
     }
   ],
   "sections": [
@@ -329,6 +371,584 @@
           "order": 46,
           "kind": "verse_block",
           "text": "Then he set out, and I followed behind."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-02",
+      "order": 2,
+      "label": "Inferno: Canto II",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "The day was leaving, and the darkening air\nwas letting the creatures of the earth\nrest from their labors; I alone"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "was making myself ready for the struggle —\nthe hard road and the suffering both —\nwhich memory, which does not fail, will trace again."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "O Muses, O high genius, help me now.\nO memory, that wrote down what I saw,\nhere your true worth will show."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "I began: \"Poet, you who guide me,\nlook at my courage — is it enough,\nbefore you trust me to this brutal pass?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "You tell how the father of Silvius,\nwhile still in his mortal body,\nwent to the immortal world and stood there in the flesh."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "But if the enemy of all evil\nwas gracious to him, thinking of the great effect\nthat would come of it — who he was, and what —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "that doesn't seem unfitting to a thinking man,\nfor he was chosen, in the highest heaven,\nto be the father of great Rome and of her empire;"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "and that empire, if we want the truth,\nwas founded as the holy place\nwhere the heir of greatest Peter sits."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "On this journey you give him such credit for,\nhe heard the things that were the cause\nboth of his victory and of the papal robe."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "Later the Chosen Vessel went there too,\nto bring back proof for that Faith\nwhich is the first step on salvation's road."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "But I — why would I go? Who grants it?\nI am not Aeneas, I am not Paul.\nNeither I nor anyone thinks me worthy of it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "So if I give myself up to this coming,\nI'm afraid the coming may be folly.\nYou are wise; you understand better than I can say.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "And like a man who unwills what he willed,\nand on second thought changes his intention\nso that he backs out of it completely,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "that's what I became on that dark slope:\nby thinking I burned up the whole undertaking\nthat had been so quick to start."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "\"If I have understood your words rightly,\"\nanswered that shade of the great soul,\n\"your spirit is touched with cowardice,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "which often weighs a man down so\nit turns him back from a worthy enterprise,\nthe way a trick of the eye spooks a shying beast."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "To free you from this fear,\nI'll tell you why I came, and what I heard\nthe first moment I felt pity for you."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "I was among those who hang in suspense\nwhen a lady called to me, so fair, so holy\nthat I begged her to command me."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "Her eyes shone brighter than the stars,\nand she began, gentle and low,\nin an angel's voice, in her own tongue:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "'O courteous spirit of Mantua,\nwhose fame still lasts in the world\nand will last as long as the world goes on,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "a friend of mine — not a friend of fortune —\nis blocked on the empty hillside\nso badly that he has turned back in terror,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "and may already be so lost, I fear,\nthat I have risen too late to help him,\nfrom what I've heard of him in Heaven."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "Go now, and with your polished speech\nand whatever else he needs to get free,\nhelp him, so that I am consoled."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "I am Beatrice, who send you on this.\nI come from the place I long to return to.\nLove moved me, and makes me speak."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "When I stand again before my Lord,\nI'll praise you to him often.'\nThen she fell silent, and I began:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "'O lady of virtue, you alone\nthrough whom the human race rises above\nall that the smallest of the heavens holds,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "your command pleases me so much\nthat to obey, even if already done, would feel late.\nYou need say nothing more of what you want."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "But tell me why you don't shrink\nfrom coming down here into this center\nfrom the wide place you burn to go back to.'"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "'Since you so deeply want to understand,\nI'll tell you briefly,' she answered me,\n'why I'm not afraid to enter here."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "The only things one ought to fear\nare those that have the power to harm.\nThe rest, no — they are nothing to dread."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "God in his mercy made me such\nthat your misery does not touch me,\nnor any flame of this burning reach me."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "A gentle lady is in Heaven who grieves\nat this hard place I'm sending you to,\nso that strict judgment up above is bent."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "She called Lucia and made her plea:\n'Your faithful one is in need of you now,\nand I commend him to your care.'"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "Lucia, the enemy of all that's cruel,\nrose and came to where I sat\nwith ancient Rachel at my side."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "'Beatrice,' she said, 'true praise of God,\nwhy don't you help the man who loved you so\nthat for you he left the common crowd?"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "Don't you hear how pitiful his weeping is?\nDon't you see the death that fights him\nbeside a flood the sea itself can't boast of?'"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "No one in the world ever moved so fast\nto seize their good or flee their harm\nas I did, after those words were spoken."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "I came down here from my blessed seat,\ntrusting in your honest, dignified speech,\nwhich honors you and all who've listened to it.'"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "After she had spoken to me this way,\nweeping, she turned her shining eyes aside,\nand that made me all the quicker to come."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "And so I came to you, as she wished.\nI took you out of the path of that wild beast\nthat blocked the short climb up the lovely mountain."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "So what is it? Why, why do you hold back?\nWhy let such cowardice nest in your heart?\nWhy don't you have the daring and the nerve,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "when three such blessed ladies\nare caring for you in the court of Heaven,\nand my own words promise you so much good?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "Like little flowers, bent down and shut\nby the night's chill, that lift themselves\nall open on their stems once the sun whitens them,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "that's what I became, with my worn-out strength,\nand so much courage poured into my heart\nthat I began, like a man set free of fear:"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "\"O she of such compassion, who came to my aid,\nand you, so gracious, who obeyed at once\nthe words of truth she gave you —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "you have set my heart so on fire\nfor the journey, with these words of yours,\nthat I've come back to my first resolve."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0047",
+          "order": 47,
+          "kind": "verse_block",
+          "text": "Go now — one single will moves both of us.\nYou are my leader, my lord, my master.\"\nSo I told him; and when he started off,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-02.seg-0048",
+          "order": 48,
+          "kind": "verse_block",
+          "text": "I entered on the deep and savage way."
+        }
+      ]
+    },
+    {
+      "id": "edition.divine-comedy.lectio-modern.book-03",
+      "order": 3,
+      "label": "Inferno: Canto III",
+      "segments": [
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0001",
+          "order": 1,
+          "kind": "verse_block",
+          "text": "\"Through me you go to the city of grief.\nThrough me you go to everlasting pain.\nThrough me you go among the people who are lost."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0002",
+          "order": 2,
+          "kind": "verse_block",
+          "text": "Justice moved my maker on high.\nDivine power made me,\nthe highest wisdom, and the first love."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0003",
+          "order": 3,
+          "kind": "verse_block",
+          "text": "Before me nothing was created\nbut things eternal, and I last forever.\nAbandon every hope, you who enter here.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0004",
+          "order": 4,
+          "kind": "verse_block",
+          "text": "These words, in a dark color, I saw\ncarved over the top of a gate.\nI said: \"Master, their meaning is hard for me.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0005",
+          "order": 5,
+          "kind": "verse_block",
+          "text": "And he, like one who already knew, replied:\n\"Here you must let go of every doubt.\nEvery cowardice must die here."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0006",
+          "order": 6,
+          "kind": "verse_block",
+          "text": "We have come to the place I told you of,\nwhere you will see the suffering people\nwho have lost the good of the mind.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0007",
+          "order": 7,
+          "kind": "verse_block",
+          "text": "And then he laid his hand on mine,\nwith a calm, glad look that steadied me,\nand led me in among the hidden things."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0008",
+          "order": 8,
+          "kind": "verse_block",
+          "text": "There sighs and weeping and loud wailing\nrang through the starless air,\nso that at first I wept to hear it."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0009",
+          "order": 9,
+          "kind": "verse_block",
+          "text": "Strange tongues, monstrous accents,\nwords of pain, voices of fury,\nhigh cries and hoarse ones, and the smack of hands —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0010",
+          "order": 10,
+          "kind": "verse_block",
+          "text": "all of it made a tumult that wheels on\nforever through that air forever black,\nthe way sand swirls up when the whirlwind blows."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0011",
+          "order": 11,
+          "kind": "verse_block",
+          "text": "And I, my head ringed round with horror,\nsaid: \"Master, what is this I'm hearing?\nWho are these people so broken by their pain?\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0012",
+          "order": 12,
+          "kind": "verse_block",
+          "text": "And he to me: \"This wretched way of being\nbelongs to the dreary souls of those\nwho lived with no disgrace and no praise."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0013",
+          "order": 13,
+          "kind": "verse_block",
+          "text": "They are mixed in with that worthless choir\nof angels who were neither rebels\nnor faithful to God, but only for themselves."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0014",
+          "order": 14,
+          "kind": "verse_block",
+          "text": "Heaven cast them out, to keep its beauty pure,\nand the depths of Hell won't take them either,\nsince the damned would find some glory next to them.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0015",
+          "order": 15,
+          "kind": "verse_block",
+          "text": "And I: \"Master, what weighs on them so hard\nthat it makes them cry out like this?\"\nHe answered: \"I'll tell you, and keep it short."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0016",
+          "order": 16,
+          "kind": "verse_block",
+          "text": "These have no hope of ever dying,\nand their blind life is so debased\nthey envy every other fate there is."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0017",
+          "order": 17,
+          "kind": "verse_block",
+          "text": "The world allows no memory of them.\nMercy and justice both look down on them.\nLet's not talk about them — look, and move on.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0018",
+          "order": 18,
+          "kind": "verse_block",
+          "text": "And I, looking again, saw a banner\nthat ran in circles, spinning so fast\nit seemed to scorn the thought of ever stopping."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0019",
+          "order": 19,
+          "kind": "verse_block",
+          "text": "And behind it came so long a line\nof people, I would never have believed\nthat death had undone so many."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0020",
+          "order": 20,
+          "kind": "verse_block",
+          "text": "When I had recognized a few of them,\nI looked, and I saw the shade of the one\nwho out of cowardice made the great refusal."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0021",
+          "order": 21,
+          "kind": "verse_block",
+          "text": "At once I understood, and I was sure,\nthat this was the crowd of worthless souls\nhateful to God and to his enemies alike."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0022",
+          "order": 22,
+          "kind": "verse_block",
+          "text": "These wretches, who were never truly alive,\nwere naked, and were stung again and again\nby the wasps and hornets swarming there."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0023",
+          "order": 23,
+          "kind": "verse_block",
+          "text": "The stings streaked their faces with blood\nthat ran down, mixed with their tears,\nand was gathered at their feet by loathsome worms."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0024",
+          "order": 24,
+          "kind": "verse_block",
+          "text": "And when I turned to look still farther on,\nI saw people along the bank of a great river,\nand I said: \"Master, tell me now,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0025",
+          "order": 25,
+          "kind": "verse_block",
+          "text": "so I may know who these are, and what law\nmakes them seem so eager to cross over,\nas far as I can tell in this dim light.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0026",
+          "order": 26,
+          "kind": "verse_block",
+          "text": "And he to me: \"All this will be made clear\nto you, the moment we stop and stand\non the dismal shore of Acheron.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0027",
+          "order": 27,
+          "kind": "verse_block",
+          "text": "Then, with my eyes lowered in shame,\nafraid my words had begun to annoy him,\nI held my tongue until we reached the river."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0028",
+          "order": 28,
+          "kind": "verse_block",
+          "text": "And look — coming toward us in a boat,\nan old man, white with the hair of age,\nshouting: \"Misery on you, you ruined souls!"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0029",
+          "order": 29,
+          "kind": "verse_block",
+          "text": "Give up all hope of ever seeing the sky.\nI come to carry you to the other shore,\ninto the eternal dark, the heat and frost."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0030",
+          "order": 30,
+          "kind": "verse_block",
+          "text": "And you over there — you, the living soul —\nget away from these, for they are dead.\"\nBut when he saw that I would not go,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0031",
+          "order": 31,
+          "kind": "verse_block",
+          "text": "he said: \"By another way, another port\nyou'll reach the shore to cross, not here.\nA lighter craft will have to carry you.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0032",
+          "order": 32,
+          "kind": "verse_block",
+          "text": "And my guide: \"Charon, don't fight it.\nThis is willed where what is willed is done,\nso ask no more.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0033",
+          "order": 33,
+          "kind": "verse_block",
+          "text": "At that, the shaggy cheeks went still\non the ferryman of the livid swamp,\nwho had wheels of flame around his eyes."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0034",
+          "order": 34,
+          "kind": "verse_block",
+          "text": "But those souls, worn out and naked,\nwent pale and ground their teeth together\nthe moment they heard the cruel words."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0035",
+          "order": 35,
+          "kind": "verse_block",
+          "text": "They cursed God and cursed their parents,\nthe whole human race, the place, the time,\nthe seed they sprang from, the day they were born."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0036",
+          "order": 36,
+          "kind": "verse_block",
+          "text": "Then all of them drew back together,\nweeping bitterly, toward the cursed shore\nthat waits for every man who does not fear God."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0037",
+          "order": 37,
+          "kind": "verse_block",
+          "text": "Charon the demon, with eyes like burning coals,\nsignals to them and herds them all aboard,\nbeating with his oar any soul that lags."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0038",
+          "order": 38,
+          "kind": "verse_block",
+          "text": "The way the leaves let go in autumn,\none after another, until the branch\nsees all its riches lying on the ground —"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0039",
+          "order": 39,
+          "kind": "verse_block",
+          "text": "just so the evil seed of Adam\nthrow themselves down from that bank one by one,\nat his signal, like a bird answering its call."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0040",
+          "order": 40,
+          "kind": "verse_block",
+          "text": "So they go off across the dark water,\nand before they have landed on the far side,\na fresh crowd is already gathering on this one."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0041",
+          "order": 41,
+          "kind": "verse_block",
+          "text": "\"My son,\" the gentle master said to me,\n\"all those who die under the wrath of God\ncome together here from every land."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0042",
+          "order": 42,
+          "kind": "verse_block",
+          "text": "And they are eager to cross the river,\nbecause the justice of Heaven drives them on\nuntil their fear is turned into desire."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0043",
+          "order": 43,
+          "kind": "verse_block",
+          "text": "No good soul ever passes this way.\nSo if Charon complains about you,\nyou can understand now what his words mean.\""
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0044",
+          "order": 44,
+          "kind": "verse_block",
+          "text": "When he had finished, the whole dark plain\nshook so violently that even now\nthe memory of that terror bathes me in sweat."
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0045",
+          "order": 45,
+          "kind": "verse_block",
+          "text": "The land of tears let out a blast of wind\nthat flared with a flash of crimson light,\nand it overcame every sense in me,"
+        },
+        {
+          "id": "edition.divine-comedy.lectio-modern.book-03.seg-0046",
+          "order": 46,
+          "kind": "verse_block",
+          "text": "and I fell, like a man taken by sleep."
         }
       ]
     }
