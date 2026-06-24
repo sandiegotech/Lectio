@@ -217,16 +217,24 @@ Portable, versioned, plain files — no app coupling. One directory per work:
         lang-leaf-myers-1883.json
       spine.json                    // canonical reference scheme + cross-edition alignment map
       /media                        // (later) art, with per-asset provenance
-  /graph                            // (later) the cross-work concept layer / connection graph
-    nodes.json                      // shared concept nodes (people, ideas, terms) w/ original-lang lemma + sense history
-    edges.json
+  /graph
+    concepts.json                   // the cross-work concept layer (Concept nodes; edges embedded per node)
 ```
 
+> **The concept layer (`graph/concepts.json`).** A `Concept` is a work-agnostic node — `id` (`concept.menis`),
+> `term`, `kind`, a cross-work `gloss`, the `original` source word (`{lang, lemma, translit, literal}` — e.g.
+> μῆνις / mēnis / "wrath"), `senseHistory` (how the word traveled into English), `appearsIn` (the workIds where
+> the idea recurs — the cross-book web), and `connections` (typed edges to other concepts or works). Per-work
+> glossary entries in `enrichment.json` bind to it via `conceptId`; the in-context gloss and cross-edition
+> aliases stay work-local, the universal data lives on the node. This is the backbone the glossary, Explore
+> (`explore.json` themes/connections), and the alignment spine all resolve against. Authored offline (the
+> book-translate skill's crux map seeds it); the pipeline does not generate it.
+
 > **Tap-to-define has no bundled dictionary.** Tier 1 is the curated, in-context glossary in each work's
-> `enrichment.json` (→ promoted to the shared concept `/graph` nodes above). Tier 2 is **Apple's on-device
-> reference dictionary** (`SystemDictionary`) — free, modern, zero bundle weight — for arbitrary words.
-> Tier 3 hands off to the sibling app **Gloss**. Webster's 1913 is no longer shipped; it survives only as an
-> offline *authoring source* for the concept layer's sense-history field.
+> `enrichment.json` (linked to the concept nodes above). Tier 2 is **Apple's on-device reference dictionary**
+> (`SystemDictionary`) — free, modern, zero bundle weight — for arbitrary words. Tier 3 hands off to the
+> sibling app **Gloss**. Webster's 1913 is no longer shipped; it survives only as an offline *authoring
+> source* for the concept layer's sense-history field.
 
 - **Format:** JSON now (human-diffable, simple). Can compile to a binary/SQLite read-store later for perf
   without changing the schema.
