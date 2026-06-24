@@ -668,5 +668,47 @@ def gilgamesh():
     return work, [modern], None
 
 
+# ---------------------------------------------------------------------------
+# The Divine Comedy — Longfellow's translation (1867); 100 cantos (verse)
+# ---------------------------------------------------------------------------
+def divine_comedy():
+    work_id = "work.dante.divine-comedy"
+    edition_id = "edition.divine-comedy.longfellow-1867"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(1004))
+    raw = gutenberg.split_sections(
+        body, heading_re=r"^(?:Inferno|Purgatorio|Paradiso): Canto [IVXL]+[ \t]*$")
+    if len(raw) != 100:
+        raise ValueError(f"Divine Comedy: expected 100 cantos, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"canto-{i:03d}", i, head.strip(), text, form="verse")
+        for i, (head, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="verse",
+        translator="Henry Wadsworth Longfellow", translatorYears="1807–1882", publishedYear=1867,
+        character="Longfellow's landmark American Dante — faithful blank verse, line for line.",
+        overview=("Henry Wadsworth Longfellow's 1867 translation was the first major American "
+                  "Divine Comedy: an unrhymed, line-by-line rendering that follows Dante's sense "
+                  "closely and reads with grave music. It remains among the most respected "
+                  "public-domain versions, prized for fidelity over ornament."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Longfellow's translation, 1867.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/1004",
+                              sourceId="1004", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Divine Comedy", author="Dante Alighieri", originalLang="it",
+        composed="1308–1320", type="epic_poem", referenceScheme="cantica.canto",
+        defaultEditionId=edition.id, tradition="West",
+        blurb=("Dante's journey through Hell, Purgatory, and Paradise — guided first by Virgil, "
+               "then by Beatrice. The summit of the medieval imagination and one of the supreme "
+               "poems of any age."),
+        collections=["collection.great-books"],
+    )
+    return work, [edition], None
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
-           nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh]
+           nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
+           divine_comedy]

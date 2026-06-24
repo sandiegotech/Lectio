@@ -5,12 +5,12 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "489c4d7c02aefb29"
+      "checksum": "d1f4f10acf26ad45"
     },
     {
       "id": "collection.great-books",
       "title": "Great Books of the Western World",
-      "checksum": "9d1f46d85cc099d8"
+      "checksum": "2e14775cf353a97c"
     },
     {
       "id": "collection.harvard-classics",
@@ -60,7 +60,7 @@
     {
       "id": "genre.poetry-epic",
       "title": "Poetry & Epic",
-      "checksum": "2c8d371b52272d15"
+      "checksum": "8c079835e45f174a"
     },
     {
       "id": "genre.drama",
@@ -397,6 +397,29 @@
       ],
       "hasAlignment": false,
       "checksum": "4e054d4676c961c1"
+    },
+    {
+      "id": "work.dante.divine-comedy",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "referenceScheme": "cantica.canto",
+      "defaultEditionId": "edition.divine-comedy.longfellow-1867",
+      "collections": [
+        "collection.great-books"
+      ],
+      "editions": [
+        {
+          "id": "edition.divine-comedy.longfellow-1867",
+          "translator": "Henry Wadsworth Longfellow",
+          "publishedYear": 1867,
+          "form": "verse",
+          "kind": "translation",
+          "character": "Longfellow's landmark American Dante — faithful blank verse, line for line.",
+          "checksum": "d1ee48437c9ec98b"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "f5d6551287281a1b"
     }
   ],
   "dictionaries": []
