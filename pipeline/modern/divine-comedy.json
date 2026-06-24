@@ -79,6 +79,27 @@
       "older": "As in the autumn-time the leaves fall off (Longfellow); As fall off the light autumnal leaves (Cary)",
       "lectio": "The way the leaves let go in autumn",
       "note": "The canto's central image — the dead dropping one by one into Charon's boat like falling leaves. Dante's verb is 'si levan' (lift away / let go), gentler and stranger than 'fall off.' We keep that releasing motion ('let go') so the simile carries the eerie willingness Dante gives it, matching the falling-leaves image already named in this edition's overview."
+    },
+    {
+      "locus": "V.4-6",
+      "phrase": "cignesi con la coda tante volte / quantunque gradi vuol che giù sia messa",
+      "older": "Girds himself with his tail as many times / As grades he wishes it should be thrust down (Longfellow); Girds him with his tail. As many times / As he would have it thrust into the abyss (Cary)",
+      "lectio": "coils his tail around himself as many times / as the number of circles it must be flung down",
+      "note": "Minos, the infernal judge, assigns each soul its circle by the grotesque mechanism of winding his tail: the number of coils is the number of the circle. Longfellow's 'girds himself' and 'grades' obscure the physical image. We keep the concrete, animal motion — a tail coiling — and name 'circles' plainly, since that is what the count means for a reader following the descent."
+    },
+    {
+      "locus": "V.100-105",
+      "phrase": "Amor, ch'al cor gentil ratto s'apprende ... Amor, ch'a nullo amato amar perdona ... Amor condusse noi ad una morte",
+      "older": "Love, that on gentle heart doth swiftly seize ... Love, that exempts no one beloved from loving ... Love has conducted us unto one death (Longfellow); Love, that in gentle heart is quickly learnt ... Love, that denial takes from none beloved ... Love brought us to one death (Cary)",
+      "lectio": "Love, which is quick to seize the gentle heart ... Love, which absolves no loved one from loving ... Love led the two of us to a single death.",
+      "note": "Francesca's three tercets each open with 'Amor' — an anaphora that is the rhetorical heart of the canto and a deliberate echo of the courtly-love doctrine (Guinizzelli's 'al cor gentil') Dante is at once moved by and judging. We preserve all three 'Love' openings so the drumbeat survives in English, and keep the famous middle line's terrible symmetry — to be loved is to be condemned to love back ('absolves no loved one from loving') — without untangling it into prose. Longfellow's 'exempts' is legalistic but cold; 'absolves' keeps the religious weight Dante sets against this love."
+    },
+    {
+      "locus": "V.137",
+      "phrase": "Galeotto fu 'l libro e chi lo scrisse",
+      "older": "Galeotto was the book and he who wrote it (Longfellow); The book and writer both / Were love's purveyors (Cary)",
+      "lectio": "A Galeotto was that book, and the one who wrote it.",
+      "note": "In the Lancelot romance Paolo and Francesca were reading, Galehaut (Italian Galeotto) is the go-between who brings Lancelot and Guinevere together — so 'Galeotto' had become an Italian word for a pander, a love's-procurer. Dante's line says the book itself, and its author, played that role for them. We keep the proper noun 'Galeotto' (the architecture of the allusion) but cast it as 'a Galeotto,' so the reader feels it working as the title it has become: the book was their go-between. Cary's 'love's purveyors' explains the pun but loses the name; Longfellow keeps the name but leaves a modern reader stranded. Our phrasing keeps both."
     }
   ],
   "books": [
@@ -238,6 +259,60 @@
         "When he had finished, the whole dark plain\nshook so violently that even now\nthe memory of that terror bathes me in sweat.",
         "The land of tears let out a blast of wind\nthat flared with a flash of crimson light,\nand it overcame every sense in me,",
         "and I fell, like a man taken by sleep."
+      ]
+    },
+    {
+      "order": 5,
+      "label": "Inferno: Canto V",
+      "paragraphs": [
+        "So I went down from the first circle\ninto the second, which rings a smaller space\nbut so much greater pain that it goads them to howling.",
+        "There stands Minos, horrible, and snarls.\nAt the entrance he weighs the sins of each;\nhe judges, and sends them down by the coiling of his tail.",
+        "I mean that when a soul born to evil\ncomes before him, it confesses everything,\nand that connoisseur of sins",
+        "sees what place in Hell is fit for it,\nand coils his tail around himself as many times\nas the number of circles it must be flung down.",
+        "Always a crowd of them stands before him.\nThey come, each in turn, to be judged;\nthey speak, they hear, and then they are hurled below.",
+        "\"You there, who come to this house of grief,\"\nsaid Minos when he saw me,\nbreaking off from the work of his great office,",
+        "\"watch how you enter, and whom you trust.\nDon't let the wide gate fool you.\"\nAnd my guide to him: \"Why do you too cry out?",
+        "Don't block his journey — it is fated.\nThis is willed where what is willed is done,\nso ask no more.\"",
+        "And now the notes of grief begin\nto reach my ears; now I have come\nwhere a great wailing beats against me.",
+        "I came into a place where all light is silent,\nthat bellows like the sea in a storm\nwhen it is battered by warring winds.",
+        "The hurricane of Hell, which never rests,\ndrives the spirits on before its force,\nwheeling and battering, it gives them no peace.",
+        "When they come up against the ruined edge,\nthere are the screams, the sobbing, the laments;\nthere they curse the power of God.",
+        "I understood that to a torment like this\nthe sinners of the flesh were condemned,\nwho let their reason give way to their hunger.",
+        "And as the wings of starlings carry them\nin the cold season, in a wide, packed flock,\nso that blast carries the wicked spirits:",
+        "this way, that way, down and up, it drives them;\nno hope can ever comfort them —\nnot of rest, not even of lighter pain.",
+        "And as the cranes go chanting their cries,\ndrawing themselves out in a long line through the air,\nso I saw them come, wailing,",
+        "shades borne along on that same wind.\nSo I said: \"Master, who are these people\nthe black air punishes so hard?\"",
+        "\"The first of those you want to know about,\"\nhe said to me then,\n\"was empress over many tongues.",
+        "She was so broken by the vice of lust\nthat she made desire lawful in her code,\nto wipe out the blame she had fallen into.",
+        "She is Semiramis, of whom we read\nthat she followed Ninus and was his wife;\nshe held the land the Sultan rules today.",
+        "The next is the one who killed herself for love\nand broke faith with the ashes of Sychaeus.\nAfter her, Cleopatra, who lived for pleasure.\"",
+        "I saw Helen, for whom so many cruel\nyears wheeled round, and I saw great Achilles,\nwho fought with Love at the very end.",
+        "I saw Paris, Tristan — more than a thousand\nshades he named and pointed out with his finger,\nall the ones Love had cut away from our life.",
+        "After I had listened to my teacher\nname the ladies and the knights of long ago,\npity overcame me, and I was almost lost.",
+        "I began: \"Poet, I would gladly\nspeak to those two who go together\nand seem so light upon the wind.\"",
+        "And he to me: \"Watch for them when they come\ncloser to us; then call to them\nby the love that drives them, and they will come.\"",
+        "As soon as the wind bent them toward us,\nI raised my voice: \"O weary souls,\ncome speak with us, if no one forbids it.\"",
+        "As doves, called onward by desire,\nwith wings held open and still glide\nto the sweet nest, carried by their own will,",
+        "so these two left the flock where Dido is\nand came to us through the malignant air,\nso strong was the love in my call.",
+        "\"O living creature, gracious and kind,\nwho come visiting through this dark air\nto us who stained the world with blood,",
+        "if the King of all things were our friend\nwe would pray to him to give you peace,\nsince you take pity on our twisted grief.",
+        "Whatever you would like to hear and say,\nthat we will hear, and we will say to you,\nwhile the wind, as now, is still.",
+        "The city where I was born sits\non the shore where the Po comes down\nto rest in peace with all the streams that follow it.",
+        "Love, which is quick to seize the gentle heart,\nseized this man for the beautiful body\ntaken from me — and the way of it still wounds me.",
+        "Love, which absolves no loved one from loving,\nseized me so strongly with delight in him\nthat, as you see, it has not left me yet.",
+        "Love led the two of us to a single death.\nCaina waits for the one who put out our lives.\"\nThese were the words they carried over to us.",
+        "When I had heard those wounded souls,\nI bowed my face and held it down so long\nthat at last the poet said: \"What are you thinking?\"",
+        "When I answered, I began: \"Oh —\nhow many sweet thoughts, how much longing\nbrought these two to the road of grief.\"",
+        "Then I turned back to them and spoke,\nand began: \"Francesca, what you suffer\nmakes me weep for sorrow and pity.",
+        "But tell me: in the time of the sweet sighs,\nby what signs, and how, did Love let you\nknow the desires you only half-guessed?\"",
+        "And she to me: \"There is no greater pain\nthan to remember the happy time\nin misery — and that your teacher knows.",
+        "But if you long so much to know\nthe first root of our love,\nthen I will be like one who weeps as she speaks.",
+        "One day, for pleasure, we were reading\nof Lancelot, how love had taken hold of him.\nWe were alone, and suspected nothing.",
+        "Again and again that reading drew our eyes\ntogether and drained the color from our faces;\nbut it was one moment alone that overcame us.",
+        "When we read how the longed-for smile\nwas kissed by such a lover,\nthis man, who never will be parted from me,",
+        "kissed me on the mouth, trembling all over.\nA Galeotto was that book, and the one who wrote it.\nThat day we read in it no further.\"",
+        "While the one spirit said this,\nthe other wept so hard that out of pity\nI fainted, as if I were dying,",
+        "and I fell as a dead body falls."
       ]
     }
   ],
