@@ -471,7 +471,7 @@ def nicomachean_ethics():
     work = Work(
         id=work_id, title="Nicomachean Ethics", author="Aristotle", originalLang="grc",
         composed="340 BCE", type="philosophy", referenceScheme="book.chapter",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId="edition.nicomachean-ethics.lectio-modern", tradition="West",
         blurb=("Aristotle's enquiry into the good life: happiness (eudaimonia) as the soul's "
                "activity in accordance with virtue, virtue as a mean formed by habit, and "
                "friendship and contemplation as the crown of a human life."),

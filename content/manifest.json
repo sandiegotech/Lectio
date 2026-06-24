@@ -263,7 +263,7 @@
       "title": "Nicomachean Ethics",
       "author": "Aristotle",
       "referenceScheme": "book.chapter",
-      "defaultEditionId": "edition.nicomachean-ethics.chase-1911",
+      "defaultEditionId": "edition.nicomachean-ethics.lectio-modern",
       "collections": [
         "collection.great-books"
       ],
@@ -275,7 +275,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "43097d40b8cb3660"
+          "checksum": "caca2c607aa7e98d"
         },
         {
           "id": "edition.nicomachean-ethics.chase-1911",
@@ -288,7 +288,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "f799ca50ca23bde1"
+      "checksum": "e94b67144acbdebb"
     },
     {
       "id": "work.machiavelli.the-prince",
