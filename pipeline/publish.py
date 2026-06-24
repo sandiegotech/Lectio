@@ -6,7 +6,7 @@ Layout produced under <out>/:
     works/<workId>/work.json
     works/<workId>/editions/<editionShort>.json
     works/<workId>/spine.json            (when alignment exists)
-    dictionary/<id>.json                 (written separately by the dictionary builder)
+    works/<workId>/enrichment.json       (hand-authored; carries the curated tap-to-define glossary)
 """
 from __future__ import annotations
 

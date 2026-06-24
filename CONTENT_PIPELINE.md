@@ -217,12 +217,16 @@ Portable, versioned, plain files — no app coupling. One directory per work:
         lang-leaf-myers-1883.json
       spine.json                    // canonical reference scheme + cross-edition alignment map
       /media                        // (later) art, with per-asset provenance
-  /dictionary
-    websters-1913.json              // shared, for tap-to-define
-  /graph                            // (later)
-    nodes.json
+  /graph                            // (later) the cross-work concept layer / connection graph
+    nodes.json                      // shared concept nodes (people, ideas, terms) w/ original-lang lemma + sense history
     edges.json
 ```
+
+> **Tap-to-define has no bundled dictionary.** Tier 1 is the curated, in-context glossary in each work's
+> `enrichment.json` (→ promoted to the shared concept `/graph` nodes above). Tier 2 is **Apple's on-device
+> reference dictionary** (`SystemDictionary`) — free, modern, zero bundle weight — for arbitrary words.
+> Tier 3 hands off to the sibling app **Gloss**. Webster's 1913 is no longer shipped; it survives only as an
+> offline *authoring source* for the concept layer's sense-history field.
 
 - **Format:** JSON now (human-diffable, simple). Can compile to a binary/SQLite read-store later for perf
   without changing the schema.
@@ -251,7 +255,8 @@ To ship the bible's MVP, build only:
    IDs and two themes' worth of clean structure.
 2. **The Iliad alignment** (stage 5) for **2–3 translations** with `spine` ranges — the data behind
    translation-compare.
-3. **Webster's 1913 dictionary** ingested once into `dictionary/`.
+3. **The curated glossary** per work (in `enrichment.json`) for tap-to-define — generic words fall through to
+   Apple's on-device dictionary, so no dictionary is bundled.
 4. **A minimal review step** (even just a generated HTML preview a human eyeballs before publish).
 5. **The published JSON bundle format** (§7) finalized — because the app is built against it.
 

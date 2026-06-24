@@ -140,6 +140,11 @@ struct WordCard: View {
     @EnvironmentObject var saved: SavedStore
 
     private var hasDefinition: Bool { (definition?.isEmpty == false) }
+    // Tier 2: offer Apple's on-device dictionary only when the word isn't curated
+    // and the OS actually has an entry for it.
+    private var systemHasDefinition: Bool {
+        !hasDefinition && SystemDictionary.hasDefinition(term)
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -156,7 +161,9 @@ struct WordCard: View {
                 Text(def).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
             } else {
-                Text("Not in this book's glossary. Save it for study, or look it up in Gloss.")
+                Text(systemHasDefinition
+                     ? "Not in this book's glossary — look it up in the dictionary, or go deeper in Gloss."
+                     : "Not in this book's glossary. Save it for study, or look it up in Gloss.")
                     .font(.caption).foregroundColor(pal.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -175,6 +182,18 @@ struct WordCard: View {
                         .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
                 }
                 .buttonStyle(.plain)
+                if systemHasDefinition {
+                    Button {
+                        SystemDictionary.lookUp(term)
+                    } label: {
+                        Label("Dictionary", systemImage: "character.book.closed")
+                            .font(.caption.weight(.medium))
+                            .padding(.horizontal, 10).padding(.vertical, 5)
+                            .foregroundColor(pal.accent)
+                            .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
+                    }
+                    .buttonStyle(.plain)
+                }
             }
             glossLink
         }

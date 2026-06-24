@@ -16,7 +16,6 @@ struct ReaderView: View {
     let work: Work
     var initialTarget: ReaderTarget? = nil
     @EnvironmentObject var library: Library
-    @EnvironmentObject var dictionary: WordDictionary
     @EnvironmentObject var saved: SavedStore
     @EnvironmentObject var reading: ReadingState
     @Environment(\.dismiss) private var dismiss
@@ -697,13 +696,13 @@ struct ReaderView: View {
     }
 
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
-    // then Webster's 1913, then any passage-level note. A nil def means the word is
-    // outside the corpus — the WordCard offers to look it up in Gloss.
+    // then any passage-level note. A nil def means the word is outside the curated
+    // corpus — the WordCard offers Apple's on-device dictionary, then Gloss.
     private func resolveWord(_ word: String) -> (def: String?, kind: String?) {
         if let entry = library.glossEntry(workId: work.id, term: word) {
             return (entry.gloss, entry.kind)
         }
-        return (dictionary.define(word) ?? passageGloss(word), nil)
+        return (passageGloss(word), nil)
     }
 
     private func backgroundTap() {
