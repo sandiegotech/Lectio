@@ -2,7 +2,7 @@
 
 _Generated from the content bundle by `tools/catalog.py` — regenerate after any build._
 
-**12 works ingested** · **11/12 with covers** · **8/12 with a complete Lectio edition**
+**12 works ingested** · **12/12 with covers** · **8/12 with a complete Lectio edition**
 
 > Lectio (Vernacular) editions are first-pass **drafts pending human review** (BIBLE non-negotiable). The *Translated* column is the model + date that produced each one — revise when it predates the current translation method.
 
@@ -20,16 +20,16 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 | The Prince | Niccolò Machiavelli | West | ✅ | ◐ 0/26 sections | Opus 4.8 · 2026-06-25 | marriott-1908 |
 | Meditations | Marcus Aurelius | West | ✅ | ✅ 12 books | Opus 4.8 · 2026-06-15 | Lectio |
 | The Republic | Plato | West | ✅ | ◐ 0/10 sections | Opus 4.8 · 2026-06-25 | jowett-1871 |
-| Hamlet | William Shakespeare | West | ❌ needs cover | ✅ 5 acts | Opus 4.8 · 2026-06-24 | original |
+| Hamlet | William Shakespeare | West | ✅ | ✅ 5 acts | Opus 4.8 · 2026-06-24 | original |
 | The Aeneid | Virgil | West | ✅ | ✅ 12 books | Opus 4.8 · 2026-06-16 | Lectio |
 
 ## Needs attention
 
-- **Missing a work cover** (1): Hamlet  
+- **Missing a work cover** (0): none  
   → add `content/works/<id>/cover.jpg` (master in `~/Documents/Lectio-Masters/`, see CLAUDE.md).
 - **No Lectio edition yet** (0): none  
   → run the overnight loop (`tools/overnight/`) or `/ingest-book` then translate.
-- **Planned shelf works missing cover art** (15): Beyond Good and Evil, Epic and Saga, Genesis, Hamlet, Seven Pillars of Wisdom, The Brothers Karamazov, The Holy Bible, The Interpretation of Dreams, The Principles of Psychology, The Talmud, The Tanakh, The Trial, The Waste Land, Ulysses, War and Peace  
+- **Planned shelf works missing cover art** (0): none  
   → add the art under `content/collections/book-covers/` and set its `cover` in `pipeline/collections.py`.
 
 ## Editions on hand
