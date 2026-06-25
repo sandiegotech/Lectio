@@ -702,7 +702,7 @@ def divine_comedy():
     work = Work(
         id=work_id, title="The Divine Comedy", author="Dante Alighieri", originalLang="it",
         composed="1308–1320", type="epic_poem", referenceScheme="cantica.canto",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId="edition.divine-comedy.lectio-modern", tradition="West",
         blurb=("Dante's journey through Hell, Purgatory, and Paradise — guided first by Virgil, "
                "then by Beatrice. The summit of the medieval imagination and one of the supreme "
                "poems of any age."),

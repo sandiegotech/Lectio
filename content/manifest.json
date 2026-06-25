@@ -421,7 +421,7 @@
       "title": "The Divine Comedy",
       "author": "Dante Alighieri",
       "referenceScheme": "cantica.canto",
-      "defaultEditionId": "edition.divine-comedy.longfellow-1867",
+      "defaultEditionId": "edition.divine-comedy.lectio-modern",
       "collections": [
         "collection.great-books"
       ],
@@ -433,7 +433,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "54e3583f8ea35e53"
+          "checksum": "a4289a91a45552fd"
         },
         {
           "id": "edition.divine-comedy.longfellow-1867",
@@ -446,7 +446,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "11c89a8cd8b82d68"
+      "checksum": "4a9e28ea83ba5a53"
     }
   ],
   "dictionaries": []
