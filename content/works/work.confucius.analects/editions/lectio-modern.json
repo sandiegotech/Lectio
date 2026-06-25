@@ -19,7 +19,7 @@
       "Arthur Waley (1938, consulted, not quoted)",
       "D. C. Lau (1979, consulted, not quoted)"
     ],
-    "tokensEstimated": 46207,
+    "tokensEstimated": 50665,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -130,6 +130,69 @@
       "older": "He does not exercise his judgment upon matters (Legge)",
       "lectio": "but he has nowhere to find his timber",
       "note": "A genuine crux. After joking that only the brave Tsze-lu would follow him out to sea on a raft, the Master adds a line that puns on cai (材, timber / 裁, judgment / 哉, a mere exclamation). Legge takes it as a rebuke — Yu lacks discernment. We keep the raft's own image and read cai as 'timber': the daring is there, but he has no materials to build with, no stuff to make the voyage real. It preserves Confucius's affectionate, deflating wit rather than flattening it into a verdict."
+    },
+    {
+      "locus": "Book VI, ch. 18",
+      "phrase": "zhi zhi zhe bu ru hao zhi zhe; hao zhi zhe bu ru le zhi zhe (知之者不如好之者，好之者不如樂之者)",
+      "older": "They who know the truth are not equal to those who love it, and they who love it are not equal to those who delight in it. (Legge)",
+      "lectio": "Those who know it are not equal to those who love it; and those who love it are not equal to those who delight in it.",
+      "note": "One of the most quoted lines in the book — a ladder of three rungs: knowing, loving, delighting. The Chinese leaves the object an open 'it' (zhi), and the tradition reads it as the Way, virtue, or learning; Legge supplies 'the truth,' which narrows what the saying deliberately leaves bare. We keep the open 'it' so the ladder applies to anything worth pursuing, and hold the three matched clauses tight so the line still climbs cleanly from the head to the heart."
+    },
+    {
+      "locus": "Book VI, ch. 21",
+      "phrase": "zhi zhe yao shui, ren zhe yao shan (知者樂水，仁者樂山)",
+      "older": "The wise find pleasure in water; the virtuous find pleasure in hills. The wise are active; the virtuous are tranquil. The wise are joyful; the virtuous are long-lived. (Legge)",
+      "lectio": "The wise delight in water; the humane delight in mountains. The wise are active; the humane are still. The wise find joy; the humane find length of days.",
+      "note": "The book's great paired image. Legge's 'the virtuous' flattens ren, the term this edition holds steady as 'humaneness' from Book I on; we restore 'the humane' so the contrast is between two human ideals, not wisdom versus a vague virtue. 'Hills' becomes 'mountains' for weight and stillness, and 'tranquil' becomes the plainer 'still' to set the moving water against the unmoving mountain. The three balanced couplets — water and mountain, active and still, joy and long life — are kept in their order so the saying reads as the patterned epigram it is."
+    },
+    {
+      "locus": "Book VI, ch. 28",
+      "phrase": "ji yu li er li ren, ji yu da er da ren (己欲立而立人，己欲達而達人)",
+      "older": "Now the man of perfect virtue, wishing to be established himself, seeks also to establish others; wishing to be enlarged himself, he seeks also to enlarge others. (Legge)",
+      "lectio": "As for the humane person: wishing to stand on his own feet, he helps others to stand; wishing to reach his goal, he helps others to reach theirs.",
+      "note": "The positive form of the Confucian golden rule, and the climax of the book. Legge's passive 'wishing to be established' and abstract 'enlarged' blur an image that is bodily and forward-moving: li is to stand up, da is to get through to where you are going. We render them 'stand on his own feet' and 'reach his goal,' so the rule lands as a practical motion — whatever you want for yourself, secure it for others too. The closing line, taking what is 'near at hand' (yourself) as the gauge for others, is kept as the homely measuring-stick the Chinese makes it."
+    },
+    {
+      "locus": "Ch. 1",
+      "phrase": "shu er bu zuo, xin er hao gu (述而不作，信而好古)",
+      "older": "A transmitter and not a maker, believing in and loving the ancients (Legge)",
+      "lectio": "A transmitter and not a maker, trusting and loving the ancients",
+      "note": "The line that names the whole book and Confucius's sense of himself: he claims only to hand on the wisdom of the past, not to invent doctrine of his own. The phrase is justly famous, so we keep Legge's ringing 'transmitter and not a maker' intact rather than paraphrasing it away. We trade his 'believing in' for the tauter 'trusting,' since xin is the same trust the edition renders elsewhere as good faith. The modesty is real, but so is the claim: to transmit the ancients faithfully is itself the work of a lifetime."
+    },
+    {
+      "locus": "Ch. 15",
+      "phrase": "fan shu shi shui … fu gui yu wo ru fu yun (飯疏食飲水 … 富貴於我如浮雲)",
+      "older": "With coarse rice to eat, with water to drink, and my bended arm for a pillow;— I have still joy in the midst of these things. Riches and honours acquired by unrighteousness, are to me as a floating cloud. (Legge)",
+      "lectio": "With coarse rice to eat, water to drink, and my bent arm for a pillow — even so I have joy. Riches and honor gotten by wrong are to me a passing cloud.",
+      "note": "One of the great images in the book, and we guard every piece of it — the coarse rice, the water, the bent arm for a pillow, the floating cloud. Legge's '— I have still joy in the midst of these things' is faithful but heavy; we tighten it to 'even so I have joy,' which lands harder. 'Riches and honor gotten by wrong' keeps the moral edge of his 'acquired by unrighteousness' without the Latinate weight, and 'a passing cloud' lets the cloud drift across the sentence as it does in the Chinese — wealth wrongly won is not evil so much as weightless, nothing to him at all."
+    },
+    {
+      "locus": "Ch. 21",
+      "phrase": "san ren xing, bi you wo shi yan (三人行，必有我師焉)",
+      "older": "When I walk along with two others, they may serve me as my teachers. (Legge)",
+      "lectio": "Walking with two others, I am sure of a teacher in them.",
+      "note": "Among the most quoted lines in all of Confucius. The Chinese says 'three men walking' — Confucius and two others — and that wherever there are people, there is something to learn. Legge's 'they may serve me as my teachers' is tentative; the saying is not tentative at all (bi, 'must,' 'is sure'), so we render it as the flat certainty it is: there is always a teacher to be found, in the good to imitate and the bad to avoid. We keep the two halves that follow — pick out the good and follow it, see the bad and mend it in yourself — so the lesson stays double-edged: every person met is a mirror as much as a model."
+    },
+    {
+      "locus": "Book VIII, ch. 7",
+      "phrase": "shi bu ke yi bu hong yi … ren yi wei ji ren, bu yi zhong hu? si er hou yi, bu yi yuan hu?",
+      "older": "The officer may not be without breadth of mind and vigorous endurance. His burden is heavy and his course is long. Perfect virtue is the burden which he considers it is his to sustain;— is it not heavy? Only with death does his course stop;— is it not long? (Legge)",
+      "lectio": "The scholar cannot be without breadth of mind and tough endurance, for his burden is heavy and his road is long. Humaneness is the burden he takes as his own — is it not heavy? Only with death does the road end — is it not long?",
+      "note": "Master Tsang's most famous saying, and the moral heart of the book. Legge's \"vigorous endurance\" and \"his course is long\" are accurate but stiff; we keep his exact image — heavy burden, long road — while tightening it so it lands with the weight it carries in the Chinese. \"Perfect virtue\" is once again ren, which this edition renders as \"humaneness\" throughout (see Book IV); naming it here keeps the saying tied to the book's one insistent word, and makes plain that the lifelong burden the scholar carries is humaneness itself. Nothing is added or softened: the burden is still heavy, the road still ends only at death."
+    },
+    {
+      "locus": "Book VIII, ch. 8",
+      "phrase": "xing yu shi, li yu li, cheng yu yue (興於詩，立於禮，成於樂)",
+      "older": "It is by the Odes that the mind is aroused. It is by the Rules of Propriety that the character is established. It is from Music that the finish is received. (Legge)",
+      "lectio": "Roused by the Odes; established by ritual; perfected by music.",
+      "note": "A three-beat saying on the stages of forming a person — Legge spreads it across three full sentences with \"the Rules of Propriety\" and \"the finish is received,\" and the bones of it disappear. The Chinese is three matched clauses of three words each. We keep li as plain \"ritual\" (the house word from Books I–IV) and render the whole as three terse parallel phrases, so the reader feels the ascent: the Odes wake you, ritual sets you on your feet, music completes you. Nothing dropped — all three stages, in order."
+    },
+    {
+      "locus": "Book VIII, ch. 9",
+      "phrase": "min ke shi you zhi, bu ke shi zhi zhi (民可使由之，不可使知之)",
+      "older": "The people may be made to follow a path of action, but they may not be made to understand it. (Legge)",
+      "lectio": "The people may be made to follow a path, but not to understand it.",
+      "note": "One of the book's hardest and most argued-over lines, and we leave its difficulty intact rather than soften it. The Chinese says flatly that the people can be led to walk a path but cannot be brought to understand it; commentators have wrestled for centuries over whether this is cold realism about governing or a lament that the people are so hard to teach. We keep Legge's plain reading and only trim his \"a path of action\" to \"a path,\" preserving the stark, uncomfortable shape of the saying. We add nothing to resolve it — the line is meant to be turned over."
     }
   ],
   "sections": [
@@ -1358,6 +1421,900 @@
           "text": "The Master said: In a hamlet of ten households there is sure to be someone as loyal and true as I am — but none so fond of learning.",
           "spine": {
             "from": "0.9630",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-06",
+      "order": 6,
+      "label": "Book VI",
+      "title": "On Disciples and the Humane Life",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: There is Yung — he could be seated facing south, like a prince. Chung-kung asked about Tsze-sang Po-tsze. The Master said: He will do; he does not fuss over small matters. Chung-kung said: To hold reverence within yourself and yet keep an easy hand in small matters when you govern the people — that may pass. But to be easy within and easy without as well — is that not too easy by far? The Master said: Yung is right.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0345"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Duke Ai asked which of the disciples loved learning. Confucius answered: There was Yen Hui; he loved to learn. He never turned his anger on the wrong person, and he never made the same mistake twice. Sadly, his life was cut short and he died; and now there is no one like him. I have not heard of anyone since who loves learning as he did.",
+          "spine": {
+            "from": "0.0345",
+            "to": "0.0690"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "When Tsze-hwa was sent on a mission to Ch'i, the disciple Zan asked for grain to provide for Tsze-hwa's mother. The Master said: Give her a fu. Zan asked for more. Give her an yu, said the Master. Zan gave her five ping. The Master said: When Ch'ih set out for Ch'i, he had sleek horses to his carriage and wore fine furs. I have heard that the cultivated person relieves the hard-pressed, but does not add to the riches of the rich.",
+          "spine": {
+            "from": "0.0690",
+            "to": "0.1034"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "When Yuan Sze was made governor of his town, the Master granted him nine hundred measures of grain, and Sze declined them. The Master said: Do not refuse. Could you not pass them on to the neighborhoods, the hamlets, and the villages around you?",
+          "spine": {
+            "from": "0.1034",
+            "to": "0.1379"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Speaking of Chung-kung, the Master said: If the calf of a plowing ox is red-coated and well-horned, then even if men would rather not offer it, will the spirits of the mountains and rivers turn it away?",
+          "spine": {
+            "from": "0.1379",
+            "to": "0.1724"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The Master said: Such was Hui — for three months together his heart would not stray from humaneness. The others may reach it for a day or a month, and no more.",
+          "spine": {
+            "from": "0.1724",
+            "to": "0.2069"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Chi K'ang asked whether Chung-yu was fit to hold office. The Master said: Yu is decisive; what trouble would he have holding office? And is Ts'ze fit to hold office? The Master said: Ts'ze sees into things; what trouble would he have holding office? And Ch'iu? The Master said: Ch'iu has many talents; what trouble would he have holding office?",
+          "spine": {
+            "from": "0.2069",
+            "to": "0.2414"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The head of the Chi family sent to make Min Tsze-ch'ien governor of Pi. Min Tsze-ch'ien said: Make my excuses for me, gently. If anyone comes asking a second time, I shall have to cross the Wan and leave the country.",
+          "spine": {
+            "from": "0.2414",
+            "to": "0.2759"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "When Po-niu was ill, the Master went to ask after him. He took his hand through the window and said: He is lost — it is the will of Heaven, alas. That such a man should have such a sickness! That such a man should have such a sickness!",
+          "spine": {
+            "from": "0.2759",
+            "to": "0.3103"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: What a fine character Hui had! A bowl of rice, a gourd of water, a poor man's lane to live in — others could not have borne such misery, yet it never spoiled Hui's joy. What a fine character Hui had!",
+          "spine": {
+            "from": "0.3103",
+            "to": "0.3448"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Yen Ch'iu said: It is not that I take no delight in your Way; my strength is not enough for it. The Master said: Those whose strength is not enough give out halfway along the road. You are drawing your own line before you start.",
+          "spine": {
+            "from": "0.3448",
+            "to": "0.3793"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "The Master said to Tsze-hsia: Be a scholar in the manner of the cultivated person, not in the manner of the small man.",
+          "spine": {
+            "from": "0.3793",
+            "to": "0.4138"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "When Tsze-yu was governor of Wu-ch'ang, the Master asked: Have you found any good men there? He answered: There is Tan-t'ai Mieh-ming. He never takes a shortcut when he walks, and he never comes to my office except on public business.",
+          "spine": {
+            "from": "0.4138",
+            "to": "0.4483"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: Mang Chih-fan never boasts of what he does. When the army was in flight he brought up the rear, and as they reached the gate he whipped his horse forward and said: It was not that I dared to come last — my horse would not go any faster.",
+          "spine": {
+            "from": "0.4483",
+            "to": "0.4828"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said: Without the smooth tongue of the priest T'o and the good looks of Prince Chao of Sung, it is hard to get through these times unscathed.",
+          "spine": {
+            "from": "0.4828",
+            "to": "0.5172"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: Who can go out except by the door? Why, then, will no one walk by this Way?",
+          "spine": {
+            "from": "0.5172",
+            "to": "0.5517"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master said: Where the raw stuff outweighs the polish, a man is coarse; where the polish outweighs the raw stuff, he is a mere clerk. Raw stuff and polish in even measure — there you have the cultivated person.",
+          "spine": {
+            "from": "0.5517",
+            "to": "0.5862"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "The Master said: A man is born for uprightness. If a man loses it and lives on, he has only luck to thank that he is not dead.",
+          "spine": {
+            "from": "0.5862",
+            "to": "0.6207"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "The Master said: Those who know it are not equal to those who love it; and those who love it are not equal to those who delight in it.",
+          "spine": {
+            "from": "0.6207",
+            "to": "0.6552"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "The Master said: To those above the common run you may speak of the highest things; to those below it you may not.",
+          "spine": {
+            "from": "0.6552",
+            "to": "0.6897"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "Fan Ch'ih asked what wisdom is. The Master said: To give yourself wholly to the duties owed to other people, and to honor the spirits while keeping your distance from them — that may be called wisdom. He asked about humaneness. The Master said: The humane person takes on the hard part first and lets the reward come after — that may be called humaneness.",
+          "spine": {
+            "from": "0.6897",
+            "to": "0.7241"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: The wise delight in water; the humane delight in mountains. The wise are active; the humane are still. The wise find joy; the humane find length of days.",
+          "spine": {
+            "from": "0.7241",
+            "to": "0.7586"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The Master said: Ch'i, with one change, would rise to the level of Lu; and Lu, with one change, would rise to the level of the Way.",
+          "spine": {
+            "from": "0.7586",
+            "to": "0.7931"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The Master said: A drinking-cup that is no longer a cup — what a cup! What a cup!",
+          "spine": {
+            "from": "0.7931",
+            "to": "0.8276"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "Tsai Wo asked: Suppose a humane man were told there was someone down a well — would he go in after him? The Master said: Why would he do that? You may send the cultivated person to the well, but you cannot make him jump in; you may deceive him, but you cannot make a fool of him.",
+          "spine": {
+            "from": "0.8276",
+            "to": "0.8621"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person studies widely in all learning, and reins himself in with ritual; so he too can keep from overstepping what is right.",
+          "spine": {
+            "from": "0.8621",
+            "to": "0.8966"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "When the Master had been to see Nan-tsze, Tsze-lu was displeased. The Master swore an oath: If I have done anything wrong, may Heaven cast me off! May Heaven cast me off!",
+          "spine": {
+            "from": "0.8966",
+            "to": "0.9310"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "The Master said: The virtue of the Constant Mean — how perfect it is! And how long it has been rare among the people.",
+          "spine": {
+            "from": "0.9310",
+            "to": "0.9655"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-06.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "Tsze-kung said: Suppose a man who showered benefits on the people and could bring help to all — what would you say of him? Could he be called humane? The Master said: Why stop at humane? Surely he would be a sage. Even Yao and Shun fell short of that. As for the humane person: wishing to stand on his own feet, he helps others to stand; wishing to reach his goal, he helps others to reach theirs. To take what is near at hand — yourself — as the measure of others: that may be called the practice of humaneness.",
+          "spine": {
+            "from": "0.9655",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-07",
+      "order": 7,
+      "label": "Book VII",
+      "title": "The Master's Own Way",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: A transmitter and not a maker, trusting and loving the ancients — in this I venture to liken myself to our old P'ang.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0270"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The Master said: To store up knowledge in silence, to learn without ever tiring, to teach others without growing weary — which of these have I mastered?",
+          "spine": {
+            "from": "0.0270",
+            "to": "0.0541"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Master said: That I leave my character untended, that I fail to dig deep into what I learn, that I hear what is right and cannot move toward it, that I see my faults and cannot mend them — these are the things that trouble me.",
+          "spine": {
+            "from": "0.0541",
+            "to": "0.0811"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "When the Master was at his ease, his manner was relaxed and his face content.",
+          "spine": {
+            "from": "0.0811",
+            "to": "0.1081"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The Master said: How far I have declined! It is a long time now since I dreamed, as I used to, of the duke of Chau.",
+          "spine": {
+            "from": "0.1081",
+            "to": "0.1351"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The Master said: Set your heart on the Way. Hold fast to virtue. Lean on humaneness. And find your recreation in the arts.",
+          "spine": {
+            "from": "0.1351",
+            "to": "0.1622"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "The Master said: From the man who brought no more than a bundle of dried meat for my teaching, I have never withheld instruction.",
+          "spine": {
+            "from": "0.1622",
+            "to": "0.1892"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The Master said: I do not open the way for one who is not burning to understand, nor help out one who is not struggling to put his thought into words. When I have shown a man one corner and he cannot come back to me with the other three, I do not go on.",
+          "spine": {
+            "from": "0.1892",
+            "to": "0.2162"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "When the Master ate beside someone in mourning, he never ate his fill. On a day he had wept, he did not sing.",
+          "spine": {
+            "from": "0.2162",
+            "to": "0.2432"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said to Yen Yuan: To take up office when you are called, and to retire quietly when you are not — only you and I can do this. Tsze-lu said: If you had charge of the armies of a great state, whom would you take with you? The Master said: Not the man who would fight a tiger bare-handed or wade a river with no boat, and die without a second thought. The one I want is the one who comes to the work wary, who loves to lay his plans, and so brings them off.",
+          "spine": {
+            "from": "0.2432",
+            "to": "0.2703"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "The Master said: If riches could be had for the seeking, I would seek them, even with whip in hand as a groom. But since they cannot, I will follow what I love.",
+          "spine": {
+            "from": "0.2703",
+            "to": "0.2973"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "The things the Master treated with the most care were fasting, war, and sickness.",
+          "spine": {
+            "from": "0.2973",
+            "to": "0.3243"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "When the Master was in Ch'i, he heard the Shao music, and for three months did not notice the taste of meat. He said: I never imagined that music could reach such heights.",
+          "spine": {
+            "from": "0.3243",
+            "to": "0.3514"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "Yen Yu said: Is the Master for the ruler of Wei? Tsze-kung said: I will go and ask him. He went in and said: What sort of men were Po-i and Shu-ch'i? The Master said: They were worthy men of old. And did they nurse any regret? The Master said: They sought humaneness, and they found it — what was there to regret? Tsze-kung came out and said: The Master is not for him.",
+          "spine": {
+            "from": "0.3514",
+            "to": "0.3784"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said: With coarse rice to eat, water to drink, and my bent arm for a pillow — even so I have joy. Riches and honor gotten by wrong are to me a passing cloud.",
+          "spine": {
+            "from": "0.3784",
+            "to": "0.4054"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: Give me a few more years — fifty for the study of the Yi — and I might come through without grave faults.",
+          "spine": {
+            "from": "0.4054",
+            "to": "0.4324"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master often spoke of the Odes, the History, and the keeping of ritual. On these he spoke often.",
+          "spine": {
+            "from": "0.4324",
+            "to": "0.4595"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "The Duke of Sheh asked Tsze-lu about Confucius, and Tsze-lu gave him no answer. The Master said: Why did you not simply tell him — here is a man who in his hunger for knowledge forgets to eat, who in his joy forgets his cares, and does not notice old age coming on?",
+          "spine": {
+            "from": "0.4595",
+            "to": "0.4865"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "The Master said: I am not one who was born knowing. I love the ancients, and I work hard to seek it there.",
+          "spine": {
+            "from": "0.4865",
+            "to": "0.5135"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "The Master did not talk of marvels, of feats of strength, of disorder, or of spirits.",
+          "spine": {
+            "from": "0.5135",
+            "to": "0.5405"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "The Master said: Walking with two others, I am sure of a teacher in them. I pick out what is good in them and follow it; what is bad, and mend it in myself.",
+          "spine": {
+            "from": "0.5405",
+            "to": "0.5676"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: Heaven planted the virtue that is in me. Hwan T'ui — what can he do to me?",
+          "spine": {
+            "from": "0.5676",
+            "to": "0.5946"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The Master said: Do you think, my friends, that I keep anything back? I keep nothing back from you. There is nothing I do that I do not share with you — that is my way.",
+          "spine": {
+            "from": "0.5946",
+            "to": "0.6216"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The Master taught four things: letters, conduct, faithfulness, and good faith.",
+          "spine": {
+            "from": "0.6216",
+            "to": "0.6486"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "The Master said: A sage I cannot hope to see; if I could see a person of real worth, that would be enough. The Master said: A good man I cannot hope to see; if I could see a man of constancy, that would be enough. To have nothing and act as if you had, to be empty and act as if you were full, to be in want and act as if you were at ease — it is hard for such a man to have constancy.",
+          "spine": {
+            "from": "0.6486",
+            "to": "0.6757"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "The Master fished, but not with a net. He shot, but not at roosting birds.",
+          "spine": {
+            "from": "0.6757",
+            "to": "0.7027"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "The Master said: There may be those who act without knowing why; I am not one of them. To hear much, pick out the good, and follow it; to see much and hold it in mind — this is the next best thing to knowing.",
+          "spine": {
+            "from": "0.7027",
+            "to": "0.7297"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "The people of Hu-hsiang were hard to talk with, and when a boy from there was received by the Master, the disciples were uneasy. The Master said: I take a man as he comes to me; I do not answer for what he does once he leaves. Why be so harsh? When a man cleanses himself to come to me, I welcome the man he now is; I do not vouch for his past.",
+          "spine": {
+            "from": "0.7297",
+            "to": "0.7568"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "The Master said: Is humaneness so far off? I want to be humane, and there — humaneness is here.",
+          "spine": {
+            "from": "0.7568",
+            "to": "0.7838"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "The minister of crime of Ch'an asked whether Duke Chao knew ritual. Confucius said: He knew ritual. When Confucius had gone, the minister beckoned Wu-ma Ch'i forward and said: I had heard that the cultivated person takes no sides. Can he too take sides? The prince married a woman of the house of Wu, of his own surname, and called her \"the elder Tsze of Wu.\" If this prince knew ritual, who does not? Wu-ma Ch'i reported this. The Master said: I am a lucky man. If I make a mistake, others are sure to know it.",
+          "spine": {
+            "from": "0.7838",
+            "to": "0.8108"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "When the Master was with someone who was singing and sang well, he would have him sing it again, and then join in.",
+          "spine": {
+            "from": "0.8108",
+            "to": "0.8378"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "The Master said: In letters I am perhaps no worse than other men. But to live out in my own conduct what the cultivated person professes — that I have not yet reached.",
+          "spine": {
+            "from": "0.8378",
+            "to": "0.8649"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "The Master said: A sage, or a man of perfect humaneness — how could I dare claim to be either? But that I strive toward it without tiring, and teach others without weariness — that much may be said of me. Kung-hsi Hwa said: And that is just what we, your disciples, cannot learn to do.",
+          "spine": {
+            "from": "0.8649",
+            "to": "0.8919"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "The Master was gravely ill, and Tsze-lu asked leave to pray for him. The Master said: Is there such a thing? Tsze-lu said: There is. The Eulogies say, \"Prayer has been made for you to the spirits above and below.\" The Master said: Then my praying has been going on a long while.",
+          "spine": {
+            "from": "0.8919",
+            "to": "0.9189"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "The Master said: Extravagance breeds insolence, and stinginess breeds meanness. Better mean than insolent.",
+          "spine": {
+            "from": "0.9189",
+            "to": "0.9459"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person is calm and at ease; the small man is always anxious and on edge.",
+          "spine": {
+            "from": "0.9459",
+            "to": "0.9730"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-07.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "The Master was gentle, yet firm; commanding, yet not harsh; respectful, yet at ease.",
+          "spine": {
+            "from": "0.9730",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-08",
+      "order": 8,
+      "label": "Book VIII",
+      "title": "T'ai-po, and the Burden of the Scholar",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: T'ai-po may be said to have reached the very height of virtue. Three times he gave up the empire, and so quietly that the people never even knew enough to praise him.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0476"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The Master said: Respectfulness without ritual becomes wearisome fuss; caution without ritual becomes timidity; boldness without ritual becomes rebellion; plain speaking without ritual becomes rudeness. When those in high place are devoted to their own kin, the people are stirred to humaneness; when they do not forget their old friends, the people are kept from meanness.",
+          "spine": {
+            "from": "0.0476",
+            "to": "0.0952"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Master Tsang was gravely ill, and called his disciples to him and said: Uncover my feet, uncover my hands. The Book of Poetry says, \"In fear and trembling, as on the brink of a deep gulf, as treading thin ice.\" But now, my little children, I know that I have come through, my body whole.",
+          "spine": {
+            "from": "0.0952",
+            "to": "0.1429"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Master Tsang was ill, and Meng Chang came to ask after him. Master Tsang said to him: When a bird is about to die, its cry is mournful; when a man is about to die, his words are good. There are three things the man of high rank should hold most important: that in his bearing and manner he keep clear of violence and carelessness; that in his looks he stay close to sincerity; and that in his words and tone he keep far from coarseness and impropriety. As for the sacrificial vessels, there are officers to see to those.",
+          "spine": {
+            "from": "0.1429",
+            "to": "0.1905"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Master Tsang said: Gifted, yet asking of those who were not; full of knowledge, yet asking of those who had little; having, yet as though he had not; full, yet counting himself empty; wronged, yet picking no quarrel — I once had a friend who lived like this.",
+          "spine": {
+            "from": "0.1905",
+            "to": "0.2381"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Master Tsang said: Suppose a man you could trust with a young orphaned prince, and charge with the rule of a domain of a hundred li, and whom no crisis, however great, could shake from his principles — is such a man a cultivated person? A cultivated person indeed.",
+          "spine": {
+            "from": "0.2381",
+            "to": "0.2857"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Master Tsang said: The scholar cannot be without breadth of mind and tough endurance, for his burden is heavy and his road is long. Humaneness is the burden he takes as his own — is it not heavy? Only with death does the road end — is it not long?",
+          "spine": {
+            "from": "0.2857",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The Master said: Roused by the Odes; established by ritual; perfected by music.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.3810"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "The Master said: The people may be made to follow a path, but not to understand it.",
+          "spine": {
+            "from": "0.3810",
+            "to": "0.4286"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: A man who loves daring and chafes at poverty will turn to rebellion; and a man who is without humaneness, if you push your dislike of him too far, will turn to it as well.",
+          "spine": {
+            "from": "0.4286",
+            "to": "0.4762"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "The Master said: Though a man had gifts as splendid as the Duke of Chau's, if he were proud and stingy the rest would not be worth a glance.",
+          "spine": {
+            "from": "0.4762",
+            "to": "0.5238"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "The Master said: It is not easy to find a man who can study three years without his mind turning to a salary.",
+          "spine": {
+            "from": "0.5238",
+            "to": "0.5714"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "The Master said: Hold fast to sincerity, love learning, and guard the good way to the death. Do not enter a tottering state, nor stay in one in disorder. When the way prevails in the world, show yourself; when it does not, keep hidden. When a country is well governed, poverty and obscurity are a disgrace; when a country is badly governed, wealth and rank are a disgrace.",
+          "spine": {
+            "from": "0.5714",
+            "to": "0.6190"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: If you do not hold the office, do not meddle in its business.",
+          "spine": {
+            "from": "0.6190",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said: When the music-master Chih began, and the close of the Kwan Tsu came — how it filled the ears!",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7143"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: Ardent but not upright; ignorant but not careful; simple but not honest — such people are beyond me.",
+          "spine": {
+            "from": "0.7143",
+            "to": "0.7619"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master said: Study as though you could never catch up, and as though you feared to lose what you had.",
+          "spine": {
+            "from": "0.7619",
+            "to": "0.8095"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "The Master said: How lofty was the way Shun and Yü held the empire — as if it were nothing to them!",
+          "spine": {
+            "from": "0.8095",
+            "to": "0.8571"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "The Master said: Great indeed was Yao as a ruler! How lofty! Heaven alone is grand, and Yao alone matched it. So vast was his virtue that the people could find no name for it. How lofty in all he accomplished, how brilliant in the forms and laws he set up!",
+          "spine": {
+            "from": "0.8571",
+            "to": "0.9048"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Shun had five ministers, and the empire was well governed. King Wu said, \"I have ten able ministers.\" Confucius said: How true the saying, that talent is hard to find! Only at the meeting of the houses of T'ang and Yü was it more abundant than in this age of Chau — and even then there was a woman among them, so the able men were no more than nine. King Wan held two parts of the empire in three, and with them still served the house of Yin. The virtue of the house of Chau may be called the very height of virtue.",
+          "spine": {
+            "from": "0.9048",
+            "to": "0.9524"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-08.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "The Master said: In Yü I can find no flaw. His own food and drink were poor, yet he was lavish in devotion to the spirits. His everyday clothes were plain, yet his sacrificial cap and apron were of the finest. He lived in a mean low house, yet poured out all his strength on the ditches and channels. In Yü I can find no flaw.",
+          "spine": {
+            "from": "0.9524",
             "to": "1.0000"
           }
         }
