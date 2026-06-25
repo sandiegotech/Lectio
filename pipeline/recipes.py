@@ -601,7 +601,7 @@ def confessions():
     work = Work(
         id=work_id, title="Confessions", author="Saint Augustine", originalLang="la",
         composed="397–400 CE", type="religion", referenceScheme="book.chapter",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId="edition.confessions.lectio-modern", tradition="West",
         blurb=("The first true autobiography of a soul: Augustine's restless, brilliant life "
                "turning at last toward God. Sin and conversion, memory and time, and a heart "
                "that finds no rest until it rests in God."),

@@ -19,7 +19,7 @@
       "F. J. Sheed (1942, consulted, not quoted)",
       "Henry Chadwick (1991, consulted, not quoted)"
     ],
-    "tokensEstimated": 284336,
+    "tokensEstimated": 301196,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -277,6 +277,27 @@
       "older": "in the unchangeable Truth itself ... not because it is theirs, but because it is true",
       "lectio": "in the unchangeable Truth itself ... not because it is theirs, but because it is true",
       "note": "The long second half of the book is Augustine's defense of interpretive pluralism: a single passage of Moses may carry many true meanings, all of them genuinely in the text, because the one God 'shaped the holy Scriptures to fit the understandings of many.' The danger he names is not error but pride — loving a reading 'because it is theirs,' not because it is true — which wounds charity, the end of the whole law. The crux for a translator is to keep both halves sharp: the generous 'why not as both, if both are true?' AND the insistence that truth is common property, belonging 'to us all,' never private. We resist softening this into modern relativism; for Augustine the many readings are true precisely because they meet in 'the unchangeable Truth itself, which is above our minds.'"
+    },
+    {
+      "locus": "XIII.5 (Pusey seg. 5)",
+      "phrase": "ecce apparet mihi in aenigmate trinitas, quod es tu, deus meus",
+      "older": "Lo, now the Trinity appears unto me in a glass darkly, which is Thou my God (Pusey)",
+      "lectio": "And now, look — the Trinity appears to me in a glass, darkly, and that Trinity is you, my God",
+      "note": "The structural heart of the final three books: Augustine reads the Trinity out of the opening of Genesis — God the Father creating \"in the Beginning\" (the Son) while \"the Spirit moved upon the waters.\" Pusey's \"in a glass darkly\" is Paul's phrase (1 Cor 13:12) for in aenigmate, and we keep it, because Augustine is deliberately quoting it: the Trinity is glimpsed, not grasped. We resist flattening aenigma to \"dimly\" or \"as a riddle\"; the load-bearing point is that creation itself is the dark mirror in which the triune God is half-seen. \"That Trinity is you\" keeps the audacious identification (quod es tu) that the rest of the book unfolds."
+    },
+    {
+      "locus": "XIII.11 (Pusey seg. 11)",
+      "phrase": "esse, nosse, velle ... sum enim et scio et volo",
+      "older": "To Be, to Know, and to Will. For I Am, and Know, and Will (Pusey)",
+      "lectio": "to be, to know, and to will. For I am, and I know, and I will",
+      "note": "Augustine's analogy for the Trinity drawn from the inner self — being, knowing, willing — three that are one life and yet truly distinct. The Latin is three bare infinitives (esse, nosse, velle); we keep them bare and lower-case rather than Pusey's reverent capitals, because the whole point is that these are ordinary facts of one's own mind, a ladder to climb and then leave behind: Augustine insists they are \"something altogether different from the Trinity\" and only \"point out where they may test themselves.\" The strangeness — that you can verify the triad in yourself and still not have touched God — must be preserved, not smoothed into a tidy proof."
+    },
+    {
+      "locus": "XIII.35-36, 50-51 (Pusey segs. 48-50)",
+      "phrase": "pacem quietis, pacem sabbati, pacem sine vespera ... tu autem, domine, semper operaris et semper requiescis",
+      "older": "the peace of rest, the peace of the Sabbath, which hath no evening ... But Thou, Lord, ever workest, and art ever at rest (Pusey)",
+      "lectio": "the peace of rest, the peace of the Sabbath, the Sabbath that has no evening ... But you, Lord, are always at work and always at rest",
+      "note": "The benediction of the whole Confessions, and the resolution of its first sentence: the restless heart (Book I) finds, at the last, the rest that has no evening. \"Evening\" (vespera) is literal and load-bearing: each of the six days of creation closed with \"there was evening,\" but the seventh has none — the Sabbath of eternal life is rest without sunset, without falling-off. We keep \"evening\" rather than the abstract \"end\" so the figure stays anchored in Genesis. The closing paradox — semper operaris et semper requiescis, God always working and always resting, with rest that is God himself (requies tua tu ipse es) — is held intact and plain, because the strangeness is the consolation. The book ends as it began and as the Gospel commands: ask, seek, knock — \"so will it be opened. Amen.\""
     }
   ],
   "sections": [
@@ -4441,6 +4462,534 @@
           "text": "Lastly, O Lord, you who are God and not flesh and blood — if a man saw less, could anything be hidden from your good Spirit, who shall lead me into the land of uprightness, anything that you yourself were about to reveal, by those very words, to readers in times to come, even though the one through whom they were spoken perhaps had in mind, among many true meanings, only some single one? And if that is how it is, then let the one he had in mind be the highest of all. But to us, O Lord, either reveal that same meaning, or any other true one that pleases you, so that whether you uncover to us the same as to your servant, or some other by occasion of those words, you may still feed us, and no error deceive us. Look, O Lord my God, how much we have written on a few words — how much, I beg you! What strength of ours, what ages, would be enough for all your books at this rate? Let me, then, confess to you in these things more briefly, and choose some one true, certain, and good sense that you shall inspire, even where many present themselves, where many may; this being the law of my confession: that if I should say what your minister meant, that is right and best, and that is what I should strive for; and if I should not reach it, then I should still say what your Truth willed to tell me by his words — your Truth, which told him too what it willed.",
           "spine": {
             "from": "0.9762",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.confessions.lectio-modern.book-13",
+      "order": 13,
+      "label": "Book XIII",
+      "title": "Creation, the Spirit on the Waters, and the Sabbath That Has No Evening",
+      "segments": [
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "I call on you, my God, my mercy, who made me and did not forget me even when I was forgetting you. I call you into my soul, which you are making ready for yourself by the longing you breathe into her. Do not abandon me now, as I call on you — you who came before my call and pressed me with so many repeated invitations, in so many forms, that I might hear you from far off and turn back and call on you in turn, you who had been calling after me all along. For you, Lord, wiped out all my deserving of punishment, so as not to repay into my hands what I did when I fell from you; and you came before all my deserving of reward, so as to repay the work of your own hands by which you made me. Because before I existed, you were; and I was nothing at all, to which you might grant existence. And yet, here I am, out of your goodness — your goodness which came before everything you made me out of and everything you made me to be. For you had no need of me. I am not a good of the kind that could be of any use to you, my Lord and my God: not as if you would tire at your work and need my service to spare you, nor as if your power would be diminished without my help, nor as if you were a field that must lie fallow unless I tended you. No — I serve and worship you so that good may come to me from you, from whom it comes that I have a being capable of receiving good at all.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0236"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "For it is out of the fullness of your goodness that your creation holds together — so that a good which could in no way profit you, and was not made out of you (lest it be your equal), might still exist, since it could be made by you. For what claim did heaven and earth have on you, which you made in the Beginning? Let those natures, spiritual and bodily, which you made in your Wisdom, tell what they did to deserve you — even in their first unfinished, formless state, whether spiritual or bodily, on the verge of sliding away into a wild lawlessness, into a likeness to you grown faint and far. (The spiritual, even without form, is higher than the bodily even when formed; and the bodily, even without form, is better than it would be if it were nothing at all.) So they hung upon your Word, formless, unless by that same Word they were called back to your unity and given form, and out of you, the one Sovereign Good, were all made very good. What did they do to deserve from you even to be formless, when they would not have been even this, except from you?",
+          "spine": {
+            "from": "0.0236",
+            "to": "0.0283"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "What claim did bodily matter have on you, even to be invisible and without form? It would not have been even this, had you not made it; and since it was not, it could not deserve from you to be made at all. And the spiritual creature in its first beginning — how could it deserve from you even to drift darkly to and fro like the deep, so unlike you, unless by the same Word it had been turned to the One who created it, and lit by him, become light, though not as his equal, yet shaped to that Form which is your equal? For just as, in a body, to exist is not the same as to be beautiful — or else it could never be deformed — so likewise, for a created spirit, to live is not the same as to live wisely, or else it would be wise unchangeably. But its good is to hold fast to you always; otherwise it loses, by turning away, whatever light it gained by turning to you, and slips back into a life like the dark deep. For we too, who as to the soul are a spiritual creature, when we turned away from you our light, were in that life once darkness; and we still labor among the remnants of our darkness, until in your Only Son we become your righteousness, like the mountains of God. For we have been your judgments, which are like the great deep.",
+          "spine": {
+            "from": "0.0283",
+            "to": "0.0283"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "When you said at the beginning of creation, Let there be light, and there was light, I think it is fair to understand this of the spiritual creature: for there was already a kind of life, which you could illuminate. But just as it had no claim on you for the very life that could be enlightened, so now that it existed, it had no claim to be enlightened either. For its formless state could not have pleased you unless it became light — and not by simply existing, but by gazing on the light that gives light, and clinging to it. That it lived, and lived in happiness, it owes to nothing but your grace, having been turned by a change for the better toward the One who cannot be changed for worse or for better — which you alone are, because you alone simply are. For you, to live and to live blessedly are not two things, since you are your own blessedness.",
+          "spine": {
+            "from": "0.0283",
+            "to": "0.0472"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "What, then, could your good be lacking — that good which you yourself are — even if these things had never existed at all, or had stayed without form? You made them not out of any want, but out of the fullness of your goodness, holding them in and turning them into form, not as though your joy needed completing by them. For to you, who are perfect, their imperfection is displeasing, and so they were perfected by you, and please you — not as though you were imperfect and had to be perfected by perfecting them. For your good Spirit was borne above the waters, not borne up by them, as if he rested upon them. For those upon whom your good Spirit is said to rest, he causes to rest in himself. But your incorruptible and unchangeable will, in itself all-sufficient to itself, was borne above that life which you had created — a life for which living and living happily are not one and the same, since it goes on living even while it ebbs and flows in its own darkness; and what remains for it is to be turned back to the One by whom it was made, and to live more and more by the fountain of life, and in his light to see light, and to be perfected, enlightened, and made beautiful.",
+          "spine": {
+            "from": "0.0472",
+            "to": "0.0849"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And now, look — the Trinity appears to me in a glass, darkly, and that Trinity is you, my God. For you, O Father, in him who is the Beginning of our wisdom, which is your Wisdom, born of you, equal to you and coeternal — that is, in your Son — created heaven and earth. Much we have said already of the Heaven of heavens, and of the earth invisible and without form, and of the dark deep, with its restless wandering of spiritual deformity, which would have stayed so unless it had been turned to the One from whom it had whatever life it then had, and by his light become a beautiful life, the heaven of that heaven which was afterward set between the waters and the waters. Under the name of God I now held the Father, who made these things; and under the name of Beginning, the Son, in whom he made them; and believing, as I did, that my God is the Trinity, I searched on in your holy words, and look — your Spirit moved upon the waters. Behold the Trinity, my God: Father, and Son, and Holy Spirit, the Creator of all that is created.",
+          "spine": {
+            "from": "0.0849",
+            "to": "0.1132"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "But what was the reason, O Light that speaks the truth? To you I lift up my heart; let it not teach me empty things. Scatter its darkness, and tell me, I beg you — by our mother, charity, I beg you — tell me the reason why, after the mention of heaven, and of the earth invisible and without form, and of darkness upon the deep, your Scripture should then at last name your Spirit. Was it because it was fitting that knowledge of him should be conveyed as one who is borne above — and this could not be said until first there was named the thing over which your Spirit may be understood to have been borne? For he was not borne above the Father, nor above the Son, nor could he rightly be said to be borne above if he were borne over nothing. First, then, that had to be spoken of over which he might be borne; and then he, of whom it was fitting to speak only as one borne above. But why was it fitting to convey knowledge of him in no other way than as one borne above?",
+          "spine": {
+            "from": "0.1132",
+            "to": "0.1274"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Let anyone who can follow your Apostle with his understanding, where he says, Because your love is poured out in our hearts by the Holy Spirit who is given to us; and where, speaking of spiritual gifts, he teaches and shows us a still more excellent way, the way of charity; and where he bends his knee to you on our behalf, that we may know the surpassing knowledge of the love of Christ. And so, from the beginning, the Spirit was borne surpassingly above the waters. To whom shall I say this? How put into words the weight of evil desires, dragging down into the steep abyss, and how charity lifts us up again by your Spirit who was borne above the waters? To whom shall I say it? How say it? For it is not in any space that we sink and surface. What could be more alike, and yet what less? These are feelings; these are loves: the uncleanness of our spirit flowing away downward with the love of cares, and the holiness of your Spirit raising us upward by the love of an untroubled rest — that we may lift up our hearts to you, where your Spirit is borne above the waters, and come at last to that surpassing rest, when our soul has passed through the waters that give no foothold.",
+          "spine": {
+            "from": "0.1274",
+            "to": "0.1368"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Angels fell away, the soul of man fell away, and so they showed how deep the abyss was in that dark depth, ready to swallow the whole spiritual creation, had you not said from the beginning, Let there be light, and there was light, and had not every obedient mind of your heavenly City clung to you and rested in your Spirit, who is borne unchangeably over everything that changes. Otherwise the very heaven of heavens would have been in itself a dark deep; but now it is light in the Lord. For even in that wretched restlessness of the spirits who fell away and discovered their own darkness, once stripped of the garment of your light, you show clearly enough how noble you made the rational creature: nothing less than you will satisfy it for a happy rest — and so, not even itself. For you, O our God, will light up our darkness; from you comes our garment of light, and then our darkness shall be like the noonday. Give yourself to me, my God; restore yourself to me. See, I love you; and if it is too little, let me love more strongly. I cannot measure it well enough to know how much love is still lacking in me, before my life can run into your embrace and not turn away until it is hidden in the hidden place of your presence. This much only I know: that it goes ill with me except in you — not only outside myself but within me too; and all abundance that is not my God is emptiness to me.",
+          "spine": {
+            "from": "0.1368",
+            "to": "0.1509"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "But was not the Father, or the Son, also borne above the waters? If this means borne in space, like a body, then neither was the Holy Spirit. But if it means the unchangeable height of the Godhead above all changeable things, then Father and Son and Holy Spirit were all borne above the waters. Why, then, is it said of your Spirit only? Why said of him alone — as if he had been in a place, who is not in any place, of whom alone it is written that he is your Gift? In your Gift we rest; there we enjoy you. Our rest is our place. Love lifts us up there, and your good Spirit lifts our lowliness from the gates of death. In your good pleasure is our peace. A body strives by its own weight toward its own place. Weight does not pull only downward, but toward its own place. Fire tends upward, a stone downward; they are driven by their own weight, they seek their own places. Oil poured under water rises above the water; water poured on oil sinks below the oil: they are driven by their own weights to seek their own places. When they are out of order, they are restless; restored to order, they are at rest. My weight is my love; by it I am carried, wherever I am carried. By your Gift we are kindled and carried upward; we catch fire and go. We climb the ascents that are in our heart, and sing a song of degrees. With your fire, your good fire, we glow, and we go — because we are going upward, to the peace of Jerusalem; for I was glad in those who said to me, We will go up to the house of the Lord. There your good pleasure has set us, so that we may want nothing else but to stay there forever.",
+          "spine": {
+            "from": "0.1509",
+            "to": "0.1792"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Blessed is that creature which, being other than you, has known no other condition than this: that as soon as it was made, it was — without any interval — by your Gift, which is borne above everything changeable, caught up by that call in which you said, Let there be light, and there was light. Whereas in us this happens at different times, in that we were darkness and are made light; but of that creature it is said only what it would have been, had it not been enlightened. It is spoken of as if it had been unsettled and dark before, so that the reason it became otherwise might be made plain — namely, that by being turned to the Light that does not fail, it became light. Let whoever can, understand this; and let him ask it of you. Why should he trouble me, as if I could enlighten any man who comes into this world?",
+          "spine": {
+            "from": "0.1792",
+            "to": "0.2075"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "Which of us grasps the Almighty Trinity? And yet which of us does not speak of it — if indeed it is of it that he speaks? Rare is the soul that, while it speaks of the Trinity, knows what it is speaking of. People argue and contend, yet no one sees that vision without peace. I wish people would consider three things that are in themselves. These three are something altogether different from the Trinity; I only point out where they may test themselves, and prove and feel how far apart the two are. The three I mean are these: to be, to know, and to will. For I am, and I know, and I will. I am one who knows and wills; and I know that I am and that I will; and I will to be and to know. In these three, let whoever can, discern how inseparable a life there is — yes, one life, one mind, one essence — and yet how inseparable a distinction, and still a distinction. A man has it before him; let him look into himself and see, and tell me. But when he has found and can say something of these three, let him not therefore think he has found that which is above them — the Unchangeable, which unchangeably is, and unchangeably knows, and unchangeably wills. Whether, because of these three, there is in God too a Trinity; or whether all three are in each, so that all three belong to each; or whether both at once, in a way past wonder, simply and yet manifoldly, itself a bound to itself within itself, and yet unbounded — by which it is, and is known to itself, and is sufficient to itself, unchangeably the Selfsame, in the overflowing greatness of its unity — who can readily conceive this? Who could in any way put it into words? Who would dare to pronounce on it rashly?",
+          "spine": {
+            "from": "0.2075",
+            "to": "0.2264"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "Go on, then, with your confession, O my faith; say to the Lord your God, Holy, Holy, Holy, O Lord my God. In your name we have been baptized, Father, Son, and Holy Spirit; in your name we baptize, Father, Son, and Holy Spirit; because among us too, in his Christ, God made heaven and earth — that is, the spiritual and the carnal people of his Church. And our earth, before it received the form of teaching, was invisible and without form, and we were covered with the darkness of ignorance. For you corrected man for his sin, and your judgments were a great deep to him. But because your Spirit was borne above the waters, your mercy did not abandon our misery, and you said, Let there be light. Repent, for the kingdom of heaven is at hand. Repent: let there be light. And because our soul was troubled within us, we remembered you, O Lord, from the land of Jordan, and from that mountain equal to yourself but made small for our sakes; and our darkness displeased us, and we turned to you, and there was light. And behold, we were once darkness, but now we are light in the Lord.",
+          "spine": {
+            "from": "0.2264",
+            "to": "0.2453"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "But as yet by faith and not by sight; for by hope we are saved, and hope that is seen is not hope. As yet deep calls to deep, but now in the voice of your waterfalls. As yet the one who said, I could not speak to you as to spiritual people, but as to carnal — even he does not yet count himself to have laid hold of it, but forgets the things behind and reaches out to the things ahead, and groans under his burden, and his soul thirsts for the living God as the deer thirsts for the streams of water, and he says, When shall I come? — longing to be clothed over with his dwelling that is from heaven. And he calls out to this lower deep, saying, Do not be conformed to this world, but be transformed by the renewing of your mind; and, Do not be children in understanding, but in malice be children, so that in understanding you may be grown; and, O foolish Galatians, who has bewitched you? But now no longer in his own voice — in yours, who sent your Spirit from above, through him who ascended on high and threw open the floodgates of his gifts, that the rush of his streams might gladden the city of God. For him this friend of the Bridegroom sighs, holding now the first fruits of the Spirit laid up with him, yet still groaning within himself, waiting for the adoption, that is, the redemption of his body. For him he sighs, a member of the Bride; for him he is jealous, as a friend of the Bridegroom; for him he is jealous, not for himself; because it is in the voice of your waterfalls, and not in his own, that he calls to that other deep, over which, being jealous, he is afraid — afraid that, as the serpent deceived Eve by his cunning, so their minds may be corrupted from the purity that is in our Bridegroom, your only Son. Oh, what a light of beauty that will be, when we shall see him as he is, and those tears have passed away that have been my food day and night, while they say to me all day long, Where is your God now?",
+          "spine": {
+            "from": "0.2453",
+            "to": "0.2547"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Behold, I too say it: O my God, where are you? See where you are! In you I breathe a little, when I pour out my soul above myself in the voice of joy and praise, the sound of one who keeps a festival. And yet again it is sad, because it slips back and becomes a deep — or rather, perceives that it is still a deep. To it my faith speaks, the faith you have kindled to light my feet in the night: Why are you sad, my soul, and why do you trouble me? Hope in the Lord; his word is a lamp to your feet. Hope and endure, until the night is over — the night, the mother of the wicked — until the wrath of the Lord is past, whose children we too once were, we who were sometimes darkness, and whose remnants we still carry about in our body, dead because of sin, until the day breaks and the shadows flee away. Hope in the Lord: in the morning I shall stand in your presence and gaze on you; I shall confess to you forever. In the morning I shall stand in your presence and shall see the salvation of my face, my God, who will also give life to our mortal bodies by the Spirit who dwells in us, because in mercy he was borne above our inner deep, dark and adrift. From him we have received, on this pilgrimage, a pledge that we should now be light, while we are saved by hope and are children of the light and children of the day — not children of the night, nor of the darkness, which yet we once were. Between them and us, in this uncertainty of human knowledge, you alone divide; you, who test our hearts and call the light day, and the darkness night. For who tells us apart but you? And what do we have that we have not received from you — out of the same lump, vessels made for honor, of which others also are made for dishonor?",
+          "spine": {
+            "from": "0.2547",
+            "to": "0.2547"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "Or who but you, our God, made for us that firmament of authority over us in your divine Scripture? For it is said, Heaven shall be folded up like a scroll; and now it is stretched over us like a skin. Your divine Scripture has a more eminent authority because the mortals through whom you dispensed it to us have passed through death. And you know, Lord, you know how you clothed men with skins when they became mortal by sin. So you have stretched out the firmament of your Book like a skin — your words in their harmony, which you spread over us by the ministry of mortal men. For by their very death the solid firmament of authority in the words you set forth through them was stretched more eminently over all who are beneath it than while they lived here. As long as they were alive, it was not stretched so eminently. You had not yet spread out the heaven like a skin; you had not yet enlarged in every direction the glory of their deaths.",
+          "spine": {
+            "from": "0.2547",
+            "to": "0.2642"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "Let us look, O Lord, on the heavens, the work of your fingers; clear from our eyes the cloud you have spread beneath them. There is your testimony, which gives wisdom to little ones: perfect your praise, my God, out of the mouths of babes and infants at the breast. For we know no other books that so demolish pride, that so destroy the enemy and the defender, who resists your reconciliation by defending his own sins. I know of no others, Lord, I know of no other words so pure, which so persuade me to confess, and make my neck supple to your yoke, and invite me to serve you for nothing in return. Let me understand them, good Father; grant me this, set as I am beneath them — for it is for those set beneath them that you established them.",
+          "spine": {
+            "from": "0.2642",
+            "to": "0.2830"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "There are other waters above this firmament, immortal, I believe, and kept apart from earthly corruption. Let them praise your name; let them praise you, the people above the heavens, your angels, who have no need to look up at this firmament, or to learn your Word by reading. For they always behold your face, and there they read, without any syllables of time, what your eternal will wills. They read, they choose, they love. They are forever reading, and what they read never passes away; for by choosing and by loving they read the very unchangeableness of your counsel. Their book is never closed, nor their scroll rolled up, for you yourself are this to them, and are so eternally — because you have set them above this firmament, which you have fixed firmly over the weakness of the lower people, where they might look up and learn your mercy, which announces in time the One who made the times. For your mercy, O Lord, is in the heavens, and your truth reaches to the clouds. The clouds pass away, but the heaven abides. The preachers of your word pass from this life into another, but your Scripture is spread abroad over the people, even to the end of the world. Yet heaven and earth too shall pass away, but your words shall not pass away. Because the scroll shall be rolled together, and the grass over which it was spread shall pass away with all its beauty; but your Word remains forever — which now appears to us under the dark image of the clouds, and through the mirror of the heavens, not as it is. For even though we are the beloved of your Son, it has not yet appeared what we shall be. He looks through the lattice of our flesh, and he spoke us tenderly, and kindled us, and we ran after his fragrance. But when he appears, then we shall be like him, for we shall see him as he is. As he is, Lord — such will our seeing be.",
+          "spine": {
+            "from": "0.2830",
+            "to": "0.3208"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "For altogether, as you are, you alone know — you who unchangeably are, and unchangeably know, and unchangeably will. Your Essence knows and wills unchangeably; your Knowledge is and wills unchangeably; your Will is and knows unchangeably. Nor does it seem right in your sight that, as the unchangeable Light knows itself, so it should be known by the thing it enlightens, which is changeable. Therefore my soul is like a land where there is no water; for just as it cannot of itself give itself light, so neither can it of itself satisfy itself. For with you is the fountain of life, and in your light we shall see light.",
+          "spine": {
+            "from": "0.3208",
+            "to": "0.3632"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Who gathered the embittered into one society? For they all have one aim — a happiness that is temporal and earthly — and for the sake of it they do everything they do, though they toss up and down in a countless variety of cares. Who, Lord, but you said, Let the waters be gathered together into one place, and let the dry land appear, which thirsts for you? For the sea also is yours, and you made it, and your hands shaped the dry land. It is not the bitterness of men's wills, but the gathering of the waters, that is called the sea; for you restrain the wicked desires of men's souls and set them their bounds, how far they may be allowed to go, so that their waves break against one another. And so you make it a sea, by the order of your dominion over all things.",
+          "spine": {
+            "from": "0.3632",
+            "to": "0.3821"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "But the souls that thirst for you and stand before you, marked off by other boundaries from the company of the sea — these you water with a sweet spring, so that the earth may bring forth its fruit. And, at your command, O Lord God, our soul may put forth works of mercy after their kind, loving our neighbor in the relief of his bodily needs, having seed in itself after its likeness; when, out of a sense of our own weakness, we feel for the needy so as to help them, helping them as we would want to be helped if we were in like need — and not only in easy things, like the herb that yields seed, but in the protection we give with our utmost strength, like the tree that yields fruit: that is, doing good by rescuing one who suffers wrong from the hand of the powerful, and giving him the shelter of protection by the strong force of just judgment.",
+          "spine": {
+            "from": "0.3821",
+            "to": "0.3915"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "So, Lord, so, I beg you — let it spring up, as you do it, as you give cheerfulness and ability: let truth spring out of the earth, and righteousness look down from heaven, and let there be lights in the firmament. Let us break our bread for the hungry, and bring the homeless poor under our roof; let us clothe the naked, and not despise our own flesh and blood. When these fruits have sprung from the earth, see that it is good; and let our short-lived light break forth, and let us, rising from this lower fruitfulness of action to the delight of contemplation, take hold of the Word of life above, and appear like lights in the world, fixed in the firmament of your Scripture. For there you teach us to divide between things of the mind and things of the senses, as between day and night, or between souls given to one or to the other; so that now it is not you alone who, in the secret of your judgment, divide between light and darkness as you did before the firmament was made, but your spiritual children too, set and ranked in that same firmament — now that your grace is laid open throughout the world — may give light upon the earth, and divide the day from the night, and serve as signs of the seasons: that the old things have passed away and, behold, all things have become new; that our salvation is nearer than when we first believed; that the night is far spent and the day is at hand; and that you will crown your year with blessing, sending the laborers of your goodness into your harvest, in the sowing of which others have labored, and sending them too into another field, whose harvest will be at the end. So you grant the prayers of the one who asks, and bless the years of the just; but you are the same, and in your years that do not fail you prepare a storehouse for our passing years. For by an eternal counsel you bestow on the earth, in their proper seasons, your heavenly blessings. For to one is given by the Spirit the word of wisdom, like the greater light, for those who delight in the clear shining of truth, as for the rule of the day; to another the word of knowledge by the same Spirit, like the lesser light; to another faith; to another the gift of healing; to another the working of miracles; to another prophecy; to another the discerning of spirits; to another different kinds of tongues — and all these, as it were, the stars. For one and the same Spirit works all of them, distributing to each his own as he wills, and making the stars appear plainly for our profit. But the word of knowledge, in which all the sacraments are contained — varied in their seasons like the moon — and the other gifts reckoned up as if they were stars, in that they fall short of that brightness of wisdom which gladdens the day already spoken of, are only for the rule of the night. For they are needed by those whom your most prudent servant could not address as spiritual, but only as carnal — he who yet speaks wisdom among the perfect. But the natural man, a babe in Christ and fed on milk until he is strong enough for solid food and his eye is able to bear the Sun, let him not dwell in a night forsaken of all light, but be content with the light of the moon and the stars. So you speak to us, our All-wise God, in your Book, your firmament, that we may discern all things in a wonderful contemplation — though still in signs, and seasons, and days, and years.",
+          "spine": {
+            "from": "0.3915",
+            "to": "0.4033"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "But first wash yourselves, be clean; put away evil from your souls and from before my eyes, that the dry land may appear. Learn to do good, defend the orphan, plead for the widow, that the earth may bring forth the green herb for food, and the tree that bears fruit; and come, let us reason together, says the Lord, that there may be lights in the firmament of heaven, and that they may shine upon the earth. That rich man asked the good Master what he should do to gain eternal life. Let the good Master tell him — whom he took for no more than a man, though he is good because he is God — let him tell him that, if he would enter into life, he must keep the commandments; let him put from himself the bitterness of malice and wickedness; let him not kill, not commit adultery, not steal, not bear false witness, that the dry land may appear and bring forth the honoring of father and mother and the love of neighbor. All these, he says, I have kept. Where, then, do so many thorns come from, if the earth is fruitful? Go, root up the spreading thickets of greed; sell what you have, and be filled with fruit by giving to the poor, and you shall have treasure in heaven; and follow the Lord, if you would be perfect, joining the company of those among whom he speaks wisdom, he who knows what to apportion to the day and to the night, that you too may know it, and that for you there may be lights in the firmament of heaven — which there will not be, unless your heart is there; nor will your heart be there, unless your treasure is there, as you have heard from the good Master. But that barren earth was grieved, and the thorns choked the word.",
+          "spine": {
+            "from": "0.4033",
+            "to": "0.4175"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "But you, chosen generation, you weak things of the world, who have left everything to follow the Lord — go after him, and put the mighty to shame; go after him, you beautiful feet, and shine in the firmament, that the heavens may declare his glory, dividing between the light of the perfect (though not yet as the angels) and the darkness of the little ones (though not to be despised). Shine over the earth; and let the day, lit by the sun, pour out to the day a speech of wisdom, and the night, glowing with the moon, show to the night the word of knowledge. The moon and the stars shine for the night, yet the night does not dim them, since they give it light in its measure. For behold, when God said, as it were, Let there be lights in the firmament of heaven, suddenly there came a sound from heaven, as of a rushing mighty wind, and there appeared tongues as of fire, divided, and it sat upon each of them; and there were made lights in the firmament of heaven, having the word of life. Run to and fro everywhere, you holy fires, you beautiful fires; for you are the light of the world, and you are not put under a basket. He to whom you cling is lifted high, and has lifted you high. Run to and fro, and be made known to all the nations.",
+          "spine": {
+            "from": "0.4175",
+            "to": "0.4387"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "Let the sea also conceive and bring forth your works; let the waters bring forth the moving creature that has life. For you, separating the precious from the worthless, are made the mouth of God, by which he says, Let the waters bring forth — not the living creature that the earth brings forth, but the moving creature that has life, and the birds that fly above the earth. For your sacraments, O God, by the ministry of your holy ones, have moved amid the waves of the world's temptations, to hallow the nations in your name, in your Baptism. And in the midst of this, many great wonders were worked, like great whales; and the voices of your messengers flew above the earth, in the open firmament of your Book, set over them as the authority under which they were to fly wherever they went. For there is no speech nor language where their voice is not heard, since their sound has gone out through all the earth, and their words to the end of the world, because you, Lord, multiplied them by your blessing.",
+          "spine": {
+            "from": "0.4387",
+            "to": "0.4670"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "Am I speaking falsely? Or am I confusing things and failing to distinguish between the clear knowledge of these matters in the firmament of heaven, and the bodily works in the surging sea and beneath the firmament of heaven? For there are things whose knowledge is fixed and defined, with no increase by generation — like the lights of wisdom and knowledge — and yet even of these the bodily workings are many and various; and one thing growing out of another, they are multiplied by your blessing, O God, who have refreshed the weariness of mortal senses, so that one thing in the understanding of our mind may, through the motions of the body, be set out and expressed in many ways. These sacraments the waters have brought forth — but in your Word. The needs of the people estranged from the eternity of your truth have brought them forth — but in your Gospel; because the waters themselves cast them up, the diseased bitterness of those waters being the very reason they were sent forth in your Word.",
+          "spine": {
+            "from": "0.4670",
+            "to": "0.4906"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "Now all things you have made are fair; but behold, you yourself, who made them all, are unutterably fairer. Had Adam not fallen, the brackishness of the sea would never have flowed out of him — that is, the human race so deeply curious, so stormily swelling, so restlessly tossing up and down — and then there would have been no need for your stewards to work in many waters, in a bodily and sensible way, at mysterious doings and sayings. For so those moving and flying creatures now seem to me to mean: that people, once initiated and consecrated by bodily sacraments, should make no further progress, unless their soul came alive with a spiritual life, and after the word of admission looked forward to perfection.",
+          "spine": {
+            "from": "0.4906",
+            "to": "0.5142"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "And so, in your Word, it is not the depth of the sea but the earth, separated from the bitterness of the waters, that brings forth — not the moving creature that has life, but the living soul. For now this soul has no more need of baptism, as the heathen have, and as it had itself when it was covered with the waters (for there is no other entrance into the kingdom of heaven, since you have appointed this to be the entrance); nor does it look for the wonder of miracles to make it believe, for it is not of the kind that will not believe unless it sees signs and wonders, now that the faithful earth is parted from the waters that were bitter with unbelief. And tongues are a sign, not for those who believe, but for those who do not believe. Nor does that earth which you have founded upon the waters need the flying kind which the waters brought forth at your word. Send your word into it by your messengers; for it is their working we speak of, yet it is you who work in them, that they may bring about a living soul in it. The earth brings it forth, because the earth is the reason they do this in the soul — just as the sea was the reason they worked upon the moving creatures that have life, and the birds that fly under the firmament of heaven, which the earth has no need of; though it feeds on that Fish which was drawn up from the deep, on that table which you have prepared in the presence of those who believe. For he was drawn from the deep for this very purpose: that he might feed the dry land. And the bird, though bred in the sea, is yet multiplied upon the earth. For the unbelief of men was the cause of the first preaching of the evangelists; yet the faithful too are exhorted and blessed by them in many ways, day after day. But the living soul takes its beginning from the earth; for it profits only those already among the faithful to hold themselves back from the love of this world, so that their soul may live to you — the soul that was dead while it lived among pleasures, deadly pleasures, Lord; for you, Lord, are the life-giving delight of the pure heart.",
+          "spine": {
+            "from": "0.5142",
+            "to": "0.5330"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "Now, then, let your ministers work upon the earth — not as upon the waters of unbelief, by preaching and speaking through miracles and sacraments and mysterious words, where ignorance, the mother of wonder, might fasten on them out of reverence for those secret signs. For such is the way into the faith for the sons of Adam, forgetful of you, while they hide themselves from your face and become a dark deep. No — let your ministers now work as on dry land, parted from the whirlpools of the great deep; and let them be a pattern to the faithful by living before them, and stirring them to imitate. For this is how people listen so as not only to hear but to act. Seek the Lord, and your soul shall live, that the earth may bring forth the living soul. Do not be conformed to the world; hold yourselves back from it; the soul lives by avoiding what it dies by loving. Hold yourselves back from the runaway wildness of pride, the dull pleasure of self-indulgence, and the so-called knowledge that is no knowledge — so that the wild beasts may be tamed, the cattle broken to the yoke, and the serpents made harmless. For these are the motions of our mind under an image: the arrogance of pride, the delight of lust, and the poison of curiosity are the motions of a dead soul; for the soul does not die so as to lose all motion, but it dies by deserting the fountain of life, and so is caught up by this passing world and conformed to it.",
+          "spine": {
+            "from": "0.5330",
+            "to": "0.5472"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "But your Word, O God, is the fountain of life eternal, and does not pass away; and so this departure of the soul is held back by your Word, when it is said to us, Do not be conformed to this world — that the earth may bring forth, in the fountain of life, a living soul: a soul made self-controlled in your Word, by your evangelists, by following the followers of your Christ. For this is after its kind, since a man is apt to imitate his friend. Be as I am, he says, for I too am as you are. So in this living soul there shall be good beasts, in gentleness of action — for you have commanded, Carry on your business in gentleness, so you will be loved by all men — and good cattle, which neither have too much if they eat, nor go without if they do not; and good serpents, not dangerous to do harm, but wise to be on guard, searching into this temporal nature only so far as is enough that your eternity may be clearly seen, understood through the things you have made. For these creatures obey reason, when, held back from the deadly hold they would have on us, they live and are good.",
+          "spine": {
+            "from": "0.5472",
+            "to": "0.5660"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "For behold, O Lord our God, our Creator, when our affections have been held back from the love of the world by which we were dying through evil living, and have begun to be a living soul through good living, and your word which you spoke through your apostle is fulfilled in us — Do not be conformed to this world — there follows that other thing which you went on to add, saying, But be transformed by the renewing of your mind: not now after your kind, as if following a neighbor who went before you, nor living after the example of some better man. For you did not say, Let man be made after his kind, but, Let us make man after our own image and likeness — that we might prove for ourselves what your will is. For this is why that steward of yours, who fathered children by the Gospel, would not have them remain forever babes whom he must feed with milk and cherish as a nurse: Be transformed, he says, by the renewing of your mind, that you may prove what is that good and acceptable and perfect will of God. And so you say, not Let man be made, but Let us make man; nor did you say after his kind, but after our image and likeness. For man, renewed in his mind and beholding and understanding your truth, has no need of another man as his guide so as to follow after his kind; but under your guidance he proves what is that good, acceptable, and perfect will of yours. Indeed you teach him, now made able, to discern the Trinity in the Unity and the Unity in the Trinity. And so, to what was said in the plural, Let us make man, there is added in the singular, And God made man; and to what was said in the plural, after our likeness, there is added in the singular, after the image of God. Thus is man renewed in the knowledge of God, after the image of the One who created him; and being made spiritual, he judges all things — all things that are to be judged — yet he himself is judged by no one.",
+          "spine": {
+            "from": "0.5660",
+            "to": "0.5849"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "But that he judges all things answers to his having dominion over the fish of the sea, and over the birds of the air, and over all cattle and wild beasts, and over all the earth, and over every creeping thing that creeps upon the earth. For this he does by the understanding of his mind, by which he perceives the things of the Spirit of God; whereas otherwise man, set in honor, had no understanding, and is compared to the brute beasts, and has become like them. In your Church, then, our God, according to the grace you have given it — for we are your workmanship, created for good works — not only those who are spiritually set over others, but those also who are spiritually subject to those set over them. For in this way you made man male and female: in your spiritual grace, where, as to the body's sex, there is neither male nor female, because there is neither Jew nor Greek, neither slave nor free. Spiritual persons, then, whether those set over others or those who obey, judge spiritually — not concerning that spiritual knowledge which shines in the firmament, for they ought not to judge of so supreme an authority; nor may they judge of your Book itself, even where something in it does not shine clearly, for we submit our understanding to it, and hold for certain that even what is closed to our sight is rightly and truly spoken. For so a man, though now spiritual and renewed in the knowledge of God after the image of the One who created him, ought to be a doer of the law, not a judge of it. Neither does he judge of that distinction between spiritual and carnal men, which is known to your eyes, our God, but has not yet disclosed itself to us by works, that by their fruits we might know them. But you, Lord, already know them, and have divided them and called them in secret, before the firmament was made. Nor does he, though spiritual, judge the restless people of this world; for what has he to do with judging those who are outside, not knowing which of them will hereafter come into the sweetness of your grace, and which will remain in the everlasting bitterness of ungodliness?",
+          "spine": {
+            "from": "0.5849",
+            "to": "0.6195"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "Man, then, whom you made after your own image, did not receive dominion over the lights of heaven, nor over that hidden heaven itself, nor over the day and the night which you named before the foundation of the heaven, nor over the gathering of the waters which is the sea; but he received dominion over the fish of the sea, and the birds of the air, and over all cattle, and over all the earth, and over every creeping thing that creeps upon the earth. For he judges and approves what he finds right, and disallows what he finds amiss — whether in the celebration of those sacraments by which they are initiated whom your mercy searches out in many waters; or in that in which the Fish is set forth, drawn from the deep, on which the devout earth feeds; or in the expressions and signs of words, subject to the authority of your Book — signs such as come from the mouth and sound forth, flying as it were beneath the firmament, by interpreting, explaining, discoursing, disputing, blessing, calling upon you, so that the people may answer, Amen. The vocal pronouncing of all these words is occasioned by the deep of this world and the blindness of the flesh, which cannot see thoughts, so that there is need to speak aloud into the ears; and so, although the flying birds are multiplied upon the earth, they still take their beginning from the waters. The spiritual man judges also by approving what is right and disallowing what he finds amiss in the works and lives of the faithful — their almsgiving, like the earth bringing forth fruit; and the living soul, made alive by taming its affections, in chastity, in fasting, in holy meditations; and those things perceived by the senses of the body. Over all these he is now said to judge, and in them he also has the power of correction.",
+          "spine": {
+            "from": "0.6195",
+            "to": "0.6572"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "But what is this, and what kind of mystery? Behold, you bless mankind, O Lord, that they may increase and multiply and fill the earth. Do you not by this give us a hint to understand something? Why did you not likewise bless the light, which you called day; nor the firmament of heaven, nor the lights, nor the stars, nor the earth, nor the sea? I might say that you, O God, who created us after your image, were pleased to give this blessing to man alone — had you not in the same way blessed the fish and the whales, that they should increase and multiply and fill the waters of the sea, and that the birds should be multiplied upon the earth. I might likewise say that this blessing belonged properly to such creatures as are bred of their own kind — had I found it given to the fruit trees and the plants and the beasts of the earth. But now it is not said to the herbs, nor the trees, nor the beasts, nor the serpents, Increase and multiply — even though all these, as well as the fish, the birds, and men, do by generation increase and continue their kind.",
+          "spine": {
+            "from": "0.6572",
+            "to": "0.6698"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "What, then, shall I say, O Truth, my Light? That it was said idly, with no meaning? Not so, O Father of mercy; far be it from a minister of your word to say so. And if I do not understand what you mean by that phrase, let my betters — those of greater understanding than I — make better use of it, according as you, my God, have given to each man to understand. But let my confession also be pleasing in your eyes, in which I confess to you that I believe, O Lord, you did not speak so in vain; nor will I suppress what this passage suggests to me. For it is true; nor do I see what should keep me from thus understanding the figurative sayings of your Scripture. For I know that a thing understood one way by the mind can be signified in many ways by bodily expressions, and that a thing signified one way by bodily expression can be understood in many ways in the mind. Behold the single love of God and of neighbor — by how many sacraments and countless languages, and in each language by how many countless ways of speaking, it is bodily expressed. So do the offspring of the waters increase and multiply. Observe again, whoever you are who read this: behold, what Scripture sets down and the voice utters in one way only — In the Beginning God created heaven and earth — is it not understood in many ways, not through any deceit of error, but through various kinds of true meanings? So do the offspring of man increase and multiply.",
+          "spine": {
+            "from": "0.6698",
+            "to": "0.6698"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "If, then, we think of the natures of the things themselves, not allegorically but literally, then the phrase increase and multiply fits all things that come from seed. But if we take the words as figuratively spoken — which I rather suppose is the purpose of Scripture, which surely does not for nothing reserve this blessing to the offspring of the water creatures and of man alone — then we find that multitude belongs to spiritual as well as bodily creatures, as in heaven and earth; and to the righteous and the unrighteous, as in light and darkness; and to the holy authors who have been the ministers of the Law to us, as in the firmament set between the waters and the waters; and to the society of people still in the bitterness of unbelief, as in the sea; and to the zeal of holy souls, as in the dry land; and to works of mercy belonging to this present life, as in the herbs bearing seed and the trees bearing fruit; and to spiritual gifts set forth for building up, as in the lights of heaven; and to affections shaped to temperance, as in the living soul. In all these we meet with multitudes, abundance, increase. But what shall increase and multiply in such a way that one thing may be expressed in many ways, and one expression understood in many ways — this we find only in signs bodily expressed, and in things mentally conceived. By signs bodily uttered we understand the generations of the waters, made necessary by the depth of the flesh; by things mentally conceived, the generations of men, on account of the fruitfulness of reason. And it is for this end that we believe you, Lord, said to these kinds, Increase and multiply. For in this blessing I take it that you granted us a power and a faculty both to express in several ways what we understand as one, and to understand in several ways what we read as set down obscurely in one. Thus are the waters of the sea filled, which are not stirred but by various meanings; and thus, by the increase of men, the earth too is filled, whose dryness appears in its longing, and over which reason rules.",
+          "spine": {
+            "from": "0.6698",
+            "to": "0.6840"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "I would also say, O Lord my God, what the next part of Scripture reminds me of; yes, I will say it, and not be afraid. For I will speak the truth, with you breathing into me what you willed me to draw out of those words. By no other inspiration than yours do I believe myself to speak truth, since you are the Truth, and every man a liar. He, therefore, who speaks a lie speaks of his own; and so that I may speak the truth, I will speak of yours. Behold, you have given us for food every herb bearing seed that is upon all the earth, and every tree in which there is the fruit of a tree yielding seed; and not to us alone, but also to all the birds of the air, and to the beasts of the earth, and to all creeping things — but not to the fish and the great whales. Now we said that by these fruits of the earth were signified, figured in an allegory, the works of mercy provided for the needs of this life out of the fruitful earth. Such an earth was the devout Onesiphorus, on whose house you had mercy, because he often refreshed your Paul and was not ashamed of his chains. So did the brethren too bear such fruit, who out of Macedonia supplied what was lacking to him. But how grieved he is over certain trees that did not yield him the fruit due to him, where he says, At my first defense no one stood by me, but all forsook me — I pray it may not be charged against them. For these fruits are due to those who minister the spiritual teaching to us out of their understanding of the divine mysteries; and they are due to them as men; yes, and due to them also as the living soul, which gives itself as an example in all self-control; and due to them also as flying creatures, for their blessings multiplied upon the earth, because their sound went out into all lands.",
+          "spine": {
+            "from": "0.6840",
+            "to": "0.7028"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0038",
+          "order": 38,
+          "kind": "paragraph",
+          "text": "But those are fed by these fruits who are gladdened by them; and they are not gladdened by them whose god is their belly. For neither in those who yield the fruits is the thing yielded the real fruit, but the mind with which they yield it. He, then, who served God and not his own belly — I see plainly why he rejoiced; I see it, and I rejoice with him. For he had received from the Philippians what they had sent by Epaphroditus to him; and yet I see why he rejoiced. For he fed on the very thing for which he rejoiced; for, speaking the truth, I rejoiced greatly in the Lord, he says, that now at last your care for me has flowered again, in which you were indeed concerned, but it had grown wearisome to you. These Philippians, then, had dried up under a long weariness, and withered, as it were, in the bearing of this fruit of a good work; and he rejoices for them, that they flowered again — not for himself, that they relieved his need. And so he adds, Not that I speak in respect of want, for I have learned, in whatever state I am, to be content. I know how to be brought low, and I know how to abound; in everything and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need. I can do all things in him who strengthens me.",
+          "spine": {
+            "from": "0.7028",
+            "to": "0.7075"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0039",
+          "order": 39,
+          "kind": "paragraph",
+          "text": "At what, then, do you rejoice, great Paul? At what do you rejoice? On what do you feed, O man, renewed in the knowledge of God after the image of the One who created you, you living soul of such self-control, you tongue like the flying birds, speaking mysteries? For to such creatures is this food due. What is it that feeds you? Joy. Let us hear what follows: Nevertheless, you have done well, that you shared in my affliction. At this he rejoices, on this he feeds — because they had done well, not because his hardship was eased; he who says to you, You have set me free when I was in distress. For he knew how to abound and how to suffer want, in you who strengthen him. For you Philippians also know, he says, that in the beginning of the Gospel, when I left Macedonia, no church shared with me in the matter of giving and receiving but you only; for even in Thessalonica you sent once and again to my need. He now rejoices that they have come back to these good works, and is glad that they have flowered again, as a fruitful field puts on its green once more.",
+          "spine": {
+            "from": "0.7075",
+            "to": "0.7170"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0040",
+          "order": 40,
+          "kind": "paragraph",
+          "text": "Was it for his own needs, because he said, You sent to my need? Does he rejoice for that? Truly not for that. And how do we know? Because he says at once, Not that I seek a gift, but I seek fruit. I have learned from you, my God, to tell the difference between a gift and fruit. A gift is the thing itself which a man gives who provides us these necessaries — money, food, drink, clothing, shelter, help. But the fruit is the good and right will of the giver. For the good Master did not say only, He who receives a prophet, but added, in the name of a prophet; nor did he say only, He who receives a righteous man, but added, in the name of a righteous man; so that the one shall surely receive the reward of a prophet, the other the reward of a righteous man. Nor did he say only, He who gives a cup of cold water to one of my little ones, but added, in the name of a disciple; and so he concludes, Truly I tell you, he shall not lose his reward. The gift is to receive a prophet, to receive a righteous man, to give a cup of cold water to a disciple; but the fruit is to do this in the name of a prophet, in the name of a righteous man, in the name of a disciple. With fruit was Elijah fed by the widow who knew she was feeding a man of God, and fed him for that reason; but by the raven he was fed with a gift only. Nor was the inner man of Elijah fed in that way, but the outer man only — which might also, for want of such food, have perished.",
+          "spine": {
+            "from": "0.7170",
+            "to": "0.7453"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0041",
+          "order": 41,
+          "kind": "paragraph",
+          "text": "I will say, then, what is true in your sight, O Lord, that when carnal men and unbelievers — for whose gaining and initiation the initiatory sacraments and the great workings of miracles are needed, which we take to be signified by the names of fish and whales — undertake the bodily refreshment of your servant, or otherwise help him with something useful for this present life, while yet they are ignorant why this is to be done, and to what end, then neither do they feed these servants, nor are these fed by them. For the one do not do it out of a holy and right intent, and the others do not rejoice in their gifts, whose fruit they do not yet see. For the mind is fed by that in which it is glad. And so the fish and the whales do not feed on such food as the earth does not bring forth until after it has been separated and divided from the bitterness of the waves of the sea.",
+          "spine": {
+            "from": "0.7453",
+            "to": "0.7736"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0042",
+          "order": 42,
+          "kind": "paragraph",
+          "text": "And you, O God, saw everything that you had made, and behold, it was very good. Yes, we too see the same, and behold, all things are very good. As you finished each kind of your works, having said, Let them be, and they were, you saw of each that it was good. Seven times I have counted it written that you saw what you made was good; and this is the eighth, that you saw everything you had made, and behold, it was not only good, but very good — being now all together. For taken separately they were only good; but all together, both good and very good. All beautiful bodies say the same: a body made up of members all beautiful is far more beautiful than those same members are by themselves, by whose well-ordered blending the whole is perfected — even though the members one by one are also beautiful.",
+          "spine": {
+            "from": "0.7736",
+            "to": "0.7877"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0043",
+          "order": 43,
+          "kind": "paragraph",
+          "text": "And I looked closely to find whether you saw your works to be good seven times or eight, when they pleased you; but in your seeing I found no times, by which I might understand that you saw so many times over what you made. And I said: Lord, is not this your Scripture true, since you are true, and being Truth, have set it forth? Why, then, do you tell me that in your seeing there are no times, while this Scripture of yours tells me that what you made on each day, you saw that it was good — and when I counted, I found how often? To this you answer me, for you are my God, and with a strong voice you tell your servant in his inner ear, breaking through my deafness and crying: O man, what my Scripture says, I say; and yet Scripture speaks in time, while time has no bearing on my Word, because my Word stands in eternity, equal with myself. So the things you see through my Spirit, I see, just as what you speak by my Spirit, I speak. And so, when you see those things in time, I do not see them in time, just as, when you speak in time, I do not speak them in time.",
+          "spine": {
+            "from": "0.7877",
+            "to": "0.8066"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0044",
+          "order": 44,
+          "kind": "paragraph",
+          "text": "And I heard, O Lord my God, and drank up a drop of sweetness from your truth, and I understood that there are certain men who dislike your works and say that you made many of them under the force of necessity — such as the structure of the heavens and the order of the stars — and that you made them not out of what was yours, but out of what was created elsewhere and from other sources, for you to gather and fit and join together, when out of your conquered enemies you raised up the walls of the universe, so that they, bound down by the structure, might not be able to rebel against you again. And other things, they say, you neither made nor even fitted together — all flesh, and all tiny creatures, and whatever has its root in the earth — but that a mind at war with you, and another nature not created by you and contrary to you, begot and framed these things in the lower stages of the world. Frenzied are they who say this, because they do not see your works by your Spirit, nor recognize you in them.",
+          "spine": {
+            "from": "0.8066",
+            "to": "0.8255"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0045",
+          "order": 45,
+          "kind": "paragraph",
+          "text": "But those who see these things by your Spirit, it is you who see in them. So when they see that these things are good, it is you who see that they are good; and whatever things please for your sake, it is you who are pleasing in them; and what pleases us through your Spirit, it is you who are pleasing in us. For what man knows the things of a man, except the spirit of the man that is in him? Even so, no one knows the things of God but the Spirit of God. Now we, he says, have received not the spirit of this world, but the Spirit who is from God, that we might know the things freely given us by God. And I am reminded: Truly, no one knows the things of God but the Spirit of God; how, then, do we also know what things are given us by God? The answer is made to me: because the very things we know by his Spirit, even these no one knows but the Spirit of God. For as it was rightly said to those who were to speak by the Spirit of God, It is not you who speak, so it is rightly said to those who know through the Spirit of God, It is not you who know; and no less is it rightly said to those who see through the Spirit of God, It is not you who see. So whatever they see, through the Spirit of God, to be good, it is not they but God who sees that it is good. It is one thing, then, for a man to think that to be bad which is good, as the people just spoken of do; another, for a man to see that what is good is good, as your creatures please many because they are good, in whom yet you are not pleasing, when they would rather enjoy the creatures than you; and another still, that when a man sees a thing to be good, God in him sees that it is good — so that he may be loved in what he made, who cannot be loved except by the Holy Spirit whom he has given. Because the love of God is poured out in our hearts by the Holy Spirit who is given to us; by whom we see that whatever in any degree is, is good. For it is from him who is not in any degree, but who Is what He Is.",
+          "spine": {
+            "from": "0.8255",
+            "to": "0.8349"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0046",
+          "order": 46,
+          "kind": "paragraph",
+          "text": "Thanks be to you, O Lord. We behold heaven and earth, whether the bodily part, higher and lower, or the spiritual and bodily creation; and in the ordering of these parts, of which the whole frame of the world — or rather the whole of creation — is made up, we see light made and divided from the darkness. We see the firmament of heaven, whether that first body of the world, between the spiritual upper waters and the lower bodily waters, or — since this too is called heaven — this stretch of air through which the birds of heaven wander, between those waters that are borne above them in vapor and on clear nights distill down as dew, and those heavier waters that flow along the earth. We behold a face of waters gathered together in the fields of the sea; and the dry land both bare, and shaped so as to be visible and ordered, and the matter of herbs and trees. We behold the lights shining from above, the sun to suffice for the day, the moon and the stars to cheer the night, and that by all of these the seasons should be marked and signified. We behold on every side a moist element, filled with fish and beasts and birds, because the thickness of the air, which bears up the flight of birds, thickens itself by the rising vapor of the waters. We behold the face of the earth decked with earthly creatures, and man, made after your image and likeness, set over all the irrational creatures by that very image and likeness of yours — that is, the power of reason and understanding. And as in his soul there is one power that rules by directing, and another made subject so that it might obey, so for the man, bodily too, a woman was made, who in the mind of her reasoning understanding should have an equal nature, but in the sex of her body should be subject in like manner to the sex of her husband — as the impulse to act is fain to conceive, from the reason of the mind, the skill of acting rightly. These things we behold, and they are good each by each, and all together very good.",
+          "spine": {
+            "from": "0.8349",
+            "to": "0.8491"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0047",
+          "order": 47,
+          "kind": "paragraph",
+          "text": "Let your works praise you, that we may love you; and let us love you, that your works may praise you — works which have their beginning and ending in time, their rising and setting, their growth and decay, their form and their want of form. So they have their succession of morning and evening, partly hidden, partly plain to see; for they were made out of nothing, by you, not out of you; not out of any matter not yours, or already in being, but out of matter created together with them — that is, made by you at the same time — because to their unformed state you gave form without any interval of time. For though the matter of heaven and earth is one thing, and the form another, you made the matter out of nothing at all, and the form of the world out of the matter without form; yet both together, so that the form should follow the matter with no interval of delay.",
+          "spine": {
+            "from": "0.8491",
+            "to": "0.8679"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0048",
+          "order": 48,
+          "kind": "paragraph",
+          "text": "We have also examined what you willed to be foreshadowed, whether by the creating of things, or by the relating of them in such an order. And we have seen that things singly are good, and all together very good, in your Word, in your Only-Begotten — both heaven and earth, the Head and the body of the Church — in your predestination before all times, without morning and evening. But when you began to carry out in time the things you had foreordained, so that you might reveal hidden things and set our disorders right — for our sins hung over us, and we had sunk into the dark deep, and your good Spirit was borne above us to help us in due season — you justified the ungodly and divided them from the wicked; and you made the firmament of the authority of your Book between those set above, who were to be teachable before you, and those below, who were to be subject to them; and you gathered the society of unbelievers into one conspiracy, that the zeal of the faithful might appear, and that they might bring forth works of mercy, even handing over their earthly riches to the poor, to gain what is heavenly. And after this you kindled certain lights in the firmament — your holy ones, having the word of life and shining with an eminent authority set on high through spiritual gifts. And after that again, for the initiation of the unbelieving nations, you brought forth out of bodily matter the sacraments, and visible miracles, and forms of words according to the firmament of your Book, by which the faithful should be blessed and multiplied. Next you formed the living soul of the faithful, through affections well ordered by the strength of self-control. And after that you renewed, after your own image and likeness, the mind subjected to you alone and needing no human authority to imitate; and you made its rational actions subject to the excellence of the understanding, as the woman to the man. And to all the offices of your ministry, needed for perfecting the faithful in this life, you willed that good things — fruitful to those same faithful in the time to come — should be given by them for their temporal uses. All these we see, and they are very good, because you see them in us, you who have given us your Spirit, by which we might see them, and in them love you.",
+          "spine": {
+            "from": "0.8679",
+            "to": "0.8962"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0049",
+          "order": 49,
+          "kind": "paragraph",
+          "text": "O Lord God, give us peace — for you have given us all things — the peace of rest, the peace of the Sabbath, the Sabbath that has no evening. For all this most lovely array of things very good, when their courses are finished, is to pass away; for in them there was morning and evening.",
+          "spine": {
+            "from": "0.8962",
+            "to": "0.9198"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0050",
+          "order": 50,
+          "kind": "paragraph",
+          "text": "But the seventh day has no evening, and has no setting, because you have hallowed it to last forever; so that what you did after your works that were very good, resting on the seventh day — though you made them in unbroken rest — this the voice of your Book may foretell to us: that we too, after our works, which are therefore very good because you have given them to us, shall rest in you on the Sabbath of life eternal.",
+          "spine": {
+            "from": "0.9198",
+            "to": "0.9363"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0051",
+          "order": 51,
+          "kind": "paragraph",
+          "text": "For then you will rest in us, as now you work in us; and so that will be your rest through us, as these are your works through us. But you, Lord, are always at work and always at rest. You do not see in time, nor are you moved in time, nor do you rest in any time; and yet you make the things that are seen in time, yes, the very times themselves, and the rest that comes after time.",
+          "spine": {
+            "from": "0.9363",
+            "to": "0.9599"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-13.seg-0052",
+          "order": 52,
+          "kind": "paragraph",
+          "text": "We therefore see these things which you made, because they are; but they are, because you see them. And we see, outwardly, that they are, and inwardly, that they are good; but you saw them as made, there where you saw them still to be made. And at a later time we were moved to do well, after our hearts had conceived of your Spirit; though in the earlier time we were moved to do evil, deserting you. But you, the one good God, never ceased to do good. And we too have some good works, by your gift, though they are not eternal; and after them we hope to rest in your great holiness. But you, being the Good that needs no good, are always at rest, because your rest is yourself. And what man can teach another man to understand this? What angel, another angel? What angel, a man? It must be asked of you, sought in you, knocked for at you; so, and only so, will it be received; so will it be found; so will it be opened. Amen.",
+          "spine": {
+            "from": "0.9599",
             "to": "1.0000"
           }
         }

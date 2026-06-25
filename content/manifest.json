@@ -349,7 +349,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "a470cbd5e44c8c3e"
+          "checksum": "885f1009e07a5754"
         },
         {
           "id": "edition.analects.legge-1893",
@@ -358,7 +358,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
-          "checksum": "92f35e42dac51a77"
+          "checksum": "54d21801155f3c38"
         }
       ],
       "hasAlignment": false,
@@ -369,7 +369,7 @@
       "title": "Confessions",
       "author": "Saint Augustine",
       "referenceScheme": "book.chapter",
-      "defaultEditionId": "edition.confessions.pusey-1838",
+      "defaultEditionId": "edition.confessions.lectio-modern",
       "collections": [
         "collection.great-books",
         "collection.harvard-classics"
@@ -382,7 +382,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "85e0070102f19b18"
+          "checksum": "d1845ec4776e45f4"
         },
         {
           "id": "edition.confessions.pusey-1838",
@@ -391,11 +391,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "The devotional classic Confessions — Pusey's reverent, 'Thou'-keeping English.",
-          "checksum": "551c1019cb32be3e"
+          "checksum": "73a64591ca783ffc"
         }
       ],
       "hasAlignment": false,
-      "checksum": "39719d83b6252e21"
+      "checksum": "2d01d63bb81d51e4"
     },
     {
       "id": "work.shakespeare.hamlet",

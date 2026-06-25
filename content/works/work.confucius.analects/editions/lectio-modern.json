@@ -19,12 +19,472 @@
       "Arthur Waley (1938, consulted, not quoted)",
       "D. C. Lau (1979, consulted, not quoted)"
     ],
-    "tokensEstimated": 39978,
+    "tokensEstimated": 42206,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
   "overview": "The Lectio Edition renders the Analects in plain modern English that keeps the terse, aphoristic weight of Confucius's recorded conversations — learning and ritual, ren (human-heartedness), and becoming fully human — without the Victorian scaffolding.",
   "introduction": "The Analects are not a treatise but a scrapbook of sayings and exchanges, set down by students after Confucius's death. They circle a few themes — learning, ritual, family, good government, and the cultivation of a humane character — in brief, often cryptic notes. Read slowly; each line is meant to be turned over.",
-  "divergences": [],
-  "sections": []
+  "divergences": [
+    {
+      "locus": "Book I, throughout (esp. ch. 2, 3)",
+      "phrase": "ren (仁)",
+      "older": "benevolence / true virtue / complete virtue (Legge)",
+      "lectio": "humaneness",
+      "note": "Legge scatters ren across 'benevolence,' 'true virtue,' and 'a man of complete virtue,' which obscures that it is one central word — the supreme Confucian virtue of being fully, generously human. We render it consistently as 'humaneness' (the overview's 'human-heartedness'), so the reader can track the term the Analects keeps circling back to. The related li (ritual/propriety) we keep as 'ritual,' and xiao (filial devotion) as being 'good to one's parents.'"
+    },
+    {
+      "locus": "Book I, ch. 1, 2, 4 (names)",
+      "phrase": "the philosopher Tsang; the philosopher Yu; Tsze-hsia",
+      "older": "the philosopher Tsang / the philosopher Yu (Legge)",
+      "lectio": "Master Tsang; Master Yu; Tsze-hsia",
+      "note": "We keep Legge's Wade-Giles-era romanizations ('the Master' for Confucius, Tsang, Yu, Tsze-hsia, Tsze-kung) rather than converting to Pinyin (Zeng, You, Zixia, Zigong), so the names stay consistent across all twenty books of this edition. We do streamline Legge's stiff honorific 'the philosopher Tsang' to the cleaner 'Master Tsang,' which reads naturally and matches how the Analects elevates Confucius's senior disciples."
+    },
+    {
+      "locus": "Book I, ch. 1",
+      "phrase": "ren bu zhi er bu yun, bu yi junzi hu",
+      "older": "Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?",
+      "lectio": "To go unrecognized by others and yet feel no resentment — is that not the mark of a fully realized person?",
+      "note": "Legge's 'feels no discomposure' is genteel to the point of vagueness; the Chinese bu yun means not to harbor resentment or sour feeling at being overlooked. 'Junzi' — Legge's 'man of complete virtue / superior man' — we render as 'cultivated' or 'fully realized person,' an ideal of character rather than rank. This keeps the famous opening triad terse and quotable while staying exact: pleasure in learning, joy in friends, and equanimity when unrecognized."
+    },
+    {
+      "locus": "Throughout (proper nouns)",
+      "phrase": "the Master; Mang I; Mang Wu; Tsze-yu; Tsze-hsia; Hui; Yu; Tsze-chang; Duke Ai; Chi K'ang; Yin, Hsia, Chau",
+      "older": "Legge's Wade-Giles-era romanizations",
+      "lectio": "the same forms, kept unchanged",
+      "note": "For consistency across all twenty books we keep the proper nouns exactly as Legge gives them rather than converting to modern Pinyin (which would make them Meng Yi, Zilu, Zixia, Duke Ai, Ji Kangzi, Yin/Xia/Zhou, etc.). \"The Master\" is Confucius throughout. This is a deliberate house convention, not a claim about the better spelling."
+    },
+    {
+      "locus": "Ch. 19, 20, 24",
+      "phrase": "ren / Legge's \"virtue,\" \"the good,\" \"to be virtuous\"",
+      "older": "benevolence; perfect virtue; virtuous",
+      "lectio": "rendered with the plain register of goodness and right conduct; where the key term appears it is given as human-heartedness in the edition's house style",
+      "note": "The Analects' central term ren (仁) is glossed by the Lectio overview as \"human-heartedness.\" Legge variously calls it benevolence or perfect virtue; we keep a single, warmer register so the same idea reads consistently across books rather than shifting word to word."
+    },
+    {
+      "locus": "Ch. 4",
+      "phrase": "五十而知天命 … 七十而從心所欲，不踰矩",
+      "older": "At fifty, I knew the decrees of Heaven … At seventy, I could follow what my heart desired, without transgressing what was right.",
+      "lectio": "At fifty I understood the will of Heaven … At seventy I could follow my heart's desire without overstepping what is right.",
+      "note": "The famous autobiography of moral growth. We keep all seven stages and their order intact, trading Legge's \"decrees\" and \"transgressing\" for plainer \"will of Heaven\" and \"overstepping\" — terser and more quotable, with nothing added or dropped. \"My ear was attuned to the truth\" compresses Legge's \"my ear was an obedient organ for the reception of truth.\""
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.analects.lectio-modern.book-01",
+      "order": 1,
+      "label": "Book I",
+      "title": "On Learning",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: To learn something, and then in good time to practice it — is that not a pleasure? To have friends come from distant places — is that not a joy? To go unrecognized by others and yet feel no resentment — is that not the mark of a fully realized person?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0625"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Master Yu said: A man who is good to his parents and his elders is rarely the kind who defies those above him; and a man who does not defy those above him is never the kind who stirs up rebellion. The cultivated person tends to the root, for once the root is firm, the way grows up from it. Devotion to parents and respect for elders — surely these are the root of humaneness.",
+          "spine": {
+            "from": "0.0625",
+            "to": "0.1250"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Master said: Fine words and a fawning face are seldom found together with humaneness.",
+          "spine": {
+            "from": "0.1250",
+            "to": "0.1875"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Master Tsang said: Each day I examine myself on three points. In handling another's affairs, have I been less than faithful? In dealings with friends, have I been less than sincere? And what my teacher passed on to me — have I failed to make it my own and put it into practice?",
+          "spine": {
+            "from": "0.1875",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The Master said: To govern a state of a thousand chariots, attend reverently to its business and keep your word; be sparing in spending and care for the people; and call on them for labor only at the proper seasons.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3125"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The Master said: At home a young man should be good to his parents; abroad, respectful to his elders. He should be careful and trustworthy, overflow with love for all, and keep close to those who are humane. If after all this he has energy to spare, let him spend it on study.",
+          "spine": {
+            "from": "0.3125",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Tsze-hsia said: A man who prizes character as much as most men prize a beautiful face; who serves his parents with all his strength, and his ruler with his very life; who is true to his word among his friends — though others may say he has had no learning, I would call him learned indeed.",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.4375"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The Master said: If a leader has no weight, he commands no respect, and his learning will not be solid. Hold faithfulness and sincerity above all. Take no friend who is not your equal in this. And when you are wrong, do not be afraid to set it right.",
+          "spine": {
+            "from": "0.4375",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Master Tsang said: Tend carefully to the rites for parents at their death, and keep up the sacrifices long after they are gone — then the character of the people will be restored to its full worth.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5625"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "Tsze-ch'in asked Tsze-kung: Whenever the Master arrives in a country, he always learns how it is governed. Does he ask for this, or is it offered to him? Tsze-kung said: The Master gets it by being gentle, honest, courteous, modest, and yielding. His way of seeking it is surely not the way of other men.",
+          "spine": {
+            "from": "0.5625",
+            "to": "0.6250"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "The Master said: While his father is alive, watch the son's intentions; once his father is dead, watch his conduct. If for three years he keeps to his father's ways, he may be called a devoted son.",
+          "spine": {
+            "from": "0.6250",
+            "to": "0.6875"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "Master Yu said: In the practice of ritual, naturalness is what counts most. This was the beauty of the way of the ancient kings, who let it guide them in matters small and great. Yet it does not hold in every case: to value ease for its own sake, and let it run on without the discipline of ritual, will not do either.",
+          "spine": {
+            "from": "0.6875",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "Master Yu said: If your promises are in keeping with what is right, you can make good on what you have said. If your courtesy is in keeping with ritual, you keep clear of shame and disgrace. And if those you depend on are the kind worth being close to, you can take them as your guides.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8125"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: A cultivated person does not seek to stuff himself at meals or to live in comfort. He is diligent in his work and careful in his speech; he keeps close to those who have the way, and lets them set him straight. Such a person may truly be said to love learning.",
+          "spine": {
+            "from": "0.8125",
+            "to": "0.8750"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Tsze-kung said: Poor, but not fawning; rich, but not arrogant — what would you say of that? The Master said: Good enough; but not so good as poor and yet glad of heart, rich and yet a lover of ritual. Tsze-kung said: The Book of Poetry says, 'As you cut and then file, as you carve and then polish.' Is that not the very thing you mean? The Master said: With Ts'ze I can begin to talk about the odes! Tell him one thing, and he sees what follows from it.",
+          "spine": {
+            "from": "0.8750",
+            "to": "0.9375"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-01.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: I am not troubled that others do not know me; I am troubled that I do not know them.",
+          "spine": {
+            "from": "0.9375",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-02",
+      "order": 2,
+      "label": "Book II",
+      "title": "On Government",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: To govern by virtue is like the north star, which holds its place while all the other stars turn toward it.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0417"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The Master said: The Book of Poetry has three hundred pieces, but one line covers them all — \"Let there be no crooked thoughts.\"",
+          "spine": {
+            "from": "0.0417",
+            "to": "0.0833"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Master said: Lead the people by laws and keep them in line with punishments, and they will stay out of trouble but feel no shame. Lead them by virtue and keep them in line with ritual, and they will have a sense of shame, and more: they will set themselves right.",
+          "spine": {
+            "from": "0.0833",
+            "to": "0.1250"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "The Master said: At fifteen I set my heart on learning. At thirty I stood firm. At forty I had no more doubts. At fifty I understood the will of Heaven. At sixty my ear was attuned to the truth. At seventy I could follow my heart's desire without overstepping what is right.",
+          "spine": {
+            "from": "0.1250",
+            "to": "0.1667"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Mang I asked what filial piety is. The Master said: Never disobey. Later, when Fan Ch'ih was driving him, the Master said: Mang-sun asked me about filial piety, and I told him — never disobey. Fan Ch'ih asked: What did you mean? The Master said: While parents live, serve them according to ritual; when they die, bury them according to ritual, and make the offerings to them according to ritual.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.2083"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Mang Wu asked what filial piety is. The Master said: Give your parents no cause for worry but your health.",
+          "spine": {
+            "from": "0.2083",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Tsze-yu asked what filial piety is. The Master said: Nowadays \"filial\" just means feeding your parents. But even dogs and horses get fed. Without reverence, what is the difference?",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.2917"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Tsze-hsia asked what filial piety is. The Master said: It is the face that is hard. When there is work to be done, the young take the burden; when there is wine and food, they set it before their elders — but is that all there is to it?",
+          "spine": {
+            "from": "0.2917",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "The Master said: I talked with Hui a whole day, and he never disagreed with anything, like a dullard. But after he left I watched how he lived on his own, and found he could draw out everything I taught. Hui is no dullard.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: Watch what a man does. Look into his reasons. See where he comes to rest. How then can a man hide himself? How can a man hide himself?",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "The Master said: Keep your old learning warm and gather new — then you are fit to teach others.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.4583"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "The Master said: A gentleman is not a tool.",
+          "spine": {
+            "from": "0.4583",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "Tsze-kung asked about the gentleman. The Master said: He acts first, and then speaks according to what he has done.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5417"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: The gentleman draws people together and takes no sides; the small man takes sides and draws no one together.",
+          "spine": {
+            "from": "0.5417",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said: Learning without thought is labor lost; thought without learning is dangerous.",
+          "spine": {
+            "from": "0.5833",
+            "to": "0.6250"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: To study strange doctrines is harm indeed.",
+          "spine": {
+            "from": "0.6250",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master said: Yu, shall I teach you what knowing is? When you know a thing, to know that you know it; and when you do not know a thing, to know that you do not know it — that is knowing.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7083"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "Tsze-chang was studying with an eye to a salaried post. The Master said: Hear much, set aside what you doubt, and speak the rest with care — then you give little cause for blame. See much, set aside what seems risky, and act on the rest with care — then you give little cause for regret. Few occasions for blame in your words, few occasions for regret in your deeds — and the salary will take care of itself.",
+          "spine": {
+            "from": "0.7083",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "Duke Ai asked: What should I do to make the people obey? Confucius answered: Raise up the upright and set them above the crooked, and the people will obey. Raise up the crooked and set them above the upright, and the people will not obey.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.7917"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Chi K'ang asked how to make the people respect their ruler, be loyal to him, and spur one another to virtue. The Master said: Face them with dignity, and they will respect you. Be devoted to your own parents and kind to all, and they will be loyal. Promote the able and teach those who fall short, and they will spur one another on.",
+          "spine": {
+            "from": "0.7917",
+            "to": "0.8333"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "Someone asked Confucius: Sir, why are you not in government? The Master said: The Book of History says of filial piety — \"Be filial, simply be filial, and a good brother, and you carry this over into government.\" That too is to take part in government. Why must one hold office to be in government?",
+          "spine": {
+            "from": "0.8333",
+            "to": "0.8750"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: I do not see how a man without good faith can get along. How can a wagon move without the yoke-bar for the oxen, or a carriage without the cross-pin for the horses?",
+          "spine": {
+            "from": "0.8750",
+            "to": "0.9167"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "Tsze-chang asked whether the next ten generations could be known. Confucius said: The Yin took over the rituals of the Hsia, and what they dropped or added can be known. The Chau took over the rituals of the Yin, and what they dropped or added can be known. Whoever comes after the Chau, even a hundred generations on, can be known in the same way.",
+          "spine": {
+            "from": "0.9167",
+            "to": "0.9583"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-02.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The Master said: To sacrifice to a spirit that is not your own is mere flattery. To see what is right and fail to do it is cowardice.",
+          "spine": {
+            "from": "0.9583",
+            "to": "1.0000"
+          }
+        }
+      ]
+    }
+  ]
 }
