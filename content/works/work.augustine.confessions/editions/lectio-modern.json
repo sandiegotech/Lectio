@@ -19,7 +19,7 @@
       "F. J. Sheed (1942, consulted, not quoted)",
       "Henry Chadwick (1991, consulted, not quoted)"
     ],
-    "tokensEstimated": 201795,
+    "tokensEstimated": 236352,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -151,6 +151,69 @@
       "older": "my concubine being torn from my side as a hindrance to my marriage, my heart which clave unto her was torn and wounded and bleeding",
       "lectio": "the woman I lived with was torn from my side as a hindrance to my marriage, and my heart, which clung to her, was torn and wounded and left bleeding",
       "note": "Augustine never names her, and we keep her unnamed, as the original withholds the name — the omission is itself a wound the text carries. \"Concubine\" in modern English reads either legalistic or lurid and obscures that this was a years-long partnership and the mother of his son; \"the woman I lived with\" restores the human fact without softening the moral verdict Augustine passes on himself (he was \"a slave to lust,\" not a \"lover of marriage\"). The torn / wounded / bleeding triad (concisum, vulneratum, trahebat sanguinem) is kept verbatim in force: the rawest emotional sentence in the book, and it must keep its blood."
+    },
+    {
+      "locus": "Book VII.x (Pusey seg. 15), the vision of the Light",
+      "phrase": "et inveni longe me esse a te in regione dissimilitudinis ... ego sum qui sum",
+      "older": "I perceived myself to be far off from Thee, in the region of unlikeness, as if I heard this Thy voice from on high ... Yet verily, I AM that I AM (Pusey)",
+      "lectio": "I found that I was far away from you, in the region of unlikeness ... No — truly, I AM WHO I AM",
+      "note": "The summit of the book's intellectual ascent, where the Neoplatonic climb meets the God of Exodus. Two phrases are load-bearing and must not be smoothed. \"Region of unlikeness\" (regio dissimilitudinis) is a technical Platonic term — the soul's distance from God measured as ontological un-likeness, not mere geography — and we keep it exactly, strange as it sounds, because it names Augustine's whole diagnosis of the fallen self. And \"I AM WHO I AM\" (the burning-bush name, Exod. 3:14) is kept verbatim in small capitals: the answer is not an argument but a Name, and the force depends on its bareness. We render Pusey's \"I AM that I AM\" with the more standard \"I AM WHO I AM\" but add nothing and explain nothing away."
+    },
+    {
+      "locus": "Book VII.xii (Pusey seg. 17), evil as privation",
+      "phrase": "quaesivi quid esset iniquitas, et non inveni substantiam, sed ... omne quod corrumpitur privatur bono",
+      "older": "all which is corrupted is deprived of good ... That evil then which I sought, whence it is, is not any substance (Pusey)",
+      "lectio": "everything that is corrupted is being robbed of some good ... that evil whose origin I was searching for is not a substance",
+      "note": "The metaphysical heart of Book VII and Augustine's lifelong answer to the Manichees: evil is not a thing (substantia) but a privation, a robbing-away of good. The argument is precise and must not be flattened into a vague \"evil is the absence of good.\" We keep the active, almost violent privatur as \"is being robbed of some good\" rather than a static \"is deprived,\" because Augustine's point is dynamic — corruption is a process that diminishes a real good, and a thing wholly stripped of good would simply cease to be. The conclusion (\"evil is not a substance\") is kept bare and load-bearing; the whole theodicy turns on it."
+    },
+    {
+      "locus": "Book VII.xviii (Pusey seg. 23), the Mediator",
+      "phrase": "quaerebam viam comparandi roboris ... non tenebam ... donec amplecterer mediatorem ... Verbum caro factum est",
+      "older": "Then I sought a way of obtaining strength sufficient to enjoy Thee; and found it not, until I embraced that Mediator betwixt God and men ... For, the Word was made flesh (Pusey)",
+      "lectio": "I began to search for a way to gain the strength I needed to enjoy you, and I did not find it — not until I embraced that Mediator between God and men ... For the Word was made flesh",
+      "note": "This is the hinge on which all of Book VII turns: the Platonists could lift Augustine to glimpse Being, but could not give him the strength to stay — only the Incarnation could, the Word stooping into flesh as \"milk for our infancy.\" We keep \"Mediator\" (mediator, 1 Tim. 2:5) as a title, not softened to \"go-between,\" and we keep \"the Word was made flesh\" verbatim (John 1:14), the load-bearing answer to everything the Platonist books lacked. The whole book is built so that this plain sentence lands with full weight after pages of metaphysics; nothing here is modernized away."
+    },
+    {
+      "locus": "VIII.vii (Pusey seg. 17)",
+      "phrase": "da mihi castitatem et continentiam, sed noli modo",
+      "older": "Give me chastity and continency, only not yet (Pusey)",
+      "lectio": "Give me chastity and self-control — only not yet",
+      "note": "The most quoted prayer in the book, and one of the most honest sentences ever written about a divided will: Augustine begs God for chastity while secretly dreading to be heard, because he wants the disease of lust \"fed full rather than snuffed out\" (malebam expleri quam exstingui). We keep the prayer almost verbatim, since its whole force is in the bald confession of the trick the heart plays on itself. We render continentia as \"self-control\" rather than the now-archaic \"continency,\" but the load-bearing punchline — \"only not yet\" — is kept exactly. Nothing is softened; the strangeness is the confession."
+    },
+    {
+      "locus": "VIII.xii (Pusey seg. 29), the garden",
+      "phrase": "tolle, lege; tolle, lege",
+      "older": "Take up and read; Take up and read (Pusey)",
+      "lectio": "Take up and read, take up and read",
+      "note": "The hinge of the whole Confessions: the child's chant in the neighboring house that sends Augustine to the book of Paul. The Latin \"Tolle, lege\" is so famous it is often left untranslated, and we preserve it as a touchstone here while rendering the chant itself in plain English. \"Take up and read\" is the load-bearing line and is kept exactly as Pusey has it (and as the tradition has fixed it), because the entire conversion turns on those four words and the verse they send him to — Romans 13:13–14, which we also keep close to the literal (\"put on the Lord Jesus Christ, and make no provision for the flesh and its cravings\"). Nothing here is modernized away."
+    },
+    {
+      "locus": "VIII.ix (Pusey seg. 21), the divided will",
+      "phrase": "imperat animus corpori, et paretur statim; imperat animus sibi, et resistitur",
+      "older": "The mind commands the body, and it obeys instantly; the mind commands itself, and is resisted (Pusey)",
+      "lectio": "The mind commands the body, and is obeyed at once; the mind commands itself, and is resisted",
+      "note": "The most influential piece of psychology in the book, and the heart of Augustine's analysis of the will that cannot obey itself: a single will, not two natures, half willing and half not, and so tearing itself apart. We keep the bare, antithetical shape (commands the body / is obeyed; commands itself / is resisted) verbatim in force, because the symmetry is the argument — it is this passage, not Manichaean dualism, that explains the agony in the garden. Pusey's \"and it obeys instantly\" we render as \"and is obeyed at once\" to match the passive of the matching clause (\"and is resisted\") and let the parallel ring. Deliberately left plain and strange; nothing is added or explained away."
+    },
+    {
+      "locus": "IX.10 (Pusey segs. 22–25), the vision at Ostia",
+      "phrase": "et dum loquimur et inhiamus illi, attingimus eam modice toto ictu cordis",
+      "older": "And while we were discoursing and panting after her, we slightly touched on her with the whole effort of our heart (Pusey)",
+      "lectio": "And while we were speaking and panting after her, we touched her, a little, with one whole stroke of the heart",
+      "note": "The climax of the book and one of the summits of Western mystical prose: mother and son, leaning at a window in Ostia, rise \"step by step\" through created things to the eternal Wisdom and brush against her for a single instant. The crux is ictu cordis. Pusey's \"the whole effort of our heart\" loses the decisive image: ictus is a single beat, blow, or stroke — the touch lasts exactly one heartbeat. We keep \"one whole stroke of the heart\" so the reader feels both the totality of the reach (toto, the whole self thrown into it) and its momentariness (one beat, then gone). We deliberately keep the strange Wisdom-as-\"she\" and the bare grammar of eternity (\"only 'is'\") rather than smoothing them; the passage's holiness is in its difficulty, and nothing in it is paraphrased away."
+    },
+    {
+      "locus": "IX.11 (Pusey seg. 26), Monica's last request",
+      "phrase": "ponite hoc corpus ubicumque; nihil vos eius cura conturbet; tantum illud vos rogo, ut ad domini altare memineritis mei, ubiubi fueritis",
+      "older": "Lay this body any where; let not the care for that any way disquiet you: this only I request, that you would remember me at the Lord's altar, wherever you be (Pusey)",
+      "lectio": "Lay this body anywhere; let no care for it trouble you in the least. This one thing only I ask: that you would remember me at the Lord's altar, wherever you may be.",
+      "note": "Monica, who had spent her life preparing a grave beside her husband in Africa, lets the whole earthly wish drop in a single sentence — the inward fruit of the vision she has just shared. The line is load-bearing and must stay almost verbatim; we shed only the archaic grammar (\"disquiet you,\" \"wherever you be\") and keep the flat, astonishing \"anywhere\" (ubicumque) and the one thing she does still want — to be named at the altar. The repetition ubiubi (\"wherever, wherever\") is rendered plainly as \"wherever you may be,\" matching the deliberate plainness of her dying speech. Nothing is added or softened; the renunciation is exactly as stark as Augustine wrote it."
+    },
+    {
+      "locus": "IX.11 (Pusey seg. 33), grief released",
+      "phrase": "ne reprehendat me, si aliquantulum temporis matrem... flevi, matrem... quae me multos annos fleverat, ut oculis tuis viverem",
+      "older": "if he finds sin therein, that I wept my mother for a small portion of an hour (the mother who... had for many years wept for me that I might live in Thine eyes), let him not deride me (Pusey)",
+      "lectio": "if he finds it a sin that I wept for my mother for one small fraction of an hour — the mother who for the time was dead to my eyes, who for so many years had wept for me that I might live in your eyes — let him not mock me",
+      "note": "Augustine has spent the whole death-scene damming his tears — at the deathbed, at the prayers, at the graveside — until, alone in bed, he finally lets them \"flow as freely as they would.\" The crux is the symmetry of weeping that closes it: he weeps for his mother for a fraction of an hour; she had wept for him for years, that he might live. This is the same logic as Book III's \"the son of these tears,\" and the mirror is the argument, so we keep it exact: his brief tears against her long ones, his eyes against your eyes (oculis tuis). Pusey's \"a small portion of an hour\" is kept in sense as \"one small fraction of an hour\"; we do not round it off or generalize the grief, because its smallness, set against her years, is the point Augustine is confessing."
     }
   ],
   "sections": [
@@ -1797,6 +1860,970 @@
           "text": "O crooked paths! Woe to the reckless soul that hoped, by forsaking you, to find some better thing! It turned and turned again, onto its back, its sides, its belly, and everything was hard — and you alone are rest. And see, you are close at hand, and you free us from our wretched wanderings and set us in your way, and comfort us, and say: \"Run, I will carry you; yes, I will see you through; and there too I will carry you.\"",
           "spine": {
             "from": "0.9630",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.confessions.lectio-modern.book-07",
+      "order": 7,
+      "label": "Book VII",
+      "title": "The Books of the Platonists and the Word Made Flesh",
+      "segments": [
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "By now my evil and disgraceful youth was dead, and I was passing into early manhood — the older I grew, the more soiled by empty things, since I could not imagine any substance except the kind these eyes are used to seeing. I no longer pictured you, my God, in the shape of a human body; from the moment I first heard anything of wisdom I had always shrunk from that, and I was glad to find the same rule in the faith of our spiritual mother, your Catholic Church. But what else to make of you I did not know. And I, a man, and such a man, set myself to conceive of you, the sovereign, the only, the true God; and from the depths of my soul I did believe you to be beyond corruption, beyond injury, beyond change. For though I could not say how or why, I saw plainly, and was sure, that whatever can be corrupted is lower than what cannot; what cannot be harmed I set without hesitation above what can be harmed; the unchanging above what is subject to change. My heart cried out furiously against all my phantoms, and with this one blow I tried to beat away from the eye of my mind the whole unclean swarm that buzzed around it. And the moment they were brushed off, in the blink of an eye they were thick about me again, flying into my face, clouding it over — so that, though no longer under the shape of a human body, I was still forced to imagine you (that incorruptible, unharmable, unchanging thing I had set above all that can be corrupted, harmed, changed) as something spread out in space, whether poured through the world or stretching out infinitely beyond it. For whatever I tried to conceive without that space seemed to me nothing — utterly nothing, not even an emptiness, as if you took a body out of its place and left the place standing empty of every body, of earth and water, air and sky, and yet still an empty place, a kind of roomy nothing.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0370"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So gross was my heart, so unclear even to myself, that whatever was not stretched out over some space, or spread, or packed together, or swollen out — whatever did not or could not take on some of these dimensions — I judged to be simply nothing. My heart ranged over the same shapes my eyes were used to ranging over; and I did not yet see that this very act of the mind, by which I shaped those images, was itself nothing of that kind — and yet it could not have shaped them unless it were itself some great thing. In the same way I tried to picture you, the Life of my life, as enormous, reaching on every side through infinite spaces, soaking through the whole bulk of the universe and out beyond it, every way, through measureless, boundless space — so that earth had you, sky had you, all things had you, and they were bounded in you, and you were bounded nowhere. For just as the body of the air over the earth does not block the sun's light from passing through it, but lets it through by filling it whole, not by tearing or cutting — so I thought the body, not of sky and air and sea only but of the solid earth as well, was open to you all the way through, in its greatest parts and its smallest, ready to take your presence in by a secret breath, within and without, steering everything you have made. This was my guess, only because I could conceive of nothing else, and it was false. For on that reckoning a larger piece of the earth would hold a larger piece of you, and a smaller a lesser — and all things would be full of you in such a way that an elephant's body would hold more of you than a sparrow's, simply by being bigger and taking up more room; and you would dole out the several portions of yourself to the several portions of the world, in fragments, much to the large and little to the little. But that is not what you are. You had not yet lit up my darkness.",
+          "spine": {
+            "from": "0.0370",
+            "to": "0.0741"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "It was enough for me, Lord, to set against those deceived deceivers and dumb chatterers — for your word did not sound out of them — the argument Nebridius used to put forward, long ago when we were still at Carthage, which staggered all of us who heard it. That so-called nation of darkness, which the Manichees love to set up as a hostile mass over against you: what could it have done to you, had you refused to fight it? If they answered that it could have done you some harm, then you would be open to injury and corruption. But if it could do you no harm, then no reason at all was left for your fighting it — fighting in such a way that some portion or member of you, some offspring of your very substance, was mixed into hostile powers and natures you had not made, and was so corrupted and changed for the worse by them as to be turned from happiness into misery, and to need rescue to be set free and made clean again. And this offspring of your substance was, they said, the soul — which, once enslaved, defiled, corrupted, your Word might come to relieve; but that Word would itself be corruptible too, being one and the same substance with it. So if they granted that you, whatever you are — your substance, that is, the thing by which you are — are incorruptible, then all these claims of theirs were false and damnable; but if they called you corruptible, the claim was self-evidently false and revolting. This argument of Nebridius was enough against people who deserved to be vomited up out of a sickened stomach; for they had no way out except by a horrible blasphemy of heart and tongue, thinking and speaking of you in such terms.",
+          "spine": {
+            "from": "0.0741",
+            "to": "0.1111"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "But even now, though I held it firmly settled that you, our Lord and the true God — who made not our souls only but our bodies, and not our souls and bodies only but every being and every thing — were undefilable, unalterable, in no way subject to change, still I did not understand, clearly and without strain, the cause of evil. Yet whatever that cause might be, I saw it had to be sought in a way that would not force me to believe the unchanging God to be changeable, lest I become the very evil I was searching for. So I searched, free at least of that anxiety, certain that what those people taught was untrue — people I now shrank from with my whole heart. For I saw that in asking where evil came from, they had filled themselves with evil, since they would rather believe that your substance suffered ill than that their own committed it.",
+          "spine": {
+            "from": "0.1111",
+            "to": "0.1481"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And I strained to make out what I now kept hearing — that free will is the cause of our doing evil, and your just judgment the cause of our suffering it; but I could not see it clearly. So when I tried to lift my soul's gaze out of that deep pit, I sank back down; and trying again and again, I sank again and again. But this much raised me a little into your light: I knew that I had a will as surely as I knew that I was alive. So when I willed or refused something, I was utterly sure that it was no one but myself who willed and refused — and I was on the very edge of seeing that here was the cause of my sin. But what I did against my will I saw I was suffering rather than doing, and I judged it to be not my fault but my punishment; and since I held you to be just, I quickly admitted I was not being punished unjustly. But then again I said: Who made me? Was it not my God, who is not only good but goodness itself? Where, then, did it come from, this willing of evil and refusing of good, so that I am justly punished? Who planted this in me, who grafted into me this slip of bitterness, when I was wholly made by my most sweet God? If the devil is the author of it — where did the devil himself come from? And if he too, by his own twisted will, turned from a good angel into a devil, where did that evil will come from in him by which he became a devil, when the whole nature of angels was made by that most good Creator? By such thoughts I was dragged down again and choked — yet never dragged so far as that hell of error where no one confesses to you, the error of thinking that you suffer evil rather than that man does it.",
+          "spine": {
+            "from": "0.1481",
+            "to": "0.1852"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "For I was struggling to work out the rest like a man who had already found that the incorruptible must be better than the corruptible; and so I confessed you, whatever you were, to be incorruptible. For no soul ever was, or ever will be, able to conceive of anything better than you, who are the sovereign and the best good. And since most truly and certainly the incorruptible is to be set above the corruptible — as I now did set it — then, were you not incorruptible, I could have arrived in thought at something better than my God. So where I saw the incorruptible was to be preferred to the corruptible, there I ought to look for you, and there to mark out where evil itself was — that is, where the corruption comes from by which your substance can in no way be impaired. For corruption cannot impair our God in any way: not by any will, not by any necessity, not by any unlooked-for chance. For he is God, and what he wills is good, and he himself is that good; but to be corrupted is not good. You are not driven against your will to anything, for your will is not greater than your power. It would have to be greater only if you were greater than yourself — for the will and the power of God are God himself. And what can take you by surprise, you who know all things? There is no nature in all of being that you do not know. Why say more about why the substance which God is should not be corruptible, when, if it were, it would not be God?",
+          "spine": {
+            "from": "0.1852",
+            "to": "0.2222"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And I kept searching, Where does evil come from? — and I searched in an evil way, and did not see the evil in my very searching. I set before my spirit's eye the whole of creation, all that we can see in it: sea, earth, air, stars, trees, mortal creatures — and all that we cannot see, the firmament of the sky, all the angels, and all the spiritual creatures up there. But even these I laid out in places, as though they were bodies, in my imagination. I made one great mass of your creation, sorted by the kinds of bodies in it — some real bodies, some the bodies I had invented in place of spirits. I made this mass huge, not as huge as it really is (which I could not know) but as huge as I pleased, yet bounded on every side. And you, Lord, I imagined surrounding it and piercing it through on every part, but yourself infinite in every direction: as if there were a sea, everywhere and on all sides, through measureless space, one single boundless sea, and within it a sponge, huge but finite, and that sponge filled in all its parts from the unmeasured sea. So I conceived your creation, finite, full of you, the Infinite; and I said: Here is God, and here is what God created; and God is good, mightily and beyond all comparison better than these. Yet he, the Good, made them good, and see how he surrounds them and fills them. Then where is evil, and where does it come from, and how did it creep in here? What is its root, what is its seed? Or does it have no being at all? Then why do we fear and shun a thing that is not? Or if our fear is groundless, then the fear itself is the evil, the thing that goads and racks the soul for nothing — and a worse evil, in that we have nothing to fear and yet fear. So either there is an evil that we fear, or else our fearing is itself the evil. Where, then, does it come from, since God, the Good, made all these things good? The greater and chief Good made these lesser goods, but creator and created are all good. Where does evil come from? Or was there some evil matter out of which he made and shaped and ordered all this, but left in it something he did not convert into good? But why would he, when he is all-powerful and could have turned and changed the whole, so that no evil remained? Indeed, why would he make anything at all out of such matter, and not rather, by that same all-power, see to it that the matter did not exist at all? Could it have stood against his will? Or if it was from eternity, why did he let it lie idle through endless stretches of past time, and only so long after decide to make something of it? Or if he suddenly decided to act, surely the all-powerful would rather have brought it about that the evil matter should not be, and that he alone should be, the whole, true, sovereign, and infinite Good. Or if it was not good that one who was good should not also frame and create something good, then he might have done away with the evil matter, reduced it to nothing, and made good matter of his own to create all things from — for he would not be all-powerful if he could not create something good without the help of matter he had not made himself. Such thoughts I turned over in my wretched heart, weighed down with the most gnawing fears that I would die before I found the truth. And yet the faith of your Christ, our Lord and Savior, as the Catholic Church holds it, stood firm in my heart — on many points still unformed and wavering from the rule of doctrine, but my mind never quite let it go, and day by day drank in more and more of it.",
+          "spine": {
+            "from": "0.2222",
+            "to": "0.2593"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "By this time, too, I had thrown off the lying guesswork and the godless nonsense of the astrologers. Let your own mercies confess to you for this also, my God, out of the very depths of my soul. For it was you — wholly you, since who else calls us back from the death of all our errors but the Life that cannot die and the Wisdom that needs no light to light up the minds that need it, by which the universe is steered down to the whirling of the leaves on the trees? You made provision for my stubbornness, the stubbornness with which I fought against Vindicianus, a shrewd old man, and against Nebridius, a young man of admirable gifts — the one fiercely declaring, the other often saying (though with some hesitation), that there was no such art for foreseeing things to come, but that men's guesses were a kind of lottery, and that out of the many things they predicted some did in fact come true, unknown to the men who said them, who simply stumbled on the hit by talking so often. So you provided me a friend who was no careless consulter of the astrologers — not well versed in those arts, but, as I said, a curious dabbler in them, and yet who knew one thing he said he had heard from his father, and did not realize how far it went toward overturning the whole estimate of the art. This man, Firminus by name, had had a liberal education and was well trained in rhetoric. He consulted me, as a dear friend, about what I thought, according to his so-called constellations, of certain affairs of his in which his worldly hopes had risen; and I, who had now begun to lean toward Nebridius's view, did not altogether refuse to guess and tell him what came into my unsettled mind — but added that I was now nearly convinced these were empty and laughable follies. At that he told me his father had been deeply devoted to such books, and had a friend just as keen on them, who fed the flame of his fascination with these toys by studying and comparing notes with him. They went so far as to note the very moment the dumb animals bred about their houses gave birth, and then observe the position of the heavens, to gather fresh evidence for this so-called art. And he said he had heard from his father that, just as his mother was about to give birth to him, Firminus, a servant-woman of that friend of his father's was also pregnant — which could not escape her master, who took the most exact care to know even the births of his puppies. And so it came about that, the one for his wife and the other for his servant, with the most careful reckoning of days, hours, and the smaller fractions of hours, both women were delivered at the same instant — so that both men were forced to grant the very same constellation, down to the finest point, the one for his son, the other for his newborn slave. For as soon as the women went into labor, each man told the other what was happening in his house, and each had a messenger ready to send the moment the birth occurred, which they could easily arrange, each in his own domain, to report at once. The messengers of the two parties met, he swore, at such an exactly equal distance from the two houses that neither could make out any difference in the position of the stars or in the least detail. And yet Firminus, born to high estate in his parents' house, ran his course down the gilded paths of life, grew rich, and rose to honors, while that slave went on serving his masters with the yoke never loosened — as Firminus, who knew him, told me himself.",
+          "spine": {
+            "from": "0.2593",
+            "to": "0.2963"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Hearing and believing all this, from a man so trustworthy, every shred of my resistance gave way. First I tried to draw Firminus himself back from that obsession. I told him that if, on inspecting his constellations, I were to predict truly, I should have read in them parents prominent among their neighbors, a noble family in its own city, high birth, a good upbringing, liberal learning. But if that servant had consulted me about the same constellations — for they were his too — then, to tell him truly, I should read in them a lineage utterly mean, a slave's condition, and everything else completely at odds with the first reading. From which it followed that, telling the truth, I would say opposite things from one and the same constellation, and if I said the same thing of both, I would be lying. So it was as certain as could be that whatever was said truly from a reading of the constellations was said not by art but by luck, and whatever was said falsely came not from any failure of skill in the art but from the failure of the luck.",
+          "spine": {
+            "from": "0.2963",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "Once that opening was made, I turned the same things over in my mind, so that none of those fortune-telling fools — who lived by the trade, and whom I longed to fall upon and laugh out of court — could object that Firminus had told me wrongly, or his father him. I fixed my thoughts on twins, who for the most part come out of the womb so close together that the small interval between them — whatever force people may pretend it holds in the nature of things — cannot be marked by human observation, nor set down at all in the figures the astrologer must inspect if he is to pronounce truly. And those pronouncements cannot be true: for, reading the same figures, he would have had to predict the same things of Esau and Jacob, and yet the same things did not befall them. So either he must speak falsely, or, if truly, then from the same figures he must give different answers. Therefore he speaks truly not by art but by luck. For you, Lord, most just Ruler of the universe, while the one who consults and the one consulted know nothing of it, by your hidden working bring it about that the one who asks hears what, according to the hidden deservings of souls, he ought to hear, out of the unsearchable depth of your just judgment — to whom let no one say, What is this? Why that? Let him not say it; for he is only a man.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.3704"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "By now, then, my Helper, you had loosed me from those chains; and I went on searching, Where does evil come from? — and found no way through. But you did not let any tossing of my thought carry me off from the faith by which I believed that you exist, and that your substance is unchanging, and that you care for human beings and will judge them, and that in Christ your Son, our Lord, and in the holy Scriptures, which the authority of your Catholic Church urged on me, you had set the way of our salvation toward the life that is to come after this death. With these things kept safe and immovably fixed in my mind, I searched in anguish: Where does evil come from? What pangs my heart was in labor with, what groans, my God! And even there your ears were open, and I did not know it; and when in silence I searched with all my strength, those silent griefs of my soul were loud cries to your mercy. You knew what I suffered, and no one else did. For how little of it could my tongue distill into the ears of even my closest friends! Could the whole tumult of my soul, for which I had neither the time nor the words, reach them? Yet all of it reached your hearing, all that I roared out from the groaning of my heart, and my longing was laid out before you, and the light of my own eyes was not with me. For that light was within, and I was without; that light was not in any place, but I was straining after things held in places, and there I found no resting place, nor did they so receive me that I could say, This is enough, this is well; nor did they let me turn back, where it might be well enough with me. For I was above these things, but below you; and you are my true joy when I am subject to you, and you had made subject to me the things you created below me. This was the right balance, the middle country of my safety — to stay in your image, and by serving you to rule the body. But when I rose up against you in pride and charged at the Lord with the thick bosses of my shield held high, even these lower things rose over me and bore down on me, and nowhere was there relief or room to breathe. They met my sight on every side in heaps and crowds, and when I tried to turn back to you their images thrust themselves on my thought unbidden, as if to say, Where are you going, unworthy and defiled? And all this had grown out of my wound, for you humble the proud like a man cut down; and through my own swelling I was cut off from you; my face was so puffed with pride that it swelled my eyes shut.",
+          "spine": {
+            "from": "0.3704",
+            "to": "0.4074"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "But you, Lord, abide forever, and you are not angry with us forever, because you pity our dust and ashes; and it was your pleasure to reshape my deformities. By inward goads you stirred me, so that I could find no rest until you stood clear to my inward sight. By the secret hand of your healing my swelling went down, and the troubled and darkened eyesight of my mind, under the stinging salve of healthful sorrows, was healed from day to day.",
+          "spine": {
+            "from": "0.4074",
+            "to": "0.4444"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "And willing first to show me how you resist the proud but give grace to the humble, and by how great an act of your mercy you had marked out for men the way of humility — in that your Word was made flesh and lived among men — you procured for me, through a man swollen with the most monstrous pride, certain books of the Platonists, translated from Greek into Latin. And in them I read, not in these very words but to exactly this effect, urged by many and various reasons: that in the beginning was the Word, and the Word was with God, and the Word was God; the same was in the beginning with God; all things were made through him, and without him nothing was made that was made; in him was life, and the life was the light of men, and the light shines in the darkness, and the darkness did not overcome it. And that the soul of man, though it bears witness to the light, is not itself that light; but the Word of God, being God, is the true light that lights every man who comes into the world. And that he was in the world, and the world was made through him, and the world did not know him. But that he came to his own, and his own did not receive him; and that to as many as received him he gave the power to become children of God, to as many as believed in his name — this I did not read there.",
+          "spine": {
+            "from": "0.4444",
+            "to": "0.4815"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "Again I read there that God the Word was born not of flesh nor of blood, nor of the will of man, nor of the will of the flesh, but of God. But that the Word was made flesh and lived among us — this I did not read there. For I traced in those books that it was said, in many ways and various, that the Son was in the form of the Father and did not count it robbery to be equal with God, since by his very nature he was that same substance. But that he emptied himself, taking the form of a servant, made in the likeness of men, and found in fashion as a man humbled himself and became obedient even to death, the death of the cross; for which God raised him from the dead and gave him a name above every name, so that at the name of Jesus every knee should bow, of things in heaven and on earth and under the earth, and every tongue confess that the Lord Jesus Christ is in the glory of God the Father — those books do not have. For that before all times and above all times your Only-Begotten Son stays unchanging, co-eternal with you, and that of his fullness souls receive so that they may be blessed, and that by sharing in the wisdom that abides in them they are made new and so made wise — that is there. But that in due time he died for the ungodly, and that you did not spare your own Son but handed him over for us all — that is not there. For you have hidden these things from the wise and revealed them to little children, so that those who labor and are heavy laden might come to him, and he might give them rest, because he is gentle and lowly in heart; and he guides the gentle in judgment, and teaches the meek his ways, looking on our lowliness and our trouble and forgiving all our sins. But those who are lifted up on the high road of some would-be loftier learning do not hear him saying, Learn of me, for I am gentle and lowly in heart, and you shall find rest for your souls. For though they knew God, they did not glorify him as God or give thanks, but grew empty in their reasonings, and their foolish heart was darkened; claiming to be wise, they became fools.",
+          "spine": {
+            "from": "0.4815",
+            "to": "0.5185"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "And so I also read there that they had traded the glory of your incorruptible nature for idols and various shapes, for the likeness of the image of corruptible man, of birds and beasts and creeping things — that Egyptian food for which Esau lost his birthright. For your firstborn people worshiped the head of a four-footed beast in your place, turning back in their hearts toward Egypt, and bowing your image, which is their own soul, before the image of a calf that eats hay. These things I found there, but I did not feed on them. For it pleased you, Lord, to take the reproach of his lesser standing from Jacob, so that the elder should serve the younger, and you called the Gentiles into your inheritance. And I had come to you from among the Gentiles, and I fixed my mind on the gold that you willed your people to carry off out of Egypt, since it was yours wherever it lay. And to the Athenians you said, through your apostle, that in you we live and move and have our being, as one of their own poets had said — and these books did come from there. But I did not fix my mind on the idols of Egypt, which they served with your gold, those who exchanged the truth of God for a lie and worshiped and served the creature rather than the Creator.",
+          "spine": {
+            "from": "0.5185",
+            "to": "0.5556"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "And being warned by these books to return into myself, I entered into my own inmost self, with you for my guide; and I could, because you had become my helper. I went in, and with the eye of my soul, such as it was, I saw above that same eye of my soul, above my mind, the Light Unchangeable. Not this ordinary light, which all flesh can look upon; nor a greater light of the same kind, as if this one shone many times brighter and filled all space with its size. It was not that; it was other, utterly other than all these. Nor was it above my mind the way oil floats above water, or the sky stands over the earth; it was above me because it made me, and I was below it because it made me. Whoever knows the truth knows that Light, and whoever knows the Light knows eternity. Love knows it. O eternal Truth, and true Love, and beloved Eternity! You are my God; to you I sigh day and night. And when I first knew you, you lifted me up so that I might see there was something to see, and that I was not yet the kind of thing that could see it. And you beat back the weakness of my gaze, blazing your beams upon me too strongly, and I trembled with love and dread; and I found that I was far away from you, in the region of unlikeness — as though I heard your voice from on high: I am the food of grown men; grow, and you shall feed on me. And you will not change me into yourself, as you change the food of your body, but you shall be changed into me. And I learned that you school a man for his wrongdoing, and make his soul waste away like a cobweb. And I said, Then is truth nothing, because it is not spread out through space, whether finite or infinite? And you cried to me from far off: No — truly, I AM WHO I AM. And I heard, as the heart hears, and there was no longer any room to doubt; I could more easily have doubted that I am alive than that Truth is — Truth that is clearly seen, understood through the things that are made.",
+          "spine": {
+            "from": "0.5556",
+            "to": "0.5926"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "And I looked at the other things below you, and I saw that they neither altogether are nor altogether are not: they are, since they are from you; but they are not, because they are not what you are. For that truly is which abides unchanging. And it is good for me to hold fast to God, for if I do not abide in him, neither can I abide in myself; but he, abiding in himself, makes all things new. And you are the Lord my God, since you have no need of any good of mine.",
+          "spine": {
+            "from": "0.5926",
+            "to": "0.6296"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "And it was made plain to me that the things which are corrupted are nonetheless good: they could not be corrupted if they were either the sovereign good, or no good at all. For if they were the sovereign good, they would be incorruptible; and if there were no good in them at all, there would be nothing in them to corrupt. For corruption does harm, and unless it lessened a thing's goodness it could do it no harm. So either corruption does no harm — which cannot be — or, as is most certain, everything that is corrupted is being robbed of some good. But if they were robbed of every good, they would cease to be entirely. For if they were to go on existing and could no longer be corrupted, they would be better than before, since they would now abide incorruptibly — and what is more monstrous than to say that things become better by losing all their good? So if they were stripped of all good, they would be nothing at all. As long, then, as they are, they are good; therefore whatever is, is good. And that evil whose origin I was searching for is not a substance; for if it were a substance, it would be good. It would have to be either an incorruptible substance, which is a great good, or a corruptible substance — which could not be corrupted at all unless it were good. So I saw, and it was made plain to me, that you made all things good, and that there is no substance whatsoever that you did not make; and because you did not make all things equal, therefore all things are, for each is good, and all together very good, since our God made all things very good.",
+          "spine": {
+            "from": "0.6296",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "And to you nothing whatsoever is evil — not to you only, but to your whole creation, since there is nothing outside it that could break in and corrupt the order you have set on it. But within its parts, some things, because they do not fit with certain others, are reckoned evil; yet those same things fit with others, and are good, and in themselves are good. And all these things that do not fit together among themselves do fit with the lower part of creation, which we call earth, with its own clouded and windy sky to match it. Far be it from me, then, to say, These things ought not to be. For if I could see nothing but these, I would indeed long for better; but even for these alone I ought to praise you. For that you are to be praised, the earth shows — dragons and all the deeps, fire, hail, snow, ice, and stormy wind that fulfill your word; mountains and all hills, fruit trees and all cedars; beasts and all cattle, creeping things and flying birds; kings of the earth and all peoples, princes and all the judges of the earth; young men and maidens, old men and children, let them praise your name. And when from the heavens these praise you — praise you, our God, in the heights, all your angels, all your hosts, sun and moon, all the stars and light, the heaven of heavens, and the waters above the heavens — let them praise your name. I no longer longed for better things, because I now took all things into account; and with a sounder judgment I grasped that the higher things were better than the lower, but that all things together were better than the higher by themselves.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7037"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "There is no health in those whom any part of your creation displeases — as there was none in me, when so much that you had made displeased me. And because my soul did not dare to be displeased with my God, it refused to count as yours whatever displeased it. From there it had wandered off into the opinion of two substances, and found no rest, but talked empty nonsense. And turning back from that, it had made for itself a god stretched through infinite reaches of all space, and thought this was you, and lodged it in its heart, and so had become once more the temple of its own idol, a thing you abhor. But after you had soothed my head, all unknown to me, and shut my eyes so that they should not look on emptiness, I let go a little of my old self, and my madness was lulled to sleep; and I woke in you, and saw you as infinite — but in another way, and this seeing did not come from the flesh.",
+          "spine": {
+            "from": "0.7037",
+            "to": "0.7407"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "And I looked back at the other things, and I saw that they owed their being to you, and were all bounded in you — but in a different way: not as being held in space, but because you hold all things in your hand by your truth, and all things are true insofar as they are, and there is no falsehood except where something is thought to be that is not. And I saw that all things fit not only with their places but with their seasons. And that you, who alone are eternal, did not begin to work only after countless ages had been spent; for all the stretches of time, both those that have gone by and those still to come, neither come nor go except through you, who work and abide.",
+          "spine": {
+            "from": "0.7407",
+            "to": "0.7778"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "And I came to understand, and found it no strange thing, that bread which is pleasant to a healthy palate is loathsome to a sick one, and that to sore eyes the light is hateful which to sound ones is a delight. Your justice, too, displeases the wicked — and even more so the viper and the worm, which you have made good, fitted to the lower parts of your creation, with which the wicked themselves are fitted, and the more so the more unlike they are to you, just as they are fitted to the higher creatures the more they grow like you. And I asked what wickedness was, and found it to be no substance at all, but the swerving of the will away from you, God, the Supreme, toward these lower things — a will throwing its own inward parts away and swelling itself up on the outside.",
+          "spine": {
+            "from": "0.7778",
+            "to": "0.8148"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "And I marveled that I now loved you, and no phantom in your place. And yet I did not press on to enjoy my God; instead I was carried up to you by your beauty, and soon carried down from you again by my own weight, and fell with grief into these lower things. That weight was the habit of the flesh. Yet there stayed with me a remembrance of you, and I no longer doubted at all that there was one to whom I should cling — only that I was not yet the kind of thing that could cling to you, for the body that is corrupted weighs down the soul, and this earthly tent presses on the mind heavy with many thoughts. And I was most certain that your invisible things, from the foundation of the world, are clearly seen, understood through the things that are made — yes, your eternal power and your Godhead. For when I asked why I admired the beauty of bodies, whether of the heavens or of the earth, and what it was that helped me judge soundly of changing things and pronounce, This ought to be so, this not so — when I asked, I say, where this judging of mine came from, since I did judge, I found above my changeable mind the unchangeable and true eternity of truth. And so, step by step, I rose from bodies to the soul that perceives through the body, and from there to the soul's inward power, to which the bodily senses report things outside (and this far the beasts can reach), and from there again to the reasoning power, to which what is taken in from the bodily senses is referred for judgment. And this power, finding even itself in me to be a changeable thing, lifted itself up to its own understanding, and drew my thought away from the grip of habit, pulling itself clear of the swarming crowds of contradictory phantoms, so that it might find what light it was that was sprinkled upon it when, without any doubt, it cried out that the unchangeable was to be preferred to the changeable — for unless it had somehow known the unchangeable, it could never have been so sure to set it above the changeable. And so, in the flash of one trembling glance, it arrived at THAT WHICH IS. Then indeed I saw your invisible things, understood through the things that are made. But I could not hold my gaze there; my weakness was struck back, and I was thrown again upon my old habits, carrying away with me only a loving memory, and a craving for what I had, as it were, caught the scent of, but was not yet able to feed on.",
+          "spine": {
+            "from": "0.8148",
+            "to": "0.8519"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "Then I began to search for a way to gain the strength I needed to enjoy you, and I did not find it — not until I embraced that Mediator between God and men, the man Christ Jesus, who is over all, God blessed forever, calling to me and saying, I am the way, and the truth, and the life; and mingling with our flesh that food which I was not yet able to take. For the Word was made flesh so that your wisdom, by which you made all things, might become milk for our infancy. For I did not yet hold on to my Lord Jesus Christ, I, humbled, to the Humble; nor did I yet know what his weakness had to teach. For your Word, the eternal Truth, towering above the highest parts of your creation, raises up to itself those it has brought low; but in this lower world it built itself a lowly dwelling out of our clay, to pull down from themselves those who would be brought low, and bring them over to itself — to ease their swelling and feed their love, so that they should go no further in self-confidence, but rather grow weak, seeing at their feet the Godhead made weak by taking on our coat of skin, and, worn out, might throw themselves down on him, who, rising, would lift them up.",
+          "spine": {
+            "from": "0.8519",
+            "to": "0.8889"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "But I thought otherwise. I conceived of my Lord Christ only as a man of surpassing wisdom, whom no one could be equal to — especially because, being wonderfully born of a virgin, he seemed, by God's care for us, to have reached that great height of authority precisely in order to set us an example of holding temporal things in contempt for the sake of immortality. But what mystery lay hidden in The Word was made flesh, I could not even begin to imagine. I had only learned, from what is handed down in writing of him, that he ate and drank, slept, walked, rejoiced in spirit and was sorrowful, and spoke; and that the flesh did not cleave to your Word by itself, but together with a human soul and mind. Everyone knows this who knows the unchangeableness of your Word, which I now knew as well as I could, and did not doubt at all. For to move the limbs of the body by will and now to leave them still, to feel some emotion and now not to feel it, to utter wise sayings through human signs and now to keep silence — these belong to a soul and mind that change. And if these things had been written of him falsely, then everything else would be in danger of the same charge, and there would remain in those books no saving faith for the human race. Since, then, they were written truly, I acknowledged a complete man in Christ — not the body of a man only, nor a body with a sensitive soul but no rational one, but a true man — whom I judged to be set above all others, not only as being a form of the truth but for a certain great excellence of human nature and a fuller share in wisdom. But Alypius supposed that Catholics believed God to be so clothed in flesh that, besides God and flesh, there was no soul at all in Christ, and he did not think a human mind was ascribed to him; and because he was sure that the actions recorded of Christ could only be done by a living, rational creature, he moved the more slowly toward the Christian faith. Later, learning that this was the error of the Apollinarian heretics, he rejoiced and fell in with the Catholic faith. As for me, I confess it was somewhat later still that I learned how, in that saying The Word was made flesh, the Catholic truth is marked off from the falsehood of Photinus. For the rejecting of heretics makes the teaching of your Church and the soundness of true doctrine stand out the more clearly; for there must indeed be heresies, so that those who are approved may be made plain among the weak.",
+          "spine": {
+            "from": "0.8889",
+            "to": "0.9259"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "But having read those books of the Platonists, and being taught by them to search for a truth that has no body, I saw your invisible things, understood through the things that are made; and though I was thrown back, I caught sight of what it was that the darkness of my mind kept me from contemplating. I was sure that you exist, and are infinite, and yet are not spread out through space, finite or infinite; and that you truly are, you who are always the same, never varying in any part or any motion; and that all other things are from you, on this one most certain ground, that they are. Of these things I was sure, yet too unsteady to enjoy you. I chattered like an expert; and yet, had I not sought your way in Christ our Savior, I would have proved to be not an expert but an expiring man. For I had now begun to want to seem wise — full of my own punishment, and yet I did not grieve over it; rather, I was puffed up with knowledge and full of scorn. For where was that love that builds on the foundation of humility, which is Christ Jesus? When would those books have taught me that? On these books, I believe, you willed that I should fall before I took up your Scriptures, so that it might be stamped on my memory how they affected me; and that afterward, when I had been tamed by your books and had my wounds touched by your healing fingers, I might tell the difference, and know it, between presumption and confession — between those who see where they must go but not the way there, and the Way that leads not only to see the land of blessedness but to live in it. For had I first been formed by your holy Scriptures, and had you grown sweet to me through long use of them, and had I then come upon those other books, they might perhaps have torn me away from the solid ground of devotion; or, if I had held on to the healthy frame of mind I had drunk in from Scripture, I might have thought that frame could be had from the study of those books alone.",
+          "spine": {
+            "from": "0.9259",
+            "to": "0.9630"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-07.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "So I seized most eagerly on the venerable writing of your Spirit, and above all on the apostle Paul. And those difficulties melted away in which he had once seemed to me to contradict himself, and the text of what he said to disagree with the witness of the Law and the Prophets. The face of that pure word appeared to me now as one and the same, and I learned to rejoice with trembling. So I began; and whatever truth I had read in those other books, I found here too, but set within the praise of your grace — so that whoever sees should not so boast as though he had not received both what he sees and the very seeing of it (for what does he have that he has not received?), and so that he might be not only warned to look toward you, who are always the same, but also healed, to hold on to you; and that one who cannot see from far off might still walk the road by which he may come, and see, and hold you. For though a man delight in the law of God after the inner man, what is he to do with that other law in his members, which fights against the law of his mind and takes him captive under the law of sin that is in his members? For you are just, Lord, but we have sinned and done wrong and acted wickedly, and your hand has grown heavy upon us, and we are justly handed over to that ancient sinner, the king of death, because he talked our will into being like his own will, by which he did not stand fast in your truth. What shall wretched man do? Who shall free him from the body of this death, except your grace, through Jesus Christ our Lord, whom you begot co-eternal with yourself and formed at the beginning of your ways — in whom the prince of this world found nothing worthy of death, and yet killed him, and so the record of debt that stood against us was wiped out? None of this is in those other books. Those pages do not hold the face of this devotion, the tears of confession, your sacrifice, a troubled spirit, a broken and contrite heart, the salvation of your people, the Bridal City, the pledge of the Holy Spirit, the Cup of our redemption. No one sings there, Shall not my soul be subject to God? For from him comes my salvation; he is my God and my salvation, my defender; I shall be moved no more. No one there hears him call, Come to me, all you who labor. They are too proud to learn from him, because he is gentle and lowly in heart; for these things you have hidden from the wise and prudent, and revealed them to little children. For it is one thing, from a wooded mountaintop, to catch sight of the land of peace and find no road to it, struggling in vain through trackless ways, set upon and waylaid by runaways and deserters under their captain the lion and the dragon; and it is another thing to keep to the road that leads there, guarded by the care of the heavenly Commander, where those who have deserted the heavenly army do not lie in wait to rob — for they shun that road as a torment. All this sank wonderfully deep into me when I read that least of your apostles, and pondered your works, and was filled with trembling.",
+          "spine": {
+            "from": "0.9630",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.confessions.lectio-modern.book-08",
+      "order": 8,
+      "label": "Book VIII",
+      "title": "The Garden: Take Up and Read",
+      "segments": [
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "My God, let me remember and confess your mercies to me, with thanksgiving. Let my bones be drenched in your love, and let them say to you: Who is like you, Lord? You have snapped my chains; I will offer you the sacrifice of thanksgiving. How you snapped them I will tell, and all who worship you, when they hear it, will say: Blessed be the Lord, in heaven and on earth; great and wonderful is his name. Your words had stuck fast in my heart, and on every side I was fenced in by you. Of your eternal life I was now sure, though I saw it only as a riddle, as in a dim mirror. I had stopped doubting that there is an incorruptible substance from which every other substance comes; and I no longer wanted to be more certain of you, only more steady in you. But about my life in time everything was still wavering, and my heart had to be swept clean of the old leaven. The Way itself, the Savior himself, pleased me well — and yet I still shrank from going through its narrow gate. And you put it into my mind, and it seemed good in my eyes, to go to Simplicianus, who seemed to me a good servant of yours, with your grace clearly shining in him. I had heard, too, that from his earliest youth he had lived wholly devoted to you. He was an old man now, and after so many years spent following your ways so closely, he seemed likely to have learned a great deal — and so he had. Out of that store I wanted him to tell me — once I had laid my anxieties before him — which was the best way for a man in my state to walk in your paths.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0323"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "For I saw the church was full, and one went this way, another that. But I was unhappy that I was leading a worldly life — now that my old cravings no longer fired me, as they once had, with hopes of honor and money, it was a heavy burden to carry so heavy a bondage. For set against your sweetness, and the beauty of your house, which I loved, those things had no charm for me anymore. But I was still held fast by the love of a woman. The Apostle did not forbid me to marry, though he urged me toward something better, wishing above all that everyone were as he was. But I, being weak, chose the easier ground, and for that one reason was tossed about in everything else, worn thin and wasted with cares that ate at me, because in all other matters I was forced, against my will, to fit myself to a married life I had given myself over to and was enslaved by. I had heard from the mouth of Truth that there are some who make themselves eunuchs for the kingdom of heaven — but, he says, let the one who can receive this receive it. Empty indeed are all people who do not know God, who could not, from the good things they see, find out the One who is good. But I was no longer in that emptiness; I had climbed past it, and by the shared witness of all your creatures I had found you, our Creator, and your Word, God with you, and together with you one God, by whom you made all things. There is another kind of ungodly person, who knows God and yet does not glorify him as God, nor give thanks. Into this too I had fallen; but your right hand caught me up and carried me out of it, and set me where I could get well again. For you have said to a human being, Behold, the fear of the Lord is wisdom; and, Do not wish to seem wise — because those who called themselves wise became fools. I had now found the priceless pearl, which I ought to have bought by selling all I had — and I hesitated.",
+          "spine": {
+            "from": "0.0323",
+            "to": "0.0806"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So I went to Simplicianus, who had been a father to Ambrose (now a bishop) in the receiving of your grace, and whom Ambrose loved as a father indeed. I told him the whole maze of my wanderings. But when I mentioned that I had read certain books of the Platonists, which Victorinus — once a professor of rhetoric at Rome, who had died a Christian, as I had heard — had translated into Latin, he was glad I had not stumbled onto the writings of other philosophers, full of frauds and deceits in keeping with the elements of this world, whereas the Platonists in many ways led toward belief in God and his Word. Then, to draw me toward the humility of Christ, hidden from the wise and revealed to little ones, he spoke of Victorinus himself, whom he had known intimately at Rome; and what he told me I will not keep back. For it holds great praise of your grace, and ought to be confessed to you: how that old man, deeply learned, skilled in all the liberal arts, who had read and weighed so many of the philosophers, the teacher of so many noble senators, who as a monument to his distinguished career had even earned and received a statue in the Roman Forum — a thing the men of this world count a high honor — and who all his life had been a worshipper of idols and a sharer in the unholy rites to which nearly all the nobility of Rome were given, breathing into the people their love of the monstrous gods of every kind, the barking dog Anubis and the rest, who once took up arms against Neptune and Venus and Minerva — gods that Rome had once conquered and now adored, and that the old Victorinus had defended for so many years with thundering eloquence — that this man was not ashamed to become a child of your Christ, an infant newly born at your font, bowing his neck to the yoke of humility and his proud forehead to the disgrace of the Cross.",
+          "spine": {
+            "from": "0.0806",
+            "to": "0.1452"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Lord, Lord — you who bowed down the heavens and came down, who touched the mountains and they smoked — by what road did you make your way into that man's heart? He used to read the holy Scripture, Simplicianus told me, and searched out and pored over all the Christian writings most carefully; and he said to Simplicianus — not in public, but privately, as a friend — \"You should know that I am already a Christian.\" And Simplicianus answered, \"I will not believe it, nor will I count you among the Christians, until I see you in the church of Christ.\" Victorinus replied, mocking, \"So is it walls that make Christians?\" He said this often — that he was already a Christian — and as often Simplicianus gave the same answer, and as often the joke about the walls came back. For he was afraid of offending his friends, those proud demon-worshippers, from the height of whose Babylonian dignity — like cedars of Lebanon the Lord had not yet brought down — he expected a great weight of hatred to come crashing onto him. But after reading and hard thought he gathered his courage, and grew afraid that Christ would deny him before the holy angels if he were now afraid to confess Christ before men; and he saw himself guilty of a grave offense, ashamed of the sacraments of your Word's humility while feeling no shame at the unholy rites of those proud demons whose pride he had copied and whose rites he had taken up. So he hardened his face against vanity, and softened it before the truth, and suddenly, when no one expected it, he said to Simplicianus (as Simplicianus told me), \"Let us go to the church; I want to be made a Christian.\" And Simplicianus, beside himself with joy, went with him. He was admitted to the first sacrament and became a catechumen, and not long after gave in his name to be reborn by baptism — Rome marveling, the Church rejoicing. The proud watched, and were enraged; they gnashed their teeth and melted away. But the Lord God was the hope of your servant, and he paid no heed to vanities and lying follies.",
+          "spine": {
+            "from": "0.1452",
+            "to": "0.1774"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And so, when the hour came for him to make his profession of faith — which at Rome those about to come to your grace deliver from a raised place, in a set form of words learned by heart, before all the faithful — the presbyters, Simplicianus said, offered Victorinus the chance to make it more privately, as they did for those who seemed likely to be flustered by shyness. But he chose instead to profess his salvation before the holy crowd. \"For it was not salvation that he taught in rhetoric, and yet he had professed that in public; how much less, then, should he be afraid of your meek flock while pronouncing your word, when he had not feared a crazed mob while delivering his own.\" So when he went up to make his profession, everyone who knew him whispered his name to one another with the sound of congratulation. And who there did not know him? A low murmur ran through all the mouths of the rejoicing crowd: Victorinus! Victorinus! As suddenly as they had burst out for joy at the sight of him, just as suddenly they fell silent to hear him. He pronounced the true faith with magnificent boldness, and they all longed to gather him into their very hearts — and with their love and their joy they did gather him: those were the hands that drew him in.",
+          "spine": {
+            "from": "0.1774",
+            "to": "0.1935"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Good God, what is it that happens in a person, that he rejoices more over the salvation of a soul that was despaired of, freed from a greater danger, than if there had always been hope of it, or the danger had been less? For you too, merciful Father, rejoice more over one who repents than over ninety-nine righteous people who need no repentance. And we listen with great gladness whenever we hear how the lost sheep is carried home on the shepherd's shoulders, how the coin is restored to your treasury while the neighbors rejoice with the woman who found it. And the joy of the solemn service in your house forces tears from us when in your house we read of your younger son, that he was dead and is alive again, was lost and is found. For you rejoice in us, and in your holy angels, holy through holy love. For you are always the same, since all the things that do not stay the same, and do not last, you know forever in the same unchanging way.",
+          "spine": {
+            "from": "0.1935",
+            "to": "0.2339"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "What is it, then, that happens in the soul, that it takes more delight in finding or recovering the things it loves than if it had always had them? Yes, and everything else bears witness to this; all things are crowded with witnesses crying out, \"So it is.\" The conquering general celebrates his triumph — yet he would not have conquered unless he had fought, and the more danger there was in the battle, the more joy there is in the triumph. The storm tosses the sailors and threatens shipwreck; they all go pale at the nearness of death; then sky and sea grow calm, and they are overjoyed, just as they had been overafraid. A loved one is sick, and his pulse warns of danger; everyone who longs for his recovery is sick in heart along with him. He gets better, though he cannot yet walk with his old strength — and there is more joy than there was before, when he walked sound and strong. Even the ordinary pleasures of human life people buy with hardship: not only the troubles that fall on us unasked and against our will, but troubles we choose, that we go looking for, for the pleasure's sake. Eating and drinking give no pleasure unless the pinch of hunger and thirst comes first. Heavy drinkers eat something salty to work up an uncomfortable dryness, which the drink then relieves, and the relief is the pleasure. And it is the custom that a bride, once promised, is not handed over at once, so that her husband will not hold cheap, as a wife, the woman he did not have to sigh for as a betrothed.",
+          "spine": {
+            "from": "0.2339",
+            "to": "0.3145"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "This law holds in foul and forbidden joy; it holds in joy that is permitted and lawful; it holds in the purest perfection of friendship; it held in the one who was dead and came to life again, was lost and was found. Everywhere the greater joy is heralded by the greater pain. What does this mean, O Lord my God — you, who are everlasting joy to yourself, and around whom some things forever rejoice in you? What does it mean, that this region of things keeps ebbing and flowing, falling out of favor and being reconciled? Is this the measure you have set them? Is this all you have given them — when, from the highest heavens to the lowest earth, from the world's beginning to the end of the ages, from the angel to the worm, from the first stirring to the last, you set each thing in its place and bring each to pass in its season, every good thing after its kind? Alas for me — how high you are in the heights, and how deep in the depths! And you never leave us, and we so barely make our way back to you.",
+          "spine": {
+            "from": "0.3145",
+            "to": "0.4032"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Up, Lord, and act: rouse us and call us back; kindle us and seize us; set us on fire and grow sweet to us. Let us love now, let us run. Do not many people return to you out of a deeper hell of blindness than Victorinus knew — come near, and are enlightened, receiving the Light, and with it the power to become your sons? Yet if they are less known to the world, even those who know them rejoice less over them. For when many rejoice together, each one's joy is the richer, since they catch fire and warm one another. And again, those who are widely known carry more weight toward others' salvation, and lead the way for many to follow; and so even those who went before them rejoice greatly in them, because they do not rejoice in them alone. Far be it from us that in your tabernacle the rich should be welcomed before the poor, or the noble before the lowborn — since you have rather chosen the weak things of the world to shame the strong, and the base things and the despised things of this world, and the things that are not, to bring to nothing the things that are. And yet that least of your apostles, by whose tongue you sounded out these very words, when through his campaign the proconsul Paulus had his pride beaten down and was brought under the easy yoke of your Christ, a subject now of the great King — even he was glad to be called Paul, dropping his old name Saul, in token of so great a victory. For the enemy is more thoroughly beaten in a man through whom he held more, and through whom he held many. And he holds the proud more, on account of their high birth, and through them holds many more, on account of their authority. So the more dear the heart of Victorinus was reckoned — the heart the devil had held as an unbreachable stronghold, the tongue of Victorinus, that mighty, keen weapon with which he had slain so many — the more abundantly ought your sons to rejoice, because our King has bound the strong man, and they saw his vessels seized from him and cleansed and made fit for your honor, and turned to good use for the Lord, for every good work.",
+          "spine": {
+            "from": "0.4032",
+            "to": "0.4355"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "But when that man of yours, Simplicianus, told me this about Victorinus, I was on fire to imitate him — which was the very reason he had told it. And when he added that under the emperor Julian a law had been passed forbidding Christians to teach literature and oratory, and that Victorinus, obeying it, had chosen to give up his wordy school rather than your Word, by which you make eloquent the tongues of the speechless — he seemed to me not so much resolute as blessed, in having found a way to wait on you alone. And that was the very thing I was sighing for, bound as I was — not with another man's irons, but by my own iron will. The enemy held my will, and out of it had made a chain for me, and bound me with it. For out of a crooked will comes lust, and serving the lust becomes a habit, and the habit, not resisted, becomes a compulsion. By these links, joined together like a chain — which is why I called it a chain — a harsh bondage held me fast. But the new will, just beginning in me, the will to serve you freely and to enjoy you, my God, the only sure delight, was not yet strong enough to overcome the old will, grown tough with age. So my two wills — one old, one new, one of the flesh, one of the spirit — fought it out inside me, and by their quarrel they tore my soul apart.",
+          "spine": {
+            "from": "0.4355",
+            "to": "0.4355"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "In this way I came to understand, from my own experience, what I had read: how the flesh wars against the spirit, and the spirit against the flesh. I was in both, of course — yet I was more in what I approved of in myself than in what I disapproved of. For in that disapproved part it was now, for the most part, no longer truly I, since I was suffering it against my will more than doing it willingly. And yet it was through me that habit had won this power to fight against me, because I had come willingly to a place I now did not will to be. And who has any right to complain, when just punishment dogs the sinner? Nor did I have my old excuse any longer — that the reason I still held back from leaving the world to serve you was that the truth had not been made fully sure to me; for now it was. Yet I was still in service to the earth, and refused to enlist under your banner, and dreaded being freed from every burden as much as one ought to dread being weighed down by it. With the baggage of this present world I was held down, comfortably, as if in sleep; and my thoughts about you were like the efforts of someone trying to wake who, overcome by a heavy drowsiness, sinks back under again. No one wants to sleep forever, and every sober judgment agrees that waking is better; yet a man often puts off shaking off sleep when a heavy sluggishness lies in his limbs, and though it is past time to get up, gives in to it gladly, even while half-annoyed at himself. In just this way I was certain it was far better to give myself up to your love than to give in to my own craving; but while the first pleased me and won my mind, the second still pleased me too, and kept me its prisoner. And I had nothing to answer you when you called to me, Awake, you who sleep, and rise from the dead, and Christ will give you light. While you were showing me, on every side, that what you said was true, and I, convicted by the truth, had nothing at all to answer — nothing but those slow, drowsy words, \"In a moment,\" \"just a moment,\" \"leave me a little while.\" But the \"moment, moment\" never came to any moment, and the \"little while\" stretched on and on. In vain I delighted in your law in my inmost self, while another law in my members fought against the law of my mind and dragged me captive under the law of sin that was in my members. For the law of sin is the sheer force of habit, by which the mind is hauled along and held fast even against its will — and deservedly so, since it was by willing that it slid into the habit in the first place. Who, then, would free me, wretched as I was, from this body of death — who but your grace, through Jesus Christ our Lord?",
+          "spine": {
+            "from": "0.4355",
+            "to": "0.4355"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "And how you freed me from the chains of desire, by which I was bound so tightly to the lust of the flesh, and from the drudgery of worldly business, I will now tell, and confess to your name, Lord, my helper and my redeemer. Amid mounting anxiety I went about my usual work, and day after day I sighed to you. I went to your church whenever I was free of the business under whose weight I groaned. Alypius was with me, off duty now after his third turn on the bench, and waiting for someone to buy his legal advice, just as I sold the skill of speaking, if such a thing can really be passed on by teaching. Nebridius, for our friendship's sake, had agreed to assist in the teaching of Verecundus, a citizen and grammar teacher of Milan and a close friend of us all, who badly wanted — and by the right of friendship claimed from our circle — the faithful help he so much needed. Nebridius was not drawn to this by any hope of gain, for he could have made far more of his learning had he wished; but, the kindest and gentlest of friends, he would not refuse a good turn or slight our request. He went about it very carefully, keeping clear of becoming known to the great men of this world and the distraction of mind that comes with it, wanting his own mind free and at leisure for as many hours as he could, to seek and read and hear something about wisdom.",
+          "spine": {
+            "from": "0.4355",
+            "to": "0.4355"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "One day, then, when Nebridius happened to be away — I forget why — a man named Ponticianus came to see me and Alypius, a countryman of ours in that he was African, and holding high office at the emperor's court. What he wanted with us I do not know, but we sat down to talk, and he happened to notice on a gaming table in front of us a book. He picked it up, opened it, and found, to his surprise, that it was the Apostle Paul — for he had expected one of the books I was wearing myself out teaching. Smiling, and looking at me, he said how glad and how astonished he was to have come upon this book, and this one only, lying before my eyes. For he was a Christian, baptized, and often bowed himself before you, our God, in the church, in long and constant prayers. When I told him that I gave great care to those Scriptures, a conversation started — prompted by his telling of it — about Antony, the Egyptian monk, whose name stood in high honor among your servants, though up to that hour it was unknown to us. When he discovered this, he lingered all the more on the subject, filling us in and astonished at our ignorance of so great a man. And we stood amazed, hearing your wonderful works so fully attested, in times so recent, almost in our own day, worked in the true faith and the Catholic Church. We all wondered: we, that the works were so great; he, that they had never reached our ears.",
+          "spine": {
+            "from": "0.4355",
+            "to": "0.4516"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "From there his talk turned to the communities in the monasteries, and their holy ways, a sweet fragrance to you, and the fruitful deserts of the wilderness, of which we knew nothing. There was even a monastery at Milan, outside the city walls, full of good brothers under Ambrose's fatherly care, and we had not known of it. He went on talking, and we listened in rapt silence. Then he told us how once, one afternoon at Trier, when the emperor was busy with the games at the circus, he and three companions went out to walk in some gardens near the city walls; and as they happened to pair off, one went apart with him, and the other two wandered off on their own. These two, in their wandering, came upon a cottage where some of your servants lived, poor in spirit, to whom the kingdom of heaven belongs; and there they found a little book holding the life of Antony. One of them began to read it, and to marvel, and to take fire, and as he read, to imagine taking up such a life himself, giving over his worldly service to serve you. (These two were of the men they call agents of imperial affairs.) Then suddenly, filled with a holy love and a sober shame, angry at himself, he turned his eyes on his friend and said, \"Tell me, please — what are we trying to reach with all this toil of ours? What are we after? What do we serve for? Can our hopes at court rise any higher than to become the emperor's favorites? And even there, what is not brittle, what is not full of dangers? And through how many dangers do we arrive at a greater danger? And when do we even get there? But if I want it, I can become a friend of God right now, this very moment.\" So he spoke; and in the labor pains of a new birth he turned his eyes back to the book, and read on, and was changed within, where you were watching, and his mind was stripped clean of the world, as soon became clear. For as he read, and the waves of his heart rose and fell, every so often he stormed at himself; then he saw the better way, and chose it, and being now yours, he said to his friend, \"Now I have broken loose from those hopes of ours; I have made up my mind to serve God, and I begin it from this hour, in this place. If you do not care to imitate me, do not stand in my way.\" The other answered that he would stay by him, to share so glorious a reward, so glorious a service. So both of them, now yours, were building the tower at the necessary cost — leaving all they had to follow you. Then Ponticianus and the man who had walked with him in another part of the garden came looking for them, found them, and reminded them it was time to go back, for the day was far gone. But those two told them what they had resolved and purposed, and how that will had risen and settled in them, and begged the others, if they would not join, at least not to trouble them. And the others, though no different from their old selves, wept for themselves (so he told us), and reverently wished their friends well, commending themselves to their prayers; and then, with hearts still trailing on the earth, went off to the palace. But the other two, with hearts fixed on heaven, stayed there in the cottage. Both had brides promised to them, who, when they heard of it, dedicated their own virginity to God.",
+          "spine": {
+            "from": "0.4516",
+            "to": "0.4892"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Such was the story Ponticianus told. But you, Lord, while he was speaking, were turning me back toward myself — taking me from behind my own back, where I had stationed myself so as not to look at myself, and setting me in front of my own face, so that I might see how foul I was, how crooked and filthy, how stained and ulcered. And I looked, and was horrified, and there was nowhere to flee from myself. If I tried to turn my gaze away from myself, he kept on with his story, and again you set me over against myself and forced me before my own eyes, so that I might find out my own wrongdoing and hate it. I had known it all along, but I had pretended not to see it, had winked at it, and let it slip from my mind.",
+          "spine": {
+            "from": "0.4892",
+            "to": "0.5323"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "But now, the more warmly I loved those two men whose healthful choice I was hearing of — that they had handed themselves wholly over to you to be cured — the more I loathed myself by comparison. For many years had run out with me — some twelve — since my nineteenth, when on reading Cicero's Hortensius I was first stirred to a serious love of wisdom; and still I kept putting off the renouncing of mere earthly happiness, to give myself to the search for that wisdom whose mere seeking — never mind the finding — was to be preferred above the treasures and kingdoms of the world, and above the pleasures of the body lying spread around me at my whim. But I, a wretch, a most pitiful wretch, in the very dawn of my youth had even begged you for chastity, and had said, \"Give me chastity and self-control — only not yet.\" For I was afraid you would hear me too soon, and too soon cure me of the disease of lust, which I would rather have had fed full than snuffed out. And I had wandered down crooked roads in an unholy superstition — not even sure of it, but preferring it to the alternatives, which I did not search out in reverence but attacked in spite.",
+          "spine": {
+            "from": "0.5323",
+            "to": "0.5753"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "I had believed, too, that the reason I kept putting off, day after day, the renouncing of this world's hopes to follow you alone, was that nothing certain showed itself by which to set my course. But now the day had come when I was to be laid bare to myself, and my own conscience was to round on me. \"Where are you now, my tongue? You used to say that you would not cast off the baggage of vanity for an uncertain truth. Well — now it is certain, and that burden still weighs you down, while these others, who have not worn themselves out searching for it, nor brooded on it for ten years and more, have had their shoulders lightened, and been given wings to fly.\" So I was gnawed from within, and thrown into a terrible, scalding shame, while Ponticianus went on talking. When he had finished his tale and the errand he had come on, he went his way, and I went into myself. What did I not say against myself! With what lashes of self-condemnation did I not flog my soul, to make it follow me as I struggled to go after you! And it pulled back; it refused, and made no excuse for itself. Every argument was used up and beaten; there was left only a speechless dread, and it feared, as if it were death itself, to be held back from the river of the habit by which it was wasting to death.",
+          "spine": {
+            "from": "0.5753",
+            "to": "0.6129"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "Then, in the high pitch of this struggle in the house of my inmost self — a struggle I had violently stirred up against my own soul, in the chamber of my heart — troubled in mind and face alike, I rounded on Alypius and cried out, \"What is wrong with us? What is this? What did you hear? The unlearned rise up and seize heaven, and we, with all our learning and no heart — look at us, wallowing in flesh and blood! Is it because they have gone ahead of us that we are ashamed to follow, and not rather ashamed that we do not even follow?\" Some such words I said, and the fever of my mind tore me away from him, while he, staring at me, astonished, kept silent. For it was not my usual voice; and my forehead, my cheeks, my eyes, my color, the pitch of my voice, spoke my mind more than the words did. There was a little garden belonging to our lodging, which we had the use of, as of the whole house, for the owner, our host, was not living there. To the garden the uproar in my breast had driven me, where no one could break in on the burning quarrel I had taken up with myself, until it should come to an end you knew of, though I did not. Only I was wholesomely going mad, and dying so as to live, knowing what an evil thing I was and not yet knowing what good thing I was soon to become. So I went off into the garden, and Alypius came at my heels — for his being there was no loss of privacy to me; and how could he abandon me in such a state? We sat down as far from the house as we could. I was in turmoil of spirit, raging with the fiercest indignation that I was not entering into your will and your covenant, my God, which all my bones cried out to me to enter, praising it to the skies. And to go in there takes no ships or chariots or feet — it is not even as far as I had come from the house to where we sat. For to go there, and to arrive there, was nothing but the willing to go — but willing it strongly and through and through, not heaving the half-wounded, half-divided will this way and that, with one part rising as the other sank.",
+          "spine": {
+            "from": "0.6129",
+            "to": "0.6290"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "At last, in the very fever of my wavering, I made many of the bodily gestures that men sometimes want to make and cannot, if they have lost the limbs, or the limbs are tied, or slackened by sickness, or hindered in some other way. So if I tore my hair, or struck my forehead, or locked my fingers and hugged my knee — I willed it, and did it. But I could have willed it and not done it, if the power of movement in my limbs had not obeyed. So I did many things where willing was not the same as being able; and yet I did not do the one thing that I longed beyond all comparison more to do, and could have done the moment I willed it — because the moment I willed it, I would have willed it wholly. For in that thing the ability was one with the will, and to will was to do it; and yet it was not done. My body obeyed the faintest wish of my soul more readily — moving its limbs at a nod — than my soul obeyed itself, to bring about, in the will alone, this one great act of will.",
+          "spine": {
+            "from": "0.6290",
+            "to": "0.6452"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Where does this monstrous thing come from? And why? Let your mercy shine out, so that I may ask — perhaps the hidden punishments of human beings, the darkest agonies of the sons of Adam, may give me some answer. Where does this monstrous thing come from, and why? The mind commands the body, and is obeyed at once; the mind commands itself, and is resisted. The mind commands the hand to move, and so ready is the hand that you can scarcely tell the command from the obedience. Yet the mind is mind, and the hand is body. The mind commands the mind — its own self — to will, and it does not do it. Where does this monstrous thing come from, and why? It commands itself, I say, to will — it would not command unless it willed — and what it commands is not done. But it does not will the thing wholly; therefore it does not command the thing wholly. For it commands only so far as it wills, and the thing commanded is left undone only so far as it does not will. For the will is commanding a will to exist — not some other will, but itself. But it is not the whole will that commands, and so the thing it commands does not come to be. For if the will were whole, it would not even command the will to be, since it would already be. It is no monstrous thing, then, partly to will and partly not to will, but a sickness of the mind: that it does not rise wholly, lifted by the truth but borne down by habit. And so there are two wills in us, because neither one of them is whole, and what is missing in one is present in the other.",
+          "spine": {
+            "from": "0.6452",
+            "to": "0.6774"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "Let them perish from your presence, my God, as empty talkers and seducers of the mind do perish — those who, seeing that there were two wills in this weighing of choices, claim that there are in us two minds of two different natures, one good and one evil. They themselves are truly evil while they hold these evil opinions; and they will become good only when they hold the truth and consent to the truth, so that your Apostle may say to them, You were once darkness, but now you are light in the Lord. But they, wanting to be light in themselves and not in the Lord, imagining the soul's nature to be what God is, are made into a thicker darkness by their dreadful arrogance, since they backed away even farther from you, the true Light that gives light to everyone coming into the world. Let them take heed what they say, and blush with shame; let them draw near to him and be enlightened, and their faces will not be ashamed. As for me — when I was deliberating about serving the Lord my God now, as I had long meant to, it was I who willed it, I who refused it; I, my own self. I neither willed it wholly nor refused it wholly. And so I was at war with myself, and torn apart by myself. And this tearing happened to me against my will, and yet it showed not the presence of some second mind but the punishment of my own. So it was no longer I who did it, but the sin that lived in me — the punishment of a sin more freely committed, in that I was a son of Adam.",
+          "spine": {
+            "from": "0.6774",
+            "to": "0.7097"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "For if there were as many contrary natures as there are conflicting wills, there would be not just two of them but many. Suppose someone is deliberating whether to go to their secret meeting or to the theater — these Manichees cry out, \"Look, here are two natures: a good one drawing this way, a bad one dragging back the other!\" For where else, they ask, does this hesitation between conflicting wills come from? But I say both wills are bad: the one that draws toward their meeting as much as the one that draws back to the theater. They cannot believe that the will which draws toward them might be anything but good. Well then — suppose one of us were deliberating, and amid the clash of two wills were torn over whether to go to the theater or to our church: would not these men too be torn over what to answer? For either they must admit — which they would hate to do — that the will drawing a man to our church is good, just as good as the will of those who have received their own mysteries and are held by them; or they must suppose two evil natures and two evil souls battling in one man, and then it will not be true, as they say, that one is good and the other bad; or they must be converted to the truth and stop denying that, when a person deliberates, it is one single soul tossing between contrary wills.",
+          "spine": {
+            "from": "0.7097",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "So let them stop saying, when they notice two conflicting wills in one man, that the conflict is between two contrary souls, of two contrary substances, from two contrary first principles, one good and one bad. For you, the true God, disprove them, check them, convict them — as when, both wills being bad, a man deliberates whether to kill someone by poison or by the sword; whether to grab this estate of another's or that one, when he cannot have both; whether to spend his money on pleasure or hoard it out of greed; whether to go to the circus or the theater, if both are open the same day; or, a third thing, to rob a house, given the chance; or, a fourth, to commit adultery, if the opportunity is there too — all of these falling together in the same span of time, all equally wanted, though they cannot all be done at once. For they tear the mind apart among four wills, or even more, given the vast variety of things a man can crave — and yet the Manichees do not claim there are that many different substances in us. The same holds for good wills. For I ask them: is it good to take pleasure in reading the Apostle? Is it good to take pleasure in a quiet Psalm? Is it good to discuss the Gospel? To each they will answer, \"It is good.\" Well then — what if all of them give equal pleasure, and all at the same moment? Do not the different wills pull the mind apart while it deliberates which to choose? Yet all are good, and they are at odds until one is chosen, and the whole will, that was split into many, can move toward that one. So too, when eternity above delights us, and the pleasure of a passing good holds us down below, it is one and the same soul that does not will this or that with its whole will, and so is torn apart by heavy distress, since out of the truth it puts the one first, but out of habit it does not put the other aside.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.7849"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "So I was sick at heart and tormented, accusing myself far more bitterly than usual, twisting and turning in my chain until it should be wholly broken — the chain that now held me only by a thread, but held me still. And you, Lord, pressed hard on my inmost parts with a severe mercy, doubling the lashes of fear and shame, so that I would not give way again, and so that the last thin thread, not yet snapped, would not knit itself back together and bind me tighter than before. For I kept saying to myself, \"Let it be done now, let it be done now.\" And as I spoke I was on the very edge of doing it — I all but did it, and did not; yet I did not slide back to my old state, but kept my footing close by, and caught my breath. And I tried again, and came a little nearer, and a little nearer still, and all but touched it, all but grasped it; and yet I did not reach it, did not touch or take hold, hanging back from dying to death and living to life — the worse, which I was used to, having more power over me than the better, which I was not. And the very instant in which I was to become something other than I was — the nearer it came, the greater the horror it struck into me; yet it did not strike me back, did not turn me away, but held me hanging there.",
+          "spine": {
+            "from": "0.7849",
+            "to": "0.8065"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "The trifles of trifles, the vanities of vanities, my old mistresses, still held me back; they plucked at the garment of my flesh and whispered softly, \"Are you sending us away? From this moment, will we never be with you again, ever? From this moment, will this thing and that be forbidden you forever?\" And what was it they were hinting at in what I have called \"this and that\" — what were they hinting at, my God? Let your mercy turn it away from the soul of your servant! What filth they hinted at, what disgraces! And now I was hearing them far less than half as loud; they no longer faced me openly to argue, but muttered, as it were, behind my back, and slyly tugged at me as I was leaving, to make me look back at them. Still they held me up, so that I hung back from tearing myself loose and shaking myself free of them and leaping over to where I was being called — while a violent habit kept saying to me, \"Do you really think you can live without them?\"",
+          "spine": {
+            "from": "0.8065",
+            "to": "0.8280"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "But now it spoke very faintly. For on that side toward which I had set my face, and which I trembled to cross to, there appeared to me the chaste dignity of Continence — serene, but not slack in her gladness, honorably coaxing me to come and not to hesitate, stretching out holy hands to take me in and embrace me, hands full of crowds of good examples. There were so many boys and girls there, a multitude of the young and of every age, grave widows and gray-haired virgins; and in all of them Continence herself, not barren but the fruitful mother of children of joy, by you, her Husband, O Lord. And she smiled at me with a coaxing mockery, as if to say: \"Can you not do what these young men and these young women can? Or can any of them do it of themselves, and not rather in the Lord their God? The Lord their God gave me to them. Why do you stand on your own feet, and so not stand at all? Throw yourself on him; do not be afraid. He will not draw back and let you fall. Throw yourself on him without fear; he will catch you and heal you.\" And I blushed deep, for I still heard the muttering of those trifles, and hung there in suspense. And again she seemed to say, \"Stop your ears against your unclean members on the earth, that they may be put to death. They tell you of delights — but not such delights as the law of the Lord your God.\" This whole quarrel in my heart was self against self alone. And Alypius, sitting close beside me, waited in silence for the outcome of my strange agitation.",
+          "spine": {
+            "from": "0.8280",
+            "to": "0.8629"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "But when a deep self-searching had dredged up out of the secret depths of my soul all my misery and heaped it before the eyes of my heart, a mighty storm broke, bringing a mighty downpour of tears. And to pour them out in full, with all their natural cries, I got up and left Alypius — solitude seemed fitter for the business of weeping — and went off far enough that even his presence would not weigh on me. So it was with me then, and he sensed it; for I suppose I had said something in which the sound of my voice was already thick with weeping, and so had risen. He stayed where we had been sitting, utterly amazed. I flung myself down — how, I do not know — under a certain fig tree, and let my tears run free; and the floods of my eyes broke out, an acceptable sacrifice to you. And I said much to you — not in these words, but to this effect: And you, Lord — how long? How long, Lord? Will you be angry forever? Do not remember our old wrongs against us. For I felt I was still held fast by them, and I sent up these grieving cries: How long, how long? Tomorrow, and tomorrow? Why not now? Why not this very hour an end to my uncleanness?",
+          "spine": {
+            "from": "0.8629",
+            "to": "0.9113"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "So I was speaking, and weeping, in the bitterest contrition of my heart, when suddenly I heard a voice from a nearby house — a boy's voice, or a girl's, I do not know — chanting, and over and over repeating, \"Take up and read, take up and read.\" At once my face changed, and I began to think hard whether children sang anything like this in any kind of game, and I could not remember ever having heard it. So I checked the flood of my tears and stood up, taking it to be nothing other than a command from God to open the book and read the first passage I came upon. For I had heard of Antony, that he had once come in during the reading of the Gospel and taken the words as if spoken to him: Go, sell all that you have, and give to the poor, and you will have treasure in heaven; and come, follow me. And by such an oracle he was at once converted to you. So I went back quickly to where Alypius was sitting, for there I had laid down the book of the Apostle when I got up. I snatched it, opened it, and read in silence the first passage my eyes fell on: Not in rioting and drunkenness, not in lust and wantonness, not in strife and envy; but put on the Lord Jesus Christ, and make no provision for the flesh and its cravings. I had no wish to read further, and no need. For instantly, as I came to the end of that sentence, it was as if a light of assurance had been poured into my heart, and all the dark of doubt scattered away.",
+          "spine": {
+            "from": "0.9113",
+            "to": "0.9597"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-08.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "Then, marking the place with my finger, or with something else, I closed the book, and with a calm face told Alypius. And he told me, in turn, what had been happening in him, which I had not known. He asked to see what I had read. I showed him; and he looked beyond what I had read, to what came next, which I had not seen. It was this: Receive the one who is weak in faith. He took it to himself, and told me. And by that word of counsel he was strengthened; and with a good resolve and purpose, fully in keeping with the character in which he had always — and far for the better — differed from me, he joined me, without any agitated delay. From there we go in to my mother. We tell her. She rejoices. We relate, in order, how it came about, and she leaps for joy and triumphs, and blesses you, who are able to do above all that we ask or imagine. For she saw that you had given her, in my case, far more than she had been used to begging for with her pitiful, grief-stricken groans. For you converted me to yourself, so that I sought neither a wife nor any hope of this world, but stood firm on that rule of faith where, so many years before, you had shown me to her in a vision. And you turned her mourning into a joy far richer than she had wished, and far dearer and purer than the joy she had once asked for in grandchildren of my body.",
+          "spine": {
+            "from": "0.9597",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.confessions.lectio-modern.book-09",
+      "order": 9,
+      "label": "Book IX",
+      "title": "Monica's Death",
+      "segments": [
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "O Lord, I am your servant; I am your servant, and the son of your handmaid. You have broken the chains that bound me; I will offer you the sacrifice of praise. Let my heart and my tongue praise you; let all my bones say, O Lord, who is like you? Let them say it, and answer me, and say to my soul, I am your salvation. Who am I, and what am I? What evil has there not been, whether in my deeds, or, if not my deeds, then my words, or, if not my words, then my will? But you, Lord, are good and merciful; your right hand reached down into the depth of my death and from the bottom of my heart emptied out that pit of corruption. And the whole of your gift was this: that I should stop willing what I had willed, and begin to will what you willed. But where, through all those years, and out of what low and hidden recess, was my free will called forth in a single moment, so that I bent my neck to your easy yoke and my shoulders to your light burden, O Christ Jesus, my Helper and my Redeemer? How sweet it suddenly became to me to go without the sweetness of those trifles! What I had been afraid to lose, it was now a joy to let go. For you cast them out of me, you who are the true and highest sweetness; you cast them out, and in their place you entered in yourself, sweeter than every pleasure, though not to flesh and blood; brighter than every light, yet more hidden than every depth; higher than every honor, but not to those who are high in their own eyes. Now my soul was free from the gnawing cares of campaigning and getting, of wallowing in filth and scratching the itch of lust. And like a child I spoke freely to you, my brightness, my riches, my health, the Lord my God.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0263"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And I resolved, in your sight, not to tear myself loose all at once with a great noise, but quietly to withdraw the service of my tongue from the marketplace of hired speech, so that the young — students not of your law, not of your peace, but of lying fantasies and courtroom skirmishes — should no longer buy from my mouth the weapons for their madness. It fell out conveniently: there were only a few days left before the vintage holidays, and I decided to endure them, and then to take my leave in good order, since, having been bought by you, I would no longer put myself up for sale. So our plan was known to you, but among men it was known only to our own circle of friends. For we had agreed not to let it out to anyone else — though to us, now climbing up out of the valley of tears and singing the song of ascents, you had given sharp arrows and burning coals against the cunning tongue, the tongue that would block our way under the show of giving us good advice, and out of love would devour us, the way a man devours his food.",
+          "spine": {
+            "from": "0.0263",
+            "to": "0.0526"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "You had pierced our hearts with your love, and we carried your words fixed deep inside us; and the examples of your servants, whom you had turned from black to shining and from dead to living, were heaped up in the storehouse of our thoughts and set fire to our heavy sluggishness, so that we should not sink down into the abyss. They kindled us so fiercely that every gust from the cunning tongues of those who argued against us could only fan the flame the hotter, not put it out. And yet, because for the sake of your Name, which you have made holy throughout the earth, this vow and purpose of mine might also find people to praise it, it began to look like showing off — not to wait for the holiday now so near, but to quit ahead of time a public office that stood before everyone's eyes; so that everyone, watching what I did and noting how close the vintage was that I had wanted to anticipate, would have a great deal to say about me, as though I had wanted to be seen as someone important. And what would it have gained me, that people should pore over my motives and dispute about them, and that the good we were doing should be spoken of as evil?",
+          "spine": {
+            "from": "0.0526",
+            "to": "0.0789"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "There was something else, too, that had troubled me. That very summer, under the strain of too much literary work, my lungs had begun to fail; I breathed deeply only with difficulty, and the pain in my chest showed they were injured and refused me any full or lengthy speaking. This had troubled me, for it all but forced me, of necessity, to set down the burden of teaching, or at least, if I could be cured and recover, to set it aside for a while. But once the full longing for the quiet in which I might come to see that you are the Lord had risen in me and settled firm, then — my God, you know it — I began even to be glad that I had this second excuse, and a true one, not invented, which might somewhat soften the offense of those who, for their sons' sake, wished I would never have the freedom of your sons. So, full of that gladness, I held out until the stretch of time should run its course — some twenty days it may have been; yet they were borne with effort. The greed that used to help carry this heavy work had left me, and I was alone, and I would have been crushed, had not patience taken its place. Perhaps some of your servants, my brothers, will say I sinned in this, that with a heart fully set on serving you I let myself sit even one hour longer in the chair of lies. I will not argue the point. But have you not, O most merciful Lord, pardoned and forgiven this sin too, along with my other most horrible and deadly sins, in the holy water of baptism?",
+          "spine": {
+            "from": "0.0789",
+            "to": "0.1053"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Verecundus was worn down with worry over this happiness of ours, for, held back by bonds that bound him most tightly, he saw that he would be cut off from us. He was not yet a Christian; his wife was one of the faithful, and it was she, more than any other chain, that fastened him and held him back from the journey we had now set out on. For he would not, he said, be a Christian on any terms but the one open to him, which was the one he could not take. Still, he kindly offered us the use of his country house for as long as we should stay there. You, Lord, will reward him in the resurrection of the just, for you have already given him the portion of the righteous. While we were away, now back in Rome, he fell sick in body, and in that sickness he was made a Christian and one of the faithful, and so departed this life. And you had mercy not only on him, but on us, lest, remembering the great kindness of our friend toward us and yet unable to count him among your flock, we should be torn apart by unbearable grief. Thanks be to you, our God; we are yours. Your hints and your comforts tell us so. Faithful to your promises, you now repay Verecundus for his country house at Cassiciacum — where, away from the fever of the world, we found our rest in you — with the everlasting freshness of your Paradise; for you have forgiven him his sins upon earth, on that rich mountain, the mountain that flows with milk, your own mountain.",
+          "spine": {
+            "from": "0.1053",
+            "to": "0.1316"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "He, then, was sorrowing at that time, but Nebridius was rejoicing. For although he too was not yet a Christian, and had fallen into the pit of that most poisonous error, believing the flesh of your Son to be a phantom, he had climbed out of it and come to believe as we did; and though he had not yet received any of the sacraments of your Church, he was a most ardent seeker after truth. Not long after our conversion and our rebirth in your baptism, when he too was a faithful member of the Catholic Church and was serving you in perfect chastity and self-control among his own people in Africa — his whole household having through him first been made Christian — you released him from the flesh, and now he lives in Abraham's bosom. Whatever that bosom may mean, there my Nebridius lives, my sweet friend, your child, O Lord, adopted now from a freedman. There he lives; for what other place could there be for such a soul? There he lives, in that place about which he used to ask me so many questions — me, a poor inexperienced man. Now he no longer lays his ear to my mouth, but lays the mouth of his spirit to your fountain, and drinks in as much wisdom as he can hold, as much as his thirst can take, endlessly happy. And I do not think he is so drunk on it that he forgets me; for you, Lord, whom he drinks, are mindful of us. So we were then, comforting Verecundus in his sorrow — as far as friendship allowed, given that our conversion had taken that turn — and urging him to be faithful within the bounds of his own condition, which was the married state; and we were waiting for Nebridius to follow us, which, being so near, he was all but ready to do. And so, at last, those days rolled by; long and many they seemed, for the love I bore to that easeful freedom in which I might sing to you from my inmost marrow: My heart has said to you, I have sought your face; your face, Lord, will I seek.",
+          "spine": {
+            "from": "0.1316",
+            "to": "0.1579"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Now the day had come on which I was in fact to be set free from my professorship of rhetoric, the day from which, in my mind, I was already free. And it was done. You rescued my tongue, as you had already rescued my heart. And I blessed you, rejoicing, and retired with all my household to the villa. What I did there in writing — writing that was now enlisted in your service, though it still panted, in this breathing-space, with the fumes of the school of pride — my books bear witness: both what I argued out with others present, and what I argued with myself alone, before you; and what I set down for Nebridius, who was absent, my letters bear witness. And when will I have time enough to recount all your great kindnesses to us in those days, especially as I am hurrying on toward still greater mercies? For my memory calls me back, and it is sweet to me, O Lord, to confess to you by what inward goads you tamed me — how you leveled me, lowering the mountains and hills of my high imaginings, straightening my crookedness and smoothing my rough ways; and how you also subdued the brother of my heart, Alypius, to the name of your Only-Begotten, our Lord and Savior Jesus Christ, a name he would not at first allow to be put into our writings. For he preferred them to taste of the lofty cedars of the schools, which the Lord has now broken down, rather than of the wholesome herbs of the Church, the antidote against serpents.",
+          "spine": {
+            "from": "0.1579",
+            "to": "0.1842"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Oh, in what voices I spoke to you, my God, when I read the Psalms of David, those faithful songs, those sounds of devotion that leave no room for a swelling spirit — still only a catechumen and a beginner in your true love, resting at that villa with Alypius, also a catechumen, and my mother holding fast to us, a woman in dress but with a man's faith, with the calm of her years, a mother's love, a Christian's devotion. Oh, what voices I sent up to you in those Psalms, and how they kindled me toward you and set me on fire to recite them, if I could, through the whole world, against the pride of the human race! And in fact they are sung through the whole world, and no one can hide himself from your heat. With what fierce and bitter sorrow I was angry at the Manichees! And then again I pitied them, for they did not know those sacraments, those medicines, and raged like madmen against the very cure that might have healed them of their madness. How I wished they could have been near me then, without my knowing they were there, that they might have watched my face and heard my words as I read the fourth Psalm in that time of my rest, and seen what that Psalm worked in me: When I called, the God of my righteousness heard me; in my distress you set me free. Have mercy on me, O Lord, and hear my prayer. I wish they could have heard what I said over those words, without my knowing whether they heard, so that they would not think I spoke it for their sake. For in truth I would not have said the same things, nor in the same way, if I had known they were listening and watching me; and even if I had said them, they would not have taken them in as I did when I spoke by myself and for myself, before you, out of the natural feeling of my soul.",
+          "spine": {
+            "from": "0.1842",
+            "to": "0.2105"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "I trembled with fear, and then again was kindled with hope and with joy in your mercy, O Father; and it all poured out through my eyes and my voice when your good Spirit, turning toward us, said: O you sons of men, how long will you be slow of heart? Why do you love emptiness and chase after lies? For I had loved emptiness and chased after lies. And you, O Lord, had already glorified your Holy One, raising him from the dead and setting him at your right hand, from where, on high, he would send his promise, the Comforter, the Spirit of truth. And he had already sent him, though I did not know it; he had sent him, because he was now glorified, risen from the dead and ascended into heaven. For until then the Spirit was not yet given, because Jesus was not yet glorified. And the prophet cries out: How long will you be slow of heart? Why do you love emptiness and chase after lies? Know this, that the Lord has glorified his Holy One. He cries How long? He cries Know this. And I, for so long, not knowing, had loved emptiness and chased after lies; and so I heard, and trembled, because these words were spoken to the very kind of man I remembered I had been. For in those phantoms that I had held to be the truth, there was nothing but emptiness and lies; and I spoke many things aloud, earnestly and forcefully, in the bitterness of my remembering. I wish they could have heard it, those who still love emptiness and chase after lies! Perhaps they would have been shaken, and would have vomited it up, and you would have heard them when they cried out to you — for he who now intercedes with you for us died for us by a true death in the flesh.",
+          "spine": {
+            "from": "0.2105",
+            "to": "0.2368"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "I read on: Be angry, and sin not. And how I was moved, O my God, I who had now learned to be angry at myself for the things of the past, that I might not sin in the time to come! And rightly angry; for it was not some other nature, a people of darkness, that had sinned instead of me — as those say who are not angry at themselves, and so store up wrath against the day of wrath and of the revealing of your just judgment. Nor were my good things outside me any longer, nor sought with the eyes of flesh in that earthly sun. For those who would have their joy from outside themselves soon grow empty, and spill themselves out on the things that are seen and passing, and in their starving thoughts lick at the mere shadows of them. Oh, that they were worn out at last with their hunger, and would say, Who will show us any good? And we would answer, and they would hear: The light of your countenance is sealed upon us. For we are not that light which gives light to every man, but we are given light by you, so that, having once been darkness, we may be light in you. Oh, that they could see the eternal that is within, which, having tasted it, I grieved that I could not show them, so long as they brought me their heart in their eyes, which roved abroad away from you, while they said, Who will show us any good? For there, where I was angry within myself, in my own room, where I was inwardly pierced, where I had offered my sacrifice, killing my old self and beginning to plan a new life, putting my trust in you — there you had begun to grow sweet to me, and had put gladness in my heart. And I cried out as I read this on the page, finding it within. Nor would I be multiplied with worldly goods, wasting time and wasted by time, when I had, in your eternal and undivided Being, another corn and wine and oil.",
+          "spine": {
+            "from": "0.2368",
+            "to": "0.2632"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "And with a loud cry of my heart I cried out at the next verse: O, in peace! O, for the Selfsame! O, what did he say — I will lie down and sleep — for who shall stop us, when that saying comes to pass which is written, Death is swallowed up in victory? And you, surpassingly, are the Selfsame, who do not change; and in you is the rest that forgets all toil, for there is no one else with you, and we are not to seek the many other things that are not what you are. You alone, Lord, make me dwell in hope. I read, and I caught fire; and I could not find what to do with those who were deaf and dead, among whom I myself had been — a plague of a man, a bitter and a blind ranter against those writings that are made sweet with the honey of heaven and bright with your own light. And I was consumed with zeal against the enemies of this Scripture.",
+          "spine": {
+            "from": "0.2632",
+            "to": "0.2895"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "When shall I recall all that happened in those holy days? Yet I have not forgotten, nor will I pass over, the severity of your scourge and the wonderful swiftness of your mercy. You tormented me then with a pain in my teeth; and when it had grown so fierce that I could not speak, it came into my heart to ask all my friends who were present to pray for me to you, the God of every kind of health. I wrote this on wax and gave it to them to read. And the moment we had bowed our knees in humble devotion, the pain went away. But what pain it was! And how it went! I was frightened, O my Lord, my God; for from my infancy I had never known anything like it. And the power of your slightest nod sank deep into me, and rejoicing in faith I praised your Name — though that faith would not let me be at ease about my past sins, which were not yet forgiven me by your baptism.",
+          "spine": {
+            "from": "0.2895",
+            "to": "0.3158"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "When the vintage holidays were over, I gave notice to the people of Milan to find their students another seller of words, both because I had chosen to serve you, and because, with my difficulty in breathing and the pain in my chest, I was no longer fit for the work. And by letter I made known to your bishop, the holy man Ambrose, my former errors and my present longings, asking his advice on which of your Scriptures I should best read to make myself readier and fitter to receive so great a grace. He recommended Isaiah the prophet — I believe because Isaiah, more clearly than the rest, foreshows the Gospel and the calling of the Gentiles. But I did not understand the first passage of him, and, imagining the whole book to be like it, I laid it aside, to be taken up again when I was better practiced in the Lord's own words.",
+          "spine": {
+            "from": "0.3158",
+            "to": "0.3421"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "When the time came at last to give in my name for baptism, we left the country and returned to Milan. Alypius too was pleased to be reborn in you along with me, already clothed in the humility that befits your sacraments, and a most valiant tamer of his own body, so that he ventured, against all custom, to walk the frozen ground of Italy with his bare feet. And we took with us the boy Adeodatus, my son after the flesh, born of my sin. You had made him well. He was not yet fifteen, and in quickness of mind he outdid many grave and learned men. I confess to you your own gifts, O Lord my God, Maker of all things, and well able to reshape what is misshapen in us — for I had no part in that boy but the sin. That we brought him up in your discipline, it was you, no one else, who breathed it into us. I confess to you your gifts. There is a book of ours called The Teacher; it is a dialogue between him and me. You know that all the thoughts there put into the mouth of the one talking with me were his, in his sixteenth year. Much more, and still more remarkable, I found in him. That gift of his struck awe into me. And who but you could be the maker of such wonders? Soon you took his life from the earth, and now I remember him without anxiety, fearing nothing for his childhood or his youth or his whole self. We joined him to us, our companion in grace, to be brought up in your discipline; and we were baptized, and all anxiety about our past life fled from us. In those days I could not get my fill of the wondrous sweetness of pondering the depth of your design for the salvation of the human race. How I wept at your hymns and canticles, cut to the quick by the voices of your sweet-singing Church! Those voices flowed into my ears, and the truth was distilled into my heart, and out of that the feeling of my devotion overflowed, and the tears ran down, and I was happy in them.",
+          "spine": {
+            "from": "0.3421",
+            "to": "0.3684"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Church of Milan had not long begun to practice this kind of comfort and encouragement, the brothers singing together with one accord of voice and heart. For it was about a year before, or not much more, that Justina, the mother of the boy-emperor Valentinian, had persecuted your servant Ambrose on behalf of her heresy, into which the Arians had seduced her. The devout people kept watch in the church, ready to die with their bishop, your servant. There my mother, your handmaid, bearing a leading part in those anxieties and vigils, lived for prayer. We ourselves, still not warmed through by the heat of your Spirit, were nonetheless stirred by the sight of the city, amazed and shaken. It was then that it was first set in place, after the manner of the Eastern churches, that hymns and psalms should be sung, so that the people should not grow faint under the weariness of their sorrow; and from that day to this the custom has been kept, and many — almost all — of your congregations in the other parts of the world have followed it.",
+          "spine": {
+            "from": "0.3684",
+            "to": "0.3947"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "It was then, too, that you revealed in a vision to that same bishop the place where the bodies of the martyrs Gervasius and Protasius lay hidden, whom you had kept uncorrupted so many years in your secret treasury, so that you might bring them out at the right moment to check the fury of a woman — but an empress. For when they were found and dug up and carried with due honor to the Ambrosian basilica, not only were those healed who were tormented by unclean spirits, the demons themselves confessing it, but a certain man, a citizen well known to the city, who had been blind for many years, asked why the people were rejoicing in such confusion, and when he heard the reason, he sprang up and begged his guide to lead him there. Led there, he asked to be allowed to touch with his handkerchief the bier of your saints, whose death is precious in your sight. When he had done so, and put it to his eyes, they were opened at once. From there the news spread; from there your praises blazed and shone; from there the mind of that enemy, though not turned to the soundness of belief, was at least turned back from her fury of persecuting. Thanks be to you, O my God. From where, and to where, have you led my memory, that I should confess these things too to you — things which, great as they were, I had let slip in forgetfulness? And yet even then, when the fragrance of your ointments was so sweet, we did not run after you. And so I wept the more among the singing of your hymns, who had once only sighed after you, and was now at last breathing you in, so far as the breath can enter this house of ours that is made of grass.",
+          "spine": {
+            "from": "0.3947",
+            "to": "0.4211"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "You who make those of one mind dwell together in one house joined Euodius to us as well, a young man of our own city. While serving as an officer at court, he had been converted to you and baptized before us, and, laying down his worldly soldiering, he had girded himself for yours. We were together, and meant to live together in our devout purpose. We looked for the place where we might serve you most usefully, and together we were on our way back to Africa; and when we had come as far as Ostia, my mother departed this life. Much I leave out, for I am hurrying on. Receive my confessions and thanksgivings, O my God, for the countless things about which I keep silent. But I will not leave out whatever my soul would bring forth concerning your handmaid, who brought me forth — both in the flesh, that I might be born into this temporal light, and in her heart, that I might be born into the light eternal. Not her gifts, but yours in her, would I speak of; for she did not make herself, nor did she rear herself. You created her; and neither her father nor her mother knew what kind of woman would come from them. It was the scepter of your Christ, the discipline of your only Son, in a Christian house, a sound member of your Church, that brought her up in the fear of you. And yet, for her good upbringing, she used to give the credit not so much to her mother's care as to that of a certain aged servant, who had carried her own father as a child on her back, the way little ones are often carried by older girls. For that reason, and for her great age and excellent character, she was well respected by the heads of that Christian household. And so the care of her master's daughters was entrusted to her, and she gave it diligent heed, holding them back firmly when she had to, with a holy strictness, and teaching them with a grave good sense. For except at the hours when they were fed, very temperately, at their parents' table, she would not let them drink even water, however parched with thirst they were, heading off a bad habit and adding this wholesome word: \"You drink water now, because you have no power over the wine; but when you come to be married, and are made mistresses of the storerooms and cellars, you will look down on water, but the habit of drinking will hold.\" By this way of teaching, and the authority she had, she reined in the greediness of childhood and shaped their very thirst to such fine moderation that they no longer even wanted what they should not have.",
+          "spine": {
+            "from": "0.4211",
+            "to": "0.4474"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "And yet — as your handmaid told me, her son — a love of wine had crept up on her even so. For when, as the custom was, she was sent by her parents, like the sober girl she was, to draw wine from the cask, she would hold the cup under the open spout, and before pouring the wine into the flagon she would wet the tip of her lips with a little of it; for more than that her instinct refused. She did this not out of any craving for drink, but out of the overflow of youth, which bubbles up in playful little tricks that the gravity of their elders usually keeps down in young spirits. And so, by adding to that little drop a little more, day by day — for whoever despises small things falls little by little — she fell at last into the habit of greedily draining little cups almost brimful of wine. Where now was that wise old woman and her stern forbidding? Would anything have availed against a hidden disease, if your healing hand, O Lord, had not watched over us? Father, mother, and overseers absent, and you present — you who create, who call, who also through those set over us work something toward the saving of our souls — what did you do then, my God? How did you cure her? How did you heal her? Did you not draw out of another soul a hard and cutting taunt, like a surgeon's lancet from your secret store, and with a single stroke cut away all that rottenness? For a maidservant, with whom she used to go down to the cellar, quarreling one day, as servants do, with her little mistress when the two of them were alone, threw this fault in her face, with the most bitter insult, calling her a wine-bibber. Stung to the quick by that taunt, she saw the foulness of what she did, and at once condemned it and gave it up. As flattering friends pervert us, so spiteful enemies most often set us right. Yet you repay them not for what you accomplish through them, but for what they themselves intended. For that servant, in her anger, sought to wound her young mistress, not to mend her, and did it in private, either because the time and place of their quarrel happened to find them so, or for fear of getting into trouble herself for telling it so late. But you, Lord, Ruler of all things in heaven and on earth, who turn to your own purposes the deepest currents and the ordered turbulence of the flooding stream of time, by the very sickness of one soul healed another — so that no one who sees this should credit it to his own power, even when another, whom he wished to set right, is set right through some word of his.",
+          "spine": {
+            "from": "0.4474",
+            "to": "0.4737"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "Brought up in this modest and sober way, and made obedient to her parents more by you than by her parents to you, as soon as she was of marriageable age she was given to a husband, and served him as her lord. She worked hard to win him over to you, speaking of you to him by her way of life, by which you made her beautiful, and revered, and lovely, and admired by her husband. And she so bore his being unfaithful to her bed that she never had a quarrel with him over it; for she was waiting for your mercy upon him, that by believing in you he might be made chaste. And besides this, he was as hot in temper as he was warm in his affections. But she had learned not to stand up against an angry husband, not in deed only, but not even in word. Only when he had grown calm and quiet, and was in a state to take it, would she give him an account of what she had done, in case he had been too hasty in taking offense. And so, while many wives, who had gentler husbands, yet carried the marks of blows on their disfigured faces, and in friendly talk would blame their husbands' way of life, she would blame their tongues, giving them, as if in jest, this earnest advice: that from the moment they heard the marriage contract read out to them, they should think of it as the deed that made them servants, and so, remembering their station, should not set themselves up against their lords. And when they, knowing what a hot-tempered husband she put up with, were amazed that it had never been heard, nor shown by any sign, that Patricius had struck his wife, or that there had been so much as one day's quarrel between them, and asked her, in confidence, the reason, she taught them the practice I have described. Those who took it up found it good, and gave thanks; those who did not found no relief, and suffered.",
+          "spine": {
+            "from": "0.4737",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "Her mother-in-law, too, who at first had been set against her by the whispers of malicious servants, she so won over by attentiveness and steady endurance and meekness, that the older woman of her own accord disclosed to her son the meddling tongues that had disturbed the household peace between herself and her daughter-in-law, and asked him to put a stop to it. So, in obedience to his mother and for the good order of the house, he had those servants whipped, at the will of the one who had exposed them; and she promised the same reward to anyone who, to please her, should speak ill of her daughter-in-law. And after that no one dared, and they lived together with a remarkable sweetness of mutual kindness.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5263"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "This great gift also you bestowed, O my God, my mercy, on that good handmaid of yours, in whose womb you created me: that wherever she could, between people at odds and out of all harmony, she showed herself such a peacemaker that, hearing on both sides the most bitter things — the kind that swollen and undigested anger spills out, when the rawness of enmity is breathed out in sour talk to a friend who is present, against an enemy who is not — she would never disclose anything from the one to the other except what might tend toward their reconciling. This might seem a small good to me, did I not know, to my grief, countless people who, through some horrible and far-spreading plague of sin, not only repeat to those already angry the things said in anger, but even add things that were never said at all; whereas, for human beings, it ought to seem a slight thing not to feed or fan ill will by ill words, unless one also takes pains, by good words, to quench it. Such was she — and you, her most inward Teacher, taught her in the school of the heart.",
+          "spine": {
+            "from": "0.5263",
+            "to": "0.5526"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "In the end she won even her own husband over to you, near the very close of his life on earth; nor did she have to complain of him, now that he was a believer, as she had borne with him before he believed. She was also the servant of your servants; whoever of them knew her praised and honored and loved you in her, for they felt your presence in her heart through the witness of a holy life and its fruits. For she had been the wife of one man, had repaid her parents, had governed her house piously, was well spoken of for good works; she had brought up her children, going into labor over them again and again, each time she saw them swerving away from you. And finally, of all of us your servants, O Lord — for by your own gift you let us speak — us, who before her falling asleep in you lived united together, having received the grace of your baptism, she cared for as though she had been the mother of us all, and served as though she had been the child of us all.",
+          "spine": {
+            "from": "0.5526",
+            "to": "0.5789"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The day was now drawing near on which she was to depart this life — the day you knew well, though we did not — and it came about, by your secret arranging, as I believe, that she and I stood alone, leaning at a certain window that looked out onto the garden of the house where we were staying, at Ostia. There, far from the noise of the crowd, we were resting after the strain of a long journey, in readiness for the voyage. We were talking together, alone, very sweetly; and forgetting the things that were behind and reaching out to the things that were ahead, we asked each other, in the presence of the Truth, which is you, what the eternal life of the saints would be like — which eye has not seen, nor ear heard, nor has it entered into the heart of man. And yet we panted with the mouth of our heart after those heavenly streams of your fountain, the fountain of life that is with you, that, sprinkled from it according to our small capacity, we might in some way turn our minds toward so great a mystery.",
+          "spine": {
+            "from": "0.5789",
+            "to": "0.6053"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "And when our talk had come to this — that the very highest delight of the bodily senses, in the very purest bodily light, set beside the sweetness of that life, was not worth comparing with it, or even worth mentioning — we lifted ourselves up with a more burning longing toward the Selfsame, and rose, step by step, through all bodily things, and through heaven itself, from which the sun and moon and stars shine down upon the earth. And still we climbed higher, in inward thought and speech and wonder at your works; and we came to our own minds, and went beyond them, to reach that region of never-failing plenty, where you feed Israel forever on the food of truth, and where life is the Wisdom by whom all these things are made, both what has been and what is to come — and she herself is not made, but is, as she has been, and so will be forever; or rather, in her there is no \"has been\" and no \"will be,\" but only \"is,\" for she is eternal, since to \"have been\" and to \"be hereafter\" are not eternal. And while we were speaking and panting after her, we touched her, a little, with one whole stroke of the heart; and we sighed, and left there, bound to her, the firstfruits of the Spirit, and came back down to the noise of our own mouths, where a word both begins and ends. And what is there like your Word, our Lord, who abides in himself without growing old, and makes all things new?",
+          "spine": {
+            "from": "0.6053",
+            "to": "0.6316"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "We were saying, then: If for anyone the tumult of the flesh fell silent; silent the images of earth and water and air; silent the heavens; and the soul itself fell silent, and passed beyond itself by no longer thinking of itself; silent all dreams and every imagined revelation, every tongue and every sign, and whatever comes to be only by passing away — for if anyone could listen, all these things say, We did not make ourselves; he made us who abides forever — if, having said this, they too should fall silent, having turned our ear toward him who made them, and he alone should speak, not through them but by himself, so that we might hear his Word, not through any tongue of flesh, nor an angel's voice, nor a clap of thunder, nor in the dark riddle of a likeness, but might hear his very Self, whom in all these things we love, hear him without them, as we two were just now straining toward him, and in a flash of thought touched that eternal Wisdom which abides over all — if this could be made to last, and all other visions of a far lower kind be withdrawn, and this one alone seize and absorb and enfold its beholder in these inward joys, so that life forever might be like that one moment of understanding for which we had just been sighing — would not this be: Enter into your Master's joy? And when will that be? When we shall all rise again, though we shall not all be changed?",
+          "spine": {
+            "from": "0.6316",
+            "to": "0.6579"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "Such things I was saying, and even if not in just this manner and these same words, yet you know, Lord, that on that day, while we were speaking of these things, and this world with all its delights was growing cheap to us as we spoke, my mother said: \"Son, for my own part I no longer find any delight in anything in this life. What I am still to do here, and why I am here, I do not know, now that my hopes in this world are all fulfilled. There was one thing only for which I wished to linger a little while in this life: to see you a Catholic Christian before I died. My God has granted me this beyond my asking, for I see you now his servant, and despising even earthly happiness. What am I doing here?\"",
+          "spine": {
+            "from": "0.6579",
+            "to": "0.6842"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "What I answered her to this, I do not remember. For scarcely five days later, or not much more, she fell ill of a fever. And one day in that sickness she fainted away and was for a while withdrawn from the things around her. We hurried to her; but she was soon brought back to her senses, and, looking at me and at my brother who stood by, she said to us, as though asking: \"Where was I?\" And then, looking steadily at us, stricken with grief, she said: \"Here you will bury your mother.\" I kept silent and held back my tears; but my brother said something, wishing for her — as the happier lot — that she might die not in a strange land but in her own. At this she gave him an anxious look, checking him with her eyes for still tasting such things, and then, looking at me, she said: \"See what he says\"; and soon after, to us both: \"Lay this body anywhere; let no care for it trouble you in the least. This one thing only I ask: that you would remember me at the Lord's altar, wherever you may be.\" And when she had spoken this thought in what words she could, she fell silent, struggling now with her worsening sickness.",
+          "spine": {
+            "from": "0.6842",
+            "to": "0.7105"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "But I, considering your gifts — you, the unseen God — which you pour into the hearts of your faithful ones, and from which wondrous fruits spring up, rejoiced and gave thanks to you, recalling what I had known before: how anxious and careful she had always been about her place of burial, which she had provided and made ready for herself beside the body of her husband. For because they had lived together in great harmony, she had wished also — so little can the human mind grasp the things of God — to add this to her happiness, and to have it remembered among men that, after her wandering across the seas, what was earthly of this united pair had been allowed to rest, united, beneath the same earth. When that empty wish had begun to fade from her heart through the fullness of your goodness, I did not know; and I rejoiced, marveling that she had disclosed herself to me in this way — though indeed in that talk of ours at the window too, when she said, \"What am I doing here any longer?\", she showed no desire to die in her own country. I heard afterward, as well, that while we were at Ostia she spoke one day, with a mother's openness, when I was not there, to some of my friends, about the contempt of this life and the blessing of death; and when they were amazed at such courage, which you had given to a woman, and asked whether she was not afraid to leave her body so far from her own city, she answered: \"Nothing is far from God; nor need I fear that at the end of the world he will not know the place from which to raise me up.\" And so, on the ninth day of her sickness, in the fifty-sixth year of her age and the thirty-third of mine, that devout and holy soul was set free from the body.",
+          "spine": {
+            "from": "0.7105",
+            "to": "0.7368"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "I closed her eyes; and a vast sorrow welled up into my heart and was overflowing into tears, when at the same time, by the violent command of my mind, my eyes drank their own fountain dry again; and it went bitterly with me in that struggle. But when she breathed her last, the boy Adeodatus broke out in a loud wail; then, checked by all of us, he grew quiet. And in the same way a childish thing in me, that was finding its vent in weeping through the young voice of my heart, was checked and silenced. For we did not think it fitting to mark that funeral with tearful laments and groans, since by these people usually mourn the dead as though they were wretched, or wholly dead; but she was neither wretched in her death, nor at all dead. Of this we were sure, on good grounds — the witness of her good life and her unfeigned faith.",
+          "spine": {
+            "from": "0.7368",
+            "to": "0.7632"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "What, then, was it that hurt me so grievously within, but the fresh wound made by the sudden tearing-apart of that sweetest and dearest habit of living together? I rejoiced indeed in her testimony, when, in that last sickness, mingling her endearments with my dutiful care, she called me \"dutiful,\" and said, with great affection, that she had never heard a single harsh or reproachful word come from my mouth against her. And yet, O my God, who made us, what comparison could there be between the honor I paid her and her servitude to me? Being then bereft of so great a comfort in her, my soul was wounded, and that life of ours was torn apart, the life that had been made one out of hers and mine together.",
+          "spine": {
+            "from": "0.7632",
+            "to": "0.7895"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "When the boy had been quieted from weeping, Euodius took up the Psalter and began to sing — our whole house answering him — the Psalm, I will sing to you, O Lord, of mercy and judgment. And when they heard what we were doing, many of the brothers and the religious women gathered; and while those whose office it was made ready for the burial, as the custom is, I, in another part of the house where I might fittingly do so, talked with those who thought it not right to leave me alone, on a subject suited to the time; and with this balm of truth I eased the torment that you knew of, and they did not, as they listened intently, supposing that I was without any feeling of grief at all. But in your ears, where none of them could hear, I blamed the weakness of my feeling, and held back the flood of grief; and it gave way to me a little, but then came surging back like a tide — yet not so as to burst into tears, nor to change my face. Still I knew what I was holding down in my heart. And being very much displeased that these human things had such power over me, things that in the due order and appointment of our condition must of necessity come to pass, I grieved over my grief with a fresh grief, and so was worn down by a double sorrow.",
+          "spine": {
+            "from": "0.7895",
+            "to": "0.8158"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "And look — the body was carried out to burial, and we went and came back without tears. Not even in the prayers we poured out to you, when the Sacrifice of our ransom was offered for her, the body now set beside the grave before being laid in it, as the custom there is — not even during those prayers did I weep. Yet the whole day long I was secretly and heavily sad, and with a troubled mind I begged you, as best I could, to heal my sorrow; and you did not — impressing on my memory, I believe, by this one instance, how strong is the grip of every habit, even upon a soul that now feeds on no deceiving word. It seemed good to me, too, to go and bathe, having heard that the bath got its name — the Greek word for it — because it drives anxiety from the mind. And this also I confess to your mercy, Father of the fatherless: I bathed, and I was the same after as before. For the bitterness of my sorrow could not be sweated out of my heart. Then I slept, and woke again, and found my grief somewhat softened; and as I lay alone on my bed, I remembered those true verses of your Ambrose. For you are:",
+          "spine": {
+            "from": "0.8158",
+            "to": "0.8421"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "Maker of all, the Lord, and Ruler of the height, who, robing the day in light, have poured soft slumbers over the night, that to our limbs the power of toil may be renewed, and weary hearts be lifted that sink and cower, and sorrows be subdued.",
+          "spine": {
+            "from": "0.8421",
+            "to": "0.8684"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "And then, little by little, I came back to my old thoughts of your handmaid, her holy life toward you, her holy tenderness and attentiveness toward us, of which I was so suddenly deprived. And I longed to weep in your sight, for her and for myself, on her behalf and on my own. And I let go the tears I had been holding back, to flow as freely as they would, spreading them out as a bed for my heart, and on them it rested, for it was in your ears, not in those of men, who would have read my weeping with scorn. And now, Lord, in writing I confess it to you. Let him read it who will, and interpret it how he will; and if he finds it a sin that I wept for my mother for one small fraction of an hour — the mother who for the time was dead to my eyes, who for so many years had wept for me that I might live in your eyes — let him not mock me, but rather, if he is a man of large charity, let him weep himself, for my sins, to you, the Father of all the brothers of your Christ.",
+          "spine": {
+            "from": "0.8684",
+            "to": "0.8947"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "But now, with a heart healed of that wound in which it might have seemed blameworthy for an earthly feeling, I pour out to you, our God, on behalf of that handmaid of yours, a far different kind of tears, flowing from a spirit shaken by the thought of the dangers that beset every soul that dies in Adam. For although she had been made alive in Christ even before she was released from the flesh, and had lived to the praise of your name in her faith and her conduct, yet I do not dare to say that from the time you reborn her in baptism, no word ever came from her mouth against your commandment. Your Son, the Truth, has said: Whoever shall say to his brother, You fool, shall be in danger of the fire of hell. And woe even to the praiseworthy life of men, if you should examine it with mercy laid aside! But because you are not strict to seek out our sins, we confidently hope to find some place with you. And whoever counts up his real merits to you, what is he counting up but your own gifts? Oh, that men would know themselves to be men, and that the one who boasts would boast in the Lord!",
+          "spine": {
+            "from": "0.8947",
+            "to": "0.9211"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "And so, O my Praise and my Life, God of my heart, laying aside for a while her good deeds, for which I give you thanks with joy, I now beg you for the sins of my mother. Hear me, I entreat you, through the Medicine of our wounds, who hung upon the tree, and who now, seated at your right hand, makes intercession to you for us. I know that she dealt mercifully, and from her heart forgave her debtors their debts; forgive her too her debts, whatever she may have run up in all those years since the water of salvation. Forgive her, Lord, forgive, I beg you; do not enter into judgment with her. Let your mercy be lifted high above your justice, since your words are true, and you have promised mercy to the merciful — whom you made to be merciful, you who will have mercy on whom you will have mercy, and will have compassion on whom you have had compassion.",
+          "spine": {
+            "from": "0.9211",
+            "to": "0.9474"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "And I believe you have already done what I ask; but accept, O Lord, the free offerings of my mouth. For when the day of her dissolution was now at hand, she took no thought to have her body sumptuously wrapped, or embalmed with spices, nor did she long for a choice monument, or to be buried in her own land. None of this did she charge us with. She desired only that her name be remembered at your altar, which she had served without missing a single day, knowing that from it the holy Sacrifice is dispensed, by which the bond that stood against us is canceled — the Sacrifice through which the enemy was conquered, who, reckoning up our offenses and looking for something to charge us with, found nothing in him in whom we conquer. Who shall give him back the innocent blood? Who shall repay him the price with which he bought us, and so take us away from him? To the Sacrament of this our ransom your handmaid bound her soul by the bond of faith. Let no one tear her away from your protection; let neither the lion nor the dragon come between, by force or by craft. For she will not answer that she owes nothing, lest she be caught out and seized by the cunning accuser; but she will answer that her debts are forgiven her by him to whom no one can repay that price which he, who owed nothing, paid for us.",
+          "spine": {
+            "from": "0.9474",
+            "to": "0.9737"
+          }
+        },
+        {
+          "id": "edition.confessions.lectio-modern.book-09.seg-0038",
+          "order": 38,
+          "kind": "paragraph",
+          "text": "May she rest, then, in peace with her husband — before whom and after whom she had no other — whom she obeyed, with patience bringing forth fruit to you, that she might win him too for you. And inspire, O Lord my God, inspire your servants my brothers, your sons my masters, whom I serve with voice and heart and pen, that as many of them as read these confessions may remember at your altar Monica, your handmaid, together with Patricius, her husband of old, through whose bodies you brought me into this life, though how I do not know. May they remember with devout affection those who were my parents in this passing light, and my brothers under you, our Father, in our Catholic Mother, and my fellow citizens in that eternal Jerusalem for which your pilgrim people sighs from their setting out until their return. So shall my mother's last request of me be more abundantly fulfilled for her, through the prayers of many, by means of my confessions even more than by my prayers.",
+          "spine": {
+            "from": "0.9737",
             "to": "1.0000"
           }
         }
