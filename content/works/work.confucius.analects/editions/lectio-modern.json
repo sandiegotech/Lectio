@@ -19,7 +19,7 @@
       "Arthur Waley (1938, consulted, not quoted)",
       "D. C. Lau (1979, consulted, not quoted)"
     ],
-    "tokensEstimated": 42206,
+    "tokensEstimated": 46207,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -67,6 +67,69 @@
       "older": "At fifty, I knew the decrees of Heaven … At seventy, I could follow what my heart desired, without transgressing what was right.",
       "lectio": "At fifty I understood the will of Heaven … At seventy I could follow my heart's desire without overstepping what is right.",
       "note": "The famous autobiography of moral growth. We keep all seven stages and their order intact, trading Legge's \"decrees\" and \"transgressing\" for plainer \"will of Heaven\" and \"overstepping\" — terser and more quotable, with nothing added or dropped. \"My ear was attuned to the truth\" compresses Legge's \"my ear was an obedient organ for the reception of truth.\""
+    },
+    {
+      "locus": "Book III, ch. 3",
+      "phrase": "ren er bu ren, ru li he",
+      "older": "If a man be without the virtues proper to humanity, what has he to do with the rites of propriety? ... what has he to do with music? (Legge)",
+      "lectio": "A man without humaneness — what has he to do with ritual? A man without humaneness — what has he to do with music?",
+      "note": "The hinge of the whole book: ritual and music are hollow without ren, the inner human quality that animates them. Legge's \"the virtues proper to humanity\" and \"the rites of propriety\" pad a line that should land like a hammer. We keep ren as \"humaneness\" (the house word from Books I-II) and li as plain \"ritual,\" preserving the twin parallel structure so the saying stays as bare and quotable as the original."
+    },
+    {
+      "locus": "Book III, ch. 4",
+      "phrase": "li, yu qi she ye, ning jian; sang, yu qi yi ye, ning qi",
+      "older": "In festive ceremonies, it is better to be sparing than extravagant. In the ceremonies of mourning, it is better that there be deep sorrow than a minute attention to observances. (Legge)",
+      "lectio": "In ceremony, better plain than lavish. In mourning, better real grief than smooth observance.",
+      "note": "Confucius's answer to Lin Fang weighs the inner spirit of a rite against its outward polish. Legge's \"a minute attention to observances\" is exactly the kind of fussy nicety the saying warns against; we compress to \"smooth observance\" so the form of the sentence enacts its own lesson. Nothing is dropped — both halves, ceremony and mourning, keep their either/or shape."
+    },
+    {
+      "locus": "Book III, ch. 13",
+      "phrase": "yu qi mei yu ao, ning mei yu zao",
+      "older": "It is better to pay court to the furnace than to the south-west corner. ... He who offends against Heaven has none to whom he can pray. (Legge)",
+      "lectio": "Better to court the kitchen stove than the honored corner of the room. ... Offend against Heaven, and there is no one left to pray to.",
+      "note": "A worldly proverb: the southwest corner (ao) held the household's senior spirit but no everyday power, while the kitchen stove (zao) was where the practical favors were thought to flow — so flatter whoever can actually help you. The minister Wang-sun Chia is sounding Confucius out about courting the powerful. Legge's bare \"furnace\" and \"south-west corner\" lose the point; we name the kitchen stove and the honored corner so the reader feels the cynical calculation Confucius then refuses: there is a higher account than any patron's, and against Heaven no patron can save you."
+    },
+    {
+      "locus": "Book IV, throughout (esp. ch. 1–6)",
+      "phrase": "ren (仁)",
+      "older": "virtue / perfect virtue / the virtuous (Legge)",
+      "lectio": "humaneness / the humane",
+      "note": "Book IV is the Analects' great chapter on ren, and Legge buries this under the colorless word 'virtue' — 'virtuous manners,' 'rest in virtue,' 'set on virtue' — so that the reader cannot see that one word is being pressed again and again. We render it 'humaneness' throughout, exactly as Books I–II do, so the book's single insistent theme stays visible: the famous opening 'It is the humaneness of a neighborhood that makes it good' is the same ren as 'the cultivated person does not part from humaneness for the space of a single meal.' Nothing is added; the term is simply made consistent and warm rather than scattered and abstract."
+    },
+    {
+      "locus": "Book IV, ch. 15",
+      "phrase": "wu dao yi yi guan zhi … zhong shu er yi yi",
+      "older": "my doctrine is that of an all-pervading unity … to be true to the principles of our nature and the benevolent exercise of them to others",
+      "lectio": "my Way is threaded on a single thread … wholeheartedness toward others, and weighing their hearts as your own",
+      "note": "The pivotal passage where Master Tsang names the one thing that runs through everything Confucius teaches. Legge's 'all-pervading unity' and his abstract gloss obscure the homely metaphor of guan — a single cord strung through coins or beads. We keep the thread image, and render Tsang's two words plainly: zhong (忠), giving others your whole heart, and shu (恕), measuring their feelings by your own — the Confucian golden rule. Terser and more concrete, with nothing of the meaning lost."
+    },
+    {
+      "locus": "Book IV, ch. 8",
+      "phrase": "zhao wen dao, xi si ke yi",
+      "older": "If a man in the morning hear the right way, he may die in the evening without regret.",
+      "lectio": "If in the morning a man hears the Way, in the evening he may die content.",
+      "note": "One of the most quoted lines in the book. We render dao as 'the Way' (its house-style form throughout this edition) rather than Legge's flattened 'the right way,' and keep the stark morning-evening symmetry of the Chinese intact. 'Die content' carries ke yi — 'it is enough,' 'that will do' — the sense that to have grasped the Way is to have had a whole life, more exactly than Legge's 'without regret.' Nothing softened: the line still says that the Way is worth a life."
+    },
+    {
+      "locus": "Book V, ch. 4, 7, 18 (the recurring test)",
+      "phrase": "ren hu? (仁乎)",
+      "older": "Is he perfectly virtuous? / truly virtuous (Legge)",
+      "lectio": "Is he humane? / whether he is humane I do not know",
+      "note": "Book V is largely Confucius weighing his disciples and famous statesmen against one bar — ren, the supreme virtue this edition renders consistently as 'humaneness.' Of Tsze-lu, Ch'iu, Ch'ih, the loyal Tsze-wan, the clean Ch'an Wan he grants real talents — military skill, administration, diplomacy, loyalty, integrity — but to each verdict adds the same withholding refrain: 'whether he is humane I do not know.' Keeping the one word 'humane' throughout (where Legge alternates 'perfectly virtuous' and 'truly virtuous') lets the reader feel the single, exacting standard he holds them all to."
+    },
+    {
+      "locus": "Book V, ch. 25",
+      "phrase": "lao zhe an zhi, peng you xin zhi, shao zhe huai zhi (老者安之，朋友信之，少者懷之)",
+      "older": "in regard to the aged, to give them rest; in regard to friends, to show them sincerity; in regard to the young, to treat them tenderly (Legge)",
+      "lectio": "To give the old their rest, to give friends my trust, and to cherish the young.",
+      "note": "The hinge of the book. Tsze-lu would share his goods, Yen Yuan would shed his vanity — and the Master answers with three terse clauses that ask nothing for himself. The Chinese is famously open: an / xin / huai can read either as what he would do for others (give rest, give trust, cherish — Legge's reading, kept here) or as what others would feel toward him (the old at peace with him, friends trusting him, the young drawn to him). We hold Legge's outward-facing reading but tighten it to three matched beats so the contrast with the disciples' wishes lands clean."
+    },
+    {
+      "locus": "Book V, ch. 6",
+      "phrase": "wu suo qu cai (無所取材)",
+      "older": "He does not exercise his judgment upon matters (Legge)",
+      "lectio": "but he has nowhere to find his timber",
+      "note": "A genuine crux. After joking that only the brave Tsze-lu would follow him out to sea on a raft, the Master adds a line that puns on cai (材, timber / 裁, judgment / 哉, a mere exclamation). Legge takes it as a rebuke — Yu lacks discernment. We keep the raft's own image and read cai as 'timber': the daring is there, but he has no materials to build with, no stuff to make the voyage real. It preserves Confucius's affectionate, deflating wit rather than flattening it into a verdict."
     }
   ],
   "sections": [
@@ -481,6 +544,820 @@
           "text": "The Master said: To sacrifice to a spirit that is not your own is mere flattery. To see what is right and fail to do it is cowardice.",
           "spine": {
             "from": "0.9583",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-03",
+      "order": 3,
+      "label": "Book III",
+      "title": "On Ritual and Music",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Of the head of the Chi family, who had eight rows of dancers performing in his courtyard, the Master said: If he can stomach this, what can he not stomach?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0385"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The three families had the Yung ode sung as the vessels were cleared away at the end of their sacrifice. The Master said: \"Assisting are the princes; the son of Heaven looks deep and grave\" — what business have those words in the hall of three private families?",
+          "spine": {
+            "from": "0.0385",
+            "to": "0.0769"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Master said: A man without humaneness — what has he to do with ritual? A man without humaneness — what has he to do with music?",
+          "spine": {
+            "from": "0.0769",
+            "to": "0.1154"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Lin Fang asked what matters most in ceremony. The Master said: A great question indeed! In ceremony, better plain than lavish. In mourning, better real grief than smooth observance.",
+          "spine": {
+            "from": "0.1154",
+            "to": "0.1538"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The Master said: The rude tribes of the east and north still have their rulers — unlike the states of our own great land, who have lost theirs.",
+          "spine": {
+            "from": "0.1538",
+            "to": "0.1923"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The head of the Chi family was about to sacrifice to Mount T'ai. The Master said to Zan Yu: Can you not stop him? Zan Yu said: I cannot. The Master said: Alas! Will you tell me that Mount T'ai knows less of ritual than Lin Fang?",
+          "spine": {
+            "from": "0.1923",
+            "to": "0.2308"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person has nothing to compete over. If you must find him competing, let it be at archery — yet even there he bows to his rivals as he goes up, bows again as he comes down, and drinks the loser's cup. Even in contest he stays a cultivated person.",
+          "spine": {
+            "from": "0.2308",
+            "to": "0.2692"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Tsze-hsia asked: What does this mean — \"Her dimpled smile so winning, her dark eyes so clear; the plain ground waits for the colors\"? The Master said: The colors go on after the plain ground is laid. Tsze-hsia said: Then ritual comes after? The Master said: It is Shang who draws out my meaning. Now I can begin to talk about the odes with him.",
+          "spine": {
+            "from": "0.2692",
+            "to": "0.3077"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "The Master said: I can describe the rituals of the Hsia, but the state of Chi cannot bear me out. I can describe the rituals of the Yin, but the state of Sung cannot bear me out — their records and their wise men have run too thin. Were they enough, I could prove every word.",
+          "spine": {
+            "from": "0.3077",
+            "to": "0.3462"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: At the great sacrifice, once the first libation has been poured, I have no wish to watch the rest.",
+          "spine": {
+            "from": "0.3462",
+            "to": "0.3846"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Someone asked the meaning of the great sacrifice. The Master said: I do not know. To one who knew, governing the world would be as easy as this — and he pointed to his palm.",
+          "spine": {
+            "from": "0.3846",
+            "to": "0.4231"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "He sacrificed to the dead as if they were present; he sacrificed to the spirits as if the spirits were present. The Master said: If I am not there myself at the sacrifice, it is as though I had not sacrificed at all.",
+          "spine": {
+            "from": "0.4231",
+            "to": "0.4615"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "Wang-sun Chia asked: What does the saying mean — \"Better to court the kitchen stove than the honored corner of the room\"? The Master said: Not so. Offend against Heaven, and there is no one left to pray to.",
+          "spine": {
+            "from": "0.4615",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: Chau could look back on the two dynasties before it. How rich and refined its forms are! I follow Chau.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5385"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "When the Master entered the grand temple, he asked about everything. Someone said: Who claimed that the son of the man of Tsau knows ritual? He enters the grand temple and asks about everything. When the Master heard it, he said: That itself is ritual.",
+          "spine": {
+            "from": "0.5385",
+            "to": "0.5769"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: In archery, piercing the hide is not the point — for men differ in strength. So it was in the old way.",
+          "spine": {
+            "from": "0.5769",
+            "to": "0.6154"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "Tsze-kung wanted to do away with the sheep offered at the start of each new month. The Master said: Ts'ze, you grudge the sheep; I care for the ritual.",
+          "spine": {
+            "from": "0.6154",
+            "to": "0.6538"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "The Master said: Serve your ruler with the full measure of ritual, and people will call it flattery.",
+          "spine": {
+            "from": "0.6538",
+            "to": "0.6923"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "Duke Ting asked how a ruler should use his ministers, and how ministers should serve their ruler. Confucius answered: A ruler should use his ministers according to ritual; ministers should serve their ruler with faithfulness.",
+          "spine": {
+            "from": "0.6923",
+            "to": "0.7308"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "The Master said: The Kwan Tsu ode is joyful without going wanton, and sorrowful without breaking into grief.",
+          "spine": {
+            "from": "0.7308",
+            "to": "0.7692"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "Duke Ai asked Tsai Wo about the altars to the spirits of the land. Tsai Wo said: The Hsia kings planted pine around them, the men of Yin planted cypress, and the men of Chau planted chestnut — chestnut, they said, to make the people tremble. When the Master heard it, he said: What is done, do not preach about; what has run its course, do not push against; what is past, do not blame.",
+          "spine": {
+            "from": "0.7692",
+            "to": "0.8077"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: How small a vessel was Kwan Chung! Someone said: Was Kwan Chung frugal, then? The Master said: Kwan kept three separate establishments, and none of his officers held a second post — how can you call him frugal? Then did Kwan Chung at least know ritual? The Master said: The ruler of a state screens his gate; Kwan too screened his gate. When two rulers meet in friendship, they have a stand for the inverted cups; Kwan too had such a stand. If Kwan Chung knew ritual, then who does not?",
+          "spine": {
+            "from": "0.8077",
+            "to": "0.8462"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The Master said to the grand music-master of Lu: Music can be understood. It begins with all the parts sounding as one; as it unfolds they move in harmony, each clear and distinct, flowing on unbroken — and so to the close.",
+          "spine": {
+            "from": "0.8462",
+            "to": "0.8846"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The border warden at Yi asked to be presented to the Master, saying: When men of worth have passed this way, I have never been refused the meeting. The followers brought him in, and when he came out he said: My friends, why be troubled that your master has lost his post? The world has long been without the way; Heaven is about to make of your master a bell to rouse it.",
+          "spine": {
+            "from": "0.8846",
+            "to": "0.9231"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "The Master said of the Shao music that it was perfectly beautiful and perfectly good. Of the Wu music he said it was perfectly beautiful but not perfectly good.",
+          "spine": {
+            "from": "0.9231",
+            "to": "0.9615"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-03.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "The Master said: High place held without generosity; ritual performed without reverence; mourning gone through without grief — how could I bear to look on such things?",
+          "spine": {
+            "from": "0.9615",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-04",
+      "order": 4,
+      "label": "Book IV",
+      "title": "On Humaneness",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said: It is the humaneness of a neighborhood that makes it good. If a man, in choosing where to settle, does not settle among the humane, how can he be called wise?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0385"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The Master said: Those without humaneness cannot rest for long in hardship, nor for long in ease. The humane are at home in their humaneness; the wise turn it to good use.",
+          "spine": {
+            "from": "0.0385",
+            "to": "0.0769"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Master said: Only the humane man knows how to love others, and how to hate them.",
+          "spine": {
+            "from": "0.0769",
+            "to": "0.1154"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "The Master said: Once the will is set on humaneness, there is no room left for doing wrong.",
+          "spine": {
+            "from": "0.1154",
+            "to": "0.1538"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The Master said: Wealth and rank are what men desire; but if they cannot be had in the right way, do not hold on to them. Poverty and obscurity are what men dislike; but if they cannot be escaped in the right way, do not escape them. If a cultivated person abandons humaneness, how can he live up to the name? The cultivated person does not part from humaneness for the space of a single meal. In moments of haste he holds fast to it; in times of danger he holds fast to it.",
+          "spine": {
+            "from": "0.1538",
+            "to": "0.1923"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The Master said: I have never seen a man who truly loved humaneness, nor one who truly hated what is inhumane. A man who loved humaneness would prize nothing above it. A man who hated what is inhumane would so practice humaneness that nothing inhumane could come near him. Is anyone able, for a single day, to put all his strength into humaneness? I have never seen a man whose strength was not enough. There may be such a case — but I have never seen it.",
+          "spine": {
+            "from": "0.1923",
+            "to": "0.2308"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "The Master said: A man's faults belong to his kind. Look closely at a man's faults, and you will know whether he is humane.",
+          "spine": {
+            "from": "0.2308",
+            "to": "0.2692"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The Master said: If in the morning a man hears the Way, in the evening he may die content.",
+          "spine": {
+            "from": "0.2692",
+            "to": "0.3077"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "The Master said: A man of learning whose heart is set on the Way, yet who is ashamed of poor clothes and poor food, is not worth talking to.",
+          "spine": {
+            "from": "0.3077",
+            "to": "0.3462"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: In his dealings with the world, the cultivated person is neither for anything nor against anything; he sides with what is right.",
+          "spine": {
+            "from": "0.3462",
+            "to": "0.3846"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person thinks of virtue; the small man thinks of comfort. The cultivated person thinks of the law; the small man thinks of favors.",
+          "spine": {
+            "from": "0.3846",
+            "to": "0.4231"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "The Master said: A man who acts always with an eye to his own gain will stir up much resentment.",
+          "spine": {
+            "from": "0.4231",
+            "to": "0.4615"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "The Master said: If a ruler can govern with the courtesy that ritual asks for, what difficulty will he have? If he cannot govern with that courtesy, what has he to do with ritual at all?",
+          "spine": {
+            "from": "0.4615",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "The Master said: Do not be troubled that you have no position; be troubled that you are not fit for one. Do not be troubled that no one knows you; seek to be worth knowing.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5385"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said: Shan, my Way is threaded on a single thread. Master Tsang said: Yes. When the Master had gone out, the other disciples asked: What did he mean? Master Tsang said: The Way of the Master is just this — wholeheartedness toward others, and weighing their hearts as your own. That, and nothing more.",
+          "spine": {
+            "from": "0.5385",
+            "to": "0.5769"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person understands what is right; the small man understands what is profitable.",
+          "spine": {
+            "from": "0.5769",
+            "to": "0.6154"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master said: When you see a worthy person, think of equaling him; when you see an unworthy one, turn inward and examine yourself.",
+          "spine": {
+            "from": "0.6154",
+            "to": "0.6538"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "The Master said: In serving his parents, a son may remonstrate with them, but gently. If he sees they are not inclined to follow him, he is all the more respectful and does not cross them, and though it wears him out, he does not complain.",
+          "spine": {
+            "from": "0.6538",
+            "to": "0.6923"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "The Master said: While his parents are alive, a son should not travel far; and if he does go, he must have a fixed destination.",
+          "spine": {
+            "from": "0.6923",
+            "to": "0.7308"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "The Master said: If for three years a son does not depart from his father's ways, he may be called a devoted son.",
+          "spine": {
+            "from": "0.7308",
+            "to": "0.7692"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "The Master said: A son must always keep his parents' age in mind — on the one hand for joy, on the other for fear.",
+          "spine": {
+            "from": "0.7692",
+            "to": "0.8077"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: The reason the ancients were slow to speak was that they were ashamed to let their deeds fall short of their words.",
+          "spine": {
+            "from": "0.8077",
+            "to": "0.8462"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The Master said: Those who hold themselves in check rarely go wrong.",
+          "spine": {
+            "from": "0.8462",
+            "to": "0.8846"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The Master said: The cultivated person wishes to be slow in speech and quick in action.",
+          "spine": {
+            "from": "0.8846",
+            "to": "0.9231"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "The Master said: Virtue is never left to stand alone. A man who has it will have neighbors.",
+          "spine": {
+            "from": "0.9231",
+            "to": "0.9615"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-04.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "Tsze-yu said: Pester a ruler too often, and you bring disgrace on yourself. Reprove a friend too often, and you drive him away.",
+          "spine": {
+            "from": "0.9615",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.analects.lectio-modern.book-05",
+      "order": 5,
+      "label": "Book V",
+      "title": "Judgments of Disciples",
+      "segments": [
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Master said of Kung-ye Ch'ang that he was fit to marry: though he had once been put in chains, it was through no crime of his own. And he gave him his own daughter in marriage. Of Nan Yung he said that in a well-governed state he would not be passed over for office, and in a badly governed one he would keep clear of punishment and disgrace. And he gave him his elder brother's daughter in marriage.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0370"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The Master said of Tsze-chien: A man of fine character, this one! Yet if Lu had no men of worth, where would he have gotten it?",
+          "spine": {
+            "from": "0.0370",
+            "to": "0.0741"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Tsze-kung asked: And what do you make of me? The Master said: You are a vessel. What vessel? A jeweled vessel for the sacrifice.",
+          "spine": {
+            "from": "0.0741",
+            "to": "0.1111"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Someone said: Yung is humane, but he has no gift for talk. The Master said: What is the good of a gift for talk? Meet people with a quick tongue and you mostly earn their dislike. Whether he is humane I do not know — but what does he want with a quick tongue?",
+          "spine": {
+            "from": "0.1111",
+            "to": "0.1481"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The Master was urging Ch'i-tiao K'ai to take office. He answered: I cannot yet feel sure of myself in this. The Master was pleased.",
+          "spine": {
+            "from": "0.1481",
+            "to": "0.1852"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The Master said: My way makes no headway. I will get on a raft and put out to sea. The one who would come with me — that would be Yu, I think. Tsze-lu, hearing this, was delighted. The Master said: Yu loves daring more than I do, but he has nowhere to find his timber.",
+          "spine": {
+            "from": "0.1852",
+            "to": "0.2222"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Mang Wu asked whether Tsze-lu was humane. The Master said: I do not know. He asked again. The Master said: In a state of a thousand chariots, Yu could be put in charge of the military levies — but whether he is humane I do not know. And Ch'iu? The Master said: In a town of a thousand households, or a clan of a hundred chariots, Ch'iu could be made its governor — but whether he is humane I do not know. And Ch'ih? The Master said: Standing in his sash at court, Ch'ih could be set to deal with the guests and envoys — but whether he is humane I do not know.",
+          "spine": {
+            "from": "0.2222",
+            "to": "0.2593"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "The Master said to Tsze-kung: Which is the better, you or Hui? He answered: How could I dare compare myself with Hui? Hui hears one thing and understands ten; I hear one thing and understand two. The Master said: You are not his equal. I grant you — you and I are both not his equal.",
+          "spine": {
+            "from": "0.2593",
+            "to": "0.2963"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Tsai Yu was asleep in the daytime. The Master said: Rotten wood cannot be carved, a wall of dung cannot be plastered. With Yu — what is the use of reproaching him? The Master said: There was a time when I heard a man's words and trusted his conduct; now I hear his words and watch his conduct. It is Yu who has made me change.",
+          "spine": {
+            "from": "0.2963",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "The Master said: I have never seen a man truly unbending. Someone said: There is Shan Ch'ang. The Master said: Ch'ang is ruled by his cravings — how can he be unbending?",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.3704"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Tsze-kung said: What I do not want others to do to me, I also want not to do to others. The Master said: Ts'ze, that is beyond you yet.",
+          "spine": {
+            "from": "0.3704",
+            "to": "0.4074"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "Tsze-kung said: One can hear the Master on questions of culture and conduct. One cannot hear him on the nature of man or the way of Heaven.",
+          "spine": {
+            "from": "0.4074",
+            "to": "0.4444"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "When Tsze-lu had heard something and had not yet been able to act on it, his one fear was that he might hear something more.",
+          "spine": {
+            "from": "0.4444",
+            "to": "0.4815"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "Tsze-kung asked: Why was Kung-wan given the title \"Cultured\"? The Master said: He was quick and a lover of learning, and not ashamed to ask of those beneath him. That is why he was called \"Cultured.\"",
+          "spine": {
+            "from": "0.4815",
+            "to": "0.5185"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "The Master said of Tsze-ch'an that he had four marks of the cultivated man: in his own bearing he was humble; in serving those above him, respectful; in providing for the people, kind; in directing the people, just.",
+          "spine": {
+            "from": "0.5185",
+            "to": "0.5556"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "The Master said: Yen P'ing knew how to keep a friendship. However long he had known a man, he showed him the same respect as at first.",
+          "spine": {
+            "from": "0.5556",
+            "to": "0.5926"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The Master said: Tsang Wan housed his great tortoise in a hall with mountains carved on the pillar-tops and waterweed painted on the beams. What sort of wisdom was that?",
+          "spine": {
+            "from": "0.5926",
+            "to": "0.6296"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "Tsze-chang asked: The minister Tsze-wan took office three times and showed no joy, and three times was dismissed and showed no resentment; each time he handed the old government over fully to his successor. What do you make of him? The Master said: He was loyal. Was he humane? The Master said: I do not know — how does that make him humane? Tsze-chang went on: When Ts'ui killed the prince of Ch'i, Ch'an Wan, who owned forty horses, abandoned them and left the country. Coming to another state, he said, \"They are no better here than our own officer Ts'ui,\" and left. He came to a second state, said the same, and left again. What do you make of him? The Master said: He was clean. Was he humane? The Master said: I do not know — how does that make him humane?",
+          "spine": {
+            "from": "0.6296",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "Chi Wan thought three times before he acted. The Master, hearing of it, said: Twice is enough.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7037"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "The Master said: When the country was well governed, Ning Wu played the wise man; when it fell into disorder, he played the fool. His wisdom others may match — his folly they cannot.",
+          "spine": {
+            "from": "0.7037",
+            "to": "0.7407"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "When the Master was in Ch'an he said: Let me go home! Let me go home! The young ones of my school are headstrong and rash; they have made a fine, finished start, but do not know how to cut and shape themselves.",
+          "spine": {
+            "from": "0.7407",
+            "to": "0.7778"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "The Master said: Po-i and Shu-ch'i held no man's old wrongs against him, and so they were little resented.",
+          "spine": {
+            "from": "0.7778",
+            "to": "0.8148"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "The Master said: Who calls Wei-shang Kao straight? A man begged vinegar of him, and he begged it from a neighbor and gave it as his own.",
+          "spine": {
+            "from": "0.8148",
+            "to": "0.8519"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "The Master said: Smooth words, a fawning look, and overdone respect — Tso Ch'iu-ming was ashamed of them, and so am I. To hide a grudge against a man and act the friend to him — Tso Ch'iu-ming was ashamed of that, and so am I.",
+          "spine": {
+            "from": "0.8519",
+            "to": "0.8889"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "Yen Yuan and Chi Lu were at his side. The Master said: Why not each of you tell me what you long for? Tsze-lu said: I would have my carriage and horses and fine fur coats to share with my friends, and not mind if they wore them out. Yen Yuan said: I would not boast of my goodness or make a show of my labors. Tsze-lu said: And now we would hear the Master's longing. The Master said: To give the old their rest, to give friends my trust, and to cherish the young.",
+          "spine": {
+            "from": "0.8889",
+            "to": "0.9259"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "The Master said: It is hopeless! I have yet to meet the man who can see his own faults and arraign himself within.",
+          "spine": {
+            "from": "0.9259",
+            "to": "0.9630"
+          }
+        },
+        {
+          "id": "edition.analects.lectio-modern.book-05.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "The Master said: In a hamlet of ten households there is sure to be someone as loyal and true as I am — but none so fond of learning.",
+          "spine": {
+            "from": "0.9630",
             "to": "1.0000"
           }
         }
