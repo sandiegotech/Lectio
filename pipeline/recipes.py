@@ -428,7 +428,7 @@ def republic():
                "and the divided line."),
         collections=["collection.great-books"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "republic", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -523,7 +523,7 @@ def the_prince():
                "political realism."),
         collections=["collection.great-books", "collection.harvard-classics"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "the-prince", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -566,7 +566,7 @@ def analects():
                "(human-heartedness); the golden rule, stated as a negative."),
         collections=["collection.eastern-canon"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "analects", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------
@@ -607,7 +607,7 @@ def confessions():
                "that finds no rest until it rests in God."),
         collections=["collection.great-books", "collection.harvard-classics"],
     )
-    return work, [edition], None
+    return work, [_modern_edition(work_id, "confessions", [edition]), edition], None
 
 
 # ---------------------------------------------------------------------------

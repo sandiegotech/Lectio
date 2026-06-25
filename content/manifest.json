@@ -5,22 +5,22 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "d1f4f10acf26ad45"
+      "checksum": "3413a292bbb81b09"
     },
     {
       "id": "collection.great-books",
       "title": "Great Books of the Western World",
-      "checksum": "2e14775cf353a97c"
+      "checksum": "2d3c7eccfc233989"
     },
     {
       "id": "collection.harvard-classics",
       "title": "The Harvard Classics",
-      "checksum": "70d69e75abb0b03c"
+      "checksum": "8a3bee904184b400"
     },
     {
       "id": "collection.beyond",
       "title": "Beyond the Collections",
-      "checksum": "3a7c3ea26d431521"
+      "checksum": "0c0afd2fcdaf5401"
     },
     {
       "id": "collection.eastern-canon",
@@ -30,22 +30,22 @@
     {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "4c14f99f0a64e8e2"
+      "checksum": "6a4abedbb8289252"
     },
     {
       "id": "genre.philosophy",
       "title": "Philosophy",
-      "checksum": "f2cb89ca998ba5fd"
+      "checksum": "4452c23665f8fff9"
     },
     {
       "id": "genre.history-biography",
       "title": "History & Biography",
-      "checksum": "ff6d01f6cbf257bb"
+      "checksum": "12f77b265d1afb2b"
     },
     {
       "id": "genre.science-mathematics",
       "title": "Science & Mathematics",
-      "checksum": "92cdab690566a24c"
+      "checksum": "92fa63b5b5b3d72c"
     },
     {
       "id": "genre.politics-economics",
@@ -55,17 +55,17 @@
     {
       "id": "genre.fiction",
       "title": "Fiction",
-      "checksum": "9d882260b37c9f78"
+      "checksum": "a5ad5d0517473784"
     },
     {
       "id": "genre.poetry-epic",
       "title": "Poetry & Epic",
-      "checksum": "8c079835e45f174a"
+      "checksum": "c59c884005e1a34b"
     },
     {
       "id": "genre.drama",
       "title": "Drama",
-      "checksum": "ef6264bc03a30f27"
+      "checksum": "b101f0b54e5bd813"
     },
     {
       "id": "genre.essays-letters",
@@ -92,7 +92,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "58d730c020702e70"
+          "checksum": "56eae9cc78985beb"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -101,7 +101,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian standard — clear, dignified, widely read.",
-          "checksum": "6125a288d08afe57"
+          "checksum": "262d80f92e6a7d85"
         },
         {
           "id": "edition.meditations.casaubon-1634",
@@ -110,7 +110,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The first English Meditations — ornate, archaic, devotional.",
-          "checksum": "10493e7eb0932b06"
+          "checksum": "106aea1bbe8ac7da"
         },
         {
           "id": "edition.meditations.greek-original",
@@ -119,7 +119,7 @@
           "form": "prose",
           "kind": "original",
           "character": "The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
-          "checksum": "21feb93d1d3026b6"
+          "checksum": "c377834fff529c64"
         }
       ],
       "hasAlignment": false,
@@ -143,7 +143,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "64f53920d72bc53a"
+          "checksum": "17fd8f544c6f90b7"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -152,7 +152,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — 18th-century grandeur.",
-          "checksum": "617c441ba5fadd76"
+          "checksum": "7c1c2824c47c4100"
         },
         {
           "id": "edition.iliad.butler-1898",
@@ -161,7 +161,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "0852abf7713cab10"
+          "checksum": "4d4d7fc7b12ec71a"
         }
       ],
       "hasAlignment": false,
@@ -186,7 +186,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "835cea4278aabc80"
+          "checksum": "d8ad4976f85b8e0e"
         },
         {
           "id": "edition.odyssey.butler-1900",
@@ -195,7 +195,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "ca0b3e9a87372f3a"
+          "checksum": "e363efc7293d94d6"
         }
       ],
       "hasAlignment": false,
@@ -220,7 +220,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "34e254d755005903"
+          "checksum": "f5383dd3c0c2dac0"
         },
         {
           "id": "edition.aeneid.dryden-1697",
@@ -229,7 +229,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — the great English Virgil.",
-          "checksum": "6e76745908790b3b"
+          "checksum": "d134329b1a1bfaa0"
         }
       ],
       "hasAlignment": false,
@@ -246,6 +246,15 @@
       ],
       "editions": [
         {
+          "id": "edition.republic.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "fb0bfc15fd78412a"
+        },
+        {
           "id": "edition.republic.jowett-1871",
           "translator": "Benjamin Jowett",
           "publishedYear": 1871,
@@ -256,7 +265,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "8946f6ac6152c8ed"
+      "checksum": "6cac40c3a6ceab08"
     },
     {
       "id": "work.aristotle.nicomachean-ethics",
@@ -275,7 +284,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "caca2c607aa7e98d"
+          "checksum": "efe4ab464a23f1d2"
         },
         {
           "id": "edition.nicomachean-ethics.chase-1911",
@@ -284,7 +293,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The compact Everyman Ethics — Chase's plain, readable Victorian prose.",
-          "checksum": "25e09fc29a7b4abd"
+          "checksum": "65da0e179221db21"
         }
       ],
       "hasAlignment": false,
@@ -302,6 +311,15 @@
       ],
       "editions": [
         {
+          "id": "edition.the-prince.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "646fc503f79e51fe"
+        },
+        {
           "id": "edition.the-prince.marriott-1908",
           "translator": "W. K. Marriott",
           "publishedYear": 1908,
@@ -312,7 +330,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "21f100c1c165ea68"
+      "checksum": "47184991ecefac98"
     },
     {
       "id": "work.confucius.analects",
@@ -325,6 +343,15 @@
       ],
       "editions": [
         {
+          "id": "edition.analects.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "a470cbd5e44c8c3e"
+        },
+        {
           "id": "edition.analects.legge-1893",
           "translator": "James Legge",
           "publishedYear": 1893,
@@ -335,7 +362,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "2c07544eb9324806"
+      "checksum": "b1850e3d14d073e5"
     },
     {
       "id": "work.augustine.confessions",
@@ -349,6 +376,15 @@
       ],
       "editions": [
         {
+          "id": "edition.confessions.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "ea750c60cb1c149c"
+        },
+        {
           "id": "edition.confessions.pusey-1838",
           "translator": "E. B. Pusey",
           "publishedYear": 1838,
@@ -359,7 +395,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "c14fa4ab06368209"
+      "checksum": "39719d83b6252e21"
     },
     {
       "id": "work.shakespeare.hamlet",
@@ -378,7 +414,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "dec976b39c94d9c5"
+          "checksum": "8edb61a214efb67a"
         },
         {
           "id": "edition.hamlet.original",
@@ -387,7 +423,7 @@
           "form": "verse",
           "kind": "original",
           "character": "Shakespeare's text — the tragedy entire, in five acts.",
-          "checksum": "bc536bccaf5d7574"
+          "checksum": "2e17b581c62c4c04"
         }
       ],
       "hasAlignment": false,
@@ -433,7 +469,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "a4289a91a45552fd"
+          "checksum": "b16627878e54d764"
         },
         {
           "id": "edition.divine-comedy.longfellow-1867",
@@ -442,7 +478,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Longfellow's landmark American Dante — faithful blank verse, line for line.",
-          "checksum": "d1ee48437c9ec98b"
+          "checksum": "12531bf47c87c7a1"
         }
       ],
       "hasAlignment": false,

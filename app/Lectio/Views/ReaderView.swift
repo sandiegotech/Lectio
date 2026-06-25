@@ -36,9 +36,8 @@ struct ReaderView: View {
     @State private var selRange: ClosedRange<Int>?
     @State private var selPopup: SelPopup?
     @State private var compareEditionId: String?
-    // Compare-sync: tap a passage in one column and the proportionally-matching passage
-    // lights up (and scrolls into view) in the other. Best-effort by position within the
-    // shared book until the alignment spine exists.
+    // Compare-sync: tap a passage in one column and its matching passage lights up (and
+    // scrolls into view) in the other, via the alignment spine (ReaderView.counterpart).
     @State private var syncMainSegId: String?
     @State private var syncCmpSegId: String?
     @State private var compareScrollTarget: String?
@@ -284,10 +283,18 @@ struct ReaderView: View {
         if let seg = firstSegment(containing: term) { jumpToSegment(seg) }
     }
 
-    // MARK: compare-sync — proportional passage matching across editions
+    // MARK: compare-sync — passage matching across editions via the alignment spine
 
-    // The passage in `to` that best lines up, by position within the shared book, with
-    // `segId` in `from`. Best-effort until the alignment spine (book.line) is built.
+    // The fractional-span center of a segment on the shared spine, if tagged.
+    private func spineCenter(_ seg: Segment) -> Double? {
+        guard let s = seg.spine, let a = Double(s.from), let b = Double(s.to) else { return nil }
+        return (a + b) / 2
+    }
+
+    // The passage in `to` that lines up with `segId` in `from`. Uses the alignment spine
+    // (each segment's fractional span within the section): the counterpart is the segment
+    // whose span contains this one's center — exact where editions share structure,
+    // content-anchored where they don't. Falls back to positional if a spine is missing.
     private func counterpart(of segId: String, from: Edition?, to: Edition?) -> String? {
         guard let from, let to else { return nil }
         guard let bi = from.sections.firstIndex(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }),
@@ -295,6 +302,17 @@ struct ReaderView: View {
         let src = from.sections[bi].segments
         let dst = to.sections[bi].segments
         guard let i = src.firstIndex(where: { $0.id == segId }), !dst.isEmpty else { return nil }
+        if let center = spineCenter(src[i]) {
+            // a dst segment whose span contains the center …
+            if let hit = dst.first(where: { seg in
+                guard let s = seg.spine, let a = Double(s.from), let b = Double(s.to) else { return false }
+                return a <= center && center < b
+            }) { return hit.id }
+            // … otherwise the nearest by span center
+            if let near = dst.min(by: {
+                abs((spineCenter($0) ?? 0.5) - center) < abs((spineCenter($1) ?? 0.5) - center)
+            }) { return near.id }
+        }
         let j = src.count <= 1 ? 0 : Int((Double(i) * Double(dst.count - 1) / Double(src.count - 1)).rounded())
         return dst[min(max(j, 0), dst.count - 1)].id
     }
@@ -485,6 +503,10 @@ struct ReaderView: View {
                                     selRange = range
                                     selPopup = SelPopup(segmentId: segment.id, range: range,
                                                         text: text, point: point)
+                                },
+                                onTap: {
+                                    if wordPopup != nil || selPopup != nil { dismissPopups() }
+                                    else { syncFromMain(segment.id) }
                                 }
                             )
                             .background(
@@ -627,20 +649,25 @@ struct ReaderView: View {
     }
 
     private func panelTabBar(_ p: SidePanel) -> some View {
+        // On iPad the top header already switches panels, so the drawer just needs a
+        // title + close (one nav bar). On iPhone the header is hidden behind the bottom
+        // sheet, so we keep the switcher tabs here.
         let tabs = SidePanel.allCases.filter { $0 != .compare || (hSize == .regular && editions.count > 1) }
         return HStack(spacing: 6) {
             Text(p.title).font(.subheadline.weight(.semibold)).foregroundColor(pal.ink)
             Spacer(minLength: 0)
-            ForEach(tabs) { tab in
-                Button { withAnimation(.easeInOut(duration: 0.15)) { panel = tab } } label: {
-                    Image(systemName: tab.icon)
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundColor(p == tab ? pal.paper : pal.inkSoft)
-                        .frame(width: 32, height: 28)
-                        .background(RoundedRectangle(cornerRadius: 7)
-                            .fill(p == tab ? pal.accent : pal.rule.opacity(0.35)))
+            if hSize == .compact {
+                ForEach(tabs) { tab in
+                    Button { withAnimation(.easeInOut(duration: 0.15)) { panel = tab } } label: {
+                        Image(systemName: tab.icon)
+                            .font(.system(size: 15, weight: .medium))
+                            .foregroundColor(p == tab ? pal.paper : pal.inkSoft)
+                            .frame(width: 32, height: 28)
+                            .background(RoundedRectangle(cornerRadius: 7)
+                                .fill(p == tab ? pal.accent : pal.rule.opacity(0.35)))
+                    }
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
             }
             Button { withAnimation(.easeInOut(duration: 0.2)) { panel = nil } } label: {
                 Image(systemName: "xmark").font(.system(size: 13, weight: .semibold))
@@ -726,11 +753,13 @@ struct ReaderView: View {
                     let isBookmarked = section.id == bookmarkSection?.id
                     DisclosureGroup(isExpanded: expandedBinding(section.id)) {
                         VStack(alignment: .leading, spacing: 12) {
-                            Text(library.chapterOverview(workId: work.id, order: section.order)
-                                 ?? "Overview coming soon.")
-                                .font(.callout)
-                                .foregroundColor(pal.inkSoft)
-                                .fixedSize(horizontal: false, vertical: true)
+                            if let ov = library.chapterOverview(workId: work.id, order: section.order),
+                               !ov.isEmpty {
+                                Text(ov)
+                                    .font(.callout)
+                                    .foregroundColor(pal.inkSoft)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
                             Button { jumpTo(section) } label: {
                                 HStack(spacing: 6) {
                                     Image(systemName: "book")

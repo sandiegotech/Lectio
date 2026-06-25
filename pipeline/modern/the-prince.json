@@ -1,0 +1,22 @@
+{
+  "workId": "work.machiavelli.the-prince",
+  "method": "Lectio Edition (SDIT): clear modern English of Machiavelli's The Prince, synthesized from the public-domain translation tradition (Marriott 1908; Thomson 1882) and checked against the Italian; modern translations consulted, not quoted. In progress, chapter by chapter.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-25",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.the-prince.marriott-1908"
+  ],
+  "sourcesCited": [
+    "Italian, the original text of Il Principe",
+    "W. K. Marriott, The Prince (1908, public domain)",
+    "N. H. Thomson (1882, public domain)",
+    "George Bull (1961, consulted, not quoted)",
+    "Harvey Mansfield (1985, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders Machiavelli's The Prince in plain modern English that keeps its cold clarity and bite — how power is won, held, and lost; fortune and virtù; cruelty and mercy weighed as instruments — without the antique stiffness.",
+  "introduction": "The Prince is a short, shocking handbook on power, written by an out-of-work diplomat hoping to win back a place in Medici Florence. It sets aside how rulers ought to behave for how they actually must, if they mean to keep their state. Bracing, unsentimental, and still argued over five centuries later.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

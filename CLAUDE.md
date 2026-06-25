@@ -23,6 +23,12 @@ Build the content bundle (stdlib only, no deps; caches sources to `pipeline/.cac
 python3 -m pipeline.build
 ```
 
+Content status board — what's ingested, which works have covers, which have a complete
+Lectio (Vernacular) edition + the model/date that produced it (`CATALOG.md`, generated):
+```
+python3 tools/catalog.py
+```
+
 Generate + build the app (XcodeGen at /opt/homebrew/bin/xcodegen; the `.xcodeproj` is generated, not committed):
 ```
 cd app

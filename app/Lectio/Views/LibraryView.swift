@@ -400,10 +400,9 @@ struct LibraryView: View {
     }
 
     private func previewCoverPath(for planned: BookCollection.Planned, in collection: BookCollection) -> String? {
-        if collection.id == "collection.harvard-classics" {
-            return planned.originalCover ?? planned.cover
-        }
-        return planned.cover
+        // Always the Lectio (western) cover, for a consistent theme across every shelf —
+        // including Harvard Classics, where we used to swap in the red Harvard-edition cover.
+        planned.cover
     }
 
     // MARK: timeline — every book, earliest to latest, grouped by era

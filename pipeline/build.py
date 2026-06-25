@@ -10,6 +10,7 @@ import os
 import sys
 
 from . import idledger, publish
+from .align import assign_spines
 from .collections import build_collections
 from .recipes import RECIPES
 
@@ -26,8 +27,13 @@ def main() -> int:
         editions.extend(eds)
         if spine:
             spines[work.id] = spine
+        # Populate per-segment alignment spine across this work's editions (cross-edition
+        # scroll-sync & compare highlighting). Exact where segment counts match; content-
+        # anchored where they don't (e.g. Lectio prose vs a finer-grained translation).
+        aligned = assign_spines(eds)
         print(f"  built {work.id}: {len(eds)} edition(s), "
-              f"{sum(len(s.segments) for e in eds for s in e.sections)} segments")
+              f"{sum(len(s.segments) for e in eds for s in e.sections)} segments"
+              + (f", {aligned} spine-aligned" if aligned else ""))
 
     collections = build_collections(works)
 

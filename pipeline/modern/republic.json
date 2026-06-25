@@ -1,0 +1,21 @@
+{
+  "workId": "work.plato.republic",
+  "method": "Lectio Edition (SDIT): clear modern English of Plato's Republic, synthesized from the public-domain translation tradition (Jowett 1871) and checked against the Greek; modern translations consulted, not quoted. In progress, book by book.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-25",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.republic.jowett-1871"
+  ],
+  "sourcesCited": [
+    "Greek, the original text of the Politeia",
+    "Benjamin Jowett, The Republic of Plato (1871, public domain)",
+    "Paul Shorey, Loeb Classical Library (consulted, not quoted)",
+    "G. M. A. Grube / C. D. C. Reeve (1992, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders Plato's Republic in plain modern English that keeps the drive of the dialogue and the force of its argument — justice, the just city, the Cave, the philosopher-king — while dropping the Victorian formality.",
+  "introduction": "The Republic begins with a simple question — what is justice, and is it worth having? — and builds, step by step, an entire ideal city to answer it. Along the way come its most famous images: the Cave, the divided line, the philosopher-king. It is a conversation, so read for the back-and-forth, not just the conclusions.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

@@ -1,0 +1,22 @@
+{
+  "workId": "work.confucius.analects",
+  "method": "Lectio Edition (SDIT): clear modern English of the Analects, synthesized from the public-domain translation tradition (Legge 1893; Soothill 1910) and checked against the Classical Chinese; modern translations consulted, not quoted. In progress, book by book.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-25",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.analects.legge-1893"
+  ],
+  "sourcesCited": [
+    "Classical Chinese, the original text of the Lunyu (論語)",
+    "James Legge, The Chinese Classics, Vol. I (1893, public domain)",
+    "W. E. Soothill, The Analects of Confucius (1910, public domain)",
+    "Arthur Waley (1938, consulted, not quoted)",
+    "D. C. Lau (1979, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders the Analects in plain modern English that keeps the terse, aphoristic weight of Confucius's recorded conversations — learning and ritual, ren (human-heartedness), and becoming fully human — without the Victorian scaffolding.",
+  "introduction": "The Analects are not a treatise but a scrapbook of sayings and exchanges, set down by students after Confucius's death. They circle a few themes — learning, ritual, family, good government, and the cultivation of a humane character — in brief, often cryptic notes. Read slowly; each line is meant to be turned over.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

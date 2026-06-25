@@ -1,0 +1,22 @@
+{
+  "workId": "work.augustine.confessions",
+  "method": "Lectio Edition (SDIT): clear modern English of Augustine's Confessions, synthesized from the public-domain translation tradition (Pusey 1838; Watts 1631) and checked against the Latin; modern critical translations consulted, not quoted. In progress, book by book.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-25",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.confessions.pusey-1838"
+  ],
+  "sourcesCited": [
+    "Latin, the original text of the Confessiones",
+    "E. B. Pusey, The Confessions of S. Augustine (1838, public domain)",
+    "William Watts (1631, public domain)",
+    "F. J. Sheed (1942, consulted, not quoted)",
+    "Henry Chadwick (1991, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders Augustine's Confessions in plain modern English that keeps its prayerful urgency and restless intelligence — sin and conversion, memory and time, a heart that finds no rest until it rests in God — while shedding the archaic diction.",
+  "introduction": "The Confessions is the first true autobiography of an inner life: Augustine talking directly to God, and letting us overhear. It moves from a misspent youth through a long intellectual and moral struggle to conversion, then turns to memory, time, and the meaning of Genesis. Read it as one long prayer thinking out loud.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

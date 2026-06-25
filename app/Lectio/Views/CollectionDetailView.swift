@@ -218,10 +218,9 @@ struct CollectionDetailView: View {
     }
 
     private func previewCoverPath(for planned: BookCollection.Planned) -> String? {
-        if collection.id == "collection.harvard-classics" {
-            return planned.originalCover ?? planned.cover
-        }
-        return planned.cover
+        // Always the Lectio (western) cover, for a consistent theme across every shelf —
+        // including Harvard Classics, where we used to swap in the red Harvard-edition cover.
+        planned.cover
     }
 
     private func orderedParts(_ shells: [BookCollection.Planned]) -> [String] {
