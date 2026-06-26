@@ -33,6 +33,7 @@ HEAD = {
     "edition.confessions.pusey-1838":    lambda i, l: f"BOOK {ROMAN[i]}",            # ^BOOK [IVX]+$
     "edition.hamlet.original":           lambda i, l: f"ACT {ROMAN[i]}",             # ^ACT [IVX]+$
     "edition.divine-comedy.longfellow-1867": lambda i, l: l,                          # heading IS the label
+    "edition.bhagavad-gita.arnold-1885":     lambda i, l: f"CHAPTER {ROMAN[i]}",       # ^[ \t]*CHAPTER [IVXL]+$
 }
 
 CACHE = os.path.join(os.path.dirname(__file__), "..", "..", "pipeline", ".cache")

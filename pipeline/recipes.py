@@ -711,6 +711,49 @@ def divine_comedy():
     return work, [_modern_edition(work_id, "divine-comedy", [edition]), edition], None
 
 
+# ---------------------------------------------------------------------------
+# The Bhagavad Gita — Edwin Arnold's "The Song Celestial" (verse, 1885) + Lectio
+# ---------------------------------------------------------------------------
+def bhagavad_gita():
+    work_id = "work.vyasa.bhagavad-gita"
+    edition_id = "edition.bhagavad-gita.arnold-1885"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2388))
+    body = re.split(r"\n{3,}\[FN#?1\]", body)[0]   # drop the trailing footnote definitions
+    body = re.sub(r"\[FN#?\d+\]", "", body)         # strip inline footnote markers
+    raw = gutenberg.split_sections(body, heading_re=r"^[ \t]*CHAPTER [IVXL]+[ \t]*$")
+    if len(raw) != 18:
+        raise ValueError(f"Bhagavad Gita: expected 18 chapters, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"chapter-{i:02d}", i, f"Chapter {_ROMAN[i-1]}", text, form="verse")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="verse",
+        translator="Edwin Arnold", translatorYears="1832–1904", publishedYear=1885,
+        character="The Song Celestial — Arnold's stately Victorian blank verse.",
+        overview=("Sir Edwin Arnold's 'The Song Celestial' (1885) was the translation that "
+                  "carried the Gita into the English-speaking world — Emerson, Thoreau, and later "
+                  "Gandhi read it. It renders Krishna's teaching in dignified blank verse: faithful "
+                  "to the arc of the argument if freer and more ornate than the Sanskrit. Read it "
+                  "for its music; for the plain sense, the Lectio Edition runs beside it."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Arnold's verse translation, 1885.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2388",
+                              sourceId="2388", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Bhagavad Gita", author="", originalLang="sa",
+        composed="200 BCE – 200 CE", type="religion", referenceScheme="chapter.verse",
+        defaultEditionId=edition.id, tradition="East",
+        blurb=("On the eve of battle a warrior refuses to fight, and a god answers him. Krishna's "
+               "teaching to Arjuna on duty, devotion, and acting without grasping at the fruit of "
+               "action — the heart of Hindu thought, set inside the great epic Mahabharata."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "bhagavad-gita", [edition]), edition], None
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy]
+           divine_comedy, bhagavad_gita]

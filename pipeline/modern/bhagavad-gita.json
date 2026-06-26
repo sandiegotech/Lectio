@@ -1,0 +1,21 @@
+{
+  "workId": "work.vyasa.bhagavad-gita",
+  "method": "Lectio Edition (SDIT): clear modern English of the Bhagavad Gita, synthesized from the public-domain translation tradition (Edwin Arnold 1885; Kashinath Trimbak Telang 1882) and checked against the Sanskrit; modern translations consulted, not quoted. In progress, chapter by chapter.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-26",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.bhagavad-gita.arnold-1885"
+  ],
+  "sourcesCited": [
+    "Sanskrit, the original text of the Bhagavadgītā",
+    "Sir Edwin Arnold, The Song Celestial (1885, public domain)",
+    "Kashinath Trimbak Telang, The Bhagavadgītā (1882, public domain)",
+    "Franklin Edgerton (1944, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders the Bhagavad Gita in plain modern English that keeps the urgency of its battlefield setting and the depth of its teaching — duty and devotion, the deathless self, and acting without grasping at the fruit of action — while shedding the Victorian ornament of the older verse.",
+  "introduction": "The Gita is a single conversation set at a terrible moment: the warrior Arjuna, about to fight a war against his own kin, lays down his bow and refuses. His charioteer — the god Krishna in disguise — answers him, and the answer becomes the most beloved scripture of India: how to act in the world without being bound by it. Read it as one long dialogue between despair and the divine.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

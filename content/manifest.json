@@ -5,7 +5,7 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "3413a292bbb81b09"
+      "checksum": "be0b2bf151080f10"
     },
     {
       "id": "collection.great-books",
@@ -25,12 +25,12 @@
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
-      "checksum": "286a9415231129d4"
+      "checksum": "aa034210c865fd0e"
     },
     {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "6a4abedbb8289252"
+      "checksum": "89dcfdfeceb18f0e"
     },
     {
       "id": "genre.philosophy",
@@ -483,6 +483,38 @@
       ],
       "hasAlignment": false,
       "checksum": "4a9e28ea83ba5a53"
+    },
+    {
+      "id": "work.vyasa.bhagavad-gita",
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bhagavad-gita.arnold-1885",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "dd0529627adefaca"
+        },
+        {
+          "id": "edition.bhagavad-gita.arnold-1885",
+          "translator": "Edwin Arnold",
+          "publishedYear": 1885,
+          "form": "verse",
+          "kind": "translation",
+          "character": "The Song Celestial — Arnold's stately Victorian blank verse.",
+          "checksum": "3f93f3841128227e"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "a5e7042e69fc0f75"
     }
   ],
   "dictionaries": []

@@ -1,0 +1,19 @@
+{
+  "id": "work.vyasa.bhagavad-gita",
+  "title": "The Bhagavad Gita",
+  "author": "",
+  "originalLang": "sa",
+  "composed": "200 BCE – 200 CE",
+  "type": "religion",
+  "referenceScheme": "chapter.verse",
+  "defaultEditionId": "edition.bhagavad-gita.arnold-1885",
+  "blurb": "On the eve of battle a warrior refuses to fight, and a god answers him. Krishna's teaching to Arjuna on duty, devotion, and acting without grasping at the fruit of action — the heart of Hindu thought, set inside the great epic Mahabharata.",
+  "tradition": "East",
+  "collections": [
+    "collection.eastern-canon"
+  ],
+  "editionIds": [
+    "edition.bhagavad-gita.lectio-modern",
+    "edition.bhagavad-gita.arnold-1885"
+  ]
+}
