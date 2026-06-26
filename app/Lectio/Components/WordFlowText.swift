@@ -58,7 +58,10 @@ struct WordFlowText: View {
         }
         .contentShape(Rectangle())
         .onTapGesture { onTap() }
-        .gesture(selectGesture)
+        // Simultaneous (not .gesture): an attached drag gesture otherwise eats the
+        // ScrollView's pan, so the text wouldn't scroll. This way a quick swipe scrolls;
+        // only a deliberate hold (then optional drag) defines/selects.
+        .simultaneousGesture(selectGesture)
         .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
     }
 
