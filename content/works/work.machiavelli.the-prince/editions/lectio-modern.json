@@ -19,7 +19,7 @@
       "George Bull (1961, consulted, not quoted)",
       "Harvey Mansfield (1985, consulted, not quoted)"
     ],
-    "tokensEstimated": 63876,
+    "tokensEstimated": 67292,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -270,6 +270,76 @@
       "older": "they always aspire to their own greatness (Marriott 1908)",
       "lectio": "they will always be reaching for their own greatness",
       "note": "The cold core of the case against mercenary captains. Machiavelli sets a trap with no exit: 'O sono uomini valenti, o no; se sono, non te ne puoi fidare, perché sempre aspireranno alla grandezza propria.' The able captain cannot be trusted precisely because he is able — his skill is a threat, since it serves his own ambition, by 'oppressing you, who are their master' or by moving against others against your will; the inept one simply ruins you outright. We keep 'reaching for their own greatness' to mark the verb as an unbroken drive, not a single act: the talent that makes a hired commander useful is the very thing that makes him deadly to the man who hires him."
+    },
+    {
+      "locus": "paragraph 1 (the central maxim on auxiliaries)",
+      "phrase": "perdendo rimani disfatto, vincendo resti loro prigione",
+      "older": "for losing, one is undone, and winning, one is their captive (Marriott 1908)",
+      "lectio": "For if you lose, you are undone; and if you win, you are their prisoner.",
+      "note": "The cold heart of the chapter, and we hold it tight to the Italian: 'perchè perdendo rimani disfatto, vincendo resti loro prigione.' The trap is sprung in a single balanced line — defeat ruins you, victory delivers you. 'Disfatto' is Machiavelli's recurring verb of unmaking (rendered 'undone' here, as elsewhere in this edition), and 'prigione' is flatly 'prisoner,' not the softer 'captive': borrowed arms that win the field own the man who borrowed them. We keep the second-person 'you' to make the threat land on the reader, and refuse to blunt either half — the whole case against auxiliaries is that they are more dangerous than mercenaries precisely because there is no good outcome."
+    },
+    {
+      "locus": "paragraph 5 (mercenaries vs. auxiliaries weighed)",
+      "phrase": "nei mercennarii è più pericolosa la ignavia, nelli ausiliarii la virtù",
+      "older": "in mercenaries dastardy is most dangerous; in auxiliaries, valour (Marriott 1908)",
+      "lectio": "with mercenaries the danger is their cowardice; with auxiliaries, their courage",
+      "note": "A sharp paradox that turns on this edition's settled rendering of 'virtù.' Machiavelli sets 'ignavia' (cowardice, sloth) against 'virtù' — here not moral virtue and not even skill, but the dangerous effectiveness of a force that is good at war but obeys someone other than you. The mercenary's vice is that he is useless; the auxiliary's menace is that he is useful — disciplined, united, and loyal to his own master. We render 'virtù' as 'courage' to keep the antithesis with 'cowardice' clean, since the whole point is that the auxiliary's strength, not his weakness, is what undoes you. Marriott's 'dastardy/valour' is accurate but stiff; we plain it without losing the cold symmetry."
+    },
+    {
+      "locus": "paragraph 8 (David refusing Saul's armour)",
+      "phrase": "o le ti caggiono di dosso, o le ti pesano, o le ti stringono",
+      "older": "the arms of others either fall from your back, or they weigh you down, or they bind you fast (Marriott 1908)",
+      "lectio": "In short, another man's armor either slips off your back, or weighs you down, or binds you fast.",
+      "note": "The chapter's one biblical figure, and its image for borrowed arms entire. The Italian rings three verbs in flat parallel — 'caggiono di dosso' (fall off the back), 'pesano' (weigh down), 'stringono' (constrict, bind tight) — and the rhythm is the argument: armor that is not your own can only fail you in one of three ways. We keep all three blows bare and in order, rendering 'caggiono di dosso' as 'slips off your back' for the body's sake and 'stringono' as 'binds you fast' to preserve the menace of the last beat. David meets Goliath with his own sling and knife; the lesson is that a prince must fight in arms fitted to himself, never in another power's."
+    },
+    {
+      "locus": "paragraph 1 (the opening maxim)",
+      "phrase": "non avere altro obietto né altro pensiero, né prendere cosa alcuna per sua arte, fuora della guerra",
+      "older": "ought to have no other aim or thought, nor select anything else for his study, than war and its rules and discipline (Marriott 1908)",
+      "lectio": "should have no other aim or thought, nor take up anything else for his study, but war and its organization and discipline",
+      "note": "The hammer-blow that opens and governs the whole chapter, and we keep it bare and absolute. The Italian — 'non avere altro obietto né altro pensiero, né prendere cosa alcuna per sua arte, fuora della guerra' — admits no second interest: war is not merely the prince's chief art but his only one ('la sola arte che si aspetta a chi comanda'). The doubled negation 'altro obietto né altro pensiero' is held flat as 'no other aim or thought,' and 'fuora della guerra' as the exclusive 'but war,' so the reader feels the totality. Nothing is softened toward a more reasonable 'war should be his main concern'; Machiavelli means it should be the whole of it."
+    },
+    {
+      "locus": "paragraph 2 (the terrain passage)",
+      "phrase": "stare sempre in sulle caccie ... imparare la natura de' siti, e cognoscere come sorgono i monti, come imboccano le valli, come giacciono i piani",
+      "older": "to follow incessantly the chase, by which he accustoms his body to hardships, and learns something of the nature of localities, and gets to find out how the mountains rise, how the valleys open out, how the plains lie (Marriott 1908)",
+      "lectio": "never stop hunting, by which he hardens his body to hardship and at the same time learns the lie of the land — how the mountains rise, how the valleys open out, how the plains lie",
+      "note": "Hunting here is not sport but military reconnaissance: Machiavelli makes it the practical method by which a prince in peacetime trains his body ('assuefà il corpo a' disagi') and reads terrain as a commander must. We keep the concrete physical verbs — mountains 'sorgono' (rise), valleys 'imboccano' (open out, run in), plains 'giacciono' (lie) — rather than abstracting them, because the whole point is that the prince acquires a soldier's eye for ground. 'Hardens his body to hardship' holds the deliberate harshness of 'assuefà ... a' disagi' against Marriott's softer 'accustoms.'"
+    },
+    {
+      "locus": "paragraph 4 (the closing on imitation and fortune)",
+      "phrase": "Alessandro Magno imitava Achille, Cesare Alessandro, Scipione Ciro ... per potersene valere nelle avversità",
+      "older": "Alexander the Great imitated Achilles, Caesar Alexander, Scipio Cyrus ... so that they may be available to him in adversity, so that if fortune chances it may find him prepared to resist her blows (Marriott 1908)",
+      "lectio": "Alexander the Great imitated Achilles, Caesar imitated Alexander, and Scipio imitated Cyrus ... so that he may draw on it in adversity — so that when fortune turns, it finds him ready to withstand her",
+      "note": "The chapter ends by binding the reading of histories to its cold purpose. The chain of imitation (Alexander/Achilles, Caesar/Alexander, Scipio/Cyrus) is preserved whole, with Cyrus reached specifically through Xenophon's life of him — Machiavelli's pointed source. The close, 'mai ne' tempi pacifici stare ozioso, ma con industria farne capitale, per potersene valere nelle avversità,' carries this edition's settled rendering of fortuna: not a personified goddess to be piously feared, but the run of chance that turns against a man. We keep 'farne capitale' as 'make capital of them' — the prince banks his peacetime study like a reserve — and render the final clause as fortune turning so it 'finds him ready to withstand her,' matching the readiness-against-reversal that the whole book turns on."
+    },
+    {
+      "locus": "paragraph 1 (the method)",
+      "phrase": "andare dietro alla verità effettuale della cosa",
+      "older": "to follow up the real truth of the matter than the imagination of it (Marriott 1908)",
+      "lectio": "to go after the effectual truth of the matter than the imagination of it",
+      "note": "This is the most famous phrase in the book and the hinge of Machiavelli's whole method, so we restore his coined term rather than smooth it away. 'Verità effettuale' is not just the 'real' truth but the effective, operative truth — what actually works and actually happens, as opposed to 'l'immaginazione di essa,' how men imagine or wish things to be. Marriott's 'real truth' is accurate but loses the manufactured, almost technical strangeness of 'effettuale.' We keep 'effectual truth,' the rendering the tradition has settled on, because Machiavelli is announcing a new way of reasoning about politics — from results, not from ideals — and the odd word is the announcement."
+    },
+    {
+      "locus": "paragraph 1 (the central antithesis)",
+      "phrase": "egli è tanto discosto da come si vive, a come si doveria vivere ... impara piuttosto la rovina, che la preservazione sua",
+      "older": "how one lives is so far distant from how one ought to live, that he who neglects what is done for what ought to be done, sooner effects his ruin than his preservation (Marriott 1908)",
+      "lectio": "how one lives is so far removed from how one ought to live, that the man who lets go of what is done for what ought to be done sooner learns his ruin than his preservation",
+      "note": "The cold heart of the chapter, and we hold it tight to the Italian. 'Come si vive' against 'come si doveria vivere' — how one lives versus how one ought to live — is the bare antithesis the whole argument rests on, and nothing is allowed to soften it. The verb is 'impara,' learns: the man who abandons the real for the ideal 'impara piuttosto la rovina,' learns ruin rather than preservation — as if ruin were the lesson such idealism teaches. Marriott's 'effects his ruin' is smoother but loses 'impara'; we keep 'learns his ruin' to preserve Machiavelli's grim irony, that following the moralists' rule schools a prince in his own destruction. 'Discosto' is rendered 'removed' to keep the sense of distance between two whole ways of being."
+    },
+    {
+      "locus": "paragraph 2 (the maxim of necessity)",
+      "phrase": "imparare a potere essere non buono, ed usarlo e non usarlo secondo la necessità",
+      "older": "to know how to do wrong, and to make use of it or not according to necessity (Marriott 1908)",
+      "lectio": "learn how not to be good, and to use this or not use it according to necessity",
+      "note": "Machiavelli's most quoted command, and Marriott blunts it. The Italian is 'imparare a potere essere non buono' — to learn how to be able not to be good — not 'to do wrong.' The difference is the whole point: Machiavelli is not telling the prince to be evil but to acquire a capacity, the freedom to set goodness aside when necessity demands and to take it up again when it does not. 'Non buono' is the careful negation of the moralists' 'buono'; we keep 'not to be good' bare, since the chilling restraint of the phrase — a learned ability, used or withheld 'secondo la necessità,' by the calculus of need — is exactly what makes it shocking. To translate it as 'do wrong' moralizes the very neutrality Machiavelli is at pains to construct."
+    },
+    {
+      "locus": "paragraph 3 (the closing reversal)",
+      "phrase": "qualche cosa che parrà virtù ... la rovina sua; e qualcun'altra che parrà vizio ... la sicurtà ed il ben essere suo",
+      "older": "something which looks like virtue, if followed, would be his ruin; whilst something else, which looks like vice, yet followed brings him security and prosperity (Marriott 1908)",
+      "lectio": "something will be found that looks like virtue, and following it would be his ruin, while something else that looks like vice, followed, brings him security and well-being",
+      "note": "The chapter's final blow, and the payoff of the 'effectual truth.' Machiavelli twists the two key words against themselves: a thing 'che parrà virtù' — that will look like virtue — leads to 'rovina,' ruin; and a thing 'che parrà vizio,' that will look like vice, brings 'sicurtà ed il ben essere,' security and well-being. The verb is 'parrà,' will seem — appearance set against effect, which is the whole method of the book in one sentence. We keep 'looks like virtue / looks like vice' to preserve that gap between seeming and outcome, and render 'ben essere' as 'well-being' rather than Marriott's 'prosperity,' since Machiavelli means the prince's whole secure flourishing, not merely his wealth. Nothing is softened: the cold lesson is that the names good and evil do not track the results, and a prince must reckon by results."
     }
   ],
   "sections": [
@@ -1224,6 +1294,210 @@
           "text": "The first to give this kind of soldiery a name was Alberigo da Conio, the Romagnol. Out of his school came, among others, Braccio and Sforza, who in their day were the arbiters of Italy. After them came all the other captains who down to our own time have directed the arms of Italy; and the upshot of all their prowess has been that she has been overrun by Charles, plundered by Louis, ravaged by Ferdinand, and disgraced by the Swiss. The first principle these captains followed was to take all credit from the infantry, to raise their own. They did this because, living on their pay and holding no territory of their own, they could not keep many men, and a handful of foot soldiers gave them no standing; so they took to cavalry, of which a manageable number kept them maintained and honored. Things came to such a pass that in an army of twenty thousand men there were not two thousand on foot. Beyond this, they had used every device to spare themselves and their soldiers hardship and danger, not killing one another in the fray but taking prisoners and releasing them without ransom. They would not attack towns by night, nor would the garrisons of the towns attack their camps by night; they ringed their camp with neither stockade nor ditch; they did not take the field in winter. All this their military rules allowed, and all of it was contrived, as I have said, to dodge effort and danger — and so they have led Italy into slavery and contempt.",
           "spine": {
             "from": "0.8889",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-13",
+      "order": 13,
+      "label": "Chapter XIII",
+      "title": "Concerning Auxiliaries, Mixed Soldiery, and One's Own",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Auxiliaries are the other useless kind of arms. You take them on when you call in some power to come with its own forces to aid and defend you, as Pope Julius did not long ago: having had poor proof of his mercenaries in the campaign against Ferrara, he turned to auxiliaries and struck a bargain with Ferdinand, King of Spain, for help in men and arms. Such arms may be useful and good in themselves, but for the man who calls them in they are always a danger. For if you lose, you are undone; and if you win, you are their prisoner.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1765"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Ancient history is full of examples, but I will not pass over this recent one of Pope Julius II, whose recklessness could not be plainer. In his eagerness to get Ferrara, he threw himself wholly into the hands of a foreigner. But his good luck brought on a third turn of events, so that he did not reap the fruit of his rash choice. For when his auxiliaries were routed at Ravenna, and the Swiss then rose up and drove out the victors — against all expectation, his and everyone else's — it came about that he fell prisoner neither to his enemies, who had fled, nor to his auxiliaries, since he had won by other arms than theirs.",
+          "spine": {
+            "from": "0.1765",
+            "to": "0.2206"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Florentines, entirely without arms of their own, sent ten thousand Frenchmen to take Pisa, and by doing so ran more danger than at any other point in all their troubles.",
+          "spine": {
+            "from": "0.2206",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "The Emperor of Constantinople, to stand against his neighbors, sent ten thousand Turks into Greece, who, once the war was over, would not leave; and that was the beginning of the enslavement of Greece to the infidels.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3529"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "So let the man who has no wish to conquer make use of these arms, for they are far more hazardous than mercenaries. With auxiliaries the ruin is ready-made: they are all united, and all trained to obey someone else. With mercenaries, even after they have won, more time and a better opening are needed before they can do you harm, since they are not all of one body, and they are found and paid by you — and a man you have set at their head cannot, all at once, take on enough authority to injure you. In short, with mercenaries the danger is their cowardice; with auxiliaries, their courage. So the wise prince has always shunned these arms and turned to his own, choosing rather to lose with his own men than to win with the others, since he counts no true victory one that is won with the arms of others.",
+          "spine": {
+            "from": "0.3529",
+            "to": "0.4412"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "I will never hold back from citing Cesare Borgia and what he did. This duke entered the Romagna with auxiliaries, bringing nothing but French soldiers, and with them he took Imola and Forlì. But when those forces came to seem unreliable to him, he turned to mercenaries, judging them less of a risk, and hired the Orsini and the Vitelli. Then, finding these doubtful, faithless, and dangerous as he handled them, he destroyed them and fell back on his own men. And the difference between one kind of force and the other is easily seen if you weigh how the duke's standing differed when he had only the French, when he had the Orsini and Vitelli, and when he relied on his own soldiers and his own strength: his reputation always rose, and he was never held in higher esteem than when everyone saw that he was complete master of his own forces.",
+          "spine": {
+            "from": "0.4412",
+            "to": "0.4412"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "I meant to keep to Italian and recent examples, but I will not leave out Hiero of Syracuse, since he is one of those I named earlier. This man, as I have said, was made head of the army by the Syracusans, and soon found that mercenary soldiery — made up the way our Italian condottieri are — was good for nothing. Judging that he could neither keep them nor safely let them go, he had them all cut to pieces, and afterward made war with his own forces and not with hired men.",
+          "spine": {
+            "from": "0.4412",
+            "to": "0.4412"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "I want to call to mind, too, an instance from the Old Testament that bears on this. When David offered himself to Saul to fight Goliath, the Philistine champion, Saul, to give him heart, armed him with his own armor. But David, once he had it on his back, refused it, saying he could make no use of it, and that he would rather meet the enemy with his sling and his knife. In short, another man's armor either slips off your back, or weighs you down, or binds you fast.",
+          "spine": {
+            "from": "0.4412",
+            "to": "0.5539"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Charles the Seventh, father of King Louis the Eleventh, having by good luck and skill freed France from the English, saw the necessity of arming himself with forces of his own, and set up in his kingdom ordinances for men-at-arms and infantry. Afterward his son, King Louis, did away with the infantry and began hiring the Swiss — a blunder that, followed by others, is now plainly a source of peril to that kingdom. For by raising the standing of the Swiss he has wholly lowered the worth of his own arms: he scrapped the infantry altogether, and tied his men-at-arms to others, since, being so used to fighting alongside the Swiss, they no longer think they can win without them. And so the French cannot hold their ground against the Swiss, and without the Swiss they come off badly against anyone else. The armies of France have thus become mixed, part mercenary and part their own — a combination far better than mercenaries alone or auxiliaries alone, but far worse than forces wholly one's own. And this example proves it: France would be unconquerable if the ordinance of Charles had been built upon and kept up.",
+          "spine": {
+            "from": "0.5539",
+            "to": "0.7598"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "But man's scant wisdom, going into a thing that looks well at first, cannot make out the poison hidden in it — as I said before of wasting fevers. So the man who rules a principality and cannot recognize troubles until they are upon him is not truly wise; and this insight is given to few. And if you trace the first disaster of the Roman Empire, you will find it began precisely with the hiring of the Goths; for from that point the vigor of the Roman Empire started to fail, and all the prowess that had built it up drained away to others.",
+          "spine": {
+            "from": "0.7598",
+            "to": "0.8824"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-13.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "I conclude, then, that no principality is secure without its own arms — on the contrary, it rests wholly on fortune, having no prowess of its own to defend it in adversity. It has always been the opinion and judgment of wise men that nothing is so weak and unstable as a reputation for power that is not founded on a power of one's own. And one's own arms are those made up of subjects, citizens, or your own dependents; all the rest are mercenary or auxiliary. The way to make ready arms of one's own will be easily found if you reflect on the rules I have set down, and consider how Philip, the father of Alexander the Great, and many republics and princes have armed and organized themselves — to which rules I wholly commit myself.",
+          "spine": {
+            "from": "0.8824",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-14",
+      "order": 14,
+      "label": "Chapter XIV",
+      "title": "A Prince's Duty Concerning Military Affairs",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-14.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "A prince should have no other aim or thought, nor take up anything else for his study, but war and its organization and discipline; for this is the one art expected of a man who rules. It is of such force that it not only keeps in power those born princes, but often raises men from private station to that rank. And the reverse is just as plainly seen: when princes have given more thought to their comfort than to arms, they have lost their states. The first cause of losing a state is neglecting this art; and the thing that wins you one is being its master. Francesco Sforza, because he was armed, rose from a private man to Duke of Milan; his sons, because they shirked the hardships of arms, sank from dukes to private men. For among the other evils that being unarmed brings you, it makes you despised — and contempt is one of those disgraces a prince must guard himself against, as I will show further on. Between an armed man and an unarmed one there is no proportion whatever; it stands to no reason that the armed man should willingly obey the unarmed, or that the unarmed should be safe among armed servants. There is scorn on the one side and suspicion on the other, and the two can never work well together. So a prince who knows nothing of war, on top of the other misfortunes already named, cannot be respected by his soldiers, nor can he trust them. He should therefore never let this subject of war out of his thoughts, and in peace he should train at it harder than in war itself. This he can do in two ways: by action and by study.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2083"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-14.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "As for action, above all he should keep his men well organized and drilled, and never stop hunting, by which he hardens his body to hardship and at the same time learns the lie of the land — how the mountains rise, how the valleys open out, how the plains lie — and comes to understand the nature of rivers and marshes, giving all of this his closest attention. This knowledge is useful two ways. First, he comes to know his own country, and is the better able to defend it. Then, through the knowledge and observation he has of one place, he grasps any other he may need to study with ease; for the hills, valleys, plains, rivers, and marshes of Tuscany, say, have a certain likeness to those of other regions, so that from knowing the terrain of one country one passes easily to knowing others. The prince who lacks this skill lacks the first thing a commander needs, for it is what teaches him to surprise the enemy, choose his ground, lead his army, draw up the line of battle, and lay siege to towns to his advantage.",
+          "spine": {
+            "from": "0.2083",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-14.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Philopoemen, prince of the Achaeans, among the other praises writers have heaped on him, is commended for this: that in time of peace he thought of nothing but the conduct of war. When he was out in the country with friends he would often stop and reason with them — \"If the enemy were on that hill, and we stood here with our army, which of us would have the advantage? How could we advance on him in good order? If we wanted to retreat, how should we go about it? If he retreated, how should we give chase?\" And as they went along he would put to them every contingency that can befall an army; he would hear their view and give his own, backing it with reasons. So from this constant turning of cases over, no situation could ever arise in war that he had not already met and could not handle.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-14.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "But as for the exercise of the mind, the prince should read histories, and there study the deeds of great men: see how they bore themselves in their wars, examine the causes of their victories and defeats, so as to avoid the one and copy the other. Above all he should do as some great man has done before him, who took as his model one who had been praised and held glorious before his own time, and kept that man's bearing and conduct always before him — as it is said Alexander the Great imitated Achilles, Caesar imitated Alexander, and Scipio imitated Cyrus. And anyone who reads the life of Cyrus written by Xenophon will see, in the life of Scipio, how much that imitation made his glory, and how closely in self-command, courtesy, humanity, and generosity Scipio kept to the things Xenophon wrote of Cyrus. A wise prince should hold to ways like these, and never sit idle in times of peace, but make capital of them by his own diligence, so that he may draw on it in adversity — so that when fortune turns, it finds him ready to withstand her.",
+          "spine": {
+            "from": "0.5833",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-15",
+      "order": 15,
+      "label": "Chapter XV",
+      "title": "Concerning Things for Which Men, and Especially Princes, Are Praised or Blamed",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-15.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "It remains now to see how a prince ought to conduct himself toward his subjects and his friends. And since I know that many have written on this, I am afraid that in writing of it again I shall be thought presumptuous, the more so because I depart, in discussing it, from the methods of the others. But as my intention is to write something useful to anyone who grasps it, it has seemed to me more to the point to go after the effectual truth of the matter than the imagination of it. For many have pictured republics and principalities that were never seen or known to exist in fact; because how one lives is so far removed from how one ought to live, that the man who lets go of what is done for what ought to be done sooner learns his ruin than his preservation. For a man who sets out to act the good man in every way must come to grief among so many who are not good.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-15.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And so a prince who means to hold his own must learn how not to be good, and to use this or not use it according to necessity. Setting aside, then, the imaginary things said of a prince, and speaking of those that are true, I say that all men, when they are talked of — and princes most of all, being set higher — are noted for some of those qualities that earn them either blame or praise. One is held to be liberal, another miserly (to use a Tuscan term, since in our language an avaricious man is one who wants to get hold of things by plunder, while we call a man miserly who holds back too much from the use of his own); one is reckoned a giver, another grasping; one cruel, another merciful; one a breaker of faith, another faithful; one soft and cowardly, another fierce and bold; one humane, another proud; one lecherous, another chaste; one straight, another sly; one hard, another easy; one grave, another frivolous; one religious, another unbelieving, and so on.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-15.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And I know that everyone will admit it would be a most praiseworthy thing for a prince to be found possessed of all the qualities reckoned good in the list above. But because they cannot all be had, nor wholly kept to, since the human condition does not allow it, he must be prudent enough to know how to escape the disgrace of those vices that would lose him his state, and to guard himself, if he can, against those that would not; and where he cannot, he may give himself up to them with less scruple. And further, he need not trouble himself about incurring the disgrace of those vices without which he could scarcely save his state; for if the whole thing is weighed carefully, something will be found that looks like virtue, and following it would be his ruin, while something else that looks like vice, followed, brings him security and well-being.",
+          "spine": {
+            "from": "0.6667",
             "to": "1.0000"
           }
         }
