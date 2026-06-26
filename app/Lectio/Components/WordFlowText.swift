@@ -32,9 +32,7 @@ struct WordFlowText: View {
     var onTap: () -> Void = {}
 
     @State private var box = FrameBox()
-    @State private var dragSel: ClosedRange<Int>? = nil   // live span while dragging a selection
     @Environment(\.colorScheme) private var scheme
-    private let selectDelay = 0.33   // hold this long before a define/select begins (scroll stays free)
 
     var body: some View {
         FlowLayout(spacing: 0, lineSpacing: 7) {
@@ -53,15 +51,15 @@ struct WordFlowText: View {
                             Color.clear.preference(key: TokenFrameKey.self,
                                                    value: [i: g.frame(in: .named(space))])
                         })
+                        .contentShape(Rectangle())
+                        // Per-token tap + long-press ONLY — no drag gesture anywhere, so the
+                        // ScrollView always keeps the pan and the text scrolls freely.
+                        // Tap dismisses/syncs; a deliberate hold looks the word up.
+                        .onTapGesture { onTap() }
+                        .onLongPressGesture(minimumDuration: 0.3) { define(i) }
                 }
             }
         }
-        .contentShape(Rectangle())
-        .onTapGesture { onTap() }
-        // Simultaneous (not .gesture): an attached drag gesture otherwise eats the
-        // ScrollView's pan, so the text wouldn't scroll. This way a quick swipe scrolls;
-        // only a deliberate hold (then optional drag) defines/selects.
-        .simultaneousGesture(selectGesture)
         .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
     }
 
@@ -90,47 +88,11 @@ struct WordFlowText: View {
 
     // MARK: interactions
 
-    // Hold to begin; then lifting in place defines the word under the finger, while
-    // dragging selects the exact span you sweep across (committed on release to save).
-    private var selectGesture: some Gesture {
-        LongPressGesture(minimumDuration: selectDelay)
-            .sequenced(before: DragGesture(minimumDistance: 0, coordinateSpace: .named(space)))
-            .onChanged { value in
-                guard case .second(true, let drag?) = value,
-                      let a = tokenIndex(at: drag.startLocation),
-                      let b = tokenIndex(at: drag.location) else { return }
-                dragSel = min(a, b)...max(a, b)
-            }
-            .onEnded { value in
-                defer { dragSel = nil }
-                guard case .second(true, let drag?) = value,
-                      let a = tokenIndex(at: drag.startLocation),
-                      let b = tokenIndex(at: drag.location) else { return }
-                let lo = min(a, b), hi = max(a, b)
-                let moved = lo != hi || hypot(drag.translation.width, drag.translation.height) > 10
-                if moved {
-                    onSelectCommit(lo...hi, selectedText(lo...hi), center(hi))
-                } else {
-                    let w = norm(a)
-                    if !w.isEmpty { onWord(w, center(a)) }
-                }
-            }
-    }
-
-    // Map a point (in `space` coordinates) to the token under it, or the nearest word —
-    // so a drag that strays between/below words still resolves to a sensible boundary.
-    private func tokenIndex(at p: CGPoint) -> Int? {
-        if let hit = box.frames.first(where: {
-            tokens.indices.contains($0.key) && tokens[$0.key] != "\n" && $0.value.contains(p)
-        })?.key { return hit }
-        var best: Int? = nil; var bestD = CGFloat.greatestFiniteMagnitude
-        for (i, f) in box.frames where tokens.indices.contains(i) && tokens[i] != "\n" {
-            let dy = max(0, max(f.minY - p.y, p.y - f.maxY))
-            let dx = max(0, max(f.minX - p.x, p.x - f.maxX))
-            let d = dy * 1000 + dx   // weight rows first, then horizontal distance
-            if d < bestD { bestD = d; best = i }
-        }
-        return best
+    // Press-and-hold a word to look it up. (A plain long-press gesture never competes
+    // with the ScrollView's pan, so the text scrolls freely.)
+    private func define(_ i: Int) {
+        let w = norm(i)
+        if !w.isEmpty { onWord(w, center(i)) }
     }
 
     // MARK: appearance
@@ -144,7 +106,7 @@ struct WordFlowText: View {
 
     @ViewBuilder
     private func tokenHighlight(_ i: Int) -> some View {
-        let inActive = (activeRange?.contains(i) ?? false) || (dragSel?.contains(i) ?? false)
+        let inActive = activeRange?.contains(i) ?? false
         let inSaved = savedRanges.contains { $0.contains(i) }
         let isFocus = (focusWord != nil) && norm(i) == focusWord
         if inActive {
