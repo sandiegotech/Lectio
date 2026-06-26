@@ -240,7 +240,7 @@
       "title": "The Republic",
       "author": "Plato",
       "referenceScheme": "book.section",
-      "defaultEditionId": "edition.republic.jowett-1871",
+      "defaultEditionId": "edition.republic.lectio-modern",
       "collections": [
         "collection.great-books"
       ],
@@ -252,7 +252,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "a02200393f3874af"
+          "checksum": "e5afcfbd4ba9c1fc"
         },
         {
           "id": "edition.republic.jowett-1871",
@@ -261,11 +261,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian Republic — Jowett's lucid, hugely influential standard.",
-          "checksum": "80e092aaec7b8242"
+          "checksum": "f93d9ecee5077e60"
         }
       ],
       "hasAlignment": false,
-      "checksum": "6cac40c3a6ceab08"
+      "checksum": "2c5cb4c2bdfb5ae7"
     },
     {
       "id": "work.aristotle.nicomachean-ethics",

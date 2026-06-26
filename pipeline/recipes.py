@@ -422,7 +422,7 @@ def republic():
     work = Work(
         id=work_id, title="The Republic", author="Plato", originalLang="grc",
         composed="375 BCE", type="philosophy", referenceScheme="book.section",
-        defaultEditionId=edition.id,
+        defaultEditionId="edition.republic.lectio-modern",
         blurb=("Plato's great dialogue on justice — what it is, why it's worth having, and the "
                "just city built in words to find it. Home of the Cave, the philosopher-king, "
                "and the divided line."),
