@@ -51,142 +51,115 @@ def _tokens(text: str) -> set[str]:
     return out
 
 
-def _lis_nondecreasing(pairs: list[tuple[int, int]]) -> list[tuple[int, int]]:
-    """Longest chain of (i, j) with both coordinates non-decreasing — keeps anchors
-    monotonic so the mapping never folds back on itself. `pairs` sorted by (i, j)."""
-    if not pairs:
+def _overlap(a: set, b: set) -> float:
+    """Token-overlap (containment) coefficient 0..1 — rewards a fine paragraph whose
+    distinctive words are mostly contained in a coarse one (good for 1-to-many prose)."""
+    if not a or not b:
+        return 0.0
+    return len(a & b) / min(len(a), len(b))
+
+
+def _dp_anchors(C: list[set], F: list[set]) -> list[tuple[int, int]]:
+    """Monotonic content alignment of coarse paragraphs C to fine paragraphs F by token
+    overlap (Needleman–Wunsch with gaps). Returns confident (i, j) match pairs; a segment
+    with no real counterpart — e.g. an edition's per-book ARGUMENT/summary heading, or
+    trailing apparatus — falls through as a gap instead of dragging a real line out of
+    place. This is what keeps an opening invocation aligned to the other edition's
+    invocation rather than to its chapter title."""
+    m, n = len(C), len(F)
+    if m == 0 or n == 0:
         return []
-    import bisect
-    tails_j: list[int] = []        # smallest possible tail j for a chain of each length
-    tails_pair: list[tuple[int, int]] = []
-    parent: dict[int, int] = {}
-    idx_of: list[int] = []
-    for k, (i, j) in enumerate(pairs):
-        pos = bisect.bisect_right(tails_j, j)
-        if pos == len(tails_j):
-            tails_j.append(j); tails_pair.append((i, j)); idx_of.append(k)
+    GAP = -0.06
+    dp = [[0.0] * (n + 1) for _ in range(m + 1)]
+    bt = [[2] * (n + 1) for _ in range(m + 1)]   # 0 = match, 1 = skip coarse, 2 = skip fine
+    for i in range(1, m + 1):
+        dp[i][0] = i * GAP; bt[i][0] = 1
+    for j in range(1, n + 1):
+        dp[0][j] = j * GAP; bt[0][j] = 2
+    for i in range(1, m + 1):
+        ci = C[i - 1]
+        for j in range(1, n + 1):
+            s = _overlap(ci, F[j - 1])
+            diag = dp[i - 1][j - 1] + (s if s > 0 else GAP)
+            up = dp[i - 1][j] + GAP
+            left = dp[i][j - 1] + GAP
+            if diag >= up and diag >= left:
+                dp[i][j] = diag; bt[i][j] = 0
+            elif up >= left:
+                dp[i][j] = up; bt[i][j] = 1
+            else:
+                dp[i][j] = left; bt[i][j] = 2
+    pairs: list[tuple[int, int]] = []
+    i, j = m, n
+    while i > 0 and j > 0:
+        b = bt[i][j]
+        if b == 0:
+            if _overlap(C[i - 1], F[j - 1]) > 0.15:   # keep only confident matches as anchors
+                pairs.append((i - 1, j - 1))
+            i -= 1; j -= 1
+        elif b == 1:
+            i -= 1
         else:
-            tails_j[pos] = j; tails_pair[pos] = (i, j); idx_of[pos] = k
-        parent[k] = idx_of[pos - 1] if pos > 0 else -1
-    # reconstruct
-    chain: list[tuple[int, int]] = []
-    k = idx_of[-1]
-    while k != -1:
-        chain.append(pairs[k]); k = parent[k]
-    chain.reverse()
-    return chain
+            j -= 1
+    pairs.reverse()
+    return pairs
 
 
-def _anchor_positions(coarse: list[str], fine: list[str]) -> list[float]:
-    """For each coarse paragraph, its position (a float index in fine-paragraph space),
-    found by anchoring on tokens that are rare in BOTH editions, then interpolating."""
-    L, S = len(coarse), len(fine)
-    if L == 0:
-        return []
-    if S <= 1 or L == 1:
-        return [(i * (S - 1) / max(1, L - 1)) for i in range(L)]
+def _aligned_positions(seg_texts: list[str], ref_texts: list[str]) -> list[float | None]:
+    """Each segment's fractional position (0..1) on the reference edition's axis, or None
+    when it has no counterpart there — a leading argument/summary heading, trailing notes,
+    etc. Matched segments take their match's fraction; interior gaps interpolate between
+    their matched neighbours; leading and trailing gaps stay None, so a heading can never
+    become a sync target."""
+    n, m = len(ref_texts), len(seg_texts)
+    if n == 0:
+        return [None] * m
 
-    C = [_tokens(t) for t in coarse]
-    F = [_tokens(t) for t in fine]
-    dfc, dff = Counter(), Counter()
-    for s in C:
-        dfc.update(s)
-    for s in F:
-        dff.update(s)
-    # tokens rare in both → strong correspondence signal
-    ci, fj = defaultdict(list), defaultdict(list)
-    for i, s in enumerate(C):
-        for t in s:
-            if dfc[t] <= 2 and 1 <= dff.get(t, 0) <= 2:
-                ci[t].append(i)
-    for j, s in enumerate(F):
-        for t in s:
-            if dff[t] <= 2 and 1 <= dfc.get(t, 0) <= 2:
-                fj[t].append(j)
-    cand: set[tuple[int, int]] = set()
-    for t in set(ci) & set(fj):
-        for i in ci[t]:
-            for j in fj[t]:
-                cand.add((i, j))
-    anchors = _lis_nondecreasing(sorted(cand))
-    # collapse to one j per i (average), keep j non-decreasing
-    by_i: dict[int, list[int]] = defaultdict(list)
-    for i, j in anchors:
-        by_i[i].append(j)
-    pts: list[tuple[int, float]] = []
-    last = -1.0
-    for i in sorted(by_i):
-        j = sum(by_i[i]) / len(by_i[i])
-        if j < last:
-            j = last
-        pts.append((i, j)); last = j
-    # sentinels at the ends so every coarse index is bracketed
-    pts = [(-1, 0.0)] + pts + [(L, float(S - 1))]
-    pos = [0.0] * L
-    for i in range(L):
-        # find bracketing anchors a (<= i) and b (> i)
-        a = max(p for p in pts if p[0] <= i)
-        b = min(p for p in pts if p[0] > i)
-        if b[0] == a[0]:
-            pos[i] = a[1]
-        else:
-            frac = (i - a[0]) / (b[0] - a[0])
-            pos[i] = a[1] + frac * (b[1] - a[1])
-    return pos
+    def f(j: int) -> float:
+        return (j + 0.5) / n
 
-
-def _uniform_spans(n: int) -> list[tuple[float, float]]:
-    return [(k / n, (k + 1) / n) for k in range(n)] if n else []
-
-
-def _coarse_spans(positions: list[float], fine_n: int) -> list[tuple[float, float]]:
-    """Contiguous [0,1] spans for coarse paragraphs from their fine-space positions,
-    split at the midpoints between neighbours so each covers its share of the text."""
-    L = len(positions)
-    if L == 0:
-        return []
-    if L == 1:
-        return [(0.0, 1.0)]
-    bounds = [0.0]
-    for i in range(L - 1):
-        mid = (positions[i] + positions[i + 1]) / 2 + 0.5   # midpoint, fine-index space
-        bounds.append(min(1.0, max(0.0, mid / fine_n)))
-    bounds.append(1.0)
-    # enforce monotonic, non-empty
-    for i in range(1, len(bounds)):
-        if bounds[i] < bounds[i - 1]:
-            bounds[i] = bounds[i - 1]
-    return [(bounds[i], bounds[i + 1]) for i in range(L)]
-
-
-def _spans_for(seg_texts: list[str], ref_texts: list[str]) -> list[tuple[float, float]]:
-    if len(seg_texts) == len(ref_texts):
-        return _uniform_spans(len(seg_texts))           # identity → exact
-    pos = _anchor_positions(seg_texts, ref_texts)
-    return _coarse_spans(pos, len(ref_texts))
+    if seg_texts == ref_texts:                       # the reference edition itself
+        return [f(j) for j in range(m)]
+    pairs = _dp_anchors([_tokens(t) for t in seg_texts], [_tokens(t) for t in ref_texts])
+    if not pairs:                                    # no shared content (e.g. cross-language) → proportional
+        return [f(round(i * (n - 1) / max(1, m - 1))) for i in range(m)]
+    pos: list[float | None] = [None] * m
+    for i, j in pairs:
+        pos[i] = f(j)
+    matched = [i for i, _ in pairs]
+    for i in range(matched[0] + 1, matched[-1]):     # interior gaps interpolate
+        if pos[i] is None:
+            lo = max(k for k in matched if k < i)
+            hi = min(k for k in matched if k > i)
+            pos[i] = pos[lo] + (i - lo) / (hi - lo) * (pos[hi] - pos[lo])
+    return pos                                        # before matched[0] / after matched[-1] stay None
 
 
 def assign_spines(editions: list[Edition]) -> int:
-    """Populate Segment.spine for every edition of one work, in place. Returns the
+    """Populate Segment.spine across one work's editions, in place. The clean modern
+    (Lectio) edition — which opens on real text, not an argument heading — is the
+    reference axis; every other edition is content-aligned to it. Each segment carries a
+    point position on that axis; segments with no counterpart get no spine. Returns the
     number of segments tagged. Sections are matched across editions by order."""
     if len(editions) < 2:
         return 0
-    # group sections by order across editions
     orders = sorted({s.order for e in editions for s in e.sections})
     tagged = 0
     for order in orders:
-        secs = []
-        for e in editions:
-            s = next((s for s in e.sections if s.order == order), None)
-            if s is not None:
-                secs.append(s)
-        if len(secs) < 2:
+        es = [(e, s) for e in editions
+              for s in [next((s for s in e.sections if s.order == order), None)]
+              if s and s.segments]
+        if len(es) < 2:
             continue
-        ref = max(secs, key=lambda s: len(s.segments))   # finest edition = the axis
+        # reference axis: the modern edition's section if present, else the longest one.
+        ref = next((s for e, s in es if e.kind == "modern"), None) \
+            or max((s for _, s in es), key=lambda s: len(s.segments))
         ref_texts = [seg.text for seg in ref.segments]
-        for s in secs:
-            spans = _spans_for([seg.text for seg in s.segments], ref_texts)
-            for seg, (lo, hi) in zip(s.segments, spans):
-                seg.spine = SpineRange(fromRef=f"{lo:.4f}", toRef=f"{hi:.4f}")
-                tagged += 1
+        for _, s in es:
+            for seg, p in zip(s.segments, _aligned_positions([sg.text for sg in s.segments], ref_texts)):
+                if p is None:
+                    seg.spine = None
+                else:
+                    seg.spine = SpineRange(fromRef=f"{p:.4f}", toRef=f"{p:.4f}")
+                    tagged += 1
     return tagged

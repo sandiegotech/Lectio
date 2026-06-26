@@ -291,10 +291,11 @@ struct ReaderView: View {
         return (a + b) / 2
     }
 
-    // The passage in `to` that lines up with `segId` in `from`. Uses the alignment spine
-    // (each segment's fractional span within the section): the counterpart is the segment
-    // whose span contains this one's center — exact where editions share structure,
-    // content-anchored where they don't. Falls back to positional if a spine is missing.
+    // The passage in `to` that lines up with `segId` in `from`, via the alignment spine
+    // (each segment's content-aligned position on the shared axis): the counterpart is the
+    // `to` segment whose spine position is nearest. Segments with no spine — an edition's
+    // argument heading or trailing apparatus — are skipped so they can't be a target.
+    // Falls back to positional only when the tapped segment itself has no spine.
     private func counterpart(of segId: String, from: Edition?, to: Edition?) -> String? {
         guard let from, let to else { return nil }
         guard let bi = from.sections.firstIndex(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }),
@@ -303,15 +304,10 @@ struct ReaderView: View {
         let dst = to.sections[bi].segments
         guard let i = src.firstIndex(where: { $0.id == segId }), !dst.isEmpty else { return nil }
         if let center = spineCenter(src[i]) {
-            // a dst segment whose span contains the center …
-            if let hit = dst.first(where: { seg in
-                guard let s = seg.spine, let a = Double(s.from), let b = Double(s.to) else { return false }
-                return a <= center && center < b
-            }) { return hit.id }
-            // … otherwise the nearest by span center
-            if let near = dst.min(by: {
-                abs((spineCenter($0) ?? 0.5) - center) < abs((spineCenter($1) ?? 0.5) - center)
-            }) { return near.id }
+            let spined = dst.filter { spineCenter($0) != nil }
+            if let near = spined.min(by: { abs(spineCenter($0)! - center) < abs(spineCenter($1)! - center) }) {
+                return near.id
+            }
         }
         let j = src.count <= 1 ? 0 : Int((Double(i) * Double(dst.count - 1) / Double(src.count - 1)).rounded())
         return dst[min(max(j, 0), dst.count - 1)].id
