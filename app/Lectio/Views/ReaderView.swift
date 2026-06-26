@@ -83,7 +83,7 @@ struct ReaderView: View {
     }
 
     // A word lookup popup, anchored near the tapped word.
-    struct WordPopup { var term: String; var def: String?; var kind: String?; var conceptId: String?; var point: CGPoint }
+    struct WordPopup { var term: String; var def: String?; var kind: String?; var conceptId: String?; var context: String?; var point: CGPoint }
     // A "save this highlight" popup, anchored near the end of a selection drag.
     struct SelPopup { var segmentId: String; var range: ClosedRange<Int>; var text: String; var point: CGPoint }
 
@@ -154,7 +154,7 @@ struct ReaderView: View {
                         }
                         if let wp = wordPopup {
                             WordCard(term: wp.term, definition: wp.def, kind: wp.kind, conceptId: wp.conceptId,
-                                     workTitle: work.title, workId: work.id, pal: pal, onClose: dismissPopups)
+                                     context: wp.context, workTitle: work.title, workId: work.id, pal: pal, onClose: dismissPopups)
                                 .position(popupPosition(wp.point, in: rgeo.size, card: CGSize(width: 260, height: 150)))
                         }
                         if let sp = selPopup {
@@ -204,7 +204,7 @@ struct ReaderView: View {
                 let w = WordDictionary.normalize(dbg)
                 let r = resolveWord(w)
                 wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, conceptId: r.conceptId,
-                                      point: CGPoint(x: 240, y: 360))
+                                      context: nil, point: CGPoint(x: 240, y: 360))
             }
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
@@ -497,7 +497,7 @@ struct ReaderView: View {
                                 savedWords: savedWordSet,
                                 savedRanges: saved.ranges(forSegment: segment.id),
                                 activeRange: selSegmentId == segment.id ? selRange : nil,
-                                onWord: { word, point in showWord(word, at: point); syncFromMain(segment.id) },
+                                onWord: { word, point in showWord(word, at: point, context: segment.text); syncFromMain(segment.id) },
                                 onSelectCommit: { range, text, point in
                                     selSegmentId = segment.id
                                     selRange = range
@@ -822,10 +822,10 @@ struct ReaderView: View {
         dismissPopups()
     }
 
-    private func showWord(_ word: String, at point: CGPoint) {
+    private func showWord(_ word: String, at point: CGPoint, context: String? = nil) {
         selPopup = nil; selRange = nil; selSegmentId = nil; focusWord = nil
         let r = resolveWord(word)
-        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, conceptId: r.conceptId, point: point)
+        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, conceptId: r.conceptId, context: context, point: point)
     }
 
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,

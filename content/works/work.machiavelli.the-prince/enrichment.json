@@ -1,0 +1,1504 @@
+{
+  "workId": "work.machiavelli.the-prince",
+  "glossary": [
+    {
+      "term": "principality",
+      "gloss": "A state ruled by a single prince or sovereign, as opposed to a republic. The central subject of the book: how such states are won, held, and governed.",
+      "kind": "concept",
+      "aliases": [
+        "principalities"
+      ]
+    },
+    {
+      "term": "republic",
+      "gloss": "A state governed by its citizens or their representatives rather than a single ruler. Machiavelli sets it against the principality and treats it separately.",
+      "kind": "concept",
+      "aliases": [
+        "republics"
+      ]
+    },
+    {
+      "term": "prince",
+      "gloss": "A sovereign ruler of a state — king, duke, lord, or whoever holds supreme power. The book is a manual of advice addressed to such a ruler.",
+      "kind": "concept",
+      "aliases": [
+        "princes"
+      ]
+    },
+    {
+      "term": "hereditary",
+      "gloss": "Passed down within a ruling family over generations. Machiavelli says hereditary states are far easier to keep than newly seized ones.",
+      "kind": "concept"
+    },
+    {
+      "term": "dominions",
+      "gloss": "The lands and territories a ruler controls.",
+      "kind": "concept",
+      "aliases": [
+        "dominion"
+      ]
+    },
+    {
+      "term": "fortune",
+      "gloss": "Luck or chance — the unpredictable circumstances outside a ruler's control. Machiavelli weighs it against personal skill (virtù/ability) as a path to power.",
+      "kind": "concept"
+    },
+    {
+      "term": "ability",
+      "gloss": "Personal skill, talent, and force of character — Marriott's usual rendering of Machiavelli's virtù. The quality that lets a ruler seize opportunity and hold power on his own merits.",
+      "kind": "concept"
+    },
+    {
+      "term": "virtue",
+      "gloss": "Here closer to skill, prowess, and decisive energy (Machiavelli's virtù) than to moral goodness — the practical excellence that makes a leader effective.",
+      "kind": "concept",
+      "aliases": [
+        "virtues"
+      ]
+    },
+    {
+      "term": "states",
+      "gloss": "Organized political bodies that hold power over people, whether republics or principalities.",
+      "kind": "concept",
+      "aliases": [
+        "state"
+      ]
+    },
+    {
+      "term": "usurper",
+      "gloss": "Someone who seizes power or a throne by force rather than by lawful right.",
+      "kind": "person",
+      "aliases": [
+        "usurpers"
+      ]
+    },
+    {
+      "term": "transgress",
+      "gloss": "To break or violate (a rule, custom, or law).",
+      "kind": "word"
+    },
+    {
+      "term": "prudently",
+      "gloss": "Wisely and cautiously, with good judgment about consequences.",
+      "kind": "word",
+      "aliases": [
+        "prudent",
+        "prudence"
+      ]
+    },
+    {
+      "term": "sinister",
+      "gloss": "Here in the older sense: harmful, unlucky, or threatening — an event that goes badly.",
+      "kind": "word"
+    },
+    {
+      "term": "vices",
+      "gloss": "Moral faults or bad habits in a ruler that can make him hated.",
+      "kind": "word",
+      "aliases": [
+        "vice"
+      ]
+    },
+    {
+      "term": "toothing",
+      "gloss": "A building term for the projecting bricks left so a new wall can be joined on — used as a metaphor: one change leaves a foothold for the next.",
+      "kind": "word"
+    },
+    {
+      "term": "composite",
+      "gloss": "Made up of mixed parts — a state formed by adding new territory to an existing one. Machiavelli's 'mixed' principality.",
+      "kind": "concept"
+    },
+    {
+      "term": "Milan",
+      "gloss": "A major city-state and duchy in northern Italy, repeatedly fought over by France, Spain, and local rulers like the Sforza.",
+      "kind": "place"
+    },
+    {
+      "term": "Naples",
+      "gloss": "A kingdom in southern Italy, contested by France and Spain. Louis XII divided it with the King of Spain, a move Machiavelli faults.",
+      "kind": "place"
+    },
+    {
+      "term": "Francesco Sforza",
+      "gloss": "A mercenary captain (1401–1466) who rose from private life to become Duke of Milan by his own skill — Machiavelli's model of acquiring a state through ability.",
+      "kind": "person",
+      "aliases": [
+        "Sforza"
+      ]
+    },
+    {
+      "term": "Lombardy",
+      "gloss": "The wealthy region of northern Italy around Milan, a prize that France, Venice, and others fought to control.",
+      "kind": "place"
+    },
+    {
+      "term": "Louis the Twelfth",
+      "gloss": "Louis XII, King of France (reigned 1498–1515), who seized Milan and Naples. Machiavelli analyzes his 'five errors' in holding Italy.",
+      "kind": "person",
+      "aliases": [
+        "Louis XII",
+        "Louis",
+        "King Louis",
+        "King of France"
+      ]
+    },
+    {
+      "term": "Lodovico",
+      "gloss": "Lodovico Sforza ('il Moro'), Duke of Milan, who briefly retook the city from France using his own forces. Son of Francesco Sforza.",
+      "kind": "person",
+      "aliases": [
+        "Lodovico Moro",
+        "Duke Lodovico"
+      ]
+    },
+    {
+      "term": "Charles",
+      "gloss": "Charles VIII, King of France (1470–1498), who invaded Italy in 1494 and quickly lost his gains. Machiavelli contrasts him with the more able Louis XII.",
+      "kind": "person",
+      "aliases": [
+        "Charles VIII",
+        "Charles, King of France"
+      ]
+    },
+    {
+      "term": "the Venetians",
+      "gloss": "The people and government of Venice, a powerful Italian republic and naval state whose ambitions repeatedly drew foreign powers into Italy.",
+      "kind": "people",
+      "aliases": [
+        "Venetians",
+        "Venice"
+      ]
+    },
+    {
+      "term": "Pope Julius",
+      "gloss": "Julius II (Giuliano della Rovere, 1443–1513), a warrior pope who expanded Church power, drove the French from Italy, and humbled Venice.",
+      "kind": "person",
+      "aliases": [
+        "Julius",
+        "Julius the Second",
+        "Julius II",
+        "Pope Julius the Second"
+      ]
+    },
+    {
+      "term": "Duke of Ferrara",
+      "gloss": "The ruler of Ferrara, an Italian duchy that survived attacks because its dynasty was long-established. A standing example of a secure hereditary state.",
+      "kind": "person",
+      "aliases": [
+        "Ferrara"
+      ]
+    },
+    {
+      "term": "Brittany",
+      "gloss": "A region of western France, cited as territory absorbed into the French crown over time.",
+      "kind": "place"
+    },
+    {
+      "term": "Burgundy",
+      "gloss": "A region of eastern France, given as an example of land long bound to the French crown.",
+      "kind": "place"
+    },
+    {
+      "term": "Gascony",
+      "gloss": "A region of southwestern France, cited among lands assimilated into France.",
+      "kind": "place"
+    },
+    {
+      "term": "Normandy",
+      "gloss": "A region of northern France, named among territories long united with the French crown.",
+      "kind": "place"
+    },
+    {
+      "term": "the Turk",
+      "gloss": "The Ottoman sultan and his empire — Machiavelli's example of a state ruled absolutely through appointed servants, hard to conquer but easy to hold once taken.",
+      "kind": "people",
+      "aliases": [
+        "Turk",
+        "Turks"
+      ]
+    },
+    {
+      "term": "colonies",
+      "gloss": "Settlements of one's own people planted in conquered territory to anchor control cheaply — Machiavelli's recommended way to hold new lands.",
+      "kind": "concept",
+      "aliases": [
+        "colony"
+      ]
+    },
+    {
+      "term": "garrison",
+      "gloss": "Troops stationed to occupy and guard a place — a costlier, more resented alternative to colonies.",
+      "kind": "thing",
+      "aliases": [
+        "garrisons"
+      ]
+    },
+    {
+      "term": "infantry",
+      "gloss": "Foot soldiers — the core of an army. Machiavelli laments how mercenary captains neglected infantry in favor of cavalry.",
+      "kind": "thing"
+    },
+    {
+      "term": "cavalry",
+      "gloss": "Soldiers who fight on horseback.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Romagna",
+      "gloss": "A region of north-central Italy, nominally Church land, which Cesare Borgia conquered and consolidated as the base of his power.",
+      "kind": "place",
+      "aliases": [
+        "Romagna"
+      ]
+    },
+    {
+      "term": "the Romans",
+      "gloss": "The ancient Roman republic and its statesmen — Machiavelli's recurring model of how to manage conquered provinces and foresee trouble early.",
+      "kind": "people",
+      "aliases": [
+        "Romans",
+        "Rome"
+      ]
+    },
+    {
+      "term": "the Ætolians",
+      "gloss": "An ancient Greek league that invited Rome into Greece — an example of how a discontented local power lets a stronger foreigner in.",
+      "kind": "people",
+      "aliases": [
+        "Ætolians",
+        "Aetolians"
+      ]
+    },
+    {
+      "term": "the Achaeans",
+      "gloss": "An ancient Greek league kept as friendly but deliberately weak allies by Rome.",
+      "kind": "people",
+      "aliases": [
+        "Achaeans"
+      ]
+    },
+    {
+      "term": "Macedonia",
+      "gloss": "The ancient kingdom in northern Greece, humbled by Rome. Home of Philip and Alexander the Great.",
+      "kind": "place"
+    },
+    {
+      "term": "Antiochus",
+      "gloss": "Antiochus III, the Seleucid king driven out of Greece by Rome — an example of a foreign power Rome refused to let gain a foothold.",
+      "kind": "person"
+    },
+    {
+      "term": "Philip",
+      "gloss": "Philip V of Macedon, whom Rome chose to fight in Greece rather than wait to face him in Italy.",
+      "kind": "person"
+    },
+    {
+      "term": "hectic fever",
+      "gloss": "A wasting, persistent fever — Machiavelli's medical metaphor for a political ill: easy to cure early but hard to detect, easy to detect later but hard to cure.",
+      "kind": "thing"
+    },
+    {
+      "term": "malady",
+      "gloss": "A disease or sickness — used figuratively for a problem afflicting a state.",
+      "kind": "word"
+    },
+    {
+      "term": "valour",
+      "gloss": "Courage and bravery, especially in war.",
+      "kind": "word"
+    },
+    {
+      "term": "the Florentines",
+      "gloss": "The people and government of Florence, Machiavelli's own republic, repeatedly cited for relying on unreliable hired or borrowed arms.",
+      "kind": "people",
+      "aliases": [
+        "Florentines",
+        "Florence"
+      ]
+    },
+    {
+      "term": "Genoa",
+      "gloss": "A maritime city-state in northwestern Italy that yielded to French power.",
+      "kind": "place"
+    },
+    {
+      "term": "Mantua",
+      "gloss": "A small north Italian state whose marquess sought French friendship.",
+      "kind": "place"
+    },
+    {
+      "term": "Pope Alexander",
+      "gloss": "Alexander VI (Rodrigo Borgia), pope from 1492 to 1503 and father of Cesare Borgia. He used both money and arms to enlarge Church and family power.",
+      "kind": "person",
+      "aliases": [
+        "Alexander",
+        "Alexander VI",
+        "Alexander the Sixth",
+        "Pope Alexander VI"
+      ]
+    },
+    {
+      "term": "temporal power",
+      "gloss": "Worldly, political authority over land and subjects, as opposed to spiritual or religious authority. The Church's growth in temporal power is a key theme.",
+      "kind": "concept",
+      "aliases": [
+        "temporal"
+      ]
+    },
+    {
+      "term": "the Church",
+      "gloss": "The Roman Catholic Church as a political power in Italy, which under Alexander VI and Julius II grew into a major temporal force.",
+      "kind": "concept"
+    },
+    {
+      "term": "Tuscany",
+      "gloss": "The central Italian region around Florence, a target of both Pope Alexander's and Cesare Borgia's ambitions.",
+      "kind": "place"
+    },
+    {
+      "term": "King of Spain",
+      "gloss": "The Spanish crown (Ferdinand of Aragon), which divided Naples with France and later drove the French out of southern Italy.",
+      "kind": "person",
+      "aliases": [
+        "Spaniards",
+        "Spain"
+      ]
+    },
+    {
+      "term": "aggrandize",
+      "gloss": "To make greater in power, wealth, or rank — Machiavelli's word for how Louis XII foolishly enlarged the Church.",
+      "kind": "word",
+      "aliases": [
+        "aggrandized",
+        "aggrandizement"
+      ]
+    },
+    {
+      "term": "statecraft",
+      "gloss": "The skilled art of governing and managing a state's affairs.",
+      "kind": "concept"
+    },
+    {
+      "term": "astuteness",
+      "gloss": "Shrewdness and cunning — sharp practical cleverness in gaining advantage.",
+      "kind": "word",
+      "aliases": [
+        "astute"
+      ]
+    },
+    {
+      "term": "Cesare Borgia",
+      "gloss": "Son of Pope Alexander VI (c.1475–1507), who carved out a state in the Romagna with his father's backing. Machiavelli's central case study of a 'new prince' acting with skill.",
+      "kind": "person",
+      "aliases": [
+        "Valentino",
+        "Duke Valentino",
+        "the duke",
+        "duke"
+      ]
+    },
+    {
+      "term": "Cardinal Rouen",
+      "gloss": "Georges d'Amboise, Archbishop of Rouen and cardinal, chief minister to Louis XII. Machiavelli recalls debating Italian and French politics with him.",
+      "kind": "person",
+      "aliases": [
+        "Rouen",
+        "Archbishop of Rouen"
+      ]
+    },
+    {
+      "term": "predominancy",
+      "gloss": "Dominant power or supremacy over others.",
+      "kind": "word"
+    },
+    {
+      "term": "Darius",
+      "gloss": "Darius III, the last Persian king, whose centralized empire fell wholly to Alexander once Darius himself was beaten and killed.",
+      "kind": "person"
+    },
+    {
+      "term": "Alexander the Great",
+      "gloss": "The Macedonian conqueror (356–323 BC) who took the Persian Empire. His successors held it easily because Darius's realm had no rival nobility to rebel.",
+      "kind": "person",
+      "aliases": [
+        "Alexander the Great"
+      ]
+    },
+    {
+      "term": "barons",
+      "gloss": "Hereditary nobles who hold lands and subjects of their own by right of blood, not by a ruler's favor. Their independent power makes a state like France hard to hold.",
+      "kind": "people",
+      "aliases": [
+        "baron"
+      ]
+    },
+    {
+      "term": "sanjaks",
+      "gloss": "Administrative districts of the Ottoman Empire, governed by officials the sultan appoints and removes at will.",
+      "kind": "thing"
+    },
+    {
+      "term": "prerogatives",
+      "gloss": "Special rights or privileges belonging to a person by rank or custom.",
+      "kind": "word",
+      "aliases": [
+        "prerogative"
+      ]
+    },
+    {
+      "term": "bondmen",
+      "gloss": "Men in servitude or bondage; slaves bound to a master.",
+      "kind": "people",
+      "aliases": [
+        "bondman"
+      ]
+    },
+    {
+      "term": "malcontents",
+      "gloss": "People who are dissatisfied and resentful, ready to back a rival or rebellion.",
+      "kind": "people",
+      "aliases": [
+        "malcontent"
+      ]
+    },
+    {
+      "term": "Pyrrhus",
+      "gloss": "King of Epirus (319–272 BC), famous for costly victories; cited as one who struggled to hold what he conquered.",
+      "kind": "person"
+    },
+    {
+      "term": "oligarchy",
+      "gloss": "Rule by a small group of powerful people. Machiavelli suggests installing a friendly one to control a conquered free city.",
+      "kind": "concept"
+    },
+    {
+      "term": "tribute",
+      "gloss": "Regular payment exacted from a subject state or people as a sign of submission.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Spartans",
+      "gloss": "The people of ancient Sparta, who held cities through installed oligarchies but still lost them — a cautionary example.",
+      "kind": "people",
+      "aliases": [
+        "Spartans",
+        "Sparta"
+      ]
+    },
+    {
+      "term": "Athens",
+      "gloss": "The ancient Greek city, held for a time by Sparta through an oligarchy.",
+      "kind": "place"
+    },
+    {
+      "term": "Thebes",
+      "gloss": "An ancient Greek city, likewise held briefly by Sparta.",
+      "kind": "place"
+    },
+    {
+      "term": "Capua",
+      "gloss": "An ancient Italian city that Rome dismantled rather than try to govern as a free state.",
+      "kind": "place"
+    },
+    {
+      "term": "Carthage",
+      "gloss": "The great rival city of Rome in North Africa, destroyed by the Romans.",
+      "kind": "place"
+    },
+    {
+      "term": "Numantia",
+      "gloss": "A Spanish city razed by Rome — cited with Carthage and Capua as places ruined to keep them down.",
+      "kind": "place"
+    },
+    {
+      "term": "Pisa",
+      "gloss": "A Tuscan city long held in subjection by Florence, which never forgot its lost liberty.",
+      "kind": "place"
+    },
+    {
+      "term": "vengeance",
+      "gloss": "Revenge; punishment inflicted in retaliation for a wrong.",
+      "kind": "word"
+    },
+    {
+      "term": "Moses",
+      "gloss": "The biblical leader who freed the Israelites — Machiavelli's example of a founder who needed opportunity (Egyptian oppression) plus his own ability, and who was an 'armed prophet.'",
+      "kind": "person"
+    },
+    {
+      "term": "Cyrus",
+      "gloss": "Cyrus the Great, founder of the Persian Empire — cited as a great man who rose by his own ability, seizing the chance of Median weakness.",
+      "kind": "person"
+    },
+    {
+      "term": "Romulus",
+      "gloss": "The legendary founder and first king of Rome — an example of a leader who turned a fortunate opportunity into a new state by his own skill.",
+      "kind": "person"
+    },
+    {
+      "term": "Theseus",
+      "gloss": "The legendary Athenian hero and king — listed among founders who needed both opportunity (the scattered Athenians) and personal ability.",
+      "kind": "person"
+    },
+    {
+      "term": "Israel",
+      "gloss": "The people of the Israelites, whom Moses led out of bondage in Egypt.",
+      "kind": "people",
+      "aliases": [
+        "people of Israel"
+      ]
+    },
+    {
+      "term": "Egypt",
+      "gloss": "The land where the Israelites were enslaved before Moses led them out — the 'opportunity' that made his rise possible.",
+      "kind": "place",
+      "aliases": [
+        "Egyptians"
+      ]
+    },
+    {
+      "term": "the Medes",
+      "gloss": "An ancient people whose soft, easy rule Cyrus exploited to found the Persian Empire.",
+      "kind": "people",
+      "aliases": [
+        "Medes"
+      ]
+    },
+    {
+      "term": "the Persians",
+      "gloss": "The people Cyrus led to overthrow the Medes and build an empire.",
+      "kind": "people",
+      "aliases": [
+        "Persians"
+      ]
+    },
+    {
+      "term": "preceptor",
+      "gloss": "A teacher or instructor — here, God as the one who instructed Moses.",
+      "kind": "word"
+    },
+    {
+      "term": "innovator",
+      "gloss": "One who introduces a new order of things — Machiavelli warns this is the most dangerous role, opposed by all who profited from the old ways.",
+      "kind": "concept",
+      "aliases": [
+        "innovators"
+      ]
+    },
+    {
+      "term": "armed prophets",
+      "gloss": "Founders who could back their new order with force, and so succeeded — contrasted with 'unarmed prophets' who relied on persuasion and were destroyed.",
+      "kind": "concept",
+      "aliases": [
+        "armed prophet",
+        "unarmed ones",
+        "unarmed prophets"
+      ]
+    },
+    {
+      "term": "Savonarola",
+      "gloss": "Fra Girolamo Savonarola, the Florentine friar and reformer (1452–1498) who lost his power once the crowd stopped believing him — Machiavelli's 'unarmed prophet.'",
+      "kind": "person",
+      "aliases": [
+        "Fra Girolamo Savonarola"
+      ]
+    },
+    {
+      "term": "Hiero",
+      "gloss": "Hiero II of Syracuse (c.307–216 BC), who rose from private citizen to prince by his own ability and disbanded unreliable mercenaries for his own troops.",
+      "kind": "person",
+      "aliases": [
+        "Hiero the Syracusan",
+        "Hiero II"
+      ]
+    },
+    {
+      "term": "Syracuse",
+      "gloss": "The leading Greek city of Sicily, ruled by Hiero and later seized by Agathocles.",
+      "kind": "place",
+      "aliases": [
+        "Syracusan",
+        "Syracusans"
+      ]
+    },
+    {
+      "term": "edifice",
+      "gloss": "A building or large structure — used figuratively for the power-base a ruler constructs.",
+      "kind": "word"
+    },
+    {
+      "term": "Ionia",
+      "gloss": "The Greek-settled coast of Asia Minor, where Darius set up local princes to hold the cities for him.",
+      "kind": "place"
+    },
+    {
+      "term": "the Hellespont",
+      "gloss": "The narrow strait (modern Dardanelles) between Europe and Asia, near which Darius installed client princes.",
+      "kind": "place",
+      "aliases": [
+        "Hellespont"
+      ]
+    },
+    {
+      "term": "the Orsini",
+      "gloss": "A powerful Roman baronial family and faction, used and then crushed by Cesare Borgia.",
+      "kind": "people",
+      "aliases": [
+        "Orsini"
+      ]
+    },
+    {
+      "term": "the Colonnesi",
+      "gloss": "A rival powerful Roman baronial family and faction (the Colonna), set against the Orsini in Rome's chronic feuding.",
+      "kind": "people",
+      "aliases": [
+        "Colonnesi",
+        "Colonna",
+        "Colonna house"
+      ]
+    },
+    {
+      "term": "Faenza",
+      "gloss": "A town in the Romagna, under Venetian protection, taken by Cesare Borgia.",
+      "kind": "place"
+    },
+    {
+      "term": "Rimini",
+      "gloss": "A town in the Romagna, likewise contested and brought under Borgia's control.",
+      "kind": "place"
+    },
+    {
+      "term": "Bologna",
+      "gloss": "A major city of north-central Italy, attacked by Cesare Borgia and later targeted by Julius II.",
+      "kind": "place"
+    },
+    {
+      "term": "Duchy of Urbino",
+      "gloss": "An Italian duchy seized by Cesare Borgia as he expanded his state.",
+      "kind": "place",
+      "aliases": [
+        "Urbino"
+      ]
+    },
+    {
+      "term": "Sinigalia",
+      "gloss": "The town where, in December 1502, Cesare Borgia lured and treacherously trapped and killed the rebellious Orsini and Vitelli leaders.",
+      "kind": "place"
+    },
+    {
+      "term": "Ramiro d'Orco",
+      "gloss": "The harsh governor Cesare Borgia set over the Romagna to restore order, then publicly executed to deflect the people's hatred onto him.",
+      "kind": "person",
+      "aliases": [
+        "Ramiro",
+        "Messer Ramiro d'Orco"
+      ]
+    },
+    {
+      "term": "Cesena",
+      "gloss": "A town in the Romagna where Borgia had Ramiro d'Orco's split body displayed in the square as a warning.",
+      "kind": "place"
+    },
+    {
+      "term": "piazza",
+      "gloss": "A public square in an Italian town.",
+      "kind": "thing"
+    },
+    {
+      "term": "Perugia",
+      "gloss": "A central Italian city; site of the Magione meeting where the Orsini plotted against Borgia, and later one of his holdings.",
+      "kind": "place"
+    },
+    {
+      "term": "Piombino",
+      "gloss": "A small coastal Tuscan state acquired by Cesare Borgia.",
+      "kind": "place"
+    },
+    {
+      "term": "Gaeta",
+      "gloss": "A fortified coastal town near Naples, besieged by the Spaniards during the Franco-Spanish war in the south.",
+      "kind": "place"
+    },
+    {
+      "term": "the Vitelli",
+      "gloss": "A military family and faction (the Vitelleschi) allied with then destroyed by Cesare Borgia at Sinigalia.",
+      "kind": "people",
+      "aliases": [
+        "Vitelli",
+        "Vitelleschi",
+        "Vitellozzo"
+      ]
+    },
+    {
+      "term": "the Baglioni",
+      "gloss": "A leading family of Perugia, named among the rivals who could not move against Borgia even while Alexander lay dying.",
+      "kind": "people",
+      "aliases": [
+        "Baglioni"
+      ]
+    },
+    {
+      "term": "Signor Pagolo",
+      "gloss": "Paolo Orsini, the Orsini leader whom Borgia plied with gifts to lure the family to their doom at Sinigalia.",
+      "kind": "person",
+      "aliases": [
+        "Pagolo"
+      ]
+    },
+    {
+      "term": "Lucca",
+      "gloss": "A Tuscan city-state that yielded to Borgia's rising power.",
+      "kind": "place",
+      "aliases": [
+        "Lucchese"
+      ]
+    },
+    {
+      "term": "Siena",
+      "gloss": "A Tuscan city-state that submitted as Borgia's reputation grew.",
+      "kind": "place",
+      "aliases": [
+        "Sienese"
+      ]
+    },
+    {
+      "term": "magnanimous",
+      "gloss": "Generous and noble in spirit, especially toward rivals or subjects.",
+      "kind": "word"
+    },
+    {
+      "term": "liberal",
+      "gloss": "Generous and free in giving — a quality Machiavelli lists among a successful prince's outward virtues.",
+      "kind": "word"
+    },
+    {
+      "term": "pontiff",
+      "gloss": "The pope, head of the Catholic Church.",
+      "kind": "person",
+      "aliases": [
+        "pontiffs",
+        "pontificate"
+      ]
+    },
+    {
+      "term": "cardinal",
+      "gloss": "A senior Church official ranking just below the pope; cardinals elect the next pope and could be dangerous enemies to a prince.",
+      "kind": "person",
+      "aliases": [
+        "cardinals"
+      ]
+    },
+    {
+      "term": "the college",
+      "gloss": "The College of Cardinals — the body of cardinals that elects the pope, which Borgia tried to win to his side.",
+      "kind": "concept"
+    },
+    {
+      "term": "San Pietro ad Vincula",
+      "gloss": "Cardinal Giuliano della Rovere (later Pope Julius II), titled from his Roman church — an enemy Borgia had injured yet unwisely let become pope.",
+      "kind": "person"
+    },
+    {
+      "term": "Agathocles",
+      "gloss": "Agathocles of Syracuse (361–289 BC), a potter's son who became king through massacre and treachery — Machiavelli's example of power gained by sheer wickedness, which brings rule but not glory.",
+      "kind": "person",
+      "aliases": [
+        "Agathocles the Sicilian"
+      ]
+    },
+    {
+      "term": "Amilcar",
+      "gloss": "The Carthaginian commander Hamilcar, with whom Agathocles colluded in his seizure of Syracuse.",
+      "kind": "person"
+    },
+    {
+      "term": "the Carthaginians",
+      "gloss": "The people of Carthage, Rome's great rival; here Agathocles's enemies in Sicily and Africa.",
+      "kind": "people",
+      "aliases": [
+        "Carthaginians"
+      ]
+    },
+    {
+      "term": "Praetor",
+      "gloss": "A high Roman-style magistrate or military commander; the rank Agathocles reached in Syracuse before seizing power.",
+      "kind": "thing"
+    },
+    {
+      "term": "Oliverotto da Fermo",
+      "gloss": "A captain who seized his home town of Fermo by murdering his uncle and the town's leaders at a banquet — Machiavelli's modern example of power won by wickedness.",
+      "kind": "person",
+      "aliases": [
+        "Oliverotto"
+      ]
+    },
+    {
+      "term": "Fermo",
+      "gloss": "The town Oliverotto seized by treachery and massacre.",
+      "kind": "place",
+      "aliases": [
+        "Fermians"
+      ]
+    },
+    {
+      "term": "Giovanni Fogliani",
+      "gloss": "Oliverotto's uncle and guardian, whom Oliverotto murdered along with the town's leading men to take Fermo.",
+      "kind": "person",
+      "aliases": [
+        "Giovanni"
+      ]
+    },
+    {
+      "term": "parricide",
+      "gloss": "The murder of a parent or near relative — here Oliverotto's killing of the uncle who raised him.",
+      "kind": "word"
+    },
+    {
+      "term": "viands",
+      "gloss": "Items of food, especially at a feast.",
+      "kind": "word"
+    },
+    {
+      "term": "nefarious",
+      "gloss": "Wicked, villainous, criminal.",
+      "kind": "word"
+    },
+    {
+      "term": "abject",
+      "gloss": "Utterly low, wretched, and degraded in condition.",
+      "kind": "word"
+    },
+    {
+      "term": "severities",
+      "gloss": "Harsh or cruel measures — Marriott's word for Machiavelli's crudelta; 'well-used' if done at one stroke for security, 'badly used' if drawn out.",
+      "kind": "concept",
+      "aliases": [
+        "severity"
+      ]
+    },
+    {
+      "term": "civil principality",
+      "gloss": "A state in which a leading citizen becomes prince by the favor of his fellow citizens, rather than by crime or violence.",
+      "kind": "concept"
+    },
+    {
+      "term": "the nobles",
+      "gloss": "The wealthy and powerful upper class of a city, who wish to rule and oppress the common people. Machiavelli sets their interests against the people's.",
+      "kind": "people",
+      "aliases": [
+        "nobles"
+      ]
+    },
+    {
+      "term": "the people",
+      "gloss": "The common citizens, who wish only not to be oppressed. Machiavelli argues a prince should ground his power on them rather than on the nobles.",
+      "kind": "people"
+    },
+    {
+      "term": "anarchy",
+      "gloss": "A state of disorder with no effective government — one possible outcome of the clash between nobles and people.",
+      "kind": "concept"
+    },
+    {
+      "term": "rapacious",
+      "gloss": "Greedy and grasping; aggressively seizing what one can.",
+      "kind": "word"
+    },
+    {
+      "term": "pusillanimity",
+      "gloss": "Cowardice; a timid lack of courage or resolve.",
+      "kind": "word"
+    },
+    {
+      "term": "Nabis",
+      "gloss": "The ruler ('tyrant') of Sparta (d. 192 BC) who, backed by his people, withstood all Greece and a Roman army — proof of grounding power on the people.",
+      "kind": "person"
+    },
+    {
+      "term": "the Gracchi",
+      "gloss": "The Roman reformer brothers Tiberius and Gaius Gracchus, cited as private men ruined when they trusted the fickle people to protect them.",
+      "kind": "people",
+      "aliases": [
+        "Gracchi"
+      ]
+    },
+    {
+      "term": "Giorgio Scali",
+      "gloss": "A Florentine leader who, like the Gracchi, was destroyed after relying on the people's support — a warning to private citizens.",
+      "kind": "person",
+      "aliases": [
+        "Messer Giorgio Scali"
+      ]
+    },
+    {
+      "term": "magistrates",
+      "gloss": "Officials who administer the law and government. A prince who rules through them is weaker than one who can command directly.",
+      "kind": "people",
+      "aliases": [
+        "magistrate",
+        "magistracy"
+      ]
+    },
+    {
+      "term": "odious",
+      "gloss": "Hateful; deserving or provoking hatred.",
+      "kind": "word"
+    },
+    {
+      "term": "Germany",
+      "gloss": "Here the free imperial cities of the German lands, cited as well-fortified, self-provisioning towns that obey the emperor only when convenient.",
+      "kind": "place"
+    },
+    {
+      "term": "the emperor",
+      "gloss": "The Holy Roman Emperor, nominal overlord of Italy and Germany whose actual power there had faded.",
+      "kind": "person",
+      "aliases": [
+        "emperor"
+      ]
+    },
+    {
+      "term": "artillery",
+      "gloss": "Heavy weapons and guns used to defend or attack fortified places.",
+      "kind": "thing"
+    },
+    {
+      "term": "ecclesiastical",
+      "gloss": "Belonging to the Church. An ecclesiastical principality is a state ruled by the Church, uniquely secure because it rests on ancient religious authority.",
+      "kind": "concept",
+      "aliases": [
+        "ecclesiastical principalities"
+      ]
+    },
+    {
+      "term": "potentates",
+      "gloss": "Powerful rulers or sovereigns.",
+      "kind": "people",
+      "aliases": [
+        "potentate"
+      ]
+    },
+    {
+      "term": "Sixtus",
+      "gloss": "Pope Sixtus IV, named as a bold pope still hemmed in by Rome's feuding barons.",
+      "kind": "person"
+    },
+    {
+      "term": "Pope Leo",
+      "gloss": "Leo X (a Medici), the reigning pope when Machiavelli wrote, who inherited a strengthened papacy and is flatteringly praised.",
+      "kind": "person",
+      "aliases": [
+        "Pope Leo X",
+        "Leo"
+      ]
+    },
+    {
+      "term": "the Medici",
+      "gloss": "The ruling family of Florence, restored to power in 1512; The Prince was written to win their favor. Leo X was a Medici.",
+      "kind": "people",
+      "aliases": [
+        "Medici",
+        "de' Medici"
+      ]
+    },
+    {
+      "term": "prelates",
+      "gloss": "High-ranking Church officials such as bishops and cardinals.",
+      "kind": "people",
+      "aliases": [
+        "prelate"
+      ]
+    },
+    {
+      "term": "soldiery",
+      "gloss": "Soldiers collectively; a body of troops, especially considered by type (own, mercenary, auxiliary).",
+      "kind": "concept"
+    },
+    {
+      "term": "mercenaries",
+      "gloss": "Hired soldiers who fight for pay rather than loyalty. Machiavelli condemns them as useless and dangerous — disunited, faithless, and the ruin of Italy.",
+      "kind": "people",
+      "aliases": [
+        "mercenary",
+        "mercenary captains",
+        "mercenary soldiery"
+      ]
+    },
+    {
+      "term": "auxiliaries",
+      "gloss": "Troops borrowed from another ruler to help in war. Machiavelli calls them even more dangerous than mercenaries: united and loyal to their own master, so victory leaves you their captive.",
+      "kind": "people",
+      "aliases": [
+        "auxiliary"
+      ]
+    },
+    {
+      "term": "stipend",
+      "gloss": "A fixed regular payment, here the pay that is a mercenary's only motive to serve.",
+      "kind": "word"
+    },
+    {
+      "term": "the Switzers",
+      "gloss": "The Swiss — citizen-soldiers Machiavelli admires as fully armed and free, in contrast to mercenary-ridden Italy.",
+      "kind": "people",
+      "aliases": [
+        "Switzers"
+      ]
+    },
+    {
+      "term": "Epaminondas",
+      "gloss": "The Theban general; after his death the Thebans hired Philip of Macedon, who then stripped them of their liberty.",
+      "kind": "person"
+    },
+    {
+      "term": "Philip of Macedon",
+      "gloss": "Philip II of Macedon, hired by the Thebans as a captain and who then took their freedom — an example of the danger of foreign commanders.",
+      "kind": "person"
+    },
+    {
+      "term": "the Thebans",
+      "gloss": "The people of Thebes, who made Philip of Macedon their captain and lost their liberty to him.",
+      "kind": "people",
+      "aliases": [
+        "Thebans"
+      ]
+    },
+    {
+      "term": "Caravaggio",
+      "gloss": "Site of the 1448 battle where Francesco Sforza beat the Venetians, then switched sides against his Milanese employers.",
+      "kind": "place"
+    },
+    {
+      "term": "Queen Johanna",
+      "gloss": "Joanna II of Naples, abandoned by her hired captain Sforza, forcing her to seek protection from Aragon.",
+      "kind": "person",
+      "aliases": [
+        "Johanna",
+        "Queen Johanna of Naples"
+      ]
+    },
+    {
+      "term": "King of Aragon",
+      "gloss": "The Aragonese crown to which Queen Joanna of Naples turned for protection.",
+      "kind": "person",
+      "aliases": [
+        "Aragon"
+      ]
+    },
+    {
+      "term": "Giovanni Acuto",
+      "gloss": "Sir John Hawkwood, the English mercenary captain of the 'White Company' who served Florence — cited as a hired commander whose loyalty was never truly tested.",
+      "kind": "person"
+    },
+    {
+      "term": "Braccio",
+      "gloss": "Braccio da Montone, leader of the Bracceschi mercenary school and a rival of Sforza for control of Italy's arms.",
+      "kind": "person",
+      "aliases": [
+        "Bracceschi"
+      ]
+    },
+    {
+      "term": "Pagolo Vitelli",
+      "gloss": "A skilled captain hired by Florence; Machiavelli notes the danger had he taken Pisa, since the city would then have been at his mercy.",
+      "kind": "person"
+    },
+    {
+      "term": "Carmignuola",
+      "gloss": "Francesco Bussone, count of Carmagnola, a great captain whom Venice, fearing his lukewarm loyalty, finally had murdered.",
+      "kind": "person",
+      "aliases": [
+        "Carmagnola"
+      ]
+    },
+    {
+      "term": "Vaila",
+      "gloss": "The 1509 battle (Agnadello) where Venice lost in a single day what it had taken eight centuries to gain.",
+      "kind": "place"
+    },
+    {
+      "term": "Alberigo da Conio",
+      "gloss": "Alberico da Barbiano, leader of the all-Italian 'Company of St George,' from whose school the great mercenary captains Braccio and Sforza emerged.",
+      "kind": "person"
+    },
+    {
+      "term": "Ferdinand",
+      "gloss": "Ferdinand of Aragon, 'the Catholic' (1452–1516), King of Spain, who 'ravaged' Italy and whose troops Julius II called in as auxiliaries.",
+      "kind": "person",
+      "aliases": [
+        "Ferdinand V",
+        "Ferdinand, King of Spain"
+      ]
+    },
+    {
+      "term": "condottieri",
+      "gloss": "The mercenary commanders of Renaissance Italy who hired out their armies — Machiavelli's prime example of unreliable hired force.",
+      "kind": "people"
+    },
+    {
+      "term": "infidels",
+      "gloss": "Non-believers — here the Muslim Turks, whose settlement marked the start of Greece's servitude.",
+      "kind": "people",
+      "aliases": [
+        "infidel"
+      ]
+    },
+    {
+      "term": "Ravenna",
+      "gloss": "Site of the 1512 battle where Julius II's auxiliaries were routed, though chance still saved him.",
+      "kind": "place"
+    },
+    {
+      "term": "Imola",
+      "gloss": "A town in the Romagna captured by Cesare Borgia with French auxiliaries.",
+      "kind": "place"
+    },
+    {
+      "term": "Forli",
+      "gloss": "A town in the Romagna taken by Cesare Borgia; also home of the 'lady of Forli' (Caterina Sforza).",
+      "kind": "place",
+      "aliases": [
+        "lady of Forli",
+        "Forlì"
+      ]
+    },
+    {
+      "term": "dastardy",
+      "gloss": "Cowardice; the chief danger Machiavelli ascribes to mercenaries (whereas the danger of auxiliaries is their very valor).",
+      "kind": "word"
+    },
+    {
+      "term": "fortify",
+      "gloss": "To strengthen a town or position with walls, ditches, and defenses against attack.",
+      "kind": "word",
+      "aliases": [
+        "fortified",
+        "fortify his town"
+      ]
+    },
+    {
+      "term": "fortresses",
+      "gloss": "Strongly fortified defensive structures; strongholds a ruler may build to secure a city. (A topic Machiavelli takes up in his discussion of holding states.)",
+      "kind": "thing",
+      "aliases": [
+        "fortress"
+      ]
+    },
+    {
+      "term": "Emperor of Constantinople",
+      "gloss": "The Byzantine emperor John Cantacuzenus, who let Turkish auxiliaries into Greece and could not get them to leave.",
+      "kind": "person"
+    },
+    {
+      "term": "Philopoemen",
+      "gloss": "A Greek general and statesman of the Achaean League (c. 252–183 BC), praised by Machiavelli for always studying the rules of war even in peacetime. Often called \"the last of the Greeks.\"",
+      "kind": "person"
+    },
+    {
+      "term": "Achaeans",
+      "gloss": "A people of ancient Greece organized in the Achaean League; here, allies of Rome whom Machiavelli cites as an example of a state pressured to take sides in war.",
+      "kind": "people",
+      "aliases": [
+        "Achaean",
+        "Achaeans"
+      ]
+    },
+    {
+      "term": "Scipio",
+      "gloss": "Scipio Africanus, the Roman general who defeated Hannibal. Machiavelli uses him as the model of a commander whose excessive mercy let his soldiers grow undisciplined.",
+      "kind": "person"
+    },
+    {
+      "term": "Hannibal",
+      "gloss": "The Carthaginian general who invaded Italy in the Second Punic War. Machiavelli praises his \"inhuman cruelty\" as what held his mixed army together and made him feared.",
+      "kind": "person"
+    },
+    {
+      "term": "Xenophon",
+      "gloss": "Ancient Greek writer whose Cyropaedia, a flattering life of Cyrus the Great, Machiavelli treats as a manual of princely virtues to imitate.",
+      "kind": "person"
+    },
+    {
+      "term": "Fabius Maximus",
+      "gloss": "Roman senator and general famous for cautious delay; here he is the one who rebukes Scipio in the Senate, calling him \"the corrupter of the Roman soldiery.\"",
+      "kind": "person"
+    },
+    {
+      "term": "the lion and the fox",
+      "gloss": "Machiavelli's image of the two natures a prince must combine: the lion's force to frighten off wolves and the fox's cunning to detect traps. Neither alone is enough.",
+      "kind": "concept",
+      "aliases": [
+        "the fox and the lion",
+        "the fox",
+        "the lion"
+      ]
+    },
+    {
+      "term": "Chiron",
+      "gloss": "The wise centaur of Greek myth, half man and half beast, who tutored heroes like Achilles. Machiavelli reads him as a lesson that a prince must master both human and animal natures.",
+      "kind": "person"
+    },
+    {
+      "term": "Centaur",
+      "gloss": "A mythical creature, half human and half horse. Machiavelli invokes the centaur Chiron to argue a prince needs both the human way (law) and the beast's way (force).",
+      "kind": "thing"
+    },
+    {
+      "term": "Achilles",
+      "gloss": "The greatest Greek warrior of the Trojan War, tutored by the centaur Chiron; cited as one whom princes imitate and as proof that even heroes were taught both man's and beast's natures.",
+      "kind": "person"
+    },
+    {
+      "term": "Dido",
+      "gloss": "The legendary queen and founder of Carthage in Virgil's Aeneid. Machiavelli quotes her excusing harsh rule because her kingdom is new and unsettled.",
+      "kind": "person"
+    },
+    {
+      "term": "Severus",
+      "gloss": "Septimius Severus, Roman emperor (193–211). Machiavelli holds him up as a new prince who succeeded by combining the cunning of the fox and the force of the lion.",
+      "kind": "person"
+    },
+    {
+      "term": "Caracalla",
+      "gloss": "Roman emperor (211–217), son of Severus, here called Antoninus Caracalla; admired by his soldiers but so cruel he was murdered by one of his own men.",
+      "kind": "person",
+      "aliases": [
+        "Antoninus",
+        "Antoninus Caracalla"
+      ]
+    },
+    {
+      "term": "Marcus",
+      "gloss": "Marcus Aurelius, the philosopher-emperor; Machiavelli's example of a just, virtuous ruler who could govern well because he inherited the throne, unlike a new prince.",
+      "kind": "person",
+      "aliases": [
+        "Marcus the philosopher"
+      ]
+    },
+    {
+      "term": "Commodus",
+      "gloss": "Roman emperor (180–192), son of Marcus Aurelius; an example of a ruler ruined by cruelty and by degrading himself, fighting as a gladiator and losing all dignity.",
+      "kind": "person"
+    },
+    {
+      "term": "Pertinax",
+      "gloss": "Roman emperor briefly in 193, overthrown because the soldiers, used to license under Commodus, would not accept the strict discipline he tried to impose.",
+      "kind": "person"
+    },
+    {
+      "term": "Maximinus",
+      "gloss": "Roman emperor (235–238) of lowly birth who had once kept sheep; despised for his origins and barbarity, he was killed by his own army.",
+      "kind": "person"
+    },
+    {
+      "term": "praetorian",
+      "gloss": "Of the Praetorian Guard, the elite soldiers stationed in Rome who guarded—and often made or murdered—the emperor. Here they kill the emperor Pertinax.",
+      "kind": "word",
+      "aliases": [
+        "praetorian soldiers"
+      ]
+    },
+    {
+      "term": "the Soldan",
+      "gloss": "The sultan of Egypt (the Mamluk ruler), whose throne passed not to his sons but to whoever the soldiers elected—an arrangement Machiavelli compares to the papacy.",
+      "kind": "person",
+      "aliases": [
+        "Soldan"
+      ]
+    },
+    {
+      "term": "Ferdinand of Aragon",
+      "gloss": "King of Spain who unified the country, conquered Granada, and expelled the Moors; Machiavelli's living example of a prince who wins fame through great enterprises and the cover of religion.",
+      "kind": "person",
+      "aliases": [
+        "Ferdinand",
+        "the present King of Spain",
+        "King of Spain"
+      ]
+    },
+    {
+      "term": "Granada",
+      "gloss": "The last Muslim kingdom in Spain, conquered by Ferdinand in 1492; Machiavelli treats the campaign as the foundation of Ferdinand's power and reputation.",
+      "kind": "place"
+    },
+    {
+      "term": "the Moors",
+      "gloss": "The Muslim population of Spain, whom Ferdinand expelled under the banner of religion—what Machiavelli pointedly calls \"pious cruelty.\"",
+      "kind": "people",
+      "aliases": [
+        "Moors"
+      ]
+    },
+    {
+      "term": "Pandolfo Petrucci",
+      "gloss": "Ruler of Siena, cited twice: once as a prince who governed through men he had once distrusted, and once as the master of the able servant Antonio da Venafro.",
+      "kind": "person",
+      "aliases": [
+        "Pandolfo"
+      ]
+    },
+    {
+      "term": "Guelph and Ghibelline",
+      "gloss": "The two great rival factions of medieval and Renaissance Italy (broadly, papal versus imperial). Machiavelli cites Venice's fostering of their feuds as a now-discredited way to keep towns divided.",
+      "kind": "concept",
+      "aliases": [
+        "Guelph",
+        "Ghibelline"
+      ]
+    },
+    {
+      "term": "the Countess of Forli",
+      "gloss": "Caterina Sforza, who held the fortress of Forli after her husband's murder; Machiavelli's example that fortresses help less than simply not being hated by the people.",
+      "kind": "person",
+      "aliases": [
+        "Countess of Forli",
+        "Catherine Sforza"
+      ]
+    },
+    {
+      "term": "Maximilian",
+      "gloss": "Maximilian I, Holy Roman Emperor; Machiavelli's example of a secretive ruler who took no real counsel and so was forever changing his mind and trusted by no one.",
+      "kind": "person"
+    },
+    {
+      "term": "your illustrious house",
+      "gloss": "The Medici family, to whom Machiavelli dedicates the book and whom he urges in the final chapter to seize the chance to liberate Italy.",
+      "kind": "concept",
+      "aliases": [
+        "illustrious house"
+      ]
+    },
+    {
+      "term": "the barbarians",
+      "gloss": "Machiavelli's term for the foreign armies—French, Spanish, and others—then overrunning Italy. The final chapter is a call to drive them out.",
+      "kind": "concept",
+      "aliases": [
+        "barbarians",
+        "barbarous dominion"
+      ]
+    },
+    {
+      "term": "Petrarch",
+      "gloss": "The great fourteenth-century Italian poet, quoted at the very end of the book in a patriotic verse that \"the old Roman valour is not dead\" in Italian hearts.",
+      "kind": "person"
+    },
+    {
+      "term": "free will",
+      "gloss": "The human power to direct one's own actions, which Machiavelli insists fortune does not wholly cancel—she leaves roughly half of life to our own choices.",
+      "kind": "concept"
+    },
+    {
+      "term": "liberality",
+      "gloss": "Open-handed generosity. Machiavelli argues that a prince who tries to be famous for it ends up taxing his people and earning hatred, so a reputation for meanness is safer.",
+      "kind": "concept"
+    },
+    {
+      "term": "mean",
+      "gloss": "Stingy or tight-fisted with money. Machiavelli argues that being thought \"mean\" is a useful vice, since thrift lets a prince rule without crushing his subjects with taxes.",
+      "kind": "word",
+      "aliases": [
+        "meanness",
+        "miserly"
+      ]
+    },
+    {
+      "term": "clemency",
+      "gloss": "Mercy or mildness in punishing. Machiavelli says a prince should wish to seem clement but must not let mercy become the disorder that harms the whole people.",
+      "kind": "word",
+      "aliases": [
+        "clement"
+      ]
+    },
+    {
+      "term": "patrimony",
+      "gloss": "Inherited property or estate. Machiavelli's point: men forget a father's death sooner than the loss of their patrimony, so a prince must never seize people's property.",
+      "kind": "word"
+    },
+    {
+      "term": "dissembler",
+      "gloss": "One who hides his true intentions and feelings. Machiavelli says a prince must be a great pretender and dissembler, masking when he breaks faith.",
+      "kind": "word",
+      "aliases": [
+        "dissemble",
+        "dissembling"
+      ]
+    },
+    {
+      "term": "to keep faith",
+      "gloss": "To keep one's word, honor promises and treaties. Machiavelli's notorious advice: a prince should not keep faith when it works against him and the reason for the promise is gone.",
+      "kind": "concept",
+      "aliases": [
+        "keep faith",
+        "good faith",
+        "the faith of princes"
+      ]
+    },
+    {
+      "term": "flatterers",
+      "gloss": "Courtiers who tell a prince only what he wants to hear. Machiavelli warns they are the great danger of courts; the remedy is a few wise advisers licensed to tell the truth.",
+      "kind": "concept",
+      "aliases": [
+        "flatterer"
+      ]
+    },
+    {
+      "term": "contempt",
+      "gloss": "Being held in scorn as weak or worthless. Together with hatred, it is one of the two things Machiavelli says a prince must above all avoid.",
+      "kind": "concept",
+      "aliases": [
+        "contemptible",
+        "despised"
+      ]
+    },
+    {
+      "term": "effeminate",
+      "gloss": "Soft, weak, unmanly—lacking the toughness expected of a ruler. A quality Machiavelli says brings a prince into contempt.",
+      "kind": "word",
+      "aliases": [
+        "effeminacy"
+      ]
+    },
+    {
+      "term": "irresolute",
+      "gloss": "Wavering, unable to decide. Machiavelli faults irresolute princes who stay neutral to dodge danger and are ruined for it.",
+      "kind": "word"
+    },
+    {
+      "term": "guerdon",
+      "gloss": "An archaic word for a reward or prize. In the Roman envoy's warning, a neutral state becomes \"the guerdon of the conqueror\"—the winner's spoil.",
+      "kind": "word"
+    },
+    {
+      "term": "seigniors",
+      "gloss": "Lords or rulers (from Italian signori). Here, the Italian princes who lost their states through their own failings rather than bad luck.",
+      "kind": "word",
+      "aliases": [
+        "seignior"
+      ]
+    },
+    {
+      "term": "ignominies",
+      "gloss": "Disgraces or public shames. Machiavelli says being unarmed and thus despised is one of the ignominies a prince must guard against.",
+      "kind": "word",
+      "aliases": [
+        "ignominy"
+      ]
+    },
+    {
+      "term": "contumeliously",
+      "gloss": "Insultingly, with contempt. Used of Caracalla, who had \"contumeliously\" killed a soldier's brother—an insult that led to his own murder.",
+      "kind": "word"
+    },
+    {
+      "term": "covetous",
+      "gloss": "Greedy, eager to grab what belongs to others. One of the base traits Machiavelli ascribes to people in general when he argues fear is safer than love.",
+      "kind": "word"
+    },
+    {
+      "term": "manna",
+      "gloss": "The miraculous food God sent the Israelites in the desert. Machiavelli lists it among signs that God favors the liberation of Italy—\"it has rained manna.\"",
+      "kind": "thing"
+    }
+  ]
+}

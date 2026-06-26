@@ -1924,6 +1924,2221 @@
         "chariots",
         "car"
       ]
+    },
+    {
+      "term": "Atreus",
+      "gloss": "Father of Agamemnon and Menelaus; the two are constantly called 'the sons of Atreus.'",
+      "kind": "person",
+      "aliases": [
+        "son of Atreus",
+        "sons of Atreus"
+      ]
+    },
+    {
+      "term": "Peleus",
+      "gloss": "Achilles's father, a mortal married to the sea-goddess Thetis; Achilles is often named 'son of Peleus.'",
+      "kind": "person",
+      "aliases": [
+        "son of Peleus"
+      ]
+    },
+    {
+      "term": "Clytemnestra",
+      "gloss": "Agamemnon's wife back home, whom he says he values less than the captive Chryseis.",
+      "kind": "person"
+    },
+    {
+      "term": "Cronus",
+      "gloss": "Father of Zeus; Zeus is repeatedly called 'son of Cronus.'",
+      "kind": "god",
+      "aliases": [
+        "son of Cronus",
+        "crooked-minded Cronus"
+      ]
+    },
+    {
+      "term": "Olympus",
+      "gloss": "The high mountain that is home of the gods.",
+      "kind": "place"
+    },
+    {
+      "term": "Lemnos",
+      "gloss": "The island where Hephaestus landed when Zeus once hurled him from heaven.",
+      "kind": "place"
+    },
+    {
+      "term": "paean",
+      "gloss": "A hymn of praise and thanksgiving, here sung to Apollo to appease him.",
+      "kind": "concept"
+    },
+    {
+      "term": "scepter",
+      "gloss": "A staff carried as the emblem of a king's or speaker's authority; whoever holds it has the floor.",
+      "kind": "thing",
+      "aliases": [
+        "scepter-bearing"
+      ]
+    },
+    {
+      "term": "the far-shooter",
+      "gloss": "A standing title for Apollo, the archer-god who strikes from a distance with his arrows.",
+      "kind": "god",
+      "aliases": [
+        "far-shooter",
+        "who strikes from afar",
+        "Phoebus Apollo",
+        "Phoebus",
+        "Smintheus"
+      ]
+    },
+    {
+      "term": "swift-footed",
+      "gloss": "A recurring epithet of Achilles, marking him as the fastest of the Greek runners.",
+      "kind": "word",
+      "aliases": [
+        "swift-footed Achilles",
+        "swift runner"
+      ]
+    },
+    {
+      "term": "white-armed Hera",
+      "gloss": "A standing epithet for Hera, queen of the gods and wife of Zeus.",
+      "kind": "god",
+      "aliases": [
+        "white-armed",
+        "ox-eyed lady Hera",
+        "ox-eyed",
+        "golden-throned Hera"
+      ]
+    },
+    {
+      "term": "storm-shield",
+      "gloss": "Zeus's and Athena's terrifying divine shield (the aegis), tasseled with gold, that spreads panic in battle.",
+      "kind": "thing",
+      "aliases": [
+        "aegis",
+        "Zeus who holds the storm-shield",
+        "Zeus who wields the storm-shield"
+      ]
+    },
+    {
+      "term": "Talthybius",
+      "gloss": "Agamemnon's chief herald and messenger.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurybates",
+      "gloss": "A herald serving Agamemnon (and elsewhere Odysseus).",
+      "kind": "person"
+    },
+    {
+      "term": "Ethiopians",
+      "gloss": "A distant, blameless people at the edge of the world, where Zeus and the gods go to feast.",
+      "kind": "people"
+    },
+    {
+      "term": "Ocean",
+      "gloss": "The great river the ancients believed encircled the whole earth.",
+      "kind": "place"
+    },
+    {
+      "term": "Phrygia",
+      "gloss": "A region of Asia Minor, allied with or neighboring Troy.",
+      "kind": "place"
+    },
+    {
+      "term": "Pelops",
+      "gloss": "An ancestor of Agamemnon, in the descent of the royal scepter.",
+      "kind": "person"
+    },
+    {
+      "term": "Thyestes",
+      "gloss": "Brother of Atreus and a holder of the family scepter before Agamemnon.",
+      "kind": "person"
+    },
+    {
+      "term": "Ilios",
+      "gloss": "Another name for the city of Troy.",
+      "kind": "place",
+      "aliases": [
+        "Ilion"
+      ]
+    },
+    {
+      "term": "Icarian Sea",
+      "gloss": "A stretch of the Aegean, used in a simile for a heaving, storm-tossed crowd.",
+      "kind": "place"
+    },
+    {
+      "term": "Aulis",
+      "gloss": "The Greek harbor where the fleet first gathered before sailing to Troy, site of the serpent omen.",
+      "kind": "place"
+    },
+    {
+      "term": "portent",
+      "gloss": "A sign sent by the gods that foretells the future, such as the serpent that ate the sparrow's chicks.",
+      "kind": "concept",
+      "aliases": [
+        "omen",
+        "sign"
+      ]
+    },
+    {
+      "term": "Thersites",
+      "gloss": "The ugliest, most foul-mouthed common soldier, who rails at Agamemnon until Odysseus beats him into silence.",
+      "kind": "person"
+    },
+    {
+      "term": "Telemachus",
+      "gloss": "Odysseus's son back home; Odysseus swears 'by the father of Telemachus.'",
+      "kind": "person"
+    },
+    {
+      "term": "Tydeus",
+      "gloss": "Father of Diomedes, a famous warrior of the earlier generation against Thebes.",
+      "kind": "person"
+    },
+    {
+      "term": "Sthenelus",
+      "gloss": "Diomedes's charioteer and close comrade, son of Capaneus.",
+      "kind": "person"
+    },
+    {
+      "term": "Menestheus",
+      "gloss": "Leader of the Athenian contingent, peerless at marshaling troops.",
+      "kind": "person"
+    },
+    {
+      "term": "Boeotians",
+      "gloss": "A Greek people from the region of Boeotia, listed first in the Catalogue of Ships.",
+      "kind": "people"
+    },
+    {
+      "term": "Phocians",
+      "gloss": "A Greek people from Phocis in the army's muster.",
+      "kind": "people"
+    },
+    {
+      "term": "Locrians",
+      "gloss": "A Greek people led by the lesser Ajax, son of Oileus.",
+      "kind": "people"
+    },
+    {
+      "term": "Abantes",
+      "gloss": "Fierce long-haired warriors from Euboea in the Greek host.",
+      "kind": "people"
+    },
+    {
+      "term": "Erechtheus",
+      "gloss": "Legendary earth-born founder-king of Athens, raised by Athena.",
+      "kind": "person"
+    },
+    {
+      "term": "Lacedaemon",
+      "gloss": "The region of Sparta, Menelaus's and Helen's homeland.",
+      "kind": "place",
+      "aliases": [
+        "Sparta"
+      ]
+    },
+    {
+      "term": "Tlepolemus",
+      "gloss": "Son of Heracles, leader of the Rhodians, later killed in his duel with Sarpedon.",
+      "kind": "person"
+    },
+    {
+      "term": "Heracles",
+      "gloss": "The great hero of the earlier age, ancestor of several leaders, who once sacked Troy himself.",
+      "kind": "person"
+    },
+    {
+      "term": "Protesilaus",
+      "gloss": "The first Greek killed at Troy, struck down as he leapt from his ship; his men still mourn him.",
+      "kind": "person"
+    },
+    {
+      "term": "Philoctetes",
+      "gloss": "A master archer left behind on Lemnos, suffering from a festering snakebite.",
+      "kind": "person"
+    },
+    {
+      "term": "Asclepius",
+      "gloss": "The great healer; his sons Machaon and Podalirius serve as the army's physicians.",
+      "kind": "person"
+    },
+    {
+      "term": "Thamyris",
+      "gloss": "A Thracian bard who boasted he could outsing the Muses and was crippled by them in punishment.",
+      "kind": "person"
+    },
+    {
+      "term": "Muses",
+      "gloss": "Goddesses of song and memory, daughters of Zeus, invoked by the poet to recall the Catalogue of Ships.",
+      "kind": "god"
+    },
+    {
+      "term": "Demeter",
+      "gloss": "Goddess of grain and the harvest; her name stands for grain itself in similes of winnowing.",
+      "kind": "god"
+    },
+    {
+      "term": "Simois",
+      "gloss": "The second river of the Trojan plain, often paired with the Scamander.",
+      "kind": "place"
+    },
+    {
+      "term": "Typhoeus",
+      "gloss": "A monstrous figure said to lie pinned beneath the earth, which groans when Zeus lashes the ground over him.",
+      "kind": "person"
+    },
+    {
+      "term": "Styx",
+      "gloss": "The dread underworld river by which the gods swear their most binding oaths.",
+      "kind": "place"
+    },
+    {
+      "term": "Polites",
+      "gloss": "A son of Priam, a Trojan lookout whose shape Iris borrows.",
+      "kind": "person"
+    },
+    {
+      "term": "Dardanians",
+      "gloss": "A Trojan people led by Aeneas, kin to the Trojans.",
+      "kind": "people",
+      "aliases": [
+        "Dardanian"
+      ]
+    },
+    {
+      "term": "Anchises",
+      "gloss": "A Trojan nobleman, mortal father of Aeneas by Aphrodite.",
+      "kind": "person"
+    },
+    {
+      "term": "Ida",
+      "gloss": "The mountain near Troy, haunt of the gods and the spring of its rivers.",
+      "kind": "place"
+    },
+    {
+      "term": "Zeleia",
+      "gloss": "Pandarus's home town at the foot of Mount Ida.",
+      "kind": "place"
+    },
+    {
+      "term": "Thracians",
+      "gloss": "A warlike northern people allied with Troy, known for wearing their hair in a topknot.",
+      "kind": "people"
+    },
+    {
+      "term": "Paphlagonians",
+      "gloss": "A people from the south Black Sea coast fighting for Troy.",
+      "kind": "people"
+    },
+    {
+      "term": "Pelasgians",
+      "gloss": "An old people of the region, here counted among Troy's spear-fighting allies.",
+      "kind": "people"
+    },
+    {
+      "term": "Amazons",
+      "gloss": "A legendary race of warrior women 'who fight like men.'",
+      "kind": "people"
+    },
+    {
+      "term": "Alexandros",
+      "gloss": "Paris's other name; the Trojan prince whose abduction of Helen began the war.",
+      "kind": "person",
+      "aliases": [
+        "Paris"
+      ]
+    },
+    {
+      "term": "Scaean gates",
+      "gloss": "The main western gates of Troy, where the elders sit and Hector meets his family.",
+      "kind": "place",
+      "aliases": [
+        "Scaean"
+      ]
+    },
+    {
+      "term": "Laodice",
+      "gloss": "The loveliest of Priam's daughters.",
+      "kind": "person"
+    },
+    {
+      "term": "Castor",
+      "gloss": "Helen's brother, a horse-tamer; one of the twin Dioscuri.",
+      "kind": "person"
+    },
+    {
+      "term": "Polydeuces",
+      "gloss": "Helen's brother, a famous boxer; twin of Castor (the Roman Pollux).",
+      "kind": "person"
+    },
+    {
+      "term": "Cranae",
+      "gloss": "The island where Paris first lay with Helen after carrying her off.",
+      "kind": "place"
+    },
+    {
+      "term": "breastplate",
+      "gloss": "The body armor protecting the chest, also called a corselet or cuirass.",
+      "kind": "thing",
+      "aliases": [
+        "corselet",
+        "cuirass"
+      ]
+    },
+    {
+      "term": "the corselet",
+      "gloss": "A piece of body armor covering the torso, often worked from bronze or layered linen.",
+      "kind": "thing"
+    },
+    {
+      "term": "horsehair crest",
+      "gloss": "The plume of horsehair nodding atop a warrior's helmet, meant to look fearsome.",
+      "kind": "thing",
+      "aliases": [
+        "crest"
+      ]
+    },
+    {
+      "term": "Hebe",
+      "gloss": "The goddess of youth who pours nectar for the gods and tends the wounded Ares.",
+      "kind": "god"
+    },
+    {
+      "term": "Alalcomenae",
+      "gloss": "A town sacred to Athena, who is sometimes called 'Athena of Alalcomenae.'",
+      "kind": "place"
+    },
+    {
+      "term": "Pallas Athena",
+      "gloss": "The gray-eyed warrior-goddess of wisdom and battle, fierce champion of the Greeks.",
+      "kind": "god",
+      "aliases": [
+        "Athena",
+        "gray-eyed Athena",
+        "bright-eyed goddess",
+        "the bright-eyed goddess"
+      ]
+    },
+    {
+      "term": "Laodocus",
+      "gloss": "A son of Antenor whose likeness Athena takes to find Pandarus.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurymedon",
+      "gloss": "Agamemnon's charioteer.",
+      "kind": "person"
+    },
+    {
+      "term": "Meriones",
+      "gloss": "A Cretan captain, comrade of Idomeneus, deadly in battle.",
+      "kind": "person"
+    },
+    {
+      "term": "Polynices",
+      "gloss": "An Argive leader of the earlier war against Thebes, companion of Tydeus.",
+      "kind": "person"
+    },
+    {
+      "term": "Thebes",
+      "gloss": "The seven-gated city in Greece besieged a generation earlier by Tydeus and the Seven.",
+      "kind": "place",
+      "aliases": [
+        "seven-gated Thebes"
+      ]
+    },
+    {
+      "term": "Cadmeans",
+      "gloss": "The people of Thebes, descendants of Cadmus.",
+      "kind": "people",
+      "aliases": [
+        "sons of Cadmus"
+      ]
+    },
+    {
+      "term": "Capaneus",
+      "gloss": "Father of Sthenelus, one of the heroes of the older Theban war.",
+      "kind": "person"
+    },
+    {
+      "term": "Strife",
+      "gloss": "The personified spirit of discord, sister of Ares, who 'rears up small at first, then plants her head in the sky.'",
+      "kind": "concept"
+    },
+    {
+      "term": "Rout",
+      "gloss": "The personified spirit of panic-flight that drives men from battle.",
+      "kind": "concept",
+      "aliases": [
+        "Terror"
+      ]
+    },
+    {
+      "term": "Simoeisius",
+      "gloss": "A young Trojan, named for the river Simois, killed by Telamonian Ajax.",
+      "kind": "person"
+    },
+    {
+      "term": "Pergamus",
+      "gloss": "The high citadel of Troy, where Apollo's temple stands.",
+      "kind": "place",
+      "aliases": [
+        "Pergamos"
+      ]
+    },
+    {
+      "term": "Epeans",
+      "gloss": "A Greek people from Elis; their captain falls beside the Thracian leader.",
+      "kind": "people"
+    },
+    {
+      "term": "Enyo",
+      "gloss": "A goddess of war and slaughter, 'sacker of cities,' companion to Ares.",
+      "kind": "god"
+    },
+    {
+      "term": "the Graces",
+      "gloss": "Goddesses of beauty and charm who wove Aphrodite's divine robe.",
+      "kind": "god"
+    },
+    {
+      "term": "Dione",
+      "gloss": "A goddess, mother of Aphrodite, who comforts and heals her wounded daughter on Olympus.",
+      "kind": "god"
+    },
+    {
+      "term": "Otus",
+      "gloss": "One of the giant sons of Aloeus who once imprisoned the god Ares in a bronze jar.",
+      "kind": "person",
+      "aliases": [
+        "Ephialtes",
+        "sons of Aloeus"
+      ]
+    },
+    {
+      "term": "Paeon",
+      "gloss": "The physician of the gods, who heals the wounded Ares and Hades.",
+      "kind": "god"
+    },
+    {
+      "term": "Aegialeia",
+      "gloss": "Diomedes's wife, whom Dione warns will mourn him.",
+      "kind": "person"
+    },
+    {
+      "term": "Tros",
+      "gloss": "An early king of Troy whose godlike horses Aeneas's line secretly bred from.",
+      "kind": "person"
+    },
+    {
+      "term": "Laomedon",
+      "gloss": "A former king of Troy, famous for cheating the gods and heroes of their due.",
+      "kind": "person"
+    },
+    {
+      "term": "the cup-bone",
+      "gloss": "The hip-socket joint, where Diomedes's hurled stone shatters Aeneas's hip.",
+      "kind": "concept"
+    },
+    {
+      "term": "Helenus",
+      "gloss": "A son of Priam, the best of the Trojan seers, who sends Hector into the city.",
+      "kind": "person"
+    },
+    {
+      "term": "Theano",
+      "gloss": "Wife of Antenor and priestess of Athena in Troy, who offers the robe to the goddess.",
+      "kind": "person"
+    },
+    {
+      "term": "Sidon",
+      "gloss": "A wealthy Phoenician city whose women wove the robes Paris brought to Troy.",
+      "kind": "place",
+      "aliases": [
+        "Sidonian"
+      ]
+    },
+    {
+      "term": "guest-friend",
+      "gloss": "A bond of hospitality (xenia) passed down between families, so strong that Glaucus and Diomedes refuse to fight.",
+      "kind": "concept",
+      "aliases": [
+        "guest-friends"
+      ]
+    },
+    {
+      "term": "Bellerophon",
+      "gloss": "An ancestral hero of Glaucus who slew the Chimaera and survived deadly trials in Lycia.",
+      "kind": "person"
+    },
+    {
+      "term": "Chimaera",
+      "gloss": "A fire-breathing monster, part lion, part goat, part serpent, killed by Bellerophon.",
+      "kind": "thing"
+    },
+    {
+      "term": "Sisyphus",
+      "gloss": "The most cunning of men, an ancestor of Glaucus's line.",
+      "kind": "person"
+    },
+    {
+      "term": "Proetus",
+      "gloss": "A king of Argos who, deceived by his wife, plotted Bellerophon's death.",
+      "kind": "person"
+    },
+    {
+      "term": "Anteia",
+      "gloss": "Wife of Proetus, who falsely accused Bellerophon after he refused her.",
+      "kind": "person"
+    },
+    {
+      "term": "Solymi",
+      "gloss": "A fierce people Bellerophon fought as one of his trials.",
+      "kind": "people"
+    },
+    {
+      "term": "Dionysus",
+      "gloss": "The god of wine, here recalled as a child driven into the sea by the impious Lycurgus.",
+      "kind": "god"
+    },
+    {
+      "term": "Lycurgus",
+      "gloss": "A king who attacked the god Dionysus and was struck blind and short-lived in punishment.",
+      "kind": "person"
+    },
+    {
+      "term": "Eetion",
+      "gloss": "Andromache's father, king of Thebe under Mount Placus, killed by Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Thebe",
+      "gloss": "A city under Mount Placus, home of Andromache, sacked by Achilles (distinct from Greek Thebes).",
+      "kind": "place"
+    },
+    {
+      "term": "Cilicians",
+      "gloss": "Andromache's people, ruled by her father Eetion.",
+      "kind": "people"
+    },
+    {
+      "term": "distaff",
+      "gloss": "A staff that holds wool or flax for spinning; with the loom it stands for women's domestic work.",
+      "kind": "thing"
+    },
+    {
+      "term": "Euryalus",
+      "gloss": "A Greek captain, son of Mecisteus, who kills several Trojans in Book 6.",
+      "kind": "person"
+    },
+    {
+      "term": "Adrestus",
+      "gloss": "A Trojan who begs Menelaus for his life but is killed when Agamemnon intervenes.",
+      "kind": "person"
+    },
+    {
+      "term": "Axylus",
+      "gloss": "A generous, hospitable Trojan from Arisbe, killed by Diomedes despite his kindness to strangers.",
+      "kind": "person"
+    },
+    {
+      "term": "Arisbe",
+      "gloss": "A Trojan-allied town, home of Axylus and Asius.",
+      "kind": "place"
+    },
+    {
+      "term": "the wine-dark sea",
+      "gloss": "A standing Homeric phrase for the deep sea, dark like wine.",
+      "kind": "word",
+      "aliases": [
+        "wine-dark"
+      ]
+    },
+    {
+      "term": "rosy-fingered Dawn",
+      "gloss": "A standing epithet for Dawn, the goddess of morning who brings the daylight.",
+      "kind": "word",
+      "aliases": [
+        "rosy-fingered",
+        "rosy-fingered dawn",
+        "Dawn"
+      ]
+    },
+    {
+      "term": "shepherd of the people",
+      "gloss": "A formulaic epithet for a king or commander as protector of his men.",
+      "kind": "word",
+      "aliases": [
+        "shepherd of his people"
+      ]
+    },
+    {
+      "term": "the line of Ares",
+      "gloss": "A formula marking a warrior as a fierce, war-bred fighter, as if descended from the war-god.",
+      "kind": "word"
+    },
+    {
+      "term": "barrow",
+      "gloss": "A burial mound heaped over a hero's body and ashes.",
+      "kind": "thing"
+    },
+    {
+      "term": "the loom",
+      "gloss": "The upright frame on which women wove cloth; Helen weaves the war's battles into a tapestry.",
+      "kind": "thing",
+      "aliases": [
+        "loom"
+      ]
+    },
+    {
+      "term": "nectar",
+      "gloss": "The drink of the gods, served at their feasts; with ambrosia it sustains their immortality.",
+      "kind": "thing",
+      "aliases": [
+        "ambrosia",
+        "ambrosial"
+      ]
+    },
+    {
+      "term": "the lots",
+      "gloss": "Marked tokens shaken in a helmet to decide by chance, here who throws first in the duel.",
+      "kind": "thing",
+      "aliases": [
+        "lot",
+        "lots"
+      ]
+    },
+    {
+      "term": "Pygmy men",
+      "gloss": "A legendary race of tiny men said to war with the cranes each year.",
+      "kind": "people"
+    },
+    {
+      "term": "cubits",
+      "gloss": "An ancient unit of length (roughly a forearm); Hector's spear is eleven cubits long.",
+      "kind": "word",
+      "aliases": [
+        "cubit"
+      ]
+    },
+    {
+      "term": "palms",
+      "gloss": "A small unit of length, the width of a hand; Pandarus's bow-horns ran sixteen palms.",
+      "kind": "word",
+      "aliases": [
+        "palm"
+      ]
+    },
+    {
+      "term": "Idaeus",
+      "gloss": "A Trojan herald, a wise man who stops the duel of Hector and Ajax and later carries Priam's peace offer to the Greeks.",
+      "kind": "person"
+    },
+    {
+      "term": "Tychius",
+      "gloss": "The master leather-worker of Hyle who made Ajax's famous sevenfold ox-hide shield.",
+      "kind": "person"
+    },
+    {
+      "term": "Areithous",
+      "gloss": "A warrior of old called the Mace-man because he fought with an iron club rather than bow or spear. Killed by Lycurgus.",
+      "kind": "person",
+      "aliases": [
+        "Mace-man"
+      ]
+    },
+    {
+      "term": "Ereuthalion",
+      "gloss": "A champion of old who wore the armor of King Areithous and challenged the best of the Greeks; young Nestor killed him.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurypylus",
+      "gloss": "A Greek captain, son of Euaemon, among the warriors who volunteer to face Hector. Later wounded in the thigh by an arrow from Paris.",
+      "kind": "person"
+    },
+    {
+      "term": "Thoas",
+      "gloss": "A Greek leader, son of Andraemon, one of the nine who rise to face Hector in single combat.",
+      "kind": "person"
+    },
+    {
+      "term": "Euneus",
+      "gloss": "Son of Jason and Hypsipyle, who sent ships of wine from Lemnos to the Greek camp.",
+      "kind": "person"
+    },
+    {
+      "term": "Hypsipyle",
+      "gloss": "Queen of Lemnos who bore Euneus to Jason.",
+      "kind": "person"
+    },
+    {
+      "term": "Salamis",
+      "gloss": "The island home of Ajax, son of Telamon.",
+      "kind": "place"
+    },
+    {
+      "term": "Celadon",
+      "gloss": "A rushing river by which the men of Pylos and the Arcadians once fought in Nestor's youth.",
+      "kind": "place"
+    },
+    {
+      "term": "Pheia",
+      "gloss": "A town near which Nestor fought as a young man.",
+      "kind": "place"
+    },
+    {
+      "term": "Arne",
+      "gloss": "The town where Menesthius, an early victim of Paris, had lived.",
+      "kind": "place"
+    },
+    {
+      "term": "Tartarus",
+      "gloss": "The deepest pit beneath the earth, as far below Hades as the sky is above the ground, where Zeus threatens to fling any disobedient god.",
+      "kind": "place"
+    },
+    {
+      "term": "Gargarus",
+      "gloss": "A peak of Mount Ida where Zeus keeps a sacred grove and altar and sits to watch the war.",
+      "kind": "place"
+    },
+    {
+      "term": "Erebus",
+      "gloss": "The dark underworld region of the dead, out of which a Fury hears Althaea's curse and from which Heracles fetched the hound of hell.",
+      "kind": "place"
+    },
+    {
+      "term": "Eniopeus",
+      "gloss": "Hector's first charioteer, son of Thebaeus, killed by Diomedes' spear.",
+      "kind": "person"
+    },
+    {
+      "term": "Archeptolemus",
+      "gloss": "Hector's second charioteer, son of Iphitus, killed by an arrow from Teucer.",
+      "kind": "person"
+    },
+    {
+      "term": "Cebriones",
+      "gloss": "A brother of Hector who takes up the reins as his charioteer after Archeptolemus falls.",
+      "kind": "person"
+    },
+    {
+      "term": "Gorgythion",
+      "gloss": "A son of Priam, struck in the chest by an arrow meant for Hector; his head droops like a poppy heavy with seed.",
+      "kind": "person"
+    },
+    {
+      "term": "Castianeira",
+      "gloss": "A bride from Aesyme, mother of Priam's son Gorgythion.",
+      "kind": "person"
+    },
+    {
+      "term": "Mecisteus",
+      "gloss": "A loyal squire, son of Echius, who helps carry the wounded Teucer back to the ships.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurystheus",
+      "gloss": "The king who laid the famous labors on Heracles, including fetching the hound of hell from the underworld.",
+      "kind": "person"
+    },
+    {
+      "term": "Iapetus",
+      "gloss": "An ancient Titan who, with Cronus, sits imprisoned deep in Tartarus far from sun and wind.",
+      "kind": "person"
+    },
+    {
+      "term": "the Hours",
+      "gloss": "Goddesses who keep the gates of heaven, rolling the cloud aside or closing it, and who tend the gods' horses.",
+      "kind": "god"
+    },
+    {
+      "term": "Helice",
+      "gloss": "A coastal town where the Greeks bring rich offerings to Poseidon.",
+      "kind": "place"
+    },
+    {
+      "term": "Aegae",
+      "gloss": "A place sacred to Poseidon where the Greeks honor him with gifts.",
+      "kind": "place"
+    },
+    {
+      "term": "Xanthus",
+      "gloss": "A river of the Trojan plain (also called Scamander); also the name of one of Hector's horses.",
+      "kind": "place",
+      "aliases": [
+        "Xanthos"
+      ]
+    },
+    {
+      "term": "Orestes",
+      "gloss": "The young son of Agamemnon, raised in luxury at home, named as a measure of honor for Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Chrysothemis",
+      "gloss": "One of Agamemnon's three daughters, offered to Achilles in marriage.",
+      "kind": "person"
+    },
+    {
+      "term": "Iphianassa",
+      "gloss": "One of Agamemnon's three daughters, offered to Achilles in marriage.",
+      "kind": "person"
+    },
+    {
+      "term": "Orchomenus",
+      "gloss": "A wealthy Greek city whose riches Achilles names as something he still would not trade his honor for.",
+      "kind": "place"
+    },
+    {
+      "term": "Pytho",
+      "gloss": "The sanctuary of Apollo at rocky Delphi, famed for the treasure stored behind its stone threshold.",
+      "kind": "place"
+    },
+    {
+      "term": "Amyntor",
+      "gloss": "Father of Phoenix, who cursed his son in a quarrel over a mistress.",
+      "kind": "person"
+    },
+    {
+      "term": "Persephone",
+      "gloss": "The dread queen of the underworld, invoked in curses alongside Hades.",
+      "kind": "god"
+    },
+    {
+      "term": "the Furies",
+      "gloss": "Avenging spirits of the dark who carry out curses, especially those of wronged parents.",
+      "kind": "god",
+      "aliases": [
+        "Fury"
+      ]
+    },
+    {
+      "term": "Dolopians",
+      "gloss": "The people of the borderlands of Phthia over whom Peleus set Phoenix as lord.",
+      "kind": "people"
+    },
+    {
+      "term": "Prayers",
+      "gloss": "In Phoenix's parable, the lame daughters of Zeus who limp behind swift Ruin, healing the harm she does when men honor them.",
+      "kind": "concept"
+    },
+    {
+      "term": "Ruin",
+      "gloss": "In Phoenix's parable, the strong and swift force of blind folly that runs ahead and harms men, with Prayers following to mend it.",
+      "kind": "concept"
+    },
+    {
+      "term": "Meleager",
+      "gloss": "A hero of old whose anger kept him from defending Calydon; Phoenix tells his story as a warning to Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Calydon",
+      "gloss": "The city the hero Meleager defended, besieged by the Curetes while the Aetolians held it.",
+      "kind": "place"
+    },
+    {
+      "term": "Curetes",
+      "gloss": "A people who warred against the Aetolians, fighting to bring down the city of Calydon.",
+      "kind": "people"
+    },
+    {
+      "term": "Aetolians",
+      "gloss": "The people who held and defended the city of Calydon against the Curetes.",
+      "kind": "people"
+    },
+    {
+      "term": "Oeneus",
+      "gloss": "King of Calydon and father of Meleager, who angered Artemis by neglecting her sacrifice.",
+      "kind": "person"
+    },
+    {
+      "term": "Althaea",
+      "gloss": "Mother of Meleager, who cursed her own son in grief over her dead brother.",
+      "kind": "person"
+    },
+    {
+      "term": "Cleopatra",
+      "gloss": "The wife of Meleager, who finally moved him to return to battle; also called Alcyone.",
+      "kind": "person",
+      "aliases": [
+        "Alcyone"
+      ]
+    },
+    {
+      "term": "Idas",
+      "gloss": "The strongest man of his day, who took up his bow against Apollo himself for the sake of Marpessa.",
+      "kind": "person"
+    },
+    {
+      "term": "Marpessa",
+      "gloss": "A beautiful woman carried off by Apollo and won back by Idas; mother of Cleopatra.",
+      "kind": "person"
+    },
+    {
+      "term": "Diomede",
+      "gloss": "A woman of Lesbos, daughter of Phorbas, carried off by Achilles and shared his bed.",
+      "kind": "person"
+    },
+    {
+      "term": "Iphis",
+      "gloss": "A woman given by Achilles to Patroclus, taken when he sacked Scyros.",
+      "kind": "person"
+    },
+    {
+      "term": "Hellas",
+      "gloss": "The Greek homeland, used for Achilles' own country and the land of lovely women.",
+      "kind": "place"
+    },
+    {
+      "term": "Eumedes",
+      "gloss": "A Trojan herald, the father of the scout Dolon.",
+      "kind": "person"
+    },
+    {
+      "term": "Rhesus",
+      "gloss": "A Thracian king newly come to Troy, with horses whiter than snow and golden armor, killed by Diomedes in the night raid.",
+      "kind": "person"
+    },
+    {
+      "term": "Autolycus",
+      "gloss": "A famous thief who once stole the boar's-tusk helmet that Odysseus wears on the night raid.",
+      "kind": "person"
+    },
+    {
+      "term": "Ilus",
+      "gloss": "An ancestral lord of Troy whose tomb or barrow stands in the middle of the plain.",
+      "kind": "person"
+    },
+    {
+      "term": "Hippocoon",
+      "gloss": "A Thracian counselor, kinsman of Rhesus, woken by Apollo to discover the slaughter in the night raid.",
+      "kind": "person"
+    },
+    {
+      "term": "Carians",
+      "gloss": "A people allied to Troy, camped toward the sea.",
+      "kind": "people"
+    },
+    {
+      "term": "Paeonians",
+      "gloss": "A people allied to Troy, archers with curved bows.",
+      "kind": "people"
+    },
+    {
+      "term": "Mysians",
+      "gloss": "A proud people counted among Troy's allies.",
+      "kind": "people"
+    },
+    {
+      "term": "Phrygians",
+      "gloss": "A people allied to Troy, masters of horses.",
+      "kind": "people"
+    },
+    {
+      "term": "Maeonians",
+      "gloss": "A people allied to Troy, masters of horses.",
+      "kind": "people"
+    },
+    {
+      "term": "Tithonus",
+      "gloss": "The mortal lover of Dawn, beside whose bed she rises each morning to bring light to gods and men.",
+      "kind": "person"
+    },
+    {
+      "term": "Cinyras",
+      "gloss": "A king of Cyprus who gave Agamemnon his ornate breastplate as a guest-gift.",
+      "kind": "person"
+    },
+    {
+      "term": "Antimachus",
+      "gloss": "A Trojan who, bribed by Paris, argued against returning Helen and urged killing the Greek envoys; father of Pisander and Hippolochus.",
+      "kind": "person"
+    },
+    {
+      "term": "Iphidamas",
+      "gloss": "A brave son of Antenor, raised in Thrace, who wounds Agamemnon's belt and is killed by him.",
+      "kind": "person"
+    },
+    {
+      "term": "Coon",
+      "gloss": "Antenor's eldest son, who wounds Agamemnon in the arm avenging his brother Iphidamas, then is killed.",
+      "kind": "person"
+    },
+    {
+      "term": "the Eilithyiae",
+      "gloss": "The goddesses of childbirth, daughters of Hera, who send sharp pangs on women in labor; the pain of Agamemnon's wound is likened to theirs.",
+      "kind": "god"
+    },
+    {
+      "term": "Podalirius",
+      "gloss": "A Greek healer, son of Asclepius and brother of Machaon, still fighting on the plain.",
+      "kind": "person"
+    },
+    {
+      "term": "Chiron",
+      "gloss": "The wisest and most honest of the Centaurs, who taught Achilles the use of healing herbs.",
+      "kind": "person"
+    },
+    {
+      "term": "Centaurs",
+      "gloss": "A race of beings part man and part horse; Chiron, the most honest of them, was famed for his knowledge of medicine.",
+      "kind": "people"
+    },
+    {
+      "term": "Socus",
+      "gloss": "A Trojan, son of Hippasus, who wounds Odysseus in the side before Odysseus kills him.",
+      "kind": "person"
+    },
+    {
+      "term": "Hecamede",
+      "gloss": "The lovely captive woman, daughter of Arsinous, who mixes a restoring draught for Nestor in his hut.",
+      "kind": "person"
+    },
+    {
+      "term": "Pramnian wine",
+      "gloss": "A strong dark wine used in the restoring draught Hecamede mixes, blended with grated goat cheese and barley.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Molione",
+      "gloss": "Twin sons of Actor (and truly of Poseidon), warriors Nestor recalls fighting in his youth, saved from him by their divine father.",
+      "kind": "person",
+      "aliases": [
+        "Molion",
+        "two Molione"
+      ]
+    },
+    {
+      "term": "Augeas",
+      "gloss": "A king of Elis who wrongfully kept Neleus's prize horses, recalled in Nestor's tale of his youth.",
+      "kind": "person"
+    },
+    {
+      "term": "Neleus",
+      "gloss": "King of Pylos and father of Nestor; his many sons were killed by Heracles, leaving Nestor alone.",
+      "kind": "person"
+    },
+    {
+      "term": "Epeians",
+      "gloss": "The people of Elis who warred against Nestor's Pylos in the cattle-raid of his youth.",
+      "kind": "people"
+    },
+    {
+      "term": "Asius",
+      "gloss": "A reckless Trojan ally, son of Hyrtacus, who refuses to leave his chariot and is killed assaulting the gates.",
+      "kind": "person"
+    },
+    {
+      "term": "Polypoetes",
+      "gloss": "A strong Lapith captain, son of Pirithous, who holds the gates with Leonteus against Asius's charge.",
+      "kind": "person"
+    },
+    {
+      "term": "Leonteus",
+      "gloss": "A Lapith captain, equal to the war-god, who defends the gates beside Polypoetes.",
+      "kind": "person"
+    },
+    {
+      "term": "Lapiths",
+      "gloss": "A warlike Greek people; two of their champions, Polypoetes and Leonteus, defend the gate against the Trojan assault.",
+      "kind": "people"
+    },
+    {
+      "term": "Thootes",
+      "gloss": "The herald Menestheus sends running to summon Ajax to the threatened wall.",
+      "kind": "person"
+    },
+    {
+      "term": "Pandion",
+      "gloss": "A Greek who carries Teucer's bow as Ajax and Teucer go to defend the wall.",
+      "kind": "person"
+    },
+    {
+      "term": "Epicles",
+      "gloss": "A comrade of Sarpedon, the first man Ajax kills at the wall, struck down by a great stone.",
+      "kind": "person"
+    },
+    {
+      "term": "Asteropaeus",
+      "gloss": "A warrior judged by Sarpedon among the best of the allies, set as a captain over the Lycian assault.",
+      "kind": "person"
+    },
+    {
+      "term": "Deucalion",
+      "gloss": "Father of Idomeneus, the Cretan king.",
+      "kind": "person"
+    },
+    {
+      "term": "single combat",
+      "gloss": "A formal duel of one champion against another, agreed between the armies, as when Hector challenges and Ajax meets him.",
+      "kind": "concept",
+      "aliases": [
+        "single fight"
+      ]
+    },
+    {
+      "term": "far-shooter",
+      "gloss": "An epithet of Apollo, the archer god whose arrows strike from a distance.",
+      "kind": "god",
+      "aliases": [
+        "far-shooting",
+        "who strikes from afar",
+        "Apollo the archer"
+      ]
+    },
+    {
+      "term": "Earthshaker",
+      "gloss": "An epithet of Poseidon, the god who shakes the earth and the sea.",
+      "kind": "god",
+      "aliases": [
+        "who shakes the earth",
+        "lord of the earthquake",
+        "shaker of the earth"
+      ]
+    },
+    {
+      "term": "wine-dark sea",
+      "gloss": "A standard epic phrase for the deep open sea, dark like wine.",
+      "kind": "concept",
+      "aliases": [
+        "wine-dark"
+      ]
+    },
+    {
+      "term": "cubit",
+      "gloss": "An old unit of length, roughly the forearm; Hector's spear is said to be eleven cubits long.",
+      "kind": "concept",
+      "aliases": [
+        "cubits"
+      ]
+    },
+    {
+      "term": "guest-gift",
+      "gloss": "A gift exchanged between host and guest as a bond of friendship, as the helmet passed among many owners.",
+      "kind": "concept",
+      "aliases": [
+        "guest-friend"
+      ]
+    },
+    {
+      "term": "bride-price",
+      "gloss": "The gifts a suitor traditionally gave to win a wife; Agamemnon offers a daughter with no bride-price but a great dowry instead.",
+      "kind": "concept"
+    },
+    {
+      "term": "blood-price",
+      "gloss": "The payment a killer makes to the family of his victim to settle a death without further vengeance.",
+      "kind": "concept"
+    },
+    {
+      "term": "war-belt",
+      "gloss": "A wide belt worn in battle, sometimes given as a gift, as the purple belt Ajax gives Hector.",
+      "kind": "thing"
+    },
+    {
+      "term": "chine",
+      "gloss": "The backbone cut of a roasted animal, given as a portion of honor at the feast.",
+      "kind": "thing"
+    },
+    {
+      "term": "tripod",
+      "gloss": "A three-legged bronze vessel or stand, a prized possession offered among gifts and won as a prize.",
+      "kind": "thing",
+      "aliases": [
+        "tripods"
+      ]
+    },
+    {
+      "term": "cauldron",
+      "gloss": "A large metal pot counted as treasure among the gifts Agamemnon offers Achilles.",
+      "kind": "thing",
+      "aliases": [
+        "cauldrons"
+      ]
+    },
+    {
+      "term": "parapet",
+      "gloss": "The protective wall along the top of the rampart from which defenders fight.",
+      "kind": "thing",
+      "aliases": [
+        "battlements",
+        "breastworks",
+        "parapets"
+      ]
+    },
+    {
+      "term": "rampart",
+      "gloss": "The raised defensive wall of the Greek camp, stormed by the Trojans.",
+      "kind": "thing"
+    },
+    {
+      "term": "Lesbos",
+      "gloss": "An island sacked by Achilles, from which came the seven skilled women offered to him.",
+      "kind": "place"
+    },
+    {
+      "term": "the Gorgon",
+      "gloss": "A monstrous figure whose glaring head is shown on Agamemnon's shield and to which Hector's blazing eyes are compared.",
+      "kind": "concept",
+      "aliases": [
+        "Gorgon's head",
+        "Gorgon's"
+      ]
+    },
+    {
+      "term": "the Styx",
+      "gloss": "A river of the underworld, across whose deep waters the dead pass; Heracles barely returned over it.",
+      "kind": "place"
+    },
+    {
+      "term": "Phorbas",
+      "gloss": "Father of Diomede, the woman of Lesbos taken by Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Scyros",
+      "gloss": "A steep city sacked by Achilles, from which he gave Iphis to Patroclus.",
+      "kind": "place"
+    },
+    {
+      "term": "Hyle",
+      "gloss": "The home of Tychius, the leather-worker who made Ajax's shield.",
+      "kind": "place"
+    },
+    {
+      "term": "Aesyme",
+      "gloss": "The home from which Castianeira came as a bride to Priam.",
+      "kind": "place"
+    },
+    {
+      "term": "Samothrace",
+      "gloss": "A high island in the northern Aegean. Poseidon watches the battle from its wooded peak, where he can see all of Troy and the ships.",
+      "kind": "place"
+    },
+    {
+      "term": "Tenedos",
+      "gloss": "A small island off the coast near Troy. A great undersea cave lies between it and Imbros, where Poseidon stables his horses.",
+      "kind": "place"
+    },
+    {
+      "term": "Imbros",
+      "gloss": "An island in the northern Aegean near Troy, named alongside Tenedos and Lemnos.",
+      "kind": "place"
+    },
+    {
+      "term": "ambrosial",
+      "gloss": "Divine, immortal, fit for the gods — used here of the fodder Poseidon sets before his immortal horses.",
+      "kind": "word"
+    },
+    {
+      "term": "the two Ajaxes",
+      "gloss": "The pair of Greek warriors both named Ajax — the huge Ajax son of Telamon and the swift Ajax son of Oileus — who often fight side by side.",
+      "kind": "people",
+      "aliases": [
+        "Ajaxes",
+        "the Ajaxes"
+      ]
+    },
+    {
+      "term": "Ajax son of Oileus",
+      "gloss": "The 'lesser' or swift Ajax, leader of the Locrians, fast on his feet and deadly in pursuit. Distinct from the larger Ajax son of Telamon.",
+      "kind": "person",
+      "aliases": [
+        "swift Ajax",
+        "son of Oileus",
+        "Ajax, son of Oileus"
+      ]
+    },
+    {
+      "term": "Ajax son of Telamon",
+      "gloss": "The huge, towering Greek warrior, second only to Achilles in battle. He defends the ships with a great shield 'like a tower.'",
+      "kind": "person",
+      "aliases": [
+        "great Ajax",
+        "huge Ajax",
+        "son of Telamon",
+        "Ajax, son of Telamon"
+      ]
+    },
+    {
+      "term": "Deiphobus",
+      "gloss": "A son of Priam and brother of Hector, a bold Trojan fighter. He is wounded in the hand by Meriones.",
+      "kind": "person"
+    },
+    {
+      "term": "Imbrius",
+      "gloss": "A Trojan spearman, son-in-law of Priam, killed by Teucer in Book XIII.",
+      "kind": "person"
+    },
+    {
+      "term": "Amphimachus",
+      "gloss": "A Greek warrior, grandson of Actor, killed by Hector's spear as he enters the fighting.",
+      "kind": "person"
+    },
+    {
+      "term": "Othryoneus",
+      "gloss": "A Trojan ally who sought to marry Priam's daughter Cassandra by promising to drive off the Greeks. Idomeneus kills him.",
+      "kind": "person"
+    },
+    {
+      "term": "Cassandra",
+      "gloss": "The loveliest of Priam's daughters, sought in marriage by Othryoneus.",
+      "kind": "person"
+    },
+    {
+      "term": "Alcathous",
+      "gloss": "A Trojan, son-in-law of Anchises, struck down by Idomeneus while Poseidon holds him frozen in place.",
+      "kind": "person"
+    },
+    {
+      "term": "Agenor",
+      "gloss": "A noble Trojan leader who helps wounded comrades and fights in the front ranks.",
+      "kind": "person"
+    },
+    {
+      "term": "Pisander",
+      "gloss": "A Trojan who fights Menelaus with an axe and is killed by him.",
+      "kind": "person"
+    },
+    {
+      "term": "Harpalion",
+      "gloss": "Son of the Paphlagonian king Pylaemenes, killed by an arrow from Meriones.",
+      "kind": "person"
+    },
+    {
+      "term": "Euchenor",
+      "gloss": "A rich Corinthian who sailed to Troy knowing he was fated to die there. Paris kills him with an arrow.",
+      "kind": "person"
+    },
+    {
+      "term": "the aegis",
+      "gloss": "The terrible tasseled storm-shield of Zeus, fringed and dreadful, which routs men with panic. It is carried at times by Apollo and Athena.",
+      "kind": "thing",
+      "aliases": [
+        "aegis",
+        "storm-shield",
+        "tasseled storm-shield"
+      ]
+    },
+    {
+      "term": "baldric",
+      "gloss": "A strap worn across the chest to carry a shield or sword. Hector's spear strikes where Ajax's two straps cross.",
+      "kind": "word"
+    },
+    {
+      "term": "corselet",
+      "gloss": "A piece of body armor protecting the chest, also called a breastplate or corslet.",
+      "kind": "thing",
+      "aliases": [
+        "corslet",
+        "breastplate"
+      ]
+    },
+    {
+      "term": "Thrasymedes",
+      "gloss": "A son of Nestor and brother of Antilochus, a Greek fighter held in reserve.",
+      "kind": "person"
+    },
+    {
+      "term": "Tethys",
+      "gloss": "An ancient sea-goddess, wife of Ocean, who fostered Hera. Hera claims to be visiting her to mend the couple's quarrel.",
+      "kind": "god",
+      "aliases": [
+        "mother Tethys"
+      ]
+    },
+    {
+      "term": "Sleep",
+      "gloss": "The god of sleep, brother of Death. Hera bribes him to lull Zeus so she can deceive him.",
+      "kind": "god"
+    },
+    {
+      "term": "Death",
+      "gloss": "Personified as a god, the twin brother of Sleep. With Sleep he carries Sarpedon's body home to Lycia.",
+      "kind": "god"
+    },
+    {
+      "term": "Pasithea",
+      "gloss": "One of the younger Graces, promised to Sleep in marriage as his reward.",
+      "kind": "person"
+    },
+    {
+      "term": "the Titans",
+      "gloss": "The older gods, including Cronus, dwelling below the earth, called as witnesses to a god's most solemn oath.",
+      "kind": "people"
+    },
+    {
+      "term": "cymindis",
+      "gloss": "The mortals' name for a shrill mountain bird (called chalcis by the gods); Sleep hides in a pine in its likeness.",
+      "kind": "thing",
+      "aliases": [
+        "chalcis"
+      ]
+    },
+    {
+      "term": "Rhea",
+      "gloss": "The Titan mother of Zeus, Poseidon, and Hades by Cronus.",
+      "kind": "god"
+    },
+    {
+      "term": "the Hellespont",
+      "gloss": "The narrow strait beside Troy (the modern Dardanelles) where the Greek ships are drawn up.",
+      "kind": "place"
+    },
+    {
+      "term": "Caletor",
+      "gloss": "A Trojan, cousin of Hector, killed by Ajax as he tries to set fire to a ship.",
+      "kind": "person"
+    },
+    {
+      "term": "Lycophron",
+      "gloss": "A retainer of Ajax, honored like family, killed by Hector's spear.",
+      "kind": "person"
+    },
+    {
+      "term": "sea-pike",
+      "gloss": "A long jointed pole tipped with bronze, kept aboard ship for fighting at sea, which Ajax swings to defend the ships.",
+      "kind": "thing",
+      "aliases": [
+        "pike",
+        "long pikes"
+      ]
+    },
+    {
+      "term": "Menoetius",
+      "gloss": "The father of Patroclus, an old hero living in Peleus's household.",
+      "kind": "person"
+    },
+    {
+      "term": "Balius",
+      "gloss": "One of Achilles' two immortal horses, paired with Xanthus.",
+      "kind": "thing"
+    },
+    {
+      "term": "Pedasus",
+      "gloss": "A mortal trace-horse of Achilles, captured at Eetion's city, who keeps pace with the immortal pair until Sarpedon's spear kills him.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cheiron",
+      "gloss": "The wise centaur who cut the great Pelian ash spear and gave it to Peleus; only Achilles can wield it.",
+      "kind": "person",
+      "aliases": [
+        "Chiron"
+      ]
+    },
+    {
+      "term": "Pelian ash",
+      "gloss": "Achilles' great spear, made from an ash tree on Mount Pelion, so heavy that only he can lift it.",
+      "kind": "thing"
+    },
+    {
+      "term": "Eudorus",
+      "gloss": "A captain of the Myrmidons, secret son of the god Hermes and Polymele.",
+      "kind": "person"
+    },
+    {
+      "term": "Eileithyia",
+      "gloss": "The goddess of childbirth and its pains, who brings infants into the light.",
+      "kind": "god"
+    },
+    {
+      "term": "Dodona",
+      "gloss": "An ancient oracle of Zeus in a wintry land, served by the Selloi. Achilles prays to 'Zeus of Dodona.'",
+      "kind": "place"
+    },
+    {
+      "term": "the Selloi",
+      "gloss": "The barefoot priests of Zeus at Dodona who sleep on the ground and interpret his will.",
+      "kind": "people"
+    },
+    {
+      "term": "Pyraechmes",
+      "gloss": "Leader of the Paeonian horsemen and a Trojan ally, the first man Patroclus kills.",
+      "kind": "person"
+    },
+    {
+      "term": "the Chimaera",
+      "gloss": "A monstrous fire-breathing creature, 'the ruin of many,' reared by Amisodarus, whose sons fight at Troy.",
+      "kind": "thing"
+    },
+    {
+      "term": "Thestor",
+      "gloss": "A panicked Trojan charioteer dragged from his car by Patroclus, compared to a fish hauled on a hook.",
+      "kind": "person"
+    },
+    {
+      "term": "Euphorbus",
+      "gloss": "A young Trojan, son of Panthous, who is the first to wound Patroclus in the back. Menelaus later kills him.",
+      "kind": "person"
+    },
+    {
+      "term": "Hippothous",
+      "gloss": "A Trojan ally, son of Lethus the Pelasgian, killed by Ajax while dragging off Patroclus's body.",
+      "kind": "person"
+    },
+    {
+      "term": "Larissa",
+      "gloss": "The home city of the Pelasgian allies of Troy, far from which Hippothous dies.",
+      "kind": "place"
+    },
+    {
+      "term": "Schedius",
+      "gloss": "The best of the Phocians, a Greek leader killed by Hector's spear.",
+      "kind": "person"
+    },
+    {
+      "term": "Phorcys",
+      "gloss": "A Trojan ally, son of Phaenops, killed by Ajax over the body of Hippothous.",
+      "kind": "person"
+    },
+    {
+      "term": "Lycomedes",
+      "gloss": "A Greek warrior who avenges his comrade Leiocritus by killing Apisaon.",
+      "kind": "person"
+    },
+    {
+      "term": "squire",
+      "gloss": "A warrior's attendant and second-in-command in battle; Patroclus is repeatedly called Achilles' squire.",
+      "kind": "word"
+    },
+    {
+      "term": "Coeranus",
+      "gloss": "The charioteer of Meriones, killed by Hector but in dying saves Idomeneus's life.",
+      "kind": "person"
+    },
+    {
+      "term": "Podes",
+      "gloss": "A rich Trojan and dear feast-companion of Hector, killed by Menelaus.",
+      "kind": "person"
+    },
+    {
+      "term": "Nereus",
+      "gloss": "The old sea-god, father of Thetis and the Nereids, dwelling in the depths of the sea.",
+      "kind": "god",
+      "aliases": [
+        "the old sea-god"
+      ]
+    },
+    {
+      "term": "the Nereids",
+      "gloss": "The sea-nymph daughters of Nereus who gather to mourn with Thetis when Achilles cries out in grief.",
+      "kind": "people",
+      "aliases": [
+        "Nereids",
+        "daughters of Nereus"
+      ]
+    },
+    {
+      "term": "Galatea",
+      "gloss": "One of the famous Nereids, sea-nymph daughters of Nereus named in Thetis's gathering.",
+      "kind": "person"
+    },
+    {
+      "term": "Cos",
+      "gloss": "An Aegean island to which Hera's storm drove Heracles after he sacked Troy.",
+      "kind": "place"
+    },
+    {
+      "term": "Eurynome",
+      "gloss": "A daughter of Ocean who, with Thetis, sheltered the lame Hephaestus for nine years after his fall from heaven.",
+      "kind": "god"
+    },
+    {
+      "term": "Charis",
+      "gloss": "The 'bright-headdressed' wife of Hephaestus, who welcomes Thetis into the smith-god's house.",
+      "kind": "god"
+    },
+    {
+      "term": "the Pleiades",
+      "gloss": "A cluster of stars Hephaestus sets on the shield of Achilles among the constellations.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Hyades",
+      "gloss": "A group of stars worked onto the shield of Achilles.",
+      "kind": "thing"
+    },
+    {
+      "term": "Orion",
+      "gloss": "A great constellation depicted on the shield of Achilles, watched by the Bear.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Bear",
+      "gloss": "The constellation also called the Wagon, which wheels in place and never sinks below the horizon, shown on Achilles' shield.",
+      "kind": "thing",
+      "aliases": [
+        "the Wagon"
+      ]
+    },
+    {
+      "term": "the shield of Achilles",
+      "gloss": "The great five-layered shield Hephaestus forges, its face worked with the earth, sky, sea, two cities, fields, herds, and a dancing-floor — a picture of the whole world.",
+      "kind": "thing",
+      "aliases": [
+        "the shield"
+      ]
+    },
+    {
+      "term": "talents",
+      "gloss": "Units of weight, here in gold, offered as a prize to the elder who judges most justly on the shield's city scene.",
+      "kind": "word",
+      "aliases": [
+        "talent",
+        "two talents"
+      ]
+    },
+    {
+      "term": "heralds",
+      "gloss": "Official messengers and order-keepers who carry staves, hold back crowds, and serve at feasts and judgments.",
+      "kind": "word",
+      "aliases": [
+        "herald"
+      ]
+    },
+    {
+      "term": "the elders",
+      "gloss": "The senior men who sit in a sacred circle to give judgment in the city scene on the shield.",
+      "kind": "people"
+    },
+    {
+      "term": "Linus-song",
+      "gloss": "A traditional mourning or harvest song sung by a boy with a lyre in the vineyard scene on the shield.",
+      "kind": "concept"
+    },
+    {
+      "term": "Daedalus",
+      "gloss": "The legendary craftsman who built a famous dancing-floor for Ariadne at Cnossus, the model for the one on the shield.",
+      "kind": "person"
+    },
+    {
+      "term": "Ariadne",
+      "gloss": "A princess of Crete for whom Daedalus made his famous dancing-floor at Cnossus.",
+      "kind": "person"
+    },
+    {
+      "term": "Cnossus",
+      "gloss": "The great city of Crete where Daedalus built Ariadne's dancing-floor.",
+      "kind": "place",
+      "aliases": [
+        "Knossos"
+      ]
+    },
+    {
+      "term": "the West Wind",
+      "gloss": "The wind-god sire of Achilles' immortal horses, fathered on the storm-mare Podarge.",
+      "kind": "god"
+    },
+    {
+      "term": "Podarge",
+      "gloss": "The storm-mare who bore Achilles' immortal horses Xanthus and Balius to the West Wind.",
+      "kind": "thing"
+    },
+    {
+      "term": "Eriopis",
+      "gloss": "The wife of Oileus and stepmother of the bastard Medon, whose kinsman Medon killed, forcing him to flee.",
+      "kind": "person"
+    },
+    {
+      "term": "Medon",
+      "gloss": "A bastard son of Oileus and brother of Ajax, living in exile at Phylace; a Greek leader killed by Aeneas.",
+      "kind": "person"
+    },
+    {
+      "term": "Cicones",
+      "gloss": "A people allied with Troy; Apollo takes the shape of their lord Mentes to rouse Hector.",
+      "kind": "people"
+    },
+    {
+      "term": "winnowing-shovel",
+      "gloss": "A broad shovel used to toss grain into the wind so the chaff blows away; an arrow glances off Menelaus's armor like beans leaping from it.",
+      "kind": "thing"
+    },
+    {
+      "term": "naiad",
+      "gloss": "A water-nymph; one bore the Trojan Satnius to Enops by the river Satnioeis.",
+      "kind": "god"
+    },
+    {
+      "term": "Lyrnessus",
+      "gloss": "A town near Troy that Achilles sacked; Briseis was taken there.",
+      "kind": "place"
+    },
+    {
+      "term": "Ate",
+      "gloss": "The goddess of ruinous blindness, eldest daughter of Zeus. She is the delusion that leads men to disaster; Zeus once hurled her from heaven.",
+      "kind": "god",
+      "aliases": [
+        "ruin herself"
+      ]
+    },
+    {
+      "term": "Fury",
+      "gloss": "An avenging spirit of the underworld that punishes oaths broken and blood spilled. The Furies stop the speaking horse and witness Agamemnon's oath.",
+      "kind": "god",
+      "aliases": [
+        "Furies",
+        "the Fury who walks in the dark"
+      ]
+    },
+    {
+      "term": "Alcmene",
+      "gloss": "The mortal mother of Heracles. Hera delayed her labor to cheat Zeus of his oath.",
+      "kind": "person"
+    },
+    {
+      "term": "Perseus",
+      "gloss": "A famous hero of an older generation, grandfather of Eurystheus.",
+      "kind": "person"
+    },
+    {
+      "term": "talent",
+      "gloss": "A unit of weight, here of gold; part of the gifts and ransom. Ten talents of gold are weighed out for Achilles.",
+      "kind": "thing",
+      "aliases": [
+        "talents"
+      ]
+    },
+    {
+      "term": "Neoptolemus",
+      "gloss": "The young son of Achilles, raised on Scyros.",
+      "kind": "person"
+    },
+    {
+      "term": "Mynes",
+      "gloss": "A king whose city Achilles sacked; Briseis' first husband was among the slain there.",
+      "kind": "person"
+    },
+    {
+      "term": "Hyperion",
+      "gloss": "A name for the sun, whose blazing brightness Achilles' armor is likened to.",
+      "kind": "god"
+    },
+    {
+      "term": "Pelion",
+      "gloss": "The mountain whose ash-wood furnished Achilles' great spear.",
+      "kind": "place"
+    },
+    {
+      "term": "Alcimus",
+      "gloss": "A companion of Achilles who helps yoke the horses and waits on him.",
+      "kind": "person"
+    },
+    {
+      "term": "Themis",
+      "gloss": "The goddess of right order, sent by Zeus to summon the gods to assembly.",
+      "kind": "god"
+    },
+    {
+      "term": "Callicolone",
+      "gloss": "A hill near Troy where the pro-Trojan gods take their seat to watch the battle.",
+      "kind": "place"
+    },
+    {
+      "term": "Lycaon",
+      "gloss": "A son of Priam; both the Trojan whose shape Apollo borrows, and the young prince Achilles spares once but kills at the river.",
+      "kind": "person"
+    },
+    {
+      "term": "Lelegians",
+      "gloss": "A people allied to Troy, ruled by Altes.",
+      "kind": "people",
+      "aliases": [
+        "Lelegae"
+      ]
+    },
+    {
+      "term": "Dardanus",
+      "gloss": "The ancestor of the Trojan royal line, a son of Zeus who founded Dardania.",
+      "kind": "person"
+    },
+    {
+      "term": "Dardania",
+      "gloss": "The early settlement on the slopes of Ida, founded by Dardanus before Troy itself was built.",
+      "kind": "place"
+    },
+    {
+      "term": "Erichthonius",
+      "gloss": "An early Trojan king, richest of men, whose mares were loved by the North Wind.",
+      "kind": "person"
+    },
+    {
+      "term": "Boreas",
+      "gloss": "The North Wind, here a stallion-shaped god who sires foals; later summoned to fan Patroclus' pyre.",
+      "kind": "god"
+    },
+    {
+      "term": "Ganymede",
+      "gloss": "The most beautiful of mortals, caught up by the gods to pour Zeus's wine and live among the immortals.",
+      "kind": "person"
+    },
+    {
+      "term": "Assaracus",
+      "gloss": "A son of Tros, ancestor of Aeneas through Capys and Anchises.",
+      "kind": "person"
+    },
+    {
+      "term": "Capys",
+      "gloss": "A Trojan ancestor, son of Assaracus and father of Anchises.",
+      "kind": "person"
+    },
+    {
+      "term": "Cauconians",
+      "gloss": "A people allied with Troy, at whose position Poseidon sets Aeneas down out of danger.",
+      "kind": "people"
+    },
+    {
+      "term": "earthwork of Heracles",
+      "gloss": "A walled mound on the plain, raised long ago so Heracles could flee a sea-monster; the Greek-friendly gods sit there.",
+      "kind": "place"
+    },
+    {
+      "term": "Iphition",
+      "gloss": "A Trojan captain, son of Otrynteus, the first man Achilles kills in his renewed rampage.",
+      "kind": "person"
+    },
+    {
+      "term": "Otrynteus",
+      "gloss": "The father of Iphition, a sacker of cities from the land of Hyde.",
+      "kind": "person"
+    },
+    {
+      "term": "Tmolus",
+      "gloss": "A snowy mountain in Lydia near Iphition's homeland.",
+      "kind": "place"
+    },
+    {
+      "term": "Demoleon",
+      "gloss": "A brave Trojan, son of Antenor, killed by a spear through the helmet and temple.",
+      "kind": "person"
+    },
+    {
+      "term": "Hippodamas",
+      "gloss": "A Trojan Achilles spears in the back as he flees his chariot, dying with a bull-like bellow.",
+      "kind": "person"
+    },
+    {
+      "term": "Polydorus",
+      "gloss": "The youngest and dearest son of Priam, swift of foot; Achilles kills him as he shows off his speed.",
+      "kind": "person"
+    },
+    {
+      "term": "Dryops",
+      "gloss": "A Trojan killed by Achilles with a spear through the neck.",
+      "kind": "person"
+    },
+    {
+      "term": "Demuchus",
+      "gloss": "A big, strong Trojan, son of Philetor, downed at the knee and finished with the sword.",
+      "kind": "person"
+    },
+    {
+      "term": "Laogonus",
+      "gloss": "One of two sons of Bias thrown from their chariot and killed by Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Tros, son of Alastor",
+      "gloss": "A young Trojan who clasps Achilles' knees begging for mercy and is killed anyway.",
+      "kind": "person"
+    },
+    {
+      "term": "Mulius",
+      "gloss": "A Trojan Achilles spears through the ear.",
+      "kind": "person"
+    },
+    {
+      "term": "Echeclus",
+      "gloss": "A Trojan, son of Agenor, split open by Achilles' sword.",
+      "kind": "person"
+    },
+    {
+      "term": "Rhigmus",
+      "gloss": "A brave warrior from Thrace, speared in the belly by Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "Thrace",
+      "gloss": "A rich land north of Troy that sent allies to the Trojans.",
+      "kind": "place"
+    },
+    {
+      "term": "Axius",
+      "gloss": "A river-god of Paeonia, ancestor of Asteropaeus.",
+      "kind": "god"
+    },
+    {
+      "term": "Paeonia",
+      "gloss": "A distant land whose people, the Paeonians, came to fight for Troy under Asteropaeus.",
+      "kind": "place",
+      "aliases": [
+        "Paeonians"
+      ]
+    },
+    {
+      "term": "Pelegon",
+      "gloss": "A famous warrior, son of the river Axius and father of Asteropaeus.",
+      "kind": "person"
+    },
+    {
+      "term": "Achelous",
+      "gloss": "A great river, named as lesser than Zeus when Achilles boasts of his divine descent.",
+      "kind": "god"
+    },
+    {
+      "term": "Aeacus",
+      "gloss": "A son of Zeus, father of Peleus and grandfather of Achilles.",
+      "kind": "person"
+    },
+    {
+      "term": "suppliant",
+      "gloss": "One who begs protection or mercy, clasping the knees of the powerful; custom and the gods demand they be respected.",
+      "kind": "concept",
+      "aliases": [
+        "suppliants"
+      ]
+    },
+    {
+      "term": "Laothoe",
+      "gloss": "A wife of Priam, daughter of Altes, mother of Lycaon and Polydorus.",
+      "kind": "person"
+    },
+    {
+      "term": "Altes",
+      "gloss": "The aged king of the Lelegians, father of Laothoe and grandfather of Lycaon.",
+      "kind": "person"
+    },
+    {
+      "term": "Orion's Dog",
+      "gloss": "The star Sirius, brightest in the sky, a sign of evil bringing fever; Achilles' armor blazes like it.",
+      "kind": "thing"
+    },
+    {
+      "term": "Tritogeneia",
+      "gloss": "A title of Athena used by Zeus as he humors her wish to let Achilles kill Hector.",
+      "kind": "god"
+    },
+    {
+      "term": "Dardanian gates",
+      "gloss": "A gate of Troy that Hector keeps trying to reach as Achilles chases him around the walls.",
+      "kind": "place"
+    },
+    {
+      "term": "Hesperus",
+      "gloss": "The evening star, loveliest in the sky; Achilles' spear-point gleams like it as he kills Hector.",
+      "kind": "thing"
+    },
+    {
+      "term": "Placus",
+      "gloss": "A wooded mountain above Thebe, Andromache's homeland.",
+      "kind": "place"
+    },
+    {
+      "term": "bier",
+      "gloss": "The frame or couch on which a body is laid out for mourning and carried to the pyre.",
+      "kind": "thing"
+    },
+    {
+      "term": "Spercheius",
+      "gloss": "A river-god of Achilles' homeland to whom Peleus had vowed to cut Achilles' hair; Achilles gives the lock to Patroclus instead.",
+      "kind": "god"
+    },
+    {
+      "term": "Zephyr",
+      "gloss": "The West Wind, summoned with Boreas to make Patroclus' pyre blaze.",
+      "kind": "god",
+      "aliases": [
+        "West Wind"
+      ]
+    },
+    {
+      "term": "Morning Star",
+      "gloss": "The star that heralds the dawn; it rises as Patroclus' pyre at last burns down.",
+      "kind": "thing"
+    },
+    {
+      "term": "chariot race",
+      "gloss": "The first and grandest contest of Patroclus' funeral games, run around a distant turning-post.",
+      "kind": "concept"
+    },
+    {
+      "term": "turning-post",
+      "gloss": "The mark far out on the plain that the racing chariots must round; skill at hugging it wins the race.",
+      "kind": "thing",
+      "aliases": [
+        "turning-post",
+        "post"
+      ]
+    },
+    {
+      "term": "Eumelus",
+      "gloss": "Son of Admetus and the finest horseman in the race, who is wrecked when Athena breaks his yoke and finishes last.",
+      "kind": "person"
+    },
+    {
+      "term": "Admetus",
+      "gloss": "The father of Eumelus, the skilled charioteer.",
+      "kind": "person"
+    },
+    {
+      "term": "Aethe",
+      "gloss": "Agamemnon's swift mare, lent to Menelaus for the chariot race.",
+      "kind": "thing"
+    },
+    {
+      "term": "Podargus",
+      "gloss": "Menelaus' own horse, yoked beside Agamemnon's mare in the race.",
+      "kind": "thing"
+    },
+    {
+      "term": "Arion",
+      "gloss": "The swift, half-divine horse of Adrestus, named by Nestor as the fastest of all.",
+      "kind": "thing"
+    },
+    {
+      "term": "Ajax, son of Oileus",
+      "gloss": "The swift but lesser Ajax, who quarrels with Idomeneus and is tripped by Athena in the footrace.",
+      "kind": "person",
+      "aliases": [
+        "son of Oileus"
+      ]
+    },
+    {
+      "term": "Ajax, son of Telamon",
+      "gloss": "The great, massive Ajax; he wrestles Odysseus to a draw and competes in several games.",
+      "kind": "person",
+      "aliases": [
+        "son of Telamon",
+        "great Ajax"
+      ]
+    },
+    {
+      "term": "Telamon",
+      "gloss": "The father of the great Ajax.",
+      "kind": "person"
+    },
+    {
+      "term": "Laertes",
+      "gloss": "The father of Odysseus, who is often called 'son of Laertes.'",
+      "kind": "person"
+    },
+    {
+      "term": "Epeius",
+      "gloss": "A big, boastful Greek and the best boxer in the games; he knocks out Euryalus with one blow.",
+      "kind": "person"
+    },
+    {
+      "term": "Panopeus",
+      "gloss": "The father of the boxer Epeius.",
+      "kind": "person"
+    },
+    {
+      "term": "Oedipus",
+      "gloss": "A king of Thebes at whose funeral games Mecisteus once triumphed.",
+      "kind": "person"
+    },
+    {
+      "term": "Cadmus",
+      "gloss": "The founder of Thebes; the Thebans are called 'sons of Cadmus.'",
+      "kind": "person"
+    },
+    {
+      "term": "pig-iron",
+      "gloss": "An unworked lump of iron, once thrown by Eetion, set as a prize for the weight-throwing contest.",
+      "kind": "thing",
+      "aliases": [
+        "lump of pig-iron"
+      ]
+    },
+    {
+      "term": "Phoenician",
+      "gloss": "Of Phoenicia, the seafaring traders who carried the silver bowl across the sea.",
+      "kind": "people"
+    },
+    {
+      "term": "Amarynceus",
+      "gloss": "A lord at whose funeral games at Buprasium the young Nestor won many contests.",
+      "kind": "person"
+    },
+    {
+      "term": "Buprasium",
+      "gloss": "A place in Elis where Nestor recalls winning the funeral games of Amarynceus.",
+      "kind": "place"
+    },
+    {
+      "term": "Niobe",
+      "gloss": "A mother whose twelve children Apollo and Artemis killed for her boast against Leto; even she, turned to stone, remembered to eat. Achilles tells her tale to coax Priam to supper.",
+      "kind": "person"
+    },
+    {
+      "term": "Sipylus",
+      "gloss": "The lonely mountain where Niobe, turned to stone, broods over her grief.",
+      "kind": "place"
+    },
+    {
+      "term": "Agathon",
+      "gloss": "A son of Priam named among those rebuked by their father.",
+      "kind": "person"
+    },
+    {
+      "term": "Pammon",
+      "gloss": "A son of Priam, named in his father's angry rebuke.",
+      "kind": "person"
+    },
+    {
+      "term": "Mestor",
+      "gloss": "A son of Priam, godlike, whom Priam mourns as lost.",
+      "kind": "person"
+    },
+    {
+      "term": "Troilus",
+      "gloss": "A son of Priam who fought from his chariot, mourned by his father as dead.",
+      "kind": "person"
+    },
+    {
+      "term": "Samos",
+      "gloss": "An island near Troy named among the places captives were sold and a marker of the sea Iris dives through.",
+      "kind": "place"
+    },
+    {
+      "term": "Polyctor",
+      "gloss": "The supposed father Hermes claims when he meets Priam in the guise of a young Myrmidon.",
+      "kind": "person"
+    },
+    {
+      "term": "dirge",
+      "gloss": "A formal mourning-song led over the dead; singers chant it over Hector while the women wail in answer.",
+      "kind": "concept",
+      "aliases": [
+        "mourning-song",
+        "lament"
+      ]
+    },
+    {
+      "term": "mound",
+      "gloss": "The earthen barrow heaped over a grave to honor and mark the dead; mounds are raised for Patroclus and Hector.",
+      "kind": "thing",
+      "aliases": [
+        "barrow",
+        "grave-marker"
+      ]
+    },
+    {
+      "term": "glut",
+      "gloss": "To gorge or satisfy to the full, especially of bloodshed: to glut Ares with blood means to give war its fill of killing.",
+      "kind": "word"
+    },
+    {
+      "term": "ford",
+      "gloss": "A shallow crossing-place of a river; the Trojans flee to the ford of the Xanthus.",
+      "kind": "word"
     }
   ]
 }

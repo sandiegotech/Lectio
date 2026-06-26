@@ -133,6 +133,7 @@ struct WordCard: View {
     let definition: String?
     var kind: String? = nil           // set when the entry came from the curated glossary
     var conceptId: String? = nil      // links to a shared Concept node, if any
+    var context: String? = nil        // the passage the word sits in, sent on to Gloss
     let workTitle: String?
     let workId: String?
     let pal: Palette
@@ -250,26 +251,47 @@ struct WordCard: View {
             .background(Capsule().stroke(pal.rule))
     }
 
-    // Subtle bridge to the sibling app — prominent when the word is outside this
-    // book's corpus, a quiet "study deeper" link when we already have a definition.
+    // Is the sibling app installed? (Requires `gloss` in LSApplicationQueriesSchemes.)
+    private var glossInstalled: Bool {
+        guard let u = URL(string: "gloss://define") else { return false }
+        return UIApplication.shared.canOpenURL(u)
+    }
+
+    // Bridge to the sibling app. If Gloss is installed it's a clear call-to-action, set
+    // apart from the definition text; if not, a quiet link to discover it. Either way the
+    // word and the passage it sits in travel along.
     private var glossLink: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 8) {
             Divider().overlay(pal.rule)
-            Button {
-                GlossLink.open(term: term)
-            } label: {
-                HStack(spacing: 6) {
-                    Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                    Text(hasDefinition ? "Study in Gloss" : "Look up “\(term)” in Gloss")
-                        .font(.caption.weight(.medium))
-                    Spacer(minLength: 0)
-                    Text("powered by Gloss")
-                        .font(.system(size: 8, weight: .regular)).tracking(0.3)
-                        .foregroundColor(pal.inkSoft.opacity(0.7))
+            if glossInstalled {
+                Button {
+                    GlossLink.open(term: term, context: context, sourceTitle: workTitle)
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkle.magnifyingglass").font(.caption2)
+                        Text("Open in Gloss").font(.caption.weight(.semibold))
+                        Spacer(minLength: 0)
+                        Image(systemName: "arrow.up.forward").font(.system(size: 9, weight: .semibold))
+                    }
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 12).padding(.vertical, 7)
+                    .background(Capsule().fill(pal.accent))
                 }
-                .foregroundColor(hasDefinition ? pal.inkSoft : pal.accent)
+                .buttonStyle(.plain)
+            } else {
+                Button {
+                    GlossLink.openWebsite()
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkle.magnifyingglass").font(.caption2)
+                        Text("Go deeper with Gloss").font(.caption.weight(.medium))
+                        Spacer(minLength: 0)
+                        Image(systemName: "arrow.up.right").font(.system(size: 9))
+                    }
+                    .foregroundColor(pal.accent)
+                }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
         }
     }
 }
@@ -278,12 +300,35 @@ struct WordCard: View {
 // falling back to the web. The personal vocabulary layer is shared across SDIT apps
 // (BIBLE §8): a word looked up here is there to study in Gloss.
 enum GlossLink {
-    static func open(term: String) {
+    // Hands the word to Gloss *with the passage it sits in* (`context`) and the book
+    // it came from (`sourceTitle`), so Gloss can explain the word as it's used here —
+    // Homer's "wrath," not the dictionary's. Long segments are trimmed to keep the URL
+    // sane; Gloss only needs enough surrounding text to disambiguate.
+    static func open(term: String, context: String? = nil, sourceTitle: String? = nil) {
+        var comps = URLComponents()
+        comps.scheme = "gloss"
+        comps.host = "define"
+        var items = [URLQueryItem(name: "term", value: term)]
+        if let context = context?.trimmingCharacters(in: .whitespacesAndNewlines), !context.isEmpty {
+            items.append(URLQueryItem(name: "context", value: String(context.prefix(1000))))
+        }
+        if let sourceTitle, !sourceTitle.isEmpty {
+            items.append(URLQueryItem(name: "title", value: sourceTitle))
+        }
+        comps.queryItems = items
+        guard let scheme = comps.url else { return }
+
         let q = term.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? term
-        guard let scheme = URL(string: "gloss://define?term=\(q)") else { return }
         let web = URL(string: "https://sandiegotech.org/gloss?q=\(q)")
         UIApplication.shared.open(scheme, options: [:]) { opened in
             if !opened, let web { UIApplication.shared.open(web) }
+        }
+    }
+
+    // When Gloss isn't installed: open its page so the reader can discover/get it.
+    static func openWebsite() {
+        if let url = URL(string: "https://sandiegotech.org/gloss") {
+            UIApplication.shared.open(url)
         }
     }
 }

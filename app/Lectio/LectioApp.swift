@@ -18,7 +18,7 @@ struct LectioApp: App {
                 .environmentObject(theme)
                 .preferredColorScheme(theme.preferredColorScheme)
                 // Inbound `lectio://define?term=…` from Gloss's "Open in Lectio".
-                .glossInbound()
+                .glossInbound(library: library, saved: saved)
         }
     }
 }

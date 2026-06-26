@@ -1,0 +1,1658 @@
+{
+  "workId": "work.confucius.analects",
+  "glossary": [
+    {
+      "term": "the Master",
+      "gloss": "Confucius himself. Legge renders the Chinese 'the Master' (Zi) for nearly every saying in the book; it always means Confucius.",
+      "kind": "person",
+      "aliases": [
+        "Master",
+        "the master"
+      ]
+    },
+    {
+      "term": "Confucius",
+      "gloss": "Kong Qiu (551–479 BCE), the Chinese teacher whose recorded sayings make up this book. Legge uses his name (rather than 'the Master') mainly when an outsider or a ruler addresses or speaks of him.",
+      "kind": "person"
+    },
+    {
+      "term": "virtue",
+      "gloss": "Confucius's central ideal, ren — human-heartedness, goodness, the fully cultivated moral character of a true person. Legge also uses 'perfect virtue' and 'benevolence' for the same word.",
+      "kind": "concept",
+      "aliases": [
+        "virtues",
+        "perfect virtue",
+        "complete virtue",
+        "virtuous"
+      ]
+    },
+    {
+      "term": "benevolent",
+      "gloss": "Kind and good-hearted; another of Legge's words for ren, the warm regard for others that is the root of moral character.",
+      "kind": "concept",
+      "aliases": [
+        "benevolence",
+        "benevolent actions"
+      ]
+    },
+    {
+      "term": "the superior man",
+      "gloss": "The junzi — Confucius's ideal of the cultivated, principled person (literally 'son of a ruler', but for Confucius defined by character, not birth). The opposite of the 'mean man'. Legge sometimes leaves it untranslated as Chun-tsze.",
+      "kind": "concept",
+      "aliases": [
+        "superior man",
+        "Chun-tsze",
+        "Chun-tze"
+      ]
+    },
+    {
+      "term": "the mean man",
+      "gloss": "The petty, small-minded person — the opposite of the superior man (junzi). 'Mean' here means low or base in character, not cruel or stingy.",
+      "kind": "concept",
+      "aliases": [
+        "mean man",
+        "small man"
+      ]
+    },
+    {
+      "term": "filial piety",
+      "gloss": "Devoted respect, care, and obedience that children owe their parents — a foundational Confucian duty. 'Filial' simply means 'as a good son or daughter'.",
+      "kind": "concept",
+      "aliases": [
+        "filial",
+        "filial duties"
+      ]
+    },
+    {
+      "term": "fraternal submission",
+      "gloss": "The proper deference a younger brother owes an older one; paired with filial piety as a root of social harmony.",
+      "kind": "concept",
+      "aliases": [
+        "fraternal",
+        "brotherly duties"
+      ]
+    },
+    {
+      "term": "rules of propriety",
+      "gloss": "Li — the whole code of ritual, ceremony, manners, and correct social conduct. For Confucius, observing li shapes and expresses good character, not mere etiquette.",
+      "kind": "concept",
+      "aliases": [
+        "propriety",
+        "rules of propriety",
+        "rites of propriety",
+        "ceremonies",
+        "rites"
+      ]
+    },
+    {
+      "term": "the rectification of names",
+      "gloss": "The Confucian doctrine that each thing and role must match its true name — a ruler must truly be a ruler, a father a father — so that words and reality align and society holds together.",
+      "kind": "concept"
+    },
+    {
+      "term": "the decrees of Heaven",
+      "gloss": "Tian ming, the will or appointment of Heaven — the moral order of the cosmos that sets the bounds of a person's life and fate. Heaven for Confucius is an impersonal but morally charged power, not a personal god.",
+      "kind": "concept",
+      "aliases": [
+        "appointment of Heaven",
+        "way of Heaven",
+        "decrees of Heaven",
+        "Heaven"
+      ]
+    },
+    {
+      "term": "the odes",
+      "gloss": "The Book of Poetry (Shijing), an ancient anthology of some three hundred songs and poems that Confucius treated as a core text for moral and cultural education.",
+      "kind": "thing",
+      "aliases": [
+        "odes",
+        "Book of Poetry",
+        "Odes",
+        "the Odes"
+      ]
+    },
+    {
+      "term": "the polite studies",
+      "gloss": "Refined or liberal learning — letters, poetry, music, and the arts a cultivated person pursues after fulfilling basic duties. Legge also calls them 'polite arts'.",
+      "kind": "concept",
+      "aliases": [
+        "polite studies",
+        "polite arts"
+      ]
+    },
+    {
+      "term": "complaisant",
+      "gloss": "Agreeable and eager to please; obliging in manner. Confucius praises a courteous, accommodating bearing — distinct from the modern 'complacent'.",
+      "kind": "word",
+      "aliases": [
+        "complaisance",
+        "complaisantly"
+      ]
+    },
+    {
+      "term": "insinuating",
+      "gloss": "Ingratiating; flattering in a sly, calculated way to win favor. Confucius warns that an 'insinuating appearance' is rarely matched by real virtue.",
+      "kind": "word"
+    },
+    {
+      "term": "discomposure",
+      "gloss": "Loss of calm or composure; being upset or flustered. The virtuous person feels none even when ignored.",
+      "kind": "word",
+      "aliases": [
+        "composed"
+      ]
+    },
+    {
+      "term": "radical",
+      "gloss": "Pertaining to the root or foundation. 'The superior man bends his attention to what is radical' means he concentrates on the fundamentals from which everything else grows.",
+      "kind": "word"
+    },
+    {
+      "term": "remonstrate",
+      "gloss": "To object or protest earnestly, pleading with someone to change course. A son may gently remonstrate with his parents.",
+      "kind": "word",
+      "aliases": [
+        "remonstrances",
+        "remonstrate"
+      ]
+    },
+    {
+      "term": "emolument",
+      "gloss": "Pay or profit from holding office; a salary or stipend. Some studied chiefly to win official emolument.",
+      "kind": "word"
+    },
+    {
+      "term": "catholic",
+      "gloss": "Broad-minded and impartial, embracing all without faction. 'The superior man is catholic and no partisan' — the lowercase sense, unrelated to the Catholic Church.",
+      "kind": "word"
+    },
+    {
+      "term": "partisan",
+      "gloss": "One who takes sides or belongs to a faction; biased toward his own group. The mean man is a partisan; the superior man is not.",
+      "kind": "word"
+    },
+    {
+      "term": "parsimonious",
+      "gloss": "Stingy; excessively sparing with money. Asked whether Kwan Chung was parsimonious, Confucius points out his extravagances.",
+      "kind": "word",
+      "aliases": [
+        "parsimony"
+      ]
+    },
+    {
+      "term": "niggardly",
+      "gloss": "Mean and ungenerous with money or help; stingy. Even great ability counts for little if a man is proud and niggardly.",
+      "kind": "word"
+    },
+    {
+      "term": "licentious",
+      "gloss": "Lacking moral restraint, especially in pleasure; unbridled. The Kwan Tsu ode expresses joy 'without being licentious'.",
+      "kind": "word"
+    },
+    {
+      "term": "rusticity",
+      "gloss": "Rough, unpolished plainness, like that of a country person; lack of cultivation. The opposite extreme from the over-refined 'manners of a clerk'.",
+      "kind": "word"
+    },
+    {
+      "term": "specious",
+      "gloss": "Superficially attractive or persuasive but hollow. The 'specious speech' of the litanist T'o sounds fine but lacks substance.",
+      "kind": "word"
+    },
+    {
+      "term": "litanist",
+      "gloss": "An official prayer-reader or invocator at religious ceremonies, prized for smooth, eloquent recitation.",
+      "kind": "word"
+    },
+    {
+      "term": "insubordination",
+      "gloss": "Defiance of authority; refusal to submit to those above one. Confucius warns that extravagance and reckless daring lead to it.",
+      "kind": "word",
+      "aliases": [
+        "insubordinate"
+      ]
+    },
+    {
+      "term": "solicitude",
+      "gloss": "Anxious care or concern. Even the sage-kings Yao and Shun felt solicitude about doing enough good for the people.",
+      "kind": "word",
+      "aliases": [
+        "solicitous"
+      ]
+    },
+    {
+      "term": "altercation",
+      "gloss": "A heated dispute or quarrel. The admired friend, though wronged, entered into no altercation.",
+      "kind": "word"
+    },
+    {
+      "term": "repining",
+      "gloss": "Fretful complaining or discontent; grumbling regret. Po-i and Shu-ch'i felt no repining at the hardships their virtue cost them.",
+      "kind": "word",
+      "aliases": [
+        "repinings"
+      ]
+    },
+    {
+      "term": "veneration",
+      "gloss": "Deep respect bordering on reverence. A scholar who is not grave will not call forth veneration from others.",
+      "kind": "word"
+    },
+    {
+      "term": "want of courage",
+      "gloss": "Lack of courage; cowardice. 'To see what is right and not to do it is want of courage' — 'want' here means absence or lack.",
+      "kind": "word",
+      "aliases": [
+        "want"
+      ]
+    },
+    {
+      "term": "straitened",
+      "gloss": "Hard-pressed, in difficult or cramped circumstances, especially poverty. To be 'straitened and yet affecting to be at ease' is a kind of pretense.",
+      "kind": "word"
+    },
+    {
+      "term": "utensil",
+      "gloss": "A specialized tool or vessel good for only one use. Confucius's saying 'the accomplished scholar is not a utensil' means a cultivated person is not narrowly limited to a single function.",
+      "kind": "word"
+    },
+    {
+      "term": "the Constant Mean",
+      "gloss": "The ideal of the steady middle course between extremes — moderation and balance as a moral virtue. This idea became the heart of a later Confucian classic, the Doctrine of the Mean.",
+      "kind": "concept",
+      "aliases": [
+        "Constant Mean"
+      ]
+    },
+    {
+      "term": "Lu",
+      "gloss": "The state in eastern China that was Confucius's home, in present-day Shandong. Many disciples and events in the Analects belong to Lu.",
+      "kind": "place"
+    },
+    {
+      "term": "Ch'i",
+      "gloss": "A large, powerful state neighboring Lu, where Confucius once heard the Shao music and stayed for a time.",
+      "kind": "place",
+      "aliases": [
+        "Chi"
+      ]
+    },
+    {
+      "term": "Wei",
+      "gloss": "A central Chinese state where Confucius spent part of his years of travel; a ruler of Wei is discussed by the disciples.",
+      "kind": "place"
+    },
+    {
+      "term": "Ch'an",
+      "gloss": "A small state where Confucius stayed during his wanderings; from there he longed to return home to Lu.",
+      "kind": "place",
+      "aliases": [
+        "Ch'in",
+        "Chan"
+      ]
+    },
+    {
+      "term": "Sung",
+      "gloss": "A Chinese state descended from the earlier Shang (Yin) dynasty; Confucius cites it when discussing the records of ancient ceremonies.",
+      "kind": "place"
+    },
+    {
+      "term": "Sheh",
+      "gloss": "A district whose duke asked Tsze-lu about Confucius. The 'Duke of Sheh' was a local lord rather than a true duke.",
+      "kind": "place"
+    },
+    {
+      "term": "Hu-hsiang",
+      "gloss": "A place whose people had a bad reputation, so the disciples were surprised when Confucius received a boy from there.",
+      "kind": "place"
+    },
+    {
+      "term": "Pi",
+      "gloss": "A town whose governorship was offered to the disciple Min Tsze-ch'ien, who declined it.",
+      "kind": "place"
+    },
+    {
+      "term": "Wu-ch'ang",
+      "gloss": "A town where the disciple Tsze-yu served as governor.",
+      "kind": "place"
+    },
+    {
+      "term": "the Wan",
+      "gloss": "A river; Min Tsze-ch'ien said he would sooner go live on its banks than accept an unwelcome official post.",
+      "kind": "place",
+      "aliases": [
+        "Wan"
+      ]
+    },
+    {
+      "term": "Yi",
+      "gloss": "A border post whose warden asked to meet Confucius and afterward spoke of him as Heaven's instrument. (Distinct from the Yi, the Book of Changes, that Confucius wished to study.)",
+      "kind": "place"
+    },
+    {
+      "term": "Tsze-lu",
+      "gloss": "One of Confucius's closest and most senior disciples — bold, blunt, and brave, often gently corrected by the Master for rashness. Also called by his given name Yu.",
+      "kind": "person",
+      "aliases": [
+        "Yu",
+        "Chi Lu",
+        "Chung-yu"
+      ]
+    },
+    {
+      "term": "Tsang",
+      "gloss": "The philosopher Tsang (Zengzi), a devoted younger disciple known for daily self-examination and deep moral seriousness; later revered as a transmitter of Confucius's teaching. His personal name was Shan.",
+      "kind": "person",
+      "aliases": [
+        "the philosopher Tsang",
+        "Shan",
+        "Shan, my doctrine"
+      ]
+    },
+    {
+      "term": "Yen Yuan",
+      "gloss": "Confucius's favorite disciple, prized above all for his love of learning and quiet virtue; the Master grieved deeply at his early death. Also called Hui and Yen Hui.",
+      "kind": "person",
+      "aliases": [
+        "Hui",
+        "Yen Hui"
+      ]
+    },
+    {
+      "term": "Tsze-kung",
+      "gloss": "A prominent disciple, eloquent, quick-witted, and successful in affairs; he often questions the Master and is sometimes told he falls short of higher virtue. His personal name was Ts'ze.",
+      "kind": "person",
+      "aliases": [
+        "Ts'ze",
+        "Tsze-kung"
+      ]
+    },
+    {
+      "term": "Yu",
+      "gloss": "The philosopher Yu (Youzi), a disciple whose sayings on filial piety and ritual open the book. Note: 'Yu' is also the personal name of the disciple Tsze-lu, so context decides which is meant.",
+      "kind": "person",
+      "aliases": [
+        "the philosopher Yu"
+      ]
+    },
+    {
+      "term": "Tsze-hsia",
+      "gloss": "A younger disciple noted for learning and literary skill; the Master discusses the odes and the meaning of ceremony with him. Also called Shang.",
+      "kind": "person",
+      "aliases": [
+        "Shang",
+        "Tsze-hia"
+      ]
+    },
+    {
+      "term": "Tsze-chang",
+      "gloss": "A disciple who frequently asks Confucius about office, conduct, and how to win the people's trust.",
+      "kind": "person"
+    },
+    {
+      "term": "Tsze-yu",
+      "gloss": "A disciple who became governor of Wu-ch'ang and questions the Master about filial piety and good men.",
+      "kind": "person"
+    },
+    {
+      "term": "Tsai Wo",
+      "gloss": "A disciple known for clever talk and for being scolded by Confucius (once for sleeping in the daytime, 'rotten wood cannot be carved'). Also called Yu (Tsai Yu).",
+      "kind": "person",
+      "aliases": [
+        "Tsai Yu"
+      ]
+    },
+    {
+      "term": "Fan Ch'ih",
+      "gloss": "A disciple who serves as Confucius's charioteer and asks him about filial piety, wisdom, and perfect virtue.",
+      "kind": "person",
+      "aliases": [
+        "Fan Chih"
+      ]
+    },
+    {
+      "term": "Chung-kung",
+      "gloss": "A disciple, given name Yung, praised by Confucius as fit even to occupy the place of a prince despite humble origins.",
+      "kind": "person",
+      "aliases": [
+        "Yung"
+      ]
+    },
+    {
+      "term": "Ch'iu",
+      "gloss": "A disciple of many practical talents, given name of Zan Yu (Yen Yu / Yen Ch'iu); Confucius judges him capable as an administrator.",
+      "kind": "person",
+      "aliases": [
+        "Zan Yu",
+        "Yen Yu",
+        "Yen Ch'iu",
+        "Zan"
+      ]
+    },
+    {
+      "term": "Ch'ih",
+      "gloss": "The disciple Kung-hsi Hwa (Tsze-hwa), praised for his poise in receiving guests at court; also sent on a mission to Ch'i.",
+      "kind": "person",
+      "aliases": [
+        "Kung-hsi Hwa",
+        "Tsze-hwa"
+      ]
+    },
+    {
+      "term": "Min Tsze-ch'ien",
+      "gloss": "A disciple admired for his integrity, who politely refused the governorship of Pi rather than serve an unworthy clan.",
+      "kind": "person",
+      "aliases": [
+        "Min Tsze-ch'ien"
+      ]
+    },
+    {
+      "term": "Yuan Sze",
+      "gloss": "A disciple made steward of Confucius's town who tried to decline his grain salary; the Master told him to keep it and share it.",
+      "kind": "person",
+      "aliases": [
+        "Sze"
+      ]
+    },
+    {
+      "term": "the Duke Ai",
+      "gloss": "Duke Ai of Lu, the ruler of Confucius's home state, who consults him about governing and which disciples love to learn.",
+      "kind": "person",
+      "aliases": [
+        "Duke Ai"
+      ]
+    },
+    {
+      "term": "the Duke Ting",
+      "gloss": "Duke Ting of Lu, an earlier ruler of Confucius's home state, who asks how a prince and his ministers should treat one another.",
+      "kind": "person",
+      "aliases": [
+        "Duke Ting"
+      ]
+    },
+    {
+      "term": "Chi K'ang",
+      "gloss": "Head of the powerful Chi (Ji) family that dominated the government of Lu; he questions Confucius about ruling and about the disciples' fitness for office.",
+      "kind": "person",
+      "aliases": [
+        "Chi K'ang"
+      ]
+    },
+    {
+      "term": "the Chi family",
+      "gloss": "The Ji clan, one of three noble families that had usurped much of the real power in the state of Lu; Confucius repeatedly criticizes their overreach and breaches of ritual.",
+      "kind": "people",
+      "aliases": [
+        "Chi family",
+        "the Chi",
+        "the three families",
+        "three families"
+      ]
+    },
+    {
+      "term": "Kwan Chung",
+      "gloss": "A famous earlier statesman of the state of Ch'i, admired for his political success but criticized by Confucius for personal extravagance and ignorance of true propriety.",
+      "kind": "person",
+      "aliases": [
+        "Kwan",
+        "Kwan Chung"
+      ]
+    },
+    {
+      "term": "Po-i",
+      "gloss": "An ancient worthy who, with his brother Shu-ch'i, chose principled poverty and starvation over serving an unjust ruler; Confucius praises them as men of virtue without bitterness.",
+      "kind": "person"
+    },
+    {
+      "term": "Shu-ch'i",
+      "gloss": "Brother of Po-i; together they are byword ancient worthies who held to their principles and bore no grudges.",
+      "kind": "person",
+      "aliases": [
+        "Shu-chi"
+      ]
+    },
+    {
+      "term": "Yao",
+      "gloss": "A legendary sage-emperor of high antiquity, held up by Confucius as a model ruler whose virtue was so vast the people could find no name for it.",
+      "kind": "person"
+    },
+    {
+      "term": "Shun",
+      "gloss": "A legendary sage-emperor, successor to Yao, likewise praised by Confucius as a model of effortless, virtuous rule.",
+      "kind": "person"
+    },
+    {
+      "term": "Yu (the sage-king)",
+      "gloss": "The legendary founder-emperor Yu the Great, praised by Confucius for personal frugality, devotion to the spirits, and his labors on flood-control channels. (Not the disciples named Yu.)",
+      "kind": "person",
+      "aliases": [
+        "the great Yu"
+      ]
+    },
+    {
+      "term": "King Wan",
+      "gloss": "King Wen of Zhou, the revered founder-figure of the Chau (Zhou) dynasty, embodiment of virtuous rule before the dynasty's full establishment.",
+      "kind": "person",
+      "aliases": [
+        "King Wan"
+      ]
+    },
+    {
+      "term": "King Wu",
+      "gloss": "King Wu of Zhou, son of King Wan, who completed the founding of the Chau dynasty and boasted of his ten able ministers.",
+      "kind": "person",
+      "aliases": [
+        "King Wu"
+      ]
+    },
+    {
+      "term": "the duke of Chau",
+      "gloss": "The Duke of Zhou, brother of King Wu, model statesman and architect of Zhou institutions; Confucius so revered him that he measured his own decline by no longer dreaming of him.",
+      "kind": "person",
+      "aliases": [
+        "duke of Chau",
+        "Duke of Chau"
+      ]
+    },
+    {
+      "term": "T'ai-po",
+      "gloss": "An ancient prince praised by Confucius for the highest virtue because he thrice yielded the throne to others without seeking any credit.",
+      "kind": "person",
+      "aliases": [
+        "Tai-po"
+      ]
+    },
+    {
+      "term": "Hwan T'ui",
+      "gloss": "An official who threatened Confucius's life; the Master expressed calm trust that Heaven, source of his virtue, would protect him from such a man.",
+      "kind": "person",
+      "aliases": [
+        "Hwan Tui"
+      ]
+    },
+    {
+      "term": "the Hsia dynasty",
+      "gloss": "The first of the legendary Chinese dynasties; Confucius cites its ceremonies and rulers when discussing the inheritance of ritual across the ages.",
+      "kind": "people",
+      "aliases": [
+        "Hsia",
+        "Hsia dynasty",
+        "Hsia sovereign"
+      ]
+    },
+    {
+      "term": "the Yin dynasty",
+      "gloss": "The Shang dynasty (also called Yin), which followed the Hsia; Confucius traces how each dynasty kept and altered the rites of the one before.",
+      "kind": "people",
+      "aliases": [
+        "Yin",
+        "Yin dynasty"
+      ]
+    },
+    {
+      "term": "the Chau dynasty",
+      "gloss": "The Zhou dynasty, the great house under which Confucius lived (though in decline); he admired its refined institutions above all earlier ones and declared 'I follow Chau'.",
+      "kind": "people",
+      "aliases": [
+        "Chau",
+        "Chau dynasty"
+      ]
+    },
+    {
+      "term": "the Shao",
+      "gloss": "An ancient piece of ceremonial music associated with the sage-king Shun; Confucius judged it 'perfectly beautiful and also perfectly good' and was entranced by it for three months.",
+      "kind": "thing",
+      "aliases": [
+        "Shao"
+      ]
+    },
+    {
+      "term": "the Wu (music)",
+      "gloss": "An ancient piece of ceremonial music associated with King Wu; Confucius judged it perfectly beautiful but not perfectly good, since it celebrated conquest.",
+      "kind": "thing",
+      "aliases": [
+        "the Wu"
+      ]
+    },
+    {
+      "term": "the Kwan Tsu",
+      "gloss": "The opening ode of the Book of Poetry, praised by Confucius as expressing joy without excess and used as a model of music's right effect.",
+      "kind": "thing",
+      "aliases": [
+        "Kwan Tsu"
+      ]
+    },
+    {
+      "term": "the Yi (Book of Changes)",
+      "gloss": "The ancient divination classic, the Book of Changes (I Ching), which Confucius wished he had more years to study so as to avoid great faults.",
+      "kind": "thing",
+      "aliases": [
+        "the Yi"
+      ]
+    },
+    {
+      "term": "the Shu-ching",
+      "gloss": "The Book of History (or Book of Documents), an ancient collection of speeches and records of early rulers that Confucius quotes on filial duty and government.",
+      "kind": "thing",
+      "aliases": [
+        "Shu-ching",
+        "the History"
+      ]
+    },
+    {
+      "term": "a thousand chariots",
+      "gloss": "A conventional measure of a medium-to-large feudal state's military and wealth — a country able to field a thousand war-chariots. Confucius uses it to picture the scale of governing.",
+      "kind": "thing",
+      "aliases": [
+        "thousand chariots",
+        "a hundred chariots"
+      ]
+    },
+    {
+      "term": "li",
+      "gloss": "An ancient Chinese unit of distance (a few hundred meters), used here to size a small state — 'a state of a hundred li'. (Not to be confused with li meaning ritual propriety.)",
+      "kind": "thing"
+    },
+    {
+      "term": "the great sacrifice",
+      "gloss": "A solemn imperial ancestral rite (the di sacrifice); Confucius treats its full meaning as so profound that whoever truly grasped it could govern the world with ease.",
+      "kind": "thing",
+      "aliases": [
+        "great sacrifice"
+      ]
+    },
+    {
+      "term": "the son of heaven",
+      "gloss": "The Son of Heaven, the title of the supreme ruler (king or emperor), who alone holds Heaven's mandate to rule all under heaven.",
+      "kind": "concept",
+      "aliases": [
+        "son of heaven",
+        "Son of Heaven"
+      ]
+    },
+    {
+      "term": "prince",
+      "gloss": "In Legge's rendering, the ruler of a state or one's lord — the sovereign a minister serves — rather than merely a king's son.",
+      "kind": "concept",
+      "aliases": [
+        "princes"
+      ]
+    },
+    {
+      "term": "perfect virtue",
+      "gloss": "Legge's rendering of ren, the supreme Confucian ideal: complete human goodness or benevolence toward others. The hardest virtue to attain and the heart of Confucius's teaching.",
+      "kind": "concept",
+      "aliases": [
+        "benevolence"
+      ]
+    },
+    {
+      "term": "propriety",
+      "gloss": "Legge's rendering of li, the proper rituals, manners, and rules of conduct that govern how a person should behave in every situation. Often phrased 'the rules of propriety.'",
+      "kind": "concept",
+      "aliases": [
+        "the rules of propriety",
+        "proprieties",
+        "rules of ceremony",
+        "rules of propriety"
+      ]
+    },
+    {
+      "term": "Heaven",
+      "gloss": "Tian, the highest power in Confucian thought — a moral, ordering force of the cosmos rather than a personal god. It assigns each person's fate ('the appointments of Heaven').",
+      "kind": "god",
+      "aliases": [
+        "the appointments of Heaven",
+        "appointments of Heaven"
+      ]
+    },
+    {
+      "term": "rectify names",
+      "gloss": "Confucius's principle that words must match reality: a ruler must truly be a ruler, a father truly a father, before society can function. Setting language right is the first step in good government.",
+      "kind": "concept",
+      "aliases": [
+        "rectification",
+        "rectify",
+        "rectifying"
+      ]
+    },
+    {
+      "term": "the sage",
+      "gloss": "A person of the highest possible wisdom and virtue, even rarer than the superior man — the legendary ideal of human perfection.",
+      "kind": "concept",
+      "aliases": [
+        "sage"
+      ]
+    },
+    {
+      "term": "Meng Chang",
+      "gloss": "A high official (Meng Jingzi) of the state of Lu who visited the dying disciple Tsang.",
+      "kind": "person"
+    },
+    {
+      "term": "Duke of Chau",
+      "gloss": "The Duke of Zhou, a revered early statesman of the Zhou dynasty whom Confucius held up as a model of wisdom and good government.",
+      "kind": "person",
+      "aliases": [
+        "duke of Chau"
+      ]
+    },
+    {
+      "term": "Chau",
+      "gloss": "The Zhou dynasty (and its ruling house), the long era Confucius idealized as a golden age of proper ritual and government.",
+      "kind": "people",
+      "aliases": [
+        "Chau dynasty",
+        "house of Chau",
+        "dynasty of Chau"
+      ]
+    },
+    {
+      "term": "Yin",
+      "gloss": "The Yin (Shang) dynasty that the Zhou replaced. Confucius treats its late rulers as examples of misrule.",
+      "kind": "people",
+      "aliases": [
+        "dynasty of Yin"
+      ]
+    },
+    {
+      "term": "T'ang and Yu",
+      "gloss": "Legendary golden ages — the eras of the sage-emperors Yao (T'ang) and Shun (Yu) — invoked as times rich in talented men.",
+      "kind": "people"
+    },
+    {
+      "term": "Chih",
+      "gloss": "The music-master of Lu, praised by Confucius for the magnificent performance of the Kwan Tsu music.",
+      "kind": "person"
+    },
+    {
+      "term": "Kwan Tsu",
+      "gloss": "The opening ode of the Book of Poetry, here named for its grand musical setting.",
+      "kind": "thing"
+    },
+    {
+      "term": "Ta-hsiang",
+      "gloss": "A village whose unnamed inhabitant remarked on the breadth, but lack of single fame, of Confucius's learning.",
+      "kind": "place"
+    },
+    {
+      "term": "K'wang",
+      "gloss": "A town where Confucius was once detained and threatened; he calmly trusted that Heaven would not let his mission perish.",
+      "kind": "place"
+    },
+    {
+      "term": "the FANG bird",
+      "gloss": "The fenghuang or phoenix, a mythical bird whose appearance was an omen that a sage ruler had arisen. Its absence means the age is bad.",
+      "kind": "thing",
+      "aliases": [
+        "FANG bird"
+      ]
+    },
+    {
+      "term": "the river sends forth no map",
+      "gloss": "An allusion to a legendary auspicious chart said to rise from the Yellow River in a sage's reign. Its absence, like the phoenix's, means good government will not come in Confucius's time.",
+      "kind": "thing"
+    },
+    {
+      "term": "the nine wild tribes of the east",
+      "gloss": "Peoples on the eastern frontier regarded as uncivilized; Confucius mused that a superior man's presence would refine even them.",
+      "kind": "people",
+      "aliases": [
+        "nine wild tribes of the east"
+      ]
+    },
+    {
+      "term": "the pine and the cypress",
+      "gloss": "Evergreens used by Confucius as an image of steadfast character: like trees that keep their leaves when winter comes, the virtuous show their worth in hard times.",
+      "kind": "thing",
+      "aliases": [
+        "pine and the cypress"
+      ]
+    },
+    {
+      "term": "Lao",
+      "gloss": "A disciple of Confucius, quoted briefly recalling a saying of the Master.",
+      "kind": "person"
+    },
+    {
+      "term": "scepter",
+      "gloss": "A ceremonial jade tablet (gui) carried by an official as a token of his ruler's authority; handling it required great care and reverence.",
+      "kind": "thing"
+    },
+    {
+      "term": "ancestral temple",
+      "gloss": "The hall where a family or ruling house honored its ancestors with sacrifices and ritual — a central site of Confucian ceremony.",
+      "kind": "place",
+      "aliases": [
+        "ancestorial temple",
+        "ancestral temple"
+      ]
+    },
+    {
+      "term": "girdle",
+      "gloss": "A belt or sash worn at the waist, here part of formal dress and its ceremonial appendages.",
+      "kind": "thing"
+    },
+    {
+      "term": "condolence",
+      "gloss": "A formal visit or expression of sympathy to the bereaved. A 'visit of condolence' called for somber, ceremonial dress.",
+      "kind": "word"
+    },
+    {
+      "term": "pestilential influences",
+      "gloss": "Disease-bringing evil spirits or forces; villagers held ceremonies to drive them away, and Confucius dressed formally for the occasion.",
+      "kind": "word"
+    },
+    {
+      "term": "Ch'an and Ts'ai",
+      "gloss": "Two states where Confucius and his followers were stranded and went hungry during their wanderings — a famous hardship recalled with affection.",
+      "kind": "place",
+      "aliases": [
+        "Ch'an",
+        "Ts'ai"
+      ]
+    },
+    {
+      "term": "Zan Po-niu",
+      "gloss": "Ran Boniu, a disciple of Confucius ranked among those distinguished for virtuous conduct.",
+      "kind": "person"
+    },
+    {
+      "term": "Zan Yu",
+      "gloss": "Ran You (Ran Qiu), a capable disciple skilled in administration, who served the Ji family. Often called Ch'iu or simply Zan.",
+      "kind": "person",
+      "aliases": [
+        "Ch'iu",
+        "Zan Ch'iu",
+        "Yen Yu",
+        "the disciple Zan"
+      ]
+    },
+    {
+      "term": "Chi Lu",
+      "gloss": "Another name for the disciple Tsze-lu (Zilu) when serving in office.",
+      "kind": "person"
+    },
+    {
+      "term": "outer shell",
+      "gloss": "The outer wooden case enclosing a coffin — a mark of an elaborate, costly burial.",
+      "kind": "thing"
+    },
+    {
+      "term": "Nan Yung",
+      "gloss": "Nanrong, a disciple of careful character to whom Confucius gave his niece in marriage.",
+      "kind": "person",
+      "aliases": [
+        "Nan-kung Kwo"
+      ]
+    },
+    {
+      "term": "Kung-hsi Hwa",
+      "gloss": "Gongxi Hua, a young disciple modest about his abilities who wished to serve as a minor assistant in temple ceremonies. Also called Ch'ih.",
+      "kind": "person",
+      "aliases": [
+        "Ch'ih"
+      ]
+    },
+    {
+      "term": "Ch'ai",
+      "gloss": "Gao Chai (Tsze-kao), a disciple whom Confucius described as 'simple' or guileless.",
+      "kind": "person",
+      "aliases": [
+        "Tsze-kao"
+      ]
+    },
+    {
+      "term": "Shan",
+      "gloss": "The personal name of the disciple Tsang (Zengzi), here described as 'dull' or slow.",
+      "kind": "person"
+    },
+    {
+      "term": "Shih",
+      "gloss": "The personal name of the disciple Tsze-chang, called 'specious' and one who 'goes beyond the due mean.'",
+      "kind": "person"
+    },
+    {
+      "term": "altars of the spirits of the land and grain",
+      "gloss": "The shrines to the local guardian spirits of the soil and the harvest — symbols of the welfare of a state.",
+      "kind": "thing"
+    },
+    {
+      "term": "the I",
+      "gloss": "The Yi River, where the disciple Tien imagined bathing on a spring outing — Confucius's favorite of the disciples' wishes.",
+      "kind": "place",
+      "aliases": [
+        "wash in the I"
+      ]
+    },
+    {
+      "term": "rain altars",
+      "gloss": "Open-air altars used in ceremonies praying for rain; a pleasant place to take the breeze in Tien's vision.",
+      "kind": "place"
+    },
+    {
+      "term": "Tien",
+      "gloss": "Zeng Dian (Tsang Hsi), father of the disciple Tsang, whose modest wish for a spring outing won Confucius's approval.",
+      "kind": "person"
+    },
+    {
+      "term": "regicide",
+      "gloss": "The murder of a king or sovereign — a crime Confucius's disciples would never abet, even under a wicked chief.",
+      "kind": "word"
+    },
+    {
+      "term": "parricide",
+      "gloss": "The murder of one's own father (or close kin) — paired with regicide as the ultimate crime a loyal minister would refuse.",
+      "kind": "word"
+    },
+    {
+      "term": "Sze-ma Niu",
+      "gloss": "Sima Niu, a disciple, anxious and talkative, who questioned Confucius about virtue and about having no brothers.",
+      "kind": "person",
+      "aliases": [
+        "Niu",
+        "Nui"
+      ]
+    },
+    {
+      "term": "the four seas",
+      "gloss": "The bounds of the known world; 'all within the four seas' means all people everywhere.",
+      "kind": "place",
+      "aliases": [
+        "within the four seas",
+        "four seas"
+      ]
+    },
+    {
+      "term": "government",
+      "gloss": "A recurring topic in the Analects: for Confucius, ruling well means leading by moral example and keeping each person true to their role, not by force or law.",
+      "kind": "concept"
+    },
+    {
+      "term": "Duke Ai",
+      "gloss": "Duke Ai of Lu, the reigning ruler of Confucius's home state, who occasionally consulted him.",
+      "kind": "person",
+      "aliases": [
+        "the duke Ai",
+        "Duke Ai"
+      ]
+    },
+    {
+      "term": "Yu Zo",
+      "gloss": "Youzi (You Ruo), a disciple of Confucius, here advising Duke Ai to lighten taxes for the people's good.",
+      "kind": "person"
+    },
+    {
+      "term": "tithe",
+      "gloss": "To tax at one tenth. Yu Zo urges the duke to take only a tenth of the harvest rather than burdening the people more heavily.",
+      "kind": "word"
+    },
+    {
+      "term": "Duke Ching",
+      "gloss": "Duke Jing of the state of Ch'i, who asked Confucius about government and received the famous answer about each person keeping to their role.",
+      "kind": "person",
+      "aliases": [
+        "Duke Ching"
+      ]
+    },
+    {
+      "term": "benevolence",
+      "gloss": "Loving concern for all people — Legge's word here for ren, the same ideal he elsewhere calls 'perfect virtue.' Confucius defines it simply as 'to love all men.'",
+      "kind": "concept"
+    },
+    {
+      "term": "Kao-yao",
+      "gloss": "A legendary wise minister of the sage-emperor Shun, cited as proof that promoting the upright drives out the wicked.",
+      "kind": "person"
+    },
+    {
+      "term": "T'ang",
+      "gloss": "The virtuous founder of the Shang dynasty, who like Shun raised up worthy ministers (here, I Yin).",
+      "kind": "person"
+    },
+    {
+      "term": "I Yin",
+      "gloss": "A famous wise minister whom T'ang promoted from obscurity, used as an example of choosing virtuous officials.",
+      "kind": "person"
+    },
+    {
+      "term": "husbandry",
+      "gloss": "Farming; the work of cultivating crops. Confucius declined to teach it, saying a ruler need not master farming to govern well.",
+      "kind": "word",
+      "aliases": [
+        "husbandman"
+      ]
+    },
+    {
+      "term": "Duke of Sheh",
+      "gloss": "The Duke (governor) of She, a district of the state of Ch'u, who questioned Confucius about government and uprightness.",
+      "kind": "person",
+      "aliases": [
+        "Duke of Sheh"
+      ]
+    },
+    {
+      "term": "Duke Ting",
+      "gloss": "Duke Ding of Lu, who asked Confucius whether a single saying could make or ruin a country.",
+      "kind": "person",
+      "aliases": [
+        "Duke Ting"
+      ]
+    },
+    {
+      "term": "Chu-fu",
+      "gloss": "A town in Lu where the disciple Tsze-hsia served as governor.",
+      "kind": "place"
+    },
+    {
+      "term": "the due medium",
+      "gloss": "The balanced middle course between excess and deficiency — the Confucian ideal of moderation, also called the due mean.",
+      "kind": "concept",
+      "aliases": [
+        "the due mean",
+        "due medium",
+        "due mean"
+      ]
+    },
+    {
+      "term": "adulatory",
+      "gloss": "Excessively flattering; fawning. The mean man flatters but is not genuinely warm, whereas the superior man is warm without flattery.",
+      "kind": "word"
+    },
+    {
+      "term": "affable",
+      "gloss": "Friendly and easy in manner. Confucius says the superior man is affable without sinking into flattery.",
+      "kind": "word"
+    },
+    {
+      "term": "Hsien",
+      "gloss": "Yuan Xian (Tsze-ssu), a disciple who asked Confucius what is truly shameful. (Distinct from the official Hsien in Book XIV's later chapters.)",
+      "kind": "person"
+    },
+    {
+      "term": "covetousness",
+      "gloss": "Greedy craving for wealth or possessions — a fault Confucius lists among those that must be repressed to approach virtue.",
+      "kind": "word",
+      "aliases": [
+        "covetous",
+        "covets"
+      ]
+    },
+    {
+      "term": "Ao",
+      "gloss": "A legendary strongman of antiquity, said to be able to move a boat on dry land, who nonetheless died a violent death — cited as a warning that brute strength is not virtue.",
+      "kind": "person"
+    },
+    {
+      "term": "Chi",
+      "gloss": "Hou Ji, the legendary ancestor of the Zhou and patron of agriculture, who 'wrought at husbandry' and came to possess the kingdom.",
+      "kind": "person"
+    },
+    {
+      "term": "Tsze-ch'an",
+      "gloss": "Zichan of Zheng, a celebrated statesman of Confucius's era whom the Master praised as a kind and able man. He lived at Tung-li.",
+      "kind": "person",
+      "aliases": [
+        "Tsze-ch'an of Tung-li"
+      ]
+    },
+    {
+      "term": "Tung-li",
+      "gloss": "The district where the statesman Tsze-ch'an lived.",
+      "kind": "place"
+    },
+    {
+      "term": "P'i Shan",
+      "gloss": "An official of Zheng who drafted the state's diplomatic documents, named in praise of the care Zheng took with its writings.",
+      "kind": "person"
+    },
+    {
+      "term": "Shi-shu",
+      "gloss": "An official of Zheng who reviewed and discussed the state's draft documents.",
+      "kind": "person"
+    },
+    {
+      "term": "Pien",
+      "gloss": "A town of three hundred families taken from the Po family by Kwan Chung; also the home of the brave Chwang.",
+      "kind": "place"
+    },
+    {
+      "term": "Mang Kung-ch'o",
+      "gloss": "Meng Gongchuo, an official Confucius judged fit to advise great families but not to govern a small state. Also called Kung-ch'o.",
+      "kind": "person",
+      "aliases": [
+        "Kung-ch'o"
+      ]
+    },
+    {
+      "term": "Chao and Wei",
+      "gloss": "Two powerful noble families (later states), in whose households Mang Kung-ch'o was deemed fit to serve.",
+      "kind": "people",
+      "aliases": [
+        "Chao"
+      ]
+    },
+    {
+      "term": "Tang or Hsieh",
+      "gloss": "Two small states; Confucius said Mang Kung-ch'o was unsuited to be a high officer in either. (Tang here = the small state Teng.)",
+      "kind": "place",
+      "aliases": [
+        "Tang",
+        "Hsieh"
+      ]
+    },
+    {
+      "term": "Chwang of Pien",
+      "gloss": "A man of Pien famed for bravery, cited by Confucius as the model of courage in the 'complete man.'",
+      "kind": "person",
+      "aliases": [
+        "Chwang"
+      ]
+    },
+    {
+      "term": "complete man",
+      "gloss": "Confucius's ideal of an all-round accomplished person — combining wisdom, freedom from greed, courage, talent, and ritual refinement.",
+      "kind": "concept",
+      "aliases": [
+        "COMPLETE man"
+      ]
+    },
+    {
+      "term": "Kung-shu Wan",
+      "gloss": "Gongshu Wenzi, an official of Wei praised for speaking, laughing, and taking only when fitting; honored after death with the title 'Wan' (the Accomplished).",
+      "kind": "person",
+      "aliases": [
+        "Kung-shu Wan",
+        "Kung- shu Wan",
+        "Wan"
+      ]
+    },
+    {
+      "term": "Kung-ming Chia",
+      "gloss": "Gongming Jia, who reported to Confucius on the measured character of his master Kung-shu Wan.",
+      "kind": "person"
+    },
+    {
+      "term": "Fang",
+      "gloss": "A fortified town that Tsang Wu-chung held while pressing a demand on the duke of Lu.",
+      "kind": "place"
+    },
+    {
+      "term": "duke Wan of Tsin",
+      "gloss": "Duke Wen of Jin, a leading lord of the era whom Confucius judged 'crafty and not upright.'",
+      "kind": "person",
+      "aliases": [
+        "duke Wan of Tsin"
+      ]
+    },
+    {
+      "term": "Tsin",
+      "gloss": "The powerful northern state of Jin, ruled by Duke Wan.",
+      "kind": "place"
+    },
+    {
+      "term": "duke Hwan of Ch'i",
+      "gloss": "Duke Huan of Ch'i, the first great hegemon among the lords, whom Confucius judged 'upright and not crafty.' Served by Kwan Chung.",
+      "kind": "person",
+      "aliases": [
+        "duke Hwan of Ch'i",
+        "Duke Hwan",
+        "the Duke Hwan"
+      ]
+    },
+    {
+      "term": "Chiu",
+      "gloss": "A brother of Duke Hwan whom Hwan had killed in a struggle for power; his death tested the loyalty of Kwan Chung.",
+      "kind": "person"
+    },
+    {
+      "term": "Shao Hu",
+      "gloss": "A retainer of the prince Chiu who chose to die with his master, contrasted with Kwan Chung, who lived on to serve the rival.",
+      "kind": "person"
+    },
+    {
+      "term": "wearing our hair unbound",
+      "gloss": "A sign of barbarism in Confucius's eyes; he credits Kwan Chung's statesmanship with saving Chinese civilization from being overrun. 'Buttoning on the left side' is the same image.",
+      "kind": "thing"
+    },
+    {
+      "term": "duke Ling of Wei",
+      "gloss": "Duke Ling of Wei, a ruler Confucius called unprincipled yet who kept his state thanks to capable officers.",
+      "kind": "person",
+      "aliases": [
+        "duke Ling of Wei"
+      ]
+    },
+    {
+      "term": "Chan Ch'ang",
+      "gloss": "Chen Heng, a minister of Ch'i who murdered his own sovereign, Duke Chien — prompting Confucius to urge a punitive expedition.",
+      "kind": "person",
+      "aliases": [
+        "Chan Hang"
+      ]
+    },
+    {
+      "term": "Duke Chien",
+      "gloss": "Duke Jian of Ch'i, murdered by his minister Chan Ch'ang.",
+      "kind": "person",
+      "aliases": [
+        "Duke Chien of Ch'i"
+      ]
+    },
+    {
+      "term": "the three families",
+      "gloss": "The three great noble clans (the Meng, Shu, and Ji families) that effectively controlled the state of Lu, often over the duke himself.",
+      "kind": "people",
+      "aliases": [
+        "the three families",
+        "chiefs of the three families"
+      ]
+    },
+    {
+      "term": "Chu Po-yu",
+      "gloss": "Qu Boyu, an official of Wei admired by Confucius for constantly striving to reduce his own faults.",
+      "kind": "person"
+    },
+    {
+      "term": "recompense",
+      "gloss": "To repay or pay back. Confucius advises repaying injury with justice and kindness with kindness.",
+      "kind": "word",
+      "aliases": [
+        "recompensed"
+      ]
+    },
+    {
+      "term": "Kung-po Liao",
+      "gloss": "Gongbo Liao, a man who slandered the disciple Tsze-lu; Confucius shrugged off the threat as beyond his control, in Heaven's hands.",
+      "kind": "person",
+      "aliases": [
+        "Kung-po Liao",
+        "Liao"
+      ]
+    },
+    {
+      "term": "Tsze-fu Ching-po",
+      "gloss": "Zifu Jingbo, an official who warned Confucius of the slander against Tsze-lu and offered to punish the slanderer.",
+      "kind": "person"
+    },
+    {
+      "term": "Chi-sun",
+      "gloss": "The head of the Ji clan of Lu, to whom Kung-po Liao spread his slander.",
+      "kind": "person"
+    },
+    {
+      "term": "Shih-man",
+      "gloss": "A gate or place where Tsze-lu lodged for a night; its gatekeeper recognized Confucius as the man who keeps trying though the times are hopeless.",
+      "kind": "place"
+    },
+    {
+      "term": "musical stone",
+      "gloss": "A stone chime (qing), a hanging slab struck to make a clear musical note, which Confucius is described playing in Wei.",
+      "kind": "thing",
+      "aliases": [
+        "musical stone in Wei"
+      ]
+    },
+    {
+      "term": "Kao-tsung",
+      "gloss": "King Wu Ding (Gaozong) of the Shang dynasty, cited as an example of a sovereign observing the three-year silence of imperial mourning.",
+      "kind": "person",
+      "aliases": [
+        "Kao-tsung"
+      ]
+    },
+    {
+      "term": "the Shu",
+      "gloss": "The Book of Documents (Shujing), one of the ancient classics, quoted on the mourning customs of Kao-tsung.",
+      "kind": "thing"
+    },
+    {
+      "term": "Yuan Zang",
+      "gloss": "An old acquaintance of Confucius who sat rudely sprawling; Confucius rebuked him as a useless 'pest' and tapped his shin with a staff.",
+      "kind": "person"
+    },
+    {
+      "term": "Ch'ueh",
+      "gloss": "A village whose ambitious young messenger Confucius judged to be hurrying to seem grown rather than truly to learn.",
+      "kind": "place"
+    },
+    {
+      "term": "shank",
+      "gloss": "The lower leg or shin — where Confucius struck the sprawling Yuan Zang with his staff.",
+      "kind": "word"
+    },
+    {
+      "term": "Chung-shu Yu",
+      "gloss": "An able officer of Wei in charge of receiving guests, one of the capable ministers who kept Duke Ling's state intact.",
+      "kind": "person"
+    },
+    {
+      "term": "Wang-sun Chia",
+      "gloss": "An officer of Wei in charge of the army, named among the capable ministers who preserved Duke Ling's misruled state.",
+      "kind": "person"
+    },
+    {
+      "term": "the Way",
+      "gloss": "Tao, the right path of life and government — the moral order Confucius urges people and rulers to follow. Legge often renders it as 'right principles' or 'the cause of truth.'",
+      "kind": "concept",
+      "aliases": [
+        "Tao",
+        "the cause of truth",
+        "right principles"
+      ]
+    },
+    {
+      "term": "Wei-shang Mau",
+      "gloss": "An older man who taunted Confucius for wandering about as a restless 'insinuating talker'; Confucius answered that he merely hated stubbornness.",
+      "kind": "person"
+    },
+    {
+      "term": "approbation",
+      "gloss": "Approval or praise. Used of the people's inability to praise T'ai-po's hidden virtue, and of learning done merely for others' approval.",
+      "kind": "word"
+    },
+    {
+      "term": "superior man",
+      "gloss": "Confucius's ideal: a person of cultivated virtue and integrity (the junzi). Contrasted throughout with the 'mean man' or 'small man'.",
+      "kind": "concept",
+      "aliases": [
+        "the superior man"
+      ]
+    },
+    {
+      "term": "mean man",
+      "gloss": "The petty or small-minded person, ruled by self-interest and appetite; the opposite of the 'superior man'.",
+      "kind": "concept",
+      "aliases": [
+        "small man",
+        "mean creatures",
+        "small, mean people"
+      ]
+    },
+    {
+      "term": "righteousness",
+      "gloss": "Doing what is morally right and fitting in a situation (yi); the standard the superior man holds above mere gain or valor.",
+      "kind": "concept"
+    },
+    {
+      "term": "reciprocity",
+      "gloss": "Confucius's single rule for life (shu): not doing to others what you would not want done to yourself.",
+      "kind": "concept"
+    },
+    {
+      "term": "the Mean",
+      "gloss": "The balanced middle course between extremes; here 'hold fast the due Mean' urges steady, measured conduct in rule.",
+      "kind": "concept",
+      "aliases": [
+        "due Mean"
+      ]
+    },
+    {
+      "term": "the ordinances of Heaven",
+      "gloss": "The decrees or moral order of Heaven (tianming); the cosmic mandate the superior man reveres and must recognize.",
+      "kind": "concept",
+      "aliases": [
+        "ordinances of Heaven"
+      ]
+    },
+    {
+      "term": "son of Heaven",
+      "gloss": "The reigning emperor, who alone (in right order) issues ceremonies, music, and military expeditions.",
+      "kind": "concept"
+    },
+    {
+      "term": "sage",
+      "gloss": "A person of the highest wisdom and virtue; the rare ideal even above the 'superior man'.",
+      "kind": "concept",
+      "aliases": [
+        "sages",
+        "sage's"
+      ]
+    },
+    {
+      "term": "forbearance",
+      "gloss": "Patient self-restraint; lacking it in small matters can wreck great plans.",
+      "kind": "word"
+    },
+    {
+      "term": "repine",
+      "gloss": "To complain or feel discontent; good rule lays tasks on people 'without their repining'.",
+      "kind": "word"
+    },
+    {
+      "term": "recluse",
+      "gloss": "A person who has withdrawn from public life and society to live in seclusion.",
+      "kind": "word"
+    },
+    {
+      "term": "historiographer",
+      "gloss": "An official court historian or record-keeper; Yu is praised as a straightforward one.",
+      "kind": "word"
+    },
+    {
+      "term": "pantomimes",
+      "gloss": "Ceremonial dances performed with the music (here the Shao) at court rituals.",
+      "kind": "word"
+    },
+    {
+      "term": "sash",
+      "gloss": "A cloth band worn round the waist; Tsze-chang wrote his master's counsels on the end of his.",
+      "kind": "thing"
+    },
+    {
+      "term": "yoke",
+      "gloss": "The crossbar harnessing horses to a carriage; one should keep good counsels in view as if fixed to it.",
+      "kind": "thing"
+    },
+    {
+      "term": "beclouding",
+      "gloss": "A clouding or darkening of the mind; each virtue pursued without learning brings its own 'beclouding'.",
+      "kind": "word",
+      "aliases": [
+        "becloudings"
+      ]
+    },
+    {
+      "term": "high-mindedness",
+      "gloss": "A lofty, large-spirited disregard for petty things; an ancient virtue that has degenerated into wild license.",
+      "kind": "word"
+    },
+    {
+      "term": "partizan",
+      "gloss": "A factional, one-sided loyalist; the superior man is sociable but never a partizan.",
+      "kind": "word"
+    },
+    {
+      "term": "vermilion",
+      "gloss": "A bright pure red; Confucius hates how purple steals its luster, an image of the false displacing the genuine.",
+      "kind": "word"
+    },
+    {
+      "term": "lute",
+      "gloss": "A stringed instrument; the Master plays and sings to it so the unwelcome Zu Pei will hear.",
+      "kind": "thing"
+    },
+    {
+      "term": "ford",
+      "gloss": "A shallow crossing place in a river; Tsze-lu is sent to ask the way across.",
+      "kind": "word"
+    },
+    {
+      "term": "millet",
+      "gloss": "A common grain prepared as food; the old recluse cooks it for Tsze-lu.",
+      "kind": "thing"
+    },
+    {
+      "term": "fathoms",
+      "gloss": "Units of measure (about six feet each); the wall of Confucius's learning is 'several fathoms high'.",
+      "kind": "word"
+    },
+    {
+      "term": "hillocks",
+      "gloss": "Small hills or mounds; others' merits are mere hillocks beside Confucius the sun and moon.",
+      "kind": "word",
+      "aliases": [
+        "hillocks and mounds"
+      ]
+    },
+    {
+      "term": "Hsia",
+      "gloss": "The Hsia (Xia) dynasty, earliest of the three, whose seasonal calendar Confucius recommended following.",
+      "kind": "people"
+    },
+    {
+      "term": "the three dynasties",
+      "gloss": "The Hsia, Yin (Shang), and Chau (Zhou) dynasties, taken together as the model ages of good rule.",
+      "kind": "concept",
+      "aliases": [
+        "three dynasties"
+      ]
+    },
+    {
+      "term": "Wan and Wu",
+      "gloss": "Kings Wen and Wu, the revered founders of the Chou dynasty whose doctrines lived on among men.",
+      "kind": "person",
+      "aliases": [
+        "Wan",
+        "Wu"
+      ]
+    },
+    {
+      "term": "Ch'u",
+      "gloss": "A large southern state; home of the 'madman' Chieh-yu who warned Confucius.",
+      "kind": "place",
+      "aliases": [
+        "Chu"
+      ]
+    },
+    {
+      "term": "Chwan-yu",
+      "gloss": "A small dependent territory within Lu, whose ruler kept the sacrifices to the eastern Mang; the Chi family planned to attack it.",
+      "kind": "place"
+    },
+    {
+      "term": "the three Hwan",
+      "gloss": "The three great families of Lu descended from Duke Huan, who had seized the state's power.",
+      "kind": "people",
+      "aliases": [
+        "three Hwan"
+      ]
+    },
+    {
+      "term": "Po-yu",
+      "gloss": "Confucius's own son (Li); urged by his father to study the Odes and the rules of propriety.",
+      "kind": "person",
+      "aliases": [
+        "Li"
+      ]
+    },
+    {
+      "term": "Hui of Liu-hsia",
+      "gloss": "A famously upright official, thrice dismissed yet refusing to serve crookedly or leave his home state.",
+      "kind": "person"
+    },
+    {
+      "term": "Chieh-yu",
+      "gloss": "The eccentric 'madman of Ch'u' who sang a warning to Confucius about the perils of public office.",
+      "kind": "person"
+    },
+    {
+      "term": "Yang Ho",
+      "gloss": "A scheming official who maneuvered to draw Confucius into service; Confucius avoided then met him.",
+      "kind": "person",
+      "aliases": [
+        "Yang Ho",
+        "Ho"
+      ]
+    },
+    {
+      "term": "duke Ching of Ch'i",
+      "gloss": "The ruler of Ch'i who, despite a thousand teams of horses, won no praise for any virtue at his death.",
+      "kind": "person",
+      "aliases": [
+        "duke Ching"
+      ]
+    },
+    {
+      "term": "the eastern Mang",
+      "gloss": "A sacred mountain (Mount Meng) whose sacrifices the ruler of Chwan-yu was appointed to oversee.",
+      "kind": "place",
+      "aliases": [
+        "eastern Mang",
+        "Mang"
+      ]
+    },
+    {
+      "term": "Chung-mau",
+      "gloss": "A town held by the rebel Pi Hsi, who invited Confucius to join him.",
+      "kind": "place"
+    },
+    {
+      "term": "the myriad regions",
+      "gloss": "All the lands and peoples of the kingdom; T'ang takes their offenses upon himself.",
+      "kind": "people",
+      "aliases": [
+        "myriad regions"
+      ]
+    },
+    {
+      "term": "the One man",
+      "gloss": "The sovereign's humble self-reference, bearing the people's blame alone.",
+      "kind": "concept",
+      "aliases": [
+        "One man"
+      ]
+    },
+    {
+      "term": "three years' mourning",
+      "gloss": "The long mourning period observed for a dead parent, defended by Confucius against shortening it.",
+      "kind": "concept"
+    },
+    {
+      "term": "the Ya",
+      "gloss": "The dignified court music of the Odes, which Confucius hates to hear corrupted by the songs of Chang.",
+      "kind": "thing",
+      "aliases": [
+        "Ya"
+      ]
+    },
+    {
+      "term": "songs of Chang",
+      "gloss": "Music of the state of Cheng that Confucius condemns as licentious and corrupting.",
+      "kind": "thing"
+    },
+    {
+      "term": "the five excellent things",
+      "gloss": "The five virtues of good government Confucius lists: beneficence, fitting labor, ambition without greed, dignified ease, and majesty without fierceness.",
+      "kind": "concept",
+      "aliases": [
+        "five excellent things",
+        "five excellent"
+      ]
+    },
+    {
+      "term": "the four bad things",
+      "gloss": "The four faults of bad rule Confucius names: cruelty, oppression, injury, and stingy officialism.",
+      "kind": "concept",
+      "aliases": [
+        "four bad things",
+        "four bad"
+      ]
+    },
+    {
+      "term": "chief criminal judge",
+      "gloss": "The high official in charge of justice and punishments in a state.",
+      "kind": "word"
+    },
+    {
+      "term": "Viscount of Wei",
+      "gloss": "A man of virtue under the dying Yin dynasty who withdrew from the corrupt court.",
+      "kind": "person"
+    },
+    {
+      "term": "Pi-kan",
+      "gloss": "A loyal minister of the last Yin king who remonstrated against him and was put to death.",
+      "kind": "person"
+    }
+  ]
+}

@@ -356,5 +356,1850 @@
         }
       ]
     }
+  ],
+  "glossary": [
+    {
+      "term": "Aeneas",
+      "gloss": "The Trojan hero of the poem: son of the goddess Venus and the mortal Anchises. He flees the burning city of Troy carrying his father and his household gods, and is fated to reach Italy and found the line that will become Rome.",
+      "kind": "person"
+    },
+    {
+      "term": "Troy",
+      "gloss": "The great city in Asia Minor destroyed by the Greeks at the end of the ten-year Trojan War. Its survivors, led by Aeneas, sail west to find a new home.",
+      "kind": "place",
+      "aliases": [
+        "Ilium",
+        "Pergamum",
+        "Pergamea"
+      ]
+    },
+    {
+      "term": "Trojans",
+      "gloss": "The people of Troy. After the city's fall, the surviving Trojans become Aeneas's wandering followers, the ancestors of the future Romans.",
+      "kind": "people",
+      "aliases": [
+        "Trojan",
+        "Teucrians",
+        "Dardanians"
+      ]
+    },
+    {
+      "term": "fate",
+      "gloss": "The fixed, unchangeable destiny laid down for people and nations — here above all that Aeneas must reach Italy and found the Roman race. Even the gods bow to it.",
+      "kind": "concept",
+      "aliases": [
+        "Fates",
+        "fated",
+        "destiny",
+        "destined"
+      ]
+    },
+    {
+      "term": "Juno",
+      "gloss": "Queen of the gods, sister and wife of Jupiter. Her relentless hatred of the Trojans — rooted in old grievances and her love for Carthage — drives the disasters that hound Aeneas.",
+      "kind": "god"
+    },
+    {
+      "term": "Italy",
+      "gloss": "The promised land in the west where Aeneas is fated to settle. Also called Hesperia ('the western land'). The future home of Rome.",
+      "kind": "place",
+      "aliases": [
+        "Hesperia"
+      ]
+    },
+    {
+      "term": "Lavinian",
+      "gloss": "Of Lavinium, the coastal town in Latium that Aeneas is destined to found and name after his future wife Lavinia.",
+      "kind": "place",
+      "aliases": [
+        "Lavinium",
+        "Lavinia"
+      ]
+    },
+    {
+      "term": "Latium",
+      "gloss": "The region of central Italy, around the future site of Rome, where the Trojans are fated to settle and where the Latin people arise.",
+      "kind": "place",
+      "aliases": [
+        "Latin",
+        "Latins"
+      ]
+    },
+    {
+      "term": "Carthage",
+      "gloss": "The great, rising North African city, founded by exiles from Tyre and ruled by Queen Dido. Juno's favorite city and Rome's future deadly rival.",
+      "kind": "place"
+    },
+    {
+      "term": "Tyre",
+      "gloss": "The Phoenician city in the east from which Dido and her people fled to found Carthage. Hence the Carthaginians are called Tyrians.",
+      "kind": "place",
+      "aliases": [
+        "Tyrian",
+        "Tyrians"
+      ]
+    },
+    {
+      "term": "Dido",
+      "gloss": "Queen and founder of Carthage. A widow who fled her murderous brother in Tyre, she falls tragically in love with Aeneas and kills herself when he abandons her.",
+      "kind": "person"
+    },
+    {
+      "term": "Tiber",
+      "gloss": "The river of central Italy on which Rome will be built. A landmark of the Trojans' promised homeland.",
+      "kind": "place"
+    },
+    {
+      "term": "Samos",
+      "gloss": "A Greek island sacred to Juno, named here as a place she loved less than Carthage.",
+      "kind": "place"
+    },
+    {
+      "term": "Saturn",
+      "gloss": "An ancient god, father of Jupiter and Juno; Juno is often called 'the daughter of Saturn.' He once ruled Italy in a golden age.",
+      "kind": "god",
+      "aliases": [
+        "Saturn's"
+      ]
+    },
+    {
+      "term": "Paris",
+      "gloss": "The Trojan prince whose judgment awarded the prize of beauty to Venus over Juno and Minerva, sparking Juno's hatred; his abduction of Helen began the Trojan War.",
+      "kind": "person"
+    },
+    {
+      "term": "Ganymede",
+      "gloss": "A beautiful Trojan boy snatched up to heaven by Jupiter to be cupbearer of the gods — another old insult that feeds Juno's anger.",
+      "kind": "person"
+    },
+    {
+      "term": "Achilles",
+      "gloss": "The greatest Greek warrior of the Trojan War, who killed Hector. Repeatedly named as 'merciless Achilles,' a symbol of the suffering the Greeks inflicted on Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Greeks",
+      "gloss": "The Achaean army that besieged and destroyed Troy. Throughout, the enemy and persecutors of the Trojans.",
+      "kind": "people",
+      "aliases": [
+        "Greek",
+        "Achaeans",
+        "Argives",
+        "Danaans"
+      ]
+    },
+    {
+      "term": "Pallas Athena",
+      "gloss": "Goddess of wisdom and war (the Greek name of Minerva). She helped the Greeks against Troy and punished Ajax for his crime against her shrine.",
+      "kind": "god",
+      "aliases": [
+        "Pallas",
+        "Minerva",
+        "Athena"
+      ]
+    },
+    {
+      "term": "Jupiter",
+      "gloss": "King of the gods, wielder of the thunderbolt, husband of Juno. He guarantees Aeneas's destiny and reveals the future glory of Rome.",
+      "kind": "god",
+      "aliases": [
+        "Jove",
+        "the Father"
+      ]
+    },
+    {
+      "term": "Ajax",
+      "gloss": "Here Ajax son of Oileus (the 'lesser' Ajax), a Greek whose sacrilege Pallas Athena punished by wrecking the fleet and impaling him on a rock.",
+      "kind": "person"
+    },
+    {
+      "term": "Aeolia",
+      "gloss": "The island home of Aeolus, king of the winds, where the storm-winds are kept chained in a vast cavern.",
+      "kind": "place"
+    },
+    {
+      "term": "Aeolus",
+      "gloss": "The king of the winds, who keeps the gales imprisoned and releases them at Juno's request to wreck Aeneas's fleet.",
+      "kind": "god"
+    },
+    {
+      "term": "Tyrrhenian Sea",
+      "gloss": "The sea off the western coast of Italy, between Italy and the islands, which the Trojans must cross.",
+      "kind": "place",
+      "aliases": [
+        "Tyrrhenian"
+      ]
+    },
+    {
+      "term": "Deiopea",
+      "gloss": "The loveliest of Juno's nymphs, whom Juno promises to Aeolus in marriage as a reward for raising the storm.",
+      "kind": "person"
+    },
+    {
+      "term": "Diomedes",
+      "gloss": "One of the bravest Greek warriors at Troy, who once wounded Aeneas in battle and helped steal the sacred Palladium.",
+      "kind": "person"
+    },
+    {
+      "term": "Hector",
+      "gloss": "The greatest Trojan warrior, son of Priam, killed by Achilles. His ghost later appears to Aeneas urging him to flee Troy and save its gods.",
+      "kind": "person"
+    },
+    {
+      "term": "Sarpedon",
+      "gloss": "A Lycian ally of Troy, son of Jupiter, killed in the war — named among the great fighters who fell at Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Simois",
+      "gloss": "A river on the plain of Troy, named with nostalgia for the homeland; later Trojans give the name to streams in their new lands.",
+      "kind": "place"
+    },
+    {
+      "term": "Orontes",
+      "gloss": "A loyal Trojan captain, commander of the Lycians, whose ship is swallowed by the storm before Aeneas's eyes.",
+      "kind": "person"
+    },
+    {
+      "term": "Ilioneus",
+      "gloss": "An older, eloquent Trojan; he speaks for the shipwrecked crew before Queen Dido.",
+      "kind": "person"
+    },
+    {
+      "term": "Achates",
+      "gloss": "Aeneas's most faithful companion, so constant that 'loyal Achates' becomes his standing title.",
+      "kind": "person"
+    },
+    {
+      "term": "Neptune",
+      "gloss": "God of the sea, brother of Jupiter. He calms the storm Aeolus raised and resents the winds' meddling in his realm.",
+      "kind": "god"
+    },
+    {
+      "term": "Cymothoe",
+      "gloss": "A sea-nymph who, with Triton, helps push the Trojan ships off the rocks.",
+      "kind": "person"
+    },
+    {
+      "term": "Triton",
+      "gloss": "A sea-god, son of Neptune, who helps free the stranded ships; later he drowns the trumpeter Misenus out of jealousy.",
+      "kind": "god"
+    },
+    {
+      "term": "Libya",
+      "gloss": "The ancient name for North Africa around Carthage, where the storm casts Aeneas ashore.",
+      "kind": "place"
+    },
+    {
+      "term": "Scylla",
+      "gloss": "A sea-monster lurking in a cliff cave in the strait by Sicily, with a girl's upper body and a belly of howling dogs, who snatches sailors from passing ships.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cyclops",
+      "gloss": "A race of one-eyed giants; here especially Polyphemus, whom Aeneas's men recall facing. They herd flocks and devour men in their caves.",
+      "kind": "people",
+      "aliases": [
+        "Cyclopes"
+      ]
+    },
+    {
+      "term": "Acestes",
+      "gloss": "A king in Sicily of part-Trojan blood who hosts Aeneas warmly; later he holds the funeral games and takes in the weary Trojans who stay behind.",
+      "kind": "person",
+      "aliases": [
+        "Acesta"
+      ]
+    },
+    {
+      "term": "Sicily",
+      "gloss": "The large island off Italy's toe, home of the friendly king Acestes and of the Cyclopes and Mount Etna; the Trojans land there more than once.",
+      "kind": "place",
+      "aliases": [
+        "Sicilian"
+      ]
+    },
+    {
+      "term": "Venus",
+      "gloss": "Goddess of love and beauty, mother of Aeneas. She constantly pleads with Jupiter and schemes to protect her son and his mission.",
+      "kind": "god"
+    },
+    {
+      "term": "Antenor",
+      "gloss": "A Trojan who escaped the war's end and safely founded a city (Padua) in Italy — cited by Venus as proof the Trojans deserve a home too.",
+      "kind": "person"
+    },
+    {
+      "term": "Ascanius",
+      "gloss": "Aeneas's young son, also called Iulus. The future of the Trojan line runs through him; the Julian family of Rome claims him as ancestor.",
+      "kind": "person",
+      "aliases": [
+        "Iulus"
+      ]
+    },
+    {
+      "term": "Alba Longa",
+      "gloss": "The city in Latium that Ascanius will found and rule, the long-lived seat of the Trojan line before Rome is built.",
+      "kind": "place",
+      "aliases": [
+        "Alba"
+      ]
+    },
+    {
+      "term": "Ilia",
+      "gloss": "The royal priestess, made pregnant by the war-god Mars, who will give birth to the twins Romulus and Remus.",
+      "kind": "person"
+    },
+    {
+      "term": "Romulus",
+      "gloss": "Son of Mars and Ilia, raised by a she-wolf, who will found the walls of Rome and give the Romans their name.",
+      "kind": "person"
+    },
+    {
+      "term": "Remus",
+      "gloss": "Twin brother of Romulus, named with him as a founder figure of the future Roman peace.",
+      "kind": "person"
+    },
+    {
+      "term": "Caesar",
+      "gloss": "Here the line of Julius Caesar, the 'Trojan Caesar' promised to be born from Iulus's descendants, whose empire will reach the stars.",
+      "kind": "person",
+      "aliases": [
+        "Julius"
+      ]
+    },
+    {
+      "term": "Vesta",
+      "gloss": "Goddess of the hearth and its sacred undying fire, whose holy flame the Trojans carry from burning Troy.",
+      "kind": "god"
+    },
+    {
+      "term": "Mercury",
+      "gloss": "The messenger god, son of Maia, sent by Jupiter to soften the Carthaginians and later to order Aeneas to leave Dido and sail for Italy.",
+      "kind": "god"
+    },
+    {
+      "term": "Sychaeus",
+      "gloss": "Dido's beloved first husband, murdered for his gold by her brother Pygmalion; his ghost warns her to flee Tyre, and her loyalty to him deepens her tragedy.",
+      "kind": "person"
+    },
+    {
+      "term": "Pygmalion",
+      "gloss": "Dido's cruel brother, king of Tyre, who secretly murdered her husband Sychaeus for his treasure, forcing Dido to flee.",
+      "kind": "person"
+    },
+    {
+      "term": "Byrsa",
+      "gloss": "The citadel of Carthage; its name ('the Hide') comes from the legend that Dido bought as much land as a single bull's hide could enclose.",
+      "kind": "place"
+    },
+    {
+      "term": "Phoenicia",
+      "gloss": "The eastern homeland of Dido and her people, on the coast of the Levant; hence the Carthaginians are also called Phoenicians.",
+      "kind": "place",
+      "aliases": [
+        "Phoenician"
+      ]
+    },
+    {
+      "term": "Phrygian",
+      "gloss": "Of Phrygia, the region around Troy; used as another word for Trojan.",
+      "kind": "people",
+      "aliases": [
+        "Phrygia"
+      ]
+    },
+    {
+      "term": "pious",
+      "gloss": "Aeneas's defining virtue (Latin pietas): dutiful devotion to the gods, to his father and family, and to his destiny. Rendered here as 'dutiful,' 'devoted,' or 'faithful.'",
+      "kind": "concept",
+      "aliases": [
+        "piety",
+        "dutiful",
+        "devoted",
+        "devotion",
+        "faithful"
+      ]
+    },
+    {
+      "term": "omen",
+      "gloss": "A sign from the gods read in events or nature (birds, lightning, marvels) that foretells the future or signals divine will.",
+      "kind": "concept",
+      "aliases": [
+        "omens",
+        "sign",
+        "signs"
+      ]
+    },
+    {
+      "term": "Muse",
+      "gloss": "The goddess of poetic inspiration whom the poet calls on to tell the causes of the story.",
+      "kind": "god"
+    },
+    {
+      "term": "Paphos",
+      "gloss": "A city on Cyprus with a famous temple of Venus, her cherished home, fragrant with incense.",
+      "kind": "place"
+    },
+    {
+      "term": "Diana",
+      "gloss": "Goddess of the hunt and the moon, leader of a band of nymphs; Dido's beauty is compared to hers.",
+      "kind": "god"
+    },
+    {
+      "term": "Priam",
+      "gloss": "The aged king of Troy, killed at his own altar when the city falls. A figure of pity and the symbol of Troy's downfall.",
+      "kind": "person"
+    },
+    {
+      "term": "Atreus",
+      "gloss": "Father of the Greek leaders Agamemnon and Menelaus, who are called 'the sons of Atreus.'",
+      "kind": "person"
+    },
+    {
+      "term": "Memnon",
+      "gloss": "A king of the East, son of the Dawn, who fought for Troy; depicted on Carthage's temple walls.",
+      "kind": "person"
+    },
+    {
+      "term": "Penthesilea",
+      "gloss": "The warrior queen of the Amazons who fought for Troy, shown on the temple murals leading her crescent-shielded women.",
+      "kind": "person"
+    },
+    {
+      "term": "Amazons",
+      "gloss": "A legendary nation of warrior women; Penthesilea led a band of them to fight for Troy.",
+      "kind": "people"
+    },
+    {
+      "term": "Anchises",
+      "gloss": "Aeneas's father, an old Trojan once loved by Venus. Aeneas carries him out of burning Troy; he dies in Sicily and later guides Aeneas through the underworld.",
+      "kind": "person"
+    },
+    {
+      "term": "Bacchus",
+      "gloss": "God of wine and revelry, invoked at Dido's banquet as the giver of gladness.",
+      "kind": "god"
+    },
+    {
+      "term": "Cupid",
+      "gloss": "The winged boy-god of love, son of Venus, who disguises himself as Ascanius to kindle Dido's fatal passion for Aeneas.",
+      "kind": "god"
+    },
+    {
+      "term": "Iopas",
+      "gloss": "A long-haired Carthaginian bard who sings of astronomy and nature at Dido's feast.",
+      "kind": "person"
+    },
+    {
+      "term": "Ulysses",
+      "gloss": "The cunning Greek hero (Odysseus), schemer behind the wooden horse and many tricks against Troy. A byword for treachery in the Trojan account.",
+      "kind": "person"
+    },
+    {
+      "term": "the wooden horse",
+      "gloss": "The huge hollow horse the Greeks built and left as a fake offering, with soldiers hidden inside, to get inside Troy's walls — the trick that destroyed the city.",
+      "kind": "thing",
+      "aliases": [
+        "the horse"
+      ]
+    },
+    {
+      "term": "Tenedos",
+      "gloss": "A small island off the coast of Troy where the Greek fleet hid, pretending to have sailed home, while the horse was inside the walls.",
+      "kind": "place"
+    },
+    {
+      "term": "Mycenae",
+      "gloss": "The chief city of the Greeks, home of Agamemnon; often used as shorthand for 'home' for the departing Greek army.",
+      "kind": "place"
+    },
+    {
+      "term": "Laocoön",
+      "gloss": "A Trojan priest who warns against the wooden horse and hurls a spear into it; he and his sons are then killed by sea-serpents, which the Trojans wrongly take as divine punishment.",
+      "kind": "person"
+    },
+    {
+      "term": "Sinon",
+      "gloss": "The Greek who lets himself be captured and, with an elaborate web of lies, persuades the Trojans to bring the horse inside the walls.",
+      "kind": "person"
+    },
+    {
+      "term": "Palamedes",
+      "gloss": "A Greek put to death on a false charge of treason; Sinon claims kinship with him to win the Trojans' pity.",
+      "kind": "person"
+    },
+    {
+      "term": "Calchas",
+      "gloss": "The chief Greek prophet, whom Sinon falsely blames as the instrument of his pretended sacrifice and the demands of the gods.",
+      "kind": "person"
+    },
+    {
+      "term": "the Palladium",
+      "gloss": "The sacred image of Pallas Athena that protected Troy; the Greeks stole it from her temple, and its loss doomed the city.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cassandra",
+      "gloss": "Priam's daughter, gifted with true prophecy but cursed never to be believed; she foretells Troy's doom in vain, and is dragged from Minerva's shrine.",
+      "kind": "person"
+    },
+    {
+      "term": "Dardanus",
+      "gloss": "The legendary founder-ancestor of the Trojan royal line; the Trojans are called 'sons of Dardanus.'",
+      "kind": "person",
+      "aliases": [
+        "Dardanian"
+      ]
+    },
+    {
+      "term": "Pyrrhus",
+      "gloss": "Achilles's savage son (also called Neoptolemus), who breaks into Priam's palace and butchers the old king at his altar.",
+      "kind": "person",
+      "aliases": [
+        "Neoptolemus"
+      ]
+    },
+    {
+      "term": "Peleus",
+      "gloss": "Father of Achilles; Pyrrhus/Neoptolemus is called 'son of Peleus's line' as Achilles's heir.",
+      "kind": "person"
+    },
+    {
+      "term": "Hecuba",
+      "gloss": "The queen of Troy, wife of Priam, who watches her husband killed at the altar amid her daughters.",
+      "kind": "person"
+    },
+    {
+      "term": "Polites",
+      "gloss": "A son of Priam, cut down by Pyrrhus before his parents' eyes inside the burning palace.",
+      "kind": "person"
+    },
+    {
+      "term": "Creusa",
+      "gloss": "Aeneas's wife, lost in the chaos of Troy's fall; her ghost appears to foretell his long exile, a new land, and a royal bride to come.",
+      "kind": "person"
+    },
+    {
+      "term": "Panthus",
+      "gloss": "Apollo's priest at the citadel of Troy, who brings the holy things to Aeneas and reports that the city is lost.",
+      "kind": "person"
+    },
+    {
+      "term": "Coroebus",
+      "gloss": "A young suitor of Cassandra who joins Aeneas's last stand in Troy and dies trying to rescue her.",
+      "kind": "person"
+    },
+    {
+      "term": "Apollo",
+      "gloss": "God of prophecy, music, healing, and the bow; he gives oracles guiding Aeneas's voyage and speaks through the Sibyl. Also called the Archer-god and the god of Delos.",
+      "kind": "god"
+    },
+    {
+      "term": "the underworld",
+      "gloss": "The realm of the dead beneath the earth, ruled by Dis (Pluto) and Proserpina; Aeneas journeys down into it in Book VI to meet his father.",
+      "kind": "place",
+      "aliases": [
+        "the world below",
+        "hell",
+        "the shades"
+      ]
+    },
+    {
+      "term": "Mount Ida",
+      "gloss": "The mountain near Troy (and another mountain on Crete); a landmark of the Trojan homeland and the place where a guiding star points Aeneas's road.",
+      "kind": "place"
+    },
+    {
+      "term": "Andromache",
+      "gloss": "Hector's widow, carried off after Troy's fall; Aeneas finds her in Epirus, where she mourns Hector and gives gifts to Ascanius.",
+      "kind": "person"
+    },
+    {
+      "term": "Astyanax",
+      "gloss": "The little son of Hector and Andromache, killed in the fall of Troy; she sees his image in Ascanius.",
+      "kind": "person"
+    },
+    {
+      "term": "Helen",
+      "gloss": "The Greek queen whose abduction by Paris caused the Trojan War; in Troy's ruin Aeneas nearly kills her in rage.",
+      "kind": "person"
+    },
+    {
+      "term": "Penates",
+      "gloss": "The household gods of Troy whose sacred images Aeneas rescues from the fire and carries with him to found a new home.",
+      "kind": "thing",
+      "aliases": [
+        "household gods"
+      ]
+    },
+    {
+      "term": "Mars",
+      "gloss": "The god of war; also called the father of Romulus. 'The walls of Mars' means Rome.",
+      "kind": "god"
+    },
+    {
+      "term": "Dolopian",
+      "gloss": "Of the Dolopians, a Greek people who fought at Troy; used to mean 'enemy Greek.'",
+      "kind": "people"
+    },
+    {
+      "term": "Myrmidons",
+      "gloss": "The fierce Greek troops of Achilles; named among the hated enemies of Troy.",
+      "kind": "people"
+    },
+    {
+      "term": "shade",
+      "gloss": "The ghost or spirit of a dead person, a bodiless form that lingers in the underworld.",
+      "kind": "concept",
+      "aliases": [
+        "shades"
+      ]
+    },
+    {
+      "term": "suppliant",
+      "gloss": "A person who begs humbly for mercy or protection, often at an altar; such a plea was sacred and binding.",
+      "kind": "concept"
+    },
+    {
+      "term": "oracle",
+      "gloss": "A holy site, or the god's answer given there, revealing the will of the gods and the future to those who ask.",
+      "kind": "concept"
+    },
+    {
+      "term": "Thracians",
+      "gloss": "A people of the land of Thrace, northeast of Greece, once friendly to Troy until their king betrayed and murdered the young Trojan prince Polydorus.",
+      "kind": "people",
+      "aliases": [
+        "Thrace",
+        "Thracian"
+      ]
+    },
+    {
+      "term": "Polydorus",
+      "gloss": "A young son of Priam sent to Thrace for safety with gold; murdered by the treacherous king, his blood-soaked grave warns Aeneas to flee.",
+      "kind": "person"
+    },
+    {
+      "term": "Agamemnon",
+      "gloss": "The supreme commander of the Greek army at Troy, king of Mycenae; his name stands for Greek power.",
+      "kind": "person"
+    },
+    {
+      "term": "Delos",
+      "gloss": "The sacred island of Apollo in the middle of the sea, where Aeneas seeks the god's oracle; once a floating island fixed in place by Apollo.",
+      "kind": "place"
+    },
+    {
+      "term": "Anius",
+      "gloss": "The king and priest of Apollo on Delos, an old friend of Anchises who hosts the wandering Trojans.",
+      "kind": "person"
+    },
+    {
+      "term": "Crete",
+      "gloss": "The great island, birthplace of an ancestor of the Trojan line; Aeneas wrongly tries to settle there before a vision sends him on to Italy.",
+      "kind": "place",
+      "aliases": [
+        "Cretan"
+      ]
+    },
+    {
+      "term": "Teucer",
+      "gloss": "An ancient ancestor of the Trojan royal line who came from Crete; the Trojans are sometimes called Teucrians after him.",
+      "kind": "person"
+    },
+    {
+      "term": "Idomeneus",
+      "gloss": "A Greek king of Crete driven into exile; news of the empty Cretan coast lures the Trojans there.",
+      "kind": "person"
+    },
+    {
+      "term": "Cyclades",
+      "gloss": "The cluster of Greek islands in the Aegean (including Naxos, Paros, and others) that the Trojans sail through.",
+      "kind": "place"
+    },
+    {
+      "term": "Strophades",
+      "gloss": "The 'Turning Islands' in the Ionian Sea, the foul home of the monstrous Harpies, where the Trojans are driven ashore.",
+      "kind": "place"
+    },
+    {
+      "term": "Harpies",
+      "gloss": "Filthy winged monsters with the faces of girls and birds' bodies, who foul the Trojans' food; their leader Celaeno prophesies a curse of hunger.",
+      "kind": "thing",
+      "aliases": [
+        "Harpy"
+      ]
+    },
+    {
+      "term": "Celaeno",
+      "gloss": "The eldest of the Harpies, a 'prophetess of doom' who curses the Trojans, foretelling that hunger will drive them to gnaw their tables.",
+      "kind": "person"
+    },
+    {
+      "term": "Ithaca",
+      "gloss": "The rocky island kingdom of Ulysses, which the Trojans pass and curse as the birthplace of their hated enemy.",
+      "kind": "place"
+    },
+    {
+      "term": "Actium",
+      "gloss": "A headland in western Greece where the Trojans land and hold games — a place later famous for a great Roman naval victory.",
+      "kind": "place"
+    },
+    {
+      "term": "Helenus",
+      "gloss": "A son of Priam gifted with prophecy, now ruling a Greek city in Epirus with Andromache; he gives Aeneas detailed guidance for the voyage ahead.",
+      "kind": "person"
+    },
+    {
+      "term": "Buthrotum",
+      "gloss": "The city in Epirus, a 'little Troy' rebuilt by Helenus and Andromache, where Aeneas is reunited with them.",
+      "kind": "place",
+      "aliases": [
+        "Chaonia"
+      ]
+    },
+    {
+      "term": "Xanthus",
+      "gloss": "A river on the plain of Troy; the exiles tenderly give its name to a stream in their new settlements as a keepsake of home.",
+      "kind": "place"
+    },
+    {
+      "term": "Scaean Gate",
+      "gloss": "The main gate of Troy, a famous landmark of the lost city; copied in the rebuilt Troy of Epirus.",
+      "kind": "thing",
+      "aliases": [
+        "Scaean gates"
+      ]
+    },
+    {
+      "term": "Charybdis",
+      "gloss": "A deadly whirlpool in the strait by Sicily that three times a day sucks down the whole sea and spews it back; paired with the monster Scylla.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cumae",
+      "gloss": "The town on the coast of Italy, near Naples, where the Sibyl's prophetic cave and the entrance to the underworld are found.",
+      "kind": "place",
+      "aliases": [
+        "Cumaean"
+      ]
+    },
+    {
+      "term": "Avernus",
+      "gloss": "The dark, deadly lake near Cumae whose fumes kill birds; its name means 'Birdless,' and it is treated as a mouth of the underworld.",
+      "kind": "place"
+    },
+    {
+      "term": "the Sibyl",
+      "gloss": "The frenzied prophetess of Apollo at Cumae, who chants the fates and later guides Aeneas down into the underworld.",
+      "kind": "person",
+      "aliases": [
+        "Sibyl",
+        "Deiphobe"
+      ]
+    },
+    {
+      "term": "Etna",
+      "gloss": "The great volcano in Sicily, thundering with fire; the poem says the buried giant Enceladus lies pinned beneath it.",
+      "kind": "place"
+    },
+    {
+      "term": "Enceladus",
+      "gloss": "A giant struck down by Jupiter's bolt and buried under Mount Etna, whose stirrings cause the volcano's fire and Sicily's quakes.",
+      "kind": "person"
+    },
+    {
+      "term": "Polyphemus",
+      "gloss": "The huge, one-eyed Cyclops blinded by Ulysses; Aeneas's men narrowly escape him on the Sicilian coast.",
+      "kind": "person"
+    },
+    {
+      "term": "Achaemenides",
+      "gloss": "A Greek castaway, a former comrade of Ulysses, marooned among the Cyclopes; the Trojans take him aboard out of pity.",
+      "kind": "person"
+    },
+    {
+      "term": "Arethusa",
+      "gloss": "A spring in Sicily, in legend joined under the sea to the Greek river Alpheus; a landmark on the Trojans' route.",
+      "kind": "place",
+      "aliases": [
+        "Alpheus",
+        "Ortygia"
+      ]
+    },
+    {
+      "term": "Drepanum",
+      "gloss": "The harbor in Sicily where Aeneas's father Anchises dies — his last and bitterest loss before reaching Carthage.",
+      "kind": "place"
+    },
+    {
+      "term": "Laomedon",
+      "gloss": "An earlier king of Troy infamous for breaking his word; the Trojans are scornfully called 'sons of Laomedon' for the family's bad faith.",
+      "kind": "person"
+    },
+    {
+      "term": "Cybele",
+      "gloss": "The great Mother of the gods, worshiped with cymbals and lions, whose rites the Trojans trace back to Mount Ida of Crete.",
+      "kind": "god",
+      "aliases": [
+        "Mother of the gods",
+        "Berecyntian Mother"
+      ]
+    },
+    {
+      "term": "Anna",
+      "gloss": "Dido's sister and confidante, who urges her to welcome love for Aeneas and is unknowingly used to help arrange Dido's death.",
+      "kind": "person"
+    },
+    {
+      "term": "Iarbas",
+      "gloss": "A North African king, son of Jupiter Ammon, a rejected suitor of Dido whose angry prayer to Jupiter helps set Aeneas's departure in motion.",
+      "kind": "person"
+    },
+    {
+      "term": "Numidians",
+      "gloss": "A warlike North African people neighboring Carthage; their chiefs are among Dido's spurned suitors and dangers.",
+      "kind": "people"
+    },
+    {
+      "term": "Ceres",
+      "gloss": "Goddess of grain and the harvest, 'the lawgiver,' invoked in sacrifice; an abandoned shrine of hers is a Trojan meeting-place.",
+      "kind": "god"
+    },
+    {
+      "term": "Rumor",
+      "gloss": "Here a monstrous winged goddess, fast and many-eyed, who spreads news, gossip, and slander across the world — she carries word of Dido and Aeneas everywhere.",
+      "kind": "god"
+    },
+    {
+      "term": "Jupiter Ammon",
+      "gloss": "Jupiter worshiped in the North African desert in the form of the god Ammon; named as the father of King Iarbas.",
+      "kind": "god"
+    },
+    {
+      "term": "Atlas",
+      "gloss": "A giant (and a mountain) who holds the sky up on his shoulders; grandfather of Mercury, and a landmark at the edge of the world.",
+      "kind": "person"
+    },
+    {
+      "term": "Mnestheus",
+      "gloss": "A leading Trojan captain, ancestor-figure of a Roman family; he competes hard in the ship-race and helps ready the fleet.",
+      "kind": "person"
+    },
+    {
+      "term": "Maenad",
+      "gloss": "A frenzied female worshiper of Bacchus; Dido's wild grief is likened to a Maenad's ecstatic madness.",
+      "kind": "person"
+    },
+    {
+      "term": "the Furies",
+      "gloss": "The avenging spirits of the underworld who punish crime and pursue the guilty; Dido calls on them to curse Aeneas.",
+      "kind": "god",
+      "aliases": [
+        "Fury",
+        "avenging Furies"
+      ]
+    },
+    {
+      "term": "Hecate",
+      "gloss": "The threefold goddess of witchcraft, the crossroads, and the underworld, identified with Diana and the moon; invoked in Dido's death-rites and the descent to hell.",
+      "kind": "god"
+    },
+    {
+      "term": "Erebus",
+      "gloss": "A name for the dark depths of the underworld, invoked in Dido's magic rites alongside Chaos and Hecate.",
+      "kind": "place"
+    },
+    {
+      "term": "Hesperides",
+      "gloss": "The far-western guardians of a garden with a golden-fruited tree and its dragon; a priestess claims to have served their temple.",
+      "kind": "place"
+    },
+    {
+      "term": "Proserpina",
+      "gloss": "Queen of the underworld, wife of Dis (Pluto); she claims the golden bough as her gift and must cut a lock from the dying to mark them for death.",
+      "kind": "god"
+    },
+    {
+      "term": "Dis",
+      "gloss": "The god-king of the underworld (Pluto); 'the house of Dis' and 'black Dis' name the realm of the dead and its ruler.",
+      "kind": "god"
+    },
+    {
+      "term": "Iris",
+      "gloss": "The rainbow goddess and messenger, sent by Juno; she releases Dido's struggling soul, and later stirs the Trojan women to burn the ships.",
+      "kind": "god"
+    },
+    {
+      "term": "Styx",
+      "gloss": "The chief river of the underworld, by whose name even the gods swear binding oaths; the unburied dead wander its banks for a hundred years.",
+      "kind": "place",
+      "aliases": [
+        "Stygian"
+      ]
+    },
+    {
+      "term": "pyre",
+      "gloss": "A great pile of wood built to burn a dead body (or, for Dido, secretly to serve as her place of death) in a funeral rite.",
+      "kind": "thing"
+    },
+    {
+      "term": "Eryx",
+      "gloss": "A part-Trojan demigod, half-brother of Aeneas, after whom a Sicilian mountain is named; the boxer Entellus invokes his old teacher Eryx.",
+      "kind": "person"
+    },
+    {
+      "term": "Palinurus",
+      "gloss": "Aeneas's skilled and faithful helmsman, who refuses sleep at the tiller but is finally overcome and drowned; he reappears as a ghost in the underworld.",
+      "kind": "person"
+    },
+    {
+      "term": "Gyas",
+      "gloss": "A Trojan captain in the ship-race who, enraged, throws his cautious helmsman overboard.",
+      "kind": "person"
+    },
+    {
+      "term": "Cloanthus",
+      "gloss": "A Trojan captain who wins the ship-race by praying to the sea-gods, who shove his ship to victory.",
+      "kind": "person"
+    },
+    {
+      "term": "Sergestus",
+      "gloss": "A Trojan captain, founder-figure of a Roman family, who wrecks his ship on the turning-rock during the race.",
+      "kind": "person"
+    },
+    {
+      "term": "Menoetes",
+      "gloss": "Gyas's cautious old helmsman, thrown overboard for steering wide of the turning-mark, to the crowd's laughter.",
+      "kind": "person"
+    },
+    {
+      "term": "Nisus",
+      "gloss": "A swift Trojan runner devoted to his friend Euryalus; he falls in the footrace but trips a rival so Euryalus can win.",
+      "kind": "person"
+    },
+    {
+      "term": "Euryalus",
+      "gloss": "A handsome young Trojan, the beloved friend of Nisus, who wins the footrace through his friend's self-sacrifice.",
+      "kind": "person"
+    },
+    {
+      "term": "Salius",
+      "gloss": "A runner in the footrace, tripped by the fallen Nisus, who protests loudly that he was cheated.",
+      "kind": "person"
+    },
+    {
+      "term": "Diores",
+      "gloss": "A runner of Priam's royal line who comes third in the footrace.",
+      "kind": "person"
+    },
+    {
+      "term": "Dares",
+      "gloss": "A huge, boastful Trojan boxer who is finally beaten by the aged Entellus.",
+      "kind": "person"
+    },
+    {
+      "term": "Entellus",
+      "gloss": "An aging Sicilian boxer, once Eryx's pupil, who is goaded into the ring and crushes the younger Dares.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurytion",
+      "gloss": "A Trojan archer, brother of Pandarus, who shoots down the dove in the archery contest.",
+      "kind": "person"
+    },
+    {
+      "term": "the Trojan ride",
+      "gloss": "A ceremonial mock-battle on horseback performed by the Trojan boys, led by Ascanius; the origin-legend of a Roman cavalry drill called 'Troy.'",
+      "kind": "thing"
+    },
+    {
+      "term": "Iulus",
+      "gloss": "Another name for Ascanius, Aeneas's son, taken as the ancestor of Rome's Julian line.",
+      "kind": "person"
+    },
+    {
+      "term": "Beroe",
+      "gloss": "An old Trojan woman whose shape Iris takes to incite the weary Trojan women to burn the ships.",
+      "kind": "person"
+    },
+    {
+      "term": "Lethe",
+      "gloss": "The underworld river of forgetfulness; souls fated to be reborn drink from it to lose all memory of their past lives.",
+      "kind": "place"
+    },
+    {
+      "term": "Nautes",
+      "gloss": "A wise old Trojan, taught by Pallas, who advises Aeneas to leave the weary behind in Sicily and press on to Italy.",
+      "kind": "person"
+    },
+    {
+      "term": "Elysium",
+      "gloss": "The blessed region of the underworld, a country of joy and light where the good and great-souled dead dwell — including Anchises.",
+      "kind": "place"
+    },
+    {
+      "term": "the golden bough",
+      "gloss": "A magical branch with golden leaves, sacred to the underworld's queen, that Aeneas must pluck and carry as his passport into the land of the dead.",
+      "kind": "thing",
+      "aliases": [
+        "golden bough"
+      ]
+    },
+    {
+      "term": "Daedalus",
+      "gloss": "The master craftsman who built the Cretan Labyrinth and escaped by flying on wax wings; he founded the temple at Cumae and carved its doors.",
+      "kind": "person"
+    },
+    {
+      "term": "the Labyrinth",
+      "gloss": "The maze on Crete built by Daedalus to hold the Minotaur, with winding passages from which no one could escape.",
+      "kind": "thing"
+    },
+    {
+      "term": "Minotaur",
+      "gloss": "The monster, half man and half bull, kept in the Cretan Labyrinth, offspring of Pasiphae's unnatural love for a bull.",
+      "kind": "thing"
+    },
+    {
+      "term": "Pasiphae",
+      "gloss": "The Cretan queen who, by a monstrous lust, mated with a bull and bore the Minotaur.",
+      "kind": "person"
+    },
+    {
+      "term": "Theseus",
+      "gloss": "The Athenian hero who killed the Minotaur, threading the Labyrinth with Ariadne's help; named among heroes who entered the underworld.",
+      "kind": "person"
+    },
+    {
+      "term": "Ariadne",
+      "gloss": "The Cretan princess whose thread guided Theseus out of the Labyrinth.",
+      "kind": "person"
+    },
+    {
+      "term": "Icarus",
+      "gloss": "Son of Daedalus, who fell to his death when his wax wings melted; the grieving father could not bear to carve his fall.",
+      "kind": "person"
+    },
+    {
+      "term": "Acheron",
+      "gloss": "A river of the underworld whose muddy flood the dead must cross; named as the gateway to the world below.",
+      "kind": "place"
+    },
+    {
+      "term": "Charon",
+      "gloss": "The grim, filthy old ferryman who carries the buried dead across the underworld rivers; the unburied must wait a hundred years.",
+      "kind": "god"
+    },
+    {
+      "term": "Cocytus",
+      "gloss": "A river of the underworld, the 'river of wailing,' whose black waters loop around the realm of the dead.",
+      "kind": "place"
+    },
+    {
+      "term": "Cerberus",
+      "gloss": "The huge three-throated watchdog of the underworld, drugged with a honey-cake by the Sibyl so Aeneas can pass.",
+      "kind": "thing",
+      "aliases": [
+        "the watchdog"
+      ]
+    },
+    {
+      "term": "Minos",
+      "gloss": "A judge of the dead, who presides over the souls and weighs their lives and the charges against them.",
+      "kind": "person"
+    },
+    {
+      "term": "the Fields of Mourning",
+      "gloss": "A region of the underworld where those destroyed by love wander among myrtle groves; here Aeneas meets the ghost of Dido.",
+      "kind": "place"
+    },
+    {
+      "term": "Deiphobus",
+      "gloss": "A son of Priam, horribly mutilated in Troy's fall by Helen's betrayal; his ghost tells Aeneas the true tale of that last night.",
+      "kind": "person"
+    },
+    {
+      "term": "Menelaus",
+      "gloss": "The Greek king of Sparta, Helen's wronged husband, whose recovery of her helped destroy Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Tartarus",
+      "gloss": "The deep, walled pit of the underworld where the wicked are punished forever, set apart from blessed Elysium.",
+      "kind": "place"
+    },
+    {
+      "term": "Phlegethon",
+      "gloss": "The river of fire that rings the fortress of Tartarus, rolling thundering rocks in its current.",
+      "kind": "place"
+    },
+    {
+      "term": "Tisiphone",
+      "gloss": "One of the Furies, who guards the gate of Tartarus and lashes the guilty with her whip and snakes.",
+      "kind": "god"
+    },
+    {
+      "term": "Rhadamanthus",
+      "gloss": "The stern judge who rules Tartarus, forcing the guilty to confess the sins they hid in life.",
+      "kind": "person"
+    },
+    {
+      "term": "Salmoneus",
+      "gloss": "A man punished in Tartarus for impiously imitating Jupiter's thunder and lightning and claiming divine worship.",
+      "kind": "person"
+    },
+    {
+      "term": "Tityos",
+      "gloss": "A giant punished in Tartarus, his ever-renewing liver eternally torn by a vulture.",
+      "kind": "person"
+    },
+    {
+      "term": "Ixion",
+      "gloss": "A famous sinner punished in the underworld, named among those who suffer endless torment.",
+      "kind": "person"
+    },
+    {
+      "term": "Pirithous",
+      "gloss": "A hero punished in the underworld; he and Theseus tried to carry off the queen of the dead.",
+      "kind": "person"
+    },
+    {
+      "term": "Phlegyas",
+      "gloss": "A wretch in Tartarus who cries out a warning to all: 'Learn justice, and do not despise the gods.'",
+      "kind": "person"
+    },
+    {
+      "term": "Orpheus",
+      "gloss": "The legendary Thracian singer who went down to the underworld to win back his wife; he appears among the blessed in Elysium.",
+      "kind": "person"
+    },
+    {
+      "term": "Pollux",
+      "gloss": "A son of Jupiter who shared his immortality with his brother by alternately dying and returning — a model of brotherly love that descended to the dead.",
+      "kind": "person"
+    },
+    {
+      "term": "Hercules",
+      "gloss": "The greatest of heroes, who entered the underworld to drag up its watchdog; cited as one of the few living men allowed down.",
+      "kind": "person"
+    },
+    {
+      "term": "Musaeus",
+      "gloss": "A revered legendary poet, towering among the blessed souls in Elysium, who directs Aeneas toward Anchises.",
+      "kind": "person"
+    },
+    {
+      "term": "Silvius",
+      "gloss": "Aeneas's future last-born son by Lavinia, raised in the woods, founder of the Alban line of kings.",
+      "kind": "person"
+    },
+    {
+      "term": "Augustus Caesar",
+      "gloss": "The future first Roman emperor, hailed by Anchises as 'son of a god' who will refound a golden age and extend Rome's empire to the ends of the earth.",
+      "kind": "person"
+    },
+    {
+      "term": "Numa",
+      "gloss": "The future second king of Rome, who will set the city on a foundation of religious law and peace.",
+      "kind": "person"
+    },
+    {
+      "term": "Brutus",
+      "gloss": "The future Roman who will overthrow the kings, win the first consulship, and condemn even his own sons to death for the sake of liberty.",
+      "kind": "person"
+    },
+    {
+      "term": "Marcellus",
+      "gloss": "Two Roman heroes shown by Anchises: the great conqueror, and the young, doomed Marcellus whose early death will be deeply mourned.",
+      "kind": "person"
+    },
+    {
+      "term": "Quirinus",
+      "gloss": "The deified Romulus, worshiped as a Roman god; 'father Quirinus' receives captured armor.",
+      "kind": "god"
+    },
+    {
+      "term": "the gates of Sleep",
+      "gloss": "The two exits from the underworld — one of horn for true shades, one of gleaming ivory for false dreams — through which Aeneas and the Sibyl return.",
+      "kind": "thing"
+    },
+    {
+      "term": "Caieta",
+      "gloss": "The harbor on the Italian coast where Aeneas's fleet lands after he returns from the underworld.",
+      "kind": "place"
+    },
+    {
+      "term": "Latinus",
+      "gloss": "The king of Latium in Italy, named as a future trial Aeneas must face; the ruler of the land where the Trojans will settle.",
+      "kind": "person"
+    },
+    {
+      "term": "Tityos's vulture",
+      "gloss": "The eternal punishment in Tartarus where a vulture forever eats the giant Tityos's regrowing liver — a standing image of unending torment.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cynthus",
+      "gloss": "The mountain on Delos sacred to Apollo and Diana; the gods are pictured walking its ridges.",
+      "kind": "place"
+    },
+    {
+      "term": "Turnus",
+      "gloss": "King of the Rutulians and Aeneas's chief rival, who fights to keep Lavinia and his claim on Latium; the war's central enemy, killed by Aeneas at the end.",
+      "kind": "person",
+      "aliases": [
+        "Turnus's"
+      ]
+    },
+    {
+      "term": "Lavinia",
+      "gloss": "Daughter of King Latinus, the princess both Turnus and Aeneas are promised; the marriage prize over which the war is fought.",
+      "kind": "person"
+    },
+    {
+      "term": "Camilla",
+      "gloss": "A warrior-maiden of the Volscians, raised in the wild and devoted to Diana; she leads cavalry for the Latins and is killed in battle.",
+      "kind": "person",
+      "aliases": [
+        "Camilla's"
+      ]
+    },
+    {
+      "term": "Pallas",
+      "gloss": "The young son of King Evander, sent to learn war at Aeneas's side; killed by Turnus, whose taking of his sword-belt seals his own doom.",
+      "kind": "person",
+      "aliases": [
+        "Pallas's"
+      ]
+    },
+    {
+      "term": "Evander",
+      "gloss": "The old Arcadian king of Pallanteum on the future site of Rome; he takes Aeneas in as an ally and sends his son Pallas to the war.",
+      "kind": "person",
+      "aliases": [
+        "Evander's"
+      ]
+    },
+    {
+      "term": "Mezentius",
+      "gloss": "A brutal Etruscan tyrant who scorns the gods and fights for Turnus; killed by Aeneas after the death of his son Lausus.",
+      "kind": "person",
+      "aliases": [
+        "Mezentius's"
+      ]
+    },
+    {
+      "term": "Lausus",
+      "gloss": "The brave young son of Mezentius, finest of the Latin fighters after Turnus; killed by Aeneas while shielding his father.",
+      "kind": "person",
+      "aliases": [
+        "Lausus's"
+      ]
+    },
+    {
+      "term": "Amata",
+      "gloss": "Queen of Latium, wife of Latinus and mother of Lavinia; driven mad by the Fury Allecto, she favors Turnus and hangs herself when she thinks him dead.",
+      "kind": "person",
+      "aliases": [
+        "Amata's"
+      ]
+    },
+    {
+      "term": "Allecto",
+      "gloss": "One of the Furies, summoned by Juno from the underworld to break the peace; she maddens Amata and Turnus and ignites the war.",
+      "kind": "god"
+    },
+    {
+      "term": "Juturna",
+      "gloss": "A river-nymph and the divine sister of Turnus; she repeatedly snatches him from danger until Jupiter forces her to give up.",
+      "kind": "god"
+    },
+    {
+      "term": "Vulcan",
+      "gloss": "The lame smith-god, husband of Venus, who forges Aeneas's shield and armor at his fiery workshop under Mount Aetna.",
+      "kind": "god",
+      "aliases": [
+        "Lord of the Fire",
+        "Lord of Lemnos",
+        "Fire-God",
+        "the fire-god"
+      ]
+    },
+    {
+      "term": "Tiberinus",
+      "gloss": "The god of the river Tiber, who appears to Aeneas in a dream to guide and reassure him and calms his waters for the journey upstream.",
+      "kind": "god",
+      "aliases": [
+        "father Tiber",
+        "old Tiber",
+        "Tiber"
+      ]
+    },
+    {
+      "term": "Opis",
+      "gloss": "A swift attendant nymph of Diana, sent down to avenge Camilla by killing her slayer Arruns with an arrow.",
+      "kind": "god"
+    },
+    {
+      "term": "Faunus",
+      "gloss": "An old prophetic woodland god, father of Latinus, whose oracle warns that Lavinia must marry a foreigner.",
+      "kind": "god"
+    },
+    {
+      "term": "Megaera",
+      "gloss": "One of the Furies (the Dread Ones), daughters of Night who serve at Jupiter's throne and carry his terrors to mortals.",
+      "kind": "god",
+      "aliases": [
+        "the Dread Ones"
+      ]
+    },
+    {
+      "term": "Bellona",
+      "gloss": "The goddess of war, named as the grim bridesmaid attending the bloody 'wedding' of the war to come.",
+      "kind": "god"
+    },
+    {
+      "term": "Circe",
+      "gloss": "The witch-goddess, daughter of the Sun, whose coast the Trojans pass; she turns men into beasts and once transformed Picus into a bird.",
+      "kind": "god"
+    },
+    {
+      "term": "Cymodoce",
+      "gloss": "The clearest-voiced of the sea-nymphs (the transformed Trojan ships), who wakes Aeneas at sea and urges him on.",
+      "kind": "god"
+    },
+    {
+      "term": "Pluto",
+      "gloss": "The god of the underworld; even he is said to hate his daughter, the Fury Allecto.",
+      "kind": "god",
+      "aliases": [
+        "Dis"
+      ]
+    },
+    {
+      "term": "Rutulians",
+      "gloss": "The Italian people led by Turnus, the Trojans' chief enemies in the war; their capital is Ardea.",
+      "kind": "people",
+      "aliases": [
+        "Rutulian"
+      ]
+    },
+    {
+      "term": "Latins",
+      "gloss": "The people of Latium ruled by King Latinus; many are drawn into the war against the Trojans on Turnus's side.",
+      "kind": "people",
+      "aliases": [
+        "Latin"
+      ]
+    },
+    {
+      "term": "Volscians",
+      "gloss": "An Italian people who fight for the Latins, led by the warrior-maiden Camilla.",
+      "kind": "people",
+      "aliases": [
+        "Volscian"
+      ]
+    },
+    {
+      "term": "Arcadians",
+      "gloss": "The Greek-descended people of King Evander, settled at Pallanteum; they become the Trojans' allies and fight as cavalry.",
+      "kind": "people",
+      "aliases": [
+        "Arcadian"
+      ]
+    },
+    {
+      "term": "Etruscans",
+      "gloss": "The people of Etruria (Tuscany) who rebel against the tyrant Mezentius and ally with Aeneas, led by Tarchon.",
+      "kind": "people",
+      "aliases": [
+        "Etruscan",
+        "Tuscan",
+        "Lydian",
+        "Tyrrhenian",
+        "Tyrrhenia"
+      ]
+    },
+    {
+      "term": "Aurunci",
+      "gloss": "An old Italian people of the region; their fighters join Turnus's army.",
+      "kind": "people",
+      "aliases": [
+        "Auruncan",
+        "Auruncans"
+      ]
+    },
+    {
+      "term": "Cyclopes",
+      "gloss": "The one-eyed giant smiths who work the iron and forge thunderbolts in Vulcan's cave beneath Aetna.",
+      "kind": "people",
+      "aliases": [
+        "Cyclops"
+      ]
+    },
+    {
+      "term": "Nereids",
+      "gloss": "The sea-nymphs, daughters of the sea; the transformed Trojan ships become goddesses of their kind.",
+      "kind": "people"
+    },
+    {
+      "term": "Salii",
+      "gloss": "The leaping priests of an old Roman rite, who sing and dance the deeds of Hercules around the altar fires.",
+      "kind": "people"
+    },
+    {
+      "term": "Ausonia",
+      "gloss": "An old poetic name for Italy, especially its central and southern parts.",
+      "kind": "place",
+      "aliases": [
+        "Ausonian"
+      ]
+    },
+    {
+      "term": "Hesperia",
+      "gloss": "A poetic name for Italy, 'the Western land'; where the Trojans are fated to make their home.",
+      "kind": "place"
+    },
+    {
+      "term": "Laurentum",
+      "gloss": "The chief town and territory of King Latinus's Latins, near the Tiber's mouth.",
+      "kind": "place",
+      "aliases": [
+        "Laurentine",
+        "Laurentines"
+      ]
+    },
+    {
+      "term": "Pallanteum",
+      "gloss": "The small Arcadian town King Evander founded on the future site of Rome, named for his ancestor Pallas.",
+      "kind": "place"
+    },
+    {
+      "term": "Ardea",
+      "gloss": "The capital city of Turnus and the Rutulians.",
+      "kind": "place"
+    },
+    {
+      "term": "Aetna",
+      "gloss": "The volcano in Sicily; in its caverns lie Vulcan's forges where the Cyclopes work.",
+      "kind": "place",
+      "aliases": [
+        "Etna"
+      ]
+    },
+    {
+      "term": "Agylla",
+      "gloss": "The old Etruscan city, also called Caere, once ruled by the tyrant Mezentius before his people drove him out.",
+      "kind": "place",
+      "aliases": [
+        "Caere"
+      ]
+    },
+    {
+      "term": "Tibur",
+      "gloss": "An Italian town (modern Tivoli) that sends fighters to Turnus, founded by Tiburtus.",
+      "kind": "place"
+    },
+    {
+      "term": "Praeneste",
+      "gloss": "An Italian hill-town whose founder Caeculus leads farmer-soldiers to the war.",
+      "kind": "place"
+    },
+    {
+      "term": "Mantua",
+      "gloss": "An ancient Etruscan-founded town of mixed peoples that sends men to fight against Mezentius.",
+      "kind": "place"
+    },
+    {
+      "term": "Soracte",
+      "gloss": "A holy mountain sacred to Apollo, where his worshippers walk barefoot through fire; invoked by Arruns.",
+      "kind": "place"
+    },
+    {
+      "term": "Olympus",
+      "gloss": "The high heaven, the dwelling of the gods, where Jupiter holds council.",
+      "kind": "place"
+    },
+    {
+      "term": "Acca",
+      "gloss": "The companion Camilla trusts most, to whom she gives her dying message for Turnus.",
+      "kind": "person"
+    },
+    {
+      "term": "Arruns",
+      "gloss": "The Etruscan who stalks and kills Camilla with a thrown spear, then is struck down in turn by Diana's nymph Opis.",
+      "kind": "person"
+    },
+    {
+      "term": "Tarchon",
+      "gloss": "The Etruscan chief who allies his people with Aeneas, runs his ships aground on the hostile shore, and rallies his men to fight Camilla's cavalry.",
+      "kind": "person"
+    },
+    {
+      "term": "Messapus",
+      "gloss": "A son of Neptune and tamer of horses, a captain who fights for Turnus and the Latins; said to be proof against fire and steel.",
+      "kind": "person"
+    },
+    {
+      "term": "Drances",
+      "gloss": "An older Latin nobleman, a fine speaker but no fighter, who hates Turnus and urges peace with Aeneas.",
+      "kind": "person"
+    },
+    {
+      "term": "Cacus",
+      "gloss": "A fire-breathing monster, son of Vulcan, who stole Hercules's cattle and was killed by him; his death is the origin of Evander's rite.",
+      "kind": "person"
+    },
+    {
+      "term": "Serestus",
+      "gloss": "A fierce Trojan captain who, with Mnestheus, leads the defense of the camp.",
+      "kind": "person"
+    },
+    {
+      "term": "Pandarus",
+      "gloss": "One of two giant Trojan brothers who rashly open the camp gate, letting Turnus in; killed by Turnus.",
+      "kind": "person"
+    },
+    {
+      "term": "Bitias",
+      "gloss": "A giant Trojan brother, son of Alcanor, killed by a great javelin thrown by Turnus at the gate.",
+      "kind": "person"
+    },
+    {
+      "term": "Numanus",
+      "gloss": "A boastful Rutulian, also called Remulus, newly married to Turnus's sister; killed by Ascanius's first war-arrow.",
+      "kind": "person",
+      "aliases": [
+        "Remulus"
+      ]
+    },
+    {
+      "term": "Volcens",
+      "gloss": "The Latin cavalry captain who captures Euryalus and kills him, and is then killed by Nisus.",
+      "kind": "person"
+    },
+    {
+      "term": "Rhamnes",
+      "gloss": "A Rutulian king and Turnus's favorite seer, killed in his sleep during the night raid of Nisus and Euryalus.",
+      "kind": "person"
+    },
+    {
+      "term": "Tolumnius",
+      "gloss": "The Rutulian augur who reads a false omen and throws the first spear that breaks the sworn truce; later killed by Aeneas's men.",
+      "kind": "person"
+    },
+    {
+      "term": "Metabus",
+      "gloss": "The exiled tyrant father of Camilla, who saved his infant daughter by tying her to a spear and hurling her across a flooded river.",
+      "kind": "person"
+    },
+    {
+      "term": "Aletes",
+      "gloss": "An old, wise Trojan who blesses Nisus and Euryalus before their night mission.",
+      "kind": "person"
+    },
+    {
+      "term": "Picus",
+      "gloss": "An early king of Latium and ancestor of Latinus, turned into a bird by the witch Circe; his image stands in the royal hall.",
+      "kind": "person"
+    },
+    {
+      "term": "Cupavo",
+      "gloss": "An Etruscan captain who joins Aeneas, wearing swan-plumes that recall his father Cycnus's transformation.",
+      "kind": "person"
+    },
+    {
+      "term": "Aventinus",
+      "gloss": "A handsome Latin warrior, son of Hercules, who wears his father's emblem of the Hydra into battle for Turnus.",
+      "kind": "person"
+    },
+    {
+      "term": "Halaesus",
+      "gloss": "A captain of the line of Agamemnon and enemy of Troy, who brings a thousand fighters to Turnus; killed by Pallas.",
+      "kind": "person",
+      "aliases": [
+        "Halesus"
+      ]
+    },
+    {
+      "term": "Clausus",
+      "gloss": "A leader of old Sabine blood who brings a great army to Turnus; ancestor of the Roman Claudian house.",
+      "kind": "person"
+    },
+    {
+      "term": "Rhaebus",
+      "gloss": "Mezentius's beloved war-horse, killed by Aeneas's spear in their final fight.",
+      "kind": "thing"
+    },
+    {
+      "term": "Saces",
+      "gloss": "A wounded Latin rider who brings Turnus the desperate news of the city's peril and Amata's death.",
+      "kind": "person"
+    },
+    {
+      "term": "Iapyx",
+      "gloss": "The Trojan healer, beloved of Apollo, who tries to draw the arrow from Aeneas's wound; Venus secretly heals it.",
+      "kind": "person"
+    },
+    {
+      "term": "Daunus",
+      "gloss": "The father of Turnus, an aged king to whom Turnus's parting thoughts repeatedly turn.",
+      "kind": "person",
+      "aliases": [
+        "Daunus's"
+      ]
+    },
+    {
+      "term": "Pilumnus",
+      "gloss": "An ancestral god or hero of Turnus's line, in whose sacred grove Turnus sits.",
+      "kind": "person"
+    },
+    {
+      "term": "Eumedes",
+      "gloss": "A famous Italian fighter, son of the spy Dolon, killed by Turnus in Book XII.",
+      "kind": "person"
+    },
+    {
+      "term": "Dolon",
+      "gloss": "A Trojan spy of old who greedily demanded Achilles's chariot as his reward and was killed by Diomedes; father of Eumedes.",
+      "kind": "person"
+    },
+    {
+      "term": "Aurora",
+      "gloss": "The dawn, often personified as a goddess rising from the sea in her rose chariot to bring the day.",
+      "kind": "god",
+      "aliases": [
+        "Dawn"
+      ]
+    },
+    {
+      "term": "Antony",
+      "gloss": "The Roman general, shown on the shield bringing the powers of the East and his Egyptian wife to fight Augustus at Actium.",
+      "kind": "person"
+    },
+    {
+      "term": "alliance",
+      "gloss": "A formal bond of friendship and mutual aid between peoples; Aeneas seeks one with Evander and the Etruscans.",
+      "kind": "concept",
+      "aliases": [
+        "ally",
+        "allies"
+      ]
+    },
+    {
+      "term": "augur",
+      "gloss": "A priest who reads the will of the gods from signs such as the flight of birds; Tolumnius is the Rutulian augur.",
+      "kind": "concept"
+    },
+    {
+      "term": "the Fates",
+      "gloss": "The unchangeable destiny that governs even the gods; Aeneas's victory and the founding of Rome are fated.",
+      "kind": "concept",
+      "aliases": [
+        "fate",
+        "fates",
+        "Fortune"
+      ]
+    },
+    {
+      "term": "trophy",
+      "gloss": "Captured enemy armor displayed as a monument to victory; Aeneas dedicates Mezentius's arms on a tree as a trophy to Mars.",
+      "kind": "concept",
+      "aliases": [
+        "trophies",
+        "spoils"
+      ]
+    },
+    {
+      "term": "truce",
+      "gloss": "A temporary halt in fighting, often to bury the dead; the twelve-day truce is later shattered by Tolumnius's spear.",
+      "kind": "concept"
+    },
+    {
+      "term": "the Golden Age",
+      "gloss": "The peaceful, lawful reign of Saturn in early Latium, before war and greed corrupted the world.",
+      "kind": "concept",
+      "aliases": [
+        "ages golden",
+        "golden"
+      ]
+    },
+    {
+      "term": "thyrsus",
+      "gloss": "A wand wreathed in vine or ivy carried by worshippers of Bacchus; Amata in her frenzy invokes its rites.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Shield of Aeneas",
+      "gloss": "The great shield forged by Vulcan, engraved with the future history of Rome down to Augustus's triumph at Actium.",
+      "kind": "thing",
+      "aliases": [
+        "shield"
+      ]
+    },
+    {
+      "term": "sword-belt",
+      "gloss": "Pallas's ornamented belt, stripped from his body by Turnus as a trophy; the sight of it on Turnus drives Aeneas to kill him.",
+      "kind": "thing"
+    },
+    {
+      "term": "Minerva",
+      "gloss": "The warrior goddess of wisdom and craft (Athena); the Latin women pray to her to break Aeneas's spear.",
+      "kind": "god"
+    },
+    {
+      "term": "dittany",
+      "gloss": "A healing herb from Cretan Ida that Venus uses to draw the arrow from Aeneas's wound.",
+      "kind": "thing"
+    },
+    {
+      "term": "Chloreus",
+      "gloss": "A former priest of Cybele, gorgeously armed in Phrygian gold; Camilla chases his rich armor and is killed in the pursuit.",
+      "kind": "person"
+    },
+    {
+      "term": "Aethon",
+      "gloss": "Pallas's war-horse, who weeps real tears in the funeral procession.",
+      "kind": "thing"
+    },
+    {
+      "term": "Acoetes",
+      "gloss": "The aged Arcadian squire who keeps watch over the dead body of Pallas.",
+      "kind": "person"
+    },
+    {
+      "term": "Orodes",
+      "gloss": "A warrior killed in fair fight by Mezentius, who with his dying breath foretells Mezentius's own doom.",
+      "kind": "person"
+    },
+    {
+      "term": "Sabine",
+      "gloss": "Of the Sabines, an old Italian people; Clausus is of Sabine blood and Evander's son is half-Sabine.",
+      "kind": "people",
+      "aliases": [
+        "Sabines"
+      ]
+    },
+    {
+      "term": "Stygian",
+      "gloss": "Of the river Styx, and so of the underworld; Allecto flies on 'Stygian wings.'",
+      "kind": "word"
+    },
+    {
+      "term": "diadem",
+      "gloss": "A royal headband or crown; among the gifts Aeneas sends Latinus is Priam's sacred diadem.",
+      "kind": "thing"
+    },
+    {
+      "term": "corselet",
+      "gloss": "A piece of body armor protecting the chest; warriors' corselets are pierced again and again in battle.",
+      "kind": "thing",
+      "aliases": [
+        "breastplate"
+      ]
+    },
+    {
+      "term": "greaves",
+      "gloss": "Armor for the lower legs, worn by warriors; Aeneas's are of gold and electrum.",
+      "kind": "thing"
+    },
+    {
+      "term": "javelin",
+      "gloss": "A light throwing-spear, the common weapon of the fighting.",
+      "kind": "thing",
+      "aliases": [
+        "javelins"
+      ]
+    },
+    {
+      "term": "distaff",
+      "gloss": "A staff used in spinning wool, a symbol of women's domestic work; Camilla never learned to use it.",
+      "kind": "thing"
+    },
+    {
+      "term": "quiver",
+      "gloss": "A case for carrying arrows, slung on the shoulder; Camilla and the huntress-warriors wear them.",
+      "kind": "thing"
+    },
+    {
+      "term": "sistrum",
+      "gloss": "An Egyptian rattle used in worship; on the shield, Cleopatra calls her troops on with its sound.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Penates of Assaracus",
+      "gloss": "The ancestral Trojan household gods, named by Ascanius in his solemn oath.",
+      "kind": "thing"
+    },
+    {
+      "term": "Erato",
+      "gloss": "The Muse of love poetry, invoked by the poet at the start of Book VII as he turns to 'a greater work.'",
+      "kind": "god"
+    },
+    {
+      "term": "Muses",
+      "gloss": "The goddesses of poetry and memory, invoked by the poet to help him sing the war and name its warriors.",
+      "kind": "god",
+      "aliases": [
+        "Calliope",
+        "Helicon"
+      ]
+    },
+    {
+      "term": "Geryon",
+      "gloss": "A three-bodied giant whose cattle Hercules drove off after killing him in Spain.",
+      "kind": "person"
+    },
+    {
+      "term": "Palladium",
+      "gloss": "The sacred image of Pallas Athena stolen from Troy by the Greeks; Turnus boasts the Trojans won't lose their luck that way again.",
+      "kind": "thing"
+    },
+    {
+      "term": "electrum",
+      "gloss": "A pale alloy of gold and silver; Aeneas's greaves are made of gold and electrum.",
+      "kind": "thing"
+    },
+    {
+      "term": "thunderbolt",
+      "gloss": "Jupiter's weapon of lightning, forged by the Cyclopes; the measure of overwhelming force in battle.",
+      "kind": "thing"
+    },
+    {
+      "term": "Phoebe",
+      "gloss": "A name for the moon-goddess; she rides her chariot halfway across the night sky.",
+      "kind": "god"
+    },
+    {
+      "term": "Centaurs",
+      "gloss": "Mythical creatures, half man and half horse; two Italian brothers are compared to them charging into battle.",
+      "kind": "people"
+    },
+    {
+      "term": "Hydra",
+      "gloss": "The many-headed serpent killed by Hercules; its image appears on the shield of Aventinus, his son.",
+      "kind": "thing"
+    },
+    {
+      "term": "dutiful",
+      "gloss": "Faithful in duty to the gods, family, and country; the standing epithet of Aeneas (Latin pius), naming his defining virtue.",
+      "kind": "concept",
+      "aliases": [
+        "pious",
+        "duty"
+      ]
+    },
+    {
+      "term": "Lord of War",
+      "gloss": "A title of Mars, the war-god, to whom Aeneas dedicates the trophy of Mezentius's arms.",
+      "kind": "god"
+    },
+    {
+      "term": "Camers",
+      "gloss": "A noble Latin warrior whose shape Juturna takes to stir the Rutulians back to war.",
+      "kind": "person"
+    }
   ]
 }

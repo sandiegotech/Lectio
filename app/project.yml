@@ -44,6 +44,9 @@ targets:
           - CFBundleURLName: com.sdit.Lectio
             CFBundleURLSchemes:
               - lectio
+        # So canOpenURL("gloss://") can tell whether the sibling app is installed.
+        LSApplicationQueriesSchemes:
+          - gloss
     settings:
       base:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

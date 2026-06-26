@@ -560,5 +560,2490 @@
         }
       ]
     }
+  ],
+  "glossary": [
+    {
+      "term": "Muse",
+      "gloss": "The goddess of poetry and memory whom the poet calls on to inspire and guide his song. Homer asks her to tell the story of Odysseus through him.",
+      "kind": "god"
+    },
+    {
+      "term": "Odysseus",
+      "gloss": "The Greek hero of the poem, king of Ithaca, famous for his cunning and endurance. He fought at Troy and now struggles for years to get home.",
+      "kind": "person",
+      "aliases": [
+        "Odysseus'"
+      ]
+    },
+    {
+      "term": "Troy",
+      "gloss": "The great city the Greeks besieged and finally sacked in the Trojan War, where Odysseus and the other heroes fought for ten years.",
+      "kind": "place",
+      "aliases": [
+        "Trojans",
+        "Trojan",
+        "Troy's"
+      ]
+    },
+    {
+      "term": "Hyperion",
+      "gloss": "The Sun, here called Hyperion the Sun. Odysseus' men doomed themselves by killing and eating his sacred cattle.",
+      "kind": "god"
+    },
+    {
+      "term": "Zeus",
+      "gloss": "The king of the gods, ruler of sky and weather, called the father of gods and men. He oversees fate, justice, and the fortunes of mortals.",
+      "kind": "god",
+      "aliases": [
+        "Zeus'"
+      ]
+    },
+    {
+      "term": "Ithaca",
+      "gloss": "The rugged island kingdom that is Odysseus' home, where his wife Penelope and son Telemachus wait for him.",
+      "kind": "place"
+    },
+    {
+      "term": "Calypso",
+      "gloss": "A goddess-nymph who keeps Odysseus on her island for years, wanting him as a husband. She finally lets him go on Zeus's order.",
+      "kind": "god",
+      "aliases": [
+        "Calypso's"
+      ]
+    },
+    {
+      "term": "nymph",
+      "gloss": "A minor female nature-divinity, here used of Calypso, the goddess living alone on her island.",
+      "kind": "god",
+      "aliases": [
+        "nymphs"
+      ]
+    },
+    {
+      "term": "Poseidon",
+      "gloss": "God of the sea and earthquakes, called the earth-shaker. He hates Odysseus for blinding his son the Cyclops and drives him in storms.",
+      "kind": "god"
+    },
+    {
+      "term": "Ethiopians",
+      "gloss": "A distant people living at the edges of the earth, half toward the rising sun and half toward the setting. Poseidon visits them to receive sacrifices.",
+      "kind": "people"
+    },
+    {
+      "term": "Olympian",
+      "gloss": "Belonging to Olympus, the mountain home of the gods. Used as a title for Zeus and the gods who dwell there.",
+      "kind": "god",
+      "aliases": [
+        "Olympus",
+        "Olympus'"
+      ]
+    },
+    {
+      "term": "Aigisthos",
+      "gloss": "The man who seduced Agamemnon's wife and murdered him when he came home from Troy, then was killed in revenge by Agamemnon's son Orestes. Zeus holds him up as proof that men bring ruin on themselves.",
+      "kind": "person",
+      "aliases": [
+        "Aigisthos'"
+      ]
+    },
+    {
+      "term": "Agamemnon",
+      "gloss": "The Greek commander-in-chief at Troy. Coming home, he was murdered by Aigisthos and his own wife — a cautionary parallel to Odysseus' homecoming.",
+      "kind": "person",
+      "aliases": [
+        "Agamemnon's"
+      ]
+    },
+    {
+      "term": "Orestes",
+      "gloss": "Son of Agamemnon, who grew up and avenged his father by killing the murderer Aigisthos. He is held up as a model for Telemachus.",
+      "kind": "person"
+    },
+    {
+      "term": "Hermes",
+      "gloss": "The messenger god, swift and cunning, called the slayer of Argos. He carries Zeus's commands, here the order that Calypso release Odysseus.",
+      "kind": "god"
+    },
+    {
+      "term": "slayer of Argos",
+      "gloss": "A standing title for Hermes, recalling his killing of the many-eyed giant Argos. Often paired with 'keen-eyed.'",
+      "kind": "god",
+      "aliases": [
+        "slayer of Argos"
+      ]
+    },
+    {
+      "term": "Athena",
+      "gloss": "Goddess of wisdom, war, and craft, daughter of Zeus, called grey-eyed. She is Odysseus' great protector and guides Telemachus throughout.",
+      "kind": "god",
+      "aliases": [
+        "Athena's"
+      ]
+    },
+    {
+      "term": "grey-eyed Athena",
+      "gloss": "A recurring epithet for Athena; 'grey-eyed' (or 'flashing-eyed') marks her keen, fierce gaze.",
+      "kind": "god",
+      "aliases": [
+        "grey-eyed",
+        "grey-eyed one"
+      ]
+    },
+    {
+      "term": "Pallas Athena",
+      "gloss": "A common full name for Athena; 'Pallas' is an ancient title of the goddess.",
+      "kind": "god",
+      "aliases": [
+        "Pallas"
+      ]
+    },
+    {
+      "term": "Kronos",
+      "gloss": "The Titan father of Zeus. Zeus is often called 'son of Kronos.'",
+      "kind": "god",
+      "aliases": [
+        "son of Kronos"
+      ]
+    },
+    {
+      "term": "Atlas",
+      "gloss": "A Titan who holds apart the pillars that keep earth and sky separated. He is the father of Calypso.",
+      "kind": "god"
+    },
+    {
+      "term": "Cyclops",
+      "gloss": "A race of one-eyed giants, lawless and savage. Odysseus blinded the Cyclops Polyphemos, earning Poseidon's lasting rage.",
+      "kind": "people",
+      "aliases": [
+        "Cyclopes"
+      ]
+    },
+    {
+      "term": "Polyphemos",
+      "gloss": "The mightiest of the Cyclopes, a son of Poseidon, whose single eye Odysseus put out — the cause of Poseidon's hatred.",
+      "kind": "person"
+    },
+    {
+      "term": "Thoosa",
+      "gloss": "A sea-nymph, daughter of Phorkys, who bore the Cyclops Polyphemos to Poseidon.",
+      "kind": "god"
+    },
+    {
+      "term": "Phorkys",
+      "gloss": "An old sea-god, called lord of the restless sea, father of the nymph Thoosa.",
+      "kind": "god"
+    },
+    {
+      "term": "earthshaker",
+      "gloss": "A title of Poseidon, god of earthquakes and the sea, who 'circles the earth.'",
+      "kind": "god",
+      "aliases": [
+        "earth-shaker",
+        "shaker of the earth"
+      ]
+    },
+    {
+      "term": "Ogygia",
+      "gloss": "Calypso's remote island, set in the middle of the sea, where Odysseus is held captive.",
+      "kind": "place"
+    },
+    {
+      "term": "Sparta",
+      "gloss": "The city of Menelaus and Helen in southern Greece, also called Lacedaemon. Telemachus travels there for news of his father.",
+      "kind": "place"
+    },
+    {
+      "term": "Pylos",
+      "gloss": "The sandy coastal kingdom of old Nestor, the first stop on Telemachus' journey for news of Odysseus.",
+      "kind": "place"
+    },
+    {
+      "term": "suitors",
+      "gloss": "The crowd of arrogant young noblemen camped in Odysseus' house, courting Penelope and devouring his wealth while he is away.",
+      "kind": "people",
+      "aliases": [
+        "suitor",
+        "suitors'"
+      ]
+    },
+    {
+      "term": "Mentes",
+      "gloss": "A guest-friend of Odysseus, lord of the Taphians, whose form Athena takes on her first visit to Telemachus.",
+      "kind": "person"
+    },
+    {
+      "term": "Taphians",
+      "gloss": "A seafaring people who 'love their oars,' ruled by Mentes. Their land is Taphos.",
+      "kind": "people",
+      "aliases": [
+        "Taphos"
+      ]
+    },
+    {
+      "term": "guest-friend",
+      "gloss": "A formal bond of hospitality between hosts and guests, passed down through families, carrying lasting obligations to welcome and protect one another.",
+      "kind": "concept",
+      "aliases": [
+        "guest-friends"
+      ]
+    },
+    {
+      "term": "Telemachus",
+      "gloss": "The young son of Odysseus and Penelope, who comes of age in these books and sets out to find news of his father.",
+      "kind": "person"
+    },
+    {
+      "term": "winged words",
+      "gloss": "A stock phrase for speech, picturing words as flying swiftly from speaker to listener.",
+      "kind": "concept"
+    },
+    {
+      "term": "herald",
+      "gloss": "An official attendant in a noble household who makes announcements, summons assemblies, pours wine, and carries messages.",
+      "kind": "thing",
+      "aliases": [
+        "heralds"
+      ]
+    },
+    {
+      "term": "lyre",
+      "gloss": "A stringed instrument the bard plays to accompany his sung poetry at the feast.",
+      "kind": "thing"
+    },
+    {
+      "term": "Phemios",
+      "gloss": "The bard in Odysseus' house, who sings for the suitors against his will. Telemachus defends him as blameless.",
+      "kind": "person"
+    },
+    {
+      "term": "wine-dark sea",
+      "gloss": "A famous Homeric phrase for the deep sea, whose color is likened to dark wine.",
+      "kind": "concept"
+    },
+    {
+      "term": "Temesa",
+      "gloss": "A distant place Mentes claims to be sailing to, to trade iron for copper.",
+      "kind": "place"
+    },
+    {
+      "term": "Rheithron",
+      "gloss": "The harbor where Mentes says his ship is moored, away from the town of Ithaca.",
+      "kind": "place"
+    },
+    {
+      "term": "Neion",
+      "gloss": "A wooded mountain on Ithaca, named as a landmark above the harbor.",
+      "kind": "place",
+      "aliases": [
+        "Mount Neion"
+      ]
+    },
+    {
+      "term": "Laertes",
+      "gloss": "Odysseus' aged father, who has withdrawn from the city to live and grieve on his country farm.",
+      "kind": "person"
+    },
+    {
+      "term": "Argives",
+      "gloss": "One of Homer's names for the Greeks who fought at Troy, after the region of Argos.",
+      "kind": "people",
+      "aliases": [
+        "Greeks"
+      ]
+    },
+    {
+      "term": "Penelope",
+      "gloss": "Odysseus' faithful, clever wife, who holds off the suitors for years while waiting for his return.",
+      "kind": "person",
+      "aliases": [
+        "Penelope's"
+      ]
+    },
+    {
+      "term": "Ikarios",
+      "gloss": "Penelope's father; by custom the suitors should go to him to settle a marriage and the bride-price.",
+      "kind": "person",
+      "aliases": [
+        "Icarius"
+      ]
+    },
+    {
+      "term": "Doulichion",
+      "gloss": "One of the islands near Ithaca whose nobles court Penelope.",
+      "kind": "place"
+    },
+    {
+      "term": "Same",
+      "gloss": "An island neighboring Ithaca, home to some of the suitors; the strait by it is where they plan their ambush.",
+      "kind": "place"
+    },
+    {
+      "term": "Zakynthos",
+      "gloss": "A wooded island near Ithaca, one of the homelands of the suitors.",
+      "kind": "place"
+    },
+    {
+      "term": "Ephyra",
+      "gloss": "A distant land where Odysseus once went to obtain deadly poison for his arrows.",
+      "kind": "place"
+    },
+    {
+      "term": "Ilos",
+      "gloss": "Son of Mermeros, of Ephyra, who refused Odysseus the deadly poison out of fear of the gods.",
+      "kind": "person"
+    },
+    {
+      "term": "Nestor",
+      "gloss": "The wise, aged king of Pylos, a veteran of Troy who has ruled through three generations. Telemachus visits him first for news.",
+      "kind": "person"
+    },
+    {
+      "term": "Menelaus",
+      "gloss": "King of Sparta, husband of Helen, brother of Agamemnon. Last of the Greeks to reach home; Telemachus visits him for news of Odysseus.",
+      "kind": "person",
+      "aliases": [
+        "Menelaus'"
+      ]
+    },
+    {
+      "term": "libation",
+      "gloss": "An offering of wine poured out to the gods before drinking, a regular act of piety at every feast.",
+      "kind": "concept",
+      "aliases": [
+        "offering",
+        "offerings",
+        "poured offerings"
+      ]
+    },
+    {
+      "term": "distaff",
+      "gloss": "A staff that holds unspun wool or flax for spinning into thread; a symbol of women's household work.",
+      "kind": "thing"
+    },
+    {
+      "term": "loom",
+      "gloss": "The frame on which cloth is woven. Penelope's loom is central to her famous trick of weaving and unweaving a shroud.",
+      "kind": "thing"
+    },
+    {
+      "term": "Antinoos",
+      "gloss": "The most insolent and aggressive of the suitors, son of Eupeithes, ringleader of the plot to ambush Telemachus.",
+      "kind": "person",
+      "aliases": [
+        "Antinous",
+        "Antinous'"
+      ]
+    },
+    {
+      "term": "Eupeithes",
+      "gloss": "Father of Antinoos, the chief suitor.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurymachos",
+      "gloss": "A leading suitor, son of Polybos, smooth-spoken and second only to Antinoos among the ringleaders.",
+      "kind": "person",
+      "aliases": [
+        "Eurymachus"
+      ]
+    },
+    {
+      "term": "Polybos",
+      "gloss": "Father of the suitor Eurymachos.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurykleia",
+      "gloss": "The loyal old nurse and housekeeper of Odysseus' household, daughter of Ops, who raised Telemachus and keeps his secrets.",
+      "kind": "person",
+      "aliases": [
+        "Eurycleia"
+      ]
+    },
+    {
+      "term": "Ops",
+      "gloss": "Father of the old nurse Eurykleia; son of Peisenor.",
+      "kind": "person"
+    },
+    {
+      "term": "Peisenor",
+      "gloss": "Grandfather of Eurykleia; also the name of a wise herald at the Ithacan assembly.",
+      "kind": "person"
+    },
+    {
+      "term": "rosy-fingered Dawn",
+      "gloss": "The standard Homeric image of the dawn-goddess and the daybreak, whose first light opens many scenes.",
+      "kind": "god",
+      "aliases": [
+        "Dawn",
+        "rosy-fingered"
+      ]
+    },
+    {
+      "term": "assembly",
+      "gloss": "A formal public gathering of the men of a community to debate and decide matters, summoned by heralds.",
+      "kind": "concept"
+    },
+    {
+      "term": "Aigyptios",
+      "gloss": "The aged Ithacan elder who speaks first at the assembly; one of his sons was eaten by the Cyclops.",
+      "kind": "person"
+    },
+    {
+      "term": "Antiphos",
+      "gloss": "Son of Aigyptios, who sailed with Odysseus and was killed and eaten by the Cyclops.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurynomos",
+      "gloss": "A son of Aigyptios who is one of the suitors.",
+      "kind": "person"
+    },
+    {
+      "term": "speaker's staff",
+      "gloss": "A staff or scepter handed to whoever holds the floor at an assembly, marking the right to speak.",
+      "kind": "thing",
+      "aliases": [
+        "staff",
+        "scepter",
+        "sceptered"
+      ]
+    },
+    {
+      "term": "bride-price",
+      "gloss": "Gifts or payment a suitor gives a bride's father to win her in marriage; refusing the proper custom is part of the suitors' offense.",
+      "kind": "concept"
+    },
+    {
+      "term": "Themis",
+      "gloss": "The goddess of law and right order, who 'breaks up the assemblies of men and calls them to order.'",
+      "kind": "god"
+    },
+    {
+      "term": "hecatomb",
+      "gloss": "A great public sacrifice to the gods, originally of a hundred oxen; a major act of offering and feasting.",
+      "kind": "concept",
+      "aliases": [
+        "hecatombs"
+      ]
+    },
+    {
+      "term": "Halitherses",
+      "gloss": "An old Ithacan skilled in reading omens, who interprets the eagles as a sign of Odysseus' return and the suitors' doom.",
+      "kind": "person"
+    },
+    {
+      "term": "Mastor",
+      "gloss": "Father of the seer Halitherses.",
+      "kind": "person"
+    },
+    {
+      "term": "omen",
+      "gloss": "A sign sent by the gods, often through the flight of birds, that a seer can read to foretell events.",
+      "kind": "concept",
+      "aliases": [
+        "omens"
+      ]
+    },
+    {
+      "term": "Mentor",
+      "gloss": "An old friend of Odysseus left in charge of his household; Athena often takes his shape to guide and counsel Telemachus.",
+      "kind": "person"
+    },
+    {
+      "term": "Leokritos",
+      "gloss": "A suitor, son of Euenor, who dismisses Mentor and breaks up the assembly.",
+      "kind": "person"
+    },
+    {
+      "term": "Euenor",
+      "gloss": "Father of the suitor Leokritos.",
+      "kind": "person"
+    },
+    {
+      "term": "Noemon",
+      "gloss": "Son of Phronios, who lends Telemachus a ship for his voyage and later reveals the journey to the suitors.",
+      "kind": "person"
+    },
+    {
+      "term": "Phronios",
+      "gloss": "Father of Noemon, who lent the ship.",
+      "kind": "person",
+      "aliases": [
+        "Phronius"
+      ]
+    },
+    {
+      "term": "forestays",
+      "gloss": "Ropes from the bow that hold the ship's mast upright; part of the standard rigging of a Greek ship.",
+      "kind": "thing"
+    },
+    {
+      "term": "oxhide ropes",
+      "gloss": "Twisted leather cords used to haul up the sail and work the rigging.",
+      "kind": "thing"
+    },
+    {
+      "term": "mixing-bowl",
+      "gloss": "A large bowl in which wine was mixed with water before being served and poured out to the gods.",
+      "kind": "thing",
+      "aliases": [
+        "mixing-bowls",
+        "mixing bowl",
+        "wine-bowl",
+        "bowls",
+        "bowl"
+      ]
+    },
+    {
+      "term": "Neleus",
+      "gloss": "Founder-king of Pylos and father of Nestor.",
+      "kind": "person"
+    },
+    {
+      "term": "Pisistratus",
+      "gloss": "A son of Nestor who befriends Telemachus and escorts him by chariot to Sparta.",
+      "kind": "person"
+    },
+    {
+      "term": "Thrasymedes",
+      "gloss": "A warlike son of Nestor, present at the sacrifice in Pylos.",
+      "kind": "person"
+    },
+    {
+      "term": "Achilles",
+      "gloss": "The greatest Greek warrior at Troy, killed before the city fell. His son Neoptolemus led the Myrmidons home.",
+      "kind": "person",
+      "aliases": [
+        "Achilles'"
+      ]
+    },
+    {
+      "term": "Ajax",
+      "gloss": "A great Greek warrior who fell at Troy; one of several heroes Nestor mourns. (A different Ajax, son of Oileus, drowns at sea in Menelaus' tale.)",
+      "kind": "person"
+    },
+    {
+      "term": "Patroclus",
+      "gloss": "Achilles' close companion, 'like the gods in counsel,' who died at Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Antilochus",
+      "gloss": "Nestor's dear son, swift and brave, killed at Troy. Pisistratus mourns him as his brother.",
+      "kind": "person"
+    },
+    {
+      "term": "Priam",
+      "gloss": "The aged king of Troy; the war was fought around 'King Priam's great city.'",
+      "kind": "person",
+      "aliases": [
+        "Priam's"
+      ]
+    },
+    {
+      "term": "Atreus",
+      "gloss": "Father of Agamemnon and Menelaus, who are often called 'the sons of Atreus.'",
+      "kind": "person",
+      "aliases": [
+        "sons of Atreus",
+        "son of Atreus"
+      ]
+    },
+    {
+      "term": "Tenedos",
+      "gloss": "An island near Troy where the homebound Greeks paused to sacrifice.",
+      "kind": "place"
+    },
+    {
+      "term": "Tydeus",
+      "gloss": "Father of the hero Diomedes, who is called 'the son of Tydeus.'",
+      "kind": "person"
+    },
+    {
+      "term": "Diomedes",
+      "gloss": "A leading Greek warrior, son of Tydeus, who reached home safely at Argos.",
+      "kind": "person"
+    },
+    {
+      "term": "Lesbos",
+      "gloss": "An island in the Aegean where the homebound Greeks debated their course.",
+      "kind": "place"
+    },
+    {
+      "term": "Chios",
+      "gloss": "A large Aegean island the Greeks had to sail around on their way home.",
+      "kind": "place"
+    },
+    {
+      "term": "Psyra",
+      "gloss": "A small island near Chios, a navigational landmark on the homeward route.",
+      "kind": "place"
+    },
+    {
+      "term": "Mimas",
+      "gloss": "A windy headland on the coast near Chios, used as a navigational point.",
+      "kind": "place"
+    },
+    {
+      "term": "Euboea",
+      "gloss": "A large Greek island the Greeks cut across open water to reach on their way home.",
+      "kind": "place"
+    },
+    {
+      "term": "Geraistos",
+      "gloss": "A cape on Euboea where the Greeks sacrificed to Poseidon in thanks for a safe crossing.",
+      "kind": "place"
+    },
+    {
+      "term": "Argos",
+      "gloss": "A region and city of the Greeks in the Peloponnese, often used to mean the Greek homeland generally; Diomedes' home.",
+      "kind": "place"
+    },
+    {
+      "term": "Myrmidons",
+      "gloss": "Achilles' people, who came home safely under his son Neoptolemus.",
+      "kind": "people"
+    },
+    {
+      "term": "Neoptolemus",
+      "gloss": "Son of Achilles, who led the Myrmidons safely home from Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Philoctetes",
+      "gloss": "A Greek hero, son of Poias, who reached home safely from Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Poias",
+      "gloss": "Father of the hero Philoctetes.",
+      "kind": "person"
+    },
+    {
+      "term": "Idomeneus",
+      "gloss": "King of Crete, who brought all his surviving men home from Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Crete",
+      "gloss": "The large island ruled by Idomeneus; also where part of Menelaus' fleet was wrecked.",
+      "kind": "place"
+    },
+    {
+      "term": "Mycenae",
+      "gloss": "Agamemnon's wealthy kingdom, called 'golden Mycenae,' where Aigisthos ruled for seven years after the murder.",
+      "kind": "place",
+      "aliases": [
+        "Mykene"
+      ]
+    },
+    {
+      "term": "Hades",
+      "gloss": "The god of the dead and the underworld, and the name of that realm itself; 'the house of Hades' means death.",
+      "kind": "god"
+    },
+    {
+      "term": "Gerene",
+      "gloss": "A place associated with Nestor in his standing title 'the old knight of Gerene.'",
+      "kind": "place"
+    },
+    {
+      "term": "Tritoborn",
+      "gloss": "A title of Athena, marking her as born by the waters of Triton; here used in awe of her divine presence.",
+      "kind": "god"
+    },
+    {
+      "term": "Lacedaemon",
+      "gloss": "Another name for Sparta and its surrounding land, the kingdom of Menelaus.",
+      "kind": "place"
+    },
+    {
+      "term": "Eurydice",
+      "gloss": "Nestor's honored wife, eldest daughter of Clymenus.",
+      "kind": "person"
+    },
+    {
+      "term": "Clymenus",
+      "gloss": "Father of Nestor's wife Eurydice.",
+      "kind": "person"
+    },
+    {
+      "term": "Echephron",
+      "gloss": "One of Nestor's sons.",
+      "kind": "person"
+    },
+    {
+      "term": "Stratius",
+      "gloss": "One of Nestor's sons.",
+      "kind": "person"
+    },
+    {
+      "term": "Perseus",
+      "gloss": "A son of Nestor (not the famous monster-slayer).",
+      "kind": "person"
+    },
+    {
+      "term": "Aretus",
+      "gloss": "One of Nestor's sons, who carries the water and barley for the sacrifice.",
+      "kind": "person"
+    },
+    {
+      "term": "Laerces",
+      "gloss": "The goldsmith of Pylos who gilds the heifer's horns for the sacrifice.",
+      "kind": "person"
+    },
+    {
+      "term": "thigh-bones",
+      "gloss": "The thigh pieces of a sacrificed animal, wrapped in fat and burned as the gods' portion of the offering.",
+      "kind": "concept",
+      "aliases": [
+        "thigh-pieces"
+      ]
+    },
+    {
+      "term": "inner meats",
+      "gloss": "The innards of a sacrificed animal, tasted by the worshippers as part of the sacrificial feast.",
+      "kind": "thing"
+    },
+    {
+      "term": "Polycaste",
+      "gloss": "Nestor's youngest daughter, who bathes Telemachus before his departure.",
+      "kind": "person"
+    },
+    {
+      "term": "Pherae",
+      "gloss": "A town between Pylos and Sparta where Telemachus and Pisistratus break their journey, home of Diocles.",
+      "kind": "place"
+    },
+    {
+      "term": "Diocles",
+      "gloss": "The host who lodges Telemachus and Pisistratus at Pherae overnight.",
+      "kind": "person"
+    },
+    {
+      "term": "Ortilochus",
+      "gloss": "Father of Diocles, the host at Pherae.",
+      "kind": "person"
+    },
+    {
+      "term": "Alpheus",
+      "gloss": "A river-god, grandfather of Diocles.",
+      "kind": "god"
+    },
+    {
+      "term": "Megapenthes",
+      "gloss": "The son of Menelaus by a slave woman, whose wedding is being celebrated when Telemachus arrives.",
+      "kind": "person"
+    },
+    {
+      "term": "Helen",
+      "gloss": "Wife of Menelaus, whose flight to Troy with Paris began the war. Now home in Sparta, she is gracious, knowing, and self-aware about her past.",
+      "kind": "person"
+    },
+    {
+      "term": "Aphrodite",
+      "gloss": "Goddess of love and beauty. Helen blames Aphrodite for the madness that carried her off to Troy.",
+      "kind": "god"
+    },
+    {
+      "term": "Hermione",
+      "gloss": "The daughter of Menelaus and Helen, lovely as Aphrodite, being given in marriage to Achilles' son.",
+      "kind": "person"
+    },
+    {
+      "term": "Alector",
+      "gloss": "A man of Sparta whose daughter Menelaus has found as a bride for his son.",
+      "kind": "person"
+    },
+    {
+      "term": "Eteoneus",
+      "gloss": "A quick servant of Menelaus, son of Boethous, who greets the arriving strangers.",
+      "kind": "person"
+    },
+    {
+      "term": "Boethous",
+      "gloss": "Father of Menelaus' servant Eteoneus.",
+      "kind": "person"
+    },
+    {
+      "term": "amber",
+      "gloss": "A precious fossil resin, prized as a luxury good and listed among the riches in Menelaus' gleaming halls.",
+      "kind": "thing"
+    },
+    {
+      "term": "Phoenicia",
+      "gloss": "A coastal land in the eastern Mediterranean Menelaus visited on his long wanderings home.",
+      "kind": "place"
+    },
+    {
+      "term": "Egypt",
+      "gloss": "A rich and distant land where Menelaus was becalmed and gathered wealth; source of potent herbs and drugs.",
+      "kind": "place",
+      "aliases": [
+        "Egyptian"
+      ]
+    },
+    {
+      "term": "Sidonians",
+      "gloss": "A Phoenician people of the city Sidon, encountered by Menelaus; their king Phaedimus gave him a fine silver bowl.",
+      "kind": "people"
+    },
+    {
+      "term": "Cyprus",
+      "gloss": "A Mediterranean island Menelaus visited during his eight years of wandering.",
+      "kind": "place"
+    },
+    {
+      "term": "Erembians",
+      "gloss": "A far-off people Menelaus reached on his wanderings.",
+      "kind": "people"
+    },
+    {
+      "term": "Libya",
+      "gloss": "A North African land Menelaus visited, where the flocks are extraordinarily fertile and bear young year-round.",
+      "kind": "place"
+    },
+    {
+      "term": "Artemis",
+      "gloss": "Goddess of the hunt and the wild, 'of the golden arrows,' twin of Apollo. Beautiful women are compared to her.",
+      "kind": "god"
+    },
+    {
+      "term": "Adraste",
+      "gloss": "One of Helen's handmaids, who sets her chair.",
+      "kind": "person"
+    },
+    {
+      "term": "Alcippe",
+      "gloss": "A handmaid of Helen, who spreads soft wool on her chair.",
+      "kind": "person"
+    },
+    {
+      "term": "Phylo",
+      "gloss": "A handmaid of Helen, who carries in her silver work-basket.",
+      "kind": "person"
+    },
+    {
+      "term": "Alcandra",
+      "gloss": "The wife of Polybus of Egyptian Thebes, who gave Helen the golden distaff and silver basket.",
+      "kind": "person"
+    },
+    {
+      "term": "Polybus",
+      "gloss": "A wealthy man of Egyptian Thebes who gave gifts to Menelaus and Helen (distinct from Polybos, the suitor's father).",
+      "kind": "person"
+    },
+    {
+      "term": "Thebes",
+      "gloss": "Here the Egyptian city of Thebes, called the richest city on earth, home of Polybus and Alcandra.",
+      "kind": "place"
+    },
+    {
+      "term": "talents",
+      "gloss": "A unit of weight used to measure precious metal; 'ten talents of gold' marks great wealth.",
+      "kind": "thing"
+    },
+    {
+      "term": "tripods",
+      "gloss": "Three-legged bronze stands or cauldrons, prized as valuable gifts and treasures.",
+      "kind": "thing"
+    },
+    {
+      "term": "the drug",
+      "gloss": "A potent Egyptian drug Helen slips into the wine that quiets all grief and brings forgetfulness for a day.",
+      "kind": "thing"
+    },
+    {
+      "term": "Polydamna",
+      "gloss": "The Egyptian woman, wife of Thon, who gave Helen the grief-killing drug.",
+      "kind": "person"
+    },
+    {
+      "term": "Thon",
+      "gloss": "An Egyptian man, husband of Polydamna, who gave Helen the drug.",
+      "kind": "person"
+    },
+    {
+      "term": "Paeon",
+      "gloss": "The physician of the gods; the Egyptians are called his kin because they are skilled healers.",
+      "kind": "god"
+    },
+    {
+      "term": "wooden horse",
+      "gloss": "The hollow horse the Greeks built and hid inside to take Troy by trick — Odysseus' most famous stratagem.",
+      "kind": "thing"
+    },
+    {
+      "term": "Deiphobus",
+      "gloss": "A Trojan prince who came with Helen to the wooden horse as she tried to lure the hidden Greeks.",
+      "kind": "person"
+    },
+    {
+      "term": "Anticlus",
+      "gloss": "A Greek hidden in the wooden horse who started to answer Helen's voices; Odysseus silenced him to save them all.",
+      "kind": "person"
+    },
+    {
+      "term": "old man of the sea",
+      "gloss": "Proteus, the shape-shifting sea-god who serves Poseidon and tells the truth if forced; Menelaus wrestles him for guidance.",
+      "kind": "god",
+      "aliases": [
+        "old wizard",
+        "old immortal of the sea"
+      ]
+    },
+    {
+      "term": "Proteus",
+      "gloss": "A shape-shifting immortal of the sea, 'who never lies,' whom Menelaus must seize and hold to learn his way home and the fates of the other heroes.",
+      "kind": "god"
+    },
+    {
+      "term": "Eidothea",
+      "gloss": "A sea-goddess, daughter of Proteus, who pities Menelaus and teaches him how to trap her father.",
+      "kind": "god"
+    },
+    {
+      "term": "Pharos",
+      "gloss": "An island off the mouth of the Nile in Egypt where Menelaus was becalmed.",
+      "kind": "place"
+    },
+    {
+      "term": "ambrosia",
+      "gloss": "The fragrant food and substance of the gods; here used to mask the stench of the seals.",
+      "kind": "thing"
+    },
+    {
+      "term": "Gyrae",
+      "gloss": "The great sea-rocks where Ajax was wrecked; Poseidon split the rock and drowned him for his impious boast.",
+      "kind": "place"
+    },
+    {
+      "term": "Hera",
+      "gloss": "Queen of the gods, wife of Zeus, who saved Agamemnon from drowning on his way home.",
+      "kind": "god"
+    },
+    {
+      "term": "Malea",
+      "gloss": "A stormy cape at the tip of southern Greece, dreaded by sailors; storms struck both Agamemnon and Menelaus there.",
+      "kind": "place"
+    },
+    {
+      "term": "Thyestes",
+      "gloss": "Father of Aigisthos, who had once lived in the borderland where Agamemnon was driven ashore.",
+      "kind": "person"
+    },
+    {
+      "term": "Sunium",
+      "gloss": "The sacred cape of Athens where Apollo struck down Menelaus' helmsman Phrontis.",
+      "kind": "place"
+    },
+    {
+      "term": "Apollo",
+      "gloss": "God of archery, prophecy, healing, and the sun's far-shooting arrows; his 'gentle arrows' bring sudden death.",
+      "kind": "god"
+    },
+    {
+      "term": "Phrontis",
+      "gloss": "Menelaus' skilled helmsman, son of Onetor, struck dead by Apollo at Cape Sunium.",
+      "kind": "person"
+    },
+    {
+      "term": "Onetor",
+      "gloss": "Father of Phrontis, Menelaus' helmsman.",
+      "kind": "person"
+    },
+    {
+      "term": "Cydonians",
+      "gloss": "A people of Crete near whose land part of Menelaus' fleet was wrecked.",
+      "kind": "people"
+    },
+    {
+      "term": "Iardanus",
+      "gloss": "A river in Crete near which the Cydonians live.",
+      "kind": "place"
+    },
+    {
+      "term": "Gortyn",
+      "gloss": "A headland in Crete near which Menelaus' ships were smashed on the rocks.",
+      "kind": "place"
+    },
+    {
+      "term": "Phaistos",
+      "gloss": "A place on the Cretan coast toward which the south wind drove the waves.",
+      "kind": "place"
+    },
+    {
+      "term": "Clytemnestra",
+      "gloss": "Agamemnon's wife, who at first resisted Aigisthos but was finally won over and shared in the murder of her husband.",
+      "kind": "person"
+    },
+    {
+      "term": "Elysian Fields",
+      "gloss": "A paradise at the world's end where chosen mortals live in ease, with no harsh weather. Proteus foretells Menelaus will go there.",
+      "kind": "place"
+    },
+    {
+      "term": "Rhadamanthus",
+      "gloss": "A fair-haired immortal who dwells in the Elysian Fields at the world's end.",
+      "kind": "god"
+    },
+    {
+      "term": "Ocean",
+      "gloss": "The great river or sea believed to encircle the whole earth, source of winds and waters.",
+      "kind": "thing"
+    },
+    {
+      "term": "Phaedimus",
+      "gloss": "King of the Sidonians, who hosted Menelaus and gave him the fine silver mixing bowl made by Hephaestus.",
+      "kind": "person"
+    },
+    {
+      "term": "Hephaestus",
+      "gloss": "The smith-god and craftsman of the gods, maker of the finest metalwork, including Menelaus' silver bowl.",
+      "kind": "god"
+    },
+    {
+      "term": "Elis",
+      "gloss": "A region with wide pastures where Noemon keeps brood mares; he needs his lent ship to cross there.",
+      "kind": "place"
+    },
+    {
+      "term": "Medon",
+      "gloss": "A wise herald in Odysseus' house who overhears the suitors' murder plot and warns Penelope.",
+      "kind": "person"
+    },
+    {
+      "term": "Hellas",
+      "gloss": "A name for Greece; Penelope says Odysseus' fame was great 'through Hellas and the heart of Argos.'",
+      "kind": "place"
+    },
+    {
+      "term": "Dolius",
+      "gloss": "An old servant of Penelope who tends her orchard; she wants him sent to warn Laertes.",
+      "kind": "person"
+    },
+    {
+      "term": "Arceisius",
+      "gloss": "The ancestor of Odysseus' line; Eurykleia refuses to believe the gods would let the house of Arceisius die out.",
+      "kind": "person"
+    },
+    {
+      "term": "Furies",
+      "gloss": "Avenging spirits who punish wrongs against family, especially a parent's curse; Telemachus fears his mother could call them down on him.",
+      "kind": "god"
+    },
+    {
+      "term": "Iphthime",
+      "gloss": "Penelope's sister, married to Eumelus at Pherae; Athena makes a phantom in her likeness to comfort Penelope in a dream.",
+      "kind": "person"
+    },
+    {
+      "term": "Eumelus",
+      "gloss": "Husband of Iphthime, Penelope's sister, living in Pherae.",
+      "kind": "person"
+    },
+    {
+      "term": "Asteris",
+      "gloss": "A small rocky island with twin harbors between Ithaca and Same, where the suitors lie in ambush for Telemachus.",
+      "kind": "place"
+    },
+    {
+      "term": "Tithonus",
+      "gloss": "The mortal lover of Dawn, from whose bed she rises each morning.",
+      "kind": "person"
+    },
+    {
+      "term": "Scheria",
+      "gloss": "The rich land of the Phaeacians, where Odysseus is fated to come ashore and from which he will finally be sent home.",
+      "kind": "place"
+    },
+    {
+      "term": "Phaeacians",
+      "gloss": "A seafaring people close to the gods, dwelling at the edge of the world in Scheria, famous for their swift ships. They will carry Odysseus home.",
+      "kind": "people"
+    },
+    {
+      "term": "Pieria",
+      "gloss": "A region in northern Greece past which Hermes swoops on his flight down to the sea.",
+      "kind": "place"
+    },
+    {
+      "term": "nectar",
+      "gloss": "The drink of the gods, served alongside ambrosia.",
+      "kind": "thing"
+    },
+    {
+      "term": "Styx",
+      "gloss": "The river of the underworld by which the gods swear their most binding and dreadful oaths.",
+      "kind": "thing"
+    },
+    {
+      "term": "Orion",
+      "gloss": "A mortal hunter loved by Dawn and slain by Artemis; also the constellation Odysseus watches while steering by night.",
+      "kind": "person"
+    },
+    {
+      "term": "Ortygia",
+      "gloss": "The place where Artemis shot down Orion with her gentle arrows.",
+      "kind": "place"
+    },
+    {
+      "term": "Demeter",
+      "gloss": "The fair-haired goddess of grain and the harvest, who once lay with the mortal Iasion.",
+      "kind": "god"
+    },
+    {
+      "term": "Iasion",
+      "gloss": "A mortal loved by Demeter, struck dead by Zeus's thunderbolt for the union.",
+      "kind": "person"
+    },
+    {
+      "term": "adze",
+      "gloss": "A cutting tool like an axe with the blade set crosswise, used to shape and smooth timber; Calypso gives one to Odysseus.",
+      "kind": "thing"
+    },
+    {
+      "term": "augers",
+      "gloss": "Boring tools for drilling holes in wood, used by Odysseus to peg his raft together.",
+      "kind": "thing"
+    },
+    {
+      "term": "gunwale",
+      "gloss": "The upper edge of a boat's side; Odysseus finishes his raft with long gunwale planks.",
+      "kind": "thing"
+    },
+    {
+      "term": "steering-oar",
+      "gloss": "A large oar at the stern used to steer a ship or raft, which Odysseus shapes to hold his course.",
+      "kind": "thing"
+    },
+    {
+      "term": "ballast",
+      "gloss": "Weight, here a load of brush, laid in the bottom of the raft to steady it in the water.",
+      "kind": "thing"
+    },
+    {
+      "term": "braces",
+      "gloss": "Ropes used to control a ship's sail and yard; part of the raft's rigging.",
+      "kind": "thing",
+      "aliases": [
+        "halyards",
+        "sheets"
+      ]
+    },
+    {
+      "term": "Pleiades",
+      "gloss": "A bright star-cluster Odysseus watches while steering by night.",
+      "kind": "thing"
+    },
+    {
+      "term": "Boötes",
+      "gloss": "A constellation 'that sets so late,' a guide for the night sailor.",
+      "kind": "thing"
+    },
+    {
+      "term": "the Bear",
+      "gloss": "The constellation also called the Wain, which never sinks below the horizon; Calypso tells Odysseus to keep it on his left.",
+      "kind": "thing",
+      "aliases": [
+        "Wain"
+      ]
+    },
+    {
+      "term": "Solymi",
+      "gloss": "A mountain range from which Poseidon, returning from the Ethiopians, spots Odysseus at sea.",
+      "kind": "place"
+    },
+    {
+      "term": "trident",
+      "gloss": "Poseidon's three-pronged spear, the emblem of his power, which he uses to churn the sea and split rock.",
+      "kind": "thing"
+    },
+    {
+      "term": "Ino",
+      "gloss": "A sea-goddess, daughter of Cadmus, once mortal, also called Leucothea, who pities Odysseus and lends him her immortal veil to save him from drowning.",
+      "kind": "god"
+    },
+    {
+      "term": "Cadmus",
+      "gloss": "The legendary founder of Thebes, father of Ino.",
+      "kind": "person"
+    },
+    {
+      "term": "Leucothea",
+      "gloss": "The divine name of Ino, 'the White Goddess,' honored among the gods of the sea.",
+      "kind": "god"
+    },
+    {
+      "term": "veil",
+      "gloss": "Ino's immortal headdress (her krēdemnon), which she gives Odysseus to stretch beneath his chest to keep him from drowning.",
+      "kind": "thing",
+      "aliases": [
+        "krēdemnon"
+      ]
+    },
+    {
+      "term": "Aegae",
+      "gloss": "The site of Poseidon's glorious undersea palace, where he drives off after wrecking the raft.",
+      "kind": "place"
+    },
+    {
+      "term": "Amphitrite",
+      "gloss": "A sea-goddess, wife of Poseidon, whose deep breeds the great sea-monsters Odysseus fears.",
+      "kind": "god"
+    },
+    {
+      "term": "suppliant",
+      "gloss": "A person who formally begs for protection or mercy, often by clasping knees or an altar; the gods protect suppliants, and to reject one is an offense.",
+      "kind": "concept",
+      "aliases": [
+        "suppliant"
+      ]
+    },
+    {
+      "term": "Delos",
+      "gloss": "The sacred island of Apollo, where Odysseus once saw a young palm tree he compares to Nausicaa's beauty.",
+      "kind": "place"
+    },
+    {
+      "term": "Hypereia",
+      "gloss": "The land the Phaeacians once lived in, near the Cyclopes, before their king led them away to Scheria.",
+      "kind": "place"
+    },
+    {
+      "term": "Nausithous",
+      "gloss": "The former king of the Phaeacians, who moved his people from Hypereia to Scheria and founded their city.",
+      "kind": "person"
+    },
+    {
+      "term": "Alcinous",
+      "gloss": "The wise king of the Phaeacians, father of Nausicaa, whose house Odysseus must reach to win passage home.",
+      "kind": "person",
+      "aliases": [
+        "Alcinous'"
+      ]
+    },
+    {
+      "term": "Nausicaa",
+      "gloss": "The young Phaeacian princess, daughter of Alcinous, who finds the shipwrecked Odysseus at the river and helps him reach the city.",
+      "kind": "person"
+    },
+    {
+      "term": "Dymas",
+      "gloss": "A famous Phaeacian seafarer whose daughter's shape Athena takes to speak to Nausicaa in a dream.",
+      "kind": "person"
+    },
+    {
+      "term": "Graces",
+      "gloss": "Minor goddesses of beauty and charm; Nausicaa's handmaids are 'lovely as the Graces.'",
+      "kind": "god"
+    },
+    {
+      "term": "Taygetus",
+      "gloss": "A high mountain ridge where Artemis is imagined hunting; Nausicaa is compared to the goddess there.",
+      "kind": "place"
+    },
+    {
+      "term": "Erymanthus",
+      "gloss": "A mountain where Artemis hunts boar and deer, named in the simile likening Nausicaa to the goddess.",
+      "kind": "place"
+    },
+    {
+      "term": "Leto",
+      "gloss": "The mother of Artemis and Apollo, whose 'heart lifts' to see her daughter outshine her companions.",
+      "kind": "god"
+    },
+    {
+      "term": "sea-purple yarn",
+      "gloss": "Wool dyed with the costly purple made from sea-snails; the queen and other noble women spin it.",
+      "kind": "thing",
+      "aliases": [
+        "sea-purple"
+      ]
+    },
+    {
+      "term": "galingale",
+      "gloss": "A marsh plant or sedge growing in rich, well-watered meadowland, named among the lush growth of Menelaus' plain.",
+      "kind": "thing"
+    },
+    {
+      "term": "xenia",
+      "gloss": "The sacred code of hospitality between host and guest — welcoming, feeding, and protecting strangers, and exchanging gifts — overseen by Zeus. Honoring it marks the civilized; the suitors and Cyclops violate it.",
+      "kind": "concept"
+    },
+    {
+      "term": "barrow",
+      "gloss": "A burial mound heaped over the dead to honor them and keep their name alive; Menelaus raised one for Agamemnon, and Telemachus would for Odysseus.",
+      "kind": "thing",
+      "aliases": [
+        "mound"
+      ]
+    },
+    {
+      "term": "shroud",
+      "gloss": "A burial cloth for the dead; Penelope's pretended weaving of Laertes' shroud is the trick by which she stalls the suitors.",
+      "kind": "thing"
+    },
+    {
+      "term": "Phaeacian",
+      "gloss": "Of the Phaeacians, the seafaring people of Scheria who will help Odysseus home.",
+      "kind": "people"
+    },
+    {
+      "term": "Cauconians",
+      "gloss": "A people Athena (as Mentor) says she will visit to collect an old debt.",
+      "kind": "people"
+    },
+    {
+      "term": "Arete",
+      "gloss": "Queen of the Phaeacians and wife of Alcinous; honored above all women, her goodwill is the key to Odysseus' safe return.",
+      "kind": "person",
+      "aliases": [
+        "Arete's"
+      ]
+    },
+    {
+      "term": "earth-shaker",
+      "gloss": "A title for Poseidon, the sea-god who makes earthquakes; also given as 'Earthshaker'.",
+      "kind": "god",
+      "aliases": [
+        "Earthshaker",
+        "Earth-Shaker"
+      ]
+    },
+    {
+      "term": "Ares",
+      "gloss": "The war-god; in Demodocus' song he is Aphrodite's lover, trapped in bed by Hephaestus' unbreakable chains.",
+      "kind": "god"
+    },
+    {
+      "term": "Helios",
+      "gloss": "The Sun-god, who sees and hears all things; his sacred cattle graze on Thrinacia, and his men's destruction follows when the crew eats them.",
+      "kind": "god",
+      "aliases": [
+        "the Sun",
+        "Helios the Sun",
+        "Hyperion"
+      ]
+    },
+    {
+      "term": "Persephone",
+      "gloss": "Queen of the underworld, dread wife of Hades; she rules the dead and lets the ghosts come up to drink the blood Odysseus offers.",
+      "kind": "god",
+      "aliases": [
+        "dread Persephone"
+      ]
+    },
+    {
+      "term": "Dionysus",
+      "gloss": "God of wine; on his word Artemis killed Ariadne on the island of Dia.",
+      "kind": "god"
+    },
+    {
+      "term": "the Graces",
+      "gloss": "Goddesses of beauty and charm who bathe and adorn Aphrodite after she is freed from Hephaestus' trap.",
+      "kind": "god"
+    },
+    {
+      "term": "Demodocus",
+      "gloss": "The blind Phaeacian bard, beloved of the Muse, whose songs of the gods and of the Trojan War move Odysseus to tears.",
+      "kind": "person"
+    },
+    {
+      "term": "Laodamas",
+      "gloss": "A favorite son of Alcinous, a fine boxer and dancer, who invites Odysseus to compete in the games.",
+      "kind": "person"
+    },
+    {
+      "term": "Euryalus",
+      "gloss": "A handsome young Phaeacian who insults Odysseus, calling him a mere merchant, then makes amends with the gift of a sword.",
+      "kind": "person"
+    },
+    {
+      "term": "Echeneus",
+      "gloss": "The eldest of the Phaeacians, a wise speaker who urges Alcinous to treat Odysseus with proper honor.",
+      "kind": "person"
+    },
+    {
+      "term": "Pontonous",
+      "gloss": "The herald of Alcinous who mixes and serves the wine in the Phaeacian hall.",
+      "kind": "person"
+    },
+    {
+      "term": "Halius",
+      "gloss": "A son of Alcinous who, with Laodamas, performs a skilled dance with a ball before Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "Rhexenor",
+      "gloss": "Brother of Alcinous and father of Queen Arete, struck down young by Apollo.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurymedusa",
+      "gloss": "The old serving-woman who was Nausicaa's nurse in the palace of Alcinous.",
+      "kind": "person"
+    },
+    {
+      "term": "Cicones",
+      "gloss": "A people of Ismarus whom Odysseus' men raid after Troy; the Cicones rally and drive the Greeks off with heavy losses.",
+      "kind": "people",
+      "aliases": [
+        "Cicons"
+      ]
+    },
+    {
+      "term": "Ismarus",
+      "gloss": "The coastal town of the Cicones, the first place Odysseus and his men land after leaving Troy.",
+      "kind": "place"
+    },
+    {
+      "term": "Lotus-Eaters",
+      "gloss": "A peaceful people who live on a flowering fruit; any man who tastes their lotus loses all desire to go home.",
+      "kind": "people",
+      "aliases": [
+        "Lotus-Eater"
+      ]
+    },
+    {
+      "term": "lotus",
+      "gloss": "The honey-sweet flowering food of the Lotus-Eaters; eating it erases all longing to return home.",
+      "kind": "thing"
+    },
+    {
+      "term": "Cyclopes",
+      "gloss": "A race of one-eyed, lawless giants who keep flocks but plant no crops and obey no councils; Polyphemus is one of them.",
+      "kind": "people",
+      "aliases": [
+        "Cyclops",
+        "Cyclopes'"
+      ]
+    },
+    {
+      "term": "Polyphemus",
+      "gloss": "The man-eating Cyclops, son of Poseidon, whom Odysseus blinds after tricking him with wine and the name 'Nobody'.",
+      "kind": "person"
+    },
+    {
+      "term": "Nobody",
+      "gloss": "The false name ('No man') Odysseus gives the Cyclops, so that when the giant cries for help his neighbors think no one is harming him.",
+      "kind": "concept"
+    },
+    {
+      "term": "Maron",
+      "gloss": "A priest of Apollo at Ismarus, spared by Odysseus, who in gratitude gave him the powerful sweet wine used to overpower the Cyclops.",
+      "kind": "person"
+    },
+    {
+      "term": "Telemus",
+      "gloss": "A prophet among the Cyclopes who long ago foretold that Polyphemus would be blinded by a man named Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "guest-gift",
+      "gloss": "A present a host was bound by custom to give a guest; Odysseus mockingly demands one from the Cyclops, who instead promises to eat him last.",
+      "kind": "concept",
+      "aliases": [
+        "guest-gifts",
+        "gift a guest may rightly expect"
+      ]
+    },
+    {
+      "term": "Aeolus",
+      "gloss": "Keeper of the winds, who gives Odysseus a bag holding all the storm-winds; the crew opens it in greed and blows the fleet back from Ithaca.",
+      "kind": "person"
+    },
+    {
+      "term": "Aeolia",
+      "gloss": "The floating, bronze-walled island where Aeolus, master of the winds, lives with his family.",
+      "kind": "place"
+    },
+    {
+      "term": "Laestrygonians",
+      "gloss": "A race of giant cannibals who crush Odysseus' ships with boulders and spear his men like fish; only his own ship escapes.",
+      "kind": "people",
+      "aliases": [
+        "Laestrygonian"
+      ]
+    },
+    {
+      "term": "Telepylus",
+      "gloss": "The city of the Laestrygonians, in the land of Lamus, where night and day run close together.",
+      "kind": "place"
+    },
+    {
+      "term": "Antiphates",
+      "gloss": "The Laestrygonian king who eats one of Odysseus' men and rouses his giant people to destroy the fleet.",
+      "kind": "person"
+    },
+    {
+      "term": "Circe",
+      "gloss": "The cunning goddess-witch of the island Aeaea who turns Odysseus' men into pigs, then becomes his ally and guide for a year.",
+      "kind": "god",
+      "aliases": [
+        "Circe's"
+      ]
+    },
+    {
+      "term": "Aeaea",
+      "gloss": "The island home of the witch-goddess Circe, where Odysseus' men are transformed and where he returns after the underworld.",
+      "kind": "place",
+      "aliases": [
+        "Aeaean"
+      ]
+    },
+    {
+      "term": "moly",
+      "gloss": "The magical herb with a black root and milk-white flower that Hermes gives Odysseus to protect him against Circe's drugs.",
+      "kind": "thing"
+    },
+    {
+      "term": "Eurylochus",
+      "gloss": "A wary, doubting officer of Odysseus' crew; he alone escapes Circe's spell but later leads the men to slaughter the Sun's cattle.",
+      "kind": "person"
+    },
+    {
+      "term": "Polites",
+      "gloss": "A leader among Odysseus' men, the one he trusted most, who first calls out to Circe at her door.",
+      "kind": "person"
+    },
+    {
+      "term": "Elpenor",
+      "gloss": "The youngest of Odysseus' crew, who drunkenly falls from Circe's roof and dies; his ghost begs Odysseus for a proper burial.",
+      "kind": "person"
+    },
+    {
+      "term": "Tiresias",
+      "gloss": "The blind prophet of Thebes whose ghost keeps its wits in death; Odysseus journeys to Hades to learn his fate from him.",
+      "kind": "person",
+      "aliases": [
+        "Theban Tiresias"
+      ]
+    },
+    {
+      "term": "Erebus",
+      "gloss": "The dark region of the underworld out of which the spirits of the dead come swarming.",
+      "kind": "place"
+    },
+    {
+      "term": "Cimmerians",
+      "gloss": "A people who live at the world's edge wrapped forever in mist and cloud, never touched by the sun, near the entrance to Hades.",
+      "kind": "people"
+    },
+    {
+      "term": "Anticleia",
+      "gloss": "Odysseus' mother, whose ghost tells him she died of longing for him; he tries three times in vain to embrace her.",
+      "kind": "person"
+    },
+    {
+      "term": "Aegisthus",
+      "gloss": "The lover of Clytemnestra who plotted with her to murder Agamemnon at a feast.",
+      "kind": "person"
+    },
+    {
+      "term": "Cassandra",
+      "gloss": "Priam's daughter, a captive of Agamemnon, killed at his side by Clytemnestra.",
+      "kind": "person"
+    },
+    {
+      "term": "Minos",
+      "gloss": "A son of Zeus who sits in the underworld giving judgment over the dead.",
+      "kind": "person"
+    },
+    {
+      "term": "Tityus",
+      "gloss": "A giant son of Earth punished in Hades by vultures eternally tearing his liver, for assaulting the goddess Leto.",
+      "kind": "person"
+    },
+    {
+      "term": "Tantalus",
+      "gloss": "A sinner punished in Hades by hunger and thirst he can never satisfy: water drains away and fruit lifts out of reach whenever he reaches for it.",
+      "kind": "person"
+    },
+    {
+      "term": "Sisyphus",
+      "gloss": "A sinner condemned in Hades forever to roll a great stone uphill, only to have it crash back down each time he nears the top.",
+      "kind": "person"
+    },
+    {
+      "term": "Heracles",
+      "gloss": "The greatest hero of old; his phantom appears in Hades while the man himself feasts among the gods, recalling his crushing labors.",
+      "kind": "person"
+    },
+    {
+      "term": "Hebe",
+      "gloss": "The goddess of youth, daughter of Zeus and Hera, given as wife to Heracles among the immortals.",
+      "kind": "god"
+    },
+    {
+      "term": "asphodel",
+      "gloss": "The pale flower of the meadow where the spirits of the dead wander in the underworld.",
+      "kind": "thing",
+      "aliases": [
+        "field of asphodel"
+      ]
+    },
+    {
+      "term": "Tyro",
+      "gloss": "A high-born woman among the dead who loved the river-god Enipeus and bore Poseidon two sons, Pelias and Neleus.",
+      "kind": "person"
+    },
+    {
+      "term": "Antiope",
+      "gloss": "A woman in Hades who bore Zeus the twins Amphion and Zethus, founders of seven-gated Thebes.",
+      "kind": "person"
+    },
+    {
+      "term": "Alcmene",
+      "gloss": "The wife of Amphitryon who bore Heracles to Zeus.",
+      "kind": "person"
+    },
+    {
+      "term": "Epicaste",
+      "gloss": "The mother of Oedipus who unknowingly married her own son and hanged herself in grief when the truth came out.",
+      "kind": "person"
+    },
+    {
+      "term": "Oedipus",
+      "gloss": "The man who, without knowing, killed his father and married his mother Epicaste, then ruled on in anguish.",
+      "kind": "person"
+    },
+    {
+      "term": "Chloris",
+      "gloss": "A beautiful woman in Hades, wife of Neleus and mother of Nestor and other Pylian children.",
+      "kind": "person"
+    },
+    {
+      "term": "Leda",
+      "gloss": "Wife of Tyndareus and mother of the twin heroes Castor and Polydeuces.",
+      "kind": "person"
+    },
+    {
+      "term": "Castor",
+      "gloss": "One of Leda's twin sons, a horse-breaker, who shares immortality with his brother turn by turn.",
+      "kind": "person"
+    },
+    {
+      "term": "Polydeuces",
+      "gloss": "One of Leda's twin sons, a mighty boxer, who alternates life and death with his brother Castor.",
+      "kind": "person"
+    },
+    {
+      "term": "Otus",
+      "gloss": "One of two giant brothers who tried to pile mountains to storm Olympus before they were destroyed.",
+      "kind": "person"
+    },
+    {
+      "term": "Ephialtes",
+      "gloss": "Brother of Otus, a giant who tried with him to scale heaven by stacking mountains.",
+      "kind": "person"
+    },
+    {
+      "term": "Ariadne",
+      "gloss": "Daughter of King Minos, carried off by Theseus but killed on the island of Dia before he could keep her.",
+      "kind": "person"
+    },
+    {
+      "term": "Theseus",
+      "gloss": "The Athenian hero who carried Ariadne from Crete; Odysseus hopes to see his spirit among the heroes of old.",
+      "kind": "person"
+    },
+    {
+      "term": "Eriphyle",
+      "gloss": "A woman among the dead, hated for taking gold as the price of betraying her own husband to his death.",
+      "kind": "person"
+    },
+    {
+      "term": "Sirens",
+      "gloss": "Singing creatures whose irresistibly sweet song lures sailors to their deaths; Odysseus stops his men's ears with wax and has himself bound to the mast to hear them safely.",
+      "kind": "people",
+      "aliases": [
+        "Siren",
+        "Sirens'"
+      ]
+    },
+    {
+      "term": "Wandering Rocks",
+      "gloss": "Sheer cliffs battered by huge waves and fire-storms, past which no ship has ever sailed safely but the Argo; one of the two perilous routes Circe describes.",
+      "kind": "place"
+    },
+    {
+      "term": "Argo",
+      "gloss": "The famous ship of Jason, the only vessel ever to pass the Wandering Rocks safely, saved by Hera.",
+      "kind": "thing"
+    },
+    {
+      "term": "Scylla",
+      "gloss": "An immortal six-headed monster who lurks in a cliff-cave and snatches sailors from passing ships; she devours six of Odysseus' men.",
+      "kind": "god",
+      "aliases": [
+        "Scylla's"
+      ]
+    },
+    {
+      "term": "Charybdis",
+      "gloss": "A deadly whirlpool beneath the opposite cliff that swallows and spews the sea three times a day, certain ruin for any ship caught in it.",
+      "kind": "thing"
+    },
+    {
+      "term": "Crataiis",
+      "gloss": "The mother of the monster Scylla, on whom Circe tells Odysseus to call to hold her daughter back.",
+      "kind": "god"
+    },
+    {
+      "term": "Thrinacia",
+      "gloss": "The island where the deathless cattle of the Sun graze; eating them dooms Odysseus' crew.",
+      "kind": "place"
+    },
+    {
+      "term": "Phaethousa",
+      "gloss": "One of the two nymph-daughters of Helios who herd his sacred cattle on Thrinacia.",
+      "kind": "person"
+    },
+    {
+      "term": "Lampetie",
+      "gloss": "One of the two nymph-daughters of Helios who guard his cattle; she runs to tell him when the crew slaughters them.",
+      "kind": "person"
+    },
+    {
+      "term": "cattle of the Sun",
+      "gloss": "The sacred deathless herds of Helios on Thrinacia, which never breed and never die; the crew's killing of them brings about their destruction.",
+      "kind": "thing",
+      "aliases": [
+        "cattle of Helios",
+        "Sun's cattle",
+        "Sun-god's cattle"
+      ]
+    },
+    {
+      "term": "Acheron",
+      "gloss": "A river of the underworld into which the other infernal rivers flow.",
+      "kind": "place"
+    },
+    {
+      "term": "Cocytus",
+      "gloss": "A river of the underworld, an arm of the Styx, running into Acheron.",
+      "kind": "place"
+    },
+    {
+      "term": "Pyriphlegethon",
+      "gloss": "A fiery river of the underworld that flows into Acheron near the house of Hades.",
+      "kind": "place"
+    },
+    {
+      "term": "Epeus",
+      "gloss": "The craftsman who built the wooden horse that brought about the fall of Troy.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurytus",
+      "gloss": "A famed archer of old who dared to challenge Apollo at the bow and was killed by the angry god.",
+      "kind": "person"
+    },
+    {
+      "term": "Greeks",
+      "gloss": "The Achaean army that fought at Troy, Odysseus' own people; their sufferings and homecomings run through these tales.",
+      "kind": "people",
+      "aliases": [
+        "Achaeans"
+      ]
+    },
+    {
+      "term": "Trojans",
+      "gloss": "The defenders of Troy, whom the Greeks finally overcame through the trick of the wooden horse.",
+      "kind": "people"
+    },
+    {
+      "term": "hecatombs",
+      "gloss": "Great formal sacrifices to the gods, properly of a hundred oxen; Tiresias tells Odysseus to offer them on his return.",
+      "kind": "concept"
+    },
+    {
+      "term": "baldric",
+      "gloss": "A broad belt worn across the chest to carry a sword or quiver; Heracles' phantom wears one worked with images of slaughter.",
+      "kind": "thing"
+    },
+    {
+      "term": "withies",
+      "gloss": "Tough, flexible twigs or branches used for binding; Odysseus lashes the rams together with the Cyclops' withies to escape.",
+      "kind": "thing",
+      "aliases": [
+        "withy"
+      ]
+    },
+    {
+      "term": "thole-pins",
+      "gloss": "The pegs on a ship's side against which the oars are worked and to which they are lashed.",
+      "kind": "thing",
+      "aliases": [
+        "thole-pin"
+      ]
+    },
+    {
+      "term": "winnowing-fan",
+      "gloss": "A farm tool for tossing grain to separate it from the chaff; an inland man's mistaking Odysseus' oar for one is the sign Tiresias gives him.",
+      "kind": "thing"
+    },
+    {
+      "term": "talent",
+      "gloss": "A large unit of weight in gold or silver, a measure of great wealth; each Phaeacian lord gives Odysseus a talent of gold.",
+      "kind": "thing",
+      "aliases": [
+        "talents"
+      ]
+    },
+    {
+      "term": "chine",
+      "gloss": "The backbone cut of meat, a choice portion; Odysseus honors the bard Demodocus with a chine of roast boar.",
+      "kind": "thing"
+    },
+    {
+      "term": "Pramnian wine",
+      "gloss": "A strong dark wine Circe uses as the base for her drugged brew.",
+      "kind": "thing"
+    },
+    {
+      "term": "Spinners",
+      "gloss": "The Fates, who spin out each person's destiny at birth; Alcinous says Odysseus must bear what they wove for him.",
+      "kind": "god",
+      "aliases": [
+        "heavy Spinners"
+      ]
+    },
+    {
+      "term": "Gorgon",
+      "gloss": "A monstrous, terrifying head that turns onlookers to stone; Odysseus flees Hades in dread that Persephone might raise it against him.",
+      "kind": "thing"
+    },
+    {
+      "term": "Olympus",
+      "gloss": "The mountain home of the gods; the giants Otus and Ephialtes tried to pile mountains upon it to storm heaven.",
+      "kind": "place"
+    },
+    {
+      "term": "resourceful",
+      "gloss": "A frequent epithet of Odysseus, marking his quick, inventive mind in any tight spot.",
+      "kind": "concept",
+      "aliases": [
+        "man of many turns",
+        "full of schemes",
+        "brilliant Odysseus",
+        "long-suffering"
+      ]
+    },
+    {
+      "term": "sacker of cities",
+      "gloss": "A standing title for Odysseus, recalling his part in the destruction of Troy.",
+      "kind": "concept"
+    },
+    {
+      "term": "Erechtheus",
+      "gloss": "A legendary king of Athens, in whose strong house Athena lodges after leaving Scheria.",
+      "kind": "person"
+    },
+    {
+      "term": "Lemnos",
+      "gloss": "The island Hephaestus loves best, to which he pretends to set out before trapping Ares and Aphrodite.",
+      "kind": "place"
+    },
+    {
+      "term": "Giants",
+      "gloss": "A reckless ancient race, close kin to the gods, whose ruined king Eurymedon is recalled in the Phaeacians' ancestry.",
+      "kind": "people"
+    },
+    {
+      "term": "Eumaeus",
+      "gloss": "Odysseus's loyal swineherd, who keeps his master's pigs and shelters the disguised Odysseus without knowing who he is. The most faithful of all the servants.",
+      "kind": "person",
+      "aliases": [
+        "swineherd"
+      ]
+    },
+    {
+      "term": "swineherd",
+      "gloss": "A keeper of pigs; in these books it almost always means Eumaeus, Odysseus's faithful pig-keeper.",
+      "kind": "word",
+      "aliases": [
+        "swineherds"
+      ]
+    },
+    {
+      "term": "Antinous",
+      "gloss": "The most arrogant and aggressive of the suitors, son of Eupeithes. He plots to murder Telemachus and hurls a footstool at the disguised Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurymachus",
+      "gloss": "A leading suitor, son of Polybus, smooth-tongued and self-serving. The Ithacans look on him almost as a god, and he is the most determined to marry Penelope.",
+      "kind": "person"
+    },
+    {
+      "term": "Melanthius",
+      "gloss": "Odysseus's disloyal goatherd, son of Dolius, who drives the best goats to the suitors and insults and kicks the disguised Odysseus on the road into town.",
+      "kind": "person",
+      "aliases": [
+        "goatherd"
+      ]
+    },
+    {
+      "term": "Irus",
+      "gloss": "A public beggar of Ithaca, real name Arnaeus, a hulking but cowardly glutton. He picks a fight with the disguised Odysseus at the palace door and is knocked out cold.",
+      "kind": "person",
+      "aliases": [
+        "Arnaeus"
+      ]
+    },
+    {
+      "term": "Eurycleia",
+      "gloss": "Odysseus's old nurse, faithful and shrewd, who nursed him as a baby. She recognizes him by the scar on his leg while washing his feet.",
+      "kind": "person",
+      "aliases": [
+        "Euryclea",
+        "nurse"
+      ]
+    },
+    {
+      "term": "Eurynome",
+      "gloss": "Penelope's head housekeeper, a trusted servant who attends and counsels her mistress.",
+      "kind": "person"
+    },
+    {
+      "term": "Melantho",
+      "gloss": "A disloyal maidservant, daughter of Dolius, whom Penelope raised like her own child. She has taken up with Eurymachus and twice taunts the disguised Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "Amphinomus",
+      "gloss": "The most decent of the suitors, son of Nisus of Dulichium. He argues against killing Telemachus and shows the beggar kindness, but is fated to die anyway.",
+      "kind": "person"
+    },
+    {
+      "term": "Theoclymenus",
+      "gloss": "A wandering seer and exile from Argos, descended from the prophet Melampus. Telemachus takes him aboard ship, and he reads bird-omens foretelling Odysseus's return.",
+      "kind": "person"
+    },
+    {
+      "term": "Phemius",
+      "gloss": "The bard who sings to the suitors in the hall, accompanying himself on the lyre.",
+      "kind": "person"
+    },
+    {
+      "term": "Mesaulius",
+      "gloss": "A servant Eumaeus bought with his own goods to help him at the steading, who sets out the bread at meals.",
+      "kind": "person"
+    },
+    {
+      "term": "Piraeus",
+      "gloss": "A trusted companion of Telemachus, son of Clytius, who takes the seer Theoclymenus into his house as a guest.",
+      "kind": "person"
+    },
+    {
+      "term": "Autolycus",
+      "gloss": "Odysseus's maternal grandfather, the finest thief and oath-swearer in the world, favored by Hermes. He named the infant Odysseus and gave him gifts on Parnassus.",
+      "kind": "person"
+    },
+    {
+      "term": "Maia",
+      "gloss": "The mother of Hermes; Hermes is called 'son of Maia.'",
+      "kind": "god"
+    },
+    {
+      "term": "Phoenicians",
+      "gloss": "Famous seafaring merchants, portrayed as greedy and scheming; one of them carried off the young Eumaeus to be sold as a slave.",
+      "kind": "people",
+      "aliases": [
+        "Phoenician"
+      ]
+    },
+    {
+      "term": "Dulichium",
+      "gloss": "A wheat-rich island near Ithaca, home to many of the suitors, including the decent Amphinomus.",
+      "kind": "place"
+    },
+    {
+      "term": "Zacynthus",
+      "gloss": "A wooded island near Ithaca that sends suitors to court Penelope.",
+      "kind": "place"
+    },
+    {
+      "term": "Parnassus",
+      "gloss": "The mountain where Odysseus, as a youth, hunted with the sons of Autolycus and was gored by a boar, gaining the scar that later betrays him.",
+      "kind": "place"
+    },
+    {
+      "term": "Thesprotians",
+      "gloss": "A people of northwestern Greece whose king Pheidon, in Odysseus's tale, gave the wanderer welcome and reported that Odysseus was alive and rich.",
+      "kind": "people",
+      "aliases": [
+        "Thesprotian"
+      ]
+    },
+    {
+      "term": "Dodona",
+      "gloss": "An ancient oracle of Zeus where the god's will is read from a great sacred oak. Odysseus is said to have gone there to ask how to return home.",
+      "kind": "place"
+    },
+    {
+      "term": "Pheidon",
+      "gloss": "King of the Thesprotians who, in Odysseus's invented tale, sheltered him and showed him Odysseus's gathered treasure.",
+      "kind": "person"
+    },
+    {
+      "term": "Echetus",
+      "gloss": "A cruel mainland king said to maim every man brought to him, cutting off ears and nose. The suitors threaten to ship Irus off to him.",
+      "kind": "person"
+    },
+    {
+      "term": "Melampus",
+      "gloss": "A famous prophet and ancestor of Theoclymenus, driven from Pylos into exile, whose lineage of seers and heroes Homer traces.",
+      "kind": "person"
+    },
+    {
+      "term": "Amphiaraus",
+      "gloss": "A great prophet-hero in Theoclymenus's family line, beloved of Zeus and Apollo, who died at Thebes, betrayed for a bribe.",
+      "kind": "person"
+    },
+    {
+      "term": "Pandareus",
+      "gloss": "Father of the nightingale of myth; Penelope compares her own restless grief to the nightingale daughter of Pandareus who mourns her dead child.",
+      "kind": "person"
+    },
+    {
+      "term": "Itylus",
+      "gloss": "The child whom the nightingale (daughter of Pandareus) killed by mistake and now mourns endlessly in song; Penelope's image for her own sorrow.",
+      "kind": "person"
+    },
+    {
+      "term": "Ctimene",
+      "gloss": "Penelope and Odysseus's family connection — actually Odysseus's youngest sister, raised alongside Eumaeus, later married off to a man on Same.",
+      "kind": "person"
+    },
+    {
+      "term": "Sidon",
+      "gloss": "A rich Phoenician city; the captured nurse in Eumaeus's story claims to be a noblewoman of Sidon.",
+      "kind": "place"
+    },
+    {
+      "term": "Cnossus",
+      "gloss": "The chief city of Crete, where Minos reigned, named in the disguised Odysseus's tale of his Cretan origins.",
+      "kind": "place"
+    },
+    {
+      "term": "Eurybates",
+      "gloss": "Odysseus's herald, whom Penelope's questioning recalls — round-shouldered and dark, the man Odysseus trusted most among his crew.",
+      "kind": "person"
+    },
+    {
+      "term": "steading",
+      "gloss": "A farmstead or country station with its outbuildings and animal pens; here, Eumaeus's pig-farm and hut.",
+      "kind": "word"
+    },
+    {
+      "term": "sty",
+      "gloss": "A pen or enclosure where pigs are kept. Eumaeus has built twelve of them for his sows.",
+      "kind": "word",
+      "aliases": [
+        "sties"
+      ]
+    },
+    {
+      "term": "sow",
+      "gloss": "An adult female pig kept for breeding. Eumaeus pens fifty breeding sows in each sty.",
+      "kind": "word",
+      "aliases": [
+        "sows"
+      ]
+    },
+    {
+      "term": "boar",
+      "gloss": "An adult male pig; also a wild tusked boar. The suitors devour Eumaeus's boars, and a wild boar's tusk gave Odysseus his telltale scar.",
+      "kind": "word",
+      "aliases": [
+        "boars"
+      ]
+    },
+    {
+      "term": "wallet",
+      "gloss": "A beggar's bag or pouch slung over the shoulder, used to carry scraps of food gathered while begging.",
+      "kind": "thing"
+    },
+    {
+      "term": "guest-friendship",
+      "gloss": "The sacred bond and code of hospitality between a host and a guest, protected by Zeus. Gifts and welcome create lasting ties even across generations.",
+      "kind": "concept"
+    },
+    {
+      "term": "bard",
+      "gloss": "A singer-poet who performs tales to the lyre at feasts. Phemius is the bard who entertains the suitors.",
+      "kind": "word"
+    },
+    {
+      "term": "spit",
+      "gloss": "A pointed rod on which meat is skewered and held over the fire to roast.",
+      "kind": "thing",
+      "aliases": [
+        "spits"
+      ]
+    },
+    {
+      "term": "barley meal",
+      "gloss": "Ground barley sprinkled over roasted meat as part of a meal or sacrifice.",
+      "kind": "thing"
+    },
+    {
+      "term": "tripod",
+      "gloss": "A three-legged bronze stand or cauldron, a valuable gift and mark of honor among the Greeks.",
+      "kind": "thing"
+    },
+    {
+      "term": "cauldron",
+      "gloss": "A large metal pot for cooking or heating water, counted among precious gifts.",
+      "kind": "thing"
+    },
+    {
+      "term": "brazier",
+      "gloss": "A metal basin holding burning wood or coals, set up to give light and warmth in the hall at evening.",
+      "kind": "thing",
+      "aliases": [
+        "braziers"
+      ]
+    },
+    {
+      "term": "colonnade",
+      "gloss": "A roofed walkway lined with columns, part of the palace's outer structure.",
+      "kind": "word"
+    },
+    {
+      "term": "spindle",
+      "gloss": "A handheld rod used for spinning wool into thread; Penelope turns hers while sitting in the hall.",
+      "kind": "thing"
+    },
+    {
+      "term": "well-greaved",
+      "gloss": "Wearing greaves — bronze armor that protects the shins. 'Well-greaved Greeks' is a standard epithet for warriors.",
+      "kind": "word"
+    },
+    {
+      "term": "gates of horn and ivory",
+      "gloss": "The two gates through which dreams pass: those of polished horn come true, those of carved ivory deceive. Penelope cites this old belief about reading dreams.",
+      "kind": "concept"
+    },
+    {
+      "term": "the contest of the axes",
+      "gloss": "Penelope's planned trial: whoever can string Odysseus's bow and shoot an arrow through twelve lined-up axe-heads will win her hand.",
+      "kind": "concept",
+      "aliases": [
+        "the axes",
+        "contest"
+      ]
+    },
+    {
+      "term": "the scar",
+      "gloss": "The wound a boar's tusk gave Odysseus on Mount Parnassus in his youth. Eurycleia recognizes him by it while washing his feet.",
+      "kind": "thing"
+    },
+    {
+      "term": "overweening",
+      "gloss": "Arrogantly excessive, full of insolent pride; a frequent description of the suitors' behavior.",
+      "kind": "word",
+      "aliases": [
+        "overweening"
+      ]
+    },
+    {
+      "term": "insolence",
+      "gloss": "Overbearing, contemptuous pride and disrespect; the defining vice of the suitors who trample on hospitality.",
+      "kind": "word",
+      "aliases": [
+        "insolent"
+      ]
+    },
+    {
+      "term": "cadging",
+      "gloss": "Begging or scrounging for food or money. Irus is described going 'cadging all over the town.'",
+      "kind": "word"
+    },
+    {
+      "term": "billet",
+      "gloss": "A short, thick piece of firewood. Eumaeus strikes the boar down with a billet of oak.",
+      "kind": "word"
+    },
+    {
+      "term": "steersman",
+      "gloss": "The man who steers a ship by its steering-oar; the helmsman.",
+      "kind": "word",
+      "aliases": [
+        "steersmen"
+      ]
+    },
+    {
+      "term": "Syrie",
+      "gloss": "The island of Eumaeus's birth, a fertile place where his father Ctesius was king before pirates carried him off.",
+      "kind": "place"
+    },
+    {
+      "term": "Ctesius",
+      "gloss": "King of the island Syrie and father of Eumaeus, from whose house the swineherd was stolen as a child.",
+      "kind": "person"
+    },
+    {
+      "term": "Eurydamas",
+      "gloss": "One of the suitors, who sends servants to bring Penelope a gift of earrings.",
+      "kind": "person"
+    },
+    {
+      "term": "Pisander",
+      "gloss": "A suitor, son of Polyctor, who sends Penelope a fine neckband as a gift.",
+      "kind": "person"
+    },
+    {
+      "term": "Mulius",
+      "gloss": "A herald of Dulichium, servant to Amphinomus, who mixes and serves the wine for the suitors' libations.",
+      "kind": "person"
+    },
+    {
+      "term": "Aethon",
+      "gloss": "The name Odysseus gives himself in his Cretan tale told to Penelope, claiming to be a younger brother of Idomeneus.",
+      "kind": "person"
+    },
+    {
+      "term": "Philoetius",
+      "gloss": "The loyal cowherd, chief of the herdsmen, who longs for Odysseus's return. He bolts the courtyard gate and fights beside Odysseus against the suitors.",
+      "kind": "person"
+    },
+    {
+      "term": "Ctesippus",
+      "gloss": "A wealthy, lawless suitor from Same who mockingly hurls a cow's hoof at the disguised Odysseus. He is later killed by Philoetius, who names the insult as he strikes.",
+      "kind": "person"
+    },
+    {
+      "term": "Agelaus",
+      "gloss": "A suitor, son of Damastor, who urges Penelope to marry and later rallies the remaining suitors in the fight. He is run through by Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "Leiodes",
+      "gloss": "The suitors' priest at the sacrifices, the one man who disliked their recklessness. He is the first to fail at stringing the bow, and Odysseus beheads him despite his plea.",
+      "kind": "person"
+    },
+    {
+      "term": "Leocritus",
+      "gloss": "A suitor, son of Evenor, speared in the belly by Telemachus during the slaughter.",
+      "kind": "person"
+    },
+    {
+      "term": "Demoptolemus",
+      "gloss": "One of the leading suitors still fighting; killed by Odysseus in the volley of spears.",
+      "kind": "person"
+    },
+    {
+      "term": "Amphimedon",
+      "gloss": "A suitor, once Agamemnon's host in Ithaca. Killed by Telemachus, his ghost tells Agamemnon in the underworld the whole story of the suitors' ruin.",
+      "kind": "person"
+    },
+    {
+      "term": "Amphithea",
+      "gloss": "Odysseus's grandmother, wife of Autolycus, who embraced and kissed him when he came to Parnassus for his promised gifts.",
+      "kind": "person"
+    },
+    {
+      "term": "Iphitus",
+      "gloss": "Son of Eurytus and a guest-friend of the young Odysseus, who gave him the great bow. He was later murdered by Heracles, who coveted his mares.",
+      "kind": "person"
+    },
+    {
+      "term": "Icmalius",
+      "gloss": "The craftsman who built Penelope's fine chair, inlaid with silver and ivory and fitted with a built-in footstool.",
+      "kind": "person"
+    },
+    {
+      "term": "Icarius",
+      "gloss": "Penelope's father, often named in the formula 'daughter of Icarius.' He and her parents press her to remarry.",
+      "kind": "person"
+    },
+    {
+      "term": "Thetis",
+      "gloss": "The sea-goddess and mother of Achilles, called 'silver-footed,' who rose from the sea with her nymphs to mourn him and set splendid prizes at his funeral games.",
+      "kind": "god"
+    },
+    {
+      "term": "the Muses",
+      "gloss": "The nine goddesses of song, who sang the dirge at Achilles' funeral, lifting their voices in answer to one another.",
+      "kind": "god",
+      "aliases": [
+        "Muses"
+      ]
+    },
+    {
+      "term": "Eileithyia",
+      "gloss": "Goddess of childbirth, whose cave near Amnisus in Crete is mentioned in Odysseus's false tale.",
+      "kind": "god"
+    },
+    {
+      "term": "the Furies",
+      "gloss": "The dread avenging spirits to whom, in Penelope's grim story, the orphaned daughters of Pandareus were handed over as servants.",
+      "kind": "god",
+      "aliases": [
+        "Furies"
+      ]
+    },
+    {
+      "term": "Cephallenians",
+      "gloss": "The people over whom Odysseus and Laertes rule, including those on Ithaca and nearby lands; 'the best of the Cephallenians' are the slain suitors.",
+      "kind": "people"
+    },
+    {
+      "term": "Lapiths",
+      "gloss": "A people whose feast (in Antinous's warning tale) was disrupted by the drunken centaur Eurytion, starting the war between men and centaurs.",
+      "kind": "people"
+    },
+    {
+      "term": "centaur",
+      "gloss": "A half-man, half-horse creature. Antinous warns of wine's ruin by recalling the centaur Eurytion, whose drunkenness sparked the war of men and centaurs.",
+      "kind": "thing",
+      "aliases": [
+        "centaurs",
+        "Eurytion"
+      ]
+    },
+    {
+      "term": "Sicels",
+      "gloss": "A people to whom the mocking suitors propose selling off the beggar and the seer as slaves.",
+      "kind": "people",
+      "aliases": [
+        "Sicilian"
+      ]
+    },
+    {
+      "term": "the suitors",
+      "gloss": "The crowd of arrogant young noblemen who, believing Odysseus dead, courted Penelope and devoured his household for years. Odysseus slaughters them all in the hall.",
+      "kind": "people",
+      "aliases": [
+        "suitors"
+      ]
+    },
+    {
+      "term": "scar",
+      "gloss": "The mark left on Odysseus's leg by a boar's tusk during the Parnassus hunt. The nurse Eurycleia knows him by it, and it serves as his sign of recognition to the herdsmen and Laertes.",
+      "kind": "thing"
+    },
+    {
+      "term": "the bow",
+      "gloss": "The great springing bow Odysseus left at home, which no suitor can string. Stringing it and shooting an arrow through twelve axes is the contest that begins the slaughter.",
+      "kind": "thing",
+      "aliases": [
+        "bow"
+      ]
+    },
+    {
+      "term": "quiver",
+      "gloss": "The case holding Odysseus's arrows, 'every one of them heavy with grief to come,' which he pours out at his feet when the killing begins.",
+      "kind": "thing"
+    },
+    {
+      "term": "the axes",
+      "gloss": "Twelve iron axe-heads set up in a row down the hall, through whose rings an arrow must pass to win the contest. Odysseus shoots clean through all twelve.",
+      "kind": "thing",
+      "aliases": [
+        "axes",
+        "iron axes"
+      ]
+    },
+    {
+      "term": "aegis",
+      "gloss": "Athena's terrifying battle-shield, here called 'the aegis that destroys men,' which she lifts to break the suitors' courage.",
+      "kind": "thing"
+    },
+    {
+      "term": "brooch",
+      "gloss": "The gold pin-clasp, worked with a hound throttling a fawn, that fastened Odysseus's cloak; Penelope recognizes it as the one she gave him.",
+      "kind": "thing"
+    },
+    {
+      "term": "ox-hide",
+      "gloss": "A cured hide of cattle; Odysseus sleeps on an undressed ox-hide in the forecourt, and Medon hides under a fresh-flayed one.",
+      "kind": "thing"
+    },
+    {
+      "term": "fleece",
+      "gloss": "A sheep's woolly skin, spread over chairs and beds for warmth and comfort throughout the household.",
+      "kind": "thing",
+      "aliases": [
+        "fleeces"
+      ]
+    },
+    {
+      "term": "sulfur",
+      "gloss": "The yellow mineral burned to cleanse pollution; Odysseus purifies the blood-fouled hall with fire and sulfur after the killing.",
+      "kind": "thing",
+      "aliases": [
+        "sulphur"
+      ]
+    },
+    {
+      "term": "the bed",
+      "gloss": "Odysseus's marriage bed, built around a living olive tree rooted in the ground and so impossible to move. Its secret is the final sign by which Penelope knows him.",
+      "kind": "thing",
+      "aliases": [
+        "bedpost"
+      ]
+    },
+    {
+      "term": "fate",
+      "gloss": "The destined end no mortal can escape; the suitors' deaths are 'their fate,' and Tiresias foretells the fated course of Odysseus's life and death.",
+      "kind": "concept"
+    },
+    {
+      "term": "Rumor",
+      "gloss": "Personified swift word of mouth that runs through the town crying the suitors' deaths and gathering the grieving townsfolk.",
+      "kind": "concept"
+    },
+    {
+      "term": "Lampus and Phaethon",
+      "gloss": "The two swift horses that draw the chariot of Dawn and carry the morning to mankind; Athena keeps Dawn from yoking them.",
+      "kind": "thing",
+      "aliases": [
+        "Lampus",
+        "Phaethon"
+      ]
+    },
+    {
+      "term": "Hellespont",
+      "gloss": "The narrow strait by Troy; over a headland above it the Greeks heaped Achilles' great burial mound, visible far out at sea.",
+      "kind": "place"
+    },
+    {
+      "term": "wine-steward",
+      "gloss": "The servant who pours and serves the wine at the feast, mixing the first drops as an offering to the gods.",
+      "kind": "concept",
+      "aliases": [
+        "wine-stewards"
+      ]
+    },
+    {
+      "term": "rubbed him with oil",
+      "gloss": "The customary anointing with olive oil after a bath, a mark of honor and refreshment given to Odysseus and Laertes.",
+      "kind": "concept",
+      "aliases": [
+        "anointed",
+        "rub him with oil"
+      ]
+    },
+    {
+      "term": "the old man of the sea",
+      "gloss": "An ancient sea-god whose daughters, the sea-nymphs, gathered weeping around Achilles' body to wrap it in divine clothing.",
+      "kind": "god"
+    },
+    {
+      "term": "King Echetus",
+      "gloss": "A cruel king, 'the mangler of all mankind,' to whom the suitors threaten to ship the beggar Odysseus.",
+      "kind": "person"
+    },
+    {
+      "term": "Eperitus",
+      "gloss": "The false name Odysseus gives his father Laertes, claiming to be a son of King Apheidas from Alybas.",
+      "kind": "person"
+    }
   ]
 }
