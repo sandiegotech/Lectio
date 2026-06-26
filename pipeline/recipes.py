@@ -517,7 +517,7 @@ def the_prince():
     work = Work(
         id=work_id, title="The Prince", author="Niccolò Machiavelli", originalLang="it",
         composed="1513", type="politics", referenceScheme="chapter",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId="edition.the-prince.lectio-modern", tradition="West",
         blurb=("Machiavelli's unflinching handbook of power — how principalities are won, held, "
                "and lost. Fortune and virtù, cruelty and mercy, and the founding text of modern "
                "political realism."),
