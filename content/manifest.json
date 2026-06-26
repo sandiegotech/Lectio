@@ -5,7 +5,7 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "be0b2bf151080f10"
+      "checksum": "7c386fe83a4c41de"
     },
     {
       "id": "collection.great-books",
@@ -25,12 +25,12 @@
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
-      "checksum": "aa034210c865fd0e"
+      "checksum": "b119a99d17d20897"
     },
     {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "89dcfdfeceb18f0e"
+      "checksum": "f4e598857e8a4b44"
     },
     {
       "id": "genre.philosophy",
@@ -515,6 +515,38 @@
       ],
       "hasAlignment": false,
       "checksum": "983f63fd58358d06"
+    },
+    {
+      "id": "work.dhammapada",
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.dhammapada.muller-1881",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.dhammapada.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "836b5a9605a656dc"
+        },
+        {
+          "id": "edition.dhammapada.muller-1881",
+          "translator": "F. Max Müller",
+          "publishedYear": 1881,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
+          "checksum": "e82b5e4a2b9e27ed"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "d8fc31d419345c1a"
     }
   ],
   "dictionaries": []

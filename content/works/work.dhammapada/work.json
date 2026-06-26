@@ -1,0 +1,19 @@
+{
+  "id": "work.dhammapada",
+  "title": "The Dhammapada",
+  "author": "Early Buddhist tradition",
+  "originalLang": "pi",
+  "composed": "300–100 BCE",
+  "type": "religion",
+  "referenceScheme": "chapter.verse",
+  "defaultEditionId": "edition.dhammapada.muller-1881",
+  "blurb": "The Buddha's path at its plainest, in verses meant to be learned by heart: the mind makes the world, craving makes the suffering, and a way out exists. The best-loved and most quoted scripture of Buddhism.",
+  "tradition": "East",
+  "collections": [
+    "collection.eastern-canon"
+  ],
+  "editionIds": [
+    "edition.dhammapada.lectio-modern",
+    "edition.dhammapada.muller-1881"
+  ]
+}

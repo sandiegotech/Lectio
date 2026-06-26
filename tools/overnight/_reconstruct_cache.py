@@ -34,6 +34,7 @@ HEAD = {
     "edition.hamlet.original":           lambda i, l: f"ACT {ROMAN[i]}",             # ^ACT [IVX]+$
     "edition.divine-comedy.longfellow-1867": lambda i, l: l,                          # heading IS the label
     "edition.bhagavad-gita.arnold-1885":     lambda i, l: f"CHAPTER {ROMAN[i]}",       # ^[ \t]*CHAPTER [IVXL]+$
+    "edition.dhammapada.muller-1881":        lambda i, l: l,                            # heading IS the label (^Chapter [IVXL]+\..*$)
 }
 
 CACHE = os.path.join(os.path.dirname(__file__), "..", "..", "pipeline", ".cache")

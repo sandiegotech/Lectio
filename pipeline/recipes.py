@@ -754,6 +754,47 @@ def bhagavad_gita():
     return work, [_modern_edition(work_id, "bhagavad-gita", [edition]), edition], None
 
 
+# ---------------------------------------------------------------------------
+# The Dhammapada — F. Max Müller (1881, Sacred Books of the East) + Lectio
+# ---------------------------------------------------------------------------
+def dhammapada():
+    work_id = "work.dhammapada"
+    edition_id = "edition.dhammapada.muller-1881"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2017))
+    raw = gutenberg.split_sections(body, heading_re=r"^Chapter [IVXL]+\..*$")
+    if len(raw) != 26:
+        raise ValueError(f"Dhammapada: expected 26 chapters, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"chapter-{i:02d}", i, head.strip(), text, form="prose")
+        for i, (head, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="F. Max Müller", translatorYears="1823–1900", publishedYear=1881,
+        character="The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
+        overview=("Friedrich Max Müller, the great Oxford orientalist, translated the Dhammapada for "
+                  "his monumental Sacred Books of the East. His version made the Buddha's verses "
+                  "available in English for the first time to a wide readership — literal and exact, "
+                  "if Victorian in cadence. It keeps the numbered verses and their plain, proverbial "
+                  "force; the Lectio Edition renders the same sayings in living modern English."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Müller's translation, 1881.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2017",
+                              sourceId="2017", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Dhammapada", author="Early Buddhist tradition", originalLang="pi",
+        composed="300–100 BCE", type="religion", referenceScheme="chapter.verse",
+        defaultEditionId=edition.id, tradition="East",
+        blurb=("The Buddha's path at its plainest, in verses meant to be learned by heart: the mind "
+               "makes the world, craving makes the suffering, and a way out exists. The best-loved "
+               "and most quoted scripture of Buddhism."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "dhammapada", [edition]), edition], None
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy, bhagavad_gita]
+           divine_comedy, bhagavad_gita, dhammapada]

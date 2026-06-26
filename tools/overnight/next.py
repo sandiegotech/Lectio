@@ -21,6 +21,7 @@ PRIORITY = [
     ("work.machiavelli.the-prince",        "the-prince",         "marriott-1908"),
     ("work.plato.republic",                "republic",           "jowett-1871"),
     ("work.vyasa.bhagavad-gita",           "bhagavad-gita",      "arnold-1885"),
+    ("work.dhammapada",                    "dhammapada",         "muller-1881"),
 ]
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 

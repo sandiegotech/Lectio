@@ -1,0 +1,21 @@
+{
+  "workId": "work.dhammapada",
+  "method": "Lectio Edition (SDIT): clear modern English of the Dhammapada, synthesized from the public-domain translation tradition (F. Max Müller 1881; Albert J. Edmunds 1902) and checked against the Pali; modern translations consulted, not quoted. In progress, chapter by chapter.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-26",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.dhammapada.muller-1881"
+  ],
+  "sourcesCited": [
+    "Pali, the original text of the Dhammapada",
+    "F. Max Müller, The Dhammapada (1881, Sacred Books of the East, public domain)",
+    "Albert J. Edmunds, Hymns of the Faith (1902, public domain)",
+    "Acharya Buddharakkhita (1985, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders the Dhammapada in plain modern English that keeps the proverbial weight and memorable shape of the Buddha's verses — the mind that makes the world, the craving that makes the suffering, and the path that leads beyond — while shedding the Victorian diction of the older translations.",
+  "introduction": "The Dhammapada is a collection of some four hundred short verses — sayings of the Buddha gathered by theme: the twin verses, earnestness, the mind, the fool, the wise, anger, craving, the path. It is the most loved and most quoted book in Buddhism, meant to be learned by heart and turned over a line at a time. Read it slowly; each verse is a whole teaching.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}
