@@ -78,13 +78,13 @@ struct LibraryView: View {
                             }
                         }
                     }
+                    instituteCredit
                 }
                 .padding(.top, 8)
                 .padding(.bottom, 18)
             }
             .defaultScrollAnchor(ProcessInfo.processInfo.environment["LECTIO_DEBUG_BOTTOM"] != nil ? .bottom : .top)
             .safeAreaInset(edge: .top) { header }
-            .safeAreaInset(edge: .bottom) { instituteCredit }
             .background(pal.paper.ignoresSafeArea())
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: Work.self) { work in
@@ -669,12 +669,26 @@ struct LibraryView: View {
     // MARK: institute credit
 
     private var instituteCredit: some View {
-        Text("Built by the San Diego Institute of Technology")
-            .font(.system(size: 10.5, weight: .medium))
-            .tracking(0.4)
-            .foregroundColor(pal.inkSoft.opacity(0.7))
-            .frame(maxWidth: .infinity)
-            .padding(.bottom, 8)
+        VStack(spacing: 3) {
+            Text("Built by the San Diego Institute of Technology")
+                .font(.system(size: 10.5, weight: .medium))
+                .tracking(0.4)
+                .foregroundColor(pal.inkSoft.opacity(0.7))
+            Text(appVersion)
+                .font(.system(size: 10, weight: .regular))
+                .foregroundColor(pal.inkSoft.opacity(0.5))
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.top, 16)
+        .padding(.bottom, 8)
+    }
+
+    // App version + build, read from the bundle (set via MARKETING_VERSION / CURRENT_PROJECT_VERSION).
+    private var appVersion: String {
+        let info = Bundle.main.infoDictionary
+        let v = info?["CFBundleShortVersionString"] as? String ?? "—"
+        let b = info?["CFBundleVersion"] as? String
+        return b.map { "Version \(v) (\($0))" } ?? "Version \(v)"
     }
 }
 
