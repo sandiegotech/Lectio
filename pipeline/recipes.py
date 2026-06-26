@@ -745,7 +745,7 @@ def bhagavad_gita():
     work = Work(
         id=work_id, title="The Bhagavad Gita", author="", originalLang="sa",
         composed="200 BCE – 200 CE", type="religion", referenceScheme="chapter.verse",
-        defaultEditionId=edition.id, tradition="East",
+        defaultEditionId="edition.bhagavad-gita.lectio-modern", tradition="East",
         blurb=("On the eve of battle a warrior refuses to fight, and a god answers him. Krishna's "
                "teaching to Arjuna on duty, devotion, and acting without grasping at the fruit of "
                "action — the heart of Hindu thought, set inside the great epic Mahabharata."),
