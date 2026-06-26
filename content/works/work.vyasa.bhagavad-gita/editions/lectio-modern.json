@@ -18,12 +18,508 @@
       "Kashinath Trimbak Telang, The Bhagavadgītā (1882, public domain)",
       "Franklin Edgerton (1944, consulted, not quoted)"
     ],
-    "tokensEstimated": 28010,
+    "tokensEstimated": 33758,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
   "overview": "The Lectio Edition renders the Bhagavad Gita in plain modern English that keeps the urgency of its battlefield setting and the depth of its teaching — duty and devotion, the deathless self, and acting without grasping at the fruit of action — while shedding the Victorian ornament of the older verse.",
   "introduction": "The Gita is a single conversation set at a terrible moment: the warrior Arjuna, about to fight a war against his own kin, lays down his bow and refuses. His charioteer — the god Krishna in disguise — answers him, and the answer becomes the most beloved scripture of India: how to act in the world without being bound by it. Read it as one long dialogue between despair and the divine.",
-  "divergences": [],
-  "sections": []
+  "divergences": [
+    {
+      "locus": "1.30",
+      "phrase": "from my weak hand slips Gandiv, the goodly bow",
+      "older": "from my weak hand slips / Gandiv, the goodly bow (Arnold, 1885)",
+      "lectio": "Gandiva, my great bow, slips from my hand",
+      "note": "The Sanskrit names the bow — Gandiva — and says it is slipping (sramsate) from his hand. Arnold keeps the name but pads the line with \"goodly\" and \"weak hand.\" We keep the proper noun, which is load-bearing (Gandiva is Arjuna's identity as the supreme archer), and let the plain fact carry the weight: the hero's own weapon is falling out of his grip. The image is the chapter's hinge — the warrior physically unable to hold his bow — and prefigures the closing line where he lets it drop entirely."
+    },
+    {
+      "locus": "1.36",
+      "phrase": "papam evashrayed asman hatvaitan atatayinah",
+      "older": "If they be / Guilty, we shall grow guilty by their deaths; / Their sins will light on us (Arnold, 1885)",
+      "lectio": "Strike these men down, and only sin would cling to us — even though they have become aggressors",
+      "note": "The crux of Arjuna's moral case. The Sanskrit atatayin is a precise legal-ethical term: an \"aggressor\" or assailant whom the law permits one to kill. Arjuna concedes the point — these men have wronged us — and then refuses anyway, holding that killing kin brings sin no matter how just the cause. Arnold's \"if they be guilty\" blurs this into a vaguer conditional. Keeping \"aggressors\" sharpens the dilemma: it is not that the war is unjust, but that even a just killing of one's own family is, for Arjuna, unbearable."
+    },
+    {
+      "locus": "1.42",
+      "phrase": "luptapindodaka-kriyah",
+      "older": "Fall from their place of peace, being bereft / Of funeral-cakes and the wan death-water (Arnold, 1885)",
+      "lectio": "robbed of the offerings of rice and water that are owed to the dead",
+      "note": "Arjuna's argument turns on the shraddha rites: the dead depend on the living to offer pinda (balls of cooked rice) and udaka (water libations); without them the ancestors fall from their resting place. Arnold's \"funeral-cakes\" and \"wan death-water\" are evocative but obscure to a modern reader. We render the ritual plainly — \"offerings of rice and water that are owed to the dead\" — preserving the concrete content (this is why the destruction of a family is cosmic, not merely sentimental) without the Victorian archaism."
+    },
+    {
+      "locus": "2.47",
+      "phrase": "your right is to the work, not to its fruits (nishkama karma)",
+      "older": "Arnold renders the teaching as \"Let right deeds be thy motive, not the fruit which comes from them,\" wrapped in a long passage about Brahmans drawing \"text for all wants from tank of Holy Writ.\"",
+      "lectio": "\"So your concern is with the action itself, never with its fruits. Let the fruit of action never be your motive, and do not become attached to inaction either.\"",
+      "note": "This is the Gita's most famous line and the seed of karma-yoga: act because the act is right, but renounce all claim on the result. The Sanskrit has a precise fourfold structure — you have a right to action, never to its fruits; let the fruit not be your motive; yet do not cling to inaction. Arnold dissolves the fourth clause into rhetoric; the Lectio edition restores its plain shape so the discipline (do the work, drop the reward, but do not down tools) stands clear."
+    },
+    {
+      "locus": "2.22",
+      "phrase": "as worn-out clothes are cast aside (the deathless atman changing bodies)",
+      "older": "Arnold sets this as a lyric stanza: \"Nay, but as when one layeth / His worn-out robes away, / And taking new ones, sayeth, / 'These will I wear to-day!' / So putteth by the spirit / Lightly its garb of flesh, / And passeth to inherit / A residence afresh.\"",
+      "lectio": "\"As a person casts off worn-out clothes and puts on others that are new, so the self lays aside worn-out bodies and enters others that are new.\"",
+      "note": "The chapter's central image of the imperishable Self (atman): the body dies, but the self that wears it does not. Arnold's archaic, sing-song quatrain ('layeth,' 'sayeth,' 'garb of flesh') makes the consolation feel quaint and distant. Rendered as plain prose, the simile keeps its full weight — death is a change of clothes, not an ending — without the Victorian costume."
+    },
+    {
+      "locus": "2.58, 2.61",
+      "phrase": "the tortoise of withdrawn senses (sthitaprajna, the one of steady wisdom)",
+      "older": "Arnold: \"He who shall draw / As the wise tortoise draws its four feet safe / Under its shield, his five frail senses back / Under the spirit's buckler from the world / Which else assails them...\"",
+      "lectio": "\"And when, like a tortoise drawing its limbs in under its shell, a person can draw his senses back from the things that tempt them, then his wisdom stands firm.\"",
+      "note": "The Gita's portrait of the sage of steady wisdom (sthitaprajna), who can withdraw the senses at will. Arnold piles on apparatus — 'four feet,' 'shield,' 'five frail senses,' 'spirit's buckler' — that buries the simple, vivid image. The Lectio edition keeps the tortoise but lets it be a tortoise, so the comparison lands as cleanly in English as it does in the Sanskrit."
+    },
+    {
+      "locus": "3.19",
+      "phrase": "act as an offering, free of attachment",
+      "older": "Arnold gives Krishna's charge as \"such earthly duty do / Free from desire, and thou shalt well perform / Thy heavenly purpose,\" framing detached work as the road to a \"heavenly purpose.\"",
+      "lectio": "We render it as doing the work that is yours as an offering, free of attachment, because the one who works unattached reaches the highest.",
+      "note": "The Sanskrit yajna is literal sacrifice. The chapter's hinge is that action done as offering (yajnartha karma) does not bind, while all other action does; Arnold's \"heavenly purpose\" abstracts this into vague piety. We keep the concrete language of offering so the load-bearing teaching — work without grasping at the fruit — stays visible."
+    },
+    {
+      "locus": "3.20-21, 3.25",
+      "phrase": "for the holding-together of the world",
+      "older": "Arnold renders lokasangraha variously as \"the upholding of thy kind\" and acting \"to bring the world deliverance, and its bliss,\" tilting toward salvation.",
+      "lectio": "We keep it as acting for the holding-together of the world, and acting so the wise hold the world together by their example, as Janaka did.",
+      "note": "Lokasangraha is not \"deliverance\" but the keeping-together, the maintenance, of the social and cosmic order. The point is exemplary duty: what a great person does, others imitate (yad yad acarati shresthah). Arnold's \"deliverance\" imports a redemptive note the verse does not carry; the wise act to keep the world in order, not to save it."
+    },
+    {
+      "locus": "3.35",
+      "phrase": "better your own duty imperfectly than another's done well",
+      "older": "Arnold: \"this is better, that one do / His own task as he may, even though he fail, / Than take tasks not his own, though they seem good.\"",
+      "lectio": "It is better to do your own duty imperfectly than to do another's duty well; better to die doing what is yours, for to take up another's work is dangerous.",
+      "note": "This is svadharma, the chapter's most quoted line (shreyan svadharmo vigunah). The Sanskrit says another's duty is bhayavaha — frightening, perilous — not merely that one's own \"fails.\" We restore the sharp edge: another's path, even done well, brings danger. Softening this loses the whole force of Krishna's answer to Arjuna's wish to lay down a warrior's work for an ascetic's."
+    },
+    {
+      "locus": "3.37-39",
+      "phrase": "desire and anger, the enemy that veils wisdom",
+      "older": "Arnold names it \"Kama... Passion... born of the Darknesses,\" and pictures wisdom \"foiled, soiled, enclosed in this desire of flesh.\"",
+      "lectio": "It is desire, it is anger, born of the force of passion — devouring, never satisfied, deeply corrupting; know this for the enemy. As smoke hides fire, as rust films a mirror, so wisdom is veiled by it.",
+      "note": "The Sanskrit pairs kama (desire) and krodha (anger), born of rajas, the force of passion — Arnold's \"Darknesses\" wrongly suggests tamas (inertia). We name desire and anger plainly, keep both, and hold the three classic images (smoke, mirror, womb). Krishna's diagnosis — that desire, seated in senses, mind, and reason, is the one enemy that veils wisdom — is the climax of the chapter and must land without euphemism."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.bhagavad-gita.lectio-modern.book-01",
+      "order": 1,
+      "label": "Chapter I",
+      "title": "The Distress of Arjuna",
+      "segments": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Dhritarashtra said: On the sacred plain of Kurukshetra, drawn up and hungry for battle — tell me, Sanjaya: what did my people do, and what did the sons of Pandu do?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1111"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Sanjaya said: When he saw the army of the Pandavas arrayed for war, King Duryodhana went to his teacher Drona and said: \"Master, look at this great host of Pandu's sons, marshalled by the son of Drupada, your own pupil in the art of war. Here stand heroes, great archers, the equals of Bhima and Arjuna in battle — Yuyudhana, Virata, and Drupada the mighty charioteer; Dhrishtaketu, Chekitana, and the valiant king of Kashi; Purujit, Kuntibhoja, and Saivya, that bull among men; bold Yudhamanyu and brave Uttamaujas; the son of Subhadra, and the sons of Draupadi — every one of them a great warrior, mounted on his shining chariot.",
+          "spine": {
+            "from": "0.1111",
+            "to": "0.2222"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "\"Know, too, best of Brahmins, the finest of our own side — the captains of my army. Let me name them, so you may recognize them: yourself first of all, then Bhishma and Karna, and Kripa ever victorious in the fight; Ashvatthaman, Vikarna, and the son of Somadatta as well — and many another hero besides, each armed with his chosen weapon, all skilled in war, every one of them ready this day to lay down his life for me. Yet our forces, guarded by Bhishma, seem to me too few, while theirs, guarded by Bhima, seem strong enough. So let all of you, standing each in his place along the line, give support to Bhishma above all.\"",
+          "spine": {
+            "from": "0.2222",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then, to lift the old king's heart, the eldest of the Kurus, Bhishma, raised his conch and sounded a blast like a lion's roar. At once conches and kettledrums, cymbals, drums, and trumpets broke out all together, and the sound was a tumult. Then, standing in their great chariot yoked with white horses, Krishna and Arjuna blew their divine conches. Krishna sounded the conch called Panchajanya, and Arjuna the one called Devadatta; Bhima of the terrible deeds, the wolf-bellied, blew his great conch Paundra. King Yudhishthira, the son of Kunti, sounded Anantavijaya, \"Endless Victory\"; Nakula and Sahadeva blew Sughosha, the \"Sweet-toned,\" and Manipushpaka, the \"Jewel-flowered.\" The great archer who is king of Kashi, and Shikhandi the mighty charioteer, Dhrishtadyumna and Virata and Satyaki the unconquered, Drupada and the sons of Draupadi, and the strong-armed son of Subhadra — all of them, lord of the earth, blew their conches, each his own. And that din tore through the hearts of Dhritarashtra's sons, until heaven and earth themselves seemed to shake with the roar.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4444"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Then, seeing Dhritarashtra's men drawn up and the clash of weapons about to begin, Arjuna — whose banner bore the figure of Hanuman the monkey — lifted his bow and said to Krishna: \"Unshaken One, drive my chariot out into the open ground between the two armies, that I may look closely at these men gathered here, eager for battle, and see with whom I must contend in this coming fight. Let me see them, those who have come together here ready to do the bidding in war of the wicked-minded son of Dhritarashtra.\"",
+          "spine": {
+            "from": "0.4444",
+            "to": "0.5556"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "So spoken to by Arjuna, Krishna drove that splendid chariot out into the space between the armies, and halted it before Bhishma and Drona and all the kings of the earth. \"Behold, Arjuna,\" he said, \"the Kurus gathered here.\" And there Arjuna saw them standing — fathers and grandfathers, teachers, uncles, brothers, sons and grandsons, comrades, fathers-in-law, and dear friends, in both armies alike. Seeing all these kinsmen arrayed against him, Arjuna was overcome with deep pity, and in his sorrow he said:",
+          "spine": {
+            "from": "0.5556",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Arjuna said: Krishna, when I look on these, my own people, gathered here and longing to fight, my limbs give way and my mouth goes dry; my body shakes and my hair stands on end. Gandiva, my great bow, slips from my hand, and my very skin is on fire. I cannot stand; my mind is reeling. And I see nothing but evil omens, Krishna. No good can come of killing my own kin in battle. I have no wish for victory, Krishna, nor for kingship, nor for pleasures. What is a kingdom to us, Govinda, what are delights, or life itself, when the very men for whose sake we would want kingdom and delight and pleasure are standing here in the line of battle, ready to give up their lives and their wealth — teachers, fathers, sons, and grandfathers too; uncles, fathers-in-law, grandsons, brothers-in-law, and all our kin? Even if they kill me, Krishna, I would not want to kill them — not for the lordship of all three worlds, much less for this earth.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7778"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "What joy could be ours, Krishna, in killing the sons of Dhritarashtra? Strike these men down, and only sin would cling to us — even though they have become aggressors. So we have no right to slay our own kinsmen, the sons of Dhritarashtra; for how could we ever be happy, Krishna, having killed our own people? Even if they, with minds blinded by greed, see no wrong in the ruin of a family or the betrayal of friends, why should we not have the wisdom to turn back from this crime — we who can see plainly the evil that comes of destroying a family? For when a family is destroyed, its ancient ways perish with it; and when the old ways are gone, lawlessness overtakes the whole house. With lawlessness, Krishna, the women of the family are corrupted; and when the women are corrupted, the order of castes breaks down. And that confusion drags the destroyers of the family, and the family itself, down into hell; for their ancestors fall from their place, robbed of the offerings of rice and water that are owed to the dead. By these crimes of the family-destroyers, which throw the castes into confusion, the eternal ways of caste and of the household are wiped out. And we have heard, Krishna, that for those whose household ways are wiped out, a dwelling in hell is certain. Alas, that we should be ready to commit so great a sin — that, out of greed for the joys of kingship, we are prepared to kill our own people! Better by far that the sons of Dhritarashtra, weapons in hand, should kill me in the battle, unresisting and unarmed.",
+          "spine": {
+            "from": "0.7778",
+            "to": "0.8889"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-01.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Having spoken thus on the field of battle, Arjuna sank down upon the seat of his chariot, letting his bow and arrows fall, his heart overwhelmed with grief.",
+          "spine": {
+            "from": "0.8889",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bhagavad-gita.lectio-modern.book-02",
+      "order": 2,
+      "label": "Chapter II",
+      "title": "The Deathless Self and the Way of Action",
+      "segments": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Sanjaya: To Arjuna, overcome with such pity and such grief, his eyes blurred with tears, his spirit broken, the charioteer Madhusudana spoke these stern words.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0500"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Krishna: Where has this weakness come from, here at the worst hour? It is unworthy of you, it shames a brave man, it shuts you out of the noble path. Have done with this faintness, Arjuna. It does not become you. Shake off this cowardly mood, stand up, and be yourself again, scourge of your enemies.",
+          "spine": {
+            "from": "0.0500",
+            "to": "0.1125"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Arjuna: But how, Krishna, am I to aim my arrows in battle against Bhishma and Drona? They are men worthy of my reverence, men I am bound to honor.",
+          "spine": {
+            "from": "0.1125",
+            "to": "0.1625"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "It would be better to live in this world on a beggar's crust than to kill these great souls, my teachers; for if I struck them down, every pleasure I tasted afterward would be smeared with their blood. And which is the worse outcome — that we should win, or that they should — I cannot even say. The very men whose death would leave my life empty are standing there before me, drawn up for war. My whole nature is unstrung with pity, my mind clouded over about what is right; so I ask you plainly, tell me which course is better. I am your pupil; I throw myself on your guidance — teach me. For I can see nothing that would drive out the grief that is scorching my senses, not if I won an unrivaled and prosperous kingdom over the whole earth, nor even lordship over the gods.",
+          "spine": {
+            "from": "0.1625",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Sanjaya: So Arjuna spoke to Krishna, the lord of hearts; and then, saying, \"I will not fight,\" he fell silent. To him, standing crushed between the two armies, Krishna answered, with the trace of a smile.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Krishna: You grieve where no grief is called for, and the words you speak, for all their sound of wisdom, are unwise. The truly wise mourn neither for the living nor for the dead. There was never a time when I was not, nor you, nor any of these princes; and there will never be a time hereafter when any of us shall cease to be. As the self within this body passes through childhood and youth and old age, so too at death it passes on into another body. The steady person is not bewildered by this. It is only the contact of the senses with their objects, Arjuna, that brings cold and heat, pleasure and pain; these come and go, they do not last — so endure them. The man whom these cannot shake, who takes pain and pleasure alike with an even mind, is fit for what does not die.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.2750"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "What is real can never cease to be; what is unreal never truly is. The men who have seen to the bottom of things have seen the truth of both — they have learned to tell the abiding substance from the passing shadow. Know that the power which spreads itself through everything cannot be destroyed; no one can bring an end to this, the imperishable. It is only the bodies that wear out — the bodies that house this eternal, indestructible, measureless self. Therefore fight, Arjuna. The man who imagines that the self can be a killer, and the man who supposes that the self can be killed — neither of them understands. It does not kill, and it cannot be killed.",
+          "spine": {
+            "from": "0.2750",
+            "to": "0.2875"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "It is never born, and it never dies; having once been, it never ceases to be. Unborn, undying, ancient and unchanging, it is not slain when the body is slain. How can a man who knows it to be indestructible, unborn, deathless, beyond all change — how can such a man kill anyone, or cause any killing?",
+          "spine": {
+            "from": "0.2875",
+            "to": "0.3500"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "As a person casts off worn-out clothes and puts on others that are new, so the self lays aside worn-out bodies and enters others that are new. Weapons cannot cut it, fire cannot burn it, water cannot drench it, the wind cannot dry it. It cannot be pierced or burned or soaked or withered; it is unchanging, present everywhere, steady and sure. It is unseen, beyond all thought, beyond all change. Knowing it to be such, you have no reason to grieve.",
+          "spine": {
+            "from": "0.3500",
+            "to": "0.4250"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "And even if you were to hold that the self is endlessly born and endlessly dies, you would still have no cause to mourn, Arjuna; for then, to whatever is born, death is certain, and to whatever dies, birth is certain — so why grieve over what cannot be helped? Creatures are unseen before their birth and unseen again after their death, and seen only in between. What is there in this to mourn over? One person looks on the self as a marvel, another speaks of it as a marvel, another hears of it as a marvel — and even having heard, not one of them truly knows it. This self, dwelling in the body of every living thing, can never be harmed; so you have no reason, Arjuna, to grieve for any creature.",
+          "spine": {
+            "from": "0.4250",
+            "to": "0.4750"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Look, too, at your own duty, and do not waver; for a warrior there is no higher good than a war waged for what is right. Lucky are the warriors, Arjuna, to whom such a battle comes unsought, an open door into heaven. But if you refuse this just and honorable fight, then you throw away your own duty and your good name, and you take on guilt. People will tell of your disgrace forever after, and for one who has been honored, dishonor is worse than death. The great captains will think you fled the field out of fear, and those who held you in high regard will hold you cheap. Your enemies will mock your courage with bitter words — and what could be more painful than that? If you are killed, you will gain heaven; if you win, you will enjoy the earth. So stand up, son of Kunti, resolved to fight.",
+          "spine": {
+            "from": "0.4750",
+            "to": "0.5125"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "Treat pleasure and pain as one, gain and loss as one, victory and defeat as one; then gird yourself for battle, and so doing you will take on no guilt. What I have told you so far is the wisdom of analysis, of Sankhya. Now hear the wisdom of Yoga, of action — once you hold to it, you will throw off the bondage of your deeds. On this path no effort is ever wasted and no step is ever lost; even a little of this practice rescues a person from the greatest fear. Here there is one resolve, single and steady; but the minds of the irresolute branch out endlessly in every direction.",
+          "spine": {
+            "from": "0.5125",
+            "to": "0.5250"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "There are foolish people who delight in the mere letter of the scriptures, who say there is nothing more to be had than this. Their hearts are full of craving; they make heaven their goal; their ornate rituals promise rich rebirths as the reward of their good deeds, and aim only at pleasure and power. But those who cling so to pleasure and power never settle their minds in steady contemplation. The scriptures deal with the three qualities of nature; rise above those three qualities, Arjuna — free yourself from the play of opposites, abide always in pure being, take no anxious thought for getting and keeping, and rest at peace in the self. To one who truly knows, the scriptures are worth no more than a well in a country flooded with water. So your concern is with the action itself, never with its fruits. Let the fruit of action never be your motive, and do not become attached to inaction either.",
+          "spine": {
+            "from": "0.5250",
+            "to": "0.5687"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "Stand firm in this discipline, Arjuna, and do your work, letting go of all attachment, holding success and failure to be one and the same; for this even-mindedness is what is meant by Yoga. Action done for its fruit is far inferior to action done in this even-minded discipline; seek refuge in that steadiness of mind. Pitiful are those who labor only for a reward. The person whose mind is disciplined in this way casts off both good and evil deeds even in this life; so give yourself to this discipline, for skill in action is exactly this discipline. The wise, disciplined in mind, renounce the fruit that their deeds would earn them, and so they are set free from the bondage of birth and pass to the place beyond all suffering. When your understanding has crossed clear of the thicket of confusion, you will grow indifferent to all the doctrine you have heard or have yet to hear. When your mind, once bewildered by competing teachings, stands unshaken and steady in deep contemplation, then you will have reached this discipline.",
+          "spine": {
+            "from": "0.5687",
+            "to": "0.6687"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Arjuna: And how, Krishna, do we know the person whose wisdom is steady, whose mind rests firm in contemplation? How does such a person speak, how sit, how move?",
+          "spine": {
+            "from": "0.6687",
+            "to": "0.7250"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "Krishna: When a person lets go of every desire that haunts the mind, son of Pritha, and finds in the self alone all the contentment he needs, then his wisdom is steady. The one whose mind is not shaken in sorrow, who does not hunger after pleasure, who is free of longing and fear and anger — he is the sage of steady wisdom. The one who clings to nothing anywhere, who neither rejoices in good fortune nor recoils from bad, has settled his wisdom firmly. And when, like a tortoise drawing its limbs in under its shell, a person can draw his senses back from the things that tempt them, then his wisdom stands firm.",
+          "spine": {
+            "from": "0.7250",
+            "to": "0.7250"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "The objects of sense may fall away from a person who refuses to feed on them, yet the taste for them can linger; but even that last taste falls away once he has glimpsed the highest. For the senses are turbulent, Arjuna; they can carry off by force even the mind of one who strives and knows. Let him hold them all in check and sit intent on me; for the person who has mastered his senses is the one whose wisdom stands firm. When a person dwells on the objects of sense, attachment to them springs up; from attachment grows desire, and from desire flares anger. From anger comes confusion; from confusion the memory fails; when memory fails, the understanding is lost; and when the understanding is lost, the person is ruined.",
+          "spine": {
+            "from": "0.7250",
+            "to": "0.7250"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "But the disciplined soul, moving among the objects of sense with senses freed from craving and aversion, mastered and under his own control, comes to serenity; and in that serenity all his sorrows are dissolved, for the mind of one at peace soon grows steady in wisdom. The undisciplined have no such wisdom, and no power of steady thought; without steady thought there is no peace, and without peace, where is happiness to be found? When the mind runs after the roving senses and lets one of them carry it off, that one bears away a person's wisdom as a gale drives a ship off course across the water. Therefore, Arjuna, the one whose senses are reined in on every side from their objects — his wisdom stands firm.",
+          "spine": {
+            "from": "0.7250",
+            "to": "0.7750"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-02.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "What is night to all other creatures is the waking hour of the self-mastered; and what is the waking world to other creatures is night to the seer who truly sees. As the waters pour into the ocean, which stays full and unmoved even while they enter it, so all desires may flow into the one who is at peace — and that person, not the man who chases after his desires, attains peace. The one who has given up every desire and moves through the world without longing, without grasping, without any thought of \"I\" and \"mine,\" comes to peace. This is the state of Brahman, Arjuna; once a person reaches it he is no longer deluded, and to stand firm in it even at the hour of death is to pass into the peace of God.",
+          "spine": {
+            "from": "0.7750",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bhagavad-gita.lectio-modern.book-03",
+      "order": 3,
+      "label": "Chapter III",
+      "title": "Action as Sacrifice",
+      "segments": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Arjuna said: If you hold that the way of understanding is higher than the way of action, Janardana, then why, Kesava, do you urge me into this terrible deed? Your words seem to point two ways at once, and they leave me confused. Tell me plainly, settle it for me: which single road leads to what is best?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0833"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Krishna said: I told you, blameless one, that in this world there are two paths, two disciplines of wisdom. There is the way of knowledge, which the followers of Sankhya walk through clear reflection; and there is the way of action, the discipline of work. But these are not finally two. No one escapes action by refusing to act, and no one reaches perfection by renunciation alone.",
+          "spine": {
+            "from": "0.0833",
+            "to": "0.1667"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "In fact no one can stay still even for a moment without acting. Everyone is driven to act, helpless under the forces of their own nature. The man who sits rigidly holding his body still while his mind keeps circling the very things he has given up is fooling no one but himself; he is a hypocrite. But the man who keeps his senses in hand and turns his powers to honest work, without grasping at any reward — that man, Arjuna, is the one to honor. So do the work that is yours to do. Action is better than inaction; without it you could not even keep your body alive.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "There is, however, a kind of work that binds the soul, and a kind that sets it free. Only work done as an offering escapes the chain; all other work shackles the world to it. So, Arjuna, do your work as an offering, free of attachment. At the beginning, when the Lord of creatures made humankind, he made sacrifice along with them, and said: By this you shall flourish; let this be the cow that grants every wish. By it nourish the gods, and let the gods nourish you; sustaining one another, you will reach the highest good. Fed by your offerings, the gods will give you the food you need; but whoever takes their gifts and gives nothing back is no better than a thief.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The good eat what is left after the offering is made, and they are freed of fault; but those who cook only for themselves feed on their own wrongdoing. All living things are sustained by food, food comes from the rain, rain comes from sacrifice, and sacrifice arises from action. Know that action springs from the sacred order itself, and that the sacred, all-pervading, is forever present in every offering. Whoever does not help to turn this wheel as it was set turning, but lives only to gratify his senses, lives a wasted and shameful life.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "But the one who finds his joy in the Self, who is content and satisfied within the Self, has nothing left that he needs to do. He has no stake in what is done or left undone here, and depends on no other creature for anything. So do the work that falls to you, but always without attachment; for the one who works unattached reaches the highest. It was through action alone that Janaka and others of old attained perfection. And you should act, if only for the holding-together of the world. Whatever a great man does, ordinary people imitate; the standard he sets, the whole world follows.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Look at me, son of Pritha. In all three worlds there is nothing I am bound to do, nothing left for me to gain or reach — and yet I keep acting. For if I did not go on working, tireless and watchful, people everywhere would follow my example; the human race would take me as its excuse and fall into ruin, and I would be the cause of confusion and the undoing of these creatures. So, just as the ignorant act because they are bound to their work, the wise should act too — but unattached, working to hold the world together. Let the wise not unsettle the minds of the ignorant who are still bound to their work; rather, doing all things with discipline, let the wise make such work attractive.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "Everything that happens is the work of nature's own forces; only a man fooled by his pride imagines, \"I am the one who acts.\" But the one who sees the truth of how these forces and their work move among the senses keeps himself apart, knowing it is the forces acting upon the forces, not the Self. Those deceived by nature's forces cling to their work; let the one who knows the whole not unsettle these others who know only a part. So surrender all your actions to me, fix your mind on the Self, and fight — with no craving, no sense of \"mine,\" and the fever gone out of you.",
+          "spine": {
+            "from": "0.5833",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Those who keep faith with this teaching of mine and act on it without complaint are freed from the bondage of their actions. But those who carp at my teaching and refuse to act on it — know them for fools, blind to all real understanding, and lost. Even the wise act according to their own nature; every creature follows its nature, and what good does it do to fight it? The senses are bound to be drawn toward what they like and pushed from what they dislike; do not fall under the power of these two, for they are the ambush set across your path.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "It is better to do your own duty imperfectly than to do another's duty well. Better to die doing what is yours to do; to take up another's work is dangerous.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8333"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Arjuna said: But then what is it, Krishna, that drives a man to do wrong even against his own will, as though some force were pushing him into it?",
+          "spine": {
+            "from": "0.8333",
+            "to": "0.9167"
+          }
+        },
+        {
+          "id": "edition.bhagavad-gita.lectio-modern.book-03.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "Krishna said: It is desire, it is anger, born of the force of passion in us — devouring, never satisfied, deeply corrupting. Know this for the enemy. As smoke hides fire, as rust films over a mirror, as the womb wraps the unborn child, so is wisdom veiled by this. Knowledge itself is veiled, Arjuna, by this steady enemy of the wise — desire, that burns on like a fire and is never filled. The senses, the mind, and the reason are said to be its seat; through these it veils wisdom and deludes the embodied soul. So first take hold of your senses, son of Bharata, and strike this thing down, this destroyer of wisdom and understanding. The senses are strong, they say; stronger than the senses is the mind; stronger than the mind is the reason; but stronger than the reason is the Self. So know the Self, which is higher than reason; steady yourself by your own deeper self, and kill this enemy, Arjuna — desire, so hard to corner and overcome.",
+          "spine": {
+            "from": "0.9167",
+            "to": "1.0000"
+          }
+        }
+      ]
+    }
+  ]
 }
