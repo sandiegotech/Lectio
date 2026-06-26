@@ -15,7 +15,136 @@
   ],
   "overview": "The Lectio Edition renders the Dhammapada in plain modern English that keeps the proverbial weight and memorable shape of the Buddha's verses — the mind that makes the world, the craving that makes the suffering, and the path that leads beyond — while shedding the Victorian diction of the older translations.",
   "introduction": "The Dhammapada is a collection of some four hundred short verses — sayings of the Buddha gathered by theme: the twin verses, earnestness, the mind, the fool, the wise, anger, craving, the path. It is the most loved and most quoted book in Buddhism, meant to be learned by heart and turned over a line at a time. Read it slowly; each verse is a whole teaching.",
-  "divergences": [],
+  "divergences": [
+    {
+      "locus": "verses 1–2",
+      "phrase": "All that we are is shaped by what we have thought; the mind goes before everything",
+      "older": "Müller (1881): \"All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.\"",
+      "lectio": "We keep Müller's famous opening cadence but restore the literal force of the Pali manopubbangama (\"mind goes first / mind precedes\"), making explicit that the mind leads, makes, and composes all things rather than only that we are a \"result.\"",
+      "note": "The Pali manopubbangama dhamma manomaya literally says the mind goes before the dhammas and they are mind-made. Müller's beloved \"all that we are is the result of what we have thought\" is interpretive; we preserve its music while adding the active sense that the mind goes before and makes everything."
+    },
+    {
+      "locus": "verse 5",
+      "phrase": "Hatred ends only by love—this is the ancient and unchanging law",
+      "older": "Müller (1881): \"hatred ceases by love, this is an old rule.\"",
+      "lectio": "We render the Pali sanantano dhammo as \"the ancient and unchanging law\" rather than merely \"an old rule,\" and place \"Hatred is never ended by hatred\" first as a freestanding proverb.",
+      "note": "Sanantana means perennial, timeless, eternal—a law that has always held, not just a custom of long standing. \"Old rule\" understates it; \"ancient and unchanging law\" keeps the weight without softening the meaning."
+    },
+    {
+      "locus": "verses 1, 13",
+      "phrase": "a corrupted mind / craving breaks through an undisciplined mind",
+      "older": "Müller (1881): \"an evil thought\" (v.1) and \"passion will break through an unreflecting mind\" (v.13).",
+      "lectio": "We render padutthena manasa as \"a corrupted mind\" and raga as \"craving\" rather than the vaguer Victorian \"passion,\" and translate the Pali sense of an untrained, undisciplined (abhavita) mind directly.",
+      "note": "Müller's \"passion\" blurs raga, which is desire/craving/lust in the technical Buddhist sense; \"craving\" links it to the book's central theme. \"Unreflecting\" understates abhavita, \"undeveloped/untrained\"; \"undisciplined\" keeps the image of the leaky roof exact."
+    },
+    {
+      "locus": "21",
+      "phrase": "the path of immortality (Nirvana) … the path of death",
+      "older": "Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death (Müller, 1881)",
+      "lectio": "Heedfulness is the path to the deathless; heedlessness is the path to death.",
+      "note": "The Pali reads appamado amatapadam, pamado maccuno padam. Amata is literally 'the deathless' — the standard epithet for Nibbana — so we keep that vivid image rather than the abstract 'immortality,' and let 'Nirvana' speak for itself in the verses where the Pali names it (23, 32)."
+    },
+    {
+      "locus": "throughout (21–32)",
+      "phrase": "earnestness / thoughtlessness",
+      "older": "earnestness … thoughtlessness (Müller, 1881)",
+      "lectio": "heedfulness … heedlessness / carelessness",
+      "note": "This whole chapter turns on the single Pali word appamada (and its opposite pamada), a key term that recurs across the book. It means vigilance, diligence, an unbroken wakefulness of mind — not Müller's Victorian 'earnestness,' which sounds like mere sincerity. We render it 'heedfulness' consistently so the reader can track the term."
+    },
+    {
+      "locus": "29",
+      "phrase": "like a racer, leaving behind the hack",
+      "older": "the wise man advances like a racer, leaving behind the hack (Müller, 1881)",
+      "lectio": "the wise leave them far behind, like a swift horse leaving a slow one in its dust",
+      "note": "The Pali image (abalassam va sighasso) is a fast horse outrunning a weak or worn-out one. 'Hack' is now obscure slang for a tired nag, so we make the picture plain — swift horse against slow — while keeping the racing energy of the line."
+    },
+    {
+      "locus": "33",
+      "phrase": "his trembling and unsteady thought",
+      "older": "a wise man makes straight his trembling and unsteady thought (Müller 1881)",
+      "lectio": "the wise straighten the mind — restless and unsteady",
+      "note": "Müller renders Pali citta as 'thought' throughout this chapter, but citta is the mind/heart as a whole — the seat of intention and feeling, not a single passing thought. The Lectio edition reads it as 'the mind' consistently, so the chapter's argument (the untamed mind versus the tamed) holds together; the arrow-maker simile is kept intact."
+    },
+    {
+      "locus": "35",
+      "phrase": "rushing wherever it listeth",
+      "older": "flighty, rushing wherever it listeth (Müller 1881)",
+      "lectio": "light and quick, settling wherever it pleases",
+      "note": "The Pali yatthakāmanipātinaṃ means 'alighting wherever it wishes' — the image is a bird or insect lighting where it likes, not headlong rushing. 'Listeth' is archaic for 'wishes/pleases'; Lectio keeps the sense of willful, restless landing while dropping the Victorian verb."
+    },
+    {
+      "locus": "42-43",
+      "phrase": "a wrongly-directed mind will do us greater mischief",
+      "older": "a wrongly-directed mind will do us greater mischief … a well-directed mind will do us greater service (Müller 1881)",
+      "lectio": "a misdirected mind will do you far worse … far greater is its gift",
+      "note": "The chapter's culminating image, and the reason citta must be read as 'mind': a mind aimed wrong (micchāpaṇihitaṃ) harms you more than any enemy, while a mind aimed right (sammāpaṇihitaṃ) helps you more than any parent. 'Mischief/service' undersells the stakes; Lectio sharpens the contrast to 'far worse' and 'greater gift' without adding anything not in the Pali."
+    }
+  ],
   "form": "prose",
-  "books": []
+  "books": [
+    {
+      "order": 1,
+      "label": "Chapter I. The Twin-Verses",
+      "paragraphs": [
+        "1. All that we are is shaped by what we have thought. The mind goes before everything; the mind makes everything; everything is made of the mind. If you speak or act with a corrupted mind, suffering follows you, as the wheel follows the foot of the ox that pulls the cart.",
+        "2. All that we are is shaped by what we have thought. The mind goes before everything; the mind makes everything; everything is made of the mind. If you speak or act with a clear mind, happiness follows you, like a shadow that never leaves.",
+        "3. \"He insulted me, he struck me, he beat me, he robbed me\"—in those who hold on to such thoughts, hatred never ends.",
+        "4. \"He insulted me, he struck me, he beat me, he robbed me\"—in those who let go of such thoughts, hatred comes to an end.",
+        "5. Hatred is never ended by hatred. Hatred ends only by love—this is the ancient and unchanging law.",
+        "6. Most people never grasp that we are all bound to die here. But those who do grasp it lay down their quarrels at once.",
+        "7. Whoever lives chasing only pleasures, with his senses unguarded, eating without limit, lazy and weak—Mara, the tempter, will overthrow him as the wind overthrows a frail tree.",
+        "8. Whoever lives without chasing pleasures, with his senses well guarded, eating in moderation, faithful and strong—Mara will no more overthrow him than the wind can overthrow a mountain of rock.",
+        "9. Whoever puts on the saffron robe before he has cleansed himself of his own corruption, who has no self-restraint and no truth in him, is not worthy of the robe.",
+        "10. But whoever has cleansed himself of corruption, is firmly rooted in virtue, and holds to self-restraint and truth, he is truly worthy of the robe.",
+        "11. Those who take the false for the true, and see the true as false, never reach the truth; they wander after empty desires.",
+        "12. Those who know the true as true, and the false as false, do reach the truth; they follow desires that are real.",
+        "13. As rain breaks through a poorly thatched house, so craving breaks through an undisciplined mind.",
+        "14. As rain cannot break through a well-thatched house, so craving cannot break through a well-disciplined mind.",
+        "15. The wrongdoer grieves in this world and grieves in the next; in both he grieves. He grieves and suffers when he sees the harm his own deeds have done.",
+        "16. The good person rejoices in this world and rejoices in the next; in both he rejoices. He rejoices and is glad when he sees the good his own deeds have done.",
+        "17. The wrongdoer suffers in this world and suffers in the next; in both he suffers. He suffers knowing, \"I have done wrong,\" and he suffers still more on the path that wrongdoing leads to.",
+        "18. The good person is happy in this world and happy in the next; in both he is happy. He is happy knowing, \"I have done good,\" and he is happier still on the path that good leads to.",
+        "19. Though a heedless man can recite a great deal of the teaching, if he does not live by it he has no share in the holy life—he is like a hired cowherd counting another man's cattle.",
+        "20. Though a man can recite only a little of the teaching, if he lives by it—if he has let go of craving, hatred, and delusion, if he has true knowledge and a mind set free, clinging to nothing in this world or the next—he has a real share in the holy life."
+      ],
+      "title": "The Twin Verses"
+    },
+    {
+      "order": 2,
+      "label": "Chapter II. On Earnestness",
+      "paragraphs": [
+        "21. Heedfulness is the path to the deathless; heedlessness is the path to death. The heedful do not die; the heedless are as if already dead.",
+        "22. Seeing this clearly, the wise hold heedfulness above all else. They take their joy in heedfulness, delighting in the ground the Noble Ones walk.",
+        "23. These are the meditators, steady, unrelenting in their effort; and these are the ones, strong and clear-minded, who reach Nirvana, the highest freedom, the highest peace.",
+        "24. The one who has roused himself and stays awake, whose deeds are clean, who acts with care, who holds himself in check and lives by what is right and heedful — his good name only grows.",
+        "25. By rousing himself, by heedfulness, by self-mastery and self-control, let the wise build an island that no flood can wash away.",
+        "26. Fools, the slow-witted, give themselves over to carelessness. The wise guard their heedfulness as their most precious treasure.",
+        "27. Do not give yourself to carelessness; do not give yourself to the pleasures of desire. Heedful and absorbed in meditation, you will come into ample joy.",
+        "28. When the wise drive out carelessness by heedfulness, they climb the high terraces of wisdom and, free of sorrow, look down on the sorrowing crowd — as one standing on a mountain looks down on those who stand on the plain.",
+        "29. Heedful among the heedless, wide awake among the sleeping, the wise leave them far behind, like a swift horse leaving a slow one in its dust.",
+        "30. By heedfulness Indra rose to be lord of the gods. Heedfulness is forever praised; carelessness is forever blamed.",
+        "31. The monk who delights in heedfulness and dreads carelessness moves like a fire, burning away every fetter, small or great.",
+        "32. The monk who delights in heedfulness and dreads carelessness cannot fall back — he stands close upon Nirvana."
+      ],
+      "title": "Heedfulness"
+    },
+    {
+      "order": 3,
+      "label": "Chapter III. Thought",
+      "paragraphs": [
+        "33. As an arrow-maker straightens his arrow, the wise straighten the mind — restless and unsteady, hard to guard, hard to hold back.",
+        "34. Like a fish pulled from the water and thrown on dry land, the mind thrashes and quivers as it struggles to escape the grip of Mara.",
+        "35. The mind is hard to hold down, light and quick, settling wherever it pleases. Good it is to tame it; a tamed mind brings happiness.",
+        "36. Let the wise watch over the mind, so hard to see, so subtle, settling wherever it pleases. A mind well guarded brings happiness.",
+        "37. The mind travels far, wanders alone, has no body, and hides in the cave of the heart. Those who keep it in check will be freed from the bonds of Mara.",
+        "38. If the mind is unsteady, if a person does not know the true teaching, if their peace is shaken, their wisdom will never come to fullness.",
+        "39. But for one whose mind is unshaken, untroubled, who has let go of both good and evil and stays awake, there is no fear.",
+        "40. Knowing this body to be fragile as a clay jar, make the mind a fortress, and with the weapon of wisdom go to war against Mara — then guard what you have won, and never rest at ease.",
+        "41. Before long, alas, this body will lie on the ground, cast aside, empty of awareness, like a useless log.",
+        "42. Whatever harm an enemy may do to an enemy, or a hater to one he hates, a misdirected mind will do you far worse.",
+        "43. Not a mother, not a father, not any kin can do for you what a rightly directed mind can do — far greater is its gift."
+      ],
+      "title": "The Mind"
+    }
+  ]
 }
