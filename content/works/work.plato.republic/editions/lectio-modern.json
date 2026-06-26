@@ -18,12 +18,4973 @@
       "Paul Shorey, Loeb Classical Library (consulted, not quoted)",
       "G. M. A. Grube / C. D. C. Reeve (1992, consulted, not quoted)"
     ],
-    "tokensEstimated": 158195,
+    "tokensEstimated": 173573,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
   "overview": "The Lectio Edition renders Plato's Republic in plain modern English that keeps the drive of the dialogue and the force of its argument — justice, the just city, the Cave, the philosopher-king — while dropping the Victorian formality.",
   "introduction": "The Republic begins with a simple question — what is justice, and is it worth having? — and builds, step by step, an entire ideal city to answer it. Along the way come its most famous images: the Cave, the divided line, the philosopher-king. It is a conversation, so read for the back-and-forth, not just the conclusions.",
-  "divergences": [],
-  "sections": []
+  "divergences": [
+    {
+      "locus": "Book I (Stephanus 338c)",
+      "phrase": "justice is the advantage of the stronger",
+      "older": "I proclaim that justice is nothing else than the interest of the stronger (Jowett)",
+      "lectio": "I say that justice is nothing but the advantage of the stronger",
+      "note": "Thrasymachus's thesis is the hinge of the whole Republic, so the wording has to land hard and plain. Jowett's 'interest' is a fair rendering of the Greek 'sympheron' (what is advantageous, what brings profit), but to a modern ear 'interest' is cool and abstract. 'Advantage' keeps the cynical edge of the claim, that the powerful simply call whatever benefits them 'justice', and renders the same phrase consistently every time it returns so the reader can track the argument."
+    },
+    {
+      "locus": "Book I (Stephanus 331e-332d)",
+      "phrase": "giving each what is owed; helping friends and harming enemies",
+      "older": "justice is the giving to each man what is proper to him... an art which gives good to friends and evil to enemies (Jowett)",
+      "lectio": "justice is giving each person what's appropriate to him... doing good to friends and harm to enemies",
+      "note": "Polemarchus inherits the conventional Greek morality, do good to friends, harm to enemies, and Socrates reduces it to absurdity (the just man as expert thief). The crux is 'to opheilomenon', what is owed/due. Jowett's 'what is proper to him' is accurate but stilted; 'what's appropriate to him' keeps the same idea while letting the everyday sense of 'owing' a debt stay audible, which the argument needs, since Socrates plays on the slide from 'owed money' to 'owed treatment'."
+    },
+    {
+      "locus": "Book I (Stephanus 343b-c)",
+      "phrase": "the shepherd and the sheep",
+      "older": "you fancy that the shepherd or neatherd fattens or tends the sheep or oxen with a view to their own good and not to the good of himself or his master (Jowett)",
+      "lectio": "you imagine that shepherds and herdsmen look after the good of their sheep and cattle for any reason other than the good of their masters and themselves",
+      "note": "This is Thrasymachus's most vivid image: rulers tend their subjects exactly as a shepherd fattens sheep, for the slaughter, not the sheep's sake. The line answers Socrates' craft-analogy (an art serves its subject, not the practitioner), so the translation has to keep the sneer and the bite. 'Neatherd' is dead Victorian vocabulary; 'herdsmen' carries it. The cynicism, that care for subjects is only ever a means to exploiting them, is preserved without softening."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.republic.lectio-modern.book-01",
+      "order": 1,
+      "label": "Book I",
+      "title": "What Is Justice?",
+      "segments": [
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Yesterday I went down to the Piraeus with Glaucon, the son of Ariston. I wanted to say my prayers to the goddess, and I was also curious to see how they would run the festival, since this was the first time it was being held. The local procession struck me as fine, but the one the Thracians put on was just as good, if not better. When we had finished praying and watching, we turned back toward the city.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0020"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Just then Polemarchus, the son of Cephalus, spotted us from a distance, heading home, and sent his slave running ahead to ask us to wait. The boy caught me by the cloak from behind. 'Polemarchus wants you to wait,' he said.",
+          "spine": {
+            "from": "0.0020",
+            "to": "0.0041"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "I turned and asked him where his master was.",
+          "spine": {
+            "from": "0.0041",
+            "to": "0.0061"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "'Right behind you,' said the boy. 'He's coming. Just wait.'",
+          "spine": {
+            "from": "0.0061",
+            "to": "0.0081"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "'Of course we'll wait,' said Glaucon. A moment later Polemarchus arrived, and with him Adeimantus, Glaucon's brother, and Niceratus, the son of Nicias, and several others, all of them coming from the procession.",
+          "spine": {
+            "from": "0.0081",
+            "to": "0.0101"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "'Socrates,' said Polemarchus, 'it looks to me as if the two of you are already on your way back to the city.'",
+          "spine": {
+            "from": "0.0101",
+            "to": "0.0122"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "'You're not wrong,' I said.",
+          "spine": {
+            "from": "0.0122",
+            "to": "0.0142"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "'Well, do you see how many of us there are?' he said.",
+          "spine": {
+            "from": "0.0142",
+            "to": "0.0162"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "'Obviously.'",
+          "spine": {
+            "from": "0.0162",
+            "to": "0.0183"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "'Then either you're stronger than all of us,' he said, 'or you're staying here.'",
+          "spine": {
+            "from": "0.0183",
+            "to": "0.0203"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "'Isn't there another option?' I said. 'We might persuade you to let us go.'",
+          "spine": {
+            "from": "0.0203",
+            "to": "0.0223"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "'And how could you persuade us,' he said, 'if we refuse to listen?'",
+          "spine": {
+            "from": "0.0223",
+            "to": "0.0243"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "'There's no way,' said Glaucon.",
+          "spine": {
+            "from": "0.0243",
+            "to": "0.0264"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "'Then take it for granted that we won't be listening.'",
+          "spine": {
+            "from": "0.0264",
+            "to": "0.0284"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "Adeimantus put in, 'Don't you know about the torch race tonight, on horseback, in honor of the goddess?'",
+          "spine": {
+            "from": "0.0284",
+            "to": "0.0304"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "'On horseback?' I said. 'That's something new. You mean the riders will carry torches and pass them to each other as they race?'",
+          "spine": {
+            "from": "0.0304",
+            "to": "0.0325"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "'Exactly,' said Polemarchus, 'and there'll be an all-night festival too, which is worth seeing. We'll get up after dinner and go watch, and there'll be plenty of young men there to talk with. So stay. Don't make this difficult.'",
+          "spine": {
+            "from": "0.0325",
+            "to": "0.0345"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0018",
+          "order": 18,
+          "kind": "paragraph",
+          "text": "'It seems we have no choice,' said Glaucon.",
+          "spine": {
+            "from": "0.0345",
+            "to": "0.0365"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0019",
+          "order": 19,
+          "kind": "paragraph",
+          "text": "'If that's how it is,' I said, 'then that's what we'll do.'",
+          "spine": {
+            "from": "0.0365",
+            "to": "0.0385"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0020",
+          "order": 20,
+          "kind": "paragraph",
+          "text": "So we went along with Polemarchus to his house, and there we found his brothers Lysias and Euthydemus, along with Thrasymachus of Chalcedon, Charmantides of the deme Paeania, and Cleitophon, the son of Aristonymus. Polemarchus's father, Cephalus, was there too. I hadn't seen him in a long while, and I thought he looked quite old. He was sitting on a cushioned chair with a garland on his head, since he had just been performing a sacrifice in the courtyard. There were other chairs arranged in a half-circle, and we sat down beside him. The moment he saw me, Cephalus greeted me warmly.",
+          "spine": {
+            "from": "0.0385",
+            "to": "0.0406"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0021",
+          "order": 21,
+          "kind": "paragraph",
+          "text": "'Socrates,' he said, 'you don't come down to see us in the Piraeus nearly often enough. You really should. If I still had the strength to travel up to the city to see you, I wouldn't ask you to come to me. But at my age that's hard, so you must come here more often. I'll tell you, the more the pleasures of the body fade, the more I crave good conversation and the more I enjoy it. So don't refuse me. Make this house your second home, and spend time with these young men. We're old friends, and you'll be at ease with us.'",
+          "spine": {
+            "from": "0.0406",
+            "to": "0.0426"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0022",
+          "order": 22,
+          "kind": "paragraph",
+          "text": "'There's nothing I'd like better, Cephalus,' I said. 'I love talking with men who are well along in years. They've traveled a road I may have to travel myself, and it seems right to ask them what the going is like, whether it's smooth and easy or rough and hard. So I'd like to ask you, now that you've reached the stage the poets call \"the threshold of old age,\" how does it look from there? Is the last stretch of life a hard one? What's your report?'",
+          "spine": {
+            "from": "0.0426",
+            "to": "0.0446"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0023",
+          "order": 23,
+          "kind": "paragraph",
+          "text": "'I'll tell you exactly how it seems to me, Socrates,' he said. 'Men of my age get together often, like birds of a feather, as the old saying goes, and when we meet, most of them are full of complaints. They miss the pleasures of their youth, the eating and drinking, the love affairs, and they mourn for them as if they'd lost something enormous. In those days, they say, life was really living, and now it's no life at all. Some of them grumble about how their own families slight them in their old age, and they go on and on about all the miseries that age has brought them. But it seems to me, Socrates, that these men are blaming the wrong thing. If old age were really the cause, then I would feel the same way, and so would every other old man. But that hasn't been my experience, nor that of others I've known. I remember the poet Sophocles being asked once, \"Sophocles, how are you doing with love? Can you still make love to a woman?\" And he answered, \"Quiet, man! It's the greatest relief in the world to have escaped that. It's like getting free of a savage and raging master.\" I thought that was well said then, and I think so still. Old age brings real peace and freedom from things like that. When the appetites loosen their grip and finally let go, you're released, exactly as Sophocles said, not from one mad master but from many. The truth is, Socrates, that all these complaints, and the family troubles too, come from the same source, and it isn't old age. It's a man's character. If a man is decent and even-tempered, age is no great burden to him. But if he's the opposite, then youth was hard on him and old age is hard on him too.'",
+          "spine": {
+            "from": "0.0446",
+            "to": "0.0467"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0024",
+          "order": 24,
+          "kind": "paragraph",
+          "text": "I admired what he said, and because I wanted to draw him out further, I pushed back a little. 'Cephalus,' I said, 'I suspect most people won't believe you when you talk like that. They'll think old age sits lightly on you not because of your character but because you're rich, and wealth, as everyone knows, brings plenty of consolation.'",
+          "spine": {
+            "from": "0.0467",
+            "to": "0.0487"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0025",
+          "order": 25,
+          "kind": "paragraph",
+          "text": "'You're right,' he said, 'they don't believe me, and there's something in what they say, though not as much as they think. There's a good answer to them, the one Themistocles gave to the man from Seriphos who was insulting him, saying his fame came not from himself but from his being an Athenian. \"True,\" said Themistocles, \"if I'd been born in Seriphos I'd be nobody, but neither would you, even if you were an Athenian.\" The same answer fits men who aren't rich and find old age hard. A good man who is poor won't find old age easy, but a bad man won't be at peace with himself no matter how rich he is.'",
+          "spine": {
+            "from": "0.0487",
+            "to": "0.0507"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0026",
+          "order": 26,
+          "kind": "paragraph",
+          "text": "'And the money you have, Cephalus,' I said, 'did you mostly inherit it or make it yourself?'",
+          "spine": {
+            "from": "0.0507",
+            "to": "0.0527"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0027",
+          "order": 27,
+          "kind": "paragraph",
+          "text": "'Make it?' he said. 'As a money-maker, Socrates, I fall somewhere between my grandfather and my father. My grandfather, whose name I have, inherited about as much as I own now, and multiplied it several times over. My father, Lysanias, cut it down to less than it is today. As for me, I'll be satisfied if I leave to my sons here not less than I received, and maybe a little more.'",
+          "spine": {
+            "from": "0.0527",
+            "to": "0.0548"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0028",
+          "order": 28,
+          "kind": "paragraph",
+          "text": "'I asked,' I said, 'because you don't strike me as someone who's especially attached to money, which is usually the way with men who've inherited their wealth rather than made it. People who've made their own fortunes are twice as fond of it. Just as poets love their own poems and parents love their own children, money-makers love their wealth as something they themselves created, on top of the ordinary love everyone has for it because it's useful. They're tiresome company for it, too, since they can't talk about anything but the praises of money.'",
+          "spine": {
+            "from": "0.0548",
+            "to": "0.0568"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0029",
+          "order": 29,
+          "kind": "paragraph",
+          "text": "'That's true,' he said.",
+          "spine": {
+            "from": "0.0568",
+            "to": "0.0588"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0030",
+          "order": 30,
+          "kind": "paragraph",
+          "text": "'It certainly is,' I said. 'But let me ask you one more thing. What would you say is the greatest benefit you've gotten from being wealthy?'",
+          "spine": {
+            "from": "0.0588",
+            "to": "0.0609"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0031",
+          "order": 31,
+          "kind": "paragraph",
+          "text": "'It's something most people wouldn't easily believe,' he said. 'I'll tell you, Socrates. When a man begins to think he may die soon, fears and worries crowd into his mind that were never there before. The old stories about the world below, about punishment there for wrongs done here, that he used to laugh at, now begin to torment his soul, in case they should be true. Whether it's the weakness of age or because he's nearer to that other world and sees it more clearly, he becomes full of suspicion and dread. He starts going over his life, reckoning up the wrongs he has done. And if he finds them many, he wakes in the night like a frightened child, and lives in dark foreboding. But the man with nothing on his conscience has sweet hope always at his side, a kind nurse to his old age, as Pindar so beautifully puts it.",
+          "spine": {
+            "from": "0.0609",
+            "to": "0.0629"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0032",
+          "order": 32,
+          "kind": "paragraph",
+          "text": "For Pindar says, with real charm, that whoever lives a just and holy life has \"hope to nurse his old age and keep his heart company, hope that more than anything steers the restless mind of mortals.\"",
+          "spine": {
+            "from": "0.0629",
+            "to": "0.0649"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0033",
+          "order": 33,
+          "kind": "paragraph",
+          "text": "How well he says it! And this, to my mind, is where wealth is most valuable, not to everyone, but to a decent man. If you've never had to cheat or deceive anyone, even unintentionally, then you won't depart for the next world in terror, owing sacrifices to a god or debts to a man. Wealth helps a great deal here, because it lets you settle your accounts. It has many other uses, but for a sensible man, this, I think, is what it's chiefly good for.'",
+          "spine": {
+            "from": "0.0649",
+            "to": "0.0669"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0034",
+          "order": 34,
+          "kind": "paragraph",
+          "text": "'Beautifully put, Cephalus,' I said. 'But this thing you mention, justice, are we to say it's simply telling the truth and paying back whatever you've taken? Or can even these acts sometimes be just and sometimes not? Suppose a friend, while in his right mind, leaves his weapons with me for safekeeping, and then comes back for them out of his mind. Surely no one would say I ought to return them, or that I'd be acting justly if I did, any more than I should always tell the whole truth to a man in that state.'",
+          "spine": {
+            "from": "0.0669",
+            "to": "0.0690"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0035",
+          "order": 35,
+          "kind": "paragraph",
+          "text": "'You're right,' he said.",
+          "spine": {
+            "from": "0.0690",
+            "to": "0.0710"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0036",
+          "order": 36,
+          "kind": "paragraph",
+          "text": "'So that isn't the definition of justice,' I said, 'telling the truth and giving back what you've taken.'",
+          "spine": {
+            "from": "0.0710",
+            "to": "0.0730"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0037",
+          "order": 37,
+          "kind": "paragraph",
+          "text": "'It certainly is, Socrates,' Polemarchus broke in, 'at least if we're to believe Simonides.'",
+          "spine": {
+            "from": "0.0730",
+            "to": "0.0751"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0038",
+          "order": 38,
+          "kind": "paragraph",
+          "text": "'Well,' said Cephalus, 'I'll have to leave you now. I need to see to the sacrifices. I hand the argument over to Polemarchus and the rest of you.'",
+          "spine": {
+            "from": "0.0751",
+            "to": "0.0771"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0039",
+          "order": 39,
+          "kind": "paragraph",
+          "text": "'Isn't Polemarchus your heir?' I said.",
+          "spine": {
+            "from": "0.0771",
+            "to": "0.0791"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0040",
+          "order": 40,
+          "kind": "paragraph",
+          "text": "'Of course he is,' he said, laughing, and off he went to his sacrifices.",
+          "spine": {
+            "from": "0.0791",
+            "to": "0.0811"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0041",
+          "order": 41,
+          "kind": "paragraph",
+          "text": "'Then tell me, heir to the argument,' I said, 'what exactly did Simonides say about justice that you think is correct?'",
+          "spine": {
+            "from": "0.0811",
+            "to": "0.0832"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0042",
+          "order": 42,
+          "kind": "paragraph",
+          "text": "'He said that it's just to give back to each person what is owed to him,' Polemarchus answered, 'and I think he's right.'",
+          "spine": {
+            "from": "0.0832",
+            "to": "0.0852"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0043",
+          "order": 43,
+          "kind": "paragraph",
+          "text": "'Well,' I said, 'it's hard to doubt a man as wise and god-inspired as Simonides. No doubt you understand what he means, but I don't. Plainly he doesn't mean what we were just talking about, that I should return a deposit to someone who asks for it when he's out of his mind, even though what he left with me is certainly something owed to him. Isn't that so?'",
+          "spine": {
+            "from": "0.0852",
+            "to": "0.0872"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0044",
+          "order": 44,
+          "kind": "paragraph",
+          "text": "'It is.'",
+          "spine": {
+            "from": "0.0872",
+            "to": "0.0892"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0045",
+          "order": 45,
+          "kind": "paragraph",
+          "text": "'So I'm absolutely not to give it back when the person asking is out of his mind?'",
+          "spine": {
+            "from": "0.0892",
+            "to": "0.0913"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0046",
+          "order": 46,
+          "kind": "paragraph",
+          "text": "'No, you're not.'",
+          "spine": {
+            "from": "0.0913",
+            "to": "0.0933"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0047",
+          "order": 47,
+          "kind": "paragraph",
+          "text": "'Then when Simonides says it's just to give back what's owed, he didn't mean to include a case like this?'",
+          "spine": {
+            "from": "0.0933",
+            "to": "0.0953"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0048",
+          "order": 48,
+          "kind": "paragraph",
+          "text": "'Of course not,' he said. 'His view is that friends owe it to their friends to do them some good, never any harm.'",
+          "spine": {
+            "from": "0.0953",
+            "to": "0.0974"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0049",
+          "order": 49,
+          "kind": "paragraph",
+          "text": "'I see,' I said. 'So if a man returns gold he's holding for a friend, and the return would harm that friend, then giving it back isn't really paying a debt, in Simonides' sense, when the two are friends. Is that what you take him to mean?'",
+          "spine": {
+            "from": "0.0974",
+            "to": "0.0994"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0050",
+          "order": 50,
+          "kind": "paragraph",
+          "text": "'Yes, exactly.'",
+          "spine": {
+            "from": "0.0994",
+            "to": "0.1014"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0051",
+          "order": 51,
+          "kind": "paragraph",
+          "text": "'And what about enemies? Are we to give them what we owe them too?'",
+          "spine": {
+            "from": "0.1014",
+            "to": "0.1034"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0052",
+          "order": 52,
+          "kind": "paragraph",
+          "text": "'Absolutely,' he said, 'we should give an enemy what we owe him, and what one enemy owes another, I'd say, is what's fitting, namely harm.'",
+          "spine": {
+            "from": "0.1034",
+            "to": "0.1055"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0053",
+          "order": 53,
+          "kind": "paragraph",
+          "text": "'So Simonides, like a poet, was speaking in riddles about the nature of justice,' I said. 'What he really meant was that justice is giving each person what's appropriate to him, and that's what he called giving back what's owed.'",
+          "spine": {
+            "from": "0.1055",
+            "to": "0.1075"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0054",
+          "order": 54,
+          "kind": "paragraph",
+          "text": "'That must be it,' he said.",
+          "spine": {
+            "from": "0.1075",
+            "to": "0.1095"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0055",
+          "order": 55,
+          "kind": "paragraph",
+          "text": "'Good heavens,' I said. 'Then suppose someone asked him, \"Simonides, the art we call medicine gives what that's appropriate, and to whom?\" What do you think he'd answer?'",
+          "spine": {
+            "from": "0.1095",
+            "to": "0.1116"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0056",
+          "order": 56,
+          "kind": "paragraph",
+          "text": "'Obviously, that medicine gives drugs, food, and drink to bodies.'",
+          "spine": {
+            "from": "0.1116",
+            "to": "0.1136"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0057",
+          "order": 57,
+          "kind": "paragraph",
+          "text": "'And the art of cooking, what does it give that's appropriate, and to what?'",
+          "spine": {
+            "from": "0.1136",
+            "to": "0.1156"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0058",
+          "order": 58,
+          "kind": "paragraph",
+          "text": "'Seasoning to dishes.'",
+          "spine": {
+            "from": "0.1156",
+            "to": "0.1176"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0059",
+          "order": 59,
+          "kind": "paragraph",
+          "text": "'Good. Now the thing we call justice, what does it give, and to whom?'",
+          "spine": {
+            "from": "0.1176",
+            "to": "0.1197"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0060",
+          "order": 60,
+          "kind": "paragraph",
+          "text": "'If we're to follow the pattern of the earlier answers, Socrates, it gives benefits to friends and harm to enemies.'",
+          "spine": {
+            "from": "0.1197",
+            "to": "0.1217"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0061",
+          "order": 61,
+          "kind": "paragraph",
+          "text": "'So Simonides means: justice is doing good to friends and harm to enemies?'",
+          "spine": {
+            "from": "0.1217",
+            "to": "0.1237"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0062",
+          "order": 62,
+          "kind": "paragraph",
+          "text": "'I think so.'",
+          "spine": {
+            "from": "0.1237",
+            "to": "0.1258"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0063",
+          "order": 63,
+          "kind": "paragraph",
+          "text": "'And who is best at doing good to friends and harm to enemies where sickness and health are concerned?'",
+          "spine": {
+            "from": "0.1258",
+            "to": "0.1278"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0064",
+          "order": 64,
+          "kind": "paragraph",
+          "text": "'A doctor.'",
+          "spine": {
+            "from": "0.1278",
+            "to": "0.1298"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0065",
+          "order": 65,
+          "kind": "paragraph",
+          "text": "'And on a voyage, against the dangers of the sea?'",
+          "spine": {
+            "from": "0.1298",
+            "to": "0.1318"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0066",
+          "order": 66,
+          "kind": "paragraph",
+          "text": "'A ship's captain.'",
+          "spine": {
+            "from": "0.1318",
+            "to": "0.1339"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0067",
+          "order": 67,
+          "kind": "paragraph",
+          "text": "'And the just man, in what activity and toward what end is he best at helping friends and harming enemies?'",
+          "spine": {
+            "from": "0.1339",
+            "to": "0.1359"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0068",
+          "order": 68,
+          "kind": "paragraph",
+          "text": "'In war, I'd say, fighting the one and standing with the other.'",
+          "spine": {
+            "from": "0.1359",
+            "to": "0.1379"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0069",
+          "order": 69,
+          "kind": "paragraph",
+          "text": "'I see. But, my dear Polemarchus, when a man isn't sick, a doctor is no use to him.'",
+          "spine": {
+            "from": "0.1379",
+            "to": "0.1400"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0070",
+          "order": 70,
+          "kind": "paragraph",
+          "text": "'True.'",
+          "spine": {
+            "from": "0.1400",
+            "to": "0.1420"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0071",
+          "order": 71,
+          "kind": "paragraph",
+          "text": "'And to a man who isn't at sea, a captain is no use.'",
+          "spine": {
+            "from": "0.1420",
+            "to": "0.1440"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0072",
+          "order": 72,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.1440",
+            "to": "0.1460"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0073",
+          "order": 73,
+          "kind": "paragraph",
+          "text": "'So to men who aren't at war, the just man is no use?'",
+          "spine": {
+            "from": "0.1460",
+            "to": "0.1481"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0074",
+          "order": 74,
+          "kind": "paragraph",
+          "text": "'No, that I can't accept.'",
+          "spine": {
+            "from": "0.1481",
+            "to": "0.1501"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0075",
+          "order": 75,
+          "kind": "paragraph",
+          "text": "'So justice is useful in peacetime too?'",
+          "spine": {
+            "from": "0.1501",
+            "to": "0.1521"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0076",
+          "order": 76,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.1521",
+            "to": "0.1542"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0077",
+          "order": 77,
+          "kind": "paragraph",
+          "text": "'And so is farming, isn't it? For producing grain?'",
+          "spine": {
+            "from": "0.1542",
+            "to": "0.1562"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0078",
+          "order": 78,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.1562",
+            "to": "0.1582"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0079",
+          "order": 79,
+          "kind": "paragraph",
+          "text": "'And shoemaking, for producing shoes?'",
+          "spine": {
+            "from": "0.1582",
+            "to": "0.1602"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0080",
+          "order": 80,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.1602",
+            "to": "0.1623"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0081",
+          "order": 81,
+          "kind": "paragraph",
+          "text": "'Then justice, you'd say, is useful in peacetime for producing, or acquiring, what?'",
+          "spine": {
+            "from": "0.1623",
+            "to": "0.1643"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0082",
+          "order": 82,
+          "kind": "paragraph",
+          "text": "'For business dealings, Socrates.'",
+          "spine": {
+            "from": "0.1643",
+            "to": "0.1663"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0083",
+          "order": 83,
+          "kind": "paragraph",
+          "text": "'And by business dealings you mean partnerships of some kind?'",
+          "spine": {
+            "from": "0.1663",
+            "to": "0.1684"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0084",
+          "order": 84,
+          "kind": "paragraph",
+          "text": "'Exactly.'",
+          "spine": {
+            "from": "0.1684",
+            "to": "0.1704"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0085",
+          "order": 85,
+          "kind": "paragraph",
+          "text": "'Now, in a game of checkers, who's the more useful and reliable partner, a just man or a skilled player?'",
+          "spine": {
+            "from": "0.1704",
+            "to": "0.1724"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0086",
+          "order": 86,
+          "kind": "paragraph",
+          "text": "'The skilled player.'",
+          "spine": {
+            "from": "0.1724",
+            "to": "0.1744"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0087",
+          "order": 87,
+          "kind": "paragraph",
+          "text": "'And in laying bricks and stones, is a just man a more useful partner than a builder?'",
+          "spine": {
+            "from": "0.1744",
+            "to": "0.1765"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0088",
+          "order": 88,
+          "kind": "paragraph",
+          "text": "'Quite the opposite.'",
+          "spine": {
+            "from": "0.1765",
+            "to": "0.1785"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0089",
+          "order": 89,
+          "kind": "paragraph",
+          "text": "'Then for what kind of partnership is the just man a better partner than the builder or the musician, the way a musician beats a just man when it comes to playing notes?'",
+          "spine": {
+            "from": "0.1785",
+            "to": "0.1805"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0090",
+          "order": 90,
+          "kind": "paragraph",
+          "text": "'For dealings involving money, I'd say.'",
+          "spine": {
+            "from": "0.1805",
+            "to": "0.1826"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0091",
+          "order": 91,
+          "kind": "paragraph",
+          "text": "'Except, Polemarchus, when it comes to actually using the money. If you're buying or selling a horse together, you wouldn't want a just man as your partner. You'd want someone who knows horses.'",
+          "spine": {
+            "from": "0.1826",
+            "to": "0.1846"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0092",
+          "order": 92,
+          "kind": "paragraph",
+          "text": "'I suppose so.'",
+          "spine": {
+            "from": "0.1846",
+            "to": "0.1866"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0093",
+          "order": 93,
+          "kind": "paragraph",
+          "text": "'And in buying a ship, the shipwright or the captain.'",
+          "spine": {
+            "from": "0.1866",
+            "to": "0.1886"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0094",
+          "order": 94,
+          "kind": "paragraph",
+          "text": "'It seems so.'",
+          "spine": {
+            "from": "0.1886",
+            "to": "0.1907"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0095",
+          "order": 95,
+          "kind": "paragraph",
+          "text": "'Then in what shared use of money or gold is the just man the more useful partner?'",
+          "spine": {
+            "from": "0.1907",
+            "to": "0.1927"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0096",
+          "order": 96,
+          "kind": "paragraph",
+          "text": "'When you want it kept safe and untouched, Socrates.'",
+          "spine": {
+            "from": "0.1927",
+            "to": "0.1947"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0097",
+          "order": 97,
+          "kind": "paragraph",
+          "text": "'You mean, when the money isn't being used at all, but just sitting there?'",
+          "spine": {
+            "from": "0.1947",
+            "to": "0.1968"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0098",
+          "order": 98,
+          "kind": "paragraph",
+          "text": "'Exactly.'",
+          "spine": {
+            "from": "0.1968",
+            "to": "0.1988"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0099",
+          "order": 99,
+          "kind": "paragraph",
+          "text": "'So justice is useful for money precisely when the money is useless?'",
+          "spine": {
+            "from": "0.1988",
+            "to": "0.2008"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0100",
+          "order": 100,
+          "kind": "paragraph",
+          "text": "'It looks that way.'",
+          "spine": {
+            "from": "0.2008",
+            "to": "0.2028"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0101",
+          "order": 101,
+          "kind": "paragraph",
+          "text": "'And when you want a pruning hook kept safe, justice is useful, to a private man or to the city. But when you actually want to use it, you need the art of the vine-dresser?'",
+          "spine": {
+            "from": "0.2028",
+            "to": "0.2049"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0102",
+          "order": 102,
+          "kind": "paragraph",
+          "text": "'Apparently.'",
+          "spine": {
+            "from": "0.2049",
+            "to": "0.2069"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0103",
+          "order": 103,
+          "kind": "paragraph",
+          "text": "'And you'd say the same of a shield or a lyre? When you want to keep them and not use them, justice is useful, but when you want to use them, you need the soldier's art or the musician's?'",
+          "spine": {
+            "from": "0.2069",
+            "to": "0.2089"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0104",
+          "order": 104,
+          "kind": "paragraph",
+          "text": "'Necessarily.'",
+          "spine": {
+            "from": "0.2089",
+            "to": "0.2110"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0105",
+          "order": 105,
+          "kind": "paragraph",
+          "text": "'So in every case, justice is useful when a thing is being kept idle, and useless when it's being used?'",
+          "spine": {
+            "from": "0.2110",
+            "to": "0.2130"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0106",
+          "order": 106,
+          "kind": "paragraph",
+          "text": "'It seems so.'",
+          "spine": {
+            "from": "0.2130",
+            "to": "0.2150"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0107",
+          "order": 107,
+          "kind": "paragraph",
+          "text": "'Then justice isn't worth much, my friend, if it's only useful for useless things. But let's look at it from another angle. In boxing, or any kind of fighting, isn't the man best at landing a blow also the best at guarding against one?'",
+          "spine": {
+            "from": "0.2150",
+            "to": "0.2170"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0108",
+          "order": 108,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.2170",
+            "to": "0.2191"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0109",
+          "order": 109,
+          "kind": "paragraph",
+          "text": "'And the man best at fending off a disease is also best at giving someone one without being noticed?'",
+          "spine": {
+            "from": "0.2191",
+            "to": "0.2211"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0110",
+          "order": 110,
+          "kind": "paragraph",
+          "text": "'So it seems.'",
+          "spine": {
+            "from": "0.2211",
+            "to": "0.2231"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0111",
+          "order": 111,
+          "kind": "paragraph",
+          "text": "'And the man who can best guard an army is the same one who can best slip past the enemy's defenses and steal their plans and movements?'",
+          "spine": {
+            "from": "0.2231",
+            "to": "0.2252"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0112",
+          "order": 112,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.2252",
+            "to": "0.2272"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0113",
+          "order": 113,
+          "kind": "paragraph",
+          "text": "'So whoever is good at guarding a thing is also good at stealing it?'",
+          "spine": {
+            "from": "0.2272",
+            "to": "0.2292"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0114",
+          "order": 114,
+          "kind": "paragraph",
+          "text": "'Apparently.'",
+          "spine": {
+            "from": "0.2292",
+            "to": "0.2312"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0115",
+          "order": 115,
+          "kind": "paragraph",
+          "text": "'Then if the just man is good at keeping money safe, he's also good at stealing it.'",
+          "spine": {
+            "from": "0.2312",
+            "to": "0.2333"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0116",
+          "order": 116,
+          "kind": "paragraph",
+          "text": "'That seems to follow from the argument.'",
+          "spine": {
+            "from": "0.2333",
+            "to": "0.2353"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0117",
+          "order": 117,
+          "kind": "paragraph",
+          "text": "'So the just man has turned out to be a kind of thief! I suspect you picked that up from Homer. He's fond of Autolycus, the grandfather of Odysseus on his mother's side, and he says of him that he surpassed all men \"in thieving and in swearing false oaths.\"",
+          "spine": {
+            "from": "0.2353",
+            "to": "0.2373"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0118",
+          "order": 118,
+          "kind": "paragraph",
+          "text": "'So justice, it seems, both for you and for Homer and Simonides, is a kind of art of stealing, practiced of course for the good of friends and the harm of enemies. Isn't that what you were saying?'",
+          "spine": {
+            "from": "0.2373",
+            "to": "0.2394"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0119",
+          "order": 119,
+          "kind": "paragraph",
+          "text": "'Heavens, no,' he said, 'though I no longer know what I was saying. But I do still hold to this, that justice is helping your friends and harming your enemies.'",
+          "spine": {
+            "from": "0.2394",
+            "to": "0.2414"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0120",
+          "order": 120,
+          "kind": "paragraph",
+          "text": "'And when you say friends and enemies,' I said, 'do you mean the ones who really are friends and enemies, or the ones who only seem to be?'",
+          "spine": {
+            "from": "0.2414",
+            "to": "0.2434"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0121",
+          "order": 121,
+          "kind": "paragraph",
+          "text": "'Surely a man loves those he thinks good and hates those he thinks bad.'",
+          "spine": {
+            "from": "0.2434",
+            "to": "0.2454"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0122",
+          "order": 122,
+          "kind": "paragraph",
+          "text": "'But don't people make mistakes about this all the time? Plenty of men who seem good aren't, and the other way around.'",
+          "spine": {
+            "from": "0.2454",
+            "to": "0.2475"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0123",
+          "order": 123,
+          "kind": "paragraph",
+          "text": "'That's true.'",
+          "spine": {
+            "from": "0.2475",
+            "to": "0.2495"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0124",
+          "order": 124,
+          "kind": "paragraph",
+          "text": "'So for such people, good men turn out to be enemies and bad men friends?'",
+          "spine": {
+            "from": "0.2495",
+            "to": "0.2515"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0125",
+          "order": 125,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.2515",
+            "to": "0.2535"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0126",
+          "order": 126,
+          "kind": "paragraph",
+          "text": "'And in that case it's just for them to help the bad and harm the good?'",
+          "spine": {
+            "from": "0.2535",
+            "to": "0.2556"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0127",
+          "order": 127,
+          "kind": "paragraph",
+          "text": "'Apparently.'",
+          "spine": {
+            "from": "0.2556",
+            "to": "0.2576"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0128",
+          "order": 128,
+          "kind": "paragraph",
+          "text": "'But the good are just men, the sort who would do no wrong?'",
+          "spine": {
+            "from": "0.2576",
+            "to": "0.2596"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0129",
+          "order": 129,
+          "kind": "paragraph",
+          "text": "'True.'",
+          "spine": {
+            "from": "0.2596",
+            "to": "0.2617"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0130",
+          "order": 130,
+          "kind": "paragraph",
+          "text": "'So by your account it's just to harm men who have done no wrong?'",
+          "spine": {
+            "from": "0.2617",
+            "to": "0.2637"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0131",
+          "order": 131,
+          "kind": "paragraph",
+          "text": "'No, Socrates! That can't be right. There's something rotten in that conclusion.'",
+          "spine": {
+            "from": "0.2637",
+            "to": "0.2657"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0132",
+          "order": 132,
+          "kind": "paragraph",
+          "text": "'Then we should say it's just to harm the unjust and help the just?'",
+          "spine": {
+            "from": "0.2657",
+            "to": "0.2677"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0133",
+          "order": 133,
+          "kind": "paragraph",
+          "text": "'That sounds better.'",
+          "spine": {
+            "from": "0.2677",
+            "to": "0.2698"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0134",
+          "order": 134,
+          "kind": "paragraph",
+          "text": "'But look what follows, Polemarchus. Many men misjudge people. So it will often turn out to be just for such a man to harm his friends, since to him the bad ones look like friends, and to help his enemies, since the good ones look like enemies. And then we'll be saying the exact opposite of what we said Simonides meant.'",
+          "spine": {
+            "from": "0.2698",
+            "to": "0.2718"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0135",
+          "order": 135,
+          "kind": "paragraph",
+          "text": "'That does follow,' he said. 'I think we'd better correct ourselves. We must have gone wrong in how we defined friend and enemy.'",
+          "spine": {
+            "from": "0.2718",
+            "to": "0.2738"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0136",
+          "order": 136,
+          "kind": "paragraph",
+          "text": "'How did we go wrong, Polemarchus?'",
+          "spine": {
+            "from": "0.2738",
+            "to": "0.2759"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0137",
+          "order": 137,
+          "kind": "paragraph",
+          "text": "'We said a friend is whoever seems to be good.'",
+          "spine": {
+            "from": "0.2759",
+            "to": "0.2779"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0138",
+          "order": 138,
+          "kind": "paragraph",
+          "text": "'And how should we put it instead?'",
+          "spine": {
+            "from": "0.2779",
+            "to": "0.2799"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0139",
+          "order": 139,
+          "kind": "paragraph",
+          "text": "'A friend is the man who both seems good and is good. The one who seems good but isn't only seems to be a friend and isn't one. And the same for an enemy.'",
+          "spine": {
+            "from": "0.2799",
+            "to": "0.2819"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0140",
+          "order": 140,
+          "kind": "paragraph",
+          "text": "'So by this account the good man is our friend and the bad man our enemy.'",
+          "spine": {
+            "from": "0.2819",
+            "to": "0.2840"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0141",
+          "order": 141,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.2840",
+            "to": "0.2860"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0142",
+          "order": 142,
+          "kind": "paragraph",
+          "text": "'So instead of our first version, that it's just to help friends and harm enemies, we should now add: it's just to help a friend if he's a good man, and to harm an enemy if he's a bad one.'",
+          "spine": {
+            "from": "0.2860",
+            "to": "0.2880"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0143",
+          "order": 143,
+          "kind": "paragraph",
+          "text": "'Yes, that seems right to me.'",
+          "spine": {
+            "from": "0.2880",
+            "to": "0.2901"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0144",
+          "order": 144,
+          "kind": "paragraph",
+          "text": "'But should a just man harm anyone at all?'",
+          "spine": {
+            "from": "0.2901",
+            "to": "0.2921"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0145",
+          "order": 145,
+          "kind": "paragraph",
+          "text": "'Of course,' he said. 'He should harm those who are both bad men and his enemies.'",
+          "spine": {
+            "from": "0.2921",
+            "to": "0.2941"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0146",
+          "order": 146,
+          "kind": "paragraph",
+          "text": "'Now, when horses are harmed, do they become better or worse?'",
+          "spine": {
+            "from": "0.2941",
+            "to": "0.2961"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0147",
+          "order": 147,
+          "kind": "paragraph",
+          "text": "'Worse.'",
+          "spine": {
+            "from": "0.2961",
+            "to": "0.2982"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0148",
+          "order": 148,
+          "kind": "paragraph",
+          "text": "'Worse with respect to the excellence of horses, or of dogs?'",
+          "spine": {
+            "from": "0.2982",
+            "to": "0.3002"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0149",
+          "order": 149,
+          "kind": "paragraph",
+          "text": "'Of horses.'",
+          "spine": {
+            "from": "0.3002",
+            "to": "0.3022"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0150",
+          "order": 150,
+          "kind": "paragraph",
+          "text": "'And dogs, when harmed, become worse with respect to the excellence of dogs, not of horses?'",
+          "spine": {
+            "from": "0.3022",
+            "to": "0.3043"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0151",
+          "order": 151,
+          "kind": "paragraph",
+          "text": "'Necessarily.'",
+          "spine": {
+            "from": "0.3043",
+            "to": "0.3063"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0152",
+          "order": 152,
+          "kind": "paragraph",
+          "text": "'And men, my friend, when harmed, don't they likewise become worse with respect to the excellence that belongs to a human being?'",
+          "spine": {
+            "from": "0.3063",
+            "to": "0.3083"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0153",
+          "order": 153,
+          "kind": "paragraph",
+          "text": "'They certainly do.'",
+          "spine": {
+            "from": "0.3083",
+            "to": "0.3103"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0154",
+          "order": 154,
+          "kind": "paragraph",
+          "text": "'And isn't justice the excellence of a human being?'",
+          "spine": {
+            "from": "0.3103",
+            "to": "0.3124"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0155",
+          "order": 155,
+          "kind": "paragraph",
+          "text": "'It is.'",
+          "spine": {
+            "from": "0.3124",
+            "to": "0.3144"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0156",
+          "order": 156,
+          "kind": "paragraph",
+          "text": "'So men who are harmed necessarily become more unjust?'",
+          "spine": {
+            "from": "0.3144",
+            "to": "0.3164"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0157",
+          "order": 157,
+          "kind": "paragraph",
+          "text": "'So it seems.'",
+          "spine": {
+            "from": "0.3164",
+            "to": "0.3185"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0158",
+          "order": 158,
+          "kind": "paragraph",
+          "text": "'But can musicians, by their art, make others unmusical?'",
+          "spine": {
+            "from": "0.3185",
+            "to": "0.3205"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0159",
+          "order": 159,
+          "kind": "paragraph",
+          "text": "'Impossible.'",
+          "spine": {
+            "from": "0.3205",
+            "to": "0.3225"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0160",
+          "order": 160,
+          "kind": "paragraph",
+          "text": "'Or horsemen, by their art, make others bad riders?'",
+          "spine": {
+            "from": "0.3225",
+            "to": "0.3245"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0161",
+          "order": 161,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.3245",
+            "to": "0.3266"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0162",
+          "order": 162,
+          "kind": "paragraph",
+          "text": "'And can just men, by justice, make others unjust? Can good men, in general, by their goodness make others bad?'",
+          "spine": {
+            "from": "0.3266",
+            "to": "0.3286"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0163",
+          "order": 163,
+          "kind": "paragraph",
+          "text": "'No, that's impossible.'",
+          "spine": {
+            "from": "0.3286",
+            "to": "0.3306"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0164",
+          "order": 164,
+          "kind": "paragraph",
+          "text": "'No more than heat can make things cold?'",
+          "spine": {
+            "from": "0.3306",
+            "to": "0.3327"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0165",
+          "order": 165,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.3327",
+            "to": "0.3347"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0166",
+          "order": 166,
+          "kind": "paragraph",
+          "text": "'Or dryness make things wet?'",
+          "spine": {
+            "from": "0.3347",
+            "to": "0.3367"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0167",
+          "order": 167,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.3367",
+            "to": "0.3387"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0168",
+          "order": 168,
+          "kind": "paragraph",
+          "text": "'Then a good man can't harm anyone?'",
+          "spine": {
+            "from": "0.3387",
+            "to": "0.3408"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0169",
+          "order": 169,
+          "kind": "paragraph",
+          "text": "'Impossible.'",
+          "spine": {
+            "from": "0.3408",
+            "to": "0.3428"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0170",
+          "order": 170,
+          "kind": "paragraph",
+          "text": "'And the just man is good?'",
+          "spine": {
+            "from": "0.3428",
+            "to": "0.3448"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0171",
+          "order": 171,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.3448",
+            "to": "0.3469"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0172",
+          "order": 172,
+          "kind": "paragraph",
+          "text": "'So it isn't the just man's work to harm a friend or anyone else. It's the work of his opposite, the unjust man.'",
+          "spine": {
+            "from": "0.3469",
+            "to": "0.3489"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0173",
+          "order": 173,
+          "kind": "paragraph",
+          "text": "'I think that's exactly right, Socrates.'",
+          "spine": {
+            "from": "0.3489",
+            "to": "0.3509"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0174",
+          "order": 174,
+          "kind": "paragraph",
+          "text": "'So if anyone claims that justice means giving each person what's owed to him, and takes this to mean that the just man owes harm to his enemies and help to his friends, he isn't speaking wisely. What he says isn't true, since we've shown that it's never just to harm anyone.'",
+          "spine": {
+            "from": "0.3509",
+            "to": "0.3529"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0175",
+          "order": 175,
+          "kind": "paragraph",
+          "text": "'I agree,' said Polemarchus.",
+          "spine": {
+            "from": "0.3529",
+            "to": "0.3550"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0176",
+          "order": 176,
+          "kind": "paragraph",
+          "text": "'Then you and I will fight side by side,' I said, 'against anyone who claims that Simonides, or Bias, or Pittacus, or any other wise man ever said such a thing.'",
+          "spine": {
+            "from": "0.3550",
+            "to": "0.3570"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0177",
+          "order": 177,
+          "kind": "paragraph",
+          "text": "'I'm ready to join the battle,' he said.",
+          "spine": {
+            "from": "0.3570",
+            "to": "0.3590"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0178",
+          "order": 178,
+          "kind": "paragraph",
+          "text": "'And do you know whose saying I think it really is, this line that justice is helping friends and harming enemies?'",
+          "spine": {
+            "from": "0.3590",
+            "to": "0.3611"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0179",
+          "order": 179,
+          "kind": "paragraph",
+          "text": "'Whose?'",
+          "spine": {
+            "from": "0.3611",
+            "to": "0.3631"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0180",
+          "order": 180,
+          "kind": "paragraph",
+          "text": "'I think it belongs to Periander, or Perdiccas, or Xerxes, or Ismenias of Thebes, or some other rich man with an inflated sense of his own power.'",
+          "spine": {
+            "from": "0.3631",
+            "to": "0.3651"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0181",
+          "order": 181,
+          "kind": "paragraph",
+          "text": "'Very true,' he said.",
+          "spine": {
+            "from": "0.3651",
+            "to": "0.3671"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0182",
+          "order": 182,
+          "kind": "paragraph",
+          "text": "'Well then,' I said, 'since it's turned out that justice and the just are not this either, what else could anyone say they are?'",
+          "spine": {
+            "from": "0.3671",
+            "to": "0.3692"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0183",
+          "order": 183,
+          "kind": "paragraph",
+          "text": "All through this, Thrasymachus had been trying again and again to break into the discussion, but the others, who wanted to hear it through, kept holding him back. Now, when Polemarchus and I paused, he could contain himself no longer. He gathered himself like a wild animal and sprang at us as if to tear us apart. Polemarchus and I were genuinely startled and afraid.",
+          "spine": {
+            "from": "0.3692",
+            "to": "0.3712"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0184",
+          "order": 184,
+          "kind": "paragraph",
+          "text": "He bellowed out to the whole room, 'What is this nonsense the two of you have been spouting, Socrates? Why do you keep bowing and scraping to each other like a pair of fools? If you really want to know what justice is, don't just ask questions and then preen yourself by refuting whatever anyone answers. You know perfectly well it's easier to ask than to answer. So answer yourself, and tell us what you say justice is. And don't tell me it's \"what's right\" or \"what's beneficial\" or \"what's profitable\" or \"what's gainful\" or \"what's advantageous.\" Whatever you say, say it clearly and exactly, because I won't put up with that kind of drivel.'",
+          "spine": {
+            "from": "0.3712",
+            "to": "0.3732"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0185",
+          "order": 185,
+          "kind": "paragraph",
+          "text": "His words left me shaken, and I couldn't even look at him without trembling. In fact, I think if I hadn't fixed my eyes on him before he fixed his on me, I'd have been struck speechless. But as I watched his fury building, I managed to look at him first, so that I was able to answer.",
+          "spine": {
+            "from": "0.3732",
+            "to": "0.3753"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0186",
+          "order": 186,
+          "kind": "paragraph",
+          "text": "'Thrasymachus,' I said, my voice unsteady, 'don't be so hard on us. If Polemarchus and I have gone wrong somewhere in the argument, I promise you it wasn't on purpose. If we were searching for gold, you'd never think we were deliberately deferring to each other and ruining our chance of finding it. So now, when we're searching for justice, which is worth far more than any amount of gold, don't imagine we're feebly giving way to one another instead of doing our utmost to find it. Believe me, my friend, we want to, but we simply can't. So it would make far more sense for clever men like you to pity us than to be angry with us.'",
+          "spine": {
+            "from": "0.3753",
+            "to": "0.3773"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0187",
+          "order": 187,
+          "kind": "paragraph",
+          "text": "He gave a bitter laugh. 'By Heracles,' he said, 'there it is, the famous Socratic irony! I knew it. I told the others in advance that you'd refuse to answer, that you'd play the innocent and do anything rather than give an answer if someone asked you a question.'",
+          "spine": {
+            "from": "0.3773",
+            "to": "0.3793"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0188",
+          "order": 188,
+          "kind": "paragraph",
+          "text": "'That's because you're a clever man, Thrasymachus,' I said, 'and so you know perfectly well that if you ask someone what numbers multiply to make twelve, but forbid him in advance to say \"twice six\" or \"three times four\" or \"six times two\" or \"four times three\", because, you say, that kind of drivel won't do, then plainly no one can answer you. But suppose he said back to you, \"Thrasymachus, what do you mean? Am I forbidden to give any of those answers, even if one of them is the true one? Are you telling me to give a false answer instead?\" What would you say to him?'",
+          "spine": {
+            "from": "0.3793",
+            "to": "0.3813"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0189",
+          "order": 189,
+          "kind": "paragraph",
+          "text": "'As if the two cases were the same!' he said.",
+          "spine": {
+            "from": "0.3813",
+            "to": "0.3834"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0190",
+          "order": 190,
+          "kind": "paragraph",
+          "text": "'Why shouldn't they be?' I said. 'And even if they're not, if the man being asked thinks they are, don't you suppose he'll give the answer he thinks is right, whether you and I forbid it or not?'",
+          "spine": {
+            "from": "0.3834",
+            "to": "0.3854"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0191",
+          "order": 191,
+          "kind": "paragraph",
+          "text": "'So,' he said, 'that's what you're going to do? Give me one of the answers I ruled out?'",
+          "spine": {
+            "from": "0.3854",
+            "to": "0.3874"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0192",
+          "order": 192,
+          "kind": "paragraph",
+          "text": "'I wouldn't be surprised,' I said, 'if that's what I decided, after thinking it over.'",
+          "spine": {
+            "from": "0.3874",
+            "to": "0.3895"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0193",
+          "order": 193,
+          "kind": "paragraph",
+          "text": "'And what,' he said, 'if I show you another answer about justice, a better one than all of those? What punishment do you think you'd deserve then?'",
+          "spine": {
+            "from": "0.3895",
+            "to": "0.3915"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0194",
+          "order": 194,
+          "kind": "paragraph",
+          "text": "'Why,' I said, 'the only thing fitting for a man who doesn't know, namely to learn from one who does. That's what I deserve.'",
+          "spine": {
+            "from": "0.3915",
+            "to": "0.3935"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0195",
+          "order": 195,
+          "kind": "paragraph",
+          "text": "'How charming,' he said. 'But learning isn't free. You'll have to pay.'",
+          "spine": {
+            "from": "0.3935",
+            "to": "0.3955"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0196",
+          "order": 196,
+          "kind": "paragraph",
+          "text": "'I will, when I have the money,' I said.",
+          "spine": {
+            "from": "0.3955",
+            "to": "0.3976"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0197",
+          "order": 197,
+          "kind": "paragraph",
+          "text": "'He has it,' said Glaucon. 'If it's only money, Thrasymachus, go ahead and speak. We'll all chip in for Socrates.'",
+          "spine": {
+            "from": "0.3976",
+            "to": "0.3996"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0198",
+          "order": 198,
+          "kind": "paragraph",
+          "text": "'Oh yes,' said Thrasymachus, 'so that Socrates can do what he always does, refuse to answer himself, and then take someone else's answer apart.'",
+          "spine": {
+            "from": "0.3996",
+            "to": "0.4016"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0199",
+          "order": 199,
+          "kind": "paragraph",
+          "text": "'My good man,' I said, 'how can anyone answer who, first, doesn't know and admits he doesn't, and, second, even if he has some inkling, has been forbidden by a man of standing to say anything he thinks? It's far more reasonable for you to speak, since you say you know and have something to say. So please, do me and the whole company a favor and answer.'",
+          "spine": {
+            "from": "0.4016",
+            "to": "0.4037"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0200",
+          "order": 200,
+          "kind": "paragraph",
+          "text": "Glaucon and the others backed up my request, and it was obvious that Thrasymachus was itching to speak. He thought he had a brilliant answer and wanted to show it off. But he kept pretending to insist that I answer instead. Finally he gave in. 'Behold the wisdom of Socrates,' he said. 'He won't teach anyone himself; he just goes around learning from others and never even thanks them for it.'",
+          "spine": {
+            "from": "0.4037",
+            "to": "0.4057"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0201",
+          "order": 201,
+          "kind": "paragraph",
+          "text": "'That I learn from others is quite true, Thrasymachus,' I said, 'but that I'm ungrateful, I deny. I have no money, so I pay in praise, which is all I have. And just how readily I praise a man who I think speaks well, you'll find out the moment you answer. For I expect you'll speak well.'",
+          "spine": {
+            "from": "0.4057",
+            "to": "0.4077"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0202",
+          "order": 202,
+          "kind": "paragraph",
+          "text": "'Listen, then,' he said. 'I say that justice is nothing but the advantage of the stronger. Well? Why no praise? Of course you won't give it.'",
+          "spine": {
+            "from": "0.4077",
+            "to": "0.4097"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0203",
+          "order": 203,
+          "kind": "paragraph",
+          "text": "'First let me understand you,' I said. 'You say justice is the advantage of the stronger. But what on earth do you mean by that, Thrasymachus? You can't mean something like this: Polydamas the wrestler is stronger than we are, and beef is good for his body and his strength, so eating beef is therefore also good, and right, and just, for us, who are weaker than he is. Surely not that?'",
+          "spine": {
+            "from": "0.4097",
+            "to": "0.4118"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0204",
+          "order": 204,
+          "kind": "paragraph",
+          "text": "'You're disgusting, Socrates,' he said. 'You twist my words into whatever does the most damage to the argument.'",
+          "spine": {
+            "from": "0.4118",
+            "to": "0.4138"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0205",
+          "order": 205,
+          "kind": "paragraph",
+          "text": "'Not at all, my good man,' I said. 'I'm only trying to understand you. So make it clearer.'",
+          "spine": {
+            "from": "0.4138",
+            "to": "0.4158"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0206",
+          "order": 206,
+          "kind": "paragraph",
+          "text": "'Then you must know,' he said, 'that some cities are ruled by tyrants, some are democracies, and some are aristocracies?'",
+          "spine": {
+            "from": "0.4158",
+            "to": "0.4178"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0207",
+          "order": 207,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.4178",
+            "to": "0.4199"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0208",
+          "order": 208,
+          "kind": "paragraph",
+          "text": "'And in every city, the ruling power is whoever holds the government?'",
+          "spine": {
+            "from": "0.4199",
+            "to": "0.4219"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0209",
+          "order": 209,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.4219",
+            "to": "0.4239"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0210",
+          "order": 210,
+          "kind": "paragraph",
+          "text": "'And each government makes laws to its own advantage. A democracy makes democratic laws, a tyranny makes tyrannical laws, and so on. And in making these laws, they declare that what's just for their subjects is whatever serves their own advantage, and anyone who breaks these laws they punish as a lawbreaker and a wrongdoer. That, my good man, is what I mean. In every city the same thing is just: the advantage of the established government. And since this government holds the power, the only sound conclusion for anyone who reasons correctly is that everywhere justice is the same thing, the advantage of the stronger.'",
+          "spine": {
+            "from": "0.4239",
+            "to": "0.4260"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0211",
+          "order": 211,
+          "kind": "paragraph",
+          "text": "'Now I understand what you mean,' I said. 'Whether it's true or not, I'll try to work out. But notice, Thrasymachus, that in defining justice you yourself used the word \"advantage\", the very kind of word you forbade me to use. Granted, you've added \"of the stronger.\"'",
+          "spine": {
+            "from": "0.4260",
+            "to": "0.4280"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0212",
+          "order": 212,
+          "kind": "paragraph",
+          "text": "'A trivial addition, no doubt,' he said.",
+          "spine": {
+            "from": "0.4280",
+            "to": "0.4300"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0213",
+          "order": 213,
+          "kind": "paragraph",
+          "text": "'Whether it's trivial or not isn't yet clear. What is clear is that we have to examine whether what you say is true. Now, I agree with you that justice is an advantage of some kind. But you add \"of the stronger,\" and that's the part I'm not sure about. So we have to look into it.'",
+          "spine": {
+            "from": "0.4300",
+            "to": "0.4320"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0214",
+          "order": 214,
+          "kind": "paragraph",
+          "text": "'Go ahead.'",
+          "spine": {
+            "from": "0.4320",
+            "to": "0.4341"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0215",
+          "order": 215,
+          "kind": "paragraph",
+          "text": "'I will. Now tell me: you'd say it's just for subjects to obey their rulers?'",
+          "spine": {
+            "from": "0.4341",
+            "to": "0.4361"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0216",
+          "order": 216,
+          "kind": "paragraph",
+          "text": "'I would.'",
+          "spine": {
+            "from": "0.4361",
+            "to": "0.4381"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0217",
+          "order": 217,
+          "kind": "paragraph",
+          "text": "'And are the rulers in their cities completely infallible, or are they capable of making mistakes?'",
+          "spine": {
+            "from": "0.4381",
+            "to": "0.4402"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0218",
+          "order": 218,
+          "kind": "paragraph",
+          "text": "'They're certainly capable of making mistakes,' he said.",
+          "spine": {
+            "from": "0.4402",
+            "to": "0.4422"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0219",
+          "order": 219,
+          "kind": "paragraph",
+          "text": "'So when they set about making laws, sometimes they make them correctly and sometimes incorrectly?'",
+          "spine": {
+            "from": "0.4422",
+            "to": "0.4442"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0220",
+          "order": 220,
+          "kind": "paragraph",
+          "text": "'I suppose so.'",
+          "spine": {
+            "from": "0.4442",
+            "to": "0.4462"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0221",
+          "order": 221,
+          "kind": "paragraph",
+          "text": "'And a correctly made law is one that serves their advantage, while a badly made one goes against it? Is that what you mean?'",
+          "spine": {
+            "from": "0.4462",
+            "to": "0.4483"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0222",
+          "order": 222,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.4483",
+            "to": "0.4503"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0223",
+          "order": 223,
+          "kind": "paragraph",
+          "text": "'But whatever laws they make, their subjects must obey, and this is justice?'",
+          "spine": {
+            "from": "0.4503",
+            "to": "0.4523"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0224",
+          "order": 224,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.4523",
+            "to": "0.4544"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0225",
+          "order": 225,
+          "kind": "paragraph",
+          "text": "'Then by your own argument, it's just not only to do what's to the advantage of the stronger but also the opposite, what's to their disadvantage.'",
+          "spine": {
+            "from": "0.4544",
+            "to": "0.4564"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0226",
+          "order": 226,
+          "kind": "paragraph",
+          "text": "'What are you talking about?' he said.",
+          "spine": {
+            "from": "0.4564",
+            "to": "0.4584"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0227",
+          "order": 227,
+          "kind": "paragraph",
+          "text": "'Only repeating what you said, I think. But let's look again. Didn't we agree that rulers, in commanding their subjects to do certain things, sometimes get it wrong about their own advantage, and yet that it's just for the subjects to do whatever the rulers command? Didn't we agree to that?'",
+          "spine": {
+            "from": "0.4584",
+            "to": "0.4604"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0228",
+          "order": 228,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.4604",
+            "to": "0.4625"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0229",
+          "order": 229,
+          "kind": "paragraph",
+          "text": "'Then you must also grant,' I said, 'that it's just to do things that are to the disadvantage of the rulers and the stronger, namely whenever the rulers unintentionally command what's bad for themselves. You say it's just for the subjects to obey their orders. In that case, my wise friend, isn't it unavoidable that justice turns out to be doing what's to the disadvantage of the stronger?'",
+          "spine": {
+            "from": "0.4625",
+            "to": "0.4645"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0230",
+          "order": 230,
+          "kind": "paragraph",
+          "text": "'By Zeus, Socrates,' said Polemarchus, 'nothing could be clearer.'",
+          "spine": {
+            "from": "0.4645",
+            "to": "0.4665"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0231",
+          "order": 231,
+          "kind": "paragraph",
+          "text": "'Of course,' said Cleitophon, 'if you're allowed to be his witness.'",
+          "spine": {
+            "from": "0.4665",
+            "to": "0.4686"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0232",
+          "order": 232,
+          "kind": "paragraph",
+          "text": "'There's no need for a witness,' said Polemarchus. 'Thrasymachus himself admits that rulers sometimes command what's bad for themselves, and that it's just for the subjects to do it.'",
+          "spine": {
+            "from": "0.4686",
+            "to": "0.4706"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0233",
+          "order": 233,
+          "kind": "paragraph",
+          "text": "'That's because Thrasymachus laid it down that obeying the rulers' commands is just, Polemarchus.'",
+          "spine": {
+            "from": "0.4706",
+            "to": "0.4726"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0234",
+          "order": 234,
+          "kind": "paragraph",
+          "text": "'Yes, Cleitophon, but he also laid it down that justice is the advantage of the stronger. And having granted both, he then also granted that the stronger sometimes command the weaker, their subjects, to do what is to the stronger's disadvantage. From all of which it follows that justice is no more the advantage of the stronger than the disadvantage.'",
+          "spine": {
+            "from": "0.4726",
+            "to": "0.4746"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0235",
+          "order": 235,
+          "kind": "paragraph",
+          "text": "'But,' said Cleitophon, 'by the advantage of the stronger he meant what the stronger believes to be his advantage. That's what the weaker must do, and that's what he called justice.'",
+          "spine": {
+            "from": "0.4746",
+            "to": "0.4767"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0236",
+          "order": 236,
+          "kind": "paragraph",
+          "text": "'That's not what he said,' Polemarchus objected.",
+          "spine": {
+            "from": "0.4767",
+            "to": "0.4787"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0237",
+          "order": 237,
+          "kind": "paragraph",
+          "text": "'Never mind, Polemarchus,' I said. 'If that's what Thrasymachus wants to say now, let's take it that way. Tell me, Thrasymachus: did you mean to say that justice is what the stronger believes to be his advantage, whether it really is or not? Is that what we should say you mean?'",
+          "spine": {
+            "from": "0.4787",
+            "to": "0.4807"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0238",
+          "order": 238,
+          "kind": "paragraph",
+          "text": "'Not in the least,' he said. 'Do you suppose I'd call a man \"the stronger\" at the very moment he's making a mistake?'",
+          "spine": {
+            "from": "0.4807",
+            "to": "0.4828"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0239",
+          "order": 239,
+          "kind": "paragraph",
+          "text": "'I did think that was your meaning,' I said, 'when you agreed that rulers aren't infallible and sometimes get things wrong.'",
+          "spine": {
+            "from": "0.4828",
+            "to": "0.4848"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0240",
+          "order": 240,
+          "kind": "paragraph",
+          "text": "'You quibble like a courtroom shyster, Socrates,' he said. 'Take a doctor: do you call a man a doctor in respect of the very error in which he's mistaken about a patient? Or call a man a mathematician at the precise moment, and in the precise respect, that he's making an arithmetical error? We do say loosely that the doctor erred, or the mathematician, or the grammarian, but that's just a way of speaking. The truth is that none of them, insofar as he really is what we call him, ever errs at all. Strictly speaking, since you're such a stickler for strict speech, no craftsman ever errs. A man errs only when his knowledge fails him, and at that moment he's no craftsman. No craftsman, no expert, no ruler ever errs at the moment he's actually ruling, though people commonly say things like \"the ruler made a mistake.\" So you must take my answer in this strict sense: the ruler, insofar as he is a ruler, makes no mistakes, and being free of mistakes, he lays down what is best for himself, and this his subject must carry out. And so, as I said from the start, justice is doing what's to the advantage of the stronger.'",
+          "spine": {
+            "from": "0.4848",
+            "to": "0.4868"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0241",
+          "order": 241,
+          "kind": "paragraph",
+          "text": "'I see, Thrasymachus,' I said. 'So you think I quibble like a shyster?'",
+          "spine": {
+            "from": "0.4868",
+            "to": "0.4888"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0242",
+          "order": 242,
+          "kind": "paragraph",
+          "text": "'I certainly do.'",
+          "spine": {
+            "from": "0.4888",
+            "to": "0.4909"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0243",
+          "order": 243,
+          "kind": "paragraph",
+          "text": "'You think I asked those questions deliberately, to twist your words and damage you in the argument?'",
+          "spine": {
+            "from": "0.4909",
+            "to": "0.4929"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0244",
+          "order": 244,
+          "kind": "paragraph",
+          "text": "'I don't just think it,' he said. 'I know it. But it won't get you anywhere. You won't catch me out by trickery, and you'll never beat me by open argument either.'",
+          "spine": {
+            "from": "0.4929",
+            "to": "0.4949"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0245",
+          "order": 245,
+          "kind": "paragraph",
+          "text": "'I wouldn't even attempt it, my dear fellow,' I said. 'But so that this doesn't happen again, let's settle one thing. When you speak of the ruler, the stronger, the one whose advantage the weaker must justly serve, do you mean a ruler in the ordinary loose sense, or in the strict sense you were just insisting on?'",
+          "spine": {
+            "from": "0.4949",
+            "to": "0.4970"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0246",
+          "order": 246,
+          "kind": "paragraph",
+          "text": "'I mean a ruler in the strictest possible sense,' he said. 'Now twist that, and quibble all you like, if you can. I ask no mercy. But you'll never manage it.'",
+          "spine": {
+            "from": "0.4970",
+            "to": "0.4990"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0247",
+          "order": 247,
+          "kind": "paragraph",
+          "text": "'Do you really think I'm mad enough to try to shave a lion?' I said.",
+          "spine": {
+            "from": "0.4990",
+            "to": "0.5010"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0248",
+          "order": 248,
+          "kind": "paragraph",
+          "text": "'Well, you just tried,' he said, 'and you failed at that too.'",
+          "spine": {
+            "from": "0.5010",
+            "to": "0.5030"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0249",
+          "order": 249,
+          "kind": "paragraph",
+          "text": "'Enough of these pleasantries,' I said. 'Just tell me this. The doctor we were speaking of, in the strict sense, is he a maker of money or a healer of the sick? Mind you mean the true doctor.'",
+          "spine": {
+            "from": "0.5030",
+            "to": "0.5051"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0250",
+          "order": 250,
+          "kind": "paragraph",
+          "text": "'A healer of the sick,' he said.",
+          "spine": {
+            "from": "0.5051",
+            "to": "0.5071"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0251",
+          "order": 251,
+          "kind": "paragraph",
+          "text": "'And the ship's captain, the true captain, is he a ruler of sailors or just a sailor himself?'",
+          "spine": {
+            "from": "0.5071",
+            "to": "0.5091"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0252",
+          "order": 252,
+          "kind": "paragraph",
+          "text": "'A ruler of sailors.'",
+          "spine": {
+            "from": "0.5091",
+            "to": "0.5112"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0253",
+          "order": 253,
+          "kind": "paragraph",
+          "text": "'The fact that he sails on the ship isn't the point, and we shouldn't call him a sailor on that account. He's called a captain not because he sails but because of his skill and his command over the sailors.'",
+          "spine": {
+            "from": "0.5112",
+            "to": "0.5132"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0254",
+          "order": 254,
+          "kind": "paragraph",
+          "text": "'True,' he said.",
+          "spine": {
+            "from": "0.5132",
+            "to": "0.5152"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0255",
+          "order": 255,
+          "kind": "paragraph",
+          "text": "'Now, is there something that's an advantage to each of these, the patient, the sailor?'",
+          "spine": {
+            "from": "0.5152",
+            "to": "0.5172"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0256",
+          "order": 256,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.5172",
+            "to": "0.5193"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0257",
+          "order": 257,
+          "kind": "paragraph",
+          "text": "'And isn't the very purpose of each art to seek out and provide that advantage?'",
+          "spine": {
+            "from": "0.5193",
+            "to": "0.5213"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0258",
+          "order": 258,
+          "kind": "paragraph",
+          "text": "'Yes, that's its purpose.'",
+          "spine": {
+            "from": "0.5213",
+            "to": "0.5233"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0259",
+          "order": 259,
+          "kind": "paragraph",
+          "text": "'And for each art, is there any advantage to be sought beyond its being as complete and perfect as it can be?'",
+          "spine": {
+            "from": "0.5233",
+            "to": "0.5254"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0260",
+          "order": 260,
+          "kind": "paragraph",
+          "text": "'What do you mean by that?'",
+          "spine": {
+            "from": "0.5254",
+            "to": "0.5274"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0261",
+          "order": 261,
+          "kind": "paragraph",
+          "text": "'I'll explain it this way,' I said. 'Suppose you asked me whether the body is self-sufficient or whether it needs anything. I'd answer that of course it needs things. It can fall ill, and then it needs to be cured. That's exactly why the art of medicine was invented, to provide for the body's needs. Am I right?'",
+          "spine": {
+            "from": "0.5274",
+            "to": "0.5294"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0262",
+          "order": 262,
+          "kind": "paragraph",
+          "text": "'You're right,' he said.",
+          "spine": {
+            "from": "0.5294",
+            "to": "0.5314"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0263",
+          "order": 263,
+          "kind": "paragraph",
+          "text": "'But now, is the art of medicine itself defective? Does it need something the way the eye needs sight or the ear needs hearing, so that it would require some further art to look after its needs, and that art still another, on and on without end? Or does each art look after itself? Or rather, does it need neither itself nor any other art to attend to its defects, because, as an art, it simply has no defects? Isn't it true that an art has no business considering anyone's advantage but that of the thing it's the art of? An art itself, as long as it really is what it is, stays perfect and faultless. Take the words in your own strict sense, and tell me whether that's so or not.'",
+          "spine": {
+            "from": "0.5314",
+            "to": "0.5335"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0264",
+          "order": 264,
+          "kind": "paragraph",
+          "text": "'It seems to be so,' he said.",
+          "spine": {
+            "from": "0.5335",
+            "to": "0.5355"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0265",
+          "order": 265,
+          "kind": "paragraph",
+          "text": "'So medicine doesn't consider the advantage of medicine, but the advantage of the body?'",
+          "spine": {
+            "from": "0.5355",
+            "to": "0.5375"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0266",
+          "order": 266,
+          "kind": "paragraph",
+          "text": "'Yes,' he said.",
+          "spine": {
+            "from": "0.5375",
+            "to": "0.5396"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0267",
+          "order": 267,
+          "kind": "paragraph",
+          "text": "'And horsemanship doesn't consider the advantage of horsemanship, but the advantage of horses. No art looks after its own advantage, since it has no further need. It looks only after the advantage of the thing it's the art of.'",
+          "spine": {
+            "from": "0.5396",
+            "to": "0.5416"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0268",
+          "order": 268,
+          "kind": "paragraph",
+          "text": "'So it appears,' he said.",
+          "spine": {
+            "from": "0.5416",
+            "to": "0.5436"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0269",
+          "order": 269,
+          "kind": "paragraph",
+          "text": "'But surely, Thrasymachus, the arts rule and have power over the very things they're the arts of.'",
+          "spine": {
+            "from": "0.5436",
+            "to": "0.5456"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0270",
+          "order": 270,
+          "kind": "paragraph",
+          "text": "He conceded this, but only with great reluctance.",
+          "spine": {
+            "from": "0.5456",
+            "to": "0.5477"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0271",
+          "order": 271,
+          "kind": "paragraph",
+          "text": "'Then no kind of knowledge or skill considers or commands the advantage of the stronger, but rather the advantage of the weaker, the thing that is ruled by it.'",
+          "spine": {
+            "from": "0.5477",
+            "to": "0.5497"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0272",
+          "order": 272,
+          "kind": "paragraph",
+          "text": "He tried to fight this too, but in the end he gave in.",
+          "spine": {
+            "from": "0.5497",
+            "to": "0.5517"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0273",
+          "order": 273,
+          "kind": "paragraph",
+          "text": "'So then,' I said, 'no doctor, insofar as he's a doctor, considers or commands his own advantage; he considers the advantage of his patient. For we agreed that the true doctor is a ruler of bodies, not a money-maker. Didn't we agree to that?'",
+          "spine": {
+            "from": "0.5517",
+            "to": "0.5538"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0274",
+          "order": 274,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.5538",
+            "to": "0.5558"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0275",
+          "order": 275,
+          "kind": "paragraph",
+          "text": "'And the true captain is a ruler of sailors, not just a sailor?'",
+          "spine": {
+            "from": "0.5558",
+            "to": "0.5578"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0276",
+          "order": 276,
+          "kind": "paragraph",
+          "text": "'We agreed.'",
+          "spine": {
+            "from": "0.5578",
+            "to": "0.5598"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0277",
+          "order": 277,
+          "kind": "paragraph",
+          "text": "'So a captain like that, a ruler, won't consider and command his own advantage, but the advantage of the sailor he rules.'",
+          "spine": {
+            "from": "0.5598",
+            "to": "0.5619"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0278",
+          "order": 278,
+          "kind": "paragraph",
+          "text": "He gave a grudging yes.",
+          "spine": {
+            "from": "0.5619",
+            "to": "0.5639"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0279",
+          "order": 279,
+          "kind": "paragraph",
+          "text": "'So then, Thrasymachus, no one in any position of rule, insofar as he is a ruler, considers or commands his own advantage. He commands the advantage of his subject, the one for whom he practices his art. It's that subject, and that subject's advantage, he keeps his eye on in everything he says and does.'",
+          "spine": {
+            "from": "0.5639",
+            "to": "0.5659"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0280",
+          "order": 280,
+          "kind": "paragraph",
+          "text": "At this point in the argument it was clear to everyone that the definition of justice had been turned completely on its head. Thrasymachus, instead of answering, said, 'Tell me, Socrates, do you have a nurse?'",
+          "spine": {
+            "from": "0.5659",
+            "to": "0.5680"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0281",
+          "order": 281,
+          "kind": "paragraph",
+          "text": "'What kind of question is that?' I said. 'Shouldn't you be answering instead of asking?'",
+          "spine": {
+            "from": "0.5680",
+            "to": "0.5700"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0282",
+          "order": 282,
+          "kind": "paragraph",
+          "text": "'Because she lets you go around sniffling and never wipes your nose,' he said. 'Why, you don't even know your sheep from your shepherd.'",
+          "spine": {
+            "from": "0.5700",
+            "to": "0.5720"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0283",
+          "order": 283,
+          "kind": "paragraph",
+          "text": "'And what makes you say that?' I asked.",
+          "spine": {
+            "from": "0.5720",
+            "to": "0.5740"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0284",
+          "order": 284,
+          "kind": "paragraph",
+          "text": "'Because you imagine that shepherds and herdsmen look after the good of their sheep and cattle, fattening and tending them for any reason other than the good of their masters and themselves. You actually think that those who rule cities, the true rulers, regard their subjects as anything but sheep, and that night and day they have anything in mind but their own advantage. You're so far off about what's just and unjust that you don't even realize that justice and the just are in fact someone else's good, the advantage of the stronger who rules, and the loss of the subject who obeys; while injustice is the reverse. The unjust man lords it over those decent, simple men we call just; his subjects do what is to his advantage, and they make him happy by serving him, while doing nothing at all for themselves. Look at it plainly, you naive man. In every situation the just man comes off worse than the unjust. Take private contracts: wherever a just man goes into partnership with an unjust one, you'll find that when the partnership is wound up, the unjust man always comes away with more, the just with less. Take their dealings with the city: when taxes are due, the just man pays more on the same income, the unjust less, and when there's money to be handed out, the just gets nothing while the unjust gets a great deal. And when each of them holds public office: the just man, at the very least, lets his own affairs go to ruin through neglect, gets nothing from the public treasury because he's just, and on top of it all is hated by his relatives and friends for refusing to do them favors against the law. With the unjust man, it's all the other way around. I'm talking about the man who can get the upper hand on a grand scale, the man in whom the advantage of injustice is plainest. Look at the most complete form of injustice, the one that makes the wrongdoer the happiest of men and his victims, and those who refuse to do wrong, the most wretched. I mean tyranny, which seizes the property of others, sacred and profane, private and public, not piece by piece but all at once, by stealth and by force. If a man is caught committing any single one of these crimes, he's punished and covered in disgrace. Those who do such things on a small scale are called temple-robbers, kidnappers, burglars, swindlers, and thieves. But when a man not only seizes the citizens' money but kidnaps and enslaves the citizens themselves, then instead of these ugly names he's called happy and blessed, not only by his own people but by everyone who hears that he has committed the whole of injustice. For people who condemn injustice do so not because they're afraid of doing it, but because they're afraid of suffering it. And so, Socrates, injustice, when it's on a large enough scale, is a stronger, freer, more masterful thing than justice. And so, as I said at the start, justice is the advantage of the stronger, while injustice is what profits and benefits a man himself.'",
+          "spine": {
+            "from": "0.5740",
+            "to": "0.5761"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0285",
+          "order": 285,
+          "kind": "paragraph",
+          "text": "Having said this, Thrasymachus had it in mind to leave, like a bath attendant who has dumped a whole flood of words over our ears. But the others wouldn't let him. They insisted he stay and defend what he'd said, and I begged him myself. 'Thrasymachus, you remarkable man,' I said, 'you fling out an argument like that and then mean to leave before you've properly taught us, or learned yourself, whether it's true or not? Do you really think it's a small matter you're trying to settle, namely the whole way a man should live, so as to live to the greatest advantage?'",
+          "spine": {
+            "from": "0.5761",
+            "to": "0.5781"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0286",
+          "order": 286,
+          "kind": "paragraph",
+          "text": "'Do you imagine I think it's anything else?' he said.",
+          "spine": {
+            "from": "0.5781",
+            "to": "0.5801"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0287",
+          "order": 287,
+          "kind": "paragraph",
+          "text": "'It looks that way,' I said, 'or else you simply don't care about us, whether we live better or worse for not knowing what you say you know. So be a good fellow and share your knowledge with us. There are a lot of us; any kindness you do us won't go unrewarded. Speaking for myself, I tell you plainly: I'm not convinced. I don't believe injustice is more profitable than justice, not even when it has free rein to do as it pleases. Grant me an unjust man who's able to get away with his wrongdoing by stealth or by force; still he hasn't persuaded me that injustice is more profitable. And perhaps others here feel the same. So convince us, Thrasymachus, convince us properly that we're wrong to value justice over injustice.'",
+          "spine": {
+            "from": "0.5801",
+            "to": "0.5822"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0288",
+          "order": 288,
+          "kind": "paragraph",
+          "text": "'And how am I to convince you,' he said, 'if you weren't convinced by what I just said? Do you want me to take the argument and shove it into your soul?'",
+          "spine": {
+            "from": "0.5822",
+            "to": "0.5842"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0289",
+          "order": 289,
+          "kind": "paragraph",
+          "text": "'God forbid,' I said. 'Just be consistent, that's all. Or if you change your position, change it openly and don't deceive us. You see, Thrasymachus, to go back to what we said earlier, you began by defining the true doctor in the strict sense, but you didn't keep up that same strictness when you came to the shepherd. You think a shepherd, insofar as he's a shepherd, fattens his sheep with a view not to their good but to a feast, like a diner about to eat, or to a sale, like a trader, and not at all as a shepherd. But the shepherd's art is concerned with nothing but providing the best for the thing it's set over. Its own perfection is already assured as long as it lacks nothing of being the shepherd's art. That's why I thought we had to agree that every form of rule, insofar as it's rule, seeks the best for nothing but its subject, the thing it's set over. This holds in cities and in private life alike. But you, it seems, think the rulers in cities, the true rulers, actually enjoy ruling.'",
+          "spine": {
+            "from": "0.5842",
+            "to": "0.5862"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0290",
+          "order": 290,
+          "kind": "paragraph",
+          "text": "'I don't just think it,' he said, 'I'm certain of it.'",
+          "spine": {
+            "from": "0.5862",
+            "to": "0.5882"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0291",
+          "order": 291,
+          "kind": "paragraph",
+          "text": "'Then why is it, Thrasymachus, that with all the lesser offices no one is willing to hold them without pay? It's because they realize they'd be using their skill for the advantage of others, not themselves. Tell me this. Don't we say that each art is distinct from the others precisely because it has a different function?'",
+          "spine": {
+            "from": "0.5882",
+            "to": "0.5903"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0292",
+          "order": 292,
+          "kind": "paragraph",
+          "text": "'Yes, that's what makes them different,' he said.",
+          "spine": {
+            "from": "0.5903",
+            "to": "0.5923"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0293",
+          "order": 293,
+          "kind": "paragraph",
+          "text": "'And each one gives us some particular benefit, not just a general one. Medicine gives us health, navigation gives us safety at sea, and so on?'",
+          "spine": {
+            "from": "0.5923",
+            "to": "0.5943"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0294",
+          "order": 294,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.5943",
+            "to": "0.5963"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0295",
+          "order": 295,
+          "kind": "paragraph",
+          "text": "'And there's an art of wage-earning, which gives us wages? That's its function. You wouldn't say that medicine and navigation are the same art, would you? Or, to use your own strict way of speaking, just because a captain's health improves on a voyage, you wouldn't on that account call navigation the art of medicine?'",
+          "spine": {
+            "from": "0.5963",
+            "to": "0.5984"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0296",
+          "order": 296,
+          "kind": "paragraph",
+          "text": "'Of course not.'",
+          "spine": {
+            "from": "0.5984",
+            "to": "0.6004"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0297",
+          "order": 297,
+          "kind": "paragraph",
+          "text": "'And you wouldn't call wage-earning medicine just because a man's health improves while he's earning his wages?'",
+          "spine": {
+            "from": "0.6004",
+            "to": "0.6024"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0298",
+          "order": 298,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.6024",
+            "to": "0.6045"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0299",
+          "order": 299,
+          "kind": "paragraph",
+          "text": "'And you wouldn't call medicine wage-earning just because a man earns wages while practicing it?'",
+          "spine": {
+            "from": "0.6045",
+            "to": "0.6065"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0300",
+          "order": 300,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.6065",
+            "to": "0.6085"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0301",
+          "order": 301,
+          "kind": "paragraph",
+          "text": "'So we agreed that each art gives its own particular benefit?'",
+          "spine": {
+            "from": "0.6085",
+            "to": "0.6105"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0302",
+          "order": 302,
+          "kind": "paragraph",
+          "text": "'Let it be so,' he said.",
+          "spine": {
+            "from": "0.6105",
+            "to": "0.6126"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0303",
+          "order": 303,
+          "kind": "paragraph",
+          "text": "'Then whatever benefit all craftsmen receive in common, they plainly get from some one thing they all share in addition to their own art.'",
+          "spine": {
+            "from": "0.6126",
+            "to": "0.6146"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0304",
+          "order": 304,
+          "kind": "paragraph",
+          "text": "'So it seems,' he said.",
+          "spine": {
+            "from": "0.6146",
+            "to": "0.6166"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0305",
+          "order": 305,
+          "kind": "paragraph",
+          "text": "'And we say that when a craftsman benefits by earning wages, the benefit comes to him from his additional use of the art of wage-earning, not from his own art?'",
+          "spine": {
+            "from": "0.6166",
+            "to": "0.6187"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0306",
+          "order": 306,
+          "kind": "paragraph",
+          "text": "He agreed, but reluctantly.",
+          "spine": {
+            "from": "0.6187",
+            "to": "0.6207"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0307",
+          "order": 307,
+          "kind": "paragraph",
+          "text": "'So this benefit, the wages, doesn't come to each craftsman from his own art. If we look at it strictly, medicine produces health, and the art of wage-earning produces wages; building produces a house, and wage-earning, going along with it, produces the pay. It's the same with all the arts: each does its own work and benefits the thing it's set over. But if a craftsman weren't paid as well, would he get any benefit from his own art?'",
+          "spine": {
+            "from": "0.6207",
+            "to": "0.6227"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0308",
+          "order": 308,
+          "kind": "paragraph",
+          "text": "'It seems not,' he said.",
+          "spine": {
+            "from": "0.6227",
+            "to": "0.6247"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0309",
+          "order": 309,
+          "kind": "paragraph",
+          "text": "'And yet does he confer no benefit when he works for nothing?'",
+          "spine": {
+            "from": "0.6247",
+            "to": "0.6268"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0310",
+          "order": 310,
+          "kind": "paragraph",
+          "text": "'No, he confers a benefit.'",
+          "spine": {
+            "from": "0.6268",
+            "to": "0.6288"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0311",
+          "order": 311,
+          "kind": "paragraph",
+          "text": "'So now it's clear, Thrasymachus, that no art and no form of rule provides for its own advantage. As we've been saying, it provides for and commands the advantage of its subject, looking to the good of the weaker, not the stronger. And that, my dear Thrasymachus, is exactly why I said that no one is willing to rule and take on other people's troubles to set them right, without demanding pay. Because the man who's going to practice his art well never does, or commands, what's best for himself, insofar as he's practicing his art, but what's best for his subject. And that's why those who are going to be willing to rule have to be offered pay, in the form of money, or honor, or a penalty if they refuse.'",
+          "spine": {
+            "from": "0.6288",
+            "to": "0.6308"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0312",
+          "order": 312,
+          "kind": "paragraph",
+          "text": "'What do you mean, Socrates?' said Glaucon. 'I understand the first two kinds of pay, but I don't see how a penalty can count as pay, or what penalty you mean.'",
+          "spine": {
+            "from": "0.6308",
+            "to": "0.6329"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0313",
+          "order": 313,
+          "kind": "paragraph",
+          "text": "'Then you don't understand the wages of the best men,' I said, 'the wages that move them to rule. Don't you know that loving honor and loving money are both considered shameful, and rightly so?'",
+          "spine": {
+            "from": "0.6329",
+            "to": "0.6349"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0314",
+          "order": 314,
+          "kind": "paragraph",
+          "text": "'I do,' he said.",
+          "spine": {
+            "from": "0.6349",
+            "to": "0.6369"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0315",
+          "order": 315,
+          "kind": "paragraph",
+          "text": "'That's why good men won't rule for the sake of money or honor. They don't want to be called hirelings for openly demanding pay to rule, or thieves for secretly helping themselves from the public funds. And honor doesn't tempt them either, since they aren't lovers of honor. So they need some compulsion, some penalty, to make them willing to rule. That, perhaps, is why people think it's shameful to chase after office instead of waiting to be forced into it. And the greatest penalty of all, if you won't rule yourself, is to be ruled by someone worse than you. It's the fear of this, I think, that makes decent men rule when they do, and they go to it not as though they were grasping at some good thing they'll enjoy, but as a necessity, because they can't hand the job over to anyone better than themselves, or even as good. For if there could ever be a city of good men, then they'd compete to avoid ruling as hard as men now compete to win it; and there it would be obvious that a true ruler isn't, by nature, out for his own advantage but for his subjects'. And so anyone with sense would rather be benefited by someone else than take on the trouble of benefiting others. So I can't go along with Thrasymachus that justice is the advantage of the stronger. But we can leave that question for now. What strikes me as far more serious is Thrasymachus's other claim, that the life of the unjust man is better than the life of the just. Which of us, Glaucon, do you think speaks the truth? And which kind of life would you choose?'",
+          "spine": {
+            "from": "0.6369",
+            "to": "0.6389"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0316",
+          "order": 316,
+          "kind": "paragraph",
+          "text": "'I think the just man's life is the more profitable,' he said.",
+          "spine": {
+            "from": "0.6389",
+            "to": "0.6410"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0317",
+          "order": 317,
+          "kind": "paragraph",
+          "text": "'Did you hear all the good things Thrasymachus listed just now for the unjust man's life?'",
+          "spine": {
+            "from": "0.6410",
+            "to": "0.6430"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0318",
+          "order": 318,
+          "kind": "paragraph",
+          "text": "'I heard them,' he said, 'but I'm not convinced.'",
+          "spine": {
+            "from": "0.6430",
+            "to": "0.6450"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0319",
+          "order": 319,
+          "kind": "paragraph",
+          "text": "'Then shall we try to convince him, if we can find a way, that what he says isn't true?'",
+          "spine": {
+            "from": "0.6450",
+            "to": "0.6471"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0320",
+          "order": 320,
+          "kind": "paragraph",
+          "text": "'Of course we should,' he said.",
+          "spine": {
+            "from": "0.6471",
+            "to": "0.6491"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0321",
+          "order": 321,
+          "kind": "paragraph",
+          "text": "'Now,' I said, 'if we counter his speech with a speech of our own, listing all the good things in the just life, and then he answers and we answer back, we'll have to count up and measure the goods each side claims, and in the end we'll need judges to decide between us. But if we go on as we were, examining the matter by reaching agreement with each other, then we ourselves will be both advocates and judges at once.'",
+          "spine": {
+            "from": "0.6491",
+            "to": "0.6511"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0322",
+          "order": 322,
+          "kind": "paragraph",
+          "text": "'Quite so,' he said.",
+          "spine": {
+            "from": "0.6511",
+            "to": "0.6531"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0323",
+          "order": 323,
+          "kind": "paragraph",
+          "text": "'And which method would you prefer?' I asked.",
+          "spine": {
+            "from": "0.6531",
+            "to": "0.6552"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0324",
+          "order": 324,
+          "kind": "paragraph",
+          "text": "'The second one,' he said.",
+          "spine": {
+            "from": "0.6552",
+            "to": "0.6572"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0325",
+          "order": 325,
+          "kind": "paragraph",
+          "text": "'Then, Thrasymachus,' I said, 'let's go back to the beginning and you answer me. You claim that perfect injustice is more profitable than perfect justice?'",
+          "spine": {
+            "from": "0.6572",
+            "to": "0.6592"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0326",
+          "order": 326,
+          "kind": "paragraph",
+          "text": "'I certainly do,' he said, 'and I've told you why.'",
+          "spine": {
+            "from": "0.6592",
+            "to": "0.6613"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0327",
+          "order": 327,
+          "kind": "paragraph",
+          "text": "'Well, here's how you regard them. You call one of them a virtue and the other a vice?'",
+          "spine": {
+            "from": "0.6613",
+            "to": "0.6633"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0328",
+          "order": 328,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.6633",
+            "to": "0.6653"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0329",
+          "order": 329,
+          "kind": "paragraph",
+          "text": "'Justice a virtue, injustice a vice?'",
+          "spine": {
+            "from": "0.6653",
+            "to": "0.6673"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0330",
+          "order": 330,
+          "kind": "paragraph",
+          "text": "'Likely enough,' he said, 'seeing that I say injustice pays and justice doesn't!'",
+          "spine": {
+            "from": "0.6673",
+            "to": "0.6694"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0331",
+          "order": 331,
+          "kind": "paragraph",
+          "text": "'Then what do you say?'",
+          "spine": {
+            "from": "0.6694",
+            "to": "0.6714"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0332",
+          "order": 332,
+          "kind": "paragraph",
+          "text": "'The opposite,' he said.",
+          "spine": {
+            "from": "0.6714",
+            "to": "0.6734"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0333",
+          "order": 333,
+          "kind": "paragraph",
+          "text": "'You call justice a vice?'",
+          "spine": {
+            "from": "0.6734",
+            "to": "0.6755"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0334",
+          "order": 334,
+          "kind": "paragraph",
+          "text": "'No, I'd call it high-minded foolishness.'",
+          "spine": {
+            "from": "0.6755",
+            "to": "0.6775"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0335",
+          "order": 335,
+          "kind": "paragraph",
+          "text": "'And injustice you'd call low cunning?'",
+          "spine": {
+            "from": "0.6775",
+            "to": "0.6795"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0336",
+          "order": 336,
+          "kind": "paragraph",
+          "text": "'No. I'd call it good judgment.'",
+          "spine": {
+            "from": "0.6795",
+            "to": "0.6815"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0337",
+          "order": 337,
+          "kind": "paragraph",
+          "text": "'So the unjust strike you as intelligent and good men, Thrasymachus?'",
+          "spine": {
+            "from": "0.6815",
+            "to": "0.6836"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0338",
+          "order": 338,
+          "kind": "paragraph",
+          "text": "'Yes,' he said, 'at least the ones able to commit injustice on the grand scale, who can bring whole cities and nations under their power. Maybe you imagine I'm talking about petty pickpockets. Even that pays well enough, mind you, if you don't get caught, but it's nothing next to what I'm describing.'",
+          "spine": {
+            "from": "0.6836",
+            "to": "0.6856"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0339",
+          "order": 339,
+          "kind": "paragraph",
+          "text": "'I follow you well enough,' I said. 'But it does astonish me that you class injustice with intelligence and goodness, and justice with their opposites.'",
+          "spine": {
+            "from": "0.6856",
+            "to": "0.6876"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0340",
+          "order": 340,
+          "kind": "paragraph",
+          "text": "'Well, that's exactly how I class them,' he said.",
+          "spine": {
+            "from": "0.6876",
+            "to": "0.6897"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0341",
+          "order": 341,
+          "kind": "paragraph",
+          "text": "'Now you've taken a harder, sturdier line,' I said, 'and it's not so easy to answer. If you'd only said that injustice pays but still admitted, as most people do, that it's a vice and something shameful, we could have replied to you on the usual assumptions. But as it is, you'll plainly call injustice fine and strong, and you'll grant it all the qualities we used to assign to justice, since you've dared to class it with intelligence and goodness.'",
+          "spine": {
+            "from": "0.6897",
+            "to": "0.6917"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0342",
+          "order": 342,
+          "kind": "paragraph",
+          "text": "'You read my mind perfectly,' he said.",
+          "spine": {
+            "from": "0.6917",
+            "to": "0.6937"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0343",
+          "order": 343,
+          "kind": "paragraph",
+          "text": "'Still, I shouldn't shrink from following the argument through,' I said, 'as long as I believe you're really saying what you think. For now I'm convinced, Thrasymachus, that you're in earnest and not just toying with us.'",
+          "spine": {
+            "from": "0.6937",
+            "to": "0.6957"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0344",
+          "order": 344,
+          "kind": "paragraph",
+          "text": "'What does it matter to you,' he said, 'whether I'm in earnest or not? Just refute the argument.'",
+          "spine": {
+            "from": "0.6957",
+            "to": "0.6978"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0345",
+          "order": 345,
+          "kind": "paragraph",
+          "text": "'You're right, it doesn't,' I said. 'But try to answer one more question. Do you think the just man would ever want to outdo another just man, to get more than his fair share against him?'",
+          "spine": {
+            "from": "0.6978",
+            "to": "0.6998"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0346",
+          "order": 346,
+          "kind": "paragraph",
+          "text": "'Not at all,' he said. 'If he did, he wouldn't be the charming simpleton he is.'",
+          "spine": {
+            "from": "0.6998",
+            "to": "0.7018"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0347",
+          "order": 347,
+          "kind": "paragraph",
+          "text": "'And would he want to outdo a just action, to go beyond it?'",
+          "spine": {
+            "from": "0.7018",
+            "to": "0.7039"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0348",
+          "order": 348,
+          "kind": "paragraph",
+          "text": "'No, not that either.'",
+          "spine": {
+            "from": "0.7039",
+            "to": "0.7059"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0349",
+          "order": 349,
+          "kind": "paragraph",
+          "text": "'But would he claim it's right to outdo the unjust man, and want to do it? Would he think that just or not?'",
+          "spine": {
+            "from": "0.7059",
+            "to": "0.7079"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0350",
+          "order": 350,
+          "kind": "paragraph",
+          "text": "'He'd think it just,' he said, 'and he'd want to do it, but he wouldn't be able to.'",
+          "spine": {
+            "from": "0.7079",
+            "to": "0.7099"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0351",
+          "order": 351,
+          "kind": "paragraph",
+          "text": "'That's not my question,' I said. 'I'm only asking whether the just man refuses to outdo another just man but claims the right to outdo the unjust one.'",
+          "spine": {
+            "from": "0.7099",
+            "to": "0.7120"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0352",
+          "order": 352,
+          "kind": "paragraph",
+          "text": "'Yes,' he said, 'that's right.'",
+          "spine": {
+            "from": "0.7120",
+            "to": "0.7140"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0353",
+          "order": 353,
+          "kind": "paragraph",
+          "text": "'And the unjust man, does he claim the right to outdo the just man and the just action?'",
+          "spine": {
+            "from": "0.7140",
+            "to": "0.7160"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0354",
+          "order": 354,
+          "kind": "paragraph",
+          "text": "'Of course,' he said. 'He claims the right to outdo everyone.'",
+          "spine": {
+            "from": "0.7160",
+            "to": "0.7181"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0355",
+          "order": 355,
+          "kind": "paragraph",
+          "text": "'So the unjust man will try to outdo even another unjust man and another unjust action, struggling to grab the most of everything for himself?'",
+          "spine": {
+            "from": "0.7181",
+            "to": "0.7201"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0356",
+          "order": 356,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.7201",
+            "to": "0.7221"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0357",
+          "order": 357,
+          "kind": "paragraph",
+          "text": "'Then let's put it this way,' I said. 'The just man doesn't try to outdo his like but only his unlike; the unjust man tries to outdo both his like and his unlike.'",
+          "spine": {
+            "from": "0.7221",
+            "to": "0.7241"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0358",
+          "order": 358,
+          "kind": "paragraph",
+          "text": "'Beautifully put,' he said.",
+          "spine": {
+            "from": "0.7241",
+            "to": "0.7262"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0359",
+          "order": 359,
+          "kind": "paragraph",
+          "text": "'And the unjust man is intelligent and good, the just man neither?'",
+          "spine": {
+            "from": "0.7262",
+            "to": "0.7282"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0360",
+          "order": 360,
+          "kind": "paragraph",
+          "text": "'That's good too,' he said.",
+          "spine": {
+            "from": "0.7282",
+            "to": "0.7302"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0361",
+          "order": 361,
+          "kind": "paragraph",
+          "text": "'And so the unjust man resembles the intelligent and good man, while the just man doesn't?'",
+          "spine": {
+            "from": "0.7302",
+            "to": "0.7323"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0362",
+          "order": 362,
+          "kind": "paragraph",
+          "text": "'Of course,' he said. 'A man of a certain character resembles others of that character, and a man who isn't, doesn't.'",
+          "spine": {
+            "from": "0.7323",
+            "to": "0.7343"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0363",
+          "order": 363,
+          "kind": "paragraph",
+          "text": "'Good. So each of them has the character of the people he resembles?'",
+          "spine": {
+            "from": "0.7343",
+            "to": "0.7363"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0364",
+          "order": 364,
+          "kind": "paragraph",
+          "text": "'Naturally,' he said.",
+          "spine": {
+            "from": "0.7363",
+            "to": "0.7383"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0365",
+          "order": 365,
+          "kind": "paragraph",
+          "text": "'Very well, Thrasymachus. Now, do you grant that one man is musical and another unmusical?'",
+          "spine": {
+            "from": "0.7383",
+            "to": "0.7404"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0366",
+          "order": 366,
+          "kind": "paragraph",
+          "text": "'I do.'",
+          "spine": {
+            "from": "0.7404",
+            "to": "0.7424"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0367",
+          "order": 367,
+          "kind": "paragraph",
+          "text": "'And which is intelligent and which is foolish?'",
+          "spine": {
+            "from": "0.7424",
+            "to": "0.7444"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0368",
+          "order": 368,
+          "kind": "paragraph",
+          "text": "'Clearly the musical man is intelligent, and the unmusical one foolish.'",
+          "spine": {
+            "from": "0.7444",
+            "to": "0.7465"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0369",
+          "order": 369,
+          "kind": "paragraph",
+          "text": "'And insofar as he's intelligent, he's good; insofar as he's foolish, bad?'",
+          "spine": {
+            "from": "0.7465",
+            "to": "0.7485"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0370",
+          "order": 370,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.7485",
+            "to": "0.7505"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0371",
+          "order": 371,
+          "kind": "paragraph",
+          "text": "'And the same for a doctor?'",
+          "spine": {
+            "from": "0.7505",
+            "to": "0.7525"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0372",
+          "order": 372,
+          "kind": "paragraph",
+          "text": "'The same.'",
+          "spine": {
+            "from": "0.7525",
+            "to": "0.7546"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0373",
+          "order": 373,
+          "kind": "paragraph",
+          "text": "'Now, my good man, do you think a musician, in tuning a lyre, would want to outdo another musician, to claim the right to more in the tightening and loosening of the strings?'",
+          "spine": {
+            "from": "0.7546",
+            "to": "0.7566"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0374",
+          "order": 374,
+          "kind": "paragraph",
+          "text": "'I don't think so.'",
+          "spine": {
+            "from": "0.7566",
+            "to": "0.7586"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0375",
+          "order": 375,
+          "kind": "paragraph",
+          "text": "'But he'd want to outdo a non-musician?'",
+          "spine": {
+            "from": "0.7586",
+            "to": "0.7606"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0376",
+          "order": 376,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.7606",
+            "to": "0.7627"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0377",
+          "order": 377,
+          "kind": "paragraph",
+          "text": "'And the doctor? In prescribing food and drink, would he want to outdo another doctor, or the medical art itself?'",
+          "spine": {
+            "from": "0.7627",
+            "to": "0.7647"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0378",
+          "order": 378,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.7647",
+            "to": "0.7667"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0379",
+          "order": 379,
+          "kind": "paragraph",
+          "text": "'But he'd want to outdo a non-doctor?'",
+          "spine": {
+            "from": "0.7667",
+            "to": "0.7688"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0380",
+          "order": 380,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.7688",
+            "to": "0.7708"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0381",
+          "order": 381,
+          "kind": "paragraph",
+          "text": "'Now think about all knowledge and ignorance generally. Do you think any man who has knowledge would want to outdo another knowledgeable man, to get more than him in what he says or does? Wouldn't he rather do and say the same as someone like himself in the same situation?'",
+          "spine": {
+            "from": "0.7708",
+            "to": "0.7728"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0382",
+          "order": 382,
+          "kind": "paragraph",
+          "text": "'Perhaps that has to be so,' he said.",
+          "spine": {
+            "from": "0.7728",
+            "to": "0.7748"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0383",
+          "order": 383,
+          "kind": "paragraph",
+          "text": "'And the ignorant man? Wouldn't he want to outdo both the knowledgeable man and the ignorant one alike?'",
+          "spine": {
+            "from": "0.7748",
+            "to": "0.7769"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0384",
+          "order": 384,
+          "kind": "paragraph",
+          "text": "'Maybe so.'",
+          "spine": {
+            "from": "0.7769",
+            "to": "0.7789"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0385",
+          "order": 385,
+          "kind": "paragraph",
+          "text": "'And the man with knowledge is intelligent?'",
+          "spine": {
+            "from": "0.7789",
+            "to": "0.7809"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0386",
+          "order": 386,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.7809",
+            "to": "0.7830"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0387",
+          "order": 387,
+          "kind": "paragraph",
+          "text": "'And the intelligent man is good?'",
+          "spine": {
+            "from": "0.7830",
+            "to": "0.7850"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0388",
+          "order": 388,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.7850",
+            "to": "0.7870"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0389",
+          "order": 389,
+          "kind": "paragraph",
+          "text": "'So the good and intelligent man won't want to outdo his like, but only his unlike, his opposite?'",
+          "spine": {
+            "from": "0.7870",
+            "to": "0.7890"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0390",
+          "order": 390,
+          "kind": "paragraph",
+          "text": "'So it seems,' he said.",
+          "spine": {
+            "from": "0.7890",
+            "to": "0.7911"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0391",
+          "order": 391,
+          "kind": "paragraph",
+          "text": "'While the bad and ignorant man wants to outdo both his like and his unlike?'",
+          "spine": {
+            "from": "0.7911",
+            "to": "0.7931"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0392",
+          "order": 392,
+          "kind": "paragraph",
+          "text": "'Apparently.'",
+          "spine": {
+            "from": "0.7931",
+            "to": "0.7951"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0393",
+          "order": 393,
+          "kind": "paragraph",
+          "text": "'Now, Thrasymachus,' I said, 'didn't we say that the unjust man tries to outdo both his like and his unlike? Weren't those your words?'",
+          "spine": {
+            "from": "0.7951",
+            "to": "0.7972"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0394",
+          "order": 394,
+          "kind": "paragraph",
+          "text": "'They were.'",
+          "spine": {
+            "from": "0.7972",
+            "to": "0.7992"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0395",
+          "order": 395,
+          "kind": "paragraph",
+          "text": "'And that the just man won't try to outdo his like, but only his unlike?'",
+          "spine": {
+            "from": "0.7992",
+            "to": "0.8012"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0396",
+          "order": 396,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.8012",
+            "to": "0.8032"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0397",
+          "order": 397,
+          "kind": "paragraph",
+          "text": "'So the just man resembles the intelligent and good man, and the unjust man resembles the bad and ignorant one.'",
+          "spine": {
+            "from": "0.8032",
+            "to": "0.8053"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0398",
+          "order": 398,
+          "kind": "paragraph",
+          "text": "'It looks that way.'",
+          "spine": {
+            "from": "0.8053",
+            "to": "0.8073"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0399",
+          "order": 399,
+          "kind": "paragraph",
+          "text": "'And we agreed that each has the character of the one he resembles.'",
+          "spine": {
+            "from": "0.8073",
+            "to": "0.8093"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0400",
+          "order": 400,
+          "kind": "paragraph",
+          "text": "'We did.'",
+          "spine": {
+            "from": "0.8093",
+            "to": "0.8114"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0401",
+          "order": 401,
+          "kind": "paragraph",
+          "text": "'So the just man has turned out to be good and intelligent, and the unjust man ignorant and bad.'",
+          "spine": {
+            "from": "0.8114",
+            "to": "0.8134"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0402",
+          "order": 402,
+          "kind": "paragraph",
+          "text": "Thrasymachus conceded all this, but not as easily as I now relate it. He had to be dragged to it, sweating, for it was a blazing summer day. And then I saw something I'd never seen before: Thrasymachus blushing. Once we'd agreed that justice is virtue and intelligence, and injustice vice and ignorance, I went on.",
+          "spine": {
+            "from": "0.8134",
+            "to": "0.8154"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0403",
+          "order": 403,
+          "kind": "paragraph",
+          "text": "'Good,' I said. 'Let's take that as settled. But we also said that injustice is strong. Do you remember, Thrasymachus?'",
+          "spine": {
+            "from": "0.8154",
+            "to": "0.8174"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0404",
+          "order": 404,
+          "kind": "paragraph",
+          "text": "'I remember,' he said, 'but I'm not happy even with what you just said, and I have something to say about it. Only, if I said it, I know you'd accuse me of making speeches. So either let me speak my piece, or, if you'd rather keep asking questions, go ahead and ask, and I'll do what one does with old women telling tales: I'll say \"Fine,\" and nod yes and no.'",
+          "spine": {
+            "from": "0.8174",
+            "to": "0.8195"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0405",
+          "order": 405,
+          "kind": "paragraph",
+          "text": "'But don't do it against your real opinion,' I said.",
+          "spine": {
+            "from": "0.8195",
+            "to": "0.8215"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0406",
+          "order": 406,
+          "kind": "paragraph",
+          "text": "'I'll answer to please you,' he said, 'since you won't let me make a speech. What else do you want?'",
+          "spine": {
+            "from": "0.8215",
+            "to": "0.8235"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0407",
+          "order": 407,
+          "kind": "paragraph",
+          "text": "'Nothing, by Zeus,' I said. 'If that's what you'll do, do it, and I'll ask the questions.'",
+          "spine": {
+            "from": "0.8235",
+            "to": "0.8256"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0408",
+          "order": 408,
+          "kind": "paragraph",
+          "text": "'Then ask away.'",
+          "spine": {
+            "from": "0.8256",
+            "to": "0.8276"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0409",
+          "order": 409,
+          "kind": "paragraph",
+          "text": "'I'll ask what I asked before, so we can go through our inquiry into justice and injustice in order. The claim was that injustice is stronger and more powerful than justice. But now that justice has turned out to be intelligence and virtue, it'll easily be shown to be stronger than injustice, since injustice is ignorance, as no one can now deny. But I don't want to leave it there, Thrasymachus. I want to look at it differently. Would you say that a city can be unjust, and can try to enslave other cities unjustly, and succeed, and hold many of them in subjection?'",
+          "spine": {
+            "from": "0.8276",
+            "to": "0.8296"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0410",
+          "order": 410,
+          "kind": "paragraph",
+          "text": "'Of course,' he said. 'And the best city will do this best, the one that's most perfectly unjust.'",
+          "spine": {
+            "from": "0.8296",
+            "to": "0.8316"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0411",
+          "order": 411,
+          "kind": "paragraph",
+          "text": "'I understand that's your position,' I said. 'But here's what I want to examine: when one city becomes master of another, can it hold that power without justice, or must it have justice too?'",
+          "spine": {
+            "from": "0.8316",
+            "to": "0.8337"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0412",
+          "order": 412,
+          "kind": "paragraph",
+          "text": "'If you're right that justice is intelligence,' he said, 'then it needs justice. But if I'm right, then it doesn't.'",
+          "spine": {
+            "from": "0.8337",
+            "to": "0.8357"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0413",
+          "order": 413,
+          "kind": "paragraph",
+          "text": "'I'm delighted, Thrasymachus,' I said, 'that you're not just nodding yes and no, but giving fine answers.'",
+          "spine": {
+            "from": "0.8357",
+            "to": "0.8377"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0414",
+          "order": 414,
+          "kind": "paragraph",
+          "text": "'I'm doing it to please you,' he said.",
+          "spine": {
+            "from": "0.8377",
+            "to": "0.8398"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0415",
+          "order": 415,
+          "kind": "paragraph",
+          "text": "'How kind of you. Now please me with one more. Do you think a city, an army, a band of robbers or thieves, or any group out to do wrong together, could accomplish anything if its members wronged one another?'",
+          "spine": {
+            "from": "0.8398",
+            "to": "0.8418"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0416",
+          "order": 416,
+          "kind": "paragraph",
+          "text": "'No, they couldn't,' he said.",
+          "spine": {
+            "from": "0.8418",
+            "to": "0.8438"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0417",
+          "order": 417,
+          "kind": "paragraph",
+          "text": "'And if they didn't wrong one another, they'd accomplish more?'",
+          "spine": {
+            "from": "0.8438",
+            "to": "0.8458"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0418",
+          "order": 418,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.8458",
+            "to": "0.8479"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0419",
+          "order": 419,
+          "kind": "paragraph",
+          "text": "'Because injustice, Thrasymachus, breeds factions and hatreds and fighting among them, while justice brings unity and friendship. Isn't that so?'",
+          "spine": {
+            "from": "0.8479",
+            "to": "0.8499"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0420",
+          "order": 420,
+          "kind": "paragraph",
+          "text": "'Let it be so,' he said, 'I don't want to quarrel with you.'",
+          "spine": {
+            "from": "0.8499",
+            "to": "0.8519"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0421",
+          "order": 421,
+          "kind": "paragraph",
+          "text": "'And good of you not to, my friend. But tell me this. If it's the nature of injustice to plant hatred wherever it's found, then when it springs up among free men or slaves, won't it make them hate one another, split them into factions, and leave them unable to act together?'",
+          "spine": {
+            "from": "0.8519",
+            "to": "0.8540"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0422",
+          "order": 422,
+          "kind": "paragraph",
+          "text": "'It will.'",
+          "spine": {
+            "from": "0.8540",
+            "to": "0.8560"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0423",
+          "order": 423,
+          "kind": "paragraph",
+          "text": "'And even between just two men, if injustice arises, won't they fall out, hate each other, and become enemies both to one another and to the just?'",
+          "spine": {
+            "from": "0.8560",
+            "to": "0.8580"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0424",
+          "order": 424,
+          "kind": "paragraph",
+          "text": "'They will.'",
+          "spine": {
+            "from": "0.8580",
+            "to": "0.8600"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0425",
+          "order": 425,
+          "kind": "paragraph",
+          "text": "'And suppose injustice takes up residence in a single man. Will it lose its power, or keep it intact?'",
+          "spine": {
+            "from": "0.8600",
+            "to": "0.8621"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0426",
+          "order": 426,
+          "kind": "paragraph",
+          "text": "'Let's say it keeps it,' he said.",
+          "spine": {
+            "from": "0.8621",
+            "to": "0.8641"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0427",
+          "order": 427,
+          "kind": "paragraph",
+          "text": "'Then doesn't its power work like this: wherever it settles, in a city, a family, an army, or anything else, it first makes that thing incapable of acting as one, because of the internal strife and division injustice breeds, and then it makes it an enemy to itself and to everything opposed to it, and to whatever is just? Isn't that how it works?'",
+          "spine": {
+            "from": "0.8641",
+            "to": "0.8661"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0428",
+          "order": 428,
+          "kind": "paragraph",
+          "text": "'Certainly.'",
+          "spine": {
+            "from": "0.8661",
+            "to": "0.8682"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0429",
+          "order": 429,
+          "kind": "paragraph",
+          "text": "'And in a single man, I imagine, it will do exactly the same. It will make him incapable of acting, because he's at war within himself and not of one mind, and it will make him his own enemy, and an enemy to the just. Won't it?'",
+          "spine": {
+            "from": "0.8682",
+            "to": "0.8702"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0430",
+          "order": 430,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.8702",
+            "to": "0.8722"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0431",
+          "order": 431,
+          "kind": "paragraph",
+          "text": "'And the gods, my friend, are they not just?'",
+          "spine": {
+            "from": "0.8722",
+            "to": "0.8742"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0432",
+          "order": 432,
+          "kind": "paragraph",
+          "text": "'Granted,' he said.",
+          "spine": {
+            "from": "0.8742",
+            "to": "0.8763"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0433",
+          "order": 433,
+          "kind": "paragraph",
+          "text": "'So the unjust man will be an enemy of the gods, Thrasymachus, and the just man their friend?'",
+          "spine": {
+            "from": "0.8763",
+            "to": "0.8783"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0434",
+          "order": 434,
+          "kind": "paragraph",
+          "text": "'Feast on the argument all you like,' he said. 'I won't fight you, for fear of offending the company.'",
+          "spine": {
+            "from": "0.8783",
+            "to": "0.8803"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0435",
+          "order": 435,
+          "kind": "paragraph",
+          "text": "'Then finish the feast for me,' I said, 'by going on answering as you've been doing. We've shown that the just are wiser and better and more capable of action, while the unjust can't even act together. In fact, when we talk about men who are thoroughly bad acting effectively as a group, we don't speak quite accurately. If they'd been completely unjust, they could never have kept their hands off one another. Clearly there was some remnant of justice left in them that kept them from wronging each other as they wronged their victims. That's what got them as far as they got, but they were only half-villains in their crimes, because men who are utterly unjust and bad through and through are also utterly incapable of doing anything. That much I now see is true, and not what you said at first. But there was a further question we set out to examine: whether the just live a better and happier life than the unjust. I think they clearly do, from what we've already said, but let's look at it more carefully, because this is no trivial matter. It's nothing less than the question of how one ought to live.'",
+          "spine": {
+            "from": "0.8803",
+            "to": "0.8824"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0436",
+          "order": 436,
+          "kind": "paragraph",
+          "text": "'Go on, then,' he said.",
+          "spine": {
+            "from": "0.8824",
+            "to": "0.8844"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0437",
+          "order": 437,
+          "kind": "paragraph",
+          "text": "'I will. Tell me, would you say a horse has some function?'",
+          "spine": {
+            "from": "0.8844",
+            "to": "0.8864"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0438",
+          "order": 438,
+          "kind": "paragraph",
+          "text": "'I would.'",
+          "spine": {
+            "from": "0.8864",
+            "to": "0.8884"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0439",
+          "order": 439,
+          "kind": "paragraph",
+          "text": "'And would you call the function of a horse, or of anything else, that work which can be done only with it, or best done with it?'",
+          "spine": {
+            "from": "0.8884",
+            "to": "0.8905"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0440",
+          "order": 440,
+          "kind": "paragraph",
+          "text": "'I don't follow,' he said.",
+          "spine": {
+            "from": "0.8905",
+            "to": "0.8925"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0441",
+          "order": 441,
+          "kind": "paragraph",
+          "text": "'Let me put it this way. Can you see with anything but your eyes?'",
+          "spine": {
+            "from": "0.8925",
+            "to": "0.8945"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0442",
+          "order": 442,
+          "kind": "paragraph",
+          "text": "'Certainly not.'",
+          "spine": {
+            "from": "0.8945",
+            "to": "0.8966"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0443",
+          "order": 443,
+          "kind": "paragraph",
+          "text": "'Or hear with anything but your ears?'",
+          "spine": {
+            "from": "0.8966",
+            "to": "0.8986"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0444",
+          "order": 444,
+          "kind": "paragraph",
+          "text": "'No.'",
+          "spine": {
+            "from": "0.8986",
+            "to": "0.9006"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0445",
+          "order": 445,
+          "kind": "paragraph",
+          "text": "'So we'd be right to call seeing and hearing the functions of these?'",
+          "spine": {
+            "from": "0.9006",
+            "to": "0.9026"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0446",
+          "order": 446,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.9026",
+            "to": "0.9047"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0447",
+          "order": 447,
+          "kind": "paragraph",
+          "text": "'And again: you could cut off a vine shoot with a carving knife or a chisel or many other tools.'",
+          "spine": {
+            "from": "0.9047",
+            "to": "0.9067"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0448",
+          "order": 448,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.9067",
+            "to": "0.9087"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0449",
+          "order": 449,
+          "kind": "paragraph",
+          "text": "'But with none of them so well as with a pruning knife made for the job?'",
+          "spine": {
+            "from": "0.9087",
+            "to": "0.9108"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0450",
+          "order": 450,
+          "kind": "paragraph",
+          "text": "'True.'",
+          "spine": {
+            "from": "0.9108",
+            "to": "0.9128"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0451",
+          "order": 451,
+          "kind": "paragraph",
+          "text": "'So shall we call that the pruning knife's function?'",
+          "spine": {
+            "from": "0.9128",
+            "to": "0.9148"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0452",
+          "order": 452,
+          "kind": "paragraph",
+          "text": "'We shall.'",
+          "spine": {
+            "from": "0.9148",
+            "to": "0.9168"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0453",
+          "order": 453,
+          "kind": "paragraph",
+          "text": "'Now I think you'll grasp what I meant when I asked whether the function of a thing is what can be done only with it, or best done with it.'",
+          "spine": {
+            "from": "0.9168",
+            "to": "0.9189"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0454",
+          "order": 454,
+          "kind": "paragraph",
+          "text": "'Yes,' he said, 'I understand, and I agree.'",
+          "spine": {
+            "from": "0.9189",
+            "to": "0.9209"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0455",
+          "order": 455,
+          "kind": "paragraph",
+          "text": "'And does each thing that has a function also have a virtue, an excellence? Let's go back to our examples. We said the eyes have a function?'",
+          "spine": {
+            "from": "0.9209",
+            "to": "0.9229"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0456",
+          "order": 456,
+          "kind": "paragraph",
+          "text": "'They do.'",
+          "spine": {
+            "from": "0.9229",
+            "to": "0.9249"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0457",
+          "order": 457,
+          "kind": "paragraph",
+          "text": "'And do the eyes have a virtue too?'",
+          "spine": {
+            "from": "0.9249",
+            "to": "0.9270"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0458",
+          "order": 458,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.9270",
+            "to": "0.9290"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0459",
+          "order": 459,
+          "kind": "paragraph",
+          "text": "'And the ears have a function and a virtue?'",
+          "spine": {
+            "from": "0.9290",
+            "to": "0.9310"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0460",
+          "order": 460,
+          "kind": "paragraph",
+          "text": "'Yes.'",
+          "spine": {
+            "from": "0.9310",
+            "to": "0.9331"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0461",
+          "order": 461,
+          "kind": "paragraph",
+          "text": "'And the same for everything else?'",
+          "spine": {
+            "from": "0.9331",
+            "to": "0.9351"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0462",
+          "order": 462,
+          "kind": "paragraph",
+          "text": "'The same.'",
+          "spine": {
+            "from": "0.9351",
+            "to": "0.9371"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0463",
+          "order": 463,
+          "kind": "paragraph",
+          "text": "'Now then, could the eyes ever do their work well if they lacked their own proper virtue and had its defect instead?'",
+          "spine": {
+            "from": "0.9371",
+            "to": "0.9391"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0464",
+          "order": 464,
+          "kind": "paragraph",
+          "text": "'How could they,' he said, 'if they were blind and couldn't see?'",
+          "spine": {
+            "from": "0.9391",
+            "to": "0.9412"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0465",
+          "order": 465,
+          "kind": "paragraph",
+          "text": "'You mean if they lacked their proper virtue, which is sight. But I'm not at that point yet. I'm only asking, more generally, whether things do their work well by their own proper virtue and badly by their own proper defect.'",
+          "spine": {
+            "from": "0.9412",
+            "to": "0.9432"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0466",
+          "order": 466,
+          "kind": "paragraph",
+          "text": "'That's true,' he said.",
+          "spine": {
+            "from": "0.9432",
+            "to": "0.9452"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0467",
+          "order": 467,
+          "kind": "paragraph",
+          "text": "'And the ears, deprived of their proper virtue, can't do their work?'",
+          "spine": {
+            "from": "0.9452",
+            "to": "0.9473"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0468",
+          "order": 468,
+          "kind": "paragraph",
+          "text": "'True.'",
+          "spine": {
+            "from": "0.9473",
+            "to": "0.9493"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0469",
+          "order": 469,
+          "kind": "paragraph",
+          "text": "'And the same goes for everything else?'",
+          "spine": {
+            "from": "0.9493",
+            "to": "0.9513"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0470",
+          "order": 470,
+          "kind": "paragraph",
+          "text": "'I think so.'",
+          "spine": {
+            "from": "0.9513",
+            "to": "0.9533"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0471",
+          "order": 471,
+          "kind": "paragraph",
+          "text": "'Then consider this. Doesn't the soul have a function that nothing else could perform? Managing, ruling, deliberating, and the like. Could we rightly assign these to anything but the soul?'",
+          "spine": {
+            "from": "0.9533",
+            "to": "0.9554"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0472",
+          "order": 472,
+          "kind": "paragraph",
+          "text": "'To nothing else.'",
+          "spine": {
+            "from": "0.9554",
+            "to": "0.9574"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0473",
+          "order": 473,
+          "kind": "paragraph",
+          "text": "'And living? Isn't that one of the soul's functions?'",
+          "spine": {
+            "from": "0.9574",
+            "to": "0.9594"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0474",
+          "order": 474,
+          "kind": "paragraph",
+          "text": "'Absolutely,' he said.",
+          "spine": {
+            "from": "0.9594",
+            "to": "0.9615"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0475",
+          "order": 475,
+          "kind": "paragraph",
+          "text": "'And do we say the soul has a virtue too?'",
+          "spine": {
+            "from": "0.9615",
+            "to": "0.9635"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0476",
+          "order": 476,
+          "kind": "paragraph",
+          "text": "'We do.'",
+          "spine": {
+            "from": "0.9635",
+            "to": "0.9655"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0477",
+          "order": 477,
+          "kind": "paragraph",
+          "text": "'And could the soul ever perform its functions well if deprived of its own virtue, or is that impossible?'",
+          "spine": {
+            "from": "0.9655",
+            "to": "0.9675"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0478",
+          "order": 478,
+          "kind": "paragraph",
+          "text": "'Impossible.'",
+          "spine": {
+            "from": "0.9675",
+            "to": "0.9696"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0479",
+          "order": 479,
+          "kind": "paragraph",
+          "text": "'So a bad soul will necessarily rule and manage badly, and a good soul will do all these things well?'",
+          "spine": {
+            "from": "0.9696",
+            "to": "0.9716"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0480",
+          "order": 480,
+          "kind": "paragraph",
+          "text": "'Necessarily.'",
+          "spine": {
+            "from": "0.9716",
+            "to": "0.9736"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0481",
+          "order": 481,
+          "kind": "paragraph",
+          "text": "'And we agreed that justice is the virtue of the soul and injustice its defect?'",
+          "spine": {
+            "from": "0.9736",
+            "to": "0.9757"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0482",
+          "order": 482,
+          "kind": "paragraph",
+          "text": "'We did.'",
+          "spine": {
+            "from": "0.9757",
+            "to": "0.9777"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0483",
+          "order": 483,
+          "kind": "paragraph",
+          "text": "'So the just soul, and the just man, will live well, and the unjust will live badly?'",
+          "spine": {
+            "from": "0.9777",
+            "to": "0.9797"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0484",
+          "order": 484,
+          "kind": "paragraph",
+          "text": "'So your argument shows.'",
+          "spine": {
+            "from": "0.9797",
+            "to": "0.9817"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0485",
+          "order": 485,
+          "kind": "paragraph",
+          "text": "'And the man who lives well is blessed and happy, and the one who lives badly is the opposite?'",
+          "spine": {
+            "from": "0.9817",
+            "to": "0.9838"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0486",
+          "order": 486,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.9838",
+            "to": "0.9858"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0487",
+          "order": 487,
+          "kind": "paragraph",
+          "text": "'So the just man is happy and the unjust man wretched?'",
+          "spine": {
+            "from": "0.9858",
+            "to": "0.9878"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0488",
+          "order": 488,
+          "kind": "paragraph",
+          "text": "'Let it be so,' he said.",
+          "spine": {
+            "from": "0.9878",
+            "to": "0.9899"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0489",
+          "order": 489,
+          "kind": "paragraph",
+          "text": "'But being wretched isn't profitable; being happy is.'",
+          "spine": {
+            "from": "0.9899",
+            "to": "0.9919"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0490",
+          "order": 490,
+          "kind": "paragraph",
+          "text": "'Of course.'",
+          "spine": {
+            "from": "0.9919",
+            "to": "0.9939"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0491",
+          "order": 491,
+          "kind": "paragraph",
+          "text": "'So injustice, my dear Thrasymachus, is never more profitable than justice.'",
+          "spine": {
+            "from": "0.9939",
+            "to": "0.9959"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0492",
+          "order": 492,
+          "kind": "paragraph",
+          "text": "'Let this be your feast at the festival of Bendis, Socrates,' he said.",
+          "spine": {
+            "from": "0.9959",
+            "to": "0.9980"
+          }
+        },
+        {
+          "id": "edition.republic.lectio-modern.book-01.seg-0493",
+          "order": 493,
+          "kind": "paragraph",
+          "text": "'For which I have you to thank, Thrasymachus,' I said, 'now that you've grown gentle with me and stopped being harsh. And yet I haven't feasted well, though that's my own fault, not yours. Like a glutton who grabs at each new dish as it's brought round, snatching a taste before he's properly enjoyed the last, I think I've rushed from one thing to the next before finding the answer to what we first set out to discover, namely what justice is. I dropped that and went chasing after whether it's vice and ignorance or virtue and wisdom. Then another question came up, whether injustice is more profitable than justice, and I couldn't keep myself from leaving the first to follow that. So the upshot of the whole conversation is that I know nothing. As long as I don't know what justice is, I'm hardly likely to know whether it's a virtue or not, or whether the man who has it is happy or unhappy.'",
+          "spine": {
+            "from": "0.9980",
+            "to": "1.0000"
+          }
+        }
+      ]
+    }
+  ]
 }
