@@ -18,7 +18,7 @@
       "Albert J. Edmunds, Hymns of the Faith (1902, public domain)",
       "Acharya Buddharakkhita (1985, consulted, not quoted)"
     ],
-    "tokensEstimated": 20765,
+    "tokensEstimated": 23737,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -213,6 +213,132 @@
       "older": "Müller (1881): \"is there known a spot in the whole world where death could not overcome (the mortal).\"",
       "lectio": "We restore the standard Pali reading, which ends not with \"death\" but with pāpakammā—\"an evil deed.\" The verse says there is no spot on earth where one may be freed from one's own evil deed (yatthaṭṭhito mucceyya pāpakammā).",
       "note": "Müller's printed text reads maccu (\"death\") at the close, but the received Pali of Papavagga 127 ends with pāpakammā, and the verse's own framing—and the chapter title, \"Evil\"—is about the inescapable fruit of a wrong deed, not death in general. The prompt's directive and the Pali agree against Müller's word here. We follow the Pali: nowhere—sky, sea, or mountain cave—can you outrun the deed you have done."
+    },
+    {
+      "locus": "129-130",
+      "phrase": "Everyone trembles at the rod",
+      "older": "Müller (1881): \"All men tremble at punishment, all men fear death.\"",
+      "lectio": "We render the Pali sabbe tasanti dandassa literally as \"everyone trembles at the rod,\" keeping the physical danda (stick, staff, rod) that gives the whole chapter its name, rather than the abstract \"punishment.\"",
+      "note": "Danda is a real stick or rod—the cowherd's staff in verse 135, the rod laid down in 142, the weapon raised against the harmless in 137. Müller's \"punishment\" hides the concrete image and breaks the thread that ties the chapter together. \"The rod\" keeps the picture and lets the reader feel the blow each verse is about, while \"others are just like yourself\" makes the Pali's golden-rule reasoning (attanam upamam katva, \"making oneself the measure\") plain."
+    },
+    {
+      "locus": "134",
+      "phrase": "like a gong that is cracked and gives no sound",
+      "older": "Müller (1881): \"If, like a shattered metal plate (gong), thou utter not, then thou hast reached Nirvana.\"",
+      "lectio": "We keep Müller's gong but free its diction—\"a gong that is cracked and gives no sound\" for \"a shattered metal plate\"—and render esa patto'si nibbanam as having \"come close to Nirvana,\" the verse's promise to the one who answers anger with silence.",
+      "note": "The Pali kamso upahato yatha is a struck bronze gong that has been flattened or cracked so that it no longer rings—dull and silent. The image is exact: the person who will not retaliate, who absorbs a harsh word and gives back no sound, has stilled the strife (sarambha) in himself and stands at the threshold of Nirvana. \"Cracked and gives no sound\" keeps the picture concrete where \"shattered metal plate\" goes vague."
+    },
+    {
+      "locus": "137",
+      "phrase": "Whoever takes up the rod against those who are unarmed and harmless",
+      "older": "Müller (1881): \"A fool does not know when he commits his evil deeds: but the wicked man burns by his own deeds, as if burnt by fire.\"",
+      "lectio": "We follow the received Pali of verse 137—yo dandena adandesu appadutthesu dussati, \"whoever does violence with the rod to those who are unarmed and harmless\"—which opens the famous tenfold-punishment passage of verses 137-140. Müller's printed line is an aberrant reading that severs verse 137 from the list of ten states it is meant to introduce.",
+      "note": "Müller's edition prints at 137 a line that properly belongs with verse 136 (the fool burned by his own deeds), leaving 138-140 with no head. The standard Pali, confirmed across the tradition, begins the chapter's centerpiece here: harm the harmless and you will swiftly meet one of ten miseries. We restore the Pali reading the prompt names—\"the rod that falls on the harmless brings tenfold suffering\"—so the passage stands whole, and keep Müller's \"burned as if by fire\" at its rightful place in 136."
+    },
+    {
+      "locus": "153–154",
+      "phrase": "the maker of this house … you shall not build this house again",
+      "older": "Müller (1881): \"Looking for the maker of this tabernacle, I shall have to run through a course of many births … But now, maker of the tabernacle, thou hast been seen; thou shalt not make up this tabernacle again.\"",
+      "lectio": "We restore the Pali gahakāraka as \"house-builder\" rather than Müller's archaic and religiously loaded \"maker of this tabernacle,\" and render this as the Buddha's own cry of enlightenment — spoken, the tradition holds, at the foot of the Bodhi tree — keeping its full weight: \"House-builder, now you are seen! You shall not build this house again.\"",
+      "note": "The Pali gahakāraka (anekajāti saṃsāraṃ sandhāvissaṃ … gahakārakaṃ gavesanto) is literally the builder of a house, the craving (taṇhā) that frames the \"house\" of the body birth after birth; \"tabernacle\" imports a Biblical word the Pali does not have. These are among the most famous lines in all Buddhism, traditionally the Buddha's first words upon awakening, so we keep the architectural image (builder, rafters, ridgepole) exact and let the verse land with the force of a victory cry."
+    },
+    {
+      "locus": "154",
+      "phrase": "my mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving",
+      "older": "Müller (1881): \"the mind, approaching the Eternal (visankhara, nirvana), has attained to the extinction of all desires.\"",
+      "lectio": "We render visaṅkhāragataṃ cittaṃ taṇhānaṃ khayam ajjhagā as \"my mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving,\" choosing \"the unconditioned\" for visaṅkhāra rather than Müller's \"the Eternal,\" and \"the end of craving\" for taṇhānaṃ khaya rather than the vaguer \"extinction of all desires.\"",
+      "note": "Visaṅkhāra is the \"un-constructed\" or unconditioned — that which is not put together out of formations (saṅkhāra), a standard epithet of Nibbāna; \"the Eternal\" smuggles in a different metaphysic. And taṇhā is specifically craving, the very \"house-builder\" of the verse before, so the climax names its end exactly: the mind has reached the unmade, and craving is finished. We keep \"Nirvana\" alongside, as the Pali tradition glosses it."
+    },
+    {
+      "locus": "150",
+      "phrase": "the body is a fortress built of bones, plastered over with flesh and blood",
+      "older": "Müller (1881): \"After a stronghold has been made of the bones, it is covered with flesh and blood, and there dwell in it old age and death, pride and deceit.\"",
+      "lectio": "We tighten Müller's two-step (\"a stronghold has been made … it is covered\") into a single image — \"a fortress built of bones and plastered over with flesh and blood\" — keeping aṭṭhīnaṃ nagaraṃ (a city/fortress of bones) and the grim tenants who dwell within: old age and death, pride and deceit.",
+      "note": "The Pali aṭṭhīnaṃ nagaraṃ kataṃ maṃsalohitalepanaṃ pictures the body as a walled city framed of bone and daubed over with flesh and blood, housing jarā ca maccu ca māno makkho ca — aging, death, pride, and contempt/hypocrisy. \"Plastered\" keeps the literal lepana (a smearing-over, a coat of plaster), which makes the body's solidity look like a thin daubed shell, the point of this chapter's hard look at the flesh."
+    },
+    {
+      "locus": "160",
+      "phrase": "You are your own master; who else could be?",
+      "older": "Müller (1881): \"Self is the lord of self, who else could be the lord? With self well subdued, a man finds a lord such as few can find.\"",
+      "lectio": "We render the Pali attā hi attano nātho / ko hi nātho paro siyā as \"You are your own master; who else could be?\" turning Müller's abstract third-person aphorism into direct address, and translate nātho as \"master\" (the one in charge, the refuge and protector) rather than the feudal \"lord.\"",
+      "note": "The Pali nātha means lord, protector, refuge — the one you can rely on — and the verse's punch is that this can only be yourself. Müller's \"lord\" and the doubled \"self … self\" read as Victorian and abstract; \"you are your own master\" keeps the exact sense (you are the one responsible for and capable of saving yourself) while letting the proverb land as the second-person challenge the Pali makes it."
+    },
+    {
+      "locus": "161",
+      "phrase": "grinds the fool down as a diamond grinds the gem it was cut from",
+      "older": "Müller (1881): \"The evil done by oneself, self-begotten, self-bred, crushes the foolish, as a diamond breaks a precious stone.\"",
+      "lectio": "We keep the diamond simile but restore the force of vajiraṃ va smamayaṃ maniṃ — a diamond grinding the very stone-gem it was born from — so the picture mirrors the verse's point that self-made evil destroys the self that made it.",
+      "note": "The Pali calls the diamond smamaya, \"stone-born\" — itself a hardened gem — and has it grind (abhimatthati) another gem of the same stuff. That parallel is the whole figure: just as the diamond is born of stone and yet wears stone away, so the fool's evil is self-begotten (attajaṃ attasambhavaṃ) and yet wears the fool away. Müller's \"breaks a precious stone\" loses the self-from-self mirroring; \"grinds the gem it was cut from\" keeps it without adding anything not in the Pali."
+    },
+    {
+      "locus": "165",
+      "phrase": "By yourself you are stained … by yourself you are made pure; no one can purify another",
+      "older": "Müller (1881): \"By oneself the evil is done, by oneself one suffers; by oneself evil is left undone, by oneself one is purified. Purity and impurity belong to oneself, no one can purify another.\"",
+      "lectio": "We render the Pali saṃkilissati as \"you are stained\" (defiled, made impure) rather than Müller's \"one suffers,\" so the verse holds its single image of purity and impurity from the first line to the last, and put it in direct address to match the chapter's voice.",
+      "note": "The Pali attanā va kataṃ pāpaṃ attanā saṃkilissati pairs \"the wrong is done by oneself\" with \"by oneself one is defiled\" — saṃkilissati is to be stained or polluted, the exact opposite of visujjhati, \"is purified,\" in the next clause. Müller's \"one suffers\" breaks that pairing and weakens the verse's famous conclusion that purity and impurity are wholly one's own. \"Stained / made pure\" keeps the single thread, and the closing line — no one can purify another — is preserved word for word in sense."
+    },
+    {
+      "locus": "175",
+      "phrase": "the adept travel through the air by their own spiritual power",
+      "older": "Müller (1881): \"they go through the ether by means of their miraculous power\"",
+      "lectio": "We render the Pali ākāse yanti iddhiyā as \"travel through the air by their own spiritual power,\" naming iddhi as the meditative attainment it is, rather than Müller's vague \"miraculous power\" and archaic \"ether.\"",
+      "note": "Iddhi is one of the higher knowledges (abhiññā) won through deep meditation — the power to move through space — not a generic \"miracle.\" The verse sets three images side by side: the swan keeps to the sun's track, the adept passes through the air by iddhi, and the wise pass out of the world altogether by conquering Mara. \"Spiritual power\" keeps the technical sense; \"ether\" is dropped as dead Victorian science."
+    },
+    {
+      "locus": "175",
+      "phrase": "conquered Mara and all his army",
+      "older": "Müller (1881): \"when they have conquered Mara and his train\"",
+      "lectio": "We render the Pali māraṃ savāhiniṃ as \"Mara and all his army\" rather than Müller's \"Mara and his train.\"",
+      "note": "Savāhinī means \"together with his host/army\" — Mara, the King of Death, marshaled with his forces, the standard image of the tempter's whole array drawn up for battle. \"Train\" now reads as a retinue or a trailing robe and loses the martial force; \"army\" keeps the picture of the wise winning the field against death itself, and preserves the proper noun Mara."
+    },
+    {
+      "locus": "178",
+      "phrase": "the fruit of the first step into the stream",
+      "older": "Müller (1881): \"the reward of the first step in holiness\"",
+      "lectio": "We restore the Pali sotāpattiphalaṃ as \"the fruit of the first step into the stream,\" keeping the river image of stream-entry that Müller flattens into the abstract \"first step in holiness.\"",
+      "note": "Sotāpatti is the technical first stage of awakening — literally \"entering the stream\" (sota, stream + āpatti, entering); one who reaches it is a sotāpanna, \"one who has entered the stream,\" certain of Nirvana within a few more lives. Müller's \"first step in holiness\" loses the concrete metaphor and the doctrinal precision. \"The first step into the stream\" keeps the water image — and chimes with the far-shore crossing of chapter VI — without naming the technical term inside the verse."
+    },
+    {
+      "locus": "188-192",
+      "phrase": "the safe refuge—the Buddha, the Dhamma, the Sangha, and the Four Noble Truths",
+      "older": "Müller (1881): \"He who takes refuge with Buddha, the Law, and the Church; he who, with clear understanding, sees the four holy truths:—viz. pain, the origin of pain, the destruction of pain, and the eightfold holy way that leads to the quieting of pain;—that is the safe refuge.\"",
+      "lectio": "We keep the famous structure intact but restore the Buddhist terms the Pali names directly: the Dhamma (the Law) and the Sangha (the Order) for Müller's vaguer \"the Law and the Church,\" and render the Four Noble Truths as suffering, its cause, its ending, and the Noble Eightfold Path—not the abstract \"pain\" and \"quieting of pain.\"",
+      "note": "The Pali (Buddhaṃ dhammaṃ ca saṅghaṃ ca … cattāri ariyasaccāni) names the three refuges and the four truths that are the doctrinal heart of the whole tradition. \"Church\" wrongly imports a Christian institution for saṅgha, the monastic community; \"Order\" is the standard rendering. Müller's dukkha as \"pain\" is too narrow—dukkha is suffering, unsatisfactoriness, the whole ache of conditioned existence. We hold the refuge verses and the four truths complete and explicit, since this is the passage the chapter exists for."
+    },
+    {
+      "locus": "183",
+      "phrase": "Not to do any evil, to cultivate good, to purify one's mind—this is the teaching of all the Buddhas",
+      "older": "Müller (1881): \"Not to commit any sin, to do good, and to purify one's mind, that is the teaching of (all) the Awakened.\"",
+      "lectio": "We keep this most central of all Buddhist summaries hard and plain: \"Not to do any evil, to cultivate good, to purify one's own mind.\" We avoid \"sin,\" which carries a Christian weight the Pali pāpa (evil, harm, the unwholesome) does not, and render kusalassa upasampadā as \"to cultivate good\" rather than the flat \"to do good.\"",
+      "note": "The Pali sabbapāpassa akaraṇaṃ, kusalassa upasampadā, sacittapariyodapanaṃ is the verse Buddhists call the summary of the whole teaching. Akaraṇa is the not-doing, the active restraint, of all pāpa; upasampadā is the taking-up, the cultivating and full undertaking, of the wholesome (kusala); sacittapariyodapana is the cleansing of one's own mind. \"Sin\" mistranslates pāpa by importing guilt before a god; \"evil\" keeps it as harmful, unwholesome action. We preserve the threefold shape exactly so the line reads as the memorable creed it is."
+    },
+    {
+      "locus": "184",
+      "phrase": "Patience is the highest austerity; Nirvana is the highest, say the Buddhas",
+      "older": "Müller (1881): \"The Awakened call patience the highest penance, long-suffering the highest Nirvana.\"",
+      "lectio": "We separate the two sayings the Pali keeps distinct: patience and endurance are the highest austerity, and—as a saying of its own—\"Nirvana is the highest,\" say the Buddhas. Müller's \"long-suffering the highest Nirvana\" wrongly fuses them into one phrase.",
+      "note": "The Pali reads khantī paramaṃ tapo titikkhā, nibbānaṃ paramaṃ vadanti buddhā: \"Patience, forbearance, is the highest austerity; the Buddhas say Nirvana is the highest.\" These are two parallel declarations—one about the highest practice (patient endurance, not bodily self-torture, is the true tapas), the other about the highest goal (Nibbana). Müller's reading makes \"long-suffering\" modify \"Nirvana,\" losing the second clause's force as the Buddhas' verdict on the supreme end. We restore both as the Pali has them, and keep titikkhā (endurance) alongside khantī (patience)."
+    },
+    {
+      "locus": "202",
+      "phrase": "no losing throw like hatred",
+      "older": "Müller (1881): \"there is no losing throw like hatred; there is no pain like this body.\"",
+      "lectio": "We keep Müller's \"losing throw\" for the Pali kali — the unlucky cast of the dice — but restore khandha as \"the burden of body and mind\" rather than flattening it to \"this body.\"",
+      "note": "The Pali natthi dosasamo kali names hatred as the ruinous throw in a game of dice, the move that loses everything; the gambling image is worth keeping. And n'atthi khandhādisā dukkhā points not to the physical body alone but to the five khandhas — the whole bundle of form, feeling, perception, impulse, and consciousness that we take to be a self. \"The burden of body and mind\" keeps the doctrinal weight that Müller's \"this body\" loses, without naming the technical term mid-verse."
+    },
+    {
+      "locus": "203",
+      "phrase": "the things we are made of are the worst of burdens",
+      "older": "Müller (1881): \"the body the greatest of pains.\"",
+      "lectio": "We render saṅkhāra as \"the things we are made of\" — the conditioned, put-together stuff of existence — rather than narrowing it, as Müller does, to \"the body.\"",
+      "note": "Saṅkhārā are all conditioned, fabricated things: everything that is compounded and therefore impermanent, the whole machinery of becoming. The verse pairs hunger, the worst recurring affliction of the body, with saṅkhāra, the deeper affliction of being conditioned at all — which is why the cure named in the next breath is Nirvana, the unconditioned. \"The body\" loses that arc; \"the things we are made of\" keeps the contrast between the conditioned and the peace beyond it."
+    },
+    {
+      "locus": "204",
+      "phrase": "a trusted friend the best of kin",
+      "older": "Müller (1881): \"trust is the best of relationships.\"",
+      "lectio": "We read vissāsaparamā ñātī as \"a trusted friend the best of kin\" rather than the abstract \"trust is the best of relationships,\" keeping ñātī (kinsfolk, relatives) as a person, not a relationship.",
+      "note": "The Pali ñātī means kin, blood relatives; the verse's four-fold proverb sets a concrete best against each category — best gain, best wealth, best kinsman, best happiness. Vissāsa is trust, confidence, intimacy, so vissāsaparamā ñātī is the one you can fully trust, who counts as the truest relative of all. Müller's \"trust is the best of relationships\" abstracts a person into a quality and breaks the parallel; \"a trusted friend the best of kin\" restores it, and chimes with verse 207's \"welcome of kin.\""
     }
   ],
   "sections": [
@@ -1541,6 +1667,834 @@
           "order": 12,
           "kind": "paragraph",
           "text": "127. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed.",
+          "spine": {
+            "from": "0.9167",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-10",
+      "order": 10,
+      "label": "Chapter X. Punishment",
+      "title": "The Rod",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "129. Everyone trembles at the rod; everyone is afraid of death. Knowing that others are just like yourself, do not kill, and do not make others kill.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0588"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "130. Everyone trembles at the rod; everyone holds life dear. Knowing that others are just like yourself, do not kill, and do not make others kill.",
+          "spine": {
+            "from": "0.0588",
+            "to": "0.1176"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "131. Whoever, hunting his own happiness, harms with the rod other beings who long for happiness too, will find no happiness hereafter.",
+          "spine": {
+            "from": "0.1176",
+            "to": "0.1765"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "132. But whoever, hunting his own happiness, does not harm with the rod other beings who long for happiness too, will find happiness hereafter.",
+          "spine": {
+            "from": "0.1765",
+            "to": "0.2353"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "133. Speak harshly to no one, or those you wound will answer you in kind. Angry words are painful, and blow will fall on blow.",
+          "spine": {
+            "from": "0.2353",
+            "to": "0.2941"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "134. But if you can stay silent, like a gong that is cracked and gives no sound, then you have come close to Nirvana, for there is no more strife in you.",
+          "spine": {
+            "from": "0.2941",
+            "to": "0.3529"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "135. As a cowherd with his staff drives the cattle out to pasture, so do old age and death drive the life of every living thing.",
+          "spine": {
+            "from": "0.3529",
+            "to": "0.4118"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "136. Even while he is doing it, the fool does not see the harm in his evil deeds; but later he is scorched by what he has done, as if burned by fire.",
+          "spine": {
+            "from": "0.4118",
+            "to": "0.4706"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "137. Whoever takes up the rod against those who are unarmed and harmless, who wrongs the innocent, will quickly come to one of these ten states:",
+          "spine": {
+            "from": "0.4706",
+            "to": "0.5294"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "138. sharp pain, or disaster, or injury to the body, or grave illness, or loss of his mind;",
+          "spine": {
+            "from": "0.5294",
+            "to": "0.5882"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "139. or trouble from those in power, or a terrible accusation, or the loss of his family, or the ruin of all he owns;",
+          "spine": {
+            "from": "0.5882",
+            "to": "0.6471"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "140. or fire will burn his house to the ground. And when his body breaks apart, the fool is reborn in hell.",
+          "spine": {
+            "from": "0.6471",
+            "to": "0.7059"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "141. Not going naked, not matted hair, not filth, not fasting, not sleeping on the bare ground, not smearing the body with dust, not crouching motionless—none of these can cleanse a person who has not gone beyond his cravings.",
+          "spine": {
+            "from": "0.7059",
+            "to": "0.7647"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "142. But the one who is calm even though finely dressed, who is still, restrained, and self-controlled, who lives a pure life and has laid down the rod against every living thing—he is the true Brahmin, the true ascetic, the true monk.",
+          "spine": {
+            "from": "0.7647",
+            "to": "0.8235"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "143. Is there anywhere in the world a person so restrained by his own sense of shame that he gives no cause for blame, as a fine horse gives no cause for the whip?",
+          "spine": {
+            "from": "0.8235",
+            "to": "0.8824"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "144. Be like a fine horse that breaks into a run at the touch of the whip: be eager and alive. By faith, by virtue, by effort, by deep meditation, by clear judgment of the truth, by right knowledge and right conduct, with full awareness, you will leave this great suffering behind.",
+          "spine": {
+            "from": "0.8824",
+            "to": "0.9412"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-10.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "145. Farmers channel the water where they want it; arrow-makers straighten the shaft; carpenters shape the wood; and the good shape themselves.",
+          "spine": {
+            "from": "0.9412",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-11",
+      "order": 11,
+      "label": "Chapter XI. Old Age",
+      "title": "Old Age",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "146. What laughter, what joy, when the world is forever burning? Wrapped in darkness as you are, why do you not seek a light?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "147. Look at this body, all dressed up — a mass of wounds, a thing of patched-together parts, sickly, full of cravings, with nothing in it that lasts.",
+          "spine": {
+            "from": "0.1000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "148. This body is worn out, a nest of disease, ready to fall apart. This rotting heap breaks to pieces; life ends in death.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.3000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "149. These white bones, scattered like gourds thrown away in autumn — what pleasure is there in looking at them?",
+          "spine": {
+            "from": "0.3000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "150. The body is a fortress built of bones and plastered over with flesh and blood, and inside it live old age and death, pride and deceit.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "151. Even the gleaming chariots of kings wear out, and the body too is wearing toward its end. But the virtue of the good never wears out — so the good pass it on, one to another.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "152. The person who has learned little grows old like an ox: his body grows heavier, but his wisdom does not grow.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.7000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "153, 154. Through many births I ran on, seeking and never finding the builder of this house — and painful is birth, again and again. House-builder, now you are seen! You shall not build this house again. Your rafters are all broken, your ridgepole shattered. My mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving.",
+          "spine": {
+            "from": "0.7000",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "155. Those who have kept no discipline, and have gathered no treasure in their youth, waste away like old herons beside a lake that has no fish.",
+          "spine": {
+            "from": "0.8000",
+            "to": "0.9000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-11.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "156. Those who have kept no discipline, and have gathered no treasure in their youth, lie like worn-out bows, sighing over the past.",
+          "spine": {
+            "from": "0.9000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-12",
+      "order": 12,
+      "label": "Chapter XII. Self",
+      "title": "Self",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "157. If you hold yourself dear, then guard yourself well. Through at least one of the three watches of the night, let the wise stay awake and watchful.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "158. First set yourself in what is right; only then teach others. The wise who do this bring no blame upon themselves.",
+          "spine": {
+            "from": "0.1000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "159. Do for yourself what you would have others do; train yourself before you train anyone else, for the self is the hardest of all to master. Only the well-mastered are fit to master others.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.3000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "160. You are your own master; who else could be? With yourself well mastered, you have found a master few ever find.",
+          "spine": {
+            "from": "0.3000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "161. The evil you do is your own; it is born of you, bred by you, and it grinds the fool down as a diamond grinds the gem it was cut from.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "162. The one whose wickedness runs deep drags himself down to the very ruin his enemy would wish for him, as a strangling vine drags down the tree it has wrapped.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "163. Things that harm you, and that do you no good, are all too easy to do. What is good and brings you benefit is the hardest thing of all to do.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.7000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "164. The fool who scorns the teaching of the worthy ones, the Noble Ones, the upright, and follows a false doctrine instead, bears fruit only to his own destruction, like the reed that dies the year it flowers.",
+          "spine": {
+            "from": "0.7000",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "165. By yourself the wrong is done; by yourself you are stained. By yourself the wrong is left undone; by yourself you are made pure. Purity and impurity are your own; no one can purify another.",
+          "spine": {
+            "from": "0.8000",
+            "to": "0.9000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-12.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "166. However great another's good may be, do not neglect your own true good for it. Once you have seen clearly what your own good is, give yourself to it.",
+          "spine": {
+            "from": "0.9000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-13",
+      "order": 13,
+      "label": "Chapter XIII. The World",
+      "title": "The World",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "167. Do not follow the low way. Do not live in heedlessness. Do not take up false views. Do not be a friend of the world.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "168. Rouse yourself! Do not be idle! Follow the path of virtue. The virtuous rest in peace, in this world and the next.",
+          "spine": {
+            "from": "0.0833",
+            "to": "0.1667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "169. Follow the path of virtue, not the way of wrongdoing. The virtuous rest in peace, in this world and the next.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "170. Look on the world as a bubble; look on it as a mirage. The King of Death never sees the one who sees the world this way.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "171. Come, look at this glittering world, like a painted royal chariot. Fools sink into it, but the wise take no hold of it.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "172. The one who was heedless before, and afterward grows heedful, lights up this world like the moon set free from a cloud.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "173. The one whose evil deeds are covered over by good lights up this world like the moon set free from a cloud.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "174. This world is blind; only a few here see clearly. Only a few reach heaven, like birds slipping free of the net.",
+          "spine": {
+            "from": "0.5833",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "175. Swans travel the path of the sun; the adept travel through the air by their own spiritual power. The wise are led out of this world once they have conquered Mara and all his army.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "176. The one who breaks the single law of truth, who speaks lies and mocks the world to come, will stop at no evil.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "177. The stingy never reach the world of the gods; only fools have no praise for giving. The wise rejoice in giving, and so find happiness in the world to come.",
+          "spine": {
+            "from": "0.8333",
+            "to": "0.9167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-13.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "178. Better than sole rule over the earth, better than going to heaven, better than lordship over all the worlds, is the fruit of the first step into the stream.",
+          "spine": {
+            "from": "0.9167",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-14",
+      "order": 14,
+      "label": "Chapter XIV. The Buddha (The Awakened)",
+      "title": "The Awakened One",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "179. The one whose conquest cannot be undone, into whose conquest no craving in this world can enter—by what track will you trace him, the Awakened One, whose knowing is endless, who leaves no trail at all?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0588"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "180. The one whom no desire, with all its nets and poisons, can lead anywhere astray—by what track will you trace him, the Awakened One, whose knowing is endless, who leaves no trail at all?",
+          "spine": {
+            "from": "0.0588",
+            "to": "0.1176"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "181. Even the gods envy the wise—those who are awake and never heedless, who give themselves to meditation, who delight in the peace of letting the world go.",
+          "spine": {
+            "from": "0.1176",
+            "to": "0.1765"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "182. Hard it is to be born a human being; hard is the life of mortals; hard it is to hear the true teaching; and hardest of all, rare beyond rare, is the arising of a Buddha, an Awakened One.",
+          "spine": {
+            "from": "0.1765",
+            "to": "0.2353"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "183. Not to do any evil; to cultivate good; to purify one's own mind—this is the teaching of all the Buddhas, the Awakened Ones.",
+          "spine": {
+            "from": "0.2353",
+            "to": "0.2941"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "184. Patience and endurance are the highest austerity; \"Nirvana is the highest,\" say the Buddhas. The one who strikes another is no true renouncer; the one who wounds another is no true seeker.",
+          "spine": {
+            "from": "0.2941",
+            "to": "0.3529"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "185. To speak no blame and do no harm; to live restrained under the rule of the teaching; to eat in moderation; to keep to a solitary bed and seat; and to give the mind to the highest things—this is the teaching of the Awakened.",
+          "spine": {
+            "from": "0.3529",
+            "to": "0.4118"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "186. There is no satisfying the craving for pleasure, not even with a downpour of gold. \"Pleasures are sweet for a moment and end in pain\"—the wise know this.",
+          "spine": {
+            "from": "0.4118",
+            "to": "0.4706"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "187. So the disciple who is fully awake takes no delight even in the pleasures of heaven; he delights only in the ending of all craving.",
+          "spine": {
+            "from": "0.4706",
+            "to": "0.5294"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "188. Driven by fear, people run for refuge to many places—to mountains and forests, to groves and sacred trees.",
+          "spine": {
+            "from": "0.5294",
+            "to": "0.5882"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "189. But that is not the safe refuge, that is not the highest refuge; taking refuge there, you are not freed from all suffering.",
+          "spine": {
+            "from": "0.5882",
+            "to": "0.6471"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "190. The one who takes refuge in the Buddha, in the Dhamma—the Law—and in the Sangha—the Order—and who sees with right wisdom the Four Noble Truths:",
+          "spine": {
+            "from": "0.6471",
+            "to": "0.7059"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "191. that there is suffering; that suffering has a cause; that suffering can be brought to an end; and that there is the Noble Eightfold Path that leads to the end of suffering—",
+          "spine": {
+            "from": "0.7059",
+            "to": "0.7647"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "192. that is the safe refuge, that is the highest refuge; taking that refuge, you are freed from all suffering.",
+          "spine": {
+            "from": "0.7647",
+            "to": "0.8235"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "193. A great one, a Buddha, is hard to find; he is not born just anywhere. But wherever such a sage is born, that people flourishes.",
+          "spine": {
+            "from": "0.8235",
+            "to": "0.8824"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "194. Happy is the arising of the Awakened; happy is the teaching of the true Law; happy is the harmony of the Order; happy is the practice of those who live in harmony.",
+          "spine": {
+            "from": "0.8824",
+            "to": "0.9412"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-14.seg-0017",
+          "order": 17,
+          "kind": "paragraph",
+          "text": "195, 196. Whoever honors those worthy of honor—whether the Awakened Buddhas or their disciples—who have left every obstacle behind and crossed beyond all grief and longing; whoever honors such ones, set free and past all fear, his merit is beyond all measuring; no one can reckon how great it is.",
+          "spine": {
+            "from": "0.9412",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-15",
+      "order": 15,
+      "label": "Chapter XV. Happiness",
+      "title": "Happiness",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "197. Let us live happily, then, free of hatred among those who hate. Among people who hate, let us live free of hatred.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "198. Let us live happily, then, in good health among the sick. Among people who are sick, let us live in good health.",
+          "spine": {
+            "from": "0.0833",
+            "to": "0.1667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "199. Let us live happily, then, free of greed among the greedy. Among people who are greedy, let us live free of greed.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "200. Let us live happily, then, owning nothing at all. We will feed on joy, like the bright gods of streaming light.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "201. Victory breeds hatred, and the defeated lie down in pain. Letting go of both victory and defeat, the peaceful lie down happy.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "202. There is no fire like craving, no losing throw like hatred, no suffering like the burden of body and mind, no happiness higher than peace.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "203. Hunger is the worst of diseases; the things we are made of are the worst of burdens. See this as it truly is, and you see Nirvana, the highest happiness.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "204. Health is the greatest gift, contentment the greatest wealth, a trusted friend the best of kin, and Nirvana the highest happiness.",
+          "spine": {
+            "from": "0.5833",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "205. Having tasted the sweetness of solitude and of peace, you are freed of fear and freed of wrong, drinking in the sweetness of the truth.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "206. Good it is to see the Noble Ones; to live with them is always happiness. Keep clear of fools, and you will be happy indeed.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "207. Whoever keeps company with fools grieves a long road; company with fools is painful, like company with an enemy, while company with the wise is a joy, like the welcome of kin.",
+          "spine": {
+            "from": "0.8333",
+            "to": "0.9167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-15.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "208. So follow the good and the wise, the steadfast, the learned, the enduring, the faithful, the Noble — follow such a one, good and wise, as the moon follows the path of the stars.",
           "spine": {
             "from": "0.9167",
             "to": "1.0000"
