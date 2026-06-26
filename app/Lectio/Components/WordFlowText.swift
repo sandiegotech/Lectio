@@ -56,7 +56,7 @@ struct WordFlowText: View {
                         // ScrollView always keeps the pan and the text scrolls freely.
                         // Tap dismisses/syncs; a deliberate hold looks the word up.
                         .onTapGesture { onTap() }
-                        .onLongPressGesture(minimumDuration: 0.3) { define(i) }
+                        .onLongPressGesture(minimumDuration: 0.22) { define(i) }
                 }
             }
         }
@@ -100,7 +100,6 @@ struct WordFlowText: View {
     private func underlineColor(_ i: Int) -> Color? {
         let w = norm(i)
         if let d = definedWord, !d.isEmpty, w == d { return pal.accent }
-        if !w.isEmpty, savedWords.contains(w) { return pal.gold.opacity(op(0.7, 0.55)) }
         return nil
     }
 
@@ -109,10 +108,15 @@ struct WordFlowText: View {
         let inActive = activeRange?.contains(i) ?? false
         let inSaved = savedRanges.contains { $0.contains(i) }
         let isFocus = (focusWord != nil) && norm(i) == focusWord
+        // A saved word gets a soft gold highlight wherever it appears in the text.
+        let w = norm(i)
+        let isSavedWord = !w.isEmpty && savedWords.contains(w)
         if inActive {
             Rectangle().fill(pal.accent.opacity(op(0.22, 0.16)))
         } else if inSaved {
             Rectangle().fill(pal.gold.opacity(op(0.30, 0.18)))
+        } else if isSavedWord {
+            Rectangle().fill(pal.gold.opacity(op(0.22, 0.15)))
         } else if isFocus {
             Rectangle().fill(pal.gold.opacity(op(0.22, 0.14)))
         } else {
