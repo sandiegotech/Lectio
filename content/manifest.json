@@ -521,7 +521,7 @@
       "title": "The Dhammapada",
       "author": "Early Buddhist tradition",
       "referenceScheme": "chapter.verse",
-      "defaultEditionId": "edition.dhammapada.muller-1881",
+      "defaultEditionId": "edition.dhammapada.lectio-modern",
       "collections": [
         "collection.eastern-canon"
       ],
@@ -533,7 +533,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "158550d8addb00ca"
+          "checksum": "67a9f19773dfe818"
         },
         {
           "id": "edition.dhammapada.muller-1881",
@@ -542,11 +542,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
-          "checksum": "6c785cb922a6d9a3"
+          "checksum": "152eee0afb096ff4"
         }
       ],
       "hasAlignment": false,
-      "checksum": "d8fc31d419345c1a"
+      "checksum": "e2a0cfa893ec0f7d"
     }
   ],
   "dictionaries": []

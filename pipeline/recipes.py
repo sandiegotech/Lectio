@@ -786,7 +786,7 @@ def dhammapada():
     work = Work(
         id=work_id, title="The Dhammapada", author="Early Buddhist tradition", originalLang="pi",
         composed="300–100 BCE", type="religion", referenceScheme="chapter.verse",
-        defaultEditionId=edition.id, tradition="East",
+        defaultEditionId="edition.dhammapada.lectio-modern", tradition="East",
         blurb=("The Buddha's path at its plainest, in verses meant to be learned by heart: the mind "
                "makes the world, craving makes the suffering, and a way out exists. The best-loved "
                "and most quoted scripture of Buddhism."),
