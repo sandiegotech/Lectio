@@ -19,7 +19,7 @@
       "George Bull (1961, consulted, not quoted)",
       "Harvey Mansfield (1985, consulted, not quoted)"
     ],
-    "tokensEstimated": 49362,
+    "tokensEstimated": 52698,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -81,6 +81,69 @@
       "older": "great energy / valour / virtue (Marriott, 1908)",
       "lectio": "skill, prowess, foresight — translated by context, never as moral \"virtue\"",
       "note": "Machiavelli's \"virtù\" (as in \"buona fortuna e gran virtù\") is not moral virtue but effective capacity: skill, drive, command of one's craft and one's circumstances. Marriott swings between \"energy\" and \"valour\"; we render it by context (\"great skill,\" \"their own skill and foresight\") and flag it here, since reading it as English \"virtue\" inverts Machiavelli's whole argument. Likewise \"fortuna\" we keep as fortune/luck and \"stato\" as state/territory, as the sense requires."
+    },
+    {
+      "locus": "§2 (the two kinds of government)",
+      "phrase": "servi e mancipii",
+      "older": "\"slaves and bondmen\" (Marriott 1908)",
+      "lectio": "\"slaves and bondmen\"",
+      "note": "Machiavelli's Italian is \"sendo tutti stiavi e obligati,\" with the ministers earlier called \"servi\" who serve \"per grazia e concessione sua\" — by the prince's favor and leave. The point is not chattel slavery but total dependence: every officer of the Turk's state holds his place at the prince's pleasure, owns nothing of his own, and so has nothing to bargain with and no following to deliver. We keep the traditional \"slaves and bondmen\" for its bluntness, since the whole contrast with France's hereditary barons rests on it — bound men cannot be bought, because they have no independent base to sell."
+    },
+    {
+      "locus": "§2 (the barons of France)",
+      "phrase": "antichità di sangue",
+      "older": "\"antiquity of blood\" (Marriott 1908)",
+      "lectio": "\"antiquity of blood\"",
+      "note": "The French lords hold their rank \"non per grazia del Signore, ma per antichità di sangue\" — not by the prince's grant but by the age of their lineage. This is the structural hinge of the chapter: power that descends by blood cannot be revoked, so it creates rival centers of loyalty the king cannot dissolve. We render it literally rather than as \"ancient nobility,\" because Machiavelli is naming the mechanism — inherited blood, not royal favor — that makes France easy to invade and hard to keep."
+    },
+    {
+      "locus": "§7 (closing maxim)",
+      "phrase": "dalla disformità del suggetto",
+      "older": "\"by the want of uniformity in the subject state\" (Marriott 1908)",
+      "lectio": "\"on the difference in the states he takes\"",
+      "note": "The closing antithesis is \"non da poca o assai virtù del vincitore, ma dalla disformità del suggetto\" — not from the conqueror's having little or much virtù, but from the disformità of the suggetto, the thing conquered. Marriott's \"want of uniformity in the subject state\" is accurate but stiff. We keep virtù as skill (per this edition's settled rendering) and turn the abstract \"disformità del suggetto\" into the plain \"the difference in the states he takes,\" so the cold final verdict lands: outcomes depend on the structure of what you seize, not on your own brilliance."
+    },
+    {
+      "locus": "paragraph 2 (the central maxim)",
+      "phrase": "el nome della libertà e gli ordini antiqui sua",
+      "older": "the watchword of liberty and its ancient privileges as a rallying point (Marriott 1908)",
+      "lectio": "the name of liberty and its ancient privileges",
+      "note": "This is the cold heart of the chapter. The Italian 'sempre ha per refugio nella rebellione el nome della libertà e gli ordini antiqui sua' makes liberty a thing a free city reaches for — a 'refugio,' a rallying-point — every time it revolts. Marriott's 'watchword' is vivid but adds a metaphor not in the Italian; we keep the plainer 'the name of liberty,' since Machiavelli's force lies precisely in the bare word 'name': not the thing itself but the name of it, invoked, is enough to set men in arms. The point is preserved undiluted — a free city carries this fuse inside it forever."
+    },
+    {
+      "locus": "paragraph 2 (Rome's method)",
+      "phrase": "le disfecero ... disfaccia ... disfatto",
+      "older": "dismantled them ... does not destroy it ... be destroyed by it (Marriott 1908)",
+      "lectio": "dismantled them ... and does not destroy it ... may expect to be destroyed by it",
+      "note": "Machiavelli rings the single verb 'disfare' — to undo, unmake, take apart — across the whole passage: Rome 'le disfecero,' the new master who 'non la disfaccia' will 'essere disfatto da quella.' Marriott reaches for 'dismantled' / 'ruin' / 'destroy,' losing the grim repetition. We keep 'dismantled' for cities physically pulled down and 'destroy' for the man, so the chapter's chilling symmetry survives — you unmake the free city, or it unmakes you."
+    },
+    {
+      "locus": "paragraph 3 (republics)",
+      "phrase": "maggiore vita, maggiore odio, più desiderio di vendetta",
+      "older": "more vitality, greater hatred, and more desire for vengeance (Marriott 1908)",
+      "lectio": "more life, more hatred, more hunger for revenge",
+      "note": "The Italian piles up three nouns in flat parallel — 'più vita, maggiore odio, più desiderio di vendetta' — and the rhythm is the argument: a republic is more alive, and that aliveness is dangerous. Marriott's 'vitality' is a touch clinical; we keep the blunt 'life,' and render 'desiderio di vendetta' as 'hunger for revenge' to give the line the heat Machiavelli loads into it. Nothing is added — the menace is already in the original."
+    },
+    {
+      "locus": "Chapter VI, paragraph 6",
+      "phrase": "all armed prophets have conquered, and the unarmed ones have been destroyed",
+      "older": "all armed prophets have conquered, and the unarmed ones have been destroyed (Marriott 1908)",
+      "lectio": "all armed prophets have conquered, and the unarmed ones have been destroyed",
+      "note": "The Italian is 'Di qui nacque che tutti li profeti armati vinsono, e li disarmati ruinorno.' This is the chapter's hammer-blow, and we keep it word for word with the tradition — no softening. 'Vinsono' is flatly 'conquered, won'; 'ruinorno' is 'were ruined, came to ruin, were destroyed.' The line yokes Moses and Romulus to brute force and casts religious mission as a question of arms; nothing in 'prophet' is allowed to spiritualize it. The reader should feel the cold equation: faith without the power to compel does not survive."
+    },
+    {
+      "locus": "Chapter VI, paragraph 3",
+      "phrase": "owed nothing to luck except the opportunity ... the raw material they could then mold",
+      "older": "they owed anything to fortune beyond opportunity, which brought them the material to mould into the form which seemed best to them (Marriott 1908)",
+      "lectio": "owed nothing to luck except the opportunity, which handed them the raw material they could then mold into whatever shape they pleased",
+      "note": "Here Machiavelli draws the exact line between 'fortuna' and 'virtù' that the whole chapter turns on. Fortune's entire contribution is the 'occasione' — the opening, the material conditions (an enslaved people, a scattered city); everything done with that opening is 'virtù,' rendered here by its sense as force of mind and skill, never moral virtue. We keep 'mold ... raw material' to preserve the sculptor's image: chance supplies only the clay, the man supplies the form. The closing antithesis — 'without that opportunity their force of mind would have been wasted; without that force the opportunity would have come in vain' — is balanced to match the Italian's symmetry."
+    },
+    {
+      "locus": "Chapter VI, paragraph 6",
+      "phrase": "whether to carry their work through they must beg, or whether they can compel",
+      "older": "whether, to consummate their enterprise, have they to use prayers or can they use force (Marriott 1908)",
+      "lectio": "whether to carry their work through they must beg, or whether they can compel",
+      "note": "The Italian is 'se per condurre l'opera loro hanno bisogno di pregare, ovvero possono forzare.' Marriott's 'use prayers' is literal for 'pregare' but misleads a modern ear toward religious prayer; the sense is entreaty — having to ask, persuade, depend on others' consent — set against 'forzare,' to compel by force. We render it 'beg ... compel' to keep the stark binary that sets up the armed/unarmed prophets verdict in the next breath: the innovator who can only ask is finished; the one who can force endures."
     }
   ],
   "sections": [
@@ -333,6 +396,210 @@
           "text": "So King Louis lost Lombardy for failing to observe a single one of the rules kept by those who have taken countries and meant to hold them. There is no miracle in this — it is reasonable and entirely natural. I spoke of these very matters at Nantes with the Cardinal of Rouen, at the time Valentino — as Cesare Borgia, Pope Alexander's son, was commonly called — was occupying the Romagna. When the Cardinal of Rouen remarked to me that the Italians did not understand war, I replied that the French did not understand statecraft, for had they understood it they would never have let the Church grow so great. And indeed it has proven true: France was the cause of the greatness of both the Church and Spain in Italy, and those two were the cause of France's ruin. From this we draw a rule that rarely if ever fails: whoever makes another powerful ruins himself, because he builds that power up by cunning or by force, and both of these are suspect to the very man he has raised.",
           "spine": {
             "from": "0.9300",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-04",
+      "order": 4,
+      "label": "Chapter IV",
+      "title": "Why the Kingdom of Darius, Conquered by Alexander, Did Not Rebel Against Alexander's Successors at His Death",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Given how much trouble men have in holding a newly won state, one might wonder at this: Alexander the Great made himself master of Asia in a few years, and died before it was scarcely settled. It would seem natural for the whole empire to have risen in revolt. Yet his successors held on, and met no difficulty in keeping it beyond what their own ambitions stirred up among themselves.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2812"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "My answer is that all the principalities we have any record of are governed in one of two ways. Either by a prince and a body of servants who, by his favor and leave, help him govern the kingdom as his ministers; or by a prince and barons, who hold their rank not by the prince's grace but by antiquity of blood. Barons of this kind have states and subjects of their own, who acknowledge them as lords and bear them a natural affection. In the states ruled by a prince and his servants, the prince holds far greater authority, for in all his country there is no one recognized as a superior above him; and if the people obey anyone else, they do it as toward a minister and official, and feel no particular loyalty to him.",
+          "spine": {
+            "from": "0.2812",
+            "to": "0.4375"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The clearest examples of these two kinds of government in our own day are the Turk and the King of France. The whole monarchy of the Turk is governed by one lord, and all the rest are his servants. He divides his kingdom into districts and sends out different administrators to govern them, shifting and replacing them as he pleases. The King of France, by contrast, stands in the midst of a great body of ancient lords, each acknowledged by subjects of his own and beloved by them. These lords have their hereditary prerogatives, which the king cannot strip away without danger to himself. So whoever weighs these two states will see that the Turk's is hard to seize but, once taken, easy to hold; while the opposite is true of France. The difficulty of seizing the Turk's state lies in this: an invader cannot be invited in by princes of the kingdom, nor hope that those around the lord will revolt and help his cause. The reasons are the ones already given. Since they are all slaves and bondmen, they are corrupted only with great difficulty, and even once corrupted they are of little use, for they cannot carry the people with them. So anyone who attacks the Turk must reckon on finding him united, and must rely on his own strength rather than on disorder among the enemy. But once the Turk is beaten and routed in the field so thoroughly that he cannot raise his armies again, there is nothing left to fear but the prince's own family; and once that line is wiped out, no one remains to be feared, since the others have no standing with the people. Just as the conqueror could expect nothing from them before his victory, so he has nothing to fear from them after it.",
+          "spine": {
+            "from": "0.4375",
+            "to": "0.6875"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "The reverse holds in kingdoms governed like that of France. There you can easily get in by winning over some baron of the realm, for there are always malcontents and men hungry for change. For the reasons given, such men can open the way into the state and make the victory easy. But holding it afterward brings endless difficulties, from those who helped you and from those you crushed alike. It is not enough to have wiped out the prince's line, because the lords who remain put themselves at the head of fresh risings; and since you can neither satisfy them nor destroy them, you lose that state the moment the chance presents itself.",
+          "spine": {
+            "from": "0.6875",
+            "to": "0.8125"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Now, if you consider what kind of government Darius had, you will find it resembled the Turk's. So Alexander had first to beat him outright in the field and drive him from the country. After that victory, with Darius dead, the state was secure to Alexander for the reasons set out above. Had his successors held together, they could have enjoyed it in ease, for the only upheavals raised in that kingdom were the ones they stirred up themselves.",
+          "spine": {
+            "from": "0.8125",
+            "to": "0.8125"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "But states built like France cannot be held with any such calm. This is why the Romans faced those repeated revolts in Spain, France, and Greece — because of the many principalities in those lands. So long as the memory of them lasted, Rome's hold was never secure; but once the power and long endurance of the empire had blotted that memory out, the Romans became settled masters. And when they later fell to fighting among themselves, each could draw to his side the part of the country where his authority ran; and with the line of the former lords extinguished, those peoples acknowledged no masters but the Romans.",
+          "spine": {
+            "from": "0.8125",
+            "to": "0.8750"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-04.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Weigh all this, and no one will marvel at the ease with which Alexander held the empire of Asia, or at the difficulties others have had in keeping what they took — Pyrrhus and many more. This turns not on the conqueror's having more skill or less, but on the difference in the states he takes.",
+          "spine": {
+            "from": "0.8750",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-05",
+      "order": 5,
+      "label": "Chapter V",
+      "title": "How to Govern Cities or Principalities That Lived Under Their Own Laws Before They Were Annexed",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-05.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the states you acquire have been used to living under their own laws and in freedom, there are three ways to hold them. The first is to ruin them. The second is to go and live there yourself. The third is to let them keep their own laws, exact a tribute, and set up inside the state an oligarchy that will keep it friendly to you. Such a government, knowing it owes its existence to the prince, knows too that it cannot stand without his backing and his power, and so it will do everything to uphold him. A city used to its freedom is held more easily through its own citizens, when you mean to keep it, than by any other means.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-05.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Take the Spartans and the Romans. The Spartans held Athens and Thebes by planting an oligarchy in each — and lost them both anyway. The Romans, to hold Capua, Carthage, and Numantia, dismantled them, and did not lose them. They tried to hold Greece much as the Spartans had held their cities, leaving it free under its own laws, and failed; so in the end, to keep it, they were forced to raze many of its cities. For the truth is there is no sure way to hold such places except to lay them in ruins. Whoever becomes master of a city used to living free, and does not destroy it, may expect to be destroyed by it. For in rebellion it always has a refuge in the name of liberty and its ancient privileges, which neither the passing of time nor any favor will ever make it forget. Whatever you do, whatever provision you make, unless its people are scattered and broken apart they never forget that name or those privileges, but reach for them the moment a chance appears — as Pisa did after the hundred years she had been held in bondage by the Florentines.",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-05.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "But when cities or provinces have been used to living under a prince, and his line is wiped out, then — schooled on the one hand to obey, and left on the other without their old master — they cannot agree on raising one of their own to the throne, and they do not know how to govern themselves. So they are slow to take up arms, and a prince can win them over and make himself secure far more easily. In republics, though, there is more life, more hatred, more hunger for revenge; the memory of their former liberty gives them no rest and never will. The safest course with them is to wipe them out, or to go and live there.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-06",
+      "order": 6,
+      "label": "Chapter VI",
+      "title": "Concerning New Principalities Acquired by One's Own Arms and Skill",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Let no one be surprised if, in speaking of principalities that are wholly new — both the prince and the state new — I reach for the very greatest examples. Men nearly always walk in paths beaten by others, shaping their own conduct by imitation; and though they can never keep entirely to another man's road, or match the skill of the men they imitate, a prudent man will still always set his feet in the paths trodden by the great and model himself on those who have been supreme, so that even if his own ability does not reach theirs, it may at least catch something of their scent. He should do as the skilled archers do: judging the mark too far off, and knowing just how far the strength of their bow will carry, they aim well above it — not to drive the arrow that high, but so that, aiming high, they may strike the mark they actually mean to hit.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "I say, then, that in principalities entirely new, where there is a new prince, the difficulty of holding them is greater or less in proportion to the skill of the man who has acquired them. And since rising from private citizen to prince presupposes either skill or luck, it is plain that one or the other of these will smooth away many of the difficulties. Even so, the man who has leaned least on luck has held on the longest. It also helps that the prince, having no other state, is forced to come and live there in person.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "But to come to those who became princes by their own skill and not by luck, I say that the most outstanding are Moses, Cyrus, Romulus, Theseus, and men like them. And though Moses ought not perhaps to be discussed, since he was merely carrying out what God commanded, still he deserves our admiration if only for the grace that made him worthy to speak with God. But take Cyrus and the others who won or founded kingdoms: you will find them all admirable; and if you weigh their particular deeds and methods, they will not look inferior to those of Moses, for all that he had so great a teacher. Examining their actions and their lives, you see that they owed nothing to luck except the opportunity, which handed them the raw material they could then mold into whatever shape they pleased. Without that opportunity their force of mind would have been wasted; without that force the opportunity would have come in vain.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "It was necessary, then, that Moses should find the people of Israel in Egypt, enslaved and oppressed by the Egyptians, so that they would be willing to follow him to escape their bondage. It was necessary that Romulus should have no place in Alba, and be cast out at birth, if he was to become King of Rome and founder of his country. It was necessary that Cyrus should find the Persians chafing under the rule of the Medes, and the Medes gone soft and slack from a long peace. Theseus could never have shown his skill had he not found the Athenians scattered. These opportunities, then, made these men's fortune, and their own high skill let them seize the opportunity; by which their countries were ennobled and made famous.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Those who come to power by such paths of skill acquire their principality with difficulty but hold it with ease. The difficulties they meet in acquiring it spring in part from the new orders and methods they are forced to bring in to found their rule and make it secure. And it must be borne in mind that there is nothing harder to undertake, nothing more perilous to manage, nor more uncertain of success, than to set oneself up as the leader in introducing a new order of things. For the innovator makes enemies of all who did well under the old order, and finds only lukewarm defenders in those who might do well under the new. This lukewarmness comes partly from fear of their adversaries, who have the law on their side, and partly from the skepticism of men, who do not truly believe in anything new until they have had solid experience of it. So it happens that whenever those hostile to the change get the chance to attack, they do so with the fury of partisans, while the others defend so half-heartedly that the prince is endangered along with them.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "It is necessary, therefore, if we mean to examine this matter properly, to ask whether these innovators stand on their own feet or depend on others — that is, whether to carry their work through they must beg, or whether they can compel. In the first case they always come to grief and accomplish nothing; but when they depend on themselves and can use force, then they are rarely in danger. This is why all armed prophets have conquered, and the unarmed ones have been destroyed. For besides what I have already said, the temper of the people is fickle: it is easy to convince them of a thing, but hard to hold them to that conviction. So matters must be so arranged that when they no longer believe, they can be made to believe by force.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4250"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Had Moses, Cyrus, Theseus, and Romulus been unarmed, they could not have made their constitutions hold for long — as happened in our own day to Fra Girolamo Savonarola, who was ruined along with his new order the moment the crowd stopped believing in him, since he had no way to keep the believers steadfast or to force the doubters to believe. Men like these, then, have great trouble carrying their work through, for all their dangers lie in the climb; but with skill they overcome them, and once they are past, and those who envied their success have been wiped out, they begin to be respected, and go on powerful, secure, honored, and content.",
+          "spine": {
+            "from": "0.4250",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-06.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "To these great examples I will add a lesser one, though it bears some likeness to them and can stand for all of its kind: Hiero of Syracuse. This man rose from private citizen to Prince of Syracuse, and he too owed nothing to luck but the opportunity; for the Syracusans, hard pressed, chose him as their captain, and afterward judged him worthy to be made their prince. Even as a private man his skill was so great that one who wrote of him said he lacked nothing to be a king but a kingdom. He did away with the old army and organized a new one; he dropped his old alliances and made new ones; and once he had soldiers and allies of his own, on such a foundation he could raise whatever building he liked — so that he had endured much trouble in the winning and had little in the keeping.",
+          "spine": {
+            "from": "0.7500",
             "to": "1.0000"
           }
         }
