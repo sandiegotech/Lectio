@@ -19,7 +19,7 @@
       "George Bull (1961, consulted, not quoted)",
       "Harvey Mansfield (1985, consulted, not quoted)"
     ],
-    "tokensEstimated": 59592,
+    "tokensEstimated": 63876,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -207,6 +207,69 @@
       "older": "The worst that a prince may expect from a hostile people is to be abandoned by them; but from hostile nobles he has not only to fear abandonment, but also that they will rise against him (Marriott 1908)",
       "lectio": "The worst a prince has to fear from a hostile people is to be abandoned by them; but from hostile nobles he has to fear not only abandonment but their turning against him",
       "note": "The cold asymmetry that justifies leaning on the people, not the nobles. A hostile people is a passive danger — at worst it walks away ('abbandonato'); hostile nobles are an active one — they 'li venghino contro,' come at him, take the field against him. We keep both halves sharp and unsoftened, and carry through Machiavelli's reasoning: the nobles are 'più antiveggenti e astuti,' shrewder and more far-sighted, so they move early to save themselves and court whoever they think will win. That treachery, not mere desertion, is why a prince stands less securely when the nobles raise him than when the people do."
+    },
+    {
+      "locus": "paragraph 4 (the closing turn)",
+      "phrase": "la natura delli uomini è così obligarsi per li benefizii che si fanno, come per quelli che si ricevano",
+      "older": "it is the nature of men to be bound by the benefits they confer as much as by those they receive (Marriott 1908)",
+      "lectio": "it is the nature of men to feel as much bound by the good they do as by the good they receive",
+      "note": "The quiet psychological hinge of the chapter. Machiavelli's point is counter-intuitive and easily missed: men are tied to you not only by the kindnesses they get but by the sacrifices they make on your behalf. Having burned their own houses in the prince's defense, the people are now invested in him and cling tighter — the cost they have paid binds them. We keep the symmetry of 'fanno / ricevano' (do / receive) flat and bare, since the whole consolation Machiavelli offers the besieged prince rests on it; nothing is added, only the stiff 'confer' is plained to 'do.'"
+    },
+    {
+      "locus": "paragraph 2 (the German example)",
+      "phrase": "Le città della Magna sono liberissime",
+      "older": "The cities of Germany are absolutely free (Marriott 1908)",
+      "lectio": "The cities of Germany are wholly free",
+      "note": "'Magna' is Machiavelli's name for the German lands of the Empire, and the free imperial cities are his model of a principality that needs no one: walled, gunned, stocked with a year's food, and run so that the common people always have paid work. We keep 'Germany' (Marriott's settled rendering) and translate 'liberissime' as 'wholly free' rather than the looser 'absolutely free,' to mark that their freedom is concrete and structural — they obey the emperor only 'quando le vogliono,' when they choose to — not a sentiment but a fact of their walls and stores."
+    },
+    {
+      "locus": "paragraph 1 (the governing distinction)",
+      "phrase": "difendersi dentro alle mura",
+      "older": "are forced to defend themselves by sheltering behind walls (Marriott 1908)",
+      "lectio": "are forced to shelter behind their walls and defend those",
+      "note": "The chapter's whole taxonomy turns on this one line: a prince either can 'fare una giornata' — give battle in the open — or he cannot, and must hole up behind his walls. Marriott's phrasing is accurate; we sharpen the contrast with the preceding clause ('face the enemy in the open') so the binary lands cleanly, since everything that follows — the advice to fortify the town and never defend the open country — flows from which side of this line a prince falls on. 'Defend those' keeps Machiavelli's pointed sense that such a prince defends the walls, not the country."
+    },
+    {
+      "locus": "paragraph 1 (the closing refusal)",
+      "phrase": "sendo esaltati e mantenuti da Dio, sarebbe offizio di uomo presuntuoso e temerario discorrerne",
+      "older": "being exalted and maintained by God, it would be the act of a presumptuous and rash man to discuss them (Marriott 1908)",
+      "lectio": "being exalted and maintained by God, it would be the act of a presumptuous and rash man to discuss them",
+      "note": "The most charged line in the chapter, and we hold it word for word with the tradition. Machiavelli has just catalogued the absurd security of Church states — princes who do not defend, subjects who are not governed — and then, at the one point where a writer might explain the mechanism, he stops: these powers are beyond the reach of the human mind, so to analyze them would be 'presuntuoso e temerario,' presumptuous and rash. The irony is left entirely intact and unmarked, exactly as in the Italian: the man who anatomizes every other kind of rule with cold nerve here professes a piety that reads as its opposite. Softening or explaining it would kill it; the restraint is the joke, and the joke is the argument."
+    },
+    {
+      "locus": "paragraph 1 (the paradox of Church states)",
+      "phrase": "hanno stati e non li difendono; hanno sudditi e non li governano",
+      "older": "These princes alone have states and do not defend them; and they have subjects and do not rule them (Marriott 1908)",
+      "lectio": "These princes alone have states and do not defend them; they have subjects and do not govern them",
+      "note": "Machiavelli builds the paradox in flat parallel clauses, and the rhythm is the point: have states / do not defend, have subjects / do not govern, undefended / not taken, ungoverned / do not mind. Every other chapter of the book is about how brutally hard it is to defend a state and govern subjects; here is the one kind of principality where neither labor is needed, and the deadpan symmetry exposes how strange — almost comic — that exemption is. We keep 'govern' rather than Marriott's 'rule' for 'governano,' to mark the concrete activity of governing that these princes simply skip, and hold the clauses bare and balanced so the absurdity lands without comment."
+    },
+    {
+      "locus": "paragraph 4 (the temporal growth of the Church)",
+      "phrase": " benché la intenzione sua non fussi di fare grande la Chiesa, ma il duca, nondimanco ciò che e' fece tornò a grandezza della Chiesa",
+      "older": "although his intention was not to aggrandize the Church, but the duke, nevertheless what he did contributed to the greatness of the Church (Marriott 1908)",
+      "lectio": "although his aim was not to make the Church great but the duke, what he did told all the same to the Church's greatness",
+      "note": "This is the quiet, devastating hinge of the chapter's history. Alexander VI is being praised — he 'showed how far a pope could prevail with money and with arms' — but Machiavelli immediately notes that the pope was working not for the Church at all but for his own son, Cesare Borgia (Duke Valentino), and that the Church grew great only as a by-product, 'falling heir' to Borgia's ruin. We keep the concessive structure ('although ... what he did told all the same') tight, so the reader feels the cold mechanism beneath the pious surface: the temporal greatness of the Church was the accidental residue of a father's dynastic scheming. The verb 'tornò a grandezza' — turned to, redounded to greatness — is rendered 'told all the same to the Church's greatness' to keep that sense of unintended outcome rather than deliberate design."
+    },
+    {
+      "locus": "paragraph 2 (the foundation)",
+      "phrase": "le buone leggi e le buone armi",
+      "older": "good laws and good arms (Marriott 1908)",
+      "lectio": "good laws and good arms",
+      "note": "The chapter's load-bearing maxim, kept word for word with the tradition. The Italian is 'I principali fondamenti che abbino tutti li stati, così nuovi come vecchi o misti, sono le buone legge e le buone arme; e perché non può essere buone legge dove non sono buone arme, e dove sono buone arme conviene siano buone legge.' The whole argument hinges on the order of cause: arms come first, and good laws follow only where there are good arms, never the reverse. We hold 'good laws and good arms' flat and unsoftened, since Machiavelli is overturning the pious commonplace that law founds a state — for him it is force that founds it, and law that rests on force."
+    },
+    {
+      "locus": "paragraph 3 (the indictment)",
+      "phrase": "inutili e periculose ... disunite, ambiziose, sanza disciplina, infedeli",
+      "older": "useless and dangerous ... disunited, ambitious, and without discipline, unfaithful, valiant before friends, cowardly before enemies (Marriott 1908)",
+      "lectio": "useless and dangerous ... disunited, ambitious, undisciplined, and faithless; brave among friends, cowardly among enemies",
+      "note": "The famous denunciation of mercenaries, and we keep the hammering parallel intact. The Italian is 'le armi mercennarie e ausiliarie sono inutili e periculose ... perché le sono disunite, ambiziose, sanza disciplina, infideli; gagliarde fra gli amici, fra' nimici vile.' Each adjective lands as its own blow, and the sting is in the antithesis 'gagliarde fra gli amici, fra' nimici vile' — swaggering among allies, gutless against the foe. We render 'gagliarde' as 'brave' and 'vile' as 'cowardly' to keep the bare contempt; nothing is added and nothing softened, because the indictment is built to accelerate."
+    },
+    {
+      "locus": "paragraph 4 (the captains)",
+      "phrase": "aspirano alla loro propria grandezza",
+      "older": "they always aspire to their own greatness (Marriott 1908)",
+      "lectio": "they will always be reaching for their own greatness",
+      "note": "The cold core of the case against mercenary captains. Machiavelli sets a trap with no exit: 'O sono uomini valenti, o no; se sono, non te ne puoi fidare, perché sempre aspireranno alla grandezza propria.' The able captain cannot be trusted precisely because he is able — his skill is a threat, since it serves his own ambition, by 'oppressing you, who are their master' or by moving against others against your will; the inept one simply ruins you outright. We keep 'reaching for their own greatness' to mark the verb as an unbroken drive, not a single act: the talent that makes a hired commander useful is the very thing that makes him deadly to the man who hires him."
     }
   ],
   "sections": [
@@ -957,6 +1020,210 @@
           "text": "These principalities are most in danger when they are passing from the civil to the absolute order of rule. For such princes govern either in person or through magistrates. In the second case their position is weaker and less secure, since it rests entirely on the goodwill of those citizens raised to office, who in troubled times can wreck the government with great ease, whether by scheming or by open defiance. And in the thick of such upheavals the prince has no chance to seize absolute authority, because the citizens and subjects, used to taking their orders from the magistrates, are in no mood amid the confusion to take them from him; and in doubtful times he will always be short of men he can trust. A prince of this kind cannot count on what he sees in quiet times, when the citizens need the state — for then they all rush to agree with him, all make promises, and with death far off all swear to die for him; but when trouble comes, when the state has need of its citizens, then he finds very few. And the test is the more dangerous because it can be run only once. So a wise prince must contrive things in such a way that his citizens, in every kind of circumstance whatever, always have need of the state and of him; and then they will always be faithful to him.",
           "spine": {
             "from": "0.8750",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-10",
+      "order": 10,
+      "label": "Chapter X",
+      "title": "How the Strength of All Principalities Should Be Measured",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-10.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "There is one more point to weigh when examining the character of these principalities: whether a prince has power enough to stand on his own at need, or whether he must always lean on the help of others. To make this plain, I count as able to stand on their own those who, by abundance of men or money, can raise an army strong enough to take the field against anyone who comes to attack them; and I count as always needing others those who cannot face the enemy in the open but are forced to shelter behind their walls and defend those. The first case I have already discussed, and will return to as occasion requires. To those in the second case there is nothing to say except to urge them to provision and fortify their towns, and never on any account to defend the open country. Whoever fortifies his town well, and has handled his subjects' affairs as I described above and will describe again, will never be attacked without great caution; for men are always loath to take on enterprises that look difficult, and there is no easy prize in attacking a prince whose town is well fortified and who is not hated by his people.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-10.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The cities of Germany are wholly free; they own little of the country around them, and they obey the emperor only when it suits them, fearing neither him nor any other power they have near them, because they are fortified in such a way that everyone reckons the taking of them by assault would be slow and hard. They all have proper ditches and walls; they have artillery enough; and they always keep stored in public depots enough to eat, drink, and burn for a year. On top of this, to keep the common people content without cost to the state, they always have the means to set them to work for a year at the labors that are the life and strength of the city, the trades by which the people live. They hold military exercises in honor besides, and have many ordinances to keep them up.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.3500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-10.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So a prince who has a strong city and has not made himself hated cannot be attacked; and if anyone should attack him, he will be driven off in disgrace, for the affairs of this world shift so much that it is all but impossible for a man to keep an army idle in the field for a whole year, laying siege. And should someone object that, if the people have property outside the walls and see it burned, they will lose patience, and the long siege and their own self-interest will make them forget their prince — to this I answer that a powerful and spirited prince will master every such difficulty: now giving his subjects hope that the trouble will not last long, now turning their minds to fear of the enemy's cruelty, now dealing shrewdly with those who seem too bold.",
+          "spine": {
+            "from": "0.3500",
+            "to": "0.6500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-10.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Besides, the enemy will naturally burn and lay waste the country the moment he arrives, while the people's spirits are still hot and set on the defense; and so the prince has all the less reason to hesitate, because a few days on, when those spirits have cooled, the damage is already done, the harm is already taken, and there is no remedy left. By then the people only bind themselves more closely to their prince, judging that he stands in their debt now that their houses have been burned and their lands ruined in his defense. For it is the nature of men to feel as much bound by the good they do as by the good they receive. So weigh it all up, and a wise prince will find it no hard thing to keep his citizens' spirits firm through a siege from first to last, so long as he does not fail to feed them and to defend them.",
+          "spine": {
+            "from": "0.6500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-11",
+      "order": 11,
+      "label": "Chapter XI",
+      "title": "Concerning Ecclesiastical Principalities",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-11.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "It remains only to speak of ecclesiastical principalities. With these, all the difficulty lies in getting hold of them, for they are won either by skill or by fortune, and held by neither. They are sustained instead by the ancient institutions of religion, which are so powerful, and of such a kind, that they keep their princes in power no matter how those princes act or live. These princes alone have states and do not defend them; they have subjects and do not govern them; and yet their states, undefended, are not taken from them, and their subjects, ungoverned, do not mind, and have neither the wish nor the means to break away. Such principalities alone are secure and content. But since they are upheld by powers the human mind cannot reach, I will say no more about them: being exalted and maintained by God, it would be the act of a presumptuous and rash man to discuss them.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1562"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-11.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Still, someone might ask how it comes about that the Church has grown so great in temporal power. Before Alexander, the Italian powers — and not just those properly called powers, but every baron and lord, down to the very smallest — counted that temporal power for very little; yet now a king of France trembles before it, and it has been able to drive him out of Italy and to ruin the Venetians. The thing may be plain enough, but I think it worth recalling to mind.",
+          "spine": {
+            "from": "0.1562",
+            "to": "0.3125"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-11.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Before Charles, King of France, came down into Italy, this country lay under the dominion of the Pope, the Venetians, the King of Naples, the Duke of Milan, and the Florentines. These powers had two chief anxieties: first, that no foreigner should enter Italy under arms; second, that none of their own number should seize more territory. The two watched most closely were the Pope and the Venetians. To hold the Venetians in check, all the others had to combine, as they did in the defense of Ferrara; and to keep the Pope down, they made use of the barons of Rome, who, split into two factions, the Orsini and the Colonna, always had some pretext for disorder, and, standing with arms in hand under the very eyes of the pontiff, kept the papacy weak and helpless. And though now and again a bold pope would arise, a Sixtus for instance, neither his fortune nor his wisdom could ever rid him of these troubles. The short life of a pope was a cause of weakness too: in the ten years that is a pope's average reign, he could barely beat down one of the factions, and if, say, one pope had nearly destroyed the Colonna, another would come up hostile to the Orsini, who would revive the Colonna again — and yet would not live long enough to crush the Orsini in his turn. This is why the temporal power of the pope counted for so little in Italy.",
+          "spine": {
+            "from": "0.3125",
+            "to": "0.5625"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-11.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then came Alexander VI, who, of all the popes there have ever been, showed how far a pope could prevail with money and with arms. Using Duke Valentino as his instrument, and seizing on the entry of the French, he brought about all those things I described above in recounting the duke's actions. And although his aim was not to make the Church great but the duke, what he did told all the same to the Church's greatness — for after his death and the duke's ruin, the Church fell heir to all his labors.",
+          "spine": {
+            "from": "0.5625",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-11.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Pope Julius came next, and found the Church strong: master of all the Romagna, with the barons of Rome reduced to impotence and their factions wiped out by Alexander's chastisements, and with the way open, as never before Alexander's time, to heap up money. Julius not only carried on what he found but improved upon it. He set out to take Bologna, to ruin the Venetians, and to drive the French out of Italy; and in all these enterprises he succeeded, and to his greater credit, since he did everything to strengthen the Church and no private man. He kept the Orsini and Colonna factions within the bounds in which he found them; and though there was still some appetite for trouble among them, two things held firm. One was the greatness of the Church, with which he overawed them; the other was his refusal to let them have cardinals of their own, for cardinals are the root of the disorders among them. Whenever these factions have their cardinals, they will not stay quiet for long, since cardinals foster the factions in Rome and outside it, and the barons are forced to back them — and so out of the ambitions of prelates spring the quarrels and tumults of the barons. For these reasons His Holiness Pope Leo has found the papacy at the height of its power; and it is to be hoped that, if his predecessors made it great by arms, he will make it greater still, and more revered, by his goodness and his countless other virtues.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.the-prince.lectio-modern.book-12",
+      "order": 12,
+      "label": "Chapter XII",
+      "title": "How Many Kinds of Soldiery There Are, and Concerning Mercenaries",
+      "segments": [
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Having dealt one by one with the kinds of principality I set out at the start to examine, and having weighed in some measure why one fares well and another badly, and shown the methods by which men have sought to win them and to hold them, it remains for me to discuss in general the means of attack and defense that belong to each.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0972"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "We have seen already how necessary it is for a prince to have his foundations well laid; otherwise he is bound to come to ruin. The chief foundations of every state — new, old, or mixed — are good laws and good arms. And since there cannot be good laws where there are not good arms, and where there are good arms there are bound to be good laws, I will set the laws aside and speak of the arms.",
+          "spine": {
+            "from": "0.0972",
+            "to": "0.1528"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "I say, then, that the arms with which a prince defends his state are either his own, or mercenary, or auxiliary, or a mixture of these. Mercenary and auxiliary arms are useless and dangerous; and any man who rests his state on mercenaries will never stand firm or safe. For they are disunited, ambitious, undisciplined, and faithless; brave among friends, cowardly among enemies; with no fear of God and no good faith toward men. Ruin is put off only for as long as the assault is put off; in peace you are robbed by them, in war by the enemy. The reason is that they have no love and no motive to keep the field beyond their scrap of pay, which is not enough to make them willing to die for you. They are glad to be your soldiers while you wage no war, but when war comes they either bolt or run from the foe. I should have little trouble proving this, for the ruin of Italy has been caused by nothing but her resting, for so many years, all her hopes on mercenaries. They did, it is true, make some showing for a time and looked brave enough among themselves; but when the foreigners came they showed what they were. So it was that Charles, King of France, was let seize Italy with chalk in hand. The man who said our sins were the cause of it spoke the truth — only they were not the sins he had in mind, but the ones I have described; and since they were the sins of princes, the princes too have paid the penalty.",
+          "spine": {
+            "from": "0.1528",
+            "to": "0.1806"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "I want to show further how wretched these arms are. The mercenary captains are either able men or they are not. If they are, you cannot trust them, because they will always be reaching for their own greatness, either by crushing you, their own master, or by crushing others against your will. And if the captain is no soldier, he ruins you in the ordinary way.",
+          "spine": {
+            "from": "0.1806",
+            "to": "0.1944"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And if it is objected that any man under arms, mercenary or not, will do the same, I answer this: arms have to be wielded either by a prince or by a republic. The prince ought to go in person and serve as his own captain. The republic must send its own citizens; and when it sends one who does not prove himself, it should recall him, and when it sends a worthy one, it should bind him by the laws so that he cannot overstep his command. Experience shows that princes who stand alone, and republics under their own arms, make the greatest headway, while mercenary arms do nothing but harm; and a republic armed with its own arms is far harder to bring under the rule of one of its citizens than a republic armed with foreign arms. Rome and Sparta stood for ages armed and free. The Swiss are fully armed and entirely free.",
+          "spine": {
+            "from": "0.1944",
+            "to": "0.2722"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "For an example of mercenaries in ancient times, take the Carthaginians, who were nearly overthrown by their own hired soldiers after the first war with Rome, even though the Carthaginians had men of their own for captains. After the death of Epaminondas, the Thebans made Philip of Macedon captain of their army, and after the victory he stripped them of their freedom.",
+          "spine": {
+            "from": "0.2722",
+            "to": "0.4278"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "When Duke Filippo died, the Milanese hired Francesco Sforza against the Venetians; and once he had beaten the enemy at Caravaggio, he joined with them to crush the Milanese, his own employers. His father, the elder Sforza, in the pay of Queen Giovanna of Naples, abandoned her without warning, so that to save her kingdom she was forced to throw herself into the arms of the King of Aragon. And if it is said that the Venetians and Florentines did once enlarge their dominions with such arms, and yet their captains did not make themselves princes but defended them faithfully, I answer that the Florentines in this were favored by luck. Of the able captains they might have had reason to fear, some did not win their wars, some met opposition, and others turned their ambition elsewhere. One who did not win was Giovanni Acuto — Sir John Hawkwood — and since he did not win, his loyalty was never put to the test; but everyone will admit that, had he won, the Florentines would have lain at his mercy. Sforza always had the Bracceschi against him, so the two watched each other in check: Francesco turned his ambition toward Lombardy, Braccio against the Church and the kingdom of Naples. But let us come to what happened only a little while ago. The Florentines made Paolo Vitelli their captain, a most shrewd man who had risen from private life to the highest renown. Had he taken Pisa, no one can deny the Florentines would have been bound to keep on his good side, for if he had gone over to their enemies they would have had no way to resist him, and if they held on to him they would have had to obey him. As for the Venetians, look at their record and you will see they acted safely and gloriously so long as they sent their own men to war — when, with their armed gentlemen and commoners, they fought bravely. This was before they turned to campaigns on land; once they began fighting on land, they abandoned that virtue and fell in with the custom of Italy. In the early stage of their expansion on land, having little territory and a great reputation, they had not much to fear from their captains. But as they expanded, under Carmagnola, they got a taste of their mistake. They had found him a most able commander — under him they had beaten the Duke of Milan — yet they also saw how lukewarm he had grown in the war, and they judged they would win no more under him. They were unwilling to let him go, and unable to, for fear of losing back what they had gained; so, to make themselves safe, they were driven to murder him. After him they had for captains Bartolomeo da Bergamo, Roberto da San Severino, the Count of Pitigliano, and the like — men under whom they had loss to dread and no gain to hope for, as duly happened later at Vailà, where in a single battle they lost what it had cost them eight hundred years of toil to win. For from such arms come only conquests that are slow, late, and slight, but losses that are sudden and staggering.",
+          "spine": {
+            "from": "0.4278",
+            "to": "0.6833"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "And since these examples have brought me to Italy, which has been ruled for so many years by mercenaries, I want to take them up more seriously, so that, having traced their rise and progress, one may be better placed to set them right. You must understand that in recent times the empire has come to be cast off in Italy, that the Pope has gained more temporal power, and that Italy has been carved up into more states. The reason is that many of the great cities took up arms against their own nobles, who, once favored by the emperor, had been oppressing them, while the Church backed the cities to build up its own temporal authority; and in many others, private citizens became princes. So Italy fell largely into the hands of the Church and of republics; and since the Church is made up of priests and the republic of citizens unused to arms, both began to hire foreigners.",
+          "spine": {
+            "from": "0.6833",
+            "to": "0.8889"
+          }
+        },
+        {
+          "id": "edition.the-prince.lectio-modern.book-12.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "The first to give this kind of soldiery a name was Alberigo da Conio, the Romagnol. Out of his school came, among others, Braccio and Sforza, who in their day were the arbiters of Italy. After them came all the other captains who down to our own time have directed the arms of Italy; and the upshot of all their prowess has been that she has been overrun by Charles, plundered by Louis, ravaged by Ferdinand, and disgraced by the Swiss. The first principle these captains followed was to take all credit from the infantry, to raise their own. They did this because, living on their pay and holding no territory of their own, they could not keep many men, and a handful of foot soldiers gave them no standing; so they took to cavalry, of which a manageable number kept them maintained and honored. Things came to such a pass that in an army of twenty thousand men there were not two thousand on foot. Beyond this, they had used every device to spare themselves and their soldiers hardship and danger, not killing one another in the fray but taking prisoners and releasing them without ransom. They would not attack towns by night, nor would the garrisons of the towns attack their camps by night; they ringed their camp with neither stockade nor ditch; they did not take the field in winter. All this their military rules allowed, and all of it was contrived, as I have said, to dodge effort and danger — and so they have led Italy into slavery and contempt.",
+          "spine": {
+            "from": "0.8889",
             "to": "1.0000"
           }
         }
