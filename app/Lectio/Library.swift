@@ -127,6 +127,46 @@ final class Library: ObservableObject {
         glossIndex[workId]?[WordDictionary.normalize(term)]
     }
 
+    // A definition resolved anywhere in the corpus, for the Gloss handoff
+    // (`lectio://define?term=…`). The reader isn't inside a book, so we search the
+    // shared concept graph first (original-language lemma/transliteration too), then
+    // every work's curated glossary. nil when the word isn't curated yet.
+    struct CorpusGloss {
+        var term: String
+        var gloss: String
+        var kind: String?
+        var concept: Concept?
+        var appearsIn: [(id: String, title: String)]
+    }
+
+    func lookupAnywhere(term: String) -> CorpusGloss? {
+        let n = WordDictionary.normalize(term)
+        guard !n.isEmpty else { return nil }
+
+        func matchesConcept(_ c: Concept) -> Bool {
+            if WordDictionary.normalize(c.term) == n { return true }
+            if let o = c.original {
+                if WordDictionary.normalize(o.lemma) == n { return true }
+                if let t = o.translit, WordDictionary.normalize(t) == n { return true }
+            }
+            return false
+        }
+        if let c = concepts.values.first(where: matchesConcept) {
+            let works = (c.appearsIn ?? []).compactMap { id in
+                workTitle(id: id).map { (id: id, title: $0) }
+            }
+            return CorpusGloss(term: c.term, gloss: c.gloss, kind: c.kind, concept: c, appearsIn: works)
+        }
+        for (workId, index) in glossIndex {
+            if let e = index[n] {
+                let concept = e.conceptId.flatMap { self.concept(id: $0) }
+                let works = workTitle(id: workId).map { [(id: workId, title: $0)] } ?? []
+                return CorpusGloss(term: e.term, gloss: e.gloss, kind: e.kind, concept: concept, appearsIn: works)
+            }
+        }
+        return nil
+    }
+
     func concept(id: String) -> Concept? { concepts[id] }
 
     func workTitle(id: String) -> String? { works.first { $0.id == id }?.title }
