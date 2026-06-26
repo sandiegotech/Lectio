@@ -18,7 +18,7 @@
       "Albert J. Edmunds, Hymns of the Faith (1902, public domain)",
       "Acharya Buddharakkhita (1985, consulted, not quoted)"
     ],
-    "tokensEstimated": 17625,
+    "tokensEstimated": 20765,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -87,6 +87,132 @@
       "older": "a wrongly-directed mind will do us greater mischief … a well-directed mind will do us greater service (Müller 1881)",
       "lectio": "a misdirected mind will do you far worse … far greater is its gift",
       "note": "The chapter's culminating image, and the reason citta must be read as 'mind': a mind aimed wrong (micchāpaṇihitaṃ) harms you more than any enemy, while a mind aimed right (sammāpaṇihitaṃ) helps you more than any parent. 'Mischief/service' undersells the stakes; Lectio sharpens the contrast to 'far worse' and 'greater gift' without adding anything not in the Pali."
+    },
+    {
+      "locus": "49",
+      "phrase": "As the bee takes the nectar and flies off without harming the flower, its color, or its scent",
+      "older": "Müller (1881): \"As the bee collects nectar and departs without injuring the flower, or its colour or scent, so let a sage dwell in his village.\"",
+      "lectio": "We keep Müller's image exactly but free its diction: \"takes the nectar and flies off\" for \"collects nectar and departs,\" and \"without harming the flower, its color, or its scent.\"",
+      "note": "The Pali (yathāpi bhamaro pupphaṃ vaṇṇagandhaṃ aheṭhayaṃ) says the bee leaves the flower's color and scent unhurt — the picture of the monk who takes only his alms-food from the village and damages nothing. The image is the whole point of the verse, so we preserve it intact and only modernize the verbs."
+    },
+    {
+      "locus": "51-52",
+      "phrase": "full of color but with no scent … the fine words of one who speaks well but does not act",
+      "older": "Müller (1881): \"Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.\"",
+      "lectio": "We render subhāsitā (well-spoken) as \"fine words\" and akubbato (not doing) as \"does not act,\" and let the contrast of the two verses carry the point — color without scent is fine words that bear no fruit; color with scent is fine words that bear fruit.",
+      "note": "The crux is that the flower's beauty (color) is the speech, and its scent is the action that makes the speech bear fruit. Müller's \"fruitless words\" is interpretive; we hold the flower-image steady across both verses (color, scent) and let \"does not act\" / \"acts on them, and they bear fruit\" supply the meaning the Pali draws from the same picture."
+    },
+    {
+      "locus": "54",
+      "phrase": "the fragrance of the good travels even against the wind",
+      "older": "Müller (1881): \"the odour of good people travels even against the wind; a good man pervades every place.\"",
+      "lectio": "We render satañ ca gandho as \"the fragrance of the good\" rather than \"the odour of good people,\" and sabbā disā sappuriso pavāti as \"a good person reaches every quarter.\"",
+      "note": "\"Odour\" now carries a faintly bad smell in modern English, the opposite of the verse's sense, so we use \"fragrance\" to match \"the scent of flowers\" earlier in the line. The famous paradox — that ordinary scent cannot go against the wind but a good person's reaches every direction — is kept exact; \"reaches every quarter\" preserves sabbā disā (all directions) without the Victorian \"pervades.\""
+    },
+    {
+      "locus": "60",
+      "phrase": "long is the round of rebirth to the fool",
+      "older": "Müller (1881): \"long is life to the foolish who do not know the true law.\"",
+      "lectio": "We restore the Pali samsaro, rendering it \"the round of rebirth\" rather than flattening it to \"life,\" so the famous triple comparison—long night, long road, long samsara—lands with its full weight.",
+      "note": "The Pali reads dīgho bālāna saṃsāro: literally \"long is samsara to fools.\" Saṃsāra is the wandering-on through repeated birth and death, the cycle the teaching exists to end—not merely a single \"life.\" Müller's \"life\" loses the doctrinal point that the fool's ignorance is what makes the cycle endless; \"the round of rebirth\" keeps it, and matches our handling of samsara elsewhere in the book."
+    },
+    {
+      "locus": "63",
+      "phrase": "the fool who knows he is a fool is wise at least in that",
+      "older": "Müller (1881): \"The fool who knows his foolishness, is wise at least so far.\"",
+      "lectio": "We keep the shape of this beloved paradox but plain it up—\"knows he is a fool\" and \"wise at least in that\"—so the proverb reads as cleanly aloud in modern English as it does in the Pali.",
+      "note": "The Pali yo bālo maññati bālyaṃ paṇḍito vāpi tena so turns on the word-play of bāla (fool) and paṇḍita (wise). The point is that self-knowledge is itself a kind of wisdom, while the fool who imagines himself wise is the true fool. Müller's \"foolishness … so far\" is faithful but stiff; we preserve the antithesis and the bite without the Victorian cadence."
+    },
+    {
+      "locus": "64-65",
+      "phrase": "no more than a spoon tastes the flavor of the soup",
+      "older": "Müller (1881): \"he will perceive the truth as little as a spoon perceives the taste of soup.\"",
+      "lectio": "We render the simile as \"a spoon tastes the flavor of the soup\" (and in 65 \"the tongue tastes the flavor\"), keeping the exact image while dropping Müller's \"perceives,\" which oddly grants the spoon a faculty of perception it is precisely meant to lack.",
+      "note": "The Pali dabbī sūparasaṃ yathā contrasts the spoon (dabbī), which stirs the soup its whole life and never tastes it, with the tongue (jivhā, v.65), which tastes at the first touch. The image is about contact without understanding: the fool may sit beside the wise for a lifetime and absorb nothing. \"Tastes\" is the natural English verb for both spoon and tongue and keeps the paired verses parallel, as the Pali does."
+    },
+    {
+      "locus": "76",
+      "phrase": "follow the one who shows your faults, as a guide to buried treasure",
+      "older": "Müller (1881): \"If you see an intelligent man who tells you where true treasures are to be found … follow that wise man.\"",
+      "lectio": "We restore the Pali image: the wise person is not one who shows you where treasure lies, but one who shows you your own faults, and whom you should follow as you would a guide to buried treasure.",
+      "note": "The Pali nidhinam va pavattaram yam passe vajjadassinam means \"one who points out faults, as one who reveals hidden treasure.\" Müller mistakes the grammar and makes the treasure literal; the point is that honest reproof is itself the treasure. The corrected reading (confirmed against the Pali) is the one the verse is famous for."
+    },
+    {
+      "locus": "81",
+      "phrase": "as a solid rock is not shaken by the wind, so the wise are not moved by praise or blame",
+      "older": "Müller (1881): \"As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.\"",
+      "lectio": "We keep Müller's celebrated rock simile nearly intact, but say \"are not moved\" for samiñjanti rather than the weaker \"falter not,\" and put \"praise or blame\" in the natural English order.",
+      "note": "Pali selo yatha ekaghano vatena na samirati, evam nindapasamsasu na samiñjanti pandita. Samiñjanti is \"to be stirred, to waver, to be moved\"; \"falter\" narrows it to failing nerve. \"Not moved by praise or blame\" keeps the rock's stillness against both winds, which is the whole force of the line."
+    },
+    {
+      "locus": "85",
+      "phrase": "few cross to the other shore; the rest run up and down the near bank",
+      "older": "Müller (1881): \"Few are there among men who arrive at the other shore (become Arhats); the other people here run up and down the shore.\"",
+      "lectio": "We render the contrast plainly as crossing to \"the other shore\" versus running \"up and down the near bank,\" letting the river image stand on its own without the parenthetical gloss inside the verse.",
+      "note": "The Pali paragami (gone to the far shore) is the standard metaphor for reaching Nirvana, set against tiramevanudhavati, running along this bank. Naming \"Arhats\" mid-verse, as Müller does, breaks the picture; we keep the image clear and let verse 86 (\"cross beyond the reach of death\") carry the meaning, as the Pali does."
+    },
+    {
+      "locus": "90",
+      "phrase": "no more fever of pain",
+      "older": "Müller (1881): \"There is no suffering for him who has finished his journey, and abandoned grief.\"",
+      "lectio": "We restore the literal Pali pariḷāho na vijjati—\"no fever\"—rather than the flat \"no suffering.\" The word names the burning of craving and grief; \"fever\" keeps the heat of the image.",
+      "note": "The Pali pariḷāha means a burning, a fever, the heat of passion or distress. Müller's \"no suffering\" is true but generic; the verse's force is that the one who has finished the journey is past the fever itself—the inner burning is gone, not merely the consequence. Edmunds (1902) likewise reaches for the heat-image, and we keep it."
+    },
+    {
+      "locus": "92",
+      "phrase": "They store up nothing",
+      "older": "Müller (1881): \"Men who have no riches, who live on recognised food.\"",
+      "lectio": "We render the Pali sannicayo natthi literally as \"they store up nothing\" rather than Müller's interpretive \"have no riches.\" The point is the act of hoarding—of any kind—not poverty.",
+      "note": "Sannicaya is accumulation, laying things by, hoarding (of food, of goods, of merit, even of future becoming). \"Have no riches\" narrows it to money and sounds like mere poverty; the arhat's mark is that he amasses nothing at all, taking only what the present needs. We keep \"understand the food they eat for what it is\" for pariññāta-bhojanā, the mindful knowing of food, rather than Müller's \"recognised food.\""
+    },
+    {
+      "locus": "92-93",
+      "phrase": "their track cannot be followed, like the path of birds across the sky",
+      "older": "Müller (1881): \"their path is difficult to understand, like that of birds in the air.\"",
+      "lectio": "We sharpen ākāse va sakuntānaṃ padaṃ to \"their track cannot be followed\"—a trail that leaves no mark—rather than the vaguer \"difficult to understand.\"",
+      "note": "The Pali padaṃ here is a footprint, a track, a trace; the image is that a bird in flight leaves no path behind it to follow, just as the liberated one leaves no trace in the round of becoming for craving or for others to trace. \"Difficult to understand\" turns a concrete image into an abstraction; \"track cannot be followed\" keeps the picture exact and lets the meaning carry."
+    },
+    {
+      "locus": "100-102",
+      "phrase": "the one word of sense that brings peace",
+      "older": "Müller (1881): \"one word of sense is better, which if a man hears, he becomes quiet.\"",
+      "lectio": "We keep Müller's literal contrast but render the Pali so the proverb stands on its own: a single meaningful word outweighs a thousand empty ones, and the result is peace rather than merely becoming \"quiet.\"",
+      "note": "The Pali ekam atthapadam (\"one word of meaning/benefit\") set against a thousand anatthapadahi (\"words without meaning\"); the closing yam sutva upasammati is \"hearing which one is calmed/stilled\"—genuine inner peace, not just falling silent. \"Brings peace\" keeps the spiritual weight without softening the literal sense."
+    },
+    {
+      "locus": "103",
+      "phrase": "the one who conquers himself is the greatest conqueror of all",
+      "older": "Müller (1881): \"If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.\"",
+      "lectio": "We tighten the famous line to a single arc—a thousand thousand foes set against the one foe that matters, oneself—so the proverb lands with the force the Pali gives it.",
+      "note": "Yo sahassam sahassena sangame manuse jine, ekam ca jeyya attanam, sa ve sangamajuttamo. The chapter's centerpiece: outward conquest, however vast, is nothing beside self-conquest. Müller's wording is accurate but diffuse; we preserve every element while restoring the punch of a battlefield proverb."
+    },
+    {
+      "locus": "110-115",
+      "phrase": "a single day lived in virtue / a single day in which you see how all things rise and pass away",
+      "older": "Müller (1881): \"a life of one day is better if a man is virtuous and reflecting\" … \"not seeing beginning and end … if a man sees beginning and end.\"",
+      "lectio": "We render the refrain so the contrast is immediate—one true day against a hundred empty years—and translate udayabbaya as \"how all things rise and pass away\" rather than the opaque \"beginning and end.\"",
+      "note": "The Pali udayabbaya (\"rise and fall\") names the direct insight into impermanence—watching phenomena arise and dissolve—which is the heart of this stretch of verses. Müller's \"beginning and end\" loses the meditative meaning; \"rise and pass away\" restores it. Likewise amatapada (v.114) is \"the deathless,\" Nibbana's standard epithet, kept consistent with our rendering in earlier chapters."
+    },
+    {
+      "locus": "121-122",
+      "phrase": "Drop by drop the water-pot is filled; little by little the fool fills himself with evil",
+      "older": "Müller (1881): \"Even by the falling of water-drops a water-pot is filled; the fool becomes full of evil, even if he gather it little by little.\"",
+      "lectio": "We tighten the Pali image (udabindunipātena udakumbho pi pūrati) to the proverbial \"Drop by drop the water-pot is filled,\" and let the same line stand for both verses—evil in 121, good in 122—so the paired teaching reads as the matched set it is in the Pali.",
+      "note": "The verse turns on a single, famous figure: a clay pot filling unnoticed, one drop at a time. Müller's \"by the falling of water-drops\" is accurate but slack; the strength of the proverb is its rhythm. We keep the literal pot and drops and the \"little by little\" (anupubbena), changing nothing of the sense, only restoring the memorable cadence the Pali has and the Victorian phrasing loses."
+    },
+    {
+      "locus": "124",
+      "phrase": "A hand with no wound on it may carry poison unharmed … no evil touches the one who does no evil",
+      "older": "Müller (1881): \"He who has no wound on his hand, may touch poison with his hand; poison does not affect one who has no wound; nor is there evil for one who does not commit evil.\"",
+      "lectio": "We render the Pali natthi pāpaṃ akubbato as \"no evil touches the one who does no evil,\" keeping the verb \"touches\" so the hand-and-poison image and its moral lesson share the same word, as the Pali's logic intends.",
+      "note": "The whole verse is one extended simile: poison cannot enter an unbroken skin, and so evil cannot enter one who commits none (Pāṇimhi ce vaṇo nāssa … natthi pāpaṃ akubbato). Müller breaks the parallel by switching from \"touch\" to a flat \"nor is there evil for one who does not commit evil.\" We hold the simile together—poison does not touch the unwounded hand; evil does not touch the one who does no evil—without adding anything not in the Pali."
+    },
+    {
+      "locus": "127",
+      "phrase": "nowhere in all the world is there a place where you can escape your own evil deed",
+      "older": "Müller (1881): \"is there known a spot in the whole world where death could not overcome (the mortal).\"",
+      "lectio": "We restore the standard Pali reading, which ends not with \"death\" but with pāpakammā—\"an evil deed.\" The verse says there is no spot on earth where one may be freed from one's own evil deed (yatthaṭṭhito mucceyya pāpakammā).",
+      "note": "Müller's printed text reads maccu (\"death\") at the close, but the received Pali of Papavagga 127 ends with pāpakammā, and the verse's own framing—and the chapter title, \"Evil\"—is about the inescapable fruit of a wrong deed, not death in general. The prompt's directive and the Pali agree against Müller's word here. We follow the Pali: nowhere—sky, sea, or mountain cave—can you outrun the deed you have done."
     }
   ],
   "sections": [
@@ -539,6 +665,884 @@
           "text": "43. Not a mother, not a father, not any kin can do for you what a rightly directed mind can do — far greater is its gift.",
           "spine": {
             "from": "0.9091",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-04",
+      "order": 4,
+      "label": "Chapter IV. Flowers",
+      "title": "Flowers",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "44. Who will master this earth, and the realm of Death, and the world of the gods? Who will gather the well-taught path of virtue, as a skilled hand chooses the right flower?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "45. The disciple in training will master this earth, and the realm of Death, and the world of the gods. The disciple will gather the well-taught path of virtue, as a skilled hand chooses the right flower.",
+          "spine": {
+            "from": "0.0667",
+            "to": "0.1333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "46. Whoever knows that this body is like foam, and sees that it is as fleeting as a mirage, will snap the flower-tipped arrows of Mara and pass beyond the sight of the King of Death.",
+          "spine": {
+            "from": "0.1333",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "47. Death sweeps away the one who is busy gathering flowers, his mind elsewhere, as a flood sweeps away a sleeping village.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.2667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "48. Death overpowers the one who is busy gathering flowers, his mind elsewhere, before he has had his fill of pleasure.",
+          "spine": {
+            "from": "0.2667",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "49. As the bee takes the nectar and flies off without harming the flower, its color, or its scent, so let the sage move through the village.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "50. Let the sage not dwell on the faults of others, on what they have done or left undone, but only on what he himself has done or left undone.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.4667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "51. Like a lovely flower, full of color but with no scent, are the fine words of one who speaks well but does not act.",
+          "spine": {
+            "from": "0.4667",
+            "to": "0.5333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "52. But like a lovely flower, full of color and full of scent, are the fine words of one who speaks well and acts on them, and they bear fruit.",
+          "spine": {
+            "from": "0.5333",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "53. As many garlands can be woven from a heap of flowers, so should a mortal, once born, do many good things with this life.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "54. The scent of flowers does not travel against the wind, nor the scent of sandalwood, of tagara, or of jasmine; but the fragrance of the good travels even against the wind. A good person reaches every quarter.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "55. Sandalwood and tagara, the lotus and the jasmine — sweet as all these perfumes are, the fragrance of virtue surpasses them all.",
+          "spine": {
+            "from": "0.7333",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "56. Faint is the scent of tagara and sandalwood; but the fragrance of those who keep virtue is the finest of all, and it rises even to the gods.",
+          "spine": {
+            "from": "0.8000",
+            "to": "0.8667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "57. Mara never finds the path of those who keep these virtues, who live in heedfulness, and who are set free by true knowledge.",
+          "spine": {
+            "from": "0.8667",
+            "to": "0.9333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-04.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "58, 59. As on a heap of rubbish tossed by the roadside a lotus may grow, sweet-scented and a delight to the heart, so among the rubbish of blind and ordinary people the disciple of the truly awakened Buddha shines out in wisdom.",
+          "spine": {
+            "from": "0.9333",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-05",
+      "order": 5,
+      "label": "Chapter V. The Fool",
+      "title": "The Fool",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "60. Long is the night to one who lies awake; long is the road to one who is weary; long is the round of rebirth to the fool who does not know the true teaching.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0625"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "61. If on his journey a traveler meets no one better than himself, or even his equal, let him hold firmly to his solitary road; there is no companionship with a fool.",
+          "spine": {
+            "from": "0.0625",
+            "to": "0.1250"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "62. \"These sons are mine, this wealth is mine\"—with such thoughts the fool torments himself. He does not even belong to himself; how then can sons or wealth be his?",
+          "spine": {
+            "from": "0.1250",
+            "to": "0.1875"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "63. The fool who knows he is a fool is wise at least in that. But the fool who thinks himself wise—he is the fool indeed.",
+          "spine": {
+            "from": "0.1875",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "64. Even if a fool keeps company with a wise man all his life, he no more grasps the truth than a spoon tastes the flavor of the soup.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3125"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "65. But if a clear-minded man keeps company with a wise man for even a moment, he grasps the truth at once, as the tongue tastes the flavor of the soup.",
+          "spine": {
+            "from": "0.3125",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "66. Fools, dull of understanding, are their own worst enemies, for they do evil deeds that bear bitter fruit.",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.4375"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "67. That deed is not well done which a man regrets afterward, whose fruit he receives weeping, with tears on his face.",
+          "spine": {
+            "from": "0.4375",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "68. But that deed is well done which a man does not regret, whose fruit he receives gladly and with a glad heart.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5625"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "69. As long as the evil deed has not yet ripened, the fool thinks it sweet as honey; but when it ripens, the fool comes to grief.",
+          "spine": {
+            "from": "0.5625",
+            "to": "0.6250"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "70. Month after month a fool may eat his food with the tip of a blade of kusa grass, like an ascetic—yet he is not worth a sixteenth part of those who have truly understood the teaching.",
+          "spine": {
+            "from": "0.6250",
+            "to": "0.6875"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "71. An evil deed does not curdle at once, like fresh milk; it follows the fool smoldering, like a fire hidden under ashes.",
+          "spine": {
+            "from": "0.6875",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "72. And when at last it comes to light, that evil deed brings the fool only sorrow; it shatters his good fortune and splits his very head.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8125"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "73. Let the fool crave a reputation he has not earned, precedence among the monks, authority in the monasteries, and honor from people everywhere.",
+          "spine": {
+            "from": "0.8125",
+            "to": "0.8750"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "74. \"Let both layfolk and monks think this was done by me; let them defer to me in all things, great and small\"—such is the mind of the fool, and his craving and his pride only swell.",
+          "spine": {
+            "from": "0.8750",
+            "to": "0.9375"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-05.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "75. One road leads to worldly gain, another leads to Nirvana. Knowing this, let the monk, the follower of the Buddha, take no delight in honor, but give himself to solitude instead.",
+          "spine": {
+            "from": "0.9375",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-06",
+      "order": 6,
+      "label": "Chapter VI. The Wise Man (Pandita)",
+      "title": "The Wise",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "76. If you meet a discerning person who sees your faults and tells you of them, who shows you what to avoid and reproves you when you are wrong, follow that wise one as you would follow a guide to buried treasure. It will go better, never worse, for the one who follows him.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0714"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "77. Let such a person counsel you, teach you, and hold you back from what is base. The good will love him for it; only the bad will hate him.",
+          "spine": {
+            "from": "0.0714",
+            "to": "0.1429"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "78. Do not make friends of those who do wrong; do not make friends of the mean and low. Make friends of the good; make friends of the best among people.",
+          "spine": {
+            "from": "0.1429",
+            "to": "0.2143"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "79. Whoever drinks deep of the teaching lives happily, with a mind at peace. The wise take joy, day after day, in the truth the Noble Ones have taught.",
+          "spine": {
+            "from": "0.2143",
+            "to": "0.2857"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "80. Farmers channel the water where they want it; arrow-makers straighten the shaft; carpenters shape the wood; and the wise shape themselves.",
+          "spine": {
+            "from": "0.2857",
+            "to": "0.3571"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "81. As a solid rock is not shaken by the wind, so the wise are not moved by praise or blame.",
+          "spine": {
+            "from": "0.3571",
+            "to": "0.4286"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "82. When the wise have listened to the teaching, they grow clear and still, like a lake that is deep, smooth, and undisturbed.",
+          "spine": {
+            "from": "0.4286",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "83. Good people let go wherever they are; they do not chatter on, hungry for pleasure. Touched by happiness or by sorrow, the wise show neither swelling joy nor sinking despair.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5714"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "84. The one who would not, for his own sake or another's, crave a son, or wealth, or power, and who would not seek his own success by wrong means—that one is good, and wise, and upright.",
+          "spine": {
+            "from": "0.5714",
+            "to": "0.6429"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "85. Few among people ever cross to the other shore; the rest run up and down the near bank.",
+          "spine": {
+            "from": "0.6429",
+            "to": "0.7143"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "86. But those who follow the teaching, when it has been well taught to them, will cross beyond the reach of death, hard as that crossing is to make.",
+          "spine": {
+            "from": "0.7143",
+            "to": "0.7857"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "87. Leaving the dark way behind, let the wise take up the bright way. Let him go from home into homelessness, into the solitude that few find easy to enjoy.",
+          "spine": {
+            "from": "0.7857",
+            "to": "0.8571"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "88. There let him seek his joy, having given up every pleasure and called nothing his own. Let the wise cleanse himself of all that troubles the mind.",
+          "spine": {
+            "from": "0.8571",
+            "to": "0.9286"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-06.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "89. Those whose minds are firmly grounded in the factors of awakening, who cling to nothing and delight in letting go of all grasping, whose craving is mastered and who shine with light—they are set free, even here in this world.",
+          "spine": {
+            "from": "0.9286",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-07",
+      "order": 7,
+      "label": "Chapter VII. The Venerable (Arhat).",
+      "title": "The Arhat",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "90. For the one who has finished the journey, who has let go of grief, who is free on every side and has thrown off every chain, there is no more fever of pain.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "91. The mindful keep moving; they take no comfort in settling down. Like swans that rise and leave the lake, they leave one resting place after another behind them.",
+          "spine": {
+            "from": "0.1000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "92. They store up nothing; they understand the food they eat for what it is; their aim is emptiness, the freedom that depends on nothing—Nirvana. Their track cannot be followed, like the path of birds across the sky.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.3000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "93. The one whose cravings are stilled, who is not caught in any pleasure, whose aim is emptiness, the freedom that depends on nothing—Nirvana—his track cannot be followed, like the path of birds across the sky.",
+          "spine": {
+            "from": "0.3000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "94. Even the gods envy the one whose senses are calmed, like horses well broken by their driver, who has shed all pride and is free of every craving.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "95. Such a one bears all things and resents nothing, like the earth; he stands firm, like the great threshold-pillar at the city gate; he is clear, like a deep pool with no mud to cloud it. For him there are no more births to come.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "96. Quiet is the mind of such a one, quiet his words, quiet his deeds, for he has won his freedom through true knowledge and come to rest.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.7000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "97. The one who takes nothing on blind faith but knows the uncreated for himself, who has cut every tie, ended every chance of rebirth, and thrown off every desire—he is the greatest of all.",
+          "spine": {
+            "from": "0.7000",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "98. In a village or in the forest, in the valley or on the hill, wherever the venerable ones dwell—there the ground is a delight.",
+          "spine": {
+            "from": "0.8000",
+            "to": "0.9000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-07.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "99. Delightful are the forests where the crowd finds no delight. There those who are free of craving will be glad, for they are not looking for pleasures.",
+          "spine": {
+            "from": "0.9000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-08",
+      "order": 8,
+      "label": "Chapter VIII. The Thousands",
+      "title": "The Thousands",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "100. Better than a thousand words, if they are empty of sense, is the one word of sense that brings peace to whoever hears it.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0625"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "101. Better than a thousand verses, if they are empty of sense, is the one line of verse that brings peace to whoever hears it.",
+          "spine": {
+            "from": "0.0625",
+            "to": "0.1250"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "102. Better than reciting a hundred verses empty of sense is the one word of the teaching that brings peace to whoever hears it.",
+          "spine": {
+            "from": "0.1250",
+            "to": "0.1875"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "103. Though a man should conquer a thousand thousand men in battle, the one who conquers himself is the greatest conqueror of all.",
+          "spine": {
+            "from": "0.1875",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "104. Victory over oneself is better than victory over anyone else. The man who has mastered himself and lives always under restraint—",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3125"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "105. not a god, not a Gandharva, not Mara, not even Brahman could turn his victory into defeat.",
+          "spine": {
+            "from": "0.3125",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "106. Though month after month for a hundred years a man should offer a thousand sacrifices, if for a single moment he honors one who has perfected himself, that homage is worth more than a hundred years of sacrifice.",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.4375"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "107. Though for a hundred years a man should tend the sacred fire in the forest, if for a single moment he honors one who has perfected himself, that homage is worth more than a hundred years of worship.",
+          "spine": {
+            "from": "0.4375",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "108. Whatever a man offers or sacrifices in this world for a whole year to gain merit, all of it is not worth a quarter of the reverence shown to the upright; reverence to the upright is better.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5625"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "109. To one who always honors and respects the elders, four things increase: long life, beauty, happiness, and strength.",
+          "spine": {
+            "from": "0.5625",
+            "to": "0.6250"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "110. Better than a hundred years lived in vice, with no self-control, is a single day lived in virtue and reflection.",
+          "spine": {
+            "from": "0.6250",
+            "to": "0.6875"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "111. Better than a hundred years lived in ignorance, with no self-control, is a single day lived in wisdom and reflection.",
+          "spine": {
+            "from": "0.6875",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "112. Better than a hundred years lived in idleness and weakness is a single day lived with firm and steady effort.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8125"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "113. Better than a hundred years lived without ever seeing how all things rise and pass away is a single day in which you see them rise and pass away.",
+          "spine": {
+            "from": "0.8125",
+            "to": "0.8750"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0015",
+          "order": 15,
+          "kind": "paragraph",
+          "text": "114. Better than a hundred years lived without ever seeing the deathless is a single day in which you see the deathless.",
+          "spine": {
+            "from": "0.8750",
+            "to": "0.9375"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-08.seg-0016",
+          "order": 16,
+          "kind": "paragraph",
+          "text": "115. Better than a hundred years lived without ever seeing the highest law is a single day in which you see the highest law.",
+          "spine": {
+            "from": "0.9375",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.dhammapada.lectio-modern.book-09",
+      "order": 9,
+      "label": "Chapter IX. Evil",
+      "title": "Evil",
+      "segments": [
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "116. Be quick to do good, and hold your mind back from evil. The one who is slow to do good finds his mind taking its delight in evil.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.0833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "117. If you do wrong, do not do it again; do not let your heart take pleasure in it. Heaping up evil ends in pain.",
+          "spine": {
+            "from": "0.0833",
+            "to": "0.1667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "118. If you do good, do it again; let your heart take pleasure in it. Heaping up good ends in happiness.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "119. Even the wrongdoer sees good days, as long as his evil has not yet ripened. But once that evil ripens, the wrongdoer meets his evil.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "120. Even the good person sees hard days, as long as his good has not yet ripened. But once that good ripens, the good person meets his good days.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "121. Do not think lightly of evil, telling yourself, \"It will never come near me.\" Drop by drop the water-pot is filled; little by little the fool fills himself with evil.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "122. Do not think lightly of good, telling yourself, \"It will never come near me.\" Drop by drop the water-pot is filled; little by little the wise fill themselves with good.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.5833"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "123. Avoid evil deeds as a merchant carrying rich goods with few companions avoids a dangerous road, as one who loves life avoids poison.",
+          "spine": {
+            "from": "0.5833",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "124. A hand with no wound on it may carry poison unharmed, for poison cannot enter where there is no wound. In the same way, no evil touches the one who does no evil.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "125. Whoever wrongs an innocent person—one who is harmless, pure, and blameless—the evil falls back on that fool, like fine dust thrown against the wind.",
+          "spine": {
+            "from": "0.7500",
+            "to": "0.8333"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "126. Some are born again into the womb; those who do evil go to hell; those who do right go to heaven; and those who are free of every desire reach Nirvana.",
+          "spine": {
+            "from": "0.8333",
+            "to": "0.9167"
+          }
+        },
+        {
+          "id": "edition.dhammapada.lectio-modern.book-09.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "127. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed.",
+          "spine": {
+            "from": "0.9167",
             "to": "1.0000"
           }
         }
