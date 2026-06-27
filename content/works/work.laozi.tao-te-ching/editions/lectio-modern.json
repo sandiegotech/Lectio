@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 19118,
+    "tokensEstimated": 20143,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -584,6 +584,97 @@
       "older": "Legge (1891): \"this is called 'Hiding the light (of his procedure).'\"",
       "lectio": "This is called the subtle light.",
       "note": "The Chinese is 是謂微明 (shì wèi wēi míng). 微 means \"faint, subtle, hidden\" and 明 means \"light\" or \"clear seeing,\" so the phrase names a kind of subtle insight — the quiet discernment that sees how things turn into their opposites. Legge glossed it as \"Hiding the light,\" reading 微 as a verb (\"to hide\") and bracketing in \"of his procedure\" to suggest concealed strategy. We keep the plainer \"the subtle light,\" the reading most modern scholars share, which lets the paradox stand without recasting the line as cunning statecraft."
+    },
+    {
+      "locus": "opening line (道常無為而無不為)",
+      "phrase": "The Way never forces anything, yet nothing is left undone.",
+      "older": "Legge (1891): \"The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.\"",
+      "lectio": "The Way never forces anything, yet nothing is left undone.",
+      "note": "The famous line is 道常無為而無不為 — the Way is ever wu wei (無為), yet wu bu wei (無不為), nothing is not done. This is the book's central paradox at full strength: not idleness but acting-without-forcing, action that never strains against the grain of things, so that everything still gets done. Legge's \"does nothing (for the sake of doing it)\" hedges with a bracket and reads as mere inaction. We render wu wei as never forcing, keeping the matched pair — forces nothing, yet nothing left undone — so the paradox lands as bare as it does in the Chinese."
+    },
+    {
+      "locus": "stilling desire (化而欲作，吾將鎮之以無名之樸)",
+      "phrase": "I would still it with the nameless block of uncarved wood",
+      "older": "Legge (1891): \"If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.\"",
+      "lectio": "And if, as they changed, desire began to stir, I would still it with the nameless block of uncarved wood.",
+      "note": "Legge misreads the grammar: the desire is not the sage's wish to express, but a craving that arises among things as they transform — 化而欲作, \"transforming, and desire stirs.\" The verb 鎮 (zhèn) means to press down, to quell, to settle a weight upon — to still the rising want, not to \"express\" it. And 無名之樸 is the wu ming zhi pu, the nameless uncarved block (樸, pu — Laozi's standing image for original, undivided simplicity). We restore both: desire arising is quelled by the plain, nameless wood, the same emblem of unworked simplicity the book builds on throughout."
+    },
+    {
+      "locus": "the title of the chapter",
+      "phrase": "The highest virtue is not virtuous, and that is why it has virtue.",
+      "older": "Legge (1891): \"(Those who) possessed in highest degree the attributes (of the Tao) did not (seek) to show them, and therefore they possessed them (in fullest measure).\"",
+      "lectio": "The highest virtue is not virtuous, and that is why it has virtue.",
+      "note": "The Chinese is 上德不德，是以有德 (shàng dé bù dé, shì yǐ yǒu dé). The word throughout is 德 (dé) — te, the virtue or power that this whole second half of the book is named for. Legge renders it \"the attributes (of the Tao),\" which is accurate but buries the paradox under brackets. The line is a single tight reversal: the truly virtuous person does not perform virtue, makes no display of it, and is virtuous precisely for that reason; the one who clings to virtue and shows it off has already lost the thing itself. We keep the bare paradox, since it is the hinge of the chapter and of the descent that follows."
+    },
+    {
+      "locus": "the descending chain of values",
+      "phrase": "humaneness ... righteousness ... ritual",
+      "older": "Legge (1891): \"benevolence ... righteousness ... the proprieties.\"",
+      "lectio": "humaneness ... righteousness ... ritual.",
+      "note": "The three terms are 仁 (rén), 義 (yì), and 禮 (lǐ) — the core Confucian virtues, named here as the successive consolation prizes left behind as the Way recedes. Legge's \"benevolence\" and \"propriety\" are Victorian renderings; rén is better caught by \"humaneness\" (the warmth one human owes another) and lǐ by \"ritual\" (the formal codes of conduct and ceremony), the readings standard in modern scholarship. The chapter is quietly polemical: it ranks these prized virtues as marks of decline, each appearing only because the higher thing above it has already been lost."
+    },
+    {
+      "locus": "the flower of the Way",
+      "phrase": "Foreknowledge is only the flower of the Way, and the beginning of folly.",
+      "older": "Legge (1891): \"swift apprehension is (only) a flower of the Tao, and is the beginning of stupidity.\"",
+      "lectio": "Foreknowledge is only the flower of the Way, and the beginning of folly.",
+      "note": "The phrase is 前識 (qián shí), literally \"fore-knowing\" — the cleverness that anticipates and predicts. Legge's \"swift apprehension\" is opaque to a modern reader; \"foreknowledge\" is plainer and closer to the literal sense. The image is exact: such cleverness is only the showy blossom of the Way, never its root or fruit, and to chase it is where foolishness begins. We keep \"flower\" against \"fruit\" because the chapter ends on exactly that contrast — the great person chooses fruit over flower, substance over show."
+    },
+    {
+      "locus": "rulers' self-names",
+      "phrase": "rulers and kings call themselves orphaned, widowed, unworthy",
+      "older": "Legge (1891): \"princes and kings call themselves 'Orphans,' 'Men of small virtue,' and as 'Carriages without a nave.'\"",
+      "lectio": "rulers and kings call themselves orphaned, widowed, unworthy",
+      "note": "The Chinese is 孤、寡、不譀 (gū, guǎ, bù gǔ) — the old self-deprecating titles a king used for himself: \"the orphaned one,\" \"the one of little worth,\" \"the unworthy.\" Legge's \"Men of small virtue\" and \"Carriages without a nave\" stretch the third term and import the cart image early; we keep the three plain words of humility, which is the point — the most exalted person names himself by what is lowest."
+    },
+    {
+      "locus": "closing image",
+      "phrase": "do not wish to glitter like jade; be plain like common stone",
+      "older": "Legge (1891): \"They do not wish to show themselves elegant-looking as jade, but (prefer) to be coarse-looking as an (ordinary) stone.\"",
+      "lectio": "do not wish to glitter like jade; be plain like common stone",
+      "note": "The Chinese 不欲琅琅如玉，珞珞如石 sets two textures against each other: the prized gleam of jade and the dull roughness of stone. We keep the contrast sharp and lose Legge's \"elegant-looking\" / \"coarse-looking\"; the chapter prefers the unshowy stone, the One found at the bottom rather than the top."
+    },
+    {
+      "locus": "the second line",
+      "phrase": "yielding is its use",
+      "older": "Legge (1891): \"And weakness marks the course / Of Tao's mighty deeds.\"",
+      "lectio": "yielding is its use",
+      "note": "The Chinese is 弱者道之用 — 弱 (ruò) is literally \"weak\" or \"soft,\" and Legge renders it \"weakness.\" But in Laozi 弱 is never mere feebleness; it is the deliberate softness of water and the newborn that overcomes the hard (the theme of chapters 36, 43, and 76). We render it \"yielding\" so the line reads as a practice the Way puts to work, not a defect, and so it pairs cleanly with 用 (yòng), \"use\" or \"function\": returning is how the Way moves, yielding is how it acts."
+    },
+    {
+      "locus": "the closing line",
+      "phrase": "All things under heaven are born of being, and being is born of non-being.",
+      "older": "Legge (1891): \"All things under heaven sprang from It as existing (and named); that existence sprang from It as non-existent (and not named).\"",
+      "lectio": "All things under heaven are born of being, and being is born of non-being.",
+      "note": "The Chinese is 天下萬物生於有，有生於無. Legge interpolates \"as named\" and \"and not named,\" reading this chapter back through the named/nameless distinction of chapter 1. The bracketed glosses clutter a famously spare couplet. We let the bare terms stand: 有 (yǒu), \"being\" or \"what is,\" and 無 (wú), \"non-being\" or \"what is not.\" The whole point is the priority of emptiness — being itself arises out of non-being — and that paradox lands harder unadorned."
+    },
+    {
+      "locus": "Chapter 41, the lowest student's laughter (下士聞道，大笑之。不笑不足以為道)",
+      "phrase": "And if he did not laugh, it would not be the Way.",
+      "older": "Legge (1891): \"Scholars of the lowest class, when they have heard about it, laugh greatly at it. If it were not (thus) laughed at, it would not be fit to be the Tao.\"",
+      "lectio": "When the worst student hears about it, he laughs out loud. And if he did not laugh, it would not be the Way.",
+      "note": "The Chinese 不笑不足以為道 is a sharp double negative: unless it is laughed at, it is not enough to be the Way. The point is not that the Way is foolish but that it runs so against common sense — forward looking like backward, bright like dark — that a shallow mind cannot help mocking it; that very mockery is a mark that it is the genuine thing. Legge's \"would not be fit to be the Tao\" is faithful, but we keep the bare turn so the paradox lands as a test: the laughter of the lowest is the seal of the real."
+    },
+    {
+      "locus": "Chapter 41, the great vessel finished late (大器晚成)",
+      "phrase": "The great vessel is the last to be finished.",
+      "older": "Legge (1891): \"A vessel great, it is the slowest made.\"",
+      "lectio": "The great vessel is the last to be finished.",
+      "note": "The Chinese 大器晚成 pairs da qi (大器), the great vessel, with wan cheng (晚成), late in being completed — the biggest work is the slowest to come to its finish. The line has become a proverb in Chinese for late-blooming greatness. Legge's verse \"the slowest made\" is accurate but compressed into rhyme; we keep the plain image so it stands beside the other great-but-hidden things — the square with no corners, the sound too vast to hear, the image with no shape — each of them so large it slips past the ordinary eye."
+    },
+    {
+      "locus": "the breath that makes harmony",
+      "phrase": "the blending of these breaths makes their harmony",
+      "older": "Legge (1891): \"while they are harmonised by the Breath of Vacancy.\"",
+      "lectio": "the blending of these breaths makes their harmony",
+      "note": "The Chinese is 沖氣以為和. 氣 (qì) is the vital breath or energy, and 沖 means to surge, blend, or empty into. The line says that yin and yang meet and their breaths mingle, and out of that mingling comes harmony. Legge's \"Breath of Vacancy\" makes 沖 a fixed cosmic substance and obscures the plain image — two breaths blending — that the chapter actually offers, so we keep the active sense of yin and yang stirred together into balance."
+    },
+    {
+      "locus": "the names kings take",
+      "phrase": "orphaned, lonely, or unworthy",
+      "older": "Legge (1891): \"to be orphans, to have little virtue, to be as carriages without naves.\"",
+      "lectio": "orphaned, lonely, or unworthy",
+      "note": "The Chinese is 孤寡不穀: 孤 \"orphaned,\" 寡 \"alone\" or \"widowed,\" 不穀 literally \"not grain\" — an old self-deprecating title a ruler used to mean \"unworthy\" or \"of no account.\" Legge rendered 不穀 as \"carriages without naves,\" reading it through a different gloss, which turns a king's humble self-name into a puzzling image. We keep all three as the lowly titles rulers gave themselves, which is what makes the next line — that things gain by being made less — land."
     }
   ],
   "sections": [
@@ -1948,6 +2039,264 @@
           "order": 3,
           "kind": "paragraph",
           "text": "Fish should not leave the deep water; and the sharp tools of a state should not be put on show before the people.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-37",
+      "order": 37,
+      "label": "Chapter 37",
+      "title": "Nothing Left Undone",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-37.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Way never forces anything, yet nothing is left undone.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-37.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "If lords and kings could hold to it, all things would change of themselves.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-37.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And if, as they changed, desire began to stir, I would still it with the nameless block of uncarved wood.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.5500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-37.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "The nameless uncarved block: it too is free of desire. Without desire, there is stillness, and the world settles of itself.",
+          "spine": {
+            "from": "0.5500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-38",
+      "order": 38,
+      "label": "Chapter 38",
+      "title": "Virtue and Its Decline",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The highest virtue is not virtuous, and that is why it has virtue. The lowest virtue never lets go of being virtuous, and that is why it has none.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2143"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The highest virtue acts without forcing, and acts from no motive. The lowest virtue acts, and acts from a motive.",
+          "spine": {
+            "from": "0.2143",
+            "to": "0.3095"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The highest humaneness acts, but from no motive. The highest righteousness acts, and from a motive. The highest ritual acts, and when no one answers it, it bares the arm and drags them along by force.",
+          "spine": {
+            "from": "0.3095",
+            "to": "0.4286"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "So when the Way is lost, virtue appears. When virtue is lost, humaneness appears. When humaneness is lost, righteousness appears. When righteousness is lost, ritual appears.",
+          "spine": {
+            "from": "0.4286",
+            "to": "0.6429"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Ritual is the thin husk of loyalty and good faith, and the beginning of disorder. Foreknowledge is only the flower of the Way, and the beginning of folly.",
+          "spine": {
+            "from": "0.6429",
+            "to": "0.8214"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-38.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And so the great person dwells in the substance, not in the husk; dwells in the fruit, not in the flower. He lets the one go and takes hold of the other.",
+          "spine": {
+            "from": "0.8214",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-39",
+      "order": 39,
+      "label": "Chapter 39",
+      "title": "Those That Attained the One",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-39.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "From of old, these are the things that attained the One: heaven attained it and became clear; earth attained it and became firm; the spirits attained it and became holy; the valleys attained it and became full; all living things attained it and lived; rulers and kings attained it and became the standard for the world. It is the One that made them so.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3750"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-39.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Without it, heaven would have nothing to keep it clear, and would crack. Earth would have nothing to keep it firm, and would quake. The spirits would have nothing to make them holy, and would fade. The valleys would have nothing to keep them full, and would run dry. All living things would have nothing to keep them alive, and would die out. Rulers and kings would have nothing to keep them high, and would fall.",
+          "spine": {
+            "from": "0.3750",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-39.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So the noble takes the humble as its root, and the high takes the low as its foundation. That is why rulers and kings call themselves orphaned, widowed, unworthy. Is this not because they hold the humble to be their root? Take a carriage apart piece by piece, and there is no carriage left to find. The highest renown is to have no renown. So do not wish to glitter like jade; be plain like common stone.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-40",
+      "order": 40,
+      "label": "Chapter 40",
+      "title": "Returning Is the Movement of the Way",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-40.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Returning is the movement of the Way; yielding is its use.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-40.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "All things under heaven are born of being, and being is born of non-being.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-41",
+      "order": 41,
+      "label": "Chapter 41",
+      "title": "How the Way Is Heard",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-41.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the best student hears about the Way, he sets to work and practices it with all his heart. When the middling student hears about it, he half keeps it and half lets it go. When the worst student hears about it, he laughs out loud. And if he did not laugh, it would not be the Way.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-41.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So the old sayings have it: The bright Way looks dark. The Way that goes forward looks as if it were going back. The smooth Way looks rough. The highest power looks empty, like a valley. The purest white looks stained. The broadest power looks as if it falls short. Firm, settled power looks flimsy. What is most real looks as if it could change. The great square has no corners. The great vessel is the last to be finished. The great sound can barely be heard. The great image has no shape.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.6250"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-41.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Way is hidden and has no name. Yet it is the Way alone that gives all things what they need and brings them to completion.",
+          "spine": {
+            "from": "0.6250",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-42",
+      "order": 42,
+      "label": "Chapter 42",
+      "title": "The Way Bore the One",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-42.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Way bore the One; the One bore the Two; the Two bore the Three; and the Three bore the ten thousand things. All things carry yin on their backs and hold yang in their arms, and the blending of these breaths makes their harmony.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-42.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "There is nothing people hate more than to be called orphaned, lonely, or unworthy — yet these are the very names that kings and lords take for themselves. For some things gain by being made less, and some things lose by being made more.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-42.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "What others teach, I also teach: the violent and overbearing do not die a natural death. I take this as the father of my teaching.",
           "spine": {
             "from": "0.6667",
             "to": "1.0000"

@@ -1349,31 +1349,51 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-37.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do."
+          "text": "1. The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-37.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. If princes and kings were able to maintain it, all things would of themselves be transformed by them."
+          "text": "2. If princes and kings were able to maintain it, all things would of themselves be transformed by them.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-37.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "3. If this transformation became to me an object of desire, I would express the desire by the nameless simplicity."
+          "text": "3. If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.6000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-37.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "Simplicity without a name Is free from all external aim. With no desire, at rest and still, All things go right as of their will."
+          "text": "Simplicity without a name Is free from all external aim. With no desire, at rest and still, All things go right as of their will.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.8000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-37.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "PART II."
+          "text": "PART II.",
+          "spine": {
+            "from": "0.8000",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1386,43 +1406,71 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. (Those who) possessed in highest degree the attributes (of the Tao) did not (seek) to show them, and therefore they possessed them (in fullest measure). (Those who) possessed in a lower degree those attributes (sought how) not to lose them, and therefore they did not possess them (in fullest measure)."
+          "text": "1. (Those who) possessed in highest degree the attributes (of the Tao) did not (seek) to show them, and therefore they possessed them (in fullest measure). (Those who) possessed in a lower degree those attributes (sought how) not to lose them, and therefore they did not possess them (in fullest measure).",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1429"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. (Those who) possessed in the highest degree those attributes did nothing (with a purpose), and had no need to do anything. (Those who) possessed them in a lower degree were (always) doing, and had need to be so doing."
+          "text": "2. (Those who) possessed in the highest degree those attributes did nothing (with a purpose), and had no need to do anything. (Those who) possessed them in a lower degree were (always) doing, and had need to be so doing.",
+          "spine": {
+            "from": "0.1429",
+            "to": "0.2857"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "3. (Those who) possessed the highest benevolence were (always seeking) to carry it out, and had no need to be doing so. (Those who) possessed the highest righteousness were (always seeking) to carry it out, and had need to be so doing."
+          "text": "3. (Those who) possessed the highest benevolence were (always seeking) to carry it out, and had no need to be doing so. (Those who) possessed the highest righteousness were (always seeking) to carry it out, and had need to be so doing.",
+          "spine": {
+            "from": "0.2857",
+            "to": "0.4286"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "4. (Those who) possessed the highest (sense of) propriety were (always seeking) to show it, and when men did not respond to it, they bared the arm and marched up to them."
+          "text": "4. (Those who) possessed the highest (sense of) propriety were (always seeking) to show it, and when men did not respond to it, they bared the arm and marched up to them.",
+          "spine": {
+            "from": "0.4286",
+            "to": "0.5714"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "5. Thus it was that when the Tao was lost, its attributes appeared; when its attributes were lost, benevolence appeared; when benevolence was lost, righteousness appeared; and when righteousness was lost, the proprieties appeared."
+          "text": "5. Thus it was that when the Tao was lost, its attributes appeared; when its attributes were lost, benevolence appeared; when benevolence was lost, righteousness appeared; and when righteousness was lost, the proprieties appeared.",
+          "spine": {
+            "from": "0.5714",
+            "to": "0.7143"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "6. Now propriety is the attenuated form of leal-heartedness and good faith, and is also the commencement of disorder; swift apprehension is (only) a flower of the Tao, and is the beginning of stupidity."
+          "text": "6. Now propriety is the attenuated form of leal-heartedness and good faith, and is also the commencement of disorder; swift apprehension is (only) a flower of the Tao, and is the beginning of stupidity.",
+          "spine": {
+            "from": "0.7143",
+            "to": "0.8571"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-38.seg-0007",
           "order": 7,
           "kind": "paragraph",
-          "text": "7. Thus it is that the Great man abides by what is solid, and eschews what is flimsy; dwells with the fruit and not with the flower. It is thus that he puts away the one and makes choice of the other."
+          "text": "7. Thus it is that the Great man abides by what is solid, and eschews what is flimsy; dwells with the fruit and not with the flower. It is thus that he puts away the one and makes choice of the other.",
+          "spine": {
+            "from": "0.8571",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1435,37 +1483,61 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. The things which from of old have got the One (the Tao) are—"
+          "text": "1. The things which from of old have got the One (the Tao) are—",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1667"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "Heaven which by it is bright and pure; Earth rendered thereby firm and sure; Spirits with powers by it supplied; Valleys kept full throughout their void All creatures which through it do live Princes and kings who from it get The model which to all they give."
+          "text": "Heaven which by it is bright and pure; Earth rendered thereby firm and sure; Spirits with powers by it supplied; Valleys kept full throughout their void All creatures which through it do live Princes and kings who from it get The model which to all they give.",
+          "spine": {
+            "from": "0.1667",
+            "to": "0.3333"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "All these are the results of the One (Tao)."
+          "text": "All these are the results of the One (Tao).",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "2."
+          "text": "2.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.6667"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "If heaven were not thus pure, it soon would rend; If earth were not thus sure, 'twould break and bend; Without these powers, the spirits soon would fail; If not so filled, the drought would parch each vale; Without that life, creatures would pass away; Princes and kings, without that moral sway, However grand and high, would all decay."
+          "text": "If heaven were not thus pure, it soon would rend; If earth were not thus sure, 'twould break and bend; Without these powers, the spirits soon would fail; If not so filled, the drought would parch each vale; Without that life, creatures would pass away; Princes and kings, without that moral sway, However grand and high, would all decay.",
+          "spine": {
+            "from": "0.6667",
+            "to": "0.8333"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-39.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "3. Thus it is that dignity finds its (firm) root in its (previous) meanness, and what is lofty finds its stability in the lowness (from which it rises). Hence princes and kings call themselves 'Orphans,' 'Men of small virtue,' and as 'Carriages without a nave.' Is not this an acknowledgment that in their considering themselves mean they see the foundation of their dignity? So it is that in the enumeration of the different parts of a carriage we do not come on what makes it answer the ends of a carriage. They do not wish to show themselves elegant-looking as jade, but (prefer) to be coarse-looking as an (ordinary) stone."
+          "text": "3. Thus it is that dignity finds its (firm) root in its (previous) meanness, and what is lofty finds its stability in the lowness (from which it rises). Hence princes and kings call themselves 'Orphans,' 'Men of small virtue,' and as 'Carriages without a nave.' Is not this an acknowledgment that in their considering themselves mean they see the foundation of their dignity? So it is that in the enumeration of the different parts of a carriage we do not come on what makes it answer the ends of a carriage. They do not wish to show themselves elegant-looking as jade, but (prefer) to be coarse-looking as an (ordinary) stone.",
+          "spine": {
+            "from": "0.8333",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1478,19 +1550,31 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-40.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1."
+          "text": "1.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-40.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "The movement of the Tao By contraries proceeds; And weakness marks the course Of Tao's mighty deeds."
+          "text": "The movement of the Tao By contraries proceeds; And weakness marks the course Of Tao's mighty deeds.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-40.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "2. All things under heaven sprang from It as existing (and named); that existence sprang from It as non-existent (and not named)."
+          "text": "2. All things under heaven sprang from It as existing (and named); that existence sprang from It as non-existent (and not named).",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1503,25 +1587,41 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-41.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. Scholars of the highest class, when they hear about the Tao, earnestly carry it into practice. Scholars of the middle class, when they have heard about it, seem now to keep it and now to lose it. Scholars of the lowest class, when they have heard about it, laugh greatly at it. If it were not (thus) laughed at, it would not be fit to be the Tao."
+          "text": "1. Scholars of the highest class, when they hear about the Tao, earnestly carry it into practice. Scholars of the middle class, when they have heard about it, seem now to keep it and now to lose it. Scholars of the lowest class, when they have heard about it, laugh greatly at it. If it were not (thus) laughed at, it would not be fit to be the Tao.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-41.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. Therefore the sentence-makers have thus expressed themselves:—"
+          "text": "2. Therefore the sentence-makers have thus expressed themselves:—",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-41.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "'The Tao, when brightest seen, seems light to lack; Who progress in it makes, seems drawing back; Its even way is like a rugged track. Its highest virtue from the vale doth rise; Its greatest beauty seems to offend the eyes; And he has most whose lot the least supplies. Its firmest virtue seems but poor and low; Its solid truth seems change to undergo; Its largest square doth yet no corner show A vessel great, it is the slowest made; Loud is its sound, but never word it said; A semblance great, the shadow of a shade.'"
+          "text": "'The Tao, when brightest seen, seems light to lack; Who progress in it makes, seems drawing back; Its even way is like a rugged track. Its highest virtue from the vale doth rise; Its greatest beauty seems to offend the eyes; And he has most whose lot the least supplies. Its firmest virtue seems but poor and low; Its solid truth seems change to undergo; Its largest square doth yet no corner show A vessel great, it is the slowest made; Loud is its sound, but never word it said; A semblance great, the shadow of a shade.'",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-41.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "3. The Tao is hidden, and has no name; but it is the Tao which is skilful at imparting (to all things what they need) and making them complete."
+          "text": "3. The Tao is hidden, and has no name; but it is the Tao which is skilful at imparting (to all things what they need) and making them complete.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1534,19 +1634,31 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-42.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. The Tao produced One; One produced Two; Two produced Three; Three produced All things. All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy."
+          "text": "1. The Tao produced One; One produced Two; Two produced Three; Three produced All things. All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-42.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. What men dislike is to be orphans, to have little virtue, to be as carriages without naves; and yet these are the designations which kings and princes use for themselves. So it is that some things are increased by being diminished, and others are diminished by being increased."
+          "text": "2. What men dislike is to be orphans, to have little virtue, to be as carriages without naves; and yet these are the designations which kings and princes use for themselves. So it is that some things are increased by being diminished, and others are diminished by being increased.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-42.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "3. What other men (thus) teach, I also teach. The violent and strong do not die their natural death. I will make this the basis of my teaching."
+          "text": "3. What other men (thus) teach, I also teach. The violent and strong do not die their natural death. I will make this the basis of my teaching.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
         }
       ]
     },
