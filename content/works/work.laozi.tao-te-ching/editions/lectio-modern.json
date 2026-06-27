@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 21493,
+    "tokensEstimated": 22318,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -808,6 +808,104 @@
       "older": "Legge (1891): \"Tao when nursed within one's self, / His vigour will make true; / And where the family it rules / What riches will accrue!...\"",
       "lectio": "Cultivate the Way in yourself, and your power becomes real. Cultivate it in the family, and its power overflows. Cultivate it in the village, and its power endures. Cultivate it in the state, and its power abounds. Cultivate it in the world, and its power reaches everywhere.",
       "note": "The Chinese is a five-rung ladder, each rung repeating xiu zhi (修之, cultivate it) and qi de (其德, its de) across a widening circle — self, family, village, state, world — and naming what the de becomes at each scale: zhen (真, genuine, real), yu (餘, overflowing surplus), chang (長, lasting), feng (豐, abundant), pu (普, universal, everywhere). De (德) is the te the book is named for, which we render \"power\" throughout. Legge unrolls the chant into a rhyming verse of \"vigour,\" \"riches,\" and \"good fortune\" that loses both the repeated frame and the precise word at each step. We keep the parallel \"cultivate it… and its power…\" so the reader feels the same thing widen outward, the cultivated power growing truer at the root and broader at the reach."
+    },
+    {
+      "locus": "opening line (含德之厚，比於赤子)",
+      "phrase": "One full of virtue is like a newborn child.",
+      "older": "Legge (1891): \"He who has in himself abundantly the attributes (of the Tao) is like an infant.\"",
+      "lectio": "One full of virtue is like a newborn child.",
+      "note": "The Chinese is 含德之厚，比於赤子. De (德) is the te the book is named for — the inner power of the Way, which we render \"virtue\" throughout the edition, in its old sense of the power proper to a thing (cf. Chapters 38, 51). Legge unpacks it into \"the attributes (of the Tao),\" which is faithful but clutters the line and hides the single word the chapter turns on. The child is 赤子 (chizi), literally the \"red child,\" the newborn still flushed at birth; we keep \"newborn child\" so the image lands plain and the chapter opens on the one figure it is built around — the infant whose softness is its safety."
+    },
+    {
+      "locus": "the close (物壯則老，謂之不道，不道早已)",
+      "phrase": "what is against the Way comes early to its end",
+      "older": "Legge (1891): \"When things have become strong, they (then) become old, which may be said to be contrary to the Tao. Whatever is contrary to the Tao soon ends.\"",
+      "lectio": "Things in their full strength grow old. This is what it means to be against the Way, and what is against the Way comes early to its end.",
+      "note": "These three lines (物壯則老，謂之不道，不道早已) close the chapter, and they close Chapter 30 word for word — the book quoting itself. Legge's \"may be said to be contrary to the Tao\" and \"soon ends\" are accurate but loosen the bare, hammered repetition of bu dao (不道), \"against the Way,\" struck twice in a row. We keep the doubled phrase and render the line exactly as we did in Chapter 30, so the reader hears the echo: forcing a thing to its peak only hurries it toward age and end, and that hurrying is itself the turning away from the Way."
+    },
+    {
+      "locus": "the mysterious union (玄同)",
+      "phrase": "This is called the mysterious union.",
+      "older": "Legge (1891): \"he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'\"",
+      "lectio": "soften the glare, settle into the dust. This is called the mysterious union.",
+      "note": "The Chinese names the state 玄同 (xuán tóng) — xuan, the deep mystery that runs through the whole book, joined to tong, sameness or merging. The sage who blunts his own sharpness and dims his own light no longer stands apart from things but is leveled into them, one with the common dust. Legge's \"Mysterious Agreement\" reads like a treaty; we keep \"the mysterious union\" so the word lands as it does in the Chinese — a merging into the whole, not a bargain struck with it. The two lines it caps, 和其光，同其塵 (soften the glare, share the dust), are the book's own image for this sameness, which is why the chapter names it xuan tong."
+    },
+    {
+      "locus": "block the openings, shut the gates (塞其兌，閉其門)",
+      "phrase": "Block the openings, shut the gates.",
+      "older": "Legge (1891): \"He (who knows it) will keep his mouth shut and close the portals (of his nostrils).\"",
+      "lectio": "Block the openings, shut the gates.",
+      "note": "The Chinese 塞其兌，閉其門 is the same pair that opens Chapter 52: dui (兌), the openings or apertures of the senses, and men (門), the gates through which the world rushes in. Legge pins them to specific body parts — \"his mouth,\" \"the portals (of his nostrils)\" — which narrows a deliberately open image. We keep the bare \"openings\" and \"gates,\" matching the Lectio rendering in Chapter 52, so the chapter reads as it means: close off the channels of grasping and noise, and the inner stillness holds."
+    },
+    {
+      "locus": "opening line (以正治國，以奇用兵，以無事取天下)",
+      "phrase": "win the world by not meddling",
+      "older": "Legge (1891): \"the kingdom is made one's own (only) by freedom from action and purpose.\"",
+      "lectio": "Govern the state with what is straight and ordinary. Wage war with surprise. But win the world by not meddling.",
+      "note": "The Chinese sets three methods against each other: govern (治國) by 正 (zhèng, the upright, the straight, the normal); fight (用兵) by 奇 (qí, the irregular, the unexpected, surprise); but take the world (取天下) by 無事 (wú shì), literally \"no-business,\" not stirring things up. Legge renders 正 as \"correction\" and 奇 as \"crafty dexterity,\" which obscures the deliberate pairing of the straight against the surprising. We keep the three as a tight contrast and render 無事 as \"not meddling\" — the same leave-it-alone restraint as wu wei (acting-without-forcing), applied to ruling the whole world."
+    },
+    {
+      "locus": "the sharp weapons line (民多利器，國家滋昏)",
+      "phrase": "The more sharp weapons the people have, the deeper the state falls into disorder.",
+      "older": "Legge (1891): \"the more implements to add to their profit that the people have, the greater disorder is there in the state and clan.\"",
+      "lectio": "The more sharp weapons the people have, the deeper the state falls into disorder.",
+      "note": "The crux is 利器 (lì qì). Legge reads it as \"implements to add to their profit\" — tools of gain — but in this list of escalations (prohibitions, weapons, cunning, laws) 利器 is most naturally the sharp weapon, the keen-edged instrument, which breeds the 昏 (hūn, darkness, disorder) that follows. We take 利器 as \"sharp weapons,\" the reading that fits the chapter's argument that more force in private hands means more chaos for the state, not more prosperity."
+    },
+    {
+      "locus": "the sage's refrain (我無為而民自化 ... 我無欲而民自樸)",
+      "phrase": "I act without forcing, and the people transform themselves ... the people return on their own to the uncarved block",
+      "older": "Legge (1891): \"I will do nothing (of purpose), and the people will be transformed of themselves ... I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.\"",
+      "lectio": "I act without forcing, and the people transform themselves. I love stillness, and the people right themselves. I do not meddle, and the people grow prosperous on their own. I have no desires, and the people return on their own to the uncarved block.",
+      "note": "The close is four matched lines, each pairing the sage's restraint with the people's 自 (zì, of themselves, on their own): 無為 (wú wéi, acting-without-forcing) yields self-transforming; 好靜 (loving stillness) yields self-righting; 無事 (not-meddling) yields self-enriching; 無欲 (no desires) yields a return to 樸 (pǔ). Legge's \"do nothing (of purpose)\" reads as idleness and misses wu wei, and he dissolves 樸 into \"the primitive simplicity.\" We keep wu wei as acting-without-forcing and restore 樸 as \"the uncarved block,\" the book's standing image for unworked, original simplicity, so the chapter ends on the emblem Laozi returns to throughout."
+    },
+    {
+      "locus": "the famous reversal (禍兮福之所倚，福兮禍之所伏)",
+      "phrase": "Misfortune is what fortune leans on; fortune is where misfortune hides.",
+      "older": "Legge (1891): \"Misery!—happiness is to be found by its side! Happiness!—misery lurks beneath it!\"",
+      "lectio": "Misfortune is what fortune leans on; fortune is where misfortune hides.",
+      "note": "The Chinese 禍兮福之所倚，福兮禍之所伏 is the book's most quoted line, and it turns on two precise verbs: 倚 (yǐ), to lean on or rest against, and 伏 (fú), to lie hidden, to crouch in wait. Each of the pair, fortune (福) and misfortune (禍), is bound up inside the other — disaster is the very thing good luck props itself against, and good luck is the den where disaster lies low. Legge's exclamatory \"Misery!—happiness is to be found by its side!\" keeps the sense but breaks the line into Victorian outbursts and loses the quiet, structural reciprocity. We keep the two clauses balanced and bare, with leaning and hiding intact, so the proverb lands as it does in Chinese: neither state is ever pure or final, each already carrying its opposite folded inside."
+    },
+    {
+      "locus": "the close (方而不割，廉而不劌，直而不肆，光而不燿)",
+      "phrase": "square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling",
+      "older": "Legge (1891): \"the sage is (like) a square which cuts no one (with its angles); (like) a corner which injures no one (with its sharpness). He is straightforward, but allows himself no license; he is bright, but does not dazzle.\"",
+      "lectio": "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling.",
+      "note": "The chapter ends in four matched clauses, each a quality that could harm held back from harming: 方而不割 (square, yet does not cut), 廉而不劌 (sharp-cornered, yet does not gash — 廉 is the keen edge or angle of a thing, 劌 to wound on it), 直而不肆 (straight, yet not unbridled), 光而不燿 (bright, yet does not dazzle). Legge unrolls the first two into bracketed similes (\"like a square which cuts no one (with its angles)\") that slow the drumbeat and clutter the parallel; his \"allows himself no license\" for 不肆 reaches for a moral gloss the spare Chinese does not spell out. We keep all four as tight, parallel pairs so the rhythm holds and the point stands clear: the sage has every edge — squareness, sharpness, straightness, brightness — yet turns none of it against others. The last clause, \"bright but not dazzling\" (光而不燿), is the line the chapter is remembered for, and we keep it nearly word for word."
+    },
+    {
+      "locus": "the two kinds of rule (其政悶悶，其民淳淳；其政察察，其民缺缺)",
+      "phrase": "When the government is dull and unobtrusive, the people stay honest and whole.",
+      "older": "Legge (1891), in verse: \"The government that seems the most unwise, / Oft goodness to the people best supplies; / That which is meddling, touching everything, / Will work but ill, and disappointment bring.\"",
+      "lectio": "When the government is dull and unobtrusive, the people stay honest and whole. When the government is sharp and prying, the people grow crafty and broken.",
+      "note": "The Chinese is two flat parallel couplets: 其政悶悶 (a government 悶悶, muffled, dim, leaving things alone) yields 其民淳淳 (people 淳淳, simple, honest, unspoiled); 其政察察 (a government 察察, sharp-eyed, scrutinizing, prying into everything) yields 其民缺缺 (people 缺缺, deficient, cunning, broken). Legge dissolves the whole into a rhyming Victorian quatrain that adds judgments (\"seems the most unwise,\" \"meddling\") and loses the bare cause-and-effect mirror. We restore the two plain conditionals so the contrast lands as the original sets it up — the quieter the rule, the wholer the people; the more intrusive the rule, the more crooked they become — which is also what sets up the chapter's turn into fortune and misfortune feeding on each other."
+    },
+    {
+      "locus": "opening line (治人事天，莫若嗇)",
+      "phrase": "nothing is better than restraint",
+      "older": "Legge (1891): \"For regulating the human (in our constitution) and rendering the (proper) service to the heavenly, there is nothing like moderation.\"",
+      "lectio": "In governing people and in serving heaven, nothing is better than restraint.",
+      "note": "The crux is se (嗇), which Legge softens to \"moderation\" and pads with brackets — \"the human (in our constitution),\" \"the (proper) service.\" Se is sharper and more concrete: it is the frugality of the careful farmer or steward, sparing what you have, husbanding your strength, not spending yourself out. Legge himself glosses it as the opposite of \"living fast\" and \"burning the candle at both ends.\" We render it \"restraint\" (the sparing, hoarding economy of energy) and strip the scaffolding so the bare counsel stands: in ruling others and in serving heaven alike, there is nothing like holding back."
+    },
+    {
+      "locus": "the early yielding (夫唯嗇，是謂早服)",
+      "phrase": "by restraint you yield early to the Way",
+      "older": "Legge (1891): \"It is only by this moderation that there is effected an early return (to man's normal state).\"",
+      "lectio": "It is only by restraint that you yield early to the Way.",
+      "note": "The phrase is zao fu (早服). Fu (服) carries the senses of submitting, yielding, and giving oneself over — and by extension preparing in good time. Legge reads it as an \"early return (to man's normal state),\" supplying a destination the bare words do not name. We keep fu as an early yielding or submitting to the Way: the one who spares himself bends to the grain of things early, before he is forced to, and so begins gathering te (德, virtue, power) before any crisis comes — which is exactly the \"deep store of power\" the next line builds on."
+    },
+    {
+      "locus": "the spirits lose their power",
+      "phrase": "the spirits of the dead lose their power to haunt",
+      "older": "Legge (1891): \"the manes of the departed will not manifest their spiritual energy.\"",
+      "lectio": "the spirits of the dead lose their power to haunt",
+      "note": "The Chinese is 以道赋天下，其鬼不神. 鬼 (guǐ) are the ghosts or spirits of the dead, and 神 (shén) is used here as a verb — to act as a spirit, to work uncanny, supernatural power. Legge's \"manes\" (a Latin word for the souls of the dead) and \"manifest their spiritual energy\" are accurate but archaic to the point of obscurity. We keep the plain image the chapter intends: when the Way governs, the dead no longer trouble the living, not because they are powerless but because their power is turned aside from doing harm."
+    },
+    {
+      "locus": "their power flows back to the people",
+      "phrase": "the power of each flows back and gathers in the people",
+      "older": "Legge (1891): \"their good influences converge in the virtue (of the Tao).\"",
+      "lectio": "the power of each flows back and gathers in the people",
+      "note": "The closing line is 夫兩不相傷，故德交歸焉. The word is 德 (dé, te) — virtue, the quiet power of acting without forcing — and 交歸 means it crosses over and returns, gathers and comes home. Legge folded the destination into \"the virtue (of the Tao),\" but most readers take 焉 (yān, \"there, in that\") to point at the people, who are where both the spirits' restraint and the sage's restraint converge. We name that resting place plainly: when neither the unseen powers nor the ruler do harm, the te of each settles back into the people themselves."
     }
   ],
   "sections": [
@@ -2878,6 +2976,244 @@
           "text": "How do I know the world is like this? By this.",
           "spine": {
             "from": "0.7917",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-55",
+      "order": 55,
+      "label": "Chapter 55",
+      "title": "Full of Virtue, Like a Newborn Child",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-55.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "One full of virtue is like a newborn child. Stinging insects do not sting it, fierce beasts do not seize it, birds of prey do not strike it.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-55.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Its bones are soft and its sinews weak, yet its grip is firm. It does not yet know the union of female and male, yet its little member stirs — such is the perfection of its vital essence. It can cry all day without growing hoarse — such is the perfection of its harmony.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-55.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "To know harmony is to know the constant. To know the constant is clarity. To force more life is to court ill omen. For the mind to drive the breath is to overstrain.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-55.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Things in their full strength grow old. This is what it means to be against the Way, and what is against the Way comes early to its end.",
+          "spine": {
+            "from": "0.6000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-56",
+      "order": 56,
+      "label": "Chapter 56",
+      "title": "Those Who Know Do Not Speak",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-56.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Those who know do not speak; those who speak do not know.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-56.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Block the openings, shut the gates. Blunt the sharp edges, untie the tangles, soften the glare, settle into the dust. This is called the mysterious union.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-56.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Such a one cannot be drawn close or held at a distance, cannot be helped or harmed, cannot be honored or disgraced. And so they are honored by all the world.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-57",
+      "order": 57,
+      "label": "Chapter 57",
+      "title": "Win the World by Not Meddling",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-57.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Govern the state with what is straight and ordinary. Wage war with surprise. But win the world by not meddling.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-57.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "How do I know it works this way? By this. The more prohibitions there are in the land, the poorer the people grow. The more sharp weapons the people have, the deeper the state falls into disorder. The more clever and cunning people become, the more strange things start to happen. The more laws and decrees are posted up, the more thieves and robbers there are.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-57.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So the sage says: I act without forcing, and the people transform themselves. I love stillness, and the people right themselves. I do not meddle, and the people grow prosperous on their own. I have no desires, and the people return on their own to the uncarved block.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-58",
+      "order": 58,
+      "label": "Chapter 58",
+      "title": "Fortune and Misfortune",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-58.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the government is dull and unobtrusive, the people stay honest and whole. When the government is sharp and prying, the people grow crafty and broken.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.4500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-58.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Misfortune is what fortune leans on; fortune is where misfortune hides. Who knows where it all ends? There is no fixed standard. What is right turns strange, and what is good turns monstrous. Long, long has mankind been lost in this.",
+          "spine": {
+            "from": "0.4500",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-58.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-59",
+      "order": 59,
+      "label": "Chapter 59",
+      "title": "Sparing",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-59.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "In governing people and in serving heaven, nothing is better than restraint.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-59.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "It is only by restraint that you yield early to the Way; and yielding early means storing up an ever deeper store of power. With that deep store of power, there is nothing you cannot overcome; and when there is nothing you cannot overcome, no one can know your limit. The one whose limit no one knows is fit to hold the state.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-59.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Hold to the mother of the state, and you may last long. This is what it means to have deep roots and a firm base — the way of long life and lasting vision.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-60",
+      "order": 60,
+      "label": "Chapter 60",
+      "title": "Like Cooking a Small Fish",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-60.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Governing a great state is like cooking a small fish.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-60.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Let the world be governed by the Way, and the spirits of the dead lose their power to haunt. It is not that they have no such power, but that their power does no harm to the people. And it is not only that their power does no harm — neither does the sage who rules do any harm.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-60.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Since neither does harm, the power of each flows back and gathers in the people.",
+          "spine": {
+            "from": "0.6667",
             "to": "1.0000"
           }
         }
