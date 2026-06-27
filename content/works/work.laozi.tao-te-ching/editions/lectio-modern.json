@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 20143,
+    "tokensEstimated": 20624,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -675,6 +675,69 @@
       "older": "Legge (1891): \"to be orphans, to have little virtue, to be as carriages without naves.\"",
       "lectio": "orphaned, lonely, or unworthy",
       "note": "The Chinese is 孤寡不穀: 孤 \"orphaned,\" 寡 \"alone\" or \"widowed,\" 不穀 literally \"not grain\" — an old self-deprecating title a ruler used to mean \"unworthy\" or \"of no account.\" Legge rendered 不穀 as \"carriages without naves,\" reading it through a different gloss, which turns a king's humble self-name into a puzzling image. We keep all three as the lowly titles rulers gave themselves, which is what makes the next line — that things gain by being made less — land."
+    },
+    {
+      "locus": "the softest thing in the world",
+      "phrase": "The softest thing in the world rides down the hardest.",
+      "older": "Legge (1891): \"The softest thing in the world dashes against and overcomes the hardest.\"",
+      "lectio": "The softest thing in the world rides down the hardest.",
+      "note": "The Chinese is 天下之至柔，馳騁天下之至堅. The verb 馳騁 (chíchěng) literally means to gallop or drive a horse — the soft thing rides over the hard as a rider drives a mount, freely and without resistance. Legge's \"dashes against and overcomes\" turns it into a collision, which is exactly the forcing the chapter is arguing against. We keep the riding image, so the soft overcomes by moving through rather than striking."
+    },
+    {
+      "locus": "what has no substance",
+      "phrase": "What has no substance slips in where there is no opening.",
+      "older": "Legge (1891): \"that which has no (substantial) existence enters where there is no crevice.\"",
+      "lectio": "What has no substance slips in where there is no opening.",
+      "note": "The Chinese 無有入無間 sets 無有 (what has no form, the insubstantial) against 無間 (what has no gap, the seamless). Legge's bracketed \"(substantial)\" and the rare word \"crevice\" read as scholarly hedging; we let the bare paradox stand — the formless enters the gapless — which is how the line works in Chinese."
+    },
+    {
+      "locus": "opening questions (名與身孰親)",
+      "phrase": "Your name or your self — which is dearer?",
+      "older": "Legge (1891): \"Or fame or life, / Which do you hold more dear? / Or life or wealth, / To which would you adhere?\"",
+      "lectio": "Your name or your self — which is dearer? Your self or your wealth — which matters more?",
+      "note": "The Chinese 名與身孰親 sets ming (名, name, reputation, fame) against shen (身, the body, the self, one's own person), and asks which is qin (親), nearer and dearer. Legge spins the three questions into a rhyming quatrain that swaps shen for the looser \"life.\" We keep shen as \"self\" throughout the chapter, since its whole argument turns on the self you exhaust in chasing name and wealth — and we render the questions as plain, bare comparisons so they land as the original means them to, blunt and personal."
+    },
+    {
+      "locus": "the close (知足不辱，知止不殆)",
+      "phrase": "Know what is enough ... Know when to stop",
+      "older": "Legge (1891): \"Who is content / Needs fear no shame. / Who knows to stop / Incurs no blame. / From danger free / Long live shall he.\"",
+      "lectio": "Know what is enough, and you meet no disgrace. Know when to stop, and you meet no danger. And so you endure.",
+      "note": "The two matched maxims are zhi zu (知足), to know sufficiency — to know when you have enough — and zhi zhi (知止), to know when to stop. Legge keeps the sense but breaks it into a sing-song verse and softens dai (殆), real danger or peril, into mere \"blame.\" We restore the pairing as two plain imperatives and keep dai as \"danger,\" so the chapter's last turn holds: the one who knows enough and knows when to halt is never disgraced, never imperiled, and so 長久 — lasts long, endures."
+    },
+    {
+      "locus": "movement overcomes the cold",
+      "phrase": "Movement overcomes the cold; stillness overcomes the heat.",
+      "older": "Legge (1891): \"Constant action overcomes cold; being still overcomes heat.\"",
+      "lectio": "Movement overcomes the cold; stillness overcomes the heat.",
+      "note": "The Chinese is 躁勝寒，靜勝熱. 躁 (zào) means restless, hurried movement — the bodily fact that stirring about warms you against the cold, while keeping still cools you in the heat. Legge's \"constant action\" reaches for a moral abstraction the line does not carry; we keep the plain, physical image, which lets the closing turn — that it is purity and stillness, not restless motion, that truly sets the world right — land as the quiet reversal the chapter intends."
+    },
+    {
+      "locus": "the worst of all faults",
+      "phrase": "There is no calamity greater than not knowing when you have enough; there is no fault greater than the craving to get more.",
+      "older": "Legge (1891): \"There is no guilt greater than to sanction ambition; no calamity greater than to be discontented with one's lot; no fault greater than the wish to be getting.\"",
+      "lectio": "There is no calamity greater than not knowing when you have enough; there is no fault greater than the craving to get more.",
+      "note": "The received Chinese gives two parallel lines, 禍莫大於不知足，咎莫大於欲得 — \"no calamity greater than not knowing contentment, no fault greater than the craving to get.\" Legge prefaced these with a third clause, \"no guilt greater than to sanction ambition,\" which follows a variant text (罪莫大於可欲) and reads 可欲 as endorsing ambition. We keep the two lines of the standard text, the pairing nearly all modern versions share, because the chapter's whole point is the single failing of wanting more — to which discontent and grasping are the two faces."
+    },
+    {
+      "locus": "verse 1, closing line",
+      "phrase": "The farther you go, the less you know.",
+      "older": "Legge (1891): \"The farther that one goes out (from himself), the less he knows.\"",
+      "lectio": "The farther you go, the less you know.",
+      "note": "The Chinese is 其出弥远，其知弥少 — literally \"the more one goes out, the less one knows.\" Legge added the parenthetical \"(from himself),\" reading the line as a soul straying from its own center. The text simply opposes outward travel to inward knowing, picking up the door and the window of the lines before, so we keep the plain contrast: the more you chase knowledge by going abroad, the less you truly understand."
+    },
+    {
+      "locus": "the turn to wu wei (損之又損，以至於無為)",
+      "phrase": "until you come to acting without forcing. Act without forcing, and nothing is left undone.",
+      "older": "Legge (1891): \"He diminishes it and again diminishes it, till he arrives at doing nothing (on purpose). Having arrived at this point of non-action, there is nothing which he does not do.\"",
+      "lectio": "Dropped, and dropped again, until you come to acting without forcing. Act without forcing, and nothing is left undone.",
+      "note": "The hinge is wu wei (無為), the book's central paradox: 損之又損，以至於無為，無為而無不為. Legge's \"doing nothing (on purpose)\" reads as inertia, which misses the point — wu wei is not idleness but action that does not strain against the grain of things. We render it as acting-without-forcing, consistent with the rest of the edition, so the paradox lands: precisely by ceasing to push, nothing is left undone (無不為)."
+    },
+    {
+      "locus": "winning the world (取天下常以無事)",
+      "phrase": "The world is always won by leaving it alone. Once you start to meddle, you are not fit to win the world.",
+      "older": "Legge (1891): \"He who gets as his own all under heaven does so by giving himself no trouble (with that end). If one take trouble (with that end), he is not equal to getting as his own all under heaven.\"",
+      "lectio": "The world is always won by leaving it alone. Once you start to meddle, you are not fit to win the world.",
+      "note": "The Chinese 取天下常以無事，及其有事，不足以取天下 turns on wu shi (無事), \"no business, no fuss,\" against you shi (有事), getting busy, interfering. Legge's \"giving himself no trouble\" reads as personal ease, but the point is political and active: tian xia (天下), the world, is won by not meddling in it, and the moment you start to interfere you forfeit it. We keep \"leaving it alone\" and \"meddle\" so the chapter's lesson echoes the wu wei it has just named — the world comes to the hand that does not grasp."
     }
   ],
   "sections": [
@@ -2299,6 +2362,184 @@
           "text": "What others teach, I also teach: the violent and overbearing do not die a natural death. I take this as the father of my teaching.",
           "spine": {
             "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-43",
+      "order": 43,
+      "label": "Chapter 43",
+      "title": "The Softest Overcomes the Hardest",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-43.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The softest thing in the world rides down the hardest. What has no substance slips in where there is no opening. By this I know the worth of acting without forcing.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-43.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The teaching that uses no words, the good that comes of acting without forcing — few in the world ever reach them.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-44",
+      "order": 44,
+      "label": "Chapter 44",
+      "title": "Knowing When to Stop",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-44.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Your name or your self — which is dearer? Your self or your wealth — which matters more? Gaining or losing — which does you the greater harm?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.4167"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-44.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So the more you love, the more it costs you; the more you hoard, the heavier the loss when it goes.",
+          "spine": {
+            "from": "0.4167",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-44.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Know what is enough, and you meet no disgrace. Know when to stop, and you meet no danger. And so you endure.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-45",
+      "order": 45,
+      "label": "Chapter 45",
+      "title": "Great Perfection Seems Flawed",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-45.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Great perfection seems flawed, yet its use never wears out. Great fullness seems empty, yet its use is never used up. Great straightness seems bent. Great skill seems clumsy. Great eloquence seems to stammer.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-45.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Movement overcomes the cold; stillness overcomes the heat. Purity and stillness set the world right.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-46",
+      "order": 46,
+      "label": "Chapter 46",
+      "title": "Knowing You Have Enough",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-46.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the Way prevails in the world, the swift horses are sent back to haul dung for the fields. When the Way is cast aside, war-horses are bred out along the borders.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-46.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "There is no calamity greater than not knowing when you have enough; there is no fault greater than the craving to get more. So the contentment of one who knows he has enough is contentment that lasts.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-47",
+      "order": 47,
+      "label": "Chapter 47",
+      "title": "Knowing Without Going Out",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-47.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Without going out the door, you can know the world. Without looking through the window, you can see the Way of heaven. The farther you go, the less you know.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-47.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And so the sage knows without going about, understands and names things without seeing them, and accomplishes without acting.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-48",
+      "order": 48,
+      "label": "Chapter 48",
+      "title": "Less and Less",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-48.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "In the pursuit of learning, something is added every day. In the pursuit of the Way, something is dropped every day. Dropped, and dropped again, until you come to acting without forcing. Act without forcing, and nothing is left undone.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.4583"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-48.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The world is always won by leaving it alone. Once you start to meddle, you are not fit to win the world.",
+          "spine": {
+            "from": "0.4583",
             "to": "1.0000"
           }
         }
