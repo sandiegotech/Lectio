@@ -845,7 +845,7 @@ def tao_te_ching():
     work = Work(
         id=work_id, title="The Tao Te Ching", author="Laozi", originalLang="lzh",
         composed="400–301 BCE", type="philosophy", referenceScheme="chapter",
-        defaultEditionId=edition.id, tradition="East",
+        defaultEditionId="edition.tao-te-ching.lectio-modern", tradition="East",
         blurb=("Eighty-one short chapters on the Way that cannot be named and the power that works "
                "by yielding — water that wears down stone, the ruler who leads by stepping back. The "
                "foundational text of Taoism, and the most translated book in the world after the Bible."),
