@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 16470,
+    "tokensEstimated": 17431,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -339,6 +339,97 @@
       "older": "Legge (1891): \"When the Great Tao (Way or Method) ceased to be observed, benevolence and righteousness came into vogue.\"",
       "lectio": "When the great Way is abandoned, humaneness and righteousness come forward.",
       "note": "The whole chapter turns on a single ironic structure: each named virtue appears only because something was lost. The Chinese has no word for \"because,\" just bare juxtaposition — the Way fails, and there is ren and yi (仁義). We render ren as \"humaneness\" to match the Lectio Analects edition, so the reader hears Laozi answering Confucius: the great Confucian virtues are not the cure but the symptom. The point is sharpest if the line stays flat and unforced — \"come forward,\" not Legge's dated \"came into vogue\" — so the virtues sound like names rushing in to fill a hole."
+    },
+    {
+      "locus": "the three renunciations",
+      "phrase": "Renounce humaneness, throw out righteousness, and the people will return to devotion within their families and care for one another.",
+      "older": "Legge (1891): \"If we could renounce our benevolence and discard our righteousness, the people would again become filial and kindly.\"",
+      "lectio": "Renounce humaneness, throw out righteousness, and the people will return to devotion within their families and care for one another.",
+      "note": "The Chinese is 絕仁棄義，民復孝慈. 仁 (rén) is the Confucian virtue of humaneness, which we render throughout the edition as \"humaneness\" rather than Legge's \"benevolence,\" to keep it consistent with Chapter 18 and to mark it as the named, official virtue Laozi is criticizing. 孝慈 is the pair filial-devotion (孝, child to parent) and parental-love (慈, parent to child); Legge's \"filial and kindly\" flattens the reciprocity, so we keep both directions: devotion within the family and care for one another."
+    },
+    {
+      "locus": "the closing counsel",
+      "phrase": "see the plain and undyed, hold to the uncarved block",
+      "older": "Legge (1891), in verse: \"But simple views, and courses plain and true / Would selfish ends and many lusts eschew.\"",
+      "lectio": "see the plain and undyed, hold to the uncarved block, think little of self, and want little.",
+      "note": "The Chinese is 見素抱樸，少私寡欲. 素 is raw, undyed silk and 樸 (pǔ) is the uncarved block of wood — two of the book's signature images for the natural, unworked state, which Legge dissolves into a rhyming Victorian couplet that drops the images entirely. We restore the concrete metaphors (\"the plain and undyed,\" \"the uncarved block\") because they recur across the edition and carry the chapter's argument, and we keep the two final imperatives literal: lessen the self (少私) and reduce desire (寡欲)."
+    },
+    {
+      "locus": "opening line",
+      "phrase": "Give up learning, and you will have no more worries.",
+      "older": "Legge (1891): \"When we renounce learning we have no troubles.\"",
+      "lectio": "Give up learning, and you will have no more worries.",
+      "note": "The Chinese is 絕學無憂. Legge places this line at the head of Chapter 20, and we keep it there to preserve his chapter division and segment order. Many modern scholars instead read it as the closing line of Chapter 19, where it rounds off that chapter's argument against cleverness and learning; the early texts do not mark the break, so both placements are defensible. We render 學 plainly as \"learning\" (book-learning, cleverness) rather than schooling in general, which is the sense the chapter goes on to disown."
+    },
+    {
+      "locus": "the rude borderer",
+      "phrase": "like a country bumpkin",
+      "older": "Legge (1891): \"like a rude borderer.\"",
+      "lectio": "I alone am awkward and useless, like a country bumpkin.",
+      "note": "The Chinese 頑且鄙 describes someone stubborn, slow, and coarse — a rustic. Legge's \"rude borderer\" (a crude frontier-dweller) is now archaic and obscure; \"country bumpkin\" carries the same self-mocking sense of an unpolished simpleton, which is the tone Laozi adopts throughout the chapter as he sets his dull plainness against the crowd's brightness."
+    },
+    {
+      "locus": "closing image",
+      "phrase": "for I am nourished by the Mother, the Way",
+      "older": "Legge (1891): \"but I value the nursing-mother (the Tao).\"",
+      "lectio": "I alone am different from all the rest — for I am nourished by the Mother, the Way.",
+      "note": "The Chinese 而貴食母 turns on 食 (to feed, to be fed) and 母 (mother). Legge reads it as \"value the nursing-mother\"; we keep both the valuing and the feeding by rendering it \"nourished by the Mother,\" since the line's force is that Laozi, cut off from the crowd's comforts, draws his sustenance directly from the source — the Way itself, named here as the Mother who feeds all things (echoing Chapter 1's \"mother of all things\")."
+    },
+    {
+      "locus": "opening line (孔德之容，唯道是從)",
+      "phrase": "The form of great power flows from the Way alone.",
+      "older": "Legge (1891): \"The grandest forms of active force / From Tao come, their only source.\"",
+      "lectio": "The form of great power flows from the Way alone.",
+      "note": "The Chinese 孔德之容，唯道是從 says the rong (容, the look, form, or manner) of kong de (孔德, great or abundant de) follows the Way alone. De (德) is the te the book is named for — the inner power that comes of the Way, which we render \"power\" throughout. Legge spins it into a rhyming couplet about \"the grandest forms of active force,\" which is faithful in spirit but buries de under abstraction. We keep it plain: great power takes its very shape from the Way and from nothing else."
+    },
+    {
+      "locus": "the essence within (其中有精；其精甚真，其中有信)",
+      "phrase": "within it is an essence that is real; and this essence can be trusted",
+      "older": "Legge (1891): \"Things' essences all there endure. / Those essences the truth enfold / Of what, when seen, shall then be told.\"",
+      "lectio": "Deep and dark, yet within it is an essence that is real; and this essence can be trusted.",
+      "note": "The crux is jing (精) and xin (信). Jing is the vital essence, the concentrated seed of life within the otherwise formless Way; the text insists qi jing shen zhen (其精甚真) — that essence is utterly real. Xin (信) is truth that can be relied on, the trust a thing keeps with you. Legge's verse turns this into essences that \"enfold the truth of what, when seen, shall then be told,\" reading xin forward to a later disclosure and softening the bare claim. We hold the paradox the chapter is built on — the Way is elusive and vague, yet within it is an essence that is real and to be trusted — so the hidden depth and its solid core stand side by side."
+    },
+    {
+      "locus": "the origin of all things (以閱衆甫)",
+      "phrase": "by it we know the origin of all things",
+      "older": "Legge (1891): \"So, in their beautiful array, / Things form and never know decay.\"",
+      "lectio": "From of old until now its name has never passed away, and by it we know the origin of all things.",
+      "note": "The closing turn is 自古及今，其名不去，以閱衆甫. Zhong fu (衆甫) is the beginning or father-source of the many — the origin from which all things first came. The verb yue (閱) is to review, to look through, hence to know by inspecting. Legge, following a variant, reads the line as things forming in beautiful array and never decaying, which loses the chapter's real claim: the Way's name has endured unbroken from ancient times to now, and through it we can look back to the very origin of all. We keep that thread from the deep past into the present, which sets up the final \"how do I know? By this.\""
+    },
+    {
+      "locus": "opening line",
+      "phrase": "Yield, and remain whole.",
+      "older": "Legge (1891): \"The partial becomes complete.\"",
+      "lectio": "Yield, and remain whole.",
+      "note": "The Chinese is 曲則全. 曲 (qū) is literally \"bent, crooked, curved,\" which Legge renders abstractly as \"the partial.\" But the chapter's argument is practical and ethical, not geometric: it is about the strength of yielding and giving way (the same paradox as 柔弱, the soft and weak, prevailing). So we read 曲 as \"yield\" — to bend rather than break — which the closing line confirms by quoting this very phrase as an old proverb of self-preservation. 全 (quán) is \"whole, intact, kept entire,\" hence \"remain whole.\""
+    },
+    {
+      "locus": "the sage's One",
+      "phrase": "the sage holds to the One, and becomes a model for the world",
+      "older": "Legge (1891): \"the sage holds in his embrace the one thing (of humility), and manifests it to all the world.\"",
+      "lectio": "the sage holds to the One, and becomes a model for the world",
+      "note": "The Chinese is 聖人抱一為天下式. 抱一 is \"embraces the One\" — the One being the Way itself, the undivided unity from which all things come (cf. chapters 10, 39, 42), not narrowly \"humility,\" which Legge supplies in brackets to fit this chapter's theme. We keep the bare \"the One\" and let it carry its full weight. 式 (shì) is a \"pattern, standard, model\" — the sage becomes a measure others can be set against — so \"a model for the world\" rather than Legge's \"manifests it to all the world.\""
+    },
+    {
+      "locus": "verse 2, the threefold parallel",
+      "phrase": "one who follows the Way becomes one with the Way; one who follows its power becomes one with that power; one who follows loss becomes one with loss",
+      "older": "Legge (1891): \"when one is making the Tao his business, those who are also pursuing it, agree with him in it, and those who are making the manifestation of its course their object agree with him in that; while even those who are failing in both these things agree with him where they fail.\"",
+      "lectio": "So one who follows the Way becomes one with the Way; one who follows its power becomes one with that power; and one who follows loss becomes one with loss.",
+      "note": "The Chinese (從事於道者，同於道；德者，同於德；失者，同於失) is a clean threefold parallel: whoever gives himself to the Way is made one with the Way, whoever to its te (power/virtue) is made one with that power, whoever to loss is made one with loss. Legge bent the lines into a sentence about people agreeing with the sage, which buries the parallel and its point — that you become whatever you devote yourself to. We restore the plain triad, the reading Walter Gorn Old (1904) and modern scholars share, and keep te as 'power' to match the rest of this edition."
+    },
+    {
+      "locus": "verse 1, the storm images",
+      "phrase": "A whirlwind does not last a whole morning; a downpour does not last a whole day.",
+      "older": "Legge (1891): \"A violent wind does not last for a whole morning; a sudden rain does not last for the whole day.\"",
+      "lectio": "A whirlwind does not last a whole morning; a downpour does not last a whole day.",
+      "note": "The images are kept exactly — 飄風 (the gale) and 驟雨 (the cloudburst) — since they carry the chapter's argument: even nature's most forceful acts are brief, so forced human striving is briefer still. We only trade Legge's 'violent wind' and 'sudden rain' for the tighter 'whirlwind' and 'downpour.'"
+    },
+    {
+      "locus": "the verdict (餘食贅行)",
+      "phrase": "leftover food and a tumor on the body",
+      "older": "Legge (1891): \"are like remnants of food, or a tumour on the body, which all dislike.\"",
+      "lectio": "Seen in the light of the Way, all this is leftover food and a tumor on the body — things that everyone finds repulsive.",
+      "note": "The Chinese is 餘食贅行 (yú shí zhuì xíng). Yú shí (餘食) is the scraps left over from a meal — surplus no one wants. Zhuì (贅) is a wart, a tumor, a useless growth on the body; 行 here is read as 形 (xíng, the body or form), the gloss Legge follows in rendering it \"a tumour on the body.\" Both images say the same thing: these self-displaying acts are not virtues but excess — waste tacked onto a life, a swelling that does not belong. We keep Legge's vivid pair, since the disgust is the point: even the proud and the boastful, who think they are adding to themselves, are only piling on what everyone else wants to scrape off."
     }
   ],
   "sections": [
@@ -1011,6 +1102,234 @@
           "text": "When the six bonds of kin fall out of harmony, filial devotion and parental love are praised. When the state sinks into disorder, loyal ministers appear.",
           "spine": {
             "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-19",
+      "order": 19,
+      "label": "Chapter 19",
+      "title": "Return to the Uncarved Block",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-19.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Renounce sageliness, throw out cleverness, and the people will be better off a hundredfold. Renounce humaneness, throw out righteousness, and the people will return to devotion within their families and care for one another. Renounce ingenuity, throw out the chase after gain, and there will be no more thieves or bandits.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-19.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "These three are mere ornament, and ornament is not enough. So let the people hold to something solid: see the plain and undyed, hold to the uncarved block, think little of self, and want little.",
+          "spine": {
+            "from": "0.3333",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-20",
+      "order": 20,
+      "label": "Chapter 20",
+      "title": "Alone and Adrift",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-20.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Give up learning, and you will have no more worries. Between a respectful \"yes\" and a careless \"yeah,\" how much difference is there really? Between what people call good and what they call bad, how wide is the gulf that separates them?",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.4500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-20.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "What everyone fears must indeed be feared. But how vast and endless this all is, with no place to come to rest!",
+          "spine": {
+            "from": "0.4500",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-20.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The crowd is merry and content, as if feasting at a great banquet, as if climbing a tower in spring. I alone am still, giving no sign, my desires not yet stirring, like an infant that has not yet learned to smile. I am weary and forlorn, like one with no home to return to. Everyone else has more than enough; I alone seem to have lost everything. Mine is the mind of a fool, muddled and dim.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-20.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Ordinary people are bright and clever; I alone am dull. Ordinary people are sharp and sure; I alone am clouded and confused. I drift like the restless sea; I am blown about, as if I had nowhere to settle. Everyone else has their work and their purpose; I alone am awkward and useless, like a country bumpkin. I alone am different from all the rest — for I am nourished by the Mother, the Way.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-21",
+      "order": 21,
+      "label": "Chapter 21",
+      "title": "The Essence Within",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-21.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The form of great power flows from the Way alone.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-21.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And the Way itself, as a thing, is elusive and vague. Vague and elusive, yet within it are images. Elusive and vague, yet within it are things. Deep and dark, yet within it is an essence that is real; and this essence can be trusted.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-21.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "From of old until now its name has never passed away, and by it we know the origin of all things. How do I know the way of all things at their origin? By this.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-22",
+      "order": 22,
+      "label": "Chapter 22",
+      "title": "Yield and Remain Whole",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-22.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Yield, and remain whole. Bend, and stay straight. Empty yourself, and be filled. Wear out, and be made new. Have little, and you will gain; have much, and you will be confused.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-22.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And so the sage holds to the One, and becomes a model for the world. He does not display himself, and so he shines. He does not justify himself, and so he is known. He does not boast, and so he is given credit. He is not proud, and so he endures. It is because he does not contend that no one in the world can contend with him.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-22.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The old saying — yield, and remain whole — how could that be empty words? Truly it keeps a person whole, and brings them home.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-23",
+      "order": 23,
+      "label": "Chapter 23",
+      "title": "Few Words Are Natural",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-23.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "To say little is the way of nature. A whirlwind does not last a whole morning; a downpour does not last a whole day. Who makes these things? Heaven and earth. And if even heaven and earth cannot make them last long, how much less can a person.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-23.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So one who follows the Way becomes one with the Way; one who follows its power becomes one with that power; and one who follows loss becomes one with loss.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-23.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The Way gladly receives whoever becomes one with the Way; its power gladly receives whoever becomes one with that power; and loss gladly receives whoever becomes one with loss. Where there is not trust enough, no trust is returned.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-24",
+      "order": 24,
+      "label": "Chapter 24",
+      "title": "Standing on Tiptoe",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-24.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Stand on tiptoe, and you cannot keep your balance. Take great striding steps, and you cannot keep walking.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-24.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Show yourself off, and you do not shine. Insist you are right, and you are not seen for what you are. Boast of what you have done, and the credit is not given you. Be proud of yourself, and you do not last.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-24.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Seen in the light of the Way, all this is leftover food and a tumor on the body — things that everyone finds repulsive. And so whoever holds to the Way will have nothing to do with them.",
+          "spine": {
+            "from": "0.6667",
             "to": "1.0000"
           }
         }
