@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 22318,
+    "tokensEstimated": 23285,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -906,6 +906,97 @@
       "older": "Legge (1891): \"their good influences converge in the virtue (of the Tao).\"",
       "lectio": "the power of each flows back and gathers in the people",
       "note": "The closing line is 夫兩不相傷，故德交歸焉. The word is 德 (dé, te) — virtue, the quiet power of acting without forcing — and 交歸 means it crosses over and returns, gathers and comes home. Legge folded the destination into \"the virtue (of the Tao),\" but most readers take 焉 (yān, \"there, in that\") to point at the people, who are where both the spirits' restraint and the sage's restraint converge. We name that resting place plainly: when neither the unseen powers nor the ruler do harm, the te of each settles back into the people themselves."
+    },
+    {
+      "locus": "opening image",
+      "phrase": "A great state is the low ground where all streams meet",
+      "older": "Legge (1891): \"What makes a great state is its being (like) a low-lying, down-flowing (stream);—it becomes the centre to which tend (all the small states) under heaven.\"",
+      "lectio": "A great state is the low ground where all streams meet — the place where the world comes together, the female of the world.",
+      "note": "The Chinese is 大國者下流，天下之交，天下之牝. 下流 (xiàliú) is the downstream, the low-lying place toward which all water runs; 交 (jiāo) is the meeting or joining-place. Legge's parenthetical scaffolding — \"(like) a low-lying, down-flowing (stream)\" — is cautious and honest, but it buries the picture under brackets. We let the image stand bare: the great state is the low ground where streams converge. We also pull 天下之牝, \"the female of the world,\" up into the opening where the Chinese places it, since it sets up the very next line about the female and stillness."
+    },
+    {
+      "locus": "the female overcomes the male",
+      "phrase": "The female overcomes the male by her stillness, and in her stillness she takes the lower place.",
+      "older": "Legge (1891): \"(To illustrate from) the case of all females:—the female always overcomes the male by her stillness. Stillness may be considered (a sort of) abasement.\"",
+      "lectio": "The female overcomes the male by her stillness, and in her stillness she takes the lower place.",
+      "note": "牝常以靜勝牡，以靜為下 — the female constantly overcomes the male by stillness, and by stillness takes the lower position. Legge renders 為下 as \"abasement,\" a heavy moral word; but 下 (xià) here is simply the low place, the same low ground as the opening image, not self-humiliation. Keeping \"the lower place\" ties the line back to the streams running downhill and keeps the paradox clean: it is by being still and low, not by striving, that the soft prevails."
+    },
+    {
+      "locus": "the opening image",
+      "phrase": "The Way is the deep refuge of all things.",
+      "older": "Legge (1891): \"Tao has of all things the most honoured place.\"",
+      "lectio": "The Way is the deep refuge of all things.",
+      "note": "The Chinese is 道者萬物之奥. The key word is 奥 (ào), the innermost, sheltered corner of a house — the deepest, most hidden, most protected place. Legge generalized it to \"the most honoured place,\" which keeps the dignity but loses the picture of refuge, of all things finding their hidden shelter in the Way. We keep the concrete image, which also sets up the two lines that follow: the Way as treasure and as refuge."
+    },
+    {
+      "locus": "fine words can win honor",
+      "phrase": "Fine words can win honor.",
+      "older": "Legge (1891): \"(Its) admirable words can purchase honour.\"",
+      "lectio": "Fine words can win honor.",
+      "note": "The Chinese 美言可以市 reads literally \"fine words can be traded in the market\" — 市 (shì) is the marketplace, hence to buy or sell. The line is compressed and the object is left open. Legge supplied \"honour\" to fill it out, and the sense is right: fine words and fine deeds are the social currency that buys standing among people. We keep \"honor\" but drop the commercial \"purchase,\" so the line reads plainly rather than as a transaction."
+    },
+    {
+      "locus": "opening line (為無為，事無事，味無味)",
+      "phrase": "Act without forcing. Work without fuss. Taste what has no flavor.",
+      "older": "Legge (1891): \"to act without (thinking of) acting; to conduct affairs without (feeling the) trouble of them; to taste without discerning any flavour.\"",
+      "lectio": "Act without forcing. Work without fuss. Taste what has no flavor.",
+      "note": "The Chinese is three matched paradoxes — 為無為 (wéi wú wéi), 事無事 (shì wú shì), 味無味 (wèi wú wèi) — each doing a thing by way of its opposite: act the not-acting, work the not-working, taste the tasteless. The first is wei wu-wei, the book's central move of acting without forcing (wu wei). Legge's bracketed \"(thinking of)\" and \"(feeling the) trouble of\" honestly hedge the grammar but break the drumbeat of the three bare clauses. We keep the spare parallel so the paradox lands three times running, as the original means it to."
+    },
+    {
+      "locus": "repaying resentment (報怨以德)",
+      "phrase": "Repay resentment with virtue.",
+      "older": "Legge (1891): \"to recompense injury with kindness.\"",
+      "lectio": "Repay resentment with virtue.",
+      "note": "The Chinese 報怨以德 answers yuan (怨, resentment, grievance) with de (德) — the te the book is named for, the inner power of the Way that Confucius famously kept distinct from kindness (he asked, in the Analects, \"then with what will you repay virtue?\"). Legge softens de to \"kindness,\" which loses the charged word and the quarrel behind it. We render de as \"virtue\" here so the reader hears Laozi's deliberate answer: meet a grievance not with payback, and not merely with niceness, but with the quiet power that does not contend."
+    },
+    {
+      "locus": "the sage and greatness (是以聖人終不為大，故能成其大)",
+      "phrase": "the sage never reaches for greatness, and that is how he achieves greatness",
+      "older": "Legge (1891): \"the sage, while he never does what is great, is able on that account to accomplish the greatest things.\"",
+      "lectio": "So the sage never reaches for greatness, and that is how he achieves greatness.",
+      "note": "The Chinese pivots on a single word, da (大, great), used twice: because the sage zhong bu wei da (終不為da, never acts to be great) he can cheng qi da (成其da, complete his greatness). Legge varies the two — \"what is great\" then \"the greatest things\" — which blurs the echo. We keep the one repeated word so the paradox stands bare and sharp: not grasping at greatness is the very thing that makes one great."
+    },
+    {
+      "locus": "the thousand-mile journey (千里之行，始於足下)",
+      "phrase": "A journey of a thousand miles begins beneath your feet.",
+      "older": "Legge (1891): \"the journey of a thousand li commenced with a single step.\"",
+      "lectio": "A journey of a thousand miles begins beneath your feet.",
+      "note": "The Chinese is 千里之行，始於足下 — literally \"a journey of a thousand li starts under the feet.\" Legge, like nearly every English version since, supplies \"a single step,\" which is vivid and now proverbial but is not in the text. The original is quieter and more exact: the long road begins not with some first heroic stride but right here, on the ground already under you. We keep the li as \"miles\" so the famous saying lands in its known form, but restore \"beneath your feet\" (足下) so the image stays where Laozi put it — the great thing starting from the small place right where you stand, matching the sprout and the basket of earth before it."
+    },
+    {
+      "locus": "the close of verse 3 (慎終如始，則無敗事)",
+      "phrase": "Be as careful at the end as at the beginning, and you will spoil nothing.",
+      "older": "Legge (1891): \"If they were careful at the end, as (they should be) at the beginning, they would not so ruin them.\"",
+      "lectio": "Be as careful at the end as at the beginning, and you will spoil nothing.",
+      "note": "The line is 慎終如始，則無敗事: take as much care at the finish (終) as at the start (始), and there will be no spoiled affairs (敗事). Legge phrases it as a wistful conditional about other people — \"if they were careful... they would not so ruin them\" — which buries the proverb in the third person. The Chinese is a direct maxim, and it answers the sentence just before it, where people fail precisely as they near success because they slacken at the end. We render it as the plain instruction it is, addressed to the reader, so the chapter's practical heart stands clear: the danger is not at the outset but in the last stretch, where attention falls away."
+    },
+    {
+      "locus": "learning to unlearn (學不學，復衆人之所過)",
+      "phrase": "learns to unlearn and returns to what the crowd has rushed past",
+      "older": "Legge (1891): \"he learns what (other men) do not learn, and turns back to what the multitude of men have passed by.\"",
+      "lectio": "learns to unlearn and returns to what the crowd has rushed past",
+      "note": "The Chinese 學不學 is a paradox of the same shape as wei wu-wei (為無為) earlier in the book: the sage xue bu-xue — \"learns the not-learning,\" makes a discipline of unlearning. Legge reads it as learning \"what other men do not learn,\" a different and tamer idea — rare knowledge rather than the shedding of knowledge. We keep the paradox, \"learns to unlearn,\" because it matches the chapter's whole drift toward acting-without-forcing and away from cleverness and grasping. The second half, 復衆人之所過, then has the sage return (復) to what the crowd has overshot (過) — the plain things everyone hurries past in their rush to get ahead. Legge's \"passed by\" is faithful; we sharpen it to \"rushed past\" to keep the sense of haste the character carries."
+    },
+    {
+      "locus": "the close (玄德 / 大順)",
+      "phrase": "the mysterious power ... until they come round to the Great Harmony",
+      "older": "Legge (1891): \"what we call the mysterious excellence (of a governor). Deep and far-reaching is such mysterious excellence, showing indeed its possessor as opposite to others, but leading them to a great conformity to him.\"",
+      "lectio": "Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the Great Harmony.",
+      "note": "The chapter ends on 玄德 (xuán dé), the same \"dark virtue\" that crowns Chapters 10 and 51. De (德) is the te the book is named for, the inner power of the Way, which we render \"power\" throughout. Legge's \"mysterious excellence (of a governor)\" narrows it to a ruler's trait and adds the bracketed gloss. We keep the bare signature phrase, the mysterious power. The closing image is 與物反矣，然後乃至大順: the power 反 (fǎn) returns or turns back together with all things, and only then reaches 大順 (dà shùn), the Great Harmony, the deep accord of all things following their own grain. Legge reads 反 as the sage standing \"opposite to others\" and 大順 as their \"conformity to him,\" making it a lesson in winning followers; but the word is the book's great 反, the returning to the root (Chapter 16, 40), and 順 is yielding with the way things go, not bending others to a person. We keep the cosmic turn: the mysterious power goes back, with everything, to the Great Harmony."
+    },
+    {
+      "locus": "opening (非以明民，將以愚之)",
+      "phrase": "did not use it to make the people clever, but to keep them simple",
+      "older": "Legge (1891): \"did so, not to enlighten the people, but rather to make them simple and ignorant.\"",
+      "lectio": "The ancients who were good at the Way did not use it to make the people clever, but to keep them simple.",
+      "note": "The crux is 愚 (yú), literally \"foolish, dull.\" Legge pairs it with \"ignorant,\" which to a modern ear sounds like a charge of stupidity Laozi does not mean. The 愚 here is the same plain, unschooled simplicity the book praises elsewhere, the uncarved block before cleverness divides it, and Laozi even calls his own mind 愚 in Chapter 20. We set it against 明 (míng), here the worldly cleverness the next line names as the real trouble in governing, and render the pair as clever against simple, so the line reads as the book's steady preference for the unworked over the over-knowing, not as a program of keeping people stupid."
+    },
+    {
+      "locus": "closing line (以其不爭，故天下莫能與之爭)",
+      "phrase": "Because he does not contend, no one in the world can contend with him.",
+      "older": "Legge (1891): \"Because he does not strive, no one finds it possible to strive with him.\"",
+      "lectio": "Because he does not contend, no one in the world can contend with him.",
+      "note": "The verb is zheng (爭) — to contend, compete, push against — the same word that anchors the chapter on water in Chapter 8, where the sage, like water, \"does not contend.\" Legge renders it \"strive\" here and elsewhere, but we keep \"contend\" throughout the edition so the reader hears one idea carried across the book: the sage gains his place not by pushing for it but by yielding, lying low like the sea, so there is nothing left for anyone to push against. The repetition of the single word — does not contend, none can contend — is the point, and we let the bare echo stand."
     }
   ],
   "sections": [
@@ -3212,6 +3303,264 @@
           "order": 3,
           "kind": "paragraph",
           "text": "Since neither does harm, the power of each flows back and gathers in the people.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-61",
+      "order": 61,
+      "label": "Chapter 61",
+      "title": "Lying Low",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-61.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "A great state is the low ground where all streams meet — the place where the world comes together, the female of the world.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-61.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The female overcomes the male by her stillness, and in her stillness she takes the lower place.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-61.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So a great state, by placing itself below a small one, wins the small state over; and a small state, by placing itself below a great one, wins the great state over. The one lies low and so gathers others in; the other lies low and so is gathered in.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-61.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "A great state wants only to bring people together and nourish them; a small state wants only to be taken in and to serve. Each gets what it wants — but it is the great state that must take care to lie low.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-62",
+      "order": 62,
+      "label": "Chapter 62",
+      "title": "The Refuge of All Things",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-62.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Way is the deep refuge of all things. It is the treasure of the good and the refuge of the bad.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-62.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Fine words can win honor; fine deeds can raise a person above others. And even those who are not good — why would the Way abandon them?",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-62.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So when the emperor takes the throne and the three great ministers are installed, you might offer a jade disc large enough to fill both hands, sent ahead of a team of horses — but that is not as good as sitting still and offering this Way.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-62.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Why did the ancients prize the Way so highly? Was it not said: those who seek it, find it; and the guilty, through it, are forgiven? That is why it is the treasure of the world.",
+          "spine": {
+            "from": "0.8000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-63",
+      "order": 63,
+      "label": "Chapter 63",
+      "title": "The Hard Begins Easy",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-63.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Act without forcing. Work without fuss. Taste what has no flavor. Make the small great and the few many. Repay resentment with virtue.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-63.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Tackle the hard thing while it is still easy; do the great thing while it is still small. Every hard thing in the world begins easy, and every great thing begins small. So the sage never reaches for greatness, and that is how he achieves greatness.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-63.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "A promise given lightly wins little trust, and treating everything as easy ends in much hardship. So the sage treats even easy things as hard, and in the end nothing is hard to him.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-64",
+      "order": 64,
+      "label": "Chapter 64",
+      "title": "A Journey of a Thousand Miles",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-64.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "What is still is easy to hold. What has not yet stirred is easy to plan for. What is brittle is easy to break. What is small is easy to scatter. Deal with a thing before it comes to be; set it in order before disorder begins.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-64.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The tree you can barely reach your arms around grew from a sprout too small to see. A tower nine stories high rose from a single basket of earth. A journey of a thousand miles begins beneath your feet.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-64.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Whoever forces it ruins it; whoever grasps it loses it. So the sage acts without forcing, and ruins nothing; grasps at nothing, and loses nothing. People fail at their tasks again and again just as they come within reach of success. Be as careful at the end as at the beginning, and you will spoil nothing.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-64.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "So the sage desires to have no desires and sets no value on goods that are hard to come by; learns to unlearn and returns to what the crowd has rushed past. In this way the sage helps all things follow their own nature, and never dares to force them.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-65",
+      "order": 65,
+      "label": "Chapter 65",
+      "title": "Ruling Without Cleverness",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-65.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The ancients who were good at the Way did not use it to make the people clever, but to keep them simple.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-65.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "People are hard to govern because they know too much. So to rule a state by cleverness is to rob the state; to rule a state without cleverness is its blessing.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-65.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "To know these two is to know the pattern. Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the Great Harmony.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-66",
+      "order": 66,
+      "label": "Chapter 66",
+      "title": "Why Rivers and Seas Are Kings",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-66.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Rivers and seas are kings of the hundred valley streams because they lie below them — that is why they are their kings. So one who would rise above the people must, in speech, put himself below them; one who would lead them must put himself behind them.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-66.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "In this way the sage is above the people, yet they feel no weight; he is ahead of them, yet they feel no harm.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-66.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So the whole world gladly pushes him forward and never tires of him. Because he does not contend, no one in the world can contend with him.",
           "spine": {
             "from": "0.6667",
             "to": "1.0000"
