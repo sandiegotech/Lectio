@@ -18,12 +18,374 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 14291,
+    "tokensEstimated": 14981,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
   "overview": "The Lectio Edition renders the Tao Te Ching in clear modern English that keeps the paradox and quiet authority of the eighty-one chapters — the Way that cannot be named, the power that works by yielding, the sage who leads by stepping back — while shedding the knotty Victorian diction of the older scholarly versions.",
   "introduction": "The Tao Te Ching is a slim book of eighty-one short chapters, by turns poem and proverb, ascribed to the sage Lao Tzu. It teaches the Tao — the Way — that underlies all things and cannot be captured in words, and the te, the quiet power of acting without forcing (wu wei). Read it a chapter at a time; it is meant to be returned to, not finished.",
-  "divergences": [],
-  "sections": []
+  "divergences": [
+    {
+      "locus": "opening line",
+      "phrase": "The Way that can be spoken is not the eternal Way.",
+      "older": "Legge (1891): \"The Tao that can be trodden is not the enduring and unchanging Tao.\"",
+      "lectio": "The Way that can be spoken is not the eternal Way.",
+      "note": "The Chinese is 道可道，非常道. The second 道 (dào) is a verb, and in the oldest usage it means \"to speak\" or \"to put into words.\" Legge read it as \"to tread\" (a path one can walk), which is grammatically possible but loses the chapter's real argument — that the Way which can be captured in language is not the true, lasting Way. The whole opening turns on speaking and naming, so we keep \"spoken,\" the reading nearly all modern scholars share."
+    },
+    {
+      "locus": "the nameless and the named",
+      "phrase": "Nameless, it is the origin of heaven and earth. Named, it is the mother of all things.",
+      "older": "Legge (1891): \"(Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.\"",
+      "lectio": "Nameless, it is the origin of heaven and earth. Named, it is the mother of all things.",
+      "note": "Legge's bracketed \"(conceived of as)\" is honest scholarship — the Chinese (無名天地之始；有名萬物之母) leaves the grammar open — but it clutters the line. We drop the scaffolding and let the bare contrast stand, which is how the original reads: nameless at the source, named as things take form."
+    },
+    {
+      "locus": "closing image",
+      "phrase": "mystery within mystery, the gate of all that is subtle and wonderful",
+      "older": "Legge (1891): \"Together we call them the Mystery. Where the Mystery is the deepest is the gate of all that is subtle and wonderful.\"",
+      "lectio": "Together they are the Mystery — mystery within mystery, the gate of all that is subtle and wonderful.",
+      "note": "The Chinese 玄之又玄 is literally \"dark, and again dark\" — mystery folded inside mystery. Legge flattened this into \"where the Mystery is the deepest,\" smoothing the doubling away. We keep the repetition (玄, xuán, dark/mysterious) because the chapter ends by deepening, not measuring; that recursive dark opens onto 眾妙之門, the gate of all wonders."
+    },
+    {
+      "locus": "Chapter 2, opening",
+      "phrase": "When everyone in the world recognizes beauty as beauty, ugliness has already appeared",
+      "older": "All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is (Legge 1891)",
+      "lectio": "When everyone in the world recognizes beauty as beauty, ugliness has already appeared",
+      "note": "The Chinese (天下皆知美之為美，斯惡已) is tighter and more unsettling than Legge's gloss: the very act of naming beauty calls its opposite into being. We render the opposites as plain pairs and keep the paradox bare, dropping Legge's parenthetical '(the idea of)' so the line lands as the original does — to define one thing is to create the other."
+    },
+    {
+      "locus": "Chapter 2, on the sage",
+      "phrase": "the sage goes about the work without forcing it",
+      "older": "the sage manages affairs without doing anything (Legge 1891)",
+      "lectio": "the sage goes about the work without forcing it",
+      "note": "This is wu wei (為無為 / 無為), the book's central paradox. Legge's 'without doing anything' reads as idleness, which misses the point — the sage is fully engaged but never strains against the grain of things. We render it as acting-without-forcing: action that does not impose, so the work still gets done."
+    },
+    {
+      "locus": "Chapter 2, close",
+      "phrase": "It is just because he does not rest in it that the credit never leaves him",
+      "older": "The work is done, but how no one can see; 'Tis this that makes the power not cease to be (Legge 1891)",
+      "lectio": "It is just because he does not rest in it that the credit never leaves him",
+      "note": "Legge turns the closing line (夫唯弗居，是以不去) into a rhyming couplet of his own. The Chinese is a single conditional turn: precisely because the sage takes no credit, the credit is never lost to him. We keep that logic plain — the reward of yielding is that nothing has to be defended, so nothing slips away."
+    },
+    {
+      "locus": "Chapter 3, closing line",
+      "phrase": "為無為，則無不治",
+      "older": "When there is this abstinence from action, good order is universal. (Legge, 1891)",
+      "lectio": "Act without forcing, and nothing is left ungoverned.",
+      "note": "Legge turns the line into mere 'abstinence from action,' but the Chinese is the active paradox wei wu-wei — literally 'do the not-doing.' It is not idleness; it is acting without straining against the grain of things (wu wei). We keep it as a positive command so the paradox stands."
+    },
+    {
+      "locus": "Chapter 3, the sage's governing",
+      "phrase": "弱其志，強其骨",
+      "older": "weakens their wills, and strengthens their bones (Legge, 1891)",
+      "lectio": "weakens their ambition and strengthens their bones",
+      "note": "The word zhi is the striving, grasping drive — not the faculty of will as such. 'Ambition' catches what Laozi means: the restless wanting that breeds rivalry and theft in the opening lines. He would quiet that craving while keeping the body sound and well-fed."
+    },
+    {
+      "locus": "Chapter 4, line 1",
+      "phrase": "empty, yet never used up",
+      "older": "Legge (1891): \"The Tao is (like) the emptiness of a vessel; and in our employment of it we must be on our guard against all fulness.\"",
+      "lectio": "The Way is empty, yet however much you use it, it is never used up.",
+      "note": "The Chinese 道沖而用之或不盈 turns on chong (沖), the hollow emptiness of a vessel, and bu ying (不盈), \"never filled / never overflows.\" Legge reads it as a moral caution to guard against fullness; most readers since take it as a statement about the Way itself — its emptiness is precisely what makes it inexhaustible. We follow the plainer reading and keep the paradox: empty, yet never used up."
+    },
+    {
+      "locus": "Chapter 4, line 1",
+      "phrase": "the wellspring from which the ten thousand things flow",
+      "older": "Legge (1891): \"as if it were the Honoured Ancestor of all things!\"",
+      "lectio": "the wellspring from which the ten thousand things flow",
+      "note": "The text reads wan wu zhi zong (萬物之宗) — literally the \"ancestor\" or clan-source of the ten thousand things — paired with yuan (淵), a deep pool or abyss. Legge's \"Honoured Ancestor\" is faithful but stiff; we keep the image of depth alive by rendering zong as a wellspring or source, the deep place everything pours out of, while preserving \"the ten thousand things,\" the classic Chinese phrase for all that exists."
+    },
+    {
+      "locus": "Chapter 4, line 3",
+      "phrase": "older than God",
+      "older": "Legge (1891): \"It might appear to have been before God.\"",
+      "lectio": "It seems to be older than God.",
+      "note": "The closing line xiang di zhi xian (象帝之先) says the Way seems (xiang, 象) to come before Di (帝) — the high god, the Lord on High of ancient Chinese religion, whom Legge renders \"God.\" The startling claim is deliberate: even the highest divine ruler is not first; the Way is older still. We preserve it exactly — \"older than God\" — rather than softening Di to an abstraction, since the shock is the point."
+    },
+    {
+      "locus": "Chapter 5, opening",
+      "phrase": "straw dogs (芻狗)",
+      "older": "the dogs of grass (Legge); the grass-dogs (Old)",
+      "lectio": "straw dogs",
+      "note": "A straw dog was a figure of bound straw made for a sacrifice: handled with great care and honor while the rite was on, then thrown away and trampled the moment it was over — no cruelty in it, just the natural end of its use. Heaven and earth treat all things this way: not with malice, but without favoritism or sentiment. Legge's 'the dogs of grass' is literal but opaque to a modern reader; we keep the now-standard 'straw dogs' and let the image carry the chapter's hardest point."
+    },
+    {
+      "locus": "Chapter 5, lines 1–2 (不仁, bu ren)",
+      "phrase": "not humane (不仁)",
+      "older": "do not act from (the impulse of) any wish to be benevolent (Legge)",
+      "lectio": "are not humane",
+      "note": "Ren (仁) is the great Confucian virtue — humaneness, human-heartedness, the warm partiality of treating people as your own. Laozi deliberately denies it of heaven and earth, and of the sage who imitates them: they are not ren. The point is not that nature is cruel but that it plays no favorites; its impartiality can look like indifference. We render ren as 'humane' here to match the Lectio Analects edition (which renders ren as 'humaneness'), so the reader can hear Laozi answering Confucius. Legge's unpacked 'any wish to be benevolent' dilutes the deliberate shock of the bare 'not humane.'"
+    },
+    {
+      "locus": "Chapter 5, bellows lines (虛而不屈，動而愈出)",
+      "phrase": "empty, yet it never runs out",
+      "older": "'Tis emptied, yet it loses not its power (Legge)",
+      "lectio": "Empty, yet it never runs out; work it, and it gives out all the more",
+      "note": "The Chinese (虛而不屈, 動而愈出) describes a bellows: hollow inside, yet it never gives out, and the more you pump it the more wind it sends. The emptiness is the source of the inexhaustible supply — a core Taoist paradox. Legge's verse ('loses not its power') is accurate but Victorian; we keep the plain mechanism of the bellows so the paradox — emptiness as fullness — lands directly. 'Keep to the center' (守中) at the close echoes this same hollow center that does not run dry."
+    },
+    {
+      "locus": "line 1",
+      "phrase": "the valley spirit",
+      "older": "The valley spirit dies not, aye the same (Legge 1891)",
+      "lectio": "The valley spirit never dies.",
+      "note": "The Chinese gushen joins gu, the empty hollow of a valley, to shen, spirit. The valley is the open, low, receptive space that is never filled and never depleted; its spirit is the inexhaustible life of that emptiness. We keep the literal 'valley spirit' rather than smoothing it to an abstraction, since the image of the hollow that gives without running dry is the whole point."
+    },
+    {
+      "locus": "lines 1-2",
+      "phrase": "the mysterious female",
+      "older": "The female mystery thus do we name (Legge 1891)",
+      "lectio": "It is called the mysterious female. The gateway of the mysterious female is called the root of heaven and earth.",
+      "note": "Xuanpin pairs xuan, dark or mysterious, with pin, the female of an animal, the bearing and birthing power. The chapter names a generative source from which all things come, its 'gateway' the root of heaven and earth. We hold to 'the mysterious female' rather than softening it to 'divine feminine' or dropping the strangeness; the dark, fertile, opening power is the chapter's central figure."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-01",
+      "order": 1,
+      "label": "Chapter 1",
+      "title": "The Way and the Name",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Way that can be spoken is not the eternal Way. The name that can be named is not the eternal name.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.1500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Nameless, it is the origin of heaven and earth. Named, it is the mother of all things.",
+          "spine": {
+            "from": "0.1500",
+            "to": "0.4500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So if you are always without desire, you see its hidden depths; but if desire is always in you, you see only its outer edges.",
+          "spine": {
+            "from": "0.4500",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "These two spring from the same source, though we call them by different names. Together they are the Mystery — mystery within mystery, the gate of all that is subtle and wonderful.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-02",
+      "order": 2,
+      "label": "Chapter 2",
+      "title": "The Mutual Arising of Opposites",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When everyone in the world recognizes beauty as beauty, ugliness has already appeared. When everyone recognizes good as good, what is not good has already appeared.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So it is that being and non-being give rise to each other; the difficult and the easy complete each other; the long and the short measure each other; the high and the low lean on each other; note and voice harmonize with each other; before and after follow each other. This is how it always is.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And so the sage goes about the work without forcing it, and teaches without using words.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.6000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "All things arise, and the sage does not turn any away. They are brought to life, and the sage claims nothing as his own. The work is done, and he does not rest in it as an achievement.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.8000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "It is just because he does not rest in it that the credit never leaves him.",
+          "spine": {
+            "from": "0.8000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-03",
+      "order": 3,
+      "label": "Chapter 3",
+      "title": "Keeping the Heart Unstirred",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Do not make a show of honoring the worthy, and the people will not compete with one another. Do not prize goods that are hard to come by, and the people will not turn to theft. Do not put on display the things that stir desire, and the heart of the people will stay calm.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And so, when the sage governs, he empties their minds and fills their bellies, weakens their ambition and strengthens their bones. He keeps the people free of cunning and free of craving, so that the clever ones never dare to force their hand. Act without forcing, and nothing is left ungoverned.",
+          "spine": {
+            "from": "0.3333",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-04",
+      "order": 4,
+      "label": "Chapter 4",
+      "title": "The Bottomless Well",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Way is empty, yet however much you use it, it is never used up. It is so deep — the wellspring from which the ten thousand things flow.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "It blunts the sharp edges, unties the knots, softens the glare, settles down with the dust. So still, so hidden, and yet it is always there.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "I do not know whose child it is. It seems to be older than God.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-05",
+      "order": 5,
+      "label": "Chapter 5",
+      "title": "Straw Dogs",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-05.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Heaven and earth are not humane: they treat the ten thousand things as straw dogs. The sage is not humane: he treats the people as straw dogs.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-05.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The space between heaven and earth — is it not like a bellows? Empty, yet it never runs out; work it, and it gives out all the more.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-05.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Too many words run dry. Better to keep to the center.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-06",
+      "order": 6,
+      "label": "Chapter 6",
+      "title": "The Valley Spirit",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-06.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The valley spirit never dies. It is called the mysterious female.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-06.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The gateway of the mysterious female is called the root of heaven and earth.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-06.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Faint and unbroken, it seems always to be there; draw on it, and it is never used up.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    }
+  ]
 }
