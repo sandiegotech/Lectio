@@ -35,6 +35,13 @@ HEAD = {
     "edition.divine-comedy.longfellow-1867": lambda i, l: l,                          # heading IS the label
     "edition.bhagavad-gita.arnold-1885":     lambda i, l: f"CHAPTER {ROMAN[i]}",       # ^[ \t]*CHAPTER [IVXL]+$
     "edition.dhammapada.muller-1881":        lambda i, l: l,                            # heading IS the label (^Chapter [IVXL]+\..*$)
+    "edition.tao-te-ching.legge-1891":       lambda i, l: f"{i+1}.",                     # inline chapter number; chapters split on blank-line gaps
+}
+
+# Editions whose recipe splits chapters on 3+ newline gaps (not split_sections) need a
+# wider separator between chapters so the gap survives reconstruction.
+CHAPTER_SEP = {
+    "edition.tao-te-ching.legge-1891": "\n\n\n\n",
 }
 
 CACHE = os.path.join(os.path.dirname(__file__), "..", "..", "pipeline", ".cache")
@@ -55,8 +62,9 @@ def main():
             head = HEAD[eid](i, s["label"])
             body = "\n\n".join(seg["text"] for seg in s["segments"])
             parts.append(head + "\n\n" + body)
+        sep = CHAPTER_SEP.get(eid, "\n\n")
         text = (f"*** START OF THE PROJECT GUTENBERG EBOOK {sid} ***\n\n"
-                + "\n\n".join(parts)
+                + sep.join(parts)
                 + f"\n\n*** END OF THE PROJECT GUTENBERG EBOOK {sid} ***\n")
         open(os.path.join(CACHE, f"gutenberg-{sid}.txt"), "w", encoding="utf-8").write(text)
         done.append(f"{sid}:{eid.split('.')[-1]}")

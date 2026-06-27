@@ -1,0 +1,19 @@
+{
+  "id": "work.laozi.tao-te-ching",
+  "title": "The Tao Te Ching",
+  "author": "Laozi",
+  "originalLang": "lzh",
+  "composed": "400–301 BCE",
+  "type": "philosophy",
+  "referenceScheme": "chapter",
+  "defaultEditionId": "edition.tao-te-ching.legge-1891",
+  "blurb": "Eighty-one short chapters on the Way that cannot be named and the power that works by yielding — water that wears down stone, the ruler who leads by stepping back. The foundational text of Taoism, and the most translated book in the world after the Bible.",
+  "tradition": "East",
+  "collections": [
+    "collection.eastern-canon"
+  ],
+  "editionIds": [
+    "edition.tao-te-ching.lectio-modern",
+    "edition.tao-te-ching.legge-1891"
+  ]
+}

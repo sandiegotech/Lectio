@@ -1,0 +1,21 @@
+{
+  "workId": "work.laozi.tao-te-ching",
+  "method": "Lectio Edition (SDIT): clear modern English of the Tao Te Ching, synthesized from the public-domain translation tradition (James Legge 1891; Arthur Waley 1934 consulted, not quoted) and checked against the Classical Chinese; modern translations consulted, not quoted. In progress, chapter by chapter.",
+  "model": "claude-opus-4-8",
+  "date": "2026-06-27",
+  "vintage": 2026,
+  "sourceEditionIds": [
+    "edition.tao-te-ching.legge-1891"
+  ],
+  "sourcesCited": [
+    "Classical Chinese, the original text of the Daodejing",
+    "James Legge, The Tâo Teh King (1891, Sacred Books of the East, public domain)",
+    "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
+    "D. C. Lau (1963, consulted, not quoted)"
+  ],
+  "overview": "The Lectio Edition renders the Tao Te Ching in clear modern English that keeps the paradox and quiet authority of the eighty-one chapters — the Way that cannot be named, the power that works by yielding, the sage who leads by stepping back — while shedding the knotty Victorian diction of the older scholarly versions.",
+  "introduction": "The Tao Te Ching is a slim book of eighty-one short chapters, by turns poem and proverb, ascribed to the sage Lao Tzu. It teaches the Tao — the Way — that underlies all things and cannot be captured in words, and the te, the quiet power of acting without forcing (wu wei). Read it a chapter at a time; it is meant to be returned to, not finished.",
+  "divergences": [],
+  "form": "prose",
+  "books": []
+}

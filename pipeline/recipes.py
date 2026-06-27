@@ -795,6 +795,65 @@ def dhammapada():
     return work, [_modern_edition(work_id, "dhammapada", [edition]), edition], None
 
 
+# ---------------------------------------------------------------------------
+# The Tao Te Ching — James Legge (1891, Sacred Books of the East) + Lectio
+# ---------------------------------------------------------------------------
+def tao_te_ching():
+    work_id = "work.laozi.tao-te-ching"
+    edition_id = "edition.tao-te-ching.legge-1891"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(216))
+    body = body.split("End of the Project Gutenberg")[0]      # non-standard trailing colophon
+    idx = body.find("Translated by James Legge")              # drop the title block
+    if idx >= 0:
+        body = body[idx + len("Translated by James Legge"):]
+    body = body.replace("Ch. 1.", "1.", 1)                    # normalize the lone 'Ch. 1.' marker
+    # Legge numbers each of the 81 chapters inline; chapters are separated by blank-line
+    # gaps (3+ newlines), verses within a chapter by single blank lines. Walk the blocks,
+    # starting a new chapter whenever a block opens with the next expected chapter number.
+    chapters: list[str] = []
+    for blk in re.split(r"\n{3,}", body):
+        blk = blk.strip("\n")
+        if not blk.strip():
+            continue
+        m = re.match(r"^(\d+)\.", blk)
+        expected = len(chapters) + 1
+        if m and int(m.group(1)) == expected and expected <= 81:
+            chapters.append(blk[m.end():].lstrip(" "))
+        elif chapters:
+            chapters[-1] += "\n\n" + blk
+    if len(chapters) != 81:
+        raise ValueError(f"Tao Te Ching: expected 81 chapters, got {len(chapters)}")
+    sections = [
+        build_section(edition_id, f"chapter-{n:02d}", n, f"Chapter {n}", text, form="prose")
+        for n, text in enumerate(chapters, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="James Legge", translatorYears="1815–1897", publishedYear=1891,
+        character="The scholar's Tao Te Ching — Legge's careful Victorian prose for the Sacred Books of the East.",
+        overview=("James Legge, the great Oxford sinologist, made the standard scholarly English "
+                  "Tao Te Ching for his Sacred Books of the East. His version is literal and careful, "
+                  "preserving the eighty-one short chapters and their paradoxes — the Tao that cannot "
+                  "be named, the power that works by yielding — if Victorian and sometimes knotty. "
+                  "The Lectio Edition renders the same chapters in clear modern English."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Legge's translation, 1891.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/216",
+                              sourceId="216", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Tao Te Ching", author="Laozi", originalLang="lzh",
+        composed="400–301 BCE", type="philosophy", referenceScheme="chapter",
+        defaultEditionId=edition.id, tradition="East",
+        blurb=("Eighty-one short chapters on the Way that cannot be named and the power that works "
+               "by yielding — water that wears down stone, the ruler who leads by stepping back. The "
+               "foundational text of Taoism, and the most translated book in the world after the Bible."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "tao-te-ching", [edition]), edition], None
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy, bhagavad_gita, dhammapada]
+           divine_comedy, bhagavad_gita, dhammapada, tao_te_ching]
