@@ -875,25 +875,41 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-25.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. There was something undefined and complete, coming into existence before Heaven and Earth. How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)! It may be regarded as the Mother of all things."
+          "text": "1. There was something undefined and complete, coming into existence before Heaven and Earth. How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)! It may be regarded as the Mother of all things.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-25.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. I do not know its name, and I give it the designation of the Tao (the Way or Course). Making an effort (further) to give it a name I call it The Great."
+          "text": "2. I do not know its name, and I give it the designation of the Tao (the Way or Course). Making an effort (further) to give it a name I call it The Great.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-25.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "3. Great, it passes on (in constant flow). Passing on, it becomes remote. Having become remote, it returns. Therefore the Tao is great; Heaven is great; Earth is great; and the (sage) king is also great. In the universe there are four that are great, and the (sage) king is one of them."
+          "text": "3. Great, it passes on (in constant flow). Passing on, it becomes remote. Having become remote, it returns. Therefore the Tao is great; Heaven is great; Earth is great; and the (sage) king is also great. In the universe there are four that are great, and the (sage) king is one of them.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-25.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "4. Man takes his law from the Earth; the Earth takes its law from Heaven; Heaven takes its law from the Tao. The law of the Tao is its being what it is."
+          "text": "4. Man takes his law from the Earth; the Earth takes its law from Heaven; Heaven takes its law from the Tao. The law of the Tao is its being what it is.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -906,13 +922,21 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-26.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. Gravity is the root of lightness; stillness, the ruler of movement."
+          "text": "1. Gravity is the root of lightness; stillness, the ruler of movement.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-26.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. Therefore a wise prince, marching the whole day, does not go far from his baggage waggons. Although he may have brilliant prospects to look at, he quietly remains (in his proper place), indifferent to them. How should the lord of a myriad chariots carry himself lightly before the kingdom? If he do act lightly, he has lost his root (of gravity); if he proceed to active movement, he will lose his throne."
+          "text": "2. Therefore a wise prince, marching the whole day, does not go far from his baggage waggons. Although he may have brilliant prospects to look at, he quietly remains (in his proper place), indifferent to them. How should the lord of a myriad chariots carry himself lightly before the kingdom? If he do act lightly, he has lost his root (of gravity); if he proceed to active movement, he will lose his throne.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -925,13 +949,21 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-27.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. The skilful traveller leaves no traces of his wheels or footsteps; the skilful speaker says nothing that can be found fault with or blamed; the skilful reckoner uses no tallies; the skilful closer needs no bolts or bars, while to open what he has shut will be impossible; the skilful binder uses no strings or knots, while to unloose what he has bound will be impossible. In the same way the sage is always skilful at saving men, and so he does not cast away any man; he is always skilful at saving things, and so he does not cast away anything. This is called 'Hiding the light of his procedure.'"
+          "text": "1. The skilful traveller leaves no traces of his wheels or footsteps; the skilful speaker says nothing that can be found fault with or blamed; the skilful reckoner uses no tallies; the skilful closer needs no bolts or bars, while to open what he has shut will be impossible; the skilful binder uses no strings or knots, while to unloose what he has bound will be impossible. In the same way the sage is always skilful at saving men, and so he does not cast away any man; he is always skilful at saving things, and so he does not cast away anything. This is called 'Hiding the light of his procedure.'",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-27.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. Therefore the man of skill is a master (to be looked up to) by him who has not the skill; and he who has not the skill is the helper of (the reputation of) him who has the skill. If the one did not honour his master, and the other did not rejoice in his helper, an (observer), though intelligent, might greatly err about them. This is called 'The utmost degree of mystery.'"
+          "text": "2. Therefore the man of skill is a master (to be looked up to) by him who has not the skill; and he who has not the skill is the helper of (the reputation of) him who has the skill. If the one did not honour his master, and the other did not rejoice in his helper, an (observer), though intelligent, might greatly err about them. This is called 'The utmost degree of mystery.'",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -944,31 +976,51 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-28.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1."
+          "text": "1.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-28.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "Who knows his manhood's strength, Yet still his female feebleness maintains; As to one channel flow the many drains, All come to him, yea, all beneath the sky. Thus he the constant excellence retains; The simple child again, free from all stains."
+          "text": "Who knows his manhood's strength, Yet still his female feebleness maintains; As to one channel flow the many drains, All come to him, yea, all beneath the sky. Thus he the constant excellence retains; The simple child again, free from all stains.",
+          "spine": {
+            "from": "0.2000",
+            "to": "0.4000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-28.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "Who knows how white attracts, Yet always keeps himself within black's shade, The pattern of humility displayed, Displayed in view of all beneath the sky; He in the unchanging excellence arrayed, Endless return to man's first state has made."
+          "text": "Who knows how white attracts, Yet always keeps himself within black's shade, The pattern of humility displayed, Displayed in view of all beneath the sky; He in the unchanging excellence arrayed, Endless return to man's first state has made.",
+          "spine": {
+            "from": "0.4000",
+            "to": "0.6000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-28.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "Who knows how glory shines, Yet loves disgrace, nor e'er for it is pale; Behold his presence in a spacious vale, To which men come from all beneath the sky. The unchanging excellence completes its tale; The simple infant man in him we hail."
+          "text": "Who knows how glory shines, Yet loves disgrace, nor e'er for it is pale; Behold his presence in a spacious vale, To which men come from all beneath the sky. The unchanging excellence completes its tale; The simple infant man in him we hail.",
+          "spine": {
+            "from": "0.6000",
+            "to": "0.8000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-28.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "2. The unwrought material, when divided and distributed, forms vessels. The sage, when employed, becomes the Head of all the Officers (of government); and in his greatest regulations he employs no violent measures."
+          "text": "2. The unwrought material, when divided and distributed, forms vessels. The sage, when employed, becomes the Head of all the Officers (of government); and in his greatest regulations he employs no violent measures.",
+          "spine": {
+            "from": "0.8000",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -981,25 +1033,41 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-29.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed. The kingdom is a spirit-like thing, and cannot be got by active doing. He who would so win it destroys it; he who would hold it in his grasp loses it."
+          "text": "1. If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed. The kingdom is a spirit-like thing, and cannot be got by active doing. He who would so win it destroys it; he who would hold it in his grasp loses it.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-29.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2."
+          "text": "2.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-29.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "The course and nature of things is such that What was in front is now behind; What warmed anon we freezing find. Strength is of weakness oft the spoil; The store in ruins mocks our toil."
+          "text": "The course and nature of things is such that What was in front is now behind; What warmed anon we freezing find. Strength is of weakness oft the spoil; The store in ruins mocks our toil.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-29.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "Hence the sage puts away excessive effort, extravagance, and easy indulgence."
+          "text": "Hence the sage puts away excessive effort, extravagance, and easy indulgence.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
         }
       ]
     },
@@ -1012,25 +1080,41 @@
           "id": "edition.tao-te-ching.legge-1891.chapter-30.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "1. He who would assist a lord of men in harmony with the Tao will not assert his mastery in the kingdom by force of arms. Such a course is sure to meet with its proper return."
+          "text": "1. He who would assist a lord of men in harmony with the Tao will not assert his mastery in the kingdom by force of arms. Such a course is sure to meet with its proper return.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-30.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "2. Wherever a host is stationed, briars and thorns spring up. In the sequence of great armies there are sure to be bad years."
+          "text": "2. Wherever a host is stationed, briars and thorns spring up. In the sequence of great armies there are sure to be bad years.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-30.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "3. A skilful (commander) strikes a decisive blow, and stops. He does not dare (by continuing his operations) to assert and complete his mastery. He will strike the blow, but will be on his guard against being vain or boastful or arrogant in consequence of it. He strikes it as a matter of necessity; he strikes it, but not from a wish for mastery."
+          "text": "3. A skilful (commander) strikes a decisive blow, and stops. He does not dare (by continuing his operations) to assert and complete his mastery. He will strike the blow, but will be on his guard against being vain or boastful or arrogant in consequence of it. He strikes it as a matter of necessity; he strikes it, but not from a wish for mastery.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
         },
         {
           "id": "edition.tao-te-ching.legge-1891.chapter-30.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "4. When things have attained their strong maturity they become old. This may be said to be not in accordance with the Tao: and what is not in accordance with it soon comes to an end."
+          "text": "4. When things have attained their strong maturity they become old. This may be said to be not in accordance with the Tao: and what is not in accordance with it soon comes to an end.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
         }
       ]
     },
