@@ -18,7 +18,7 @@
       "Walter Gorn Old, The Book of the Simple Way (1904, public domain)",
       "D. C. Lau (1963, consulted, not quoted)"
     ],
-    "tokensEstimated": 23285,
+    "tokensEstimated": 24014,
     "vintage": 2026
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
@@ -997,6 +997,76 @@
       "older": "Legge (1891): \"Because he does not strive, no one finds it possible to strive with him.\"",
       "lectio": "Because he does not contend, no one in the world can contend with him.",
       "note": "The verb is zheng (爭) — to contend, compete, push against — the same word that anchors the chapter on water in Chapter 8, where the sage, like water, \"does not contend.\" Legge renders it \"strive\" here and elsewhere, but we keep \"contend\" throughout the edition so the reader hears one idea carried across the book: the sage gains his place not by pushing for it but by yielding, lying low like the sea, so there is nothing left for anyone to push against. The repetition of the single word — does not contend, none can contend — is the point, and we let the bare echo stand."
+    },
+    {
+      "locus": "the first treasure",
+      "phrase": "The first is compassion.",
+      "older": "Legge (1891): \"The first is gentleness.\"",
+      "lectio": "The first is compassion.",
+      "note": "The Chinese is 慈 (cí), the deep, protective love a parent feels for a child. Legge's \"gentleness\" is too mild and too passive; the word names a fierce, caring tenderness. Walter Gorn Old (1904) reached for \"compassion,\" the reading most modern scholars share, and it carries the weight of the line: this is the love that, two stanzas on, makes a person brave in battle. We keep \"compassion.\""
+    },
+    {
+      "locus": "the second treasure",
+      "phrase": "The second is restraint.",
+      "older": "Legge (1891): \"the second is economy.\"",
+      "lectio": "The second is restraint.",
+      "note": "儉 (jiǎn) means sparing, frugal, holding back from excess. \"Economy\" now reads as household budgeting or efficiency, which narrows it. The treasure is a temper of self-restraint — using little, not grasping — and it is exactly that holding-back that lets a person be open-handed when it matters. We render it \"restraint\" to keep the moral sense alongside the thrift."
+    },
+    {
+      "locus": "not daring to be first",
+      "phrase": "not daring to put myself ahead of the world",
+      "older": "Legge (1891): \"shrinking from taking precedence of others.\"",
+      "lectio": "not daring to put myself ahead of the world",
+      "note": "不敢為天下先 — literally \"not daring to be first in the world.\" Legge's \"shrinking from taking precedence\" is accurate but stiff and faintly timid. The point is not shyness but a deliberate refusal to grab the front rank; we keep the plain force of \"not daring to put myself ahead of the world,\" which sets up the paradox that this is precisely how one comes to lead."
+    },
+    {
+      "locus": "the great conqueror (善勝敵者不與)",
+      "phrase": "The greatest conqueror does not join the battle.",
+      "older": "Legge (1891): \"He who vanquishes yet still / Keeps from his foes apart.\"",
+      "lectio": "The greatest conqueror does not join the battle.",
+      "note": "The crux is 不與 (bù yǔ). 與 (yǔ) means to take part, to join with, to engage — and here, to close with an enemy in combat. The line says the one who is best at overcoming the foe does not yu — does not come to grips, does not enter the fight at all, but prevails before it is ever joined. Legge reads yu spatially, \"keeps from his foes apart,\" which catches the distance but loses the act: the point is not standing aloof but winning without engaging, the same wu wei that runs through the book. We render it as not joining the battle, so the line lands with the three before it — the warrior who is not warlike, the fighter who shows no anger, the conqueror who never closes in."
+    },
+    {
+      "locus": "the close (是謂不爭之德)",
+      "phrase": "This is the virtue of not contending.",
+      "older": "Legge (1891): \"Thus we say, 'He ne'er contends, / And therein is his might.'\"",
+      "lectio": "This is the virtue of not contending. This is the power that comes of using the strength of others.",
+      "note": "The chapter turns on two readings of de (德), the te the book is named for. 不爭之德 is the de of bu zheng — not contending — where 爭 (zhēng) is the same word we render \"contend\" throughout (Chapters 8, 22, 66): the power gained by never pushing against. Then 用人之力 names the strength (力, lì) of others, which the one who stands below them is able to draw on. Legge spins the close into rhyming couplets about \"might\" and bending men's wills; we keep the two plain claims side by side — the virtue of not contending, and the power of using others' strength — so the paradox stands as the original frames it. The chapter ends by calling this 配天 (pèi tiān), a match for heaven itself, 古之極 (gǔ zhī jí), the highest reach the ancients knew."
+    },
+    {
+      "locus": "near losing the treasures (輕敵幾喪吾寶)",
+      "phrase": "to underestimate your enemy is to come close to losing my treasures",
+      "older": "Legge (1891): \"To do that is near losing (the gentleness) which is so precious.\"",
+      "lectio": "to underestimate your enemy is to come close to losing my treasures",
+      "note": "The Chinese 輕敵幾喪吾寶 says that to take the enemy lightly is ji sang wu bao (幾喪吾寶) — nearly to lose my treasures (寶, bao). The treasures are the three named in Chapter 67: compassion, frugality, and not daring to be first in the world, with compassion the chief. Legge fills in the blank with a bracketed \"(the gentleness),\" which is a fair guess at which treasure is meant but hides the back-reference. We keep the bare \"my treasures,\" so the line points back to Chapter 67 as the original does: the one who scorns the enemy has already let go of compassion, the very thing that wins."
+    },
+    {
+      "locus": "closing line (哀者勝矣)",
+      "phrase": "it is the side that grieves that wins",
+      "older": "Legge (1891): \"he who deplores (the situation) conquers.\"",
+      "lectio": "it is the side that grieves that wins",
+      "note": "The Chinese 哀者勝矣 turns on ai (哀) — grief, mourning, sorrow — not mere regret. Legge's \"he who deplores (the situation)\" reads it as disapproval of the war, which is too cool; the word is the grief of one who counts every death and takes no joy in killing, the same mourning that runs through Chapters 30 and 31. We keep \"the side that grieves,\" so the chapter ends on its paradox: in a contest of arms, it is sorrow, not ferocity, that carries the day."
+    },
+    {
+      "locus": "the source and the master (言有宗，事有君)",
+      "phrase": "My words have a source, and my deeds have a master.",
+      "older": "Legge (1891): \"There is an originating and all-comprehending (principle) in my words, and an authoritative law for the things (which I enforce).\"",
+      "lectio": "My words have a source, and my deeds have a master.",
+      "note": "The Chinese 言有宗，事有君 is a tight matched pair: words have a 宗 (zōng, the ancestor or clan-head, the root they spring from) and deeds have a 君 (jūn, the lord or ruler that governs them). Laozi means his teaching is not idle chatter — it has a single governing root behind it, the Way. Legge unfolds 宗 into \"an originating and all-comprehending (principle)\" and 君 into \"an authoritative law,\" which is faithful but buries the plain image under abstraction and bracketed scaffolding. We keep the bare nouns — a source for the words, a master for the deeds — so the line lands as the paradox it sets up: the teaching is easy on its face, yet anchored in something people fail to see, and so they miss the man behind it."
+    },
+    {
+      "locus": "the flaw",
+      "phrase": "to not know, and yet think you know, is a flaw",
+      "older": "Legge (1891): \"not to know (and yet think) we do know is a disease.\"",
+      "lectio": "to not know, and yet think you know, is a flaw.",
+      "note": "The Chinese word is 病 (bìng), which literally means \"sickness\" or \"disease.\" Legge keeps the medical image throughout, and so do many translators. But in this chapter 病 is used for a fault of mind — the failing of thinking you know what you do not — so we render it \"flaw\" rather than \"disease,\" which in plain modern English would suggest a bodily illness and lose the point. The closing turn still works: the sage recognizes the flaw as a flaw, and that recognition is exactly why it is no flaw in him."
+    },
+    {
+      "locus": "the second verse",
+      "phrase": "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
+      "older": "Legge (1891): \"Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.\"",
+      "lectio": "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
+      "note": "The Chinese is 無狎其所居，無厭其所生. Legge took the verbs as a warning to the people about themselves — do not indulge, do not weary. But 狎 (xiá) carries the sense of crowding or hemming in, and 厭 here means to press down on or oppress, and the lines are addressed to the ruler, not the ruled: do not crowd the people in their dwellings, do not bear down on their livelihood. That reading, which Walter Gorn Old (1904) follows and modern scholars share, makes the verse the hinge of the chapter — the dread of verse one comes when rulers oppress — so we keep it."
     }
   ],
   "sections": [
@@ -3563,6 +3633,224 @@
           "text": "So the whole world gladly pushes him forward and never tires of him. Because he does not contend, no one in the world can contend with him.",
           "spine": {
             "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-67",
+      "order": 67,
+      "label": "Chapter 67",
+      "title": "The Three Treasures",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-67.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "All the world says my Way is great — so great it seems good for nothing. It is precisely because it is great that it seems good for nothing. Had it looked useful, it would long ago have dwindled into something small.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-67.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "But I hold three treasures, and I guard them and keep them. The first is compassion. The second is restraint. The third is not daring to put myself ahead of the world.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-67.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Because I am compassionate, I can be brave; because I am restrained, I can be generous; because I do not dare to put myself ahead of the world, I can become the leader of all. But to throw away compassion and reach for bravery, throw away restraint and reach for generosity, throw away the last place and reach for the first — that is death.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-67.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Compassion wins when it attacks and holds firm when it defends. Heaven itself comes to a man's rescue, and it is with compassion that it guards him.",
+          "spine": {
+            "from": "0.7500",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-68",
+      "order": 68,
+      "label": "Chapter 68",
+      "title": "The Virtue of Not Contending",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-68.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The best warrior is not warlike. The best fighter shows no anger. The greatest conqueror does not join the battle. The one who best makes use of others puts himself beneath them.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-68.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "This is the virtue of not contending. This is the power that comes of using the strength of others. This is to be matched with heaven — the highest reach of the ancients.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-69",
+      "order": 69,
+      "label": "Chapter 69",
+      "title": "The Side That Grieves Wins",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-69.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "There is a saying among soldiers: \"I dare not be the host, but would rather be the guest; I dare not advance an inch, but would rather fall back a foot.\" This is called marching forward where there is no march to make, rolling up the sleeve where there is no arm to bare, taking up the weapon where there is no weapon to grasp, facing the enemy where there is no enemy to face.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-69.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "There is no disaster greater than underestimating your enemy; to underestimate your enemy is to come close to losing my treasures. So when armies are drawn up against each other and the weapons cross, it is the side that grieves that wins.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-70",
+      "order": 70,
+      "label": "Chapter 70",
+      "title": "Coarse Cloth, Jade Within",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-70.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "My words are very easy to understand and very easy to put into practice, yet no one in the world can understand them or put them into practice.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.3333"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-70.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "My words have a source, and my deeds have a master. It is because people do not grasp this that they do not understand me.",
+          "spine": {
+            "from": "0.3333",
+            "to": "0.6667"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-70.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Those who understand me are few, and that is why I am precious. So the sage wears coarse cloth on the outside but carries jade within.",
+          "spine": {
+            "from": "0.6667",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-71",
+      "order": 71,
+      "label": "Chapter 71",
+      "title": "Knowing That You Do Not Know",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-71.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "To know that you do not know is best; to not know, and yet think you know, is a flaw.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-71.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "It is only by recognizing this flaw as a flaw that one can be free of it. The sage is free of it because he recognizes the flaw as a flaw, and so it is no flaw in him.",
+          "spine": {
+            "from": "0.5000",
+            "to": "1.0000"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.tao-te-ching.lectio-modern.book-72",
+      "order": 72,
+      "label": "Chapter 72",
+      "title": "When the People Stop Fearing",
+      "segments": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-72.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the people no longer fear what they ought to fear, then a far greater dread comes down upon them.",
+          "spine": {
+            "from": "0.0000",
+            "to": "0.2500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-72.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
+          "spine": {
+            "from": "0.2500",
+            "to": "0.5000"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-72.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "It is only because you do not press them down that they do not grow weary of you.",
+          "spine": {
+            "from": "0.5000",
+            "to": "0.7500"
+          }
+        },
+        {
+          "id": "edition.tao-te-ching.lectio-modern.book-72.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And so the sage knows himself, but does not display himself; he values himself, but does not exalt himself. He lets the one go and takes hold of the other.",
+          "spine": {
+            "from": "0.7500",
             "to": "1.0000"
           }
         }
