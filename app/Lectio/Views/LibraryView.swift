@@ -105,6 +105,7 @@ struct LibraryView: View {
             }
             .navigationDestination(for: BookOverview.self) { BookOverviewView(book: $0) }
             .navigationDestination(for: Concept.self) { ConceptDetailView(concept: $0) }
+            .navigationDestination(for: WordStudy.self) { WordStudyView(study: $0) }
         }
         .sheet(isPresented: $showSearch) { SearchView(initialQuery: searchSeed) }
         .fullScreenCover(isPresented: $showOnboarding) {
@@ -156,6 +157,13 @@ struct LibraryView: View {
             if let wid = ProcessInfo.processInfo.environment["LECTIO_OPEN_WORK"],
                let work = library.works.first(where: { $0.id == wid }) {
                 path.append(work)
+            }
+            // Debug hook: LECTIO_DEBUG_STUDY=<workId>|<term> opens the word-study page.
+            if let spec = ProcessInfo.processInfo.environment["LECTIO_DEBUG_STUDY"] {
+                let parts = spec.split(separator: "|", maxSplits: 1).map(String.init)
+                if parts.count == 2 {
+                    path.append(WordStudy(term: parts[1], workId: parts[0]))
+                }
             }
             // Debug hook: LECTIO_DEBUG_CONCEPT=<conceptId> opens that concept's page.
             if let cid = ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONCEPT"],

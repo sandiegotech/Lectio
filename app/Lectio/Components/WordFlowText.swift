@@ -203,6 +203,22 @@ struct WordCard: View {
                     .buttonStyle(.plain)
                 }
             }
+            // The in-app deep dive — the Gloss experience without leaving the book.
+            if let workId {
+                NavigationLink(value: WordStudy(term: term, workId: workId)) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "text.magnifyingglass").font(.caption2)
+                        Text("Study this word").font(.caption.weight(.semibold))
+                        Spacer(minLength: 0)
+                        Image(systemName: "chevron.right").font(.system(size: 9, weight: .semibold))
+                    }
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 12).padding(.vertical, 7)
+                    .background(Capsule().fill(pal.accent))
+                }
+                .buttonStyle(.plain)
+                .simultaneousGesture(TapGesture().onEnded { onClose() })
+            }
             glossLink
         }
         .padding(14)
@@ -280,18 +296,17 @@ struct WordCard: View {
         VStack(alignment: .leading, spacing: 8) {
             Divider().overlay(pal.rule)
             if glossInstalled {
+                // Quiet row — the in-app Study capsule above is the primary deep dive now.
                 Button {
                     GlossLink.open(term: term, context: context, sourceTitle: workTitle)
                 } label: {
                     HStack(spacing: 6) {
                         Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                        Text("Open in Gloss").font(.caption.weight(.semibold))
+                        Text("Open in Gloss").font(.caption.weight(.medium))
                         Spacer(minLength: 0)
                         Image(systemName: "arrow.up.forward").font(.system(size: 9, weight: .semibold))
                     }
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 12).padding(.vertical, 7)
-                    .background(Capsule().fill(pal.accent))
+                    .foregroundColor(pal.accent)
                 }
                 .buttonStyle(.plain)
             } else {
