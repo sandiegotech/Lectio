@@ -176,6 +176,14 @@ final class Library: ObservableObject {
 
     func concept(id: String) -> Concept? { concepts[id] }
 
+    // Every concept node, alphabetical — the Ideas doorway's source.
+    var allConcepts: [Concept] { concepts.values.sorted { $0.term.lowercased() < $1.term.lowercased() } }
+
+    // The glossary entry a work binds to a concept (its work-local gloss + local term).
+    func glossEntry(workId: String, conceptId: String) -> Enrichment.GlossEntry? {
+        enrichment[workId]?.glossary?.first { $0.conceptId == conceptId }
+    }
+
     func workTitle(id: String) -> String? { works.first { $0.id == id }?.title }
 
     func chapterOverview(workId: String, order: Int) -> String? {

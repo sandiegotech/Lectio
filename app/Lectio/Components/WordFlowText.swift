@@ -236,6 +236,18 @@ struct WordCard: View {
                     .font(.system(size: 11, design: .serif))
                     .fixedSize(horizontal: false, vertical: true)
             }
+            // Into the idea's own page — the cross-work thread, browsable.
+            NavigationLink(value: c) {
+                HStack(spacing: 4) {
+                    Image(systemName: "point.topleft.down.curvedto.point.bottomright.up")
+                        .font(.system(size: 9))
+                    Text("Trace this idea").font(.caption.weight(.semibold))
+                    Image(systemName: "chevron.right").font(.system(size: 8, weight: .semibold))
+                }
+                .foregroundColor(pal.accent)
+            }
+            .buttonStyle(.plain)
+            .simultaneousGesture(TapGesture().onEnded { onClose() })
         }
         .padding(.top, 2)
     }

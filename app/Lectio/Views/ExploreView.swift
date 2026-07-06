@@ -24,9 +24,53 @@ struct ExploreFeed: View {
                     .padding(.top, 1)
             }
             .padding(.horizontal, 26).padding(.top, 2)
+            ideasStrip
             ForEach(dailyOrder) { card($0) }
         }
         .padding(.bottom, 18)
+    }
+
+    // The Ideas doorway: every concept in the cross-work layer, one tap from here to
+    // its page — trace one idea through every book that carries it.
+    @ViewBuilder
+    private var ideasStrip: some View {
+        if !library.allConcepts.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(spacing: 6) {
+                    Text("IDEAS TO FOLLOW")
+                        .font(.caption2.weight(.semibold)).tracking(2)
+                        .foregroundColor(pal.accent)
+                    Text("· one thread, every book it runs through")
+                        .font(.caption2).foregroundColor(pal.inkSoft)
+                }
+                .padding(.horizontal, 26)
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(library.allConcepts) { c in
+                            NavigationLink(value: c) { ideaChip(c) }
+                                .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.horizontal, 26)
+                }
+            }
+            .padding(.top, 4)
+        }
+    }
+
+    private func ideaChip(_ c: Concept) -> some View {
+        VStack(alignment: .leading, spacing: 1) {
+            Text(c.term.capitalized)
+                .font(.system(.subheadline, design: .serif).weight(.medium))
+                .foregroundColor(pal.ink)
+            if let o = c.original {
+                Text(o.translit ?? o.lemma)
+                    .font(.caption2.italic()).foregroundColor(pal.inkSoft)
+            }
+        }
+        .padding(.horizontal, 12).padding(.vertical, 7)
+        .background(RoundedRectangle(cornerRadius: 9).fill(pal.rail))
+        .overlay(RoundedRectangle(cornerRadius: 9).stroke(pal.rule))
     }
 
     // One stable page per day. The records are ordered by a date seed, so the order holds all

@@ -104,6 +104,7 @@ struct LibraryView: View {
                 OverviewReaderView(eyebrow: route.eyebrow, title: route.title, text: route.text)
             }
             .navigationDestination(for: BookOverview.self) { BookOverviewView(book: $0) }
+            .navigationDestination(for: Concept.self) { ConceptDetailView(concept: $0) }
         }
         .sheet(isPresented: $showSearch) { SearchView(initialQuery: searchSeed) }
         .fullScreenCover(isPresented: $showOnboarding) {
@@ -155,6 +156,11 @@ struct LibraryView: View {
             if let wid = ProcessInfo.processInfo.environment["LECTIO_OPEN_WORK"],
                let work = library.works.first(where: { $0.id == wid }) {
                 path.append(work)
+            }
+            // Debug hook: LECTIO_DEBUG_CONCEPT=<conceptId> opens that concept's page.
+            if let cid = ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONCEPT"],
+               let c = library.concept(id: cid) {
+                path.append(c)
             }
             // Debug hooks: open the library on a given axis (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_EXPLORE"] != nil { browseMode = .explore }

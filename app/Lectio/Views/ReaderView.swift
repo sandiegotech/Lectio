@@ -36,6 +36,11 @@ struct ReaderView: View {
     @State private var selRange: ClosedRange<Int>?
     @State private var selPopup: SelPopup?
     @State private var noteTarget: SavedHighlight?
+    // Divergences (Lectio editions): where this rendering departs from older translations.
+    @State private var divAnchors: [String: [Edition.Divergence]] = [:]     // segmentId -> markers
+    @State private var divsBySection: [String: [Edition.Divergence]] = [:]  // sectionId -> rail list
+    @State private var generalDivs: [Edition.Divergence] = []               // "throughout" notes
+    @State private var divPopoverSegId: String?
     @State private var compareEditionId: String?
     // Compare-sync: tap a passage in one column and its matching passage lights up (and
     // scrolls into view) in the other, via the alignment spine (ReaderView.counterpart).
@@ -259,6 +264,7 @@ struct ReaderView: View {
         }
         .onDisappear { persist() }
         .onChange(of: scenePhase) { _, phase in if phase != .active { persist() } }
+        .task(id: currentEditionId) { rebuildDivergenceIndex() }
     }
 
     private func persist() {
@@ -304,6 +310,110 @@ struct ReaderView: View {
     private func jumpToWord(_ term: String) {
         focusWord = WordDictionary.normalize(term)
         if let seg = firstSegment(containing: term) { jumpToSegment(seg) }
+    }
+
+    // MARK: divergences — anchoring the "on the text" notes to the passages they belong to
+
+    private static let quotedRe = try! NSRegularExpression(pattern: "[“\"]([^”\"]{2,80})[”\"]")
+
+    // The quoted renderings inside a divergence's `lectio` field (e.g. “rage”,
+    // “deadly Dream” / “baneful”) — the strings to look for in the text.
+    private func lectioPhrases(_ d: Edition.Divergence) -> [String] {
+        let ns = d.lectio as NSString
+        let matches = Self.quotedRe.matches(in: d.lectio, range: NSRange(location: 0, length: ns.length))
+        var phrases = matches.map { ns.substring(with: $0.range(at: 1)) }
+        if phrases.isEmpty {
+            let bare = d.lectio.trimmingCharacters(in: CharacterSet(charactersIn: " “”\"'.,"))
+            if bare.count >= 3 { phrases = [bare] }
+        }
+        return phrases.sorted { $0.count > $1.count }
+    }
+
+    // The section order a locus names ("Book 4, line 2" → 4, "III.i" → 3, "Tablet IX" → 9).
+    private func locusOrder(_ locus: String?) -> Int? {
+        guard let locus else { return nil }
+        var val = 0, found = false
+        for ch in locus {
+            if ch.isNumber, let d = ch.wholeNumberValue { val = val * 10 + d; found = true }
+            else if found { break }
+        }
+        if found { return val }
+        for token in locus.split(whereSeparator: { !$0.isLetter }) {
+            if let v = romanValue(String(token)) { return v }
+        }
+        return nil
+    }
+
+    private func romanValue(_ s: String) -> Int? {
+        let vals: [Character: Int] = ["I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000]
+        guard !s.isEmpty, s.allSatisfy({ vals[$0] != nil }) else { return nil }
+        var total = 0, prev = 0
+        for ch in s.reversed() {
+            let v = vals[ch]!
+            total += v < prev ? -v : v
+            prev = max(prev, v)
+        }
+        return total
+    }
+
+    // Build the divergence index for the open edition: each note anchors to the segment
+    // holding its Lectio rendering (locus section first, then a whole-book search — loci
+    // like the Comedy's "I.2" can't name the cantica); unanchorable notes fall back to
+    // the locus section's rail list, or the general "throughout" list. Runs off-main —
+    // the whole-book fallback scans every segment.
+    private func rebuildDivergenceIndex() {
+        guard let ed = currentEdition, let divs = ed.divergences, !divs.isEmpty else {
+            divAnchors = [:]; divsBySection = [:]; generalDivs = []; return
+        }
+        let sections = ed.sections
+        DispatchQueue.global(qos: .userInitiated).async {
+            var anchors: [String: [Edition.Divergence]] = [:]
+            var bySection: [String: [Edition.Divergence]] = [:]
+            var general: [Edition.Divergence] = []
+
+            func find(_ phrases: [String], in secs: [Section], minLen: Int) -> (String, String)? {
+                for sec in secs {
+                    for seg in sec.segments {
+                        for p in phrases where p.count >= minLen {
+                            if seg.text.range(of: p, options: [.caseInsensitive, .diacriticInsensitive]) != nil {
+                                return (seg.id, sec.id)
+                            }
+                        }
+                    }
+                }
+                return nil
+            }
+
+            for d in divs {
+                let low = (d.locus ?? "").lowercased()
+                if d.locus == nil || low.contains("throughout") || low.contains("title") {
+                    general.append(d); continue
+                }
+                let phrases = lectioPhrases(d)
+                let locusSection = locusOrder(d.locus).flatMap { o in sections.first { $0.order == o } }
+                var hit: (String, String)? = nil
+                if let sec = locusSection { hit = find(phrases, in: [sec], minLen: 3) }
+                if hit == nil { hit = find(phrases, in: sections, minLen: 8) }
+                if let (segId, secId) = hit {
+                    anchors[segId, default: []].append(d)
+                    bySection[secId, default: []].append(d)
+                } else if let sec = locusSection {
+                    bySection[sec.id, default: []].append(d)
+                } else {
+                    general.append(d)
+                }
+            }
+            DispatchQueue.main.async {
+                divAnchors = anchors
+                divsBySection = bySection
+                generalDivs = general
+            }
+        }
+    }
+
+    // The rail's "On the text" list for the section in view.
+    private var railDivergences: [Edition.Divergence] {
+        (currentSection.flatMap { divsBySection[$0.id] } ?? []) + generalDivs
     }
 
     // MARK: compare-sync — passage matching across editions via the alignment spine
@@ -540,7 +650,21 @@ struct ReaderView: View {
                                         .offset(x: -26, y: -2)
                                 }
                             }
-                            .onAppear { topSegmentId = segment.id }
+                            .overlay(alignment: .topTrailing) {
+                                if let divs = divAnchors[segment.id] {
+                                    divergenceMarker(segmentId: segment.id, divs: divs)
+                                }
+                            }
+                            .onAppear {
+                                topSegmentId = segment.id
+                                // Track the book from segments too, not just headers — on a
+                                // restore the section header sits just off-screen above the
+                                // anchor, so headers alone leave the index stale.
+                                if let idx = sectionIndex(containing: segment.id),
+                                   idx != currentBookIndex {
+                                    currentBookIndex = idx
+                                }
+                            }
                         }
                     }
                 }
@@ -658,8 +782,8 @@ struct ReaderView: View {
                 if let cmp = compareEdition { compareColumn(cmp) }
                 else { emptyPanelNote("No other edition to compare yet.") }
             case .marks:
-                MarginRail(work: work, section: currentSection, pal: pal,
-                           onJump: jumpToSegment, onWordJump: jumpToWord)
+                MarginRail(work: work, section: currentSection, divergences: railDivergences,
+                           pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
             case .info:
                 if let ed = currentEdition {
                     ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
@@ -928,5 +1052,86 @@ struct ReaderView: View {
         guard let section = currentSection,
               let passage = library.passage(workId: work.id, sectionId: section.id) else { return nil }
         return passage.define?.first { WordDictionary.normalize($0.term) == word }?.gloss
+    }
+
+    // MARK: divergence marker + card
+
+    // A quiet asterisk in the right margin where the Lectio rendering makes a real
+    // choice; tap for the older renderings and the reasoning.
+    private func divergenceMarker(segmentId: String, divs: [Edition.Divergence]) -> some View {
+        Button { divPopoverSegId = segmentId } label: {
+            Image(systemName: "asterisk")
+                .font(.system(size: 10, weight: .semibold))
+                .foregroundColor(pal.accent.opacity(0.6))
+                .frame(width: 26, height: 24)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .offset(x: 28, y: -2)
+        .popover(isPresented: divPopoverBinding(segmentId), arrowEdge: .trailing) {
+            divergenceCard(divs)
+        }
+    }
+
+    private func divPopoverBinding(_ segmentId: String) -> Binding<Bool> {
+        Binding(get: { divPopoverSegId == segmentId },
+                set: { if !$0 { divPopoverSegId = nil } })
+    }
+
+    private func divergenceCard(_ divs: [Edition.Divergence]) -> some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 14) {
+                Text("ON THE TEXT")
+                    .font(.caption2.weight(.semibold)).tracking(2).foregroundColor(pal.accent)
+                ForEach(Array(divs.enumerated()), id: \.offset) { _, d in
+                    DivergenceEntry(d: d, pal: pal)
+                }
+            }
+            .padding(16)
+        }
+        .frame(minWidth: 320, idealWidth: 360, maxWidth: 400, maxHeight: 420)
+        .presentationCompactAdaptation(.popover)
+        .background(pal.paper)
+    }
+}
+
+// One divergence, laid out as phrase → older/Lectio renderings → the reasoning.
+// Shared by the reader's marker popover and the Margin rail's "On the text" list.
+struct DivergenceEntry: View {
+    let d: Edition.Divergence
+    let pal: Palette
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 5) {
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                if let phrase = d.phrase, !phrase.isEmpty {
+                    Text(phrase).font(.system(.subheadline, design: .serif).weight(.semibold))
+                        .foregroundColor(pal.ink)
+                }
+                if let locus = d.locus, !locus.isEmpty {
+                    Text(locus).font(.caption2).foregroundColor(pal.inkSoft)
+                }
+            }
+            renderingRow("Older", d.older, color: pal.inkSoft)
+            renderingRow("Lectio", d.lectio, color: pal.ink)
+            Text(d.note)
+                .font(.footnote).foregroundColor(pal.inkSoft)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.top, 1)
+        }
+    }
+
+    private func renderingRow(_ label: String, _ text: String, color: Color) -> some View {
+        HStack(alignment: .top, spacing: 6) {
+            Text(label.uppercased())
+                .font(.system(size: 9, weight: .semibold)).tracking(0.8)
+                .foregroundColor(pal.inkSoft.opacity(0.8))
+                .frame(width: 44, alignment: .trailing)
+                .padding(.top, 2)
+            Text(text)
+                .font(.system(.caption, design: .serif))
+                .foregroundColor(color)
+                .fixedSize(horizontal: false, vertical: true)
+        }
     }
 }

@@ -7,6 +7,7 @@ import SwiftUI
 struct MarginRail: View {
     let work: Work
     var section: Section? = nil                      // the section currently in view
+    var divergences: [Edition.Divergence] = []       // "on the text" notes for this section
     let pal: Palette
     var onJump: (String) -> Void = { _ in }          // jump to a segment id
     var onWordJump: (String) -> Void = { _ in }      // jump to where a saved word appears
@@ -96,6 +97,16 @@ struct MarginRail: View {
                 railSection("Connections") {
                     VStack(alignment: .leading, spacing: 8) {
                         ForEach(conns, id: \.self) { connectionRow($0) }
+                    }
+                }
+            }
+        }
+
+        if !divergences.isEmpty {
+            railSection("On the text") {
+                VStack(alignment: .leading, spacing: 14) {
+                    ForEach(Array(divergences.enumerated()), id: \.offset) { _, d in
+                        DivergenceEntry(d: d, pal: pal)
                     }
                 }
             }
