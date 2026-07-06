@@ -364,7 +364,8 @@
    "aliases": [
     "cloaks of terror",
     "seven cloaks of terror"
-   ]
+   ],
+   "conceptId": "concept.melammu"
   },
   {
    "term": "tablet of lapis lazuli",
@@ -382,7 +383,8 @@
    "kind": "concept",
    "aliases": [
     "the Flood"
-   ]
+   ],
+   "conceptId": "concept.the-flood"
   },
   {
    "term": "war-god",
@@ -529,7 +531,8 @@
   {
    "term": "shades",
    "gloss": "The spirits of the dead in the underworld. Gilgamesh's grave-gifts are meant to win Enkidu a good place among them.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.psyche"
   },
   {
    "term": "Uta-napishti",
@@ -729,7 +732,8 @@
     "plant of the heartbeat",
     "The-Old-Man-Grows-Young",
     "plant of the heartbeat, the cure"
-   ]
+   ],
+   "conceptId": "concept.immortality-quest"
   },
   {
    "term": "bramble",

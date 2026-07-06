@@ -792,7 +792,8 @@
    "kind": "concept",
    "aliases": [
     "seems"
-   ]
+   ],
+   "conceptId": "concept.seeming"
   },
   {
    "term": "inky cloak",
@@ -2425,7 +2426,8 @@
    "kind": "concept",
    "aliases": [
     "table"
-   ]
+   ],
+   "conceptId": "concept.memoria"
   },
   {
    "term": "trivial fond records",
@@ -2544,7 +2546,8 @@
    "kind": "concept",
    "aliases": [
     "antic"
-   ]
+   ],
+   "conceptId": "concept.madness"
   },
   {
    "term": "encumber'd",
@@ -4430,7 +4433,8 @@
    "kind": "concept",
    "aliases": [
     "conscience of the King"
-   ]
+   ],
+   "conceptId": "concept.conscience"
   },
   {
    "term": "drift of circumstance",
@@ -4571,7 +4575,8 @@
     "Fortune",
     "Fortune's buffets",
     "Fortune's finger"
-   ]
+   ],
+   "conceptId": "concept.fortuna"
   },
   {
    "term": "consummation",
@@ -4592,7 +4597,8 @@
    "kind": "concept",
    "aliases": [
     "this mortal coil"
-   ]
+   ],
+   "conceptId": "concept.mortality"
   },
   {
    "term": "respect",
@@ -4658,7 +4664,8 @@
    "kind": "concept",
    "aliases": [
     "undiscover'd country"
-   ]
+   ],
+   "conceptId": "concept.mortality"
   },
   {
    "term": "bourn",
@@ -5050,7 +5057,8 @@
    "kind": "concept",
    "aliases": [
     "passion's slave"
-   ]
+   ],
+   "conceptId": "concept.akrasia"
   },
   {
    "term": "heart of heart",
@@ -6460,7 +6468,8 @@
   {
    "term": "Assume a virtue",
    "gloss": "Put on virtue, act it even if you don't yet feel it — Hamlet's advice that practicing goodness can become real.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.habituation"
   },
   {
    "term": "That monster custom",
@@ -6469,7 +6478,8 @@
    "aliases": [
     "custom",
     "damned custom"
-   ]
+   ],
+   "conceptId": "concept.habituation"
   },
   {
    "term": "frock or livery",
@@ -6611,7 +6621,8 @@
    "aliases": [
     "Hoist with his own petard",
     "petard"
-   ]
+   ],
+   "conceptId": "concept.contrapasso"
   },
   {
    "term": "delve one yard below their mines",
@@ -6664,7 +6675,8 @@
   {
    "term": "providence",
    "gloss": "Foresight; careful management of what is to come. The King says his own foresight should have kept the dangerous Hamlet under control.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.providence"
   },
   {
    "term": "out of haunt",
@@ -7948,12 +7960,14 @@
   {
    "term": "augury",
    "gloss": "Foretelling the future from omens. Hamlet says he defies augury and trusts in providence.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.augury"
   },
   {
    "term": "special providence in the fall of a sparrow",
    "gloss": "God's care attends even the smallest event. Hamlet voices his calm acceptance of fate before the duel.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.providence"
   },
   {
    "term": "The readiness is all",

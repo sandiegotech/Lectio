@@ -11,7 +11,8 @@
     "blessedness",
     "happier",
     "happiest"
-   ]
+   ],
+   "conceptId": "concept.eudaimonia"
   },
   {
    "term": "the good",
@@ -22,7 +23,8 @@
     "goods",
     "the highest good",
     "human good"
-   ]
+   ],
+   "conceptId": "concept.the-good"
   },
   {
    "term": "virtue",
@@ -33,7 +35,8 @@
     "excellence",
     "excellences",
     "virtuous"
-   ]
+   ],
+   "conceptId": "concept.arete"
   },
   {
    "term": "the mean",
@@ -44,7 +47,8 @@
     "the middle",
     "intermediate",
     "middle ground"
-   ]
+   ],
+   "conceptId": "concept.the-mean"
   },
   {
    "term": "excess",
@@ -86,7 +90,8 @@
     "political science",
     "the science of the community",
     "art of statecraft"
-   ]
+   ],
+   "conceptId": "concept.statecraft"
   },
   {
    "term": "self-sufficiency",
@@ -122,7 +127,8 @@
     "the life of contemplation",
     "theoretical wisdom",
     "contemplating"
-   ]
+   ],
+   "conceptId": "concept.theoria"
   },
   {
    "term": "honor",
@@ -131,7 +137,8 @@
    "aliases": [
     "honors",
     "dishonor"
-   ]
+   ],
+   "conceptId": "concept.time"
   },
   {
    "term": "practical wisdom",
@@ -140,7 +147,8 @@
    "aliases": [
     "the person of practical wisdom",
     "phronesis"
-   ]
+   ],
+   "conceptId": "concept.phronesis"
   },
   {
    "term": "first principles",
@@ -167,7 +175,8 @@
     "habituated",
     "habituating",
     "habituate"
-   ]
+   ],
+   "conceptId": "concept.habituation"
   },
   {
    "term": "Forms",
@@ -179,7 +188,8 @@
     "the Good itself",
     "good itself",
     "man himself"
-   ]
+   ],
+   "conceptId": "concept.the-forms"
   },
   {
    "term": "substance",
@@ -250,7 +260,8 @@
     "bravery",
     "braver",
     "bravest"
-   ]
+   ],
+   "conceptId": "concept.andreia"
   },
   {
    "term": "reckless",
@@ -280,7 +291,8 @@
     "self-control",
     "self-controlled",
     "self-mastery"
-   ]
+   ],
+   "conceptId": "concept.sophrosyne"
   },
   {
    "term": "dissipation",
@@ -589,7 +601,8 @@
     "the just man",
     "justly",
     "acting justly"
-   ]
+   ],
+   "conceptId": "concept.dikaiosyne"
   },
   {
    "term": "injustice",
@@ -711,7 +724,8 @@
     "prohairesis",
     "chooses",
     "chosen"
-   ]
+   ],
+   "conceptId": "concept.prohairesis"
   },
   {
    "term": "deliberation",
@@ -742,7 +756,8 @@
     "cravings",
     "desire",
     "desires"
-   ]
+   ],
+   "conceptId": "concept.epithymia"
   },
   {
    "term": "right reason",
@@ -763,7 +778,8 @@
     "the man who lacks self-control",
     "uncontrolled",
     "without self-control"
-   ]
+   ],
+   "conceptId": "concept.akrasia"
   },
   {
    "term": "the vegetative part",
@@ -1242,7 +1258,8 @@
     "lack of self-control",
     "incontinence",
     "incontinent"
-   ]
+   ],
+   "conceptId": "concept.akrasia"
   },
   {
    "term": "endurance",
@@ -1294,7 +1311,8 @@
     "friends",
     "friendships",
     "friendly"
-   ]
+   ],
+   "conceptId": "concept.philia"
   },
   {
    "term": "goodwill",
@@ -1709,7 +1727,8 @@
   {
    "term": "host and guest",
    "gloss": "The bond of hospitality between a host and a traveling stranger; Aristotle ranks it among the friendships that rest on usefulness and on community.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.xenia"
   },
   {
    "term": "deviation",

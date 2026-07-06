@@ -581,7 +581,8 @@
   {
    "term": "Fortune",
    "gloss": "The divine 'minister' or angelic power Virgil describes, appointed by God to shift wealth from people to people. Far from blind chance, she carries out God's hidden plan and rejoices in her work, deaf to the curses of mankind.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.fortuna"
   },
   {
    "term": "Styx",
@@ -771,7 +772,8 @@
   {
    "term": "contrapasso",
    "gloss": "The principle, never named but everywhere at work, by which each sinner's punishment mirrors or inverts the sin — the lustful blown by storm, the gluttons in filth, the wrathful tearing at each other. (Virgil's speech here lays out Hell's whole moral architecture.)",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.contrapasso"
   },
   {
    "term": "the structure of lower Hell",
@@ -785,7 +787,8 @@
   {
    "term": "incontinence",
    "gloss": "In Virgil's Aristotelian scheme, the failure of self-control (lust, gluttony, greed, wrath) punished outside the city of Dis. It offends God less than malice or brute violence, and earns lighter punishment.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.akrasia"
   },
   {
    "term": "Sodom",
@@ -4254,7 +4257,8 @@
   {
    "term": "exile",
    "gloss": "Dante's banishment from Florence, foretold here by Cacciaguida: he will lose all he loves, taste 'how salt is another man's bread,' and learn the hardship of dependence.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.exile"
   },
   {
    "term": "the great Lombard",
@@ -4374,7 +4378,8 @@
     "Divine Justice",
     "the living justice",
     "the eternal justice"
-   ]
+   ],
+   "conceptId": "concept.dikaiosyne"
   },
   {
    "term": "the Ethiopian",
@@ -4464,7 +4469,8 @@
   {
    "term": "predestination",
    "gloss": "God's eternal choosing of who is saved—its 'root' lies hidden even from the blessed. The eagle warns mortals not to presume to judge it.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.providence"
   },
   {
    "term": "Those three Maidens",
@@ -4505,7 +4511,8 @@
    "kind": "concept",
    "aliases": [
     "eternal Providence"
-   ]
+   ],
+   "conceptId": "concept.providence"
   },
   {
    "term": "Catria",
@@ -4788,7 +4795,8 @@
     "faith",
     "Faith",
     "the true Faith"
-   ]
+   ],
+   "conceptId": "concept.theological-virtues"
   },
   {
    "term": "a bachelor of arts",
@@ -4945,7 +4953,8 @@
     "love",
     "the first love",
     "caritas"
-   ]
+   ],
+   "conceptId": "concept.caritas"
   },
   {
    "term": "Alpha and the Omega",
@@ -5364,7 +5373,8 @@
    "kind": "concept",
    "aliases": [
     "contemplative"
-   ]
+   ],
+   "conceptId": "concept.theoria"
   },
   {
    "term": "the oriflamme",
@@ -5860,7 +5870,8 @@
   {
    "term": "Sloth",
    "gloss": "Spiritual laziness or negligence; the sin of those, like Belacqua, who delayed repentance, here personified as a figure so idle she could be Belacqua's sister.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.seven-sins"
   },
   {
    "term": "angel of God who sits up at the gate",
@@ -6107,7 +6118,8 @@
    "kind": "concept",
    "aliases": [
     "three holy virtues"
-   ]
+   ],
+   "conceptId": "concept.theological-virtues"
   },
   {
    "term": "the little innocents",
@@ -6636,7 +6648,8 @@
    "kind": "concept",
    "aliases": [
     "envious"
-   ]
+   ],
+   "conceptId": "concept.seven-sins"
   },
   {
    "term": "Pass of Pardon",
@@ -6755,7 +6768,8 @@
    "aliases": [
     "wrathful",
     "anger"
-   ]
+   ],
+   "conceptId": "concept.seven-sins"
   },
   {
    "term": "Agnus Dei",
@@ -6775,7 +6789,8 @@
   {
    "term": "free will",
    "gloss": "The doctrine, central to Marco Lombardo's speech, that humans are free to choose good or evil and so are responsible for the world's state; the heavens may incline but do not compel.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.free-will"
   },
   {
    "term": "two suns",
@@ -6853,7 +6868,8 @@
     "avaricious",
     "greed",
     "Avarice"
-   ]
+   ],
+   "conceptId": "concept.seven-sins"
   },
   {
    "term": "Pope Adrian V",
@@ -7084,7 +7100,8 @@
    "aliases": [
     "gluttons",
     "gluttonous"
-   ]
+   ],
+   "conceptId": "concept.seven-sins"
   },
   {
    "term": "Erysichthon",
@@ -7456,7 +7473,8 @@
    "kind": "concept",
    "aliases": [
     "Golden Age"
-   ]
+   ],
+   "conceptId": "concept.golden-age"
   },
   {
    "term": "Beati quorum tecta sunt peccata",

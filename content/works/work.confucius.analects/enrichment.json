@@ -24,7 +24,8 @@
     "perfect virtue",
     "complete virtue",
     "virtuous"
-   ]
+   ],
+   "conceptId": "concept.ren"
   },
   {
    "term": "benevolent",
@@ -43,7 +44,8 @@
     "superior man",
     "Chun-tsze",
     "Chun-tze"
-   ]
+   ],
+   "conceptId": "concept.junzi"
   },
   {
    "term": "the mean man",
@@ -61,7 +63,8 @@
    "aliases": [
     "filial",
     "filial duties"
-   ]
+   ],
+   "conceptId": "concept.xiao"
   },
   {
    "term": "fraternal submission",
@@ -70,7 +73,8 @@
    "aliases": [
     "fraternal",
     "brotherly duties"
-   ]
+   ],
+   "conceptId": "concept.xiao"
   },
   {
    "term": "rules of propriety",
@@ -87,7 +91,8 @@
   {
    "term": "the rectification of names",
    "gloss": "The Confucian doctrine that each thing and role must match its true name — a ruler must truly be a ruler, a father a father — so that words and reality align and society holds together.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.seeming"
   },
   {
    "term": "the decrees of Heaven",
@@ -98,7 +103,8 @@
     "way of Heaven",
     "decrees of Heaven",
     "Heaven"
-   ]
+   ],
+   "conceptId": "concept.tianming"
   },
   {
    "term": "the odes",
@@ -262,7 +268,8 @@
    "kind": "concept",
    "aliases": [
     "Constant Mean"
-   ]
+   ],
+   "conceptId": "concept.the-mean"
   },
   {
    "term": "Lu",
@@ -684,7 +691,8 @@
    "kind": "concept",
    "aliases": [
     "benevolence"
-   ]
+   ],
+   "conceptId": "concept.ren"
   },
   {
    "term": "propriety",
@@ -695,7 +703,8 @@
     "proprieties",
     "rules of ceremony",
     "rules of propriety"
-   ]
+   ],
+   "conceptId": "concept.li"
   },
   {
    "term": "Heaven",
@@ -966,7 +975,8 @@
   {
    "term": "government",
    "gloss": "A recurring topic in the Analects: for Confucius, ruling well means leading by moral example and keeping each person true to their role, not by force or law.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.statecraft"
   },
   {
    "term": "Duke Ai",
@@ -998,7 +1008,8 @@
   {
    "term": "benevolence",
    "gloss": "Loving concern for all people — Legge's word here for ren, the same ideal he elsewhere calls 'perfect virtue.' Confucius defines it simply as 'to love all men.'",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.ren"
   },
   {
    "term": "Kao-yao",
@@ -1339,7 +1350,8 @@
     "Tao",
     "the cause of truth",
     "right principles"
-   ]
+   ],
+   "conceptId": "concept.dao"
   },
   {
    "term": "Wei-shang Mau",
@@ -1357,7 +1369,8 @@
    "kind": "concept",
    "aliases": [
     "the superior man"
-   ]
+   ],
+   "conceptId": "concept.junzi"
   },
   {
    "term": "mean man",
@@ -1372,7 +1385,8 @@
   {
    "term": "righteousness",
    "gloss": "Doing what is morally right and fitting in a situation (yi); the standard the superior man holds above mere gain or valor.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.dikaiosyne"
   },
   {
    "term": "reciprocity",
@@ -1385,7 +1399,8 @@
    "kind": "concept",
    "aliases": [
     "due Mean"
-   ]
+   ],
+   "conceptId": "concept.the-mean"
   },
   {
    "term": "the ordinances of Heaven",

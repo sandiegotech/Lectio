@@ -726,7 +726,8 @@
   {
    "term": "providence",
    "gloss": "The idea that the universe is governed by a rational, caring order; for Stoics, everything that happens is woven into this plan.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.providence"
   },
   {
    "term": "Benedicta",
@@ -910,7 +911,8 @@
    "kind": "concept",
    "aliases": [
     "temperate"
-   ]
+   ],
+   "conceptId": "concept.sophrosyne"
   },
   {
    "term": "self-sufficiency",
@@ -920,7 +922,8 @@
   {
    "term": "destiny",
    "gloss": "The fixed course of events; for Stoics, the rational order that spins out each person's allotted fate.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.moira"
   },
   {
    "term": "the elements",
@@ -937,7 +940,8 @@
    "aliases": [
     "tranquil",
     "untroubled"
-   ]
+   ],
+   "conceptId": "concept.apatheia"
   },
   {
    "term": "atoms",
@@ -1207,7 +1211,8 @@
     "guiding principle",
     "rational principle that rules",
     "the part of your soul that leads and governs"
-   ]
+   ],
+   "conceptId": "concept.hegemonikon"
   },
   {
    "term": "guiding spirit",
@@ -1219,7 +1224,8 @@
     "the spirit that Zeus has given",
     "divine part",
     "godlike man"
-   ]
+   ],
+   "conceptId": "concept.daimon"
   },
   {
    "term": "indifferent",
@@ -1242,7 +1248,8 @@
     "within your power",
     "not in your power",
     "within his reach"
-   ]
+   ],
+   "conceptId": "concept.free-will"
   },
   {
    "term": "the many",
@@ -1262,7 +1269,8 @@
     "virtues",
     "the motion of virtue",
     "material for virtue"
-   ]
+   ],
+   "conceptId": "concept.arete"
   },
   {
    "term": "self-control",
@@ -1272,7 +1280,8 @@
     "self-restraint",
     "temperance",
     "moderation"
-   ]
+   ],
+   "conceptId": "concept.sophrosyne"
   },
   {
    "term": "greatness of soul",
@@ -1317,7 +1326,8 @@
     "dissolved",
     "scattering",
     "annihilation"
-   ]
+   ],
+   "conceptId": "concept.mortality"
   },
   {
    "term": "the gods",
@@ -1731,7 +1741,8 @@
     "ruling principles",
     "guiding principles",
     "guiding spirit"
-   ]
+   ],
+   "conceptId": "concept.hegemonikon"
   },
   {
    "term": "impressions",
@@ -1882,7 +1893,8 @@
    "kind": "concept",
    "aliases": [
     "contemplative way"
-   ]
+   ],
+   "conceptId": "concept.theoria"
   },
   {
    "term": "Sarmatians",
@@ -1998,7 +2010,8 @@
     "as in a city",
     "citizen of the world",
     "great city"
-   ]
+   ],
+   "conceptId": "concept.kosmopolis"
   },
   {
    "term": "the all-in fighter",
@@ -2124,7 +2137,8 @@
   {
    "term": "free will",
    "gloss": "The mind's power of choice and assent, which the Stoics held no external force can take away. Marcus calls it the one thing truly within our own control.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.free-will"
   },
   {
    "term": "assent",
@@ -2249,7 +2263,8 @@
    "aliases": [
     "right reason",
     "reason itself"
-   ]
+   ],
+   "conceptId": "concept.logos"
   },
   {
    "term": "flux",
@@ -2260,7 +2275,8 @@
     "change",
     "changes",
     "transformations"
-   ]
+   ],
+   "conceptId": "concept.eternity"
   },
   {
    "term": "providence vs atoms",

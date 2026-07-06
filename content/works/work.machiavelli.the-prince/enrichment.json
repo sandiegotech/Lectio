@@ -15,7 +15,8 @@
    "kind": "concept",
    "aliases": [
     "republics"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "prince",
@@ -41,12 +42,14 @@
   {
    "term": "fortune",
    "gloss": "Luck or chance — the unpredictable circumstances outside a ruler's control. Machiavelli weighs it against personal skill (virtù/ability) as a path to power.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.fortuna"
   },
   {
    "term": "ability",
    "gloss": "Personal skill, talent, and force of character — Marriott's usual rendering of Machiavelli's virtù. The quality that lets a ruler seize opportunity and hold power on his own merits.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.virtu"
   },
   {
    "term": "virtue",
@@ -54,7 +57,8 @@
    "kind": "concept",
    "aliases": [
     "virtues"
-   ]
+   ],
+   "conceptId": "concept.virtu"
   },
   {
    "term": "states",
@@ -377,7 +381,8 @@
   {
    "term": "statecraft",
    "gloss": "The skilled art of governing and managing a state's affairs.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.statecraft"
   },
   {
    "term": "astuteness",
@@ -584,7 +589,8 @@
    "kind": "concept",
    "aliases": [
     "innovators"
-   ]
+   ],
+   "conceptId": "concept.the-new-prince"
   },
   {
    "term": "armed prophets",
@@ -594,7 +600,8 @@
     "armed prophet",
     "unarmed ones",
     "unarmed prophets"
-   ]
+   ],
+   "conceptId": "concept.the-new-prince"
   },
   {
    "term": "Savonarola",
@@ -1232,7 +1239,8 @@
     "the fox and the lion",
     "the fox",
     "the lion"
-   ]
+   ],
+   "conceptId": "concept.lion-and-fox"
   },
   {
    "term": "Chiron",
@@ -1386,7 +1394,8 @@
   {
    "term": "free will",
    "gloss": "The human power to direct one's own actions, which Machiavelli insists fortune does not wholly cancel—she leaves roughly half of life to our own choices.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.free-will"
   },
   {
    "term": "liberality",
@@ -1432,7 +1441,8 @@
     "keep faith",
     "good faith",
     "the faith of princes"
-   ]
+   ],
+   "conceptId": "concept.seeming"
   },
   {
    "term": "flatterers",

@@ -221,7 +221,8 @@
     "injustice",
     "unjust",
     "unjustly"
-   ]
+   ],
+   "conceptId": "concept.dikaiosyne"
   },
   {
    "term": "virtue",
@@ -229,7 +230,8 @@
    "kind": "concept",
    "aliases": [
     "excellence"
-   ]
+   ],
+   "conceptId": "concept.arete"
   },
   {
    "term": "the interest of the stronger",
@@ -239,7 +241,8 @@
   {
    "term": "soul",
    "gloss": "The inner self that lives, governs, and deliberates. Socrates argues the soul has a proper function and a proper excellence (justice), so a just soul lives well and is happy.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.the-soul"
   },
   {
    "term": "end",
@@ -357,7 +360,8 @@
   {
    "term": "temperance",
    "gloss": "Self-control and moderation-one of the cardinal virtues. Raised as part of the inquiry into virtue and the well-ordered soul.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.sophrosyne"
   },
   {
    "term": "threshold of old age",
@@ -367,7 +371,8 @@
   {
    "term": "world below",
    "gloss": "The underworld, the realm of the dead, where (the old tales say) wrongs done in life are punished-a fear that grows on Cephalus as death nears.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.katabasis"
   },
   {
    "term": "Gyges",
@@ -549,7 +554,8 @@
     "seeming",
     "appearances",
     "appearance"
-   ]
+   ],
+   "conceptId": "concept.seeming"
   },
   {
    "term": "the city in speech",
@@ -1381,7 +1387,8 @@
    "aliases": [
     "wise",
     "good in counsel"
-   ]
+   ],
+   "conceptId": "concept.phronesis"
   },
   {
    "term": "courage",
@@ -1390,7 +1397,8 @@
    "aliases": [
     "courageous",
     "valiant"
-   ]
+   ],
+   "conceptId": "concept.andreia"
   },
   {
    "term": "doing one's own business",
@@ -1685,7 +1693,8 @@
   {
    "term": "idea",
    "gloss": "Here a technical term for the Form-the one unchanging reality (such as beauty or justice itself) that particular things merely share in or imitate.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.the-forms"
   },
   {
    "term": "faculty",
@@ -1847,7 +1856,8 @@
     "absolute good",
     "the good",
     "supreme principle of the good"
-   ]
+   ],
+   "conceptId": "concept.the-good"
   },
   {
    "term": "the forms",
@@ -1858,7 +1868,8 @@
     "ideals",
     "forms",
     "ideas themselves"
-   ]
+   ],
+   "conceptId": "concept.the-forms"
   },
   {
    "term": "the philosopher",
@@ -2081,7 +2092,8 @@
     "prison",
     "underground den",
     "prison-house is the world of sight"
-   ]
+   ],
+   "conceptId": "concept.the-cave"
   },
   {
    "term": "the prisoners",
@@ -2158,7 +2170,8 @@
     "true philosopher kings",
     "rulers",
     "guardians"
-   ]
+   ],
+   "conceptId": "concept.philosopher-king"
   },
   {
    "term": "arithmetic",
@@ -2309,7 +2322,8 @@
    "aliases": [
     "beatific vision",
     "divine contemplations"
-   ]
+   ],
+   "conceptId": "concept.theoria"
   },
   {
    "term": "disabused",
@@ -2407,7 +2421,8 @@
    "aliases": [
     "conversion",
     "effect conversion"
-   ]
+   ],
+   "conceptId": "concept.conversion"
   },
   {
    "term": "timocracy",
@@ -2419,7 +2434,8 @@
     "timocratical man",
     "government of honour",
     "government of honor"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "oligarchy",
@@ -2432,7 +2448,8 @@
     "oligarch",
     "oligarchs",
     "oligarchical State"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "democracy",
@@ -2444,7 +2461,8 @@
     "democratic man",
     "democracies",
     "democratical man"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "tyranny",
@@ -2456,7 +2474,8 @@
     "tyrannical",
     "tyrannical man",
     "tyranny absolute"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "aristocracy",
@@ -2464,7 +2483,8 @@
    "kind": "concept",
    "aliases": [
     "aristocratic"
-   ]
+   ],
+   "conceptId": "concept.regimes"
   },
   {
    "term": "Crete",
@@ -2665,7 +2685,8 @@
    "aliases": [
     "appetite",
     "appetitive"
-   ]
+   ],
+   "conceptId": "concept.epithymia"
   },
   {
    "term": "lawless",

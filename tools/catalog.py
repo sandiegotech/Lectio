@@ -22,6 +22,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 WORKS = os.path.join(ROOT, "content", "works")
 
 MODEL_NAMES = {
+    "claude-fable-5": "Fable 5",
     "claude-opus-4-8": "Opus 4.8",
     "claude-opus-4-7": "Opus 4.7",
     "claude-opus-4-6": "Opus 4.6",

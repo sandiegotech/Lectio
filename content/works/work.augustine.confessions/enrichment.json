@@ -71,7 +71,8 @@
   {
    "term": "restless",
    "gloss": "Unable to find peace or rest. From the book's most famous line: 'our heart is restless, until it repose in Thee.'",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.cor-inquietum"
   },
   {
    "term": "wroth",
@@ -133,7 +134,8 @@
   {
    "term": "providence",
    "gloss": "God's wise care and governing of the world and of each life — the belief that God guides everything for good.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.providence"
   },
   {
    "term": "suppliant",
@@ -166,7 +168,8 @@
     "sin in Adam",
     "die in Adam",
     "bond of original sin"
-   ]
+   ],
+   "conceptId": "concept.original-sin"
   },
   {
    "term": "vestige",
@@ -315,7 +318,8 @@
    "kind": "concept",
    "aliases": [
     "concupiscence of the flesh"
-   ]
+   ],
+   "conceptId": "concept.epithymia"
   },
   {
    "term": "the flesh",
@@ -426,7 +430,8 @@
    "aliases": [
     "Thy grace",
     "the water of Thy Grace"
-   ]
+   ],
+   "conceptId": "concept.gratia"
   },
   {
    "term": "mercy",
@@ -442,7 +447,8 @@
    "kind": "concept",
    "aliases": [
     "my soul"
-   ]
+   ],
+   "conceptId": "concept.the-soul"
   },
   {
    "term": "render unto the Lord",
@@ -680,7 +686,8 @@
    "aliases": [
     "pious",
     "piously"
-   ]
+   ],
+   "conceptId": "concept.duty"
   },
   {
    "term": "sacrilegious",
@@ -1266,7 +1273,8 @@
     "Continence",
     "continent",
     "chastity and continency"
-   ]
+   ],
+   "conceptId": "concept.sophrosyne"
   },
   {
    "term": "concubine",
@@ -1290,7 +1298,8 @@
    "aliases": [
     "free will",
     "free-will offerings"
-   ]
+   ],
+   "conceptId": "concept.free-will"
   },
   {
    "term": "conversion",
@@ -1300,7 +1309,8 @@
     "converted",
     "convert",
     "conversion and regeneration"
-   ]
+   ],
+   "conceptId": "concept.conversion"
   },
   {
    "term": "incorruptible",
@@ -1867,7 +1877,8 @@
    "aliases": [
     "that Eternal Wisdom",
     "the window"
-   ]
+   ],
+   "conceptId": "concept.theoria"
   },
   {
    "term": "the two wills",
@@ -1877,7 +1888,8 @@
     "two wills",
     "conflicting wills",
     "my two wills"
-   ]
+   ],
+   "conceptId": "concept.akrasia"
   },
   {
    "term": "the privation of good",
@@ -1887,7 +1899,8 @@
     "whence is evil",
     "perversion of the will",
     "no substance"
-   ]
+   ],
+   "conceptId": "concept.the-good"
   },
   {
    "term": "the Cup of our Redemption",
@@ -2024,7 +2037,8 @@
   {
    "term": "memory",
    "gloss": "The vast inner storehouse of images, ideas, feelings, and self-knowledge. This book's central meditation: a 'large and boundless chamber' where Augustine even finds God.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.memoria"
   },
   {
    "term": "forgetfulness",
@@ -2047,7 +2061,8 @@
    "kind": "concept",
    "aliases": [
     "happy life"
-   ]
+   ],
+   "conceptId": "concept.eudaimonia"
   },
   {
    "term": "temptation",
@@ -2065,7 +2080,8 @@
   {
    "term": "charity",
    "gloss": "Selfless love—of God and neighbor. It is the love by which Augustine's readers believe his confession and pray for him.",
-   "kind": "concept"
+   "kind": "concept",
+   "conceptId": "concept.caritas"
   },
   {
    "term": "Anaximenes",
@@ -2163,7 +2179,8 @@
    "aliases": [
     "eternal",
     "everlasting"
-   ]
+   ],
+   "conceptId": "concept.eternity"
   },
   {
    "term": "time",
@@ -2171,7 +2188,8 @@
    "kind": "concept",
    "aliases": [
     "times"
-   ]
+   ],
+   "conceptId": "concept.eternity"
   },
   {
    "term": "Verity",

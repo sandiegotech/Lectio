@@ -1,585 +1,2737 @@
 {
-  "concepts": [
+ "concepts": [
+  {
+   "id": "concept.menis",
+   "term": "rage",
+   "kind": "concept",
+   "gloss": "The poem's true subject — the towering, ruinous wrath of Achilles. Not ordinary temper but a near-sacred fury, the kind usually reserved for gods, turned by a mortal against his own side.",
+   "original": {
+    "lang": "grc",
+    "lemma": "μῆνις",
+    "translit": "mēnis",
+    "literal": "wrath (esp. divine, abiding)"
+   },
+   "senseHistory": "In Homer mēnis is a special, almost cultic word — elsewhere it names the anger of gods. English 'rage' keeps the heat but loses the sense of a sanctioned, cosmic wrath, which is why translators argue over the poem's very first word.",
+   "appearsIn": [
+    "work.homer.iliad"
+   ],
+   "connections": [
     {
-      "id": "concept.menis",
-      "term": "rage",
-      "kind": "concept",
-      "gloss": "The poem's true subject — the towering, ruinous wrath of Achilles. Not ordinary temper but a near-sacred fury, the kind usually reserved for gods, turned by a mortal against his own side.",
-      "original": {
-        "lang": "grc",
-        "lemma": "μῆνις",
-        "translit": "mēnis",
-        "literal": "wrath (esp. divine, abiding)"
-      },
-      "senseHistory": "In Homer mēnis is a special, almost cultic word — elsewhere it names the anger of gods. English 'rage' keeps the heat but loses the sense of a sanctioned, cosmic wrath, which is why translators argue over the poem's very first word.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.cholos",
-          "type": "contrasts",
-          "note": "Homer distinguishes Achilles' mēnis from ordinary cholos — gall, the anger any man feels."
-        },
-        {
-          "to": "concept.kleos",
-          "type": "shares-theme",
-          "note": "The rage and the glory are the same bargain: a short life spent loudly."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "The Odyssey opens on a different passion — not wrath but longing for home."
-        }
-      ]
+     "to": "concept.cholos",
+     "type": "contrasts",
+     "note": "Homer distinguishes Achilles' mēnis from ordinary cholos — gall, the anger any man feels."
     },
     {
-      "id": "concept.cholos",
-      "term": "wrath (cholos)",
-      "kind": "concept",
-      "gloss": "Everyday anger — the gall that rises in any fighter's chest. Homer uses it for the common rage that Achilles' singular mēnis stands apart from.",
-      "original": {
-        "lang": "grc",
-        "lemma": "χόλος",
-        "translit": "cholos",
-        "literal": "gall, bile, anger"
-      },
-      "senseHistory": "Literally 'gall/bile' — anger located in the body, like English 'galled' or 'bilious.' The Greeks sited emotion in the organs; the metaphor survives in our 'venting your spleen.'",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.menis",
-          "type": "contrasts",
-          "note": "The ordinary anger against which Achilles' sacred wrath is measured."
-        }
-      ]
+     "to": "concept.kleos",
+     "type": "shares-theme",
+     "note": "The rage and the glory are the same bargain: a short life spent loudly."
     },
     {
-      "id": "concept.time",
-      "term": "honor",
-      "kind": "concept",
-      "gloss": "A warrior's public worth — respect made visible in prizes, precedence, and the deference of others. To be stripped of it is the deepest injury, which is what ignites the quarrel.",
-      "original": {
-        "lang": "grc",
-        "lemma": "τιμή",
-        "translit": "timē",
-        "literal": "honor, worth, price"
-      },
-      "senseHistory": "The same word means 'price' or 'value' — honor was quantifiable, paid out in spoils and seats at the feast. English keeps the split in 'esteem' (regard) versus 'estimate' (price).",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.geras",
-          "type": "shares-theme",
-          "note": "Honor is made concrete in the geras, the prize that proves it."
-        },
-        {
-          "to": "concept.kleos",
-          "type": "shares-theme",
-          "note": "Honor is paid in life; glory is what outlasts it."
-        }
-      ]
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "The Odyssey opens on a different passion — not wrath but longing for home."
     },
     {
-      "id": "concept.kleos",
-      "term": "glory",
-      "kind": "concept",
-      "gloss": "The undying fame a hero wins by great deeds — the nearest thing to immortality a mortal can earn, since his life is short and certain to end.",
-      "original": {
-        "lang": "grc",
-        "lemma": "κλέος",
-        "translit": "kleos",
-        "literal": "glory, fame, 'what is heard'"
-      },
-      "senseHistory": "Kleos is rooted in the verb 'to hear' — glory is literally what gets said and re-said about you. The epic itself is the machine that delivers it; English 'glory' comes instead through Latin gloria.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.menis",
-          "type": "shares-theme",
-          "note": "Achilles trades a long life for kleos — the rage is the price of the fame."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "Odysseus chooses homecoming over the bare glory Achilles took."
-        }
-      ]
-    },
-    {
-      "id": "concept.moira",
-      "term": "fate",
-      "kind": "concept",
-      "gloss": "The portion of life and death allotted to each person — a destiny so fixed that even Zeus hesitates to overrule it.",
-      "original": {
-        "lang": "grc",
-        "lemma": "μοῖρα",
-        "translit": "moira",
-        "literal": "portion, allotted share"
-      },
-      "senseHistory": "Moira literally means 'a share/portion,' as of meat at a feast — your fate is the lot dealt to you. Latin reframes it as fatum, 'what has been spoken,' a destiny pronounced rather than apportioned.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey",
-        "work.virgil.aeneid"
-      ],
-      "connections": [
-        {
-          "to": "work.virgil.aeneid",
-          "type": "contrasts",
-          "note": "Virgil's fatum drives toward Rome's founding; Homer's moira simply marks each man's end."
-        },
-        {
-          "to": "concept.mortality",
-          "type": "shares-theme",
-          "note": "To know your moira is to know you will die — the weight every hero carries."
-        }
-      ]
-    },
-    {
-      "id": "concept.mortality",
-      "term": "mortality",
-      "kind": "concept",
-      "gloss": "The fact that defines the human in these poems: mortals (brotoi) set against the deathless gods (athanatoi). Knowing the end is fixed is what gives every choice its weight.",
-      "original": {
-        "lang": "grc",
-        "lemma": "βροτός",
-        "translit": "brotos",
-        "literal": "mortal, a dying one"
-      },
-      "senseHistory": "Greek names humans by their deaths — brotoi, 'the mortals,' opposed to a-thanatoi, 'the un-dying.' The same anxiety drives Gilgamesh's failed search for immortality and Hamlet's graveyard.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.gilgamesh",
-        "work.marcus-aurelius.meditations",
-        "work.shakespeare.hamlet"
-      ],
-      "connections": [
-        {
-          "to": "work.gilgamesh",
-          "type": "shares-theme",
-          "note": "Gilgamesh, like Achilles, learns that even the strongest man must die."
-        },
-        {
-          "to": "work.marcus-aurelius.meditations",
-          "type": "shares-theme",
-          "note": "Marcus turns the same fact into a discipline: remember you will die, and live now."
-        }
-      ]
-    },
-    {
-      "id": "concept.xenia",
-      "term": "guest-friendship",
-      "kind": "concept",
-      "gloss": "The sacred bond of hospitality between host and guest, guarded by Zeus himself. Paris broke it by stealing Helen from his host; the whole war is, in one sense, the price of that violation.",
-      "original": {
-        "lang": "grc",
-        "lemma": "ξενία",
-        "translit": "xenia",
-        "literal": "guest-friendship, hospitality"
-      },
-      "senseHistory": "Xenos means both 'stranger' and 'guest' — the one word holds the bond that turns the first into the second. English kept only the wary half, in 'xenophobia.'",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "work.homer.odyssey",
-          "type": "shares-theme",
-          "note": "The Odyssey is one long test of xenia — every household Odysseus enters either honors the guest or abuses him."
-        },
-        {
-          "to": "concept.time",
-          "type": "shares-theme",
-          "note": "Both are codes of honor: how you treat a guest is who you are."
-        }
-      ]
-    },
-    {
-      "id": "concept.nostos",
-      "term": "homecoming",
-      "kind": "concept",
-      "gloss": "The hero's return home from the war — the governing desire of the Odyssey, as rage is of the Iliad.",
-      "original": {
-        "lang": "grc",
-        "lemma": "νόστος",
-        "translit": "nostos",
-        "literal": "homecoming, return"
-      },
-      "senseHistory": "Nostos plus algos ('pain') gives us 'nostalgia' — literally the ache for a homecoming. The Odyssey is the great poem of that ache.",
-      "appearsIn": [
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "work.homer.odyssey",
-          "type": "part-of",
-          "note": "The organizing idea of the Odyssey."
-        },
-        {
-          "to": "concept.kleos",
-          "type": "contrasts",
-          "note": "Glory keeps you on the battlefield; nostos pulls you home."
-        }
-      ]
-    },
-    {
-      "id": "concept.ate",
-      "term": "ruin (atē)",
-      "kind": "concept",
-      "gloss": "The blind delusion sent by the gods that leads a person into ruin — both the folly and the disaster it brings. Agamemnon blames atē, not himself, for the quarrel.",
-      "original": {
-        "lang": "grc",
-        "lemma": "ἄτη",
-        "translit": "atē",
-        "literal": "blind folly leading to ruin"
-      },
-      "senseHistory": "Atē names both the mental blindness and its catastrophe — cause and consequence in one word. It later becomes a goddess, Ruin herself, cast out of Olympus.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.menis",
-          "type": "shares-theme",
-          "note": "Agamemnon calls his seizure of Briseis an act of atē — a god-sent blindness."
-        }
-      ]
-    },
-    {
-      "id": "concept.metis",
-      "term": "cunning (mētis)",
-      "kind": "concept",
-      "gloss": "Practical intelligence — craft, strategy, the clever workaround. The quality that defines Odysseus as force defines Achilles.",
-      "original": {
-        "lang": "grc",
-        "lemma": "μῆτις",
-        "translit": "mētis",
-        "literal": "cunning intelligence, craft"
-      },
-      "senseHistory": "Odysseus' standing epithet is polymētis, 'of many wiles.' Mētis is skill that bends a situation rather than overpowering it — the opposite virtue to brute biē.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.bie",
-          "type": "contrasts",
-          "note": "Cunning against force — the two ways to win, embodied by Odysseus and Achilles/Ajax."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "shares-theme",
-          "note": "Odysseus survives the Odyssey on mētis, not strength."
-        }
-      ]
-    },
-    {
-      "id": "concept.bie",
-      "term": "force (biē)",
-      "kind": "concept",
-      "gloss": "Brute strength and might in arms — the heroic virtue of Achilles and Ajax, set against Odysseus' cunning.",
-      "original": {
-        "lang": "grc",
-        "lemma": "βίη",
-        "translit": "biē",
-        "literal": "force, bodily strength, might"
-      },
-      "senseHistory": "Biē is raw physical power; the epics constantly weigh it against mētis (cunning), asking which truly wins a war.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.metis",
-          "type": "contrasts",
-          "note": "The eternal pairing: force versus wits."
-        }
-      ]
-    },
-    {
-      "id": "concept.psyche",
-      "term": "soul / shade",
-      "kind": "concept",
-      "gloss": "The life-breath that leaves the body at death and goes down to Hades as a strengthless shade — a faint image of the living person.",
-      "original": {
-        "lang": "grc",
-        "lemma": "ψυχή",
-        "translit": "psychē",
-        "literal": "breath, life, soul"
-      },
-      "senseHistory": "Psychē first means simply the breath that departs at death; only later does it become 'soul,' and later still the root of 'psyche' and 'psychology.' Homer's dead are barely there — breath and image, with the mind gone.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.mortality",
-          "type": "shares-theme",
-          "note": "What death leaves: a breath, an image, no mind."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "Odysseus meets these shades face to face when he goes down among the dead."
-        }
-      ]
-    },
-    {
-      "id": "concept.geras",
-      "term": "prize (geras)",
-      "kind": "concept",
-      "gloss": "The share of war-spoils awarded to a warrior as the public token of his honor. Briseis is Achilles' geras — taking her is a calculated insult, not mere theft.",
-      "original": {
-        "lang": "grc",
-        "lemma": "γέρας",
-        "translit": "geras",
-        "literal": "prize of honor, gift of esteem"
-      },
-      "senseHistory": "A geras is honor you can hold in your hands — which is exactly why losing it wounds: the public worth goes with the object.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ],
-      "connections": [
-        {
-          "to": "concept.time",
-          "type": "part-of",
-          "note": "The geras is honor (timē) made tangible."
-        }
-      ]
-    },
-    {
-      "id": "concept.zeus",
-      "term": "Zeus",
-      "kind": "god",
-      "gloss": "King of the gods, lord of sky and thunder, who holds the balance of the war and tries to keep the other gods from tipping fate too far.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ζεύς",
-        "translit": "Zeus",
-        "literal": "sky-father"
-      },
-      "senseHistory": "Zeus, Roman Jove/Jupiter, Latin deus, and Sanskrit Dyaus all descend from one ancient root meaning 'sky/bright day' — the same sky-father worshipped across the Indo-European world. (Older translations of Homer call him Jove.)",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey",
-        "work.virgil.aeneid"
-      ],
-      "connections": [
-        {
-          "to": "work.virgil.aeneid",
-          "type": "parallel",
-          "note": "As Jupiter he steers Rome's destiny in the Aeneid."
-        }
-      ]
-    },
-    {
-      "id": "concept.athena",
-      "term": "Athena",
-      "kind": "god",
-      "gloss": "Goddess of wisdom, craft, and strategic war — the Greeks' most powerful divine champion, guiding her favorites with cool intelligence.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ἀθήνη",
-        "translit": "Athēnē",
-        "literal": "(of Athens)"
-      },
-      "senseHistory": "Older translations call her by her Roman name, Minerva, or the epithet Pallas. She is mētis made divine — the patron of the cunning Odysseus.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.metis",
-          "type": "shares-theme",
-          "note": "The goddess of cunning intelligence."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "Odysseus' constant protector in the Odyssey."
-        }
-      ]
-    },
-    {
-      "id": "concept.apollo",
-      "term": "Apollo",
-      "kind": "god",
-      "gloss": "God of archery, prophecy, healing, and plague — a leading backer of the Trojans, who opens the poem by raining arrows of pestilence on the Greeks.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ἀπόλλων",
-        "translit": "Apollōn"
-      },
-      "senseHistory": "Often called Phoebus ('bright') — the same god who gives and withholds plague, the ancient link between the arrow and the disease.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ]
-    },
-    {
-      "id": "concept.troy",
-      "term": "Troy",
-      "kind": "place",
-      "gloss": "The great walled city under siege near the coast of Asia Minor — also called Ilium. The whole poem unfolds on the plain before its walls.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ἴλιον",
-        "translit": "Ilion",
-        "literal": "Troy"
-      },
-      "senseHistory": "From Ilion comes the title 'Iliad' — the song of Ilium. Troy's fall, only foretold here, becomes the starting point of Virgil's Aeneid.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey",
-        "work.virgil.aeneid"
-      ],
-      "connections": [
-        {
-          "to": "work.virgil.aeneid",
-          "type": "influences",
-          "note": "The Aeneid begins where the Iliad's world ends — a survivor fleeing burning Troy."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "Odysseus' ten-year road home begins at Troy's fall."
-        }
-      ]
-    },
-    {
-      "id": "concept.achilles",
-      "term": "Achilles",
-      "kind": "person",
-      "gloss": "The greatest Greek warrior, whose rage drives the poem. He fights for the Greeks but withdraws when his honor is insulted, and returns only out of grief.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ἀχιλλεύς",
-        "translit": "Achilleus"
-      },
-      "senseHistory": "His name was anciently linked to akhos ('grief') and laos ('the army') — 'grief of the people,' a fit for the man whose wrath brings the Greeks endless suffering.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.menis",
-          "type": "part-of",
-          "note": "The owner of the rage the poem sings."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "parallel",
-          "note": "His shade tells Odysseus he'd rather be a poor man's slave alive than king of the dead."
-        }
-      ]
-    },
-    {
-      "id": "concept.odysseus",
-      "term": "Odysseus",
-      "kind": "person",
-      "gloss": "King of Ithaca, the Greeks' shrewdest tactician — cunning where Achilles is fierce. His own epic, the Odyssey, follows his long road home.",
-      "original": {
-        "lang": "grc",
-        "lemma": "Ὀδυσσεύς",
-        "translit": "Odysseus"
-      },
-      "senseHistory": "Older translations use his Roman name, Ulysses. He is the hero of mētis — the mind that outlasts the strong arm.",
-      "appearsIn": [
-        "work.homer.iliad",
-        "work.homer.odyssey"
-      ],
-      "connections": [
-        {
-          "to": "concept.metis",
-          "type": "part-of",
-          "note": "Cunning intelligence, given a face."
-        },
-        {
-          "to": "work.homer.odyssey",
-          "type": "influences",
-          "note": "The hero of the Odyssey, already the cleverest man at Troy."
-        }
-      ]
-    },
-    {
-      "id": "concept.ichor",
-      "term": "ichor",
-      "kind": "thing",
-      "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows.",
-      "original": {
-        "lang": "grc",
-        "lemma": "ἰχώρ",
-        "translit": "ichōr",
-        "literal": "the gods' blood"
-      },
-      "senseHistory": "A purely divine word in Homer; modern medicine borrowed 'ichor' for a thin, watery discharge from a wound — a small demotion from the blood of gods.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ]
-    },
-    {
-      "id": "concept.aegis",
-      "term": "aegis",
-      "kind": "thing",
-      "gloss": "The terrifying storm-shield of Zeus, often wielded by Athena or Apollo — shaken over a battlefield, it spreads panic or courage like a weapon.",
-      "original": {
-        "lang": "grc",
-        "lemma": "αἰγίς",
-        "translit": "aigis",
-        "literal": "goatskin (storm-shield)"
-      },
-      "senseHistory": "Likely from aix, 'goat' — a goatskin mantle become a divine shield. English keeps it in 'under the aegis of,' meaning under someone's protection.",
-      "appearsIn": [
-        "work.homer.iliad"
-      ]
-    },
-    {
-      "id": "concept.duty",
-      "term": "duty",
-      "kind": "concept",
-      "gloss": "The claim of obligation over desire — answering to gods, city, and kin rather than to one's own passion. The counter-virtue to Achilles' rage, and a hinge between traditions.",
-      "original": {
-        "lang": "lat",
-        "lemma": "pietas",
-        "translit": "pietas",
-        "literal": "dutiful devotion (to gods, country, family)"
-      },
-      "senseHistory": "The West names it pietas (Aeneas' defining virtue); India names it dharma (Arjuna's question in the Gita). Where Achilles follows his rage, Aeneas and Arjuna are asked to follow their duty — the same human crux, answered differently East and West.",
-      "appearsIn": [
-        "work.virgil.aeneid",
-        "work.bhagavad-gita",
-        "work.marcus-aurelius.meditations"
-      ],
-      "connections": [
-        {
-          "to": "work.virgil.aeneid",
-          "type": "shares-theme",
-          "note": "Aeneas is the anti-Achilles: duty chosen over rage."
-        },
-        {
-          "to": "work.bhagavad-gita",
-          "type": "shares-theme",
-          "note": "Arjuna, like a Homeric hero, must decide how duty binds him on the battlefield."
-        },
-        {
-          "to": "concept.menis",
-          "type": "contrasts",
-          "note": "Rage versus duty — the two ways an epic hero can answer the call to fight."
-        }
-      ]
+     "to": "concept.furor",
+     "type": "parallel",
+     "note": "Rome's word for the same fire."
     }
-  ]
+   ]
+  },
+  {
+   "id": "concept.cholos",
+   "term": "wrath (cholos)",
+   "kind": "concept",
+   "gloss": "Everyday anger — the gall that rises in any fighter's chest. Homer uses it for the common rage that Achilles' singular mēnis stands apart from.",
+   "original": {
+    "lang": "grc",
+    "lemma": "χόλος",
+    "translit": "cholos",
+    "literal": "gall, bile, anger"
+   },
+   "senseHistory": "Literally 'gall/bile' — anger located in the body, like English 'galled' or 'bilious.' The Greeks sited emotion in the organs; the metaphor survives in our 'venting your spleen.'",
+   "appearsIn": [
+    "work.homer.iliad"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "contrasts",
+     "note": "The ordinary anger against which Achilles' sacred wrath is measured."
+    }
+   ]
+  },
+  {
+   "id": "concept.time",
+   "term": "honor",
+   "kind": "concept",
+   "gloss": "A warrior's public worth — respect made visible in prizes, precedence, and the deference of others. To be stripped of it is the deepest injury, which is what ignites the quarrel.",
+   "original": {
+    "lang": "grc",
+    "lemma": "τιμή",
+    "translit": "timē",
+    "literal": "honor, worth, price"
+   },
+   "senseHistory": "The same word means 'price' or 'value' — honor was quantifiable, paid out in spoils and seats at the feast. English keeps the split in 'esteem' (regard) versus 'estimate' (price).",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.aristotle.nicomachean-ethics"
+   ],
+   "connections": [
+    {
+     "to": "concept.geras",
+     "type": "shares-theme",
+     "note": "Honor is made concrete in the geras, the prize that proves it."
+    },
+    {
+     "to": "concept.kleos",
+     "type": "shares-theme",
+     "note": "Honor is paid in life; glory is what outlasts it."
+    },
+    {
+     "to": "concept.arete",
+     "type": "shares-theme",
+     "note": "Aristotle demotes honor: the prize of virtue, not the point of it."
+    }
+   ]
+  },
+  {
+   "id": "concept.kleos",
+   "term": "glory",
+   "kind": "concept",
+   "gloss": "The undying fame a hero wins by great deeds — the nearest thing to immortality a mortal can earn, since his life is short and certain to end.",
+   "original": {
+    "lang": "grc",
+    "lemma": "κλέος",
+    "translit": "kleos",
+    "literal": "glory, fame, 'what is heard'"
+   },
+   "senseHistory": "Kleos is rooted in the verb 'to hear' — glory is literally what gets said and re-said about you. The epic itself is the machine that delivers it; English 'glory' comes instead through Latin gloria.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.gilgamesh"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "shares-theme",
+     "note": "Achilles trades a long life for kleos — the rage is the price of the fame."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "Odysseus chooses homecoming over the bare glory Achilles took."
+    },
+    {
+     "to": "concept.immortality-quest",
+     "type": "shares-theme",
+     "note": "When the plant is lost, a name cut in stone is what remains."
+    }
+   ]
+  },
+  {
+   "id": "concept.moira",
+   "term": "fate",
+   "kind": "concept",
+   "gloss": "The portion of life and death allotted to each person — a destiny so fixed that even Zeus hesitates to overrule it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "μοῖρα",
+    "translit": "moira",
+    "literal": "portion, allotted share"
+   },
+   "senseHistory": "Moira literally means 'a share/portion,' as of meat at a feast — your fate is the lot dealt to you. Latin reframes it as fatum, 'what has been spoken,' a destiny pronounced rather than apportioned.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid",
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "work.virgil.aeneid",
+     "type": "contrasts",
+     "note": "Virgil's fatum drives toward Rome's founding; Homer's moira simply marks each man's end."
+    },
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "To know your moira is to know you will die — the weight every hero carries."
+    },
+    {
+     "to": "concept.tianming",
+     "type": "parallel",
+     "note": "Heaven's decree and the allotted portion — two civilizations' words for the span you are dealt."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "contrasts",
+     "note": "Moira is dealt once; Fortuna keeps spinning."
+    }
+   ]
+  },
+  {
+   "id": "concept.mortality",
+   "term": "mortality",
+   "kind": "concept",
+   "gloss": "The fact that defines the human in these poems: mortals (brotoi) set against the deathless gods (athanatoi). Knowing the end is fixed is what gives every choice its weight.",
+   "original": {
+    "lang": "grc",
+    "lemma": "βροτός",
+    "translit": "brotos",
+    "literal": "mortal, a dying one"
+   },
+   "senseHistory": "Greek names humans by their deaths — brotoi, 'the mortals,' opposed to a-thanatoi, 'the un-dying.' The same anxiety drives Gilgamesh's failed search for immortality and Hamlet's graveyard.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.gilgamesh",
+    "work.marcus-aurelius.meditations",
+    "work.shakespeare.hamlet",
+    "work.homer.odyssey",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "work.gilgamesh",
+     "type": "shares-theme",
+     "note": "Gilgamesh, like Achilles, learns that even the strongest man must die."
+    },
+    {
+     "to": "work.marcus-aurelius.meditations",
+     "type": "shares-theme",
+     "note": "Marcus turns the same fact into a discipline: remember you will die, and live now."
+    },
+    {
+     "to": "concept.immortality-quest",
+     "type": "shares-theme",
+     "note": "Gilgamesh runs the experiment: what happens when a man refuses the fact."
+    }
+   ]
+  },
+  {
+   "id": "concept.xenia",
+   "term": "guest-friendship",
+   "kind": "concept",
+   "gloss": "The sacred bond of hospitality between host and guest, guarded by Zeus himself. Paris broke it by stealing Helen from his host; the whole war is, in one sense, the price of that violation.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ξενία",
+    "translit": "xenia",
+    "literal": "guest-friendship, hospitality"
+   },
+   "senseHistory": "Xenos means both 'stranger' and 'guest' — the one word holds the bond that turns the first into the second. English kept only the wary half, in 'xenophobia.'",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.aristotle.nicomachean-ethics"
+   ],
+   "connections": [
+    {
+     "to": "work.homer.odyssey",
+     "type": "shares-theme",
+     "note": "The Odyssey is one long test of xenia — every household Odysseus enters either honors the guest or abuses him."
+    },
+    {
+     "to": "concept.time",
+     "type": "shares-theme",
+     "note": "Both are codes of honor: how you treat a guest is who you are."
+    },
+    {
+     "to": "concept.hiketeia",
+     "type": "shares-theme",
+     "note": "The guest and the suppliant: two strangers Zeus protects."
+    },
+    {
+     "to": "concept.li",
+     "type": "parallel",
+     "note": "Hospitality codes and ritual propriety: civilization measured at the threshold."
+    }
+   ]
+  },
+  {
+   "id": "concept.nostos",
+   "term": "homecoming",
+   "kind": "concept",
+   "gloss": "The hero's return home from the war — the governing desire of the Odyssey, as rage is of the Iliad.",
+   "original": {
+    "lang": "grc",
+    "lemma": "νόστος",
+    "translit": "nostos",
+    "literal": "homecoming, return"
+   },
+   "senseHistory": "Nostos plus algos ('pain') gives us 'nostalgia' — literally the ache for a homecoming. The Odyssey is the great poem of that ache.",
+   "appearsIn": [
+    "work.homer.odyssey"
+   ],
+   "connections": [
+    {
+     "to": "work.homer.odyssey",
+     "type": "part-of",
+     "note": "The organizing idea of the Odyssey."
+    },
+    {
+     "to": "concept.kleos",
+     "type": "contrasts",
+     "note": "Glory keeps you on the battlefield; nostos pulls you home."
+    },
+    {
+     "to": "concept.cor-inquietum",
+     "type": "parallel",
+     "note": "Augustine's restless heart is nostalgia pointed at God."
+    },
+    {
+     "to": "concept.exile",
+     "type": "contrasts",
+     "note": "The exile longs like Odysseus, with no Ithaca allowed."
+    }
+   ]
+  },
+  {
+   "id": "concept.ate",
+   "term": "ruin (atē)",
+   "kind": "concept",
+   "gloss": "The blind delusion sent by the gods that leads a person into ruin — both the folly and the disaster it brings. Agamemnon blames atē, not himself, for the quarrel.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἄτη",
+    "translit": "atē",
+    "literal": "blind folly leading to ruin"
+   },
+   "senseHistory": "Atē names both the mental blindness and its catastrophe — cause and consequence in one word. It later becomes a goddess, Ruin herself, cast out of Olympus.",
+   "appearsIn": [
+    "work.homer.iliad"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "shares-theme",
+     "note": "Agamemnon calls his seizure of Briseis an act of atē — a god-sent blindness."
+    },
+    {
+     "to": "concept.original-sin",
+     "type": "parallel",
+     "note": "Ruin you did not choose but must own — Homer's arrives god-sent, Augustine's is inherited."
+    }
+   ]
+  },
+  {
+   "id": "concept.metis",
+   "term": "cunning (mētis)",
+   "kind": "concept",
+   "gloss": "Practical intelligence — craft, strategy, the clever workaround. The quality that defines Odysseus as force defines Achilles.",
+   "original": {
+    "lang": "grc",
+    "lemma": "μῆτις",
+    "translit": "mētis",
+    "literal": "cunning intelligence, craft"
+   },
+   "senseHistory": "Odysseus' standing epithet is polymētis, 'of many wiles.' Mētis is skill that bends a situation rather than overpowering it — the opposite virtue to brute biē.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey"
+   ],
+   "connections": [
+    {
+     "to": "concept.bie",
+     "type": "contrasts",
+     "note": "Cunning against force — the two ways to win, embodied by Odysseus and Achilles/Ajax."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "shares-theme",
+     "note": "Odysseus survives the Odyssey on mētis, not strength."
+    },
+    {
+     "to": "concept.lion-and-fox",
+     "type": "influences",
+     "note": "Machiavelli's fox is mētis with an Italian accent."
+    }
+   ]
+  },
+  {
+   "id": "concept.bie",
+   "term": "force (biē)",
+   "kind": "concept",
+   "gloss": "Brute strength and might in arms — the heroic virtue of Achilles and Ajax, set against Odysseus' cunning.",
+   "original": {
+    "lang": "grc",
+    "lemma": "βίη",
+    "translit": "biē",
+    "literal": "force, bodily strength, might"
+   },
+   "senseHistory": "Biē is raw physical power; the epics constantly weigh it against mētis (cunning), asking which truly wins a war.",
+   "appearsIn": [
+    "work.homer.iliad"
+   ],
+   "connections": [
+    {
+     "to": "concept.metis",
+     "type": "contrasts",
+     "note": "The eternal pairing: force versus wits."
+    }
+   ]
+  },
+  {
+   "id": "concept.psyche",
+   "term": "soul / shade",
+   "kind": "concept",
+   "gloss": "The life-breath that leaves the body at death and goes down to Hades as a strengthless shade — a faint image of the living person.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ψυχή",
+    "translit": "psychē",
+    "literal": "breath, life, soul"
+   },
+   "senseHistory": "Psychē first means simply the breath that departs at death; only later does it become 'soul,' and later still the root of 'psyche' and 'psychology.' Homer's dead are barely there — breath and image, with the mind gone.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid",
+    "work.gilgamesh",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "What death leaves: a breath, an image, no mind."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "Odysseus meets these shades face to face when he goes down among the dead."
+    },
+    {
+     "to": "concept.the-soul",
+     "type": "influences",
+     "note": "Homer's strengthless breath becomes Plato's immortal self — the word's great promotion."
+    },
+    {
+     "to": "concept.katabasis",
+     "type": "shares-theme",
+     "note": "What the hero goes down among."
+    }
+   ]
+  },
+  {
+   "id": "concept.geras",
+   "term": "prize (geras)",
+   "kind": "concept",
+   "gloss": "The share of war-spoils awarded to a warrior as the public token of his honor. Briseis is Achilles' geras — taking her is a calculated insult, not mere theft.",
+   "original": {
+    "lang": "grc",
+    "lemma": "γέρας",
+    "translit": "geras",
+    "literal": "prize of honor, gift of esteem"
+   },
+   "senseHistory": "A geras is honor you can hold in your hands — which is exactly why losing it wounds: the public worth goes with the object.",
+   "appearsIn": [
+    "work.homer.iliad"
+   ],
+   "connections": [
+    {
+     "to": "concept.time",
+     "type": "part-of",
+     "note": "The geras is honor (timē) made tangible."
+    }
+   ]
+  },
+  {
+   "id": "concept.zeus",
+   "term": "Zeus",
+   "kind": "god",
+   "gloss": "King of the gods, lord of sky and thunder, who holds the balance of the war and tries to keep the other gods from tipping fate too far.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ζεύς",
+    "translit": "Zeus",
+    "literal": "sky-father"
+   },
+   "senseHistory": "Zeus, Roman Jove/Jupiter, Latin deus, and Sanskrit Dyaus all descend from one ancient root meaning 'sky/bright day' — the same sky-father worshipped across the Indo-European world. (Older translations of Homer call him Jove.)",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "work.virgil.aeneid",
+     "type": "parallel",
+     "note": "As Jupiter he steers Rome's destiny in the Aeneid."
+    }
+   ]
+  },
+  {
+   "id": "concept.athena",
+   "term": "Athena",
+   "kind": "god",
+   "gloss": "Goddess of wisdom, craft, and strategic war — the Greeks' most powerful divine champion, guiding her favorites with cool intelligence.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ἀθήνη",
+    "translit": "Athēnē",
+    "literal": "(of Athens)"
+   },
+   "senseHistory": "Older translations call her by her Roman name, Minerva, or the epithet Pallas. She is mētis made divine — the patron of the cunning Odysseus.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.metis",
+     "type": "shares-theme",
+     "note": "The goddess of cunning intelligence."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "Odysseus' constant protector in the Odyssey."
+    }
+   ]
+  },
+  {
+   "id": "concept.apollo",
+   "term": "Apollo",
+   "kind": "god",
+   "gloss": "God of archery, prophecy, healing, and plague — a leading backer of the Trojans, who opens the poem by raining arrows of pestilence on the Greeks.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ἀπόλλων",
+    "translit": "Apollōn"
+   },
+   "senseHistory": "Often called Phoebus ('bright') — the same god who gives and withholds plague, the ancient link between the arrow and the disease.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ]
+  },
+  {
+   "id": "concept.troy",
+   "term": "Troy",
+   "kind": "place",
+   "gloss": "The great walled city under siege near the coast of Asia Minor — also called Ilium. The whole poem unfolds on the plain before its walls.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ἴλιον",
+    "translit": "Ilion",
+    "literal": "Troy"
+   },
+   "senseHistory": "From Ilion comes the title 'Iliad' — the song of Ilium. Troy's fall, only foretold here, becomes the starting point of Virgil's Aeneid.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "work.virgil.aeneid",
+     "type": "influences",
+     "note": "The Aeneid begins where the Iliad's world ends — a survivor fleeing burning Troy."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "Odysseus' ten-year road home begins at Troy's fall."
+    }
+   ]
+  },
+  {
+   "id": "concept.achilles",
+   "term": "Achilles",
+   "kind": "person",
+   "gloss": "The greatest Greek warrior, whose rage drives the poem. He fights for the Greeks but withdraws when his honor is insulted, and returns only out of grief.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ἀχιλλεύς",
+    "translit": "Achilleus"
+   },
+   "senseHistory": "His name was anciently linked to akhos ('grief') and laos ('the army') — 'grief of the people,' a fit for the man whose wrath brings the Greeks endless suffering.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "part-of",
+     "note": "The owner of the rage the poem sings."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "His shade tells Odysseus he'd rather be a poor man's slave alive than king of the dead."
+    }
+   ]
+  },
+  {
+   "id": "concept.odysseus",
+   "term": "Odysseus",
+   "kind": "person",
+   "gloss": "King of Ithaca, the Greeks' shrewdest tactician — cunning where Achilles is fierce. His own epic, the Odyssey, follows his long road home.",
+   "original": {
+    "lang": "grc",
+    "lemma": "Ὀδυσσεύς",
+    "translit": "Odysseus"
+   },
+   "senseHistory": "Older translations use his Roman name, Ulysses. He is the hero of mētis — the mind that outlasts the strong arm.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.metis",
+     "type": "part-of",
+     "note": "Cunning intelligence, given a face."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "influences",
+     "note": "The hero of the Odyssey, already the cleverest man at Troy."
+    }
+   ]
+  },
+  {
+   "id": "concept.ichor",
+   "term": "ichor",
+   "kind": "thing",
+   "gloss": "The clear, immortal fluid that runs in the gods' veins in place of blood — when a god is wounded on the field, ichor flows.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἰχώρ",
+    "translit": "ichōr",
+    "literal": "the gods' blood"
+   },
+   "senseHistory": "A purely divine word in Homer; modern medicine borrowed 'ichor' for a thin, watery discharge from a wound — a small demotion from the blood of gods.",
+   "appearsIn": [
+    "work.homer.iliad"
+   ]
+  },
+  {
+   "id": "concept.aegis",
+   "term": "aegis",
+   "kind": "thing",
+   "gloss": "The terrifying storm-shield of Zeus, often wielded by Athena or Apollo — shaken over a battlefield, it spreads panic or courage like a weapon.",
+   "original": {
+    "lang": "grc",
+    "lemma": "αἰγίς",
+    "translit": "aigis",
+    "literal": "goatskin (storm-shield)"
+   },
+   "senseHistory": "Likely from aix, 'goat' — a goatskin mantle become a divine shield. English keeps it in 'under the aegis of,' meaning under someone's protection.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey"
+   ],
+   "connections": [
+    {
+     "to": "concept.melammu",
+     "type": "parallel",
+     "note": "Mesopotamia's gods wore the same weaponized dread."
+    }
+   ]
+  },
+  {
+   "id": "concept.duty",
+   "term": "duty",
+   "kind": "concept",
+   "gloss": "The claim of obligation over desire — answering to gods, city, and kin rather than to one's own passion. The counter-virtue to Achilles' rage, and a hinge between traditions.",
+   "original": {
+    "lang": "la",
+    "lemma": "pietas",
+    "translit": "pietas",
+    "literal": "dutiful devotion (to gods, country, family)"
+   },
+   "senseHistory": "The West names it pietas (Aeneas' defining virtue); India names it dharma (Arjuna's question in the Gita). Where Achilles follows his rage, Aeneas and Arjuna are asked to follow their duty — the same human crux, answered differently East and West.",
+   "appearsIn": [
+    "work.virgil.aeneid",
+    "work.marcus-aurelius.meditations",
+    "work.confucius.analects",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "work.virgil.aeneid",
+     "type": "shares-theme",
+     "note": "Aeneas is the anti-Achilles: duty chosen over rage."
+    },
+    {
+     "to": "work.bhagavad-gita",
+     "type": "shares-theme",
+     "note": "Arjuna, like a Homeric hero, must decide how duty binds him on the battlefield."
+    },
+    {
+     "to": "concept.menis",
+     "type": "contrasts",
+     "note": "Rage versus duty — the two ways an epic hero can answer the call to fight."
+    },
+    {
+     "to": "concept.xiao",
+     "type": "parallel",
+     "note": "Filial piety is duty's first classroom, East and West."
+    },
+    {
+     "to": "concept.furor",
+     "type": "contrasts",
+     "note": "Virgil's whole poem weighs duty against the fire that unmakes it."
+    }
+   ]
+  },
+  {
+   "id": "concept.logos",
+   "term": "the logos",
+   "kind": "concept",
+   "gloss": "The reason that runs through everything — for the Stoics, a divine intelligence that orders the cosmos and lives, in fragments, in every rational mind. To live well is to keep your own reason in step with it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "λόγος",
+    "translit": "logos",
+    "literal": "word, account, reason"
+   },
+   "senseHistory": "Logos meant speech, account, ratio — reason as something said. John's Gospel opens with it ('In the beginning was the Word'), which is how a Stoic technical term became Christian scripture; English splits its estate among 'logic' and every '-logy.'",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.dao",
+     "type": "parallel",
+     "note": "The Analects' Way and the Stoics' logos both name an order you can walk with or against."
+    },
+    {
+     "to": "concept.providence",
+     "type": "shares-theme",
+     "note": "A cosmos run by reason is a cosmos that provides."
+    },
+    {
+     "to": "concept.daimon",
+     "type": "shares-theme",
+     "note": "The spirit within is Marcus's personal share of the reason that runs the whole."
+    }
+   ]
+  },
+  {
+   "id": "concept.prohairesis",
+   "term": "choice",
+   "kind": "concept",
+   "gloss": "Deliberate choice — the settled decision you reach after weighing what is in your power. For Aristotle it reveals character better than actions do; for the Stoics after him it became the self's inner citadel, the one thing no tyrant can touch.",
+   "original": {
+    "lang": "grc",
+    "lemma": "προαίρεσις",
+    "translit": "prohairesis",
+    "literal": "choosing before, deliberate preference"
+   },
+   "senseHistory": "Aristotle built the word from 'taking' plus 'before' — what you reach for in advance. Epictetus promoted it from one faculty among many to the whole moral self, which is why Stoic translators write 'will' or 'moral purpose' where Aristotle's write 'choice.'",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "concept.free-will",
+     "type": "influences",
+     "note": "The ancestor of the free will the Christians would argue over."
+    },
+    {
+     "to": "concept.hegemonikon",
+     "type": "shares-theme",
+     "note": "Choice is the ruling faculty's signature act."
+    },
+    {
+     "to": "concept.akrasia",
+     "type": "contrasts",
+     "note": "Akrasia is choice losing to appetite at the moment of action."
+    }
+   ]
+  },
+  {
+   "id": "concept.apatheia",
+   "term": "tranquillity",
+   "kind": "concept",
+   "gloss": "The Stoic calm — not feeling nothing, but being unshaken: no passion gets to dictate your judgments. Marcus works at it page by page, treating each disturbance as a false opinion to be corrected.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἀπάθεια",
+    "translit": "apatheia",
+    "literal": "freedom from passion"
+   },
+   "senseHistory": "Apatheia is 'without pathos' — without the passions that enslave. English 'apathy' is its ruined descendant: what began as hard-won inner freedom now means not caring, which is why translators reach for 'tranquillity' or 'equanimity' instead.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "concept.sophrosyne",
+     "type": "shares-theme",
+     "note": "Temperance tames the appetites; apatheia retires them."
+    },
+    {
+     "to": "concept.epithymia",
+     "type": "contrasts",
+     "note": "The passions apatheia disarms begin as appetites believed."
+    },
+    {
+     "to": "concept.cor-inquietum",
+     "type": "contrasts",
+     "note": "Augustine refuses the Stoic cure: the heart should stay restless until it rests in God."
+    }
+   ]
+  },
+  {
+   "id": "concept.hegemonikon",
+   "term": "the ruling faculty",
+   "kind": "concept",
+   "gloss": "The command center of the soul — the part that judges impressions, gives or withholds assent, and issues the orders. Keep it clear, says Marcus, and nothing outside can truly harm you.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἡγεμονικόν",
+    "translit": "hēgemonikon",
+    "literal": "the governing part"
+   },
+   "senseHistory": "From hēgemōn, 'leader' — the same root as 'hegemony.' Translators scatter it as 'ruling principle,' 'governing self,' or simply 'mind,' hiding how concrete the Stoic picture was: a literal captain's post in the soul, which they located in the heart.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "concept.daimon",
+     "type": "parallel",
+     "note": "Marcus uses both names for the same inner ruler — one clinical, one religious."
+    },
+    {
+     "to": "concept.prohairesis",
+     "type": "shares-theme",
+     "note": "What the ruling faculty does all day: assent, refuse, choose."
+    },
+    {
+     "to": "concept.the-soul",
+     "type": "part-of",
+     "note": "The commanding part of the Stoic soul."
+    }
+   ]
+  },
+  {
+   "id": "concept.daimon",
+   "term": "the guiding spirit",
+   "kind": "concept",
+   "gloss": "The god within — a portion of divine reason installed in each person as guardian and guide. Marcus's whole ethics compresses to one rule: keep the spirit inside you clean, and obey it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "δαίμων",
+    "translit": "daimōn",
+    "literal": "divine spirit, apportioner"
+   },
+   "senseHistory": "A daimōn was any divine power, often personal — Socrates' famous inner 'sign' was one. Latin rendered it genius (your birth-spirit, still with us in 'genius'), while Christian translators turned unclaimed daimones into 'demons' — one word split into guardian and devil.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations",
+    "work.plato.republic"
+   ],
+   "connections": [
+    {
+     "to": "concept.logos",
+     "type": "part-of",
+     "note": "Your daimon is the fragment of cosmic reason assigned to you."
+    },
+    {
+     "to": "concept.eudaimonia",
+     "type": "shares-theme",
+     "note": "Eudaimonia is literally having your daimon in good order."
+    },
+    {
+     "to": "concept.conscience",
+     "type": "influences",
+     "note": "The inner voice that warns and judges — conscience is the daimon domesticated."
+    }
+   ]
+  },
+  {
+   "id": "concept.kosmopolis",
+   "term": "the cosmic city",
+   "kind": "concept",
+   "gloss": "The Stoic idea that the universe is one great commonwealth of gods and rational beings, and every person a citizen of it. For Marcus this is no metaphor but a fact with daily consequences: what harms the hive harms the bee, so work for the common good.",
+   "original": {
+    "lang": "grc",
+    "lemma": "κοσμοπολίτης",
+    "translit": "kosmopolitēs",
+    "literal": "citizen of the cosmos"
+   },
+   "senseHistory": "Asked where he was from, Diogenes the Cynic answered 'kosmopolitēs' — a citizen of the world — and coined a word. It reached English as 'cosmopolitan,' now a compliment for the well-traveled; the Stoics meant something harder: your duties do not stop at the city wall.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "concept.dikaiosyne",
+     "type": "shares-theme",
+     "note": "Justice scaled up to the whole human city."
+    },
+    {
+     "to": "concept.duty",
+     "type": "shares-theme",
+     "note": "Citizenship in the world-city is where Marcus's duties come from."
+    },
+    {
+     "to": "work.plato.republic",
+     "type": "contrasts",
+     "note": "Plato builds one just city in speech; the Stoics declare the whole cosmos already is one."
+    }
+   ]
+  },
+  {
+   "id": "concept.providence",
+   "term": "providence",
+   "kind": "concept",
+   "gloss": "The claim that the world is governed by a caring intelligence — that what happens is not blind but intended. Marcus tests it against atoms and chance; Augustine and Dante trust it through catastrophe; Hamlet finally rests on it before the duel.",
+   "original": {
+    "lang": "grc",
+    "lemma": "πρόνοια",
+    "translit": "pronoia",
+    "literal": "forethought"
+   },
+   "senseHistory": "Greek pronoia, 'thinking ahead,' became Latin providentia, 'seeing ahead' — then English 'providence,' with 'provident' and 'provisions' as its practical cousins. Whether the foreseeing power is Zeus, Fortune's employer, or the God who marks the sparrow's fall is exactly what these books argue about.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.moira",
+     "type": "contrasts",
+     "note": "Fate allots without caring; providence is fate with a mind and a motive."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "contrasts",
+     "note": "What looks like Fortune's wheel from below is providence from above — Dante's Fortune works for God."
+    },
+    {
+     "to": "concept.free-will",
+     "type": "shares-theme",
+     "note": "If God foresees everything, what is left to choose? Augustine and Dante take the question head-on."
+    }
+   ]
+  },
+  {
+   "id": "concept.free-will",
+   "term": "free will",
+   "kind": "concept",
+   "gloss": "The power to choose that nothing outside you can take away. The Stoics locate it in judgment, Augustine finds it split against itself, Dante makes it God's greatest gift, and Machiavelli grants it half the field against Fortune.",
+   "original": {
+    "lang": "la",
+    "lemma": "liberum arbitrium",
+    "translit": "liberum arbitrium",
+    "literal": "free judgment"
+   },
+   "senseHistory": "The Stoics said some things are eph' hēmin — 'up to us'; Latin theology sharpened this into liberum arbitrium, free judgment. English 'free will' carries both inheritances, which is why the term can mean calm self-command in Marcus and a battlefield of grace in Augustine.",
+   "appearsIn": [
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy",
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.providence",
+     "type": "shares-theme",
+     "note": "The standing puzzle: a foreseen choice that is still yours."
+    },
+    {
+     "to": "concept.akrasia",
+     "type": "contrasts",
+     "note": "Akrasia is the scandal of free will: choosing what you know is worse."
+    },
+    {
+     "to": "concept.moira",
+     "type": "contrasts",
+     "note": "The allotted portion is exactly what is not up to you."
+    }
+   ]
+  },
+  {
+   "id": "concept.sophrosyne",
+   "term": "temperance",
+   "kind": "concept",
+   "gloss": "Sound-mindedness — the virtue of measured appetite and self-command. One of the four virtues every one of these traditions counts as cardinal, and the one modern English has the most trouble naming.",
+   "original": {
+    "lang": "grc",
+    "lemma": "σωφροσύνη",
+    "translit": "sōphrosynē",
+    "literal": "soundness of mind"
+   },
+   "senseHistory": "No English word has ever fit: translators try 'temperance,' 'moderation,' 'self-control,' 'discretion.' 'Temperance' won and was then ruined by the anti-alcohol movement, shrinking a whole architecture of the soul down to teetotalism.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.epithymia",
+     "type": "contrasts",
+     "note": "The appetites are what temperance keeps in their place."
+    },
+    {
+     "to": "concept.the-mean",
+     "type": "shares-theme",
+     "note": "Measured appetite is the mean applied to pleasure."
+    },
+    {
+     "to": "concept.akrasia",
+     "type": "contrasts",
+     "note": "Aristotle ranks mere self-mastery below true temperance: the temperate person no longer has to fight."
+    }
+   ]
+  },
+  {
+   "id": "concept.dikaiosyne",
+   "term": "justice",
+   "kind": "concept",
+   "gloss": "Giving each their due — right order between people, and inside a person. The Republic spends ten books asking what it is; Aristotle splits it into fair shares and fair exchanges; Dante builds an afterlife out of it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "δικαιοσύνη",
+    "translit": "dikaiosynē",
+    "literal": "righteousness, just dealing"
+   },
+   "senseHistory": "Dikē began as 'custom, the way things go' and hardened into 'justice'; Latin iustitia gave English the word. Translators of the Republic argue over 'justice' versus 'righteousness' versus 'morality' — Plato's word covers the whole of doing right, not just courts and contracts.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.confucius.analects",
+    "work.marcus-aurelius.meditations",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.contrapasso",
+     "type": "shares-theme",
+     "note": "Hell's symmetry is justice made physical."
+    },
+    {
+     "to": "concept.the-soul",
+     "type": "shares-theme",
+     "note": "Plato's answer: justice is the soul's parts each doing their own work."
+    },
+    {
+     "to": "concept.ren",
+     "type": "parallel",
+     "note": "Confucius builds right order from the family outward; Plato from the city inward."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-forms",
+   "term": "the Forms",
+   "kind": "concept",
+   "gloss": "Plato's eternal originals — the unchanging realities (Beauty itself, Justice itself) that the changing things around us merely copy. Knowledge is of these; everything else is opinion about shadows.",
+   "original": {
+    "lang": "grc",
+    "lemma": "εἶδος",
+    "translit": "eidos",
+    "literal": "form, look, shape"
+   },
+   "senseHistory": "Eidos and idea both come from the verb 'to see' — a Form is what the mind's eye sees. Latin tried species and forma; English settled on 'Forms' or 'Ideas,' and Plato's technical term quietly became our everyday 'idea' — a thought in a head, almost the opposite of what he meant.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-cave",
+     "type": "shares-theme",
+     "note": "The cave is the Forms turned into a story: shadows, firelight, and the sun outside."
+    },
+    {
+     "to": "work.aristotle.nicomachean-ethics",
+     "type": "contrasts",
+     "note": "Aristotle loved Plato but attacks the Forms: the good must be something a human can actually do."
+    },
+    {
+     "to": "concept.eternity",
+     "type": "shares-theme",
+     "note": "Augustine's eternal present is Plato's changeless being, baptized."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-cave",
+   "term": "the Cave",
+   "kind": "concept",
+   "gloss": "Plato's picture of the human condition: prisoners chained underground, taking shadows for reality, until one is dragged up into the sun. Education, he says, is not putting sight into blind eyes but turning the whole soul around.",
+   "original": {
+    "lang": "grc",
+    "lemma": "σπήλαιον",
+    "translit": "spēlaion",
+    "literal": "cave"
+   },
+   "senseHistory": "Older English translations call it the 'den' or 'prison-house,' which is why quotations do not always match. The image has escaped philosophy entirely — every story about waking from a comfortable illusion is the cave retold.",
+   "appearsIn": [
+    "work.plato.republic"
+   ],
+   "connections": [
+    {
+     "to": "concept.conversion",
+     "type": "shares-theme",
+     "note": "The prisoner's turning-around is the first conversion story."
+    },
+    {
+     "to": "concept.the-forms",
+     "type": "shares-theme",
+     "note": "What waits outside the cave."
+    },
+    {
+     "to": "concept.seeming",
+     "type": "shares-theme",
+     "note": "Shadows taken for things: the oldest version of seeming versus being."
+    }
+   ]
+  },
+  {
+   "id": "concept.philosopher-king",
+   "term": "the philosopher-king",
+   "kind": "concept",
+   "gloss": "Plato's scandalous fix for politics: no rest from troubles until philosophers rule, or rulers philosophize. The best ruler is the one who does not want the job — he governs because the alternative is being governed by worse.",
+   "original": {
+    "lang": "grc",
+    "lemma": "φιλόσοφος βασιλεύς",
+    "translit": "philosophos basileus",
+    "literal": "philosopher king"
+   },
+   "senseHistory": "The phrase entered every European language as shorthand for rule by the wise — and for the doubt that it can ever work. History's nearest test case wrote the Meditations: a Roman emperor doing Stoic philosophy in a war tent.",
+   "appearsIn": [
+    "work.plato.republic"
+   ],
+   "connections": [
+    {
+     "to": "work.marcus-aurelius.meditations",
+     "type": "parallel",
+     "note": "Marcus is the experiment run live: a philosopher who actually held the throne."
+    },
+    {
+     "to": "concept.junzi",
+     "type": "parallel",
+     "note": "Confucius's superior man governs by cultivated character — the same bet that virtue can rule."
+    },
+    {
+     "to": "concept.the-new-prince",
+     "type": "contrasts",
+     "note": "Machiavelli's prince studies how power actually works, not how the wise would use it."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-good",
+   "term": "the Good",
+   "kind": "concept",
+   "gloss": "The highest object of knowledge — for Plato, the source that makes everything else real and knowable, as the sun makes things visible. Aristotle brings it down to earth: the good is what everything aims at.",
+   "original": {
+    "lang": "grc",
+    "lemma": "τὸ ἀγαθόν",
+    "translit": "to agathon",
+    "literal": "the good"
+   },
+   "senseHistory": "Plato's Good stands beyond being; Christian Platonists like Augustine recognized their God in it, and drew the corollary that evil is not a rival power but a lack — a hole where good should be. That one translation of ideas shaped a thousand years of theology.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-forms",
+     "type": "part-of",
+     "note": "The highest of the Forms — the sun of that world."
+    },
+    {
+     "to": "concept.eudaimonia",
+     "type": "shares-theme",
+     "note": "The human good, Aristotle says, is what happiness is."
+    },
+    {
+     "to": "concept.caritas",
+     "type": "shares-theme",
+     "note": "For Augustine and Dante, to see the Good truly is to love it."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-soul",
+   "term": "the soul",
+   "kind": "concept",
+   "gloss": "The self that thinks, desires, and chooses — and might outlast the body. Plato splits it in three and calls justice their harmony; Aristotle makes it the body's living form; Augustine turns it inward until it becomes the modern 'inner life.'",
+   "original": {
+    "lang": "grc",
+    "lemma": "ψυχή",
+    "translit": "psychē",
+    "literal": "breath, life, soul"
+   },
+   "senseHistory": "The same word that names Homer's gibbering shades becomes, in Plato's hands, an immortal three-part self — the biggest promotion any word in these books receives. Latin split its work between anima and animus, and English 'soul' inherited the whole tangled estate.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.dikaiosyne",
+     "type": "shares-theme",
+     "note": "A just soul is one in tune — Plato's parts each doing their own work."
+    },
+    {
+     "to": "concept.eternity",
+     "type": "shares-theme",
+     "note": "Whether the self outlasts time is the soul-question these books keep asking."
+    },
+    {
+     "to": "concept.katabasis",
+     "type": "shares-theme",
+     "note": "What the descent to the dead goes down to see."
+    }
+   ]
+  },
+  {
+   "id": "concept.conversion",
+   "term": "conversion",
+   "kind": "concept",
+   "gloss": "The turning of a whole life — for Plato, the soul wheeling around from shadows to light; for Augustine, the moment in the Milan garden when a child's chant ('take up and read') breaks thirty years of resistance.",
+   "original": {
+    "lang": "grc",
+    "lemma": "περιαγωγή",
+    "translit": "periagōgē",
+    "literal": "a turning around"
+   },
+   "senseHistory": "Plato's word is literally the pivot of the prisoner in the cave; Latin conversio kept the physical sense of turning. English 'conversion' now belongs mostly to religion (and marketing), but the shared picture survives: you do not reason your way to truth so much as turn to face it.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-cave",
+     "type": "shares-theme",
+     "note": "The turning is the hinge of the cave story."
+    },
+    {
+     "to": "concept.gratia",
+     "type": "shares-theme",
+     "note": "Augustine insists he did not turn himself — he was turned."
+    },
+    {
+     "to": "concept.cor-inquietum",
+     "type": "shares-theme",
+     "note": "What the restless heart was restless for."
+    }
+   ]
+  },
+  {
+   "id": "concept.seeming",
+   "term": "seeming and being",
+   "kind": "concept",
+   "gloss": "The gap between what things look like and what they are — the oldest problem in these books. Glaucon demands justice be proved worth having even when it looks like villainy; Hamlet knows not 'seems'; Machiavelli coolly advises the prince to master appearances and forget the rest.",
+   "original": {
+    "lang": "grc",
+    "lemma": "δόξα",
+    "translit": "doxa",
+    "literal": "seeming, opinion, reputation"
+   },
+   "senseHistory": "Doxa covers everything that seems — opinion, appearance, even glory (it hides inside 'orthodox' and 'paradox'). One Greek noun holds the scandal: your reputation and your mere appearance are the same word, and Plato and Shakespeare both push on the bruise.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.shakespeare.hamlet",
+    "work.machiavelli.the-prince",
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-cave",
+     "type": "shares-theme",
+     "note": "Life among the shadows is life among seemings."
+    },
+    {
+     "to": "concept.conscience",
+     "type": "shares-theme",
+     "note": "What you are when no one is watching — the ring of Gyges question, and Claudius's."
+    },
+    {
+     "to": "work.confucius.analects",
+     "type": "shares-theme",
+     "note": "Confucius's cure is the rectification of names: make words and realities match, starting with 'ruler' and 'father.'"
+    }
+   ]
+  },
+  {
+   "id": "concept.regimes",
+   "term": "the forms of government",
+   "kind": "concept",
+   "gloss": "The classical map of political orders — rule by one, few, or many, each with a noble and a corrupt face — and the story of how each decays into the next. Plato charts the slide from honor-rule to tyranny; Aristotle catalogs the pairs; Machiavelli shrinks the whole science to princes and republics.",
+   "original": {
+    "lang": "grc",
+    "lemma": "πολιτεία",
+    "translit": "politeia",
+    "literal": "constitution, civic order"
+   },
+   "senseHistory": "Politeia is the actual Greek title of Plato's Republic — Cicero's Latin res publica gave us the misleading English name. Most of the regime words came straight through: aristocracy ('rule of the best'), oligarchy ('of the few'), democracy ('of the people'), tyranny (a pre-Greek word for a usurper).",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.statecraft",
+     "type": "shares-theme",
+     "note": "The map the art of governing is drawn on."
+    },
+    {
+     "to": "concept.the-new-prince",
+     "type": "shares-theme",
+     "note": "Machiavelli's opening move is a regime taxonomy: all states are republics or principalities."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "shares-theme",
+     "note": "Regime change is where Fortune does her loudest work."
+    }
+   ]
+  },
+  {
+   "id": "concept.andreia",
+   "term": "courage",
+   "kind": "concept",
+   "gloss": "The virtue of facing what should be faced — fear mastered, not absent. Plato assigns it to the city's soldiers as right belief about what is truly fearful; Aristotle sets it between cowardice and rashness, with the battlefield as its proving ground.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἀνδρεία",
+    "translit": "andreia",
+    "literal": "manliness"
+   },
+   "senseHistory": "Andreia is literally 'manliness,' from anēr, 'man' — and Latin virtus (from vir) says the same thing, making courage the root sense of 'virtue' itself. English 'courage' comes instead from cor, heart: the metaphors differ, the demand is the same.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics"
+   ],
+   "connections": [
+    {
+     "to": "concept.arete",
+     "type": "part-of",
+     "note": "The oldest virtue — for Homer's warriors, nearly the whole of excellence."
+    },
+    {
+     "to": "concept.bie",
+     "type": "shares-theme",
+     "note": "Battle-courage is force with its face set."
+    },
+    {
+     "to": "concept.virtu",
+     "type": "parallel",
+     "note": "Machiavelli's virtù revives the old martial sense: nerve, not niceness."
+    }
+   ]
+  },
+  {
+   "id": "concept.eudaimonia",
+   "term": "happiness",
+   "kind": "concept",
+   "gloss": "The whole point, per Aristotle: not a mood but a life — activity in accordance with excellence, over a full span, with enough luck not to be wrecked. Everyone agrees the word names the goal; the argument is over what fills it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "εὐδαιμονία",
+    "translit": "eudaimonia",
+    "literal": "having a good guardian spirit"
+   },
+   "senseHistory": "Literally 'good-daimoned' — blessed with a favorable spirit. 'Happiness' is a notoriously weak translation (English 'happy' comes from 'hap,' luck), so modern versions try 'flourishing' or 'the good life.' Augustine asks the same question — the happy life — and answers: joy in God.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.plato.republic",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.daimon",
+     "type": "shares-theme",
+     "note": "The word itself says a well-kept inner spirit is the core of a good life."
+    },
+    {
+     "to": "concept.arete",
+     "type": "shares-theme",
+     "note": "Excellence is what happiness is made of, not a means to it."
+    },
+    {
+     "to": "concept.the-good",
+     "type": "shares-theme",
+     "note": "Happiness is the name everyone gives the highest good; the fight is over the contents."
+    }
+   ]
+  },
+  {
+   "id": "concept.arete",
+   "term": "virtue",
+   "kind": "concept",
+   "gloss": "Excellence at being human — the settled quality that makes a person good and their work good. Not niceness: the same word covers a knife's sharpness, a horse's speed, and a soul's justice.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἀρετή",
+    "translit": "aretē",
+    "literal": "excellence"
+   },
+   "senseHistory": "Greek aretē meant excellence of any kind; Latin virtus narrowed it toward manly worth; Christian usage moralized it; Machiavelli's virtù swung it back to raw effectiveness. When the Analects' translators write 'virtue' for ren as well, one English word ends up carrying four civilizations.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.marcus-aurelius.meditations"
+   ],
+   "connections": [
+    {
+     "to": "concept.ren",
+     "type": "parallel",
+     "note": "Confucius's ren does arete's work in the East: the one quality that makes a person fully human."
+    },
+    {
+     "to": "concept.virtu",
+     "type": "contrasts",
+     "note": "Machiavelli keeps the word and drops the goodness."
+    },
+    {
+     "to": "concept.habituation",
+     "type": "shares-theme",
+     "note": "You get it by practicing it — Aristotle's least romantic, most useful claim."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-mean",
+   "term": "the mean",
+   "kind": "concept",
+   "gloss": "Aristotle's rule of thumb for virtue: the right amount lies between too much and too little — courage between cowardice and recklessness, generosity between stinginess and waste. Not mediocrity: the mean is the bullseye, and it moves with the situation.",
+   "original": {
+    "lang": "grc",
+    "lemma": "μεσότης",
+    "translit": "mesotēs",
+    "literal": "middleness"
+   },
+   "senseHistory": "Latin made it aurea mediocritas, the 'golden mean' — coined before 'mediocrity' soured. Confucius taught the same discipline as the Constant Mean centuries earlier and an empire away: one of the great independent double discoveries in ethics.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.sophrosyne",
+     "type": "shares-theme",
+     "note": "Temperance is the mean applied to appetite."
+    },
+    {
+     "to": "concept.seven-sins",
+     "type": "shares-theme",
+     "note": "Dante sorts sin the same way: love of good things, too much or too little."
+    },
+    {
+     "to": "concept.junzi",
+     "type": "shares-theme",
+     "note": "The superior man is the mean made flesh: nothing overdone."
+    }
+   ]
+  },
+  {
+   "id": "concept.phronesis",
+   "term": "practical wisdom",
+   "kind": "concept",
+   "gloss": "The skill of judging what to do — here, now, with these people. Not cleverness (villains have that) and not theory: the seasoned judgment that finds where the mean lies in the case actually in front of you.",
+   "original": {
+    "lang": "grc",
+    "lemma": "φρόνησις",
+    "translit": "phronēsis",
+    "literal": "practical thought"
+   },
+   "senseHistory": "Latin translated it prudentia, which shrank in English to 'prudence' — caution, insurance, sensible shoes. Aristotle meant something bigger: the master virtue of judgment the others depend on, closer to what we admire in a good judge or a great captain.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.plato.republic",
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.metis",
+     "type": "parallel",
+     "note": "Odysseus's cunning is practical wisdom's wilier ancestor."
+    },
+    {
+     "to": "concept.virtu",
+     "type": "shares-theme",
+     "note": "Machiavelli's handbook is phronesis unmoored from goodness: pure judgment of what works."
+    },
+    {
+     "to": "concept.the-mean",
+     "type": "shares-theme",
+     "note": "Practical wisdom is what finds the mean."
+    }
+   ]
+  },
+  {
+   "id": "concept.theoria",
+   "term": "contemplation",
+   "kind": "concept",
+   "gloss": "The mind at its highest work: looking at truth for its own sake. Aristotle crowns it the happiest human activity, the most godlike thing we do; for Augustine and Dante it becomes the soul's gaze at God — glimpsed for a moment at Ostia, met face to face in the final canto.",
+   "original": {
+    "lang": "grc",
+    "lemma": "θεωρία",
+    "translit": "theōria",
+    "literal": "looking on, beholding"
+   },
+   "senseHistory": "A theōros was a spectator sent to the festivals or games; theōria is that watching, dignified — it survives in English as 'theory.' Latin rendered it contemplatio (from templum, the augur's marked-out patch of sky), and medieval theology promoted it into the beatific vision: seeing God as the point of existence.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.plato.republic",
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-good",
+     "type": "shares-theme",
+     "note": "What contemplation finally looks at."
+    },
+    {
+     "to": "concept.phronesis",
+     "type": "contrasts",
+     "note": "The two wisdoms: seeing truth versus doing right — Aristotle ranks seeing higher and knows it is odd."
+    },
+    {
+     "to": "concept.caritas",
+     "type": "shares-theme",
+     "note": "In Dante the seeing and the loving arrive together."
+    }
+   ]
+  },
+  {
+   "id": "concept.habituation",
+   "term": "habituation",
+   "kind": "concept",
+   "gloss": "Aristotle's blunt account of how character forms: you become what you repeatedly do. Just acts make you just; cowardly retreats make you a coward. Character is a groove worn by practice — which means it can be re-worn.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἔθος",
+    "translit": "ethos",
+    "literal": "habit, custom"
+   },
+   "senseHistory": "Aristotle points out that ēthos (character) is just ethos (habit) with a long vowel — moral character is habit, audible in the Greek. Hamlet preaches the same doctrine to his mother: 'Assume a virtue, if you have it not,' for custom can almost change the stamp of nature.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.confucius.analects",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.arete",
+     "type": "shares-theme",
+     "note": "Virtue is what habituation builds."
+    },
+    {
+     "to": "concept.li",
+     "type": "parallel",
+     "note": "Confucian ritual is habituation as a civilization-wide program: practice the forms until they become you."
+    },
+    {
+     "to": "concept.prohairesis",
+     "type": "shares-theme",
+     "note": "Each choice trains the next chooser."
+    }
+   ]
+  },
+  {
+   "id": "concept.akrasia",
+   "term": "weakness of will",
+   "kind": "concept",
+   "gloss": "Doing what you know is wrong — appetite outvoting judgment at the moment of action. Socrates said it was impossible (no one errs willingly); Aristotle anatomized it; Augustine lived it, one will fighting itself; Dante's upper Hell is full of it.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἀκρασία",
+    "translit": "akrasia",
+    "literal": "lack of command over oneself"
+   },
+   "senseHistory": "Latin rendered it incontinentia, which is why Dante's translators say 'incontinence' for the sins of lust, gluttony, greed, and wrath — and why the word lands oddly on modern ears. Augustine deepened the diagnosis: not a weak will but two wills, old habit and new resolve, fighting for the same hands.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.augustine.confessions",
+    "work.dante.divine-comedy",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.epithymia",
+     "type": "shares-theme",
+     "note": "Appetite is the winning side in every akratic loss."
+    },
+    {
+     "to": "concept.free-will",
+     "type": "shares-theme",
+     "note": "The scandal case: a free will that loses to itself."
+    },
+    {
+     "to": "concept.sophrosyne",
+     "type": "contrasts",
+     "note": "The temperate person is what the akratic one fails to be."
+    }
+   ]
+  },
+  {
+   "id": "concept.philia",
+   "term": "friendship",
+   "kind": "concept",
+   "gloss": "The love between friends — for Aristotle, so necessary that no one would choose to live without it, even with every other good. Its highest form: two good people wishing each other well for who they are. His name for such a friend: another self.",
+   "original": {
+    "lang": "grc",
+    "lemma": "φιλία",
+    "translit": "philia",
+    "literal": "friendship, affectionate love"
+   },
+   "senseHistory": "Greek had several loves; philia is the friend's kind — it hides in 'philosophy,' friendship with wisdom. English 'friendship' undersells the ancient weight: Achilles wrecks a war for Patroclus, and Gilgamesh is broken open by Enkidu's death — epic plots hinge on philia the way novels hinge on romance.",
+   "appearsIn": [
+    "work.aristotle.nicomachean-ethics",
+    "work.homer.iliad",
+    "work.gilgamesh"
+   ],
+   "connections": [
+    {
+     "to": "work.gilgamesh",
+     "type": "shares-theme",
+     "note": "The first great friendship in literature — and the first great grief."
+    },
+    {
+     "to": "concept.menis",
+     "type": "shares-theme",
+     "note": "Achilles' rage changes target only when friendship is what is wounded."
+    },
+    {
+     "to": "concept.caritas",
+     "type": "parallel",
+     "note": "Christian caritas widens the friend's love to everyone, deserving or not."
+    }
+   ]
+  },
+  {
+   "id": "concept.epithymia",
+   "term": "appetite",
+   "kind": "concept",
+   "gloss": "Desire in its hungriest form — for food, drink, sex, money. Plato makes it the soul's largest part, a many-headed beast to be tamed; the Stoics audit it; Augustine gives its Latin name, concupiscence, to the pull he could not pray away.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἐπιθυμία",
+    "translit": "epithymia",
+    "literal": "desire, craving"
+   },
+   "senseHistory": "Paul's Greek used epithymia for the desires of the flesh; Latin translators coined concupiscentia, and 'concupiscence' entered English theology trailing shame. Plato's translators say 'appetite' or 'the appetitive part' — same beast, different leash.",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.marcus-aurelius.meditations",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.the-soul",
+     "type": "part-of",
+     "note": "The soul's largest and hungriest part."
+    },
+    {
+     "to": "concept.sophrosyne",
+     "type": "contrasts",
+     "note": "What temperance governs."
+    },
+    {
+     "to": "concept.seven-sins",
+     "type": "shares-theme",
+     "note": "Lust, gluttony, avarice: the beast's heads, given names and terraces."
+    }
+   ]
+  },
+  {
+   "id": "concept.statecraft",
+   "term": "statecraft",
+   "kind": "concept",
+   "gloss": "The art of governing — for Aristotle the master science, since it orders all the others toward the common good. Confucius stakes everything on the ruler's character; Machiavelli, on his skill.",
+   "original": {
+    "lang": "grc",
+    "lemma": "πολιτική",
+    "translit": "politikē",
+    "literal": "the art of the city"
+   },
+   "senseHistory": "Politikē gave English 'politics' via Aristotle's book of that name; 'statecraft' is the plainer compound — the craft of running a state. The word's two inheritances still argue: politics as ethics enlarged (Aristotle, Confucius) versus politics as technique (Machiavelli).",
+   "appearsIn": [
+    "work.plato.republic",
+    "work.aristotle.nicomachean-ethics",
+    "work.machiavelli.the-prince",
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.regimes",
+     "type": "shares-theme",
+     "note": "Knowing the forms of government is the craft's first lesson."
+    },
+    {
+     "to": "concept.junzi",
+     "type": "shares-theme",
+     "note": "Confucius's whole politics: put a cultivated person in charge and the people straighten like grass in wind."
+    },
+    {
+     "to": "concept.the-new-prince",
+     "type": "contrasts",
+     "note": "Machiavelli strips the craft of its ethics and calls the result realism."
+    }
+   ]
+  },
+  {
+   "id": "concept.ren",
+   "term": "benevolence",
+   "kind": "concept",
+   "gloss": "The supreme Confucian quality: full human-heartedness — goodness so complete it defines what a person should be. Asked to compress it, Confucius said: love people.",
+   "original": {
+    "lang": "zh",
+    "lemma": "仁",
+    "translit": "rén",
+    "literal": "human-heartedness"
+   },
+   "senseHistory": "The character 仁 sets 'person' beside 'two': the virtue exists between people, never alone. Legge scatters it as 'virtue,' 'perfect virtue,' and 'benevolence' within one translation, so English readers can miss that a single word anchors the entire book.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.arete",
+     "type": "parallel",
+     "note": "The East's answer to arete: the one excellence that makes a person fully human."
+    },
+    {
+     "to": "concept.caritas",
+     "type": "parallel",
+     "note": "Two traditions land on love as the root virtue — Confucius from the family outward, Augustine from God down."
+    },
+    {
+     "to": "concept.junzi",
+     "type": "shares-theme",
+     "note": "The superior man is ren given a social form."
+    }
+   ]
+  },
+  {
+   "id": "concept.li",
+   "term": "propriety",
+   "kind": "concept",
+   "gloss": "Ritual in the widest sense — ceremony, manners, the right way to greet, mourn, eat, govern. For Confucius, not empty etiquette but the practice that shapes feeling: the outer form that trains the inner person.",
+   "original": {
+    "lang": "zh",
+    "lemma": "禮",
+    "translit": "lǐ",
+    "literal": "rite, ritual propriety"
+   },
+   "senseHistory": "The character's root image is a ritual vessel — sacrifice is where it began. 'Propriety' is Legge's Victorian rendering; modern translators try 'ritual' or 'the rites,' each catching one side of a word that spans liturgy and table manners.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.habituation",
+     "type": "parallel",
+     "note": "Aristotle's habituation and Confucian ritual are the same insight: practice the form until it becomes character."
+    },
+    {
+     "to": "concept.ren",
+     "type": "shares-theme",
+     "note": "Ritual without ren is noise — a man without benevolence, says Confucius, has nothing to do with the rites."
+    },
+    {
+     "to": "concept.xenia",
+     "type": "parallel",
+     "note": "Both codes make civilization visible in gesture: how you host, greet, and mourn."
+    }
+   ]
+  },
+  {
+   "id": "concept.junzi",
+   "term": "the superior man",
+   "kind": "concept",
+   "gloss": "Confucius's ideal person — originally 'a lord's son,' redefined as anyone ennobled by cultivation rather than birth. Measured constantly against his opposite, the small man: one asks what is right, the other what is profitable.",
+   "original": {
+    "lang": "zh",
+    "lemma": "君子",
+    "translit": "jūnzǐ",
+    "literal": "lord's son; the noble person"
+   },
+   "senseHistory": "Confucius pulled off a quiet revolution inside one word: aristocracy of birth became aristocracy of character. Legge's 'superior man' now sounds stuffy; modern translators try 'gentleman,' 'exemplary person,' 'the noble one' — none catching how radical the redefinition was.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.philosopher-king",
+     "type": "parallel",
+     "note": "Both traditions bet that the cultivated person should rule."
+    },
+    {
+     "to": "concept.arete",
+     "type": "shares-theme",
+     "note": "A life built by practice into excellence."
+    },
+    {
+     "to": "concept.seeming",
+     "type": "contrasts",
+     "note": "The superior man is the same in private as in public — the anti-Gyges."
+    }
+   ]
+  },
+  {
+   "id": "concept.dao",
+   "term": "the Way",
+   "kind": "concept",
+   "gloss": "The right path — of a person, a government, a world. When the Way prevails, Confucius says, serve; when it does not, roll up your principles and keep them. Hearing it in the morning, one could die content that evening.",
+   "original": {
+    "lang": "zh",
+    "lemma": "道",
+    "translit": "dào",
+    "literal": "way, road, path"
+   },
+   "senseHistory": "The character shows a head moving along a road. Every school of Chinese thought claimed the word — Confucius's moral Way, the Daoists' cosmic one. English translators wisely gave up and imported it whole: 'the Way,' or simply Dao.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.logos",
+     "type": "parallel",
+     "note": "West and East both name the order of things — one as reason and word, one as road."
+    },
+    {
+     "to": "concept.tianming",
+     "type": "shares-theme",
+     "note": "Heaven decrees; the Way is how you walk it."
+    },
+    {
+     "to": "work.marcus-aurelius.meditations",
+     "type": "parallel",
+     "note": "Marcus's 'live according to nature' is walking the Way in Greek."
+    }
+   ]
+  },
+  {
+   "id": "concept.xiao",
+   "term": "filial piety",
+   "kind": "concept",
+   "gloss": "The devotion children owe parents — care in life, mourning in death, honor always. For Confucius the root of all virtue: a person who loves their parents rightly has learned how to love everything else.",
+   "original": {
+    "lang": "zh",
+    "lemma": "孝",
+    "translit": "xiào",
+    "literal": "filial devotion"
+   },
+   "senseHistory": "The character shows a child supporting an elder. 'Filial piety' is the standard English, borrowing 'piety' from Roman pietas — an inspired match, since Aeneas carrying his father out of burning Troy is xiao in Latin dress.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.duty",
+     "type": "parallel",
+     "note": "Pietas and xiao: the two great duty-words, one Roman, one Chinese, both starting at home."
+    },
+    {
+     "to": "work.virgil.aeneid",
+     "type": "parallel",
+     "note": "Aeneas with Anchises on his back is the West's filial icon."
+    },
+    {
+     "to": "concept.li",
+     "type": "shares-theme",
+     "note": "Mourning rites are where filial piety and ritual meet."
+    }
+   ]
+  },
+  {
+   "id": "concept.tianming",
+   "term": "the decrees of Heaven",
+   "kind": "concept",
+   "gloss": "Heaven's will — the moral order that appoints rulers, sets the spans of lives, and cannot be argued with. Confucius said he came to know it only at fifty; a dynasty that loses it loses everything.",
+   "original": {
+    "lang": "zh",
+    "lemma": "天命",
+    "translit": "tiānmìng",
+    "literal": "Heaven's decree"
+   },
+   "senseHistory": "Politically this is the famous Mandate of Heaven, the license every Chinese dynasty claimed and feared to lose. Legge renders it 'decrees' or 'ordinances' of Heaven; in its personal sense — the lot Heaven assigns you — it sits close to Greek moira and Stoic fate.",
+   "appearsIn": [
+    "work.confucius.analects"
+   ],
+   "connections": [
+    {
+     "to": "concept.moira",
+     "type": "parallel",
+     "note": "Heaven's decree and the allotted portion — two civilizations' words for the span you are dealt."
+    },
+    {
+     "to": "concept.providence",
+     "type": "parallel",
+     "note": "Heaven here has a moral will: closer to providence than to blind fate."
+    },
+    {
+     "to": "concept.statecraft",
+     "type": "shares-theme",
+     "note": "Legitimacy is the mandate: rule badly and Heaven revokes it."
+    }
+   ]
+  },
+  {
+   "id": "concept.virtu",
+   "term": "virtù",
+   "kind": "concept",
+   "gloss": "Machiavelli's key word: the skill, nerve, and decisive energy that seizes opportunity and holds power. It sounds like 'virtue,' and that is the trap — a prince of great virtù may need to be very bad indeed.",
+   "original": {
+    "lang": "it",
+    "lemma": "virtù",
+    "translit": "virtù",
+    "literal": "prowess, force of character"
+   },
+   "senseHistory": "From Latin virtus, 'manly excellence' — Machiavelli revived the martial root just as English 'virtue' was going moral and mild. Translators despair: Marriott renders it 'ability,' others keep virtù untranslated, because 'virtue' makes the book unreadable and 'skill' loses the scandal.",
+   "appearsIn": [
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.arete",
+     "type": "contrasts",
+     "note": "Excellence with the goodness removed."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "contrasts",
+     "note": "The book's engine: what virtù can wrest from Fortune, and how."
+    },
+    {
+     "to": "concept.andreia",
+     "type": "parallel",
+     "note": "The old manliness-word, back in armor."
+    }
+   ]
+  },
+  {
+   "id": "concept.fortuna",
+   "term": "fortune",
+   "kind": "concept",
+   "gloss": "Luck with a face — the power that raises and ruins without regard to merit. Dante makes her God's cheerful minister; Machiavelli sizes her up as a river to be dammed; Hamlet feels her slings and arrows.",
+   "original": {
+    "lang": "la",
+    "lemma": "fortuna",
+    "translit": "fortuna",
+    "literal": "luck; the goddess Fortune"
+   },
+   "senseHistory": "Rome worshipped Fortuna with temples and a wheel, and the wheel rolled on through the Middle Ages as the great image of rise and fall. English keeps her doubled: 'fortune' as fate (fortune-teller) and as money (a small fortune) — both senses are hers.",
+   "appearsIn": [
+    "work.machiavelli.the-prince",
+    "work.dante.divine-comedy",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.providence",
+     "type": "contrasts",
+     "note": "Dante's answer to the wheel: Fortune is on God's payroll."
+    },
+    {
+     "to": "concept.virtu",
+     "type": "contrasts",
+     "note": "Machiavelli's wager: half of life to Fortune, half to nerve."
+    },
+    {
+     "to": "concept.moira",
+     "type": "parallel",
+     "note": "Fate as a dealer of portions versus fate as a spinner of turns."
+    }
+   ]
+  },
+  {
+   "id": "concept.lion-and-fox",
+   "term": "the lion and the fox",
+   "kind": "concept",
+   "gloss": "Machiavelli's emblem for the two natures a ruler must combine: force enough to scare off wolves, cunning enough to smell a trap. Neither works alone — the lion walks into snares, and the fox cannot defend himself.",
+   "original": {
+    "lang": "it",
+    "lemma": "la volpe e il leone",
+    "translit": "la volpe e il leone",
+    "literal": "the fox and the lion"
+   },
+   "senseHistory": "The pairing is ancient — Homer split it between Achilles' force and Odysseus's cunning, and Cicero condemned both fraud (the fox) and force (the lion) as ways of doing wrong. Machiavelli's twist was to recommend them.",
+   "appearsIn": [
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.bie",
+     "type": "shares-theme",
+     "note": "The lion is biē with a crown."
+    },
+    {
+     "to": "concept.seeming",
+     "type": "shares-theme",
+     "note": "The fox's craft is the management of appearances — including the appearance of keeping faith."
+    },
+    {
+     "to": "work.homer.odyssey",
+     "type": "parallel",
+     "note": "Odysseus is the fox the West never stopped retelling."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-new-prince",
+   "term": "the new prince",
+   "kind": "concept",
+   "gloss": "Machiavelli's real subject: not the heir who inherits smoothly but the newcomer who must build authority from nothing — the founder, the usurper, the armed prophet. New states are the hardest to hold, and the proving ground of virtù.",
+   "original": {
+    "lang": "it",
+    "lemma": "principe nuovo",
+    "translit": "principe nuovo",
+    "literal": "new prince"
+   },
+   "senseHistory": "'Nothing is more difficult than to take the lead in the introduction of a new order of things' — the line every revolutionary and founder has quoted since. The armed-versus-unarmed-prophets test (Moses succeeded, Savonarola burned) is the book's most cold-blooded piece of history-reading.",
+   "appearsIn": [
+    "work.machiavelli.the-prince"
+   ],
+   "connections": [
+    {
+     "to": "concept.virtu",
+     "type": "shares-theme",
+     "note": "What the new prince runs on."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "shares-theme",
+     "note": "Rise by fortune and you hold nothing; what is cheaply given is cheaply lost."
+    },
+    {
+     "to": "concept.philosopher-king",
+     "type": "contrasts",
+     "note": "Plato asks who deserves to rule; Machiavelli asks who can keep it."
+    }
+   ]
+  },
+  {
+   "id": "concept.cor-inquietum",
+   "term": "restlessness",
+   "kind": "concept",
+   "gloss": "The engine of the Confessions, announced in its first paragraph: 'You have made us for Yourself, and our heart is restless until it rests in You.' Every wrong turn in the book — ambition, theft, lust, heresy — is this ache looking for relief in the wrong place.",
+   "original": {
+    "lang": "la",
+    "lemma": "cor inquietum",
+    "translit": "cor inquietum",
+    "literal": "restless heart"
+   },
+   "senseHistory": "Augustine's inquietum is the negative of quies, rest — the root behind 'quiet.' It is homesickness raised to a metaphysics: what the Odyssey feels for Ithaca, Augustine feels for God, which makes the Confessions a nostos with heaven for home.",
+   "appearsIn": [
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.nostos",
+     "type": "parallel",
+     "note": "The ache for homecoming, aimed past Ithaca."
+    },
+    {
+     "to": "concept.conversion",
+     "type": "shares-theme",
+     "note": "The restlessness ends the only way it can: not a better pleasure but a turning."
+    },
+    {
+     "to": "concept.eudaimonia",
+     "type": "shares-theme",
+     "note": "Augustine's entry in the happy-life debate: joy in truth, rest in God — nothing less holds."
+    }
+   ]
+  },
+  {
+   "id": "concept.gratia",
+   "term": "grace",
+   "kind": "concept",
+   "gloss": "God's help given free — unearned, unowed, arriving before you ask. Augustine's conversion convinced him he had not climbed to God but been carried, and a whole theology hangs on that experience.",
+   "original": {
+    "lang": "la",
+    "lemma": "gratia",
+    "translit": "gratia",
+    "literal": "favor freely given"
+   },
+   "senseHistory": "Latin gratia — favor, charm, thanks — still lives in 'gracious,' 'gratitude,' and saying grace at table. Theology sharpened it into the exact opposite of merit: what cannot be earned. Dante builds Paradise on it.",
+   "appearsIn": [
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.free-will",
+     "type": "shares-theme",
+     "note": "The great tangle: if grace saves, what does choosing do? Augustine spent a life on the knot."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "contrasts",
+     "note": "Unearned ruin has a pagan name; unearned rescue, a Christian one."
+    },
+    {
+     "to": "concept.conversion",
+     "type": "shares-theme",
+     "note": "In the garden it is grace, not argument, that finally moves."
+    }
+   ]
+  },
+  {
+   "id": "concept.original-sin",
+   "term": "original sin",
+   "kind": "concept",
+   "gloss": "The inherited flaw: humanity broken once, in Adam, and every person born owing the debt. For Augustine it explains the otherwise baffling data — why the will fights itself, why no one has to be taught to lie.",
+   "original": {
+    "lang": "la",
+    "lemma": "peccatum originale",
+    "translit": "peccatum originale",
+    "literal": "sin of origin"
+   },
+   "senseHistory": "Augustine effectively coined the doctrine's vocabulary, reading Genesis through Paul and his own divided heart. The idea has a pagan cousin in Homer's atē — ruin sent from outside that you nonetheless own — but only Augustine made the flaw heritable.",
+   "appearsIn": [
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.ate",
+     "type": "parallel",
+     "note": "Ruin you did not choose but must answer for."
+    },
+    {
+     "to": "concept.gratia",
+     "type": "shares-theme",
+     "note": "The disease that makes grace necessary."
+    },
+    {
+     "to": "concept.epithymia",
+     "type": "shares-theme",
+     "note": "Concupiscence is the symptom Augustine cites: desire outside the will's control."
+    }
+   ]
+  },
+  {
+   "id": "concept.memoria",
+   "term": "memory",
+   "kind": "concept",
+   "gloss": "For Augustine, an inner country — 'a large and boundless chamber' of images, skills, feelings, and forgotten things, where he goes looking for God and finds Him. The first great tour of the mind, written as a prayer.",
+   "original": {
+    "lang": "la",
+    "lemma": "memoria",
+    "translit": "memoria",
+    "literal": "memory"
+   },
+   "senseHistory": "Memoria was one of rhetoric's five arts — trained rooms of images, a memory palace — which is why Augustine walks his mind like an estate. Hamlet keeps the figure: memory as a writing table he vows to wipe, leaving only the ghost's commandment.",
+   "appearsIn": [
+    "work.augustine.confessions",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.eternity",
+     "type": "shares-theme",
+     "note": "Memory is how a time-bound creature holds what time takes."
+    },
+    {
+     "to": "concept.kleos",
+     "type": "parallel",
+     "note": "Epic solved death with remembered fame; Augustine finds eternity inside remembering itself."
+    },
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "What memory is always working against."
+    }
+   ]
+  },
+  {
+   "id": "concept.eternity",
+   "term": "time and eternity",
+   "kind": "concept",
+   "gloss": "Augustine's deepest question: what is time? ('I know, so long as no one asks me.') His answer sets restless, streaming time against eternity — everything present at once — and locates God in the second.",
+   "original": {
+    "lang": "la",
+    "lemma": "aeternitas",
+    "translit": "aeternitas",
+    "literal": "eternity"
+   },
+   "senseHistory": "Aeternitas gave English 'eternal'; Boethius's later formula — the whole and perfect possession of unending life all at once — fixed the concept Dante inherits. Marcus stands nearby with the pagan version: time as a river, everything in flux, only the present ours.",
+   "appearsIn": [
+    "work.augustine.confessions",
+    "work.marcus-aurelius.meditations",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "Creatures of time, measuring it because it is running out."
+    },
+    {
+     "to": "concept.memoria",
+     "type": "shares-theme",
+     "note": "Past and future exist, Augustine decides, only as the soul's present memory and expectation."
+    },
+    {
+     "to": "concept.providence",
+     "type": "shares-theme",
+     "note": "From eternity all of time is present at once — which is how God can foresee without forcing."
+    }
+   ]
+  },
+  {
+   "id": "concept.caritas",
+   "term": "charity",
+   "kind": "concept",
+   "gloss": "Love as the Christian tradition means it: not fondness but self-giving — love of God and neighbor, the virtue that outlasts faith and hope. Dante ends the Comedy inside it: the Love that moves the sun and the other stars.",
+   "original": {
+    "lang": "la",
+    "lemma": "caritas",
+    "translit": "caritas",
+    "literal": "dearness, costly love"
+   },
+   "senseHistory": "Latin caritas (from carus, dear — love that costs) translated Greek agapē. English Bibles split between 'charity' and 'love,' and 'charity' then shrank to almsgiving — so 'the greatest of these is charity' now sounds like philanthropy when it meant the engine of the universe.",
+   "appearsIn": [
+    "work.augustine.confessions",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.theological-virtues",
+     "type": "part-of",
+     "note": "The greatest of the three."
+    },
+    {
+     "to": "concept.ren",
+     "type": "parallel",
+     "note": "Human-heartedness and caritas: two traditions crown love."
+    },
+    {
+     "to": "concept.the-good",
+     "type": "shares-theme",
+     "note": "Love is what seeing the Good turns into."
+    }
+   ]
+  },
+  {
+   "id": "concept.theological-virtues",
+   "term": "faith, hope, and love",
+   "kind": "concept",
+   "gloss": "The three virtues Paul named and the Middle Ages built on: faith, hope, and charity — given by grace, not achieved by practice. In Dante they are the final examination: three apostles quiz the pilgrim on them at the top of the universe.",
+   "original": {
+    "lang": "la",
+    "lemma": "fides, spes, caritas",
+    "translit": "fides, spes, caritas",
+    "literal": "faith, hope, love"
+   },
+   "senseHistory": "Paul's triad (1 Corinthians 13) joined the four Greek cardinal virtues to make the medieval seven. 'Theological' marks their source: Aristotle said virtue comes by habituation, but these, the tradition insists, must be given — you cannot practice your way into grace.",
+   "appearsIn": [
+    "work.dante.divine-comedy",
+    "work.augustine.confessions"
+   ],
+   "connections": [
+    {
+     "to": "concept.arete",
+     "type": "contrasts",
+     "note": "Virtues you receive rather than build — a flat contradiction of Aristotle's method."
+    },
+    {
+     "to": "concept.gratia",
+     "type": "shares-theme",
+     "note": "Grace is where they come from."
+    },
+    {
+     "to": "work.dante.divine-comedy",
+     "type": "part-of",
+     "note": "The final ascent of the Paradiso runs on them."
+    }
+   ]
+  },
+  {
+   "id": "concept.contrapasso",
+   "term": "contrapasso",
+   "kind": "concept",
+   "gloss": "Dante's law of symmetry: the punishment is the sin, turned inside out. The lustful who let passion blow them about are blown forever; the schismatic who split men walks split. Nobody sentences the damned — they have become what they chose.",
+   "original": {
+    "lang": "it",
+    "lemma": "contrapasso",
+    "translit": "contrapasso",
+    "literal": "counter-suffering"
+   },
+   "senseHistory": "Dante took the word from Aquinas's Latin contrapassum, itself translating Aristotle's antipeponthos — 'suffering in return,' the eye-for-an-eye logic of exchange justice. Hamlet knows the pattern as grim comedy: the engineer 'hoist with his own petard,' blown up by his own bomb.",
+   "appearsIn": [
+    "work.dante.divine-comedy",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.dikaiosyne",
+     "type": "part-of",
+     "note": "Reciprocal justice made into architecture."
+    },
+    {
+     "to": "concept.seven-sins",
+     "type": "shares-theme",
+     "note": "The sins supply the sentences."
+    },
+    {
+     "to": "concept.ate",
+     "type": "shares-theme",
+     "note": "Both name ruin that grows out of the act itself."
+    }
+   ]
+  },
+  {
+   "id": "concept.seven-sins",
+   "term": "the seven sins",
+   "kind": "concept",
+   "gloss": "The classic taxonomy of what goes wrong in a heart: pride, envy, wrath, sloth, avarice, gluttony, lust. Dante builds Purgatory as a seven-story mountain, one terrace per sin — each treated not as a crime but as love aimed wrong or measured wrong.",
+   "original": {
+    "lang": "la",
+    "lemma": "septem peccata capitalia",
+    "translit": "septem peccata capitalia",
+    "literal": "the seven capital sins"
+   },
+   "senseHistory": "Desert monks first drafted the list (originally eight 'evil thoughts'); Gregory the Great fixed it at seven. 'Capital' means head — the source-sins from which others flow. 'Deadly' came later and stuck, though Purgatory's whole point is that they can be burned away.",
+   "appearsIn": [
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.epithymia",
+     "type": "shares-theme",
+     "note": "Half the list is appetite wearing different masks."
+    },
+    {
+     "to": "concept.the-mean",
+     "type": "parallel",
+     "note": "Dante's scheme is Aristotle moralized: love excessive, deficient, or misdirected."
+    },
+    {
+     "to": "concept.akrasia",
+     "type": "shares-theme",
+     "note": "Upper Hell and lower Purgatory share a diagnosis: self-command lost."
+    }
+   ]
+  },
+  {
+   "id": "concept.exile",
+   "term": "exile",
+   "kind": "concept",
+   "gloss": "Banishment from your city — in a world where the city was identity, a kind of living death. Dante wrote the whole Comedy under the sentence, and put it in Cacciaguida's mouth: you will learn how salt another man's bread tastes, and how steep his stairs are.",
+   "original": {
+    "lang": "la",
+    "lemma": "exsilium",
+    "translit": "exsilium",
+    "literal": "banishment"
+   },
+   "senseHistory": "Rome refined exile into an instrument (ask Ovid); Florence used it as routine politics. Dante turned his sentence into a vantage point — the Comedy judges Florence, the Church, and Italy from outside the walls, the exile's one privilege.",
+   "appearsIn": [
+    "work.dante.divine-comedy",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.nostos",
+     "type": "contrasts",
+     "note": "An exile is a homecoming with the home deleted."
+    },
+    {
+     "to": "concept.troy",
+     "type": "shares-theme",
+     "note": "Aeneas is exile made epic: a man carrying his gods to a country he has never seen."
+    },
+    {
+     "to": "concept.fortuna",
+     "type": "shares-theme",
+     "note": "The wheel's favorite trick: yesterday's citizen, today's beggar."
+    }
+   ]
+  },
+  {
+   "id": "concept.golden-age",
+   "term": "the Golden Age",
+   "kind": "concept",
+   "gloss": "The time before — when Saturn reigned in Latium, food grew unasked, and nobody owned or fought over anything. Virgil promises its return under Augustus; Dante says the poets who dreamed it were remembering Eden.",
+   "original": {
+    "lang": "la",
+    "lemma": "aurea aetas",
+    "translit": "aurea aetas",
+    "literal": "golden age"
+   },
+   "senseHistory": "Hesiod minted the metallic ages — gold, silver, bronze, iron; we still say 'golden age' for any peak. Virgil's Fourth Eclogue foretold gold's return, which the Middle Ages read as prophesying Christ — one reason Dante trusted Virgil as a guide.",
+   "appearsIn": [
+    "work.virgil.aeneid",
+    "work.dante.divine-comedy"
+   ],
+   "connections": [
+    {
+     "to": "concept.original-sin",
+     "type": "parallel",
+     "note": "Two names for one intuition: things were right once, and something broke."
+    },
+    {
+     "to": "concept.exile",
+     "type": "shares-theme",
+     "note": "History as banishment from a better country."
+    }
+   ]
+  },
+  {
+   "id": "concept.conscience",
+   "term": "conscience",
+   "kind": "concept",
+   "gloss": "The inner witness that knows what you did and will not shut up about it. Hamlet's word for both moral dread ('conscience does make cowards of us all') and the trap he sets — a play staged to make a hidden murderer's guilt stand up.",
+   "original": {
+    "lang": "la",
+    "lemma": "conscientia",
+    "translit": "conscientia",
+    "literal": "knowledge shared with oneself"
+   },
+   "senseHistory": "Con-scientia is 'knowing together' — originally what an accomplice knows, then what you know with yourself. In Shakespeare's English it still also meant 'consciousness,' so Hamlet's most famous lines pun across both: thinking and moral knowing were one word.",
+   "appearsIn": [
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.daimon",
+     "type": "parallel",
+     "note": "Socrates' inner sign, Christianized and given a guilty edge."
+    },
+    {
+     "to": "concept.seeming",
+     "type": "shares-theme",
+     "note": "Conscience is the being behind the seeming — the self that watches from inside."
+    },
+    {
+     "to": "work.augustine.confessions",
+     "type": "parallel",
+     "note": "The Confessions is conscience given a book-length voice, with God as the listener."
+    }
+   ]
+  },
+  {
+   "id": "concept.revenge",
+   "term": "revenge",
+   "kind": "concept",
+   "gloss": "Justice taken personally: paying back blood with blood. The engine of Hamlet — a ghost demands it, a prince delays it, a court drowns in it — and as old as Achilles hunting Hector to settle a friend's death.",
+   "original": {
+    "lang": "la",
+    "lemma": "vindicta",
+    "translit": "vindicta",
+    "literal": "vengeance"
+   },
+   "senseHistory": "Latin vindicta survives in both 'vindictive' and 'vindicate' — the same act seen as spite or as justice. Elizabethan revenge tragedy inherited its ghosts from Seneca and its dilemma from scripture: if vengeance is the Lord's, what is a son's duty?",
+   "appearsIn": [
+    "work.shakespeare.hamlet",
+    "work.homer.iliad",
+    "work.homer.odyssey"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "shares-theme",
+     "note": "Achilles' return to battle is the West's first revenge plot."
+    },
+    {
+     "to": "concept.dikaiosyne",
+     "type": "contrasts",
+     "note": "Revenge is justice without a judge — which is the problem."
+    },
+    {
+     "to": "concept.contrapasso",
+     "type": "parallel",
+     "note": "Hamlet's court ends in perfect contrapasso: every schemer killed by his own scheme."
+    }
+   ]
+  },
+  {
+   "id": "concept.madness",
+   "term": "madness",
+   "kind": "concept",
+   "gloss": "Reason slipped — or shammed. Hamlet puts an 'antic disposition' on like a coat and insists he is only mad in craft, while Ophelia's madness arrives unfeigned; the play never quite lets you rule where performance ends.",
+   "original": {
+    "lang": "grc",
+    "lemma": "μανία",
+    "translit": "mania",
+    "literal": "frenzy"
+   },
+   "senseHistory": "Greek mania could be a gift — Plato counts prophetic and poetic frenzy as divine. Elizabethan medicine re-described it through the humors as melancholy, Hamlet's official diagnosis; English 'mad' then spread to anger and enthusiasm, leaving 'mania' as the clinical residue.",
+   "appearsIn": [
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.ate",
+     "type": "parallel",
+     "note": "The god-sent blindness that ruins — Hamlet's version may be self-sent."
+    },
+    {
+     "to": "concept.seeming",
+     "type": "shares-theme",
+     "note": "Feigned madness is the play's boldest experiment in seeming."
+    },
+    {
+     "to": "concept.melammu",
+     "type": "contrasts",
+     "note": "Terror worn as a costume versus terror worn as a crown."
+    }
+   ]
+  },
+  {
+   "id": "concept.katabasis",
+   "term": "the descent to the dead",
+   "kind": "concept",
+   "gloss": "The hero's journey down: Odysseus digging a blood-trench to interview shades, Aeneas following the Sibyl with a golden bough, Dante walking the whole pit behind Virgil. You go down to learn what the living cannot tell you — and coming back is the hard part.",
+   "original": {
+    "lang": "grc",
+    "lemma": "κατάβασις",
+    "translit": "katabasis",
+    "literal": "a going down"
+   },
+   "senseHistory": "A plain Greek word for descent that scholars adopted for epic's most durable set piece. Each poet rewrites his predecessor — Virgil borrows Homer's dead, Dante hires Virgil as the guide — so the tradition itself is a chain of descents.",
+   "appearsIn": [
+    "work.homer.odyssey",
+    "work.virgil.aeneid",
+    "work.gilgamesh",
+    "work.dante.divine-comedy",
+    "work.plato.republic"
+   ],
+   "connections": [
+    {
+     "to": "concept.psyche",
+     "type": "shares-theme",
+     "note": "The shades are who you go down to meet."
+    },
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "What every descent teaches: the dead are real, and you will join them."
+    },
+    {
+     "to": "work.plato.republic",
+     "type": "parallel",
+     "note": "Plato ends the Republic with Er's return from the world below — philosophy borrowing epic's oldest trick."
+    }
+   ]
+  },
+  {
+   "id": "concept.the-flood",
+   "term": "the Flood",
+   "kind": "concept",
+   "gloss": "The deluge the gods sent to wipe out mankind — the disaster behind Gilgamesh's whole quest, since the one man who survived it is the one man who won eternal life. Uta-napishti's telling is the oldest flood story we can read.",
+   "original": {
+    "lang": "akk",
+    "lemma": "abūbu",
+    "translit": "abūbu",
+    "literal": "the Deluge"
+   },
+   "senseHistory": "The Gilgamesh flood tablet, deciphered in 1872, stunned Victorian England: here was Noah's story, older than Genesis, with an ark, a mountain landing, and released birds. 'Antediluvian' — before the flood — keeps the event as a measure of deep time.",
+   "appearsIn": [
+    "work.gilgamesh"
+   ],
+   "connections": [
+    {
+     "to": "concept.immortality-quest",
+     "type": "shares-theme",
+     "note": "Surviving the flood is how Uta-napishti got what Gilgamesh wants."
+    },
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "The gods' reminder of what mankind is."
+    },
+    {
+     "to": "work.gilgamesh",
+     "type": "part-of",
+     "note": "The story within the story — the epic's buried treasure."
+    }
+   ]
+  },
+  {
+   "id": "concept.melammu",
+   "term": "melammū",
+   "kind": "concept",
+   "gloss": "The terrifying radiance worn by Mesopotamian gods and their monsters — divinity as a visible, weaponized aura. Humbaba wears seven layers of it; Gilgamesh is told to strike before all seven are on.",
+   "original": {
+    "lang": "akk",
+    "lemma": "melammū",
+    "translit": "melammū",
+    "literal": "awesome radiance"
+   },
+   "senseHistory": "Rendered here as 'cloaks of terror' — translators reach for glory, aura, dread, splendor, none quite fitting a light that is also a weapon. The Greeks knew the idea: Athena's aegis, shaken over a battlefield, does exactly melammū's work.",
+   "appearsIn": [
+    "work.gilgamesh"
+   ],
+   "connections": [
+    {
+     "to": "concept.aegis",
+     "type": "parallel",
+     "note": "Mesopotamia's dread-radiance and Homer's storm-shield: divine terror made visible."
+    },
+    {
+     "to": "work.gilgamesh",
+     "type": "part-of",
+     "note": "What makes Humbaba unfaceable — until it is off."
+    }
+   ]
+  },
+  {
+   "id": "concept.immortality-quest",
+   "term": "the quest for immortality",
+   "kind": "concept",
+   "gloss": "The oldest plot: a man who cannot accept dying goes looking for the exit. Gilgamesh crosses the Waters of Death for it, is handed a plant of renewed youth, and loses it to a snake while he bathes — the ending everyone has always understood.",
+   "original": {
+    "lang": "akk",
+    "lemma": "balāṭu",
+    "translit": "balāṭu",
+    "literal": "life"
+   },
+   "senseHistory": "What Gilgamesh asks for is simply balāṭu, 'life' — the epic has no grander word for immortality than not stopping. The quest's failure is the inheritance: Homer's heroes settle for fame, Plato for the soul, Dante for resurrection — each a different answer to Gilgamesh's problem.",
+   "appearsIn": [
+    "work.gilgamesh",
+    "work.homer.odyssey"
+   ],
+   "connections": [
+    {
+     "to": "concept.mortality",
+     "type": "shares-theme",
+     "note": "The fact the quest refuses, then accepts."
+    },
+    {
+     "to": "concept.kleos",
+     "type": "contrasts",
+     "note": "Fame is the consolation prize: if the man must die, the name can live."
+    },
+    {
+     "to": "concept.nostos",
+     "type": "parallel",
+     "note": "Odysseus is offered exactly what Gilgamesh sought — Calypso's immortality — and turns it down for home."
+    }
+   ]
+  },
+  {
+   "id": "concept.furor",
+   "term": "furor",
+   "kind": "concept",
+   "gloss": "Rage as a possessing force — battle-frenzy, mad love, mob violence. In the Aeneid it is the enemy of order itself: Dido burns with it, Turnus is drunk on it, and in the poem's last lines it is Aeneas, duty's man, who kills in its grip.",
+   "original": {
+    "lang": "la",
+    "lemma": "furor",
+    "translit": "furor",
+    "literal": "raging madness"
+   },
+   "senseHistory": "Latin furor — whence 'fury' and 'furious' — is the Furies' kind of anger: inhuman, escalating, contagious. Virgil sets it against pietas as the poem's two poles, which makes the ending, where piety kills furiously, the most argued-over close in Latin literature.",
+   "appearsIn": [
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.menis",
+     "type": "parallel",
+     "note": "Rome's word for Achilles' fire."
+    },
+    {
+     "to": "concept.duty",
+     "type": "contrasts",
+     "note": "Virgil's poles: what Aeneas serves, and what he must put down — in the world and in himself."
+    },
+    {
+     "to": "concept.ate",
+     "type": "shares-theme",
+     "note": "Possession that ruins: the gods' oldest weapon."
+    }
+   ]
+  },
+  {
+   "id": "concept.augury",
+   "term": "omens",
+   "kind": "concept",
+   "gloss": "The gods' will read in signs — birds, lightning, entrails, chance words. Every major decision in the old epics waits on them; Hamlet, offered a bad feeling before the duel, defies augury and walks in anyway.",
+   "original": {
+    "lang": "la",
+    "lemma": "augurium",
+    "translit": "augurium",
+    "literal": "the augur's sign-reading"
+   },
+   "senseHistory": "Rome institutionalized it: augurs marked out a templum in the sky and read the birds. English keeps the practice fossilized in 'auspicious' (bird-watching gone well) and 'inauguration' (no office begun without the signs). Hamlet's 'we defy augury' is the moment providence replaces the birds.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid",
+    "work.shakespeare.hamlet"
+   ],
+   "connections": [
+    {
+     "to": "concept.providence",
+     "type": "shares-theme",
+     "note": "Signs assume someone is sending them."
+    },
+    {
+     "to": "concept.moira",
+     "type": "shares-theme",
+     "note": "An omen is fate leaking into the present tense."
+    },
+    {
+     "to": "concept.zeus",
+     "type": "shares-theme",
+     "note": "The bird of omen is usually his eagle."
+    }
+   ]
+  },
+  {
+   "id": "concept.hiketeia",
+   "term": "supplication",
+   "kind": "concept",
+   "gloss": "The ritual of last resort: clasp the knees, touch the chin, and place yourself utterly in another's power. Zeus guards the suppliant, which is why the gesture can stop a sword — and why Priam kneeling to kiss Achilles' hands is the Iliad's most devastating scene.",
+   "original": {
+    "lang": "grc",
+    "lemma": "ἱκετεία",
+    "translit": "hiketeia",
+    "literal": "supplication"
+   },
+   "senseHistory": "From hiketēs, 'one who comes' — the suppliant arrives with nothing but the ritual itself. The practice underwrites 'asylum' and 'sanctuary': the altar you could not be dragged from began as the suppliant's one safe square.",
+   "appearsIn": [
+    "work.homer.iliad",
+    "work.homer.odyssey",
+    "work.virgil.aeneid"
+   ],
+   "connections": [
+    {
+     "to": "concept.xenia",
+     "type": "shares-theme",
+     "note": "Twin codes under Zeus's protection: the guest and the suppliant are both untouchable."
+    },
+    {
+     "to": "concept.menis",
+     "type": "contrasts",
+     "note": "Priam's supplication is what finally dissolves Achilles' rage."
+    },
+    {
+     "to": "concept.gratia",
+     "type": "parallel",
+     "note": "Prayer is supplication carried into theology: mercy asked from a position of nothing."
+    }
+   ]
+  }
+ ]
 }
