@@ -1,740 +1,1102 @@
 {
-  "workId": "work.gilgamesh",
-  "glossary": [
-    {
-      "term": "Gilgamesh",
-      "gloss": "The king of Uruk and hero of the epic — two parts god, one part human, immensely strong but restless and overbearing. His friendship with Enkidu and his fear of death drive the whole story.",
-      "kind": "person",
-      "aliases": [
-        "Gilgamesh's",
-        "Gilgamish",
-        "Gilgamesh,"
-      ]
-    },
-    {
-      "term": "Enkidu",
-      "gloss": "A wild man created by the gods as Gilgamesh's equal, born in the open country and raised among animals. After the woman Shamhat draws him into human life, he becomes Gilgamesh's beloved friend and companion.",
-      "kind": "person",
-      "aliases": [
-        "Enkidu's",
-        "Engidu"
-      ]
-    },
-    {
-      "term": "Uruk",
-      "gloss": "Gilgamesh's great walled city in southern Mesopotamia (in what is now Iraq), famous for its brick ramparts. Its people first complain about Gilgamesh, and its walls frame the epic.",
-      "kind": "place",
-      "aliases": [
-        "Uruk's"
-      ]
-    },
-    {
-      "term": "Shamhat",
-      "gloss": "A woman of Ishtar's temple who is sent to the wild man Enkidu. By lying with him she draws him out of the animal world and into human life, making her the one who turns a beast into a man.",
-      "kind": "person",
-      "aliases": [
-        "Shamhat's"
-      ]
-    },
-    {
-      "term": "Humbaba",
-      "gloss": "The monstrous guardian of the Cedar Forest, set there by the god Enlil to keep people out. His roar is a flood, his mouth is fire, and his breath is death; Gilgamesh and Enkidu journey to kill him.",
-      "kind": "person",
-      "aliases": [
-        "Humbaba's",
-        "Huwawa"
-      ]
-    },
-    {
-      "term": "Ishtar",
-      "gloss": "The Mesopotamian goddess of love and war. When Gilgamesh refuses her offer of marriage and lists the ruin she brought on past lovers, she demands the Bull of Heaven to destroy him.",
-      "kind": "god",
-      "aliases": [
-        "Ishtar's"
-      ]
-    },
-    {
-      "term": "Anu",
-      "gloss": "The supreme sky-god and father of the gods, and the father of Ishtar. He owns the Bull of Heaven and reluctantly hands it over to Ishtar after she threatens to raise the dead.",
-      "kind": "god",
-      "aliases": [
-        "Anu's"
-      ]
-    },
-    {
-      "term": "Enlil",
-      "gloss": "One of the chief Mesopotamian gods, lord of the earth and air, who rules from the city of Nippur. He appointed Humbaba to guard the Cedar Forest, and later decrees that Enkidu must die.",
-      "kind": "god",
-      "aliases": [
-        "Enlil's"
-      ]
-    },
-    {
-      "term": "Cedar Forest",
-      "gloss": "A vast, sacred forest of giant cedar trees, the home of the gods and the preserve guarded by the monster Humbaba. Gilgamesh and Enkidu travel there to win fame by felling its trees and killing its keeper.",
-      "kind": "place",
-      "aliases": [
-        "cedar forest"
-      ]
-    },
-    {
-      "term": "Ninsun",
-      "gloss": "Gilgamesh's mother, a wise goddess often called \"the wild cow of the byre.\" She interprets her son's dreams, prays to the sun-god Shamash for his safety, and adopts Enkidu as her own son.",
-      "kind": "god",
-      "aliases": [
-        "Ninsun's"
-      ]
-    },
-    {
-      "term": "Shamash",
-      "gloss": "The sun-god, who crosses the sky by day and loves Gilgamesh. He answers Ninsun's prayer by sending the thirteen winds against Humbaba, and he later defends Enkidu before the council of the gods.",
-      "kind": "god",
-      "aliases": [
-        "Shamash's",
-        "sun-god",
-        "the sun-god"
-      ]
-    },
-    {
-      "term": "Aruru",
-      "gloss": "The great mother-goddess who first made mankind. At the gods' request she pinches off a piece of clay and shapes Enkidu in the wild to be Gilgamesh's match.",
-      "kind": "god"
-    },
-    {
-      "term": "Ea",
-      "gloss": "The wise Mesopotamian god of fresh water, craft, and cunning. He is named among the gods who gave Gilgamesh a deep mind and who sit in council over Enkidu's fate.",
-      "kind": "god"
-    },
-    {
-      "term": "Bull of Heaven",
-      "gloss": "A fearsome divine bull belonging to the sky-god Anu, which Ishtar unleashes on Uruk in revenge. Its snorting tears open deadly pits in the ground until Gilgamesh and Enkidu kill it.",
-      "kind": "thing",
-      "aliases": [
-        "the Bull of Heaven",
-        "the Bull",
-        "Bull"
-      ]
-    },
-    {
-      "term": "Antu",
-      "gloss": "The mother of Ishtar and wife of the sky-god Anu. Ishtar comes weeping to Anu and Antu after Gilgamesh insults her.",
-      "kind": "god"
-    },
-    {
-      "term": "Lugalbanda",
-      "gloss": "Gilgamesh's divine father and personal protector god. Enkidu names him, alongside Shamash, as one who will lift Gilgamesh out of danger; Gilgamesh later dedicates the Bull's horns to him.",
-      "kind": "god"
-    },
-    {
-      "term": "Aya",
-      "gloss": "The bride of the sun-god Shamash. Ninsun asks Aya to remind her husband each night to keep watch over Gilgamesh.",
-      "kind": "god"
-    },
-    {
-      "term": "Sin",
-      "gloss": "The moon-god, here named as the divine father of the sun-god Shamash. Ninsun prays that Sin keep watch over Gilgamesh through the night.",
-      "kind": "god"
-    },
-    {
-      "term": "Nippur",
-      "gloss": "The Mesopotamian city that is the seat of the god Enlil. Enkidu wants to send a great cedar door there as a gift for Enlil's temple, and fears word of Humbaba's death reaching Enlil in Nippur.",
-      "kind": "place"
-    },
-    {
-      "term": "Sippar",
-      "gloss": "A Mesopotamian city named as the seat of the sun-god Shamash, paired with Enlil's city of Nippur.",
-      "kind": "place"
-    },
-    {
-      "term": "Irnini",
-      "gloss": "A name of the goddess Ishtar, used here for the divine throne or dwelling on the cedar mountain in the sacred forest.",
-      "kind": "god"
-    },
-    {
-      "term": "Dumuzi",
-      "gloss": "The shepherd-god who was the lover of Ishtar's youth. Gilgamesh recalls how Ishtar doomed him to be wept for every year — the first of her ruined lovers.",
-      "kind": "god"
-    },
-    {
-      "term": "Ishullanu",
-      "gloss": "The gardener of Ishtar's father, whom the goddess desired. When he refused her, she struck him and turned him into a stunted, helpless thing fixed in the middle of his own garden.",
-      "kind": "person"
-    },
-    {
-      "term": "Silili",
-      "gloss": "The mother of the war-horse that Ishtar once loved and then doomed. Gilgamesh says Ishtar condemned Silili to weep for her son forever.",
-      "kind": "god"
-    },
-    {
-      "term": "Seven Sages",
-      "gloss": "Legendary wise beings who, in Mesopotamian tradition, founded civilization and the great cities before the Flood. The opening of the epic credits them with laying the foundations of Uruk's walls.",
-      "kind": "people",
-      "aliases": [
-        "the Seven Sages"
-      ]
-    },
-    {
-      "term": "Egalmah",
-      "gloss": "The temple-palace of the goddess Ninsun in Uruk, whose name means roughly \"great palace.\" Gilgamesh and Enkidu go there to ask Ninsun's blessing before setting out.",
-      "kind": "place"
-    },
-    {
-      "term": "lapis lazuli",
-      "gloss": "A deep-blue semiprecious stone, prized throughout the ancient Near East for jewelry and inlay. It appears as the material of the tablet bearing Gilgamesh's story and of the bowls and ornaments in the epic.",
-      "kind": "thing",
-      "aliases": [
-        "lapis"
-      ]
-    },
-    {
-      "term": "carnelian",
-      "gloss": "A reddish-orange semiprecious stone used for beads and fine bowls in the ancient Near East. Gilgamesh fills a bowl of carnelian as an offering and it is named among precious treasures.",
-      "kind": "thing"
-    },
-    {
-      "term": "cubit",
-      "gloss": "An ancient unit of length, roughly the distance from the elbow to the fingertips (about 18 inches). The epic measures the great cedar door in cubits.",
-      "kind": "word",
-      "aliases": [
-        "cubits"
-      ]
-    },
-    {
-      "term": "league",
-      "gloss": "A long unit of distance used for the heroes' march. The Akkadian \"bēr\" was a \"double-hour\" of travel, very roughly seven miles; the epic counts the road to the cedars in twenty- and thirty-league legs.",
-      "kind": "word",
-      "aliases": [
-        "leagues"
-      ]
-    },
-    {
-      "term": "mina",
-      "gloss": "An ancient Mesopotamian unit of weight, roughly half a kilogram (about a pound). The Bull of Heaven's horns are each said to weigh thirty minas of solid lapis.",
-      "kind": "word",
-      "aliases": [
-        "minas"
-      ]
-    },
-    {
-      "term": "gazelle",
-      "gloss": "A small, swift wild antelope of the steppe. Enkidu grazes on grass with the gazelles in his wild state, and they bolt from him once he becomes human.",
-      "kind": "thing",
-      "aliases": [
-        "gazelles"
-      ]
-    },
-    {
-      "term": "francolin",
-      "gloss": "A ground-dwelling game bird, like a partridge, whose chatter is among the sounds that fill the living Cedar Forest.",
-      "kind": "thing"
-    },
-    {
-      "term": "cicada",
-      "gloss": "A loud insect known for its shrill, droning song. The cicadas' singing is part of the din of the Cedar Forest that the heroes are about to destroy.",
-      "kind": "thing",
-      "aliases": [
-        "cicadas"
-      ]
-    },
-    {
-      "term": "turtledove",
-      "gloss": "A small wild dove with a soft cooing call, named among the birds whose calls make the Cedar Forest loud with life.",
-      "kind": "thing"
-    },
-    {
-      "term": "stork",
-      "gloss": "A large long-legged wading bird whose cry rings through the Cedar Forest, part of the living din the heroes are about to destroy.",
-      "kind": "thing"
-    },
-    {
-      "term": "roller-bird",
-      "gloss": "A brightly colored bird (the \"allallu\") that Ishtar once loved and then crippled. Gilgamesh recalls how she broke its wing, so that it now cries \"kappi, kappi\" — \"my wing, my wing.\"",
-      "kind": "thing",
-      "aliases": [
-        "roller-bird,"
-      ]
-    },
-    {
-      "term": "kappi",
-      "gloss": "An Akkadian cry meaning \"my wing!\" — the sound the roller-bird is doomed to make forever after Ishtar broke its wing. The cry is a pun on the bird's wound.",
-      "kind": "word"
-    },
-    {
-      "term": "brazier",
-      "gloss": "A metal pan or stand for holding burning coals, used for heat. Gilgamesh likens the faithless Ishtar to \"a brazier that goes cold the moment one needs its fire.\"",
-      "kind": "thing"
-    },
-    {
-      "term": "pitch",
-      "gloss": "A black, sticky tar used to seal and waterproof. Gilgamesh compares Ishtar to pitch that blackens the hands of whoever carries it.",
-      "kind": "word"
-    },
-    {
-      "term": "waterskin",
-      "gloss": "A bag made of animal hide for carrying water. Gilgamesh likens Ishtar to a leaking waterskin that soaks the man who hauls it.",
-      "kind": "thing"
-    },
-    {
-      "term": "battering ram",
-      "gloss": "A heavy beam swung to smash down gates or walls in a siege. Gilgamesh compares treacherous Ishtar to a battering ram that turns against its own army.",
-      "kind": "thing"
-    },
-    {
-      "term": "votaries",
-      "gloss": "Women devoted to the service of a temple and its deity. Ninsun adopts Enkidu before the holy women, the votaries who served in her house.",
-      "kind": "people"
-    },
-    {
-      "term": "censer",
-      "gloss": "A container in which incense is burned as an offering. Ninsun sets a censer before Shamash on the temple roof when she prays for her son.",
-      "kind": "thing"
-    },
-    {
-      "term": "byre",
-      "gloss": "A barn or shed for cattle. Ninsun is called \"the wild cow of the byre,\" an image of her motherly, life-giving strength.",
-      "kind": "word"
-    },
-    {
-      "term": "rampart",
-      "gloss": "A defensive wall or embankment around a city. Ishtar climbs up onto the wall of Uruk and wails along its rampart after the Bull of Heaven is killed.",
-      "kind": "word"
-    },
-    {
-      "term": "sheepfold",
-      "gloss": "A pen or enclosure for sheep; used here as an affectionate epithet for the protected, gathered city of Uruk — \"Uruk the sheepfold.\"",
-      "kind": "word"
-    },
-    {
-      "term": "ibex",
-      "gloss": "A wild mountain goat with long curved horns, named among the steppe creatures Gilgamesh calls to mourn Enkidu.",
-      "kind": "thing"
-    },
-    {
-      "term": "nape",
-      "gloss": "The back of the neck. The epic names the killing-stroke on the Bull of Heaven as a sword driven \"between the horns and the nape.\"",
-      "kind": "word"
-    },
-    {
-      "term": "slaver",
-      "gloss": "Drooling saliva, spit. The Bull of Heaven lashes its tail and throws its slaver in Enkidu's face.",
-      "kind": "word"
-    },
-    {
-      "term": "haunch",
-      "gloss": "The hip and thigh of a large animal, a hindquarter. Enkidu tears the haunch from the Bull of Heaven and flings it at Ishtar.",
-      "kind": "word"
-    },
-    {
-      "term": "courtesans",
-      "gloss": "Women of a refined social or temple office, here the women of Ishtar's temple. She gathers her courtesans, singers, and dancers to mourn over the slain Bull.",
-      "kind": "people"
-    },
-    {
-      "term": "boxwood",
-      "gloss": "A dense, hard-wooded shrub or small tree. It is named among the thick growth standing close in the Cedar Forest.",
-      "kind": "thing"
-    },
-    {
-      "term": "Hermon",
-      "gloss": "A great mountain of the Levant (Mount Hermon), named with Lebanon as the peaks that crack and split during the cataclysmic fight with Humbaba.",
-      "kind": "place"
-    },
-    {
-      "term": "Lebanon",
-      "gloss": "The mountain range famous in antiquity for its cedars, named alongside Hermon as splitting apart in the battle against Humbaba.",
-      "kind": "place"
-    },
-    {
-      "term": "Simurru",
-      "gloss": "A place-name attached to one of the thirteen winds Shamash unleashes against Humbaba — \"the wind of Simurru.\"",
-      "kind": "place"
-    },
-    {
-      "term": "Euphrates",
-      "gloss": "One of the two great rivers of Mesopotamia. The heroes float the felled cedar timber down the Euphrates toward home, and wash their hands in it after killing the Bull.",
-      "kind": "place",
-      "aliases": [
-        "the Euphrates"
-      ]
-    },
-    {
-      "term": "melammū",
-      "gloss": "An aura of terrifying divine radiance worn by gods and monsters in Mesopotamian belief; rendered here as Humbaba's \"seven cloaks of terror.\" Shamash warns Gilgamesh to strike before Humbaba puts all seven on.",
-      "kind": "concept",
-      "aliases": [
-        "cloaks of terror",
-        "seven cloaks of terror"
-      ]
-    },
-    {
-      "term": "tablet of lapis lazuli",
-      "gloss": "The blue-stone tablet, locked in a cedar box, on which Gilgamesh is said to have inscribed the story of his sufferings — the epic presents itself as a record read aloud from this tablet.",
-      "kind": "thing"
-    },
-    {
-      "term": "wild bull",
-      "gloss": "A massive, untamed bovine (the aurochs), used throughout as an image of overwhelming strength. Gilgamesh towers over his people \"like a wild bull.\"",
-      "kind": "thing"
-    },
-    {
-      "term": "Flood",
-      "gloss": "The great deluge that, in Mesopotamian tradition, once destroyed mankind. The prologue says Gilgamesh carried home \"a story older than the Flood\" — the survival story he later learns on his journey.",
-      "kind": "concept",
-      "aliases": [
-        "the Flood"
-      ]
-    },
-    {
-      "term": "war-god",
-      "gloss": "The fierce Mesopotamian god of battle (Ninurta/Erra), used as a measure of Enkidu's strength — he is made \"hard as the war-god himself.\"",
-      "kind": "god"
-    },
-    {
-      "term": "purity plant",
-      "gloss": "A cleansing herb used in ritual washing. Ninsun purifies herself with the purity plant before going up to pray for her son.",
-      "kind": "thing"
-    },
-    {
-      "term": "Watchmen of the Night",
-      "gloss": "The stars, imagined as guardians on watch through the dark. Ninsun asks Shamash to hand Gilgamesh over to them when the sun goes down.",
-      "kind": "concept"
-    },
-    {
-      "term": "nose-rope",
-      "gloss": "A rope through an animal's nose used to lead and control it. Anu puts the Bull of Heaven's nose-rope into Ishtar's hands so she can lead it down to earth.",
-      "kind": "thing"
-    },
-    {
-      "term": "cubits",
-      "gloss": "An ancient unit of length, roughly the distance from elbow to fingertip (about half a meter). Used here to measure the great cedar door.",
-      "kind": "word",
-      "aliases": [
-        "cubit"
-      ]
-    },
-    {
-      "term": "leagues",
-      "gloss": "An old measure of distance, several miles each. Enkidu travels twenty leagues to find the cedar for his door, and Gilgamesh marks his homeward journey in leagues.",
-      "kind": "word",
-      "aliases": [
-        "league"
-      ]
-    },
-    {
-      "term": "cedar",
-      "gloss": "A tall, fragrant evergreen tree prized as building timber in the ancient Near East. Enkidu builds a famous temple door from a single great cedar.",
-      "kind": "thing"
-    },
-    {
-      "term": "pivot",
-      "gloss": "The post on which a door turns, set into sockets at top and bottom; ancient doors swung on a pivot rather than on hinges.",
-      "kind": "word"
-    },
-    {
-      "term": "trapper",
-      "gloss": "The hunter who first spotted the wild Enkidu at the watering hole and set in motion his taming. Enkidu curses him on his deathbed.",
-      "kind": "person"
-    },
-    {
-      "term": "potters' yard",
-      "gloss": "The work area where potters dug clay and fired their wares; a dusty, lowly place. Enkidu's curse condemns Shamhat to sit there in the dirt.",
-      "kind": "place"
-    },
-    {
-      "term": "dunghill",
-      "gloss": "A heap of dung and refuse. In Enkidu's curse it becomes the bed Shamhat must sleep on.",
-      "kind": "word"
-    },
-    {
-      "term": "lapis",
-      "gloss": "Lapis lazuli, a deep-blue semiprecious stone treasured in Mesopotamia for jewelry and ornament.",
-      "kind": "thing",
-      "aliases": [
-        "lapis lazuli"
-      ]
-    },
-    {
-      "term": "storm-bird",
-      "gloss": "A dreaded creature of myth associated with storms and the underworld; the death-figure in Enkidu's dream has its face.",
-      "kind": "thing"
-    },
-    {
-      "term": "Irkalla",
-      "gloss": "A name for the underworld, the dark land of the dead from which no one returns.",
-      "kind": "place"
-    },
-    {
-      "term": "house of dust",
-      "gloss": "The Mesopotamian underworld, where the dead sit in darkness eating dust and clay and wearing feathers like birds.",
-      "kind": "place",
-      "aliases": [
-        "house of darkness"
-      ]
-    },
-    {
-      "term": "Etana",
-      "gloss": "A legendary early king of Kish, said to have flown to heaven on an eagle. Enkidu sees him among the dead in the house of dust.",
-      "kind": "person"
-    },
-    {
-      "term": "Sumuqan",
-      "gloss": "The god of cattle and wild herds. Enkidu glimpses him in the underworld in his death-dream.",
-      "kind": "god"
-    },
-    {
-      "term": "Ereshkigal",
-      "gloss": "The queen of the underworld, ruler of the dead. Enkidu sees her enthroned in his death-dream.",
-      "kind": "god"
-    },
-    {
-      "term": "Belet-seri",
-      "gloss": "The scribe of the underworld, who keeps the records of the dead and reads them aloud before Ereshkigal.",
-      "kind": "god"
-    },
-    {
-      "term": "high priest",
-      "gloss": "A chief temple official who served the gods. Enkidu sees even such great men reduced to shades in the house of dust.",
-      "kind": "person"
-    },
-    {
-      "term": "seer",
-      "gloss": "A person who foretells the future or reads omens; one of the holy men Enkidu sees among the dead.",
-      "kind": "person"
-    },
-    {
-      "term": "keening",
-      "gloss": "Loud wailing and lamenting for the dead, traditionally done by women. Gilgamesh cries out for Enkidu like a woman keening.",
-      "kind": "word"
-    },
-    {
-      "term": "steppe",
-      "gloss": "The open, treeless grassland where wild animals roam; Enkidu's original home before he became human.",
-      "kind": "place"
-    },
-    {
-      "term": "Ulaya",
-      "gloss": "A river of the ancient Near East, named in Gilgamesh's lament as one of the waters that should mourn Enkidu.",
-      "kind": "place"
-    },
-    {
-      "term": "coppersmith",
-      "gloss": "A craftsman who works copper. Gilgamesh summons such artisans to make a jeweled statue of Enkidu.",
-      "kind": "person"
-    },
-    {
-      "term": "libation",
-      "gloss": "A liquid offering, such as wine or beer, poured out to honor a god. Uta-napishti pours one on the mountain peak after the Flood.",
-      "kind": "word"
-    },
-    {
-      "term": "shades",
-      "gloss": "The spirits of the dead in the underworld. Gilgamesh's grave-gifts are meant to win Enkidu a good place among them.",
-      "kind": "concept"
-    },
-    {
-      "term": "Uta-napishti",
-      "gloss": "The one man who survived the Great Flood and was granted everlasting life by the gods. He lives far off at the source of the rivers; Gilgamesh seeks him out to learn the secret of immortality.",
-      "kind": "person",
-      "aliases": [
-        "Uta-napishti the Distant",
-        "Utnapishtim"
-      ]
-    },
-    {
-      "term": "Mashu",
-      "gloss": "The twin-peaked mountain through which the sun rises and sets. Gilgamesh must pass through its dark interior to reach the edge of the world.",
-      "kind": "place",
-      "aliases": [
-        "twin mountain"
-      ]
-    },
-    {
-      "term": "Scorpion-people",
-      "gloss": "The fearsome guardians, a man and his wife, who keep the gate of Mount Mashu where the sun passes. Their terror can kill, but they let Gilgamesh through.",
-      "kind": "people",
-      "aliases": [
-        "Scorpion-man",
-        "Scorpion-people kept"
-      ]
-    },
-    {
-      "term": "double-hours",
-      "gloss": "An ancient Babylonian unit of time and distance, equal to two of our hours. Gilgamesh travels twelve double-hours through the dark tunnel of Mashu.",
-      "kind": "word",
-      "aliases": [
-        "double-hour"
-      ]
-    },
-    {
-      "term": "Road of the Sun",
-      "gloss": "The dark passage through Mount Mashu that the sun travels each night. Gilgamesh follows it through twelve double-hours of total darkness.",
-      "kind": "place"
-    },
-    {
-      "term": "agate",
-      "gloss": "A banded semiprecious stone. In the jeweled garden at the sea's edge, agate grows among the trees like ordinary wood.",
-      "kind": "thing"
-    },
-    {
-      "term": "Siduri",
-      "gloss": "The veiled ale-wife (tavern-keeper) of the gods, who lives at the edge of the sea. She tells Gilgamesh how to find Uta-napishti's boatman.",
-      "kind": "person"
-    },
-    {
-      "term": "ale-wife",
-      "gloss": "A woman who brews and sells beer and keeps a tavern. Siduri is the ale-wife of the gods at the world's edge.",
-      "kind": "word",
-      "aliases": [
-        "ale-wife"
-      ]
-    },
-    {
-      "term": "vats",
-      "gloss": "Large vessels for brewing and fermenting beer; Siduri keeps her own brewing vats.",
-      "kind": "word",
-      "aliases": [
-        "vat"
-      ]
-    },
-    {
-      "term": "Ur-shanabi",
-      "gloss": "The boatman of Uta-napishti, the only one who can ferry across the deadly sea. Gilgamesh enlists him after rashly destroying his magical crew.",
-      "kind": "person"
-    },
-    {
-      "term": "Stone Ones",
-      "gloss": "The crew of Ur-shanabi's boat, immune to the Waters of Death, who make the crossing possible. Gilgamesh smashes them in a fury before learning who they are.",
-      "kind": "thing",
-      "aliases": [
-        "Stone One"
-      ]
-    },
-    {
-      "term": "Waters of Death",
-      "gloss": "A deadly stretch of sea that a living hand must never touch. Gilgamesh crosses it by punting with poles he discards after a single use.",
-      "kind": "place"
-    },
-    {
-      "term": "Anunnaki",
-      "gloss": "The great gods of the Mesopotamian pantheon as a group, who assign the fates of mortals and weep during the Flood.",
-      "kind": "people"
-    },
-    {
-      "term": "Mammitum",
-      "gloss": "The goddess who fixes destinies; she decrees fate alongside the Anunnaki, handing out life and death.",
-      "kind": "god"
-    },
-    {
-      "term": "canebrake",
-      "gloss": "A dense thicket of reeds or cane. Uta-napishti says mankind is cut down like a reed in the canebrake.",
-      "kind": "word"
-    },
-    {
-      "term": "Shuruppak",
-      "gloss": "The ancient city on the Euphrates where Uta-napishti lived, and where the gods chose to send the Flood.",
-      "kind": "place"
-    },
-    {
-      "term": "Ninurta",
-      "gloss": "A warrior god, helper of Enlil. He swears to the Flood, makes the dikes overflow, and later names Ea as the one who saved a man.",
-      "kind": "god"
-    },
-    {
-      "term": "Ennugi",
-      "gloss": "The god who oversees the dikes and canals, the irrigation works. He is among those who swore to bring on the Flood.",
-      "kind": "god"
-    },
-    {
-      "term": "Ubar-Tutu",
-      "gloss": "The father of Uta-napishti; Ea addresses Uta-napishti as 'son of Ubar-Tutu' when warning him of the Flood.",
-      "kind": "person"
-    },
-    {
-      "term": "reed wall",
-      "gloss": "The reed fence or wall of Uta-napishti's house. Ea speaks his Flood warning to it so he can technically keep his divine oath while still saving a man.",
-      "kind": "thing",
-      "aliases": [
-        "reed wall, reed wall",
-        "fence of reeds"
-      ]
-    },
-    {
-      "term": "ballast",
-      "gloss": "Heavy material loaded low in a boat to keep it stable and settle it in the water. The launching is hard because of shifting the ballast.",
-      "kind": "word"
-    },
-    {
-      "term": "Puzur-Enlil",
-      "gloss": "The boatman or shipwright who caulked Uta-napishti's ark; Uta-napishti hands the sealed boat over to him.",
-      "kind": "person"
-    },
-    {
-      "term": "Adad",
-      "gloss": "The storm-god, whose thunder rises within the black cloud that brings the Flood.",
-      "kind": "god"
-    },
-    {
-      "term": "Shullat",
-      "gloss": "One of the two divine heralds who go before Adad over hill and plain at the start of the Flood.",
-      "kind": "god"
-    },
-    {
-      "term": "Hanish",
-      "gloss": "One of the two divine heralds who march ahead of the storm-god Adad as the Flood begins.",
-      "kind": "god"
-    },
-    {
-      "term": "Erragal",
-      "gloss": "A god of the underworld and destruction who tears out the mooring-poles that hold the world in place, loosing the Flood.",
-      "kind": "god"
-    },
-    {
-      "term": "Nimush",
-      "gloss": "The mountain on which Uta-napishti's boat runs aground and is held fast for days after the Flood.",
-      "kind": "place",
-      "aliases": [
-        "Mount Nimush"
-      ]
-    },
-    {
-      "term": "myrtle",
-      "gloss": "A fragrant evergreen shrub burned as a sweet-smelling offering. Uta-napishti heaps it with reed and cedar in his post-Flood sacrifice.",
-      "kind": "thing"
-    },
-    {
-      "term": "cult-vessels",
-      "gloss": "Sacred bowls or jars used in religious offerings. Uta-napishti sets out seven and seven of them for his sacrifice.",
-      "kind": "word"
-    },
-    {
-      "term": "Atra-hasis",
-      "gloss": "A name meaning 'exceedingly wise,' used here for the Flood survivor. Ea claims he only let Atra-hasis see a warning dream, not betrayed the gods outright.",
-      "kind": "person"
-    },
-    {
-      "term": "date groves",
-      "gloss": "Orchards of date palms, a staple food and source of wealth in Mesopotamia. They make up part of the land within Uruk.",
-      "kind": "thing"
-    },
-    {
-      "term": "clay pits",
-      "gloss": "The places where clay was dug for making bricks and pottery. They form part of the measured ground of Uruk.",
-      "kind": "place"
-    },
-    {
-      "term": "the plant",
-      "gloss": "A thorny plant growing under the sea that restores lost youth, called 'The-Old-Man-Grows-Young.' Gilgamesh wins it from the deep, only to lose it to a snake.",
-      "kind": "thing",
-      "aliases": [
-        "plant of the heartbeat",
-        "The-Old-Man-Grows-Young",
-        "plant of the heartbeat, the cure"
-      ]
-    },
-    {
-      "term": "bramble",
-      "gloss": "A prickly, thorny bush such as a wild blackberry. The plant of youth has a thorn that pricks like a bramble.",
-      "kind": "word"
+ "workId": "work.gilgamesh",
+ "glossary": [
+  {
+   "term": "Gilgamesh",
+   "gloss": "The king of Uruk and hero of the epic — two parts god, one part human, immensely strong but restless and overbearing. His friendship with Enkidu and his fear of death drive the whole story.",
+   "kind": "person",
+   "aliases": [
+    "Gilgamesh's",
+    "Gilgamish",
+    "Gilgamesh,"
+   ]
+  },
+  {
+   "term": "Enkidu",
+   "gloss": "A wild man created by the gods as Gilgamesh's equal, born in the open country and raised among animals. After the woman Shamhat draws him into human life, he becomes Gilgamesh's beloved friend and companion.",
+   "kind": "person",
+   "aliases": [
+    "Enkidu's",
+    "Engidu"
+   ]
+  },
+  {
+   "term": "Uruk",
+   "gloss": "Gilgamesh's great walled city in southern Mesopotamia (in what is now Iraq), famous for its brick ramparts. Its people first complain about Gilgamesh, and its walls frame the epic.",
+   "kind": "place",
+   "aliases": [
+    "Uruk's"
+   ]
+  },
+  {
+   "term": "Shamhat",
+   "gloss": "A woman of Ishtar's temple who is sent to the wild man Enkidu. By lying with him she draws him out of the animal world and into human life, making her the one who turns a beast into a man.",
+   "kind": "person",
+   "aliases": [
+    "Shamhat's"
+   ]
+  },
+  {
+   "term": "Humbaba",
+   "gloss": "The monstrous guardian of the Cedar Forest, set there by the god Enlil to keep people out. His roar is a flood, his mouth is fire, and his breath is death; Gilgamesh and Enkidu journey to kill him.",
+   "kind": "person",
+   "aliases": [
+    "Humbaba's",
+    "Huwawa"
+   ]
+  },
+  {
+   "term": "Ishtar",
+   "gloss": "The Mesopotamian goddess of love and war. When Gilgamesh refuses her offer of marriage and lists the ruin she brought on past lovers, she demands the Bull of Heaven to destroy him.",
+   "kind": "god",
+   "aliases": [
+    "Ishtar's"
+   ]
+  },
+  {
+   "term": "Anu",
+   "gloss": "The supreme sky-god and father of the gods, and the father of Ishtar. He owns the Bull of Heaven and reluctantly hands it over to Ishtar after she threatens to raise the dead.",
+   "kind": "god",
+   "aliases": [
+    "Anu's"
+   ]
+  },
+  {
+   "term": "Enlil",
+   "gloss": "One of the chief Mesopotamian gods, lord of the earth and air, who rules from the city of Nippur. He appointed Humbaba to guard the Cedar Forest, and later decrees that Enkidu must die.",
+   "kind": "god",
+   "aliases": [
+    "Enlil's"
+   ]
+  },
+  {
+   "term": "Cedar Forest",
+   "gloss": "A vast, sacred forest of giant cedar trees, the home of the gods and the preserve guarded by the monster Humbaba. Gilgamesh and Enkidu travel there to win fame by felling its trees and killing its keeper.",
+   "kind": "place",
+   "aliases": [
+    "cedar forest"
+   ]
+  },
+  {
+   "term": "Ninsun",
+   "gloss": "Gilgamesh's mother, a wise goddess often called \"the wild cow of the byre.\" She interprets her son's dreams, prays to the sun-god Shamash for his safety, and adopts Enkidu as her own son.",
+   "kind": "god",
+   "aliases": [
+    "Ninsun's"
+   ]
+  },
+  {
+   "term": "Shamash",
+   "gloss": "The sun-god, who crosses the sky by day and loves Gilgamesh. He answers Ninsun's prayer by sending the thirteen winds against Humbaba, and he later defends Enkidu before the council of the gods.",
+   "kind": "god",
+   "aliases": [
+    "Shamash's",
+    "sun-god",
+    "the sun-god"
+   ]
+  },
+  {
+   "term": "Aruru",
+   "gloss": "The great mother-goddess who first made mankind. At the gods' request she pinches off a piece of clay and shapes Enkidu in the wild to be Gilgamesh's match.",
+   "kind": "god"
+  },
+  {
+   "term": "Ea",
+   "gloss": "The wise Mesopotamian god of fresh water, craft, and cunning. He is named among the gods who gave Gilgamesh a deep mind and who sit in council over Enkidu's fate.",
+   "kind": "god"
+  },
+  {
+   "term": "Bull of Heaven",
+   "gloss": "A fearsome divine bull belonging to the sky-god Anu, which Ishtar unleashes on Uruk in revenge. Its snorting tears open deadly pits in the ground until Gilgamesh and Enkidu kill it.",
+   "kind": "thing",
+   "aliases": [
+    "the Bull of Heaven",
+    "the Bull",
+    "Bull"
+   ]
+  },
+  {
+   "term": "Antu",
+   "gloss": "The mother of Ishtar and wife of the sky-god Anu. Ishtar comes weeping to Anu and Antu after Gilgamesh insults her.",
+   "kind": "god"
+  },
+  {
+   "term": "Lugalbanda",
+   "gloss": "Gilgamesh's divine father and personal protector god. Enkidu names him, alongside Shamash, as one who will lift Gilgamesh out of danger; Gilgamesh later dedicates the Bull's horns to him.",
+   "kind": "god"
+  },
+  {
+   "term": "Aya",
+   "gloss": "The bride of the sun-god Shamash. Ninsun asks Aya to remind her husband each night to keep watch over Gilgamesh.",
+   "kind": "god"
+  },
+  {
+   "term": "Sin",
+   "gloss": "The moon-god, here named as the divine father of the sun-god Shamash. Ninsun prays that Sin keep watch over Gilgamesh through the night.",
+   "kind": "god"
+  },
+  {
+   "term": "Nippur",
+   "gloss": "The Mesopotamian city that is the seat of the god Enlil. Enkidu wants to send a great cedar door there as a gift for Enlil's temple, and fears word of Humbaba's death reaching Enlil in Nippur.",
+   "kind": "place"
+  },
+  {
+   "term": "Sippar",
+   "gloss": "A Mesopotamian city named as the seat of the sun-god Shamash, paired with Enlil's city of Nippur.",
+   "kind": "place"
+  },
+  {
+   "term": "Irnini",
+   "gloss": "A name of the goddess Ishtar, used here for the divine throne or dwelling on the cedar mountain in the sacred forest.",
+   "kind": "god"
+  },
+  {
+   "term": "Dumuzi",
+   "gloss": "The shepherd-god who was the lover of Ishtar's youth. Gilgamesh recalls how Ishtar doomed him to be wept for every year — the first of her ruined lovers.",
+   "kind": "god"
+  },
+  {
+   "term": "Ishullanu",
+   "gloss": "The gardener of Ishtar's father, whom the goddess desired. When he refused her, she struck him and turned him into a stunted, helpless thing fixed in the middle of his own garden.",
+   "kind": "person"
+  },
+  {
+   "term": "Silili",
+   "gloss": "The mother of the war-horse that Ishtar once loved and then doomed. Gilgamesh says Ishtar condemned Silili to weep for her son forever.",
+   "kind": "god"
+  },
+  {
+   "term": "Seven Sages",
+   "gloss": "Legendary wise beings who, in Mesopotamian tradition, founded civilization and the great cities before the Flood. The opening of the epic credits them with laying the foundations of Uruk's walls.",
+   "kind": "people",
+   "aliases": [
+    "the Seven Sages"
+   ]
+  },
+  {
+   "term": "Egalmah",
+   "gloss": "The temple-palace of the goddess Ninsun in Uruk, whose name means roughly \"great palace.\" Gilgamesh and Enkidu go there to ask Ninsun's blessing before setting out.",
+   "kind": "place"
+  },
+  {
+   "term": "lapis lazuli",
+   "gloss": "A deep-blue semiprecious stone, prized throughout the ancient Near East for jewelry and inlay. It appears as the material of the tablet bearing Gilgamesh's story and of the bowls and ornaments in the epic.",
+   "kind": "thing",
+   "aliases": [
+    "lapis"
+   ]
+  },
+  {
+   "term": "carnelian",
+   "gloss": "A reddish-orange semiprecious stone used for beads and fine bowls in the ancient Near East. Gilgamesh fills a bowl of carnelian as an offering and it is named among precious treasures.",
+   "kind": "thing"
+  },
+  {
+   "term": "cubit",
+   "gloss": "An ancient unit of length, roughly the distance from the elbow to the fingertips (about 18 inches). The epic measures the great cedar door in cubits.",
+   "kind": "word",
+   "aliases": [
+    "cubits"
+   ]
+  },
+  {
+   "term": "league",
+   "gloss": "A long unit of distance used for the heroes' march. The Akkadian \"bēr\" was a \"double-hour\" of travel, very roughly seven miles; the epic counts the road to the cedars in twenty- and thirty-league legs.",
+   "kind": "word",
+   "aliases": [
+    "leagues"
+   ]
+  },
+  {
+   "term": "mina",
+   "gloss": "An ancient Mesopotamian unit of weight, roughly half a kilogram (about a pound). The Bull of Heaven's horns are each said to weigh thirty minas of solid lapis.",
+   "kind": "word",
+   "aliases": [
+    "minas"
+   ]
+  },
+  {
+   "term": "gazelle",
+   "gloss": "A small, swift wild antelope of the steppe. Enkidu grazes on grass with the gazelles in his wild state, and they bolt from him once he becomes human.",
+   "kind": "thing",
+   "aliases": [
+    "gazelles"
+   ]
+  },
+  {
+   "term": "francolin",
+   "gloss": "A ground-dwelling game bird, like a partridge, whose chatter is among the sounds that fill the living Cedar Forest.",
+   "kind": "thing"
+  },
+  {
+   "term": "cicada",
+   "gloss": "A loud insect known for its shrill, droning song. The cicadas' singing is part of the din of the Cedar Forest that the heroes are about to destroy.",
+   "kind": "thing",
+   "aliases": [
+    "cicadas"
+   ]
+  },
+  {
+   "term": "turtledove",
+   "gloss": "A small wild dove with a soft cooing call, named among the birds whose calls make the Cedar Forest loud with life.",
+   "kind": "thing"
+  },
+  {
+   "term": "stork",
+   "gloss": "A large long-legged wading bird whose cry rings through the Cedar Forest, part of the living din the heroes are about to destroy.",
+   "kind": "thing"
+  },
+  {
+   "term": "roller-bird",
+   "gloss": "A brightly colored bird (the \"allallu\") that Ishtar once loved and then crippled. Gilgamesh recalls how she broke its wing, so that it now cries \"kappi, kappi\" — \"my wing, my wing.\"",
+   "kind": "thing",
+   "aliases": [
+    "roller-bird,"
+   ]
+  },
+  {
+   "term": "kappi",
+   "gloss": "An Akkadian cry meaning \"my wing!\" — the sound the roller-bird is doomed to make forever after Ishtar broke its wing. The cry is a pun on the bird's wound.",
+   "kind": "word"
+  },
+  {
+   "term": "brazier",
+   "gloss": "A metal pan or stand for holding burning coals, used for heat. Gilgamesh likens the faithless Ishtar to \"a brazier that goes cold the moment one needs its fire.\"",
+   "kind": "thing"
+  },
+  {
+   "term": "pitch",
+   "gloss": "A black, sticky tar used to seal and waterproof. Gilgamesh compares Ishtar to pitch that blackens the hands of whoever carries it.",
+   "kind": "word"
+  },
+  {
+   "term": "waterskin",
+   "gloss": "A bag made of animal hide for carrying water. Gilgamesh likens Ishtar to a leaking waterskin that soaks the man who hauls it.",
+   "kind": "thing"
+  },
+  {
+   "term": "battering ram",
+   "gloss": "A heavy beam swung to smash down gates or walls in a siege. Gilgamesh compares treacherous Ishtar to a battering ram that turns against its own army.",
+   "kind": "thing"
+  },
+  {
+   "term": "votaries",
+   "gloss": "Women devoted to the service of a temple and its deity. Ninsun adopts Enkidu before the holy women, the votaries who served in her house.",
+   "kind": "people"
+  },
+  {
+   "term": "censer",
+   "gloss": "A container in which incense is burned as an offering. Ninsun sets a censer before Shamash on the temple roof when she prays for her son.",
+   "kind": "thing"
+  },
+  {
+   "term": "byre",
+   "gloss": "A barn or shed for cattle. Ninsun is called \"the wild cow of the byre,\" an image of her motherly, life-giving strength.",
+   "kind": "word"
+  },
+  {
+   "term": "rampart",
+   "gloss": "A defensive wall or embankment around a city. Ishtar climbs up onto the wall of Uruk and wails along its rampart after the Bull of Heaven is killed.",
+   "kind": "word"
+  },
+  {
+   "term": "sheepfold",
+   "gloss": "A pen or enclosure for sheep; used here as an affectionate epithet for the protected, gathered city of Uruk — \"Uruk the sheepfold.\"",
+   "kind": "word"
+  },
+  {
+   "term": "ibex",
+   "gloss": "A wild mountain goat with long curved horns, named among the steppe creatures Gilgamesh calls to mourn Enkidu.",
+   "kind": "thing"
+  },
+  {
+   "term": "nape",
+   "gloss": "The back of the neck. The epic names the killing-stroke on the Bull of Heaven as a sword driven \"between the horns and the nape.\"",
+   "kind": "word"
+  },
+  {
+   "term": "slaver",
+   "gloss": "Drooling saliva, spit. The Bull of Heaven lashes its tail and throws its slaver in Enkidu's face.",
+   "kind": "word"
+  },
+  {
+   "term": "haunch",
+   "gloss": "The hip and thigh of a large animal, a hindquarter. Enkidu tears the haunch from the Bull of Heaven and flings it at Ishtar.",
+   "kind": "word"
+  },
+  {
+   "term": "courtesans",
+   "gloss": "Women of a refined social or temple office, here the women of Ishtar's temple. She gathers her courtesans, singers, and dancers to mourn over the slain Bull.",
+   "kind": "people"
+  },
+  {
+   "term": "boxwood",
+   "gloss": "A dense, hard-wooded shrub or small tree. It is named among the thick growth standing close in the Cedar Forest.",
+   "kind": "thing"
+  },
+  {
+   "term": "Hermon",
+   "gloss": "A great mountain of the Levant (Mount Hermon), named with Lebanon as the peaks that crack and split during the cataclysmic fight with Humbaba.",
+   "kind": "place"
+  },
+  {
+   "term": "Lebanon",
+   "gloss": "The mountain range famous in antiquity for its cedars, named alongside Hermon as splitting apart in the battle against Humbaba.",
+   "kind": "place"
+  },
+  {
+   "term": "Simurru",
+   "gloss": "A place-name attached to one of the thirteen winds Shamash unleashes against Humbaba — \"the wind of Simurru.\"",
+   "kind": "place"
+  },
+  {
+   "term": "Euphrates",
+   "gloss": "One of the two great rivers of Mesopotamia. The heroes float the felled cedar timber down the Euphrates toward home, and wash their hands in it after killing the Bull.",
+   "kind": "place",
+   "aliases": [
+    "the Euphrates"
+   ]
+  },
+  {
+   "term": "melammū",
+   "gloss": "An aura of terrifying divine radiance worn by gods and monsters in Mesopotamian belief; rendered here as Humbaba's \"seven cloaks of terror.\" Shamash warns Gilgamesh to strike before Humbaba puts all seven on.",
+   "kind": "concept",
+   "aliases": [
+    "cloaks of terror",
+    "seven cloaks of terror"
+   ]
+  },
+  {
+   "term": "tablet of lapis lazuli",
+   "gloss": "The blue-stone tablet, locked in a cedar box, on which Gilgamesh is said to have inscribed the story of his sufferings — the epic presents itself as a record read aloud from this tablet.",
+   "kind": "thing"
+  },
+  {
+   "term": "wild bull",
+   "gloss": "A massive, untamed bovine (the aurochs), used throughout as an image of overwhelming strength. Gilgamesh towers over his people \"like a wild bull.\"",
+   "kind": "thing"
+  },
+  {
+   "term": "Flood",
+   "gloss": "The great deluge that, in Mesopotamian tradition, once destroyed mankind. The prologue says Gilgamesh carried home \"a story older than the Flood\" — the survival story he later learns on his journey.",
+   "kind": "concept",
+   "aliases": [
+    "the Flood"
+   ]
+  },
+  {
+   "term": "war-god",
+   "gloss": "The fierce Mesopotamian god of battle (Ninurta/Erra), used as a measure of Enkidu's strength — he is made \"hard as the war-god himself.\"",
+   "kind": "god"
+  },
+  {
+   "term": "purity plant",
+   "gloss": "A cleansing herb used in ritual washing. Ninsun purifies herself with the purity plant before going up to pray for her son.",
+   "kind": "thing"
+  },
+  {
+   "term": "Watchmen of the Night",
+   "gloss": "The stars, imagined as guardians on watch through the dark. Ninsun asks Shamash to hand Gilgamesh over to them when the sun goes down.",
+   "kind": "concept"
+  },
+  {
+   "term": "nose-rope",
+   "gloss": "A rope through an animal's nose used to lead and control it. Anu puts the Bull of Heaven's nose-rope into Ishtar's hands so she can lead it down to earth.",
+   "kind": "thing"
+  },
+  {
+   "term": "cubits",
+   "gloss": "An ancient unit of length, roughly the distance from elbow to fingertip (about half a meter). Used here to measure the great cedar door.",
+   "kind": "word",
+   "aliases": [
+    "cubit"
+   ]
+  },
+  {
+   "term": "leagues",
+   "gloss": "An old measure of distance, several miles each. Enkidu travels twenty leagues to find the cedar for his door, and Gilgamesh marks his homeward journey in leagues.",
+   "kind": "word",
+   "aliases": [
+    "league"
+   ]
+  },
+  {
+   "term": "cedar",
+   "gloss": "A tall, fragrant evergreen tree prized as building timber in the ancient Near East. Enkidu builds a famous temple door from a single great cedar.",
+   "kind": "thing"
+  },
+  {
+   "term": "pivot",
+   "gloss": "The post on which a door turns, set into sockets at top and bottom; ancient doors swung on a pivot rather than on hinges.",
+   "kind": "word"
+  },
+  {
+   "term": "trapper",
+   "gloss": "The hunter who first spotted the wild Enkidu at the watering hole and set in motion his taming. Enkidu curses him on his deathbed.",
+   "kind": "person"
+  },
+  {
+   "term": "potters' yard",
+   "gloss": "The work area where potters dug clay and fired their wares; a dusty, lowly place. Enkidu's curse condemns Shamhat to sit there in the dirt.",
+   "kind": "place"
+  },
+  {
+   "term": "dunghill",
+   "gloss": "A heap of dung and refuse. In Enkidu's curse it becomes the bed Shamhat must sleep on.",
+   "kind": "word"
+  },
+  {
+   "term": "lapis",
+   "gloss": "Lapis lazuli, a deep-blue semiprecious stone treasured in Mesopotamia for jewelry and ornament.",
+   "kind": "thing",
+   "aliases": [
+    "lapis lazuli"
+   ]
+  },
+  {
+   "term": "storm-bird",
+   "gloss": "A dreaded creature of myth associated with storms and the underworld; the death-figure in Enkidu's dream has its face.",
+   "kind": "thing"
+  },
+  {
+   "term": "Irkalla",
+   "gloss": "A name for the underworld, the dark land of the dead from which no one returns.",
+   "kind": "place"
+  },
+  {
+   "term": "house of dust",
+   "gloss": "The Mesopotamian underworld, where the dead sit in darkness eating dust and clay and wearing feathers like birds.",
+   "kind": "place",
+   "aliases": [
+    "house of darkness"
+   ]
+  },
+  {
+   "term": "Etana",
+   "gloss": "A legendary early king of Kish, said to have flown to heaven on an eagle. Enkidu sees him among the dead in the house of dust.",
+   "kind": "person"
+  },
+  {
+   "term": "Sumuqan",
+   "gloss": "The god of cattle and wild herds. Enkidu glimpses him in the underworld in his death-dream.",
+   "kind": "god"
+  },
+  {
+   "term": "Ereshkigal",
+   "gloss": "The queen of the underworld, ruler of the dead. Enkidu sees her enthroned in his death-dream.",
+   "kind": "god"
+  },
+  {
+   "term": "Belet-seri",
+   "gloss": "The scribe of the underworld, who keeps the records of the dead and reads them aloud before Ereshkigal.",
+   "kind": "god"
+  },
+  {
+   "term": "high priest",
+   "gloss": "A chief temple official who served the gods. Enkidu sees even such great men reduced to shades in the house of dust.",
+   "kind": "person"
+  },
+  {
+   "term": "seer",
+   "gloss": "A person who foretells the future or reads omens; one of the holy men Enkidu sees among the dead.",
+   "kind": "person"
+  },
+  {
+   "term": "keening",
+   "gloss": "Loud wailing and lamenting for the dead, traditionally done by women. Gilgamesh cries out for Enkidu like a woman keening.",
+   "kind": "word"
+  },
+  {
+   "term": "steppe",
+   "gloss": "The open, treeless grassland where wild animals roam; Enkidu's original home before he became human.",
+   "kind": "place"
+  },
+  {
+   "term": "Ulaya",
+   "gloss": "A river of the ancient Near East, named in Gilgamesh's lament as one of the waters that should mourn Enkidu.",
+   "kind": "place"
+  },
+  {
+   "term": "coppersmith",
+   "gloss": "A craftsman who works copper. Gilgamesh summons such artisans to make a jeweled statue of Enkidu.",
+   "kind": "person"
+  },
+  {
+   "term": "libation",
+   "gloss": "A liquid offering, such as wine or beer, poured out to honor a god. Uta-napishti pours one on the mountain peak after the Flood.",
+   "kind": "word"
+  },
+  {
+   "term": "shades",
+   "gloss": "The spirits of the dead in the underworld. Gilgamesh's grave-gifts are meant to win Enkidu a good place among them.",
+   "kind": "concept"
+  },
+  {
+   "term": "Uta-napishti",
+   "gloss": "The one man who survived the Great Flood and was granted everlasting life by the gods. He lives far off at the source of the rivers; Gilgamesh seeks him out to learn the secret of immortality.",
+   "kind": "person",
+   "aliases": [
+    "Uta-napishti the Distant",
+    "Utnapishtim"
+   ]
+  },
+  {
+   "term": "Mashu",
+   "gloss": "The twin-peaked mountain through which the sun rises and sets. Gilgamesh must pass through its dark interior to reach the edge of the world.",
+   "kind": "place",
+   "aliases": [
+    "twin mountain"
+   ]
+  },
+  {
+   "term": "Scorpion-people",
+   "gloss": "The fearsome guardians, a man and his wife, who keep the gate of Mount Mashu where the sun passes. Their terror can kill, but they let Gilgamesh through.",
+   "kind": "people",
+   "aliases": [
+    "Scorpion-man",
+    "Scorpion-people kept"
+   ]
+  },
+  {
+   "term": "double-hours",
+   "gloss": "An ancient Babylonian unit of time and distance, equal to two of our hours. Gilgamesh travels twelve double-hours through the dark tunnel of Mashu.",
+   "kind": "word",
+   "aliases": [
+    "double-hour"
+   ]
+  },
+  {
+   "term": "Road of the Sun",
+   "gloss": "The dark passage through Mount Mashu that the sun travels each night. Gilgamesh follows it through twelve double-hours of total darkness.",
+   "kind": "place"
+  },
+  {
+   "term": "agate",
+   "gloss": "A banded semiprecious stone. In the jeweled garden at the sea's edge, agate grows among the trees like ordinary wood.",
+   "kind": "thing"
+  },
+  {
+   "term": "Siduri",
+   "gloss": "The veiled ale-wife (tavern-keeper) of the gods, who lives at the edge of the sea. She tells Gilgamesh how to find Uta-napishti's boatman.",
+   "kind": "person"
+  },
+  {
+   "term": "ale-wife",
+   "gloss": "A woman who brews and sells beer and keeps a tavern. Siduri is the ale-wife of the gods at the world's edge.",
+   "kind": "word",
+   "aliases": [
+    "ale-wife"
+   ]
+  },
+  {
+   "term": "vats",
+   "gloss": "Large vessels for brewing and fermenting beer; Siduri keeps her own brewing vats.",
+   "kind": "word",
+   "aliases": [
+    "vat"
+   ]
+  },
+  {
+   "term": "Ur-shanabi",
+   "gloss": "The boatman of Uta-napishti, the only one who can ferry across the deadly sea. Gilgamesh enlists him after rashly destroying his magical crew.",
+   "kind": "person"
+  },
+  {
+   "term": "Stone Ones",
+   "gloss": "The crew of Ur-shanabi's boat, immune to the Waters of Death, who make the crossing possible. Gilgamesh smashes them in a fury before learning who they are.",
+   "kind": "thing",
+   "aliases": [
+    "Stone One"
+   ]
+  },
+  {
+   "term": "Waters of Death",
+   "gloss": "A deadly stretch of sea that a living hand must never touch. Gilgamesh crosses it by punting with poles he discards after a single use.",
+   "kind": "place"
+  },
+  {
+   "term": "Anunnaki",
+   "gloss": "The great gods of the Mesopotamian pantheon as a group, who assign the fates of mortals and weep during the Flood.",
+   "kind": "people"
+  },
+  {
+   "term": "Mammitum",
+   "gloss": "The goddess who fixes destinies; she decrees fate alongside the Anunnaki, handing out life and death.",
+   "kind": "god"
+  },
+  {
+   "term": "canebrake",
+   "gloss": "A dense thicket of reeds or cane. Uta-napishti says mankind is cut down like a reed in the canebrake.",
+   "kind": "word"
+  },
+  {
+   "term": "Shuruppak",
+   "gloss": "The ancient city on the Euphrates where Uta-napishti lived, and where the gods chose to send the Flood.",
+   "kind": "place"
+  },
+  {
+   "term": "Ninurta",
+   "gloss": "A warrior god, helper of Enlil. He swears to the Flood, makes the dikes overflow, and later names Ea as the one who saved a man.",
+   "kind": "god"
+  },
+  {
+   "term": "Ennugi",
+   "gloss": "The god who oversees the dikes and canals, the irrigation works. He is among those who swore to bring on the Flood.",
+   "kind": "god"
+  },
+  {
+   "term": "Ubar-Tutu",
+   "gloss": "The father of Uta-napishti; Ea addresses Uta-napishti as 'son of Ubar-Tutu' when warning him of the Flood.",
+   "kind": "person"
+  },
+  {
+   "term": "reed wall",
+   "gloss": "The reed fence or wall of Uta-napishti's house. Ea speaks his Flood warning to it so he can technically keep his divine oath while still saving a man.",
+   "kind": "thing",
+   "aliases": [
+    "reed wall, reed wall",
+    "fence of reeds"
+   ]
+  },
+  {
+   "term": "ballast",
+   "gloss": "Heavy material loaded low in a boat to keep it stable and settle it in the water. The launching is hard because of shifting the ballast.",
+   "kind": "word"
+  },
+  {
+   "term": "Puzur-Enlil",
+   "gloss": "The boatman or shipwright who caulked Uta-napishti's ark; Uta-napishti hands the sealed boat over to him.",
+   "kind": "person"
+  },
+  {
+   "term": "Adad",
+   "gloss": "The storm-god, whose thunder rises within the black cloud that brings the Flood.",
+   "kind": "god"
+  },
+  {
+   "term": "Shullat",
+   "gloss": "One of the two divine heralds who go before Adad over hill and plain at the start of the Flood.",
+   "kind": "god"
+  },
+  {
+   "term": "Hanish",
+   "gloss": "One of the two divine heralds who march ahead of the storm-god Adad as the Flood begins.",
+   "kind": "god"
+  },
+  {
+   "term": "Erragal",
+   "gloss": "A god of the underworld and destruction who tears out the mooring-poles that hold the world in place, loosing the Flood.",
+   "kind": "god"
+  },
+  {
+   "term": "Nimush",
+   "gloss": "The mountain on which Uta-napishti's boat runs aground and is held fast for days after the Flood.",
+   "kind": "place",
+   "aliases": [
+    "Mount Nimush"
+   ]
+  },
+  {
+   "term": "myrtle",
+   "gloss": "A fragrant evergreen shrub burned as a sweet-smelling offering. Uta-napishti heaps it with reed and cedar in his post-Flood sacrifice.",
+   "kind": "thing"
+  },
+  {
+   "term": "cult-vessels",
+   "gloss": "Sacred bowls or jars used in religious offerings. Uta-napishti sets out seven and seven of them for his sacrifice.",
+   "kind": "word"
+  },
+  {
+   "term": "Atra-hasis",
+   "gloss": "A name meaning 'exceedingly wise,' used here for the Flood survivor. Ea claims he only let Atra-hasis see a warning dream, not betrayed the gods outright.",
+   "kind": "person"
+  },
+  {
+   "term": "date groves",
+   "gloss": "Orchards of date palms, a staple food and source of wealth in Mesopotamia. They make up part of the land within Uruk.",
+   "kind": "thing"
+  },
+  {
+   "term": "clay pits",
+   "gloss": "The places where clay was dug for making bricks and pottery. They form part of the measured ground of Uruk.",
+   "kind": "place"
+  },
+  {
+   "term": "the plant",
+   "gloss": "A thorny plant growing under the sea that restores lost youth, called 'The-Old-Man-Grows-Young.' Gilgamesh wins it from the deep, only to lose it to a snake.",
+   "kind": "thing",
+   "aliases": [
+    "plant of the heartbeat",
+    "The-Old-Man-Grows-Young",
+    "plant of the heartbeat, the cure"
+   ]
+  },
+  {
+   "term": "bramble",
+   "gloss": "A prickly, thorny bush such as a wild blackberry. The plant of youth has a thorn that pricks like a bramble.",
+   "kind": "word"
+  }
+ ],
+ "chapters": {
+  "1": "We open on the wall of Uruk, invited to admire its brickwork before we meet the king who built it. Gilgamesh — two parts god, one part man — is magnificent and unbearable, and his exhausted city cries out to heaven. The gods' answer takes shape far from any street, out in the wild country among the gazelles.",
+  "2": "Enkidu, fresh from the wild, is learning to be human at a shepherds' camp: bread, beer, clothes, a night watch. Then word of what the king does on wedding nights sets him on the road to Uruk, where a crowd gathers to size up the stranger built like Gilgamesh.",
+  "3": "The expedition to the Cedar Forest is decided; now Uruk prepares to let its king go. The elders give their counsel and lay Gilgamesh in Enkidu's keeping, and the two friends go to the Egalmah, where Ninsun — wise, and troubled — takes the matter to the sun-god himself.",
+  "4": "The two friends are on the road, covering in a day what takes ordinary men a month and a half. The tablet moves in a ritual rhythm — camp, a poured offering, sleep, a terrifying dream — and each morning Enkidu turns the night's terror into a good omen as the forest draws closer.",
+  "5": "They stand at last inside the Cedar Forest, listening to it: birdsong, monkeys, the whole living noise of Humbaba's garden. Somewhere among the trees is the guardian himself, and the fight the entire journey has been pointed toward.",
+  "6": "Home in triumph, washed and crowned, Gilgamesh catches the eye of the goddess Ishtar — and she proposes marriage on the spot. His answer, with its long catalogue of her former lovers, sends her storming up to heaven to her father Anu.",
+  "7": "The morning after the feasting, Enkidu wakes from a dream of the great gods sitting in council, weighing what the two friends have done. This tablet belongs to him: his sickbed, his rage at the cedar door he built and the woman who civilized him, and the words Shamash speaks to calm him.",
+  "8": "At first light Gilgamesh begins his lament, calling on roads, rivers, animals, and the whole city of Uruk to mourn with him. This is the epic's tablet of grief — a friend's body, a statue commissioned, a treasure-house opened for the sake of the dead.",
+  "9": "Grief has driven Gilgamesh out of the city and into the wild, wearing skins and afraid, for the first time, of his own death. One hope remains: Uta-napishti, the man who survived the Flood and never died. The road to him runs through the twin mountain Mashu, whose gate the Scorpion-people keep.",
+  "10": "At the edge of the sea stands a tavern, and its keeper Siduri bars her door against the wild-looking man coming up the shore. To go any further, Gilgamesh will need Ur-shanabi the boatman — and beyond him lie the Waters of Death, which no living hand may touch.",
+  "11": "Face to face with Uta-napishti at last, Gilgamesh asks his question: how did one man come to stand in the assembly of the gods and live forever? The answer is the story of the Flood, told by the man who rode it out — and what follows brings the epic back around to the walls where it began."
+ },
+ "passages": [
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-01",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Shamhat",
+    "Aruru",
+    "Ninsun"
+   ],
+   "define": [
+    {
+     "term": "kiln-fired brick",
+     "gloss": "Ordinary Mesopotamian buildings were sun-dried mud brick; brick fired hard in a kiln was costly and durable, which is why the wall of Uruk boasts of it."
+    },
+    {
+     "term": "dream-reading",
+     "gloss": "Mesopotamians treated dreams as messages from the gods, and having them interpreted — here by the king's own mother — was serious business, not superstition."
     }
-  ]
+   ],
+   "connections": [
+    {
+     "label": "The Odyssey",
+     "kind": "work"
+    },
+    {
+     "label": "Sîn-lēqi-unninni, the poem's ancient editor",
+     "kind": "author"
+    },
+    {
+     "label": "the city wall as civilization's measure",
+     "kind": "idea"
+    },
+    {
+     "label": "dreams as messages from the gods",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-02",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Shamhat",
+    "Humbaba"
+   ],
+   "define": [
+    {
+     "term": "beer",
+     "gloss": "Barley beer was the staple drink of Mesopotamia, drunk daily by everyone and counted — with bread — as a mark of civilized life."
+    },
+    {
+     "term": "the king's right",
+     "gloss": "The custom, presented in the epic as god-decreed, that the king of Uruk lay with a bride before her husband did — the outrage that brings Enkidu to the city."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Nicomachean Ethics",
+     "kind": "work"
+    },
+    {
+     "label": "bread and beer as the marks of civilization",
+     "kind": "idea"
+    },
+    {
+     "label": "the rivalry that becomes friendship",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-03",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Ninsun",
+    "Shamash",
+    "Aya"
+   ],
+   "define": [
+    {
+     "term": "assembly",
+     "gloss": "The council of elders whose voice carried real weight in a Mesopotamian city; even a king took counsel before it and answered to it."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "a mother's prayer for a departing son",
+     "kind": "idea"
+    },
+    {
+     "label": "adoption as bond-making",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-04",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Shamash",
+    "Humbaba",
+    "Lugalbanda"
+   ],
+   "define": [
+    {
+     "term": "omen",
+     "gloss": "A sign from the gods read out of dreams, weather, or the entrails of animals; Mesopotamian life ran on such signs, and reading them was a learned profession."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Aeneid",
+     "kind": "work"
+    },
+    {
+     "label": "omens read on the road to danger",
+     "kind": "idea"
+    },
+    {
+     "label": "the cord of three strands: strength in fellowship",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-05",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Humbaba",
+    "Shamash"
+   ],
+   "define": [
+    {
+     "term": "monument",
+     "gloss": "A stone marker a king set up to fix his deeds in public memory — the nearest thing to permanence Mesopotamian culture offered a mortal."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "the cedars of Lebanon",
+     "kind": "place"
+    },
+    {
+     "label": "the defeated enemy's plea and curse",
+     "kind": "idea"
+    },
+    {
+     "label": "felling the sacred forest",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-06",
+   "people": [
+    "Gilgamesh",
+    "Ishtar",
+    "Enkidu",
+    "Anu",
+    "Antu",
+    "Dumuzi"
+   ],
+   "define": [
+    {
+     "term": "anointing",
+     "gloss": "Rubbing the body with perfumed oil, at once an everyday comfort and a formal honor paid to kings, statues, and gods."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Odyssey",
+     "kind": "work"
+    },
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "the spurned goddess's revenge",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-07",
+   "people": [
+    "Enkidu",
+    "Gilgamesh",
+    "Shamash",
+    "Enlil",
+    "Shamhat",
+    "Ereshkigal"
+   ],
+   "define": [
+    {
+     "term": "man of spells",
+     "gloss": "The incantation-priest who fought sickness and demons with ritual words — one of the learned professions Enkidu sees brought low in the house of dust."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Divine Comedy",
+     "kind": "work"
+    },
+    {
+     "label": "the council of the gods deciding a mortal's fate",
+     "kind": "idea"
+    },
+    {
+     "label": "a curse recalled and turned to blessing",
+     "kind": "idea"
+    },
+    {
+     "label": "dying in bed versus dying in glory",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-08",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Shamash"
+   ],
+   "define": [
+    {
+     "term": "grave goods",
+     "gloss": "Treasures buried or offered with the dead to win them a kind reception from the gods of the underworld — the purpose of the inventory this tablet once carried."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "Confessions",
+     "kind": "work"
+    },
+    {
+     "label": "mourning that calls the whole world to weep",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-09",
+   "people": [
+    "Gilgamesh",
+    "Enkidu",
+    "Sin",
+    "Scorpion-man",
+    "Uta-napishti"
+   ],
+   "connections": [
+    {
+     "label": "The Divine Comedy",
+     "kind": "work"
+    },
+    {
+     "label": "the fear of death as the start of wisdom",
+     "kind": "idea"
+    },
+    {
+     "label": "the journey beyond the edge of the world",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-10",
+   "people": [
+    "Gilgamesh",
+    "Siduri",
+    "Ur-shanabi",
+    "Uta-napishti",
+    "Enkidu"
+   ],
+   "define": [
+    {
+     "term": "tavern",
+     "gloss": "In Mesopotamia the tavern was the ale-wife's house — a public place for beer, news, and shelter, often kept by an independent woman of business."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Meditations",
+     "kind": "work"
+    },
+    {
+     "label": "telling one's grief at every door",
+     "kind": "idea"
+    },
+    {
+     "label": "the limits set for mortals",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.gilgamesh.lectio-modern.book-11",
+   "people": [
+    "Uta-napishti",
+    "Gilgamesh",
+    "Ea",
+    "Enlil",
+    "Ishtar",
+    "Ur-shanabi"
+   ],
+   "define": [
+    {
+     "term": "New Year",
+     "gloss": "The great Mesopotamian spring festival, the year's high point of feasting — which is why the boat-builders eating and drinking 'as at the New Year' marks extravagant plenty."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Odyssey",
+     "kind": "work"
+    },
+    {
+     "label": "the flood story across traditions",
+     "kind": "idea"
+    },
+    {
+     "label": "immortality through works, not flesh",
+     "kind": "idea"
+    },
+    {
+     "label": "Uruk (modern Warka, Iraq)",
+     "kind": "place"
+    }
+   ]
+  }
+ ]
 }

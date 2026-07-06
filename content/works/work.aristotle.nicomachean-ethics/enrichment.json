@@ -1,1757 +1,2080 @@
 {
-  "workId": "work.aristotle.nicomachean-ethics",
-  "glossary": [
-    {
-      "term": "happiness",
-      "gloss": "Aristotle's name for the highest human good (Greek eudaimonia): not a passing mood but a complete life lived well — a whole life of activity in line with excellence. The thing everyone ultimately aims at for its own sake.",
-      "kind": "concept",
-      "aliases": [
-        "happy",
-        "blessed",
-        "blessedness",
-        "happier",
-        "happiest"
-      ]
-    },
-    {
-      "term": "the good",
-      "gloss": "That at which something aims; for a human being, the final end that everything else is for the sake of. Aristotle argues the human good is activity of the soul in line with excellence.",
-      "kind": "concept",
-      "aliases": [
-        "good",
-        "goods",
-        "the highest good",
-        "human good"
-      ]
-    },
-    {
-      "term": "virtue",
-      "gloss": "Excellence of character or intellect — a settled, praiseworthy state that makes a person and his work good. The same Greek word is rendered both 'virtue' and 'excellence' throughout.",
-      "kind": "concept",
-      "aliases": [
-        "virtues",
-        "excellence",
-        "excellences",
-        "virtuous"
-      ]
-    },
-    {
-      "term": "the mean",
-      "gloss": "The intermediate, balanced point between too much and too little — the target of every virtue of character. Not a fixed midpoint but the right amount relative to the situation and the person.",
-      "kind": "concept",
-      "aliases": [
-        "mean",
-        "the middle",
-        "intermediate",
-        "middle ground"
-      ]
-    },
-    {
-      "term": "excess",
-      "gloss": "Having or feeling too much of something — one of the two ways of missing the mean and falling into vice (e.g. recklessness, dissipation).",
-      "kind": "concept",
-      "aliases": [
-        "excessive",
-        "overshoot",
-        "overshoots"
-      ]
-    },
-    {
-      "term": "deficiency",
-      "gloss": "Having or feeling too little of something — the other way of missing the mean and falling into vice (e.g. cowardice, stinginess).",
-      "kind": "concept",
-      "aliases": [
-        "deficient",
-        "falls short",
-        "fall short",
-        "falling short",
-        "shortfall"
-      ]
-    },
-    {
-      "term": "vice",
-      "gloss": "A bad settled state of character — the opposite of virtue, consisting in habitually feeling or acting to excess or in deficiency.",
-      "kind": "concept",
-      "aliases": [
-        "vices",
-        "vicious"
-      ]
-    },
-    {
-      "term": "statecraft",
-      "gloss": "The art and science of governing a community and making its citizens good (Greek politike) — for Aristotle the most authoritative practical science, the framework within which this whole inquiry into the human good belongs.",
-      "kind": "concept",
-      "aliases": [
-        "statesman",
-        "political science",
-        "the science of the community",
-        "art of statecraft"
-      ]
-    },
-    {
-      "term": "self-sufficiency",
-      "gloss": "The quality of a good that, all by itself, makes a life worth living and lacking in nothing. Aristotle uses it as a test that happiness passes.",
-      "kind": "concept",
-      "aliases": [
-        "self-sufficient"
-      ]
-    },
-    {
-      "term": "function",
-      "gloss": "The characteristic work or activity that belongs to a thing as the kind of thing it is (Greek ergon). Aristotle asks what the function of a human being is, and answers: activity of the soul guided by reason.",
-      "kind": "concept",
-      "aliases": [
-        "characteristic function",
-        "work",
-        "ergon"
-      ]
-    },
-    {
-      "term": "the soul",
-      "gloss": "For Aristotle, the life-principle of a living thing, here divided into a part with reason and a part without it. Happiness is an 'activity of the soul,' so the inquiry studies the soul's parts.",
-      "kind": "concept",
-      "aliases": [
-        "soul"
-      ]
-    },
-    {
-      "term": "contemplation",
-      "gloss": "The life devoted to thought and understanding — one of the three leading kinds of life Aristotle names (alongside pleasure and public engagement), and the one he treats as highest.",
-      "kind": "concept",
-      "aliases": [
-        "the life of contemplation",
-        "theoretical wisdom",
-        "contemplating"
-      ]
-    },
-    {
-      "term": "honor",
-      "gloss": "Public recognition and esteem — taken by ambitious, active people to be the goal of life. Aristotle judges it too shallow to be the highest good, since it depends on others rather than on oneself.",
-      "kind": "concept",
-      "aliases": [
-        "honors",
-        "dishonor"
-      ]
-    },
-    {
-      "term": "practical wisdom",
-      "gloss": "The intellectual excellence of judging well what to do in particular situations (Greek phronesis) — the capacity by which the wise person fixes where the mean lies. Distinguished from theoretical wisdom.",
-      "kind": "concept",
-      "aliases": [
-        "the person of practical wisdom",
-        "phronesis"
-      ]
-    },
-    {
-      "term": "first principles",
-      "gloss": "The basic starting points of knowledge — the facts or premises from which reasoning begins and that are not themselves derived from anything prior. Aristotle says these are grasped by induction, perception, or habituation.",
-      "kind": "concept",
-      "aliases": [
-        "first principle",
-        "starting point",
-        "starting points"
-      ]
-    },
-    {
-      "term": "induction",
-      "gloss": "Reasoning from particular observed cases up to a general truth — one of the ways Aristotle says first principles are grasped.",
-      "kind": "concept"
-    },
-    {
-      "term": "habituation",
-      "gloss": "The process of forming a settled character by repeatedly doing the relevant kind of act; we become just by doing just acts, brave by doing brave ones. Aristotle's account of how virtue of character is acquired.",
-      "kind": "concept",
-      "aliases": [
-        "habit",
-        "habits",
-        "habituated",
-        "habituating",
-        "habituate"
-      ]
-    },
-    {
-      "term": "Forms",
-      "gloss": "Plato's theory that there is a single, separately existing pattern (e.g. 'the Good itself') in which all good things share. Aristotle reports it respectfully but rejects it as no help in finding the human good.",
-      "kind": "concept",
-      "aliases": [
-        "the Form",
-        "Form",
-        "the Good itself",
-        "good itself",
-        "man himself"
-      ]
-    },
-    {
-      "term": "substance",
-      "gloss": "In Aristotle's logic, the category of what a thing fundamentally is (as opposed to its quality, quantity, relation, etc.). He uses the categories to argue against a single Form of the good.",
-      "kind": "concept"
-    },
-    {
-      "term": "category",
-      "gloss": "One of the basic kinds of being Aristotle distinguishes — substance, quality, quantity, relation, time, place, and so on. 'Good' is said in every category, which is why it can't be one single thing.",
-      "kind": "concept",
-      "aliases": [
-        "categories",
-        "the category of substance"
-      ]
-    },
-    {
-      "term": "analogy",
-      "gloss": "A likeness of relationships — as sight is to the body, intelligence is to the soul. Aristotle suggests the many goods may share their name by analogy rather than by a common Form.",
-      "kind": "concept"
-    },
-    {
-      "term": "external goods",
-      "gloss": "Goods outside the soul — wealth, friends, political power, good birth, good looks — that Aristotle says happiness also needs, as instruments and preconditions, though they are not its essence.",
-      "kind": "concept",
-      "aliases": [
-        "goods of the body",
-        "external prosperity"
-      ]
-    },
-    {
-      "term": "feelings",
-      "gloss": "The passions or emotions — appetite, anger, fear, confidence, envy, joy, pity, and the like — anything attended by pleasure or pain. Aristotle distinguishes these from the capacities and states of the soul.",
-      "kind": "concept",
-      "aliases": [
-        "feeling",
-        "passions",
-        "passion"
-      ]
-    },
-    {
-      "term": "capacity",
-      "gloss": "A bare ability — what we have in us that makes us able to feel anger, fear, pity, and so on. Aristotle argues virtue is not a capacity, since we are not praised merely for being able to feel things.",
-      "kind": "concept",
-      "aliases": [
-        "capacities"
-      ]
-    },
-    {
-      "term": "state",
-      "gloss": "A settled condition or disposition of character (Greek hexis) by which we stand well or badly toward our feelings. Aristotle concludes virtue is a state of this kind.",
-      "kind": "concept",
-      "aliases": [
-        "states",
-        "settled state",
-        "settled states",
-        "settled disposition",
-        "disposition",
-        "dispositions"
-      ]
-    },
-    {
-      "term": "courage",
-      "gloss": "The virtue that is a mean regarding fear and confidence — standing firm in the right way before the right dangers, above all a noble death in war, for the sake of what is noble.",
-      "kind": "concept",
-      "aliases": [
-        "brave",
-        "the brave man",
-        "bravery",
-        "braver",
-        "bravest"
-      ]
-    },
-    {
-      "term": "reckless",
-      "gloss": "The excess opposed to courage: showing too much confidence and too little fear, often a boaster who fails when real danger comes.",
-      "kind": "word",
-      "aliases": [
-        "recklessness",
-        "rash"
-      ]
-    },
-    {
-      "term": "coward",
-      "gloss": "The deficiency opposed to courage: feeling too much fear and too little confidence, fleeing what one should face.",
-      "kind": "word",
-      "aliases": [
-        "cowardice",
-        "cowards",
-        "cowardly"
-      ]
-    },
-    {
-      "term": "temperance",
-      "gloss": "Self-mastery — the virtue that is a mean concerning bodily pleasures (chiefly of touch and taste), wanting the right things in the right amount at the right time, in line with reason.",
-      "kind": "concept",
-      "aliases": [
-        "temperate",
-        "self-control",
-        "self-controlled",
-        "self-mastery"
-      ]
-    },
-    {
-      "term": "dissipation",
-      "gloss": "The excess opposed to temperance — over-indulgence in bodily pleasures. Also called self-indulgence.",
-      "kind": "word",
-      "aliases": [
-        "dissipated",
-        "self-indulgence",
-        "self-indulgent",
-        "dissolute"
-      ]
-    },
-    {
-      "term": "insensible",
-      "gloss": "Aristotle's coined name for the (almost nonexistent) deficiency opposed to temperance: a person who takes too little or no pleasure in things, numb to ordinary enjoyments.",
-      "kind": "word",
-      "aliases": [
-        "insensibility",
-        "insensible blank"
-      ]
-    },
-    {
-      "term": "boor",
-      "gloss": "A coarse, charmless person — used both for the man who shrinks from all pleasure and, in social life, for the man who can neither make nor take a joke (the deficiency opposed to wit).",
-      "kind": "word",
-      "aliases": [
-        "boorish",
-        "boorishness"
-      ]
-    },
-    {
-      "term": "generosity",
-      "gloss": "The virtue that is a mean in the giving and taking of money on the ordinary scale — giving the right amounts to the right people for the sake of what is fine, and gladly.",
-      "kind": "concept",
-      "aliases": [
-        "generous",
-        "the generous person",
-        "the generous man"
-      ]
-    },
-    {
-      "term": "wastefulness",
-      "gloss": "The excess opposed to generosity — giving and spending beyond one's means, ruining one's own resources. The Greek root means destroying oneself by one's own doing.",
-      "kind": "word",
-      "aliases": [
-        "wasteful",
-        "the wasteful person",
-        "the wasteful man"
-      ]
-    },
-    {
-      "term": "stinginess",
-      "gloss": "The deficiency opposed to generosity — caring too much about money, giving too little and grasping too much. Aristotle calls it the harder vice to cure.",
-      "kind": "word",
-      "aliases": [
-        "stingy",
-        "the stingy man",
-        "the stingy person",
-        "close-fisted",
-        "skinflint"
-      ]
-    },
-    {
-      "term": "magnificence",
-      "gloss": "The virtue of fitting expenditure on a grand scale (Greek megaloprepeia) — large, tasteful spending on great public or honorable objects, like funding a chorus or fitting out a warship.",
-      "kind": "concept",
-      "aliases": [
-        "magnificent",
-        "the magnificent person",
-        "the magnificent man"
-      ]
-    },
-    {
-      "term": "gaudiness",
-      "gloss": "The excess opposed to magnificence — vulgar, showy overspending on the wrong objects, flaunting wealth to be admired.",
-      "kind": "word",
-      "aliases": [
-        "tastelessness",
-        "vulgar display",
-        "gaudy"
-      ]
-    },
-    {
-      "term": "shabbiness",
-      "gloss": "The deficiency opposed to magnificence — coming up short and spoiling a grand effort for the want of some small expense; also called pettiness.",
-      "kind": "word",
-      "aliases": [
-        "shabby",
-        "the shabby man",
-        "pettiness"
-      ]
-    },
-    {
-      "term": "greatness of soul",
-      "gloss": "The virtue (Greek megalopsychia, also 'magnanimity') of the person who rightly thinks himself worthy of great things — chiefly great honor — and bears himself accordingly; a kind of crown on the other excellences.",
-      "kind": "concept",
-      "aliases": [
-        "great-souled",
-        "the great-souled person",
-        "the great-souled man",
-        "magnanimity"
-      ]
-    },
-    {
-      "term": "vanity",
-      "gloss": "The excess opposed to greatness of soul — thinking oneself worthy of great things without actually being so.",
-      "kind": "word",
-      "aliases": [
-        "vain",
-        "the vain person",
-        "the vain man"
-      ]
-    },
-    {
-      "term": "smallness of soul",
-      "gloss": "The deficiency opposed to greatness of soul — thinking oneself worthy of less than one really deserves, and so holding back from fine actions.",
-      "kind": "word",
-      "aliases": [
-        "little-souled",
-        "the little-souled person",
-        "smallness",
-        "little-souledness"
-      ]
-    },
-    {
-      "term": "ambition",
-      "gloss": "On the small scale of honor, the excess: reaching for honor more than one should and from the wrong sources. Aristotle notes the word is sometimes used in praise, sometimes in blame.",
-      "kind": "word",
-      "aliases": [
-        "ambitious",
-        "the ambitious person",
-        "the ambitious man"
-      ]
-    },
-    {
-      "term": "unambitious",
-      "gloss": "On the small scale of honor, the deficiency: not even wanting honor for fine things.",
-      "kind": "word",
-      "aliases": [
-        "the unambitious person",
-        "the unambitious man"
-      ]
-    },
-    {
-      "term": "even temper",
-      "gloss": "The virtue that is a mean concerning anger (also called mildness) — being angry at the right things, with the right people, in the right way and time.",
-      "kind": "concept",
-      "aliases": [
-        "even-tempered",
-        "mildness",
-        "mild",
-        "the mild person"
-      ]
-    },
-    {
-      "term": "irascibility",
-      "gloss": "The excess opposed to even temper — being too quick to anger, at the wrong things and people; hot temper.",
-      "kind": "word",
-      "aliases": [
-        "hot-tempered",
-        "hot temper",
-        "irascible",
-        "choleric",
-        "bad-tempered",
-        "bitter"
-      ]
-    },
-    {
-      "term": "spiritless",
-      "gloss": "The deficiency opposed to even temper — failing to feel anger at things one should be angry about; a lack of spirit.",
-      "kind": "word",
-      "aliases": [
-        "lack of spirit",
-        "spiritlessness"
-      ]
-    },
-    {
-      "term": "truthfulness",
-      "gloss": "The virtue of being straightforward about oneself — owning what is yours and making it neither more nor less than it is. The mean between boastfulness and false modesty.",
-      "kind": "concept",
-      "aliases": [
-        "truthful",
-        "the truthful person"
-      ]
-    },
-    {
-      "term": "boastfulness",
-      "gloss": "The excess opposed to truthfulness — claiming qualities and credit one does not have, or to a greater degree than one has.",
-      "kind": "word",
-      "aliases": [
-        "boaster",
-        "boastfulness",
-        "braggart",
-        "boastful"
-      ]
-    },
-    {
-      "term": "self-deprecation",
-      "gloss": "The deficiency opposed to truthfulness — playing down or disowning one's real qualities; ironic understatement, as Socrates practiced. Also called irony or false modesty.",
-      "kind": "word",
-      "aliases": [
-        "self-deprecating",
-        "irony",
-        "false-modest",
-        "false modesty",
-        "false-modesty"
-      ]
-    },
-    {
-      "term": "wit",
-      "gloss": "The virtue of good taste in humor and amusement — knowing the right thing to say and to laugh at; a kind of nimbleness of character. The mean between buffoonery and boorishness.",
-      "kind": "concept",
-      "aliases": [
-        "witty",
-        "the witty person",
-        "tact",
-        "tactful"
-      ]
-    },
-    {
-      "term": "buffoonery",
-      "gloss": "The excess opposed to wit — overdoing the laughable, grabbing for a laugh at any cost and any target.",
-      "kind": "word",
-      "aliases": [
-        "buffoon",
-        "buffoons"
-      ]
-    },
-    {
-      "term": "friendliness",
-      "gloss": "The virtue that is a mean in social life — pleasant and agreeable with others as one should be, but guided by what is fine and beneficial rather than by affection.",
-      "kind": "concept",
-      "aliases": [
-        "friendly",
-        "the friendly person"
-      ]
-    },
-    {
-      "term": "obsequious",
-      "gloss": "The excess opposed to friendliness when done from no further motive — out to please at all costs, agreeing to everything. (When done to get something, it is flattery.)",
-      "kind": "word",
-      "aliases": [
-        "obsequiousness",
-        "flatterer",
-        "flatterers",
-        "flattery"
-      ]
-    },
-    {
-      "term": "quarrelsome",
-      "gloss": "The deficiency opposed to friendliness — contrary and unpleasant in everything, opposing whatever is said with no care for the pain it causes.",
-      "kind": "word",
-      "aliases": [
-        "contrary"
-      ]
-    },
-    {
-      "term": "modesty",
-      "gloss": "A fitting sense of shame — felt as the mean between shamelessness and being overwhelmed by shame at everything. Aristotle calls it a praiseworthy feeling rather than a true virtue, and one that suits the young.",
-      "kind": "concept",
-      "aliases": [
-        "modest",
-        "the modest person",
-        "shame",
-        "sense of shame"
-      ]
-    },
-    {
-      "term": "shameless",
-      "gloss": "Feeling no shame at all, even at disgraceful acts — the excess on the side of too little shame.",
-      "kind": "word",
-      "aliases": [
-        "shamelessness"
-      ]
-    },
-    {
-      "term": "righteous indignation",
-      "gloss": "Being pained at someone's undeserved good fortune — a mean feeling Aristotle places between envy (pained at anyone's good fortune) and spite (pleased at others' misfortune).",
-      "kind": "concept"
-    },
-    {
-      "term": "envy",
-      "gloss": "Being pained at the good fortune of others, deserved or not — the excess opposed to righteous indignation.",
-      "kind": "word",
-      "aliases": [
-        "envious",
-        "the envious man"
-      ]
-    },
-    {
-      "term": "spite",
-      "gloss": "Actually rejoicing at the misfortune of others — the deficiency (in feeling pain) opposed to righteous indignation.",
-      "kind": "word",
-      "aliases": [
-        "spiteful",
-        "the spiteful man"
-      ]
-    },
-    {
-      "term": "justice",
-      "gloss": "Used in two senses: complete virtue as exercised toward others (lawfulness), and a particular virtue (fairness, the equal) governing distribution and exchange. Aristotle treats it as a mean — aiming at the equal share.",
-      "kind": "concept",
-      "aliases": [
-        "just",
-        "the just",
-        "the just man",
-        "justly",
-        "acting justly"
-      ]
-    },
-    {
-      "term": "injustice",
-      "gloss": "The vice opposed to justice — either complete vice toward others (lawbreaking) or the particular fault of grasping for more than one's fair share (the unequal).",
-      "kind": "concept",
-      "aliases": [
-        "unjust",
-        "the unjust man",
-        "unjustly",
-        "acting unjustly",
-        "the unjust"
-      ]
-    },
-    {
-      "term": "distributive justice",
-      "gloss": "The kind of particular justice that divides honor, money, or other goods among members of a community in proportion to merit — a geometric proportion, equals getting equal shares.",
-      "kind": "concept",
-      "aliases": [
-        "the just in distribution",
-        "just distribution"
-      ]
-    },
-    {
-      "term": "corrective justice",
-      "gloss": "The kind of particular justice that sets right private dealings between two people, restoring equality by an arithmetic mean — the judge takes from the gainer and gives back to the loser.",
-      "kind": "concept",
-      "aliases": [
-        "the corrective just",
-        "corrective"
-      ]
-    },
-    {
-      "term": "reciprocity",
-      "gloss": "Being done to as you have done — proposed by the Pythagoreans as the whole of justice. Aristotle accepts it, by proportion, as what binds a community together in exchange, but denies it captures all justice.",
-      "kind": "concept",
-      "aliases": [
-        "proportionate give-and-take",
-        "give-and-take"
-      ]
-    },
-    {
-      "term": "proportion",
-      "gloss": "Equality of ratios — the mathematical heart of Aristotle's account of justice. Distributive justice follows geometric proportion; corrective justice follows arithmetic proportion.",
-      "kind": "concept",
-      "aliases": [
-        "proportional",
-        "proportionate",
-        "geometric proportion",
-        "arithmetic proportion",
-        "geometric",
-        "arithmetic"
-      ]
-    },
-    {
-      "term": "demand",
-      "gloss": "The mutual need people have for each other's goods — what Aristotle says truly makes things comparable and holds all exchange together; money is the agreed stand-in for it.",
-      "kind": "concept",
-      "aliases": [
-        "need",
-        "the need people have"
-      ]
-    },
-    {
-      "term": "money",
-      "gloss": "The common measure (Greek nomisma) that makes all goods comparable and stands in for demand. Aristotle stresses it has its value by custom or law (nomos), not by nature, so its value can be changed.",
-      "kind": "thing",
-      "aliases": [
-        "nomisma",
-        "coin",
-        "mina",
-        "minae"
-      ]
-    },
-    {
-      "term": "equity",
-      "gloss": "The corrective of strict legal justice (Greek epieikeia) — a fairer ruling for a particular case the general law could not foresee. Aristotle says the equitable man is willing to take less than his legal due.",
-      "kind": "concept",
-      "aliases": [
-        "equitable",
-        "the equitable",
-        "the equitable man"
-      ]
-    },
-    {
-      "term": "voluntary",
-      "gloss": "An action whose source is in the agent himself, who knows the particular circumstances — done neither under outside compulsion nor in ignorance. Only voluntary acts earn praise or blame.",
-      "kind": "concept",
-      "aliases": [
-        "voluntarily",
-        "voluntariness"
-      ]
-    },
-    {
-      "term": "involuntary",
-      "gloss": "An action done under compulsion (its source outside the agent) or out of ignorance of the particulars, and regretted afterward. Such acts are excused, pitied, or forgiven rather than blamed.",
-      "kind": "concept",
-      "aliases": [
-        "involuntarily",
-        "non-voluntary"
-      ]
-    },
-    {
-      "term": "compulsion",
-      "gloss": "Force whose source lies outside the agent, who contributes nothing to it — strictly, something one undergoes rather than does, like being carried off by a wind. One of the two grounds that make an act involuntary.",
-      "kind": "concept",
-      "aliases": [
-        "compulsory",
-        "compelled",
-        "under compulsion"
-      ]
-    },
-    {
-      "term": "choice",
-      "gloss": "Deliberate preference (Greek prohairesis) — the voluntary thing one has thought through and settled on beforehand, after deliberation, aimed at what is in one's power. Aristotle ties it more closely to character than action itself.",
-      "kind": "concept",
-      "aliases": [
-        "choose",
-        "deliberate choice",
-        "prohairesis",
-        "chooses",
-        "chosen"
-      ]
-    },
-    {
-      "term": "deliberation",
-      "gloss": "Weighing out how to reach an end — the reasoning, about things in our own power and uncertain in outcome, that precedes choice. We deliberate about means, not about ends.",
-      "kind": "concept",
-      "aliases": [
-        "deliberate",
-        "deliberates",
-        "deliberating"
-      ]
-    },
-    {
-      "term": "wish",
-      "gloss": "A wanting aimed at the end rather than the means (Greek boulesis) — we can even wish for the impossible. Its true object is the genuine good, though to each person it is whatever strikes him as good.",
-      "kind": "concept",
-      "aliases": [
-        "wishes",
-        "wishing"
-      ]
-    },
-    {
-      "term": "appetite",
-      "gloss": "Bodily craving or desire — the part of the non-rational soul that can listen to reason. Acting from appetite alone, against choice, is the mark of the person who lacks self-control.",
-      "kind": "concept",
-      "aliases": [
-        "appetites",
-        "craving",
-        "cravings",
-        "desire",
-        "desires"
-      ]
-    },
-    {
-      "term": "right reason",
-      "gloss": "Correct rational judgment about how to act — the standard virtue of character keeps in step with. The person of practical wisdom is the one who defines where the mean lies.",
-      "kind": "concept",
-      "aliases": [
-        "reason",
-        "as reason directs",
-        "right reason directs"
-      ]
-    },
-    {
-      "term": "lack of self-control",
-      "gloss": "The condition of acting from appetite against one's own better judgment — knowing the right thing but doing otherwise. Aristotle distinguishes it sharply from full vice and promises a later treatment.",
-      "kind": "concept",
-      "aliases": [
-        "lacks self-control",
-        "the man who lacks self-control",
-        "uncontrolled",
-        "without self-control"
-      ]
-    },
-    {
-      "term": "the vegetative part",
-      "gloss": "The lowest part of the soul, shared with plants — the cause of nutrition and growth, having no share in reason and no part in human excellence. Most active in sleep.",
-      "kind": "concept",
-      "aliases": [
-        "vegetative",
-        "nutritive part",
-        "the nutritive part",
-        "the life of nutrition"
-      ]
-    },
-    {
-      "term": "intellectual virtue",
-      "gloss": "Excellence of the reasoning part of the soul — theoretical wisdom, understanding, and practical wisdom — owing its growth mainly to teaching. Contrasted with virtue of character.",
-      "kind": "concept",
-      "aliases": [
-        "intellectual virtues",
-        "intellectual excellences",
-        "excellence of intellect",
-        "excellence of the intellect"
-      ]
-    },
-    {
-      "term": "virtue of character",
-      "gloss": "Excellence of the non-rational-but-reason-obeying part of the soul — generosity, temperance, courage, and the rest — formed by habit. The Greek word for it (ethos) is a slight inflection of the word for habit.",
-      "kind": "concept",
-      "aliases": [
-        "excellence of character",
-        "virtues of character",
-        "moral virtue",
-        "moral virtues"
-      ]
-    },
-    {
-      "term": "the noble",
-      "gloss": "What is fine, beautiful, or admirable in conduct (Greek kalon) — the end for the sake of which the person of virtue acts. Often rendered 'fine.'",
-      "kind": "concept",
-      "aliases": [
-        "noble",
-        "the fine",
-        "fine",
-        "what is noble",
-        "what is fine"
-      ]
-    },
-    {
-      "term": "the base",
-      "gloss": "What is shameful, disgraceful, or low in conduct — the opposite of the noble, and what virtue refrains from for its own sake.",
-      "kind": "concept",
-      "aliases": [
-        "base",
-        "shameful",
-        "disgraceful",
-        "disgrace",
-        "the shameful"
-      ]
-    },
-    {
-      "term": "natural justice",
-      "gloss": "The part of political justice that has the same force everywhere and does not depend on people's accepting it — as opposed to conventional justice, which is fixed by agreement or decree.",
-      "kind": "concept",
-      "aliases": [
-        "natural",
-        "by nature",
-        "exists by nature"
-      ]
-    },
-    {
-      "term": "conventional justice",
-      "gloss": "The part of political justice that could have been set up otherwise and is binding only because it has been laid down — like a fixed ransom or a particular decreed sacrifice.",
-      "kind": "concept",
-      "aliases": [
-        "conventional",
-        "convention",
-        "by custom",
-        "by agreement"
-      ]
-    },
-    {
-      "term": "political justice",
-      "gloss": "Justice as it holds among free and equal people who share a common life under law, with a view to self-sufficiency. Distinguished from the merely resembling justice within a household.",
-      "kind": "concept",
-      "aliases": [
-        "the political just",
-        "household justice"
-      ]
-    },
-    {
-      "term": "constitution",
-      "gloss": "The form of government or political order of a community. Aristotle notes that a good constitution differs from a bad one precisely in how well its laws habituate citizens to be good.",
-      "kind": "concept",
-      "aliases": [
-        "constitutions"
-      ]
-    },
-    {
-      "term": "lawgiver",
-      "gloss": "One who frames the laws of a community, aiming to make the citizens good by habituation. Aristotle treats good lawgiving as the practical point of the study of virtue.",
-      "kind": "person",
-      "aliases": [
-        "lawgivers",
-        "lawmaker",
-        "lawmakers"
-      ]
-    },
-    {
-      "term": "Plato",
-      "gloss": "Aristotle's teacher and the founder of the Academy. Aristotle cites his question about the right direction of inquiry and respectfully rejects his theory of Forms — 'both our friends and the truth are dear to us, but it is right to honor the truth first.'",
-      "kind": "person"
-    },
-    {
-      "term": "Hesiod",
-      "gloss": "Early Greek poet, author of the Works and Days, quoted by Aristotle for the verdict that the best man works things out for himself, the next-best heeds good advice, and the man who does neither is useless.",
-      "kind": "person"
-    },
-    {
-      "term": "Solon",
-      "gloss": "The Athenian lawgiver and sage, famous for the saying — discussed by Aristotle — that one should 'look to the end' and call no one happy until his life is complete.",
-      "kind": "person"
-    },
-    {
-      "term": "Homer",
-      "gloss": "The poet of the Iliad and Odyssey, quoted repeatedly by Aristotle — for Calypso's advice, the elders of Troy, the speeches of Hector and Diomedes, and the exchange of armor between Glaucus and Diomedes.",
-      "kind": "person"
-    },
-    {
-      "term": "Priam",
-      "gloss": "The aged king of Troy in Homer, whose downfall from great prosperity to ruin in old age Aristotle cites as proof that no one can be called happy who ends his life in misery.",
-      "kind": "person"
-    },
-    {
-      "term": "Pythagoreans",
-      "gloss": "Followers of Pythagoras, cited by Aristotle for placing 'the One' in their column of goods, for the idea that bad belongs to the unlimited and good to the limited, and for defining justice as bare reciprocity.",
-      "kind": "people",
-      "aliases": [
-        "Pythagorean"
-      ]
-    },
-    {
-      "term": "Speusippus",
-      "gloss": "Plato's nephew and successor as head of the Academy, mentioned as having followed the Pythagoreans in his account of the good.",
-      "kind": "person"
-    },
-    {
-      "term": "Eudoxus",
-      "gloss": "A mathematician and philosopher associated with Plato's Academy, cited by Aristotle as having argued well that pleasure deserves the highest prize, since it is not praised but is itself a standard.",
-      "kind": "person"
-    },
-    {
-      "term": "Sardanapalus",
-      "gloss": "A legendary Assyrian king proverbial for a life of luxury and sensual indulgence — Aristotle's example of the powerful people who share the masses' taste for a life of pleasure.",
-      "kind": "person"
-    },
-    {
-      "term": "Heraclitus",
-      "gloss": "The early Greek philosopher, quoted by Aristotle for the saying that it is harder to fight pleasure than to fight anger.",
-      "kind": "person"
-    },
-    {
-      "term": "Milo",
-      "gloss": "Milo of Croton, a famously powerful wrestler — Aristotle's example that the right amount of food (the mean relative to us) differs from person to person: six pounds is too little for Milo, too much for a beginner.",
-      "kind": "person"
-    },
-    {
-      "term": "Calypso",
-      "gloss": "The nymph in Homer's Odyssey whose advice — 'keep the ship clear of this spray and surge' — Aristotle borrows to illustrate steering away from the worse of two extremes.",
-      "kind": "person"
-    },
-    {
-      "term": "Helen",
-      "gloss": "Helen of Troy, whose beauty the elders of Troy feared; Aristotle says we should feel toward pleasure as those elders felt toward her, and send it away.",
-      "kind": "person"
-    },
-    {
-      "term": "Euripides",
-      "gloss": "The Athenian tragic poet, cited by Aristotle for putting absurd pleas of compulsion in the mouth of Alcmaeon, and for the puzzle about being killed willingly or unwillingly.",
-      "kind": "person"
-    },
-    {
-      "term": "Alcmaeon",
-      "gloss": "A figure of Greek tragedy who killed his own mother; Aristotle calls the excuse of compulsion Euripides gives him simply absurd, since some acts should never be done whatever the threat.",
-      "kind": "person"
-    },
-    {
-      "term": "Aeschylus",
-      "gloss": "The Athenian tragic poet, mentioned for the report that he revealed something of the Mysteries without knowing it was forbidden — an example of acting in ignorance of a particular.",
-      "kind": "person"
-    },
-    {
-      "term": "Merope",
-      "gloss": "A figure of Greek tragedy who nearly killed her own son, mistaking him for an enemy — Aristotle's example of acting in ignorance of who one is acting on.",
-      "kind": "person"
-    },
-    {
-      "term": "Socrates",
-      "gloss": "The Athenian philosopher, cited by Aristotle for the view that courage is a kind of knowledge, and for his habitual ironic self-deprecation, disowning the qualities people admired in him.",
-      "kind": "person"
-    },
-    {
-      "term": "Diomedes",
-      "gloss": "A Greek hero of Homer's Iliad, cited as an example of the citizen's courage — acting from a sense of shame and honor — and for receiving Glaucus's gold armor in exchange for bronze.",
-      "kind": "person"
-    },
-    {
-      "term": "Hector",
-      "gloss": "The leading Trojan warrior in Homer's Iliad, quoted by Aristotle for facing battle out of fear of Polydamas's reproach — an example of the citizen's courage rooted in shame.",
-      "kind": "person"
-    },
-    {
-      "term": "Glaucus",
-      "gloss": "A Trojan ally in Homer's Iliad who exchanged his gold armor for Diomedes's bronze — 'the worth of a hundred oxen for the worth of nine.' Aristotle's example that giving away your own is not being treated unjustly.",
-      "kind": "person"
-    },
-    {
-      "term": "Thetis",
-      "gloss": "The sea-goddess and mother of Achilles in Homer; Aristotle notes that when she appeals to Zeus she recalls only the favors she has done him, like a great-souled person.",
-      "kind": "god"
-    },
-    {
-      "term": "Zeus",
-      "gloss": "The chief of the Greek gods; Aristotle mentions Thetis's appeal to him as an example of recalling favors done rather than received.",
-      "kind": "god"
-    },
-    {
-      "term": "the Graces",
-      "gloss": "Greek goddesses of grace and favor (Charites); Aristotle notes that their temple stands in the public square to remind people to return a kindness.",
-      "kind": "god",
-      "aliases": [
-        "Graces"
-      ]
-    },
-    {
-      "term": "the Mysteries",
-      "gloss": "Secret religious rites (such as those at Eleusis) that it was forbidden to speak of; Aristotle cites a man who revealed something of them in ignorance of the prohibition.",
-      "kind": "thing",
-      "aliases": [
-        "Mysteries"
-      ]
-    },
-    {
-      "term": "Delos",
-      "gloss": "The sacred Aegean island, site of a temple whose inscription Aristotle quotes — 'Justice is noblest, health is best, but to get what you long for is sweetest' — to argue the three belong together in happiness.",
-      "kind": "place"
-    },
-    {
-      "term": "Sparta",
-      "gloss": "The Greek city-state famous for its lawgivers; Aristotle cites the Spartan (and Cretan) lawgivers as models of statesmen who aimed to make citizens good, and notes the studied plainness of Spartan dress.",
-      "kind": "place",
-      "aliases": [
-        "Spartans",
-        "Spartan"
-      ]
-    },
-    {
-      "term": "Crete",
-      "gloss": "The Greek island whose lawgivers Aristotle names, alongside Sparta's, as examples of those who took pains to make the citizens good and law-abiding.",
-      "kind": "place",
-      "aliases": [
-        "Cretans",
-        "Cretan"
-      ]
-    },
-    {
-      "term": "Scythians",
-      "gloss": "A people north of the Greek world; Aristotle's example that no Spartan deliberates about the best constitution for them, since it is not in his power.",
-      "kind": "people"
-    },
-    {
-      "term": "Celts",
-      "gloss": "A northern people of whom it was said they feared nothing, not even earthquakes or the high seas — Aristotle's example of fearlessness so extreme it would be madness rather than courage.",
-      "kind": "people"
-    },
-    {
-      "term": "Argives",
-      "gloss": "The people of Argos; Aristotle cites them running from the Spartans, whom they had mistaken for the men of Sicyon — an example of false courage collapsing once ignorance is dispelled.",
-      "kind": "people"
-    },
-    {
-      "term": "Lesbos",
-      "gloss": "A Greek island whose builders used a flexible leaden ruler that bends to each stone; Aristotle makes it the image of equity, which bends a general law to fit the particular case.",
-      "kind": "place"
-    },
-    {
-      "term": "Rhadamanthus",
-      "gloss": "A figure of Greek myth proverbial for justice, quoted for the line 'If a man should suffer what he did, that would be straight justice' — used to introduce the idea of reciprocity.",
-      "kind": "person"
-    },
-    {
-      "term": "Bias",
-      "gloss": "One of the legendary Seven Sages of Greece, quoted for the saying that 'office will show the man' — because holding office forces a person into dealings with others.",
-      "kind": "person"
-    },
-    {
-      "term": "Simonides",
-      "gloss": "A Greek lyric poet associated with a reputation for valuing money; Aristotle says the generous person 'has no taste for the saying of Simonides.'",
-      "kind": "person"
-    },
-    {
-      "term": "Brasidas",
-      "gloss": "A Spartan general later honored with sacrifices as a hero; Aristotle cites the sacrifice in his honor as an example of conventional (decreed) justice.",
-      "kind": "person"
-    },
-    {
-      "term": "hellebore",
-      "gloss": "A plant used in ancient medicine as a powerful purgative; Aristotle lists it among the remedies a doctor must know how to apply — the knowing-how being the real art.",
-      "kind": "thing"
-    },
-    {
-      "term": "cautery",
-      "gloss": "The medical practice of burning tissue to treat a wound or disease; Aristotle lists it among the doctor's remedies whose right application is the whole work of medicine.",
-      "kind": "thing"
-    },
-    {
-      "term": "pleurisy",
-      "gloss": "An inflammation in the chest, used by Aristotle as an example of a serious bodily evil that a doctor ranks above a mere bruise.",
-      "kind": "thing"
-    },
-    {
-      "term": "tyrant",
-      "gloss": "A ruler who governs in his own interest rather than as guardian of the just; Aristotle says a man left to rule unchecked turns into one, which is why reason, not a man, should rule.",
-      "kind": "concept",
-      "aliases": [
-        "tyrants"
-      ]
-    },
-    {
-      "term": "Pericles",
-      "gloss": "The leading Athenian statesman, a standard example in this tradition of practical wisdom in public life. (Named here as a representative figure of statecraft.)",
-      "kind": "person"
-    },
-    {
-      "term": "blessed",
-      "gloss": "Supremely happy and fortunate, the condition Aristotle ascribes to the gods and to those who come nearest them; a stronger word than 'happy,' marking something godlike rather than merely praiseworthy.",
-      "kind": "word",
-      "aliases": [
-        "blessedness"
-      ]
-    },
-    {
-      "term": "foursquare",
-      "gloss": "Solid and steady on all sides; Aristotle quotes the phrase 'foursquare without reproach' for the good person who bears the chances of life nobly.",
-      "kind": "word"
-    },
-    {
-      "term": "rhetoric",
-      "gloss": "The art of persuasive speech, named by Aristotle among the esteemed capacities that fall under statecraft.",
-      "kind": "concept"
-    },
-    {
-      "term": "the unequal",
-      "gloss": "Aristotle's name for what the unjust man grasps — taking more (or, with evils, less) than a fair, proportional share. The wider term covering both lawbreaking and grasping.",
-      "kind": "concept",
-      "aliases": [
-        "unequal",
-        "the equal",
-        "equal"
-      ]
-    },
-    {
-      "term": "philosophic wisdom",
-      "gloss": "The highest form of knowledge (Greek sophia): intuitive understanding of first principles joined with scientific knowledge of what follows from them, trained on the highest and most divine things. Distinct from practical wisdom, which deals with human action.",
-      "kind": "concept",
-      "aliases": [
-        "wisdom"
-      ]
-    },
-    {
-      "term": "intuitive understanding",
-      "gloss": "The faculty (Greek nous) that directly grasps the first principles on which all reasoning rests — the starting points that cannot themselves be proved by demonstration. It also takes in the last particular in matters of action.",
-      "kind": "concept",
-      "aliases": [
-        "understanding",
-        "intellect"
-      ]
-    },
-    {
-      "term": "scientific knowledge",
-      "gloss": "Knowledge in the strict sense (Greek episteme): a settled grasp, reached by demonstration, of what holds of necessity and cannot be otherwise. Because its objects are eternal and unchanging, it can be taught and learned.",
-      "kind": "concept"
-    },
-    {
-      "term": "craft",
-      "gloss": "A reasoned, settled skill for making things (Greek techne) — building, sculpting, and the like. Its end is always the thing produced, which sets it apart from action, whose end is acting well itself.",
-      "kind": "concept",
-      "aliases": [
-        "crafts",
-        "craftsman",
-        "craftsmen"
-      ]
-    },
-    {
-      "term": "deliberate",
-      "gloss": "To reason out how to reach a chosen end in matters that could turn out otherwise. We never deliberate about what is fixed and necessary, only about things within reach of our own action.",
-      "kind": "concept",
-      "aliases": [
-        "deliberation",
-        "deliberating",
-        "deliberates",
-        "deliberated"
-      ]
-    },
-    {
-      "term": "deduction",
-      "gloss": "Reasoning that works out the consequences that follow from already-known starting points, as in a logical proof.",
-      "kind": "concept"
-    },
-    {
-      "term": "the Analytics",
-      "gloss": "Aristotle's own logical treatises (the Prior and Posterior Analytics), referred to here for his detailed account of demonstration and scientific knowledge.",
-      "kind": "thing"
-    },
-    {
-      "term": "cleverness",
-      "gloss": "A morally neutral knack for hitting whatever aim you set yourself. When the aim is fine it is praiseworthy; when base it is mere unscrupulousness. Practical wisdom requires it but is not the same thing.",
-      "kind": "concept"
-    },
-    {
-      "term": "natural virtue",
-      "gloss": "The raw inclinations toward justice, courage, and self-mastery that people seem to have from birth. Without intelligence to guide them they can be harmful; only joined with practical wisdom do they become full virtue.",
-      "kind": "concept"
-    },
-    {
-      "term": "self-mastery",
-      "gloss": "Used here for the Greek word sophrosyne (temperance), which Aristotle says literally means \"what preserves practical wisdom\" — the sound judgment about one's own true good that pleasure and pain can corrupt.",
-      "kind": "concept"
-    },
-    {
-      "term": "excellence of character",
-      "gloss": "Moral virtue: the settled state, formed by habit, that makes a person's choices and feelings right. It makes the aim right, while practical wisdom finds the means.",
-      "kind": "concept",
-      "aliases": [
-        "excellence of the soul",
-        "moral virtue",
-        "virtue of character"
-      ]
-    },
-    {
-      "term": "the calculating part",
-      "gloss": "The part of the rational soul that deliberates and reasons about things that can be otherwise — the seat of practical wisdom. Contrasted with the part that knows necessary, unchanging truths.",
-      "kind": "concept",
-      "aliases": [
-        "calculating",
-        "deliberative"
-      ]
-    },
-    {
-      "term": "the nutritive",
-      "gloss": "The lowest part of the soul, responsible only for nourishment and growth; it has no virtue of its own because nothing is in its power to do or leave undone.",
-      "kind": "concept"
-    },
-    {
-      "term": "settled state",
-      "gloss": "A stable, lasting disposition of character or mind (Greek hexis), as opposed to a fleeting feeling. Virtue and the intellectual excellences are settled states.",
-      "kind": "concept",
-      "aliases": [
-        "settled states",
-        "state of character",
-        "inner state"
-      ]
-    },
-    {
-      "term": "self-control",
-      "gloss": "The strength to master strong bad cravings and stand by what reason has worked out (Greek enkrateia). It differs from temperance, since the self-controlled man still feels the bad desires but refuses to act on them.",
-      "kind": "concept",
-      "aliases": [
-        "self-controlled"
-      ]
-    },
-    {
-      "term": "weakness of will",
-      "gloss": "The failure to act on what one knows is right, giving in to feeling against one's own better judgment (Greek akrasia). Aristotle's long analysis asks in what sense such a person \"knows\" the right thing.",
-      "kind": "concept",
-      "aliases": [
-        "weak-willed",
-        "lack of self-control",
-        "incontinence",
-        "incontinent"
-      ]
-    },
-    {
-      "term": "endurance",
-      "gloss": "The capacity to hold out under painful strain, set opposite to softness. Aristotle ranks it below self-control, since enduring is to mastery as not losing is to winning.",
-      "kind": "concept",
-      "aliases": [
-        "enduring"
-      ]
-    },
-    {
-      "term": "softness",
-      "gloss": "The failing of giving way to pain that ordinary people can bear — the counterpart of weakness of will, which gives way to pleasure.",
-      "kind": "concept",
-      "aliases": [
-        "soft"
-      ]
-    },
-    {
-      "term": "brutishness",
-      "gloss": "A subhuman, bestial condition that lies below ordinary vice — savage, diseased, or monstrous appetites. Aristotle treats it as different in kind from vice, not merely a worse degree.",
-      "kind": "concept",
-      "aliases": [
-        "brutish",
-        "brute",
-        "brutes",
-        "beast",
-        "beasts"
-      ]
-    },
-    {
-      "term": "self-indulgence",
-      "gloss": "A near relation of softness: the over-fondness for ease and amusement, like the man who will not lift his cloak from the mud rather than take the trouble.",
-      "kind": "concept",
-      "aliases": [
-        "self-indulgent"
-      ]
-    },
-    {
-      "term": "impulsive",
-      "gloss": "One of the two forms of weakness of will: being swept off by feeling so fast that one never even forms a resolution, found in the quick-tempered and the moody.",
-      "kind": "concept"
-    },
-    {
-      "term": "friendship",
-      "gloss": "The central subject of Books VIII–IX (Greek philia): a bond of mutual, mutually-known goodwill, ranging from ties of usefulness and pleasure up to the complete friendship between good people who wish each other well for their own sake.",
-      "kind": "concept",
-      "aliases": [
-        "friend",
-        "friends",
-        "friendships",
-        "friendly"
-      ]
-    },
-    {
-      "term": "goodwill",
-      "gloss": "Wishing another person well, even a stranger or someone unaware of it. Aristotle treats it as the seed of friendship — a kind of dormant or inactive friendship — but not yet friendship itself.",
-      "kind": "concept"
-    },
-    {
-      "term": "concord",
-      "gloss": "Civic friendship: a community's agreement about what is to its advantage, settling on the same policy and carrying it out together. More than mere shared opinion; it bears on action and exists chiefly among the good.",
-      "kind": "concept"
-    },
-    {
-      "term": "complete friendship",
-      "gloss": "Friendship in the fullest sense, between people who are good and alike in goodness, who wish each other well for the other's own sake. Lasting and rare, it requires time, trust, and shared life.",
-      "kind": "concept"
-    },
-    {
-      "term": "another self",
-      "gloss": "Aristotle's description of a true friend: someone toward whom you feel as you do toward yourself, so that all the marks of friendship flow out from a person's relation to himself.",
-      "kind": "concept"
-    },
-    {
-      "term": "self-love",
-      "gloss": "Loving oneself. Aristotle distinguishes the bad sense (grabbing the larger share of money, honor, and pleasure) from the good sense (the good man's gratifying the best, reasoning part of himself by doing what is noble).",
-      "kind": "concept",
-      "aliases": [
-        "self-lover",
-        "self-loving",
-        "self-lovers"
-      ]
-    },
-    {
-      "term": "self-sufficient",
-      "gloss": "Lacking nothing, complete in itself. Aristotle uses it of happiness and of contemplation, the activity that needs least from outside; he argues even the self-sufficient happy man still needs friends.",
-      "kind": "concept",
-      "aliases": [
-        "self-sufficiency",
-        "self-sufficient itself"
-      ]
-    },
-    {
-      "term": "intellect",
-      "gloss": "The thinking, reasoning part of a person (Greek nous), which Aristotle calls a man's true self and the source of action; its activity is contemplation and the highest happiness.",
-      "kind": "concept",
-      "aliases": [
-        "intelligence",
-        "the thinking part",
-        "mind"
-      ]
-    },
-    {
-      "term": "perception",
-      "gloss": "Sense-experience — seeing, hearing, touch, taste. Aristotle gives it a special role in practical wisdom, which must grasp the last particular by a kind of perception, not by reasoning alone.",
-      "kind": "concept",
-      "aliases": [
-        "perceive",
-        "perceiving"
-      ]
-    },
-    {
-      "term": "pleasure",
-      "gloss": "A major subject of Books VII and X. Aristotle argues it is not a process or a coming-to-be but the unimpeded, complete activity of a natural state — a \"bloom\" that completes an activity rather than a separate thing.",
-      "kind": "concept",
-      "aliases": [
-        "pleasures",
-        "pleasant"
-      ]
-    },
-    {
-      "term": "universal",
-      "gloss": "A general truth or rule that applies to many cases, as opposed to a particular fact. Aristotle notes a person can hold the universal yet fail in action by missing the particular.",
-      "kind": "concept",
-      "aliases": [
-        "universals"
-      ]
-    },
-    {
-      "term": "particular",
-      "gloss": "The individual fact or case that action is actually about (\"this food is dry,\" \"this is sweet\"). Practical wisdom and perception deal with particulars; scientific knowledge deals with universals.",
-      "kind": "concept",
-      "aliases": [
-        "particulars"
-      ]
-    },
-    {
-      "term": "syllogism",
-      "gloss": "A piece of reasoning that draws a conclusion from a universal premise and a particular one. Aristotle uses the \"practical syllogism\" to explain how desire can hijack action in weakness of will.",
-      "kind": "concept",
-      "aliases": [
-        "premise",
-        "premises",
-        "middle term",
-        "minor premise"
-      ]
-    },
-    {
-      "term": "timocracy",
-      "gloss": "A constitution in which rule and honors go by a property qualification — government by those who meet a wealth threshold. Aristotle ranks it the worst of the three sound constitutions; most people just call it a polity.",
-      "kind": "concept",
-      "aliases": [
-        "polity"
-      ]
-    },
-    {
-      "term": "aristocracy",
-      "gloss": "Rule by the best people, by merit; one of the three sound constitutions. Its corruption is oligarchy, where a few rule for wealth instead of worth.",
-      "kind": "concept"
-    },
-    {
-      "term": "oligarchy",
-      "gloss": "The corrupt form of aristocracy: rule by a few who keep the city's goods and offices for themselves and make wealth their idol.",
-      "kind": "concept",
-      "aliases": [
-        "oligarchies"
-      ]
-    },
-    {
-      "term": "kingship",
-      "gloss": "Rule by one self-sufficient, superior man who looks to his subjects' good; Aristotle's best constitution. Its corruption is tyranny.",
-      "kind": "concept"
-    },
-    {
-      "term": "tyranny",
-      "gloss": "The worst, most corrupt constitution: rule by one man who looks only to his own advantage rather than his subjects'. The opposite of true kingship.",
-      "kind": "concept",
-      "aliases": [
-        "tyrant",
-        "tyrants"
-      ]
-    },
-    {
-      "term": "democracy",
-      "gloss": "Government by the many; here treated as the corruption of timocracy, but the least bad of the three deviant constitutions since it departs least from its sound form.",
-      "kind": "concept",
-      "aliases": [
-        "democracies"
-      ]
-    },
-    {
-      "term": "deme",
-      "gloss": "A local district or township of ancient Athens; a unit of community within the city. Aristotle lists fellow-deme members among the kinds of associates who feel a degree of friendship.",
-      "kind": "thing"
-    },
-    {
-      "term": "faction",
-      "gloss": "Civil discord or partisan strife within a community — the enemy of concord that lawgivers most try to drive out.",
-      "kind": "concept"
-    },
-    {
-      "term": "sophist",
-      "gloss": "A paid professional teacher of rhetoric and supposed civic skill. Aristotle scorns the sophists for professing to teach statecraft while neither practicing nor understanding it.",
-      "kind": "people",
-      "aliases": [
-        "sophists",
-        "Sophists",
-        "sophistical"
-      ]
-    },
-    {
-      "term": "the supreme Good",
-      "gloss": "The chief or highest good — the final end for whose sake everything else is pursued. Aristotle identifies it with happiness and ultimately with the life of contemplation.",
-      "kind": "concept",
-      "aliases": [
-        "chief good",
-        "the chief good",
-        "the good"
-      ]
-    },
-    {
-      "term": "Anaxagoras",
-      "gloss": "A pre-Socratic philosopher famed for profound but \"useless\" knowledge. Aristotle calls him wise but not practically wise, and also cites his view that the happy man need be neither rich nor powerful.",
-      "kind": "person"
-    },
-    {
-      "term": "Thales",
-      "gloss": "An early pre-Socratic philosopher of Miletus, paired with Anaxagoras as a man of marvelous, superhuman knowledge that is not aimed at the human good.",
-      "kind": "person"
-    },
-    {
-      "term": "Phidias",
-      "gloss": "The great Athenian sculptor, cited as an example of \"wisdom\" in the sense of supreme excellence in a craft.",
-      "kind": "person"
-    },
-    {
-      "term": "Polyclitus",
-      "gloss": "A renowned Greek sculptor, paired with Phidias as a master craftsman — \"wise\" in the narrow sense of perfect skill in his art.",
-      "kind": "person",
-      "aliases": [
-        "Polyclitus a wise statue-maker"
-      ]
-    },
-    {
-      "term": "Margites",
-      "gloss": "A lost comic poem once attributed to Homer, about a foolish man good at nothing. Aristotle quotes it for the second, general sense of \"wise.\"",
-      "kind": "thing"
-    },
-    {
-      "term": "Agathon",
-      "gloss": "An Athenian tragic poet of the late fifth century BC, quoted twice: that not even a god can undo what is done, and that \"craft loves luck, and luck loves craft.\"",
-      "kind": "person"
-    },
-    {
-      "term": "Empedocles",
-      "gloss": "A pre-Socratic philosopher and poet. His verses are what passion-driven men recite without grasping; he is also cited for the view that like reaches for like.",
-      "kind": "person"
-    },
-    {
-      "term": "Phalaris",
-      "gloss": "A notoriously cruel tyrant of ancient Sicily, infamous for roasting victims in a bronze bull; Aristotle invokes him as an example of brutish, monstrous appetite.",
-      "kind": "person"
-    },
-    {
-      "term": "Neoptolemus",
-      "gloss": "A character in Sophocles' Philoctetes, praised for abandoning the lie Odysseus had talked him into because being truthful was, to him, the finer thing.",
-      "kind": "person"
-    },
-    {
-      "term": "Philoctetes",
-      "gloss": "The hero of Sophocles' play of that name (and of a play by Theodectes), used as an example of a man overcome by violent, extreme pain from a snakebite, whom we forgive for giving way.",
-      "kind": "person"
-    },
-    {
-      "term": "Sophocles",
-      "gloss": "The Athenian tragic dramatist whose play Philoctetes Aristotle cites for the figure of Neoptolemus refusing to keep a lie.",
-      "kind": "person"
-    },
-    {
-      "term": "Niobe",
-      "gloss": "A figure of Greek myth who boasted against the gods and was punished by the loss of her children; cited as an example of caring for one's children to an excessive, impious degree.",
-      "kind": "person"
-    },
-    {
-      "term": "Satyrus",
-      "gloss": "A man nicknamed \"father-lover\" for the foolish excess of his devotion to his father, cited as a case of overdoing a good thing.",
-      "kind": "person"
-    },
-    {
-      "term": "Aphrodite",
-      "gloss": "The Greek goddess of love and desire, called \"weaver of deceits,\" invoked to show that appetite, unlike open anger, is the sly and scheming thing.",
-      "kind": "god"
-    },
-    {
-      "term": "Endymion",
-      "gloss": "A figure of myth granted eternal sleep; Aristotle invokes him to argue that the gods cannot merely sleep their lives away but must be active — and their activity is contemplation.",
-      "kind": "person"
-    },
-    {
-      "term": "Anacharsis",
-      "gloss": "A legendary Scythian sage, quoted for the maxim that one should play in order to work afterward — amusement being rest taken for the sake of further work.",
-      "kind": "person"
-    },
-    {
-      "term": "Theognis",
-      "gloss": "An early Greek elegiac poet, quoted on the idea that virtue can be improved by living among the good, and that good arguments would deserve great rewards if they could by themselves make men good.",
-      "kind": "person"
-    },
-    {
-      "term": "Pittacus",
-      "gloss": "A ruler and one of the Seven Sages of ancient Greece, named as the example of a man a community might agree, in concord, should hold power.",
-      "kind": "person"
-    },
-    {
-      "term": "Protagoras",
-      "gloss": "A famous sophist who, after teaching, let the learner judge for himself what the knowledge was worth and accepted that as his fee; cited on how to set the rate for a benefit given first.",
-      "kind": "person"
-    },
-    {
-      "term": "Epicharmus",
-      "gloss": "A comic poet, cited for the cynical observation that people who explain benefactors' love in mean, self-interested terms are judging from their own meanness.",
-      "kind": "person"
-    },
-    {
-      "term": "Demodocus",
-      "gloss": "A poet quoted for his gibe at the Milesians — that they are not fools but do the kind of things fools do — used to show the weak-willed do unjust things without being unjust by nature.",
-      "kind": "person"
-    },
-    {
-      "term": "Evenus",
-      "gloss": "A poet quoted for the line that long practice in the end becomes a man's own nature, on how habit grows hard to change as it grows close to nature.",
-      "kind": "person"
-    },
-    {
-      "term": "Theodectes",
-      "gloss": "A tragic poet whose play featured Philoctetes bitten by the snake, cited as an example of giving way to violent, extreme pain.",
-      "kind": "person"
-    },
-    {
-      "term": "Anaxandrides",
-      "gloss": "A comic poet, quoted for the gibe \"the city willed it, that cares nothing for laws,\" used to liken the weak-willed man to a city with good laws it never acts on.",
-      "kind": "person"
-    },
-    {
-      "term": "Phoenician Women",
-      "gloss": "A tragedy by Euripides, referenced for the warring brothers (Eteocles and Polynices) who each want power for himself and so fall into faction — the opposite of concord.",
-      "kind": "thing"
-    },
-    {
-      "term": "Cyclops",
-      "gloss": "The one-eyed giant of Homer's Odyssey who lived lawlessly, ruling his own family as he pleased; Aristotle uses \"Cyclops-fashion\" for a man who lays down the law to wife and children without regard to any public order.",
-      "kind": "people",
-      "aliases": [
-        "Cyclops-fashion"
-      ]
-    },
-    {
-      "term": "Persians",
-      "gloss": "The people of the Persian empire, cited for treating their sons as slaves — a tyrannical, mistaken form of fatherly rule.",
-      "kind": "people",
-      "aliases": [
-        "Persian"
-      ]
-    },
-    {
-      "term": "Milesians",
-      "gloss": "The people of Miletus, the target of Demodocus' gibe that they do foolish things without being fools.",
-      "kind": "people"
-    },
-    {
-      "term": "Scythian",
-      "gloss": "Of the Scythians, a northern nomadic people; their royal lines are mentioned as soft by constitution, and a Scythian sage (Anacharsis) is quoted.",
-      "kind": "people"
-    },
-    {
-      "term": "barbarians",
-      "gloss": "Non-Greek peoples; Aristotle says brutish states of character are found mostly among them.",
-      "kind": "people"
-    },
-    {
-      "term": "the Black Sea",
-      "gloss": "The sea whose savage neighboring tribes Aristotle cites as examples of brutishness — eating raw or human flesh and the like.",
-      "kind": "place"
-    },
-    {
-      "term": "makarios",
-      "gloss": "The Greek word for \"blessed\" or supremely happy, which Aristotle traces to a root meaning to rejoice — evidence that happiness is bound up with pleasure.",
-      "kind": "word"
-    },
-    {
-      "term": "seios aner",
-      "gloss": "Greek for \"a divine man,\" the phrase the Spartans use for someone they admire beyond all measure; Aristotle cites it for the godlike excellence beyond ordinary virtue.",
-      "kind": "word",
-      "aliases": [
-        "seîos anēr",
-        "divine man"
-      ]
-    },
-    {
-      "term": "unscrupulousness",
-      "gloss": "The corrupt twin of cleverness: the same skill at hitting one's aim, but in the service of a base end.",
-      "kind": "word"
-    },
-    {
-      "term": "continence",
-      "gloss": "An older word for self-control (Greek enkrateia): mastering bad desires by reason. Its opposite, incontinence, is weakness of will.",
-      "kind": "concept",
-      "aliases": [
-        "incontinence"
-      ]
-    },
-    {
-      "term": "melancholic",
-      "gloss": "Of a temperament dominated, in ancient theory, by black bile — restless and quick to crave; such people, Aristotle says, are forever fretted by the body and live in chronic violent craving.",
-      "kind": "word"
-    },
-    {
-      "term": "deposits",
-      "gloss": "Goods or money entrusted to someone for safekeeping and meant to be returned; Aristotle finds it laughable to imagine the gods \"returning deposits,\" to show their life cannot consist in mundane just acts.",
-      "kind": "thing"
-    },
-    {
-      "term": "triglyph",
-      "gloss": "A grooved block in the frieze of a Greek temple; Aristotle cites cutting a single triglyph as an example of an incomplete part of the larger movement of building.",
-      "kind": "thing"
-    },
-    {
-      "term": "flutes",
-      "gloss": "The reed pipe (Greek aulos) whose music is so absorbing that, Aristotle says, those fond of it cannot keep their minds on conversation once they hear it.",
-      "kind": "thing",
-      "aliases": [
-        "flute",
-        "flute-playing"
-      ]
-    },
-    {
-      "term": "the proverbial salt",
-      "gloss": "From the saying that men cannot really know each other until they have \"eaten salt together\" — that is, shared many meals over a long time; used to show complete friendship needs time and familiarity.",
-      "kind": "word",
-      "aliases": [
-        "eaten the proverbial salt"
-      ]
-    },
-    {
-      "term": "ingratiating",
-      "gloss": "Of the over-friendly person who meets everyone on intimate terms and so is really no one's true friend; Aristotle's name for those with too many \"friends.\"",
-      "kind": "word"
-    },
-    {
-      "term": "dropsy",
-      "gloss": "An old name for a disease of fluid swelling, used with consumption as an example of a chronic illness — the kind of long, unnoticed condition Aristotle compares to settled vice.",
-      "kind": "word"
-    },
-    {
-      "term": "consumption",
-      "gloss": "An old name for a wasting illness (such as tuberculosis), paired with dropsy as an image of chronic, settled vice.",
-      "kind": "word"
-    },
-    {
-      "term": "affection",
-      "gloss": "The warm feeling of liking that takes time and familiarity and carries intensity and longing; Aristotle distinguishes it from goodwill, which can spring up at once and carries neither.",
-      "kind": "concept"
-    },
-    {
-      "term": "host and guest",
-      "gloss": "The bond of hospitality between a host and a traveling stranger; Aristotle ranks it among the friendships that rest on usefulness and on community.",
-      "kind": "concept"
-    },
-    {
-      "term": "deviation",
-      "gloss": "Aristotle's term for a corrupt form of constitution — tyranny, oligarchy, democracy — that departs from a sound original.",
-      "kind": "concept",
-      "aliases": [
-        "deviations",
-        "deviant"
-      ]
-    },
-    {
-      "term": "the composite creature",
-      "gloss": "The human being as a compound of body and soul, intellect and passions. The virtues of character belong to it, while the activity of pure intellect rises above it.",
-      "kind": "concept",
-      "aliases": [
-        "composite"
-      ]
-    },
-    {
-      "term": "divine",
-      "gloss": "Of or like the gods; Aristotle calls the intellect and its activity divine, and urges us, \"as far as we can,\" to make ourselves immortal by living by the highest thing in us.",
-      "kind": "concept"
-    },
-    {
-      "term": "the philosophy of human affairs",
-      "gloss": "Aristotle's name for the whole practical study of human conduct — ethics together with politics — which he says the Ethics only begins and the inquiry into constitutions is meant to complete.",
-      "kind": "concept"
-    },
-    {
-      "term": "unimpeded activity",
-      "gloss": "Aristotle's preferred definition of pleasure: the free, unobstructed exercise of a natural state, as opposed to the older view that pleasure is a \"perceived process.\"",
-      "kind": "concept"
-    },
-    {
-      "term": "good judgment",
-      "gloss": "The faculty of fair, sympathetic discernment by which a decent person rightly sizes up what is fair in a particular case; closely linked to understanding and forgiveness.",
-      "kind": "concept"
-    },
-    {
-      "term": "quick wit",
-      "gloss": "A knack for hitting on the right thing in a flash — a species of lucky guess, which Aristotle distinguishes from genuine good deliberation, since deliberation takes time.",
-      "kind": "concept"
+ "workId": "work.aristotle.nicomachean-ethics",
+ "glossary": [
+  {
+   "term": "happiness",
+   "gloss": "Aristotle's name for the highest human good (Greek eudaimonia): not a passing mood but a complete life lived well — a whole life of activity in line with excellence. The thing everyone ultimately aims at for its own sake.",
+   "kind": "concept",
+   "aliases": [
+    "happy",
+    "blessed",
+    "blessedness",
+    "happier",
+    "happiest"
+   ]
+  },
+  {
+   "term": "the good",
+   "gloss": "That at which something aims; for a human being, the final end that everything else is for the sake of. Aristotle argues the human good is activity of the soul in line with excellence.",
+   "kind": "concept",
+   "aliases": [
+    "good",
+    "goods",
+    "the highest good",
+    "human good"
+   ]
+  },
+  {
+   "term": "virtue",
+   "gloss": "Excellence of character or intellect — a settled, praiseworthy state that makes a person and his work good. The same Greek word is rendered both 'virtue' and 'excellence' throughout.",
+   "kind": "concept",
+   "aliases": [
+    "virtues",
+    "excellence",
+    "excellences",
+    "virtuous"
+   ]
+  },
+  {
+   "term": "the mean",
+   "gloss": "The intermediate, balanced point between too much and too little — the target of every virtue of character. Not a fixed midpoint but the right amount relative to the situation and the person.",
+   "kind": "concept",
+   "aliases": [
+    "mean",
+    "the middle",
+    "intermediate",
+    "middle ground"
+   ]
+  },
+  {
+   "term": "excess",
+   "gloss": "Having or feeling too much of something — one of the two ways of missing the mean and falling into vice (e.g. recklessness, dissipation).",
+   "kind": "concept",
+   "aliases": [
+    "excessive",
+    "overshoot",
+    "overshoots"
+   ]
+  },
+  {
+   "term": "deficiency",
+   "gloss": "Having or feeling too little of something — the other way of missing the mean and falling into vice (e.g. cowardice, stinginess).",
+   "kind": "concept",
+   "aliases": [
+    "deficient",
+    "falls short",
+    "fall short",
+    "falling short",
+    "shortfall"
+   ]
+  },
+  {
+   "term": "vice",
+   "gloss": "A bad settled state of character — the opposite of virtue, consisting in habitually feeling or acting to excess or in deficiency.",
+   "kind": "concept",
+   "aliases": [
+    "vices",
+    "vicious"
+   ]
+  },
+  {
+   "term": "statecraft",
+   "gloss": "The art and science of governing a community and making its citizens good (Greek politike) — for Aristotle the most authoritative practical science, the framework within which this whole inquiry into the human good belongs.",
+   "kind": "concept",
+   "aliases": [
+    "statesman",
+    "political science",
+    "the science of the community",
+    "art of statecraft"
+   ]
+  },
+  {
+   "term": "self-sufficiency",
+   "gloss": "The quality of a good that, all by itself, makes a life worth living and lacking in nothing. Aristotle uses it as a test that happiness passes.",
+   "kind": "concept",
+   "aliases": [
+    "self-sufficient"
+   ]
+  },
+  {
+   "term": "function",
+   "gloss": "The characteristic work or activity that belongs to a thing as the kind of thing it is (Greek ergon). Aristotle asks what the function of a human being is, and answers: activity of the soul guided by reason.",
+   "kind": "concept",
+   "aliases": [
+    "characteristic function",
+    "work",
+    "ergon"
+   ]
+  },
+  {
+   "term": "the soul",
+   "gloss": "For Aristotle, the life-principle of a living thing, here divided into a part with reason and a part without it. Happiness is an 'activity of the soul,' so the inquiry studies the soul's parts.",
+   "kind": "concept",
+   "aliases": [
+    "soul"
+   ]
+  },
+  {
+   "term": "contemplation",
+   "gloss": "The life devoted to thought and understanding — one of the three leading kinds of life Aristotle names (alongside pleasure and public engagement), and the one he treats as highest.",
+   "kind": "concept",
+   "aliases": [
+    "the life of contemplation",
+    "theoretical wisdom",
+    "contemplating"
+   ]
+  },
+  {
+   "term": "honor",
+   "gloss": "Public recognition and esteem — taken by ambitious, active people to be the goal of life. Aristotle judges it too shallow to be the highest good, since it depends on others rather than on oneself.",
+   "kind": "concept",
+   "aliases": [
+    "honors",
+    "dishonor"
+   ]
+  },
+  {
+   "term": "practical wisdom",
+   "gloss": "The intellectual excellence of judging well what to do in particular situations (Greek phronesis) — the capacity by which the wise person fixes where the mean lies. Distinguished from theoretical wisdom.",
+   "kind": "concept",
+   "aliases": [
+    "the person of practical wisdom",
+    "phronesis"
+   ]
+  },
+  {
+   "term": "first principles",
+   "gloss": "The basic starting points of knowledge — the facts or premises from which reasoning begins and that are not themselves derived from anything prior. Aristotle says these are grasped by induction, perception, or habituation.",
+   "kind": "concept",
+   "aliases": [
+    "first principle",
+    "starting point",
+    "starting points"
+   ]
+  },
+  {
+   "term": "induction",
+   "gloss": "Reasoning from particular observed cases up to a general truth — one of the ways Aristotle says first principles are grasped.",
+   "kind": "concept"
+  },
+  {
+   "term": "habituation",
+   "gloss": "The process of forming a settled character by repeatedly doing the relevant kind of act; we become just by doing just acts, brave by doing brave ones. Aristotle's account of how virtue of character is acquired.",
+   "kind": "concept",
+   "aliases": [
+    "habit",
+    "habits",
+    "habituated",
+    "habituating",
+    "habituate"
+   ]
+  },
+  {
+   "term": "Forms",
+   "gloss": "Plato's theory that there is a single, separately existing pattern (e.g. 'the Good itself') in which all good things share. Aristotle reports it respectfully but rejects it as no help in finding the human good.",
+   "kind": "concept",
+   "aliases": [
+    "the Form",
+    "Form",
+    "the Good itself",
+    "good itself",
+    "man himself"
+   ]
+  },
+  {
+   "term": "substance",
+   "gloss": "In Aristotle's logic, the category of what a thing fundamentally is (as opposed to its quality, quantity, relation, etc.). He uses the categories to argue against a single Form of the good.",
+   "kind": "concept"
+  },
+  {
+   "term": "category",
+   "gloss": "One of the basic kinds of being Aristotle distinguishes — substance, quality, quantity, relation, time, place, and so on. 'Good' is said in every category, which is why it can't be one single thing.",
+   "kind": "concept",
+   "aliases": [
+    "categories",
+    "the category of substance"
+   ]
+  },
+  {
+   "term": "analogy",
+   "gloss": "A likeness of relationships — as sight is to the body, intelligence is to the soul. Aristotle suggests the many goods may share their name by analogy rather than by a common Form.",
+   "kind": "concept"
+  },
+  {
+   "term": "external goods",
+   "gloss": "Goods outside the soul — wealth, friends, political power, good birth, good looks — that Aristotle says happiness also needs, as instruments and preconditions, though they are not its essence.",
+   "kind": "concept",
+   "aliases": [
+    "goods of the body",
+    "external prosperity"
+   ]
+  },
+  {
+   "term": "feelings",
+   "gloss": "The passions or emotions — appetite, anger, fear, confidence, envy, joy, pity, and the like — anything attended by pleasure or pain. Aristotle distinguishes these from the capacities and states of the soul.",
+   "kind": "concept",
+   "aliases": [
+    "feeling",
+    "passions",
+    "passion"
+   ]
+  },
+  {
+   "term": "capacity",
+   "gloss": "A bare ability — what we have in us that makes us able to feel anger, fear, pity, and so on. Aristotle argues virtue is not a capacity, since we are not praised merely for being able to feel things.",
+   "kind": "concept",
+   "aliases": [
+    "capacities"
+   ]
+  },
+  {
+   "term": "state",
+   "gloss": "A settled condition or disposition of character (Greek hexis) by which we stand well or badly toward our feelings. Aristotle concludes virtue is a state of this kind.",
+   "kind": "concept",
+   "aliases": [
+    "states",
+    "settled state",
+    "settled states",
+    "settled disposition",
+    "disposition",
+    "dispositions"
+   ]
+  },
+  {
+   "term": "courage",
+   "gloss": "The virtue that is a mean regarding fear and confidence — standing firm in the right way before the right dangers, above all a noble death in war, for the sake of what is noble.",
+   "kind": "concept",
+   "aliases": [
+    "brave",
+    "the brave man",
+    "bravery",
+    "braver",
+    "bravest"
+   ]
+  },
+  {
+   "term": "reckless",
+   "gloss": "The excess opposed to courage: showing too much confidence and too little fear, often a boaster who fails when real danger comes.",
+   "kind": "word",
+   "aliases": [
+    "recklessness",
+    "rash"
+   ]
+  },
+  {
+   "term": "coward",
+   "gloss": "The deficiency opposed to courage: feeling too much fear and too little confidence, fleeing what one should face.",
+   "kind": "word",
+   "aliases": [
+    "cowardice",
+    "cowards",
+    "cowardly"
+   ]
+  },
+  {
+   "term": "temperance",
+   "gloss": "Self-mastery — the virtue that is a mean concerning bodily pleasures (chiefly of touch and taste), wanting the right things in the right amount at the right time, in line with reason.",
+   "kind": "concept",
+   "aliases": [
+    "temperate",
+    "self-control",
+    "self-controlled",
+    "self-mastery"
+   ]
+  },
+  {
+   "term": "dissipation",
+   "gloss": "The excess opposed to temperance — over-indulgence in bodily pleasures. Also called self-indulgence.",
+   "kind": "word",
+   "aliases": [
+    "dissipated",
+    "self-indulgence",
+    "self-indulgent",
+    "dissolute"
+   ]
+  },
+  {
+   "term": "insensible",
+   "gloss": "Aristotle's coined name for the (almost nonexistent) deficiency opposed to temperance: a person who takes too little or no pleasure in things, numb to ordinary enjoyments.",
+   "kind": "word",
+   "aliases": [
+    "insensibility",
+    "insensible blank"
+   ]
+  },
+  {
+   "term": "boor",
+   "gloss": "A coarse, charmless person — used both for the man who shrinks from all pleasure and, in social life, for the man who can neither make nor take a joke (the deficiency opposed to wit).",
+   "kind": "word",
+   "aliases": [
+    "boorish",
+    "boorishness"
+   ]
+  },
+  {
+   "term": "generosity",
+   "gloss": "The virtue that is a mean in the giving and taking of money on the ordinary scale — giving the right amounts to the right people for the sake of what is fine, and gladly.",
+   "kind": "concept",
+   "aliases": [
+    "generous",
+    "the generous person",
+    "the generous man"
+   ]
+  },
+  {
+   "term": "wastefulness",
+   "gloss": "The excess opposed to generosity — giving and spending beyond one's means, ruining one's own resources. The Greek root means destroying oneself by one's own doing.",
+   "kind": "word",
+   "aliases": [
+    "wasteful",
+    "the wasteful person",
+    "the wasteful man"
+   ]
+  },
+  {
+   "term": "stinginess",
+   "gloss": "The deficiency opposed to generosity — caring too much about money, giving too little and grasping too much. Aristotle calls it the harder vice to cure.",
+   "kind": "word",
+   "aliases": [
+    "stingy",
+    "the stingy man",
+    "the stingy person",
+    "close-fisted",
+    "skinflint"
+   ]
+  },
+  {
+   "term": "magnificence",
+   "gloss": "The virtue of fitting expenditure on a grand scale (Greek megaloprepeia) — large, tasteful spending on great public or honorable objects, like funding a chorus or fitting out a warship.",
+   "kind": "concept",
+   "aliases": [
+    "magnificent",
+    "the magnificent person",
+    "the magnificent man"
+   ]
+  },
+  {
+   "term": "gaudiness",
+   "gloss": "The excess opposed to magnificence — vulgar, showy overspending on the wrong objects, flaunting wealth to be admired.",
+   "kind": "word",
+   "aliases": [
+    "tastelessness",
+    "vulgar display",
+    "gaudy"
+   ]
+  },
+  {
+   "term": "shabbiness",
+   "gloss": "The deficiency opposed to magnificence — coming up short and spoiling a grand effort for the want of some small expense; also called pettiness.",
+   "kind": "word",
+   "aliases": [
+    "shabby",
+    "the shabby man",
+    "pettiness"
+   ]
+  },
+  {
+   "term": "greatness of soul",
+   "gloss": "The virtue (Greek megalopsychia, also 'magnanimity') of the person who rightly thinks himself worthy of great things — chiefly great honor — and bears himself accordingly; a kind of crown on the other excellences.",
+   "kind": "concept",
+   "aliases": [
+    "great-souled",
+    "the great-souled person",
+    "the great-souled man",
+    "magnanimity"
+   ]
+  },
+  {
+   "term": "vanity",
+   "gloss": "The excess opposed to greatness of soul — thinking oneself worthy of great things without actually being so.",
+   "kind": "word",
+   "aliases": [
+    "vain",
+    "the vain person",
+    "the vain man"
+   ]
+  },
+  {
+   "term": "smallness of soul",
+   "gloss": "The deficiency opposed to greatness of soul — thinking oneself worthy of less than one really deserves, and so holding back from fine actions.",
+   "kind": "word",
+   "aliases": [
+    "little-souled",
+    "the little-souled person",
+    "smallness",
+    "little-souledness"
+   ]
+  },
+  {
+   "term": "ambition",
+   "gloss": "On the small scale of honor, the excess: reaching for honor more than one should and from the wrong sources. Aristotle notes the word is sometimes used in praise, sometimes in blame.",
+   "kind": "word",
+   "aliases": [
+    "ambitious",
+    "the ambitious person",
+    "the ambitious man"
+   ]
+  },
+  {
+   "term": "unambitious",
+   "gloss": "On the small scale of honor, the deficiency: not even wanting honor for fine things.",
+   "kind": "word",
+   "aliases": [
+    "the unambitious person",
+    "the unambitious man"
+   ]
+  },
+  {
+   "term": "even temper",
+   "gloss": "The virtue that is a mean concerning anger (also called mildness) — being angry at the right things, with the right people, in the right way and time.",
+   "kind": "concept",
+   "aliases": [
+    "even-tempered",
+    "mildness",
+    "mild",
+    "the mild person"
+   ]
+  },
+  {
+   "term": "irascibility",
+   "gloss": "The excess opposed to even temper — being too quick to anger, at the wrong things and people; hot temper.",
+   "kind": "word",
+   "aliases": [
+    "hot-tempered",
+    "hot temper",
+    "irascible",
+    "choleric",
+    "bad-tempered",
+    "bitter"
+   ]
+  },
+  {
+   "term": "spiritless",
+   "gloss": "The deficiency opposed to even temper — failing to feel anger at things one should be angry about; a lack of spirit.",
+   "kind": "word",
+   "aliases": [
+    "lack of spirit",
+    "spiritlessness"
+   ]
+  },
+  {
+   "term": "truthfulness",
+   "gloss": "The virtue of being straightforward about oneself — owning what is yours and making it neither more nor less than it is. The mean between boastfulness and false modesty.",
+   "kind": "concept",
+   "aliases": [
+    "truthful",
+    "the truthful person"
+   ]
+  },
+  {
+   "term": "boastfulness",
+   "gloss": "The excess opposed to truthfulness — claiming qualities and credit one does not have, or to a greater degree than one has.",
+   "kind": "word",
+   "aliases": [
+    "boaster",
+    "boastfulness",
+    "braggart",
+    "boastful"
+   ]
+  },
+  {
+   "term": "self-deprecation",
+   "gloss": "The deficiency opposed to truthfulness — playing down or disowning one's real qualities; ironic understatement, as Socrates practiced. Also called irony or false modesty.",
+   "kind": "word",
+   "aliases": [
+    "self-deprecating",
+    "irony",
+    "false-modest",
+    "false modesty",
+    "false-modesty"
+   ]
+  },
+  {
+   "term": "wit",
+   "gloss": "The virtue of good taste in humor and amusement — knowing the right thing to say and to laugh at; a kind of nimbleness of character. The mean between buffoonery and boorishness.",
+   "kind": "concept",
+   "aliases": [
+    "witty",
+    "the witty person",
+    "tact",
+    "tactful"
+   ]
+  },
+  {
+   "term": "buffoonery",
+   "gloss": "The excess opposed to wit — overdoing the laughable, grabbing for a laugh at any cost and any target.",
+   "kind": "word",
+   "aliases": [
+    "buffoon",
+    "buffoons"
+   ]
+  },
+  {
+   "term": "friendliness",
+   "gloss": "The virtue that is a mean in social life — pleasant and agreeable with others as one should be, but guided by what is fine and beneficial rather than by affection.",
+   "kind": "concept",
+   "aliases": [
+    "friendly",
+    "the friendly person"
+   ]
+  },
+  {
+   "term": "obsequious",
+   "gloss": "The excess opposed to friendliness when done from no further motive — out to please at all costs, agreeing to everything. (When done to get something, it is flattery.)",
+   "kind": "word",
+   "aliases": [
+    "obsequiousness",
+    "flatterer",
+    "flatterers",
+    "flattery"
+   ]
+  },
+  {
+   "term": "quarrelsome",
+   "gloss": "The deficiency opposed to friendliness — contrary and unpleasant in everything, opposing whatever is said with no care for the pain it causes.",
+   "kind": "word",
+   "aliases": [
+    "contrary"
+   ]
+  },
+  {
+   "term": "modesty",
+   "gloss": "A fitting sense of shame — felt as the mean between shamelessness and being overwhelmed by shame at everything. Aristotle calls it a praiseworthy feeling rather than a true virtue, and one that suits the young.",
+   "kind": "concept",
+   "aliases": [
+    "modest",
+    "the modest person",
+    "shame",
+    "sense of shame"
+   ]
+  },
+  {
+   "term": "shameless",
+   "gloss": "Feeling no shame at all, even at disgraceful acts — the excess on the side of too little shame.",
+   "kind": "word",
+   "aliases": [
+    "shamelessness"
+   ]
+  },
+  {
+   "term": "righteous indignation",
+   "gloss": "Being pained at someone's undeserved good fortune — a mean feeling Aristotle places between envy (pained at anyone's good fortune) and spite (pleased at others' misfortune).",
+   "kind": "concept"
+  },
+  {
+   "term": "envy",
+   "gloss": "Being pained at the good fortune of others, deserved or not — the excess opposed to righteous indignation.",
+   "kind": "word",
+   "aliases": [
+    "envious",
+    "the envious man"
+   ]
+  },
+  {
+   "term": "spite",
+   "gloss": "Actually rejoicing at the misfortune of others — the deficiency (in feeling pain) opposed to righteous indignation.",
+   "kind": "word",
+   "aliases": [
+    "spiteful",
+    "the spiteful man"
+   ]
+  },
+  {
+   "term": "justice",
+   "gloss": "Used in two senses: complete virtue as exercised toward others (lawfulness), and a particular virtue (fairness, the equal) governing distribution and exchange. Aristotle treats it as a mean — aiming at the equal share.",
+   "kind": "concept",
+   "aliases": [
+    "just",
+    "the just",
+    "the just man",
+    "justly",
+    "acting justly"
+   ]
+  },
+  {
+   "term": "injustice",
+   "gloss": "The vice opposed to justice — either complete vice toward others (lawbreaking) or the particular fault of grasping for more than one's fair share (the unequal).",
+   "kind": "concept",
+   "aliases": [
+    "unjust",
+    "the unjust man",
+    "unjustly",
+    "acting unjustly",
+    "the unjust"
+   ]
+  },
+  {
+   "term": "distributive justice",
+   "gloss": "The kind of particular justice that divides honor, money, or other goods among members of a community in proportion to merit — a geometric proportion, equals getting equal shares.",
+   "kind": "concept",
+   "aliases": [
+    "the just in distribution",
+    "just distribution"
+   ]
+  },
+  {
+   "term": "corrective justice",
+   "gloss": "The kind of particular justice that sets right private dealings between two people, restoring equality by an arithmetic mean — the judge takes from the gainer and gives back to the loser.",
+   "kind": "concept",
+   "aliases": [
+    "the corrective just",
+    "corrective"
+   ]
+  },
+  {
+   "term": "reciprocity",
+   "gloss": "Being done to as you have done — proposed by the Pythagoreans as the whole of justice. Aristotle accepts it, by proportion, as what binds a community together in exchange, but denies it captures all justice.",
+   "kind": "concept",
+   "aliases": [
+    "proportionate give-and-take",
+    "give-and-take"
+   ]
+  },
+  {
+   "term": "proportion",
+   "gloss": "Equality of ratios — the mathematical heart of Aristotle's account of justice. Distributive justice follows geometric proportion; corrective justice follows arithmetic proportion.",
+   "kind": "concept",
+   "aliases": [
+    "proportional",
+    "proportionate",
+    "geometric proportion",
+    "arithmetic proportion",
+    "geometric",
+    "arithmetic"
+   ]
+  },
+  {
+   "term": "demand",
+   "gloss": "The mutual need people have for each other's goods — what Aristotle says truly makes things comparable and holds all exchange together; money is the agreed stand-in for it.",
+   "kind": "concept",
+   "aliases": [
+    "need",
+    "the need people have"
+   ]
+  },
+  {
+   "term": "money",
+   "gloss": "The common measure (Greek nomisma) that makes all goods comparable and stands in for demand. Aristotle stresses it has its value by custom or law (nomos), not by nature, so its value can be changed.",
+   "kind": "thing",
+   "aliases": [
+    "nomisma",
+    "coin",
+    "mina",
+    "minae"
+   ]
+  },
+  {
+   "term": "equity",
+   "gloss": "The corrective of strict legal justice (Greek epieikeia) — a fairer ruling for a particular case the general law could not foresee. Aristotle says the equitable man is willing to take less than his legal due.",
+   "kind": "concept",
+   "aliases": [
+    "equitable",
+    "the equitable",
+    "the equitable man"
+   ]
+  },
+  {
+   "term": "voluntary",
+   "gloss": "An action whose source is in the agent himself, who knows the particular circumstances — done neither under outside compulsion nor in ignorance. Only voluntary acts earn praise or blame.",
+   "kind": "concept",
+   "aliases": [
+    "voluntarily",
+    "voluntariness"
+   ]
+  },
+  {
+   "term": "involuntary",
+   "gloss": "An action done under compulsion (its source outside the agent) or out of ignorance of the particulars, and regretted afterward. Such acts are excused, pitied, or forgiven rather than blamed.",
+   "kind": "concept",
+   "aliases": [
+    "involuntarily",
+    "non-voluntary"
+   ]
+  },
+  {
+   "term": "compulsion",
+   "gloss": "Force whose source lies outside the agent, who contributes nothing to it — strictly, something one undergoes rather than does, like being carried off by a wind. One of the two grounds that make an act involuntary.",
+   "kind": "concept",
+   "aliases": [
+    "compulsory",
+    "compelled",
+    "under compulsion"
+   ]
+  },
+  {
+   "term": "choice",
+   "gloss": "Deliberate preference (Greek prohairesis) — the voluntary thing one has thought through and settled on beforehand, after deliberation, aimed at what is in one's power. Aristotle ties it more closely to character than action itself.",
+   "kind": "concept",
+   "aliases": [
+    "choose",
+    "deliberate choice",
+    "prohairesis",
+    "chooses",
+    "chosen"
+   ]
+  },
+  {
+   "term": "deliberation",
+   "gloss": "Weighing out how to reach an end — the reasoning, about things in our own power and uncertain in outcome, that precedes choice. We deliberate about means, not about ends.",
+   "kind": "concept",
+   "aliases": [
+    "deliberate",
+    "deliberates",
+    "deliberating"
+   ]
+  },
+  {
+   "term": "wish",
+   "gloss": "A wanting aimed at the end rather than the means (Greek boulesis) — we can even wish for the impossible. Its true object is the genuine good, though to each person it is whatever strikes him as good.",
+   "kind": "concept",
+   "aliases": [
+    "wishes",
+    "wishing"
+   ]
+  },
+  {
+   "term": "appetite",
+   "gloss": "Bodily craving or desire — the part of the non-rational soul that can listen to reason. Acting from appetite alone, against choice, is the mark of the person who lacks self-control.",
+   "kind": "concept",
+   "aliases": [
+    "appetites",
+    "craving",
+    "cravings",
+    "desire",
+    "desires"
+   ]
+  },
+  {
+   "term": "right reason",
+   "gloss": "Correct rational judgment about how to act — the standard virtue of character keeps in step with. The person of practical wisdom is the one who defines where the mean lies.",
+   "kind": "concept",
+   "aliases": [
+    "reason",
+    "as reason directs",
+    "right reason directs"
+   ]
+  },
+  {
+   "term": "lack of self-control",
+   "gloss": "The condition of acting from appetite against one's own better judgment — knowing the right thing but doing otherwise. Aristotle distinguishes it sharply from full vice and promises a later treatment.",
+   "kind": "concept",
+   "aliases": [
+    "lacks self-control",
+    "the man who lacks self-control",
+    "uncontrolled",
+    "without self-control"
+   ]
+  },
+  {
+   "term": "the vegetative part",
+   "gloss": "The lowest part of the soul, shared with plants — the cause of nutrition and growth, having no share in reason and no part in human excellence. Most active in sleep.",
+   "kind": "concept",
+   "aliases": [
+    "vegetative",
+    "nutritive part",
+    "the nutritive part",
+    "the life of nutrition"
+   ]
+  },
+  {
+   "term": "intellectual virtue",
+   "gloss": "Excellence of the reasoning part of the soul — theoretical wisdom, understanding, and practical wisdom — owing its growth mainly to teaching. Contrasted with virtue of character.",
+   "kind": "concept",
+   "aliases": [
+    "intellectual virtues",
+    "intellectual excellences",
+    "excellence of intellect",
+    "excellence of the intellect"
+   ]
+  },
+  {
+   "term": "virtue of character",
+   "gloss": "Excellence of the non-rational-but-reason-obeying part of the soul — generosity, temperance, courage, and the rest — formed by habit. The Greek word for it (ethos) is a slight inflection of the word for habit.",
+   "kind": "concept",
+   "aliases": [
+    "excellence of character",
+    "virtues of character",
+    "moral virtue",
+    "moral virtues"
+   ]
+  },
+  {
+   "term": "the noble",
+   "gloss": "What is fine, beautiful, or admirable in conduct (Greek kalon) — the end for the sake of which the person of virtue acts. Often rendered 'fine.'",
+   "kind": "concept",
+   "aliases": [
+    "noble",
+    "the fine",
+    "fine",
+    "what is noble",
+    "what is fine"
+   ]
+  },
+  {
+   "term": "the base",
+   "gloss": "What is shameful, disgraceful, or low in conduct — the opposite of the noble, and what virtue refrains from for its own sake.",
+   "kind": "concept",
+   "aliases": [
+    "base",
+    "shameful",
+    "disgraceful",
+    "disgrace",
+    "the shameful"
+   ]
+  },
+  {
+   "term": "natural justice",
+   "gloss": "The part of political justice that has the same force everywhere and does not depend on people's accepting it — as opposed to conventional justice, which is fixed by agreement or decree.",
+   "kind": "concept",
+   "aliases": [
+    "natural",
+    "by nature",
+    "exists by nature"
+   ]
+  },
+  {
+   "term": "conventional justice",
+   "gloss": "The part of political justice that could have been set up otherwise and is binding only because it has been laid down — like a fixed ransom or a particular decreed sacrifice.",
+   "kind": "concept",
+   "aliases": [
+    "conventional",
+    "convention",
+    "by custom",
+    "by agreement"
+   ]
+  },
+  {
+   "term": "political justice",
+   "gloss": "Justice as it holds among free and equal people who share a common life under law, with a view to self-sufficiency. Distinguished from the merely resembling justice within a household.",
+   "kind": "concept",
+   "aliases": [
+    "the political just",
+    "household justice"
+   ]
+  },
+  {
+   "term": "constitution",
+   "gloss": "The form of government or political order of a community. Aristotle notes that a good constitution differs from a bad one precisely in how well its laws habituate citizens to be good.",
+   "kind": "concept",
+   "aliases": [
+    "constitutions"
+   ]
+  },
+  {
+   "term": "lawgiver",
+   "gloss": "One who frames the laws of a community, aiming to make the citizens good by habituation. Aristotle treats good lawgiving as the practical point of the study of virtue.",
+   "kind": "person",
+   "aliases": [
+    "lawgivers",
+    "lawmaker",
+    "lawmakers"
+   ]
+  },
+  {
+   "term": "Plato",
+   "gloss": "Aristotle's teacher and the founder of the Academy. Aristotle cites his question about the right direction of inquiry and respectfully rejects his theory of Forms — 'both our friends and the truth are dear to us, but it is right to honor the truth first.'",
+   "kind": "person"
+  },
+  {
+   "term": "Hesiod",
+   "gloss": "Early Greek poet, author of the Works and Days, quoted by Aristotle for the verdict that the best man works things out for himself, the next-best heeds good advice, and the man who does neither is useless.",
+   "kind": "person"
+  },
+  {
+   "term": "Solon",
+   "gloss": "The Athenian lawgiver and sage, famous for the saying — discussed by Aristotle — that one should 'look to the end' and call no one happy until his life is complete.",
+   "kind": "person"
+  },
+  {
+   "term": "Homer",
+   "gloss": "The poet of the Iliad and Odyssey, quoted repeatedly by Aristotle — for Calypso's advice, the elders of Troy, the speeches of Hector and Diomedes, and the exchange of armor between Glaucus and Diomedes.",
+   "kind": "person"
+  },
+  {
+   "term": "Priam",
+   "gloss": "The aged king of Troy in Homer, whose downfall from great prosperity to ruin in old age Aristotle cites as proof that no one can be called happy who ends his life in misery.",
+   "kind": "person"
+  },
+  {
+   "term": "Pythagoreans",
+   "gloss": "Followers of Pythagoras, cited by Aristotle for placing 'the One' in their column of goods, for the idea that bad belongs to the unlimited and good to the limited, and for defining justice as bare reciprocity.",
+   "kind": "people",
+   "aliases": [
+    "Pythagorean"
+   ]
+  },
+  {
+   "term": "Speusippus",
+   "gloss": "Plato's nephew and successor as head of the Academy, mentioned as having followed the Pythagoreans in his account of the good.",
+   "kind": "person"
+  },
+  {
+   "term": "Eudoxus",
+   "gloss": "A mathematician and philosopher associated with Plato's Academy, cited by Aristotle as having argued well that pleasure deserves the highest prize, since it is not praised but is itself a standard.",
+   "kind": "person"
+  },
+  {
+   "term": "Sardanapalus",
+   "gloss": "A legendary Assyrian king proverbial for a life of luxury and sensual indulgence — Aristotle's example of the powerful people who share the masses' taste for a life of pleasure.",
+   "kind": "person"
+  },
+  {
+   "term": "Heraclitus",
+   "gloss": "The early Greek philosopher, quoted by Aristotle for the saying that it is harder to fight pleasure than to fight anger.",
+   "kind": "person"
+  },
+  {
+   "term": "Milo",
+   "gloss": "Milo of Croton, a famously powerful wrestler — Aristotle's example that the right amount of food (the mean relative to us) differs from person to person: six pounds is too little for Milo, too much for a beginner.",
+   "kind": "person"
+  },
+  {
+   "term": "Calypso",
+   "gloss": "The nymph in Homer's Odyssey whose advice — 'keep the ship clear of this spray and surge' — Aristotle borrows to illustrate steering away from the worse of two extremes.",
+   "kind": "person"
+  },
+  {
+   "term": "Helen",
+   "gloss": "Helen of Troy, whose beauty the elders of Troy feared; Aristotle says we should feel toward pleasure as those elders felt toward her, and send it away.",
+   "kind": "person"
+  },
+  {
+   "term": "Euripides",
+   "gloss": "The Athenian tragic poet, cited by Aristotle for putting absurd pleas of compulsion in the mouth of Alcmaeon, and for the puzzle about being killed willingly or unwillingly.",
+   "kind": "person"
+  },
+  {
+   "term": "Alcmaeon",
+   "gloss": "A figure of Greek tragedy who killed his own mother; Aristotle calls the excuse of compulsion Euripides gives him simply absurd, since some acts should never be done whatever the threat.",
+   "kind": "person"
+  },
+  {
+   "term": "Aeschylus",
+   "gloss": "The Athenian tragic poet, mentioned for the report that he revealed something of the Mysteries without knowing it was forbidden — an example of acting in ignorance of a particular.",
+   "kind": "person"
+  },
+  {
+   "term": "Merope",
+   "gloss": "A figure of Greek tragedy who nearly killed her own son, mistaking him for an enemy — Aristotle's example of acting in ignorance of who one is acting on.",
+   "kind": "person"
+  },
+  {
+   "term": "Socrates",
+   "gloss": "The Athenian philosopher, cited by Aristotle for the view that courage is a kind of knowledge, and for his habitual ironic self-deprecation, disowning the qualities people admired in him.",
+   "kind": "person"
+  },
+  {
+   "term": "Diomedes",
+   "gloss": "A Greek hero of Homer's Iliad, cited as an example of the citizen's courage — acting from a sense of shame and honor — and for receiving Glaucus's gold armor in exchange for bronze.",
+   "kind": "person"
+  },
+  {
+   "term": "Hector",
+   "gloss": "The leading Trojan warrior in Homer's Iliad, quoted by Aristotle for facing battle out of fear of Polydamas's reproach — an example of the citizen's courage rooted in shame.",
+   "kind": "person"
+  },
+  {
+   "term": "Glaucus",
+   "gloss": "A Trojan ally in Homer's Iliad who exchanged his gold armor for Diomedes's bronze — 'the worth of a hundred oxen for the worth of nine.' Aristotle's example that giving away your own is not being treated unjustly.",
+   "kind": "person"
+  },
+  {
+   "term": "Thetis",
+   "gloss": "The sea-goddess and mother of Achilles in Homer; Aristotle notes that when she appeals to Zeus she recalls only the favors she has done him, like a great-souled person.",
+   "kind": "god"
+  },
+  {
+   "term": "Zeus",
+   "gloss": "The chief of the Greek gods; Aristotle mentions Thetis's appeal to him as an example of recalling favors done rather than received.",
+   "kind": "god"
+  },
+  {
+   "term": "the Graces",
+   "gloss": "Greek goddesses of grace and favor (Charites); Aristotle notes that their temple stands in the public square to remind people to return a kindness.",
+   "kind": "god",
+   "aliases": [
+    "Graces"
+   ]
+  },
+  {
+   "term": "the Mysteries",
+   "gloss": "Secret religious rites (such as those at Eleusis) that it was forbidden to speak of; Aristotle cites a man who revealed something of them in ignorance of the prohibition.",
+   "kind": "thing",
+   "aliases": [
+    "Mysteries"
+   ]
+  },
+  {
+   "term": "Delos",
+   "gloss": "The sacred Aegean island, site of a temple whose inscription Aristotle quotes — 'Justice is noblest, health is best, but to get what you long for is sweetest' — to argue the three belong together in happiness.",
+   "kind": "place"
+  },
+  {
+   "term": "Sparta",
+   "gloss": "The Greek city-state famous for its lawgivers; Aristotle cites the Spartan (and Cretan) lawgivers as models of statesmen who aimed to make citizens good, and notes the studied plainness of Spartan dress.",
+   "kind": "place",
+   "aliases": [
+    "Spartans",
+    "Spartan"
+   ]
+  },
+  {
+   "term": "Crete",
+   "gloss": "The Greek island whose lawgivers Aristotle names, alongside Sparta's, as examples of those who took pains to make the citizens good and law-abiding.",
+   "kind": "place",
+   "aliases": [
+    "Cretans",
+    "Cretan"
+   ]
+  },
+  {
+   "term": "Scythians",
+   "gloss": "A people north of the Greek world; Aristotle's example that no Spartan deliberates about the best constitution for them, since it is not in his power.",
+   "kind": "people"
+  },
+  {
+   "term": "Celts",
+   "gloss": "A northern people of whom it was said they feared nothing, not even earthquakes or the high seas — Aristotle's example of fearlessness so extreme it would be madness rather than courage.",
+   "kind": "people"
+  },
+  {
+   "term": "Argives",
+   "gloss": "The people of Argos; Aristotle cites them running from the Spartans, whom they had mistaken for the men of Sicyon — an example of false courage collapsing once ignorance is dispelled.",
+   "kind": "people"
+  },
+  {
+   "term": "Lesbos",
+   "gloss": "A Greek island whose builders used a flexible leaden ruler that bends to each stone; Aristotle makes it the image of equity, which bends a general law to fit the particular case.",
+   "kind": "place"
+  },
+  {
+   "term": "Rhadamanthus",
+   "gloss": "A figure of Greek myth proverbial for justice, quoted for the line 'If a man should suffer what he did, that would be straight justice' — used to introduce the idea of reciprocity.",
+   "kind": "person"
+  },
+  {
+   "term": "Bias",
+   "gloss": "One of the legendary Seven Sages of Greece, quoted for the saying that 'office will show the man' — because holding office forces a person into dealings with others.",
+   "kind": "person"
+  },
+  {
+   "term": "Simonides",
+   "gloss": "A Greek lyric poet associated with a reputation for valuing money; Aristotle says the generous person 'has no taste for the saying of Simonides.'",
+   "kind": "person"
+  },
+  {
+   "term": "Brasidas",
+   "gloss": "A Spartan general later honored with sacrifices as a hero; Aristotle cites the sacrifice in his honor as an example of conventional (decreed) justice.",
+   "kind": "person"
+  },
+  {
+   "term": "hellebore",
+   "gloss": "A plant used in ancient medicine as a powerful purgative; Aristotle lists it among the remedies a doctor must know how to apply — the knowing-how being the real art.",
+   "kind": "thing"
+  },
+  {
+   "term": "cautery",
+   "gloss": "The medical practice of burning tissue to treat a wound or disease; Aristotle lists it among the doctor's remedies whose right application is the whole work of medicine.",
+   "kind": "thing"
+  },
+  {
+   "term": "pleurisy",
+   "gloss": "An inflammation in the chest, used by Aristotle as an example of a serious bodily evil that a doctor ranks above a mere bruise.",
+   "kind": "thing"
+  },
+  {
+   "term": "tyrant",
+   "gloss": "A ruler who governs in his own interest rather than as guardian of the just; Aristotle says a man left to rule unchecked turns into one, which is why reason, not a man, should rule.",
+   "kind": "concept",
+   "aliases": [
+    "tyrants"
+   ]
+  },
+  {
+   "term": "Pericles",
+   "gloss": "The leading Athenian statesman, a standard example in this tradition of practical wisdom in public life. (Named here as a representative figure of statecraft.)",
+   "kind": "person"
+  },
+  {
+   "term": "blessed",
+   "gloss": "Supremely happy and fortunate, the condition Aristotle ascribes to the gods and to those who come nearest them; a stronger word than 'happy,' marking something godlike rather than merely praiseworthy.",
+   "kind": "word",
+   "aliases": [
+    "blessedness"
+   ]
+  },
+  {
+   "term": "foursquare",
+   "gloss": "Solid and steady on all sides; Aristotle quotes the phrase 'foursquare without reproach' for the good person who bears the chances of life nobly.",
+   "kind": "word"
+  },
+  {
+   "term": "rhetoric",
+   "gloss": "The art of persuasive speech, named by Aristotle among the esteemed capacities that fall under statecraft.",
+   "kind": "concept"
+  },
+  {
+   "term": "the unequal",
+   "gloss": "Aristotle's name for what the unjust man grasps — taking more (or, with evils, less) than a fair, proportional share. The wider term covering both lawbreaking and grasping.",
+   "kind": "concept",
+   "aliases": [
+    "unequal",
+    "the equal",
+    "equal"
+   ]
+  },
+  {
+   "term": "philosophic wisdom",
+   "gloss": "The highest form of knowledge (Greek sophia): intuitive understanding of first principles joined with scientific knowledge of what follows from them, trained on the highest and most divine things. Distinct from practical wisdom, which deals with human action.",
+   "kind": "concept",
+   "aliases": [
+    "wisdom"
+   ]
+  },
+  {
+   "term": "intuitive understanding",
+   "gloss": "The faculty (Greek nous) that directly grasps the first principles on which all reasoning rests — the starting points that cannot themselves be proved by demonstration. It also takes in the last particular in matters of action.",
+   "kind": "concept",
+   "aliases": [
+    "understanding",
+    "intellect"
+   ]
+  },
+  {
+   "term": "scientific knowledge",
+   "gloss": "Knowledge in the strict sense (Greek episteme): a settled grasp, reached by demonstration, of what holds of necessity and cannot be otherwise. Because its objects are eternal and unchanging, it can be taught and learned.",
+   "kind": "concept"
+  },
+  {
+   "term": "craft",
+   "gloss": "A reasoned, settled skill for making things (Greek techne) — building, sculpting, and the like. Its end is always the thing produced, which sets it apart from action, whose end is acting well itself.",
+   "kind": "concept",
+   "aliases": [
+    "crafts",
+    "craftsman",
+    "craftsmen"
+   ]
+  },
+  {
+   "term": "deliberate",
+   "gloss": "To reason out how to reach a chosen end in matters that could turn out otherwise. We never deliberate about what is fixed and necessary, only about things within reach of our own action.",
+   "kind": "concept",
+   "aliases": [
+    "deliberation",
+    "deliberating",
+    "deliberates",
+    "deliberated"
+   ]
+  },
+  {
+   "term": "deduction",
+   "gloss": "Reasoning that works out the consequences that follow from already-known starting points, as in a logical proof.",
+   "kind": "concept"
+  },
+  {
+   "term": "the Analytics",
+   "gloss": "Aristotle's own logical treatises (the Prior and Posterior Analytics), referred to here for his detailed account of demonstration and scientific knowledge.",
+   "kind": "thing"
+  },
+  {
+   "term": "cleverness",
+   "gloss": "A morally neutral knack for hitting whatever aim you set yourself. When the aim is fine it is praiseworthy; when base it is mere unscrupulousness. Practical wisdom requires it but is not the same thing.",
+   "kind": "concept"
+  },
+  {
+   "term": "natural virtue",
+   "gloss": "The raw inclinations toward justice, courage, and self-mastery that people seem to have from birth. Without intelligence to guide them they can be harmful; only joined with practical wisdom do they become full virtue.",
+   "kind": "concept"
+  },
+  {
+   "term": "self-mastery",
+   "gloss": "Used here for the Greek word sophrosyne (temperance), which Aristotle says literally means \"what preserves practical wisdom\" — the sound judgment about one's own true good that pleasure and pain can corrupt.",
+   "kind": "concept"
+  },
+  {
+   "term": "excellence of character",
+   "gloss": "Moral virtue: the settled state, formed by habit, that makes a person's choices and feelings right. It makes the aim right, while practical wisdom finds the means.",
+   "kind": "concept",
+   "aliases": [
+    "excellence of the soul",
+    "moral virtue",
+    "virtue of character"
+   ]
+  },
+  {
+   "term": "the calculating part",
+   "gloss": "The part of the rational soul that deliberates and reasons about things that can be otherwise — the seat of practical wisdom. Contrasted with the part that knows necessary, unchanging truths.",
+   "kind": "concept",
+   "aliases": [
+    "calculating",
+    "deliberative"
+   ]
+  },
+  {
+   "term": "the nutritive",
+   "gloss": "The lowest part of the soul, responsible only for nourishment and growth; it has no virtue of its own because nothing is in its power to do or leave undone.",
+   "kind": "concept"
+  },
+  {
+   "term": "settled state",
+   "gloss": "A stable, lasting disposition of character or mind (Greek hexis), as opposed to a fleeting feeling. Virtue and the intellectual excellences are settled states.",
+   "kind": "concept",
+   "aliases": [
+    "settled states",
+    "state of character",
+    "inner state"
+   ]
+  },
+  {
+   "term": "self-control",
+   "gloss": "The strength to master strong bad cravings and stand by what reason has worked out (Greek enkrateia). It differs from temperance, since the self-controlled man still feels the bad desires but refuses to act on them.",
+   "kind": "concept",
+   "aliases": [
+    "self-controlled"
+   ]
+  },
+  {
+   "term": "weakness of will",
+   "gloss": "The failure to act on what one knows is right, giving in to feeling against one's own better judgment (Greek akrasia). Aristotle's long analysis asks in what sense such a person \"knows\" the right thing.",
+   "kind": "concept",
+   "aliases": [
+    "weak-willed",
+    "lack of self-control",
+    "incontinence",
+    "incontinent"
+   ]
+  },
+  {
+   "term": "endurance",
+   "gloss": "The capacity to hold out under painful strain, set opposite to softness. Aristotle ranks it below self-control, since enduring is to mastery as not losing is to winning.",
+   "kind": "concept",
+   "aliases": [
+    "enduring"
+   ]
+  },
+  {
+   "term": "softness",
+   "gloss": "The failing of giving way to pain that ordinary people can bear — the counterpart of weakness of will, which gives way to pleasure.",
+   "kind": "concept",
+   "aliases": [
+    "soft"
+   ]
+  },
+  {
+   "term": "brutishness",
+   "gloss": "A subhuman, bestial condition that lies below ordinary vice — savage, diseased, or monstrous appetites. Aristotle treats it as different in kind from vice, not merely a worse degree.",
+   "kind": "concept",
+   "aliases": [
+    "brutish",
+    "brute",
+    "brutes",
+    "beast",
+    "beasts"
+   ]
+  },
+  {
+   "term": "self-indulgence",
+   "gloss": "A near relation of softness: the over-fondness for ease and amusement, like the man who will not lift his cloak from the mud rather than take the trouble.",
+   "kind": "concept",
+   "aliases": [
+    "self-indulgent"
+   ]
+  },
+  {
+   "term": "impulsive",
+   "gloss": "One of the two forms of weakness of will: being swept off by feeling so fast that one never even forms a resolution, found in the quick-tempered and the moody.",
+   "kind": "concept"
+  },
+  {
+   "term": "friendship",
+   "gloss": "The central subject of Books VIII–IX (Greek philia): a bond of mutual, mutually-known goodwill, ranging from ties of usefulness and pleasure up to the complete friendship between good people who wish each other well for their own sake.",
+   "kind": "concept",
+   "aliases": [
+    "friend",
+    "friends",
+    "friendships",
+    "friendly"
+   ]
+  },
+  {
+   "term": "goodwill",
+   "gloss": "Wishing another person well, even a stranger or someone unaware of it. Aristotle treats it as the seed of friendship — a kind of dormant or inactive friendship — but not yet friendship itself.",
+   "kind": "concept"
+  },
+  {
+   "term": "concord",
+   "gloss": "Civic friendship: a community's agreement about what is to its advantage, settling on the same policy and carrying it out together. More than mere shared opinion; it bears on action and exists chiefly among the good.",
+   "kind": "concept"
+  },
+  {
+   "term": "complete friendship",
+   "gloss": "Friendship in the fullest sense, between people who are good and alike in goodness, who wish each other well for the other's own sake. Lasting and rare, it requires time, trust, and shared life.",
+   "kind": "concept"
+  },
+  {
+   "term": "another self",
+   "gloss": "Aristotle's description of a true friend: someone toward whom you feel as you do toward yourself, so that all the marks of friendship flow out from a person's relation to himself.",
+   "kind": "concept"
+  },
+  {
+   "term": "self-love",
+   "gloss": "Loving oneself. Aristotle distinguishes the bad sense (grabbing the larger share of money, honor, and pleasure) from the good sense (the good man's gratifying the best, reasoning part of himself by doing what is noble).",
+   "kind": "concept",
+   "aliases": [
+    "self-lover",
+    "self-loving",
+    "self-lovers"
+   ]
+  },
+  {
+   "term": "self-sufficient",
+   "gloss": "Lacking nothing, complete in itself. Aristotle uses it of happiness and of contemplation, the activity that needs least from outside; he argues even the self-sufficient happy man still needs friends.",
+   "kind": "concept",
+   "aliases": [
+    "self-sufficiency",
+    "self-sufficient itself"
+   ]
+  },
+  {
+   "term": "intellect",
+   "gloss": "The thinking, reasoning part of a person (Greek nous), which Aristotle calls a man's true self and the source of action; its activity is contemplation and the highest happiness.",
+   "kind": "concept",
+   "aliases": [
+    "intelligence",
+    "the thinking part",
+    "mind"
+   ]
+  },
+  {
+   "term": "perception",
+   "gloss": "Sense-experience — seeing, hearing, touch, taste. Aristotle gives it a special role in practical wisdom, which must grasp the last particular by a kind of perception, not by reasoning alone.",
+   "kind": "concept",
+   "aliases": [
+    "perceive",
+    "perceiving"
+   ]
+  },
+  {
+   "term": "pleasure",
+   "gloss": "A major subject of Books VII and X. Aristotle argues it is not a process or a coming-to-be but the unimpeded, complete activity of a natural state — a \"bloom\" that completes an activity rather than a separate thing.",
+   "kind": "concept",
+   "aliases": [
+    "pleasures",
+    "pleasant"
+   ]
+  },
+  {
+   "term": "universal",
+   "gloss": "A general truth or rule that applies to many cases, as opposed to a particular fact. Aristotle notes a person can hold the universal yet fail in action by missing the particular.",
+   "kind": "concept",
+   "aliases": [
+    "universals"
+   ]
+  },
+  {
+   "term": "particular",
+   "gloss": "The individual fact or case that action is actually about (\"this food is dry,\" \"this is sweet\"). Practical wisdom and perception deal with particulars; scientific knowledge deals with universals.",
+   "kind": "concept",
+   "aliases": [
+    "particulars"
+   ]
+  },
+  {
+   "term": "syllogism",
+   "gloss": "A piece of reasoning that draws a conclusion from a universal premise and a particular one. Aristotle uses the \"practical syllogism\" to explain how desire can hijack action in weakness of will.",
+   "kind": "concept",
+   "aliases": [
+    "premise",
+    "premises",
+    "middle term",
+    "minor premise"
+   ]
+  },
+  {
+   "term": "timocracy",
+   "gloss": "A constitution in which rule and honors go by a property qualification — government by those who meet a wealth threshold. Aristotle ranks it the worst of the three sound constitutions; most people just call it a polity.",
+   "kind": "concept",
+   "aliases": [
+    "polity"
+   ]
+  },
+  {
+   "term": "aristocracy",
+   "gloss": "Rule by the best people, by merit; one of the three sound constitutions. Its corruption is oligarchy, where a few rule for wealth instead of worth.",
+   "kind": "concept"
+  },
+  {
+   "term": "oligarchy",
+   "gloss": "The corrupt form of aristocracy: rule by a few who keep the city's goods and offices for themselves and make wealth their idol.",
+   "kind": "concept",
+   "aliases": [
+    "oligarchies"
+   ]
+  },
+  {
+   "term": "kingship",
+   "gloss": "Rule by one self-sufficient, superior man who looks to his subjects' good; Aristotle's best constitution. Its corruption is tyranny.",
+   "kind": "concept"
+  },
+  {
+   "term": "tyranny",
+   "gloss": "The worst, most corrupt constitution: rule by one man who looks only to his own advantage rather than his subjects'. The opposite of true kingship.",
+   "kind": "concept",
+   "aliases": [
+    "tyrant",
+    "tyrants"
+   ]
+  },
+  {
+   "term": "democracy",
+   "gloss": "Government by the many; here treated as the corruption of timocracy, but the least bad of the three deviant constitutions since it departs least from its sound form.",
+   "kind": "concept",
+   "aliases": [
+    "democracies"
+   ]
+  },
+  {
+   "term": "deme",
+   "gloss": "A local district or township of ancient Athens; a unit of community within the city. Aristotle lists fellow-deme members among the kinds of associates who feel a degree of friendship.",
+   "kind": "thing"
+  },
+  {
+   "term": "faction",
+   "gloss": "Civil discord or partisan strife within a community — the enemy of concord that lawgivers most try to drive out.",
+   "kind": "concept"
+  },
+  {
+   "term": "sophist",
+   "gloss": "A paid professional teacher of rhetoric and supposed civic skill. Aristotle scorns the sophists for professing to teach statecraft while neither practicing nor understanding it.",
+   "kind": "people",
+   "aliases": [
+    "sophists",
+    "Sophists",
+    "sophistical"
+   ]
+  },
+  {
+   "term": "the supreme Good",
+   "gloss": "The chief or highest good — the final end for whose sake everything else is pursued. Aristotle identifies it with happiness and ultimately with the life of contemplation.",
+   "kind": "concept",
+   "aliases": [
+    "chief good",
+    "the chief good",
+    "the good"
+   ]
+  },
+  {
+   "term": "Anaxagoras",
+   "gloss": "A pre-Socratic philosopher famed for profound but \"useless\" knowledge. Aristotle calls him wise but not practically wise, and also cites his view that the happy man need be neither rich nor powerful.",
+   "kind": "person"
+  },
+  {
+   "term": "Thales",
+   "gloss": "An early pre-Socratic philosopher of Miletus, paired with Anaxagoras as a man of marvelous, superhuman knowledge that is not aimed at the human good.",
+   "kind": "person"
+  },
+  {
+   "term": "Phidias",
+   "gloss": "The great Athenian sculptor, cited as an example of \"wisdom\" in the sense of supreme excellence in a craft.",
+   "kind": "person"
+  },
+  {
+   "term": "Polyclitus",
+   "gloss": "A renowned Greek sculptor, paired with Phidias as a master craftsman — \"wise\" in the narrow sense of perfect skill in his art.",
+   "kind": "person",
+   "aliases": [
+    "Polyclitus a wise statue-maker"
+   ]
+  },
+  {
+   "term": "Margites",
+   "gloss": "A lost comic poem once attributed to Homer, about a foolish man good at nothing. Aristotle quotes it for the second, general sense of \"wise.\"",
+   "kind": "thing"
+  },
+  {
+   "term": "Agathon",
+   "gloss": "An Athenian tragic poet of the late fifth century BC, quoted twice: that not even a god can undo what is done, and that \"craft loves luck, and luck loves craft.\"",
+   "kind": "person"
+  },
+  {
+   "term": "Empedocles",
+   "gloss": "A pre-Socratic philosopher and poet. His verses are what passion-driven men recite without grasping; he is also cited for the view that like reaches for like.",
+   "kind": "person"
+  },
+  {
+   "term": "Phalaris",
+   "gloss": "A notoriously cruel tyrant of ancient Sicily, infamous for roasting victims in a bronze bull; Aristotle invokes him as an example of brutish, monstrous appetite.",
+   "kind": "person"
+  },
+  {
+   "term": "Neoptolemus",
+   "gloss": "A character in Sophocles' Philoctetes, praised for abandoning the lie Odysseus had talked him into because being truthful was, to him, the finer thing.",
+   "kind": "person"
+  },
+  {
+   "term": "Philoctetes",
+   "gloss": "The hero of Sophocles' play of that name (and of a play by Theodectes), used as an example of a man overcome by violent, extreme pain from a snakebite, whom we forgive for giving way.",
+   "kind": "person"
+  },
+  {
+   "term": "Sophocles",
+   "gloss": "The Athenian tragic dramatist whose play Philoctetes Aristotle cites for the figure of Neoptolemus refusing to keep a lie.",
+   "kind": "person"
+  },
+  {
+   "term": "Niobe",
+   "gloss": "A figure of Greek myth who boasted against the gods and was punished by the loss of her children; cited as an example of caring for one's children to an excessive, impious degree.",
+   "kind": "person"
+  },
+  {
+   "term": "Satyrus",
+   "gloss": "A man nicknamed \"father-lover\" for the foolish excess of his devotion to his father, cited as a case of overdoing a good thing.",
+   "kind": "person"
+  },
+  {
+   "term": "Aphrodite",
+   "gloss": "The Greek goddess of love and desire, called \"weaver of deceits,\" invoked to show that appetite, unlike open anger, is the sly and scheming thing.",
+   "kind": "god"
+  },
+  {
+   "term": "Endymion",
+   "gloss": "A figure of myth granted eternal sleep; Aristotle invokes him to argue that the gods cannot merely sleep their lives away but must be active — and their activity is contemplation.",
+   "kind": "person"
+  },
+  {
+   "term": "Anacharsis",
+   "gloss": "A legendary Scythian sage, quoted for the maxim that one should play in order to work afterward — amusement being rest taken for the sake of further work.",
+   "kind": "person"
+  },
+  {
+   "term": "Theognis",
+   "gloss": "An early Greek elegiac poet, quoted on the idea that virtue can be improved by living among the good, and that good arguments would deserve great rewards if they could by themselves make men good.",
+   "kind": "person"
+  },
+  {
+   "term": "Pittacus",
+   "gloss": "A ruler and one of the Seven Sages of ancient Greece, named as the example of a man a community might agree, in concord, should hold power.",
+   "kind": "person"
+  },
+  {
+   "term": "Protagoras",
+   "gloss": "A famous sophist who, after teaching, let the learner judge for himself what the knowledge was worth and accepted that as his fee; cited on how to set the rate for a benefit given first.",
+   "kind": "person"
+  },
+  {
+   "term": "Epicharmus",
+   "gloss": "A comic poet, cited for the cynical observation that people who explain benefactors' love in mean, self-interested terms are judging from their own meanness.",
+   "kind": "person"
+  },
+  {
+   "term": "Demodocus",
+   "gloss": "A poet quoted for his gibe at the Milesians — that they are not fools but do the kind of things fools do — used to show the weak-willed do unjust things without being unjust by nature.",
+   "kind": "person"
+  },
+  {
+   "term": "Evenus",
+   "gloss": "A poet quoted for the line that long practice in the end becomes a man's own nature, on how habit grows hard to change as it grows close to nature.",
+   "kind": "person"
+  },
+  {
+   "term": "Theodectes",
+   "gloss": "A tragic poet whose play featured Philoctetes bitten by the snake, cited as an example of giving way to violent, extreme pain.",
+   "kind": "person"
+  },
+  {
+   "term": "Anaxandrides",
+   "gloss": "A comic poet, quoted for the gibe \"the city willed it, that cares nothing for laws,\" used to liken the weak-willed man to a city with good laws it never acts on.",
+   "kind": "person"
+  },
+  {
+   "term": "Phoenician Women",
+   "gloss": "A tragedy by Euripides, referenced for the warring brothers (Eteocles and Polynices) who each want power for himself and so fall into faction — the opposite of concord.",
+   "kind": "thing"
+  },
+  {
+   "term": "Cyclops",
+   "gloss": "The one-eyed giant of Homer's Odyssey who lived lawlessly, ruling his own family as he pleased; Aristotle uses \"Cyclops-fashion\" for a man who lays down the law to wife and children without regard to any public order.",
+   "kind": "people",
+   "aliases": [
+    "Cyclops-fashion"
+   ]
+  },
+  {
+   "term": "Persians",
+   "gloss": "The people of the Persian empire, cited for treating their sons as slaves — a tyrannical, mistaken form of fatherly rule.",
+   "kind": "people",
+   "aliases": [
+    "Persian"
+   ]
+  },
+  {
+   "term": "Milesians",
+   "gloss": "The people of Miletus, the target of Demodocus' gibe that they do foolish things without being fools.",
+   "kind": "people"
+  },
+  {
+   "term": "Scythian",
+   "gloss": "Of the Scythians, a northern nomadic people; their royal lines are mentioned as soft by constitution, and a Scythian sage (Anacharsis) is quoted.",
+   "kind": "people"
+  },
+  {
+   "term": "barbarians",
+   "gloss": "Non-Greek peoples; Aristotle says brutish states of character are found mostly among them.",
+   "kind": "people"
+  },
+  {
+   "term": "the Black Sea",
+   "gloss": "The sea whose savage neighboring tribes Aristotle cites as examples of brutishness — eating raw or human flesh and the like.",
+   "kind": "place"
+  },
+  {
+   "term": "makarios",
+   "gloss": "The Greek word for \"blessed\" or supremely happy, which Aristotle traces to a root meaning to rejoice — evidence that happiness is bound up with pleasure.",
+   "kind": "word"
+  },
+  {
+   "term": "seios aner",
+   "gloss": "Greek for \"a divine man,\" the phrase the Spartans use for someone they admire beyond all measure; Aristotle cites it for the godlike excellence beyond ordinary virtue.",
+   "kind": "word",
+   "aliases": [
+    "seîos anēr",
+    "divine man"
+   ]
+  },
+  {
+   "term": "unscrupulousness",
+   "gloss": "The corrupt twin of cleverness: the same skill at hitting one's aim, but in the service of a base end.",
+   "kind": "word"
+  },
+  {
+   "term": "continence",
+   "gloss": "An older word for self-control (Greek enkrateia): mastering bad desires by reason. Its opposite, incontinence, is weakness of will.",
+   "kind": "concept",
+   "aliases": [
+    "incontinence"
+   ]
+  },
+  {
+   "term": "melancholic",
+   "gloss": "Of a temperament dominated, in ancient theory, by black bile — restless and quick to crave; such people, Aristotle says, are forever fretted by the body and live in chronic violent craving.",
+   "kind": "word"
+  },
+  {
+   "term": "deposits",
+   "gloss": "Goods or money entrusted to someone for safekeeping and meant to be returned; Aristotle finds it laughable to imagine the gods \"returning deposits,\" to show their life cannot consist in mundane just acts.",
+   "kind": "thing"
+  },
+  {
+   "term": "triglyph",
+   "gloss": "A grooved block in the frieze of a Greek temple; Aristotle cites cutting a single triglyph as an example of an incomplete part of the larger movement of building.",
+   "kind": "thing"
+  },
+  {
+   "term": "flutes",
+   "gloss": "The reed pipe (Greek aulos) whose music is so absorbing that, Aristotle says, those fond of it cannot keep their minds on conversation once they hear it.",
+   "kind": "thing",
+   "aliases": [
+    "flute",
+    "flute-playing"
+   ]
+  },
+  {
+   "term": "the proverbial salt",
+   "gloss": "From the saying that men cannot really know each other until they have \"eaten salt together\" — that is, shared many meals over a long time; used to show complete friendship needs time and familiarity.",
+   "kind": "word",
+   "aliases": [
+    "eaten the proverbial salt"
+   ]
+  },
+  {
+   "term": "ingratiating",
+   "gloss": "Of the over-friendly person who meets everyone on intimate terms and so is really no one's true friend; Aristotle's name for those with too many \"friends.\"",
+   "kind": "word"
+  },
+  {
+   "term": "dropsy",
+   "gloss": "An old name for a disease of fluid swelling, used with consumption as an example of a chronic illness — the kind of long, unnoticed condition Aristotle compares to settled vice.",
+   "kind": "word"
+  },
+  {
+   "term": "consumption",
+   "gloss": "An old name for a wasting illness (such as tuberculosis), paired with dropsy as an image of chronic, settled vice.",
+   "kind": "word"
+  },
+  {
+   "term": "affection",
+   "gloss": "The warm feeling of liking that takes time and familiarity and carries intensity and longing; Aristotle distinguishes it from goodwill, which can spring up at once and carries neither.",
+   "kind": "concept"
+  },
+  {
+   "term": "host and guest",
+   "gloss": "The bond of hospitality between a host and a traveling stranger; Aristotle ranks it among the friendships that rest on usefulness and on community.",
+   "kind": "concept"
+  },
+  {
+   "term": "deviation",
+   "gloss": "Aristotle's term for a corrupt form of constitution — tyranny, oligarchy, democracy — that departs from a sound original.",
+   "kind": "concept",
+   "aliases": [
+    "deviations",
+    "deviant"
+   ]
+  },
+  {
+   "term": "the composite creature",
+   "gloss": "The human being as a compound of body and soul, intellect and passions. The virtues of character belong to it, while the activity of pure intellect rises above it.",
+   "kind": "concept",
+   "aliases": [
+    "composite"
+   ]
+  },
+  {
+   "term": "divine",
+   "gloss": "Of or like the gods; Aristotle calls the intellect and its activity divine, and urges us, \"as far as we can,\" to make ourselves immortal by living by the highest thing in us.",
+   "kind": "concept"
+  },
+  {
+   "term": "the philosophy of human affairs",
+   "gloss": "Aristotle's name for the whole practical study of human conduct — ethics together with politics — which he says the Ethics only begins and the inquiry into constitutions is meant to complete.",
+   "kind": "concept"
+  },
+  {
+   "term": "unimpeded activity",
+   "gloss": "Aristotle's preferred definition of pleasure: the free, unobstructed exercise of a natural state, as opposed to the older view that pleasure is a \"perceived process.\"",
+   "kind": "concept"
+  },
+  {
+   "term": "good judgment",
+   "gloss": "The faculty of fair, sympathetic discernment by which a decent person rightly sizes up what is fair in a particular case; closely linked to understanding and forgiveness.",
+   "kind": "concept"
+  },
+  {
+   "term": "quick wit",
+   "gloss": "A knack for hitting on the right thing in a flash — a species of lucky guess, which Aristotle distinguishes from genuine good deliberation, since deliberation takes time.",
+   "kind": "concept"
+  }
+ ],
+ "chapters": {
+  "1": "Aristotle opens with the largest question there is: what is the good that every human life aims at? He works through the popular answers — pleasure, honor, wealth — and then builds his own from an unexpected direction: what a human being is for. The book closes by looking inside the soul, mapping the ground the rest of the inquiry will walk.",
+  "2": "How do you become good? Not by nature and not by lecture, Aristotle answers, but by practice — we become just by doing just things. Out of that comes the book's most famous idea: virtue lives at a mean between too much and too little, a target you learn to hit by feel.",
+  "3": "Praise and blame only make sense for what we do willingly, so Aristotle first draws the line between the voluntary, the forced, and the ignorant, and examines what choice and deliberation really are. Then the tour of the particular virtues begins with the two most bodily ones: courage, tested in battle, and temperance, tested at the table.",
+  "4": "A gallery of characters: the generous and the wasteful, the magnificent host, the great-souled man who knows his own worth, the even-tempered, the witty, the truthful. Aristotle sketches how excellence actually looks at dinner, in public life, and in conversation — moral philosophy drawn from the living room as much as the battlefield.",
+  "5": "Justice gets a book to itself, because it is the whole of virtue turned toward other people. Aristotle splits it into fair distribution and fair correction, follows it into markets and money, and ends with equity — the decency that bends a rigid rule to fit the particular case.",
+  "6": "If virtue means following right reason, what exactly is reasoning well? Aristotle sorts the excellences of the intellect — craft, science, intuition, philosophic wisdom — to isolate practical wisdom, the skill of seeing what a situation calls for. Its model is not the professor but the good statesman, a Pericles.",
+  "7": "Why do we do things we know are bad for us? Against Socrates, who insisted knowledge could never be dragged about like a slave, Aristotle takes weakness of will seriously and traces how desire outmaneuvers judgment. That opens the book's second subject: whether pleasure itself is good, bad, or something subtler than either camp allows.",
+  "8": "Friendship, Aristotle says, is the one thing no one would choose to live without. He sorts it into three kinds — for use, for pleasure, and for the friend's own sake — and then follows it through households, cities, and every form of government, where each constitution turns out to have its matching friendship.",
+  "9": "Now the harder cases: when friendships break, what we owe to whom, and whether the good person should love himself first. It ends on a question still asked today — does a happy, self-sufficient person need friends at all? — and Aristotle's answer is one of the warmest passages in the book.",
+  "10": "The finale returns to pleasure and then climbs to the summit: happiness at its fullest is the mind at contemplation, the most godlike activity we have. But since goodness must be trained into people by law and habit, the book closes by turning toward politics — the study that begins where this one ends."
+ },
+ "passages": [
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-01",
+   "people": [
+    "Solon",
+    "Priam",
+    "Plato",
+    "Hesiod",
+    "Sardanapalus"
+   ],
+   "define": [
+    {
+     "term": "master art",
+     "gloss": "A craft that directs other crafts, the way generalship directs horsemanship and every trade beneath it — its aim outranks theirs, which is why Aristotle looks for one highest aim over all of life."
+    },
+    {
+     "term": "thesis",
+     "gloss": "In the Greek philosophy schools, a deliberately paradoxical position defended for the sake of argument — Aristotle's point being that only a debater would call a suffering man happy."
     }
-  ]
+   ],
+   "connections": [
+    {
+     "label": "The Republic",
+     "kind": "work"
+    },
+    {
+     "label": "Meditations",
+     "kind": "work"
+    },
+    {
+     "label": "call no man happy until the end",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-02",
+   "people": [
+    "Plato",
+    "Heraclitus",
+    "Milo",
+    "Homer"
+   ],
+   "define": [
+    {
+     "term": "the unlimited",
+     "gloss": "In Pythagorean thought, the formless and indefinite, paired with 'the limited' as bad is paired with good — so there are endless ways to miss the mark and only one way to hit it."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Analects",
+     "kind": "work"
+    },
+    {
+     "label": "the golden mean",
+     "kind": "idea"
+    },
+    {
+     "label": "The Odyssey",
+     "kind": "work"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-03",
+   "people": [
+    "Homer",
+    "Hector",
+    "Diomedes",
+    "Euripides",
+    "Aeschylus"
+   ],
+   "define": [
+    {
+     "term": "citizen militia",
+     "gloss": "Citizens fighting for their own city rather than for pay; Aristotle contrasts their standing firm with professional soldiers, who run when the odds turn against them."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "Hamlet",
+     "kind": "work"
+    },
+    {
+     "label": "voluntary action and responsibility",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-04",
+   "people": [
+    "Simonides",
+    "Socrates",
+    "Homer",
+    "Thetis"
+   ],
+   "define": [
+    {
+     "term": "funding a chorus",
+     "gloss": "One of Athens' public duties for the rich: paying to outfit and train the singers and dancers of a festival play — a stage on which magnificence, or gaudiness, showed itself to the whole city."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Prince",
+     "kind": "work"
+    },
+    {
+     "label": "the great-souled man",
+     "kind": "idea"
+    },
+    {
+     "label": "Athens",
+     "kind": "place"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-05",
+   "people": [
+    "Bias",
+    "Rhadamanthus",
+    "Brasidas",
+    "Euripides"
+   ],
+   "define": [
+    {
+     "term": "mina",
+     "gloss": "A Greek unit of money equal to 100 drachmas — on the order of three months' wages for a skilled worker."
+    },
+    {
+     "term": "pandering",
+     "gloss": "Procuring — luring someone into another's hands for sex or profit; one of Aristotle's examples of injustice done by stealth."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Republic",
+     "kind": "work"
+    },
+    {
+     "label": "The Analects",
+     "kind": "work"
+    },
+    {
+     "label": "the spirit over the letter of the law",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-06",
+   "people": [
+    "Pericles",
+    "Agathon",
+    "Socrates",
+    "Anaxagoras",
+    "Thales"
+   ],
+   "connections": [
+    {
+     "label": "The Republic",
+     "kind": "work"
+    },
+    {
+     "label": "The Prince",
+     "kind": "work"
+    },
+    {
+     "label": "knowing how versus knowing that",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-07",
+   "people": [
+    "Socrates",
+    "Neoptolemus",
+    "Philoctetes",
+    "Sophocles",
+    "Empedocles"
+   ],
+   "define": [
+    {
+     "term": "the neutral state",
+     "gloss": "The condition of feeling neither pleasure nor pain — which, Aristotle notes, many people find unbearable in itself, since living is a kind of effort."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Confessions",
+     "kind": "work"
+    },
+    {
+     "label": "the divided will",
+     "kind": "idea"
+    },
+    {
+     "label": "no one does wrong willingly",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-08",
+   "people": [
+    "Homer",
+    "Heraclitus",
+    "Empedocles",
+    "Agamemnon"
+   ],
+   "define": [
+    {
+     "term": "friendship based on usefulness",
+     "gloss": "A bond kept alive by what each partner gets from the other; since it loves the benefit rather than the person, it dissolves the moment the benefit does."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Epic of Gilgamesh",
+     "kind": "work"
+    },
+    {
+     "label": "The Iliad",
+     "kind": "work"
+    },
+    {
+     "label": "The Analects",
+     "kind": "work"
+    },
+    {
+     "label": "friendship as a school of virtue",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-09",
+   "people": [
+    "Protagoras",
+    "Pittacus",
+    "Epicharmus",
+    "Theognis"
+   ],
+   "define": [
+    {
+     "term": "office",
+     "gloss": "Here in its older sense: a role's proper duty or service — what a friend, as friend, is for."
+    },
+    {
+     "term": "civic friendship",
+     "gloss": "Friendship stretched to the scale of a city: fellow citizens agreeing about what benefits them all and acting on it together — which is why Aristotle calls concord a civic friendship."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Confessions",
+     "kind": "work"
+    },
+    {
+     "label": "Hamlet",
+     "kind": "work"
+    },
+    {
+     "label": "the friend as a second self",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.nicomachean-ethics.lectio-modern.book-10",
+   "people": [
+    "Eudoxus",
+    "Plato",
+    "Anacharsis",
+    "Solon",
+    "Anaxagoras"
+   ],
+   "define": [
+    {
+     "term": "coming-to-be",
+     "gloss": "A philosopher's term for a process of generation — something still on its way to being complete; Aristotle argues pleasure is not one, since it is whole at every instant."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Divine Comedy",
+     "kind": "work"
+    },
+    {
+     "label": "Meditations",
+     "kind": "work"
+    },
+    {
+     "label": "the active life versus the contemplative life",
+     "kind": "idea"
+    },
+    {
+     "label": "Epicurus",
+     "kind": "author"
+    }
+   ]
+  }
+ ]
 }

@@ -1,1909 +1,2280 @@
 {
-  "workId": "work.marcus-aurelius.meditations",
-  "source": "editorial",
-  "note": "Hand-authored editorial seed for the margin rail, keyed by sectionId (so it is edition-specific). Demonstrates the data shape the connection graph (BIBLE.md §4.3) will later populate. Definitions are from Webster's 1913 (public domain). The pipeline does not overwrite this file.",
-  "chapters": {
-    "1": "Marcus opens not with doctrine but with gratitude, naming the family, teachers, and friends who shaped him and the specific virtue he owes to each. It reads as a quiet inventory of a good character and where it came from.",
-    "2": "Written on campaign, these notes brace him for difficult people and his own mortality. Expect the famous morning resolution that he will meet the ungrateful and arrogant today, and the reminder that he is only flesh, breath, and a ruling mind.",
-    "3": "A meditation on time running out and on living well now. He urges urgency before the mind itself fades, and finds an unexpected beauty in ordinary, imperfect things when seen clearly.",
-    "4": "One of the richest books, turning on the idea that you can retreat into your own soul anywhere for peace. Themes of impermanence, the constant change of all things, and acting with purpose run throughout.",
-    "5": "Begins with the struggle to get out of bed and do the work you were made for. He examines duty, doing your nature's task without complaint, and accepting whatever the whole assigns you.",
-    "6": "Short, sharp reflections on the orderly reason that governs the universe and on duty done without fuss. A recurring note: the best revenge is simply not to become like the person who wronged you.",
-    "7": "There is nothing new under the sun, he reminds himself, so judgments, not events, disturb us. He returns to the power of opinion, recovering composure, and keeping good humor amid the noise of human affairs.",
-    "8": "He lets go of the wish to seem like a philosopher and aims only to live rightly with the time left. Reflections on judging your own acts, contentment, and acting for the common good.",
-    "9": "Centers on justice and truth as obligations we owe one another, since we were made to cooperate. To lie, to be unjust, or to chase pleasure as the only good is to fight against nature itself.",
-    "10": "An intimate appeal to his own soul to become simple, content, and free of craving. He works on accepting his lot from the gods and looking honestly at people and things as they really are.",
-    "11": "Explores the rational soul's unique powers, its kinship with others, and how to handle those who offend us with understanding rather than anger. The book closes with a set of borrowed maxims, several from Epictetus.",
-    "12": "A gathering of final reflections on living each moment with piety and justice and meeting death without fear. It ends with the image of life as a play: leave the stage content when nature, the one who cast you, calls you off."
+ "workId": "work.marcus-aurelius.meditations",
+ "source": "editorial",
+ "note": "Hand-authored editorial seed for the margin rail, keyed by sectionId (so it is edition-specific). Demonstrates the data shape the connection graph (BIBLE.md §4.3) will later populate. Definitions are from Webster's 1913 (public domain). The pipeline does not overwrite this file.",
+ "chapters": {
+  "1": "Marcus opens not with doctrine but with gratitude, naming the family, teachers, and friends who shaped him and the specific virtue he owes to each. It reads as a quiet inventory of a good character and where it came from.",
+  "2": "Written on campaign, these notes brace him for difficult people and his own mortality. Expect the famous morning resolution that he will meet the ungrateful and arrogant today, and the reminder that he is only flesh, breath, and a ruling mind.",
+  "3": "A meditation on time running out and on living well now. He urges urgency before the mind itself fades, and finds an unexpected beauty in ordinary, imperfect things when seen clearly.",
+  "4": "One of the richest books, turning on the idea that you can retreat into your own soul anywhere for peace. Themes of impermanence, the constant change of all things, and acting with purpose run throughout.",
+  "5": "Begins with the struggle to get out of bed and do the work you were made for. He examines duty, doing your nature's task without complaint, and accepting whatever the whole assigns you.",
+  "6": "Short, sharp reflections on the orderly reason that governs the universe and on duty done without fuss. A recurring note: the best revenge is simply not to become like the person who wronged you.",
+  "7": "There is nothing new under the sun, he reminds himself, so judgments, not events, disturb us. He returns to the power of opinion, recovering composure, and keeping good humor amid the noise of human affairs.",
+  "8": "He lets go of the wish to seem like a philosopher and aims only to live rightly with the time left. Reflections on judging your own acts, contentment, and acting for the common good.",
+  "9": "Centers on justice and truth as obligations we owe one another, since we were made to cooperate. To lie, to be unjust, or to chase pleasure as the only good is to fight against nature itself.",
+  "10": "An intimate appeal to his own soul to become simple, content, and free of craving. He works on accepting his lot from the gods and looking honestly at people and things as they really are.",
+  "11": "Explores the rational soul's unique powers, its kinship with others, and how to handle those who offend us with understanding rather than anger. The book closes with a set of borrowed maxims, several from Epictetus.",
+  "12": "A gathering of final reflections on living each moment with piety and justice and meeting death without fear. It ends with the image of life as a play: leave the stage content when nature, the one who cast you, calls you off."
+ },
+ "passages": [
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-01",
+   "people": [
+    "Verus",
+    "Diognetus",
+    "Rusticus",
+    "Apollonius",
+    "Maximus",
+    "Antoninus Pius"
+   ],
+   "connections": [
+    {
+     "label": "Epictetus, Discourses",
+     "kind": "author"
+    },
+    {
+     "label": "Seneca, Letters",
+     "kind": "author"
+    },
+    {
+     "label": "gratitude",
+     "kind": "idea"
+    },
+    {
+     "label": "the examined life",
+     "kind": "idea"
+    }
+   ]
   },
-  "passages": [
+  {
+   "sectionId": "edition.meditations.long-1862.book-01",
+   "people": [
+    "Verus",
+    "Diognetus",
+    "Rusticus",
+    "Apollonius",
+    "Maximus",
+    "Antoninus Pius"
+   ],
+   "define": [
     {
-      "sectionId": "edition.meditations.lectio-modern.book-01",
-      "people": [
-        "Verus",
-        "Diognetus",
-        "Rusticus",
-        "Apollonius",
-        "Maximus",
-        "Antoninus Pius"
-      ],
-      "connections": [
-        {
-          "label": "Epictetus, Discourses",
-          "kind": "author"
-        },
-        {
-          "label": "Seneca, Letters",
-          "kind": "author"
-        },
-        {
-          "label": "gratitude",
-          "kind": "idea"
-        },
-        {
-          "label": "the examined life",
-          "kind": "idea"
-        }
-      ]
-    },
-    {
-      "sectionId": "edition.meditations.long-1862.book-01",
-      "people": [
-        "Verus",
-        "Diognetus",
-        "Rusticus",
-        "Apollonius",
-        "Maximus",
-        "Antoninus Pius"
-      ],
-      "define": [
-        {
-          "term": "beneficence",
-          "gloss": "the practice of doing good; active goodness, kindness, or charity.",
-          "source": "Webster 1913"
-        }
-      ],
-      "connections": [
-        {
-          "label": "Epictetus, Discourses",
-          "kind": "author"
-        },
-        {
-          "label": "Seneca, Letters",
-          "kind": "author"
-        },
-        {
-          "label": "gratitude",
-          "kind": "idea"
-        },
-        {
-          "label": "the examined life",
-          "kind": "idea"
-        }
-      ]
-    },
-    {
-      "sectionId": "edition.meditations.casaubon-1634.book-01",
-      "people": [
-        "Verus",
-        "Diognetus",
-        "Rusticus",
-        "Antoninus Pius",
-        "Maximus"
-      ],
-      "define": [
-        {
-          "term": "shamefastness",
-          "gloss": "the quality of being modest; bashfulness restrained by a sense of propriety.",
-          "source": "Webster 1913"
-        }
-      ],
-      "connections": [
-        {
-          "label": "Epictetus, Discourses",
-          "kind": "author"
-        },
-        {
-          "label": "Seneca, Letters",
-          "kind": "author"
-        },
-        {
-          "label": "gratitude",
-          "kind": "idea"
-        },
-        {
-          "label": "the examined life",
-          "kind": "idea"
-        }
-      ]
+     "term": "beneficence",
+     "gloss": "the practice of doing good; active goodness, kindness, or charity.",
+     "source": "Webster 1913"
     }
-  ],
-  "glossary": [
+   ],
+   "connections": [
     {
-      "term": "Verus",
-      "gloss": "Marcus Aurelius's grandfather, Marcus Annius Verus, whom he credits with teaching him a good temper and self-control.",
-      "kind": "person"
+     "label": "Epictetus, Discourses",
+     "kind": "author"
     },
     {
-      "term": "reverence",
-      "gloss": "Deep respect and a sense of awe, especially toward what is sacred or worthy of honor.",
-      "kind": "word",
-      "aliases": [
-        "revere",
-        "revered"
-      ]
+     "label": "Seneca, Letters",
+     "kind": "author"
     },
     {
-      "term": "the Circus",
-      "gloss": "The Circus Maximus in Rome, the huge arena for chariot races; here a symbol of the partisan passions Marcus learned to avoid.",
-      "kind": "place"
+     "label": "gratitude",
+     "kind": "idea"
     },
     {
-      "term": "gladiators",
-      "gloss": "Armed fighters who fought for public entertainment in Roman arenas; Marcus avoided taking sides among rival fighters.",
-      "kind": "people"
-    },
-    {
-      "term": "Diognetus",
-      "gloss": "One of Marcus's teachers, who steered him away from superstition and trivial pursuits and toward philosophy.",
-      "kind": "person"
-    },
-    {
-      "term": "quacks",
-      "gloss": "Frauds who pretend to special powers or knowledge—here, fake magicians peddling spells.",
-      "kind": "people"
-    },
-    {
-      "term": "exorcisms",
-      "gloss": "Rituals claiming to drive out evil spirits; Marcus learned to disbelieve such claims.",
-      "kind": "thing"
-    },
-    {
-      "term": "Bacchius",
-      "gloss": "A philosopher Marcus was led to hear in his youth.",
-      "kind": "person"
-    },
-    {
-      "term": "Tandasis",
-      "gloss": "A philosopher Marcus heard as a young man.",
-      "kind": "person"
-    },
-    {
-      "term": "Marcianus",
-      "gloss": "A philosopher Marcus heard in his youth.",
-      "kind": "person"
-    },
-    {
-      "term": "dialogues",
-      "gloss": "Philosophical writings cast as conversations, a classical literary form Marcus practiced as a boy.",
-      "kind": "thing"
-    },
-    {
-      "term": "Rusticus",
-      "gloss": "Junius Rusticus, a Stoic teacher who showed Marcus his character needed work and introduced him to Epictetus.",
-      "kind": "person"
-    },
-    {
-      "term": "rhetoric",
-      "gloss": "The art of persuasive, ornamented speech; Marcus was taught to give up its showiness for plain writing.",
-      "kind": "thing"
-    },
-    {
-      "term": "Sinuessa",
-      "gloss": "A town in Italy, mentioned as the place a plain letter was sent from.",
-      "kind": "place"
-    },
-    {
-      "term": "Epictetus",
-      "gloss": "A former slave who became a great Stoic philosopher; his teachings deeply shaped Marcus.",
-      "kind": "person"
-    },
-    {
-      "term": "Apollonius",
-      "gloss": "A Stoic teacher from whom Marcus learned independence of mind and steadiness in pain and loss.",
-      "kind": "person"
-    },
-    {
-      "term": "Sextus",
-      "gloss": "A philosopher (of Chaeronea) from whom Marcus learned kindness and how to run a household well.",
-      "kind": "person"
-    },
-    {
-      "term": "flattery",
-      "gloss": "Excessive or insincere praise meant to please or manipulate.",
-      "kind": "word",
-      "aliases": [
-        "flatter",
-        "flattering"
-      ]
-    },
-    {
-      "term": "Alexander the grammarian",
-      "gloss": "A teacher of language and literature who taught Marcus to correct others tactfully rather than pounce on mistakes.",
-      "kind": "person"
-    },
-    {
-      "term": "grammarian",
-      "gloss": "A scholar and teacher of language and literature.",
-      "kind": "person"
-    },
-    {
-      "term": "Fronto",
-      "gloss": "Marcus's tutor in rhetoric, from whom he learned how envy and hypocrisy attend absolute power.",
-      "kind": "person"
-    },
-    {
-      "term": "hypocrisy",
-      "gloss": "Pretending to virtues or feelings one does not actually have.",
-      "kind": "word",
-      "aliases": [
-        "hypocrite"
-      ]
-    },
-    {
-      "term": "aristocrats",
-      "gloss": "Members of the highest social class; Marcus notes they often lack ordinary human warmth.",
-      "kind": "people"
-    },
-    {
-      "term": "Alexander the Platonist",
-      "gloss": "A teacher and follower of Plato, who taught Marcus not to keep pleading that he was 'too busy.'",
-      "kind": "person"
-    },
-    {
-      "term": "Catulus",
-      "gloss": "A Stoic teacher of Marcus, who taught him to take a friend's complaints seriously and to love his children.",
-      "kind": "person"
-    },
-    {
-      "term": "Domitius",
-      "gloss": "A man cited as an example of speaking warmly of one's teachers.",
-      "kind": "person"
-    },
-    {
-      "term": "Athenodotus",
-      "gloss": "A man cited, with Domitius, as an example of speaking warmly of one's teachers.",
-      "kind": "person"
-    },
-    {
-      "term": "Severus",
-      "gloss": "Marcus's brother (or kinsman), from whom he learned love of family, truth, and justice.",
-      "kind": "person"
-    },
-    {
-      "term": "Thrasea",
-      "gloss": "A Stoic senator famed for opposing tyranny, known to Marcus through Severus.",
-      "kind": "person"
-    },
-    {
-      "term": "Helvidius",
-      "gloss": "A Stoic statesman remembered for defending liberty, known to Marcus through Severus.",
-      "kind": "person"
-    },
-    {
-      "term": "Cato",
-      "gloss": "Cato the Younger, a Roman statesman who became a model of Stoic resistance to tyranny.",
-      "kind": "person"
-    },
-    {
-      "term": "Dion",
-      "gloss": "A figure (Dion of Syracuse) cited as a model of opposing tyranny.",
-      "kind": "person"
-    },
-    {
-      "term": "Brutus",
-      "gloss": "A Roman remembered as a champion of liberty against one-man rule.",
-      "kind": "person"
-    },
-    {
-      "term": "kingship",
-      "gloss": "Rule by a king; here, the ideal of a kingship that values the freedom of its subjects above all.",
-      "kind": "thing"
-    },
-    {
-      "term": "Maximus",
-      "gloss": "Claudius Maximus, a Stoic teacher from whom Marcus learned self-mastery and good cheer in all circumstances.",
-      "kind": "person"
-    },
-    {
-      "term": "self-mastery",
-      "gloss": "Control over one's own impulses, emotions, and desires.",
-      "kind": "concept",
-      "aliases": [
-        "self-control",
-        "self-discipline"
-      ]
-    },
-    {
-      "term": "Antoninus",
-      "gloss": "Antoninus Pius, Marcus's adoptive father and predecessor as emperor, his model of gentleness and steady judgment.",
-      "kind": "person"
-    },
-    {
-      "term": "sophist",
-      "gloss": "In Marcus's usage, a showy, shallow teacher who values clever argument over genuine wisdom.",
-      "kind": "people"
-    },
-    {
-      "term": "pedant",
-      "gloss": "Someone who fusses over petty rules or shows off minor learning.",
-      "kind": "word"
-    },
-    {
-      "term": "eloquence",
-      "gloss": "Skilled, persuasive, and graceful speech.",
-      "kind": "word"
-    },
-    {
-      "term": "prudent",
-      "gloss": "Wise and careful in practical matters; exercising good judgment.",
-      "kind": "word",
-      "aliases": [
-        "prudence"
-      ]
-    },
-    {
-      "term": "superstitious",
-      "gloss": "Holding irrational fears or beliefs about supernatural powers; Antoninus was free of these toward the gods.",
-      "kind": "word"
-    },
-    {
-      "term": "Socrates",
-      "gloss": "The ancient Athenian philosopher, here invoked as a model of disciplined desire and moderate enjoyment.",
-      "kind": "person"
-    },
-    {
-      "term": "providence",
-      "gloss": "The idea that the universe is governed by a rational, caring order; for Stoics, everything that happens is woven into this plan.",
-      "kind": "concept"
-    },
-    {
-      "term": "Benedicta",
-      "gloss": "A person in Marcus's household whom he names as someone he behaved honorably toward.",
-      "kind": "person"
-    },
-    {
-      "term": "Theodotus",
-      "gloss": "A person in Marcus's household whom he names as someone he behaved honorably toward.",
-      "kind": "person"
-    },
-    {
-      "term": "the part that governs",
-      "gloss": "The Stoic 'ruling faculty'—the rational, deciding center of the mind that controls judgment and choice.",
-      "kind": "concept",
-      "aliases": [
-        "the governing part",
-        "the ruling power",
-        "the ruling principle",
-        "the part of us that rules from within",
-        "the ruling and law-giving faculty",
-        "ruling principle",
-        "ruling principles"
-      ]
-    },
-    {
-      "term": "the divine",
-      "gloss": "For the Stoics, the rational, ordering principle that pervades the universe, of which each mind holds a fragment.",
-      "kind": "concept",
-      "aliases": [
-        "divinity",
-        "the divine part",
-        "divine part"
-      ]
-    },
-    {
-      "term": "nature",
-      "gloss": "In Stoicism, the rational order of the universe; to 'live according to nature' is to live in accord with reason and accept what happens.",
-      "kind": "concept",
-      "aliases": [
-        "Nature"
-      ]
-    },
-    {
-      "term": "the whole",
-      "gloss": "The Stoic term for the entire universe regarded as one rational, living system, of which each person is a part.",
-      "kind": "concept"
-    },
-    {
-      "term": "impulse",
-      "gloss": "In Stoicism, the inner motion toward action; the mind directs and controls its impulses.",
-      "kind": "concept",
-      "aliases": [
-        "impulses"
-      ]
-    },
-    {
-      "term": "Theophrastus",
-      "gloss": "An ancient Greek philosopher, successor to Aristotle, cited for ranking offenses of desire above offenses of anger.",
-      "kind": "person"
-    },
-    {
-      "term": "Monimus the Cynic",
-      "gloss": "A Cynic philosopher quoted for the saying that everything is a matter of opinion.",
-      "kind": "person"
-    },
-    {
-      "term": "Cynic",
-      "gloss": "A member of an ancient Greek philosophical school that prized self-sufficiency and scorned convention and luxury.",
-      "kind": "people"
-    },
-    {
-      "term": "vexed",
-      "gloss": "Irritated, troubled, or distressed; to be 'vexed' at events is, for Marcus, to cut oneself off from nature.",
-      "kind": "word",
-      "aliases": [
-        "vexes"
-      ]
-    },
-    {
-      "term": "abscess",
-      "gloss": "A swollen pocket of pus; Marcus uses it as a metaphor for a soul that has made itself a diseased growth on the universe.",
-      "kind": "word"
-    },
-    {
-      "term": "oblivion",
-      "gloss": "Complete forgetting; the state of being utterly forgotten after death.",
-      "kind": "word"
-    },
-    {
-      "term": "commonwealth",
-      "gloss": "A community organized for the common good; here, the universal city of rational beings under one law.",
-      "kind": "concept"
-    },
-    {
-      "term": "reason",
-      "gloss": "For the Stoics, the rational principle (logos) that governs the universe and is shared by every human mind.",
-      "kind": "concept",
-      "aliases": [
-        "right reason",
-        "social reason"
-      ]
-    },
-    {
-      "term": "senility",
-      "gloss": "The mental decline that can come with old age.",
-      "kind": "word",
-      "aliases": [
-        "senile"
-      ]
-    },
-    {
-      "term": "impression",
-      "gloss": "In Stoicism, an appearance or perception that strikes the mind, which one then judges or assents to.",
-      "kind": "concept",
-      "aliases": [
-        "impressions"
-      ]
-    },
-    {
-      "term": "Hippocrates",
-      "gloss": "The famous ancient Greek physician; Marcus notes that even he, who cured many, fell sick and died.",
-      "kind": "person"
-    },
-    {
-      "term": "the Chaldean astrologers",
-      "gloss": "Ancient stargazers reputed to foretell the future; Marcus notes they too met the deaths fate held for them.",
-      "kind": "people",
-      "aliases": [
-        "astrologers"
-      ]
-    },
-    {
-      "term": "Alexander",
-      "gloss": "Alexander the Great, the conqueror; cited among great men who, despite their conquests, all died.",
-      "kind": "person"
-    },
-    {
-      "term": "Pompey",
-      "gloss": "A Roman general and statesman, cited among great conquerors who nonetheless died.",
-      "kind": "person"
-    },
-    {
-      "term": "Gaius Caesar",
-      "gloss": "Julius Caesar, the Roman general and statesman, cited among conquerors who died like all others.",
-      "kind": "person"
-    },
-    {
-      "term": "Heraclitus",
-      "gloss": "An ancient Greek philosopher known for teaching that all things change and that the universe periodically turns to fire.",
-      "kind": "person"
-    },
-    {
-      "term": "Democritus",
-      "gloss": "An ancient Greek philosopher (of the atomic theory); Marcus notes that lice killed him.",
-      "kind": "person"
-    },
-    {
-      "term": "conjecture",
-      "gloss": "A guess or opinion formed without solid evidence.",
-      "kind": "word"
-    },
-    {
-      "term": "Phalaris",
-      "gloss": "A notoriously cruel ancient tyrant, used as an example of a man ruled by base desire.",
-      "kind": "person"
-    },
-    {
-      "term": "Nero",
-      "gloss": "The infamous Roman emperor, used as an example of a man driven by base appetites.",
-      "kind": "person"
-    },
-    {
-      "term": "chaste",
-      "gloss": "Pure and free from lust; here, looking on beauty without desire.",
-      "kind": "word"
-    },
-    {
-      "term": "temperance",
-      "gloss": "The Stoic virtue of moderation and self-restraint in desires and pleasures.",
-      "kind": "concept",
-      "aliases": [
-        "temperate"
-      ]
-    },
-    {
-      "term": "self-sufficiency",
-      "gloss": "The capacity to find within oneself everything needed for a good life, depending on no one else.",
-      "kind": "concept"
-    },
-    {
-      "term": "destiny",
-      "gloss": "The fixed course of events; for Stoics, the rational order that spins out each person's allotted fate.",
-      "kind": "concept"
-    },
-    {
-      "term": "the elements",
-      "gloss": "In ancient physics, the basic constituents (earth, water, air, fire) from which all things are made and into which they dissolve.",
-      "kind": "concept",
-      "aliases": [
-        "elements"
-      ]
-    },
-    {
-      "term": "tranquillity",
-      "gloss": "A calm, untroubled state of mind; for Marcus, the result of a well-ordered mind.",
-      "kind": "concept",
-      "aliases": [
-        "tranquil",
-        "untroubled"
-      ]
-    },
-    {
-      "term": "atoms",
-      "gloss": "In the rival Epicurean view, the tiny particles whose random collisions form the world by chance rather than design.",
-      "kind": "concept"
-    },
-    {
-      "term": "political community",
-      "gloss": "For the Stoics, the universe seen as a single state in which all rational beings are fellow citizens.",
-      "kind": "concept"
-    },
-    {
-      "term": "fellow citizens",
-      "gloss": "Members of the same community; for Stoics, all rational beings share one cosmic city.",
-      "kind": "concept"
-    },
-    {
-      "term": "constitution",
-      "gloss": "In Stoicism, the natural make-up or design of a thing; one acts well by living in accord with one's constitution.",
-      "kind": "concept"
-    },
-    {
-      "term": "generative principle",
-      "gloss": "The creative source of the universe, into which things dissolve and from which new things arise.",
-      "kind": "concept",
-      "aliases": [
-        "generative intelligence"
-      ]
-    },
-    {
-      "term": "Agathon",
-      "gloss": "An ancient Athenian tragic poet, quoted on running straight without glancing at others' faults.",
-      "kind": "person"
-    },
-    {
-      "term": "Cecrops",
-      "gloss": "The legendary first king of Athens; 'city of Cecrops' means Athens.",
-      "kind": "person"
-    },
-    {
-      "term": "Zeus",
-      "gloss": "The chief god of the Greeks; Marcus reframes loyalty from one's earthly city to the 'city of Zeus,' the universe.",
-      "kind": "god"
-    },
-    {
-      "term": "lyre",
-      "gloss": "An ancient stringed musical instrument.",
-      "kind": "thing"
-    },
-    {
-      "term": "Vespasian",
-      "gloss": "A Roman emperor; Marcus points to his era to show that human life always looks the same.",
-      "kind": "person"
-    },
-    {
-      "term": "Trajan",
-      "gloss": "A Roman emperor; Marcus cites his era to show that one age's life passes like every other's.",
-      "kind": "person"
-    },
-    {
-      "term": "consulship",
-      "gloss": "The office of consul, one of Rome's highest political positions.",
-      "kind": "thing"
-    },
-    {
-      "term": "Camillus",
-      "gloss": "A celebrated early Roman figure whose once-famous name Marcus says has now grown obsolete.",
-      "kind": "person"
-    },
-    {
-      "term": "Caeso",
-      "gloss": "An old Roman name Marcus cites as now fallen into obscurity.",
-      "kind": "person"
-    },
-    {
-      "term": "Volesus",
-      "gloss": "An old Roman name Marcus cites as now fallen into obscurity.",
-      "kind": "person"
-    },
-    {
-      "term": "Leonnatus",
-      "gloss": "An old name Marcus cites as now grown obsolete.",
-      "kind": "person"
-    },
-    {
-      "term": "Scipio",
-      "gloss": "A famous Roman general whose once-great name Marcus notes is now passing into obscurity.",
-      "kind": "person"
-    },
-    {
-      "term": "Augustus",
-      "gloss": "The first Roman emperor, cited among great names that time will bury in oblivion.",
-      "kind": "person"
-    },
-    {
-      "term": "Hadrian",
-      "gloss": "A Roman emperor, cited among great names that will be forgotten.",
-      "kind": "person"
-    },
-    {
-      "term": "obsolete",
-      "gloss": "No longer in use; out of date.",
-      "kind": "word"
-    },
-    {
-      "term": "Clotho",
-      "gloss": "One of the three Fates of Greek myth, who spins the thread of each person's life.",
-      "kind": "god"
-    },
-    {
-      "term": "the Fates",
-      "gloss": "The three goddesses of Greek myth who spin, measure, and cut the thread of each life.",
-      "kind": "god",
-      "aliases": [
-        "Fates"
-      ]
-    },
-    {
-      "term": "substance",
-      "gloss": "The underlying material or stuff of which a thing is made; in Stoicism, the universe is of one substance.",
-      "kind": "concept"
-    },
-    {
-      "term": "sympathy",
-      "gloss": "In Stoicism, the deep interconnection by which all parts of the universe affect and bind one another.",
-      "kind": "concept"
-    },
-    {
-      "term": "tyrannical",
-      "gloss": "Acting like a tyrant—cruel, domineering, and oppressive.",
-      "kind": "word",
-      "aliases": [
-        "tyrant",
-        "tyrants"
-      ]
-    },
-    {
-      "term": "runaway",
-      "gloss": "A fugitive, especially a runaway slave; Marcus calls one who flees the social reason a runaway.",
-      "kind": "word"
-    },
-    {
-      "term": "fragment",
-      "gloss": "A piece broken off from a whole; one who cuts himself off from common reason is a fragment torn from the state.",
-      "kind": "word"
-    },
-    {
-      "term": "Helice",
-      "gloss": "An ancient Greek city destroyed by an earthquake and flood, cited as an example of a whole city that died.",
-      "kind": "place"
-    },
-    {
-      "term": "Pompeii",
-      "gloss": "A Roman city buried by the eruption of Vesuvius, cited as a whole city that perished.",
-      "kind": "place"
-    },
-    {
-      "term": "Herculaneum",
-      "gloss": "A Roman town destroyed alongside Pompeii by Vesuvius, cited as a city that died.",
-      "kind": "place"
-    },
-    {
-      "term": "headland",
-      "gloss": "A point of high land jutting into the sea; Marcus uses it as an image of standing firm against pounding waves.",
-      "kind": "word"
-    },
-    {
-      "term": "great-souled",
-      "gloss": "Possessing greatness of spirit—generous, noble, and above petty concerns.",
-      "kind": "word"
-    },
-    {
-      "term": "Cadicianus",
-      "gloss": "A name Marcus lists of people who clung to life and yet ended in the tomb like everyone else.",
-      "kind": "person"
-    },
-    {
-      "term": "Fabius",
-      "gloss": "A name Marcus lists of people who clung to life and yet died like all the rest.",
-      "kind": "person"
-    },
-    {
-      "term": "Julianus",
-      "gloss": "A name Marcus lists of people who clung to life and yet ended in their tombs.",
-      "kind": "person"
-    },
-    {
-      "term": "Lepidus",
-      "gloss": "A name Marcus lists of people who clung to life and yet died like everyone else.",
-      "kind": "person"
-    },
-    {
-      "term": "the Stoics",
-      "gloss": "Followers of Stoicism, the philosophy—Marcus's own—that teaches living by reason, accepting fate, and finding the good only in virtue.",
-      "kind": "people",
-      "aliases": [
-        "Stoic"
-      ]
-    },
-    {
-      "term": "primal",
-      "gloss": "Original or most basic; belonging to the earliest, fundamental source.",
-      "kind": "word"
-    },
-    {
-      "term": "discordant",
-      "gloss": "Out of harmony; clashing or conflicting.",
-      "kind": "word"
-    },
-    {
-      "term": "impiety",
-      "gloss": "Lack of reverence for the gods or for what is sacred.",
-      "kind": "word"
-    },
-    {
-      "term": "vapor",
-      "gloss": "A thin mist or breath; Marcus calls the soul 'dream and vapor' to stress how fleeting it is.",
-      "kind": "word"
-    },
-    {
-      "term": "oath",
-      "gloss": "A solemn sworn promise; the disciplined man needs none to vouch for him.",
-      "kind": "word"
-    },
-    {
-      "term": "servile",
-      "gloss": "Slavish; excessively submissive or fawning.",
-      "kind": "word"
-    },
-    {
-      "term": "apportioned",
-      "gloss": "Allotted or assigned as one's share; for Stoics, everything that happens is apportioned by destiny.",
-      "kind": "word",
-      "aliases": [
-        "apportioning"
-      ]
-    },
-    {
-      "term": "allotted",
-      "gloss": "Assigned as one's portion or fate.",
-      "kind": "word"
-    },
-    {
-      "term": "reflection",
-      "gloss": "Careful, deliberate thinking; turning the mind inward to examine things.",
-      "kind": "word"
-    },
-    {
-      "term": "the lot",
-      "gloss": "One's allotted portion or fate; the Stoic accepts the lot assigned to him.",
-      "kind": "concept",
-      "aliases": [
-        "lot",
-        "portion"
-      ]
-    },
-    {
-      "term": "ruling principle",
-      "gloss": "In Stoicism, the commanding, reasoning part of the soul — the mind's central faculty that forms judgments, makes choices, and governs all else within a person. Marcus also calls it the ruling part, ruling faculty, ruling mind, or guiding principle.",
-      "kind": "concept",
-      "aliases": [
-        "ruling part",
-        "ruling faculty",
-        "ruling mind",
-        "ruling power",
-        "governing intelligence",
-        "guiding principle",
-        "rational principle that rules",
-        "the part of your soul that leads and governs"
-      ]
-    },
-    {
-      "term": "guiding spirit",
-      "gloss": "The portion of the divine reason that Zeus places within each person as a guardian and guide; for Marcus it is one's own understanding and reason, the inner divinity to be kept pure and obeyed.",
-      "kind": "concept",
-      "aliases": [
-        "guardian and guide",
-        "my god and the guiding spirit within me",
-        "the spirit that Zeus has given",
-        "divine part",
-        "godlike man"
-      ]
-    },
-    {
-      "term": "indifferent",
-      "gloss": "In Stoic terms, things that are neither truly good nor truly bad — like wealth, health, fame, or what others do — because they do not touch the moral character of the soul.",
-      "kind": "concept",
-      "aliases": [
-        "indifference",
-        "things that are indifferent",
-        "matters that are indifferent",
-        "things of the middle kind"
-      ]
-    },
-    {
-      "term": "in our power",
-      "gloss": "The Stoic distinction between what is up to us — our judgments, impulses, and desires — and what is not, such as external events and other people's actions. Peace comes from caring only about the former.",
-      "kind": "concept",
-      "aliases": [
-        "in my power",
-        "in your power",
-        "within your power",
-        "not in your power",
-        "within his reach"
-      ]
-    },
-    {
-      "term": "the many",
-      "gloss": "The crowd, ordinary people in general — Marcus uses the phrase for the mass of people whose values and praise the philosopher should not chase.",
-      "kind": "people",
-      "aliases": [
-        "the crowd",
-        "the many",
-        "the multitude"
-      ]
-    },
-    {
-      "term": "virtue",
-      "gloss": "Moral excellence — for the Stoics the only true good, expressed chiefly as wisdom, justice, courage, and self-control. Everything that happens is treated as material for the practice of virtue.",
-      "kind": "concept",
-      "aliases": [
-        "virtues",
-        "the motion of virtue",
-        "material for virtue"
-      ]
-    },
-    {
-      "term": "self-control",
-      "gloss": "The Stoic virtue of mastering one's appetites and rising above pleasure and pain; also rendered as temperance or moderation.",
-      "kind": "concept",
-      "aliases": [
-        "self-restraint",
-        "temperance",
-        "moderation"
-      ]
-    },
-    {
-      "term": "greatness of soul",
-      "gloss": "Magnanimity — a largeness of spirit that rises above petty grievances, fears, and the lure of trivial things.",
-      "kind": "concept",
-      "aliases": [
-        "greatness of spirit",
-        "elevated mind"
-      ]
-    },
-    {
-      "term": "the social",
-      "gloss": "The Stoic conviction that humans are made for one another, like limbs of a single body or bees of one hive, so that acting for the common good is acting according to our nature.",
-      "kind": "concept",
-      "aliases": [
-        "social",
-        "social creature",
-        "social being",
-        "made for society",
-        "fellowship",
-        "fitted for life in society",
-        "the social one"
-      ]
-    },
-    {
-      "term": "the common good",
-      "gloss": "The shared welfare of the human community, which the Stoic takes as the proper aim of all action; harm to the state is the measure of real harm.",
-      "kind": "concept",
-      "aliases": [
-        "common good",
-        "the state",
-        "the citizen",
-        "useful to society"
-      ]
-    },
-    {
-      "term": "dissolution",
-      "gloss": "The natural breaking-apart of a person at death into the elements from which they were composed; Marcus urges waiting for it calmly, without fear.",
-      "kind": "concept",
-      "aliases": [
-        "natural dissolution",
-        "dissolved",
-        "scattering",
-        "annihilation"
-      ]
-    },
-    {
-      "term": "the gods",
-      "gloss": "The divine powers the Stoics held to govern and care for the world; Marcus urges living with them, honoring them, and trusting their providence — or, if they decide nothing, governing oneself by reason.",
-      "kind": "god",
-      "aliases": [
-        "gods",
-        "the immortal gods",
-        "a deity",
-        "the Deity"
-      ]
-    },
-    {
-      "term": "Olympus",
-      "gloss": "The mountain home of the Greek gods; here the place to which the goddesses of loyalty, modesty, and justice are said to have fled, abandoning the earth.",
-      "kind": "place"
-    },
-    {
-      "term": "Athenians",
-      "gloss": "The people of Athens; Marcus quotes their simple prayer for rain as a model of how one should pray.",
-      "kind": "people",
-      "aliases": [
-        "Athens",
-        "men of Athens"
-      ]
-    },
-    {
-      "term": "Asclepius",
-      "gloss": "The Greek god of medicine and healing; Marcus uses the doctor-god's prescriptions as a comparison for the remedies that the nature of the universe prescribes for each person.",
-      "kind": "god"
-    },
-    {
-      "term": "comic poet",
-      "gloss": "A writer of comedies for the Greek stage; Marcus cites a line of comic verse to expose how the things the crowd calls good are really laughable.",
-      "kind": "person",
-      "aliases": [
-        "the comic poet"
-      ]
-    },
-    {
-      "term": "declaiming",
-      "gloss": "Speaking formally and rhetorically in public, as an orator does from a platform; Marcus warns the speaker not to be carried away by such display.",
-      "kind": "word"
-    },
-    {
-      "term": "Falernian",
-      "gloss": "A famous, prized Roman wine; Marcus strips it down to mere grape juice to show how outward show inflates a thing's worth.",
-      "kind": "thing",
-      "aliases": [
-        "Falernian wine"
-      ]
-    },
-    {
-      "term": "Crates",
-      "gloss": "A Cynic philosopher; Marcus alludes to a remark of his about Xenocrates as an example of seeing through outward appearances.",
-      "kind": "person"
-    },
-    {
-      "term": "Xenocrates",
-      "gloss": "An ancient Greek philosopher and head of Plato's Academy, mentioned as the subject of a remark by Crates.",
-      "kind": "person"
-    },
-    {
-      "term": "transpiration",
-      "gloss": "The release of moisture or vapor by plants; Marcus lists it among the lowly, merely vegetative functions not worth prizing.",
-      "kind": "word"
-    },
-    {
-      "term": "Alexander of Macedon",
-      "gloss": "Alexander the Great, the conquering king of Macedon; Marcus notes that death reduced him and his lowly stable boy to the very same state.",
-      "kind": "person",
-      "aliases": [
-        "Alexander"
-      ]
-    },
-    {
-      "term": "Caesar",
-      "gloss": "The title of the Roman emperor; Marcus warns himself not to be corrupted — not to be turned into a Caesar, stained with the dye of imperial power. Also refers to Julius Caesar among the great men time has swept away.",
-      "kind": "person"
-    },
-    {
-      "term": "Mount Athos",
-      "gloss": "A large mountain in Greece, which Marcus calls a mere little clod compared to the vastness of the universe.",
-      "kind": "place",
-      "aliases": [
-        "Athos"
-      ]
-    },
-    {
-      "term": "Chrysippus",
-      "gloss": "A leading early Stoic philosopher and systematizer of the school; Marcus refers to a mean and ridiculous line of verse Chrysippus spoke of, and lists him among those time has swallowed up.",
-      "kind": "person"
-    },
-    {
-      "term": "Pythagoras",
-      "gloss": "An ancient Greek philosopher and mathematician, named among the great minds of the past now long dead.",
-      "kind": "person"
-    },
-    {
-      "term": "Eudoxus",
-      "gloss": "An ancient Greek astronomer and mathematician, named among the brilliant minds now reduced to dust.",
-      "kind": "person"
-    },
-    {
-      "term": "Hipparchus",
-      "gloss": "A renowned ancient Greek astronomer, listed among the great men of sharp natural talent long since dead.",
-      "kind": "person"
-    },
-    {
-      "term": "Archimedes",
-      "gloss": "The famous ancient Greek mathematician and inventor, named among the great minds time has swept away.",
-      "kind": "person"
-    },
-    {
-      "term": "Menippus",
-      "gloss": "An ancient Cynic satirist who mocked the vanity of human life; Marcus names him among those who scorned this perishable existence.",
-      "kind": "person"
-    },
-    {
-      "term": "Philistion",
-      "gloss": "A man named, alongside Phoebus and Origanion, simply to drive home that all kinds of people are now dead.",
-      "kind": "person"
-    },
-    {
-      "term": "Phoebus",
-      "gloss": "A name listed with Philistion and Origanion among the countless ordinary dead.",
-      "kind": "person"
-    },
-    {
-      "term": "Origanion",
-      "gloss": "A name listed with Philistion and Phoebus among the countless ordinary dead.",
-      "kind": "person"
-    },
-    {
-      "term": "helmsman",
-      "gloss": "The steersman who guides a ship; Marcus uses him, like the doctor, as an image of the expert whose skill should not be disturbed by the abuse of the ignorant.",
-      "kind": "word"
-    },
-    {
-      "term": "jaundiced",
-      "gloss": "Suffering from jaundice, a condition that here makes honey taste bitter; Marcus uses it to show how a disordered state warps one's judgments.",
-      "kind": "word",
-      "aliases": [
-        "jaundice"
-      ]
-    },
-    {
-      "term": "sophists",
-      "gloss": "Professional teachers of rhetoric and argument in ancient Greece, often skilled in clever debate; Socrates is said to have argued with them.",
-      "kind": "people"
-    },
-    {
-      "term": "Telauges",
-      "gloss": "An obscure ancient figure; Marcus asks, provocatively, how we know Telauges was not finer in character than Socrates.",
-      "kind": "person"
-    },
-    {
-      "term": "Leon of Salamis",
-      "gloss": "A man Socrates was ordered to arrest; Socrates judged it nobler to refuse, an act Marcus cites as a mark of his integrity.",
-      "kind": "person"
-    },
-    {
-      "term": "Plato",
-      "gloss": "The great Athenian philosopher, student of Socrates; Marcus quotes him on the smallness of human life and on doing what is just rather than fearing death.",
-      "kind": "person"
-    },
-    {
-      "term": "Antisthenes",
-      "gloss": "An ancient Greek philosopher, founder of the Cynic school; Marcus quotes his saying that it is kingly to do good and be abused for it.",
-      "kind": "person"
-    },
-    {
-      "term": "Epicurus",
-      "gloss": "The founder of the rival Epicurean philosophy; Marcus borrows his reassuring remark that pain is neither unbearable nor everlasting.",
-      "kind": "person"
-    },
-    {
-      "term": "Diogenes",
-      "gloss": "The famous Cynic philosopher who lived in poverty and scorned convention; Marcus contrasts such philosophers favorably with conquerors like Alexander.",
-      "kind": "person"
-    },
-    {
-      "term": "Rome",
-      "gloss": "The capital of the empire; Marcus says that as Antoninus his city is Rome, but as a human being his city is the whole world.",
-      "kind": "place"
-    },
-    {
-      "term": "Diotimus",
-      "gloss": "A man named in lists of those who died, paired with figures like Epitynchanus and Hadrian to illustrate that all eventually die.",
-      "kind": "person"
-    },
-    {
-      "term": "Epitynchanus",
-      "gloss": "A man named in a chain of deaths to show that the mourner soon dies in turn.",
-      "kind": "person"
-    },
-    {
-      "term": "Lucilla",
-      "gloss": "A woman named in a sequence of deaths — she saw Verus die, then died herself — illustrating the universal pattern of mortality.",
-      "kind": "person"
-    },
-    {
-      "term": "Secunda",
-      "gloss": "A woman named in the chain of deaths: she saw Maximus die, then died herself.",
-      "kind": "person"
-    },
-    {
-      "term": "Faustina",
-      "gloss": "Marcus's wife; named in the chain of deaths — Antoninus saw Faustina die, then died himself.",
-      "kind": "person"
-    },
-    {
-      "term": "Celer",
-      "gloss": "A man named among the dead: he saw Hadrian die, then died himself.",
-      "kind": "person"
-    },
-    {
-      "term": "Charax",
-      "gloss": "A sharp-witted figure named among the once-clever people now long dead and forgotten.",
-      "kind": "person"
-    },
-    {
-      "term": "Demetrius the Platonist",
-      "gloss": "A follower of Plato's philosophy, named among the once-celebrated thinkers now dead.",
-      "kind": "person",
-      "aliases": [
-        "Demetrius"
-      ]
-    },
-    {
-      "term": "Eudaemon",
-      "gloss": "A man named among the sharp-witted who are now dead and largely forgotten.",
-      "kind": "person"
-    },
-    {
-      "term": "Agrippa",
-      "gloss": "A close companion and general of the emperor Augustus, listed among the dead of Augustus's court.",
-      "kind": "person"
-    },
-    {
-      "term": "Areius",
-      "gloss": "A philosopher and adviser at the court of Augustus, named among the dead of that court.",
-      "kind": "person"
-    },
-    {
-      "term": "Maecenas",
-      "gloss": "A wealthy patron and trusted adviser of Augustus, listed among the dead of the imperial court.",
-      "kind": "person"
-    },
-    {
-      "term": "Panthea",
-      "gloss": "A woman imagined mourning at the tomb of Verus, used to show the futility of grieving over the dead.",
-      "kind": "person"
-    },
-    {
-      "term": "Pergamus",
-      "gloss": "A person imagined sitting by the tomb of Verus, named to illustrate the pointlessness of mourning.",
-      "kind": "person"
-    },
-    {
-      "term": "Chabrias",
-      "gloss": "A person imagined sitting by the tomb of Hadrian, named to show how futile such mourning is.",
-      "kind": "person"
-    },
-    {
-      "term": "the senate",
-      "gloss": "The governing council of Rome; Marcus reminds himself to speak there, and to everyone, plainly and without affectation.",
-      "kind": "thing"
-    },
-    {
-      "term": "affectation",
-      "gloss": "Putting on an artificial show or pose to impress others; Marcus repeatedly urges acting and speaking without it.",
-      "kind": "word",
-      "aliases": [
-        "pretense",
-        "put on airs"
-      ]
-    },
-    {
-      "term": "barbarians",
-      "gloss": "In the ancient sense, foreign peoples outside Greek and Roman civilization; Marcus lists their various tribes in his bird's-eye view of human affairs.",
-      "kind": "people"
-    },
-    {
-      "term": "logician",
-      "gloss": "A person expert in formal reasoning and argument; Marcus says one need not become a logician to be free, modest, and good.",
-      "kind": "word",
-      "aliases": [
-        "logic",
-        "an expert in the knowledge of nature"
-      ]
-    },
-    {
-      "term": "piety",
-      "gloss": "Devout respect and dutiful conduct toward the gods; Marcus praises it in Antoninus and counts it among the chief goods.",
-      "kind": "word",
-      "aliases": [
-        "devout disposition",
-        "religious"
-      ]
-    },
-    {
-      "term": "superstition",
-      "gloss": "Excessive or irrational religious fear or belief; Marcus praises Antoninus for being religious without it.",
-      "kind": "word"
-    },
-    {
-      "term": "the formal and the material",
-      "gloss": "The two principles the Stoics saw in every thing: the active, shaping form (linked to reason) and the passive matter it shapes. At death each returns to its source.",
-      "kind": "concept",
-      "aliases": [
-        "formal and the material",
-        "everything that gives form"
-      ]
-    },
-    {
-      "term": "fixed cycles",
-      "gloss": "The Stoic idea that the universe runs through recurring periods, being administered and renewed in set rounds; Marcus mentions this cosmic recurrence.",
-      "kind": "concept",
-      "aliases": [
-        "administered in fixed cycles"
-      ]
-    },
-    {
-      "term": "sound principles",
-      "gloss": "The settled rational convictions a Stoic lives by; when one fails to act on them, the remedy is to return to them, not to despair.",
-      "kind": "concept",
-      "aliases": [
-        "principles",
-        "right principles",
-        "by sound principles"
-      ]
-    },
-    {
-      "term": "disposition",
-      "gloss": "The settled inner condition or attitude of the soul; for Marcus a good disposition — toward justice and others — is where the good and one's good fortune lie.",
-      "kind": "concept",
-      "aliases": [
-        "good disposition"
-      ]
-    },
-    {
-      "term": "physics, ethics, and logic",
-      "gloss": "The three traditional divisions of Stoic philosophy: the study of nature, of right conduct, and of reasoning. Marcus tells himself to apply all three to every impression.",
-      "kind": "concept",
-      "aliases": [
-        "physics",
-        "ethics",
-        "logic"
-      ]
-    },
-    {
-      "term": "Asia and Europe",
-      "gloss": "The great landmasses of the known world; Marcus calls them mere corners of the universe to shrink human concerns to their true scale.",
-      "kind": "place",
-      "aliases": [
-        "Asia",
-        "Europe"
-      ]
-    },
-    {
-      "term": "the wrestling ground",
-      "gloss": "The palaestra, where Greeks trained in wrestling; Marcus draws lessons in patience from how one tolerates a rough opponent there.",
-      "kind": "place",
-      "aliases": [
-        "wrestling ground",
-        "the ring",
-        "the wrestling"
-      ]
-    },
-    {
-      "term": "irreverently",
-      "gloss": "In a way that disrespects or offends the divine. For Marcus, to act unjustly or to lie is to be impious toward the gods, because it breaks the order of universal nature.",
-      "kind": "word",
-      "aliases": [
-        "irreverence",
-        "irreverent"
-      ]
-    },
-    {
-      "term": "universal nature",
-      "gloss": "The single rational nature that orders the whole cosmos and is itself divine. Marcus treats it as the source of all things and as truth itself; living rightly means staying in step with it.",
-      "kind": "concept",
-      "aliases": [
-        "the world's nature",
-        "common nature",
-        "the nature of the universe",
-        "universal intelligence"
-      ]
-    },
-    {
-      "term": "the next best voyage",
-      "gloss": "A proverb for the second-best option when the best is out of reach. Here: if you can't leave life untouched by vice, the next best thing is to die once you've had enough of it.",
-      "kind": "concept"
-    },
-    {
-      "term": "vice",
-      "gloss": "Moral badness or corruption of character — the opposite of virtue. For Stoics, the only real evil, since it lies in one's own choices.",
-      "kind": "concept",
-      "aliases": [
-        "vices"
-      ]
-    },
-    {
-      "term": "the ruling faculty",
-      "gloss": "The mind's commanding part — the seat of judgment, reason, and choice. For Stoics it is the only thing truly ours, and the one thing we must keep under our own control.",
-      "kind": "concept",
-      "aliases": [
-        "ruling faculty",
-        "ruling principle",
-        "ruling principles",
-        "guiding principles",
-        "guiding spirit"
-      ]
-    },
-    {
-      "term": "impressions",
-      "gloss": "The mental images or appearances that strike the mind from outside. Stoic practice is to examine them and not automatically assent, since our judgments about them — not the things themselves — disturb us.",
-      "kind": "concept",
-      "aliases": [
-        "impression"
-      ]
-    },
-    {
-      "term": "appetites",
-      "gloss": "Bodily cravings and urges. Marcus advises mastering them so the ruling faculty stays in command rather than being pulled along by them.",
-      "kind": "concept",
-      "aliases": [
-        "appetite"
-      ]
-    },
-    {
-      "term": "rational",
-      "gloss": "Possessing or guided by reason. Marcus uses it of beings made to think and choose, and of acting in line with reason rather than impulse.",
-      "kind": "concept",
-      "aliases": [
-        "reason",
-        "right reason"
-      ]
-    },
-    {
-      "term": "forbearance",
-      "gloss": "Patient self-restraint and tolerance toward people who do wrong. Marcus says nature gave it to us precisely so we can bear with others gently.",
-      "kind": "concept",
-      "aliases": [
-        "forbearing"
-      ]
-    },
-    {
-      "term": "social reason",
-      "gloss": "Reason understood as inherently communal — directing each rational being to act for the common good of all the others.",
-      "kind": "concept",
-      "aliases": [
-        "social end",
-        "social acts",
-        "social life",
-        "social system"
-      ]
-    },
-    {
-      "term": "Plato's Republic",
-      "gloss": "Plato's dialogue describing an ideal city ruled by philosophers. Marcus invokes it as a symbol of unreachable perfection: don't wait for the ideal state, be content if the smallest real thing goes well.",
-      "kind": "thing",
-      "aliases": [
-        "Plato"
-      ]
-    },
-    {
-      "term": "Philip",
-      "gloss": "Philip of Macedon, father of Alexander the Great and an empire-builder in his own right. Marcus cites him as another famous conqueror whose worth he questions.",
-      "kind": "person"
-    },
-    {
-      "term": "Demetrius of Phalerum",
-      "gloss": "An Athenian orator and statesman who governed Athens for a decade in the late 300s BC. Marcus names him among prominent men whose lives may have been mere posturing.",
-      "kind": "person",
-      "aliases": [
-        "Demetrius"
-      ]
-    },
-    {
-      "term": "winter torrent",
-      "gloss": "A flash-flood swelling a dry streambed in winter — Marcus's image for the universal cause, which sweeps everything along irresistibly.",
-      "kind": "thing",
-      "aliases": [
-        "winter torrent"
-      ]
-    },
-    {
-      "term": "drivelers",
-      "gloss": "People who talk nonsense or fuss pointlessly. Marcus's dismissive term for those busy with politics while imagining they are doing philosophy.",
-      "kind": "word",
-      "aliases": [
-        "driveler"
-      ]
-    },
-    {
-      "term": "the underworld",
-      "gloss": "The realm of the dead in Greek and Roman myth. Marcus alludes to its grim pictures to underline how flimsy and corpse-like ordinary human life really is.",
-      "kind": "place"
-    },
-    {
-      "term": "purple dye",
-      "gloss": "The costly purple coloring (from sea-snails) that marked imperial and aristocratic robes. Marcus deflates it: it is, at bottom, just blood.",
-      "kind": "thing",
-      "aliases": [
-        "purple"
-      ]
-    },
-    {
-      "term": "obtuse",
-      "gloss": "Slow to understand; dull or thick-headed. Marcus says nature has given mildness as the antidote to dealing with such a person.",
-      "kind": "word",
-      "aliases": [
-        "obtuse man"
-      ]
-    },
-    {
-      "term": "the Islands of the Blessed",
-      "gloss": "In Greek myth, the paradise where heroes go after death. Marcus uses it as an image of contentment: holding firm to a few good qualities is like being carried off to that blessed place.",
-      "kind": "place"
-    },
-    {
-      "term": "high-minded",
-      "gloss": "Having an elevated spirit that rises above bodily pleasure and pain, fame, and even death. One of the names Marcus tells himself to live up to.",
-      "kind": "concept"
-    },
-    {
-      "term": "even-tempered",
-      "gloss": "Calmly accepting whatever the common nature assigns. Marcus lists it as a quality to claim and never trade away.",
-      "kind": "concept"
-    },
-    {
-      "term": "the arena",
-      "gloss": "The amphitheater where gladiators fought wild beasts and each other. Marcus's grim image of clinging to a degraded life: the half-devoured fighter begging for one more day.",
-      "kind": "place",
-      "aliases": [
-        "claws and teeth"
-      ]
-    },
-    {
-      "term": "Ocean",
-      "gloss": "In Homer's geography, the great river encircling the world. Marcus quotes Homer on the western edge where Ocean sends gentle breezes to refresh mankind.",
-      "kind": "place"
-    },
-    {
-      "term": "the West Wind",
-      "gloss": "Zephyr, the gentle west wind of Greek myth and poetry, bringer of mild weather. From the Homeric passage Marcus quotes about an easy, storm-free life.",
-      "kind": "god"
-    },
-    {
-      "term": "mime-shows",
-      "gloss": "Cheap theatrical farces — Marcus's metaphor for the distractions of daily life that wear away one's principles.",
-      "kind": "thing",
-      "aliases": [
-        "mime-shows of life"
-      ]
-    },
-    {
-      "term": "contemplative faculty",
-      "gloss": "The mind's capacity for reflective insight into the nature of things. Marcus urges keeping it exercised even amid busy circumstances.",
-      "kind": "concept",
-      "aliases": [
-        "contemplative way"
-      ]
-    },
-    {
-      "term": "Sarmatians",
-      "gloss": "A nomadic people of the steppes northeast of the Roman Empire, whom Marcus campaigned against. He uses capturing them as one more example of a hunter's pointless pride.",
-      "kind": "people"
-    },
-    {
-      "term": "greatness of mind",
-      "gloss": "Magnanimity — a large, elevated spirit unmoved by trivial things. Marcus says nothing produces it like seeing how all things change into one another.",
-      "kind": "concept"
-    },
-    {
-      "term": "fidelity",
-      "gloss": "Faithfulness and trustworthiness; keeping faith with others. One of the goods Marcus says a person produces through the mind's best part.",
-      "kind": "concept"
-    },
-    {
-      "term": "Croesus",
-      "gloss": "The fabulously wealthy last king of Lydia (6th century BC), a byword for riches and the fall of fortune. Marcus lists his court among history's vanished scenes.",
-      "kind": "person"
-    },
-    {
-      "term": "Satyron the Socratic",
-      "gloss": "A follower of Socrates, named by Marcus as a memory-prompt: seeing one person, recall another, to feel how all human things vanish.",
-      "kind": "person",
-      "aliases": [
-        "Satyron"
-      ]
-    },
-    {
-      "term": "Euphrates",
-      "gloss": "A respected Stoic philosopher of Marcus's era. He appears in the list of figures Marcus uses to remind himself that all such people fade into nothing.",
-      "kind": "person"
-    },
-    {
-      "term": "Alciphron",
-      "gloss": "A name in Marcus's memory-list of acquaintances, used to drive home that the people we knew are now nowhere to be found.",
-      "kind": "person"
-    },
-    {
-      "term": "Xenophon",
-      "gloss": "A name in Marcus's list of remembered figures (possibly the historian and follower of Socrates), invoked to show how human things pass into smoke.",
-      "kind": "person"
-    },
-    {
-      "term": "the Caesars",
-      "gloss": "The line of Roman emperors. Marcus tells himself, when he looks at his own reflection, to recall one of the other Caesars — all now gone.",
-      "kind": "people",
-      "aliases": [
-        "Caesars"
-      ]
-    },
-    {
-      "term": "runaway slave",
-      "gloss": "An escaped slave fleeing his master. Marcus's image for anyone who, by grief, anger, or fear, rebels against the Law that rules all things.",
-      "kind": "concept",
-      "aliases": [
-        "runaway"
-      ]
-    },
-    {
-      "term": "the Law",
-      "gloss": "The rational order governing the universe, which assigns each person his due. Marcus calls it our master; to resist what it appoints is to be a runaway.",
-      "kind": "concept",
-      "aliases": [
-        "Law",
-        "law and order",
-        "the law"
-      ]
-    },
-    {
-      "term": "Empedocles' sphere",
-      "gloss": "The image, from the philosopher Empedocles, of being 'all round and resting in its own joyous repose.' Marcus uses it for a mind made complete, calm, and self-contained.",
-      "kind": "thing",
-      "aliases": [
-        "sphere",
-        "spherical form"
-      ]
-    },
-    {
-      "term": "Deity",
-      "gloss": "The divine — God or the gods seen as one rational power pervading the cosmos. Marcus says each person's intelligence is an outflow of the Deity.",
-      "kind": "god",
-      "aliases": [
-        "the Deity"
-      ]
-    },
-    {
-      "term": "the divinity within you",
-      "gloss": "The fragment of divine reason Marcus believes dwells in each person — the inner god one should respect above all else.",
-      "kind": "concept",
-      "aliases": [
-        "the god that is within you",
-        "the divinity",
-        "god that is within you",
-        "divinity within you"
-      ]
-    },
-    {
-      "term": "providence vs chance",
-      "gloss": "The recurring Stoic alternative Marcus poses: either a rational Providence governs all events, or blind chance and atoms do. Either way, he argues, one should stay calm.",
-      "kind": "concept",
-      "aliases": [
-        "chance"
-      ]
-    },
-    {
-      "term": "the cosmic city",
-      "gloss": "The Stoic idea that the whole universe is a single community shared by gods and rational beings. Marcus calls the world 'this great city' of which each person is a citizen.",
-      "kind": "concept",
-      "aliases": [
-        "this great city",
-        "as in a city",
-        "citizen of the world",
-        "great city"
-      ]
-    },
-    {
-      "term": "the all-in fighter",
-      "gloss": "The pankratiast, a Greek all-out unarmed combatant who fought with bare hands. Marcus contrasts him with the swordsman: the fighter can never be disarmed, his weapon being his own ready hand.",
-      "kind": "thing",
-      "aliases": [
-        "all-in fighter",
-        "the fighter"
-      ]
-    },
-    {
-      "term": "the swordsman",
-      "gloss": "A gladiator fighting with a sword. Marcus's negative example: drop the sword and you are killed — unlike the all-in fighter, whose weapon is always at hand.",
-      "kind": "thing",
-      "aliases": [
-        "swordsman"
-      ]
-    },
-    {
-      "term": "the Christians",
-      "gloss": "Followers of the new religion in Marcus's empire. He cites their readiness to face death but dismisses it as sheer stubbornness rather than reasoned, dignified resolve.",
-      "kind": "people",
-      "aliases": [
-        "Christians"
-      ]
-    },
-    {
-      "term": "O Cithaeron",
-      "gloss": "A famous tragic cry — from Sophocles' Oedipus, naming the mountain where Oedipus was exposed as a baby. Marcus quotes it to show that even tragedy's sufferers must bear what happens.",
-      "kind": "place",
-      "aliases": [
-        "Cithaeron"
-      ]
-    },
-    {
-      "term": "old comedy",
-      "gloss": "The earliest Greek comic drama (e.g. Aristophanes), marked by blunt, frank mockery. Marcus values its plain speech for warning people against arrogance.",
-      "kind": "thing",
-      "aliases": [
-        "middle comedy",
-        "new comedy"
-      ]
-    },
-    {
-      "term": "indifferent things",
-      "gloss": "Things that are neither good nor bad in themselves — health, wealth, reputation, and the like. Stoics hold that only virtue is truly good, so the soul should stay indifferent to these.",
-      "kind": "concept",
-      "aliases": [
-        "indifferent",
-        "things that are indifferent"
-      ]
-    },
-    {
-      "term": "Phocion",
-      "gloss": "An Athenian statesman and general (4th century BC) renowned for integrity, who was condemned to death yet bore no ill will. Marcus holds him up as a model of mild, noble correction.",
-      "kind": "person"
-    },
-    {
-      "term": "the Muses",
-      "gloss": "The nine Greek goddesses of the arts and inspiration, led by Apollo. Marcus offers his rules 'as a gift from the Muses.'",
-      "kind": "god",
-      "aliases": [
-        "Muses",
-        "leader of the Muses"
-      ]
-    },
-    {
-      "term": "Apollo",
-      "gloss": "The Greek god of light, prophecy, and the arts, leader of the Muses. Marcus offers a 'tenth gift' from him: stop expecting bad people not to do wrong.",
-      "kind": "god"
-    },
-    {
-      "term": "Lamiae",
-      "gloss": "Bogeymen or child-frightening monsters in Greek folklore. Marcus reports that Socrates called the opinions of the crowd 'Lamiae' — scary only to children.",
-      "kind": "thing",
-      "aliases": [
-        "bogeymen"
-      ]
-    },
-    {
-      "term": "the Spartans",
-      "gloss": "Citizens of Sparta, famed for austerity. Marcus notes their courtesy of giving strangers the shaded seats at public shows while sitting wherever they could themselves.",
-      "kind": "people",
-      "aliases": [
-        "Spartans"
-      ]
-    },
-    {
-      "term": "Perdiccas",
-      "gloss": "A Macedonian king to whom Socrates declined an invitation, fearing he could not repay the favor. Marcus uses the anecdote as a lesson in not incurring debts of obligation.",
-      "kind": "person"
-    },
-    {
-      "term": "the Ephesians",
-      "gloss": "People of Ephesus; here, the source of a precept Marcus cites — to keep in mind some earlier person who practiced virtue.",
-      "kind": "people",
-      "aliases": [
-        "Ephesians"
-      ]
-    },
-    {
-      "term": "the Pythagoreans",
-      "gloss": "Followers of Pythagoras, a school blending mathematics and mysticism. Marcus repeats their counsel to look at the dawn sky and recall the pure, orderly motion of the stars.",
-      "kind": "people",
-      "aliases": [
-        "Pythagoreans"
-      ]
-    },
-    {
-      "term": "Xanthippe",
-      "gloss": "The wife of Socrates. Marcus recalls the story of Socrates wrapping himself in a skin after she took his cloak — and his calm reply to embarrassed friends.",
-      "kind": "person"
-    },
-    {
-      "term": "the country mouse and the town mouse",
-      "gloss": "Aesop's fable contrasting a humble rural life with an anxious, dangerous city one. Marcus cites the town mouse's panic to mock the stress of grand living.",
-      "kind": "thing",
-      "aliases": [
-        "country mouse",
-        "town mouse"
-      ]
-    },
-    {
-      "term": "free will",
-      "gloss": "The mind's power of choice and assent, which the Stoics held no external force can take away. Marcus calls it the one thing truly within our own control.",
-      "kind": "concept"
-    },
-    {
-      "term": "assent",
-      "gloss": "The mind's act of agreeing to an impression — accepting it as true or acting on it. Epictetus, quoted by Marcus, says one must develop an art of giving assent carefully.",
-      "kind": "concept"
-    },
-    {
-      "term": "aversion",
-      "gloss": "The mind's turning-away from something as bad. Epictetus advises directing it only at things within our power, never at what we cannot control.",
-      "kind": "concept"
-    },
-    {
-      "term": "impulses",
-      "gloss": "The mind's promptings to act. Stoic discipline trains them to fit the circumstances, serve the common good, and match the worth of their object.",
-      "kind": "concept",
-      "aliases": [
-        "impulse"
-      ]
-    },
-    {
-      "term": "Empedocles",
-      "gloss": "A Greek philosopher (5th century BC) who pictured perfect being as a self-contained sphere. Marcus quotes his image of the sphere 'all round, resting in its own joyous repose.'",
-      "kind": "person"
-    },
-    {
-      "term": "formative principles",
-      "gloss": "The underlying organizing patterns that shape each thing into what it is. Marcus urges contemplating them stripped of outward coverings.",
-      "kind": "concept",
-      "aliases": [
-        "formative principles of things"
-      ]
-    },
-    {
-      "term": "fated necessity",
-      "gloss": "An unbreakable, predetermined chain of causes governing all events. Marcus lists it as one of the possible accounts of reality — alongside Providence and pure chaos.",
-      "kind": "concept",
-      "aliases": [
-        "fated",
-        "unbreakable necessity",
-        "unbreakable order"
-      ]
-    },
-    {
-      "term": "the headland",
-      "gloss": "A promontory of land jutting into the sea; rounding it brings a ship into calm water. Marcus's image for the peace that comes from dropping your opinions.",
-      "kind": "thing",
-      "aliases": [
-        "headland",
-        "waveless bay"
-      ]
-    },
-    {
-      "term": "Fabius Catellinus",
-      "gloss": "A Roman named in Marcus's list of once-prominent men now forgotten — he lived on his country estate. Marcus asks where all such people are now: smoke and ash.",
-      "kind": "person",
-      "aliases": [
-        "Fabius Catellinus"
-      ]
-    },
-    {
-      "term": "Lucius Lupus",
-      "gloss": "A Roman in Marcus's roll-call of the vanished famous — remembered for his gardens. The point: worldly grandeur dissolves into a mere tale, or not even that.",
-      "kind": "person",
-      "aliases": [
-        "Lucius Lupus"
-      ]
-    },
-    {
-      "term": "Stertinius",
-      "gloss": "A Roman name in Marcus's list of once-notable men, associated with Baiae. He cites him to show how worthless are the things people violently strain after.",
-      "kind": "person"
-    },
-    {
-      "term": "Baiae",
-      "gloss": "A fashionable Roman seaside resort near Naples, famed for luxury. Marcus mentions Stertinius there among examples of vanished worldly splendor.",
-      "kind": "place"
-    },
-    {
-      "term": "Tiberius",
-      "gloss": "Roman emperor (reigned 14–37 AD) who withdrew to the island of Capri. Marcus lists his Capri retreat among the proud pursuits now reduced to dust.",
-      "kind": "person"
-    },
-    {
-      "term": "Capri",
-      "gloss": "The island in the Bay of Naples where the emperor Tiberius secluded himself. Marcus names it as one more setting of bygone grandeur.",
-      "kind": "place"
-    },
-    {
-      "term": "Velius Rufus",
-      "gloss": "A Roman in Marcus's list of formerly eminent figures, cited to make the point that fame and pride come to nothing.",
-      "kind": "person",
-      "aliases": [
-        "Velius Rufus"
-      ]
-    },
-    {
-      "term": "the universal soul",
-      "gloss": "The single animating intelligence that, for the Stoics, is distributed through all things while remaining one. Marcus contrasts it with each person's tiny share.",
-      "kind": "concept",
-      "aliases": [
-        "universal soul",
-        "one intelligent soul",
-        "one soul",
-        "intelligent soul"
-      ]
-    },
-    {
-      "term": "the rational soul",
-      "gloss": "The thinking, self-aware part of a human being. Marcus lists its special properties: it sees itself, shapes itself, and finds its own completeness in each present moment.",
-      "kind": "concept",
-      "aliases": [
-        "rational soul",
-        "rational creature",
-        "rational beings",
-        "rational animals"
-      ]
-    },
-    {
-      "term": "the logos",
-      "gloss": "The divine reason that orders the cosmos and is shared, in fragments, by every rational being. Marcus calls right reason and the reason of justice no different at all.",
-      "kind": "concept",
-      "aliases": [
-        "right reason",
-        "reason itself"
-      ]
-    },
-    {
-      "term": "flux",
-      "gloss": "The ceaseless change and flowing-away of all things. A central theme of Marcus's: you, others, and the whole universe are in constant transformation.",
-      "kind": "concept",
-      "aliases": [
-        "constant change",
-        "change",
-        "changes",
-        "transformations"
-      ]
-    },
-    {
-      "term": "providence vs atoms",
-      "gloss": "Marcus's signature dichotomy: either a provident intelligence orders the world, or all is atoms and chance. He repeatedly notes that the wise response is the same under either.",
-      "kind": "concept"
-    },
-    {
-      "term": "the compound mass",
-      "gloss": "The body, seen as a temporary mixture of the elements that hold the soul down for a while. Marcus describes the elements obeying the whole within this compound.",
-      "kind": "concept",
-      "aliases": [
-        "compound mass",
-        "mixture"
-      ]
+     "label": "the examined life",
+     "kind": "idea"
     }
-  ]
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.casaubon-1634.book-01",
+   "people": [
+    "Verus",
+    "Diognetus",
+    "Rusticus",
+    "Antoninus Pius",
+    "Maximus"
+   ],
+   "define": [
+    {
+     "term": "shamefastness",
+     "gloss": "the quality of being modest; bashfulness restrained by a sense of propriety.",
+     "source": "Webster 1913"
+    }
+   ],
+   "connections": [
+    {
+     "label": "Epictetus, Discourses",
+     "kind": "author"
+    },
+    {
+     "label": "Seneca, Letters",
+     "kind": "author"
+    },
+    {
+     "label": "gratitude",
+     "kind": "idea"
+    },
+    {
+     "label": "the examined life",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-02",
+   "people": [
+    "Theophrastus",
+    "Monimus the Cynic"
+   ],
+   "define": [
+    {
+     "term": "opinion",
+     "gloss": "The value-judgment the mind adds to a raw event; for the Stoics it is the only place where harm or benefit can actually occur."
+    },
+    {
+     "term": "the spirit within",
+     "gloss": "The daimon — the small share of divine reason each person carries, which Marcus resolves to serve and keep pure."
+    }
+   ],
+   "connections": [
+    {
+     "label": "memento mori",
+     "kind": "idea"
+    },
+    {
+     "label": "impermanence",
+     "kind": "idea"
+    },
+    {
+     "label": "The Epic of Gilgamesh",
+     "kind": "work"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-03",
+   "people": [
+    "Hippocrates",
+    "Heraclitus",
+    "Democritus",
+    "Socrates",
+    "Alexander"
+   ],
+   "define": [
+    {
+     "term": "right reason",
+     "gloss": "Reason in full agreement with nature — the single standard by which the Stoics measured every act."
+    },
+    {
+     "term": "the divinity within",
+     "gloss": "The guardian spirit Marcus asks to be kept free of passion and pretense — his working name for conscience."
+    }
+   ],
+   "connections": [
+    {
+     "label": "attention as a practice",
+     "kind": "idea"
+    },
+    {
+     "label": "Nicomachean Ethics",
+     "kind": "work"
+    },
+    {
+     "label": "The Analects",
+     "kind": "work"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-04",
+   "people": [
+    "Heraclitus",
+    "Epictetus",
+    "Scipio",
+    "Cato",
+    "Augustus"
+   ],
+   "define": [
+    {
+     "term": "the retreat",
+     "gloss": "Marcus's inner country house: the mind itself, the one place of withdrawal that is always available."
+    },
+    {
+     "term": "change",
+     "gloss": "The universal law that nothing stays; for the Stoics change is not destruction but nature's way of making everything."
+    }
+   ],
+   "connections": [
+    {
+     "label": "the inner citadel",
+     "kind": "idea"
+    },
+    {
+     "label": "cosmopolitanism",
+     "kind": "idea"
+    },
+    {
+     "label": "Hamlet",
+     "kind": "work"
+    },
+    {
+     "label": "Heraclitus, Fragments",
+     "kind": "author"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-05",
+   "people": [
+    "Zeus",
+    "Asclepius"
+   ],
+   "define": [
+    {
+     "term": "according to nature",
+     "gloss": "Living in agreement with the rational order of the whole — the Stoic formula for the good life."
+    },
+    {
+     "term": "what nature prescribes",
+     "gloss": "Marcus's medical image: events are assigned to each person the way Asclepius orders a regimen — fitted to the health of the whole."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Analects",
+     "kind": "work"
+    },
+    {
+     "label": "Nicomachean Ethics",
+     "kind": "work"
+    },
+    {
+     "label": "habit shapes character",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-06",
+   "people": [
+    "Antoninus Pius",
+    "Socrates",
+    "Pythagoras",
+    "Heraclitus",
+    "Alexander of Macedon"
+   ],
+   "define": [
+    {
+     "term": "providence or atoms",
+     "gloss": "Marcus's recurring either/or: whether the world is governed by divine reason or is a chance scattering of atoms, the duty to act well is unchanged."
+    },
+    {
+     "term": "duty",
+     "gloss": "The action your nature and station require of you here and now; doing it — warm or cold, drowsy or rested — is the whole job."
+    }
+   ],
+   "connections": [
+    {
+     "label": "death the leveler",
+     "kind": "idea"
+    },
+    {
+     "label": "the return to philosophy",
+     "kind": "idea"
+    },
+    {
+     "label": "Lucretius, On the Nature of Things",
+     "kind": "author"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-07",
+   "people": [
+    "Plato",
+    "Socrates",
+    "Epictetus",
+    "Chrysippus",
+    "Epicurus"
+   ],
+   "define": [
+    {
+     "term": "imagination",
+     "gloss": "The layer of impressions and stories the mind paints over events; to 'wipe it out' is to see only what is actually there."
+    },
+    {
+     "term": "the sacred bond",
+     "gloss": "The sympathy that ties all things into one ordered universe — hardly anything is unconnected to anything else."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Plato, Apology",
+     "kind": "author"
+    },
+    {
+     "label": "the view from above",
+     "kind": "idea"
+    },
+    {
+     "label": "endurance",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-08",
+   "people": [
+    "Socrates",
+    "Diogenes",
+    "Heraclitus",
+    "Alexander",
+    "Hadrian"
+   ],
+   "define": [
+    {
+     "term": "judgment",
+     "gloss": "The mind's verdict on an event — for Marcus the true source of disturbance, and the one thing always yours to revise."
+    },
+    {
+     "term": "the three relationships",
+     "gloss": "Marcus's map of obligation: to the body that carries you, to the divine cause from which all things come, and to the people who live alongside you."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Epictetus, Discourses",
+     "kind": "author"
+    },
+    {
+     "label": "the dichotomy of control",
+     "kind": "idea"
+    },
+    {
+     "label": "philosophy against power",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-09",
+   "people": [
+    "Epicurus",
+    "Plato",
+    "Alexander",
+    "Philip",
+    "Demetrius of Phalerum"
+   ],
+   "define": [
+    {
+     "term": "made for one another",
+     "gloss": "The Stoic claim that rational beings exist for each other's sake, so that injustice tears at nature itself."
+    },
+    {
+     "term": "the common nature",
+     "gloss": "Universal nature considered as a shared law — what the whole requires of each of its parts."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Republic",
+     "kind": "work"
+    },
+    {
+     "label": "Epicurus, Letters",
+     "kind": "author"
+    },
+    {
+     "label": "wrongdoing harms the doer",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-10",
+   "people": [
+    "Plato",
+    "Alexander",
+    "Philip",
+    "Croesus"
+   ],
+   "define": [
+    {
+     "term": "the names",
+     "gloss": "The titles of character Marcus assigns himself — good, modest, truthful, rational — and vows to return to whenever he slips."
+    },
+    {
+     "term": "the healthy eye",
+     "gloss": "His image for a ready mind: as a sound eye accepts everything visible rather than demanding only green, a sound mind accepts everything that happens."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Confessions",
+     "kind": "work"
+    },
+    {
+     "label": "willing acceptance",
+     "kind": "idea"
+    },
+    {
+     "label": "the same play, different actors",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-11",
+   "people": [
+    "Socrates",
+    "Epictetus",
+    "Diogenes",
+    "Apollo"
+   ],
+   "define": [
+    {
+     "term": "the cut branch",
+     "gloss": "Marcus's image for estrangement: a person who breaks from a neighbor is a branch cut from the whole tree — though unlike a branch, he can grow back."
+    },
+    {
+     "term": "the sphere of the soul",
+     "gloss": "An image borrowed from Empedocles: the soul at rest in its own roundness, neither stretching after things nor collapsing inward, lit by its own light."
+    }
+   ],
+   "connections": [
+    {
+     "label": "Sophocles, Oedipus the King",
+     "kind": "author"
+    },
+    {
+     "label": "Aesop, Fables",
+     "kind": "author"
+    },
+    {
+     "label": "Hamlet",
+     "kind": "work"
+    },
+    {
+     "label": "remedies for anger",
+     "kind": "idea"
+    }
+   ]
+  },
+  {
+   "sectionId": "edition.meditations.lectio-modern.book-12",
+   "people": [
+    "Empedocles",
+    "Tiberius"
+   ],
+   "define": [
+    {
+     "term": "intelligence",
+     "gloss": "The nous — of your three parts (body, breath, mind) the only one truly yours; the other two are merely in your care."
+    },
+    {
+     "term": "the great city",
+     "gloss": "The world seen as one commonwealth of gods and humans whose law is reason; death is only a discharge from its citizenship."
+    }
+   ],
+   "connections": [
+    {
+     "label": "The Divine Comedy",
+     "kind": "work"
+    },
+    {
+     "label": "the citizen of the world",
+     "kind": "idea"
+    },
+    {
+     "label": "the graceful exit",
+     "kind": "idea"
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Verus",
+   "gloss": "Marcus Aurelius's grandfather, Marcus Annius Verus, whom he credits with teaching him a good temper and self-control.",
+   "kind": "person"
+  },
+  {
+   "term": "reverence",
+   "gloss": "Deep respect and a sense of awe, especially toward what is sacred or worthy of honor.",
+   "kind": "word",
+   "aliases": [
+    "revere",
+    "revered"
+   ]
+  },
+  {
+   "term": "the Circus",
+   "gloss": "The Circus Maximus in Rome, the huge arena for chariot races; here a symbol of the partisan passions Marcus learned to avoid.",
+   "kind": "place"
+  },
+  {
+   "term": "gladiators",
+   "gloss": "Armed fighters who fought for public entertainment in Roman arenas; Marcus avoided taking sides among rival fighters.",
+   "kind": "people"
+  },
+  {
+   "term": "Diognetus",
+   "gloss": "One of Marcus's teachers, who steered him away from superstition and trivial pursuits and toward philosophy.",
+   "kind": "person"
+  },
+  {
+   "term": "quacks",
+   "gloss": "Frauds who pretend to special powers or knowledge—here, fake magicians peddling spells.",
+   "kind": "people"
+  },
+  {
+   "term": "exorcisms",
+   "gloss": "Rituals claiming to drive out evil spirits; Marcus learned to disbelieve such claims.",
+   "kind": "thing"
+  },
+  {
+   "term": "Bacchius",
+   "gloss": "A philosopher Marcus was led to hear in his youth.",
+   "kind": "person"
+  },
+  {
+   "term": "Tandasis",
+   "gloss": "A philosopher Marcus heard as a young man.",
+   "kind": "person"
+  },
+  {
+   "term": "Marcianus",
+   "gloss": "A philosopher Marcus heard in his youth.",
+   "kind": "person"
+  },
+  {
+   "term": "dialogues",
+   "gloss": "Philosophical writings cast as conversations, a classical literary form Marcus practiced as a boy.",
+   "kind": "thing"
+  },
+  {
+   "term": "Rusticus",
+   "gloss": "Junius Rusticus, a Stoic teacher who showed Marcus his character needed work and introduced him to Epictetus.",
+   "kind": "person"
+  },
+  {
+   "term": "rhetoric",
+   "gloss": "The art of persuasive, ornamented speech; Marcus was taught to give up its showiness for plain writing.",
+   "kind": "thing"
+  },
+  {
+   "term": "Sinuessa",
+   "gloss": "A town in Italy, mentioned as the place a plain letter was sent from.",
+   "kind": "place"
+  },
+  {
+   "term": "Epictetus",
+   "gloss": "A former slave who became a great Stoic philosopher; his teachings deeply shaped Marcus.",
+   "kind": "person"
+  },
+  {
+   "term": "Apollonius",
+   "gloss": "A Stoic teacher from whom Marcus learned independence of mind and steadiness in pain and loss.",
+   "kind": "person"
+  },
+  {
+   "term": "Sextus",
+   "gloss": "A philosopher (of Chaeronea) from whom Marcus learned kindness and how to run a household well.",
+   "kind": "person"
+  },
+  {
+   "term": "flattery",
+   "gloss": "Excessive or insincere praise meant to please or manipulate.",
+   "kind": "word",
+   "aliases": [
+    "flatter",
+    "flattering"
+   ]
+  },
+  {
+   "term": "Alexander the grammarian",
+   "gloss": "A teacher of language and literature who taught Marcus to correct others tactfully rather than pounce on mistakes.",
+   "kind": "person"
+  },
+  {
+   "term": "grammarian",
+   "gloss": "A scholar and teacher of language and literature.",
+   "kind": "person"
+  },
+  {
+   "term": "Fronto",
+   "gloss": "Marcus's tutor in rhetoric, from whom he learned how envy and hypocrisy attend absolute power.",
+   "kind": "person"
+  },
+  {
+   "term": "hypocrisy",
+   "gloss": "Pretending to virtues or feelings one does not actually have.",
+   "kind": "word",
+   "aliases": [
+    "hypocrite"
+   ]
+  },
+  {
+   "term": "aristocrats",
+   "gloss": "Members of the highest social class; Marcus notes they often lack ordinary human warmth.",
+   "kind": "people"
+  },
+  {
+   "term": "Alexander the Platonist",
+   "gloss": "A teacher and follower of Plato, who taught Marcus not to keep pleading that he was 'too busy.'",
+   "kind": "person"
+  },
+  {
+   "term": "Catulus",
+   "gloss": "A Stoic teacher of Marcus, who taught him to take a friend's complaints seriously and to love his children.",
+   "kind": "person"
+  },
+  {
+   "term": "Domitius",
+   "gloss": "A man cited as an example of speaking warmly of one's teachers.",
+   "kind": "person"
+  },
+  {
+   "term": "Athenodotus",
+   "gloss": "A man cited, with Domitius, as an example of speaking warmly of one's teachers.",
+   "kind": "person"
+  },
+  {
+   "term": "Severus",
+   "gloss": "Marcus's brother (or kinsman), from whom he learned love of family, truth, and justice.",
+   "kind": "person"
+  },
+  {
+   "term": "Thrasea",
+   "gloss": "A Stoic senator famed for opposing tyranny, known to Marcus through Severus.",
+   "kind": "person"
+  },
+  {
+   "term": "Helvidius",
+   "gloss": "A Stoic statesman remembered for defending liberty, known to Marcus through Severus.",
+   "kind": "person"
+  },
+  {
+   "term": "Cato",
+   "gloss": "Cato the Younger, a Roman statesman who became a model of Stoic resistance to tyranny.",
+   "kind": "person"
+  },
+  {
+   "term": "Dion",
+   "gloss": "A figure (Dion of Syracuse) cited as a model of opposing tyranny.",
+   "kind": "person"
+  },
+  {
+   "term": "Brutus",
+   "gloss": "A Roman remembered as a champion of liberty against one-man rule.",
+   "kind": "person"
+  },
+  {
+   "term": "kingship",
+   "gloss": "Rule by a king; here, the ideal of a kingship that values the freedom of its subjects above all.",
+   "kind": "thing"
+  },
+  {
+   "term": "Maximus",
+   "gloss": "Claudius Maximus, a Stoic teacher from whom Marcus learned self-mastery and good cheer in all circumstances.",
+   "kind": "person"
+  },
+  {
+   "term": "self-mastery",
+   "gloss": "Control over one's own impulses, emotions, and desires.",
+   "kind": "concept",
+   "aliases": [
+    "self-control",
+    "self-discipline"
+   ]
+  },
+  {
+   "term": "Antoninus",
+   "gloss": "Antoninus Pius, Marcus's adoptive father and predecessor as emperor, his model of gentleness and steady judgment.",
+   "kind": "person"
+  },
+  {
+   "term": "sophist",
+   "gloss": "In Marcus's usage, a showy, shallow teacher who values clever argument over genuine wisdom.",
+   "kind": "people"
+  },
+  {
+   "term": "pedant",
+   "gloss": "Someone who fusses over petty rules or shows off minor learning.",
+   "kind": "word"
+  },
+  {
+   "term": "eloquence",
+   "gloss": "Skilled, persuasive, and graceful speech.",
+   "kind": "word"
+  },
+  {
+   "term": "prudent",
+   "gloss": "Wise and careful in practical matters; exercising good judgment.",
+   "kind": "word",
+   "aliases": [
+    "prudence"
+   ]
+  },
+  {
+   "term": "superstitious",
+   "gloss": "Holding irrational fears or beliefs about supernatural powers; Antoninus was free of these toward the gods.",
+   "kind": "word"
+  },
+  {
+   "term": "Socrates",
+   "gloss": "The ancient Athenian philosopher, here invoked as a model of disciplined desire and moderate enjoyment.",
+   "kind": "person"
+  },
+  {
+   "term": "providence",
+   "gloss": "The idea that the universe is governed by a rational, caring order; for Stoics, everything that happens is woven into this plan.",
+   "kind": "concept"
+  },
+  {
+   "term": "Benedicta",
+   "gloss": "A person in Marcus's household whom he names as someone he behaved honorably toward.",
+   "kind": "person"
+  },
+  {
+   "term": "Theodotus",
+   "gloss": "A person in Marcus's household whom he names as someone he behaved honorably toward.",
+   "kind": "person"
+  },
+  {
+   "term": "the part that governs",
+   "gloss": "The Stoic 'ruling faculty'—the rational, deciding center of the mind that controls judgment and choice.",
+   "kind": "concept",
+   "aliases": [
+    "the governing part",
+    "the ruling power",
+    "the ruling principle",
+    "the part of us that rules from within",
+    "the ruling and law-giving faculty",
+    "ruling principle",
+    "ruling principles"
+   ]
+  },
+  {
+   "term": "the divine",
+   "gloss": "For the Stoics, the rational, ordering principle that pervades the universe, of which each mind holds a fragment.",
+   "kind": "concept",
+   "aliases": [
+    "divinity",
+    "the divine part",
+    "divine part"
+   ]
+  },
+  {
+   "term": "nature",
+   "gloss": "In Stoicism, the rational order of the universe; to 'live according to nature' is to live in accord with reason and accept what happens.",
+   "kind": "concept",
+   "aliases": [
+    "Nature"
+   ]
+  },
+  {
+   "term": "the whole",
+   "gloss": "The Stoic term for the entire universe regarded as one rational, living system, of which each person is a part.",
+   "kind": "concept"
+  },
+  {
+   "term": "impulse",
+   "gloss": "In Stoicism, the inner motion toward action; the mind directs and controls its impulses.",
+   "kind": "concept",
+   "aliases": [
+    "impulses"
+   ]
+  },
+  {
+   "term": "Theophrastus",
+   "gloss": "An ancient Greek philosopher, successor to Aristotle, cited for ranking offenses of desire above offenses of anger.",
+   "kind": "person"
+  },
+  {
+   "term": "Monimus the Cynic",
+   "gloss": "A Cynic philosopher quoted for the saying that everything is a matter of opinion.",
+   "kind": "person"
+  },
+  {
+   "term": "Cynic",
+   "gloss": "A member of an ancient Greek philosophical school that prized self-sufficiency and scorned convention and luxury.",
+   "kind": "people"
+  },
+  {
+   "term": "vexed",
+   "gloss": "Irritated, troubled, or distressed; to be 'vexed' at events is, for Marcus, to cut oneself off from nature.",
+   "kind": "word",
+   "aliases": [
+    "vexes"
+   ]
+  },
+  {
+   "term": "abscess",
+   "gloss": "A swollen pocket of pus; Marcus uses it as a metaphor for a soul that has made itself a diseased growth on the universe.",
+   "kind": "word"
+  },
+  {
+   "term": "oblivion",
+   "gloss": "Complete forgetting; the state of being utterly forgotten after death.",
+   "kind": "word"
+  },
+  {
+   "term": "commonwealth",
+   "gloss": "A community organized for the common good; here, the universal city of rational beings under one law.",
+   "kind": "concept"
+  },
+  {
+   "term": "reason",
+   "gloss": "For the Stoics, the rational principle (logos) that governs the universe and is shared by every human mind.",
+   "kind": "concept",
+   "aliases": [
+    "right reason",
+    "social reason"
+   ]
+  },
+  {
+   "term": "senility",
+   "gloss": "The mental decline that can come with old age.",
+   "kind": "word",
+   "aliases": [
+    "senile"
+   ]
+  },
+  {
+   "term": "impression",
+   "gloss": "In Stoicism, an appearance or perception that strikes the mind, which one then judges or assents to.",
+   "kind": "concept",
+   "aliases": [
+    "impressions"
+   ]
+  },
+  {
+   "term": "Hippocrates",
+   "gloss": "The famous ancient Greek physician; Marcus notes that even he, who cured many, fell sick and died.",
+   "kind": "person"
+  },
+  {
+   "term": "the Chaldean astrologers",
+   "gloss": "Ancient stargazers reputed to foretell the future; Marcus notes they too met the deaths fate held for them.",
+   "kind": "people",
+   "aliases": [
+    "astrologers"
+   ]
+  },
+  {
+   "term": "Alexander",
+   "gloss": "Alexander the Great, the conqueror; cited among great men who, despite their conquests, all died.",
+   "kind": "person"
+  },
+  {
+   "term": "Pompey",
+   "gloss": "A Roman general and statesman, cited among great conquerors who nonetheless died.",
+   "kind": "person"
+  },
+  {
+   "term": "Gaius Caesar",
+   "gloss": "Julius Caesar, the Roman general and statesman, cited among conquerors who died like all others.",
+   "kind": "person"
+  },
+  {
+   "term": "Heraclitus",
+   "gloss": "An ancient Greek philosopher known for teaching that all things change and that the universe periodically turns to fire.",
+   "kind": "person"
+  },
+  {
+   "term": "Democritus",
+   "gloss": "An ancient Greek philosopher (of the atomic theory); Marcus notes that lice killed him.",
+   "kind": "person"
+  },
+  {
+   "term": "conjecture",
+   "gloss": "A guess or opinion formed without solid evidence.",
+   "kind": "word"
+  },
+  {
+   "term": "Phalaris",
+   "gloss": "A notoriously cruel ancient tyrant, used as an example of a man ruled by base desire.",
+   "kind": "person"
+  },
+  {
+   "term": "Nero",
+   "gloss": "The infamous Roman emperor, used as an example of a man driven by base appetites.",
+   "kind": "person"
+  },
+  {
+   "term": "chaste",
+   "gloss": "Pure and free from lust; here, looking on beauty without desire.",
+   "kind": "word"
+  },
+  {
+   "term": "temperance",
+   "gloss": "The Stoic virtue of moderation and self-restraint in desires and pleasures.",
+   "kind": "concept",
+   "aliases": [
+    "temperate"
+   ]
+  },
+  {
+   "term": "self-sufficiency",
+   "gloss": "The capacity to find within oneself everything needed for a good life, depending on no one else.",
+   "kind": "concept"
+  },
+  {
+   "term": "destiny",
+   "gloss": "The fixed course of events; for Stoics, the rational order that spins out each person's allotted fate.",
+   "kind": "concept"
+  },
+  {
+   "term": "the elements",
+   "gloss": "In ancient physics, the basic constituents (earth, water, air, fire) from which all things are made and into which they dissolve.",
+   "kind": "concept",
+   "aliases": [
+    "elements"
+   ]
+  },
+  {
+   "term": "tranquillity",
+   "gloss": "A calm, untroubled state of mind; for Marcus, the result of a well-ordered mind.",
+   "kind": "concept",
+   "aliases": [
+    "tranquil",
+    "untroubled"
+   ]
+  },
+  {
+   "term": "atoms",
+   "gloss": "In the rival Epicurean view, the tiny particles whose random collisions form the world by chance rather than design.",
+   "kind": "concept"
+  },
+  {
+   "term": "political community",
+   "gloss": "For the Stoics, the universe seen as a single state in which all rational beings are fellow citizens.",
+   "kind": "concept"
+  },
+  {
+   "term": "fellow citizens",
+   "gloss": "Members of the same community; for Stoics, all rational beings share one cosmic city.",
+   "kind": "concept"
+  },
+  {
+   "term": "constitution",
+   "gloss": "In Stoicism, the natural make-up or design of a thing; one acts well by living in accord with one's constitution.",
+   "kind": "concept"
+  },
+  {
+   "term": "generative principle",
+   "gloss": "The creative source of the universe, into which things dissolve and from which new things arise.",
+   "kind": "concept",
+   "aliases": [
+    "generative intelligence"
+   ]
+  },
+  {
+   "term": "Agathon",
+   "gloss": "An ancient Athenian tragic poet, quoted on running straight without glancing at others' faults.",
+   "kind": "person"
+  },
+  {
+   "term": "Cecrops",
+   "gloss": "The legendary first king of Athens; 'city of Cecrops' means Athens.",
+   "kind": "person"
+  },
+  {
+   "term": "Zeus",
+   "gloss": "The chief god of the Greeks; Marcus reframes loyalty from one's earthly city to the 'city of Zeus,' the universe.",
+   "kind": "god"
+  },
+  {
+   "term": "lyre",
+   "gloss": "An ancient stringed musical instrument.",
+   "kind": "thing"
+  },
+  {
+   "term": "Vespasian",
+   "gloss": "A Roman emperor; Marcus points to his era to show that human life always looks the same.",
+   "kind": "person"
+  },
+  {
+   "term": "Trajan",
+   "gloss": "A Roman emperor; Marcus cites his era to show that one age's life passes like every other's.",
+   "kind": "person"
+  },
+  {
+   "term": "consulship",
+   "gloss": "The office of consul, one of Rome's highest political positions.",
+   "kind": "thing"
+  },
+  {
+   "term": "Camillus",
+   "gloss": "A celebrated early Roman figure whose once-famous name Marcus says has now grown obsolete.",
+   "kind": "person"
+  },
+  {
+   "term": "Caeso",
+   "gloss": "An old Roman name Marcus cites as now fallen into obscurity.",
+   "kind": "person"
+  },
+  {
+   "term": "Volesus",
+   "gloss": "An old Roman name Marcus cites as now fallen into obscurity.",
+   "kind": "person"
+  },
+  {
+   "term": "Leonnatus",
+   "gloss": "An old name Marcus cites as now grown obsolete.",
+   "kind": "person"
+  },
+  {
+   "term": "Scipio",
+   "gloss": "A famous Roman general whose once-great name Marcus notes is now passing into obscurity.",
+   "kind": "person"
+  },
+  {
+   "term": "Augustus",
+   "gloss": "The first Roman emperor, cited among great names that time will bury in oblivion.",
+   "kind": "person"
+  },
+  {
+   "term": "Hadrian",
+   "gloss": "A Roman emperor, cited among great names that will be forgotten.",
+   "kind": "person"
+  },
+  {
+   "term": "obsolete",
+   "gloss": "No longer in use; out of date.",
+   "kind": "word"
+  },
+  {
+   "term": "Clotho",
+   "gloss": "One of the three Fates of Greek myth, who spins the thread of each person's life.",
+   "kind": "god"
+  },
+  {
+   "term": "the Fates",
+   "gloss": "The three goddesses of Greek myth who spin, measure, and cut the thread of each life.",
+   "kind": "god",
+   "aliases": [
+    "Fates"
+   ]
+  },
+  {
+   "term": "substance",
+   "gloss": "The underlying material or stuff of which a thing is made; in Stoicism, the universe is of one substance.",
+   "kind": "concept"
+  },
+  {
+   "term": "sympathy",
+   "gloss": "In Stoicism, the deep interconnection by which all parts of the universe affect and bind one another.",
+   "kind": "concept"
+  },
+  {
+   "term": "tyrannical",
+   "gloss": "Acting like a tyrant—cruel, domineering, and oppressive.",
+   "kind": "word",
+   "aliases": [
+    "tyrant",
+    "tyrants"
+   ]
+  },
+  {
+   "term": "runaway",
+   "gloss": "A fugitive, especially a runaway slave; Marcus calls one who flees the social reason a runaway.",
+   "kind": "word"
+  },
+  {
+   "term": "fragment",
+   "gloss": "A piece broken off from a whole; one who cuts himself off from common reason is a fragment torn from the state.",
+   "kind": "word"
+  },
+  {
+   "term": "Helice",
+   "gloss": "An ancient Greek city destroyed by an earthquake and flood, cited as an example of a whole city that died.",
+   "kind": "place"
+  },
+  {
+   "term": "Pompeii",
+   "gloss": "A Roman city buried by the eruption of Vesuvius, cited as a whole city that perished.",
+   "kind": "place"
+  },
+  {
+   "term": "Herculaneum",
+   "gloss": "A Roman town destroyed alongside Pompeii by Vesuvius, cited as a city that died.",
+   "kind": "place"
+  },
+  {
+   "term": "headland",
+   "gloss": "A point of high land jutting into the sea; Marcus uses it as an image of standing firm against pounding waves.",
+   "kind": "word"
+  },
+  {
+   "term": "great-souled",
+   "gloss": "Possessing greatness of spirit—generous, noble, and above petty concerns.",
+   "kind": "word"
+  },
+  {
+   "term": "Cadicianus",
+   "gloss": "A name Marcus lists of people who clung to life and yet ended in the tomb like everyone else.",
+   "kind": "person"
+  },
+  {
+   "term": "Fabius",
+   "gloss": "A name Marcus lists of people who clung to life and yet died like all the rest.",
+   "kind": "person"
+  },
+  {
+   "term": "Julianus",
+   "gloss": "A name Marcus lists of people who clung to life and yet ended in their tombs.",
+   "kind": "person"
+  },
+  {
+   "term": "Lepidus",
+   "gloss": "A name Marcus lists of people who clung to life and yet died like everyone else.",
+   "kind": "person"
+  },
+  {
+   "term": "the Stoics",
+   "gloss": "Followers of Stoicism, the philosophy—Marcus's own—that teaches living by reason, accepting fate, and finding the good only in virtue.",
+   "kind": "people",
+   "aliases": [
+    "Stoic"
+   ]
+  },
+  {
+   "term": "primal",
+   "gloss": "Original or most basic; belonging to the earliest, fundamental source.",
+   "kind": "word"
+  },
+  {
+   "term": "discordant",
+   "gloss": "Out of harmony; clashing or conflicting.",
+   "kind": "word"
+  },
+  {
+   "term": "impiety",
+   "gloss": "Lack of reverence for the gods or for what is sacred.",
+   "kind": "word"
+  },
+  {
+   "term": "vapor",
+   "gloss": "A thin mist or breath; Marcus calls the soul 'dream and vapor' to stress how fleeting it is.",
+   "kind": "word"
+  },
+  {
+   "term": "oath",
+   "gloss": "A solemn sworn promise; the disciplined man needs none to vouch for him.",
+   "kind": "word"
+  },
+  {
+   "term": "servile",
+   "gloss": "Slavish; excessively submissive or fawning.",
+   "kind": "word"
+  },
+  {
+   "term": "apportioned",
+   "gloss": "Allotted or assigned as one's share; for Stoics, everything that happens is apportioned by destiny.",
+   "kind": "word",
+   "aliases": [
+    "apportioning"
+   ]
+  },
+  {
+   "term": "allotted",
+   "gloss": "Assigned as one's portion or fate.",
+   "kind": "word"
+  },
+  {
+   "term": "reflection",
+   "gloss": "Careful, deliberate thinking; turning the mind inward to examine things.",
+   "kind": "word"
+  },
+  {
+   "term": "the lot",
+   "gloss": "One's allotted portion or fate; the Stoic accepts the lot assigned to him.",
+   "kind": "concept",
+   "aliases": [
+    "lot",
+    "portion"
+   ]
+  },
+  {
+   "term": "ruling principle",
+   "gloss": "In Stoicism, the commanding, reasoning part of the soul — the mind's central faculty that forms judgments, makes choices, and governs all else within a person. Marcus also calls it the ruling part, ruling faculty, ruling mind, or guiding principle.",
+   "kind": "concept",
+   "aliases": [
+    "ruling part",
+    "ruling faculty",
+    "ruling mind",
+    "ruling power",
+    "governing intelligence",
+    "guiding principle",
+    "rational principle that rules",
+    "the part of your soul that leads and governs"
+   ]
+  },
+  {
+   "term": "guiding spirit",
+   "gloss": "The portion of the divine reason that Zeus places within each person as a guardian and guide; for Marcus it is one's own understanding and reason, the inner divinity to be kept pure and obeyed.",
+   "kind": "concept",
+   "aliases": [
+    "guardian and guide",
+    "my god and the guiding spirit within me",
+    "the spirit that Zeus has given",
+    "divine part",
+    "godlike man"
+   ]
+  },
+  {
+   "term": "indifferent",
+   "gloss": "In Stoic terms, things that are neither truly good nor truly bad — like wealth, health, fame, or what others do — because they do not touch the moral character of the soul.",
+   "kind": "concept",
+   "aliases": [
+    "indifference",
+    "things that are indifferent",
+    "matters that are indifferent",
+    "things of the middle kind"
+   ]
+  },
+  {
+   "term": "in our power",
+   "gloss": "The Stoic distinction between what is up to us — our judgments, impulses, and desires — and what is not, such as external events and other people's actions. Peace comes from caring only about the former.",
+   "kind": "concept",
+   "aliases": [
+    "in my power",
+    "in your power",
+    "within your power",
+    "not in your power",
+    "within his reach"
+   ]
+  },
+  {
+   "term": "the many",
+   "gloss": "The crowd, ordinary people in general — Marcus uses the phrase for the mass of people whose values and praise the philosopher should not chase.",
+   "kind": "people",
+   "aliases": [
+    "the crowd",
+    "the many",
+    "the multitude"
+   ]
+  },
+  {
+   "term": "virtue",
+   "gloss": "Moral excellence — for the Stoics the only true good, expressed chiefly as wisdom, justice, courage, and self-control. Everything that happens is treated as material for the practice of virtue.",
+   "kind": "concept",
+   "aliases": [
+    "virtues",
+    "the motion of virtue",
+    "material for virtue"
+   ]
+  },
+  {
+   "term": "self-control",
+   "gloss": "The Stoic virtue of mastering one's appetites and rising above pleasure and pain; also rendered as temperance or moderation.",
+   "kind": "concept",
+   "aliases": [
+    "self-restraint",
+    "temperance",
+    "moderation"
+   ]
+  },
+  {
+   "term": "greatness of soul",
+   "gloss": "Magnanimity — a largeness of spirit that rises above petty grievances, fears, and the lure of trivial things.",
+   "kind": "concept",
+   "aliases": [
+    "greatness of spirit",
+    "elevated mind"
+   ]
+  },
+  {
+   "term": "the social",
+   "gloss": "The Stoic conviction that humans are made for one another, like limbs of a single body or bees of one hive, so that acting for the common good is acting according to our nature.",
+   "kind": "concept",
+   "aliases": [
+    "social",
+    "social creature",
+    "social being",
+    "made for society",
+    "fellowship",
+    "fitted for life in society",
+    "the social one"
+   ]
+  },
+  {
+   "term": "the common good",
+   "gloss": "The shared welfare of the human community, which the Stoic takes as the proper aim of all action; harm to the state is the measure of real harm.",
+   "kind": "concept",
+   "aliases": [
+    "common good",
+    "the state",
+    "the citizen",
+    "useful to society"
+   ]
+  },
+  {
+   "term": "dissolution",
+   "gloss": "The natural breaking-apart of a person at death into the elements from which they were composed; Marcus urges waiting for it calmly, without fear.",
+   "kind": "concept",
+   "aliases": [
+    "natural dissolution",
+    "dissolved",
+    "scattering",
+    "annihilation"
+   ]
+  },
+  {
+   "term": "the gods",
+   "gloss": "The divine powers the Stoics held to govern and care for the world; Marcus urges living with them, honoring them, and trusting their providence — or, if they decide nothing, governing oneself by reason.",
+   "kind": "god",
+   "aliases": [
+    "gods",
+    "the immortal gods",
+    "a deity",
+    "the Deity"
+   ]
+  },
+  {
+   "term": "Olympus",
+   "gloss": "The mountain home of the Greek gods; here the place to which the goddesses of loyalty, modesty, and justice are said to have fled, abandoning the earth.",
+   "kind": "place"
+  },
+  {
+   "term": "Athenians",
+   "gloss": "The people of Athens; Marcus quotes their simple prayer for rain as a model of how one should pray.",
+   "kind": "people",
+   "aliases": [
+    "Athens",
+    "men of Athens"
+   ]
+  },
+  {
+   "term": "Asclepius",
+   "gloss": "The Greek god of medicine and healing; Marcus uses the doctor-god's prescriptions as a comparison for the remedies that the nature of the universe prescribes for each person.",
+   "kind": "god"
+  },
+  {
+   "term": "comic poet",
+   "gloss": "A writer of comedies for the Greek stage; Marcus cites a line of comic verse to expose how the things the crowd calls good are really laughable.",
+   "kind": "person",
+   "aliases": [
+    "the comic poet"
+   ]
+  },
+  {
+   "term": "declaiming",
+   "gloss": "Speaking formally and rhetorically in public, as an orator does from a platform; Marcus warns the speaker not to be carried away by such display.",
+   "kind": "word"
+  },
+  {
+   "term": "Falernian",
+   "gloss": "A famous, prized Roman wine; Marcus strips it down to mere grape juice to show how outward show inflates a thing's worth.",
+   "kind": "thing",
+   "aliases": [
+    "Falernian wine"
+   ]
+  },
+  {
+   "term": "Crates",
+   "gloss": "A Cynic philosopher; Marcus alludes to a remark of his about Xenocrates as an example of seeing through outward appearances.",
+   "kind": "person"
+  },
+  {
+   "term": "Xenocrates",
+   "gloss": "An ancient Greek philosopher and head of Plato's Academy, mentioned as the subject of a remark by Crates.",
+   "kind": "person"
+  },
+  {
+   "term": "transpiration",
+   "gloss": "The release of moisture or vapor by plants; Marcus lists it among the lowly, merely vegetative functions not worth prizing.",
+   "kind": "word"
+  },
+  {
+   "term": "Alexander of Macedon",
+   "gloss": "Alexander the Great, the conquering king of Macedon; Marcus notes that death reduced him and his lowly stable boy to the very same state.",
+   "kind": "person",
+   "aliases": [
+    "Alexander"
+   ]
+  },
+  {
+   "term": "Caesar",
+   "gloss": "The title of the Roman emperor; Marcus warns himself not to be corrupted — not to be turned into a Caesar, stained with the dye of imperial power. Also refers to Julius Caesar among the great men time has swept away.",
+   "kind": "person"
+  },
+  {
+   "term": "Mount Athos",
+   "gloss": "A large mountain in Greece, which Marcus calls a mere little clod compared to the vastness of the universe.",
+   "kind": "place",
+   "aliases": [
+    "Athos"
+   ]
+  },
+  {
+   "term": "Chrysippus",
+   "gloss": "A leading early Stoic philosopher and systematizer of the school; Marcus refers to a mean and ridiculous line of verse Chrysippus spoke of, and lists him among those time has swallowed up.",
+   "kind": "person"
+  },
+  {
+   "term": "Pythagoras",
+   "gloss": "An ancient Greek philosopher and mathematician, named among the great minds of the past now long dead.",
+   "kind": "person"
+  },
+  {
+   "term": "Eudoxus",
+   "gloss": "An ancient Greek astronomer and mathematician, named among the brilliant minds now reduced to dust.",
+   "kind": "person"
+  },
+  {
+   "term": "Hipparchus",
+   "gloss": "A renowned ancient Greek astronomer, listed among the great men of sharp natural talent long since dead.",
+   "kind": "person"
+  },
+  {
+   "term": "Archimedes",
+   "gloss": "The famous ancient Greek mathematician and inventor, named among the great minds time has swept away.",
+   "kind": "person"
+  },
+  {
+   "term": "Menippus",
+   "gloss": "An ancient Cynic satirist who mocked the vanity of human life; Marcus names him among those who scorned this perishable existence.",
+   "kind": "person"
+  },
+  {
+   "term": "Philistion",
+   "gloss": "A man named, alongside Phoebus and Origanion, simply to drive home that all kinds of people are now dead.",
+   "kind": "person"
+  },
+  {
+   "term": "Phoebus",
+   "gloss": "A name listed with Philistion and Origanion among the countless ordinary dead.",
+   "kind": "person"
+  },
+  {
+   "term": "Origanion",
+   "gloss": "A name listed with Philistion and Phoebus among the countless ordinary dead.",
+   "kind": "person"
+  },
+  {
+   "term": "helmsman",
+   "gloss": "The steersman who guides a ship; Marcus uses him, like the doctor, as an image of the expert whose skill should not be disturbed by the abuse of the ignorant.",
+   "kind": "word"
+  },
+  {
+   "term": "jaundiced",
+   "gloss": "Suffering from jaundice, a condition that here makes honey taste bitter; Marcus uses it to show how a disordered state warps one's judgments.",
+   "kind": "word",
+   "aliases": [
+    "jaundice"
+   ]
+  },
+  {
+   "term": "sophists",
+   "gloss": "Professional teachers of rhetoric and argument in ancient Greece, often skilled in clever debate; Socrates is said to have argued with them.",
+   "kind": "people"
+  },
+  {
+   "term": "Telauges",
+   "gloss": "An obscure ancient figure; Marcus asks, provocatively, how we know Telauges was not finer in character than Socrates.",
+   "kind": "person"
+  },
+  {
+   "term": "Leon of Salamis",
+   "gloss": "A man Socrates was ordered to arrest; Socrates judged it nobler to refuse, an act Marcus cites as a mark of his integrity.",
+   "kind": "person"
+  },
+  {
+   "term": "Plato",
+   "gloss": "The great Athenian philosopher, student of Socrates; Marcus quotes him on the smallness of human life and on doing what is just rather than fearing death.",
+   "kind": "person"
+  },
+  {
+   "term": "Antisthenes",
+   "gloss": "An ancient Greek philosopher, founder of the Cynic school; Marcus quotes his saying that it is kingly to do good and be abused for it.",
+   "kind": "person"
+  },
+  {
+   "term": "Epicurus",
+   "gloss": "The founder of the rival Epicurean philosophy; Marcus borrows his reassuring remark that pain is neither unbearable nor everlasting.",
+   "kind": "person"
+  },
+  {
+   "term": "Diogenes",
+   "gloss": "The famous Cynic philosopher who lived in poverty and scorned convention; Marcus contrasts such philosophers favorably with conquerors like Alexander.",
+   "kind": "person"
+  },
+  {
+   "term": "Rome",
+   "gloss": "The capital of the empire; Marcus says that as Antoninus his city is Rome, but as a human being his city is the whole world.",
+   "kind": "place"
+  },
+  {
+   "term": "Diotimus",
+   "gloss": "A man named in lists of those who died, paired with figures like Epitynchanus and Hadrian to illustrate that all eventually die.",
+   "kind": "person"
+  },
+  {
+   "term": "Epitynchanus",
+   "gloss": "A man named in a chain of deaths to show that the mourner soon dies in turn.",
+   "kind": "person"
+  },
+  {
+   "term": "Lucilla",
+   "gloss": "A woman named in a sequence of deaths — she saw Verus die, then died herself — illustrating the universal pattern of mortality.",
+   "kind": "person"
+  },
+  {
+   "term": "Secunda",
+   "gloss": "A woman named in the chain of deaths: she saw Maximus die, then died herself.",
+   "kind": "person"
+  },
+  {
+   "term": "Faustina",
+   "gloss": "Marcus's wife; named in the chain of deaths — Antoninus saw Faustina die, then died himself.",
+   "kind": "person"
+  },
+  {
+   "term": "Celer",
+   "gloss": "A man named among the dead: he saw Hadrian die, then died himself.",
+   "kind": "person"
+  },
+  {
+   "term": "Charax",
+   "gloss": "A sharp-witted figure named among the once-clever people now long dead and forgotten.",
+   "kind": "person"
+  },
+  {
+   "term": "Demetrius the Platonist",
+   "gloss": "A follower of Plato's philosophy, named among the once-celebrated thinkers now dead.",
+   "kind": "person",
+   "aliases": [
+    "Demetrius"
+   ]
+  },
+  {
+   "term": "Eudaemon",
+   "gloss": "A man named among the sharp-witted who are now dead and largely forgotten.",
+   "kind": "person"
+  },
+  {
+   "term": "Agrippa",
+   "gloss": "A close companion and general of the emperor Augustus, listed among the dead of Augustus's court.",
+   "kind": "person"
+  },
+  {
+   "term": "Areius",
+   "gloss": "A philosopher and adviser at the court of Augustus, named among the dead of that court.",
+   "kind": "person"
+  },
+  {
+   "term": "Maecenas",
+   "gloss": "A wealthy patron and trusted adviser of Augustus, listed among the dead of the imperial court.",
+   "kind": "person"
+  },
+  {
+   "term": "Panthea",
+   "gloss": "A woman imagined mourning at the tomb of Verus, used to show the futility of grieving over the dead.",
+   "kind": "person"
+  },
+  {
+   "term": "Pergamus",
+   "gloss": "A person imagined sitting by the tomb of Verus, named to illustrate the pointlessness of mourning.",
+   "kind": "person"
+  },
+  {
+   "term": "Chabrias",
+   "gloss": "A person imagined sitting by the tomb of Hadrian, named to show how futile such mourning is.",
+   "kind": "person"
+  },
+  {
+   "term": "the senate",
+   "gloss": "The governing council of Rome; Marcus reminds himself to speak there, and to everyone, plainly and without affectation.",
+   "kind": "thing"
+  },
+  {
+   "term": "affectation",
+   "gloss": "Putting on an artificial show or pose to impress others; Marcus repeatedly urges acting and speaking without it.",
+   "kind": "word",
+   "aliases": [
+    "pretense",
+    "put on airs"
+   ]
+  },
+  {
+   "term": "barbarians",
+   "gloss": "In the ancient sense, foreign peoples outside Greek and Roman civilization; Marcus lists their various tribes in his bird's-eye view of human affairs.",
+   "kind": "people"
+  },
+  {
+   "term": "logician",
+   "gloss": "A person expert in formal reasoning and argument; Marcus says one need not become a logician to be free, modest, and good.",
+   "kind": "word",
+   "aliases": [
+    "logic",
+    "an expert in the knowledge of nature"
+   ]
+  },
+  {
+   "term": "piety",
+   "gloss": "Devout respect and dutiful conduct toward the gods; Marcus praises it in Antoninus and counts it among the chief goods.",
+   "kind": "word",
+   "aliases": [
+    "devout disposition",
+    "religious"
+   ]
+  },
+  {
+   "term": "superstition",
+   "gloss": "Excessive or irrational religious fear or belief; Marcus praises Antoninus for being religious without it.",
+   "kind": "word"
+  },
+  {
+   "term": "the formal and the material",
+   "gloss": "The two principles the Stoics saw in every thing: the active, shaping form (linked to reason) and the passive matter it shapes. At death each returns to its source.",
+   "kind": "concept",
+   "aliases": [
+    "formal and the material",
+    "everything that gives form"
+   ]
+  },
+  {
+   "term": "fixed cycles",
+   "gloss": "The Stoic idea that the universe runs through recurring periods, being administered and renewed in set rounds; Marcus mentions this cosmic recurrence.",
+   "kind": "concept",
+   "aliases": [
+    "administered in fixed cycles"
+   ]
+  },
+  {
+   "term": "sound principles",
+   "gloss": "The settled rational convictions a Stoic lives by; when one fails to act on them, the remedy is to return to them, not to despair.",
+   "kind": "concept",
+   "aliases": [
+    "principles",
+    "right principles",
+    "by sound principles"
+   ]
+  },
+  {
+   "term": "disposition",
+   "gloss": "The settled inner condition or attitude of the soul; for Marcus a good disposition — toward justice and others — is where the good and one's good fortune lie.",
+   "kind": "concept",
+   "aliases": [
+    "good disposition"
+   ]
+  },
+  {
+   "term": "physics, ethics, and logic",
+   "gloss": "The three traditional divisions of Stoic philosophy: the study of nature, of right conduct, and of reasoning. Marcus tells himself to apply all three to every impression.",
+   "kind": "concept",
+   "aliases": [
+    "physics",
+    "ethics",
+    "logic"
+   ]
+  },
+  {
+   "term": "Asia and Europe",
+   "gloss": "The great landmasses of the known world; Marcus calls them mere corners of the universe to shrink human concerns to their true scale.",
+   "kind": "place",
+   "aliases": [
+    "Asia",
+    "Europe"
+   ]
+  },
+  {
+   "term": "the wrestling ground",
+   "gloss": "The palaestra, where Greeks trained in wrestling; Marcus draws lessons in patience from how one tolerates a rough opponent there.",
+   "kind": "place",
+   "aliases": [
+    "wrestling ground",
+    "the ring",
+    "the wrestling"
+   ]
+  },
+  {
+   "term": "irreverently",
+   "gloss": "In a way that disrespects or offends the divine. For Marcus, to act unjustly or to lie is to be impious toward the gods, because it breaks the order of universal nature.",
+   "kind": "word",
+   "aliases": [
+    "irreverence",
+    "irreverent"
+   ]
+  },
+  {
+   "term": "universal nature",
+   "gloss": "The single rational nature that orders the whole cosmos and is itself divine. Marcus treats it as the source of all things and as truth itself; living rightly means staying in step with it.",
+   "kind": "concept",
+   "aliases": [
+    "the world's nature",
+    "common nature",
+    "the nature of the universe",
+    "universal intelligence"
+   ]
+  },
+  {
+   "term": "the next best voyage",
+   "gloss": "A proverb for the second-best option when the best is out of reach. Here: if you can't leave life untouched by vice, the next best thing is to die once you've had enough of it.",
+   "kind": "concept"
+  },
+  {
+   "term": "vice",
+   "gloss": "Moral badness or corruption of character — the opposite of virtue. For Stoics, the only real evil, since it lies in one's own choices.",
+   "kind": "concept",
+   "aliases": [
+    "vices"
+   ]
+  },
+  {
+   "term": "the ruling faculty",
+   "gloss": "The mind's commanding part — the seat of judgment, reason, and choice. For Stoics it is the only thing truly ours, and the one thing we must keep under our own control.",
+   "kind": "concept",
+   "aliases": [
+    "ruling faculty",
+    "ruling principle",
+    "ruling principles",
+    "guiding principles",
+    "guiding spirit"
+   ]
+  },
+  {
+   "term": "impressions",
+   "gloss": "The mental images or appearances that strike the mind from outside. Stoic practice is to examine them and not automatically assent, since our judgments about them — not the things themselves — disturb us.",
+   "kind": "concept",
+   "aliases": [
+    "impression"
+   ]
+  },
+  {
+   "term": "appetites",
+   "gloss": "Bodily cravings and urges. Marcus advises mastering them so the ruling faculty stays in command rather than being pulled along by them.",
+   "kind": "concept",
+   "aliases": [
+    "appetite"
+   ]
+  },
+  {
+   "term": "rational",
+   "gloss": "Possessing or guided by reason. Marcus uses it of beings made to think and choose, and of acting in line with reason rather than impulse.",
+   "kind": "concept",
+   "aliases": [
+    "reason",
+    "right reason"
+   ]
+  },
+  {
+   "term": "forbearance",
+   "gloss": "Patient self-restraint and tolerance toward people who do wrong. Marcus says nature gave it to us precisely so we can bear with others gently.",
+   "kind": "concept",
+   "aliases": [
+    "forbearing"
+   ]
+  },
+  {
+   "term": "social reason",
+   "gloss": "Reason understood as inherently communal — directing each rational being to act for the common good of all the others.",
+   "kind": "concept",
+   "aliases": [
+    "social end",
+    "social acts",
+    "social life",
+    "social system"
+   ]
+  },
+  {
+   "term": "Plato's Republic",
+   "gloss": "Plato's dialogue describing an ideal city ruled by philosophers. Marcus invokes it as a symbol of unreachable perfection: don't wait for the ideal state, be content if the smallest real thing goes well.",
+   "kind": "thing",
+   "aliases": [
+    "Plato"
+   ]
+  },
+  {
+   "term": "Philip",
+   "gloss": "Philip of Macedon, father of Alexander the Great and an empire-builder in his own right. Marcus cites him as another famous conqueror whose worth he questions.",
+   "kind": "person"
+  },
+  {
+   "term": "Demetrius of Phalerum",
+   "gloss": "An Athenian orator and statesman who governed Athens for a decade in the late 300s BC. Marcus names him among prominent men whose lives may have been mere posturing.",
+   "kind": "person",
+   "aliases": [
+    "Demetrius"
+   ]
+  },
+  {
+   "term": "winter torrent",
+   "gloss": "A flash-flood swelling a dry streambed in winter — Marcus's image for the universal cause, which sweeps everything along irresistibly.",
+   "kind": "thing",
+   "aliases": [
+    "winter torrent"
+   ]
+  },
+  {
+   "term": "drivelers",
+   "gloss": "People who talk nonsense or fuss pointlessly. Marcus's dismissive term for those busy with politics while imagining they are doing philosophy.",
+   "kind": "word",
+   "aliases": [
+    "driveler"
+   ]
+  },
+  {
+   "term": "the underworld",
+   "gloss": "The realm of the dead in Greek and Roman myth. Marcus alludes to its grim pictures to underline how flimsy and corpse-like ordinary human life really is.",
+   "kind": "place"
+  },
+  {
+   "term": "purple dye",
+   "gloss": "The costly purple coloring (from sea-snails) that marked imperial and aristocratic robes. Marcus deflates it: it is, at bottom, just blood.",
+   "kind": "thing",
+   "aliases": [
+    "purple"
+   ]
+  },
+  {
+   "term": "obtuse",
+   "gloss": "Slow to understand; dull or thick-headed. Marcus says nature has given mildness as the antidote to dealing with such a person.",
+   "kind": "word",
+   "aliases": [
+    "obtuse man"
+   ]
+  },
+  {
+   "term": "the Islands of the Blessed",
+   "gloss": "In Greek myth, the paradise where heroes go after death. Marcus uses it as an image of contentment: holding firm to a few good qualities is like being carried off to that blessed place.",
+   "kind": "place"
+  },
+  {
+   "term": "high-minded",
+   "gloss": "Having an elevated spirit that rises above bodily pleasure and pain, fame, and even death. One of the names Marcus tells himself to live up to.",
+   "kind": "concept"
+  },
+  {
+   "term": "even-tempered",
+   "gloss": "Calmly accepting whatever the common nature assigns. Marcus lists it as a quality to claim and never trade away.",
+   "kind": "concept"
+  },
+  {
+   "term": "the arena",
+   "gloss": "The amphitheater where gladiators fought wild beasts and each other. Marcus's grim image of clinging to a degraded life: the half-devoured fighter begging for one more day.",
+   "kind": "place",
+   "aliases": [
+    "claws and teeth"
+   ]
+  },
+  {
+   "term": "Ocean",
+   "gloss": "In Homer's geography, the great river encircling the world. Marcus quotes Homer on the western edge where Ocean sends gentle breezes to refresh mankind.",
+   "kind": "place"
+  },
+  {
+   "term": "the West Wind",
+   "gloss": "Zephyr, the gentle west wind of Greek myth and poetry, bringer of mild weather. From the Homeric passage Marcus quotes about an easy, storm-free life.",
+   "kind": "god"
+  },
+  {
+   "term": "mime-shows",
+   "gloss": "Cheap theatrical farces — Marcus's metaphor for the distractions of daily life that wear away one's principles.",
+   "kind": "thing",
+   "aliases": [
+    "mime-shows of life"
+   ]
+  },
+  {
+   "term": "contemplative faculty",
+   "gloss": "The mind's capacity for reflective insight into the nature of things. Marcus urges keeping it exercised even amid busy circumstances.",
+   "kind": "concept",
+   "aliases": [
+    "contemplative way"
+   ]
+  },
+  {
+   "term": "Sarmatians",
+   "gloss": "A nomadic people of the steppes northeast of the Roman Empire, whom Marcus campaigned against. He uses capturing them as one more example of a hunter's pointless pride.",
+   "kind": "people"
+  },
+  {
+   "term": "greatness of mind",
+   "gloss": "Magnanimity — a large, elevated spirit unmoved by trivial things. Marcus says nothing produces it like seeing how all things change into one another.",
+   "kind": "concept"
+  },
+  {
+   "term": "fidelity",
+   "gloss": "Faithfulness and trustworthiness; keeping faith with others. One of the goods Marcus says a person produces through the mind's best part.",
+   "kind": "concept"
+  },
+  {
+   "term": "Croesus",
+   "gloss": "The fabulously wealthy last king of Lydia (6th century BC), a byword for riches and the fall of fortune. Marcus lists his court among history's vanished scenes.",
+   "kind": "person"
+  },
+  {
+   "term": "Satyron the Socratic",
+   "gloss": "A follower of Socrates, named by Marcus as a memory-prompt: seeing one person, recall another, to feel how all human things vanish.",
+   "kind": "person",
+   "aliases": [
+    "Satyron"
+   ]
+  },
+  {
+   "term": "Euphrates",
+   "gloss": "A respected Stoic philosopher of Marcus's era. He appears in the list of figures Marcus uses to remind himself that all such people fade into nothing.",
+   "kind": "person"
+  },
+  {
+   "term": "Alciphron",
+   "gloss": "A name in Marcus's memory-list of acquaintances, used to drive home that the people we knew are now nowhere to be found.",
+   "kind": "person"
+  },
+  {
+   "term": "Xenophon",
+   "gloss": "A name in Marcus's list of remembered figures (possibly the historian and follower of Socrates), invoked to show how human things pass into smoke.",
+   "kind": "person"
+  },
+  {
+   "term": "the Caesars",
+   "gloss": "The line of Roman emperors. Marcus tells himself, when he looks at his own reflection, to recall one of the other Caesars — all now gone.",
+   "kind": "people",
+   "aliases": [
+    "Caesars"
+   ]
+  },
+  {
+   "term": "runaway slave",
+   "gloss": "An escaped slave fleeing his master. Marcus's image for anyone who, by grief, anger, or fear, rebels against the Law that rules all things.",
+   "kind": "concept",
+   "aliases": [
+    "runaway"
+   ]
+  },
+  {
+   "term": "the Law",
+   "gloss": "The rational order governing the universe, which assigns each person his due. Marcus calls it our master; to resist what it appoints is to be a runaway.",
+   "kind": "concept",
+   "aliases": [
+    "Law",
+    "law and order",
+    "the law"
+   ]
+  },
+  {
+   "term": "Empedocles' sphere",
+   "gloss": "The image, from the philosopher Empedocles, of being 'all round and resting in its own joyous repose.' Marcus uses it for a mind made complete, calm, and self-contained.",
+   "kind": "thing",
+   "aliases": [
+    "sphere",
+    "spherical form"
+   ]
+  },
+  {
+   "term": "Deity",
+   "gloss": "The divine — God or the gods seen as one rational power pervading the cosmos. Marcus says each person's intelligence is an outflow of the Deity.",
+   "kind": "god",
+   "aliases": [
+    "the Deity"
+   ]
+  },
+  {
+   "term": "the divinity within you",
+   "gloss": "The fragment of divine reason Marcus believes dwells in each person — the inner god one should respect above all else.",
+   "kind": "concept",
+   "aliases": [
+    "the god that is within you",
+    "the divinity",
+    "god that is within you",
+    "divinity within you"
+   ]
+  },
+  {
+   "term": "providence vs chance",
+   "gloss": "The recurring Stoic alternative Marcus poses: either a rational Providence governs all events, or blind chance and atoms do. Either way, he argues, one should stay calm.",
+   "kind": "concept",
+   "aliases": [
+    "chance"
+   ]
+  },
+  {
+   "term": "the cosmic city",
+   "gloss": "The Stoic idea that the whole universe is a single community shared by gods and rational beings. Marcus calls the world 'this great city' of which each person is a citizen.",
+   "kind": "concept",
+   "aliases": [
+    "this great city",
+    "as in a city",
+    "citizen of the world",
+    "great city"
+   ]
+  },
+  {
+   "term": "the all-in fighter",
+   "gloss": "The pankratiast, a Greek all-out unarmed combatant who fought with bare hands. Marcus contrasts him with the swordsman: the fighter can never be disarmed, his weapon being his own ready hand.",
+   "kind": "thing",
+   "aliases": [
+    "all-in fighter",
+    "the fighter"
+   ]
+  },
+  {
+   "term": "the swordsman",
+   "gloss": "A gladiator fighting with a sword. Marcus's negative example: drop the sword and you are killed — unlike the all-in fighter, whose weapon is always at hand.",
+   "kind": "thing",
+   "aliases": [
+    "swordsman"
+   ]
+  },
+  {
+   "term": "the Christians",
+   "gloss": "Followers of the new religion in Marcus's empire. He cites their readiness to face death but dismisses it as sheer stubbornness rather than reasoned, dignified resolve.",
+   "kind": "people",
+   "aliases": [
+    "Christians"
+   ]
+  },
+  {
+   "term": "O Cithaeron",
+   "gloss": "A famous tragic cry — from Sophocles' Oedipus, naming the mountain where Oedipus was exposed as a baby. Marcus quotes it to show that even tragedy's sufferers must bear what happens.",
+   "kind": "place",
+   "aliases": [
+    "Cithaeron"
+   ]
+  },
+  {
+   "term": "old comedy",
+   "gloss": "The earliest Greek comic drama (e.g. Aristophanes), marked by blunt, frank mockery. Marcus values its plain speech for warning people against arrogance.",
+   "kind": "thing",
+   "aliases": [
+    "middle comedy",
+    "new comedy"
+   ]
+  },
+  {
+   "term": "indifferent things",
+   "gloss": "Things that are neither good nor bad in themselves — health, wealth, reputation, and the like. Stoics hold that only virtue is truly good, so the soul should stay indifferent to these.",
+   "kind": "concept",
+   "aliases": [
+    "indifferent",
+    "things that are indifferent"
+   ]
+  },
+  {
+   "term": "Phocion",
+   "gloss": "An Athenian statesman and general (4th century BC) renowned for integrity, who was condemned to death yet bore no ill will. Marcus holds him up as a model of mild, noble correction.",
+   "kind": "person"
+  },
+  {
+   "term": "the Muses",
+   "gloss": "The nine Greek goddesses of the arts and inspiration, led by Apollo. Marcus offers his rules 'as a gift from the Muses.'",
+   "kind": "god",
+   "aliases": [
+    "Muses",
+    "leader of the Muses"
+   ]
+  },
+  {
+   "term": "Apollo",
+   "gloss": "The Greek god of light, prophecy, and the arts, leader of the Muses. Marcus offers a 'tenth gift' from him: stop expecting bad people not to do wrong.",
+   "kind": "god"
+  },
+  {
+   "term": "Lamiae",
+   "gloss": "Bogeymen or child-frightening monsters in Greek folklore. Marcus reports that Socrates called the opinions of the crowd 'Lamiae' — scary only to children.",
+   "kind": "thing",
+   "aliases": [
+    "bogeymen"
+   ]
+  },
+  {
+   "term": "the Spartans",
+   "gloss": "Citizens of Sparta, famed for austerity. Marcus notes their courtesy of giving strangers the shaded seats at public shows while sitting wherever they could themselves.",
+   "kind": "people",
+   "aliases": [
+    "Spartans"
+   ]
+  },
+  {
+   "term": "Perdiccas",
+   "gloss": "A Macedonian king to whom Socrates declined an invitation, fearing he could not repay the favor. Marcus uses the anecdote as a lesson in not incurring debts of obligation.",
+   "kind": "person"
+  },
+  {
+   "term": "the Ephesians",
+   "gloss": "People of Ephesus; here, the source of a precept Marcus cites — to keep in mind some earlier person who practiced virtue.",
+   "kind": "people",
+   "aliases": [
+    "Ephesians"
+   ]
+  },
+  {
+   "term": "the Pythagoreans",
+   "gloss": "Followers of Pythagoras, a school blending mathematics and mysticism. Marcus repeats their counsel to look at the dawn sky and recall the pure, orderly motion of the stars.",
+   "kind": "people",
+   "aliases": [
+    "Pythagoreans"
+   ]
+  },
+  {
+   "term": "Xanthippe",
+   "gloss": "The wife of Socrates. Marcus recalls the story of Socrates wrapping himself in a skin after she took his cloak — and his calm reply to embarrassed friends.",
+   "kind": "person"
+  },
+  {
+   "term": "the country mouse and the town mouse",
+   "gloss": "Aesop's fable contrasting a humble rural life with an anxious, dangerous city one. Marcus cites the town mouse's panic to mock the stress of grand living.",
+   "kind": "thing",
+   "aliases": [
+    "country mouse",
+    "town mouse"
+   ]
+  },
+  {
+   "term": "free will",
+   "gloss": "The mind's power of choice and assent, which the Stoics held no external force can take away. Marcus calls it the one thing truly within our own control.",
+   "kind": "concept"
+  },
+  {
+   "term": "assent",
+   "gloss": "The mind's act of agreeing to an impression — accepting it as true or acting on it. Epictetus, quoted by Marcus, says one must develop an art of giving assent carefully.",
+   "kind": "concept"
+  },
+  {
+   "term": "aversion",
+   "gloss": "The mind's turning-away from something as bad. Epictetus advises directing it only at things within our power, never at what we cannot control.",
+   "kind": "concept"
+  },
+  {
+   "term": "impulses",
+   "gloss": "The mind's promptings to act. Stoic discipline trains them to fit the circumstances, serve the common good, and match the worth of their object.",
+   "kind": "concept",
+   "aliases": [
+    "impulse"
+   ]
+  },
+  {
+   "term": "Empedocles",
+   "gloss": "A Greek philosopher (5th century BC) who pictured perfect being as a self-contained sphere. Marcus quotes his image of the sphere 'all round, resting in its own joyous repose.'",
+   "kind": "person"
+  },
+  {
+   "term": "formative principles",
+   "gloss": "The underlying organizing patterns that shape each thing into what it is. Marcus urges contemplating them stripped of outward coverings.",
+   "kind": "concept",
+   "aliases": [
+    "formative principles of things"
+   ]
+  },
+  {
+   "term": "fated necessity",
+   "gloss": "An unbreakable, predetermined chain of causes governing all events. Marcus lists it as one of the possible accounts of reality — alongside Providence and pure chaos.",
+   "kind": "concept",
+   "aliases": [
+    "fated",
+    "unbreakable necessity",
+    "unbreakable order"
+   ]
+  },
+  {
+   "term": "the headland",
+   "gloss": "A promontory of land jutting into the sea; rounding it brings a ship into calm water. Marcus's image for the peace that comes from dropping your opinions.",
+   "kind": "thing",
+   "aliases": [
+    "headland",
+    "waveless bay"
+   ]
+  },
+  {
+   "term": "Fabius Catellinus",
+   "gloss": "A Roman named in Marcus's list of once-prominent men now forgotten — he lived on his country estate. Marcus asks where all such people are now: smoke and ash.",
+   "kind": "person",
+   "aliases": [
+    "Fabius Catellinus"
+   ]
+  },
+  {
+   "term": "Lucius Lupus",
+   "gloss": "A Roman in Marcus's roll-call of the vanished famous — remembered for his gardens. The point: worldly grandeur dissolves into a mere tale, or not even that.",
+   "kind": "person",
+   "aliases": [
+    "Lucius Lupus"
+   ]
+  },
+  {
+   "term": "Stertinius",
+   "gloss": "A Roman name in Marcus's list of once-notable men, associated with Baiae. He cites him to show how worthless are the things people violently strain after.",
+   "kind": "person"
+  },
+  {
+   "term": "Baiae",
+   "gloss": "A fashionable Roman seaside resort near Naples, famed for luxury. Marcus mentions Stertinius there among examples of vanished worldly splendor.",
+   "kind": "place"
+  },
+  {
+   "term": "Tiberius",
+   "gloss": "Roman emperor (reigned 14–37 AD) who withdrew to the island of Capri. Marcus lists his Capri retreat among the proud pursuits now reduced to dust.",
+   "kind": "person"
+  },
+  {
+   "term": "Capri",
+   "gloss": "The island in the Bay of Naples where the emperor Tiberius secluded himself. Marcus names it as one more setting of bygone grandeur.",
+   "kind": "place"
+  },
+  {
+   "term": "Velius Rufus",
+   "gloss": "A Roman in Marcus's list of formerly eminent figures, cited to make the point that fame and pride come to nothing.",
+   "kind": "person",
+   "aliases": [
+    "Velius Rufus"
+   ]
+  },
+  {
+   "term": "the universal soul",
+   "gloss": "The single animating intelligence that, for the Stoics, is distributed through all things while remaining one. Marcus contrasts it with each person's tiny share.",
+   "kind": "concept",
+   "aliases": [
+    "universal soul",
+    "one intelligent soul",
+    "one soul",
+    "intelligent soul"
+   ]
+  },
+  {
+   "term": "the rational soul",
+   "gloss": "The thinking, self-aware part of a human being. Marcus lists its special properties: it sees itself, shapes itself, and finds its own completeness in each present moment.",
+   "kind": "concept",
+   "aliases": [
+    "rational soul",
+    "rational creature",
+    "rational beings",
+    "rational animals"
+   ]
+  },
+  {
+   "term": "the logos",
+   "gloss": "The divine reason that orders the cosmos and is shared, in fragments, by every rational being. Marcus calls right reason and the reason of justice no different at all.",
+   "kind": "concept",
+   "aliases": [
+    "right reason",
+    "reason itself"
+   ]
+  },
+  {
+   "term": "flux",
+   "gloss": "The ceaseless change and flowing-away of all things. A central theme of Marcus's: you, others, and the whole universe are in constant transformation.",
+   "kind": "concept",
+   "aliases": [
+    "constant change",
+    "change",
+    "changes",
+    "transformations"
+   ]
+  },
+  {
+   "term": "providence vs atoms",
+   "gloss": "Marcus's signature dichotomy: either a provident intelligence orders the world, or all is atoms and chance. He repeatedly notes that the wise response is the same under either.",
+   "kind": "concept"
+  },
+  {
+   "term": "the compound mass",
+   "gloss": "The body, seen as a temporary mixture of the elements that hold the soul down for a while. Marcus describes the elements obeying the whole within this compound.",
+   "kind": "concept",
+   "aliases": [
+    "compound mass",
+    "mixture"
+   ]
+  }
+ ]
 }
