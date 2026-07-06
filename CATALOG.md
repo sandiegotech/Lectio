@@ -78,7 +78,6 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 
 **Hamlet** · `work.shakespeare.hamlet`
   - **Lectio (Vernacular)** — Opus 4.8, 2026-06-24; base: `original` — 5 acts
-  - **Lectio (Vernacular)** — Opus 4.8, 2026-06-24; base: `original` — 5 acts
   - Original (en) — 5 acts
 
 **The Aeneid** · `work.virgil.aeneid`
