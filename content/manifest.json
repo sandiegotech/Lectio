@@ -369,7 +369,7 @@
       "title": "Confessions",
       "author": "Saint Augustine",
       "referenceScheme": "book.chapter",
-      "defaultEditionId": "edition.confessions.pusey-1838",
+      "defaultEditionId": "edition.confessions.lectio-modern",
       "collections": [
         "collection.great-books",
         "collection.harvard-classics"
@@ -382,7 +382,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "ea750c60cb1c149c"
+          "checksum": "eef147bc9a271d27"
         },
         {
           "id": "edition.confessions.pusey-1838",
@@ -391,11 +391,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "The devotional classic Confessions — Pusey's reverent, 'Thou'-keeping English.",
-          "checksum": "3f4c4c233b452e3b"
+          "checksum": "c0b8ab29e8b2c31b"
         }
       ],
       "hasAlignment": false,
-      "checksum": "39719d83b6252e21"
+      "checksum": "2d01d63bb81d51e4"
     },
     {
       "id": "work.shakespeare.hamlet",

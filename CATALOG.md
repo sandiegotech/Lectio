@@ -2,7 +2,7 @@
 
 _Generated from the content bundle by `tools/catalog.py` — regenerate after any build._
 
-**12 works ingested** · **12/12 with covers** · **8/12 with a complete Lectio edition**
+**12 works ingested** · **12/12 with covers** · **9/12 with a complete Lectio edition**
 
 > Lectio (Vernacular) editions are first-pass **drafts pending human review** (BIBLE non-negotiable). The *Translated* column is the model + date that produced each one — revise when it predates the current translation method.
 
@@ -11,7 +11,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 | Work | Author | Trad. | Cover | Lectio edition | Translated | Reads by default |
 |------|--------|-------|-------|----------------|------------|------------------|
 | Nicomachean Ethics | Aristotle | West | ✅ | ✅ 10 books | Opus 4.8 · 2026-06-24 | Lectio |
-| Confessions | Saint Augustine | West | ✅ | ◐ 0/13 sections | Opus 4.8 · 2026-06-25 | pusey-1838 |
+| Confessions | Saint Augustine | West | ✅ | ✅ 13 books | Fable 5 · 2026-07-07 | Lectio |
 | The Analects | Confucius | East | ✅ | ◐ 0/20 sections | Opus 4.8 · 2026-06-25 | legge-1893 |
 | The Divine Comedy | Dante Alighieri | West | ✅ | ✅ 100 cantos | Opus 4.8 · 2026-06-24 | Lectio |
 | The Epic of Gilgamesh | Anonymous · Sumer & Akkad | East | ✅ | ✅ 11 tablets | Opus 4.8 · 2026-06-23 | Lectio |
@@ -39,7 +39,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
   - D. P. Chase 1911 — 10 books
 
 **Confessions** · `work.augustine.confessions`
-  - **Lectio (Vernacular)** — Opus 4.8, 2026-06-25; base: `pusey-1838` — 0 sections
+  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `pusey-1838` — 13 books
   - E. B. Pusey 1838 — 13 books
 
 **The Analects** · `work.confucius.analects`

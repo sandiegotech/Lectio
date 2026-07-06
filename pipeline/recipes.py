@@ -598,16 +598,17 @@ def confessions():
                               sourceId="3296", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "confessions", [edition])
     work = Work(
         id=work_id, title="Confessions", author="Saint Augustine", originalLang="la",
         composed="397–400 CE", type="religion", referenceScheme="book.chapter",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId=modern.id, tradition="West",
         blurb=("The first true autobiography of a soul: Augustine's restless, brilliant life "
                "turning at last toward God. Sin and conversion, memory and time, and a heart "
                "that finds no rest until it rests in God."),
         collections=["collection.great-books", "collection.harvard-classics"],
     )
-    return work, [_modern_edition(work_id, "confessions", [edition]), edition], None
+    return work, [modern, edition], None
 
 
 # ---------------------------------------------------------------------------
