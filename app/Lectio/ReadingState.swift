@@ -10,6 +10,7 @@ struct WorkReadingState: Codable, Hashable {
     var segmentId: String?     // finer scroll anchor than the section
     var introSeen: Bool = false
     var bookmarkSegmentId: String?   // an explicit place the reader dropped a bookmark
+    var lastReadAt: Date?      // when the reader last put the book down (drives Continue reading)
 }
 
 final class ReadingState: ObservableObject {
@@ -50,8 +51,15 @@ final class ReadingState: ObservableObject {
         s.editionId = editionId
         s.sectionId = sectionId
         s.segmentId = segmentId
+        s.lastReadAt = Date()
         byWork[workId] = s
         save()
+    }
+
+    // The book most recently put down — the "pick up where you left off" pointer.
+    var mostRecentWorkId: String? {
+        byWork.compactMap { key, st in st.lastReadAt.map { (key, $0) } }
+            .max { $0.1 < $1.1 }?.0
     }
 
     private func load() {

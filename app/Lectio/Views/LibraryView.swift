@@ -4,6 +4,7 @@ import UIKit
 struct LibraryView: View {
     @EnvironmentObject var library: Library
     @EnvironmentObject var saved: SavedStore
+    @EnvironmentObject var reading: ReadingState
     @Environment(\.colorScheme) private var colorScheme
     @State private var path = NavigationPath()
     @State private var browseMode: BrowseMode = .collections
@@ -66,6 +67,7 @@ struct LibraryView: View {
                     } else if browseMode == .timeline {
                         timeline
                     } else {
+                        continueReadingCard
                         if !saved.collection.isEmpty { myCollectionShelf }
                         ForEach(rows) { row in
                             switch row {
@@ -123,6 +125,15 @@ struct LibraryView: View {
             if let q = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEARCH"] {
                 searchSeed = q; showSearch = true
             }
+            // Debug hook: LECTIO_DEBUG_SEED_READING=<workId> seeds a reading position
+            // partway into that work, so the Continue-reading card shows (for screenshots).
+            if let wid = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEED_READING"],
+               let w = library.works.first(where: { $0.id == wid }),
+               let ed = library.editions[w.defaultEditionId] {
+                let sec = ed.sections.count > 3 ? ed.sections[3] : ed.sections.first
+                reading.savePosition(workId: w.id, editionId: ed.id,
+                                     sectionId: sec?.id, segmentId: sec?.segments.first?.id)
+            }
             // Debug hook: LECTIO_DEBUG_BOOK=<title> opens that book's overview page.
             if let bt = ProcessInfo.processInfo.environment["LECTIO_DEBUG_BOOK"] {
                 if let w = library.works.first(where: { $0.title == bt }) {
@@ -159,6 +170,73 @@ struct LibraryView: View {
                 }
             }
         }
+    }
+
+    // MARK: continue reading — one tap back into the book you were last in.
+
+    @ViewBuilder
+    private var continueReadingCard: some View {
+        if let wid = reading.mostRecentWorkId,
+           let work = library.works.first(where: { $0.id == wid }) {
+            NavigationLink(value: work) {
+                HStack(spacing: 14) {
+                    continueThumb(work)
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("CONTINUE READING")
+                            .font(.caption2.weight(.semibold)).tracking(2)
+                            .foregroundColor(pal.accent)
+                        Text(work.title)
+                            .font(.system(.title3, design: .serif).weight(.semibold))
+                            .foregroundColor(pal.ink)
+                        Text(continueSubtitle(work))
+                            .font(.caption).foregroundColor(pal.inkSoft).lineLimit(1)
+                    }
+                    Spacer(minLength: 0)
+                    Image(systemName: "arrow.right.circle.fill")
+                        .font(.title2).foregroundColor(pal.accent)
+                }
+                .padding(14)
+                .background(RoundedRectangle(cornerRadius: 14).fill(pal.rail))
+                .overlay(RoundedRectangle(cornerRadius: 14).stroke(pal.rule))
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .padding(.horizontal, 26)
+        }
+    }
+
+    @ViewBuilder
+    private func continueThumb(_ w: Work) -> some View {
+        if let url = library.coverURL(w.id), let img = UIImage(contentsOfFile: url.path) {
+            Image(uiImage: img).resizable().scaledToFill()
+                .frame(width: 44, height: 64)
+                .clipShape(RoundedRectangle(cornerRadius: 4))
+                .overlay(RoundedRectangle(cornerRadius: 4).stroke(Color.black.opacity(0.18), lineWidth: 0.5))
+        } else {
+            SpineCard(work: w, height: 64).frame(width: 44)
+        }
+    }
+
+    // "Book IV · 17% through · Lectio Edition" — where the reader left off.
+    private func continueSubtitle(_ work: Work) -> String {
+        let st = reading.state(work.id)
+        guard let ed = library.editions[st?.editionId ?? work.defaultEditionId] else { return work.author }
+        var parts: [String] = []
+        if let sid = st?.sectionId, let i = ed.sections.firstIndex(where: { $0.id == sid }) {
+            parts.append(ed.sections[i].label)
+            if ed.sections.count > 1 {
+                parts.append("\(Int((Double(i + 1) / Double(ed.sections.count) * 100).rounded()))% through")
+            }
+        }
+        switch ed.kind {
+        case "modern": parts.append("Lectio Edition")
+        case "original": parts.append("Original")
+        default:
+            if let t = ed.translator {
+                parts.append(ed.publishedYear.map { "\(t) · \($0)" } ?? t)
+            }
+        }
+        return parts.isEmpty ? work.author : parts.joined(separator: "  ·  ")
     }
 
     // A quiet entry to the reader's own notes (saved words + highlights), off the shelves.

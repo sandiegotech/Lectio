@@ -117,8 +117,15 @@ final class Library: ObservableObject {
         collection.items.compactMap { item in works.first { $0.id == item.workId } }
     }
 
+    // Passage enrichment is authored against one edition's section IDs (e.g.
+    // edition.iliad.butler-1898.book-01), but the reader is usually in another edition
+    // (lectio-modern by default). Sections share their slug across editions, so fall
+    // back to matching the trailing slug — the same passage surfaces in every edition.
     func passage(workId: String, sectionId: String) -> Enrichment.Passage? {
-        enrichment[workId]?.passages?.first { $0.sectionId == sectionId }
+        guard let passages = enrichment[workId]?.passages else { return nil }
+        if let exact = passages.first(where: { $0.sectionId == sectionId }) { return exact }
+        guard let slug = sectionId.split(separator: ".").last else { return nil }
+        return passages.first { $0.sectionId.hasSuffix("." + slug) }
     }
 
     // Curated, in-context entry for a tapped word — resolved by term or any alias

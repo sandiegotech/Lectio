@@ -17,19 +17,21 @@ struct SavedHighlight: Codable, Identifiable, Hashable {
     var start: Int
     var end: Int
     var text: String
+    var note: String?       // the reader's own thought, attached to the highlight
     var workTitle: String?
     var workId: String?
 
     var range: ClosedRange<Int> { start...max(start, end) }
 
     init(segmentId: String, start: Int, end: Int, text: String,
-         workTitle: String? = nil, workId: String? = nil) {
+         note: String? = nil, workTitle: String? = nil, workId: String? = nil) {
         let lo = min(start, end), hi = max(start, end)
         self.id = "\(segmentId)#\(lo)-\(hi)"
         self.segmentId = segmentId
         self.start = lo
         self.end = hi
         self.text = text
+        self.note = note
         self.workTitle = workTitle
         self.workId = workId
     }
@@ -111,6 +113,18 @@ final class SavedStore: ObservableObject {
 
     func removeHighlight(id: String) {
         highlights.removeAll { $0.id == id }
+        save()
+    }
+
+    func highlight(id: String) -> SavedHighlight? {
+        highlights.first { $0.id == id }
+    }
+
+    // Attach (or clear, with nil/empty) the reader's note on a highlight.
+    func setNote(_ note: String?, forHighlight id: String) {
+        guard let i = highlights.firstIndex(where: { $0.id == id }) else { return }
+        let clean = note?.trimmingCharacters(in: .whitespacesAndNewlines)
+        highlights[i].note = (clean?.isEmpty ?? true) ? nil : clean
         save()
     }
 

@@ -35,6 +35,7 @@ struct ReaderView: View {
     @State private var selSegmentId: String?
     @State private var selRange: ClosedRange<Int>?
     @State private var selPopup: SelPopup?
+    @State private var noteTarget: SavedHighlight?
     @State private var compareEditionId: String?
     // Compare-sync: tap a passage in one column and its matching passage lights up (and
     // scrolls into view) in the other, via the alignment spine (ReaderView.counterpart).
@@ -62,7 +63,7 @@ struct ReaderView: View {
             switch self {
             case .contents: return "Contents"
             case .compare:  return "Compare"
-            case .marks:    return "Marks"
+            case .marks:    return "Margin"
             case .info:     return "About"
             }
         }
@@ -159,7 +160,7 @@ struct ReaderView: View {
                         }
                         if let sp = selPopup {
                             selectionSaveCard(sp)
-                                .position(popupPosition(sp.point, in: rgeo.size, card: CGSize(width: 180, height: 48)))
+                                .position(popupPosition(sp.point, in: rgeo.size, card: CGSize(width: 250, height: 48)))
                         }
                     }
                     .coordinateSpace(name: "reader")
@@ -175,6 +176,11 @@ struct ReaderView: View {
                     .background(p == .marks ? pal.rail : pal.paper)
                     .presentationDetents([.large])
             }
+        }
+        // Write a note on a just-made highlight (the rail and Notes page have their own editors).
+        .sheet(item: $noteTarget) { h in
+            NoteEditorSheet(highlight: h, pal: pal, saved: saved)
+                .presentationDetents([.medium])
         }
         .onAppear {
             if currentEditionId == nil { currentEditionId = work.defaultEditionId }
@@ -209,6 +215,23 @@ struct ReaderView: View {
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
                 panel = .marks
+            }
+            // Debug hook: LECTIO_DEBUG_SEED_MARKS seeds a highlight with a note
+            // (headless screenshots can't drag-select).
+            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEED_MARKS"] != nil,
+               let seg = currentEdition?.sections.first?.segments.first {
+                let words = seg.text.split(separator: " ").map(String.init)
+                let h = SavedHighlight(segmentId: seg.id, start: 0, end: max(0, min(9, words.count - 1)),
+                                       text: words.prefix(10).joined(separator: " "),
+                                       note: "This is the thread of the whole poem — watch how the anger cools into grief.",
+                                       workTitle: work.title, workId: work.id)
+                saved.addHighlight(h)
+                // LECTIO_DEBUG_NOTE_EDITOR additionally opens the note editor on it.
+                if ProcessInfo.processInfo.environment["LECTIO_DEBUG_NOTE_EDITOR"] != nil {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                        noteTarget = saved.highlight(id: h.id) ?? h
+                    }
+                }
             }
             // Debug hook: LECTIO_DEBUG_COMPARE turns on side-by-side compare (for screenshots).
             if let c = ProcessInfo.processInfo.environment["LECTIO_DEBUG_COMPARE"] {
@@ -635,7 +658,8 @@ struct ReaderView: View {
                 if let cmp = compareEdition { compareColumn(cmp) }
                 else { emptyPanelNote("No other edition to compare yet.") }
             case .marks:
-                MarginRail(work: work, pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
+                MarginRail(work: work, section: currentSection, pal: pal,
+                           onJump: jumpToSegment, onWordJump: jumpToWord)
             case .info:
                 if let ed = currentEdition {
                     ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
@@ -847,16 +871,32 @@ struct ReaderView: View {
         focusWord = nil
     }
 
+    // Commit the current selection as a highlight and return it (existing one if the
+    // same span was highlighted before).
+    private func commitHighlight(_ sp: SelPopup) -> SavedHighlight {
+        let h = SavedHighlight(segmentId: sp.segmentId,
+                               start: sp.range.lowerBound, end: sp.range.upperBound,
+                               text: sp.text, workTitle: work.title, workId: work.id)
+        saved.addHighlight(h)
+        selPopup = nil; selRange = nil; selSegmentId = nil
+        return saved.highlight(id: h.id) ?? h
+    }
+
     @ViewBuilder
     private func selectionSaveCard(_ sp: SelPopup) -> some View {
         HStack(spacing: 10) {
             Button {
-                saved.addHighlight(SavedHighlight(segmentId: sp.segmentId,
-                                                  start: sp.range.lowerBound, end: sp.range.upperBound,
-                                                  text: sp.text, workTitle: work.title, workId: work.id))
-                selPopup = nil; selRange = nil; selSegmentId = nil
+                _ = commitHighlight(sp)
             } label: {
                 Label("Highlight", systemImage: "highlighter").font(.caption.weight(.semibold))
+                    .foregroundColor(pal.accent)
+            }
+            .buttonStyle(.plain)
+            Divider().frame(height: 16)
+            Button {
+                noteTarget = commitHighlight(sp)
+            } label: {
+                Label("Note", systemImage: "square.and.pencil").font(.caption.weight(.semibold))
                     .foregroundColor(pal.accent)
             }
             .buttonStyle(.plain)

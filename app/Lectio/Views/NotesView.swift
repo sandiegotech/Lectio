@@ -8,6 +8,7 @@ struct NotesView: View {
     @EnvironmentObject var saved: SavedStore
     @EnvironmentObject var library: Library
     @Environment(\.colorScheme) private var colorScheme
+    @State private var noteTarget: SavedHighlight?
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
     var body: some View {
@@ -30,7 +31,7 @@ struct NotesView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Nothing saved yet.")
                             .font(.system(.title3, design: .serif)).foregroundColor(pal.ink)
-                        Text("Tap a word to look it up and save it, or press and hold a passage to highlight it. Everything you keep gathers here.")
+                        Text("Tap a word to look it up and save it, or press and hold a passage to highlight it — then add a note on what it means to you. Everything you keep gathers here.")
                             .font(.system(.subheadline, design: .serif))
                             .foregroundColor(pal.inkSoft)
                             .fixedSize(horizontal: false, vertical: true)
@@ -59,6 +60,10 @@ struct NotesView: View {
         .background(pal.paper.ignoresSafeArea())
         .navigationTitle("Notes")
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(item: $noteTarget) { h in
+            NoteEditorSheet(highlight: h, pal: pal, saved: saved)
+                .presentationDetents([.medium])
+        }
     }
 
     private func sectionLabel(_ t: String) -> some View {
@@ -121,9 +126,26 @@ struct NotesView: View {
             VStack(alignment: .leading, spacing: 3) {
                 Text(snippet(h.text)).font(.system(.subheadline, design: .serif)).foregroundColor(pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
+                if let note = h.note {
+                    HStack(alignment: .top, spacing: 8) {
+                        Rectangle().fill(pal.gold.opacity(0.6)).frame(width: 2)
+                        Text(note)
+                            .font(.system(.footnote, design: .serif)).italic()
+                            .foregroundColor(pal.inkSoft)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    .padding(.top, 2)
+                }
                 if let t = h.workTitle { Text(t).font(.caption2).foregroundColor(pal.inkSoft) }
             }
             Spacer(minLength: 0)
+            Button { noteTarget = h } label: {
+                Image(systemName: h.note == nil ? "square.and.pencil" : "note.text")
+                    .font(.subheadline)
+                    .foregroundColor(h.note == nil ? pal.inkSoft.opacity(0.7) : pal.accent)
+                    .frame(width: 28, height: 24)
+            }
+            .buttonStyle(.plain)
         }
         return Group {
             if let wid = h.workId {
@@ -134,6 +156,9 @@ struct NotesView: View {
             }
         }
         .contextMenu {
+            Button { noteTarget = h } label: {
+                Label(h.note == nil ? "Add note" : "Edit note", systemImage: "square.and.pencil")
+            }
             Button(role: .destructive) { saved.removeHighlight(id: h.id) } label: { Label("Remove", systemImage: "trash") }
         }
     }
