@@ -419,16 +419,17 @@ def republic():
                               sourceId="1497", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "republic", [edition])
     work = Work(
         id=work_id, title="The Republic", author="Plato", originalLang="grc",
         composed="375 BCE", type="philosophy", referenceScheme="book.section",
-        defaultEditionId=edition.id,
+        defaultEditionId=modern.id,
         blurb=("Plato's great dialogue on justice — what it is, why it's worth having, and the "
                "just city built in words to find it. Home of the Cave, the philosopher-king, "
                "and the divided line."),
         collections=["collection.great-books"],
     )
-    return work, [_modern_edition(work_id, "republic", [edition]), edition], None
+    return work, [modern, edition], None
 
 
 # ---------------------------------------------------------------------------
