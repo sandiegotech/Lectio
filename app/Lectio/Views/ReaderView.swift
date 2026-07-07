@@ -30,7 +30,6 @@ struct ReaderView: View {
     @State private var topSegmentId: String?
     @State private var didRestore = false
     @State private var animateScroll = true
-    @State private var wordPopup: WordPopup?
     @State private var focusWord: String?
     @State private var selSegmentId: String?
     @State private var selRange: ClosedRange<Int>?
@@ -88,9 +87,8 @@ struct ReaderView: View {
         }
     }
 
-    // A word lookup popup, anchored near the tapped word.
-    struct WordPopup { var term: String; var def: String?; var kind: String?; var conceptId: String?; var context: String?; var point: CGPoint }
-    // A "save this highlight" popup, anchored near the end of a selection drag.
+    // The one selection card, anchored near the held word / end of the drag: a single
+    // word shows its meaning with Highlight/Note/Explore; a span offers Highlight/Note.
     struct SelPopup { var segmentId: String; var range: ClosedRange<Int>; var text: String; var point: CGPoint }
 
     // Ordered: Lectio Modern Edition first, then translations latest-first, original last.
@@ -138,13 +136,27 @@ struct ReaderView: View {
                 GeometryReader { rgeo in
                     ZStack(alignment: .top) {
                         if let ed = currentEdition {
+                            // Compare splits the page; every other panel slides OVER the text
+                            // instead — resizing the reading column re-lays-out every visible
+                            // word, which is what made opening a panel feel slow.
                             HStack(alignment: .top, spacing: 0) {
                                 readingColumn(ed)
-                                if hSize == .regular, let p = panel {
+                                if hSize == .regular, panel == .compare {
                                     Divider().overlay(pal.rule)
+                                    sidePanel(.compare)
+                                        .frame(width: min(480, max(320, geo.size.width * 0.42)))
+                                        .background(pal.paper)
+                                        .transition(.move(edge: .trailing))
+                                }
+                            }
+                            .overlay(alignment: .trailing) {
+                                if hSize == .regular, let p = panel, p != .compare {
                                     sidePanel(p)
                                         .frame(width: min(480, max(320, geo.size.width * 0.42)))
+                                        .frame(maxHeight: .infinity)
                                         .background(p == .marks ? pal.rail : pal.paper)
+                                        .overlay(alignment: .leading) { Divider().overlay(pal.rule) }
+                                        .shadow(color: .black.opacity(0.15), radius: 16, x: -6, y: 0)
                                         .transition(.move(edge: .trailing))
                                 }
                             }
@@ -154,18 +166,14 @@ struct ReaderView: View {
                         }
 
                         // Scrim that dismisses an open popup on a tap anywhere else.
-                        if wordPopup != nil || selPopup != nil {
+                        if selPopup != nil {
                             Color.black.opacity(0.001)
                                 .onTapGesture { dismissPopups() }
                         }
-                        if let wp = wordPopup {
-                            WordCard(term: wp.term, definition: wp.def, kind: wp.kind, conceptId: wp.conceptId,
-                                     context: wp.context, workTitle: work.title, workId: work.id, pal: pal, onClose: dismissPopups)
-                                .position(popupPosition(wp.point, in: rgeo.size, card: CGSize(width: 260, height: 150)))
-                        }
                         if let sp = selPopup {
-                            selectionSaveCard(sp)
-                                .position(popupPosition(sp.point, in: rgeo.size, card: CGSize(width: 250, height: 48)))
+                            selectionCard(sp)
+                                .position(popupPosition(sp.point, in: rgeo.size,
+                                                        card: CGSize(width: 300, height: sp.range.count == 1 ? 190 : 100)))
                         }
                     }
                     .coordinateSpace(name: "reader")
@@ -210,12 +218,23 @@ struct ReaderView: View {
             if let ed = ProcessInfo.processInfo.environment["LECTIO_DEBUG_EDITION"], !ed.isEmpty {
                 currentEditionId = ed
             }
-            // Debug hook: LECTIO_DEBUG_SELECT=<word> shows the word popup (for screenshots).
+            // Debug hook: LECTIO_DEBUG_SELECT=<word> selects the word's first occurrence
+            // and shows the selection card (for screenshots).
             if let dbg = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SELECT"], !dbg.isEmpty {
                 let w = WordDictionary.normalize(dbg)
-                let r = resolveWord(w)
-                wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, conceptId: r.conceptId,
-                                      context: nil, point: CGPoint(x: 240, y: 360))
+                outer: for sec in currentEdition?.sections ?? [] {
+                    for seg in sec.segments {
+                        let toks = WordFlowText.tokenize(seg.text)
+                        if let i = toks.firstIndex(where: { WordDictionary.normalize($0) == w }) {
+                            selSegmentId = seg.id
+                            selRange = i...i
+                            selPopup = SelPopup(segmentId: seg.id, range: i...i,
+                                                text: toks[i], point: CGPoint(x: 300, y: 380))
+                            scrollTarget = seg.id
+                            break outer
+                        }
+                    }
+                }
             }
             // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
@@ -414,6 +433,21 @@ struct ReaderView: View {
     // The rail's "On the text" list for the section in view.
     private var railDivergences: [Edition.Divergence] {
         (currentSection.flatMap { divsBySection[$0.id] } ?? []) + generalDivs
+    }
+
+    // From the provenance sheet's divergence list straight to the passage: jump to the
+    // anchored segment and open its marker popover; fall back to the locus section.
+    private func showDivergenceInText(_ d: Edition.Divergence) {
+        withAnimation(.easeInOut(duration: 0.2)) { panel = nil }
+        if let segId = divAnchors.first(where: { $0.value.contains(d) })?.key {
+            jumpToSegment(segId)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                divPopoverSegId = segId
+            }
+        } else if let order = locusOrder(d.locus),
+                  let sec = currentEdition?.sections.first(where: { $0.order == order }) {
+            jumpToSegment(sec.id)
+        }
     }
 
     // MARK: compare-sync — passage matching across editions via the alignment spine
@@ -621,12 +655,15 @@ struct ReaderView: View {
                         case .segment(let segment):
                             WordFlowText(
                                 text: segment.text, pal: pal,
-                                definedWord: wordPopup?.term,
                                 focusWord: focusWord,
                                 savedWords: savedWordSet,
                                 savedRanges: saved.ranges(forSegment: segment.id),
                                 activeRange: selSegmentId == segment.id ? selRange : nil,
-                                onWord: { word, point in showWord(word, at: point, context: segment.text); syncFromMain(segment.id) },
+                                onSelectChange: { range in
+                                    selPopup = nil
+                                    selSegmentId = segment.id
+                                    selRange = range
+                                },
                                 onSelectCommit: { range, text, point in
                                     selSegmentId = segment.id
                                     selRange = range
@@ -634,7 +671,7 @@ struct ReaderView: View {
                                                         text: text, point: point)
                                 },
                                 onTap: {
-                                    if wordPopup != nil || selPopup != nil { dismissPopups() }
+                                    if selPopup != nil || selRange != nil { dismissPopups() }
                                     else { syncFromMain(segment.id) }
                                 }
                             )
@@ -786,7 +823,8 @@ struct ReaderView: View {
                            pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
             case .info:
                 if let ed = currentEdition {
-                    ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
+                    ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal,
+                                    onShowInText: { showDivergenceInText($0) })
                 } else { emptyPanelNote("No edition available.") }
             }
         }
@@ -966,12 +1004,6 @@ struct ReaderView: View {
         dismissPopups()
     }
 
-    private func showWord(_ word: String, at point: CGPoint, context: String? = nil) {
-        selPopup = nil; selRange = nil; selSegmentId = nil; focusWord = nil
-        let r = resolveWord(word)
-        wordPopup = WordPopup(term: word, def: r.def, kind: r.kind, conceptId: r.conceptId, context: context, point: point)
-    }
-
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
     // then any passage-level note. A nil def means the word is outside the curated
     // corpus — the WordCard offers Apple's on-device dictionary, then Gloss. A curated
@@ -984,11 +1016,10 @@ struct ReaderView: View {
     }
 
     private func backgroundTap() {
-        if wordPopup != nil || selPopup != nil || focusWord != nil { dismissPopups() }
+        if selPopup != nil || selRange != nil || focusWord != nil { dismissPopups() }
     }
 
     private func dismissPopups() {
-        wordPopup = nil
         selPopup = nil
         selRange = nil
         selSegmentId = nil
@@ -1006,34 +1037,100 @@ struct ReaderView: View {
         return saved.highlight(id: h.id) ?? h
     }
 
+    // The one selection card. A held word leads with its meaning (understanding by
+    // default, Explore for the deep dive); any selection can become a highlight or a note.
     @ViewBuilder
-    private func selectionSaveCard(_ sp: SelPopup) -> some View {
-        HStack(spacing: 10) {
-            Button {
-                _ = commitHighlight(sp)
-            } label: {
-                Label("Highlight", systemImage: "highlighter").font(.caption.weight(.semibold))
-                    .foregroundColor(pal.accent)
+    private func selectionCard(_ sp: SelPopup) -> some View {
+        let term: String? = sp.range.count == 1 ? WordDictionary.normalize(sp.text) : nil
+        VStack(alignment: .leading, spacing: 10) {
+            if let term, !term.isEmpty {
+                let r = resolveWord(term)
+                HStack(alignment: .firstTextBaseline, spacing: 8) {
+                    Text(term).font(.system(.title3, design: .serif)).foregroundColor(pal.accent)
+                    if let kind = r.kind, !kind.isEmpty {
+                        Text(kind.uppercased())
+                            .font(.system(size: 9, weight: .semibold)).tracking(0.6)
+                            .foregroundColor(pal.inkSoft)
+                            .padding(.horizontal, 6).padding(.vertical, 2)
+                            .background(Capsule().stroke(pal.rule))
+                    }
+                    Spacer(minLength: 0)
+                    Button {
+                        saved.toggle(SavedWord(term: term, definition: r.def ?? "",
+                                               workTitle: work.title, workId: work.id))
+                    } label: {
+                        Image(systemName: saved.isSaved(term) ? "bookmark.fill" : "bookmark")
+                            .font(.subheadline)
+                            .foregroundColor(saved.isSaved(term) ? pal.gold : pal.inkSoft)
+                    }
+                    .buttonStyle(.plain)
+                }
+                if let def = r.def, !def.isEmpty {
+                    Text(def)
+                        .font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
+                        .lineLimit(5)
+                        .fixedSize(horizontal: false, vertical: true)
+                } else {
+                    Text(SystemDictionary.hasDefinition(term)
+                         ? "Not in this book's glossary — Explore opens the dictionary."
+                         : "Not in this book's glossary yet.")
+                        .font(.caption).foregroundColor(pal.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            } else {
+                Text(spanSnippet(sp.text))
+                    .font(.system(.footnote, design: .serif)).italic()
+                    .foregroundColor(pal.ink)
+                    .lineLimit(2)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .buttonStyle(.plain)
-            Divider().frame(height: 16)
-            Button {
-                noteTarget = commitHighlight(sp)
-            } label: {
-                Label("Note", systemImage: "square.and.pencil").font(.caption.weight(.semibold))
-                    .foregroundColor(pal.accent)
+
+            HStack(spacing: 8) {
+                cardAction("Highlight", "highlighter") { _ = commitHighlight(sp) }
+                cardAction("Note", "square.and.pencil") { noteTarget = commitHighlight(sp) }
+                if let term, !term.isEmpty {
+                    NavigationLink(value: WordStudy(term: term, workId: work.id)) {
+                        cardActionLabel("Explore", "text.magnifyingglass")
+                    }
+                    .buttonStyle(.plain)
+                    .simultaneousGesture(TapGesture().onEnded { dismissPopups() })
+                }
+                Spacer(minLength: 0)
+                Button { dismissPopups() } label: {
+                    Image(systemName: "xmark").font(.caption2).foregroundColor(pal.inkSoft)
+                        .frame(width: 22, height: 22)
+                }
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
-            Divider().frame(height: 16)
-            Button { dismissPopups() } label: {
-                Image(systemName: "xmark").font(.caption2).foregroundColor(pal.inkSoft)
-            }
-            .buttonStyle(.plain)
         }
-        .padding(.horizontal, 14).padding(.vertical, 9)
-        .background(Capsule().fill(pal.paper))
-        .overlay(Capsule().stroke(pal.rule))
-        .shadow(color: .black.opacity(0.20), radius: 10, y: 4)
+        .padding(14)
+        .frame(width: 300)
+        .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
+        .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
+        .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
+    }
+
+    private func cardAction(_ title: String, _ icon: String, _ action: @escaping () -> Void) -> some View {
+        Button(action: action) { cardActionLabel(title, icon) }
+            .buttonStyle(.plain)
+    }
+
+    private func cardActionLabel(_ title: String, _ icon: String) -> some View {
+        HStack(spacing: 4) {
+            Image(systemName: icon).font(.caption2)
+            Text(title).font(.caption.weight(.semibold)).lineLimit(1)
+        }
+        .fixedSize()
+        .foregroundColor(pal.accent)
+        .padding(.horizontal, 9).padding(.vertical, 6)
+        .background(Capsule().stroke(pal.rule))
+    }
+
+    private func spanSnippet(_ t: String) -> String {
+        let clean = t.replacingOccurrences(of: "\n", with: " ")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        return clean.count > 110 ? "“" + clean.prefix(110).trimmingCharacters(in: .whitespaces) + "…”"
+                                 : "“" + clean + "”"
     }
 
     // Place a popup near a tapped/selected point (in the reading area's coordinate
