@@ -12,12 +12,12 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 |------|--------|-------|-------|----------------|------------|------------------|
 | Nicomachean Ethics | Aristotle | West | ✅ | ✅ 10 books | Opus 4.8 · 2026-06-24 | Lectio |
 | Confessions | Saint Augustine | West | ✅ | ✅ 13 books | Fable 5 · 2026-07-07 | Lectio |
-| The Analects | Confucius | East | ✅ | ◐ 0/20 sections | Opus 4.8 · 2026-06-25 | legge-1893 |
+| The Analects | Confucius | East | ✅ | ◐ 15/20 books | Fable 5 · 2026-07-07 | legge-1893 |
 | The Divine Comedy | Dante Alighieri | West | ✅ | ✅ 100 cantos | Opus 4.8 · 2026-06-24 | Lectio |
 | The Epic of Gilgamesh | Anonymous · Sumer & Akkad | East | ✅ | ✅ 11 tablets | Opus 4.8 · 2026-06-23 | Lectio |
 | The Iliad | Homer | West | ✅ | ✅ 24 books | Opus 4.8 · 2026-06-15 | Lectio |
 | The Odyssey | Homer | West | ✅ | ✅ 24 books | Opus 4.8 · 2026-06-16 | Lectio |
-| The Prince | Niccolò Machiavelli | West | ✅ | ◐ 0/26 sections | Opus 4.8 · 2026-06-25 | marriott-1908 |
+| The Prince | Niccolò Machiavelli | West | ✅ | ◐ 21/26 chapters | Fable 5 · 2026-07-07 | marriott-1908 |
 | Meditations | Marcus Aurelius | West | ✅ | ✅ 12 books | Opus 4.8 · 2026-06-15 | Lectio |
 | The Republic | Plato | West | ✅ | ◐ 0/10 sections | Opus 4.8 · 2026-06-25 | jowett-1871 |
 | Hamlet | William Shakespeare | West | ✅ | ✅ 5 acts | Opus 4.8 · 2026-06-24 | original |
@@ -43,7 +43,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
   - E. B. Pusey 1838 — 13 books
 
 **The Analects** · `work.confucius.analects`
-  - **Lectio (Vernacular)** — Opus 4.8, 2026-06-25; base: `legge-1893` — 0 sections
+  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `legge-1893` — 15 books
   - James Legge 1893 — 20 books
 
 **The Divine Comedy** · `work.dante.divine-comedy`
@@ -63,7 +63,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
   - Samuel Butler 1900 — 24 books
 
 **The Prince** · `work.machiavelli.the-prince`
-  - **Lectio (Vernacular)** — Opus 4.8, 2026-06-25; base: `marriott-1908` — 0 sections
+  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `marriott-1908` — 21 chapters
   - W. K. Marriott 1908 — 26 chapters
 
 **Meditations** · `work.marcus-aurelius.meditations`

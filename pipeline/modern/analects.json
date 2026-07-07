@@ -1,8 +1,8 @@
 {
   "workId": "work.confucius.analects",
   "method": "Lectio Edition (SDIT): clear modern English of the Analects, synthesized from the public-domain translation tradition (Legge 1893; Soothill 1910) and checked against the Classical Chinese; modern translations consulted, not quoted. In progress, book by book.",
-  "model": "claude-opus-4-8",
-  "date": "2026-06-25",
+  "model": "claude-fable-5",
+  "date": "2026-07-07",
   "vintage": 2026,
   "sourceEditionIds": [
     "edition.analects.legge-1893"
@@ -16,7 +16,649 @@
   ],
   "overview": "The Lectio Edition renders the Analects in plain modern English that keeps the terse, aphoristic weight of Confucius's recorded conversations — learning and ritual, ren (human-heartedness), and becoming fully human — without the Victorian scaffolding.",
   "introduction": "The Analects are not a treatise but a scrapbook of sayings and exchanges, set down by students after Confucius's death. They circle a few themes — learning, ritual, family, good government, and the cultivation of a humane character — in brief, often cryptic notes. Read slowly; each line is meant to be turned over.",
-  "divergences": [],
+  "divergences": [
+    {
+      "locus": "Book I",
+      "phrase": "仁 (ren)",
+      "older": "true virtue; perfect virtue; benevolent actions (Legge)",
+      "lectio": "human-heartedness",
+      "note": "Legge folds ren into a generic 'virtue,' blurring it with de — virtue as moral force, the word behind 'govern by virtue' in Book II. Ren is the specific excellence of being fully human toward other humans, and it is the book's central word. We render it 'human-heartedness' everywhere and keep 'virtue' for de, so the reader can watch the two ideas move separately."
+    },
+    {
+      "locus": "Book I",
+      "phrase": "君子 (junzi)",
+      "older": "the superior man; a man of complete virtue (Legge)",
+      "lectio": "the gentleman",
+      "note": "Legge's 'superior man' reads as rank, and rank is exactly what junzi is not. The word originally meant 'a lord's son'; Confucius remade it to mean a formed character, open to anyone willing to do the work. 'Gentleman' — a man defined by conduct rather than birth — carries that remaking in English."
+    },
+    {
+      "locus": "Book II",
+      "phrase": "父母唯其疾之憂",
+      "older": "Parents are anxious lest their children should be sick (Legge)",
+      "lectio": "Give your father and mother nothing to worry about except your health",
+      "note": "The Chinese is famously compressed — 'parents / only / their sickness / worry' — and can be read as a remark about parents' anxiety or as counsel to the son. Read as counsel, it answers the question that was actually asked, what is filial devotion: live so well that illness is the one worry you ever cause them."
+    },
+    {
+      "locus": "Book II",
+      "phrase": "溫故而知新",
+      "older": "keeps cherishing his old knowledge, so as continually to be acquiring new (Legge)",
+      "lectio": "Keep the old warm and know the new",
+      "note": "Wen is literally 'to warm' — the image is of tending a fire, keeping yesterday's food from going cold. Legge abstracts the image away; we keep the hearth in it."
+    },
+    {
+      "locus": "Book III",
+      "phrase": "禮 (li)",
+      "older": "the rules of propriety (Legge)",
+      "lectio": "ritual",
+      "note": "Legge's 'rules of propriety' makes li sound like an etiquette code. Li is one living thing — rite, ceremony, and the learned forms that respect takes — and this book is its home ground. Kept as a single word throughout, it lets sayings like 'you love the sheep; I love the rite' land the way the Chinese does."
+    },
+    {
+      "locus": "Book III",
+      "phrase": "八佾 (ba yi)",
+      "older": "eight rows of pantomimes (Legge)",
+      "lectio": "eight rows of dancers",
+      "note": "A yi is a file of eight ritual dancers; eight files of eight — sixty-four — belonged to the son of heaven alone. 'Pantomimes' is Victorian theater-talk that hides the offense: a family of ministers helping themselves to the emperor's rite."
+    },
+    {
+      "locus": "Book IV",
+      "phrase": "忠恕 (zhong shu)",
+      "older": "to be true to the principles of our nature and the benevolent exercise of them to others (Legge)",
+      "lectio": "loyalty, and putting yourself in the other man's place",
+      "note": "The one thread through the Master's Way is two plain words, and Legge unspools them into a philosophy lecture. Zhong is doing your utmost in good faith; shu is measuring what you do to others by what you would have done to you — the practice Tsze-kung is still reaching for in Book V. We keep it the size the Chinese keeps it."
+    },
+    {
+      "locus": "Book IV",
+      "phrase": "觀過，斯知仁矣",
+      "older": "By observing a man's faults, it may be known that he is virtuous (Legge)",
+      "lectio": "Look at the faults, and you know the human-heartedness",
+      "note": "Legge resolves the aphorism into a claim it does not quite make — that faults prove virtue. The Chinese says only that faults come in kinds, and that reading a man's faults reads his ren. We leave the saying open, as the original leaves it."
+    },
+    {
+      "locus": "Book V",
+      "phrase": "吾與女弗如也",
+      "older": "I grant you, you are not equal to him (Legge)",
+      "lectio": "You and I — neither of us is his equal",
+      "note": "Yu can mean 'to grant, agree with' or simply 'and,' so the Master either concedes Tsze-kung's point or joins him in it. Read as 'and,' the teacher steps down beside his student — a warmer reading, long favored by commentators, and truer to how the Master speaks of Hui everywhere else."
+    },
+    {
+      "locus": "Book V",
+      "phrase": "斐然成章，不知所以裁之",
+      "older": "They are accomplished and complete so far, but they do not know how to restrict and shape themselves (Legge)",
+      "lectio": "They weave brilliant cloth, and they do not know how to cut it",
+      "note": "The Chinese is a live textile figure — zhang is patterned cloth, cai the tailor's cut. Legge flattens it into abstraction; kept whole, it says exactly what the Master means about his young students: dazzling material, and no shaping hand yet."
+    },
+    {
+      "locus": "Book VI, 1",
+      "phrase": "雍也可使南面",
+      "older": "There is Yung!— He might occupy the place of a prince.",
+      "lectio": "Yung — you could seat him on a throne.",
+      "note": "The Chinese says only that Yung “could be made to face south” — the ruler’s seat faced south, so the compass direction is the throne. Legge unpacks the idiom into a hedged office; the Lectio keeps the verdict as blunt as the Master gives it."
+    },
+    {
+      "locus": "Book VI, 16",
+      "phrase": "文質彬彬，然後君子",
+      "older": "When the accomplishments and solid qualities are equally blended, we then have the man of virtue.",
+      "lectio": "Polish and substance in balance — that is a gentleman.",
+      "note": "Wen is finish — pattern, culture, surface; zhi is the raw stuff underneath. “Polish” and “substance” keep the craftsman’s metaphor that Legge’s abstractions blur, and junzi here is the gentleman, not a “man of virtue.”"
+    },
+    {
+      "locus": "Book VI, 23",
+      "phrase": "觚不觚，觚哉！觚哉！",
+      "older": "A cornered vessel without corners.— A strange cornered vessel! A strange cornered vessel!",
+      "lectio": "A cornered cup with no corners — call that a cornered cup? Call that a cornered cup?",
+      "note": "The gu was a ritual drinking cup defined by its corners; by Confucius’s day the shape had changed and the name no longer fit the thing. Legge hears bafflement (“strange”); the Chinese is a bitter rhetorical question about words coming apart from realities."
+    },
+    {
+      "locus": "Book VII, 14",
+      "phrase": "求仁而得仁，又何怨",
+      "older": "They sought to act virtuously, and they did so; what was there for them to repine about?",
+      "lectio": "They sought human-heartedness and found it. What was there to regret?",
+      "note": "Legge dissolves ren into generic virtue and loses the ledger-like balance of the sentence: the brothers sought a thing and received exactly that thing. Keeping ren visible keeps the verdict — on Po-i and Shu-ch’i, and by implication on the ruler of Wei — legible."
+    },
+    {
+      "locus": "Book VII, 20",
+      "phrase": "子不語怪，力，亂，神",
+      "older": "The subjects on which the Master did not talk, were— extraordinary things, feats of strength, disorder, and spiritual beings.",
+      "lectio": "The Master did not speak of marvels, feats of strength, rebellion, or the spirits.",
+      "note": "Four bare words in the Chinese, a drumbeat. Luan in this company is political violence — rebellion, subversion — not mere untidiness, and the list should land as bluntly as it was kept."
+    },
+    {
+      "locus": "Book VII, 29",
+      "phrase": "仁遠乎哉？我欲仁，斯仁至矣",
+      "older": "Is virtue a thing remote? I wish to be virtuous, and lo! virtue is at hand.",
+      "lectio": "Is human-heartedness so far away? The moment I want it, it is here.",
+      "note": "Three quick clauses in the Chinese, with no cry of wonder; Legge’s “lo!” adds a stage flourish. The point is speed — desire and arrival in the same breath."
+    },
+    {
+      "locus": "Book VIII, 2",
+      "phrase": "直而無禮則絞",
+      "older": "straightforwardness, without the rules of propriety, becomes rudeness",
+      "lectio": "honesty without ritual is a knife",
+      "note": "Jiao is a cord drawn strangling-tight — speech that cuts. “Rudeness” files the edge off; the warning is that honesty unmeasured by ritual wounds people."
+    },
+    {
+      "locus": "Book VIII, 9",
+      "phrase": "民可使由之，不可使知之",
+      "older": "The people may be made to follow a path of action, but they may not be made to understand it.",
+      "lectio": "The people can be made to follow the Way; they cannot be made to understand it.",
+      "note": "The object is the Way itself, not a generic “path of action.” Often read as cynicism, the line can as easily be a plain limit of government: practice can be commanded; understanding cannot."
+    },
+    {
+      "locus": "Book VIII, 12",
+      "phrase": "三年學，不至於穀",
+      "older": "It is not easy to find a man who has learned for three years without coming to be good.",
+      "lectio": "Three years of study without a thought of salary — such a man is not easy to find.",
+      "note": "Gu is literally “grain,” the form an official’s pay took. Legge follows a reading that turns it into “goodness”; most translators since take it as pay — the rare student is the one whose study never becomes a career move."
+    },
+    {
+      "locus": "Book IX, 5",
+      "phrase": "文王既沒，文不在茲乎",
+      "older": "After the death of King Wan, was not the cause of truth lodged here in me?",
+      "lectio": "King Wan is dead — but does his culture not live on, here, in me?",
+      "note": "Wen is the civilization of Chau — its writing, rites, and music — and the sentence puns on King Wan’s own name. Legge’s “cause of truth” gives the passage a missionary ring; what Confucius claims to carry is an inheritance of culture, not a creed."
+    },
+    {
+      "locus": "Book IX, 22",
+      "phrase": "後生可畏",
+      "older": "A youth is to be regarded with respect.",
+      "lectio": "Stand in awe of the young.",
+      "note": "Wei is fear, awe — the same word used for the decrees of Heaven. The young are a force bearing down on the present, not juniors owed politeness."
+    },
+    {
+      "locus": "Book IX, 25",
+      "phrase": "三軍可奪帥也，匹夫不可奪志也",
+      "older": "The commander of the forces of a large state may be carried off, but the will of even a common man cannot be taken from him.",
+      "lectio": "You can carry off the commander of a whole army. You cannot carry off the will of one common man.",
+      "note": "The Chinese repeats one violent verb, duo — to seize, to carry off — for both the general and the will. Keeping the same verb in both halves keeps the shock of the comparison."
+    },
+    {
+      "locus": "Book X, 6",
+      "phrase": "君子不以紺緅飾",
+      "older": "The superior man did not use a deep purple, or a puce colour, in the ornaments of his dress.",
+      "lectio": "He wore no deep purple or puce at his collar and cuffs.",
+      "note": "The whole book is an eyewitness inventory of one man’s conduct, so junzi here is Confucius observed, not a rule for gentlemen at large. Legge keeps the generic “superior man”; the Lectio lets the chapter stay what it is — a portrait."
+    },
+    {
+      "locus": "Book X, 18",
+      "phrase": "色斯舉矣，翔而後集",
+      "older": "Seeing the countenance, it instantly rises. It flies round, and by and by settles.",
+      "lectio": "At the look on their faces, the bird rose; it wheeled, and then settled.",
+      "note": "The book’s closing lines are broken text — every translator mends them differently. The Lectio keeps the fracture and the mystery: a bird that reads faces and knows its moment, set at the end of a book about a man who did the same."
+    },
+    {
+      "locus": "Book XVI, ch. 1",
+      "phrase": "不患寡而患不均 (bu huan gua er huan bu jun)",
+      "older": "not troubled lest their people should be few, but are troubled lest they should not keep their several places",
+      "lectio": "does not worry that his people are few; he worries that what they have is shared unevenly",
+      "note": "Legge follows commentators who soften jun 均 into everyone 'keeping his place.' The word means evenness of distribution, and the argument that follows — share evenly and there is no poverty — only works if you read it plainly."
+    },
+    {
+      "locus": "Book XVI, ch. 1",
+      "phrase": "蕭牆之內 (xiao qiang zhi nei)",
+      "older": "within the screen of their own court",
+      "lectio": "inside their own walls",
+      "note": "The xiaoqiang is the screen-wall just inside a lord's gate. Confucius's warning is that the Chi family's real danger is domestic, not across the border; 'inside their own walls' keeps the threat where he aimed it."
+    },
+    {
+      "locus": "Book XVII, ch. 13",
+      "phrase": "鄉原，德之賊也 (xiangyuan, de zhi zei ye)",
+      "older": "Your good, careful people of the villages are the thieves of virtue",
+      "lectio": "The village paragon is the thief of virtue",
+      "note": "The xiangyuan is a single figure — the local model of respectability whose counterfeit decency passes for goodness. Legge dilutes the dart into a class of people; the saying is aimed, and it stays singular here."
+    },
+    {
+      "locus": "Book XVII, ch. 9",
+      "phrase": "可以怨 (keyi yuan)",
+      "older": "They show how to regulate feelings of resentment",
+      "lectio": "They can teach you how to complain",
+      "note": "Yuan is voiced grievance. Confucius is licensing protest — the Odes give you the words for it — not prescribing self-command. Legge manages the feeling; the original authorizes its expression."
+    },
+    {
+      "locus": "Book XVIII, ch. 5",
+      "phrase": "鳳兮鳳兮 (feng xi feng xi)",
+      "older": "O FANG! O FANG!",
+      "lectio": "Phoenix! Phoenix!",
+      "note": "Feng is not a name but the sacred bird that appears only when the Way prevails in the world. The madman of Ch'u hails Confucius as a phoenix arrived in the wrong age — Legge's bare transliteration hides the whole taunt."
+    },
+    {
+      "locus": "Book XIX, ch. 20",
+      "phrase": "君子惡居下流 (junzi wu ju xialiu)",
+      "older": "the superior man hates to dwell in a low-lying situation, where all the evil of the world will flow in upon him",
+      "lectio": "a gentleman hates to live downstream: everything foul in the world comes washing down to him",
+      "note": "Xialiu is a river's lower reaches. Tsze-kung's point about the tyrant Chau's reputation is hydraulic — infamy, like water, pools at the lowest point — and 'downstream' keeps the current moving."
+    },
+    {
+      "locus": "Book XX, ch. 1",
+      "phrase": "皇皇后帝 (huanghuang hou di)",
+      "older": "O most great and sovereign God",
+      "lectio": "most august and sovereign Lord",
+      "note": "Legge the missionary rendered Di 帝 with the Christian 'God.' The Lectio keeps T'ang's address to the high Lord of Heaven in its older, formal register without importing a theology the text does not carry."
+    },
+    {
+      "locus": "Book XX, ch. 1",
+      "phrase": "允執其中 (yun zhi qi zhong)",
+      "older": "Sincerely hold fast the due Mean",
+      "lectio": "Hold honestly to the center",
+      "note": "Zhong in Yao's charge to Shun is the center line of just judgment — practical balance in ruling — not yet the codified 'Doctrine of the Mean' that Legge's capitalized term suggests to a reader."
+    },
+    {
+      "locus": "Book XX, ch. 2",
+      "phrase": "謂之賊 (wei zhi zei)",
+      "older": "this is called injury",
+      "lectio": "that is called laying a trap",
+      "note": "Zei is harm done by design. The offense — issuing an order casually, then enforcing the deadline without mercy — sets people up to fail; 'laying a trap' names the mechanism where 'injury' only names the wound."
+    }
+  ],
   "form": "prose",
-  "books": []
+  "books": [
+    {
+      "order": 1,
+      "label": "Book I",
+      "paragraphs": [
+        "The Master said, \"To learn, and in good time to practice what you have learned — is that not a pleasure? To have friends come from far away — is that not a joy? To go unrecognized and feel no bitterness — is that not a gentleman?\"",
+        "Master Yu said, \"Men who honor their parents and respect their elder brothers rarely have a taste for defying their superiors, and no man without that taste has ever been fond of stirring up revolt. The gentleman tends to the root; when the root is set, the Way grows from it. Devotion to parents and respect for elders — surely these are the root of human-heartedness.\"",
+        "The Master said, \"Clever words and a winning face rarely keep company with human-heartedness.\"",
+        "Master Tsang said, \"Each day I examine myself on three points. Working for others, was I faithless? With my friends, did I fail to keep my word? What was handed on to me, did I leave unpracticed?\"",
+        "The Master said, \"To govern a state of a thousand chariots: attend to the work and keep your word; spend little and love the people; and call on their labor only in the right season.\"",
+        "The Master said, \"A young man should be devoted to his parents at home and respectful to his elders away from it. He should be careful and truthful, love everyone, and keep close to the human-hearted. If he has strength left after that, let him spend it on study.\"",
+        "Tsze-hsia said, \"A man who prizes worth over beauty, who serves his parents with all his strength, who would give his life for his prince, and whose word to his friends is good — others may say he is unlearned; I will call him learned.\"",
+        "The Master said, \"A gentleman without gravity carries no weight, and his learning does not hold. Put faithfulness and keeping your word first. Have no friends who are not your equals. And when you are wrong, do not be afraid to change.\"",
+        "Master Tsang said, \"Give the dead their full rites, and keep the long-departed in remembrance, and the virtue of the people will grow deep again.\"",
+        "Tsze-ch'in asked Tsze-kung, \"Wherever our master goes, he learns everything about how the place is governed. Does he ask for it, or is it offered?\" Tsze-kung said, \"Our master gets it by being warm, upright, courteous, temperate, and deferential. His way of asking is not other men's way of asking.\"",
+        "The Master said, \"While a man's father lives, watch what he means to do. When his father dies, watch what he does. If for three years he does not turn from his father's way, he may be called a devoted son.\"",
+        "Master Yu said, \"In the practice of ritual, ease is the thing to prize. This was the beauty of the way of the ancient kings; in matters small and great, they followed it. But there is a limit. To know the worth of ease and be easy, without ritual to give it shape — that will not do either.\"",
+        "Master Yu said, \"When a promise keeps close to what is right, you can make your word good. When respect keeps close to ritual, you stay clear of shame. When the man you lean on is the right man to be close to, you can take him for your guide.\"",
+        "The Master said, \"A gentleman does not ask that his food be rich or his home be easy. He is quick in his work and careful in his speech, and he goes where men of the Way are, to be set straight by them. Call such a man a lover of learning.\"",
+        "Tsze-kung said, \"Poor, but no flatterer; rich, but not proud — what would you say to that?\" The Master said, \"Good. But not so good as poor and glad, or rich and in love with ritual.\" Tsze-kung said, \"The Book of Poetry says, 'Cut, then file; carve, then polish.' Is that what you mean?\" The Master said, \"Now I can begin to talk about the odes with Ts'ze. Tell him what came before, and he knows what comes next.\"",
+        "The Master said, \"Do not be troubled that men do not know you. Be troubled that you do not know men.\""
+      ],
+      "title": "Learning"
+    },
+    {
+      "order": 2,
+      "label": "Book II",
+      "paragraphs": [
+        "The Master said, \"Govern by virtue, and you are like the north star: it keeps its place, and all the stars turn about it.\"",
+        "The Master said, \"The Book of Poetry holds three hundred pieces, and one phrase covers them all: no crooked thoughts.\"",
+        "The Master said, \"Lead the people with laws and level them with punishments, and they will dodge the punishment and feel no shame. Lead them with virtue and level them with ritual, and they will feel shame — and set themselves right.\"",
+        "The Master said, \"At fifteen, I set my heart on learning. At thirty, I stood firm. At forty, I had no doubts. At fifty, I knew Heaven's will. At sixty, my ear was tuned to it. At seventy, I could follow what my heart desired without crossing the line.\"",
+        "Mang I asked about filial devotion. The Master said, \"Never disobey.\" Later, as Fan Ch'ih was driving him, the Master said, \"Mang-sun asked me about filial devotion, and I told him: never disobey.\" Fan Ch'ih said, \"What did you mean by it?\" The Master said, \"While they live, serve your parents by ritual. When they die, bury them by ritual, and sacrifice to them by ritual.\"",
+        "Mang Wu asked about filial devotion. The Master said, \"Give your father and mother nothing to worry about except your health.\"",
+        "Tsze-yu asked about filial devotion. The Master said, \"Nowadays, filial devotion means keeping one's parents fed. But dogs and horses are kept fed too. Without reverence, where is the difference?\"",
+        "Tsze-hsia asked about filial devotion. The Master said, \"The face is the hard part. When there is work, the young shoulder it; when there is wine and food, the elders are served first — is that all it is to be a devoted son?\"",
+        "The Master said, \"I could talk with Hui all day and he would not once differ with me, as if he were slow. But when he had gone, I watched what he did on his own, and it unfolded everything I had taught him. Hui is not slow.\"",
+        "The Master said, \"See what a man does. Look into why he does it. Find where he comes to rest. How can a man stay hidden? How can a man stay hidden?\"",
+        "The Master said, \"Keep the old warm and know the new, and you are fit to teach.\"",
+        "The Master said, \"A gentleman is not a vessel.\"",
+        "Tsze-kung asked about the gentleman. The Master said, \"He acts first. Then his words follow his acts.\"",
+        "The Master said, \"The gentleman is broad, not partisan. The small man is partisan, not broad.\"",
+        "The Master said, \"Learning without thought is labor lost. Thought without learning is dangerous.\"",
+        "The Master said, \"To give your strength to strange doctrines — that is harm indeed.\"",
+        "The Master said, \"Yu, shall I teach you what it is to know? When you know a thing, hold that you know it. When you do not, admit that you do not. That is knowing.\"",
+        "Tsze-chang was studying with his eye on a salary. The Master said, \"Hear much, set aside what is doubtful, and speak carefully about the rest, and you will seldom be blamed. See much, set aside what is dangerous, and act carefully on the rest, and you will seldom be sorry. Words that draw little blame and acts that leave little regret — the salary is in there.\"",
+        "Duke Ai asked, \"What must I do to make the people submit?\" Confucius replied, \"Raise the straight and set them above the crooked, and the people will submit. Raise the crooked and set them above the straight, and the people will not submit.\"",
+        "Chi K'ang asked how to make the people reverent and loyal, and eager for virtue. The Master said, \"Preside over them with gravity, and they will be reverent. Be a devoted son and a kind master, and they will be loyal. Raise up the good and teach the unable, and they will spur one another on.\"",
+        "Someone said to Confucius, \"Sir, why do you take no part in government?\" The Master said, \"The Shu-ching says of filial devotion: 'Be devoted to your parents and a friend to your brothers, and it will carry into government.' That too is governing. Why must a man hold office to govern?\"",
+        "The Master said, \"A man whose word cannot be trusted — I do not know what he is good for. A big cart without a yoke-bar, a small cart without a collar-pin: how do you make them go?\"",
+        "Tsze-chang asked whether what comes ten generations from now can be known. Confucius said, \"The Yin took its rites from the Hsia; what it dropped and what it added can be known. The Chau took its rites from the Yin; what it dropped and what it added can be known. And whoever follows the Chau — though a hundred generations pass, it can be known.\"",
+        "The Master said, \"To sacrifice to a spirit that is not your own is flattery. To see what is right and not do it is cowardice.\""
+      ],
+      "title": "Governing"
+    },
+    {
+      "order": 3,
+      "label": "Book III",
+      "paragraphs": [
+        "Confucius said of the head of the Chi family, who had eight rows of dancers perform in his courtyard, \"If he can bear to do this, what can he not bear to do?\"",
+        "The three families had the Yung ode sung while the sacrificial vessels were cleared. The Master said, \"'The princes assist; the son of heaven, deep and grave.' What can those words mean in the hall of the three families?\"",
+        "The Master said, \"A man without human-heartedness — what is ritual to him? A man without human-heartedness — what is music to him?\"",
+        "Lin Fang asked what comes first in ritual. The Master said, \"A great question! In festival, better spare than lavish. In mourning, better grief than a flawless performance.\"",
+        "The Master said, \"The tribes of the east and north still have their princes. They are not like our great land, which goes without.\"",
+        "The head of the Chi family was about to sacrifice to the T'ai mountain. The Master said to Zan Yu, \"Can you not save him from this?\" He answered, \"I cannot.\" The Master said, \"Alas! Will you tell me the T'ai mountain is less discerning than Lin Fang?\"",
+        "The Master said, \"A gentleman has nothing to contend for. If contend he must, let it be at archery: he bows to his rivals and goes up, comes down again and drinks the forfeit. Even in his contending, he is a gentleman.\"",
+        "Tsze-hsia asked, \"What do these lines mean — 'The dimples of her artful smile, the clear black and white of her eye, the plain ground for the colors'?\" The Master said, \"The colors come after the plain ground.\" \"Then ritual comes after?\" The Master said, \"It is Shang who lifts my meaning. Now I can begin to talk about the odes with him.\"",
+        "The Master said, \"I could describe the rites of the Hsia, but Chi cannot bear witness for me. I could describe the rites of the Yin, but Sung cannot bear witness for me. Their records and their wise men are too few. Were they enough, I could call on them to prove my words.\"",
+        "The Master said, \"At the great sacrifice, once the opening libation is poured, I have no wish to watch what follows.\"",
+        "Someone asked the meaning of the great sacrifice. The Master said, \"I do not know. To the man who knew, the whole kingdom would lie as plain as this\" — and he pointed to his palm.",
+        "He sacrificed to the dead as if they were present. He sacrificed to the spirits as if the spirits were there. The Master said, \"If I am not present at the sacrifice myself, it is as if I had not sacrificed.\"",
+        "Wang-sun Chia asked, \"What does the saying mean — 'Better to court the kitchen stove than the southwest corner'?\" The Master said, \"Not so. A man who sins against Heaven has no one left to pray to.\"",
+        "The Master said, \"Chau had two dynasties to look back on. How full, how fine its pattern! I follow Chau.\"",
+        "The Master, entering the grand temple, asked about everything. Someone said, \"Who calls the son of the man of Tsau a master of ritual? He enters the grand temple and asks about everything.\" The Master heard of it and said, \"The asking is the ritual.\"",
+        "The Master said, \"In archery, piercing the hide is not the point, for men's strength is not equal. That was the old way.\"",
+        "Tsze-kung wanted to do away with the sheep offered at the announcing of each new moon. The Master said, \"Ts'ze, you love the sheep. I love the rite.\"",
+        "The Master said, \"Serve your prince with the whole of ritual, and men will call it flattery.\"",
+        "Duke Ting asked how a prince should use his ministers, and how ministers should serve their prince. Confucius replied, \"The prince uses his ministers according to ritual. The ministers serve their prince with loyalty.\"",
+        "The Master said, \"The Kwan Tsu: joy, but never license; grief, but never a wound.\"",
+        "Duke Ai asked Tsai Wo about the altars of the land. Tsai Wo replied, \"The sovereigns of Hsia planted them with pine; the men of Yin, with cypress; the men of Chau, with chestnut — to make the people tremble, they said.\" When the Master heard of it, he said, \"What is done, do not discuss. What has run its course, do not contest. What is past, do not blame.\"",
+        "The Master said, \"Kwan Chung was a small vessel!\" Someone said, \"Was Kwan Chung frugal, then?\" \"Kwan had the San Kwei, and no officer of his did double duty. How is that frugal?\" \"Then did Kwan Chung know ritual?\" The Master said, \"The princes of states set a screen before their gates; Kwan set a screen before his too. When two princes met in friendship, they had a stand for the turned-down cups; Kwan had such a stand too. If Kwan knew ritual, who does not know ritual?\"",
+        "The Master, instructing the grand music-master of Lu, said, \"This much of music can be known. It opens with all the parts sounding together. Then, given rein, they run pure and clear, each voice distinct, unbroken — and so to the close.\"",
+        "The border warden at Yi asked to be presented to the Master. \"When men of worth have come to this place,\" he said, \"I have never been refused.\" The followers presented him, and when he came out he said, \"Friends, why grieve over your master's fall from office? The world has long been without the Way. Heaven is going to use your master as a bell with a wooden tongue.\"",
+        "The Master said of the Shao music that it was perfectly beautiful and perfectly good, and of the Wu that it was perfectly beautiful, but not perfectly good.",
+        "The Master said, \"High place without largeness of spirit, ritual without reverence, mourning without grief — what is there for me to look at?\""
+      ],
+      "title": "Eight Rows of Dancers"
+    },
+    {
+      "order": 4,
+      "label": "Book IV",
+      "paragraphs": [
+        "The Master said, \"It is human-heartedness that makes a neighborhood beautiful. If a man can choose where to live and passes it by, how is he wise?\"",
+        "The Master said, \"Without human-heartedness, a man cannot bear hardship long, and he cannot bear comfort long either. The human-hearted rest in it. The wise know what it is worth.\"",
+        "The Master said, \"Only the human-hearted man can rightly love men, and rightly hate them.\"",
+        "The Master said, \"Set your will on human-heartedness, and there is no room left for evil.\"",
+        "The Master said, \"Riches and rank are what men want; if they cannot be had in the right way, do not hold them. Poverty and low place are what men hate; if they cannot be escaped in the right way, do not escape them. Take human-heartedness from a gentleman, and what is left of the name? A gentleman does not leave it for the length of a meal. In a hurry, he holds to it. In danger, he holds to it.\"",
+        "The Master said, \"I have never seen a man who loved human-heartedness, or one who hated its opposite. The lover would set nothing above it. The hater would practice it by letting nothing opposed to it come near him. Is there a man who can give his strength to it for one day? I have never seen one whose strength was too little. If such a man exists, I have not seen him.\"",
+        "The Master said, \"A man's faults run true to his kind. Look at the faults, and you know the human-heartedness.\"",
+        "The Master said, \"Hear the Way in the morning, and you can die that evening without regret.\"",
+        "The Master said, \"A scholar sets his heart on the Way. If he is ashamed of shabby clothes and plain food, he is not worth talking to.\"",
+        "The Master said, \"The gentleman moves through the world with nothing fixed for and nothing fixed against. He goes with what is right.\"",
+        "The Master said, \"The gentleman thinks of virtue; the small man thinks of comfort. The gentleman thinks of what the law will exact; the small man thinks of what favor he can win.\"",
+        "The Master said, \"Act always with an eye to your own advantage, and you will be much resented.\"",
+        "The Master said, \"If a man can govern his country by ritual and its deference, what difficulty will he have? And if he cannot, what is ritual to him?\"",
+        "The Master said, \"Do not worry that you have no position; worry about what it takes to stand in one. Do not worry that no one knows you; seek to be worth knowing.\"",
+        "The Master said, \"Shan, one thread runs through my Way.\" Master Tsang said, \"Yes.\" The Master went out, and the other disciples asked, \"What did he mean?\" Master Tsang said, \"The Master's Way is loyalty, and putting yourself in the other man's place. That is all.\"",
+        "The Master said, \"The gentleman is at home in what is right; the small man is at home in what pays.\"",
+        "The Master said, \"When you see a worthy man, think how to equal him. When you see an unworthy one, turn and examine yourself.\"",
+        "The Master said, \"In serving your parents, you may reason with them — gently. If you see they will not follow, be more reverent still, and do not turn back. And though it wears you out, do not resent them.\"",
+        "The Master said, \"While your parents live, do not travel far. If travel you must, have a fixed place to go.\"",
+        "The Master said, \"If for three years a son does not turn from his father's way, he may be called a devoted son.\"",
+        "The Master said, \"Your parents' years must never be out of mind — at once a joy and a fear.\"",
+        "The Master said, \"The ancients were slow to speak. They were ashamed to have their deeds fall short of their words.\"",
+        "The Master said, \"Few go wrong by holding back.\"",
+        "The Master said, \"The gentleman wants to be slow in his words and quick in his deeds.\"",
+        "The Master said, \"Virtue does not stand alone. It always finds neighbors.\"",
+        "Tsze-yu said, \"Press your prince too often, and you will be disgraced. Press your friends too often, and they will fall away.\""
+      ],
+      "title": "Human-Heartedness"
+    },
+    {
+      "order": 5,
+      "label": "Book V",
+      "paragraphs": [
+        "The Master said of Kung-ye Ch'ang that he was fit to be given a wife: he had been in bonds, but the guilt was never his. And he gave him his own daughter in marriage.",
+        "Of Nan Yung the Master said that in a well-governed country he would never be out of office, and in an ill-governed one he would keep clear of punishment and disgrace. He gave him his elder brother's daughter in marriage.",
+        "The Master said of Tsze-chien, \"There is a gentleman! If Lu held no gentlemen, where did this man get it?\"",
+        "Tsze-kung asked, \"And Ts'ze — what do you say of him?\" The Master said, \"You are a vessel.\" \"What kind of vessel?\" \"A jeweled vessel for the altar.\"",
+        "Someone said, \"Yung is human-hearted, but he has no ready tongue.\" The Master said, \"What is a ready tongue for? Meet men with a quick mouth and they will hate you for it, more often than not. Whether Yung is human-hearted I do not know — but why should he need a ready tongue?\"",
+        "The Master wanted Ch'i-tiao K'ai to take office. He replied, \"I cannot yet trust myself so far.\" The Master was pleased.",
+        "The Master said, \"The Way makes no headway. I will board a raft and drift out to sea — and the one who follows me will be Yu, I expect.\" Tsze-lu, hearing it, was glad. The Master said, \"Yu loves daring more than I do. But he does not stop to weigh the thing.\"",
+        "Mang Wu asked whether Tsze-lu was human-hearted. The Master said, \"I do not know.\" He asked again, and the Master said, \"In a state of a thousand chariots, Yu could be given the levies to manage. Whether he is human-hearted, I do not know.\" \"And what of Ch'iu?\" The Master said, \"In a town of a thousand households, or a house of a hundred chariots, Ch'iu could be made steward. Whether he is human-hearted, I do not know.\" \"And what of Ch'ih?\" The Master said, \"With his sash bound, standing in court, Ch'ih could be set to talk with the guests and visitors. Whether he is human-hearted, I do not know.\"",
+        "The Master said to Tsze-kung, \"Which of you is the better, you or Hui?\" Tsze-kung replied, \"How could I dare look as high as Hui? Hui hears one thing and knows ten. I hear one thing and know two.\" The Master said, \"No, you are not his equal. You and I — neither of us is his equal.\"",
+        "Tsai Yu lay asleep in the daytime. The Master said, \"Rotten wood cannot be carved. A wall of dung and mud takes no trowel. Why should I even scold Yu?\" The Master said, \"There was a time when I heard a man's words and trusted his deeds to match. Now I hear the words and watch the deeds. Yu changed that in me.\"",
+        "The Master said, \"I have never seen a man who is truly unbending.\" Someone answered, \"Shan Ch'ang.\" The Master said, \"Ch'ang? Ch'ang is full of desires. Where would he get unbending?\"",
+        "Tsze-kung said, \"What I do not want done to me, I want to do to no one.\" The Master said, \"Ts'ze, that is beyond you.\"",
+        "Tsze-kung said, \"The Master's culture and conduct — these we are given to hear. What the Master says of our nature and of the Way of Heaven, no one gets to hear.\"",
+        "When Tsze-lu had heard a thing and not yet carried it out, his one fear was hearing another.",
+        "Tsze-kung asked, \"Why was Kung-wan given the name Wan — 'the cultured'?\" The Master said, \"He was quick, and he loved learning, and he was not ashamed to ask those beneath him. That is why they called him Wan.\"",
+        "The Master said of Tsze-ch'an that he had four marks of the gentleman: in his own conduct he was humble; in serving his superiors, respectful; in providing for the people, kind; in commanding them, just.",
+        "The Master said, \"Yen P'ing knew how to keep a friend. However long he knew a man, his respect was what it had been on the first day.\"",
+        "The Master said, \"Tsang Wan housed a great tortoise in a hall of its own, with hills carved on the pillar-tops and duckweed painted on the posts above the beams. What kind of wisdom is that?\"",
+        "Tsze-chang asked, \"The minister Tsze-wan took office three times and showed no pleasure, and was removed three times and showed no resentment — and each time he gave the incoming minister a full account of his government. What do you say of him?\" The Master said, \"He was loyal.\" \"Was he human-hearted?\" \"I do not know. Where is the human-heartedness in it?\" Tsze-chang went on, \"When the officer Ch'ui killed the prince of Ch'i, Ch'an Wan, who owned forty horses, abandoned them and left the country. In the next state, he said, 'They are like our officer Ch'ui here,' and left. He came to a third, said the same, and left again. What do you say of him?\" The Master said, \"He was clean.\" \"Was he human-hearted?\" \"I do not know. Where is the human-heartedness in it?\"",
+        "Chi Wan thought three times before he acted. When the Master heard of it, he said, \"Twice is enough.\"",
+        "The Master said, \"While the country kept the Way, Ning Wu was wise. When the country lost it, he played the fool. His wisdom can be matched. His folly cannot.\"",
+        "When the Master was in Ch'an, he said, \"Home — let me go home! The young men of my school are bold and hasty. They weave brilliant cloth, and they do not know how to cut it.\"",
+        "The Master said, \"Po-i and Shu-ch'i did not keep old wrongs in mind, and so the grudges against them were few.\"",
+        "The Master said, \"Who calls Wei-shang Kao upright? A man begged vinegar of him, and he begged it from his neighbor and gave it as his own.\"",
+        "The Master said, \"Clever words, a winning face, respect laid on thick — Tso Ch'iu-ming was ashamed of them, and so am I. To hide a grudge against a man and treat him as a friend — Tso Ch'iu-ming was ashamed of that, and so am I.\"",
+        "Yen Yuan and Chi Lu were at his side. The Master said, \"Come, why not each of you tell me his wish?\" Tsze-lu said, \"I would share my chariots and horses and light furs with my friends, and if they wore them to ruin, think nothing of it.\" Yen Yuan said, \"I would never boast of what is good in me, nor parade what I have done.\" Tsze-lu said, \"And now, sir, we would hear your wish.\" The Master said, \"To give the old rest. To keep faith with friends. To cherish the young.\"",
+        "The Master said, \"It is hopeless. I have yet to see a man who could look at his own faults and press the case against himself.\"",
+        "The Master said, \"In a hamlet of ten houses there is surely someone as loyal and true as I am. But no one who loves learning as I do.\""
+      ],
+      "title": "Weighing Men"
+    },
+    {
+      "order": 6,
+      "label": "Book VI",
+      "paragraphs": [
+        "The Master said, “Yung — you could seat him on a throne.” Chung-kung asked about Tsze-sang Po-tsze. The Master said, “He will do. He keeps things simple.” Chung-kung said, “If a man is exacting with himself and simple in what he asks of his people, that is fine. But to be easy on yourself and easy in everything you do — isn’t that carrying simplicity too far?” The Master said, “Yung is right.”",
+        "The Duke Ai asked which of the disciples loved to learn. Confucius answered, “There was Yen Hui. He loved to learn. He never took his anger out on the wrong man; he never made the same mistake twice. But his time was short, and he died. Now there is no one — I have yet to hear of anyone who loves learning the way he did.”",
+        "When Tsze-hwa was sent on a mission to Ch’i, the disciple Zan asked for grain for Tsze-hwa’s mother. The Master said, “Give her a fu.” Zan asked for more. “Give her a yu,” said the Master. Zan gave her five ping. The Master said, “When Ch’ih set out for Ch’i, he rode behind sleek horses in light furs. And I have always heard: a gentleman helps the desperate; he does not top up the rich.” When the Master made Yuan Sze governor of his town, he gave him nine hundred measures of grain. Sze declined them. The Master said, “Don’t. Could you not give it away — to your neighborhood, your hamlet, your village?”",
+        "The Master said of Chung-kung, “If the calf of a brindled ox is red and well-horned, men may hesitate to offer it — but will the spirits of the mountains and rivers refuse it?”",
+        "The Master said, “Hui could go three months without his heart once straying from human-heartedness. The others manage a day here, a month there, and no more.”",
+        "Chi K’ang asked whether Chung-yu was fit for office. The Master said, “Yu is decisive. What trouble would office give him?” “And Ts’ze — is he fit for office?” “Ts’ze sees through things. What trouble would office give him?” “And Ch’iu?” “Ch’iu has many talents. What trouble would office give him?”",
+        "The head of the Chi family sent for Min Tsze-ch’ien to be governor of Pi. Min Tsze-ch’ien said, “Decline for me — politely. If anyone comes back a second time, they will find me across the Wan.”",
+        "Po-niu was sick, and the Master went to see him. Taking his hand through the window, he said, “We are losing him. It is Heaven’s decree — and yet, that this man should have this disease! That this man should have this disease!”",
+        "The Master said, “What a man Hui was! One bowl of rice, one gourd of water, a hovel in a back lane — no one else could have borne the misery, and it never once touched his joy. What a man Hui was!”",
+        "Yen Ch’iu said, “It is not that I take no delight in your Way, Master. I lack the strength.” The Master said, “Those who lack the strength give out somewhere along the road. You have drawn your line before setting out.”",
+        "The Master said to Tsze-hsia, “Be a scholar of the gentleman’s kind, not the small man’s.”",
+        "When Tsze-yu was governor of Wu-ch’ang, the Master said, “Have you found any good men?” He answered, “There is Tan-t’ai Mieh-ming. He never takes a shortcut, and he has never once come to my office except on public business.”",
+        "The Master said, “Mang Chih-fan does not boast. When the army broke and ran, he kept the rear; only as they reached the gate did he whip up his horse, saying, ‘It was not courage that kept me back. My horse would not go.’”",
+        "The Master said, “Without the glib tongue of the litanist T’o or the good looks of prince Chao of Sung, it is hard to get through in the present age.”",
+        "The Master said, “Who leaves a house except by the door? Why, then, will no one walk by this Way?”",
+        "The Master said, “When substance outweighs polish, you get a rustic. When polish outweighs substance, you get a clerk. Polish and substance in balance — that is a gentleman.”",
+        "The Master said, “A man is born straight. If he loses that and lives on, he is simply lucky to have escaped.”",
+        "The Master said, “Those who know it are not the equal of those who love it, and those who love it are not the equal of those who delight in it.”",
+        "The Master said, “To those above the average, you may speak of the highest things. To those below it, you may not.”",
+        "Fan Ch’ih asked about wisdom. The Master said, “Give yourself to what is owed to men; respect the spirits, but keep your distance from them. Call that wisdom.” He asked about human-heartedness. The Master said, “The human-hearted man puts the hard work first and any reward out of mind. Call that human-heartedness.”",
+        "The Master said, “The wise delight in water; the human-hearted delight in mountains. The wise move; the human-hearted are still. The wise are joyful; the human-hearted live long.”",
+        "The Master said, “One change, and Ch’i would stand where Lu stands. One change, and Lu would reach the Way.”",
+        "The Master said, “A cornered cup with no corners — call that a cornered cup? Call that a cornered cup?”",
+        "Tsai Wo asked, “Tell a human-hearted man there is a man down the well, and I suppose he jumps in after him?” Confucius said, “Why would he? A gentleman can be sent to the well, but not down it. He can be deceived; he cannot be made a fool of.”",
+        "The Master said, “A gentleman who studies widely and reins himself in with ritual is not likely to go far wrong.”",
+        "The Master went to see Nan-tsze, and Tsze-lu was not pleased. The Master swore to him, “If I have done anything wrong, may Heaven throw me aside! May Heaven throw me aside!”",
+        "The Master said, “The virtue of the Constant Mean — how complete it is! And how long it has been rare among the people!”",
+        "Tsze-kung said, “What about a man who poured out benefits on the people and could help them all — what would you say? Could he be called human-hearted?” The Master said, “Why stop at human-hearted? He would be a sage. Even Yao and Shun fell short of that. The human-hearted man is this: wanting to stand, he helps others to stand; wanting to arrive, he helps others arrive. To take what is near — yourself — as the measure for others: that is the way to human-heartedness.”"
+      ],
+      "title": "Knowing, Loving, Delighting"
+    },
+    {
+      "order": 7,
+      "label": "Book VII",
+      "paragraphs": [
+        "The Master said, “I transmit; I do not invent. I trust the ancients and I love them. Quietly, I compare myself to our old P’ang.”",
+        "The Master said, “To store up knowledge in silence, to learn without tiring, to teach without wearing out — which of these can I claim?”",
+        "The Master said, “Virtue left untended; learning left undiscussed; hearing what is right and failing to move toward it; being unable to change what is bad in me — these are the things that worry me.”",
+        "In his leisure hours the Master was easy and unbent, his face open and pleased.",
+        "The Master said, “How far I have sunk! How long it has been since I dreamed of the duke of Chau.”",
+        "The Master said, “Set your heart on the Way. Hold fast to virtue. Lean on human-heartedness. Take your recreation in the arts.”",
+        "The Master said, “No one has ever come to me with so much as a bundle of dried meat and gone away untaught.”",
+        "The Master said, “I do not open the door for a man who is not straining at it, or find the word for one who is not struggling to speak. I hold up one corner; if he cannot come back with the other three, I do not go on.”",
+        "When the Master ate beside a mourner, he never ate his fill. On a day he had wept, he did not sing.",
+        "The Master said to Yen Yuan, “When wanted, to serve; when set aside, to withdraw — only you and I have that in us.” Tsze-lu said, “If you had command of the armies of a great state, whom would you take with you?” The Master said, “Not the man who would wrestle a tiger bare-handed or wade a river and die with no regrets. The man I take comes to the thing afraid, loves to plan, and carries the plan through.”",
+        "The Master said, “If wealth could be had for the seeking, I would take up the whip and hold horses to get it. Since it cannot, I will follow what I love.”",
+        "The things the Master treated with the greatest care were fasting, war, and sickness.",
+        "In Ch’i, the Master heard the Shao, and for three months he did not know the taste of meat. “I never imagined,” he said, “that music could be made as fine as this.”",
+        "Yen Yu said, “Is our Master for the ruler of Wei?” Tsze-kung said, “Well — I will ask him.” He went in and said, “What sort of men were Po-i and Shu-ch’i?” “Worthies of the old days,” said the Master. “Did they regret how it ended for them?” “They sought human-heartedness and found it. What was there to regret?” Tsze-kung came out and said, “Our Master is not for him.”",
+        "The Master said, “Coarse rice to eat, water to drink, my bent arm for a pillow — there is joy in these things too. Wealth and rank that come by wrong are to me drifting clouds.”",
+        "The Master said, “Give me a few more years — fifty for the study of the Yi — and I might come through without great faults.”",
+        "The Master’s constant themes were the Odes, the History, and the keeping of ritual. Of these he never stopped speaking.",
+        "The Duke of Sheh asked Tsze-lu about Confucius, and Tsze-lu gave him no answer. The Master said, “Why didn’t you say: he is a man so eager he forgets to eat, so glad he forgets every sorrow, and who has not noticed old age coming on?”",
+        "The Master said, “I was not born knowing. I love what is old, and I go after it in earnest.”",
+        "The Master did not speak of marvels, feats of strength, rebellion, or the spirits.",
+        "The Master said, “Walking with two others, I am sure of a teacher. I pick out what is good in them and follow it; what is bad, and mend it in myself.”",
+        "The Master said, “Heaven planted this virtue in me. What can Hwan T’ui do to me?”",
+        "The Master said, “Do you think I am hiding something, my friends? I hide nothing from you. There is nothing I do that is not laid open before you. That is who I am.”",
+        "The Master taught four things: letters, conduct, loyalty, and good faith.",
+        "The Master said, “A sage I will never get to see; a gentleman would be enough. A good man I will never get to see; a man of constancy would be enough. But men who have nothing and pose as having, who are empty and pose as full, who are pinched and pose as comfortable — constancy is beyond such men.”",
+        "The Master angled, but never with a net. He shot, but never at a roosting bird.",
+        "The Master said, “There may be men who act without knowing why; I am not one of them. To hear much, choose what is good, and follow it; to see much and hold it in memory — that is the second kind of knowledge.”",
+        "The people of Hu-hsiang were hard to talk with, so when a boy from there was received, the disciples wondered. The Master said, “I take a man at his coming; I do not answer for what he does when he leaves. Why be so hard? If a man cleans himself to come to me, I receive him clean. I do not vouch for his past.”",
+        "The Master said, “Is human-heartedness so far away? The moment I want it, it is here.”",
+        "The minister of crime of Ch’an asked whether the duke Chao knew ritual, and Confucius said, “He knew ritual.” When Confucius had withdrawn, the minister beckoned Wu-ma Ch’i forward and said, “I have heard that a gentleman takes no side. Does a gentleman take sides after all? The prince took a wife from the house of Wu — his own surname — and covered it by calling her ‘The elder Tsze of Wu.’ If that prince knew ritual, who does not?” Wu-ma Ch’i passed this on, and the Master said, “I am a fortunate man. If I make a mistake, someone is sure to know it.”",
+        "When the Master was with a man who sang well, he would have him sing it again, and then join in.",
+        "The Master said, “In letters I am perhaps the equal of other men. As for living as a gentleman lives — carrying out in conduct what he professes — I have not yet arrived.”",
+        "The Master said, “A sage? A man of human-heartedness? How would I dare? Say only this of me: I work toward it without tiring and teach without wearying — that much and no more.” Kung-hsi Hwa said, “And that much is exactly what we students cannot learn to do.”",
+        "The Master was gravely ill, and Tsze-lu asked leave to pray for him. The Master said, “Is that done?” Tsze-lu answered, “It is. The Eulogies say, ‘Prayer has been made for you to the spirits above and below.’” The Master said, “Then my praying began long ago.”",
+        "The Master said, “Extravagance breeds arrogance; thrift breeds shabbiness. Better shabby than arrogant.”",
+        "The Master said, “The gentleman is level and open; the small man is never out from under his cares.”",
+        "The Master was mild, yet firm; imposing, yet not fierce; respectful, yet at ease."
+      ],
+      "title": "The Transmitter"
+    },
+    {
+      "order": 8,
+      "label": "Book VIII",
+      "paragraphs": [
+        "The Master said, “T’ai-po may be called virtue at its highest. Three times he gave up an empire, and he hid it so well the people could not even find words to praise him.”",
+        "The Master said, “Respect without ritual is drudgery; caution without ritual is timidity; courage without ritual is disorder; honesty without ritual is a knife. When those in high place are devoted to their own kin, the people stir toward human-heartedness. When old friends are not dropped, the people do not turn cold.”",
+        "Master Tsang was ill. He called the disciples of his school and said, “Uncover my feet. Uncover my hands. The Odes say, ‘Trembling, watchful, as if at the edge of a deep gulf, as if treading on thin ice’ — and that is how I have lived. But from this moment, my little ones, I know that I have come through whole.”",
+        "Master Tsang was ill, and Meng Chang came to ask after him. Tsang said, “When a bird is about to die, its cry is mournful; when a man is about to die, his words are good. There are three things a gentleman holds precious in the Way: in his bearing, to keep far from violence and carelessness; in his face, to keep close to good faith; in his words and tone, to keep far from anything low or false. As for the sacrificial vessels, there are officers to mind them.”",
+        "Master Tsang said, “Able, yet asking those less able; rich in knowledge, yet asking those with little; having, yet seeming to lack; full, yet counting himself empty; wronged, yet never striking back — I had a friend once who lived this way.”",
+        "Master Tsang said, “A man you could trust with an orphaned prince, a man you could charge with a state of a hundred li, a man no crisis however great can bend — is that a gentleman? That is a gentleman indeed.”",
+        "Master Tsang said, “An officer cannot go without breadth and staying power. The load is heavy and the road is long. Human-heartedness is the load he carries — is that not heavy? Only death ends the road — is that not long?”",
+        "The Master said, “The Odes wake us. Ritual sets us on our feet. Music finishes the work.”",
+        "The Master said, “The people can be made to follow the Way; they cannot be made to understand it.”",
+        "The Master said, “A man who loves daring and resents his poverty will make disorder. So will a man without human-heartedness, if you press your hatred of him too far.”",
+        "The Master said, “A man might have gifts as fine as the Duke of Chau’s — but if he is proud and stingy, the rest is not worth a look.”",
+        "The Master said, “Three years of study without a thought of salary — such a man is not easy to find.”",
+        "The Master said, “Hold fast to good faith, love learning, and keep to the good Way until death. Do not enter a state that is tottering; do not stay in one in chaos. When the Way runs in the world, be seen; when it does not, stay hidden. When the Way runs in your own state, be ashamed of poverty and obscurity. When it does not, be ashamed of wealth and honors.”",
+        "The Master said, “If the office is not yours, its policies are not your business.”",
+        "The Master said, “When the music master Chih began, and the finale of the Kwan Tsu swelled — how it filled the ear!”",
+        "The Master said, “Wild, yet not straight; simple, yet not honest; dull, yet not to be trusted — I do not know what to make of such men.”",
+        "The Master said, “Learn as if you were chasing what you cannot catch — and afraid, even so, of losing it.”",
+        "The Master said, “How majestic they were — Shun and Yu held the whole world, and held it as if it were nothing to them.”",
+        "The Master said, “How great a ruler Yao was! Majestic! Only Heaven is great, and only Yao measured up to it. So vast was his virtue that the people could find no name for it. How majestic his achievements; how brilliant the culture and the institutions he left!”",
+        "Shun had five ministers, and the world was in order. King Wu said, “I have ten able ministers.” Confucius said, “Talent is hard to find — is the saying not true? Only the age when T’ang and Yu met was richer in it than this of Chau; and of Chau’s ten, one was a woman, so the able ministers were nine men. King Wan held two of the empire’s three parts and with them still served the house of Yin. The virtue of Chau — call that virtue at its highest.”",
+        "The Master said, “In Yu I can find no flaw. His own food and drink were plain, but his offerings to the spirits were rich with devotion. His everyday clothes were poor, but his sacrificial cap and apron were beautiful. He lived in a low, mean house, and poured his strength into the ditches and channels. In Yu I can find no flaw.”"
+      ],
+      "title": "A Heavy Load, a Long Road"
+    },
+    {
+      "order": 9,
+      "label": "Book IX",
+      "paragraphs": [
+        "The Master seldom spoke of profit, or of fate, or of human-heartedness.",
+        "A man of the village of Ta-hsiang said, “How great the philosopher K’ung is! His learning is vast — and he has made no name in any one thing.” The Master heard of it and said to his disciples, “What shall I take up, then? Charioteering? Archery? I will take up charioteering.”",
+        "The Master said, “Ritual calls for a cap of linen; nowadays it is silk. That is thrifty, and I follow the crowd. Ritual calls for bowing below the hall; nowadays men bow only at the top of the steps. That is arrogant — and though it sets me against the crowd, I still bow below.”",
+        "There were four things the Master was wholly free of: assumption, insistence, stubbornness, and self.",
+        "In K’wang, the Master feared for his life. He said, “King Wan is dead — but does his culture not live on, here, in me? If Heaven had meant this culture to perish, a latecomer like me would never have been given my share in it. And so long as Heaven does not let it perish, what can the men of K’wang do to me?”",
+        "A high officer asked Tsze-kung, “Your Master — surely he is a sage? He can do so many things!” Tsze-kung said, “Heaven has certainly given him without stint; he is close to a sage. And besides, he can do many things.” The Master heard of it and said, “Does the officer know me? When I was young, I was poor — that is why I can do so many things, and small things they are. Does a gentleman need many skills? He does not.” Lao said, “The Master used to say, ‘I was never tried in office — so I learned the crafts.’”",
+        "The Master said, “Do I possess knowledge? I do not. But let the plainest man ask me a question in earnest, and empty as it may seem, I knock it open at both ends until I have given him everything.”",
+        "The Master said, “The Fang bird does not come; the river sends forth no chart. It is over with me.”",
+        "When the Master saw a man in mourning dress, or in the full cap and robes of ceremony, or a blind man, he would rise at their approach, though they were younger than he; and if he had to pass them, he quickened his step.",
+        "Yen Yuan sighed and said, “I look up at it, and it is higher. I bore into it, and it is harder. I see it before me, and suddenly it is behind. The Master leads a man on step by step, so skillfully — he has broadened me with learning and gathered me in with ritual. I could not stop now if I wished to. And when I have spent every ability I have, something still stands there, sheer above me. I long to follow it — and there is no way up.”",
+        "The Master was gravely ill, and Tsze-lu set the disciples to act as ministers of a great household. In a remission the Master said, “How long Yu has practiced this fraud! Pretending to ministers when I have none — whom do I deceive? Do I deceive Heaven? And besides — rather than die in the hands of ministers, would I not sooner die in yours, my friends? A grand burial I may miss; but am I dying by the side of the road?”",
+        "Tsze-kung said, “Say there is a beautiful gem here. Should I shut it in a case and keep it, or find a good price and sell it?” The Master said, “Sell it! Sell it! But I would wait for the offer.”",
+        "The Master wanted to go and live among the nine wild tribes of the east. Someone said, “They are crude. How could you?” The Master said, “If a gentleman lived among them, what crudeness would be left?”",
+        "The Master said, “Only after I came back from Wei to Lu was the music set right, and the Royal songs and the Praise songs each found their place.”",
+        "The Master said, “Abroad, to serve the ministers and nobles; at home, to serve father and elder brothers; in the rites of the dead, to spare no effort; and never to be overcome by wine — which of these can I claim?”",
+        "Standing by a stream, the Master said, “It all passes like this, does it not? Day and night, it never stops.”",
+        "The Master said, “I have yet to meet the man who loves virtue the way he loves beauty.”",
+        "The Master said, “It is like raising a mound: one basket of earth short of done, and if I stop, I am the one who stopped. It is like leveling ground: one basketful tipped in, and if I move forward, I am the one moving.”",
+        "The Master said, “The one who never flagged while I set a thing before him — that was Hui.”",
+        "The Master said of Yen Yuan, “What a loss! I watched him advance. I never saw him stop.”",
+        "The Master said, “There are sprouts that never flower. There are flowers that never fruit.”",
+        "The Master said, “Stand in awe of the young. How do you know their future will not equal our present? Only when a man is forty or fifty and nothing has been heard of him — then there is nothing left in him to fear.”",
+        "The Master said, “Words of stern correction — who can refuse to assent to them? But mending your ways is what counts. Words of gentle guidance — who can fail to be pleased by them? But unfolding what they point to is what counts. Pleased, but not unfolding; assenting, but not mending — with such a man there is nothing I can do.”",
+        "The Master said, “Put loyalty and good faith first. Have no friends who are not your equal in them. And when you are wrong, do not be afraid to mend it.”",
+        "The Master said, “You can carry off the commander of a whole army. You cannot carry off the will of one common man.”",
+        "The Master said, “To stand in a worn-out, hemp-quilted gown beside men dressed in fox and badger, and feel no shame — that is Yu, isn’t it? ‘Envying none, coveting nothing — how could he do anything but good?’” Tsze-lu took to chanting the lines constantly, until the Master said, “That much, by itself — how could it be enough to be good?”",
+        "The Master said, “Only when the year turns cold do you learn that the pine and the cypress are the last to fade.”",
+        "The Master said, “The wise are never bewildered; the human-hearted, never anxious; the brave, never afraid.”",
+        "The Master said, “There are men you can study beside whom you cannot walk the Way with. There are men you can walk the Way with whom you cannot stand firm with. And there are men you can stand firm with whom you cannot weigh things with, when the rules run out.”",
+        "“The flowers of the aspen-plum flutter and turn. How could I not be thinking of you? But your house is far away.” The Master said, “He was not thinking of them at all. To real thought, what is far?”"
+      ],
+      "title": "The Passing Stream"
+    },
+    {
+      "order": 10,
+      "label": "Book X",
+      "paragraphs": [
+        "In his own village, Confucius was unassuming and plain, as if words came hard to him. In the ancestral temple of the prince, and at court, he spoke fully on every point, and carefully.",
+        "At court, waiting, he talked with the officers of the lower grade freely and directly; with the officers of the higher grade, mildly and precisely. When the ruler was present, he was reverent to the point of unease — grave, and composed.",
+        "When the prince called him to receive a guest, his face changed and his legs seemed to catch beneath him. He bowed left and right to the officers beside him as their places required, his robe hanging even before and behind, and hurried forward, his sleeves spread like a bird’s wings. When the guest had gone, he always reported back: “The visitor has stopped looking back.”",
+        "Entering the palace gate, he drew his body in, as if the gate were too small to admit him. He never stood in the middle of the gateway; passing through, he never trod on the threshold. Passing the ruler’s empty place, his face changed and his knees bent, and his words came as if breath could barely carry them. Going up to the hall, he gathered his robe in both hands, bent his body, and held his breath as if he dared not breathe. Coming out, when he had descended one step his face eased into relief; from the bottom of the steps he moved quickly forward, sleeves like wings; and back at his own place, the respectful unease returned.",
+        "Carrying his ruler’s scepter, he bent as if the weight were too much for him, holding it no higher than hands held for a bow, no lower than hands passing a gift; his face trembled toward fear, and he dragged his feet as if they were tied to the ground. Presenting the gifts of state, his look was placid. At the private audience after, he was glad and at ease.",
+        "He wore no deep purple or puce at his collar and cuffs; even his house clothes held no red or reddish shade. In hot weather he wore a single garment of fine or coarse weave, but always over an inner one. Over lamb’s fur he wore black; over fawn’s fur, white; over fox’s fur, yellow. His informal fur robe was cut long, with the right sleeve short. His sleeping-gown had to be half again the length of his body. At home he sat on the thick furs of fox and badger. Out of mourning, he wore whatever hung from the girdle. Except for court dress, his under-skirt was cut narrow above and full below. Lamb’s fur and a black cap were not worn on visits of condolence. And on the first day of the month he put on his court robes and presented himself at court.",
+        "Fasting, he put on the bright, clean garment of plain cloth. Fasting, he changed his food, and moved from the place where he usually sat.",
+        "He did not object to rice milled fine, nor to meat minced small. Rice soured by heat or damp he did not eat, nor fish or meat gone off; nothing discolored, nothing foul-smelling, nothing badly cooked, nothing out of season. Meat cut wrong he did not eat, nor a dish without its proper sauce. However plentiful the meat, he never let it outweigh the rice. Only in wine he set no measure — but never drank to confusion. Bought wine and market dried meat he did not touch. Ginger was never absent from his table. He did not eat much. After assisting at the prince’s sacrifice, he did not keep the meat overnight; the meat of his own family’s sacrifices he kept no more than three days — past three days, it was not to be eaten. Eating, he did not converse; in bed, he did not speak. Though the meal were coarse rice and vegetable broth, he would set a little apart in offering, with a grave, respectful face.",
+        "If his mat was not straight, he did not sit.",
+        "When the villagers drank together, he left only after the elders with their staffs had gone out. When the villagers held the rites to drive out pestilence, he put on his court robes and stood on the eastern steps.",
+        "Sending his compliments to someone in another state, he bowed twice as he saw the messenger off. When Chi K’ang sent him a gift of medicine, he bowed and received it — but said, “I do not know this drug. I dare not taste it.”",
+        "The stable burned down. Coming back from court, the Master said, “Was anyone hurt?” He did not ask about the horses.",
+        "When the prince sent him cooked meat, he straightened his mat and tasted it first, then shared it out. When the prince sent raw meat, he had it cooked and offered it to his ancestors. When the prince sent a living animal, he kept it alive. Dining in attendance on the prince, while the prince made the offering, he tasted every dish first. When he was ill and the prince came to see him, he lay with his head to the east, his court robes spread over him and his sash drawn across them. When the prince’s summons came, he set out on foot, not waiting for the carriage to be yoked.",
+        "Entering the great ancestral temple of the state, he asked about everything.",
+        "When a friend died with no family to turn to, he said, “The burial is mine.” A friend’s gift — though it were a carriage and horses — received no bow. Only one gift did: the flesh of sacrifice.",
+        "In bed he did not lie like a corpse. At home he wore no formal air. At the sight of a man in mourning dress, even a familiar friend, his face changed. At the sight of a man in ceremonial cap, or a blind man, even in his house clothes, he showed them the forms of courtesy. To a man in mourning he bowed over the crossbar of his carriage; he bowed the same way to anyone carrying the registers of the people. Where a feast was set in abundance, his face changed and he rose to his feet. At a sudden clap of thunder, or a violent wind, his face changed.",
+        "Mounting his carriage, he stood square and took the mounting-cord. Inside it, he did not look sharply about, he did not talk fast, he did not point.",
+        "At the look on their faces, the bird rose; it wheeled, and then settled. The Master said, “The hen-pheasant on the hill bridge — she knows her season! She knows her season!” Tsze-lu made a motion toward it. Three times it sniffed the air, and rose."
+      ],
+      "title": "At Home and at Court"
+    },
+    {
+      "order": 16,
+      "label": "Book XVI",
+      "paragraphs": [
+        "The head of the Chi family was about to attack Chwan-yu. Zan Yu and Chi-lu came to see Confucius and said, \"Our chief is going to move against Chwan-yu.\" Confucius said, \"Ch'iu, isn't this your failure? Long ago a former king gave the ruler of Chwan-yu charge of the sacrifices to the eastern Mang. Besides, the place lies inside our own borders, and its lord is a minister of the sovereign himself. What business has your chief attacking it?\" Zan Yu said, \"Our master wants this. Neither of us, his two ministers, wants it.\" Confucius said, \"Ch'iu, Chau Zan had a saying: 'Show your strength and take your place in the ranks; if you cannot, step down.' What good is a guide who won't steady the blind man when he totters, or lift him when he falls? And besides, what you say is wrong. When the tiger or the rhinoceros breaks out of its cage, when the tortoise-shell or the jade is smashed inside its case — whose fault is that?\" Zan Yu said, \"But Chwan-yu is strong now, and close to Pi. If our chief does not take it today, it will be a grief to his sons and grandsons.\" Confucius said, \"Ch'iu, a gentleman hates the man who will not say plainly 'I want it,' and has to dress the wanting up in reasons. Here is what I have heard: the lord of a state, the head of a house, does not worry that his people are few; he worries that what they have is shared unevenly. He does not worry about poverty; he worries about unrest. For share evenly, and there is no poverty; live in harmony, and there is no lack of people; keep the peace, and nothing gets overthrown.\"",
+        "\"And so, if people far away will not submit, you cultivate learning and virtue to draw them in — and once they have come, you give them peace. Now look at the two of you, Yu and Ch'iu, standing at your chief's side. People far away will not submit, and you cannot draw them in. The state itself is splitting and crumbling, and you cannot hold it together. And in the middle of this, he plans to raise spears and shields inside his own country. I am afraid the trouble of the Chi-sun family is not coming from Chwan-yu. It is waiting inside their own walls.\"",
+        "Confucius said, \"When the Way holds in the world, ritual, music, and military campaigns issue from the Son of Heaven. When the Way is lost, they issue from the princes — and once they issue from the princes, few houses last ten generations. Once they issue from the great officers, few last five. Once the stewards of the great officers hold the orders of state in their hands, few last three. When the Way holds in the world, government does not sit with the great officers. When the Way holds in the world, the common people do not argue politics.\"",
+        "Confucius said, \"The revenue left the ducal house five generations ago. The government has sat with the great officers for four. That is why the descendants of the three Hwan are fading away.\" Confucius said, \"Three friendships profit a man, and three do him harm. Friendship with the upright, friendship with the faithful, friendship with the widely informed — these profit him. Friendship with the man of studied airs, friendship with the professional pleaser, friendship with the glib — these do him harm.\"",
+        "Confucius said, \"Three pleasures profit a man, and three do him harm. Pleasure in the measured practice of ritual and music, pleasure in speaking well of others, pleasure in having many worthy friends — these profit him. Pleasure in extravagance, pleasure in idle roaming, pleasure in the feast — these do him harm.\" Confucius said, \"In attendance on a gentleman, there are three mistakes. To speak before it is your turn — that is called rashness. To hold back when it is your turn — that is called hiding. To speak without reading his face — that is called blindness.\"",
+        "Confucius said, \"There are three things a gentleman guards against. In youth, before the blood has settled, he guards against lust. In his prime, when the blood is at full strength, he guards against fighting. In old age, when the blood has thinned, he guards against greed.\" Confucius said, \"There are three things a gentleman stands in awe of. He stands in awe of Heaven's decrees. He stands in awe of great men. He stands in awe of the words of the sages. The small man does not know Heaven's decrees, and so does not fear them. He takes liberties with great men. He makes jokes of the words of the sages.\"",
+        "Confucius said, \"Those born knowing it stand highest. Those who learn it and come to know stand next. Those who find it hard and learn anyway come after them. Those who find it hard and do not learn — they are the lowest of the people.\" Confucius said, \"A gentleman keeps nine things in mind. Seeing, he thinks: is it clear? Hearing: is it exact? His expression: is it warm? His bearing: is it respectful? His words: are they true? His work: is it careful? In doubt, he thinks of asking. In anger, he thinks of the trouble to come. And at the sight of gain, he thinks of what is right.\"",
+        "Confucius said, \"'They see the good and chase it as if they could never catch up; they see the bad and flinch as if they had put a hand in boiling water' — I have seen the men, and I have heard the words. 'They live hidden to pursue their aims; they do what is right to carry their Way through' — I have heard the words. I have not seen the men.\" The duke Ching of Ch'i had a thousand teams of four horses; the day he died, the people could not find one virtue to praise him for. Po-i and Shu-ch'i starved to death at the foot of Shau-yang mountain, and the people praise them to this day. Isn't that what the saying means?",
+        "Ch'an K'ang asked Po-yu, \"Have you heard anything from your father that the rest of us have not?\" Po-yu answered, \"No. Once, when he was standing alone and I hurried across the courtyard, he said to me, 'Have you learned the Odes?' 'Not yet,' I said. 'If you do not learn the Odes,' he said, 'you will have nothing to say.' I went away and studied the Odes.\"",
+        "\"Another day he was standing alone again, and as I hurried across the courtyard he said to me, 'Have you learned ritual?' 'Not yet,' I said. 'If you do not learn ritual,' he said, 'you will have nothing to stand on.' I went away and studied ritual. Those two things are all I have ever heard from him.\" Ch'an K'ang came away delighted. \"I asked one thing,\" he said, \"and I have gotten three. I have heard about the Odes. I have heard about ritual. And I have heard that a gentleman keeps his own son at arm's length.\"",
+        "The wife of the ruler of a state: the ruler calls her FU ZAN, the Lady. She calls herself HSIAO T'UNG, this little child. The people of the state call her CHUN FU ZAN, our lord's Lady; to people of other states, they speak of her as K'WA HSIAO CHUN, our poor little prince. And the people of other states call her CHUN FU ZAN as well."
+      ],
+      "title": "The Chi Family"
+    },
+    {
+      "order": 17,
+      "label": "Book XVII",
+      "paragraphs": [
+        "Yang Ho wanted to see Confucius, and Confucius would not see him. So Ho sent him a suckling pig — and Confucius, picking an hour when Ho was out, went to his house to return thanks. But he met him on the road. Ho said to Confucius, \"Come here. I want a word with you. A man hides his treasure in his coat while his country loses its way — would you call him human-hearted?\" \"No,\" said Confucius. \"A man longs to serve, yet over and over lets his moment slip — would you call him wise?\" \"No,\" said Confucius. \"The days and months are running out. The years do not wait for us.\" Confucius said, \"True. I will take office.\"",
+        "The Master said, \"By nature men are close to one another. By habit they end up far apart.\" The Master said, \"Only two kinds never change: the wisest, and the dullest.\"",
+        "The Master came to Wu-ch'ang and heard strings and singing all through the town. He smiled. \"Why use an ox-cleaver,\" he said, \"to kill a chicken?\" Tsze-yu answered, \"Master, I once heard you say, 'When the gentleman studies the Way, he loves men. When the common man studies the Way, he is easy to lead.'\" The Master said, \"My friends, Yen is right. What I said was a joke.\" Kung-shan Fu-zao, holding the city of Pi in revolt, sent for the Master, and the Master was inclined to go. Tsze-lu didn't like it. \"So there is nowhere left to go,\" he said. \"Fine. But why must it be Kung-shan?\"",
+        "The Master said, \"Would the man have called me for nothing? If someone would only use me — could I not make an eastern Chau?\" Tsze-chang asked Confucius about human-heartedness. Confucius said, \"To be able to carry five things everywhere under heaven — that is human-heartedness.\" He asked what they were. \"Gravity, generosity, good faith, diligence, kindness. Be grave, and no one will treat you with contempt. Be generous, and you will win everyone. Keep faith, and men will trust you with things. Be diligent, and you will get things done. Be kind, and you will be able to ask men for their work.\"",
+        "Pi Hsi sent for him, and the Master was inclined to go. Tsze-lu said, \"Master, I once heard you say, 'A gentleman does not walk into the house of a man who has chosen evil with his own hands.' Pi Hsi is holding Chung-mau in revolt. If you go to him, what will people say?\" The Master said, \"Yes, I said that. But don't they also say hard — so hard that grinding cannot thin it? Don't they also say white — so white that black dye cannot darken it? Am I a bitter gourd, fit to hang on a string and never be eaten?\"",
+        "The Master said, \"Yu, have you heard of the six words and the six faults that shadow them?\" \"I have not.\" \"Sit down, and I will tell you. To love human-heartedness without loving learning ends in folly. To love knowledge without loving learning ends in drift. To love good faith without loving learning ends in damage. To love straight speech without loving learning ends in harshness. To love courage without loving learning ends in disorder. To love firmness without loving learning ends in recklessness.\"",
+        "The Master said, \"My young friends, why does none of you study the Odes? The Odes can rouse you. They can open your eyes. They can put you in company. They can teach you how to complain. Near at hand, they teach you to serve your father; further off, to serve your prince. And from them you learn the names of birds and beasts, plants and trees, more than you can count.\" The Master said to Po-yu, \"Have you worked through the Chau-nan and the Shao-nan? A man who has not worked through the Chau-nan and the Shao-nan stands with his face against a wall.\"",
+        "The Master said, \"'Ritual! Ritual!' they say. Is it jade and silk they mean? 'Music! Music!' they say. Is it bells and drums?\" The Master said, \"A stern face over a weak heart — set that man among the small men: isn't he the thief who bores through the wall, or climbs over it?\" The Master said, \"The village paragon is the thief of virtue.\" The Master said, \"To hear it on the road and tell it on the road is to throw virtue away.\"",
+        "The Master said, \"These vulgar men — can you serve a prince beside them? Before they have a thing, their one worry is getting it. Once they have it, their one worry is losing it. And a man in dread of losing his place will do anything. There is nothing he will not do.\" The Master said, \"The ancients had three faults, and even those we may have lost. The wild men of old ignored the small things; the wild men of today just run loose. The proud men of old had sharp corners; the proud men of today have sharp tempers. The fools of old were at least straight; the fools of today are simply liars.\"",
+        "The Master said, \"Clever words and a charming face rarely go with human-heartedness.\" The Master said, \"I hate purple for stealing the place of vermilion. I hate the tunes of Chang for fouling the music of the Ya. I hate the sharp-tongued for toppling states and houses.\" The Master said, \"I would rather say nothing at all.\" Tsze-kung said, \"But Master, if you say nothing, what will we, your students, have to pass on?\" The Master said, \"Does Heaven say anything? The four seasons turn, the hundred creatures are born — and does Heaven say a word?\"",
+        "Zu Pei asked to see Confucius, and Confucius sent word that he was ill. Then, as the messenger was going out the door, he took up his lute and sang — making sure Pei heard it. Tsai Wo asked about the three years' mourning for parents. \"One year is long enough,\" he said. \"If a gentleman lets ritual alone for three years, ritual will fall apart. If he lets music alone for three years, music will collapse. Within a year the old grain is gone and the new grain is standing; the fire-drill has gone through its round of woods. A year, and mourning should end.\" The Master said, \"A year on — eating fine rice, wearing brocade — would you be at ease?\" \"I would,\" said Wo.",
+        "\"If you are at ease, then do it. A gentleman in mourning tastes no sweetness in fine food, hears no pleasure in music, finds no rest in his own house. So he does not do these things. But you are at ease — so do them.\" Tsai Wo went out, and the Master said, \"There is no human-heartedness in Yu. A child is three years old before it leaves its parents' arms; the three years' mourning is kept everywhere under heaven. And Yu — did he not get his three years of love from his father and mother?\"",
+        "The Master said, \"Stuffed with food to the end of the day, mind set on nothing — a hard case! Are there no dice players, no players of go? Even that would be better than nothing.\" Tsze-lu said, \"Does the gentleman put courage first?\" The Master said, \"The gentleman puts rightness first. A great man with courage and no rightness makes a rebel. A small man with courage and no rightness makes a robber.\" Tsze-kung said, \"Does the gentleman have his hatreds too?\" The Master said, \"He has his hatreds. He hates those who broadcast other men's faults. He hates the man beneath who slanders the men above. He hates courage without ritual. He hates the bold and decisive whose minds are shut.\"",
+        "Then the Master asked, \"Ts'ze, do you have your hatreds?\" Tsze-kung said, \"I hate prying passed off as wisdom. I hate insolence passed off as courage. I hate informing passed off as honesty.\" The Master said, \"Women of the house and servants are the hardest to deal with. Come close, and they lose respect. Keep back, and they resent you.\" The Master said, \"If a man is forty and still disliked, that is how he ends.\""
+      ],
+      "title": "Yang Ho"
+    },
+    {
+      "order": 18,
+      "label": "Book XVIII",
+      "paragraphs": [
+        "The Viscount of Wei withdrew from the court. The Viscount of Chi became a slave to Chau. Pi-kan protested, and died for it. Confucius said, \"The Yin had three human-hearted men.\"",
+        "Hui of Liu-hsia was chief judge, and three times he was thrown out of office. Someone said, \"Isn't it time, sir, to leave altogether?\" He said, \"If I serve men by the straight Way, where can I go that they will not throw me out three times? And if I am willing to serve men by the crooked way, why should I have to leave the country of my father and mother at all?\" The duke Ching of Ch'i, considering how to receive Confucius, said, \"I cannot treat him as I would the head of the Chi family. I will treat him as something between Chi and Mang.\" Then he said, \"I am old. I cannot use him.\" And Confucius left. The people of Ch'i sent Lu a gift of women musicians. Chi Hwan accepted them, and for three days no court was held. And Confucius left.",
+        "Chieh-yu, the madman of Ch'u, went past Confucius singing: \"Phoenix! Phoenix! How your virtue has withered! What is gone is past all pleading; what is coming can still be caught. Enough, enough! Danger, now, for men who meddle in government!\" Confucius got down from his carriage, wanting to speak with him. But Chieh-yu quickened his step and was gone, and Confucius never got his word. Ch'ang-tsu and Chieh-ni were plowing together in the same field when Confucius passed by, and he sent Tsze-lu to ask them where the ford was. Ch'ang-tsu said, \"Who is that, holding the reins?\" \"That is K'ung Ch'iu,\" said Tsze-lu. \"K'ung Ch'iu of Lu?\" \"Yes.\" \"Then he knows the ford.\"",
+        "Tsze-lu asked Chieh-ni instead. \"And who are you?\" said Chieh-ni. \"Chung Yu.\" \"The disciple of K'ung Ch'iu of Lu?\" \"I am.\" \"The whole world is one rushing flood, and who is there to change it with? You follow a master who runs from this man and that man. Wouldn't you do better following men who have run from the world itself?\" And he went on raking earth over the seed without a pause. Tsze-lu went back and reported it. The Master fell quiet a moment, then said, \"A man cannot flock with the birds and beasts. If I am not to live among these people — among men — whom am I to live with? If the Way held in the world, I would not be out here trying to change it.\"",
+        "Tsze-lu, traveling behind the Master, had fallen back when he met an old man carrying a weeding basket slung on his staff. Tsze-lu asked him, \"Sir, have you seen my master?\" The old man said, \"You, whose four limbs have never worked, who couldn't tell the five grains apart — whose master?\" And he planted his staff and went to weeding. Tsze-lu stood and waited, hands folded in respect. The old man kept him for the night, killed a chicken and cooked millet for him, and presented his two sons. Next day Tsze-lu caught up and told the story. The Master said, \"A recluse,\" and sent him back to see the man again. When Tsze-lu got there, the man had gone.",
+        "Tsze-lu said to the household, \"It is not right to refuse to serve. The courtesies between old and young cannot be set aside; how then can the duty between ruler and minister be set aside? To keep his own person clean, he lets the great relation fall into ruin. A gentleman takes office because it is right to serve — knowing perfectly well that the Way is not going to prevail.\" The men who withdrew from the world: Po-i, Shu-ch'i, Yu-chung, I-yi, Chu-chang, Hui of Liu-hsia, Shao-lien. The Master said, \"Never bending their wills, never letting their persons be shamed — that was Po-i and Shu-ch'i.\"",
+        "\"Of Hui of Liu-hsia and Shao-lien you can say they bent their wills and let their persons be shamed. But their words held the line, and their acts were what men hope for. That much, and no more. Of Yu-chung and I-yi you can say they lived hidden and said whatever they pleased. But they kept their persons clean, and their withdrawal weighed the times exactly. I am different from all of them. Nothing is ruled in for me, and nothing is ruled out.\" Chih, the grand music master, went to Ch'i. Kan, who played at the second meal, went to Ch'u. Liao, of the third meal, went to Ts'ai. Chueh, of the fourth, went to Ch'in. Fang-shu the drummer crossed north of the River.",
+        "Wu, who played the hand drum, crossed the Han. Yang the assistant master and Hsiang, who struck the stone chimes, crossed the sea to the islands. The duke of Chau said to his son, the duke of Lu: \"A true prince does not neglect his own kin. He does not leave his great ministers bitter at never being used. He does not cast off men of the old families without grave cause. And he does not demand from any one man a talent for everything.\"",
+        "Chau had its eight officers: Po-ta and Po-kwo, Chung-tu and Chung-hwu, Shu-ya and Shu-hsia, Chi-sui and Chi-kwa."
+      ],
+      "title": "The Viscount of Wei"
+    },
+    {
+      "order": 19,
+      "label": "Book XIX",
+      "paragraphs": [
+        "Tsze-chang said, \"A scholar in service who, seeing danger, will give his life; who, seeing gain, thinks of what is right; who in sacrifice thinks of reverence and in mourning thinks of grief — he will do.\" Tsze-chang said, \"Holding virtue without breadth, trusting the Way without depth — what does such a man add to the world? And what does he take from it?\"",
+        "The disciples of Tsze-hsia asked Tsze-chang about making friends. Tsze-chang said, \"What does Tsze-hsia tell you?\" They answered, \"Tsze-hsia says: keep company with those who are worth it, and turn away those who are not.\" Tsze-chang said, \"That is not what I was taught. A gentleman honors the worthy and makes room for the many; he praises the good and pities the incapable. If I am greatly worthy, who is there I cannot make room for? If I am unworthy, men will turn me away first — how would I ever get to turning away them?\" Tsze-hsia said, \"Even the minor paths have things worth seeing along them. But follow them far and you bog down — which is why the gentleman does not take them.\"",
+        "Tsze-hsia said, \"A man who learns, day by day, what he still lacks, and month by month does not lose what he has — call him a lover of learning.\" Tsze-hsia said, \"Study widely and hold your purpose fast; question closely and think about what is near at hand. Human-heartedness is in that.\" Tsze-hsia said, \"The hundred craftsmen live in their shops to finish their work. The gentleman learns, to carry his Way to its end.\"",
+        "Tsze-hsia said, \"The small man always dresses up his faults.\" Tsze-hsia said, \"The gentleman changes three times. From far off he looks stern. Up close, he is warm. And when you hear him speak, every word is exact.\" Tsze-hsia said, \"The gentleman wins his people's trust, and then he puts them to work; without the trust, they would call it oppression. He wins his prince's trust, and then he criticizes; without the trust, the prince would call it slander.\" Tsze-hsia said, \"In the great virtues a man must not cross the line. In the small ones, a little coming and going is allowed.\"",
+        "Tsze-yu said, \"The students of Tsze-hsia can sprinkle and sweep a floor, answer a call, come forward and step back — and do it well. But those are twigs. Of the root they know nothing. What sort of learning is that?\" Tsze-hsia heard it and said, \"Ah, Yen Yu is wrong. In the gentleman's Way, which lesson do you hand on first? Which do you leave to ripen? Students are like plants: you tend each kind as its kind requires. The gentleman's Way does not cheat its beginners. And to hold it whole, first things and last things in a single grasp — only the sage does that.\"",
+        "Tsze-hsia said, \"Strength left over from office should go to learning. Strength left over from learning should go to office.\" Tsze-hsia said, \"Mourning should go all the way to grief, and stop there.\" Tsze-hsia said, \"My friend Chang can do what other men find nearly impossible. Even so, he is not yet human-hearted.\" Master Tsang said, \"How grand Chang is! Hard to work at human-heartedness beside a man like that.\" Master Tsang said, \"I heard this from the Master: no man ever gives the whole of himself — unless it is in mourning his parents.\"",
+        "Master Tsang said, \"I heard this from the Master: the filial piety of Mang Chwang — in most of it, other men could match him. But he changed nothing: his father's ministers, his father's way of governing, he kept them all. That is the part hard to match.\" The head of the Mang family made Yang Fu a criminal judge, and Yang Fu came to Master Tsang for advice. Tsang said, \"The men above have lost the Way, and the people have come apart — and it has been so for a long time. When you dig out the truth of a case, grieve for them and pity them. Never congratulate yourself on finding it.\"",
+        "Tsze-kung said, \"Chau cannot have been as wicked as his name. This is why a gentleman hates to live downstream: everything foul in the world comes washing down to him.\" Tsze-kung said, \"The faults of a gentleman are eclipses of the sun and moon. When he fails, everyone sees it. When he mends it, everyone looks up again.\" Kung-sun Ch'ao of Wei asked Tsze-kung, \"Where did Chung-ni get his learning?\" Tsze-kung said, \"The Way of Wan and Wu has not fallen to the ground yet. It is alive in people. The worthy remember its great parts; the rest remember its small ones. Nobody is without a piece of the Way of Wan and Wu. Where could our Master go and not be learning? And why should he have needed one fixed teacher?\"",
+        "Shu-sun Wu-shu said to the great officers at court, \"Tsze-kung is a better man than Chung-ni.\" Tsze-fu Ching-po repeated it to Tsze-kung, who said, \"Put it in terms of a house and its wall. My wall comes up to a man's shoulder: anyone walking by can look over and see whatever is good inside. The Master's wall is many fathoms high: unless you find the gate and enter, you will never see the beauty of the ancestral temple or the hundred officers in their splendor. And the ones who find the gate, I think, are few. So the chief's remark — what else would you expect?\"",
+        "Shu-sun Wu-shu spoke against Chung-ni. Tsze-kung said, \"Save your breath. Chung-ni cannot be pulled down. The worth of other men is a hill, a mound — a thing you can still climb over. Chung-ni is the sun and the moon. There is no climbing over them. A man may choose to shut them out, but what harm does that do the sun and the moon? It only shows how badly he has measured himself.\" Ch'an Tsze-ch'in said to Tsze-kung, \"You are being modest. In what way is Chung-ni better than you?\" Tsze-kung said, \"One word can mark a gentleman wise, and one word can mark him a fool. We cannot afford to be careless in what we say. No one reaches the Master, the way no one climbs a stairway to the sky.\"",
+        "\"Had the Master been given a state or a great house, it would have gone as the old words say. He plants the people, and they stand. He leads them, and they walk. He settles them, and they come from every side. He stirs them, and they move as one. Living, he is their glory. Dead, he is their grief. How could anyone reach him?\""
+      ],
+      "title": "Tsze-chang"
+    },
+    {
+      "order": 20,
+      "label": "Book XX",
+      "paragraphs": [
+        "Yao said, \"Ah, Shun. The count of Heaven's succession rests now on your shoulders. Hold honestly to the center. If the four seas fall into hardship and want, Heaven's gift ends forever.\" Shun laid the same charge on Yu. T'ang said, \"I, the little child Li, dare to offer this dark bull, and dare to declare it plainly to you, most august and sovereign Lord: the guilty I dare not pardon; your servants I do not hide from you. The judging of them is in your own heart, Lord. If there is guilt in me, let it not touch the ten thousand regions. If there is guilt in the ten thousand regions, let it rest on me.\"",
+        "Chau gave great gifts, and good men grew rich. \"I have kinsmen of my own,\" said the king, \"but better than kinsmen are human-hearted men. If the hundred families do wrong, let it lie on me — the One Man.\" He set the weights and measures right, went over the laws again, restored the officers who had been dismissed — and government flowed through the whole kingdom. He raised up states that had been wiped out, mended lines of succession that had been cut, called back to office men who had gone into hiding — and the hearts of everyone under heaven turned to him. What he gave most weight to: the people's food, mourning, and sacrifice. He was generous, and won the crowd. He kept faith, and the people leaned on him. He was diligent, and the work was done. He was just, and they were glad.",
+        "Tsze-chang asked Confucius, \"What must a man do, to be fit to govern?\" The Master said, \"Honor the five fine things, and cast out the four ugly things. Then he is fit to govern.\" Tsze-chang said, \"What are the five fine things?\" The Master said, \"The gentleman in authority is generous without expense. He works the people, and they do not resent it. He desires, and is not greedy. He is at his ease, and is not proud. He is imposing, and never fierce.\"",
+        "Tsze-chang said, \"What is 'generous without expense'?\" The Master said, \"Benefit the people by way of the things that already benefit them — generous, is it not, and at no expense? Choose the labors that are rightly theirs and set them to work — who resents that? Desire human-heartedness, and obtain human-heartedness — where is the greed in that? Many or few, great or small, the gentleman never dares to brush a man aside — at ease, is he not, and never proud? He sets his robe and cap straight and lifts a level gaze, and men look at him with awe — imposing, is he not, and never fierce?\" Tsze-chang said, \"And the four ugly things?\" The Master said, \"To execute people without ever teaching them — that is called cruelty. To demand the finished count without fair warning — that is called tyranny. To let an order lie slack and then insist on it to the day — that is called laying a trap.\"",
+        "\"And when a thing must be given to men in any case, to count it out grudgingly — that is called playing the petty clerk.\" The Master said, \"A man who does not know Heaven's decree has no way to be a gentleman. A man who does not know ritual has no way to stand. A man who does not know words has no way to know men.\""
+      ],
+      "title": "Yao Said"
+    }
+  ]
 }
