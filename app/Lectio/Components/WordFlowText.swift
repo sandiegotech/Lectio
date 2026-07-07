@@ -1,12 +1,12 @@
 import SwiftUI
 import UIKit
 
-// Collects each token's frame (in global space) so taps and drags can be mapped to words.
-struct TokenFrameKey: PreferenceKey {
-    static var defaultValue: [Int: CGRect] = [:]
-    static func reduce(value: inout [Int: CGRect], nextValue: () -> [Int: CGRect]) {
-        value.merge(nextValue(), uniquingKeysWith: { _, new in new })
-    }
+// The paragraph's own origin in the reader coordinate space — combined with the
+// layout-local token frames FlowLayout reports, this maps touches to words with a
+// single GeometryReader instead of one per token.
+struct FlowOriginKey: PreferenceKey {
+    static var defaultValue: CGPoint = .zero
+    static func reduce(value: inout CGPoint, nextValue: () -> CGPoint) { value = nextValue() }
 }
 
 // Renders a paragraph as individually laid-out words so the reader can:
@@ -18,7 +18,14 @@ struct TokenFrameKey: PreferenceKey {
 // scrolls — only a deliberate hold claims the touch for selection.
 struct WordFlowText: View {
     // Holds token frames without triggering a re-render (used to anchor popups & map drags).
-    final class FrameBox { var frames: [Int: CGRect] = [:] }
+    // `local` frames come straight from FlowLayout; `origin` lifts them into reader space.
+    final class FrameBox {
+        var local: [Int: CGRect] = [:]
+        var origin: CGPoint = .zero
+        func frame(_ i: Int) -> CGRect? {
+            local[i].map { $0.offsetBy(dx: origin.x, dy: origin.y) }
+        }
+    }
 
     let text: String
     let pal: Palette
@@ -67,8 +74,12 @@ struct WordFlowText: View {
         self.normTokens = self.tokens.map { WordDictionary.normalize($0) }
     }
 
+    private var flow: FlowLayout {
+        FlowLayout(spacing: 0, lineSpacing: 7).reporting { [box] i, f in box.local[i] = f }
+    }
+
     var body: some View {
-        FlowLayout(spacing: 0, lineSpacing: 7) {
+        flow {
             ForEach(tokens.indices, id: \.self) { i in
                 if tokens[i] == "\n" {
                     // A hard line break (verse): zero-size marker the layout breaks on.
@@ -80,10 +91,7 @@ struct WordFlowText: View {
                         .foregroundColor(pal.ink)
                         .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
-                        .background(GeometryReader { g in
-                            Color.clear.preference(key: TokenFrameKey.self,
-                                                   value: [i: g.frame(in: .named(space))])
-                        })
+                        .layoutValue(key: TokenIndexKey.self, value: i)
                         .contentShape(Rectangle())
                         .onTapGesture { onTap() }
                         // Records which word the hold began on (the sequenced gesture below
@@ -95,7 +103,11 @@ struct WordFlowText: View {
                 }
             }
         }
-        .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
+        .background(GeometryReader { g in
+            Color.clear.preference(key: FlowOriginKey.self,
+                                   value: g.frame(in: .named(space)).origin)
+        })
+        .onPreferenceChange(FlowOriginKey.self) { [box] in box.origin = $0 }
         // Hold to select, keep holding to extend. Sequencing the drag behind the long
         // press means a plain swipe never loses the scroll — only a completed hold
         // claims the touch for selection.
@@ -147,19 +159,21 @@ struct WordFlowText: View {
     private func norm(_ i: Int) -> String { normTokens[i] }
 
     private func center(_ i: Int) -> CGPoint {
-        let f = box.frames[i] ?? .zero
+        let f = box.frame(i) ?? .zero
         return CGPoint(x: f.midX, y: f.midY)
     }
 
     // The token nearest a touch point — exact hit first, then closest by line (vertical
     // distance weighted heavily so a drag past the margin stays on its own line).
+    // Compares in layout-local space (one subtraction) rather than lifting every frame.
     private func tokenIndex(at p: CGPoint) -> Int? {
+        let lp = CGPoint(x: p.x - box.origin.x, y: p.y - box.origin.y)
         var best: Int? = nil
         var bestDist = CGFloat.greatestFiniteMagnitude
-        for (i, f) in box.frames {
-            if f.contains(p) { return i }
-            let dy = max(0, max(f.minY - p.y, p.y - f.maxY))
-            let dx = max(0, max(f.minX - p.x, p.x - f.maxX))
+        for (i, f) in box.local {
+            if f.contains(lp) { return i }
+            let dy = max(0, max(f.minY - lp.y, lp.y - f.maxY))
+            let dx = max(0, max(f.minX - lp.x, lp.x - f.maxX))
             let d = dy * 8 + dx
             if d < bestDist { bestDist = d; best = i }
         }

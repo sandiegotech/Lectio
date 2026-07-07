@@ -131,7 +131,7 @@ struct LibraryView: View {
             // partway into that work, so the Continue-reading card shows (for screenshots).
             if let wid = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEED_READING"],
                let w = library.works.first(where: { $0.id == wid }),
-               let ed = library.editions[w.defaultEditionId] {
+               let ed = library.edition(w.defaultEditionId) {
                 let sec = ed.sections.count > 3 ? ed.sections[3] : ed.sections.first
                 reading.savePosition(workId: w.id, editionId: ed.id,
                                      sectionId: sec?.id, segmentId: sec?.segments.first?.id)
@@ -234,7 +234,7 @@ struct LibraryView: View {
     // "Book IV · 17% through · Lectio Edition" — where the reader left off.
     private func continueSubtitle(_ work: Work) -> String {
         let st = reading.state(work.id)
-        guard let ed = library.editions[st?.editionId ?? work.defaultEditionId] else { return work.author }
+        guard let ed = library.edition(st?.editionId ?? work.defaultEditionId) else { return work.author }
         var parts: [String] = []
         if let sid = st?.sectionId, let i = ed.sections.firstIndex(where: { $0.id == sid }) {
             parts.append(ed.sections[i].label)

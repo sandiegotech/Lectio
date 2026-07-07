@@ -245,7 +245,7 @@ struct WordStudyView: View {
         guard let w = work else { return [] }
         let needles = ([study.term] + (entry?.aliases ?? [])).map { $0.lowercased() }
         return w.editionIds.compactMap { eid -> EditionOccurrence? in
-            guard let ed = library.editions[eid], !ed.sections.isEmpty else { return nil }
+            guard let ed = library.edition(eid), !ed.sections.isEmpty else { return nil }
             var count = 0
             var firstIn: String?
             for sec in ed.sections {

@@ -5,7 +5,6 @@ import Combine
 // memory at launch. The bundle is small; loading is synchronous and cheap.
 final class Library: ObservableObject {
     @Published var works: [Work] = []
-    @Published var editions: [String: Edition] = [:]
     @Published var collections: [BookCollection] = []
     @Published var enrichment: [String: Enrichment] = [:]
     @Published var explore: [ExploreRecord] = []
@@ -14,6 +13,21 @@ final class Library: ObservableObject {
     // workId -> normalized term/alias -> curated glossary entry. Built once at load so
     // a tap is an O(1) dictionary hit regardless of which edition's name was tapped.
     private var glossIndex: [String: [String: Enrichment.GlossEntry]] = [:]
+
+    // Editions decode lazily — the full texts are ~20 MB of JSON, far too much to parse
+    // before the shelf appears. Launch records where each edition lives; the first open
+    // of a book pays its own (small) decode and the cache keeps it.
+    private var editionDir: [String: String] = [:]     // editionId -> "content/works/<id>"
+    private var editionCache: [String: Edition] = [:]
+
+    func edition(_ id: String) -> Edition? {
+        if let e = editionCache[id] { return e }
+        guard let dir = editionDir[id] else { return nil }
+        let short = String(id.split(separator: ".").last ?? "")
+        guard let e = decode(Edition.self, short, in: "\(dir)/editions") else { return nil }
+        editionCache[id] = e
+        return e
+    }
 
     private let decoder = JSONDecoder()
 
@@ -30,6 +44,8 @@ final class Library: ObservableObject {
     }
 
     func load() {
+        let t0 = Date()
+        defer { print("LECTIO library load: \(Int(Date().timeIntervalSince(t0) * 1000))ms") }
         guard let manifest = decode(Manifest.self, "manifest", in: "content") else { return }
 
         collections = manifest.collections.compactMap {
@@ -42,10 +58,7 @@ final class Library: ObservableObject {
             works.append(work)
 
             for editionId in work.editionIds {
-                let short = String(editionId.split(separator: ".").last ?? "")
-                if let edition = decode(Edition.self, short, in: "\(dir)/editions") {
-                    editions[editionId] = edition
-                }
+                editionDir[editionId] = dir
             }
 
             if let en = decode(Enrichment.self, "enrichment", in: dir) {
@@ -87,7 +100,7 @@ final class Library: ObservableObject {
         return nil
     }
 
-    func edition(for work: Work) -> Edition? { editions[work.defaultEditionId] }
+    func edition(for work: Work) -> Edition? { edition(work.defaultEditionId) }
 
     // A work's cover art, if one is bundled at content/works/<id>/cover.jpg.
     func coverURL(_ workId: String) -> URL? {

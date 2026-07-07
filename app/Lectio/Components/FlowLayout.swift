@@ -6,6 +6,13 @@ struct LineBreakKey: LayoutValueKey {
     static let defaultValue: Bool = false
 }
 
+// Tags a subview with its token index so the layout can report where it placed it
+// (WordFlowText maps touches to words from these frames — far cheaper than giving
+// every word its own GeometryReader).
+struct TokenIndexKey: LayoutValueKey {
+    static let defaultValue: Int = -1
+}
+
 // Wrapping layout. Used for the rail's chips and for word-by-word tappable text
 // (where horizontal `spacing` is 0 because each word token carries its own trailing
 // space, and `lineSpacing` controls the gap between wrapped lines). A subview marked
@@ -13,6 +20,22 @@ struct LineBreakKey: LayoutValueKey {
 struct FlowLayout: Layout {
     var spacing: CGFloat = 6
     var lineSpacing: CGFloat? = nil
+    // Called with (tokenIndex, frame-relative-to-layout-origin) for each indexed
+    // subview as it is placed. Deliberately NOT in the init: a trailing closure at
+    // the many `FlowLayout(spacing:) { chips }` call sites must keep binding to the
+    // content builder, so the reporter attaches via .reporting(_:) instead.
+    private var onPlace: ((Int, CGRect) -> Void)? = nil
+
+    init(spacing: CGFloat = 6, lineSpacing: CGFloat? = nil) {
+        self.spacing = spacing
+        self.lineSpacing = lineSpacing
+    }
+
+    func reporting(_ onPlace: @escaping (Int, CGRect) -> Void) -> FlowLayout {
+        var copy = self
+        copy.onPlace = onPlace
+        return copy
+    }
 
     private var vGap: CGFloat { lineSpacing ?? spacing }
 
@@ -52,6 +75,12 @@ struct FlowLayout: Layout {
             }
             view.place(at: CGPoint(x: bounds.minX + x, y: bounds.minY + y),
                        proposal: ProposedViewSize(size))
+            if let onPlace {
+                let idx = view[TokenIndexKey.self]
+                if idx >= 0 {
+                    onPlace(idx, CGRect(x: x, y: y, width: size.width, height: size.height))
+                }
+            }
             x += size.width + spacing
             rowHeight = max(rowHeight, size.height)
         }

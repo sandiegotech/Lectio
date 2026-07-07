@@ -100,20 +100,20 @@ struct ReaderView: View {
             default: return 1
             }
         }
-        return work.editionIds.compactMap { library.editions[$0] }.sorted { a, b in
+        return work.editionIds.compactMap { library.edition($0) }.sorted { a, b in
             if rank(a) != rank(b) { return rank(a) < rank(b) }
             return (a.publishedYear ?? 0) > (b.publishedYear ?? 0)
         }
     }
 
     private var currentEdition: Edition? {
-        if let id = currentEditionId, let e = library.editions[id] { return e }
-        return library.editions[work.defaultEditionId] ?? editions.first
+        if let id = currentEditionId, let e = library.edition(id) { return e }
+        return library.edition(work.defaultEditionId) ?? editions.first
     }
 
     // The edition shown alongside in compare mode (any edition other than the one being read).
     private var compareEdition: Edition? {
-        if let id = compareEditionId, let e = library.editions[id], id != currentEdition?.id { return e }
+        if let id = compareEditionId, let e = library.edition(id), id != currentEdition?.id { return e }
         return editions.first { $0.id != currentEdition?.id }
     }
 
@@ -201,7 +201,7 @@ struct ReaderView: View {
             if !didRestore {
                 didRestore = true
                 let st = reading.state(work.id)
-                if let eid = st?.editionId, library.editions[eid] != nil { currentEditionId = eid }
+                if let eid = st?.editionId, library.edition(eid) != nil { currentEditionId = eid }
                 introExpanded = !reading.introSeen(work.id)
                 reading.markIntroSeen(work.id)
                 switch initialTarget {
