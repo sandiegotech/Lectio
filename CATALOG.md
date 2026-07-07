@@ -2,7 +2,7 @@
 
 _Generated from the content bundle by `tools/catalog.py` — regenerate after any build._
 
-**12 works ingested** · **12/12 with covers** · **10/12 with a complete Lectio edition**
+**12 works ingested** · **12/12 with covers** · **11/12 with a complete Lectio edition**
 
 > Lectio (Vernacular) editions are first-pass **drafts pending human review** (BIBLE non-negotiable). The *Translated* column is the model + date that produced each one — revise when it predates the current translation method.
 
@@ -17,7 +17,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 | The Epic of Gilgamesh | Anonymous · Sumer & Akkad | East | ✅ | ✅ 11 tablets | Opus 4.8 · 2026-06-23 | Lectio |
 | The Iliad | Homer | West | ✅ | ✅ 24 books | Opus 4.8 · 2026-06-15 | Lectio |
 | The Odyssey | Homer | West | ✅ | ✅ 24 books | Opus 4.8 · 2026-06-16 | Lectio |
-| The Prince | Niccolò Machiavelli | West | ✅ | ◐ 21/26 chapters | Fable 5 · 2026-07-07 | marriott-1908 |
+| The Prince | Niccolò Machiavelli | West | ✅ | ✅ 26 chapters | Fable 5 · 2026-07-07 | Lectio |
 | Meditations | Marcus Aurelius | West | ✅ | ✅ 12 books | Opus 4.8 · 2026-06-15 | Lectio |
 | The Republic | Plato | West | ✅ | ◐ 0/10 sections | Opus 4.8 · 2026-06-25 | jowett-1871 |
 | Hamlet | William Shakespeare | West | ✅ | ✅ 5 acts | Opus 4.8 · 2026-06-24 | original |
@@ -63,7 +63,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
   - Samuel Butler 1900 — 24 books
 
 **The Prince** · `work.machiavelli.the-prince`
-  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `marriott-1908` — 21 chapters
+  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `marriott-1908` — 26 chapters
   - W. K. Marriott 1908 — 26 chapters
 
 **Meditations** · `work.marcus-aurelius.meditations`

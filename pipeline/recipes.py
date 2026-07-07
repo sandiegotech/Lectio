@@ -514,16 +514,17 @@ def the_prince():
                               sourceId="1232", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "the-prince", [edition])
     work = Work(
         id=work_id, title="The Prince", author="Niccolò Machiavelli", originalLang="it",
         composed="1513", type="politics", referenceScheme="chapter",
-        defaultEditionId=edition.id, tradition="West",
+        defaultEditionId=modern.id, tradition="West",
         blurb=("Machiavelli's unflinching handbook of power — how principalities are won, held, "
                "and lost. Fortune and virtù, cruelty and mercy, and the founding text of modern "
                "political realism."),
         collections=["collection.great-books", "collection.harvard-classics"],
     )
-    return work, [_modern_edition(work_id, "the-prince", [edition]), edition], None
+    return work, [modern, edition], None
 
 
 # ---------------------------------------------------------------------------
