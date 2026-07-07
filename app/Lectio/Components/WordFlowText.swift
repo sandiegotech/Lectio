@@ -10,11 +10,12 @@ struct TokenFrameKey: PreferenceKey {
 }
 
 // Renders a paragraph as individually laid-out words so the reader can:
-//   • press & hold a word      → look it up (definition popup anchored at the word)
-//   • press, hold, then drag   → select an exact span of words to highlight & save
-//   • tap                      → dismiss an open popup (or sync the compare column)
-// A long-press gates the drag, so ordinary scrolling still works anywhere over the text —
-// a quick swipe scrolls; only a deliberate hold begins a definition or a selection.
+//   • press & hold a word        → it becomes the selection (and its meaning pops up on release)
+//   • keep holding and drag      → extend the selection across a phrase or sentence
+//   • release                    → one compact card: the meaning + Highlight / Note / Explore
+//   • tap                        → dismiss an open popup (or sync the compare column)
+// The drag is gated behind the long-press (a sequenced gesture), so a quick swipe still
+// scrolls — only a deliberate hold claims the touch for selection.
 struct WordFlowText: View {
     // Holds token frames without triggering a re-render (used to anchor popups & map drags).
     final class FrameBox { var frames: [Int: CGRect] = [:] }
@@ -22,17 +23,43 @@ struct WordFlowText: View {
     let text: String
     let pal: Palette
     var space: String = "reader"
-    var definedWord: String? = nil
     var focusWord: String? = nil          // a saved word jumped-to from the panel: lightly highlighted
     var savedWords: Set<String> = []      // saved words: a light underline wherever they appear
     var savedRanges: [ClosedRange<Int>] = []
     var activeRange: ClosedRange<Int>? = nil
-    var onWord: (String, CGPoint) -> Void = { _, _ in }
+    var onSelectChange: (ClosedRange<Int>) -> Void = { _ in }
     var onSelectCommit: (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in }
     var onTap: () -> Void = {}
 
+    // Tokenized once at creation — body indexes these hundreds of times per layout pass,
+    // and recomputing the split on every access made each render O(n²).
+    private let tokens: [String]
+    private let normTokens: [String]
+
     @State private var box = FrameBox()
+    @State private var pressAnchor: Int? = nil    // token under the finger when the hold began
+    @State private var dragAnchor: Int? = nil     // selection start once the drag is live
     @Environment(\.colorScheme) private var scheme
+
+    init(text: String, pal: Palette, space: String = "reader",
+         focusWord: String? = nil, savedWords: Set<String> = [],
+         savedRanges: [ClosedRange<Int>] = [], activeRange: ClosedRange<Int>? = nil,
+         onSelectChange: @escaping (ClosedRange<Int>) -> Void = { _ in },
+         onSelectCommit: @escaping (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in },
+         onTap: @escaping () -> Void = {}) {
+        self.text = text
+        self.pal = pal
+        self.space = space
+        self.focusWord = focusWord
+        self.savedWords = savedWords
+        self.savedRanges = savedRanges
+        self.activeRange = activeRange
+        self.onSelectChange = onSelectChange
+        self.onSelectCommit = onSelectCommit
+        self.onTap = onTap
+        self.tokens = Self.tokenize(text)
+        self.normTokens = self.tokens.map { WordDictionary.normalize($0) }
+    }
 
     var body: some View {
         FlowLayout(spacing: 0, lineSpacing: 7) {
@@ -45,27 +72,60 @@ struct WordFlowText: View {
                     Text(tokens[i])
                         .font(.system(size: 19, design: .serif))
                         .foregroundColor(pal.ink)
-                        .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
                         .background(GeometryReader { g in
                             Color.clear.preference(key: TokenFrameKey.self,
                                                    value: [i: g.frame(in: .named(space))])
                         })
                         .contentShape(Rectangle())
-                        // Per-token tap + long-press ONLY — no drag gesture anywhere, so the
-                        // ScrollView always keeps the pan and the text scrolls freely.
-                        // Tap dismisses/syncs; a deliberate hold looks the word up.
                         .onTapGesture { onTap() }
-                        .onLongPressGesture(minimumDuration: 0.22) { define(i) }
+                        // Records which word the hold began on (the sequenced gesture below
+                        // has no location of its own until the finger moves).
+                        .simultaneousGesture(
+                            LongPressGesture(minimumDuration: 0.26)
+                                .onEnded { _ in pressAnchor = i }
+                        )
                 }
             }
         }
         .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
+        // Hold to select, keep holding to extend. Sequencing the drag behind the long
+        // press means a plain swipe never loses the scroll — only a completed hold
+        // claims the touch for selection.
+        .gesture(
+            LongPressGesture(minimumDuration: 0.28)
+                .sequenced(before: DragGesture(minimumDistance: 0, coordinateSpace: .named(space)))
+                .onChanged { value in
+                    guard case .second(true, let drag) = value else { return }
+                    if let loc = drag?.location, let i = tokenIndex(at: loc) {
+                        if dragAnchor == nil {
+                            dragAnchor = pressAnchor ?? i
+                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        }
+                        let a = dragAnchor ?? i
+                        onSelectChange(min(a, i)...max(a, i))
+                    } else if dragAnchor == nil, let a = pressAnchor {
+                        dragAnchor = a
+                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                        onSelectChange(a...a)
+                    }
+                }
+                .onEnded { value in
+                    defer { pressAnchor = nil; dragAnchor = nil }
+                    guard case .second(true, let drag) = value else { return }
+                    let endIdx = drag.flatMap { tokenIndex(at: $0.location) }
+                    guard let a = dragAnchor ?? pressAnchor ?? endIdx else { return }
+                    let b = endIdx ?? a
+                    let r = min(a, b)...max(a, b)
+                    let point = drag?.location ?? center(b)
+                    onSelectCommit(r, selectedText(r), point)
+                }
+        )
     }
 
     // Word tokens (each keeps its trailing space), with a "\n" marker wherever the
     // source text breaks a line — so verse keeps its lines while prose flows normally.
-    private var tokens: [String] {
+    static func tokenize(_ text: String) -> [String] {
         var out: [String] = []
         for (li, line) in text.components(separatedBy: "\n").enumerated() {
             if li > 0 { out.append("\n") }
@@ -76,32 +136,30 @@ struct WordFlowText: View {
         return out
     }
 
-    private func norm(_ i: Int) -> String { WordDictionary.normalize(tokens[i]) }
+    private func norm(_ i: Int) -> String { normTokens[i] }
 
     private func center(_ i: Int) -> CGPoint {
         let f = box.frames[i] ?? .zero
         return CGPoint(x: f.midX, y: f.midY)
     }
 
+    // The token nearest a touch point — exact hit first, then closest by line (vertical
+    // distance weighted heavily so a drag past the margin stays on its own line).
+    private func tokenIndex(at p: CGPoint) -> Int? {
+        var best: Int? = nil
+        var bestDist = CGFloat.greatestFiniteMagnitude
+        for (i, f) in box.frames {
+            if f.contains(p) { return i }
+            let dy = max(0, max(f.minY - p.y, p.y - f.maxY))
+            let dx = max(0, max(f.minX - p.x, p.x - f.maxX))
+            let d = dy * 8 + dx
+            if d < bestDist { bestDist = d; best = i }
+        }
+        return best
+    }
+
     // Dark mode washes the reading text out under a solid tint — keep highlights lighter at night.
     private func op(_ light: Double, _ dark: Double) -> Double { scheme == .dark ? dark : light }
-
-    // MARK: interactions
-
-    // Press-and-hold a word to look it up. (A plain long-press gesture never competes
-    // with the ScrollView's pan, so the text scrolls freely.)
-    private func define(_ i: Int) {
-        let w = norm(i)
-        if !w.isEmpty { onWord(w, center(i)) }
-    }
-
-    // MARK: appearance
-
-    private func underlineColor(_ i: Int) -> Color? {
-        let w = norm(i)
-        if let d = definedWord, !d.isEmpty, w == d { return pal.accent }
-        return nil
-    }
 
     @ViewBuilder
     private func tokenHighlight(_ i: Int) -> some View {

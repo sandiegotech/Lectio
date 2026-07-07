@@ -401,10 +401,25 @@ struct LibraryView: View {
                 LazyHStack(alignment: .bottom, spacing: 26) {
                     ForEach(Array(saved.collection.enumerated()), id: \.element.id) { idx, b in
                         if let ov = library.bookOverview(title: b.title) {
-                            NavigationLink(value: ov) {
-                                myCollectionCover(b, height: bookHeights[idx % bookHeights.count])
+                            // A checked-out book opens straight into the reader (resuming
+                            // your place); the overview stays one long-press away.
+                            if let wid = ov.workId,
+                               let w = library.works.first(where: { $0.id == wid }) {
+                                NavigationLink(value: w) {
+                                    myCollectionCover(b, height: bookHeights[idx % bookHeights.count])
+                                }
+                                .buttonStyle(.plain).frame(width: 150)
+                                .contextMenu {
+                                    Button { path.append(ov) } label: {
+                                        Label("About this book", systemImage: "info.circle")
+                                    }
+                                }
+                            } else {
+                                NavigationLink(value: ov) {
+                                    myCollectionCover(b, height: bookHeights[idx % bookHeights.count])
+                                }
+                                .buttonStyle(.plain).frame(width: 150)
                             }
-                            .buttonStyle(.plain).frame(width: 150)
                         }
                     }
                 }

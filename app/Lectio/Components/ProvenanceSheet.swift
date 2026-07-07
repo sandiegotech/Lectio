@@ -7,6 +7,7 @@ struct ProvenanceSheet: View {
     let edition: Edition
     let workTitle: String
     let pal: Palette
+    var onShowInText: ((Edition.Divergence) -> Void)? = nil   // jump to the passage in the reader
 
     var body: some View {
         ScrollView {
@@ -126,6 +127,18 @@ struct ProvenanceSheet: View {
             Text(d.note).font(.footnote).foregroundColor(pal.inkSoft)
                 .lineSpacing(2)
                 .fixedSize(horizontal: false, vertical: true)
+            if let onShowInText {
+                Button { onShowInText(d) } label: {
+                    HStack(spacing: 4) {
+                        Image(systemName: "text.magnifyingglass").font(.caption2)
+                        Text("Show in the text").font(.caption.weight(.semibold))
+                        Image(systemName: "chevron.right").font(.system(size: 8, weight: .semibold))
+                    }
+                    .foregroundColor(pal.accent)
+                }
+                .buttonStyle(.plain)
+                .padding(.top, 2)
+            }
         }
         .padding(.leading, 10)
         .overlay(alignment: .leading) {
