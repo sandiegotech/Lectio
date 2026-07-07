@@ -134,6 +134,20 @@ final class Library: ObservableObject {
         glossIndex[workId]?[WordDictionary.normalize(term)]
     }
 
+    // The work's concept-bearing terms (glossary entries bound to a Concept node, plus
+    // their aliases) — the "important words" the reader gets a whisper of an underline for.
+    private var conceptTermCache: [String: Set<String>] = [:]
+    func conceptTerms(workId: String) -> Set<String> {
+        if let cached = conceptTermCache[workId] { return cached }
+        var out = Set<String>()
+        for g in enrichment[workId]?.glossary ?? [] where g.conceptId != nil {
+            out.insert(WordDictionary.normalize(g.term))
+            for a in g.aliases ?? [] { out.insert(WordDictionary.normalize(a)) }
+        }
+        conceptTermCache[workId] = out
+        return out
+    }
+
     // A definition resolved anywhere in the corpus, for the Gloss handoff
     // (`lectio://define?term=…`). The reader isn't inside a book, so we search the
     // shared concept graph first (original-language lemma/transliteration too), then

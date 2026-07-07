@@ -140,7 +140,7 @@ struct ReaderView: View {
                             // instead — resizing the reading column re-lays-out every visible
                             // word, which is what made opening a panel feel slow.
                             HStack(alignment: .top, spacing: 0) {
-                                readingColumn(ed)
+                                readingColumn(ed, height: rgeo.size.height)
                                 if hSize == .regular, panel == .compare {
                                     Divider().overlay(pal.rule)
                                     sidePanel(.compare)
@@ -313,6 +313,11 @@ struct ReaderView: View {
 
     private var savedWordSet: Set<String> {
         Set(saved.words(forWork: work.id).map { WordDictionary.normalize($0.term) })
+    }
+
+    // Concept-bearing terms in this work — they get the whisper of an underline.
+    private var importantWordSet: Set<String> {
+        library.conceptTerms(workId: work.id)
     }
 
     private func firstSegment(containing term: String) -> String? {
@@ -633,7 +638,7 @@ struct ReaderView: View {
         return result
     }
 
-    private func readingColumn(_ ed: Edition) -> some View {
+    private func readingColumn(_ ed: Edition, height: CGFloat) -> some View {
         ScrollViewReader { proxy in
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 14) {
@@ -657,12 +662,17 @@ struct ReaderView: View {
                                 text: segment.text, pal: pal,
                                 focusWord: focusWord,
                                 savedWords: savedWordSet,
+                                importantWords: importantWordSet,
                                 savedRanges: saved.ranges(forSegment: segment.id),
                                 activeRange: selSegmentId == segment.id ? selRange : nil,
                                 onSelectChange: { range in
                                     selPopup = nil
                                     selSegmentId = segment.id
                                     selRange = range
+                                },
+                                onSelectDrag: { p in
+                                    autoScrollDuringSelection(p, height: height,
+                                                              proxy: proxy, segmentId: segment.id)
                                 },
                                 onSelectCommit: { range, text, point in
                                     selSegmentId = segment.id
@@ -727,6 +737,31 @@ struct ReaderView: View {
                 let id = ed.sections[currentBookIndex].id
                 DispatchQueue.main.async { proxy.scrollTo(id, anchor: .top) }
             }
+            // Compare follows the reading scroll: as new passages reach the top of the
+            // main column, the compare column tracks their counterpart via the spine —
+            // one scroll moves the whole page.
+            .onChange(of: topSegmentId) { _, seg in
+                guard compare, hSize == .regular, let seg,
+                      let match = counterpart(of: seg, from: currentEdition, to: compareEdition)
+                else { return }
+                compareScrollTarget = match
+            }
+        }
+    }
+
+    // Keep the selection growing past the screen edge: while the finger holds near the
+    // top or bottom of the reading area, nudge the held paragraph into view.
+    @State private var lastAutoScroll = Date.distantPast
+    private func autoScrollDuringSelection(_ p: CGPoint, height: CGFloat,
+                                           proxy: ScrollViewProxy, segmentId: String) {
+        let now = Date()
+        guard now.timeIntervalSince(lastAutoScroll) > 0.6 else { return }
+        if p.y > height - 110 {
+            lastAutoScroll = now
+            withAnimation(.easeInOut(duration: 0.35)) { proxy.scrollTo(segmentId, anchor: .top) }
+        } else if p.y < 110 {
+            lastAutoScroll = now
+            withAnimation(.easeInOut(duration: 0.35)) { proxy.scrollTo(segmentId, anchor: .bottom) }
         }
     }
 

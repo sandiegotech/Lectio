@@ -24,10 +24,12 @@ struct WordFlowText: View {
     let pal: Palette
     var space: String = "reader"
     var focusWord: String? = nil          // a saved word jumped-to from the panel: lightly highlighted
-    var savedWords: Set<String> = []      // saved words: a light underline wherever they appear
+    var savedWords: Set<String> = []      // saved words: a light gold underline wherever they appear
+    var importantWords: Set<String> = []  // concept-bearing terms: a whisper of an accent underline
     var savedRanges: [ClosedRange<Int>] = []
     var activeRange: ClosedRange<Int>? = nil
     var onSelectChange: (ClosedRange<Int>) -> Void = { _ in }
+    var onSelectDrag: (CGPoint) -> Void = { _ in }   // live drag location (drives edge auto-scroll)
     var onSelectCommit: (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in }
     var onTap: () -> Void = {}
 
@@ -43,8 +45,10 @@ struct WordFlowText: View {
 
     init(text: String, pal: Palette, space: String = "reader",
          focusWord: String? = nil, savedWords: Set<String> = [],
+         importantWords: Set<String> = [],
          savedRanges: [ClosedRange<Int>] = [], activeRange: ClosedRange<Int>? = nil,
          onSelectChange: @escaping (ClosedRange<Int>) -> Void = { _ in },
+         onSelectDrag: @escaping (CGPoint) -> Void = { _ in },
          onSelectCommit: @escaping (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in },
          onTap: @escaping () -> Void = {}) {
         self.text = text
@@ -52,9 +56,11 @@ struct WordFlowText: View {
         self.space = space
         self.focusWord = focusWord
         self.savedWords = savedWords
+        self.importantWords = importantWords
         self.savedRanges = savedRanges
         self.activeRange = activeRange
         self.onSelectChange = onSelectChange
+        self.onSelectDrag = onSelectDrag
         self.onSelectCommit = onSelectCommit
         self.onTap = onTap
         self.tokens = Self.tokenize(text)
@@ -72,6 +78,7 @@ struct WordFlowText: View {
                     Text(tokens[i])
                         .font(.system(size: 19, design: .serif))
                         .foregroundColor(pal.ink)
+                        .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
                         .background(GeometryReader { g in
                             Color.clear.preference(key: TokenFrameKey.self,
@@ -104,6 +111,7 @@ struct WordFlowText: View {
                         }
                         let a = dragAnchor ?? i
                         onSelectChange(min(a, i)...max(a, i))
+                        onSelectDrag(loc)
                     } else if dragAnchor == nil, let a = pressAnchor {
                         dragAnchor = a
                         UIImpactFeedbackGenerator(style: .light).impactOccurred()
@@ -161,20 +169,27 @@ struct WordFlowText: View {
     // Dark mode washes the reading text out under a solid tint — keep highlights lighter at night.
     private func op(_ light: Double, _ dark: Double) -> Double { scheme == .dark ? dark : light }
 
+    // The quiet layer: saved words carry a light gold underline; concept-bearing terms a
+    // whisper of the accent — enough to invite a hold, never enough to interrupt reading.
+    private func underlineColor(_ i: Int) -> Color? {
+        let w = normTokens[i]
+        guard !w.isEmpty else { return nil }
+        if savedWords.contains(w) { return pal.gold.opacity(op(0.6, 0.45)) }
+        if importantWords.contains(w) { return pal.accent.opacity(op(0.32, 0.26)) }
+        return nil
+    }
+
+    // Saved words no longer tint the page — they carry the light underline instead;
+    // backgrounds are reserved for real highlights, the live selection, and jump focus.
     @ViewBuilder
     private func tokenHighlight(_ i: Int) -> some View {
         let inActive = activeRange?.contains(i) ?? false
         let inSaved = savedRanges.contains { $0.contains(i) }
         let isFocus = (focusWord != nil) && norm(i) == focusWord
-        // A saved word gets a soft gold highlight wherever it appears in the text.
-        let w = norm(i)
-        let isSavedWord = !w.isEmpty && savedWords.contains(w)
         if inActive {
             Rectangle().fill(pal.accent.opacity(op(0.22, 0.16)))
         } else if inSaved {
             Rectangle().fill(pal.gold.opacity(op(0.30, 0.18)))
-        } else if isSavedWord {
-            Rectangle().fill(pal.gold.opacity(op(0.22, 0.15)))
         } else if isFocus {
             Rectangle().fill(pal.gold.opacity(op(0.22, 0.14)))
         } else {
