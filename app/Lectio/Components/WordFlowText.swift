@@ -9,19 +9,27 @@ struct FlowOriginKey: PreferenceKey {
     static func reduce(value: inout CGPoint, nextValue: () -> CGPoint) { value = nextValue() }
 }
 
-// Renders a paragraph as individually laid-out words so the reader can:
-//   • press & hold a word        → it becomes the selection (and its meaning pops up on release)
-//   • keep holding and drag      → extend the selection across a phrase or sentence
-//   • release                    → one compact card: the meaning + Highlight / Note / Explore
-//   • tap                        → dismiss an open popup (or sync the compare column)
-// The drag is gated behind the long-press (a sequenced gesture), so a quick swipe still
-// scrolls — only a deliberate hold claims the touch for selection.
+// Renders a paragraph as individually laid-out words. All touch handling is done by a
+// single UIKit recognizer overlay (see TextInteractionOverlay) rather than per-word
+// SwiftUI gestures — so:
+//   • one-finger drag from ANYWHERE scrolls the page (the ScrollView's own pan, an
+//     ancestor of this overlay, still receives every touch)
+//   • hold a word            → that one word is selected; release shows its meaning
+//   • keep holding and drag  → extend the selection across a phrase or sentence
+//   • tap an existing highlight → open its note
+// The old per-word gestures fought the ScrollView for the pan, which is why scrolling
+// only worked in the margins; a UILongPressGestureRecognizer coexists with scroll the
+// way Books and Kindle do.
 struct WordFlowText: View {
-    // Holds token frames without triggering a re-render (used to anchor popups & map drags).
-    // `local` frames come straight from FlowLayout; `origin` lifts them into reader space.
+    // Holds token frames without triggering a re-render. `local` frames come straight
+    // from FlowLayout (paragraph-local space, same as the overlay's touch coordinates);
+    // `origin` lifts a point into reader space for popup anchoring. `selAnchor` is the
+    // word the current hold began on — kept here (a reference type) so the UIKit
+    // callbacks can mutate it without going through @State.
     final class FrameBox {
         var local: [Int: CGRect] = [:]
         var origin: CGPoint = .zero
+        var selAnchor: Int? = nil
         func frame(_ i: Int) -> CGRect? {
             local[i].map { $0.offsetBy(dx: origin.x, dy: origin.y) }
         }
@@ -36,8 +44,10 @@ struct WordFlowText: View {
     var savedRanges: [ClosedRange<Int>] = []
     var activeRange: ClosedRange<Int>? = nil
     var onSelectChange: (ClosedRange<Int>) -> Void = { _ in }
-    var onSelectDrag: (CGPoint) -> Void = { _ in }   // live drag location (drives edge auto-scroll)
+    var onSelectDrag: (CGPoint) -> Void = { _ in }        // live drag point in reader space (edge auto-scroll)
     var onSelectCommit: (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in }
+    var onSelectionActive: (Bool) -> Void = { _ in }      // true while a hold-select is in progress
+    var onTapHighlight: (Int) -> Void = { _ in }          // tapped inside a saved highlight (token index)
     var onTap: () -> Void = {}
 
     // Tokenized once at creation — body indexes these hundreds of times per layout pass,
@@ -46,8 +56,6 @@ struct WordFlowText: View {
     private let normTokens: [String]
 
     @State private var box = FrameBox()
-    @State private var pressAnchor: Int? = nil    // token under the finger when the hold began
-    @State private var dragAnchor: Int? = nil     // selection start once the drag is live
     @Environment(\.colorScheme) private var scheme
 
     init(text: String, pal: Palette, space: String = "reader",
@@ -57,6 +65,8 @@ struct WordFlowText: View {
          onSelectChange: @escaping (ClosedRange<Int>) -> Void = { _ in },
          onSelectDrag: @escaping (CGPoint) -> Void = { _ in },
          onSelectCommit: @escaping (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in },
+         onSelectionActive: @escaping (Bool) -> Void = { _ in },
+         onTapHighlight: @escaping (Int) -> Void = { _ in },
          onTap: @escaping () -> Void = {}) {
         self.text = text
         self.pal = pal
@@ -69,6 +79,8 @@ struct WordFlowText: View {
         self.onSelectChange = onSelectChange
         self.onSelectDrag = onSelectDrag
         self.onSelectCommit = onSelectCommit
+        self.onSelectionActive = onSelectionActive
+        self.onTapHighlight = onTapHighlight
         self.onTap = onTap
         self.tokens = Self.tokenize(text)
         self.normTokens = self.tokens.map { WordDictionary.normalize($0) }
@@ -92,14 +104,6 @@ struct WordFlowText: View {
                         .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
                         .layoutValue(key: TokenIndexKey.self, value: i)
-                        .contentShape(Rectangle())
-                        .onTapGesture { onTap() }
-                        // Records which word the hold began on (the sequenced gesture below
-                        // has no location of its own until the finger moves).
-                        .simultaneousGesture(
-                            LongPressGesture(minimumDuration: 0.26)
-                                .onEnded { _ in pressAnchor = i }
-                        )
                 }
             }
         }
@@ -108,40 +112,18 @@ struct WordFlowText: View {
                                    value: g.frame(in: .named(space)).origin)
         })
         .onPreferenceChange(FlowOriginKey.self) { [box] in box.origin = $0 }
-        // Hold to select, keep holding to extend. Sequencing the drag behind the long
-        // press means a plain swipe never loses the scroll — only a completed hold
-        // claims the touch for selection.
-        .gesture(
-            LongPressGesture(minimumDuration: 0.28)
-                .sequenced(before: DragGesture(minimumDistance: 0, coordinateSpace: .named(space)))
-                .onChanged { value in
-                    guard case .second(true, let drag) = value else { return }
-                    if let loc = drag?.location, let i = tokenIndex(at: loc) {
-                        if dragAnchor == nil {
-                            dragAnchor = pressAnchor ?? i
-                            UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                        }
-                        let a = dragAnchor ?? i
-                        onSelectChange(min(a, i)...max(a, i))
-                        onSelectDrag(loc)
-                    } else if dragAnchor == nil, let a = pressAnchor {
-                        dragAnchor = a
-                        UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                        onSelectChange(a...a)
-                    }
-                }
-                .onEnded { value in
-                    defer { pressAnchor = nil; dragAnchor = nil }
-                    guard case .second(true, let drag) = value else { return }
-                    let endIdx = drag.flatMap { tokenIndex(at: $0.location) }
-                    guard let a = dragAnchor ?? pressAnchor ?? endIdx else { return }
-                    let b = endIdx ?? a
-                    let r = min(a, b)...max(a, b)
-                    let point = drag?.location ?? center(b)
-                    onSelectCommit(r, selectedText(r), point)
-                }
+        // The one recognizer layer. Points arrive in paragraph-local space (== box.local).
+        .overlay(
+            TextInteractionOverlay(
+                onHoldBegan: { p in beginSelection(local: p) },
+                onHoldChanged: { p in changeSelection(local: p) },
+                onHoldEnded: { p in endSelection(local: p) },
+                onTap: { p in tapAt(local: p) }
+            )
         )
     }
+
+    // MARK: touch → token
 
     // Word tokens (each keeps its trailing space), with a "\n" marker wherever the
     // source text breaks a line — so verse keeps its lines while prose flows normally.
@@ -158,27 +140,59 @@ struct WordFlowText: View {
 
     private func norm(_ i: Int) -> String { normTokens[i] }
 
-    private func center(_ i: Int) -> CGPoint {
-        let f = box.frame(i) ?? .zero
-        return CGPoint(x: f.midX, y: f.midY)
-    }
-
-    // The token nearest a touch point — exact hit first, then closest by line (vertical
-    // distance weighted heavily so a drag past the margin stays on its own line).
-    // Compares in layout-local space (one subtraction) rather than lifting every frame.
-    private func tokenIndex(at p: CGPoint) -> Int? {
-        let lp = CGPoint(x: p.x - box.origin.x, y: p.y - box.origin.y)
+    // The token nearest a paragraph-local point — exact hit first, else the closest by
+    // line (vertical distance weighted heavily so a drag past the margin stays on its line).
+    private func tokenIndex(local p: CGPoint) -> Int? {
         var best: Int? = nil
         var bestDist = CGFloat.greatestFiniteMagnitude
-        for (i, f) in box.local {
-            if f.contains(lp) { return i }
-            let dy = max(0, max(f.minY - lp.y, lp.y - f.maxY))
-            let dx = max(0, max(f.minX - lp.x, lp.x - f.maxX))
+        for (i, f) in box.local where tokens.indices.contains(i) && tokens[i] != "\n" {
+            if f.contains(p) { return i }
+            let dy = max(0, max(f.minY - p.y, p.y - f.maxY))
+            let dx = max(0, max(f.minX - p.x, p.x - f.maxX))
             let d = dy * 8 + dx
             if d < bestDist { bestDist = d; best = i }
         }
         return best
     }
+
+    private func readerPoint(local p: CGPoint) -> CGPoint {
+        CGPoint(x: p.x + box.origin.x, y: p.y + box.origin.y)
+    }
+
+    // MARK: selection handlers (called by the UIKit overlay)
+
+    private func beginSelection(local p: CGPoint) {
+        guard let i = tokenIndex(local: p) else { return }
+        box.selAnchor = i
+        onSelectionActive(true)
+        onSelectChange(i...i)
+        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+    }
+
+    private func changeSelection(local p: CGPoint) {
+        guard let a = box.selAnchor, let i = tokenIndex(local: p) else { return }
+        onSelectChange(min(a, i)...max(a, i))
+        onSelectDrag(readerPoint(local: p))
+    }
+
+    private func endSelection(local p: CGPoint) {
+        defer { box.selAnchor = nil; onSelectionActive(false) }
+        guard let a = box.selAnchor else { return }
+        let i = tokenIndex(local: p) ?? a
+        let r = min(a, i)...max(a, i)
+        onSelectCommit(r, selectedText(r), readerPoint(local: p))
+    }
+
+    private func tapAt(local p: CGPoint) {
+        guard let i = tokenIndex(local: p) else { onTap(); return }
+        if savedRanges.contains(where: { $0.contains(i) }) {
+            onTapHighlight(i)
+        } else {
+            onTap()
+        }
+    }
+
+    // MARK: appearance
 
     // Dark mode washes the reading text out under a solid tint — keep highlights lighter at night.
     private func op(_ light: Double, _ dark: Double) -> Double { scheme == .dark ? dark : light }
@@ -218,235 +232,62 @@ struct WordFlowText: View {
     }
 }
 
-// Compact lookup card shown in the popup overlay when a word is tapped.
-struct WordCard: View {
-    let term: String
-    let definition: String?
-    var kind: String? = nil           // set when the entry came from the curated glossary
-    var conceptId: String? = nil      // links to a shared Concept node, if any
-    var context: String? = nil        // the passage the word sits in, sent on to Gloss
-    let workTitle: String?
-    let workId: String?
-    let pal: Palette
-    let onClose: () -> Void
-    @EnvironmentObject var saved: SavedStore
-    @EnvironmentObject var library: Library
+// A transparent UIKit layer hosting a long-press + tap recognizer over the word text.
+// It lives inside the ScrollView's content, so the scroll view's pan recognizer (an
+// ancestor) still evaluates every touch: a quick one-finger drag scrolls the page from
+// anywhere, while a deliberate 0.3s hold begins word selection. The long-press is NOT
+// simultaneous with the pan (hold-still selects, move-first scrolls); the reader
+// additionally disables scroll for the duration of a live selection.
+private struct TextInteractionOverlay: UIViewRepresentable {
+    var onHoldBegan: (CGPoint) -> Void
+    var onHoldChanged: (CGPoint) -> Void
+    var onHoldEnded: (CGPoint) -> Void
+    var onTap: (CGPoint) -> Void
 
-    private var concept: Concept? { conceptId.flatMap { library.concept(id: $0) } }
-    private var hasDefinition: Bool { (definition?.isEmpty == false) }
-    // Tier 2: offer Apple's on-device dictionary only when the word isn't curated
-    // and the OS actually has an entry for it.
-    private var systemHasDefinition: Bool {
-        !hasDefinition && SystemDictionary.hasDefinition(term)
+    func makeUIView(context: Context) -> UIView {
+        let v = UIView()
+        v.backgroundColor = .clear
+        let hold = UILongPressGestureRecognizer(target: context.coordinator,
+                                                action: #selector(Coordinator.handleHold(_:)))
+        hold.minimumPressDuration = 0.3
+        hold.delegate = context.coordinator
+        v.addGestureRecognizer(hold)
+        let tap = UITapGestureRecognizer(target: context.coordinator,
+                                         action: #selector(Coordinator.handleTap(_:)))
+        tap.delegate = context.coordinator
+        v.addGestureRecognizer(tap)
+        return v
     }
 
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 8) {
-                Text(term).font(.system(.title3, design: .serif)).foregroundColor(pal.accent)
-                if let kind, !kind.isEmpty { kindChip(kind) }
-                Spacer()
-                Button(action: onClose) {
-                    Image(systemName: "xmark").font(.caption2)
-                }
-                .buttonStyle(.plain).foregroundColor(pal.inkSoft)
-            }
-            if let def = definition, !def.isEmpty {
-                Text(def).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-            } else {
-                Text(systemHasDefinition
-                     ? "Not in this book's glossary — look it up in the dictionary, or go deeper in Gloss."
-                     : "Not in this book's glossary. Save it for study, or look it up in Gloss.")
-                    .font(.caption).foregroundColor(pal.inkSoft)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            if let concept { conceptBlock(concept) }
-            HStack(spacing: 8) {
-                Button {
-                    saved.toggle(SavedWord(term: term, definition: definition ?? "",
-                                           workTitle: workTitle, workId: workId))
-                } label: {
-                    Label(saved.isSaved(term) ? "Saved" : "Save word",
-                          systemImage: saved.isSaved(term) ? "bookmark.fill" : "bookmark")
-                        .font(.caption.weight(.medium))
-                        .padding(.horizontal, 10).padding(.vertical, 5)
-                        .background(saved.isSaved(term) ? pal.accent : pal.paper)
-                        .foregroundColor(saved.isSaved(term) ? .white : pal.accent)
-                        .clipShape(RoundedRectangle(cornerRadius: 7))
-                        .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
-                }
-                .buttonStyle(.plain)
-                if systemHasDefinition {
-                    Button {
-                        SystemDictionary.lookUp(term)
-                    } label: {
-                        Label("Dictionary", systemImage: "character.book.closed")
-                            .font(.caption.weight(.medium))
-                            .padding(.horizontal, 10).padding(.vertical, 5)
-                            .foregroundColor(pal.accent)
-                            .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            // The in-app deep dive — the Gloss experience without leaving the book.
-            if let workId {
-                NavigationLink(value: WordStudy(term: term, workId: workId)) {
-                    HStack(spacing: 6) {
-                        Image(systemName: "text.magnifyingglass").font(.caption2)
-                        Text("Study this word").font(.caption.weight(.semibold))
-                        Spacer(minLength: 0)
-                        Image(systemName: "chevron.right").font(.system(size: 9, weight: .semibold))
-                    }
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 12).padding(.vertical, 7)
-                    .background(Capsule().fill(pal.accent))
-                }
-                .buttonStyle(.plain)
-                .simultaneousGesture(TapGesture().onEnded { onClose() })
-            }
-            glossLink
-        }
-        .padding(14)
-        .frame(width: 260)
-        .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
-        .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
-        .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
+    func updateUIView(_ uiView: UIView, context: Context) {
+        context.coordinator.parent = self
     }
 
-    // The shared-concept payoff: the original-language word, how it traveled into
-    // English, and the other works where the same idea recurs (the cross-work web).
-    @ViewBuilder
-    private func conceptBlock(_ c: Concept) -> some View {
-        VStack(alignment: .leading, spacing: 6) {
-            if let o = c.original {
-                HStack(spacing: 6) {
-                    Text(o.lemma).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
-                    if let t = o.translit { Text(t).font(.caption.italic()).foregroundColor(pal.inkSoft) }
-                    if let lit = o.literal {
-                        Text("“\(lit)”").font(.caption).foregroundColor(pal.inkSoft)
-                    }
-                }
-            }
-            if let sense = c.senseHistory {
-                Text(sense).font(.caption).foregroundColor(pal.inkSoft)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            if !otherWorks(c).isEmpty {
-                (Text("Also in ").foregroundColor(pal.inkSoft)
-                 + Text(otherWorks(c).joined(separator: ", ")).foregroundColor(pal.accent))
-                    .font(.system(size: 11, design: .serif))
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            // Into the idea's own page — the cross-work thread, browsable.
-            NavigationLink(value: c) {
-                HStack(spacing: 4) {
-                    Image(systemName: "point.topleft.down.curvedto.point.bottomright.up")
-                        .font(.system(size: 9))
-                    Text("Trace this idea").font(.caption.weight(.semibold))
-                    Image(systemName: "chevron.right").font(.system(size: 8, weight: .semibold))
-                }
-                .foregroundColor(pal.accent)
-            }
-            .buttonStyle(.plain)
-            .simultaneousGesture(TapGesture().onEnded { onClose() })
-        }
-        .padding(.top, 2)
-    }
+    func makeCoordinator() -> Coordinator { Coordinator(self) }
 
-    // Titles of the other works this concept appears in (excluding the one being read).
-    private func otherWorks(_ c: Concept) -> [String] {
-        (c.appearsIn ?? [])
-            .filter { $0 != workId }
-            .compactMap { library.workTitle(id: $0) }
-    }
+    final class Coordinator: NSObject, UIGestureRecognizerDelegate {
+        var parent: TextInteractionOverlay
+        init(_ parent: TextInteractionOverlay) { self.parent = parent }
 
-    private func kindChip(_ kind: String) -> some View {
-        Text(kind.uppercased())
-            .font(.system(size: 9, weight: .semibold)).tracking(0.6)
-            .foregroundColor(pal.inkSoft)
-            .padding(.horizontal, 6).padding(.vertical, 2)
-            .background(Capsule().stroke(pal.rule))
-    }
-
-    // Is the sibling app installed? (Requires `gloss` in LSApplicationQueriesSchemes.)
-    private var glossInstalled: Bool {
-        guard let u = URL(string: "gloss://define") else { return false }
-        return UIApplication.shared.canOpenURL(u)
-    }
-
-    // Bridge to the sibling app. If Gloss is installed it's a clear call-to-action, set
-    // apart from the definition text; if not, a quiet link to discover it. Either way the
-    // word and the passage it sits in travel along.
-    private var glossLink: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Divider().overlay(pal.rule)
-            if glossInstalled {
-                // Quiet row — the in-app Study capsule above is the primary deep dive now.
-                Button {
-                    GlossLink.open(term: term, context: context, sourceTitle: workTitle)
-                } label: {
-                    HStack(spacing: 6) {
-                        Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                        Text("Open in Gloss").font(.caption.weight(.medium))
-                        Spacer(minLength: 0)
-                        Image(systemName: "arrow.up.forward").font(.system(size: 9, weight: .semibold))
-                    }
-                    .foregroundColor(pal.accent)
-                }
-                .buttonStyle(.plain)
-            } else {
-                Button {
-                    GlossLink.openWebsite()
-                } label: {
-                    HStack(spacing: 6) {
-                        Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                        Text("Go deeper with Gloss").font(.caption.weight(.medium))
-                        Spacer(minLength: 0)
-                        Image(systemName: "arrow.up.right").font(.system(size: 9))
-                    }
-                    .foregroundColor(pal.accent)
-                }
-                .buttonStyle(.plain)
+        @objc func handleHold(_ g: UILongPressGestureRecognizer) {
+            let p = g.location(in: g.view)
+            switch g.state {
+            case .began:  parent.onHoldBegan(p)
+            case .changed: parent.onHoldChanged(p)
+            case .ended, .cancelled, .failed: parent.onHoldEnded(p)
+            default: break
             }
         }
-    }
-}
 
-// Opens the word in the sibling SDIT app, Gloss — trying its URL scheme first and
-// falling back to the web. The personal vocabulary layer is shared across SDIT apps
-// (BIBLE §8): a word looked up here is there to study in Gloss.
-enum GlossLink {
-    // Hands the word to Gloss *with the passage it sits in* (`context`) and the book
-    // it came from (`sourceTitle`), so Gloss can explain the word as it's used here —
-    // Homer's "wrath," not the dictionary's. Long segments are trimmed to keep the URL
-    // sane; Gloss only needs enough surrounding text to disambiguate.
-    static func open(term: String, context: String? = nil, sourceTitle: String? = nil) {
-        var comps = URLComponents()
-        comps.scheme = "gloss"
-        comps.host = "define"
-        var items = [URLQueryItem(name: "term", value: term)]
-        if let context = context?.trimmingCharacters(in: .whitespacesAndNewlines), !context.isEmpty {
-            items.append(URLQueryItem(name: "context", value: String(context.prefix(1000))))
+        @objc func handleTap(_ g: UITapGestureRecognizer) {
+            parent.onTap(g.location(in: g.view))
         }
-        if let sourceTitle, !sourceTitle.isEmpty {
-            items.append(URLQueryItem(name: "title", value: sourceTitle))
-        }
-        comps.queryItems = items
-        guard let scheme = comps.url else { return }
 
-        let q = term.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? term
-        let web = URL(string: "https://sandiegotech.org/gloss?q=\(q)")
-        UIApplication.shared.open(scheme, options: [:]) { opened in
-            if !opened, let web { UIApplication.shared.open(web) }
-        }
-    }
-
-    // When Gloss isn't installed: open its page so the reader can discover/get it.
-    static func openWebsite() {
-        if let url = URL(string: "https://sandiegotech.org/gloss") {
-            UIApplication.shared.open(url)
+        // Let the tap coexist with everything; the hold is intentionally left
+        // non-simultaneous so it and the scroll pan stay mutually exclusive.
+        func gestureRecognizer(_ g: UIGestureRecognizer,
+                               shouldRecognizeSimultaneouslyWith other: UIGestureRecognizer) -> Bool {
+            g is UITapGestureRecognizer || other is UITapGestureRecognizer
         }
     }
 }

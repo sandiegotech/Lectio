@@ -35,6 +35,7 @@ struct ReaderView: View {
     @State private var selRange: ClosedRange<Int>?
     @State private var selPopup: SelPopup?
     @State private var noteTarget: SavedHighlight?
+    @State private var isSelecting = false          // true only during a live hold-select
     // Divergences (Lectio editions): where this rendering departs from older translations.
     @State private var divAnchors: [String: [Edition.Divergence]] = [:]     // segmentId -> markers
     @State private var divsBySection: [String: [Edition.Divergence]] = [:]  // sectionId -> rail list
@@ -680,6 +681,10 @@ struct ReaderView: View {
                                     selPopup = SelPopup(segmentId: segment.id, range: range,
                                                         text: text, point: point)
                                 },
+                                onSelectionActive: { active in isSelecting = active },
+                                onTapHighlight: { tokenIndex in
+                                    openNote(segmentId: segment.id, tokenIndex: tokenIndex)
+                                },
                                 onTap: {
                                     if selPopup != nil || selRange != nil { dismissPopups() }
                                     else { syncFromMain(segment.id) }
@@ -720,6 +725,9 @@ struct ReaderView: View {
                 .padding(.horizontal, 28)
                 .padding(.vertical, 24)
             }
+            // Only frozen while a hold-select is live, so the drag extends the selection
+            // instead of scrolling; normal one-finger scrolling works everywhere otherwise.
+            .scrollDisabled(isSelecting)
             .onChange(of: scrollTarget) { _, target in
                 guard let target else { return }
                 if animateScroll {
@@ -817,7 +825,10 @@ struct ReaderView: View {
                     }
                     .onChange(of: compareScrollTarget) { _, t in
                         guard let t else { return }
-                        withAnimation { proxy.scrollTo(t, anchor: .center) }
+                        // Align to the TOP so the counterpart sits level with the passage
+                        // at the top of the main column (not floating mid-column, and never
+                        // scrolled off-screen).
+                        withAnimation { proxy.scrollTo(t, anchor: .top) }
                     }
                 }
                 .id(sec.id)   // reset scroll to top when the synced book changes
@@ -1037,6 +1048,15 @@ struct ReaderView: View {
         guard id != currentEditionId else { return }
         currentEditionId = id
         dismissPopups()
+    }
+
+    // Tapped inside an existing highlight → open its note (the highlight covering the
+    // tapped word, or the tightest one if several overlap).
+    private func openNote(segmentId: String, tokenIndex: Int) {
+        let hits = saved.highlights(forWork: work.id)
+            .filter { $0.segmentId == segmentId && $0.range.contains(tokenIndex) }
+            .sorted { ($0.end - $0.start) < ($1.end - $1.start) }
+        if let h = hits.first { noteTarget = h }
     }
 
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
