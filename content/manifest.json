@@ -337,7 +337,7 @@
       "title": "The Analects",
       "author": "Confucius",
       "referenceScheme": "book.chapter",
-      "defaultEditionId": "edition.analects.legge-1893",
+      "defaultEditionId": "edition.analects.lectio-modern",
       "collections": [
         "collection.eastern-canon"
       ],
@@ -349,7 +349,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "cc486c676bcca81a"
+          "checksum": "7c8c678fadaaa9ea"
         },
         {
           "id": "edition.analects.legge-1893",
@@ -358,11 +358,11 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
-          "checksum": "90e283e9343fb181"
+          "checksum": "0d99a4cebe4f8f6e"
         }
       ],
       "hasAlignment": false,
-      "checksum": "b1850e3d14d073e5"
+      "checksum": "093da14d6de882f2"
     },
     {
       "id": "work.augustine.confessions",

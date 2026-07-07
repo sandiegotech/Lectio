@@ -557,16 +557,17 @@ def analects():
                               sourceId="3330", retrievedDate=RETRIEVED),
         sections=sections,
     )
+    modern = _modern_edition(work_id, "analects", [edition])
     work = Work(
         id=work_id, title="The Analects", author="Confucius", originalLang="lzh",
         composed="479–221 BCE", type="philosophy", referenceScheme="book.chapter",
-        defaultEditionId=edition.id, tradition="East",
+        defaultEditionId=modern.id, tradition="East",
         blurb=("The recorded conversations of Confucius and his students — the ground text of "
                "East Asian ethics. Becoming fully human through learning, ritual, and ren "
                "(human-heartedness); the golden rule, stated as a negative."),
         collections=["collection.eastern-canon"],
     )
-    return work, [_modern_edition(work_id, "analects", [edition]), edition], None
+    return work, [modern, edition], None
 
 
 # ---------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 
 _Generated from the content bundle by `tools/catalog.py` — regenerate after any build._
 
-**12 works ingested** · **12/12 with covers** · **9/12 with a complete Lectio edition**
+**12 works ingested** · **12/12 with covers** · **10/12 with a complete Lectio edition**
 
 > Lectio (Vernacular) editions are first-pass **drafts pending human review** (BIBLE non-negotiable). The *Translated* column is the model + date that produced each one — revise when it predates the current translation method.
 
@@ -12,7 +12,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
 |------|--------|-------|-------|----------------|------------|------------------|
 | Nicomachean Ethics | Aristotle | West | ✅ | ✅ 10 books | Opus 4.8 · 2026-06-24 | Lectio |
 | Confessions | Saint Augustine | West | ✅ | ✅ 13 books | Fable 5 · 2026-07-07 | Lectio |
-| The Analects | Confucius | East | ✅ | ◐ 15/20 books | Fable 5 · 2026-07-07 | legge-1893 |
+| The Analects | Confucius | East | ✅ | ✅ 20 books | Fable 5 · 2026-07-07 | Lectio |
 | The Divine Comedy | Dante Alighieri | West | ✅ | ✅ 100 cantos | Opus 4.8 · 2026-06-24 | Lectio |
 | The Epic of Gilgamesh | Anonymous · Sumer & Akkad | East | ✅ | ✅ 11 tablets | Opus 4.8 · 2026-06-23 | Lectio |
 | The Iliad | Homer | West | ✅ | ✅ 24 books | Opus 4.8 · 2026-06-15 | Lectio |
@@ -43,7 +43,7 @@ _Generated from the content bundle by `tools/catalog.py` — regenerate after an
   - E. B. Pusey 1838 — 13 books
 
 **The Analects** · `work.confucius.analects`
-  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `legge-1893` — 15 books
+  - **Lectio (Vernacular)** — Fable 5, 2026-07-07; base: `legge-1893` — 20 books
   - James Legge 1893 — 20 books
 
 **The Divine Comedy** · `work.dante.divine-comedy`
