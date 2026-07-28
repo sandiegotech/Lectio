@@ -92,7 +92,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "58d730c020702e70"
+          "checksum": "22c0d937909e9138"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -101,7 +101,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian standard — clear, dignified, widely read.",
-          "checksum": "6125a288d08afe57"
+          "checksum": "7bb86e9970ab1fd0"
         },
         {
           "id": "edition.meditations.casaubon-1634",
@@ -110,7 +110,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The first English Meditations — ornate, archaic, devotional.",
-          "checksum": "10493e7eb0932b06"
+          "checksum": "3ba9682b2f4174d5"
         },
         {
           "id": "edition.meditations.greek-original",
@@ -119,10 +119,10 @@
           "form": "prose",
           "kind": "original",
           "character": "The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
-          "checksum": "21feb93d1d3026b6"
+          "checksum": "a23ef645a171f43e"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "cef4561fe6679902"
     },
     {
@@ -143,7 +143,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "64f53920d72bc53a"
+          "checksum": "98cc217692ab7392"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -152,7 +152,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — 18th-century grandeur.",
-          "checksum": "617c441ba5fadd76"
+          "checksum": "6914222725298e47"
         },
         {
           "id": "edition.iliad.butler-1898",
@@ -161,10 +161,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "0852abf7713cab10"
+          "checksum": "15a9824a79d390f7"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "280b7b82da65bb5f"
     },
     {
@@ -186,7 +186,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "835cea4278aabc80"
+          "checksum": "ed6e488809a287dc"
         },
         {
           "id": "edition.odyssey.butler-1900",
@@ -195,10 +195,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "ca0b3e9a87372f3a"
+          "checksum": "0932b15ab771dcfc"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "ae6f3ae41899084a"
     },
     {
@@ -220,7 +220,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "34e254d755005903"
+          "checksum": "820eeb35ac840ebf"
         },
         {
           "id": "edition.aeneid.dryden-1697",
@@ -229,10 +229,10 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — the great English Virgil.",
-          "checksum": "6e76745908790b3b"
+          "checksum": "7bfca2f025656056"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "3d798bfb07de7f3b"
     },
     {
@@ -275,7 +275,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "caca2c607aa7e98d"
+          "checksum": "5f4a0ac0c9e5b07d"
         },
         {
           "id": "edition.nicomachean-ethics.chase-1911",
@@ -284,10 +284,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "The compact Everyman Ethics — Chase's plain, readable Victorian prose.",
-          "checksum": "25e09fc29a7b4abd"
+          "checksum": "8ef4afbf420d4050"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "e94b67144acbdebb"
     },
     {
@@ -378,7 +378,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "dec976b39c94d9c5"
+          "checksum": "4319da058ddc1f02"
         },
         {
           "id": "edition.hamlet.original",
@@ -387,10 +387,10 @@
           "form": "verse",
           "kind": "original",
           "character": "Shakespeare's text — the tragedy entire, in five acts.",
-          "checksum": "bc536bccaf5d7574"
+          "checksum": "ad6d1eaa03f192fc"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "1f311075fde62a70"
     },
     {
@@ -433,7 +433,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "a4289a91a45552fd"
+          "checksum": "5a5dc1e4fe584ef0"
         },
         {
           "id": "edition.divine-comedy.longfellow-1867",
@@ -442,10 +442,10 @@
           "form": "verse",
           "kind": "translation",
           "character": "Longfellow's landmark American Dante — faithful blank verse, line for line.",
-          "checksum": "d1ee48437c9ec98b"
+          "checksum": "53cef1ebfa9872d3"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "4a9e28ea83ba5a53"
     }
   ],

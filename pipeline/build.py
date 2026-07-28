@@ -9,7 +9,7 @@ from __future__ import annotations
 import os
 import sys
 
-from . import idledger, publish
+from . import align, idledger, publish
 from .collections import build_collections
 from .recipes import RECIPES
 
@@ -24,10 +24,14 @@ def main() -> int:
         work, eds, spine = recipe()
         works.append(work)
         editions.extend(eds)
+        # Stage 5 (ALIGN): attach spine ranges; a recipe's own spine wins.
+        spine = spine or align.apply(work, eds)
         if spine:
             spines[work.id] = spine
+        aligned = sum(1 for e in eds for s in e.sections for seg in s.segments if seg.spine)
         print(f"  built {work.id}: {len(eds)} edition(s), "
-              f"{sum(len(s.segments) for e in eds for s in e.sections)} segments")
+              f"{sum(len(s.segments) for e in eds for s in e.sections)} segments"
+              + (f", {aligned} spine-aligned" if aligned else ""))
 
     collections = build_collections(works)
 

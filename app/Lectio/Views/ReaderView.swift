@@ -278,8 +278,35 @@ struct ReaderView: View {
     }
 
     private func jumpToSegment(_ segmentId: String) {
-        if let idx = sectionIndex(containing: segmentId) { currentBookIndex = idx }
-        scrollTarget = segmentId
+        // A mark dropped in another edition resolves here through the spine, so
+        // bookmarks and highlights survive switching translations.
+        var target = segmentId
+        if sectionIndex(containing: segmentId) == nil,
+           let resolved = resolveAcrossEditions(segmentId) {
+            target = resolved
+        }
+        if let idx = sectionIndex(containing: target) { currentBookIndex = idx }
+        scrollTarget = target
+    }
+
+    // Map a segment id from any other edition onto the one being read: spine
+    // overlap when aligned, positional estimate otherwise.
+    private func resolveAcrossEditions(_ segId: String) -> String? {
+        guard let cur = currentEdition else { return nil }
+        for ed in editions where ed.id != cur.id && segId.hasPrefix(ed.id + ".") {
+            guard let seg = findSegment(segId, in: ed) else { continue }
+            if let sp = seg.spine, let match = spineMatch(sp, sourceText: seg.text, in: cur) { return match }
+            return counterpart(of: segId, from: ed, to: cur)
+        }
+        return nil
+    }
+
+    // The segment for an id, whichever edition owns it (for cross-edition marks).
+    private func findSegmentAnywhere(_ id: String) -> Segment? {
+        for ed in editions {
+            if let seg = findSegment(id, in: ed) { return seg }
+        }
+        return nil
     }
 
     private var savedWordSet: Set<String> {
@@ -304,13 +331,56 @@ struct ReaderView: View {
 
     // MARK: compare-sync — proportional passage matching across editions
 
-    // The passage in `to` that best lines up with `segId` in `from`. Two-step
-    // best-effort until the alignment spine (book.line) is built: estimate the
-    // narrative position by cumulative text length (robust when editions segment
-    // differently — Pope's verse vs. prose), then refine by shared proper nouns
-    // in a window around the estimate.
+    // MARK: the alignment spine — shared coordinates across editions
+
+    // "1.611" -> ("1", 611); "Inferno.5" -> ("Inferno", 5).
+    private func parseRef(_ s: String) -> (String, Int)? {
+        guard let dot = s.lastIndex(of: "."), let n = Int(s[s.index(after: dot)...]) else { return nil }
+        return (String(s[..<dot]), n)
+    }
+
+    // The segment in `ed` whose spine range best covers `range`. Candidates come
+    // from spine overlap (with a few lines of slack, since v1 allocation is
+    // proportional); among them, shared proper nouns with the source text pick
+    // the exact moment, then midpoint, then overlap size.
+    private func spineMatch(_ range: SpineRange, sourceText: String? = nil, in ed: Edition) -> String? {
+        guard let (major, lo0) = parseRef(range.from), let (_, hi0) = parseRef(range.to) else { return nil }
+        let lo = min(lo0, hi0), hi = max(lo0, hi0)
+        let mid = Double(lo + hi) / 2
+        let names = sourceText.map(properNouns) ?? []
+        var best: (id: String, score: Double)? = nil
+        for sec in ed.sections {
+            for seg in sec.segments {
+                guard let sp = seg.spine,
+                      let (m, l0) = parseRef(sp.from), m == major,
+                      let (_, h0) = parseRef(sp.to) else { continue }
+                let l = min(l0, h0), h = max(l0, h0)
+                guard min(hi + 3, h) - max(lo - 3, l) >= 0 else { continue }   // slack window
+                let overlap = Double(min(hi, h) - max(lo, l))
+                let holdsMidpoint = Double(l) <= mid && mid <= Double(h)
+                let nouns = names.isEmpty ? 0 : names.intersection(properNouns(seg.text)).count
+                let score = Double(nouns) * 10_000 + (holdsMidpoint ? 1_000 : 0) + max(overlap, 0)
+                if best == nil || score > best!.score { best = (seg.id, score) }
+            }
+        }
+        return best?.id
+    }
+
+    // A human-readable citation for a spine range: "1.17–21", "Inferno.5".
+    private func spineText(_ r: SpineRange?) -> String? {
+        guard let r, let (major, lo) = parseRef(r.from), let (_, hi) = parseRef(r.to) else { return nil }
+        return hi > lo ? "\(major).\(lo)–\(hi)" : "\(major).\(lo)"
+    }
+
+    // The passage in `to` that best lines up with `segId` in `from`. Spine
+    // overlap when both editions are aligned (exact shared coordinates); else
+    // the positional estimate refined by shared proper nouns.
     private func counterpart(of segId: String, from: Edition?, to: Edition?) -> String? {
         guard let from, let to else { return nil }
+        if let src = findSegment(segId, in: from), let range = src.spine,
+           let match = spineMatch(range, sourceText: src.text, in: to) {
+            return match
+        }
         guard let bi = from.sections.firstIndex(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }),
               to.sections.indices.contains(bi) else { return nil }
         // Historical editions open each book with apparatus (Pope's "ARGUMENT.",
@@ -491,12 +561,16 @@ struct ReaderView: View {
     }
 
     private func bookmarkTitle(_ segId: String) -> String {
-        currentEdition?.sections.first { segId == $0.id || segId.hasPrefix($0.id + ".") }?.label
-            ?? "Bookmark"
+        for ed in editions {
+            if let sec = ed.sections.first(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }) {
+                return sec.label
+            }
+        }
+        return "Bookmark"
     }
 
     private func bookmarkSnippet(_ segId: String) -> String? {
-        guard let ed = currentEdition, let seg = findSegment(segId, in: ed) else { return nil }
+        guard let seg = findSegmentAnywhere(segId) else { return nil }
         let clean = seg.text.replacingOccurrences(of: "\n", with: " ")
             .trimmingCharacters(in: .whitespacesAndNewlines)
         return "“" + String(clean.prefix(40)).trimmingCharacters(in: .whitespaces) + "…”"
@@ -691,7 +765,7 @@ struct ReaderView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("THIS PASSAGE · \(editionLabel(src).uppercased())")
+                        Text("THIS PASSAGE\(spineText(refSeg.spine).map { " · \($0)" } ?? "") · \(editionLabel(src).uppercased())")
                             .font(.caption2).tracking(1).foregroundColor(pal.inkSoft)
                         // No added quote marks — passages often carry their own.
                         Text(compareSnippet(refSeg.text))
@@ -703,7 +777,9 @@ struct ReaderView: View {
                     ForEach(editions.filter { $0.id != src.id }) { ed in
                         compareCard(ed, refId: refId, from: src)
                     }
-                    Text("Tap any passage in the text to bring it here. Matched by position — approximate.")
+                    Text(refSeg.spine != nil
+                         ? "Tap any passage in the text to bring it here. Aligned on the work's \(work.referenceScheme) spine."
+                         : "Tap any passage in the text to bring it here. Matched by position — approximate.")
                         .font(.caption2).foregroundColor(pal.inkSoft.opacity(0.8))
                         .fixedSize(horizontal: false, vertical: true)
                 }
@@ -718,15 +794,21 @@ struct ReaderView: View {
     @ViewBuilder
     private func compareCard(_ ed: Edition, refId: String, from src: Edition) -> some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(editionLabel(ed)).font(.caption.weight(.semibold)).foregroundColor(pal.accent)
             if let match = counterpart(of: refId, from: src, to: ed),
                let seg = findSegment(match, in: ed) {
+                HStack(spacing: 6) {
+                    Text(editionLabel(ed)).font(.caption.weight(.semibold)).foregroundColor(pal.accent)
+                    if let cite = spineText(seg.spine) {
+                        Text(cite).font(.caption2).foregroundColor(pal.inkSoft)
+                    }
+                }
                 Text(seg.text)
                     .font(.system(size: 16, design: .serif))
                     .lineSpacing(5)
                     .foregroundColor(pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
             } else {
+                Text(editionLabel(ed)).font(.caption.weight(.semibold)).foregroundColor(pal.accent)
                 Text("This book isn't in this edition yet.")
                     .font(.caption).foregroundColor(pal.inkSoft)
             }
