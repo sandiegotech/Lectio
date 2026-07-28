@@ -1,7 +1,8 @@
 import SwiftUI
 
-// The side panel: a quiet rail holding the reader's own marks — the words and
-// passages they've saved in this book. Tapping one jumps to it in the text.
+// The reader's own marks — saved words and highlighted passages — embedded at
+// the foot of the Docent panel. Tapping one jumps to it in the text. Renders
+// nothing when nothing is saved (no empty state on purpose).
 struct MarginRail: View {
     let work: Work
     let pal: Palette
@@ -11,58 +12,43 @@ struct MarginRail: View {
     @EnvironmentObject var saved: SavedStore
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 22) {
-                let highlights = saved.highlights(forWork: work.id)
-                let words = saved.words(forWork: work.id)
-
-                if highlights.isEmpty && words.isEmpty {
-                    railSection("Your marks") {
-                        Text("Save a word from the popup, or press and hold to highlight a passage. They'll collect here.")
-                            .font(.footnote).foregroundColor(pal.inkSoft)
-                            .fixedSize(horizontal: false, vertical: true)
-                    }
-                }
-
-                if !words.isEmpty {
-                    railSection("Saved words") {
-                        FlowLayout(spacing: 6) {
-                            ForEach(words) { w in
-                                Button { onWordJump(w.term) } label: { chip(w.term) }
-                                    .buttonStyle(.plain)
-                            }
-                        }
-                    }
-                }
-
-                if !highlights.isEmpty {
-                    railSection("Highlights") {
-                        VStack(alignment: .leading, spacing: 10) {
-                            ForEach(highlights) { h in
-                                Button { onJump(h.segmentId) } label: {
-                                    HStack(alignment: .top, spacing: 6) {
-                                        Image(systemName: "highlighter")
-                                            .font(.caption2).foregroundColor(pal.gold)
-                                        Text(snippet(h.text))
-                                            .font(.system(.footnote, design: .serif))
-                                            .foregroundColor(pal.ink)
-                                            .lineLimit(2)
-                                            .fixedSize(horizontal: false, vertical: true)
-                                    }
-                                    .contentShape(Rectangle())
-                                }
+        let highlights = saved.highlights(forWork: work.id)
+        let words = saved.words(forWork: work.id)
+        VStack(alignment: .leading, spacing: 22) {
+            if !words.isEmpty {
+                railSection("Saved words") {
+                    FlowLayout(spacing: 6) {
+                        ForEach(words) { w in
+                            Button { onWordJump(w.term) } label: { chip(w.term) }
                                 .buttonStyle(.plain)
-                            }
                         }
                     }
                 }
             }
-            .padding(16)
-            .frame(maxWidth: .infinity, alignment: .leading)
+
+            if !highlights.isEmpty {
+                railSection("Highlights") {
+                    VStack(alignment: .leading, spacing: 10) {
+                        ForEach(highlights) { h in
+                            Button { onJump(h.segmentId) } label: {
+                                HStack(alignment: .top, spacing: 6) {
+                                    Image(systemName: "highlighter")
+                                        .font(.caption2).foregroundColor(pal.gold)
+                                    Text(snippet(h.text))
+                                        .font(.system(.footnote, design: .serif))
+                                        .foregroundColor(pal.ink)
+                                        .lineLimit(2)
+                                        .fixedSize(horizontal: false, vertical: true)
+                                }
+                                .contentShape(Rectangle())
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+            }
         }
-        .overlay(alignment: .leading) {
-            Rectangle().fill(pal.rule).frame(width: 1)
-        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     @ViewBuilder

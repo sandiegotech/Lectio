@@ -23,7 +23,6 @@ struct ReaderView: View {
 
     @StateObject private var docent = DocentService()
     @State private var panel: SidePanel?
-    @State private var expandedBooks: Set<String> = []
     @State private var currentBookIndex = 0
     @State private var currentEditionId: String?
     @State private var scrollTarget: String?
@@ -47,23 +46,19 @@ struct ReaderView: View {
 
     // One right-side drawer, switchable between all the ways to interact with the book.
     enum SidePanel: String, CaseIterable, Identifiable {
-        case contents, compare, ask, marks, info
+        case compare, ask, info
         var id: String { rawValue }
         var icon: String {
             switch self {
-            case .contents: return "list.bullet"
             case .compare:  return "rectangle.split.2x1"
             case .ask:      return "questionmark.bubble"
-            case .marks:    return "lightbulb"
             case .info:     return "info.circle"
             }
         }
         var title: String {
             switch self {
-            case .contents: return "Contents"
             case .compare:  return "Compare"
             case .ask:      return DocentFeature.name
-            case .marks:    return "Marks"
             case .info:     return "About"
             }
         }
@@ -146,7 +141,7 @@ struct ReaderView: View {
                                     Divider().overlay(pal.rule)
                                     sidePanel(p)
                                         .frame(width: min(480, max(320, geo.size.width * 0.42)))
-                                        .background(p == .marks ? pal.rail : pal.paper)
+                                        .background(pal.paper)
                                 }
                             }
                         } else {
@@ -184,7 +179,7 @@ struct ReaderView: View {
         .sheet(isPresented: compactPanelBinding) {
             if let p = panel {
                 sidePanel(p)
-                    .background(p == .marks ? pal.rail : pal.paper)
+                    .background(pal.paper)
                     // A half-height bottom panel first, so the text stays visible;
                     // pull up for the full sheet.
                     .presentationDetents([.medium, .large])
@@ -221,9 +216,10 @@ struct ReaderView: View {
                 wordPopup = WordPopup(term: w, def: r.def, kind: r.kind, conceptId: r.conceptId,
                                       point: CGPoint(x: 240, y: 360))
             }
-            // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
+            // Debug hook: LECTIO_DEBUG_CONTEXT opens the Docent panel, where the
+            // marks now live (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
-                panel = .marks
+                panel = .ask
             }
             // Debug hook: LECTIO_DEBUG_COMPARE opens the compare panel (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_COMPARE"] != nil {
@@ -240,11 +236,6 @@ struct ReaderView: View {
             // Debug hook: LECTIO_DEBUG_PROVENANCE opens the provenance sheet (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PROVENANCE"] != nil {
                 panel = .info
-            }
-            // Debug hook: LECTIO_DEBUG_CONTENTS opens the contents with book 1 expanded.
-            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTENTS"] != nil {
-                panel = .contents
-                if let first = currentEdition?.sections.first { expandedBooks = [first.id] }
             }
             // Debug hook: LECTIO_DEBUG_DOCENT opens the Docent panel. Pair with
             // LECTIO_DEBUG_DOCENT_MOCK (canned provider, works on any host) and
@@ -265,10 +256,13 @@ struct ReaderView: View {
 
     private func persist() {
         guard didRestore else { return }
+        // Save the passage at the TOP of the screen — the last-materialized row
+        // (topSegmentId) can sit below the fold, which restored the reader further
+        // along than they actually were.
         reading.savePosition(workId: work.id,
                              editionId: currentEditionId,
                              sectionId: currentSection?.id,
-                             segmentId: topSegmentId)
+                             segmentId: firstVisibleSegmentId ?? topSegmentId)
     }
 
     private func sectionIndex(containing anchorId: String) -> Int? {
@@ -423,18 +417,89 @@ struct ReaderView: View {
             iconButton("chevron.left") { dismiss() }
             editionMenu
             Spacer()
-            bookmarkButton
+            if hSize != .regular { chapterMenu }
+            bookmarkMenu
             // The one persistent control row: these switch (and light up) the side
             // panel; the panel itself carries only a title and a close button.
-            panelButton(.contents)
             if hSize == .regular, editions.count > 1 { panelButton(.compare) }
             panelButton(.ask)
-            panelButton(.marks)
             panelButton(.info)
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 6)
         .background(pal.paper)
+        // The current chapter, centered, as the table of contents — a dropdown
+        // instead of a panel.
+        .overlay { if hSize == .regular { chapterMenu } }
+    }
+
+    // The table of contents as a centered dropdown: the chapter you're in, and a
+    // tap to jump anywhere.
+    private var chapterMenu: some View {
+        Menu {
+            Picker("Chapter", selection: chapterSelection) {
+                ForEach(currentEdition?.sections ?? []) { sec in
+                    Text(sec.title.map { "\(sec.label) — \($0)" } ?? sec.label).tag(sec.id)
+                }
+            }
+        } label: {
+            HStack(spacing: 5) {
+                Text(currentSection?.label ?? "Contents")
+                    .font(.subheadline.weight(.medium)).foregroundColor(pal.ink)
+                Image(systemName: "chevron.down").font(.caption2).foregroundColor(pal.inkSoft)
+            }
+        }
+    }
+
+    private var chapterSelection: Binding<String> {
+        Binding(
+            get: { currentSection?.id ?? "" },
+            set: { id in
+                if let sec = currentEdition?.sections.first(where: { $0.id == id }) { jumpTo(sec) }
+            }
+        )
+    }
+
+    // Bookmarks, plural: drop one wherever you are, and jump between them — for
+    // reading in several places at once, or finding your way back.
+    private var bookmarkMenu: some View {
+        let marks = reading.bookmarks(work.id)
+        let hereId = firstVisibleSegmentId
+        let hereMarked = hereId.map { marks.contains($0) } ?? false
+        return Menu {
+            Button {
+                if let id = hereId { reading.toggleBookmark(work.id, segmentId: id) }
+            } label: {
+                Label(hereMarked ? "Remove the bookmark here" : "Drop a bookmark here",
+                      systemImage: hereMarked ? "bookmark.slash" : "bookmark")
+            }
+            .disabled(hereId == nil)
+            if !marks.isEmpty {
+                Divider()
+                ForEach(marks, id: \.self) { id in
+                    Button { jumpToSegment(id) } label: {
+                        Text(bookmarkTitle(id))
+                        if let snip = bookmarkSnippet(id) { Text(snip) }
+                    }
+                }
+            }
+        } label: {
+            Image(systemName: marks.isEmpty ? "bookmark" : "bookmark.fill")
+                .font(.body.weight(.medium))
+                .foregroundColor(marks.isEmpty ? pal.inkSoft : pal.accent)
+        }
+    }
+
+    private func bookmarkTitle(_ segId: String) -> String {
+        currentEdition?.sections.first { segId == $0.id || segId.hasPrefix($0.id + ".") }?.label
+            ?? "Bookmark"
+    }
+
+    private func bookmarkSnippet(_ segId: String) -> String? {
+        guard let ed = currentEdition, let seg = findSegment(segId, in: ed) else { return nil }
+        let clean = seg.text.replacingOccurrences(of: "\n", with: " ")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        return "“" + String(clean.prefix(40)).trimmingCharacters(in: .whitespaces) + "…”"
     }
 
     // A header toggle for one drawer mode; lit when that mode is open.
@@ -450,32 +515,6 @@ struct ReaderView: View {
     private var compactPanelBinding: Binding<Bool> {
         Binding(get: { hSize == .compact && panel != nil },
                 set: { if !$0 { panel = nil } })
-    }
-
-    // Side-by-side translation compare (iPad). Reads the same book in two editions at once,
-    // following you book-to-book as you scroll the main column.
-    private var bookmarkButton: some View {
-        let bm = reading.bookmark(work.id)
-        return Button { bookmarkAction() } label: {
-            Image(systemName: bm != nil ? "bookmark.fill" : "bookmark")
-                .font(.body.weight(.medium))
-                .foregroundColor(bm != nil ? pal.accent : pal.inkSoft)
-        }
-        .buttonStyle(.plain)
-    }
-
-    // One bookmark per book. Press: create if none; otherwise go to it — unless you're
-    // already on its page, in which case clear it (so the same button can move it).
-    private func bookmarkAction() {
-        guard let bm = reading.bookmark(work.id) else {
-            reading.setBookmark(work.id, segmentId: topSegmentId)
-            return
-        }
-        if sectionIndex(containing: bm) == currentBookIndex {
-            reading.setBookmark(work.id, segmentId: nil)
-        } else {
-            jumpToSegment(bm)
-        }
     }
 
     private var editionMenu: some View {
@@ -603,7 +642,7 @@ struct ReaderView: View {
                                     .padding(.horizontal, -6).padding(.vertical, -3)
                             )
                             .overlay(alignment: .topLeading) {
-                                if reading.bookmark(work.id) == segment.id {
+                                if reading.isBookmarked(work.id, segmentId: segment.id) {
                                     Image(systemName: "bookmark.fill")
                                         .font(.system(size: 15)).foregroundColor(pal.gold)
                                         .offset(x: -26, y: -2)
@@ -712,21 +751,22 @@ struct ReaderView: View {
             panelHeader(p)
             Divider().overlay(pal.rule)
             switch p {
-            case .contents:
-                contentsPanel
             case .compare:
                 comparePanel
             case .ask:
                 DocentPanel(work: work, pal: pal, docent: docent, thread: docent.thread,
-                            onReanchor: { anchorDocent(to: firstVisibleSegmentId) })
-            case .marks:
-                MarginRail(work: work, pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
+                            onReanchor: { anchorDocent(to: firstVisibleSegmentId) },
+                            onJump: jumpToSegment, onWordJump: jumpToWord)
             case .info:
                 if let ed = currentEdition {
                     VStack(spacing: 0) {
                         collectionBar
                         Divider().overlay(pal.rule)
-                        ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal)
+                        ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal,
+                                        cast: castEntries,
+                                        chapterNote: currentSection.flatMap {
+                                            library.chapterOverview(workId: work.id, order: $0.order)
+                                        })
                     }
                 } else { emptyPanelNote("No edition available.") }
             }
@@ -817,87 +857,19 @@ struct ReaderView: View {
         .padding(.top, 10)
     }
 
-    // MARK: contents
-
-    // Which section currently holds the dropped bookmark (if any).
-    private var bookmarkSection: Section? {
-        guard let bm = reading.bookmark(work.id) else { return nil }
-        return currentEdition?.sections.first { bm == $0.id || bm.hasPrefix($0.id + ".") }
-    }
-
-    private var contentsPanel: some View {
-            List {
-                if let bm = reading.bookmark(work.id) {
-                    Button {
-                        jumpToSegment(bm); panel = nil
-                    } label: {
-                        Label("Return to your bookmark", systemImage: "bookmark.fill")
-                            .font(.subheadline.weight(.medium)).foregroundColor(pal.accent)
-                    }
-                    .listRowBackground(pal.rail)
-                }
-                ForEach(currentEdition?.sections ?? []) { section in
-                    let isCurrent = section.id == currentSection?.id
-                    let isBookmarked = section.id == bookmarkSection?.id
-                    DisclosureGroup(isExpanded: expandedBinding(section.id)) {
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text(library.chapterOverview(workId: work.id, order: section.order)
-                                 ?? "Overview coming soon.")
-                                .font(.callout)
-                                .foregroundColor(pal.inkSoft)
-                                .fixedSize(horizontal: false, vertical: true)
-                            Button { jumpTo(section) } label: {
-                                HStack(spacing: 6) {
-                                    Image(systemName: "book")
-                                    Text("Read \(section.label)")
-                                }
-                                .font(.subheadline.weight(.medium))
-                                .foregroundColor(.white)
-                                .padding(.horizontal, 14).padding(.vertical, 8)
-                                .background(Capsule().fill(pal.accent))
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        .padding(.vertical, 4)
-                    } label: {
-                        HStack(spacing: 8) {
-                            Text(section.label)
-                                .font(.body.weight(isCurrent ? .semibold : .regular))
-                                .foregroundColor(pal.ink)
-                            if let title = section.title {
-                                Text(title).font(.caption).foregroundColor(.secondary).lineLimit(1)
-                            }
-                            Spacer()
-                            if isBookmarked {
-                                Image(systemName: "bookmark.fill").font(.caption2).foregroundColor(pal.gold)
-                            }
-                            if isCurrent {
-                                Image(systemName: "book.fill").font(.caption2).foregroundColor(pal.accent)
-                            }
-                        }
-                    }
-                    .tint(pal.accent)
-                }
-            }
-            .scrollContentBackground(.hidden)
-            .background(pal.paper)
-    }
-
-    private func expandedBinding(_ id: String) -> Binding<Bool> {
-        Binding(
-            get: { expandedBooks.contains(id) },
-            set: { open in
-                if open { expandedBooks.insert(id) } else { expandedBooks.remove(id) }
-            }
-        )
-    }
-
+    // Jump to a chapter from the header dropdown (any open panel stays put).
     private func jumpTo(_ section: Section) {
         if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
             currentBookIndex = idx
         }
         scrollTarget = section.id
-        panel = nil
+    }
+
+    // The book's key players — people, gods, and peoples from the curated
+    // glossary — surfaced in the About panel as a who's-who.
+    private var castEntries: [Enrichment.GlossEntry] {
+        (library.enrichment[work.id]?.glossary ?? [])
+            .filter { ["person", "god", "people"].contains($0.kind ?? "") }
     }
 
     // MARK: actions

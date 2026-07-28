@@ -10,7 +10,11 @@ struct DocentPanel: View {
     @ObservedObject var thread: DocentThread
     // Re-anchor to what's on screen now (the conversation follows the reader).
     var onReanchor: () -> Void = {}
+    // Jump targets for the marks section (saved words + highlights) at the foot.
+    var onJump: (String) -> Void = { _ in }
+    var onWordJump: (String) -> Void = { _ in }
 
+    @EnvironmentObject var saved: SavedStore
     @State private var draft = ""
     @FocusState private var fieldFocused: Bool
 
@@ -33,6 +37,7 @@ struct DocentPanel: View {
                             ForEach(thread.exchanges) { ex in
                                 exchangeBlock(ex)
                             }
+                            marksBlock
                             Color.clear.frame(height: 1).id("docent-end")
                         }
                         .padding(16)
@@ -51,7 +56,15 @@ struct DocentPanel: View {
                 inputBar
                 footer
             } else {
-                unavailableNote
+                // No model — the space still explains itself, and the marks live on.
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 18) {
+                        unavailableNote
+                        marksBlock
+                    }
+                    .padding(16)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
             }
         }
         .onAppear { docent.refresh() }
@@ -123,6 +136,17 @@ struct DocentPanel: View {
                     .lineSpacing(4)
                     .foregroundColor(ex.failed ? pal.inkSoft : pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+    }
+
+    // The reader's marks live here too — shown only when there's something saved.
+    @ViewBuilder
+    private var marksBlock: some View {
+        if !saved.highlights(forWork: work.id).isEmpty || !saved.words(forWork: work.id).isEmpty {
+            VStack(alignment: .leading, spacing: 14) {
+                Rectangle().fill(pal.rule).frame(height: 1).padding(.top, 6)
+                MarginRail(work: work, pal: pal, onJump: onJump, onWordJump: onWordJump)
             }
         }
     }
