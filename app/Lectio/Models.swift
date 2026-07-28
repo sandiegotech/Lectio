@@ -148,7 +148,8 @@ struct Enrichment: Codable {
     // modern reader will stumble on (people, gods, places, concepts). `aliases` let a
     // tap resolve across editions — Butler/Pope use Roman names ("Jove") and
     // patronymics ("Pelides"); lectio-modern uses the Greek. Tap-to-define resolves
-    // against this first, then falls through to Webster's 1913, then to Gloss.
+    // against this first, then falls through to the on-device model (the Docent),
+    // then to Apple's dictionary.
     struct GlossEntry: Codable, Hashable {
         var term: String
         var gloss: String

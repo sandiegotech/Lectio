@@ -7,6 +7,7 @@ struct ProvenanceSheet: View {
     let edition: Edition
     let workTitle: String
     let pal: Palette
+    @State private var showDivergences = false
 
     var body: some View {
         ScrollView {
@@ -32,7 +33,24 @@ struct ProvenanceSheet: View {
                                 Text("Places where the Lectio Edition departs from older translations, and why.")
                                     .font(.caption).foregroundColor(pal.inkSoft)
                                     .fixedSize(horizontal: false, vertical: true)
-                                ForEach(divergences, id: \.note) { d in divergenceRow(d) }
+                                // The full list is scholarly detail — folded away by default.
+                                if showDivergences {
+                                    ForEach(divergences, id: \.note) { d in divergenceRow(d) }
+                                }
+                                Button {
+                                    withAnimation(.easeInOut(duration: 0.2)) { showDivergences.toggle() }
+                                } label: {
+                                    HStack(spacing: 4) {
+                                        Text(showDivergences
+                                             ? "Show less"
+                                             : "Learn more — \(divergences.count) places")
+                                        Image(systemName: showDivergences ? "chevron.up" : "chevron.right")
+                                            .font(.caption2)
+                                    }
+                                    .font(.caption.weight(.medium))
+                                    .foregroundColor(pal.accent)
+                                }
+                                .buttonStyle(.plain)
                             }
                         }
                     }

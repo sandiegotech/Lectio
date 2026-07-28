@@ -1,14 +1,6 @@
 import SwiftUI
 import UIKit
 
-// Collects each token's frame (in global space) so taps and drags can be mapped to words.
-struct TokenFrameKey: PreferenceKey {
-    static var defaultValue: [Int: CGRect] = [:]
-    static func reduce(value: inout [Int: CGRect], nextValue: () -> [Int: CGRect]) {
-        value.merge(nextValue(), uniquingKeysWith: { _, new in new })
-    }
-}
-
 // Renders a paragraph as individually tappable words so the reader can:
 //   • tap a word            → look it up (popup anchored at the word)
 //   • press & hold a word   → highlight the sentence it's in, to save
@@ -46,17 +38,20 @@ struct WordFlowText: View {
                         .foregroundColor(pal.ink)
                         .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
-                        .background(GeometryReader { g in
-                            Color.clear.preference(key: TokenFrameKey.self,
-                                                   value: [i: g.frame(in: .named(space))])
-                        })
+                        // Frames go straight into the box (a plain class) — routing
+                        // them through the preference system made every layout pass
+                        // merge per-token dictionaries and froze panel transitions.
+                        .onGeometryChange(for: CGRect.self) { proxy in
+                            proxy.frame(in: .named(space))
+                        } action: { frame in
+                            box.frames[i] = frame
+                        }
                         .contentShape(Rectangle())
                         .onTapGesture { tap(i) }
                         .onLongPressGesture(minimumDuration: holdSeconds) { hold(i) }
                 }
             }
         }
-        .onPreferenceChange(TokenFrameKey.self) { box.frames = $0 }
     }
 
     // Word tokens (each keeps its trailing space), with a "\n" marker wherever the
@@ -151,17 +146,25 @@ struct WordCard: View {
     var conceptId: String? = nil      // links to a shared Concept node, if any
     let workTitle: String?
     let workId: String?
+    // The on-device model's quick in-context definition — streamed straight into
+    // the bubble when the word isn't in the curated glossary.
+    var defineStream: (() -> AsyncThrowingStream<String, Error>?)? = nil
+    var onAsk: (() -> Void)? = nil    // go deeper: opens the Docent conversation
     let pal: Palette
     let onClose: () -> Void
     @EnvironmentObject var saved: SavedStore
     @EnvironmentObject var library: Library
 
+    @State private var aiDef = ""
+    @State private var aiFailed = false
+    @State private var defineTask: Task<Void, Never>?
+
     private var concept: Concept? { conceptId.flatMap { library.concept(id: $0) } }
     private var hasDefinition: Bool { (definition?.isEmpty == false) }
-    // Tier 2: offer Apple's on-device dictionary only when the word isn't curated
-    // and the OS actually has an entry for it.
+    // Last resort: Apple's dictionary, only when neither the curated glossary nor
+    // the on-device model can say anything.
     private var systemHasDefinition: Bool {
-        !hasDefinition && SystemDictionary.hasDefinition(term)
+        !hasDefinition && defineStream == nil && SystemDictionary.hasDefinition(term)
     }
 
     var body: some View {
@@ -178,17 +181,31 @@ struct WordCard: View {
             if let def = definition, !def.isEmpty {
                 Text(def).font(.system(.footnote, design: .serif)).foregroundColor(pal.ink)
                     .fixedSize(horizontal: false, vertical: true)
+            } else if defineStream != nil {
+                if aiDef.isEmpty {
+                    HStack(spacing: 8) {
+                        ProgressView().controlSize(.small).tint(pal.inkSoft)
+                        Text("Reading the passage…").font(.caption).foregroundColor(pal.inkSoft)
+                    }
+                } else {
+                    Text(aiDef).font(.system(.footnote, design: .serif))
+                        .foregroundColor(aiFailed ? pal.inkSoft : pal.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("On-device AI · may err")
+                        .font(.system(size: 8)).tracking(0.3)
+                        .foregroundColor(pal.inkSoft.opacity(0.7))
+                }
             } else {
                 Text(systemHasDefinition
-                     ? "Not in this book's glossary — look it up in the dictionary, or go deeper in Gloss."
-                     : "Not in this book's glossary. Save it for study, or look it up in Gloss.")
+                     ? "Not in this book's glossary — try the dictionary."
+                     : "Not in this book's glossary. Save it for study.")
                     .font(.caption).foregroundColor(pal.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
             if let concept { conceptBlock(concept) }
-            HStack(spacing: 8) {
+            FlowLayout(spacing: 6) {
                 Button {
-                    saved.toggle(SavedWord(term: term, definition: definition ?? "",
+                    saved.toggle(SavedWord(term: term, definition: definition ?? aiDef,
                                            workTitle: workTitle, workId: workId))
                 } label: {
                     Label(saved.isSaved(term) ? "Saved" : "Save word",
@@ -201,6 +218,16 @@ struct WordCard: View {
                         .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
                 }
                 .buttonStyle(.plain)
+                if let onAsk {
+                    Button(action: onAsk) {
+                        Label("Explore", systemImage: "questionmark.bubble")
+                            .font(.caption.weight(.medium))
+                            .padding(.horizontal, 10).padding(.vertical, 5)
+                            .foregroundColor(pal.accent)
+                            .overlay(RoundedRectangle(cornerRadius: 7).stroke(pal.rule))
+                    }
+                    .buttonStyle(.plain)
+                }
                 if systemHasDefinition {
                     Button {
                         SystemDictionary.lookUp(term)
@@ -214,13 +241,31 @@ struct WordCard: View {
                     .buttonStyle(.plain)
                 }
             }
-            glossLink
         }
         .padding(14)
         .frame(width: 260)
         .background(RoundedRectangle(cornerRadius: 12).fill(pal.paper))
         .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
         .shadow(color: .black.opacity(0.22), radius: 14, y: 6)
+        .onAppear { startDefining() }
+        .onDisappear { defineTask?.cancel() }
+    }
+
+    // Stream the model's quick definition into the bubble (uncurated words only).
+    private func startDefining() {
+        guard !hasDefinition, let make = defineStream, let stream = make() else { return }
+        defineTask = Task {
+            do {
+                for try await text in stream {
+                    guard !Task.isCancelled else { return }
+                    aiDef = text
+                }
+            } catch {
+                guard !Task.isCancelled, aiDef.isEmpty else { return }
+                aiFailed = true
+                aiDef = "Couldn't define this one — try Explore."
+            }
+        }
     }
 
     // The shared-concept payoff: the original-language word, how it traveled into
@@ -266,40 +311,4 @@ struct WordCard: View {
             .background(Capsule().stroke(pal.rule))
     }
 
-    // Subtle bridge to the sibling app — prominent when the word is outside this
-    // book's corpus, a quiet "study deeper" link when we already have a definition.
-    private var glossLink: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Divider().overlay(pal.rule)
-            Button {
-                GlossLink.open(term: term)
-            } label: {
-                HStack(spacing: 6) {
-                    Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                    Text(hasDefinition ? "Study in Gloss" : "Look up “\(term)” in Gloss")
-                        .font(.caption.weight(.medium))
-                    Spacer(minLength: 0)
-                    Text("powered by Gloss")
-                        .font(.system(size: 8, weight: .regular)).tracking(0.3)
-                        .foregroundColor(pal.inkSoft.opacity(0.7))
-                }
-                .foregroundColor(hasDefinition ? pal.inkSoft : pal.accent)
-            }
-            .buttonStyle(.plain)
-        }
-    }
-}
-
-// Opens the word in the sibling SDIT app, Gloss — trying its URL scheme first and
-// falling back to the web. The personal vocabulary layer is shared across SDIT apps
-// (BIBLE §8): a word looked up here is there to study in Gloss.
-enum GlossLink {
-    static func open(term: String) {
-        let q = term.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? term
-        guard let scheme = URL(string: "gloss://define?term=\(q)") else { return }
-        let web = URL(string: "https://sandiegotech.org/gloss?q=\(q)")
-        UIApplication.shared.open(scheme, options: [:]) { opened in
-            if !opened, let web { UIApplication.shared.open(web) }
-        }
-    }
 }

@@ -13,6 +13,7 @@ venv/
 # Xcode / app build (project is generated from app/project.yml via XcodeGen)
 app/Lectio.xcodeproj/
 app/build/
+app/build-device/
 DerivedData/
 *.xcuserstate
 
