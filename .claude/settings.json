@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/print/build_book.py:*)",
+      "Bash(typst compile:*)",
+      "Bash(typst fonts:*)",
+      "Bash(python3 -m pipeline.build:*)",
+      "Bash(mdls:*)"
+    ]
+  }
+}

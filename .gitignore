@@ -21,3 +21,6 @@ DerivedData/
 # the ledger is the source of truth for frozen segment IDs and must travel with the repo.
 # Cover art ships compressed (JPEG) in content/; high-res masters live OUTSIDE the repo at
 # ~/Documents/Lectio-Masters (see CLAUDE.md "Cover assets").
+
+# Generated print editions — regenerable from content/ via tools/print/build_book.py
+tools/print/out/
