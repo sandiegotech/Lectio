@@ -3,10 +3,12 @@
 
 The bundle is the single source of truth: the same text, book arguments, provenance and
 translation notes the app reads. Nothing here is hand-typed prose about the book — every
-line of content comes out of content/.
+line of content comes out of content/, or out of an --overlay for editions that do not
+live in the bundle yet.
 
     python3 tools/print/build_book.py                       # Meditations, Lectio Edition
     python3 tools/print/build_book.py --paper parchment     # warm-paper screen variant
+    python3 tools/print/build_book.py --overlay tools/print/experiments/meditations-es.json
 
 Requires typst (brew install typst).
 """
@@ -20,7 +22,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 OUT = Path(__file__).resolve().parent / "out"
 
@@ -34,6 +36,138 @@ PARCHMENT = "#F4EEE1"
 ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII",
          "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII",
          "XXIII", "XXIV"]
+
+# Every word of chrome on the page. An edition prints in one language throughout, so the
+# furniture is keyed by --lang; an overlay may override any single string.
+STRINGS = {
+    "en": {
+        "book": "Book",
+        "contents": "Contents",
+        "introduction": "Introduction",
+        "edition_line": "The Lectio Edition",
+        "imprint": "San Diego Institute of Technology",
+        "colophon_imprint": "San Diego Institute of Technology",
+        "rights_1": "{title} — the Lectio Edition.",
+        "rights_2": "Produced {date} · model {model} · vintage {vintage}. Every edition in "
+                    "Lectio carries its provenance; see #emph[{note_title}] at the back of this book.",
+        "rights_3": "The historical translations and the original from which this edition was made "
+                    "are in the public domain. This rendering is Lectio's own edition, derived from "
+                    "those public-domain sources — not a historical translation.",
+        "rights_4": "Set from the Lectio content bundle. Text, book arguments and notes are "
+                    "identical to those in the Lectio app.",
+        "note_edition": "A Note on This Edition",
+        "how_made": "How it was made",
+        "sources": "Sources consulted",
+        "provenance": "Provenance",
+        "row_edition": "Edition",
+        "row_model": "Model",
+        "row_produced": "Produced",
+        "row_tokens": "Tokens used",
+        "row_base": "Base text",
+        "row_reference": "Reference",
+        "row_translator": "Translator",
+        "row_rights": "Rights",
+        "row_source": "Source",
+        "row_older": "Older",
+        "row_lectio": "Lectio",
+        "tokens_fmt": "≈ {n} (estimated)",
+        "numbering_note": "#emph[On the numbering.] The sections are numbered as they fall in this "
+                          "edition, book by book. They follow the traditional divisions closely, but "
+                          "the Lectio Edition sets some runs of short sayings and quoted fragments as "
+                          "sections of their own, so the counts can part company with the older "
+                          "numbering toward the end of a book. Where you need to cite by the standard "
+                          "reference, check the passage against a historical translation — in the app, "
+                          "the Compare panel puts them side by side.",
+        "differs": "Where This Edition Differs",
+        "differs_lede": "Places where the Lectio Edition departs from the older translations, and why.",
+        "compare": "The Same Passage, Four Ways",
+        "compare_lede": "Book {book}, section {sec}, in every edition Lectio carries for this work — "
+                        "the modern rendering you have just read, the historical translations, and the "
+                        "original. In the app these sit side by side, aligned line for line; here they "
+                        "are set one after another.",
+        "this_edition": "The Lectio Edition",
+        "modern_other": "The Lectio Edition",
+        "original_head": "The original",
+        "editions": "The Other Editions in Lectio",
+        "editions_lede": "Every work in Lectio carries its modern edition and the public-domain texts "
+                         "behind it. One tap in the reader moves between them; they are listed here as "
+                         "they stand in the library.",
+        "threads": "Where This Book Leads",
+        "threads_lede": "The threads Lectio draws from this work to others in the library.",
+        "themes": "Themes",
+        "whoswho": "Who's who in Book I",
+        "colophon": "Colophon",
+        "colophon_1": "{title} — the Lectio Edition — was set from the Lectio content bundle: "
+                      "{books} books, {secs} sections, the same text the reader carries.",
+        "colophon_2": "The text is {font}, Apple's serif, the face the app reads in. Headings and "
+                      "running heads are letterspaced small capitals; the section figures and rubrics "
+                      "are set in a single rubrication red, after the medieval practice the design "
+                      "language is named for. Trim {w} × {h} inches.",
+    },
+    "es": {
+        "book": "Libro",
+        "contents": "Contenido",
+        "introduction": "Introducción",
+        "edition_line": "La Edición Lectio",
+        "imprint": "San Diego Institute of Technology",
+        "colophon_imprint": "San Diego Institute of Technology",
+        "rights_1": "{title} — la Edición Lectio.",
+        "rights_2": "Producida el {date} · modelo {model} · añada {vintage}. Cada edición de Lectio "
+                    "lleva consigo su procedencia; véase #emph[{note_title}] al final de este libro.",
+        "rights_3": "Las traducciones históricas y el original de los que procede esta edición son de "
+                    "dominio público. Esta versión es una edición propia de Lectio, derivada de esas "
+                    "fuentes de dominio público — no es una traducción histórica.",
+        "rights_4": "Compuesta a partir del corpus de contenido de Lectio.",
+        "note_edition": "Nota sobre esta edición",
+        "how_made": "Cómo se hizo",
+        "sources": "Fuentes consultadas",
+        "provenance": "Procedencia",
+        "row_edition": "Edición",
+        "row_model": "Modelo",
+        "row_produced": "Producida",
+        "row_tokens": "Tokens",
+        "row_base": "Texto base",
+        "row_reference": "Referencia",
+        "row_translator": "Traductor",
+        "row_rights": "Derechos",
+        "row_source": "Fuente",
+        "row_older": "Antes",
+        "row_lectio": "Lectio",
+        "tokens_fmt": "≈ {n} (estimado)",
+        "numbering_note": "#emph[Sobre la numeración.] Las secciones van numeradas tal como caen en "
+                          "esta edición, libro por libro. Siguen de cerca las divisiones tradicionales, "
+                          "pero la Edición Lectio presenta algunas series de sentencias breves y de "
+                          "fragmentos citados como secciones aparte, de modo que las cuentas pueden "
+                          "separarse de la numeración antigua hacia el final de un libro. Si necesitas "
+                          "citar a Marco Aurelio por la referencia habitual, coteja el pasaje con una "
+                          "traducción histórica.",
+        "differs": "En qué se aparta esta edición",
+        "differs_lede": "Lugares donde la Edición Lectio se aparta de las traducciones antiguas, y por qué.",
+        "compare": "El mismo pasaje, de cuatro maneras",
+        "compare_lede": "Libro {book}, sección {sec}, en todas las ediciones que Lectio conserva de "
+                        "esta obra: la versión moderna que acabas de leer, las traducciones históricas "
+                        "al inglés y el griego de Marco Aurelio. En la aplicación aparecen una junto a "
+                        "otra, alineadas línea por línea; aquí van una tras otra.",
+        "this_edition": "La Edición Lectio en español",
+        "modern_other": "La Edición Lectio en inglés",
+        "original_head": "El original griego",
+        "editions": "Las otras ediciones en Lectio",
+        "editions_lede": "Cada obra de Lectio lleva su edición moderna y los textos de dominio público "
+                         "que hay detrás. Un toque en el lector pasa de una a otra; aquí se enumeran "
+                         "tal como están en la biblioteca.",
+        "threads": "Adónde lleva este libro",
+        "threads_lede": "Los hilos que Lectio tiende desde esta obra hacia otras de la biblioteca.",
+        "themes": "Temas",
+        "whoswho": "Quién es quién en el Libro I",
+        "colophon": "Colofón",
+        "colophon_1": "{title} — la Edición Lectio — se compuso a partir del corpus de contenido de "
+                      "Lectio: {books} libros, {secs} secciones.",
+        "colophon_2": "El texto va en {font}, la serif de Apple, la misma letra con la que lee la "
+                      "aplicación. Los títulos y los folios llevan versalitas espaciadas; las cifras de "
+                      "sección y las rúbricas van en un solo rojo de rubricación, según la práctica "
+                      "medieval que da nombre al lenguaje de diseño. Formato {w} × {h} pulgadas.",
+    },
+}
 
 
 # ---------------------------------------------------------------- text hygiene
@@ -105,6 +239,14 @@ def load_work(work_id: str):
     return wdir, work, editions, enrich, explore
 
 
+def merge(base: dict, over: dict) -> dict:
+    """Recursive dict merge — the overlay wins, lists replace wholesale."""
+    out = dict(base or {})
+    for k, v in (over or {}).items():
+        out[k] = merge(out[k], v) if isinstance(v, dict) and isinstance(out.get(k), dict) else v
+    return out
+
+
 def spine_key(v: str):
     return tuple(int(p) if p.isdigit() else p for p in v.split("."))
 
@@ -122,7 +264,9 @@ def passage_across_editions(editions, ed_id, locus):
     rows = []
     order = [ed_id] + [i for i in editions if i != ed_id]
     for eid in order:
-        ed = editions[eid]
+        ed = editions.get(eid)
+        if not ed:
+            continue
         hits = [g for s in ed["sections"] for g in s["segments"] if overlaps(g, lo, hi)]
         if not hits:
             continue
@@ -131,6 +275,18 @@ def passage_across_editions(editions, ed_id, locus):
             text = text[:900].rsplit(" ", 1)[0] + "…"
         rows.append((ed, text))
     return rows
+
+
+def edition_head(e2, printed_id, S, sep=", "):
+    """What an edition is called in the back matter."""
+    if e2["id"] == printed_id:
+        return S["this_edition"]
+    if e2.get("kind") == "original" or e2.get("language") == "grc":
+        return S["original_head"]
+    who = e2.get("translator")
+    if who:
+        return f"{who}{sep}{e2.get('publishedYear', '')}".strip()
+    return S["modern_other"]
 
 
 # ---------------------------------------------------------------- the typesetting
@@ -156,7 +312,7 @@ PREAMBLE = r"""
   binding: left,
   fill: paper,
 )
-#set text(font: bodyfont, size: %(bodysize)s, fill: ink, lang: "en", hyphenate: true,
+#set text(font: bodyfont, size: %(bodysize)s, fill: ink, lang: "%(lang)s", hyphenate: true,
           number-type: "old-style")
 #set par(justify: true, leading: %(leading)s, spacing: %(leading)s, linebreaks: "optimized")
 
@@ -194,7 +350,7 @@ PREAMBLE = r"""
   set align(center)
   v(%(openerdrop)s)
   block(spacing: 0pt)[
-    #rubric("Book", size: 8pt, fill: soft, track: 0.34em)
+    #rubric(%(booklabel)s, size: 8pt, fill: soft, track: 0.34em)
     #v(6pt)
     #text(size: 30pt, fill: accent, font: bodyfont, number-type: "lining")[#it.body]
   ]
@@ -270,6 +426,27 @@ PREAMBLE = r"""
 def build_typ(args) -> str:
     wdir, work, editions, enrich, explore = load_work(args.work)
     ed = editions[args.edition]
+    lang = args.lang
+
+    # An overlay carries an edition that is not (or not yet) in the bundle: its own work
+    # metadata, sections, apparatus and chrome. Everything else still comes from content/.
+    if args.overlay:
+        ov = json.loads(Path(args.overlay).read_text())
+        lang = ov.get("lang", lang)
+        work = merge(work, ov.get("work", {}))
+        ed = merge(ed, ov.get("edition", {}))
+        enrich = merge(enrich, ov.get("enrichment", {}))
+        explore = merge(explore or {}, ov.get("explore", {}))
+        editions = dict(editions)
+        for eid, patch in (ov.get("otherEditions") or {}).items():
+            if eid in editions:
+                editions[eid] = merge(editions[eid], patch)
+        editions[ed["id"]] = ed
+
+    S = dict(STRINGS[lang])
+    if args.overlay:
+        S.update(json.loads(Path(args.overlay).read_text()).get("strings", {}))
+
     prov = ed.get("provenance", {})
     chapters = {str(k): v for k, v in (enrich.get("chapters") or {}).items()}
 
@@ -279,7 +456,8 @@ def build_typ(args) -> str:
 
     add(PREAMBLE % dict(
         ink=INK, soft=SOFT, accent=ACCENT, gold=GOLD, paper=paper, bodyfont=args.font,
-        doctitle=tq(work["title"]), docauthor=tq(work["author"]),
+        doctitle=tq(work["title"]), docauthor=tq(work["author"]), lang=lang,
+        booklabel=tq(S["book"]),
         pw=args.width, ph=args.height, mi=args.inside, mo=args.outside,
         mt=args.top, mb=args.bottom, bodysize=args.size, leading=args.leading,
         openerdrop="%s" % args.opener_drop, mattertop="%s" % args.opener_drop,
@@ -287,7 +465,15 @@ def build_typ(args) -> str:
     ))
 
     # ---------------------------------------------------------------- cover
-    cover = wdir / "cover.jpg"
+    # A vector cover (tools/print/covers/<work-slug>.svg) wins over the bundle's raster
+    # one, so the whole book — type, rules, engraving — stays vector at any size.
+    if args.cover:
+        cover = Path(args.cover)
+        if not cover.is_absolute():
+            cover = (ROOT / cover).resolve()
+    else:
+        svg = Path(__file__).resolve().parent / "covers" / f"{args.work.split('.')[-1]}.svg"
+        cover = svg if svg.exists() else wdir / "cover.jpg"
     if cover.exists() and not args.no_cover:
         # Paths are resolved against typst's --root, which is the repo.
         rel = "/" + cover.relative_to(ROOT).as_posix()
@@ -318,6 +504,7 @@ def build_typ(args) -> str:
 
     # Title page.
     era = work.get("composed", "")
+    subtitle = work.get("subtitle", "")
     add('#page(header: none, footer: none)[]\n')   # half-title verso
     add(f'''
 #page[
@@ -331,7 +518,8 @@ def build_typ(args) -> str:
     #v(30pt)
     #hairline(w: 18%, c: gold, t: 0.5pt)
     #v(30pt)
-    #rubric("The Lectio Edition", size: 11pt, fill: accent, track: 0.28em)
+    #rubric({tq(S["edition_line"])}, size: 11pt, fill: accent, track: 0.28em)
+    {f'#v(7pt) #text(size: 8pt, fill: soft, style: "italic")[{mk(subtitle)}]' if subtitle else ''}
     #v(10pt)
     #block(width: 70%)[
       #set par(justify: false, leading: 0.7em)
@@ -342,7 +530,7 @@ def build_typ(args) -> str:
   #align(center)[
     #rubric("Lectio", size: 9pt, fill: ink, track: 0.34em)
     #v(3pt)
-    #text(size: 7.2pt, fill: soft)[San Diego Institute of Technology]
+    #text(size: 7.2pt, fill: soft)[{mk(S["imprint"])}]
   ]
 ]
 ''')
@@ -350,22 +538,24 @@ def build_typ(args) -> str:
     # Copyright / provenance page.
     sources = prov.get("sourcesCited") or []
     src_lines = "".join(f"  #bullet[{mk(s)}]\n" for s in sources)
+    rights_2 = S["rights_2"].format(date=smarten(str(prov.get("retrievedDate", "—"))),
+                                    model=smarten(str(prov.get("aiModel", "—"))),
+                                    vintage=prov.get("vintage", "—"),
+                                    note_title=S["note_edition"])
     add(f'''
 #page[
   #v(1fr)
   #set par(justify: false, leading: 0.72em)
   #text(size: 7.6pt, fill: soft)[
-    {mk(work["title"])} — the Lectio Edition.
+    {mk(S["rights_1"].format(title=work["title"]))}
     #v(7pt)
     {mk(prov.get("rightsNote", ""))}
     #v(7pt)
-    Produced {mk(str(prov.get("retrievedDate", "")))} · model {mk(str(prov.get("aiModel", "—")))} · vintage {prov.get("vintage", "—")}.
-    Every edition in Lectio carries its provenance; see #emph[A Note on This Edition] at the back of this book.
+    {rights_2}
     #v(7pt)
-    The historical translations and the Greek original from which this edition was made are in the public domain.
-    This rendering is Lectio's own edition, derived from those public-domain sources — not a historical translation.
+    {mk(S["rights_3"])}
     #v(7pt)
-    Set from the Lectio content bundle. Text, book arguments and notes are identical to those in the Lectio app.
+    {mk(S["rights_4"])}
   ]
 ]
 ''')
@@ -376,13 +566,13 @@ def build_typ(args) -> str:
     for s in body_secs:
         n = ROMAN[s["order"]] if s["order"] < len(ROMAN) else str(s["order"])
         title = mk(s.get("title") or "")
-        rows.append((f"Book {n}", title, f"book-{s['order']}"))
-    back = [("A Note on This Edition", "", "note-edition"),
-            ("Where This Edition Differs", "", "note-differs"),
-            ("The Same Passage, Four Ways", "", "note-compare"),
-            ("The Other Editions in Lectio", "", "note-editions"),
-            ("Where This Book Leads", "", "note-threads"),
-            ("Colophon", "", "note-colophon")]
+        rows.append((f'{S["book"]} {n}', title, f"book-{s['order']}"))
+    back = [(S["note_edition"], "", "note-edition"),
+            (S["differs"], "", "note-differs"),
+            (S["compare"], "", "note-compare"),
+            (S["editions"], "", "note-editions"),
+            (S["threads"], "", "note-threads"),
+            (S["colophon"], "", "note-colophon")]
 
     def toc_row(label, title, tag, roman=False):
         t = f' #h(0.5em) #text(size: 9pt, style: "italic", fill: soft)[{title}]' if title else ""
@@ -399,9 +589,9 @@ def build_typ(args) -> str:
     toc_back = "".join(toc_row(a, b, c) for a, b, c in back)
     add(f'''
 #page[
-  #matter-title("Contents", drop: 9%)
+  #matter-title({tq(S["contents"])}, drop: 9%)
   #block(width: 92%)[
-{toc_row("Introduction", "", "intro", roman=True)}
+{toc_row(S["introduction"], "", "intro", roman=True)}
   #v(9pt)
 {toc}
   #v(11pt)
@@ -416,7 +606,7 @@ def build_typ(args) -> str:
     add('#pagebreak(to: "odd", weak: true)\n')
     add('#page(footer: context align(center, text(size: 8.2pt, fill: soft,'
         ' number-type: "lining")[#counter(page).display("i")]))[\n'
-        '  #matter-title("Introduction") #metadata(none) <intro>\n')
+        f'  #matter-title({tq(S["introduction"])}) #metadata(none) <intro>\n')
     for para in intro.split("\n\n"):
         add(f'  #prose[{mk(para)}]\n')
     if explore and explore.get("essence"):
@@ -446,6 +636,7 @@ def build_typ(args) -> str:
     # ------------------------------------------------------------- the text
     add('\n#set page(numbering: "1", header: runhead, footer: none)\n')
 
+    book_label = S["book"]
     for s in body_secs:
         n = ROMAN[s["order"]] if s["order"] < len(ROMAN) else str(s["order"])
         add('\n#rh.update(none)\n#pagebreak(to: "odd", weak: true)\n')
@@ -453,7 +644,7 @@ def build_typ(args) -> str:
             # Book I opens the arabic sequence, on a recto, at 1.
             add('#counter(page).update(1)\n')
         add(f'= {n} <book-{s["order"]}>\n')
-        add(f'#rh.update("Book {n}")\n')
+        add(f'#rh.update({tq(book_label + " " + n)})\n')
         if s.get("title"):
             add(f'#booktitle[{mk(s["title"])}]\n')
         note = chapters.get(str(s["order"]))
@@ -465,53 +656,50 @@ def build_typ(args) -> str:
 
     # ------------------------------------------------------------ back matter
     add('\n#rh.update(none)\n#pagebreak(to: "odd", weak: true)\n')
-    add('#matter-title("A Note on This Edition") #metadata(none) <note-edition>\n')
+    add(f'#matter-title({tq(S["note_edition"])}) #metadata(none) <note-edition>\n')
     if ed.get("overview"):
         add(f'#prose[{mk(ed["overview"])}]\n')
-    add('#sublabel("How it was made")\n')
+    add(f'#sublabel({tq(S["how_made"])})\n')
     add(f'#prose(size: 9.2pt, fill: ink)[{mk(prov.get("rightsNote", ""))}]\n')
-    add('#sublabel("Sources consulted")\n')
-    add(src_lines)
-    add('#sublabel("Provenance")\n')
-    add(f'#datarow("Edition", "Lectio Edition · {prov.get("vintage", "")}")\n')
+    if sources:
+        add(f'#sublabel({tq(S["sources"])})\n')
+        add(src_lines)
+    add(f'#sublabel({tq(S["provenance"])})\n')
+    vintage = prov.get("vintage")
+    ed_line = S["edition_line"] + (" · " + str(vintage) if vintage else "")
+    add(f'#datarow({tq(S["row_edition"])}, {tq(ed_line)})\n')
     if prov.get("aiModel"):
-        add(f'#datarow("Model", {tq(prov["aiModel"])})\n')
+        add(f'#datarow({tq(S["row_model"])}, {tq(prov["aiModel"])})\n')
     if prov.get("retrievedDate"):
-        add(f'#datarow("Produced", {tq(str(prov["retrievedDate"]))})\n')
+        add(f'#datarow({tq(S["row_produced"])}, {tq(str(prov["retrievedDate"]))})\n')
     if prov.get("tokensEstimated"):
-        add(f'#datarow("Tokens used", "≈ {prov["tokensEstimated"]:,} (estimated)")\n')
+        ntok = "{:,}".format(prov["tokensEstimated"])
+        add(f'#datarow({tq(S["row_tokens"])}, {tq(S["tokens_fmt"].format(n=ntok))})\n')
     if prov.get("aiSourceEditionId"):
         base = editions.get(prov["aiSourceEditionId"], {})
-        who = base.get("translator", prov["aiSourceEditionId"])
+        who = base.get("translator") or prov["aiSourceEditionId"]
         yr = base.get("publishedYear", "")
-        add(f'#datarow("Base text", {tq(f"{who}, {yr}" if yr else str(who))})\n')
-    add(f'#datarow("Reference", {tq(work.get("referenceScheme", ""))})\n')
+        add(f'#datarow({tq(S["row_base"])}, {tq(f"{who}, {yr}" if yr else str(who))})\n')
+    elif prov.get("baseTextLabel"):
+        add(f'#datarow({tq(S["row_base"])}, {tqs(prov["baseTextLabel"])})\n')
+    add(f'#datarow({tq(S["row_reference"])}, {tq(work.get("referenceScheme", ""))})\n')
     add('#v(12pt)\n')
-    add(f'''#prose(size: 8.4pt, fill: soft, indent: false)[
-  #emph[On the numbering.] The sections are numbered as they fall in this edition, book by book.
-  They follow the traditional divisions of the Greek closely, but the Lectio Edition sets some
-  runs of short sayings and quoted fragments as sections of their own, so the counts can part
-  company with the older numbering toward the end of a book. Where you need to cite Marcus by
-  the standard reference, check the passage against a historical translation — in the app, the
-  Compare panel puts them side by side.
-]
-''')
+    add(f'#prose(size: 8.4pt, fill: soft, indent: false)[{S["numbering_note"]}]\n')
 
     # Divergences.
     divs = ed.get("divergences") or []
     if divs:
         add('\n#pagebreak(weak: true)\n')
-        add('#matter-title("Where This Edition Differs") #metadata(none) <note-differs>\n')
-        add('#prose(size: 9.2pt, fill: soft, indent: false)[Places where the Lectio Edition '
-            'departs from the older translations, and why.]\n#v(6pt)\n')
+        add(f'#matter-title({tq(S["differs"])}) #metadata(none) <note-differs>\n')
+        add(f'#prose(size: 9.2pt, fill: soft, indent: false)[{mk(S["differs_lede"])}]\n#v(6pt)\n')
         for d in divs:
             add(f'''#block(spacing: 15pt, breakable: false)[
   #rubric({tqs(d.get("locus",""))}, size: 7.4pt, fill: accent)
   #v(4pt)
   #text(size: 11pt, fill: ink)[{mk(d.get("phrase",""))}]
   #v(5pt)
-  #datarow("Older", {tqs(d.get("older",""))})
-  #datarow("Lectio", {tqs(d.get("lectio",""))})
+  #datarow({tq(S["row_older"])}, {tqs(d.get("older",""))})
+  #datarow({tq(S["row_lectio"])}, {tqs(d.get("lectio",""))})
   #v(4pt)
   #block(width: 100%)[#set par(justify: true, leading: 0.72em)
     #text(size: 8.8pt, fill: soft)[{mk(d.get("note",""))}]]
@@ -521,24 +709,13 @@ def build_typ(args) -> str:
     # The same passage in every edition.
     rowsx = passage_across_editions(editions, ed["id"], args.compare_locus)
     if len(rowsx) > 1:
+        bk, sc = (args.compare_locus.split(".") + [""])[:2]
         add('\n#pagebreak(weak: true)\n')
-        add('#matter-title("The Same Passage, Four Ways") #metadata(none) <note-compare>\n')
-        add(f'''#prose(size: 9.2pt, fill: soft, indent: false)[
-  Book {args.compare_locus.split(".")[0]}, section {args.compare_locus.split(".")[1]}, in every
-  edition Lectio carries for this work — the modern rendering you have just read, the two
-  historical translations, and Marcus's own Greek. In the app these sit side by side, aligned
-  line for line; here they are set one after another.]
-#v(4pt)
-''')
+        add(f'#matter-title({tq(S["compare"])}) #metadata(none) <note-compare>\n')
+        add(f'#prose(size: 9.2pt, fill: soft, indent: false)'
+            f'[{mk(S["compare_lede"].format(book=bk, sec=sc))}]\n#v(4pt)\n')
         for e2, text in rowsx:
-            who = e2.get("translator")
-            yr = e2.get("publishedYear")
-            if e2["id"] == ed["id"]:
-                head = "The Lectio Edition"
-            elif who:
-                head = f"{who}, {yr}"
-            else:
-                head = "The Greek original"
+            head = edition_head(e2, ed["id"], S)
             grc = e2.get("language") == "grc"
             font = ', font: "New York"' if grc else ""
             add(f'''#block(spacing: 15pt)[
@@ -553,10 +730,8 @@ def build_typ(args) -> str:
 
     # The other editions.
     add('\n#pagebreak(weak: true)\n')
-    add('#matter-title("The Other Editions in Lectio") #metadata(none) <note-editions>\n')
-    add('#prose(size: 9.2pt, fill: soft, indent: false)[Every work in Lectio carries its modern '
-        'edition and the public-domain texts behind it. One tap in the reader moves between them; '
-        'they are listed here as they stand in the library.]\n#v(8pt)\n')
+    add(f'#matter-title({tq(S["editions"])}) #metadata(none) <note-editions>\n')
+    add(f'#prose(size: 9.2pt, fill: soft, indent: false)[{mk(S["editions_lede"])}]\n#v(8pt)\n')
     for eid in work["editionIds"]:
         if eid == ed["id"] or eid not in editions:
             continue
@@ -564,25 +739,24 @@ def build_typ(args) -> str:
         p2 = e2.get("provenance", {})
         who = e2.get("translator")
         yrs = e2.get("translatorYears")
-        head = f"{who} · {e2.get('publishedYear')}" if who else "The Greek original"
+        head = edition_head(e2, ed["id"], S, sep=" · ")
         add(f'''#block(spacing: 16pt, breakable: false)[
   #rubric({tqs(head)}, size: 7.6pt, fill: accent)
   #v(4pt)
   #block(width: 100%)[#set par(justify: true, leading: 0.72em)
     #text(size: 9.2pt, fill: ink)[{mk(e2.get("character",""))}]]
   #v(5pt)
-  {f'#datarow("Translator", {tqs(who + (" (" + yrs + ")" if yrs else ""))})' if who else ""}
-  #datarow("Rights", {tqs(p2.get("rightsNote",""))})
-  {f'#datarow("Source", {tq(p2.get("sourceUrl",""))})' if p2.get("sourceUrl") else ""}
+  {f'#datarow({tq(S["row_translator"])}, {tqs(who + (" (" + yrs + ")" if yrs else ""))})' if who else ""}
+  #datarow({tq(S["row_rights"])}, {tqs(p2.get("rightsNote",""))})
+  {f'#datarow({tq(S["row_source"])}, {tq(p2.get("sourceUrl",""))})' if p2.get("sourceUrl") else ""}
 ]
 ''')
 
     # Threads.
     if explore and explore.get("connections"):
         add('\n#pagebreak(weak: true)\n')
-        add('#matter-title("Where This Book Leads") #metadata(none) <note-threads>\n')
-        add('#prose(size: 9.2pt, fill: soft, indent: false)[The threads Lectio draws from this '
-            'work to others in the library.]\n#v(8pt)\n')
+        add(f'#matter-title({tq(S["threads"])}) #metadata(none) <note-threads>\n')
+        add(f'#prose(size: 9.2pt, fill: soft, indent: false)[{mk(S["threads_lede"])}]\n#v(8pt)\n')
         for c in explore["connections"]:
             add(f'''#block(spacing: 13pt, breakable: false)[
   #rubric({tqs(c.get("type",""))}, size: 7pt, fill: gold)
@@ -593,7 +767,7 @@ def build_typ(args) -> str:
 ]
 ''')
         if explore.get("themes"):
-            add('#sublabel("Themes")\n')
+            add(f'#sublabel({tq(S["themes"])})\n')
             add(f'#prose(size: 9pt, fill: ink, indent: false)'
                 f'[{mk(" · ".join(explore["themes"]))}]\n')
 
@@ -603,28 +777,25 @@ def build_typ(args) -> str:
         if p.get("sectionId", "").startswith(ed["id"]):
             people += p.get("people", [])
     if people:
-        add('#sublabel("Who\'s who in Book I")\n')
+        add(f'#sublabel({tq(S["whoswho"])})\n')
         add(f'#prose(size: 9pt, fill: ink, indent: false)'
             f'[{mk(" · ".join(dict.fromkeys(people)))}]\n')
 
     # Colophon.
     nsegs = sum(len(s["segments"]) for s in body_secs)
     add('\n#rh.update(none)\n#pagebreak(to: "odd", weak: true)\n')
-    add('#matter-title("Colophon") #metadata(none) <note-colophon>\n')
+    add(f'#matter-title({tq(S["colophon"])}) #metadata(none) <note-colophon>\n')
     add(f'''#align(center, block(width: 82%)[
   #set par(justify: false, leading: 0.8em)
   #text(size: 9pt, fill: ink)[
-    {mk(work["title"])} — the Lectio Edition — was set from the Lectio content bundle:
-    {len(body_secs)} books, {nsegs} sections, the same text the reader carries.
+    {mk(S["colophon_1"].format(title=work["title"], books=len(body_secs), secs=nsegs))}
     #v(9pt)
-    The text is New York, Apple's serif, the face the app reads in. Headings and running heads
-    are letterspaced small capitals; the section figures and rubrics are set in a single
-    rubrication red, after the medieval practice the design language is named for.
-    Trim {args.width.replace("in", "")} × {args.height.replace("in", "")} inches.
+    {mk(S["colophon_2"].format(font=args.font,
+                               w=args.width.replace("in", ""), h=args.height.replace("in", "")))}
     #v(9pt)
     #rubric("Lectio", size: 9pt, fill: ink, track: 0.34em)
     #v(3pt)
-    San Diego Institute of Technology
+    {mk(S["colophon_imprint"])}
   ]
 ])
 ''')
@@ -635,6 +806,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="work.marcus-aurelius.meditations")
     ap.add_argument("--edition", default="edition.meditations.lectio-modern")
+    ap.add_argument("--overlay", default=None,
+                    help="JSON overriding work/edition/enrichment/explore/strings — for an "
+                         "edition that is not in the bundle (e.g. a translation experiment)")
+    ap.add_argument("--lang", default="en", choices=sorted(STRINGS))
     ap.add_argument("--out", default=None)
     ap.add_argument("--paper", choices=["white", "parchment"], default="white")
     ap.add_argument("--font", default="New York")
@@ -648,13 +823,24 @@ def main() -> int:
     ap.add_argument("--leading", default="0.78em")
     ap.add_argument("--opener-drop", default="16%")
     ap.add_argument("--compare-locus", default="5.16")
+    ap.add_argument("--cover", default=None,
+                    help="cover artwork (SVG or JPEG); defaults to tools/print/covers/"
+                         "<work-slug>.svg, else the bundle's cover.jpg")
     ap.add_argument("--no-cover", action="store_true")
     ap.add_argument("--keep-typ", action="store_true")
     args = ap.parse_args()
 
+    if args.overlay:
+        ov = json.loads(Path(args.overlay).read_text())
+        args.out = args.out or ov.get("out")
+        args.compare_locus = ov.get("compareLocus", args.compare_locus)
+        args.cover = args.cover or ov.get("cover")
+
     OUT.mkdir(parents=True, exist_ok=True)
     stem = args.out or (args.edition.replace("edition.", "").replace(".", "-")
                         + ("-parchment" if args.paper == "parchment" else ""))
+    if args.out and args.paper == "parchment":
+        stem += "-parchment"
     typ = OUT / f"{stem}.typ"
     pdf = OUT / f"{stem}.pdf"
     typ.write_text(build_typ(args))

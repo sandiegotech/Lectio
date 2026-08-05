@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1700" width="1100" height="1700">
+<defs>
+  <radialGradient id="ground" cx="50%" cy="44%" r="72%">
+    <stop offset="0%" stop-color="#cab99d"/>
+    <stop offset="62%" stop-color="#c4b192"/>
+    <stop offset="100%" stop-color="#b8a689"/>
+  </radialGradient>
+</defs>
+<rect width="1100" height="1700" fill="url(#ground)"/>
+<rect x="46" y="46" width="1008" height="1608" fill="none" stroke="#7f6944" stroke-width="2.4"/>
+<rect x="59" y="59" width="982" height="1582" fill="none" stroke="#7f6944" stroke-width="0.9" stroke-opacity="0.75"/>
+<circle cx="550" cy="850" r="318" fill="#b0966d"/>
+<polygon points="550.0,788.0 559.6,840.4 612.0,850.0 559.6,859.6 550.0,912.0 540.4,859.6 488.0,850.0 540.4,840.4" fill="#8a6f49"/>
+<circle cx="550.0" cy="850" r="197" fill="none" stroke="#8a6f49" stroke-width="1.1" stroke-opacity="0.5"/>
+<line x1="121.0" y1="632.0" x2="121.0" y2="1140.0" stroke="#8a6f49" stroke-width="1.6"/>
+<ellipse cx="0" cy="0" rx="28.5" ry="6.0" fill="#8a6f49" transform="translate(121.0 603.5) rotate(90.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(113.2 620.0) rotate(116.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(128.8 620.0) rotate(64.0)"/>
+<ellipse cx="0" cy="0" rx="28.5" ry="6.0" fill="#8a6f49" transform="translate(121.0 1168.5) rotate(90.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(113.2 1152.0) rotate(64.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(128.8 1152.0) rotate(116.0)"/>
+<line x1="977.0" y1="632.0" x2="977.0" y2="1140.0" stroke="#8a6f49" stroke-width="1.6"/>
+<ellipse cx="0" cy="0" rx="28.5" ry="6.0" fill="#8a6f49" transform="translate(977.0 603.5) rotate(90.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(969.2 620.0) rotate(116.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(984.8 620.0) rotate(64.0)"/>
+<ellipse cx="0" cy="0" rx="28.5" ry="6.0" fill="#8a6f49" transform="translate(977.0 1168.5) rotate(90.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(969.2 1152.0) rotate(64.0)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.8" fill="#8a6f49" transform="translate(984.8 1152.0) rotate(116.0)"/>
+<text x="554.0" y="268" text-anchor="middle" fill="#221f1c" font-family="New York, Iowan Old Style, Palatino, Georgia, serif" font-size="46" font-weight="400" letter-spacing="8" >FRANZ KAFKA</text>
+<line x1="300.0" y1="312.0" x2="486.0" y2="312.0" stroke="#7f6944" stroke-width="1.4"/>
+<line x1="614.0" y1="312.0" x2="800.0" y2="312.0" stroke="#7f6944" stroke-width="1.4"/>
+<polygon points="550.0,286.0 554.0,308.0 576.0,312.0 554.0,316.0 550.0,338.0 546.0,316.0 524.0,312.0 546.0,308.0" fill="#7f6944"/>
+<text x="553.5" y="424" text-anchor="middle" fill="#221f1c" font-family="New York, Iowan Old Style, Palatino, Georgia, serif" font-size="104" font-weight="500" letter-spacing="7" >THE TRIAL</text>
+<text x="555.5" y="1348" text-anchor="middle" fill="#221f1c" font-family="New York, Iowan Old Style, Palatino, Georgia, serif" font-size="34" font-weight="400" letter-spacing="11" >A NEW TRANSLATION</text>
+<line x1="275.0" y1="1400.0" x2="825.0" y2="1400.0" stroke="#7f6944" stroke-width="0.9"/>
+<path d="M550.0 1524.0 Q482.4 1508.4 425.2 1446.0" fill="none" stroke="#8a6f49" stroke-width="2.9" stroke-linecap="round"/><ellipse cx="0" cy="0" rx="18.2" ry="6.0" fill="#8a6f49" transform="translate(514.4 1497.8) rotate(-110.4)"/><ellipse cx="0" cy="0" rx="17.3" ry="5.7" fill="#8a6f49" transform="translate(496.3 1488.9) rotate(-104.5)"/><ellipse cx="0" cy="0" rx="16.5" ry="5.4" fill="#8a6f49" transform="translate(478.5 1477.9) rotate(-98.9)"/><ellipse cx="0" cy="0" rx="15.6" ry="5.1" fill="#8a6f49" transform="translate(460.9 1464.8) rotate(-93.7)"/><ellipse cx="0" cy="0" rx="14.7" ry="4.8" fill="#8a6f49" transform="translate(443.6 1449.7) rotate(-88.9)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.5" fill="#8a6f49" transform="translate(426.5 1432.3) rotate(-84.5)"/><path d="M550.0 1524.0 Q617.6 1508.4 674.8 1446.0" fill="none" stroke="#8a6f49" stroke-width="2.9" stroke-linecap="round"/><ellipse cx="0" cy="0" rx="18.2" ry="6.0" fill="#8a6f49" transform="translate(585.6 1497.8) rotate(-69.6)"/><ellipse cx="0" cy="0" rx="17.3" ry="5.7" fill="#8a6f49" transform="translate(603.7 1488.9) rotate(-75.5)"/><ellipse cx="0" cy="0" rx="16.5" ry="5.4" fill="#8a6f49" transform="translate(621.5 1477.9) rotate(-81.1)"/><ellipse cx="0" cy="0" rx="15.6" ry="5.1" fill="#8a6f49" transform="translate(639.1 1464.8) rotate(-86.3)"/><ellipse cx="0" cy="0" rx="14.7" ry="4.8" fill="#8a6f49" transform="translate(656.4 1449.7) rotate(-91.1)"/><ellipse cx="0" cy="0" rx="13.8" ry="4.5" fill="#8a6f49" transform="translate(673.5 1432.3) rotate(-95.5)"/>
+<text x="555.0" y="1590" text-anchor="middle" fill="#8a6f49" font-family="New York, Iowan Old Style, Palatino, Georgia, serif" font-size="32" font-weight="400" letter-spacing="10" >LECTIO EDITION 2026</text>
+</svg>

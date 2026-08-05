@@ -1,0 +1,505 @@
+{
+  "_note": "Experimental Spanish sample of the Meditations Lectio Edition — Books I–II. Not part of the published content bundle; used only by tools/print/build_book.py via --overlay.",
+  "lang": "es",
+  "out": "meditaciones-lectio-es",
+  "compareLocus": "1.1",
+  "work": {
+    "title": "Meditaciones",
+    "author": "Marco Aurelio",
+    "composed": "170–180 d. C.",
+    "subtitle": "Muestra en español · Libros I y II"
+  },
+  "edition": {
+    "id": "edition.meditations.lectio-es",
+    "kind": "modern",
+    "language": "es",
+    "character": "Español moderno y llano — el sentido del original, hecho para leerse hoy.",
+    "overview": "La Edición Lectio en español traslada el cuaderno de Marco Aurelio a un castellano claro y vivo. No se ha hecho desde el griego, sino desde la Edición Lectio en inglés, que a su vez se sintetizó de las traducciones de dominio público de George Long (1862) y Méric Casaubon (1634) y se cotejó con el original. Es, por tanto, una versión de segunda mano: rápida de leer y fiel al sentido, pero un paso más lejos del griego que las demás ediciones de la biblioteca. Esta muestra abarca los dos primeros libros.",
+    "introduction": "Marco Aurelio nunca quiso que estas notas se leyeran. Era el hombre más poderoso del mundo — emperador de Roma — y, sin embargo, las escribió de noche, en campaña, como recordatorios privados sobre cómo vivir: con razón, con justicia y con firmeza frente a la muerte. Por eso el libro no tiene tesis ni destinatario. Es una mente hablando consigo misma.\n\nEsta muestra recoge los dos primeros libros: el inventario de gratitud con el que empieza, donde nombra a cada persona que lo formó y la virtud que le debe, y las primeras notas de campaña, con la famosa resolución de la mañana y el recordatorio de que no es más que carne, aliento y una mente que gobierna. Léela como lo que es: un experimento, para oír cómo suena la Edición Lectio en castellano.",
+    "divergences": [
+      {
+        "locus": "El título",
+        "phrase": "Τὰ εἰς ἑαυτόν",
+        "older": "«Meditaciones» (título editorial tradicional)",
+        "lectio": "se conserva «Meditaciones», leído como «A sí mismo»",
+        "note": "Marco Aurelio no dio título a la obra; «Meditaciones» es la etiqueta de un editor posterior. El griego significa «A sí mismo»: un cuaderno privado, no un tratado. Lectio conserva el nombre familiar, pero lee el texto como el discurso a uno mismo que en realidad es."
+      },
+      {
+        "locus": "en toda la obra",
+        "phrase": "τὸ ἡγεμονικόν (to hēgemonikón)",
+        "older": "«la facultad rectora», «la parte que gobierna» (Long)",
+        "lectio": "«la mente que te gobierna», «la parte que gobierna»",
+        "note": "La «facultad rectora» de Long es exacta pero opaca. El hēgemonikón es el término estoico para el centro de mando racional del yo; Lectio traduce su función en lenguaje llano en vez de transliterar la filosofía."
+      },
+      {
+        "locus": "p. ej. 2.13, 3.3, 5.27",
+        "phrase": "δαίμων (daímōn)",
+        "older": "«el demon», «la divinidad interior» (Long)",
+        "lectio": "«el espíritu que llevas dentro», «tu guía interior»",
+        "note": "«Demon» desvía al lector moderno hacia «demonio». Para los estoicos es la chispa divina de razón que cada persona lleva consigo; Lectio traduce la idea, no la palabra cargada."
+      },
+      {
+        "locus": "el tratamiento",
+        "phrase": "segunda persona",
+        "older": "«thou», «thee» (Casaubon, Long)",
+        "lectio": "«tú» — Marco Aurelio hablándose a sí mismo",
+        "note": "El griego se dirige a una sola persona: el propio autor. El «tú» castellano conserva esa intimidad sin la solemnidad arcaica del inglés antiguo; el usted habría convertido un cuaderno privado en un sermón."
+      }
+    ],
+    "provenance": {
+      "source": "lectio",
+      "rightsStatus": "lectio-original",
+      "rightsNote": "Edición Lectio (SDIT), muestra en español: versión en castellano moderno hecha a partir de la Edición Lectio en inglés — que a su vez se sintetizó de las traducciones de dominio público de George Long (1862) y Méric Casaubon (1634), cotejadas con el griego original. Esta muestra abarca los Libros I y II, no ha pasado por revisión editorial y no forma parte del corpus publicado de la aplicación. No es una traducción histórica.",
+      "retrievedDate": "2026-08-04",
+      "aiModel": "claude-opus-5",
+      "aiSourceEditionId": "",
+      "baseTextLabel": "Edición Lectio en inglés (2026)",
+      "aiProfile": "plain_modern_es",
+      "sourcesCited": [
+        "Edición Lectio en inglés — Meditations, Lectio Modern Edition (2026)",
+        "George Long, traducción al inglés (1862)",
+        "Méric Casaubon, traducción al inglés (1634)",
+        "Original griego — Τὰ εἰς ἑαυτόν (Wikisource)"
+      ],
+      "tokensEstimated": 0,
+      "vintage": 2026
+    },
+    "sections": [
+      {
+        "id": "edition.meditations.lectio-es.book-01",
+        "order": 1,
+        "label": "Libro I",
+        "segments": [
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0001",
+            "order": 1,
+            "kind": "paragraph",
+            "text": "De mi abuelo Vero aprendí a tener buen carácter y a dominar mi genio.",
+            "spine": {
+              "from": "1.1",
+              "to": "1.1"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0002",
+            "order": 2,
+            "kind": "paragraph",
+            "text": "De todo lo que oí y recordé sobre mi padre, aprendí la modestia y un carácter firme y viril.",
+            "spine": {
+              "from": "1.2",
+              "to": "1.2"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0003",
+            "order": 3,
+            "kind": "paragraph",
+            "text": "De mi madre aprendí la reverencia y la generosidad; a abstenerme no solo de hacer el mal, sino incluso de pensarlo; y a vivir con sencillez, lejos de las costumbres de los ricos.",
+            "spine": {
+              "from": "1.3",
+              "to": "1.3"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0004",
+            "order": 4,
+            "kind": "paragraph",
+            "text": "De mi bisabuelo aprendí lo que vale no depender de las escuelas públicas y tener buenos maestros en casa — y que en eso conviene gastar sin tacañería.",
+            "spine": {
+              "from": "1.4",
+              "to": "1.4"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0005",
+            "order": 5,
+            "kind": "paragraph",
+            "text": "De mi preceptor aprendí a no tomar partido por los equipos de carreras del Circo ni por los gladiadores rivales de la arena; a soportar el trabajo duro, a necesitar poco, a hacer las cosas con mis propias manos, a ocuparme de mis asuntos y a no prestar oídos a las habladurías.",
+            "spine": {
+              "from": "1.5",
+              "to": "1.5"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0006",
+            "order": 6,
+            "kind": "paragraph",
+            "text": "De Diogneto aprendí a no malgastarme en cosas triviales; a no creer lo que dicen los magos y los charlatanes sobre hechizos y exorcismos; y a no aficionarme a modas como la cría de codornices de pelea. Él me enseñó a soportar la franqueza y a tomarme en serio la filosofía; me llevó a escuchar a los filósofos Baquio, Tandasis y Marciano, a escribir diálogos siendo niño y a preferir el sencillo catre y las pieles de la disciplina griega.",
+            "spine": {
+              "from": "1.6",
+              "to": "1.6"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0007",
+            "order": 7,
+            "kind": "paragraph",
+            "text": "De Rústico llegué a ver que mi carácter necesitaba trabajo y disciplina. Él me apartó de perseguir el lucimiento ingenioso, de escribir sobre teorías abstractas, de soltar sermoncitos y de exhibirme como modelo de autodominio o de caridad. Me enseñó a renunciar a la retórica ornamentada, a la poesía y a la escritura preciosista; a escribir con llaneza, como la carta sencilla que envió a mi madre desde Sinuesa; a reconciliarme enseguida con quien me hubiera ofendido, en cuanto estuviera dispuesto; a leer con atención en lugar de conformarme con una idea superficial; y a no asentir a los que solo hablan mucho. Fue Rústico quien me dio a conocer las enseñanzas de Epicteto, prestándome su propio ejemplar.",
+            "spine": {
+              "from": "1.7",
+              "to": "1.7"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0008",
+            "order": 8,
+            "kind": "paragraph",
+            "text": "De Apolonio aprendí la independencia de criterio y la firmeza de propósito — no apoyarme en nada que no fuera la razón, ni siquiera un instante — y a seguir siendo el mismo en el dolor agudo, en la pérdida de un hijo y en la enfermedad larga. En él vi el ejemplo vivo de un hombre que podía ser a la vez inflexible y amable, nunca irritable al enseñar, y que trataba su verdadero don — su destreza para explicar la filosofía — como el menor de sus méritos. De él aprendí también a aceptar favores de los amigos sin sentirme disminuido ni dejarlos sin reconocer.",
+            "spine": {
+              "from": "1.8",
+              "to": "1.8"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0009",
+            "order": 9,
+            "kind": "paragraph",
+            "text": "De Sexto aprendí la bondad, y el ejemplo de una casa gobernada como un buen padre gobierna a su familia; la idea de vivir de acuerdo con la naturaleza; la dignidad sin afectación; y el cuidado sincero de los amigos. Soportaba con paciencia a los ignorantes y a quienes opinan sin haberlo pensado. Se llevaba bien con cualquiera: su trato era más agradable que cualquier adulación y, aun así, se le tenía el mayor respeto. Tenía el don de exponer y ordenar, con claridad y con método, los principios que una vida necesita. Nunca mostró ira ni ninguna otra pasión; era a la vez completamente sereno y hondamente afectuoso. Elogiaba sin ruido y llevaba una gran erudición sin exhibirla jamás.",
+            "spine": {
+              "from": "1.9",
+              "to": "1.9"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0010",
+            "order": 10,
+            "kind": "paragraph",
+            "text": "De Alejandro el gramático aprendí a no saltar sobre los errores — a no avergonzar a nadie por un desliz de gramática o de pronunciación, sino a deslizar la forma correcta en mi respuesta, o al confirmar lo dicho, o mediante alguna otra insinuación discreta.",
+            "spine": {
+              "from": "1.10",
+              "to": "1.10"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0011",
+            "order": 11,
+            "kind": "paragraph",
+            "text": "De Frontón aprendí cuánta envidia, cuánta astucia y cuánta hipocresía acompañan al poder absoluto, y que los que llamamos aristócratas suelen andar escasos de calor humano.",
+            "spine": {
+              "from": "1.11",
+              "to": "1.11"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0012",
+            "order": 12,
+            "kind": "paragraph",
+            "text": "De Alejandro el platónico aprendí a no decir ni escribir a la gente, a menudo y sin verdadera necesidad, que estoy 'muy ocupado', y a no esquivar continuamente mis obligaciones con quienes me rodean alegando siempre asuntos urgentes.",
+            "spine": {
+              "from": "1.12",
+              "to": "1.12"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0013",
+            "order": 13,
+            "kind": "paragraph",
+            "text": "De Cátulo aprendí a no desatender la queja de un amigo, aunque sea injusta, sino a intentar poner las cosas en su sitio; a hablar con calor de mis maestros, como se dice que hacían Domicio y Atenódoto; y a querer de verdad a mis hijos.",
+            "spine": {
+              "from": "1.13",
+              "to": "1.13"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0014",
+            "order": 14,
+            "kind": "paragraph",
+            "text": "De mi hermano Severo aprendí a amar a mi familia, la verdad y la justicia. Por él conocí a Trasea, a Helvidio, a Catón, a Dión y a Bruto; y de él me vino la idea de una sociedad gobernada por una sola ley para todos, administrada con igualdad de derechos y libertad de palabra, y de una monarquía que estima por encima de todo la libertad de los gobernados. Me enseñó una entrega constante y sin distracciones a la filosofía; la disposición a hacer el bien y a dar con largueza; el optimismo; y la confianza en que mis amigos me querían. Nunca ocultó lo que pensaba de aquellos a quienes desaprobaba, de modo que sus amigos jamás tuvieron que adivinar sus deseos: sencillamente estaban a la vista.",
+            "spine": {
+              "from": "1.14",
+              "to": "1.14"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0015",
+            "order": 15,
+            "kind": "paragraph",
+            "text": "De Máximo aprendí el dominio de mí mismo y a no dejarme desviar por nada; el buen ánimo en cualquier circunstancia, incluida la enfermedad; un carácter que mezclaba la dulzura con la dignidad; y hacer lo que tenía delante sin quejarme. Todos confiaban en que decía lo que pensaba y en que obraba con buena intención. Nunca se asombraba, nunca tenía prisa, nunca aplazaba nada; nunca se quedaba sin recursos, nunca se venía abajo, nunca forzaba una risa para tapar la irritación, y nunca estallaba en cólera ni en sospechas. Era generoso, indulgente y sincero, y daba la impresión de un hombre que siempre había sido recto, más que de uno que hubiera tenido que corregirse. Nadie podía sentirse menospreciado por él, ni imaginarse mejor que él — y tenía el don de una gracia agradable.",
+            "spine": {
+              "from": "1.15",
+              "to": "1.15"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0016",
+            "order": 16,
+            "kind": "paragraph",
+            "text": "En mi padre adoptivo, Antonino, vi la mansedumbre y una fidelidad inquebrantable a las decisiones tomadas tras pensarlas bien. Era indiferente a los llamados honores que la gente ansía; amaba el trabajo duro y la constancia, y escuchaba a cualquiera que trajera una propuesta para el bien común. Daba a cada hombre exactamente lo que merecía, y sabía por experiencia cuándo apretar y cuándo aflojar. Se tenía por un ciudadano más, y liberó a sus amigos de toda obligación de cenar con él o de acompañarlo en sus viajes; los que se quedaban por otros deberes lo encontraban siempre igual. En el consejo examinaba los asuntos con cuidado y con paciencia, sin cortar nunca el examen antes de tiempo por contentarse con las primeras impresiones. Conservaba a sus amigos sin cansarse de ellos y sin apegos desmedidos. Estaba contento en cualquier situación, alegre y previsor, atento a los detalles más pequeños sin aspavientos. Puso fin a la adulación y a los aplausos dirigidos a él. Velaba sin descanso por lo que el imperio necesitaba, administraba bien su gasto y soportaba con paciencia las críticas que eso le atraía. No era supersticioso con los dioses ni buscaba el favor popular; era sobrio y firme en todo, nunca vulgar, nunca a la caza de novedades. Las comodidades que la fortuna le daba en abundancia las usaba sin arrogancia y sin disculparse: disfrutándolas con naturalidad cuando estaban y sin echarlas de menos cuando faltaban. Nadie podía llamarlo sofista, ni criado zalamero, ni pedante; todos reconocían en él a un hombre maduro y completo, por encima de la adulación, capaz de gobernarse a sí mismo y de gobernar a los demás. Honraba a los filósofos verdaderos y no reprochaba nada a los falsos, aunque nunca se dejó engañar por ellos. Era fácil en la conversación y encantador sin volverse pesado. Cuidaba su salud con sensatez — sin aferrarse a la vida ni preocuparse por su aspecto, pero sin descuidarse — de modo que rara vez necesitó médico. Cedía enseguida el paso a los que tenían verdadero talento, en elocuencia, en derecho, en moral o en lo que fuera, y ayudaba a cada uno a ganar el reconocimiento que merecía. Seguía las tradiciones de su país sin hacer alarde de ello. Le disgustaban el cambio y la agitación, y prefería los mismos lugares y las mismas ocupaciones; después de sus ataques de jaqueca volvía fresco y vigoroso al trabajo. Guardaba pocos secretos, y solo sobre asuntos públicos. Era prudente y económico al montar espectáculos, al levantar edificios y al hacer donativos al pueblo: un hombre que miraba a lo que había que hacer, no a la fama que le daría. No se bañaba a horas extrañas, no construía por construir, y era indiferente a su comida y al corte y al color de su ropa. No había en él nada áspero, nada implacable ni violento, nada 'llevado hasta el sudor'; lo examinaba todo con calma, como si tuviera todo el tiempo del mundo — ordenado, firme y consecuente. Lo que se dijo de Sócrates le cuadra: podía pasarse sin las cosas de las que la mayoría no puede prescindir, y disfrutar con moderación de aquellas de las que la mayoría no sabe disfrutar sin excederse. Ser lo bastante fuerte para las dos cosas — privarse y gozar con mesura — es la marca de un hombre de alma equilibrada e invencible, exactamente como él lo demostró durante la enfermedad de Máximo.",
+            "spine": {
+              "from": "1.16",
+              "to": "1.16"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-01.seg-0017",
+            "order": 17,
+            "kind": "paragraph",
+            "text": "A los dioses les debo buenos abuelos, buenos padres, una buena hermana, buenos maestros, buenos compañeros, buenos parientes y buenos amigos — casi todo lo bueno. Les debo también no haber perdido nunca los estribos y ofendido a ninguno de ellos, aunque mi natural era tal que, dada la ocasión, podría haberlo hecho; por su gracia, las circunstancias que me habrían puesto a prueba nunca llegaron a juntarse. Agradezco no haberme criado demasiado tiempo con la amante de mi padre; haber conservado mi inocencia y no haberme hecho hombre antes de tiempo, sino, si acaso, haber esperado más de lo necesario. Viví bajo un gobernante y padre que me despojó del orgullo y me mostró que se puede vivir en un palacio sin guardias, sin ropas lujosas, sin antorchas, sin estatuas y sin todo ese aparato, y que uno puede rebajarse casi al nivel de un ciudadano particular sin volverse por ello más pequeño de espíritu ni más flojo en los deberes públicos que un gobernante debe cumplir. Los dioses me dieron un hermano cuyo carácter me espoleaba a vigilarme a mí mismo, y cuyo respeto y afecto me alegraban; hijos que no nacieron torpes ni deformes; y el buen sentido de no adentrarme más en la retórica, en la poesía y en otros estudios que podrían haberme absorbido si hubiera sentido que destacaba en ellos. Me di prisa en dar a quienes me criaron los honores que parecían desear, en vez de darles largas con promesas porque todavía eran jóvenes. Llegué a conocer a Apolonio, a Rústico y a Máximo. Me formé imágenes claras y frecuentes de lo que significa vivir conforme a la naturaleza, de modo que, en lo que toca a los dioses y a sus dones, a su ayuda y a su inspiración, nada me impedía vivir así desde ya — aunque sigo quedándome corto por culpa mía, por no atender a sus recordatorios y a sus instrucciones casi explícitas. Mi cuerpo ha aguantado hasta ahora una vida así. Nunca puse la mano encima a Benedicta ni a Teodoto, y cuando más tarde caí en enamoramientos, me repuse. Aunque muchas veces me irritó Rústico, nunca llegué a hacer nada de lo que tuviera que arrepentirme. Mi madre, aunque destinada a morir joven, pasó conmigo sus últimos años. Siempre que quise ayudar a alguien necesitado, jamás me dijeron que no había dinero para ello — y yo mismo nunca tuve que pedirle esa ayuda a nadie. Tengo una esposa tan dócil, tan cariñosa y tan sin afectación; y no me faltaron buenos maestros para mis hijos. Se me mostraron remedios en sueños, incluso para los esputos de sangre y para los mareos. Y cuando me sentí atraído por la filosofía, no fui a dar en manos de algún sofista, ni perdí el tiempo con los historiadores, ni desenredando acertijos lógicos, ni especulando sobre los cielos. Para todo esto necesité la ayuda de los dioses y de la fortuna.",
+            "spine": {
+              "from": "1.17",
+              "to": "1.17"
+            }
+          }
+        ],
+        "title": "Lo que aprendí, y de quién"
+      },
+      {
+        "id": "edition.meditations.lectio-es.book-02",
+        "order": 2,
+        "label": "Libro II",
+        "segments": [
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0001",
+            "order": 1,
+            "kind": "paragraph",
+            "text": "Empieza cada mañana diciéndote: hoy me encontraré con gente entrometida, ingrata, arrogante, deshonesta, envidiosa e insociable. Son así porque no saben distinguir el bien del mal. Pero yo he visto que la naturaleza del bien es hermosa y la del mal es fea, y que quien obra mal es pariente mío — no por sangre ni por nacimiento, sino porque compartimos la misma mente y el mismo fragmento de lo divino. Así que ninguno de ellos puede hacerme daño de verdad, porque nadie puede obligarme a nada feo, y yo no puedo enfadarme con un pariente ni odiarlo. Fuimos hechos para trabajar juntos, como los pies, las manos, los párpados, las hileras de dientes de arriba y de abajo. Trabajar unos contra otros va, por tanto, contra la naturaleza — y el resentimiento y el darse la vuelta son exactamente eso.",
+            "spine": {
+              "from": "2.1",
+              "to": "2.1"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0002",
+            "order": 2,
+            "kind": "paragraph",
+            "text": "Sea lo que sea, no soy más que un poco de carne, un soplo de aire y la parte que gobierna. Deja los libros a un lado; no dejes que sigan distrayéndote — ya no te está permitido. En cambio, como si estuvieras muriéndote ya, mira desde arriba la carne: no es más que sangre y huesos, una red de nervios, venas y arterias. Mira también el aliento, y ve lo que es: aire, nunca el mismo, expulsado y aspirado de nuevo a cada instante. Lo tercero es la parte que gobierna. Piénsalo así: ya eres un hombre viejo. Deja de tenerla esclavizada. Deja de permitir que unos impulsos insociables la sacudan como a un títere. Deja de estar descontento con lo que trae el presente, o de encogerte ante lo que traiga el futuro.",
+            "spine": {
+              "from": "2.2",
+              "to": "2.2"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0003",
+            "order": 3,
+            "kind": "paragraph",
+            "text": "Todo lo que viene de los dioses está lleno de providencia. Incluso lo que viene del azar no está desgajado de la naturaleza, sino tejido y enredado con lo que la providencia dispone. Todo fluye de esa fuente. Y está además la necesidad, y lo que sirve al bien del universo entero, del que tú eres una parte. Lo que la naturaleza del todo trae es bueno para cada una de sus partes, y también es bueno lo que mantiene en marcha a esa naturaleza. El universo se mantiene vivo por los cambios de los elementos, y también por los cambios de las cosas hechas con esos elementos. Que estos principios te basten; tenlos siempre por convicciones firmes. Y tira tu sed de libros, para no morir quejándote, sino con alegría, con sinceridad y con gratitud verdadera a los dioses desde el corazón.",
+            "spine": {
+              "from": "2.3",
+              "to": "2.3"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0004",
+            "order": 4,
+            "kind": "paragraph",
+            "text": "Acuérdate de cuánto tiempo llevas aplazando estas cosas, y de cuántas oportunidades te han dado los dioses que sigues sin usar. Ya es hora, por fin, de comprender de qué universo formas parte, y que tu existencia fluye de quien administra ese universo, y que hay un límite puesto a tu tiempo. Si no usas ese tiempo para despejar las nubes de tu mente, pasará — y tú pasarás con él — y no volverá nunca.",
+            "spine": {
+              "from": "2.4",
+              "to": "2.4"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0005",
+            "order": 5,
+            "kind": "paragraph",
+            "text": "A cada momento, disponte con firmeza, como romano y como hombre, a hacer la tarea que tienes delante con dignidad perfecta y sencilla, con afecto, con libertad y con justicia, y a librarte de cualquier otro pensamiento. Te librarás si haces cada acto de tu vida como si fuera el último — dejando de lado todo descuido, toda resistencia apasionada a lo que manda la razón, toda hipocresía, todo amor propio y todo descontento con la suerte que te ha tocado. Mira qué pocas cosas necesita dominar un hombre para vivir una vida serena, como la vida de los dioses; porque los dioses mismos no pedirán nada más a quien se atenga a esto.",
+            "spine": {
+              "from": "2.5",
+              "to": "2.5"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0006",
+            "order": 6,
+            "kind": "paragraph",
+            "text": "Te ofendes a ti misma, te ofendes a ti misma, alma mía — y pronto ya no tendrás ocasión de honrarte. Cada persona recibe una sola vida, y la tuya está casi acabada, y sin embargo sigues sin respetarte; en vez de eso, pones tu felicidad en las almas de los demás.",
+            "spine": {
+              "from": "2.6",
+              "to": "2.6"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0007",
+            "order": 7,
+            "kind": "paragraph",
+            "text": "¿Te tiran en todas direcciones las cosas que pasan a tu alrededor? Entonces date tiempo para aprender algo nuevo y bueno, y deja de dar vueltas. Pero cuidado con dejarte arrastrar también en la otra dirección; porque quienes se agotan en una actividad constante son igual de necios si no tienen una meta a la que apuntar cada acción — y, más aún, cada pensamiento.",
+            "spine": {
+              "from": "2.7",
+              "to": "2.7"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0008",
+            "order": 8,
+            "kind": "paragraph",
+            "text": "Rara vez se ve a un hombre desdichado por no haber notado lo que había en la mente de otro; pero quienes no vigilan los movimientos de su propia mente están condenados a ser desdichados.",
+            "spine": {
+              "from": "2.8",
+              "to": "2.8"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0009",
+            "order": 9,
+            "kind": "paragraph",
+            "text": "Ten siempre presente esto: cuál es la naturaleza del todo, cuál es la mía, cómo se relaciona la mía con el todo, qué clase de parte es y de qué clase de todo — y que nadie puede impedirte obrar y hablar siempre conforme a la naturaleza de la que formas parte.",
+            "spine": {
+              "from": "2.9",
+              "to": "2.9"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0010",
+            "order": 10,
+            "kind": "paragraph",
+            "text": "Cuando Teofrasto compara las faltas — la clase de comparación que se haría según las ideas humanas corrientes — dice, como un verdadero filósofo, que las ofensas cometidas por deseo son más reprochables que las cometidas por ira. Pues el hombre movido por la ira parece apartarse de la razón con una especie de dolor y con un encogimiento involuntario; en cambio, el que ofende por deseo se deja vencer por el placer y parece de algún modo menos dueño de sí, más débil de voluntad en su falta. Con razón, pues, y de un modo digno de la filosofía, dijo que la ofensa cometida con placer merece más reproche que la cometida con dolor. En conjunto, el airado se parece a alguien a quien primero ofendieron y a quien el dolor empuja a la ira, mientras que el otro se mueve por su propio impulso a obrar mal, llevado a la acción por el deseo.",
+            "spine": {
+              "from": "2.10",
+              "to": "2.10"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0011",
+            "order": 11,
+            "kind": "paragraph",
+            "text": "Puesto que es posible que dejes esta vida en cualquier momento, gobierna en consecuencia cada acción y cada pensamiento. En cuanto a dejar la compañía de los hombres: si hay dioses, no hay nada que temer — no dejarán que caigas en el mal. Y si no hay dioses, o si no se interesan por los asuntos humanos, ¿para qué querría yo vivir en un universo sin dioses y sin providencia? Pero lo cierto es que existen, y que sí se ocupan de las cosas humanas, y que han puesto todo lo necesario al alcance del hombre para que no caiga en males verdaderos. En cuanto a lo demás, si fuera de veras un mal, también lo habrían dispuesto de modo que estuviera enteramente en manos del hombre evitarlo. Y lo que no hace peor a un hombre, ¿cómo podría empeorar su vida? No es posible que la naturaleza del universo pasara por alto estas cosas por ignorancia, ni por conocerlas careciendo del poder de prevenirlas o corregirlas. Tampoco es posible que cometiera un error tan grande, por debilidad o por torpeza, como para que el bien y el mal cayeran por igual sobre los buenos y sobre los malos. Pero la muerte y la vida, la honra y la deshonra, el dolor y el placer les llegan por igual a los hombres buenos y a los malos, y no nos hacen ni mejores ni peores. Luego no son ni buenos ni malos.",
+            "spine": {
+              "from": "2.11",
+              "to": "2.11"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0012",
+            "order": 12,
+            "kind": "paragraph",
+            "text": "Qué rápido se desvanece todo: los cuerpos mismos en el universo, y su recuerdo en el tiempo. Considera la naturaleza de todo lo que percibimos, sobre todo de aquello que nos atrae con el cebo del placer, o que nos aterra con el dolor, o que va pregonado por la fama vacía: qué cosa tan sin valor, tan despreciable, tan raída, tan perecedera y tan muerta. Es tarea de la mente observar todo esto — observar también quiénes son en realidad esas personas cuyas opiniones y voces conceden reputación, y qué es la muerte. Si un hombre mira la muerte en sí misma y con la reflexión le quita todo lo que la imaginación le amontona encima, verá que no es más que un proceso de la naturaleza; y tener miedo de un proceso de la naturaleza es cosa de niños. Y la muerte no solo es un proceso de la naturaleza, sino algo que sirve a sus fines. Observa también cómo se acerca el hombre a lo divino, con qué parte de sí mismo, y cuándo esa parte está bien dispuesta.",
+            "spine": {
+              "from": "2.12",
+              "to": "2.12"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0013",
+            "order": 13,
+            "kind": "paragraph",
+            "text": "Nada da más lástima que un hombre que da vueltas alrededor de todo, hurgando en lo que hay bajo la tierra, como dice el poeta, y tratando de adivinar por conjeturas lo que hay en la mente de sus vecinos, sin darse cuenta nunca de que basta con atender al espíritu que lleva dentro y venerarlo con sinceridad. Venerar ese espíritu significa mantenerlo libre de pasión y de irreflexión, y libre de descontento con lo que viene de los dioses y de los hombres. Lo que viene de los dioses merece reverencia por su excelencia; lo que viene de los hombres debe sernos querido porque son de los nuestros — y a veces, en cierto modo, hasta nos mueven a compasión, porque no distinguen el bien del mal, defecto no menor que el que priva a alguien de distinguir el blanco del negro.",
+            "spine": {
+              "from": "2.13",
+              "to": "2.13"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0014",
+            "order": 14,
+            "kind": "paragraph",
+            "text": "Aunque fueras a vivir tres mil años, o diez mil veces ese tiempo, recuerda esto: nadie pierde otra vida que la que está viviendo ahora, y nadie vive otra vida que la que está perdiendo ahora. Así que la vida más larga y la más corta vienen a ser lo mismo. El momento presente es el mismo para todos, aunque lo que se está perdiendo no sea el mismo para cada uno; y así lo que se pierde resulta ser solo un instante. Pues un hombre no puede perder ni el pasado ni el futuro: ¿cómo va nadie a quitarle lo que no tiene? Ten presentes, entonces, dos cosas. Primera, que todo, desde la eternidad, tiene las mismas formas y vuelve a girar en círculo, de modo que da igual que un hombre vea las mismas cosas cien años, o doscientos, o para siempre. Segunda, que el hombre que más vive y el que muere antes pierden exactamente lo mismo. Porque el presente es lo único de lo que se puede privar a un hombre, ya que es lo único que tiene — y nadie puede perder lo que no tiene.",
+            "spine": {
+              "from": "2.14",
+              "to": "2.14"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0015",
+            "order": 15,
+            "kind": "paragraph",
+            "text": "Recuerda que todo es cuestión de opinión. El dicho de Monimo el cínico lo deja claro, y su utilidad también es clara, si uno toma de él lo que tiene de verdadero.",
+            "spine": {
+              "from": "2.15",
+              "to": "2.15"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0016",
+            "order": 16,
+            "kind": "paragraph",
+            "text": "El alma del hombre se hace violencia a sí misma, en primer lugar, cuando llega a ser, en lo que de ella depende, un absceso o una especie de tumor en el universo. Porque irritarse por cualquier cosa que sucede es apartarse de la naturaleza, que contiene en sus distintas partes las naturalezas de todas las demás cosas. En segundo lugar, el alma se hace violencia cuando se aparta de otra persona, o se mueve hacia ella con intención de dañarla, como hacen las almas de los airados. En tercer lugar, cuando la vencen el placer o el dolor. En cuarto lugar, cuando finge, haciendo o diciendo algo sin sinceridad o sin verdad. En quinto lugar, cuando deja que alguno de sus actos o de sus impulsos no tenga un fin, haciendo cosas irreflexivamente, sin considerar lo que son — cuando hasta lo más pequeño debería hacerse con un fin a la vista; y el fin de los seres racionales es seguir la razón y la ley de la ciudad y de la república más antiguas.",
+            "spine": {
+              "from": "2.16",
+              "to": "2.16"
+            }
+          },
+          {
+            "id": "edition.meditations.lectio-es.book-02.seg-0017",
+            "order": 17,
+            "kind": "paragraph",
+            "text": "En la vida humana el tiempo es un punto, la sustancia fluye sin parar, la percepción es turbia, el cuerpo entero es materia destinada a pudrirse, el alma es un remolino, la fortuna es difícil de prever y la fama no tiene juicio. En una palabra: todo lo del cuerpo es un río, todo lo del alma es sueño y vapor, la vida es una guerra y la breve estancia de un forastero, y la fama duradera es olvido. ¿Qué puede entonces guiar a un hombre? Una sola cosa: la filosofía. Y eso significa mantener el espíritu que lleva dentro libre de violencia y sin daño, por encima de placeres y dolores, no hacer nada sin propósito ni nada con falsedad o con fingimiento, no depender de que otro haga o deje de hacer algo; y, además de esto, aceptar todo lo que ocurre y todo lo que le toca en suerte como venido de allí de donde él mismo vino; y, por último, esperar la muerte con ánimo sereno, ya que no es más que la disolución de los elementos de los que se compone todo ser vivo. Pero si a los elementos mismos no les hace daño cambiar continuamente unos en otros, ¿por qué habría de temer un hombre el cambio y la disolución de todos ellos? Está de acuerdo con la naturaleza, y nada que esté de acuerdo con la naturaleza es malo.",
+            "spine": {
+              "from": "2.17",
+              "to": "2.17"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "enrichment": {
+    "chapters": {
+      "1": "Marco Aurelio no empieza por la doctrina, sino por la gratitud: nombra a la familia, a los maestros y a los amigos que lo formaron, y la virtud concreta que debe a cada uno. Se lee como el inventario sereno de un buen carácter y de dónde vino.",
+      "2": "Escritas en campaña, estas notas lo preparan para la gente difícil y para su propia muerte. Aquí está la famosa resolución de la mañana — hoy me encontraré con los ingratos y los arrogantes — y el recordatorio de que no es más que carne, aliento y una mente que gobierna."
+    },
+    "passages": [
+      {
+        "sectionId": "edition.meditations.lectio-es.book-01",
+        "people": [
+          "Vero",
+          "Diogneto",
+          "Rústico",
+          "Apolonio",
+          "Máximo",
+          "Antonino Pío"
+        ]
+      }
+    ]
+  },
+  "otherEditions": {
+    "edition.meditations.lectio-modern": {
+      "character": "Inglés moderno y llano — la Edición Lectio de la que procede esta muestra.",
+      "provenance": {
+        "rightsNote": "Edición propia de Lectio, derivada de fuentes de dominio público — no es una traducción histórica."
+      }
+    },
+    "edition.meditations.long-1862": {
+      "character": "El patrón victoriano clásico — claro, digno, muy leído.",
+      "provenance": {
+        "rightsNote": "Dominio público en EE. UU.; traducción de George Long, 1862."
+      }
+    },
+    "edition.meditations.casaubon-1634": {
+      "character": "Las primeras Meditaciones en inglés — recargadas, arcaicas, devotas.",
+      "provenance": {
+        "rightsNote": "Dominio público en EE. UU.; la traducción de Casaubon se publicó por primera vez en 1634."
+      }
+    },
+    "edition.meditations.greek-original": {
+      "character": "El original en griego koiné — el cuaderno privado de Marco Aurelio (Τὰ εἰς ἑαυτόν).",
+      "provenance": {
+        "rightsNote": "Texto griego antiguo (c. 170–180 d. C.); dominio público."
+      }
+    }
+  },
+  "explore": {
+    "quote": "Todo lo del cuerpo es un río, todo lo del alma es sueño y vapor; la vida es una guerra y la breve estancia de un forastero, y la fama duradera es olvido.",
+    "source": "Marco Aurelio, Meditaciones 2.17 — Edición Lectio en español",
+    "essence": "El cuaderno privado de un emperador romano: recordatorios estoicos sobre el deber, la muerte y el dominio de la propia mente.",
+    "themes": [
+      "estoicismo",
+      "dominio de sí",
+      "mortalidad",
+      "deber",
+      "el momento presente"
+    ],
+    "connections": [
+      {
+        "to": "El Bhagavad Gita",
+        "type": "paralelo",
+        "note": "Obrar bien y soltar el resultado: el karma-yoga del Gita y el estoicismo de Marco Aurelio llegan casi a la misma disciplina desde mundos distintos."
+      },
+      {
+        "to": "La República",
+        "type": "influye",
+        "note": "El estoicismo crece de la raíz socrática que plantó Platón: la vida examinada, el alma ordenada por la razón."
+      },
+      {
+        "to": "Analectas",
+        "type": "paralelo",
+        "note": "La corrección diaria de uno mismo y el cultivo del carácter: los recordatorios matinales de Marco Aurelio hacen eco del examen confuciano."
+      },
+      {
+        "to": "Confesiones",
+        "type": "contrasta",
+        "note": "Dos libros interiores: Marco Aurelio afirma el yo por la razón, Agustín lo entrega a Dios."
+      }
+    ]
+  },
+  "cover": "tools/print/covers/meditations-es.svg"
+}
