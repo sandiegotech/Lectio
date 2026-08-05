@@ -9,10 +9,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 English edition of each work produced by deep research, read by default — with one tap to any public-domain
 translation or the original language. Initial corpus: **3 works** — Meditations, The Iliad, and Plato/Aristotle.
 
-Three parts:
-- `pipeline/` — an offline Python tool that turns public-domain books into a portable JSON content bundle.
-- `content/` — the generated bundle (committed; it's the app's input).
-- `app/` — the SwiftUI app (target `Lectio`, bundle `com.sdit.Lectio`) that reads the bundle.
+One text, three editions of it — the reader, the printed book, the recording — all anchored to the
+same segment ids:
+
+| | | |
+| --- | --- | --- |
+| `pipeline/` | offline Python; turns public-domain books into the content bundle | committed |
+| `content/` | the generated bundle — **the app's input, and the source every edition reads** | committed |
+| `app/` | the SwiftUI app (target `Lectio`, bundle `com.sdit.Lectio`) | committed |
+| `print/` | the printed editions: one generator, cover engine, cover masters | committed; `print/out/` is not |
+| `audio/` | recordings: manifests and scripts only, never media (see `audio/README.md`) | committed |
+| `tools/` | dev utilities that belong to no edition (`overnight/`) | committed |
+
+**Media never enters git.** Audio (100–400 MB per work) lives in object storage; `.wav/.m4a/.mp3`
+and `audio/**/media/` are gitignored. What git holds is text: code, the bundle, manifests, SVG
+cover masters.
 
 Product vision is in `BIBLE.md`; content/data design is in `CONTENT_PIPELINE.md`. Read those before large changes.
 
@@ -64,6 +75,7 @@ There is no test suite yet.
 - SwiftUI, iOS 17+, `SWIFT_VERSION = 5.0` (Swift 5 language mode), target family iPhone+iPad.
 - Design language is **"The Margin"**: warm parchment palette in `Theme.swift` (single `Palette.natural`), serif reading text (`.system(design: .serif)`, no bundled fonts), one rubrication-red accent. The living layer sits in the reader's right-hand drawer — three panels (Docent · Compare · About) switched from the header row; the Docent panel also holds the reader's marks (`Views/MarginRail.swift`, embedded), and About carries Where-you-are + Who's-Who from the enrichment glossary. Contents is a centered header dropdown, and bookmarks (plural) live in a header menu.
 - The content bundle is included as a folder reference (`../content` in `project.yml`) and read at runtime via `Bundle.main.url(..., subdirectory: "content")` in `Library.swift`.
-- **Cover assets.** Covers ship in `content/` as **compressed JPEGs** (~1400px, q82, ~300 KB each — keeps the bundle ~50 MB instead of ~440 MB). The **high-res PNG masters live OUTSIDE the repo at `~/Documents/Lectio-Masters/`** (mirroring the `content/` path layout) — they are the print-quality source and are *not* committed. To add/replace a cover: drop the high-res original in `~/Documents/Lectio-Masters/...`, then emit the app copy with `magick MASTER -resize '1400x1400>' -background white -flatten -strip -quality 82 content/.../<name>.jpg`. Covers are referenced as `.jpg` in `Library.swift` (`coverURL`, `collectionImageURL`) and `pipeline/collections.py` (`PLANNED_COVERS`). Server-side on-demand download is deferred (Cloudflare R2 when the catalog outgrows a bundled app).
+- **Cover assets.** A cover is now **vector**, and the SVG is the master: `print/covers/<slug>.svg`, built by `print/covers/build_covers.py` from a recipe. `content/works/<id>/cover.jpg` is *generated* from it (`print/covers/export_app_covers.py`, ~1400px q82, ~120 KB) because SwiftUI has no runtime SVG decoder. The original raster artwork each cover is traced from lives in `print/covers/source/<workId>.jpg` — **never trace `content/.../cover.jpg`, which is the pipeline's own output; that loop silently degrades the art.** Planned-shelf covers (`content/collections/book-covers/`, 196 files) are **derived, not hand-tuned**: `print/covers/build_planned.py` reads each master in `~/Documents/Slate Shared/Lectio-Masters/collections/book-covers/`, detects the seam, board tone and medallion, and renders it through the same `LAYOUT` as a published cover, taking title/author from the collection JSON — so the whole shelf is one design. Their SVGs (~105 MB) are gitignored intermediates; only the 1000px q80 JPEGs are committed. Build only what a shelf references: covers with no `planned` entry pointing at them are dead weight and get deleted. Covers are referenced as `.jpg` in `Library.swift` (`coverURL`, `collectionImageURL`) and `pipeline/collections.py` (`PLANNED_COVERS`).
+- **Delivery is not decided.** Today the whole bundle ships inside the app (~50 MB: 18 MB text for 12 works, 31 MB of planned-shelf covers). Text grows ~1.5 MB per work; audio would be 100–400 MB per work and must never be bundled. The candidate is Apple-hosted asset packs (Background Assets, iOS 26+, 200 GB free with the Developer Program, packs uploadable without an app release); Cloudflare R2 is the fallback if it ever needs to serve non-Apple clients. Do not build a server for this without a reason.
 - `enrichment.json` per work feeds the rail and is hand-authored editorial seed; the pipeline does not overwrite it.
 - **The Docent** lives in the reader's side drawer (`SidePanel.ask` in `ReaderView.swift`, UI in `Views/DocentPanel.swift`) and in the selection popup ("Ask"). Its name is one constant (`DocentFeature.name`). Debug hooks for headless screenshots: `LECTIO_DEBUG_DOCENT` opens the panel, `LECTIO_DEBUG_DOCENT_ASK=<q>` asks a question, `LECTIO_DEBUG_DOCENT_MOCK` swaps in a canned provider (works on hosts without Apple Intelligence). The simulator runs the real on-device model when the host Mac has Apple Intelligence enabled.
