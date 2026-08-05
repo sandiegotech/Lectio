@@ -6,7 +6,7 @@
   "about": "In 1909 Charles W. Eliot, newly retired after forty years as president of Harvard, set out to prove that a liberal education could fit on a shelf about five feet long. He had often said the essentials could be had by reading just fifteen minutes a day; the publisher P. F. Collier dared him to assemble the books. The result was the Harvard Classics.\n\nFifty-one volumes gather the West's essential philosophy, history, science, poetry, drama, and scripture, each introduced for the general reader and opened by Eliot's own guide to the whole set. Sold on the famous promise of 'fifteen minutes a day,' it carried a university bookshelf into hundreds of thousands of homes and became the most influential self-education project of its century.\n\nSeveral of those fifty-one volumes are anthologies — Plato bound together with Epictetus and Marcus Aurelius, four philosophers gathered into one book — so Lectio unpacks them into the individual works inside, each opened on its own. That is why the shelf below counts more works than the original counted volumes: one famous five-foot shelf, here laid out as the separate books a reader actually opens.",
   "introduction": "In 1909 Charles W. Eliot, who had just stepped down after forty years as president of Harvard, made a claim that sounded like a boast: the essentials of a liberal education, he said, could be had by anyone willing to spend fifteen minutes a day with a shelf of books about five feet long. A publisher took him up on it, and Eliot — with the scholar William Allan Neilson — chose the books. The result, fifty-one volumes, became the Harvard Classics: the most ambitious attempt ever made to put a university education into an ordinary home.\n\nEliot's conviction was a democratic one. A great education, he believed, was not the private property of those who could come to Cambridge; it was a birthright that only needed to be made portable. The five-foot shelf was exactly that — sold by subscription to hundreds of thousands of families who would never see Harvard.\n\nThe set is arranged not by difficulty but by the shape of human knowledge. It gathers philosophy and religion, history and biography, science and political thought, poetry and drama and prose fiction, the essay and criticism, voyages and travel. Read across it and you are meant to feel the whole of the Western mind at once — Plato beside Darwin, the Psalms beside the Declaration of Independence.\n\nLectio carries the Harvard Classics in the spirit Eliot intended, only further: every work in a clear modern edition, read by default, with the original always a tap away. You needn't read it in order, or in full. Open any volume, give it fifteen minutes, and you are doing precisely what Eliot promised.\n\nWhat follows is the shelf in brief — what is on it, and why each kind of book belongs.\n\nPhilosophy & Religion. The trial and death of Socrates in Plato's Apology, Crito, and Phaedo — the founding drama of the examined life; Marcus Aurelius's Meditations, a Roman emperor's private Stoic notebook; Epictetus, the slave who taught freedom; Augustine's Confessions, the first true autobiography of a soul; and the sacred writings of the world's faiths, set side by side. They are here because every other question begins with how one ought to live.\n\nHistory & Biography. Plutarch's Lives — paired portraits of Greeks and Romans that taught Europe what greatness looked like — and the memoirs of Franklin and Cellini. Included because character is best learned from lives, not maxims.\n\nScience. Darwin's Origin of Species entire, the book that remade biology, alongside the papers of Faraday, Lavoisier, and Pasteur. Eliot refused to wall the sciences off from the humanities; to him they were one inquiry, and a liberal education that skipped them was not liberal at all.\n\nPolitical Thought. Machiavelli's Prince and More's Utopia; Hobbes, Locke, Berkeley, and Hume; the great documents of liberty. Here so a reader can trace the long argument over how human beings should be governed — and govern themselves.\n\nPoetry, Drama & Fiction. Homer's Odyssey and Virgil's Aeneid; the Greek tragedies; Dante's Divine Comedy; Milton; Cervantes' Don Quixote; the Elizabethan dramatists. The imagination of the West, in the works that formed it.\n\nThe Essay & Criticism. Bacon, Montaigne, Emerson, Carlyle — the art of thinking openly on the page, which is finally what the whole shelf is meant to teach.\n\nEliot called it a library of the world's best literature. It is more than that: it is an argument that any person, given the books and a quarter of an hour a day, can join the long conversation of humankind. Lectio exists to make that argument true again.",
   "kind": "series",
-  "group": "The Western World",
+  "group": "More Collections",
   "items": [
     {
       "workId": "work.marcus-aurelius.meditations",
@@ -135,15 +135,6 @@
       "cover": "collections/book-covers/lectio-poems-and-songs.jpg"
     },
     {
-      "title": "Confessions",
-      "author": "Saint Augustine",
-      "era": "397–400 CE",
-      "part": "",
-      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-confessions.jpg"
-    },
-    {
       "title": "The Imitation of Christ",
       "author": "Thomas à Kempis",
       "era": "1418–1427",
@@ -268,15 +259,6 @@
       "note": "Marlowe's Elizabethan tragedy of forbidden knowledge and the bargain with the devil.",
       "tradition": "West",
       "cover": "collections/book-covers/lectio-doctor-faustus.jpg"
-    },
-    {
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "era": "1308–1320",
-      "part": "",
-      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
     },
     {
       "title": "The Betrothed",
@@ -432,15 +414,6 @@
       "cover": "collections/book-covers/lectio-chronicle-and-romance.jpg"
     },
     {
-      "title": "The Prince",
-      "author": "Niccolò Machiavelli",
-      "era": "1513",
-      "part": "",
-      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-prince.jpg"
-    },
-    {
       "title": "Utopia",
       "author": "Sir Thomas More",
       "era": "1516",
@@ -563,7 +536,8 @@
       "era": "1590–1610",
       "part": "",
       "note": "Marlowe and Shakespeare — the birth of the English stage.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-elizabethan-drama-i.jpg"
     },
     {
       "title": "Elizabethan Drama II",
@@ -571,7 +545,8 @@
       "era": "1600–1630",
       "part": "",
       "note": "Jonson, Webster, and the other masters of the Jacobean stage.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-elizabethan-drama-ii.jpg"
     },
     {
       "title": "Pensées",
@@ -588,7 +563,8 @@
       "era": "700–1300",
       "part": "",
       "note": "Beowulf, the Song of Roland, and the Nibelungenlied — the epics of the North.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-epic-and-saga.jpg"
     }
   ]
 }

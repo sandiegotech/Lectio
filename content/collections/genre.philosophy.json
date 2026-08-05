@@ -24,15 +24,6 @@
   ],
   "planned": [
     {
-      "title": "The Analects",
-      "author": "Confucius",
-      "era": "551–479 BCE",
-      "part": "",
-      "note": "The ground text of East Asian ethics — becoming fully human through ritual, learning, and human-heartedness.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-analects.jpg"
-    },
-    {
       "title": "The Tao Te Ching",
       "author": "Laozi",
       "era": "400–301 BCE",
@@ -40,15 +31,6 @@
       "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
       "tradition": "East",
       "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
-    },
-    {
-      "title": "Nicomachean Ethics",
-      "author": "Aristotle",
-      "era": "340 BCE",
-      "part": "",
-      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
     },
     {
       "title": "On the Nature of Things",
@@ -137,7 +119,8 @@
       "era": "1886",
       "part": "",
       "note": "Nietzsche's assault on inherited morality — and his demand that we create our own values.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-beyond-good-and-evil.jpg"
     },
     {
       "title": "The Yoga Sutras",

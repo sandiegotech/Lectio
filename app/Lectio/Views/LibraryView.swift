@@ -229,6 +229,15 @@ struct LibraryView: View {
                     }
                     Text("\(collection.curator)  ·  \(works.count + shells.count) works")
                         .font(.caption).foregroundColor(pal.inkSoft)
+                    if !collection.blurb.isEmpty {
+                        Text(collection.blurb)
+                            .font(.system(.subheadline, design: .serif))
+                            .foregroundColor(pal.inkSoft)
+                            .lineLimit(2)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(.top, 3)
+                            .frame(maxWidth: 640, alignment: .leading)
+                    }
                 }
             }
             .buttonStyle(.plain)

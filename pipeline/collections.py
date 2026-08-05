@@ -682,7 +682,7 @@ COLLECTIONS = {
     },
     'collection.beyond': {
         "kind": 'series',
-        "group": 'The Western World',
+        "group": 'More Collections',
         "title": 'Beyond the Collections',
         "curator": 'An original Lectio collection',
         "blurb": (
@@ -696,7 +696,7 @@ COLLECTIONS = {
     },
     'collection.harvard-classics': {
         "kind": 'series',
-        "group": 'The Western World',
+        "group": 'More Collections',
         "title": 'The Harvard Classics',
         "curator": 'Charles W. Eliot (1909)',
         "blurb": (
@@ -861,12 +861,21 @@ def _tradition_of(title, author=""):
     return "West"
 
 
+def _placeholder_cover(title: str) -> str:
+    """Shells with no artwork still get a cover — a plain board in the house style, built
+    by print/covers/build_placeholders.py. A blank card is worse than a quiet one."""
+    slug = "".join(c if c.isalnum() else "-" for c in title.lower()).strip("-")
+    while "--" in slug:
+        slug = slug.replace("--", "-")
+    return f"collections/book-covers/placeholder-{slug}.jpg"
+
+
 def _ref(title, author="", part=""):
     r = WORKS[(title, author)]
     return PlannedWork(title=title, author=author, era=r.get("era", ""), part=part,
                        note=r.get("note", ""),
                        tradition=r.get("tradition", _tradition_of(title, author)),
-                       cover=r.get("cover"),
+                       cover=r.get("cover") or _placeholder_cover(title),
                        originalCover=r.get("originalCover"),
                        rights=r.get("rights"), opens=r.get("opens"))
 
@@ -880,14 +889,15 @@ def _genre_of(title, author=""):
     return REAL_GENRE.get(title, "")
 
 
-# Home shelves, grouped on the Collections tab: Lectio (start here, ungrouped), then the
-# Western World (Great Books, Harvard, Beyond), then the Eastern World.
+# Home shelves, in reading order: Lectio (start here, ungrouped), then the two great
+# canons facing each other, then the further collections. Beyond is last on purpose —
+# it is the shelf you reach for once the canons are familiar.
 SERIES_ORDER = [
     LECTIO_ALL,
     "collection.great-books",
+    "collection.eastern-canon",
     "collection.harvard-classics",
     "collection.beyond",
-    "collection.eastern-canon",
 ]
 
 
@@ -938,6 +948,9 @@ def _west_home_refs():
 
 def build_collections(works):
     works = list(works)
+    # A published work must never also appear as a shell: the same book would sit twice on
+    # the shelf, once readable and once "coming soon".
+    published = {w.title for w in works}
 
     series = []
     for cid, meta in COLLECTIONS.items():
@@ -949,7 +962,8 @@ def build_collections(works):
         else:
             items = [CollectionItem(workId=w.id) for w in works
                      if cid in getattr(w, "collections", [])]
-        planned = [_ref(*r) for r in meta.get("refs", [])]
+        planned = [p for p in (_ref(*r) for r in meta.get("refs", []))
+                   if p.title not in published]
         if not items and not planned:
             continue
         series.append(Collection(
@@ -971,7 +985,9 @@ def build_collections(works):
     genres = []
     for name, blurb in GENRES:
         gitems = [CollectionItem(workId=w.id) for w in works if _genre_of(w.title) == name]
-        gplanned = [_ref(t, a) for (t, a) in master if WORKS[(t, a)]["genre"] == name]
+        gplanned = [p for p in (_ref(t, a) for (t, a) in master
+                                if WORKS[(t, a)]["genre"] == name)
+                    if p.title not in published]
         if not gitems and not gplanned:
             continue
         genres.append(Collection(

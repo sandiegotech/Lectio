@@ -5,7 +5,7 @@
   "blurb": "The great works the famous lists never shelved — masterpieces Eliot and Adler overlooked, and the voices the old lists shut out.",
   "about": "Every great-books list is also a list of exclusions. The Harvard Classics and the Great Books of the Western World were assembled by a few men with the tastes of their time — and they left out a great deal: almost every woman, most of the Romantic poets, the modern novel, and writers who didn't fit the mold.\n\nBeyond the Collections is Lectio's correction — not a junk drawer of leftovers but a deliberate shelf of works that belong with the greatest and were simply missed: Sappho and Ovid, Murasaki's Western sisters, Frankenstein and Walden, Douglass and Dickinson, Proust and Woolf. The conversation the old lists started, continued by the voices they left out.",
   "kind": "series",
-  "group": "The Western World",
+  "group": "More Collections",
   "items": [],
   "planned": [
     {
@@ -239,7 +239,8 @@
       "era": "1926",
       "part": "The Modern World",
       "note": "Lawrence's first-hand epic of the Arab Revolt — guerrilla war across the desert, and the making and unmaking of a legend.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-seven-pillars-of-wisdom.jpg"
     },
     {
       "title": "The Stranger",

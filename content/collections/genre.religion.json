@@ -17,7 +17,8 @@
       "era": "1200–500 BCE",
       "part": "",
       "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-genesis.jpg"
     },
     {
       "title": "The Bhagavad Gita",
@@ -36,15 +37,6 @@
       "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
       "tradition": "East",
       "cover": "collections/book-covers/eastern-dhammapada.jpg"
-    },
-    {
-      "title": "Confessions",
-      "author": "Saint Augustine",
-      "era": "397–400 CE",
-      "part": "",
-      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-confessions.jpg"
     },
     {
       "title": "The City of God",
@@ -187,7 +179,8 @@
       "era": "1200 BCE–100 CE",
       "part": "",
       "note": "The scriptures of Judaism and Christianity, whole — law, poetry, prophecy, and gospel.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-the-holy-bible.jpg"
     },
     {
       "title": "The Tanakh",
@@ -195,7 +188,8 @@
       "era": "1200–165 BCE",
       "part": "",
       "note": "The Hebrew Bible — Torah, Prophets, and Writings, the scripture of Judaism.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-the-tanakh.jpg"
     },
     {
       "title": "The Talmud",
@@ -203,7 +197,8 @@
       "era": "200–500 CE",
       "part": "",
       "note": "The central text of rabbinic Judaism — the law argued out across generations.",
-      "tradition": "West"
+      "tradition": "West",
+      "cover": "collections/book-covers/placeholder-the-talmud.jpg"
     },
     {
       "title": "The Hadith",
