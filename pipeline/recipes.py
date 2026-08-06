@@ -10,8 +10,8 @@ import json
 import os
 import re
 
-from .adapters import gutenberg, wikisource
-from .model import Edition, Provenance, Work
+from .adapters import bible, gutenberg, wikisource
+from .model import Edition, Provenance, SpineRange, Work
 from .segment import build_section
 
 _MODERN_DIR = os.path.join(os.path.dirname(__file__), "modern")
@@ -711,6 +711,120 @@ def divine_comedy():
     return work, [_modern_edition(work_id, "divine-comedy", [edition]), edition], None
 
 
+
+# ---------------------------------------------------------------------------
+# The Bible — one Lectio work per book (see tools/overnight/BIBLE-PLAN.md)
+#
+# The corpus that needs no proportional alignment: every sentence already carries an
+# exact canonical coordinate, so the KJV keeps one segment per verse and the Vernacular
+# carries verse-RANGE spines per paragraph. Compare across editions lands on the verse.
+# ---------------------------------------------------------------------------
+
+KJV_GUTENBERG_ID = 10
+
+
+def _bible_kjv_edition(work_id: str, slug: str, heading: str, next_heading: str,
+                       expect_chapters: int, expect_verses: int) -> Edition:
+    edition_id = f"edition.bible-{slug}.kjv-1611"
+    body = bible.book(gutenberg.fetch(KJV_GUTENBERG_ID), heading, next_heading)
+    chs = bible.chapters(body)
+    if len(chs) != expect_chapters or bible.verse_count(chs) != expect_verses:
+        raise ValueError(f"KJV {slug}: expected {expect_chapters} ch / {expect_verses} vv, "
+                         f"got {len(chs)} / {bible.verse_count(chs)}")
+    sections = []
+    for c in sorted(chs):
+        verses = chs[c]
+        spine = [SpineRange(fromRef=f"{c}.{v}", toRef=f"{c}.{v}") for v in sorted(verses)]
+        sections.append(build_section(
+            edition_id, f"chapter-{c:02d}", c, f"Chapter {c}",
+            bible.chapter_body(verses), form="prose", spine=spine))
+    return Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="The King James translators", translatorYears="1604–1611",
+        publishedYear=1611,
+        character="The 1611 monument — the cadence that shaped English itself.",
+        overview=("The King James Version: fifty-four scholars working from the Hebrew and "
+                  "Greek, and leaning heavily on Tyndale, produced the book that set the "
+                  "rhythm of English prose for four centuries. Its English was current when "
+                  "it was made; the archaism arrived by aging."),
+        provenance=Provenance(
+            source="gutenberg", rightsStatus="public_domain",
+            rightsNote="US public domain; King James Version, 1611.",
+            sourceUrl="https://www.gutenberg.org/ebooks/10", sourceId="10",
+            retrievedDate=BIBLE_RETRIEVED),
+        sections=sections,
+    )
+
+
+def _bible_vernacular_edition(work_id: str, slug: str) -> Edition:
+    """The Vernacular edition of one biblical book, from pipeline/modern/bible-<slug>.json.
+
+    Paragraph segments, each carrying the verse range it covers — so a Vernacular
+    paragraph and a KJV verse meet on the same coordinate.
+    """
+    with open(os.path.join(_MODERN_DIR, f"bible-{slug}.json"), encoding="utf-8") as f:
+        data = json.load(f)
+    edition_id = f"edition.bible-{slug}.lectio-vernacular"
+    sections = []
+    for ch in sorted(data["chapters"], key=lambda c: c["order"]):
+        spine = [SpineRange(fromRef=r["from"], toRef=r["to"]) for r in ch["spines"]]
+        sections.append(build_section(
+            edition_id, f"chapter-{ch['order']:02d}", ch["order"],
+            ch.get("label") or f"Chapter {ch['order']}",
+            "\n\n".join(ch["paragraphs"]), form="prose",
+            title=ch.get("title"), spine=spine))
+    return Edition(
+        id=edition_id, workId=work_id, kind="modern", language="en", form="prose",
+        character="Plain modern English — the sense of the original, made to read with ease today.",
+        overview=data.get("overview"), introduction=data.get("introduction"),
+        divergences=data.get("divergences"),
+        provenance=Provenance(
+            source="lectio", rightsStatus="lectio-original",
+            rightsNote=data.get("rightsNote"),
+            retrievedDate=data.get("date"), vintage=data.get("vintage"),
+            aiModel=data.get("model"), aiProfile="vernacular_bible",
+            aiSourceEditionId=(data.get("sourceEditionIds") or [None])[0],
+            sourcesCited=data.get("sourcesCited")),
+        sections=sections,
+    )
+
+
+BIBLE_RETRIEVED = "2026-08-06"
+
+
+def _bible_work(slug, title, author, composed, blurb, kjv_kwargs, collections,
+                original_lang="grc"):
+    kjv = _bible_kjv_edition(f"work.bible.{slug}", slug, **kjv_kwargs)
+    editions = [kjv]
+    default = kjv.id
+    if os.path.exists(os.path.join(_MODERN_DIR, f"bible-{slug}.json")):
+        vern = _bible_vernacular_edition(f"work.bible.{slug}", slug)
+        editions.insert(0, vern)
+        # The KJV stays default until a human has read the Vernacular end to end
+        # (BIBLE-CHARTER.md, QA gate 5). Flip here, per book, after review.
+    work = Work(
+        id=f"work.bible.{slug}", title=title, author=author,
+        originalLang=original_lang,
+        composed=composed, type="scripture", referenceScheme="chapter.verse",
+        defaultEditionId=default, blurb=blurb, tradition="West",
+        collections=collections,
+    )
+    return work, editions, None
+
+
+def bible_mark():
+    return _bible_work(
+        slug="mark", title="The Gospel of Mark",
+        author="Anonymous · attributed to Mark", composed="c. 65–75 CE",
+        blurb=("The earliest and fastest of the Gospels — a breathless, unpolished account "
+               "of Jesus of Nazareth that reads like it was written in a hurry, because it was."),
+        kjv_kwargs=dict(heading="The Gospel According to Saint Mark",
+                        next_heading="The Gospel According to Saint Luke",
+                        expect_chapters=16, expect_verses=678),
+        collections=["collection.christianity"],
+    )
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy]
+           divine_comedy, bible_mark]

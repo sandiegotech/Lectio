@@ -1,0 +1,96 @@
+{
+  "workId": "work.bible.mark",
+  "method": "The Vernacular — synthesis from the public-domain English line (KJV 1611, ASV 1901, Young's Literal 1898) worked against the Greek (Westcott-Hort lineage), with the modern scholarly tradition consulted on disputed choices and never copied. Governed by tools/overnight/BIBLE-CHARTER.md; register standard is print/experiments/the-bible-vernacular-pilot.md.",
+  "model": "claude-opus-5",
+  "date": "2026-08-06",
+  "vintage": 2026,
+  "rightsNote": "Lectio Vernacular Edition (SDIT): a plain-modern-English rendering of the Gospel of Mark, made from public-domain sources and the Greek text, then reviewed for fidelity. This is Lectio's own edition, derived from public-domain sources — not a historical translation. DRAFT: not yet read end to end by a human reviewer; the King James Version remains this work's default edition until it has been.",
+  "sourceEditionIds": ["edition.bible-mark.kjv-1611"],
+  "sourcesCited": [
+    "King James Version (1611) — public domain",
+    "American Standard Version (1901) — public domain",
+    "Young's Literal Translation (1898) — public domain",
+    "Greek New Testament, Westcott-Hort text (1881) — public domain"
+  ],
+  "overview": "Mark is the earliest Gospel and the roughest: short, fast, and impatient, told in a Greek that keeps piling clause on clause and saying 'right away.' Every polished English Bible has smoothed that texture into something more dignified. This edition keeps it — because the roughness is the urgency, and American plain style happens to fit Mark better than it fits any other ancient book.",
+  "introduction": "Mark was written first, probably within a generation of the events it describes, for people who did not read Greek well. There is no birth story, no genealogy, no long sermon. It opens at a run — a voice in the wilderness, a man in the river, the sky torn open — and it does not slow down. The word translated 'right away' appears more than forty times in sixteen chapters, and this edition keeps every one of them, the way Homer's epithets are kept: the repetition is structure, not clumsiness.\n\nThe Vernacular renders Mark in the language a reader actually thinks in, on the principle the book itself demonstrates. Jesus taught in Aramaic, the everyday speech of Galilee; the Gospel that carries his words was written in Koine — 'common' — Greek, the dialect of markets and letters. Translating the message into the speech of ordinary people is not a departure from this tradition. It is the tradition.",
+  "divergences": [
+    {
+      "locus": "throughout",
+      "phrase": "εὐαγγέλιον (euangelion)",
+      "older": "“gospel” (KJV, and nearly every English Bible since)",
+      "lectio": "“good news”",
+      "note": "Before it hardened into a church word, euangelion was a herald's word — the announcement of a victory or an accession. 'Good news' is what a first hearer heard."
+    },
+    {
+      "locus": "1.15 and throughout",
+      "phrase": "μετάνοια / μετανοεῖτε (metanoia)",
+      "older": "“repent” (KJV)",
+      "lectio": "“turn back,” “turn your lives around”",
+      "note": "The Greek means a turning of the mind and the life. 'Repent' has collected two centuries of revival-tent baggage the Greek does not carry."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "εὐθύς (euthys)",
+      "older": "“straightway,” “immediately,” often varied for elegance",
+      "lectio": "“right away,” every time",
+      "note": "Mark uses this word more than forty times in sixteen chapters. Translators who vary it for style are correcting an author who was not making a mistake — the drumbeat is the book's pulse."
+    },
+    {
+      "locus": "1.10",
+      "phrase": "σχιζομένους (schizomenous)",
+      "older": "“the heavens opened” (KJV)",
+      "lectio": "“the sky torn open”",
+      "note": "Mark's verb is violent — it is the word used for tearing cloth, and he uses it again for the temple curtain at the crucifixion. Matthew and Luke both softened it to 'opened.' The tear is deliberate, and it frames the book."
+    },
+    {
+      "locus": "1.1",
+      "phrase": "υἱοῦ θεοῦ (“the Son of God”)",
+      "older": "printed without comment in most English Bibles",
+      "lectio": "printed, with the variant recorded",
+      "note": "These words are missing from some of the earliest manuscripts of Mark. This edition prints the majority reading and says so, because manuscripts are provenance."
+    },
+    {
+      "locus": "1.41",
+      "phrase": "σπλαγχνισθείς / ὀργισθείς",
+      "older": "“moved with compassion” (KJV, majority text)",
+      "lectio": "“moved to the depths”, with the variant recorded",
+      "note": "A few important manuscripts read 'moved with anger' instead of 'moved with compassion' — and the harder reading is often the older one. The Greek word behind 'compassion' is visceral (it names the inward organs), so this edition renders the depth rather than the sentiment, and records the variant."
+    }
+  ],
+  "chapters": [
+    {
+      "order": 1,
+      "label": "Chapter 1",
+      "title": "The Beginning of the Good News",
+      "spines": [
+        {"from": "1.1", "to": "1.3"},
+        {"from": "1.4", "to": "1.6"},
+        {"from": "1.7", "to": "1.8"},
+        {"from": "1.9", "to": "1.11"},
+        {"from": "1.12", "to": "1.13"},
+        {"from": "1.14", "to": "1.15"},
+        {"from": "1.16", "to": "1.20"},
+        {"from": "1.21", "to": "1.28"},
+        {"from": "1.29", "to": "1.31"},
+        {"from": "1.32", "to": "1.34"},
+        {"from": "1.35", "to": "1.39"},
+        {"from": "1.40", "to": "1.45"}
+      ],
+      "paragraphs": [
+        "The beginning of the good news of Jesus Christ, the Son of God. As it stands written in the prophet Isaiah — “Look, I am sending my messenger ahead of you; he will prepare your road. A voice shouts in the wilderness: Get the road ready for the Lord. Make his paths straight.”",
+        "John appeared, baptizing in the wilderness and announcing a baptism of turning back, for the forgiveness of sins. The whole Judean countryside went out to him, and all the people of Jerusalem; they were baptized by him in the Jordan River, confessing their sins. John wore camel's hair with a leather belt at his waist, and he ate locusts and wild honey.",
+        "And this is what he announced: “After me comes one stronger than I am. I'm not fit to stoop down and untie the strap of his sandals. I baptized you with water. He will baptize you with the Holy Spirit.”",
+        "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. And right away, as he came up out of the water, he saw the sky torn open and the Spirit coming down on him like a dove. And a voice came from the sky: “You are my Son, the one I love. In you I take delight.”",
+        "And right away the Spirit drove him out into the wilderness. He was in the wilderness forty days, tested by Satan. He was with the wild animals, and angels looked after him.",
+        "After John was arrested, Jesus came into Galilee announcing the good news of God: “The time is up. The kingdom of God has come near. Turn your lives around, and trust the good news.”",
+        "Passing along the Sea of Galilee, he saw Simon, and Simon's brother Andrew, casting a net into the sea — they were fishermen. Jesus said to them, “Follow me, and I will make you fishers of people.” And right away they left their nets and followed him. Going on a little farther, he saw James the son of Zebedee and his brother John in their boat, mending the nets. Right away he called them; and they left their father Zebedee in the boat with the hired men, and went after him.",
+        "They went into Capernaum, and as soon as the Sabbath came he went into the synagogue and taught. And the people were astonished at his teaching, because he taught them like someone with authority — not like the scribes. Just then a man with an unclean spirit was there in their synagogue, and he screamed: “What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know who you are — the Holy One of God.” Jesus cut him off: “Quiet. Come out of him.” The unclean spirit convulsed the man, shrieked, and came out of him. Everyone was stunned, and they argued about it: “What is this? A new teaching — with authority. He gives orders even to the unclean spirits, and they obey him.” And right away the report of him went out everywhere, through the whole surrounding country of Galilee.",
+        "As soon as they left the synagogue, they went to the house of Simon and Andrew, with James and John. Simon's mother-in-law was lying down with a fever, and right away they told him about her. He went to her, took her hand, and lifted her up. The fever left her, and she waited on them.",
+        "That evening, after sunset, they brought him everyone who was sick or held by demons — the whole town was gathered at the door. He healed many who were sick with every kind of disease, and drove out many demons. And he would not let the demons speak, because they knew him.",
+        "Very early, while it was still dark, he got up, went out to a deserted place, and prayed there. Simon and his companions hunted him down, and when they found him they said, “Everyone is looking for you.” He said to them, “Let's go somewhere else — to the neighboring towns — so I can preach there too. That's what I came out to do.” And he went through all of Galilee, preaching in their synagogues and driving out demons.",
+        "A leper came to him, begging him on his knees: “If you want to, you can make me clean.” Moved to the depths, Jesus stretched out his hand, touched him, and said, “I want to. Be clean.” Right away the leprosy left him, and he was clean. Jesus sent him off at once with a stern warning: “See that you say nothing to anyone. Just go show yourself to the priest, and offer for your cleansing what Moses commanded — as proof for them.” But the man went out and started talking freely, spreading the story — so that Jesus could no longer enter a town openly, but stayed out in deserted places. And people kept coming to him from everywhere."
+      ]
+    }
+  ]
+}
