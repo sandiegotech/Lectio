@@ -192,6 +192,20 @@
       "older": "“Jehovahjireh” (KJV)",
       "lectio": "“The LORD Will See”",
       "note": "'Jehovah' is a hybrid that never existed in Hebrew — the consonants of the divine name with the vowels of a different word, misread by Christian scholars in the Middle Ages. And the verb here is 'see', which the chapter has been repeating: God will see to it, and on the mountain it will be seen."
+    },
+    {
+      "locus": "25.22",
+      "phrase": "וַיִּתְרֹצֲצוּ (vayyitrotsatsu) / לָמָּה זֶּה אָנֹכִי (lammah zeh anokhi)",
+      "older": "“the children struggled together within her… why am I thus?” (KJV)",
+      "lectio": "“the children shoved each other inside her… If it is like this, why am I?”",
+      "note": "Rebekah's question breaks off unfinished in the Hebrew — two words that do not resolve into a sentence. Translators usually complete it for her. The broken line is the point: she is asking why she is alive at all, and the text lets the sentence collapse."
+    },
+    {
+      "locus": "25.30",
+      "phrase": "הָאָדֹם הָאָדֹם (ha'adom ha'adom)",
+      "older": "“that same red pottage” (KJV)",
+      "lectio": "“that red stuff — that red stuff”",
+      "note": "Esau does not name the food; he repeats a colour, twice, like a man too spent for nouns. It is the first characterisation of him in the book, and it sets up his other name, Edom — red."
     }
   ],
   "sections": [
@@ -1625,6 +1639,260 @@
           "spine": {
             "from": "23.17",
             "to": "23.20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-24",
+      "order": 24,
+      "label": "Chapter 24",
+      "title": "Rebekah at the Well",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And Abraham was old, well along in years, and the LORD had blessed Abraham in everything. And Abraham said to the senior servant of his household, the one in charge of everything he had, “Put your hand under my thigh. I want you to swear by the LORD, God of the sky and God of the earth, that you will not take a wife for my son from the daughters of the Canaanites I live among. You will go to my own country, to my own kindred, and take a wife for my son Isaac.” And the servant said to him, “Suppose the woman is not willing to follow me to this land. Should I take your son back to the land you came from?” And Abraham said to him, “Be careful not to take my son back there. The LORD, God of the sky, who took me from my father's house and from the land of my birth, who spoke to me and swore to me, ‘To your offspring I will give this land’ — he will send his messenger ahead of you, and you will take a wife for my son from there. And if the woman is not willing to follow you, you are released from this oath of mine. Only do not take my son back there.” And the servant put his hand under the thigh of Abraham his master and swore to him about this matter.",
+          "spine": {
+            "from": "24.1",
+            "to": "24.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And the servant took ten of his master's camels and set out, with all kinds of good things from his master in his hand. And he got up and went to Aram-naharaim, to the city of Nahor. And he made the camels kneel outside the city by the well of water, toward evening, the time when the women come out to draw water. And he said, “LORD, God of my master Abraham, let it turn out well for me today, and show kindness to my master Abraham. Look — I am standing here by the spring of water, and the daughters of the men of the city are coming out to draw water. Let it be that the young woman I say to, ‘Please tip your jar so I can drink,’ and she says, ‘Drink — and I will water your camels too,’ let her be the one you have appointed for your servant Isaac. And by that I will know that you have shown kindness to my master.”",
+          "spine": {
+            "from": "24.10",
+            "to": "24.14"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And before he had finished speaking — there was Rebekah coming out, who was born to Bethuel son of Milcah, the wife of Nahor, Abraham's brother, with her jar on her shoulder. And the young woman was very beautiful, a virgin; no man had known her. And she went down to the spring and filled her jar and came up. And the servant ran to meet her and said, “Please give me a little water from your jar.” And she said, “Drink, my lord.” And she hurried and lowered her jar onto her hand and gave him a drink. And when she had finished giving him a drink, she said, “I will draw for your camels too, until they have finished drinking.” And she hurried and emptied her jar into the trough and ran back to the well to draw, and she drew for all his camels. And the man was watching her in silence, waiting to know whether the LORD had made his journey succeed or not.",
+          "spine": {
+            "from": "24.15",
+            "to": "24.21"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And when the camels had finished drinking, the man took a gold nose ring weighing half a shekel and two bracelets for her wrists weighing ten shekels of gold, and said, “Whose daughter are you? Tell me — is there room in your father's house for us to spend the night?” And she said to him, “I am the daughter of Bethuel, the son Milcah bore to Nahor.” And she said to him, “We have plenty of straw and feed, and room to spend the night.” And the man bowed his head and bowed down to the LORD, and said, “Blessed be the LORD, God of my master Abraham, who has not abandoned his kindness and his faithfulness toward my master. As for me, the LORD has led me on the road to the house of my master's kin.”",
+          "spine": {
+            "from": "24.22",
+            "to": "24.27"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And the young woman ran and told her mother's household about these things. Now Rebekah had a brother named Laban, and Laban ran out to the man, to the spring. When he saw the nose ring, and the bracelets on his sister's wrists, and when he heard the words of Rebekah his sister — “This is what the man said to me” — he came out to the man, and there he was, standing with the camels at the spring. And he said, “Come in, blessed of the LORD. Why are you standing outside? I have cleared the house, and made room for the camels.” And the man came into the house, and Laban unloaded the camels and gave straw and feed to the camels and water to wash his feet and the feet of the men with him. And food was set in front of him, but he said, “I will not eat until I have said what I came to say.” And he said, “Speak.”",
+          "spine": {
+            "from": "24.28",
+            "to": "24.33"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he said, “I am Abraham's servant. And the LORD has blessed my master greatly, and he has become great. He has given him flocks and herds, silver and gold, male and female slaves, camels and donkeys. And Sarah, my master's wife, bore a son to my master in her old age, and he has given him everything he has. And my master made me swear: ‘You will not take a wife for my son from the daughters of the Canaanites in whose land I live. Instead you will go to my father's house, to my clan, and take a wife for my son.’ And I said to my master, ‘Suppose the woman will not follow me.’ And he said to me, ‘The LORD, in front of whom I have walked, will send his messenger with you and make your journey succeed, and you will take a wife for my son from my clan, from my father's house. Then you will be released from my oath — when you come to my clan. And if they will not give her to you, you are released from my oath.’",
+          "spine": {
+            "from": "24.34",
+            "to": "24.41"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "“And I came to the spring today, and I said, ‘LORD, God of my master Abraham, if you are going to make the journey I am on succeed — look, I am standing by the spring of water. Let it be that the young woman who comes out to draw, and I say to her, Please give me a little water from your jar to drink, and she says to me, You drink, and I will draw for your camels too — let her be the woman the LORD has appointed for my master's son.’ And before I had finished speaking in my heart — there was Rebekah coming out with her jar on her shoulder. And she went down to the spring and drew, and I said to her, ‘Please give me a drink.’ And she hurried and lowered her jar from her shoulder and said, ‘Drink — and I will water your camels too.’ So I drank, and she watered the camels too. And I asked her, ‘Whose daughter are you?’ And she said, ‘The daughter of Bethuel, Nahor's son, whom Milcah bore to him.’ And I put the ring on her nose and the bracelets on her wrists. And I bowed my head and bowed down to the LORD, and blessed the LORD, God of my master Abraham, who led me on the true road to take the daughter of my master's brother for his son. And now, if you are going to deal kindly and faithfully with my master, tell me. And if not, tell me, so I can turn to the right or to the left.”",
+          "spine": {
+            "from": "24.42",
+            "to": "24.49"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "And Laban and Bethuel answered, “This has come from the LORD. We cannot say anything to you, bad or good. Rebekah is in front of you. Take her and go, and let her be the wife of your master's son, as the LORD has spoken.” And when Abraham's servant heard their words, he bowed to the ground before the LORD. And the servant brought out objects of silver and objects of gold and clothing, and gave them to Rebekah, and he gave costly gifts to her brother and her mother. And he ate and drank, he and the men with him, and they spent the night.",
+          "spine": {
+            "from": "24.50",
+            "to": "24.54"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "And in the morning they got up, and he said, “Send me off to my master.” And her brother and her mother said, “Let the young woman stay with us a while, ten days or so. After that she can go.” And he said to them, “Don't hold me back, now that the LORD has made my journey succeed. Send me off, so I can go to my master.” And they said, “We will call the young woman and ask her.” And they called Rebekah and said to her, “Will you go with this man?” And she said, “I will go.” So they sent off Rebekah their sister, and her nurse, and Abraham's servant and his men. And they blessed Rebekah and said to her, “Our sister, may you become thousands upon thousands, and may your offspring take possession of the gate of those who hate them.” And Rebekah got up, with her young women, and they mounted the camels and followed the man. And the servant took Rebekah and went.",
+          "spine": {
+            "from": "24.55",
+            "to": "24.61"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-24.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "Now Isaac had come from the direction of Beer-lahai-roi; he was living in the Negev. And Isaac went out to walk in the field toward evening, and he looked up and saw — there were camels coming. And Rebekah looked up and saw Isaac, and she got down from the camel. And she said to the servant, “Who is that man walking in the field to meet us?” And the servant said, “That is my master.” So she took her veil and covered herself. And the servant told Isaac everything he had done. And Isaac brought her into the tent of Sarah his mother, and he took Rebekah, and she became his wife, and he loved her. And Isaac was comforted after his mother's death.",
+          "spine": {
+            "from": "24.62",
+            "to": "24.67"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-25",
+      "order": 25,
+      "label": "Chapter 25",
+      "title": "Two Nations",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And Abraham took another wife, whose name was Keturah. And she bore him Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. And Jokshan fathered Sheba and Dedan, and the sons of Dedan were the Asshurim, the Letushim, and the Leummim. And the sons of Midian: Ephah, Epher, Hanoch, Abida, and Eldaah. All these were the descendants of Keturah. And Abraham gave everything he had to Isaac. But to the sons of his concubines Abraham gave gifts, and while he was still alive he sent them away from Isaac his son, eastward, to the land of the east.",
+          "spine": {
+            "from": "25.1",
+            "to": "25.6"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And these are the days of the years of Abraham's life: a hundred and seventy-five years. And Abraham breathed his last and died at a good old age, an old man, full of years, and he was gathered to his people. And Isaac and Ishmael his sons buried him in the cave of Machpelah, in the field of Ephron son of Zohar the Hittite, facing Mamre — the field Abraham bought from the Hittites. There Abraham was buried, and Sarah his wife. And after Abraham's death, God blessed Isaac his son. And Isaac settled near Beer-lahai-roi.",
+          "spine": {
+            "from": "25.7",
+            "to": "25.11"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And these are the generations of Ishmael, Abraham's son, whom Hagar the Egyptian, Sarah's slave, bore to Abraham. These are the names of Ishmael's sons, by their names, in the order of their birth: Nebaioth the firstborn of Ishmael, then Kedar, Adbeel, Mibsam, Mishma, Dumah, Massa, Hadad, Tema, Jetur, Naphish, and Kedemah. These are Ishmael's sons, and these are their names, by their villages and their camps — twelve chieftains of their tribes. And these are the years of Ishmael's life: a hundred and thirty-seven years. And he breathed his last and died, and was gathered to his people. And they lived from Havilah to Shur, which faces Egypt, in the direction of Assyria. He settled alongside all his kin.",
+          "spine": {
+            "from": "25.12",
+            "to": "25.18"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And these are the generations of Isaac, Abraham's son: Abraham fathered Isaac. And Isaac was forty years old when he took Rebekah as his wife, the daughter of Bethuel the Aramean of Paddan-aram, the sister of Laban the Aramean. And Isaac pleaded with the LORD for his wife, because she was barren. And the LORD granted his plea, and Rebekah his wife conceived. And the children shoved each other inside her, and she said, “If it is like this, why am I?” And she went to ask the LORD. And the LORD said to her: “Two nations are in your womb, and two peoples will part from your body. One people will be stronger than the other, and the older will serve the younger.”",
+          "spine": {
+            "from": "25.19",
+            "to": "25.23"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And when her days to give birth were completed — there were twins in her womb. And the first came out red, all of him like a hairy coat, and they named him Esau. And after that his brother came out, and his hand was gripping Esau's heel, and he was named Jacob. Isaac was sixty years old when she bore them. And the boys grew up, and Esau was a man who knew hunting, a man of the open country; and Jacob was a quiet man, staying among the tents. And Isaac loved Esau, because he had a taste for wild game; but Rebekah loved Jacob.",
+          "spine": {
+            "from": "25.24",
+            "to": "25.28"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-25.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And Jacob was boiling a stew, and Esau came in from the open country, and he was exhausted. And Esau said to Jacob, “Let me gulp down some of that red stuff — that red stuff — because I am exhausted.” That is why he was named Edom. And Jacob said, “Sell me your birthright today.” And Esau said, “Look, I am about to die. What good is a birthright to me?” And Jacob said, “Swear to me today.” And he swore to him, and he sold his birthright to Jacob. And Jacob gave Esau bread and lentil stew, and he ate and drank and got up and went off. So Esau despised his birthright.",
+          "spine": {
+            "from": "25.29",
+            "to": "25.34"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-26",
+      "order": 26,
+      "label": "Chapter 26",
+      "title": "Isaac Digs the Wells Again",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And there was a famine in the land, besides the first famine that happened in Abraham's time, and Isaac went to Abimelech king of the Philistines, at Gerar. And the LORD appeared to him and said, “Do not go down to Egypt. Live in the land I tell you. Stay in this land as a stranger, and I will be with you and bless you — because to you and to your offspring I will give all these lands, and I will keep the oath I swore to Abraham your father. And I will multiply your offspring like the stars of the sky, and I will give your offspring all these lands, and in your offspring all the nations of the earth will be blessed — because Abraham listened to my voice and kept my charge, my commands, my statutes, and my instructions.”",
+          "spine": {
+            "from": "26.1",
+            "to": "26.5"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So Isaac settled in Gerar. And the men of the place asked about his wife, and he said, “She is my sister,” because he was afraid to say “my wife” — thinking, the men of the place might kill me over Rebekah, because she is beautiful. And when he had been there a long time, Abimelech king of the Philistines looked down through a window and saw — there was Isaac, playing with Rebekah his wife. And Abimelech called Isaac and said, “So she really is your wife! How could you say, ‘She is my sister’?” And Isaac said to him, “Because I thought I might die over her.” And Abimelech said, “What is this you have done to us? One of the people might easily have lain with your wife, and you would have brought guilt on us.” And Abimelech ordered all the people: “Whoever touches this man or his wife will certainly be put to death.”",
+          "spine": {
+            "from": "26.6",
+            "to": "26.11"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Isaac sowed in that land and reaped a hundredfold that same year, and the LORD blessed him. And the man became great, and he kept getting greater until he was very great. He had holdings of flocks and holdings of herds and a large household, and the Philistines envied him. And all the wells his father's servants had dug in the days of Abraham his father, the Philistines had stopped up and filled with dirt. And Abimelech said to Isaac, “Go away from us. You have become far too powerful for us.” So Isaac left there and camped in the Valley of Gerar and settled there.",
+          "spine": {
+            "from": "26.12",
+            "to": "26.17"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And Isaac dug again the wells of water they had dug in the days of Abraham his father, which the Philistines had stopped up after Abraham's death, and he gave them the same names his father had given them. And Isaac's servants dug in the valley and found there a well of fresh water. And the herders of Gerar quarreled with Isaac's herders: “The water is ours.” So he named the well Esek, because they fought with him over it. And they dug another well, and they quarreled over that one too, and he named it Sitnah. And he moved on from there and dug another well, and over that one they did not quarrel, and he named it Rehoboth, and said, “Now the LORD has made room for us, and we will be fruitful in the land.”",
+          "spine": {
+            "from": "26.18",
+            "to": "26.22"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And he went up from there to Beersheba. And the LORD appeared to him that night and said, “I am the God of Abraham your father. Do not be afraid, because I am with you. I will bless you and multiply your offspring, for the sake of Abraham my servant.” And he built an altar there and called on the name of the LORD, and pitched his tent there, and Isaac's servants dug a well there.",
+          "spine": {
+            "from": "26.23",
+            "to": "26.25"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And Abimelech came to him from Gerar, with Ahuzzath his adviser and Phicol the commander of his army. And Isaac said to them, “Why have you come to me, when you hate me and sent me away from you?” And they said, “We have seen clearly that the LORD is with you, and we said, let there be an oath between us — between us and you — and let us cut a covenant with you: that you will do us no harm, just as we did not touch you, and did nothing but good for you, and sent you away in peace. You are now the blessed of the LORD.” And he made them a feast, and they ate and drank. And they got up early in the morning and swore to each other, and Isaac sent them off, and they left him in peace. And that same day Isaac's servants came and told him about the well they had dug, and said to him, “We have found water.” And he named it Shibah. That is why the name of the city is Beersheba to this day.",
+          "spine": {
+            "from": "26.26",
+            "to": "26.33"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-26.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And Esau was forty years old when he took as wives Judith daughter of Beeri the Hittite and Basemath daughter of Elon the Hittite. And they were a bitterness of spirit to Isaac and Rebekah.",
+          "spine": {
+            "from": "26.34",
+            "to": "26.35"
           }
         }
       ]
