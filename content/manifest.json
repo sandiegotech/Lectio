@@ -5,7 +5,7 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "9cf99b0adaa953c1"
+      "checksum": "07fb19994e4cab99"
     },
     {
       "id": "collection.great-books",
@@ -447,6 +447,38 @@
       ],
       "hasAlignment": true,
       "checksum": "4a9e28ea83ba5a53"
+    },
+    {
+      "id": "work.bible.mark",
+      "title": "The Gospel of Mark",
+      "author": "Anonymous · attributed to Mark",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bible-mark.kjv-1611",
+      "collections": [
+        "collection.christianity"
+      ],
+      "editions": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "dee0c098cde2fae0"
+        },
+        {
+          "id": "edition.bible-mark.kjv-1611",
+          "translator": "The King James translators",
+          "publishedYear": 1611,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The 1611 monument — the cadence that shaped English itself.",
+          "checksum": "01e5f00872f10a85"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "1b4daef4dcf3ee73"
     }
   ],
   "dictionaries": []

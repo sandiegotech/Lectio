@@ -1,0 +1,461 @@
+{
+  "id": "edition.bible-mark.lectio-vernacular",
+  "workId": "work.bible.mark",
+  "kind": "modern",
+  "language": "en",
+  "form": "prose",
+  "provenance": {
+    "source": "lectio",
+    "rightsStatus": "lectio-original",
+    "rightsNote": "Lectio Vernacular Edition (SDIT): a plain-modern-English rendering of the Gospel of Mark, made from public-domain sources and the Greek text, then reviewed for fidelity. This is Lectio's own edition, derived from public-domain sources — not a historical translation. DRAFT: not yet read end to end by a human reviewer; the King James Version remains this work's default edition until it has been.",
+    "retrievedDate": "2026-08-06",
+    "aiModel": "claude-opus-5",
+    "aiSourceEditionId": "edition.bible-mark.kjv-1611",
+    "aiProfile": "vernacular_bible",
+    "sourcesCited": [
+      "King James Version (1611) — public domain",
+      "American Standard Version (1901) — public domain",
+      "Young's Literal Translation (1898) — public domain",
+      "Greek New Testament, Westcott-Hort text (1881) — public domain"
+    ],
+    "vintage": 2026
+  },
+  "character": "Plain modern English — the sense of the original, made to read with ease today.",
+  "overview": "Mark is the earliest Gospel and the roughest: short, fast, and impatient, told in a Greek that keeps piling clause on clause and saying 'right away.' Every polished English Bible has smoothed that texture into something more dignified. This edition keeps it — because the roughness is the urgency, and American plain style happens to fit Mark better than it fits any other ancient book.",
+  "introduction": "Mark was written first, probably within a generation of the events it describes, for people who did not read Greek well. There is no birth story, no genealogy, no long sermon. It opens at a run — a voice in the wilderness, a man in the river, the sky torn open — and it does not slow down. The word translated 'right away' appears more than forty times in sixteen chapters, and this edition keeps every one of them, the way Homer's epithets are kept: the repetition is structure, not clumsiness.\n\nThe Vernacular renders Mark in the language a reader actually thinks in, on the principle the book itself demonstrates. Jesus taught in Aramaic, the everyday speech of Galilee; the Gospel that carries his words was written in Koine — 'common' — Greek, the dialect of markets and letters. Translating the message into the speech of ordinary people is not a departure from this tradition. It is the tradition.",
+  "divergences": [
+    {
+      "locus": "throughout",
+      "phrase": "εὐαγγέλιον (euangelion)",
+      "older": "“gospel” (KJV, and nearly every English Bible since)",
+      "lectio": "“good news”",
+      "note": "Before it hardened into a church word, euangelion was a herald's word — the announcement of a victory or an accession. 'Good news' is what a first hearer heard."
+    },
+    {
+      "locus": "1.15 and throughout",
+      "phrase": "μετάνοια / μετανοεῖτε (metanoia)",
+      "older": "“repent” (KJV)",
+      "lectio": "“turn back,” “turn your lives around”",
+      "note": "The Greek means a turning of the mind and the life. 'Repent' has collected two centuries of revival-tent baggage the Greek does not carry."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "εὐθύς (euthys)",
+      "older": "“straightway,” “immediately,” often varied for elegance",
+      "lectio": "“right away,” every time",
+      "note": "Mark uses this word more than forty times in sixteen chapters. Translators who vary it for style are correcting an author who was not making a mistake — the drumbeat is the book's pulse."
+    },
+    {
+      "locus": "1.10",
+      "phrase": "σχιζομένους (schizomenous)",
+      "older": "“the heavens opened” (KJV)",
+      "lectio": "“the sky torn open”",
+      "note": "Mark's verb is violent — it is the word used for tearing cloth, and he uses it again for the temple curtain at the crucifixion. Matthew and Luke both softened it to 'opened.' The tear is deliberate, and it frames the book."
+    },
+    {
+      "locus": "1.1",
+      "phrase": "υἱοῦ θεοῦ (“the Son of God”)",
+      "older": "printed without comment in most English Bibles",
+      "lectio": "printed, with the variant recorded",
+      "note": "These words are missing from some of the earliest manuscripts of Mark. This edition prints the majority reading and says so, because manuscripts are provenance."
+    },
+    {
+      "locus": "1.41",
+      "phrase": "σπλαγχνισθείς / ὀργισθείς",
+      "older": "“moved with compassion” (KJV, majority text)",
+      "lectio": "“moved to the depths”, with the variant recorded",
+      "note": "A few important manuscripts read 'moved with anger' instead of 'moved with compassion' — and the harder reading is often the older one. The Greek word behind 'compassion' is visceral (it names the inward organs), so this edition renders the depth rather than the sentiment, and records the variant."
+    },
+    {
+      "locus": "4.39",
+      "phrase": "σιώπα, πεφίμωσο (siōpa, pephimōso)",
+      "older": "“Peace, be still” (KJV)",
+      "lectio": "“Quiet. Be muzzled.”",
+      "note": "Jesus does not soothe the storm; he muzzles it. The second verb is the same one he uses on the unclean spirit in 1:25 — the sea is being silenced the way a demon is. The KJV's beautiful 'Peace, be still' hides the connection Mark built."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-01",
+      "order": 1,
+      "label": "Chapter 1",
+      "title": "The Beginning of the Good News",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The beginning of the good news of Jesus Christ, the Son of God. As it stands written in the prophet Isaiah — “Look, I am sending my messenger ahead of you; he will prepare your road. A voice shouts in the wilderness: Get the road ready for the Lord. Make his paths straight.”",
+          "spine": {
+            "from": "1.1",
+            "to": "1.3"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "John appeared, baptizing in the wilderness and announcing a baptism of turning back, for the forgiveness of sins. The whole Judean countryside went out to him, and all the people of Jerusalem; they were baptized by him in the Jordan River, confessing their sins. John wore camel's hair with a leather belt at his waist, and he ate locusts and wild honey.",
+          "spine": {
+            "from": "1.4",
+            "to": "1.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And this is what he announced: “After me comes one stronger than I am. I'm not fit to stoop down and untie the strap of his sandals. I baptized you with water. He will baptize you with the Holy Spirit.”",
+          "spine": {
+            "from": "1.7",
+            "to": "1.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. And right away, as he came up out of the water, he saw the sky torn open and the Spirit coming down on him like a dove. And a voice came from the sky: “You are my Son, the one I love. In you I take delight.”",
+          "spine": {
+            "from": "1.9",
+            "to": "1.11"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And right away the Spirit drove him out into the wilderness. He was in the wilderness forty days, tested by Satan. He was with the wild animals, and angels looked after him.",
+          "spine": {
+            "from": "1.12",
+            "to": "1.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "After John was arrested, Jesus came into Galilee announcing the good news of God: “The time is up. The kingdom of God has come near. Turn your lives around, and trust the good news.”",
+          "spine": {
+            "from": "1.14",
+            "to": "1.15"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Passing along the Sea of Galilee, he saw Simon, and Simon's brother Andrew, casting a net into the sea — they were fishermen. Jesus said to them, “Follow me, and I will make you fishers of people.” And right away they left their nets and followed him. Going on a little farther, he saw James the son of Zebedee and his brother John in their boat, mending the nets. Right away he called them; and they left their father Zebedee in the boat with the hired men, and went after him.",
+          "spine": {
+            "from": "1.16",
+            "to": "1.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "They went into Capernaum, and as soon as the Sabbath came he went into the synagogue and taught. And the people were astonished at his teaching, because he taught them like someone with authority — not like the scribes. Just then a man with an unclean spirit was there in their synagogue, and he screamed: “What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know who you are — the Holy One of God.” Jesus cut him off: “Quiet. Come out of him.” The unclean spirit convulsed the man, shrieked, and came out of him. Everyone was stunned, and they argued about it: “What is this? A new teaching — with authority. He gives orders even to the unclean spirits, and they obey him.” And right away the report of him went out everywhere, through the whole surrounding country of Galilee.",
+          "spine": {
+            "from": "1.21",
+            "to": "1.28"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "As soon as they left the synagogue, they went to the house of Simon and Andrew, with James and John. Simon's mother-in-law was lying down with a fever, and right away they told him about her. He went to her, took her hand, and lifted her up. The fever left her, and she waited on them.",
+          "spine": {
+            "from": "1.29",
+            "to": "1.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "That evening, after sunset, they brought him everyone who was sick or held by demons — the whole town was gathered at the door. He healed many who were sick with every kind of disease, and drove out many demons. And he would not let the demons speak, because they knew him.",
+          "spine": {
+            "from": "1.32",
+            "to": "1.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Very early, while it was still dark, he got up, went out to a deserted place, and prayed there. Simon and his companions hunted him down, and when they found him they said, “Everyone is looking for you.” He said to them, “Let's go somewhere else — to the neighboring towns — so I can preach there too. That's what I came out to do.” And he went through all of Galilee, preaching in their synagogues and driving out demons.",
+          "spine": {
+            "from": "1.35",
+            "to": "1.39"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "A leper came to him, begging him on his knees: “If you want to, you can make me clean.” Moved to the depths, Jesus stretched out his hand, touched him, and said, “I want to. Be clean.” Right away the leprosy left him, and he was clean. Jesus sent him off at once with a stern warning: “See that you say nothing to anyone. Just go show yourself to the priest, and offer for your cleansing what Moses commanded — as proof for them.” But the man went out and started talking freely, spreading the story — so that Jesus could no longer enter a town openly, but stayed out in deserted places. And people kept coming to him from everywhere.",
+          "spine": {
+            "from": "1.40",
+            "to": "1.45"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-02",
+      "order": 2,
+      "label": "Chapter 2",
+      "title": "Authority, and the Company He Keeps",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "A few days later he came back into Capernaum, and word got out that he was home. So many people gathered that there was no room left, not even at the door, and he was speaking the word to them. Some men came, carrying a paralyzed man — four of them had him. When they couldn't get near Jesus because of the crowd, they tore open the roof above him, dug through it, and lowered the mat the paralyzed man was lying on. Jesus saw their faith and said to the man, “Son, your sins are forgiven.”",
+          "spine": {
+            "from": "2.1",
+            "to": "2.5"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Some of the scribes were sitting there, turning it over in their minds: “Why does this man talk like that? It's blasphemy. Who can forgive sins but God alone?” Right away Jesus knew in his spirit what they were thinking, and he said to them, “Why are you turning this over in your minds? Which is easier — to say to a paralyzed man, ‘Your sins are forgiven,’ or to say, ‘Get up, pick up your mat, and walk’? But so you'll know that the Son of Man has authority on earth to forgive sins” — he said to the paralyzed man — “I'm telling you: get up, pick up your mat, and go home.” And the man got up, picked up his mat right away, and walked out in front of all of them. They were beside themselves, and they praised God: “We have never seen anything like this.”",
+          "spine": {
+            "from": "2.6",
+            "to": "2.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "He went out again beside the sea. The whole crowd came to him, and he taught them. As he was walking along he saw Levi son of Alphaeus sitting at the tax booth, and he said to him, “Follow me.” And he got up and followed him.",
+          "spine": {
+            "from": "2.13",
+            "to": "2.14"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Later, while Jesus was at the table in Levi's house, a lot of tax collectors and sinners were eating with him and his disciples — there were many of them, and they followed him. When the scribes of the Pharisees saw him eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” Jesus heard it and said to them, “It's not the healthy who need a doctor — it's the sick. I didn't come to call the righteous. I came to call sinners.”",
+          "spine": {
+            "from": "2.15",
+            "to": "2.17"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "John's disciples and the Pharisees were fasting. People came and asked him, “Why do John's disciples fast, and the Pharisees' disciples, but yours don't?” Jesus said to them, “Can the wedding guests fast while the groom is with them? As long as they have the groom with them, they can't fast. But the days are coming when the groom will be taken away from them, and on that day they will fast.”",
+          "spine": {
+            "from": "2.18",
+            "to": "2.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "“Nobody sews a patch of unshrunk cloth onto an old coat. If he does, the new patch pulls away from the old, and the tear gets worse. And nobody pours new wine into old wineskins. If he does, the wine will burst the skins, and both the wine and the skins are lost. New wine goes into new wineskins.”",
+          "spine": {
+            "from": "2.21",
+            "to": "2.22"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "One Sabbath he was going through the grainfields, and as they walked his disciples began picking heads of grain. The Pharisees said to him, “Look — why are they doing what isn't allowed on the Sabbath?” He said to them, “Have you never read what David did when he was in need and hungry, he and the men with him? How he went into the house of God, when Abiathar was high priest, and ate the bread of the Presence, which only the priests are allowed to eat, and gave some to the men with him?” And he said to them, “The Sabbath was made for people, not people for the Sabbath. So the Son of Man is Lord even of the Sabbath.”",
+          "spine": {
+            "from": "2.23",
+            "to": "2.28"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-03",
+      "order": 3,
+      "label": "Chapter 3",
+      "title": "The Twelve, and the Divided House",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "He went into the synagogue again, and a man with a withered hand was there. They were watching him closely to see whether he would heal the man on the Sabbath, so they could bring a charge against him. He said to the man with the withered hand, “Stand up, here in front.” Then he said to them, “Is it allowed on the Sabbath to do good, or to do harm? To save a life, or to kill?” They said nothing. He looked around at them in anger, grieved at how hard their hearts were, and he said to the man, “Stretch out your hand.” He stretched it out, and his hand was restored. And the Pharisees went straight out and started plotting with the Herodians how to destroy him.",
+          "spine": {
+            "from": "3.1",
+            "to": "3.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Jesus withdrew with his disciples to the sea, and a great crowd followed from Galilee. And from Judea, Jerusalem, Idumea, the far side of the Jordan, and the region around Tyre and Sidon — a great crowd came to him, because they had heard what he was doing. He told his disciples to keep a small boat ready for him, so the crowd wouldn't crush him. He had healed so many that everyone with an affliction was pushing forward to touch him. And whenever the unclean spirits saw him, they fell down in front of him and screamed, “You are the Son of God!” And he warned them sharply not to make him known.",
+          "spine": {
+            "from": "3.7",
+            "to": "3.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "He went up the mountain and called the ones he wanted, and they came to him. He appointed twelve — he named them apostles — to be with him, and to be sent out to preach, and to have authority to drive out demons. So he appointed the twelve: Simon, to whom he gave the name Peter; James son of Zebedee and his brother John, to whom he gave the name Boanerges, which means Sons of Thunder; Andrew, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Thaddaeus, Simon the Cananaean, and Judas Iscariot, the one who handed him over.",
+          "spine": {
+            "from": "3.13",
+            "to": "3.19"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then he went home, and the crowd gathered again, so that they couldn't even eat. When his family heard about it, they went out to take charge of him — people were saying he was out of his mind.",
+          "spine": {
+            "from": "3.20",
+            "to": "3.21"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And the scribes who had come down from Jerusalem were saying, “He has Beelzebul,” and, “He drives out demons by the ruler of the demons.” So he called them over and spoke to them in comparisons: “How can Satan drive out Satan? If a kingdom is divided against itself, that kingdom can't stand. And if a house is divided against itself, that house can't stand. If Satan has risen against himself and is divided, he can't stand — that's the end of him. But no one can walk into a strong man's house and take his things unless he first ties up the strong man. Then he can rob the house.”",
+          "spine": {
+            "from": "3.22",
+            "to": "3.27"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "“I'm telling you the truth: people will be forgiven everything — every sin, and whatever blasphemies they speak. But whoever blasphemes against the Holy Spirit never has forgiveness; he is guilty of a lasting sin.” He said this because they were saying, “He has an unclean spirit.”",
+          "spine": {
+            "from": "3.28",
+            "to": "3.30"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Then his mother and his brothers came. They stood outside and sent word in to him, calling for him. A crowd was sitting around him, and they told him, “Look — your mother and your brothers are outside, asking for you.” He answered them, “Who is my mother? Who are my brothers?” And looking around at the people sitting in a circle about him, he said, “Here is my mother, here are my brothers. Whoever does what God wants is my brother and sister and mother.”",
+          "spine": {
+            "from": "3.31",
+            "to": "3.35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-04",
+      "order": 4,
+      "label": "Chapter 4",
+      "title": "What the Sower Went Out to Do",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Again he began to teach beside the sea. A crowd gathered around him so large that he got into a boat and sat there on the water, with the whole crowd on the shore facing him. He taught them many things in parables, and in his teaching he said: “Listen. A sower went out to sow. And as he sowed, some seed fell along the path, and the birds came and ate it up. Some fell on rocky ground, where it didn't have much soil, and it came up right away because the soil wasn't deep — but when the sun rose it was scorched, and because it had no root it withered. Some fell among thorns, and the thorns came up and choked it, and it produced nothing. And some fell into good soil, and it came up, and grew, and produced a crop — thirty times over, sixty times over, a hundred times over.” And he said, “If you have ears to hear with, hear.”",
+          "spine": {
+            "from": "4.1",
+            "to": "4.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "When he was alone, the people around him and the twelve asked him about the parables. He said to them, “To you the secret of the kingdom of God has been given. To those outside, everything comes in parables, so that they may look and look and never see, and listen and listen and never understand — or they might turn back, and be forgiven.”",
+          "spine": {
+            "from": "4.10",
+            "to": "4.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And he said to them, “You don't understand this parable? Then how will you understand any of them? The sower sows the word. Some people are the path where the word is sown: as soon as they hear it, Satan comes right away and takes away the word that was sown in them. Others are the rocky ground: they hear the word and take it in gladly, right away — but they have no root in themselves, they last a short time, and as soon as pressure or persecution comes because of the word, they fall away right away. Others are the ones sown among thorns: they hear the word, but the worries of this life, the lie that wealth tells, and the craving for everything else come in and choke the word, and it produces nothing. And the ones sown in good soil are those who hear the word and take it in and bear a crop — thirty times over, sixty times over, a hundred times over.”",
+          "spine": {
+            "from": "4.13",
+            "to": "4.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And he said to them, “Does anyone bring in a lamp to put it under a basket, or under the bed? Doesn't it go on a stand? Nothing is hidden except to be brought out; nothing is covered up except to come into the open. If you have ears to hear with, hear.”",
+          "spine": {
+            "from": "4.21",
+            "to": "4.23"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And he said to them, “Pay attention to what you hear. The measure you use will be used on you, and more besides. Whoever has will be given more; whoever has nothing will lose even what he has.”",
+          "spine": {
+            "from": "4.24",
+            "to": "4.25"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he said, “The kingdom of God is like this. A man scatters seed on the ground. He sleeps and gets up, night after night, day after day, and the seed sprouts and grows — he has no idea how. The earth produces a crop on its own: first the shoot, then the head, then the full grain in the head. And as soon as the crop is ready, he puts in the sickle, because the harvest has come.”",
+          "spine": {
+            "from": "4.26",
+            "to": "4.29"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And he said, “What can we compare the kingdom of God to? What picture can we use for it? It's like a mustard seed. When it's sown in the ground it's the smallest of all the seeds on earth — but once it's sown it comes up and becomes the largest of all the garden plants, and puts out branches so big that the birds of the sky can nest in its shade.”",
+          "spine": {
+            "from": "4.30",
+            "to": "4.32"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "He spoke the word to them in many parables like these, as much as they could take in. He didn't speak to them without a parable, but privately, with his own disciples, he explained everything.",
+          "spine": {
+            "from": "4.33",
+            "to": "4.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "That day, when evening came, he said to them, “Let's cross over to the other side.” So they left the crowd and took him along, just as he was, in the boat. Other boats were with him. A fierce squall came up, and the waves were breaking over the boat, so that it was already filling. He was in the stern, asleep on the cushion. They woke him and said, “Teacher, don't you care that we're going down?” He got up, gave an order to the wind, and said to the sea: “Quiet. Be muzzled.” The wind dropped, and everything went dead calm. He said to them, “Why are you so afraid? Do you still have no faith?” And they were terrified, and said to each other, “Who is this? Even the wind and the sea do what he says.”",
+          "spine": {
+            "from": "4.35",
+            "to": "4.41"
+          }
+        }
+      ]
+    }
+  ]
+}
