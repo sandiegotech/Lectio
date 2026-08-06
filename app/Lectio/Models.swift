@@ -86,6 +86,7 @@ struct CollectionItem: Codable, Hashable {
     var workId: String
     var volume: Int?
     var note: String?
+    var part: String?   // sub-section within the collection (e.g. "The New Testament")
 }
 
 struct BookCollection: Codable, Hashable, Identifiable {

@@ -791,6 +791,10 @@ def _bible_vernacular_edition(work_id: str, slug: str) -> Edition:
 
 BIBLE_RETRIEVED = "2026-08-06"
 
+# Books whose Vernacular is being read for review. The charter keeps the KJV default
+# until a human has read the book end to end; this set is how that flip happens.
+_VERNACULAR_DEFAULT = {"mark"}
+
 
 def _bible_work(slug, title, author, composed, blurb, kjv_kwargs, collections,
                 original_lang="grc"):
@@ -800,6 +804,8 @@ def _bible_work(slug, title, author, composed, blurb, kjv_kwargs, collections,
     if os.path.exists(os.path.join(_MODERN_DIR, f"bible-{slug}.json")):
         vern = _bible_vernacular_edition(f"work.bible.{slug}", slug)
         editions.insert(0, vern)
+        if slug in _VERNACULAR_DEFAULT:      # REVIEW BUILD ONLY - see note below
+            default = vern.id
         # The KJV stays default until a human has read the Vernacular end to end
         # (BIBLE-CHARTER.md, QA gate 5). Flip here, per book, after review.
     work = Work(
@@ -821,7 +827,7 @@ def bible_mark():
         kjv_kwargs=dict(heading="The Gospel According to Saint Mark",
                         next_heading="The Gospel According to Saint Luke",
                         expect_chapters=16, expect_verses=678),
-        collections=["collection.christianity"],
+        collections=["collection.bible", "collection.christianity"],
     )
 
 
@@ -834,7 +840,7 @@ def bible_genesis():
         kjv_kwargs=dict(heading="The First Book of Moses: Called Genesis",
                         next_heading="The Second Book of Moses: Called Exodus",
                         expect_chapters=50, expect_verses=1533),
-        collections=["collection.judaism", "collection.christianity"],
+        collections=["collection.bible", "collection.judaism", "collection.christianity"],
         original_lang="hbo",
     )
 

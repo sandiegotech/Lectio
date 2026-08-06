@@ -51,8 +51,15 @@ struct CollectionDetailView: View {
                     .font(.caption2).tracking(2).foregroundColor(pal.inkSoft)
 
                 VStack(alignment: .leading, spacing: 18) {
-                    ForEach(library.works(in: collection)) { work in
-                        NavigationLink(value: bookOverview(work)) { workRow(work) }.buttonStyle(.plain)
+                    ForEach(orderedItemParts(), id: \.self) { part in
+                        if !part.isEmpty {
+                            Text(part.uppercased())
+                                .font(.caption).tracking(2).foregroundColor(pal.accent)
+                                .padding(.top, 6)
+                        }
+                        ForEach(worksIn(part: part)) { work in
+                            NavigationLink(value: bookOverview(work)) { workRow(work) }.buttonStyle(.plain)
+                        }
                     }
                     let shells = visibleShells
                     if shells.contains(where: { !($0.part ?? "").isEmpty }) {
@@ -208,8 +215,12 @@ struct CollectionDetailView: View {
     @ViewBuilder
     private func plannedThumb(_ planned: BookCollection.Planned) -> some View {
         if let url = library.plannedCoverURL(previewCoverPath(for: planned)), let img = UIImage(contentsOfFile: url.path) {
+            // Same recession as the shelf: a shell you cannot open should not look
+            // like a book you can.
             Image(uiImage: img).resizable().scaledToFill()
                 .frame(width: 48, height: 70)
+                .saturation(0.35)
+                .opacity(0.45)
                 .clipShape(RoundedRectangle(cornerRadius: 4))
                 .overlay(RoundedRectangle(cornerRadius: 4).stroke(Color.black.opacity(0.18), lineWidth: 0.5))
         } else {
@@ -222,6 +233,22 @@ struct CollectionDetailView: View {
             return planned.originalCover ?? planned.cover
         }
         return planned.cover
+    }
+
+    // A shelf may divide its readable books into sections (the Bible's two testaments).
+    // Collections with no sections yield a single empty part, so nothing changes for them.
+    private func orderedItemParts() -> [String] {
+        var seen = Set<String>(); var out: [String] = []
+        for item in collection.items {
+            let p = item.part ?? ""
+            if !seen.contains(p) { seen.insert(p); out.append(p) }
+        }
+        return out.isEmpty ? [""] : out
+    }
+
+    private func worksIn(part: String) -> [Work] {
+        let ids = collection.items.filter { ($0.part ?? "") == part }.map(\.workId)
+        return library.works(in: collection).filter { ids.contains($0.id) }
     }
 
     private func orderedParts(_ shells: [BookCollection.Planned]) -> [String] {

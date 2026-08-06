@@ -6,10 +6,11 @@
   "composed": "c. 65–75 CE",
   "type": "scripture",
   "referenceScheme": "chapter.verse",
-  "defaultEditionId": "edition.bible-mark.kjv-1611",
+  "defaultEditionId": "edition.bible-mark.lectio-vernacular",
   "blurb": "The earliest and fastest of the Gospels — a breathless, unpolished account of Jesus of Nazareth that reads like it was written in a hurry, because it was.",
   "tradition": "West",
   "collections": [
+    "collection.bible",
     "collection.christianity"
   ],
   "editionIds": [

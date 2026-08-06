@@ -256,11 +256,14 @@ struct LibraryView: View {
                     ForEach(Array(shells.enumerated()), id: \.offset) { i, p in
                         NavigationLink(value: bookOverview(shell: p)) {
                             VStack(spacing: 0) {
+                                // A shell recedes: dimmed and desaturated, so what you can
+                                // actually open reads as present and the rest as a promise.
                                 plannedCoverArt(p, in: collection, height: bookHeights[(works.count + i) % bookHeights.count])
-                                    .opacity(0.92)
+                                    .saturation(0.35)
+                                    .opacity(0.45)
                                 Text("Coming soon")
                                     .font(.system(size: 10, weight: .medium)).tracking(0.4)
-                                    .foregroundColor(pal.inkSoft)
+                                    .foregroundColor(pal.inkSoft.opacity(0.75))
                                     .frame(height: 30, alignment: .center)   // matches the reflection band so cover bottoms align
                             }
                         }

@@ -5,22 +5,22 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "ee462c555efc05ba"
+      "checksum": "3d6a9472e5d26217"
     },
     {
       "id": "collection.great-books",
       "title": "Great Books of the Western World",
-      "checksum": "f8d690209211aca9"
+      "checksum": "6d8043df8c540f10"
     },
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
-      "checksum": "32fe9f63a0bc6598"
+      "checksum": "e18873fd3ba8a3cc"
     },
     {
       "id": "collection.harvard-classics",
       "title": "The Harvard Classics",
-      "checksum": "204feaef8dc56c1f"
+      "checksum": "166fa4fe6efef754"
     },
     {
       "id": "collection.beyond",
@@ -28,14 +28,19 @@
       "checksum": "dfb0031b7fdc768e"
     },
     {
+      "id": "collection.bible",
+      "title": "The Bible",
+      "checksum": "14c55abb5162e393"
+    },
+    {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "a16757a4c4d4d371"
+      "checksum": "523dc50b5e67c7e8"
     },
     {
       "id": "genre.philosophy",
       "title": "Philosophy",
-      "checksum": "54bcecccc3dc2d6f"
+      "checksum": "6c22dbbe3344c738"
     },
     {
       "id": "genre.history-biography",
@@ -50,7 +55,7 @@
     {
       "id": "genre.politics-economics",
       "title": "Politics & Economics",
-      "checksum": "8f896410f495a74f"
+      "checksum": "12a6df283f2d0753"
     },
     {
       "id": "genre.fiction",
@@ -60,12 +65,12 @@
     {
       "id": "genre.poetry-epic",
       "title": "Poetry & Epic",
-      "checksum": "2e89136726dc2bb3"
+      "checksum": "fd9c73352b1652be"
     },
     {
       "id": "genre.drama",
       "title": "Drama",
-      "checksum": "944c91d7ec2ec624"
+      "checksum": "c54300be6ca42d55"
     },
     {
       "id": "genre.essays-letters",
@@ -453,8 +458,9 @@
       "title": "The Gospel of Mark",
       "author": "Anonymous · attributed to Mark",
       "referenceScheme": "chapter.verse",
-      "defaultEditionId": "edition.bible-mark.kjv-1611",
+      "defaultEditionId": "edition.bible-mark.lectio-vernacular",
       "collections": [
+        "collection.bible",
         "collection.christianity"
       ],
       "editions": [
@@ -478,7 +484,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "1b4daef4dcf3ee73"
+      "checksum": "8ae8c7ea6e8618c0"
     },
     {
       "id": "work.bible.genesis",
@@ -487,6 +493,7 @@
       "referenceScheme": "chapter.verse",
       "defaultEditionId": "edition.bible-genesis.kjv-1611",
       "collections": [
+        "collection.bible",
         "collection.judaism",
         "collection.christianity"
       ],
@@ -511,7 +518,7 @@
         }
       ],
       "hasAlignment": false,
-      "checksum": "1c0494e97d5951a3"
+      "checksum": "898b9a5dafd04ac6"
     }
   ],
   "dictionaries": []
