@@ -164,6 +164,34 @@
       "older": "“that we may know them” (KJV)",
       "lectio": "“so we can know them” — kept literal",
       "note": "The Hebrew verb is the ordinary word for knowing, used in this book for sexual knowledge as well. The crowd's demand is a threat of gang rape against guests, and the passage is about the violation of hospitality and the abuse of strangers. This edition keeps the plain verb rather than either sanitizing it or sharpening it into something the Hebrew does not say."
+    },
+    {
+      "locus": "22.1",
+      "phrase": "נִסָּה (nissah)",
+      "older": "“God did tempt Abraham” (KJV)",
+      "lectio": "“God tested Abraham”",
+      "note": "The Hebrew verb means to test or prove, not to entice toward evil. 'Tempt' has drifted since 1611 and now says something about God that the Hebrew does not."
+    },
+    {
+      "locus": "22.1, 22.7, 22.11",
+      "phrase": "הִנֵּנִי (hineni)",
+      "older": "“Behold, here I am” / “Here am I” — varied (KJV)",
+      "lectio": "“Here I am” — identical all three times",
+      "note": "One word, three times: to God, to Isaac, to the messenger who stops the knife. It is the spine of the chapter and the whole of Abraham's character in this scene. Any variation for elegance breaks it."
+    },
+    {
+      "locus": "21.9",
+      "phrase": "מְצַחֵק (metsacheq)",
+      "older": "“mocking” (KJV)",
+      "lectio": "“laughing”",
+      "note": "The word is built on the same root as Isaac's name — laughing, playing. 'Mocking' is an interpretation that gives Sarah a grievance the Hebrew does not supply, and it hides the fact that the boy is doing exactly what the younger boy's name means."
+    },
+    {
+      "locus": "22.14",
+      "phrase": "יְהוָה יִרְאֶה (YHWH yireh)",
+      "older": "“Jehovahjireh” (KJV)",
+      "lectio": "“The LORD Will See”",
+      "note": "'Jehovah' is a hybrid that never existed in Hebrew — the consonants of the divine name with the vowels of a different word, misread by Christian scholars in the Middle Ages. And the verb here is 'see', which the chapter has been repeating: God will see to it, and on the mountain it will be seen."
     }
   ],
   "sections": [
@@ -1375,6 +1403,228 @@
           "spine": {
             "from": "19.30",
             "to": "19.38"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-20",
+      "order": 20,
+      "label": "Chapter 20",
+      "title": "Abimelech",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-20.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And Abraham moved on from there toward the Negev and settled between Kadesh and Shur, and he stayed a while in Gerar. And Abraham said of Sarah his wife, “She is my sister.” And Abimelech king of Gerar sent and took Sarah. But God came to Abimelech in a dream at night and said to him, “You are a dead man, because of the woman you have taken. She is a married woman.” Now Abimelech had not gone near her, and he said, “Lord, will you kill a nation even when it is innocent? Didn't he say to me, ‘She is my sister’? And she herself said, ‘He is my brother.’ I did this with a whole heart and clean hands.” And God said to him in the dream, “Yes — I know you did this with a whole heart, and I am the one who kept you from sinning against me. That is why I did not let you touch her. Now give the man's wife back. He is a prophet, and he will pray for you, and you will live. But if you do not give her back, know that you will certainly die — you and everyone who is yours.”",
+          "spine": {
+            "from": "20.1",
+            "to": "20.7"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-20.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And Abimelech got up early in the morning and called all his servants and told them everything, and the men were terrified. Then Abimelech called Abraham and said to him, “What have you done to us? How did I wrong you, that you brought this great guilt on me and on my kingdom? You have done things to me that should never be done.” And Abimelech said to Abraham, “What were you thinking, to do such a thing?” And Abraham said, “Because I thought, there is surely no fear of God in this place, and they will kill me over my wife. Besides, she really is my sister — my father's daughter, though not my mother's daughter — and she became my wife. And when God made me wander from my father's house, I said to her, ‘This is the kindness you can do for me: wherever we go, say of me, He is my brother.’”",
+          "spine": {
+            "from": "20.8",
+            "to": "20.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-20.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Abimelech took sheep and cattle and male and female slaves and gave them to Abraham, and he gave him back Sarah his wife. And Abimelech said, “Look — my land is in front of you. Settle wherever you like.” And to Sarah he said, “Look, I have given your brother a thousand pieces of silver. It is a covering over the eyes for everyone who is with you. You are completely cleared.” And Abraham prayed to God, and God healed Abimelech and his wife and his slave women, and they bore children again — because the LORD had shut every womb in Abimelech's household tight, on account of Sarah, Abraham's wife.",
+          "spine": {
+            "from": "20.14",
+            "to": "20.18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-21",
+      "order": 21,
+      "label": "Chapter 21",
+      "title": "Laughter, and the Wilderness",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And the LORD attended to Sarah as he had said, and the LORD did for Sarah what he had spoken. And Sarah conceived and bore Abraham a son in his old age, at the appointed time God had spoken of. And Abraham named the son who was born to him, whom Sarah bore him, Isaac. And Abraham circumcised his son Isaac when he was eight days old, as God had commanded him. Abraham was a hundred years old when his son Isaac was born to him. And Sarah said, “God has made laughter for me. Everyone who hears will laugh with me.” And she said, “Who would ever have said to Abraham that Sarah would nurse children? And I have borne him a son in his old age.”",
+          "spine": {
+            "from": "21.1",
+            "to": "21.7"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And the child grew and was weaned, and Abraham gave a great feast on the day Isaac was weaned. And Sarah saw the son of Hagar the Egyptian, whom she had borne to Abraham, laughing. And she said to Abraham, “Drive out this slave woman and her son. The son of this slave woman will not inherit along with my son, with Isaac.” And the thing was very bad in Abraham's eyes, because of his son. And God said to Abraham, “Don't let it be bad in your eyes, because of the boy and because of your slave woman. Whatever Sarah says to you, listen to her voice, because it is through Isaac that your offspring will be named. And I will make a nation of the slave woman's son too, because he is your offspring.”",
+          "spine": {
+            "from": "21.8",
+            "to": "21.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Abraham got up early in the morning and took bread and a skin of water and gave them to Hagar, putting them on her shoulder, and the child, and sent her away. And she went off and wandered in the wilderness of Beersheba. And when the water in the skin was gone, she pushed the child under one of the bushes. And she went and sat down by herself a good way off, about a bowshot away, because she said, “Let me not watch the child die.” And she sat there across from him and lifted up her voice and wept.",
+          "spine": {
+            "from": "21.14",
+            "to": "21.16"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And God heard the boy's voice, and the messenger of God called to Hagar from the sky and said to her, “What is it, Hagar? Don't be afraid. God has heard the boy's voice, there where he is. Get up, lift the boy up and hold him with your hand, because I will make him into a great nation.” And God opened her eyes, and she saw a well of water; and she went and filled the skin with water and gave the boy a drink. And God was with the boy, and he grew up. He lived in the wilderness and became an archer. He lived in the wilderness of Paran, and his mother got him a wife from the land of Egypt.",
+          "spine": {
+            "from": "21.17",
+            "to": "21.21"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "At that time Abimelech, with Phicol the commander of his army, said to Abraham, “God is with you in everything you do. So swear to me here by God that you will not deal falsely with me, or with my children, or with my descendants. As I have kept faith with you, so you will keep faith with me and with the land where you have been living as a stranger.” And Abraham said, “I swear it.” And Abraham reproached Abimelech about a well of water that Abimelech's servants had seized. And Abimelech said, “I don't know who did this. You never told me, and I never heard of it until today.” And Abraham took sheep and cattle and gave them to Abimelech, and the two of them cut a covenant.",
+          "spine": {
+            "from": "21.22",
+            "to": "21.27"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-21.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And Abraham set seven ewe lambs of the flock off by themselves. And Abimelech said to Abraham, “What are these seven ewe lambs you have set off by themselves?” And he said, “You are to take these seven ewe lambs from my hand, so they will be a witness for me that I dug this well.” That is why that place was called Beersheba — because there the two of them swore an oath. So they cut a covenant at Beersheba, and Abimelech got up, with Phicol the commander of his army, and they went back to the land of the Philistines. And Abraham planted a tamarisk tree at Beersheba, and there he called on the name of the LORD, the Everlasting God. And Abraham lived as a stranger in the land of the Philistines a long time.",
+          "spine": {
+            "from": "21.28",
+            "to": "21.34"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-22",
+      "order": 22,
+      "label": "Chapter 22",
+      "title": "The Binding",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And after these things, God tested Abraham. He said to him, “Abraham.” And he said, “Here I am.” And he said, “Take your son, your only one, the one you love — Isaac — and go to the land of Moriah, and offer him up there as a burnt offering on one of the mountains I will tell you.” And Abraham got up early in the morning and saddled his donkey, and took two of his young men with him, and Isaac his son. And he split the wood for the burnt offering, and got up, and went to the place God had told him.",
+          "spine": {
+            "from": "22.1",
+            "to": "22.3"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "On the third day Abraham looked up and saw the place from a distance. And Abraham said to his young men, “Stay here with the donkey. The boy and I will go over there and bow down, and we will come back to you.” And Abraham took the wood for the burnt offering and put it on Isaac his son, and he took the fire in his hand, and the knife. And the two of them walked on together. And Isaac spoke to Abraham his father and said, “My father.” And he said, “Here I am, my son.” And he said, “Here is the fire and the wood — but where is the lamb for the burnt offering?” And Abraham said, “God will see to the lamb for the burnt offering, my son.” And the two of them walked on together.",
+          "spine": {
+            "from": "22.4",
+            "to": "22.8"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And they came to the place God had told him, and Abraham built the altar there and laid out the wood, and he bound Isaac his son and laid him on the altar, on top of the wood. And Abraham reached out his hand and took the knife to slaughter his son. And the messenger of the LORD called to him from the sky and said, “Abraham! Abraham!” And he said, “Here I am.” And he said, “Don't lay your hand on the boy. Don't do anything to him. Now I know that you fear God, since you have not held back your son, your only one, from me.”",
+          "spine": {
+            "from": "22.9",
+            "to": "22.12"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And Abraham looked up, and there it was: a ram behind him, caught in a thicket by its horns. And Abraham went and took the ram and offered it up as a burnt offering instead of his son. And Abraham named that place The LORD Will See — which is why it is said to this day, “On the mountain of the LORD it will be seen.”",
+          "spine": {
+            "from": "22.13",
+            "to": "22.14"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And the messenger of the LORD called to Abraham from the sky a second time and said, “By myself I have sworn — this is the LORD's word — because you have done this and have not held back your son, your only one: I will bless you and bless you, and multiply and multiply your offspring, like the stars of the sky and like the sand on the shore of the sea. And your offspring will take possession of the gate of their enemies. And in your offspring all the nations of the earth will be blessed — because you listened to my voice.” And Abraham went back to his young men, and they got up and went together to Beersheba. And Abraham lived at Beersheba.",
+          "spine": {
+            "from": "22.15",
+            "to": "22.19"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-22.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And after these things Abraham was told, “Milcah has borne children too, to your brother Nahor: Uz his firstborn, and Buz his brother, and Kemuel the father of Aram, and Chesed, and Hazo, and Pildash, and Jidlaph, and Bethuel.” And Bethuel fathered Rebekah. These eight Milcah bore to Nahor, Abraham's brother. And his concubine, whose name was Reumah, also bore Tebah, Gaham, Tahash, and Maacah.",
+          "spine": {
+            "from": "22.20",
+            "to": "22.24"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-23",
+      "order": 23,
+      "label": "Chapter 23",
+      "title": "The Cave at Machpelah",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-23.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And Sarah lived a hundred and twenty-seven years — these were the years of Sarah's life. And Sarah died at Kiriath-arba (that is, Hebron) in the land of Canaan, and Abraham came to mourn for Sarah and to weep for her. And Abraham got up from beside his dead and spoke to the Hittites: “I am a stranger and a settler among you. Give me a burial holding among you, so I can bury my dead out of my sight.” And the Hittites answered Abraham: “Hear us, my lord. You are a prince of God among us. Bury your dead in the choicest of our tombs. Not one of us will withhold his tomb from you, from burying your dead.”",
+          "spine": {
+            "from": "23.1",
+            "to": "23.6"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-23.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And Abraham got up and bowed to the people of the land, the Hittites. And he spoke with them: “If it suits you that I should bury my dead out of my sight, then hear me and speak for me to Ephron son of Zohar, so he will give me the cave of Machpelah, which belongs to him, at the end of his field. Let him give it to me for the full price, as a burial holding among you.” Now Ephron was sitting among the Hittites, and Ephron the Hittite answered Abraham in the hearing of the Hittites, of everyone who came in at the gate of his city: “No, my lord, hear me. I give you the field, and I give you the cave that is in it. In the presence of my people I give it to you. Bury your dead.”",
+          "spine": {
+            "from": "23.7",
+            "to": "23.11"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-23.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Abraham bowed before the people of the land, and he spoke to Ephron in the hearing of the people of the land: “If only you would hear me — I am giving the price of the field. Take it from me, and let me bury my dead there.” And Ephron answered Abraham: “My lord, listen to me. Land worth four hundred shekels of silver — what is that between me and you? Bury your dead.” And Abraham listened to Ephron, and Abraham weighed out for Ephron the silver he had named in the hearing of the Hittites: four hundred shekels of silver, at the merchants' rate.",
+          "spine": {
+            "from": "23.12",
+            "to": "23.16"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-23.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "So Ephron's field at Machpelah, facing Mamre — the field and the cave in it and all the trees in the field, within all its borders — passed to Abraham as a possession, in the presence of the Hittites, before everyone who came in at the gate of his city. And after that Abraham buried Sarah his wife in the cave of the field of Machpelah, facing Mamre (that is, Hebron) in the land of Canaan. So the field and the cave in it passed to Abraham from the Hittites as a burial holding.",
+          "spine": {
+            "from": "23.17",
+            "to": "23.20"
           }
         }
       ]
