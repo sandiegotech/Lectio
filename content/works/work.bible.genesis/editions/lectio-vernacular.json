@@ -227,6 +227,20 @@
       "older": "“Leah was tender eyed” (KJV) — usually read as a defect",
       "lectio": "“Leah's eyes were soft”",
       "note": "The Hebrew says only that her eyes were soft or delicate, with no verdict attached. Translations have made it weak, or dull, or plain, in order to explain why Jacob preferred Rachel. The Hebrew does not explain; it simply sets one sister's eyes beside the other sister's whole figure and leaves the comparison to the reader."
+    },
+    {
+      "locus": "31.20, 31.26",
+      "phrase": "וַיִּגְנֹב אֶת־לֵב (vayyignov et-lev)",
+      "older": "“stole away unawares to Laban” (KJV)",
+      "lectio": "“stole the heart of Laban”",
+      "note": "The Hebrew idiom is literally to steal someone's heart — to outwit them — and the chapter is built on the verb 'steal': Rachel steals the gods, Jacob steals Laban's heart, Laban accuses everyone of stealing. Flattening the idiom breaks the pattern the chapter runs on."
+    },
+    {
+      "locus": "31.42, 31.53",
+      "phrase": "פַּחַד יִצְחָק (pachad Yitzchak)",
+      "older": "“the fear of Isaac” (KJV)",
+      "lectio": "“the Terror of Isaac”",
+      "note": "An old and strange divine title, used only here, and nobody is sure of its force — the Dread that Isaac worshipped, or possibly the Kinsman of Isaac. 'Fear' has softened into anxiety in modern English; the word is closer to awe that stops you where you stand."
     }
   ],
   "sections": [
@@ -2138,6 +2152,172 @@
           "spine": {
             "from": "29.31",
             "to": "29.35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-30",
+      "order": 30,
+      "label": "Chapter 30",
+      "title": "The Sisters, and the Flocks",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And when Rachel saw that she was bearing Jacob no children, Rachel envied her sister. And she said to Jacob, “Give me children, or I am a dead woman.” And Jacob's anger flared against Rachel, and he said, “Am I in God's place? He is the one who has held back the fruit of your womb.” And she said, “Here is my slave Bilhah. Go in to her, and let her give birth on my knees, so that I too may be built up through her.” So she gave him Bilhah her slave as a wife, and Jacob went in to her. And Bilhah conceived and bore Jacob a son. And Rachel said, “God has judged my case, and he has also heard my voice and given me a son.” That is why she named him Dan. And Bilhah, Rachel's slave, conceived again and bore Jacob a second son. And Rachel said, “With mighty wrestlings I have wrestled with my sister, and I have won.” And she named him Naphtali.",
+          "spine": {
+            "from": "30.1",
+            "to": "30.8"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "When Leah saw that she had stopped bearing, she took Zilpah her slave and gave her to Jacob as a wife. And Zilpah, Leah's slave, bore Jacob a son. And Leah said, “What luck!” And she named him Gad. And Zilpah, Leah's slave, bore Jacob a second son. And Leah said, “How happy I am — women will call me happy.” And she named him Asher.",
+          "spine": {
+            "from": "30.9",
+            "to": "30.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And in the days of the wheat harvest Reuben went out and found mandrakes in the field, and he brought them to Leah his mother. And Rachel said to Leah, “Please give me some of your son's mandrakes.” And she said to her, “Is it a small thing that you took my husband? Now you want to take my son's mandrakes too?” And Rachel said, “All right — he can lie with you tonight, in exchange for your son's mandrakes.” And Jacob came in from the field in the evening, and Leah went out to meet him and said, “You are coming in to me. I have hired you, fair and square, with my son's mandrakes.” And he lay with her that night. And God listened to Leah, and she conceived and bore Jacob a fifth son. And Leah said, “God has given me my wages, because I gave my slave to my husband.” And she named him Issachar. And Leah conceived again and bore Jacob a sixth son. And Leah said, “God has given me a good gift. This time my husband will honor me, because I have borne him six sons.” And she named him Zebulun. And afterward she bore a daughter and named her Dinah.",
+          "spine": {
+            "from": "30.14",
+            "to": "30.21"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And God remembered Rachel, and God listened to her and opened her womb. And she conceived and bore a son, and she said, “God has taken away my disgrace.” And she named him Joseph, saying, “May the LORD add me another son.”",
+          "spine": {
+            "from": "30.22",
+            "to": "30.24"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And when Rachel had borne Joseph, Jacob said to Laban, “Send me off, so I can go to my own place, to my own land. Give me my wives and my children, the ones I worked for, and let me go. You know the work I have done for you.” And Laban said to him, “If I have found favor in your eyes — I have learned by divination that the LORD has blessed me because of you.” And he said, “Name your wages, and I will pay them.” And he said to him, “You know how I have worked for you, and what has become of your livestock with me. What you had before I came was little, and it has burst out into a multitude, and the LORD has blessed you wherever I turned. And now, when do I get to provide for my own household?”",
+          "spine": {
+            "from": "30.25",
+            "to": "30.30"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he said, “What should I give you?” And Jacob said, “Don't give me anything. If you will do this one thing for me, I will go back to pasturing your flock and keeping it. Let me go through your whole flock today and take out of it every speckled and spotted animal, and every dark-colored one among the lambs, and the spotted and speckled among the goats. Those will be my wages. And my honesty will testify for me later, when you come to look over my wages: anything with me that is not speckled or spotted among the goats, or dark among the lambs, will count as stolen.” And Laban said, “Good — let it be as you say.” And that same day he took out the male goats that were streaked and spotted, and all the female goats that were speckled and spotted, every one with white on it, and all the dark ones among the lambs, and he put them in the hands of his sons. And he set three days' journey between himself and Jacob, while Jacob pastured the rest of Laban's flock.",
+          "spine": {
+            "from": "30.31",
+            "to": "30.36"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-30.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And Jacob took fresh rods of poplar and almond and plane tree, and peeled white streaks in them, laying bare the white on the rods. And he set the rods he had peeled in front of the flocks, in the troughs, in the watering channels where the flocks came to drink — and they went into heat when they came to drink. And the flocks bred in front of the rods, and they bore young that were streaked, speckled, and spotted. And Jacob separated the lambs, and he turned the faces of the flock toward the streaked and all the dark ones in Laban's flock. And he put his own droves by themselves and did not put them with Laban's flock. And whenever the sturdy animals were breeding, Jacob would set the rods in the troughs in front of their eyes, so they would breed among the rods. But when the animals were weak he did not set them there — so the weak ones went to Laban and the sturdy ones to Jacob. And the man burst out and out: he had large flocks, and female and male slaves, and camels and donkeys.",
+          "spine": {
+            "from": "30.37",
+            "to": "30.43"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-31",
+      "order": 31,
+      "label": "Chapter 31",
+      "title": "The Flight, and the Heap of Witness",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And he heard the words of Laban's sons: “Jacob has taken everything that was our father's, and out of what belonged to our father he has built all this wealth.” And Jacob looked at Laban's face — and it was not toward him as it had been before. And the LORD said to Jacob, “Go back to the land of your fathers, to your kindred, and I will be with you.” And Jacob sent and called Rachel and Leah out to the field, to his flock, and said to them, “I see your father's face, that it is not toward me as it was before. But the God of my father has been with me. And you know that I have worked for your father with all my strength, and your father has cheated me and changed my wages ten times over — but God did not let him do me harm. If he said, ‘The speckled will be your wages,’ then the whole flock bore speckled; and if he said, ‘The streaked will be your wages,’ then the whole flock bore streaked. So God has taken away your father's livestock and given it to me.",
+          "spine": {
+            "from": "31.1",
+            "to": "31.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "“And at the time the flock was breeding, I looked up and saw in a dream — and there were the males mounting the flock, streaked and speckled and mottled. And the messenger of God said to me in the dream, ‘Jacob.’ And I said, ‘Here I am.’ And he said, ‘Look up and see: all the males mounting the flock are streaked and speckled and mottled, because I have seen everything Laban is doing to you. I am the God of Bethel, where you anointed a standing stone, where you made a vow to me. Now get up, go out of this land, and go back to the land of your birth.’” And Rachel and Leah answered him, “Is there any share or inheritance left for us in our father's house? Doesn't he treat us as foreigners? He sold us, and he has been eating up the money paid for us. All the wealth God has taken from our father belongs to us and to our children. So now — whatever God has told you, do it.”",
+          "spine": {
+            "from": "31.10",
+            "to": "31.16"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Then Jacob got up and put his children and his wives on the camels. And he drove off all his livestock and all the property he had gathered, the livestock he had come to own in Paddan-aram, to go to Isaac his father in the land of Canaan. Now Laban had gone to shear his sheep, and Rachel stole the household gods that belonged to her father. And Jacob stole the heart of Laban the Aramean by not telling him he was running. So he ran, he and everything he had. He got up and crossed the river and set his face toward the hill country of Gilead.",
+          "spine": {
+            "from": "31.17",
+            "to": "31.21"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And on the third day Laban was told that Jacob had run. And he took his kinsmen with him and chased after him seven days' journey, and caught up with him in the hill country of Gilead. And God came to Laban the Aramean in a dream at night and said to him, “Be careful you say nothing to Jacob, good or bad.” And Laban caught up with Jacob. Now Jacob had pitched his tent in the hill country, and Laban pitched with his kinsmen in the hill country of Gilead. And Laban said to Jacob, “What have you done, stealing my heart and driving my daughters off like prisoners of war? Why did you run in secret and steal away from me, and not tell me? I would have sent you off with joy and songs, with tambourine and lyre. And you didn't even let me kiss my grandchildren and my daughters goodbye. You have done a stupid thing. I have it in my hand to do you harm — but the God of your father spoke to me last night and said, ‘Be careful you say nothing to Jacob, good or bad.’ And now you have gone off because you were homesick for your father's house — but why did you steal my gods?”",
+          "spine": {
+            "from": "31.22",
+            "to": "31.30"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And Jacob answered Laban, “Because I was afraid. I thought you would tear your daughters away from me. Whoever you find your gods with will not live. In front of our kinsmen, identify what is yours among my things and take it.” Now Jacob did not know that Rachel had stolen them. And Laban went into Jacob's tent, and into Leah's tent, and into the tents of the two slave women, and he did not find them. And he came out of Leah's tent and went into Rachel's tent. Now Rachel had taken the household gods and put them in the camel's saddle cushion and was sitting on them. And Laban felt all around the tent and did not find them. And she said to her father, “Don't let my lord be angry that I cannot get up in front of you — the way of women is on me.” So he searched and did not find the household gods.",
+          "spine": {
+            "from": "31.31",
+            "to": "31.35"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And Jacob was furious, and he argued it out with Laban. Jacob answered Laban, “What is my offense? What is my sin, that you have come after me so hot? You have felt through all my things — what have you found of all your household goods? Set it here, in front of my kinsmen and yours, and let them decide between the two of us. Twenty years I have been with you. Your ewes and your she-goats never miscarried, and I never ate the rams of your flock. What was torn by animals I never brought to you — I bore the loss myself. You demanded it from my hand, whether it was stolen by day or stolen by night. This is how I was: by day the heat ate me, and the cold by night, and sleep fled from my eyes. Twenty years I have been in your house. I worked for you fourteen years for your two daughters, and six years for your flock, and you changed my wages ten times over. If the God of my father, the God of Abraham and the Terror of Isaac, had not been with me, you would have sent me away empty-handed now. God has seen my misery and the labor of my hands, and last night he handed down his verdict.”",
+          "spine": {
+            "from": "31.36",
+            "to": "31.42"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And Laban answered Jacob, “The daughters are my daughters, the children are my children, the flocks are my flocks — everything you see is mine. And what can I do today about these daughters of mine, or about the children they have borne? So now — come, let us cut a covenant, you and I, and let it be a witness between me and you.” And Jacob took a stone and set it up as a standing stone. And Jacob said to his kinsmen, “Gather stones.” And they took stones and made a heap, and they ate there by the heap. And Laban called it Jegar-sahadutha, and Jacob called it Galeed. And Laban said, “This heap is a witness between me and you today.” That is why it was named Galeed — and Mizpah, because he said, “May the LORD keep watch between me and you when we are out of each other's sight.",
+          "spine": {
+            "from": "31.43",
+            "to": "31.49"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-31.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "“If you mistreat my daughters, or if you take other wives besides my daughters — no one is with us, but see: God is witness between me and you.” And Laban said to Jacob, “Here is this heap, and here is the standing stone I have set between me and you. This heap is a witness and the standing stone is a witness: I will not go past this heap to you, and you will not go past this heap and this standing stone to me, to do harm. May the God of Abraham and the God of Nahor — the God of their father — judge between us.” And Jacob swore by the Terror of his father Isaac. And Jacob offered a sacrifice in the hill country and called his kinsmen to eat bread, and they ate bread and spent the night in the hill country. And Laban got up early in the morning and kissed his grandchildren and his daughters and blessed them, and Laban went off and returned to his place.",
+          "spine": {
+            "from": "31.50",
+            "to": "31.55"
           }
         }
       ]
