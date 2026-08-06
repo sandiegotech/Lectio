@@ -825,6 +825,20 @@ def bible_mark():
     )
 
 
+def bible_genesis():
+    return _bible_work(
+        slug="genesis", title="Genesis",
+        author="Anonymous · Ancient Israel", composed="c. 900–500 BCE",
+        blurb=("Where everything starts — creation, the garden, the flood, and the family "
+               "quarrels of one wandering household that the rest of the Bible grows out of."),
+        kjv_kwargs=dict(heading="The First Book of Moses: Called Genesis",
+                        next_heading="The Second Book of Moses: Called Exodus",
+                        expect_chapters=50, expect_verses=1533),
+        collections=["collection.judaism", "collection.christianity"],
+        original_lang="hbo",
+    )
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy, bible_mark]
+           divine_comedy, bible_mark, bible_genesis]

@@ -1,0 +1,321 @@
+{
+  "id": "edition.bible-genesis.lectio-vernacular",
+  "workId": "work.bible.genesis",
+  "kind": "modern",
+  "language": "en",
+  "form": "prose",
+  "provenance": {
+    "source": "lectio",
+    "rightsStatus": "lectio-original",
+    "rightsNote": "Lectio Vernacular Edition (SDIT): a plain-modern-English rendering of Genesis, made from public-domain sources and the Hebrew text. This is Lectio's own edition, derived from public-domain sources — not a historical translation. DRAFT: in progress, and not yet read end to end by a human reviewer; the King James Version remains this work's default edition until it has been.",
+    "retrievedDate": "2026-08-06",
+    "aiModel": "claude-opus-5",
+    "aiSourceEditionId": "edition.bible-genesis.kjv-1611",
+    "aiProfile": "vernacular_bible",
+    "sourcesCited": [
+      "King James Version (1611) — public domain",
+      "American Standard Version (1901) — public domain",
+      "Jewish Publication Society (1917) — public domain",
+      "Young's Literal Translation (1898) — public domain",
+      "Hebrew Bible, Leningrad Codex tradition — public domain"
+    ],
+    "vintage": 2026
+  },
+  "character": "Plain modern English — the sense of the original, made to read with ease today.",
+  "overview": "Genesis is spare where you expect grandeur. The Hebrew has a small vocabulary, repeats itself on purpose, and almost never explains — it tells you what happened and leaves the judgment to you. Four hundred years of English Bibles have added solemnity the Hebrew does not have. This edition takes it back out, keeps the refrains verbatim because they are the architecture, and lets the strangeness stand.",
+  "introduction": "Genesis holds two kinds of story. The first eleven chapters are about everyone — creation, a garden, a murder, a flood, a tower — told in a register closer to myth than to history, and they set the terms for everything after. Then the scale narrows to a single family: Abraham, Sarah, Isaac, Rebekah, Jacob, Leah, Rachel, Joseph. These people lie, cheat, favor one child over another, and are chosen anyway, and the book never once pauses to tell you what to think about it.\n\nThe Hebrew is the plainest prose in the Bible, and it is built on repetition: the same phrases return like structural beams, and the storytelling runs on 'and… and… and.' English translators have generally treated that as a defect to be fixed. It is not a defect. This edition keeps the refrains word for word, keeps more of the connective 'and' than modern prose taste wants, and marks the places where a pun in the Hebrew carries meaning that no English word can carry across.",
+  "divergences": [
+    {
+      "locus": "1.1",
+      "phrase": "בְּרֵאשִׁית בָּרָא (bereshit bara)",
+      "older": "“In the beginning God created the heaven and the earth.” (KJV) — a complete sentence",
+      "lectio": "“When God began to create the heavens and the earth —” a dependent clause resolved at verse 3",
+      "note": "The Hebrew syntax more likely opens a dependent clause that runs until 'God said, Let there be light.' Creation begins not with a pronouncement but with a scene already dark and wet. Rashi read it this way in the eleventh century, and most modern scholarship agrees."
+    },
+    {
+      "locus": "1.2",
+      "phrase": "תֹהוּ וָבֹהוּ / רוּחַ אֱלֹהִים (tohu wabohu / ruach elohim)",
+      "older": "“without form, and void” / “the Spirit of God moved” (KJV)",
+      "lectio": "“a shapeless waste” / “the breath of God hovered”",
+      "note": "The Hebrew is a rhyming pair meaning something like unformed-and-empty; 'without form, and void' is accurate and bloodless. Ruach means breath, wind, and spirit at once, and the verb is used elsewhere of an eagle fluttering over its young — a brooding bird, not a ghost."
+    },
+    {
+      "locus": "1.3",
+      "phrase": "יְהִי אוֹר (yehi or)",
+      "older": "“Let there be light.” (KJV)",
+      "lectio": "“Let there be light.” — unchanged",
+      "note": "Kept exactly, not out of deference to the King James Version but because it is the plain and exact rendering of three Hebrew words. Knowing what not to touch is most of this work."
+    },
+    {
+      "locus": "2.7",
+      "phrase": "אָדָם / אֲדָמָה (adam / adamah)",
+      "older": "“man” / “the ground” — the pun lost",
+      "lectio": "rendered plainly, with the wordplay noted",
+      "note": "In Hebrew the play is total: God forms the human (adam) out of the humus (adamah). The man is named for the dirt he comes from, and the whole sentence of 3:19 — 'to dust you will return' — is already folded into his name."
+    },
+    {
+      "locus": "2.18",
+      "phrase": "עֵזֶר כְּנֶגְדּוֹ (ezer kenegdo)",
+      "older": "“an help meet for him” (KJV), later flattened to “a helper”",
+      "lectio": "“a partner who matches him”",
+      "note": "Ezer is used most often in the Hebrew Bible of God himself and carries no subordination; kenegdo means corresponding-to-him, his counterpart. 'Helper' imports a hierarchy the Hebrew does not have."
+    },
+    {
+      "locus": "2.21",
+      "phrase": "צֵלָע (tsela)",
+      "older": "“rib” (KJV)",
+      "lectio": "“side”",
+      "note": "Everywhere else in the Hebrew Bible this word means the side of a thing — the side of the ark, of the altar, of a building. The woman is built from the man's side, not from a spare part. 'Rib' entered through the Greek translation and stuck for two thousand years."
+    },
+    {
+      "locus": "3.1",
+      "phrase": "עָרוּם / עֲרוּמִּים (arum / arummim)",
+      "older": "“subtil” / “naked” — the echo lost (KJV)",
+      "lectio": "“cunning” / “naked”, with the echo noted",
+      "note": "The last word of chapter 2 is 'naked' and the first word about the serpent is 'cunning' — in Hebrew they are nearly the same word. No English pair carries it. It is the hinge the story turns on."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "יהוה (YHWH)",
+      "older": "“the LORD” in small capitals (KJV and every English Bible since Tyndale)",
+      "lectio": "“the LORD” — the convention kept",
+      "note": "The four-letter divine name is a name, not a title, and its pronunciation was deliberately given up. The small-capital substitution is honest — it marks that a substitution is happening — without inventing a pronunciation the tradition abandoned on purpose."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-01",
+      "order": 1,
+      "label": "Chapter 1",
+      "title": "The Seven Days",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When God began to create the heavens and the earth — the earth was a shapeless waste, darkness lay over the face of the deep, and the breath of God hovered over the waters — God said, “Let there be light.” And there was light. God saw that the light was good, and God separated the light from the darkness. God called the light Day, and the darkness he called Night. And there was evening, and there was morning: the first day.",
+          "spine": {
+            "from": "1.1",
+            "to": "1.5"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "God said, “Let there be a vault in the middle of the waters, to separate water from water.” So God made the vault, and it separated the water beneath it from the water above it. And so it was. God called the vault Sky. And there was evening, and there was morning: the second day.",
+          "spine": {
+            "from": "1.6",
+            "to": "1.8"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "God said, “Let the waters under the sky be gathered into one place, so that dry land can appear.” And so it was. God called the dry land Earth, and the gathered waters he called Seas. And God saw that it was good. God said, “Let the earth put out growth: plants that seed themselves, and every kind of fruit tree bearing fruit with its seed inside it.” And so it was. The earth put out growth — every kind of seed-bearing plant, every kind of tree bearing fruit with its seed inside it. And God saw that it was good. And there was evening, and there was morning: the third day.",
+          "spine": {
+            "from": "1.9",
+            "to": "1.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "God said, “Let there be lights in the vault of the sky to separate day from night. Let them mark the seasons, the days, and the years, and let them shine in the vault of the sky to light the earth.” And so it was. God made the two great lights — the greater light to govern the day, the lesser light to govern the night — and the stars. God set them in the vault of the sky to light the earth, to govern day and night, and to separate light from darkness. And God saw that it was good. And there was evening, and there was morning: the fourth day.",
+          "spine": {
+            "from": "1.14",
+            "to": "1.19"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "God said, “Let the waters swarm with living creatures, and let birds fly over the earth, across the vault of the sky.” So God created the great sea creatures, and every kind of living thing that moves and swarms in the water, and every kind of winged bird. And God saw that it was good. God blessed them: “Be fruitful and multiply. Fill the waters of the seas — and let the birds multiply on the earth.” And there was evening, and there was morning: the fifth day.",
+          "spine": {
+            "from": "1.20",
+            "to": "1.23"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "God said, “Let the earth bring forth every kind of living creature: livestock, crawling things, and every kind of wild animal.” And so it was. God made every kind of wild animal, every kind of livestock, and everything that crawls on the ground. And God saw that it was good.",
+          "spine": {
+            "from": "1.24",
+            "to": "1.25"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Then God said, “Let us make humanity in our image, after our likeness, and let them hold sway over the fish of the sea, the birds of the sky, the livestock, the whole earth, and everything that crawls on it.” So God created humanity in his own image — in the image of God he created it; male and female he created them. God blessed them, and God said to them, “Be fruitful and multiply. Fill the earth and master it. Hold sway over the fish of the sea, the birds of the sky, and every living thing that moves on the earth.” And God said, “Look — I have given you every seed-bearing plant on the face of the earth, and every tree with seed in its fruit. They are yours to eat. And to every wild animal, every bird of the sky, and everything that crawls on the earth with the breath of life in it, I give every green plant for food.” And so it was. And God saw all that he had made — and look, it was very good. And there was evening, and there was morning: the sixth day.",
+          "spine": {
+            "from": "1.26",
+            "to": "1.31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-02",
+      "order": 2,
+      "label": "Chapter 2",
+      "title": "The Garden",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "So the heavens and the earth were finished, and everything in them. On the seventh day God finished the work he had done, and on the seventh day he rested from all his work. God blessed the seventh day and made it holy, because on it he rested from all the work of creating he had done.",
+          "spine": {
+            "from": "2.1",
+            "to": "2.3"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "This is the story of the heavens and the earth when they were created. On the day the LORD God made earth and heavens, no shrub of the field was yet on the earth and no plant of the field had sprouted — for the LORD God had not sent rain on the earth, and there was no human to work the soil — but a mist would rise from the earth and water the whole face of the ground. Then the LORD God formed the man from the dust of the ground, and breathed the breath of life into his nostrils, and the man became a living being.",
+          "spine": {
+            "from": "2.4",
+            "to": "2.7"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The LORD God planted a garden in Eden, in the east, and there he placed the man he had formed. And out of the ground the LORD God grew every tree that is pleasing to look at and good to eat from — with the tree of life in the middle of the garden, and the tree of the knowledge of good and evil.",
+          "spine": {
+            "from": "2.8",
+            "to": "2.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "A river flows out of Eden to water the garden, and from there it divides into four branches. The first is named Pishon; it winds through the whole land of Havilah, where there is gold — and the gold of that land is good; bdellium is there, and lapis lazuli. The second river is named Gihon; it winds through the whole land of Cush. The third river is named Tigris; it runs east of Assyria. And the fourth river is the Euphrates.",
+          "spine": {
+            "from": "2.10",
+            "to": "2.14"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The LORD God took the man and set him in the garden of Eden to work it and to watch over it. And the LORD God commanded the man: “You may eat freely from every tree in the garden — but from the tree of the knowledge of good and evil you may not eat. The day you eat from it, you die.”",
+          "spine": {
+            "from": "2.15",
+            "to": "2.17"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Then the LORD God said, “It is not good for the man to be alone. I will make him a partner who matches him.” So the LORD God formed from the ground every wild animal and every bird of the sky, and brought them to the man to see what he would call them; and whatever the man called each living creature, that was its name. The man gave names to all the livestock, to the birds of the sky, and to every wild animal. But for the man himself, no matching partner was found.",
+          "spine": {
+            "from": "2.18",
+            "to": "2.20"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-02.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "So the LORD God put the man into a deep sleep, and while he slept, took one of his sides and closed up the flesh in its place. And the LORD God built the side he had taken from the man into a woman, and brought her to the man. And the man said: “This one, at last — bone of my bones, flesh of my flesh. This one will be called Woman, for from Man she was taken.” That is why a man leaves his father and mother and holds fast to his wife, and they become one flesh. And the two of them were naked, the man and his wife, and they felt no shame.",
+          "spine": {
+            "from": "2.21",
+            "to": "2.25"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-03",
+      "order": 3,
+      "label": "Chapter 3",
+      "title": "The Serpent",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Now the serpent was the most cunning of all the wild animals the LORD God had made. He said to the woman, “Did God really say you can't eat from any tree in the garden?” The woman said to the serpent, “We may eat the fruit of the trees in the garden. It's only the fruit of the tree in the middle of the garden that God said, ‘Don't eat it — don't even touch it — or you will die.’” The serpent said to the woman, “You will not die. God knows that the day you eat from it your eyes will be opened, and you will be like gods, knowing good and evil.” And the woman saw that the tree was good to eat from, and a delight to the eyes, and desirable for the wisdom it would give. She took its fruit and ate; and she gave some to her husband beside her, and he ate. Then the eyes of the two of them were opened, and they knew they were naked; and they sewed fig leaves together and made themselves loincloths.",
+          "spine": {
+            "from": "3.1",
+            "to": "3.7"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "They heard the sound of the LORD God walking in the garden in the evening breeze, and the man and his wife hid from the LORD God among the trees of the garden. The LORD God called to the man: “Where are you?” He said, “I heard the sound of you in the garden, and I was afraid because I was naked, so I hid.” And he said, “Who told you that you were naked? Have you eaten from the tree I commanded you not to eat from?” The man said, “The woman you put beside me — she gave me fruit from the tree, and I ate.” The LORD God said to the woman, “What have you done?” And the woman said, “The serpent tricked me, and I ate.”",
+          "spine": {
+            "from": "3.8",
+            "to": "3.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So the LORD God said to the serpent: “Because you did this, you are cursed beyond all livestock and all wild animals. On your belly you will go, and dust you will eat, all the days of your life. I will set hatred between you and the woman, between your offspring and hers. He will strike your head, and you will strike his heel.”",
+          "spine": {
+            "from": "3.14",
+            "to": "3.15"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "To the woman he said: “I will make your pains in childbirth great; in pain you will bear children. Your desire will be for your husband, and he will rule over you.”",
+          "spine": {
+            "from": "3.16",
+            "to": "3.16"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And to the man he said: “Because you listened to your wife and ate from the tree I commanded you not to eat from, the ground is cursed because of you. In hard labor you will eat from it all the days of your life. Thorns and thistles it will grow for you, and you will eat the plants of the field. By the sweat of your face you will eat bread, until you return to the ground — for from it you were taken. You are dust, and to dust you will return.”",
+          "spine": {
+            "from": "3.17",
+            "to": "3.19"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The man named his wife Eve, because she became the mother of all the living. And the LORD God made garments of skin for the man and his wife, and clothed them.",
+          "spine": {
+            "from": "3.20",
+            "to": "3.21"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-03.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Then the LORD God said, “Look — the man has become like one of us, knowing good and evil. Now he must not be allowed to reach out his hand and take from the tree of life too, and eat, and live forever.” So the LORD God sent him out of the garden of Eden, to work the ground he had been taken from. He drove the man out; and east of the garden of Eden he stationed the cherubim, and a sword of flame turning every way, to guard the road to the tree of life.",
+          "spine": {
+            "from": "3.22",
+            "to": "3.24"
+          }
+        }
+      ]
+    }
+  ]
+}

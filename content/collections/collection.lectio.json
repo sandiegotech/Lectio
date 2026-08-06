@@ -57,18 +57,13 @@
     {
       "workId": "work.bible.mark",
       "note": ""
+    },
+    {
+      "workId": "work.bible.genesis",
+      "note": ""
     }
   ],
   "planned": [
-    {
-      "title": "Genesis",
-      "author": "The Bible",
-      "era": "1200–500 BCE",
-      "part": "",
-      "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
-      "tradition": "West",
-      "cover": "collections/book-covers/placeholder-genesis.jpg"
-    },
     {
       "title": "The Tao Te Ching",
       "author": "Laozi",
