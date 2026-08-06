@@ -206,6 +206,27 @@
       "older": "“that same red pottage” (KJV)",
       "lectio": "“that red stuff — that red stuff”",
       "note": "Esau does not name the food; he repeats a colour, twice, like a man too spent for nouns. It is the first characterisation of him in the book, and it sets up his other name, Edom — red."
+    },
+    {
+      "locus": "27.36",
+      "phrase": "יַעֲקֹב / עָקַב (Ya'aqov / aqav)",
+      "older": "“Is not he rightly named Jacob? for he hath supplanted me” (KJV)",
+      "lectio": "“Is he not rightly named Jacob? He has cheated me”, with the pun noted",
+      "note": "Esau is making a bitter joke on his brother's name: Ya'aqov sounds like 'heel' and like the verb for tripping someone up. He was named for grabbing a heel at birth, and he has been doing it ever since. English cannot carry the pun, but the accusation should still land as a joke gone sour."
+    },
+    {
+      "locus": "28.12",
+      "phrase": "סֻלָּם (sullam)",
+      "older": "“a ladder” (KJV)",
+      "lectio": "“a stairway”",
+      "note": "The word appears only here in the Hebrew Bible. The picture is most likely the ramped stairway of a ziggurat — a structure with a temple at the top — not a portable ladder. The image matters: this is a permanent thoroughfare between the sky and a stone in the open country."
+    },
+    {
+      "locus": "29.17",
+      "phrase": "רַכּוֹת (rakkot)",
+      "older": "“Leah was tender eyed” (KJV) — usually read as a defect",
+      "lectio": "“Leah's eyes were soft”",
+      "note": "The Hebrew says only that her eyes were soft or delicate, with no verdict attached. Translations have made it weak, or dull, or plain, in order to explain why Jacob preferred Rachel. The Hebrew does not explain; it simply sets one sister's eyes beside the other sister's whole figure and leaves the comparison to the reader."
     }
   ],
   "sections": [
@@ -1893,6 +1914,230 @@
           "spine": {
             "from": "26.34",
             "to": "26.35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-27",
+      "order": 27,
+      "label": "Chapter 27",
+      "title": "The Stolen Blessing",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When Isaac was old and his eyes had grown too dim to see, he called Esau his older son and said to him, “My son.” And he said, “Here I am.” And he said, “Look — I am old. I don't know the day of my death. So now take your gear, your quiver and your bow, and go out to the open country and hunt me some game. And make me the tasty food I love, and bring it to me so I can eat — so that I can bless you before I die.” And Rebekah was listening while Isaac spoke to Esau his son. And Esau went out to the open country to hunt game and bring it back.",
+          "spine": {
+            "from": "27.1",
+            "to": "27.5"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And Rebekah said to Jacob her son, “Listen — I heard your father speaking to Esau your brother. He said, ‘Bring me game and make me tasty food, so I can eat and bless you in front of the LORD before my death.’ So now, my son, listen to my voice, to what I am telling you. Go to the flock and get me two good young goats from there, and I will make them into tasty food for your father, the kind he loves. And you will bring it to your father, so he can eat — so that he can bless you before his death.” And Jacob said to Rebekah his mother, “But Esau my brother is a hairy man, and I am a smooth man. Suppose my father touches me. I will look like a fraud to him, and I will bring a curse on myself and not a blessing.” And his mother said to him, “Your curse be on me, my son. Just listen to my voice. Go, get them for me.”",
+          "spine": {
+            "from": "27.6",
+            "to": "27.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "So he went and got them and brought them to his mother, and his mother made tasty food, the kind his father loved. And Rebekah took the best clothes of Esau her older son, which she had in the house, and put them on Jacob her younger son. And she put the skins of the young goats on his hands and on the smooth part of his neck. And she put the tasty food and the bread she had made into the hand of Jacob her son.",
+          "spine": {
+            "from": "27.14",
+            "to": "27.17"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And he came to his father and said, “My father.” And he said, “Here I am. Who are you, my son?” And Jacob said to his father, “I am Esau, your firstborn. I have done what you told me. Get up, please, sit and eat from my game, so that you can bless me.” And Isaac said to his son, “How did you find it so quickly, my son?” And he said, “Because the LORD your God brought it to me.” And Isaac said to Jacob, “Come closer, so I can touch you, my son — whether you really are my son Esau or not.” And Jacob came close to Isaac his father, and he touched him and said, “The voice is Jacob's voice, but the hands are Esau's hands.” And he did not recognize him, because his hands were hairy like the hands of Esau his brother. So he blessed him. And he said, “Are you really my son Esau?” And he said, “I am.”",
+          "spine": {
+            "from": "27.18",
+            "to": "27.24"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And he said, “Bring it close to me, and let me eat from my son's game, so that I can bless you.” And he brought it close to him, and he ate; and he brought him wine, and he drank. And Isaac his father said to him, “Come close and kiss me, my son.” And he came close and kissed him. And he smelled the smell of his clothes, and he blessed him and said: “See — the smell of my son is like the smell of a field the LORD has blessed. May God give you the dew of the sky, and the richness of the earth, and plenty of grain and new wine. May peoples serve you, and nations bow down to you. Be master over your brothers, and let your mother's sons bow down to you. Cursed be everyone who curses you, and blessed be everyone who blesses you.”",
+          "spine": {
+            "from": "27.25",
+            "to": "27.29"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And it happened, as soon as Isaac had finished blessing Jacob — Jacob had barely gone out from the presence of Isaac his father — that Esau his brother came in from his hunting. And he too made tasty food and brought it to his father, and he said to his father, “Let my father get up and eat from his son's game, so that you can bless me.” And Isaac his father said to him, “Who are you?” And he said, “I am your son, your firstborn, Esau.” And Isaac shook with a very great trembling and said, “Then who was it that hunted game and brought it to me, and I ate it all before you came, and I blessed him? And blessed he will stay.”",
+          "spine": {
+            "from": "27.30",
+            "to": "27.33"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "When Esau heard his father's words, he cried out a great and very bitter cry, and said to his father, “Bless me too, my father!” And he said, “Your brother came with deceit, and he took your blessing.” And he said, “Is he not rightly named Jacob? He has cheated me these two times: he took my birthright, and look — now he has taken my blessing.” And he said, “Haven't you kept back a blessing for me?” And Isaac answered Esau, “Look — I have made him master over you, and I have given him all his brothers as servants, and I have sustained him with grain and new wine. So what can I do for you, my son?” And Esau said to his father, “Do you have only one blessing, my father? Bless me too, my father!” And Esau lifted up his voice and wept.",
+          "spine": {
+            "from": "27.34",
+            "to": "27.38"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "And Isaac his father answered him: “Look — away from the richness of the earth your home will be, and away from the dew of the sky above. And by your sword you will live, and you will serve your brother. But when you break loose, you will tear his yoke off your neck.” And Esau held a grudge against Jacob because of the blessing his father had given him, and Esau said in his heart, “The days of mourning for my father are coming close. Then I will kill Jacob my brother.”",
+          "spine": {
+            "from": "27.39",
+            "to": "27.41"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-27.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "And Rebekah was told the words of Esau her older son, and she sent and called Jacob her younger son and said to him, “Listen — Esau your brother is consoling himself about you by planning to kill you. So now, my son, listen to my voice. Get up, run to Laban my brother, in Haran, and stay with him a while, until your brother's fury dies down — until your brother's anger turns away from you and he forgets what you did to him. Then I will send and bring you back from there. Why should I lose both of you in one day?” And Rebekah said to Isaac, “I am sick of my life because of these Hittite women. If Jacob takes a wife from the Hittite women, from the women of this land, what good is my life to me?”",
+          "spine": {
+            "from": "27.42",
+            "to": "27.46"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-28",
+      "order": 28,
+      "label": "Chapter 28",
+      "title": "The Ladder at Bethel",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-28.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And Isaac called Jacob and blessed him, and gave him this charge: “Do not take a wife from the Canaanite women. Get up, go to Paddan-aram, to the house of Bethuel your mother's father, and take a wife from there, from the daughters of Laban your mother's brother. And may El Shaddai bless you and make you fruitful and multiply you, so that you become a company of peoples. And may he give you the blessing of Abraham — to you and to your offspring with you — so that you take possession of the land where you have lived as a stranger, which God gave to Abraham.” And Isaac sent Jacob off, and he went to Paddan-aram, to Laban son of Bethuel the Aramean, the brother of Rebekah, the mother of Jacob and Esau.",
+          "spine": {
+            "from": "28.1",
+            "to": "28.5"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-28.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And Esau saw that Isaac had blessed Jacob and sent him off to Paddan-aram to take a wife there, and that when he blessed him he had charged him, “Do not take a wife from the Canaanite women,” and that Jacob had listened to his father and his mother and gone to Paddan-aram. And Esau saw that the Canaanite women were bad in the eyes of Isaac his father. So Esau went to Ishmael and took Mahalath daughter of Ishmael son of Abraham, the sister of Nebaioth, as a wife, in addition to the wives he had.",
+          "spine": {
+            "from": "28.6",
+            "to": "28.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-28.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Jacob went out from Beersheba and set out for Haran. And he came upon a certain place and stopped there for the night, because the sun had set. And he took one of the stones of that place and put it under his head, and lay down in that place. And he dreamed — and there was a stairway set on the earth with its top reaching the sky, and there were messengers of God going up and coming down on it. And there was the LORD, standing over him, and he said, “I am the LORD, the God of Abraham your father and the God of Isaac. The land you are lying on I will give to you and to your offspring. And your offspring will be like the dust of the earth, and you will spread out to the west and the east and the north and the south. And in you and in your offspring all the families of the earth will be blessed. And look — I am with you, and I will keep you wherever you go, and I will bring you back to this land. I will not leave you until I have done what I have promised you.”",
+          "spine": {
+            "from": "28.10",
+            "to": "28.15"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-28.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And Jacob woke from his sleep and said, “Surely the LORD is in this place — and I did not know it.” And he was afraid, and he said, “How terrifying this place is. This is nothing but the house of God, and this is the gate of the sky.” And Jacob got up early in the morning and took the stone he had put under his head and set it up as a standing stone, and poured oil on the top of it. And he named that place Bethel — though the name of the city had been Luz before.",
+          "spine": {
+            "from": "28.16",
+            "to": "28.19"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-28.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And Jacob made a vow: “If God will be with me and keep me on this road I am going, and give me bread to eat and clothes to wear, and I come back to my father's house in peace — then the LORD will be my God. And this stone I have set up as a standing stone will be God's house. And of everything you give me, I will give a tenth of it back to you.”",
+          "spine": {
+            "from": "28.20",
+            "to": "28.22"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-29",
+      "order": 29,
+      "label": "Chapter 29",
+      "title": "Jacob Meets His Match",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Then Jacob picked up his feet and went to the land of the people of the east. And he looked, and there was a well in the open country, and three flocks of sheep lying beside it, because the flocks were watered from that well. And the stone over the mouth of the well was large. When all the flocks were gathered there, the shepherds would roll the stone off the mouth of the well and water the sheep, and put the stone back in its place over the mouth of the well. And Jacob said to them, “My brothers, where are you from?” And they said, “We are from Haran.” And he said to them, “Do you know Laban son of Nahor?” And they said, “We know him.” And he said to them, “Is it well with him?” And they said, “It is well — and here is Rachel his daughter coming with the sheep.” And he said, “Look, the day is still high. It isn't time to gather the livestock. Water the sheep and go, graze them.” And they said, “We can't, until all the flocks are gathered and they roll the stone off the mouth of the well. Then we water the sheep.”",
+          "spine": {
+            "from": "29.1",
+            "to": "29.8"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "While he was still speaking with them, Rachel came with her father's sheep — she was a shepherd. And when Jacob saw Rachel the daughter of Laban his mother's brother, and the sheep of Laban his mother's brother, Jacob went up and rolled the stone off the mouth of the well and watered the flock of Laban his mother's brother. And Jacob kissed Rachel, and he lifted up his voice and wept. And Jacob told Rachel that he was her father's kinsman, that he was Rebekah's son, and she ran and told her father. And when Laban heard the news about Jacob his sister's son, he ran to meet him and threw his arms around him and kissed him and brought him to his house. And he told Laban all these things. And Laban said to him, “Truly you are my bone and my flesh.” And he stayed with him a full month.",
+          "spine": {
+            "from": "29.9",
+            "to": "29.14"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Laban said to Jacob, “Just because you are my kinsman, should you work for me for nothing? Tell me — what should your wages be?” Now Laban had two daughters. The name of the older was Leah, and the name of the younger was Rachel. And Leah's eyes were soft, but Rachel was shapely and beautiful. And Jacob loved Rachel, and he said, “I will work seven years for you for Rachel, your younger daughter.” And Laban said, “Better that I give her to you than that I give her to another man. Stay with me.” So Jacob worked seven years for Rachel, and they were like a few days in his eyes, because of his love for her.",
+          "spine": {
+            "from": "29.15",
+            "to": "29.20"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And Jacob said to Laban, “Give me my wife. My time is finished, and I want to go in to her.” And Laban gathered all the men of the place and made a feast. And in the evening he took Leah his daughter and brought her to him, and he went in to her. And Laban gave Zilpah his slave to his daughter Leah as her slave. And in the morning — there was Leah. And he said to Laban, “What is this you have done to me? Wasn't it for Rachel that I worked for you? Why have you deceived me?” And Laban said, “It is not done that way in our place, to give the younger before the firstborn. Finish out this bridal week, and we will give you the other one too, for the work you will do for me another seven years.”",
+          "spine": {
+            "from": "29.21",
+            "to": "29.27"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And Jacob did so, and finished out her week, and Laban gave him Rachel his daughter as a wife. And Laban gave Bilhah his slave to his daughter Rachel as her slave. And he went in to Rachel too, and he loved Rachel more than Leah. And he worked for Laban another seven years.",
+          "spine": {
+            "from": "29.28",
+            "to": "29.30"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-29.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And the LORD saw that Leah was unloved, and he opened her womb; but Rachel was barren. And Leah conceived and bore a son, and she named him Reuben — because she said, “The LORD has seen my suffering. Now my husband will love me.” And she conceived again and bore a son, and she said, “Because the LORD heard that I am unloved, he has given me this one too.” And she named him Simeon. And she conceived again and bore a son, and she said, “Now, this time, my husband will be joined to me, because I have borne him three sons.” That is why he was named Levi. And she conceived again and bore a son, and she said, “This time I will praise the LORD.” That is why she named him Judah. And she stopped bearing.",
+          "spine": {
+            "from": "29.31",
+            "to": "29.35"
           }
         }
       ]
