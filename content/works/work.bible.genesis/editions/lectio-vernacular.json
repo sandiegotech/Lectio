@@ -115,6 +115,20 @@
       "older": "“Cursed be Canaan; a servant of servants shall he be” (KJV)",
       "lectio": "“Cursed be Canaan. The lowest of slaves he will be to his brothers.”",
       "note": "The Hebrew says slave, not servant, and this edition does not soften it. The passage was used for centuries to justify the enslavement of Africans — a reading with no basis in the text, which curses Canaan, not Ham, and names a people in the land, not a race. Rendering it plainly is the only way to let a reader see what it does and does not say."
+    },
+    {
+      "locus": "11.9",
+      "phrase": "בָּבֶל / בָּלַל (Bavel / balal)",
+      "older": "“Babel; because the LORD did there confound the language” (KJV)",
+      "lectio": "“Babel — because there the LORD confused the language”, with the pun noted",
+      "note": "The story ends on a joke the Hebrew can make and English cannot: Bavel, the Babylonians' own proud name for their city (‘gate of God’), sounds like balal, ‘he confused.’ The tower's name is turned into an insult by one consonant."
+    },
+    {
+      "locus": "12.1",
+      "phrase": "לֶךְ־לְךָ (lekh lekha)",
+      "older": "“Get thee out of thy country” (KJV)",
+      "lectio": "“Go — out of your country”",
+      "note": "Two Hebrew words, blunt and hard to carry: go, for yourself, or go, you. Everything after this verse in the Bible follows from a man obeying an order with no reason attached. The English should be as short as the Hebrew."
     }
   ],
   "sections": [
@@ -736,6 +750,190 @@
           "spine": {
             "from": "9.24",
             "to": "9.29"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-10",
+      "order": 10,
+      "label": "Chapter 10",
+      "title": "The Table of Nations",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-10.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "These are the generations of Noah's sons — Shem, Ham, and Japheth. Sons were born to them after the flood. The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras. The sons of Gomer: Ashkenaz, Riphath, and Togarmah. The sons of Javan: Elishah, Tarshish, Kittim, and Rodanim. From these the coastland peoples spread out into their lands, each with its own language, by their clans, in their nations.",
+          "spine": {
+            "from": "10.1",
+            "to": "10.5"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-10.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "The sons of Ham: Cush, Egypt, Put, and Canaan. The sons of Cush: Seba, Havilah, Sabtah, Raamah, and Sabteca. The sons of Raamah: Sheba and Dedan. And Cush fathered Nimrod, who was the first to be a mighty man on the earth. He was a mighty hunter before the LORD — which is why people say, “Like Nimrod, a mighty hunter before the LORD.” The beginning of his kingdom was Babel, Erech, Akkad, and Calneh, in the land of Shinar. From that land he went out to Assyria and built Nineveh, Rehoboth-Ir, Calah, and Resen between Nineveh and Calah — that is the great city.",
+          "spine": {
+            "from": "10.6",
+            "to": "10.12"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-10.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "Egypt fathered the Ludites, the Anamites, the Lehabites, the Naphtuhites, the Pathrusites, the Casluhites (from whom the Philistines came), and the Caphtorites. Canaan fathered Sidon his firstborn, and Heth, and the Jebusites, the Amorites, the Girgashites, the Hivites, the Arkites, the Sinites, the Arvadites, the Zemarites, and the Hamathites. Afterward the clans of the Canaanites spread out, and the border of the Canaanites ran from Sidon toward Gerar as far as Gaza, and toward Sodom and Gomorrah and Admah and Zeboiim, as far as Lasha. These are the sons of Ham, by their clans and their languages, in their lands and their nations.",
+          "spine": {
+            "from": "10.13",
+            "to": "10.20"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-10.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And sons were born to Shem as well — the father of all the sons of Eber, the older brother of Japheth. The sons of Shem: Elam, Asshur, Arpachshad, Lud, and Aram. The sons of Aram: Uz, Hul, Gether, and Mash. Arpachshad fathered Shelah, and Shelah fathered Eber. Two sons were born to Eber: one was named Peleg, because in his days the earth was divided; and his brother's name was Joktan.",
+          "spine": {
+            "from": "10.21",
+            "to": "10.25"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-10.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Joktan fathered Almodad, Sheleph, Hazarmaveth, Jerah, Hadoram, Uzal, Diklah, Obal, Abimael, Sheba, Ophir, Havilah, and Jobab. All these were the sons of Joktan, and they lived from Mesha as far as Sephar, the hill country of the east. These are the sons of Shem, by their clans and their languages, in their lands and their nations. These are the clans of Noah's sons, by their generations, in their nations — and from these the nations spread out over the earth after the flood.",
+          "spine": {
+            "from": "10.26",
+            "to": "10.32"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-11",
+      "order": 11,
+      "label": "Chapter 11",
+      "title": "Babel, and the Line to Abram",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-11.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And the whole earth had one language and the same words. As people moved from the east they found a plain in the land of Shinar and settled there. And they said to each other, “Come on — let's make bricks and bake them hard.” They used brick for stone and tar for mortar. And they said, “Come on — let's build ourselves a city, and a tower with its top in the sky, and let's make a name for ourselves, or we'll be scattered over the face of the whole earth.”",
+          "spine": {
+            "from": "11.1",
+            "to": "11.4"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-11.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "And the LORD came down to look at the city and the tower the humans were building. And the LORD said, “Look — they are one people, and they all have one language, and this is only the beginning of what they will do. Now nothing they decide to do will be beyond them. Come on — let's go down and confuse their language there, so they won't understand each other.” So the LORD scattered them from there over the face of the whole earth, and they stopped building the city. That is why it is called Babel — because there the LORD confused the language of the whole earth, and from there the LORD scattered them over the face of the whole earth.",
+          "spine": {
+            "from": "11.5",
+            "to": "11.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-11.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "These are the generations of Shem. Shem was a hundred years old when he fathered Arpachshad, two years after the flood. And after Arpachshad was born, Shem lived five hundred years, and he fathered sons and daughters. Arpachshad lived thirty-five years and fathered Shelah; after Shelah was born, Arpachshad lived four hundred and three years, and he fathered sons and daughters. Shelah lived thirty years and fathered Eber; after Eber was born, Shelah lived four hundred and three years, and he fathered sons and daughters. Eber lived thirty-four years and fathered Peleg; after Peleg was born, Eber lived four hundred and thirty years, and he fathered sons and daughters. Peleg lived thirty years and fathered Reu; after Reu was born, Peleg lived two hundred and nine years, and he fathered sons and daughters.",
+          "spine": {
+            "from": "11.10",
+            "to": "11.19"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-11.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Reu lived thirty-two years and fathered Serug; after Serug was born, Reu lived two hundred and seven years, and he fathered sons and daughters. Serug lived thirty years and fathered Nahor; after Nahor was born, Serug lived two hundred years, and he fathered sons and daughters. Nahor lived twenty-nine years and fathered Terah; after Terah was born, Nahor lived a hundred and nineteen years, and he fathered sons and daughters. And Terah lived seventy years and fathered Abram, Nahor, and Haran.",
+          "spine": {
+            "from": "11.20",
+            "to": "11.26"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-11.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "These are the generations of Terah. Terah fathered Abram, Nahor, and Haran; and Haran fathered Lot. And Haran died in the presence of his father Terah, in the land where he was born, in Ur of the Chaldeans. Abram and Nahor took wives. Abram's wife was named Sarai, and Nahor's wife was named Milcah, the daughter of Haran, the father of Milcah and Iscah. But Sarai was barren; she had no child. And Terah took Abram his son, and Lot son of Haran, his grandson, and Sarai his daughter-in-law, his son Abram's wife, and they set out together from Ur of the Chaldeans to go to the land of Canaan. But they came as far as Haran and settled there. And the days of Terah were two hundred and five years, and Terah died in Haran.",
+          "spine": {
+            "from": "11.27",
+            "to": "11.32"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-genesis.lectio-vernacular.chapter-12",
+      "order": 12,
+      "label": "Chapter 12",
+      "title": "Go",
+      "segments": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And the LORD said to Abram, “Go — out of your country, away from your kindred, out of your father's house, to the land I will show you. And I will make you into a great nation. I will bless you and make your name great, and you will be a blessing. I will bless those who bless you, and the one who treats you with contempt I will curse. And in you all the families of the earth will be blessed.”",
+          "spine": {
+            "from": "12.1",
+            "to": "12.3"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he left Haran. He took Sarai his wife and Lot his brother's son, and everything they had gathered and the people they had acquired in Haran, and they set out for the land of Canaan. And they came to the land of Canaan. Abram passed through the land as far as the place at Shechem, as far as the oak of Moreh. The Canaanites were in the land then.",
+          "spine": {
+            "from": "12.4",
+            "to": "12.6"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And the LORD appeared to Abram and said, “To your offspring I will give this land.” And he built an altar there to the LORD, who had appeared to him. From there he moved on to the hill country east of Bethel and pitched his tent, with Bethel to the west and Ai to the east. And there he built an altar to the LORD and called on the name of the LORD. And Abram set out again, moving on toward the Negev.",
+          "spine": {
+            "from": "12.7",
+            "to": "12.9"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And there was a famine in the land, and Abram went down to Egypt to stay there a while, because the famine was severe. And as he was about to enter Egypt he said to Sarai his wife, “Look — I know what a beautiful woman you are. When the Egyptians see you they will say, ‘This is his wife,’ and they will kill me and let you live. Say you're my sister, so that things will go well for me because of you, and my life will be spared on your account.”",
+          "spine": {
+            "from": "12.10",
+            "to": "12.13"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And when Abram came into Egypt, the Egyptians saw that the woman was very beautiful. Pharaoh's officials saw her and praised her to Pharaoh, and the woman was taken into Pharaoh's house. And it went well for Abram because of her: he acquired sheep and cattle and donkeys, male and female slaves, female donkeys, and camels. But the LORD struck Pharaoh and his household with great plagues because of Sarai, Abram's wife.",
+          "spine": {
+            "from": "12.14",
+            "to": "12.17"
+          }
+        },
+        {
+          "id": "edition.bible-genesis.lectio-vernacular.chapter-12.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And Pharaoh summoned Abram and said, “What have you done to me? Why didn't you tell me she was your wife? Why did you say, ‘She is my sister,’ so that I took her as my wife? Here is your wife. Take her and go.” And Pharaoh gave his men orders about him, and they sent him away with his wife and everything he had.",
+          "spine": {
+            "from": "12.18",
+            "to": "12.20"
           }
         }
       ]
