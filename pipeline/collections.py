@@ -988,7 +988,8 @@ def build_collections(works):
         if kind not in ("series", "list"):
             continue   # themes are source-only; their books surface under Genres
         if meta.get("all_works"):
-            items = [CollectionItem(workId=w.id) for w in works]
+            items = [CollectionItem(workId=w.id) for w in works
+                     if not w.id.startswith("work.bible.")]
         else:
             items = [CollectionItem(workId=w.id, part=BIBLE_PART.get(w.id, ""))
                      for w in works if cid in getattr(w, "collections", [])]
@@ -1014,7 +1015,8 @@ def build_collections(works):
 
     genres = []
     for name, blurb in GENRES:
-        gitems = [CollectionItem(workId=w.id) for w in works if _genre_of(w.title) == name]
+        gitems = [CollectionItem(workId=w.id) for w in works
+                  if _genre_of(w.title) == name and not w.id.startswith("work.bible.")]
         gplanned = [p for p in (_ref(t, a) for (t, a) in master
                                 if WORKS[(t, a)]["genre"] == name)
                     if p.title not in published]
