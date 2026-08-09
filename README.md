@@ -90,3 +90,12 @@ deep-research Modern Edition production process. See [BIBLE.md §9](BIBLE.md) fo
 ---
 
 Part of the [San Diego Institute of Technology](https://sandiegotech.org) ecosystem.
+
+## Rights
+
+The app, pipeline, and print tooling are MIT-licensed. The Lectio Editions,
+annotation dictionaries, enrichment, and cover art in `content/` are
+CC BY-NC 4.0 — free to read, share, and teach from with credit; commercial
+rights reserved to the San Diego Institute of Technology, whose printed
+editions fund the work. The public-domain texts in the bundle remain public
+domain. See [LICENSE.md](LICENSE.md).
