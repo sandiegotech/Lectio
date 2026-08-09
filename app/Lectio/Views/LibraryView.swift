@@ -78,13 +78,13 @@ struct LibraryView: View {
                             }
                         }
                     }
+                    instituteCredit
                 }
                 .padding(.top, 8)
                 .padding(.bottom, 18)
             }
             .defaultScrollAnchor(ProcessInfo.processInfo.environment["LECTIO_DEBUG_BOTTOM"] != nil ? .bottom : .top)
             .safeAreaInset(edge: .top) { header }
-            .safeAreaInset(edge: .bottom) { instituteCredit }
             .background(pal.paper.ignoresSafeArea())
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: Work.self) { work in
@@ -681,12 +681,15 @@ struct LibraryView: View {
 
     // MARK: institute credit
 
+    // The last thing in the scroll, not a floating overlay: you arrive at it by
+    // reaching the end of the library rather than reading through it all the way down.
     private var instituteCredit: some View {
         Text("Built by the San Diego Institute of Technology")
             .font(.system(size: 10.5, weight: .medium))
             .tracking(0.4)
             .foregroundColor(pal.inkSoft.opacity(0.7))
             .frame(maxWidth: .infinity)
+            .padding(.top, 18)
             .padding(.bottom, 8)
     }
 }
