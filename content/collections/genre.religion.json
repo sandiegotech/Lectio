@@ -7,19 +7,11 @@
   "items": [
     {
       "workId": "work.augustine.confessions",
-      "note": ""
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "Genesis",
-      "author": "The Bible",
-      "era": "1200–500 BCE",
-      "part": "",
-      "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-genesis.jpg"
-    },
     {
       "title": "The Bhagavad Gita",
       "author": "",
@@ -37,15 +29,6 @@
       "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
       "tradition": "East",
       "cover": "collections/book-covers/eastern-dhammapada.jpg"
-    },
-    {
-      "title": "Confessions",
-      "author": "Saint Augustine",
-      "era": "397–400 CE",
-      "part": "",
-      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-confessions.jpg"
     },
     {
       "title": "The City of God",

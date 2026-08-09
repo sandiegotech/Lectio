@@ -7,44 +7,31 @@
   "items": [
     {
       "workId": "work.homer.iliad",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.homer.odyssey",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.virgil.aeneid",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.gilgamesh",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.dante.divine-comedy",
-      "note": ""
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "The Epic of Gilgamesh",
-      "author": "Anonymous · Sumer & Akkad",
-      "era": "2100–1200 BCE",
-      "part": "",
-      "note": "The oldest surviving epic: a king loses his friend, refuses his own death, and comes home wiser — the root beneath East and West.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-gilgamesh.jpg"
-    },
-    {
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "era": "1308–1320",
-      "part": "",
-      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
-    },
     {
       "title": "The Rubaiyat",
       "author": "Omar Khayyam",

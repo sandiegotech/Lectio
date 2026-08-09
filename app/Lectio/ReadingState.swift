@@ -9,7 +9,8 @@ struct WorkReadingState: Codable, Hashable {
     var sectionId: String?
     var segmentId: String?     // finer scroll anchor than the section
     var introSeen: Bool = false
-    var bookmarkSegmentId: String?   // an explicit place the reader dropped a bookmark
+    var bookmarkSegmentId: String?   // legacy single bookmark — folded into `bookmarks`
+    var bookmarks: [String]? = nil   // dropped bookmarks, in the order they were placed
     var lastReadAt: Date?      // when the reader last put the book down (drives Continue reading)
 }
 
@@ -37,11 +38,24 @@ final class ReadingState: ObservableObject {
         save()
     }
 
-    func bookmark(_ workId: String) -> String? { byWork[workId]?.bookmarkSegmentId }
+    // All dropped bookmarks, oldest first (a legacy single bookmark shows up too).
+    func bookmarks(_ workId: String) -> [String] {
+        let s = byWork[workId]
+        if let list = s?.bookmarks, !list.isEmpty { return list }
+        return s?.bookmarkSegmentId.map { [$0] } ?? []
+    }
 
-    func setBookmark(_ workId: String, segmentId: String?) {
+    func isBookmarked(_ workId: String, segmentId: String) -> Bool {
+        bookmarks(workId).contains(segmentId)
+    }
+
+    func toggleBookmark(_ workId: String, segmentId: String) {
         var s = byWork[workId] ?? WorkReadingState()
-        s.bookmarkSegmentId = segmentId
+        var list = s.bookmarks ?? s.bookmarkSegmentId.map { [$0] } ?? []
+        if let i = list.firstIndex(of: segmentId) { list.remove(at: i) }
+        else { list.append(segmentId) }
+        s.bookmarks = list
+        s.bookmarkSegmentId = nil
         byWork[workId] = s
         save()
     }

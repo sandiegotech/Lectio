@@ -7,19 +7,11 @@
   "items": [
     {
       "workId": "work.shakespeare.hamlet",
-      "note": ""
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "Hamlet",
-      "author": "William Shakespeare",
-      "era": "1600–1601",
-      "part": "",
-      "note": "Shakespeare's deepest tragedy — a prince, a murder, and the paralysis of thought.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-hamlet.jpg"
-    },
     {
       "title": "The Greek Tragedies",
       "author": "Aeschylus, Sophocles & Euripides",

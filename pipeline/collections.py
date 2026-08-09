@@ -682,7 +682,7 @@ COLLECTIONS = {
     },
     'collection.beyond': {
         "kind": 'series',
-        "group": 'The Western World',
+        "group": 'More Collections',
         "title": 'Beyond the Collections',
         "curator": 'An original Lectio collection',
         "blurb": (
@@ -696,7 +696,7 @@ COLLECTIONS = {
     },
     'collection.harvard-classics': {
         "kind": 'series',
-        "group": 'The Western World',
+        "group": 'More Collections',
         "title": 'The Harvard Classics',
         "curator": 'Charles W. Eliot (1909)',
         "blurb": (
@@ -734,6 +734,28 @@ COLLECTIONS = {
             "The scriptures and classics of the Christian tradition. The Holy Bible is read whole — in the King James Version of 1611, with its sixty-six books (and the Apocrypha) within it — alongside the great writings that grew around it: Augustine's Confessions and City of God, the Imitation of Christ, the Pilgrim's Progress, and Aquinas's Summa."
         ),
         "refs": CHRISTIANITY_REFS,
+    },
+    'collection.bible': {
+        "kind": 'series',
+        "group": 'Religious Texts',
+        "title": 'The Bible',
+        "curator": 'Read book by book',
+        "blurb": (
+            'The book most people mean when they say the Bible — read the way it is actually '
+            'read, one book at a time, each in a clear modern edition with the King James beside it.'
+        ),
+        "about": (
+            "The Bible is not one book but a library: sixty-six of them, written across a thousand "
+            "years in three languages, by people who mostly did not know they were contributing to "
+            "a collection. Lectio shelves it the way it is actually read \u2014 a book at a time, each one "
+            "opening on its own, each with a clear modern edition and the King James Version a tap "
+            "away.\n\n"
+            "The two testaments are the Christian arrangement, and this shelf uses it because it is "
+            "the one most readers arrive with. The same books appear on the Judaism shelf in their "
+            "own order and under their own names, as the Tanakh \u2014 Torah, Prophets, Writings \u2014 which "
+            "is not a translation of the Christian order but a different book with a different ending."
+        ),
+        "refs": [],
     },
     'collection.judaism': {
         "kind": 'theme',
@@ -861,12 +883,21 @@ def _tradition_of(title, author=""):
     return "West"
 
 
+def _placeholder_cover(title: str) -> str:
+    """Shells with no artwork still get a cover — a plain board in the house style, built
+    by print/covers/build_placeholders.py. A blank card is worse than a quiet one."""
+    slug = "".join(c if c.isalnum() else "-" for c in title.lower()).strip("-")
+    while "--" in slug:
+        slug = slug.replace("--", "-")
+    return f"collections/book-covers/placeholder-{slug}.jpg"
+
+
 def _ref(title, author="", part=""):
     r = WORKS[(title, author)]
     return PlannedWork(title=title, author=author, era=r.get("era", ""), part=part,
                        note=r.get("note", ""),
                        tradition=r.get("tradition", _tradition_of(title, author)),
-                       cover=r.get("cover"),
+                       cover=r.get("cover") or _placeholder_cover(title),
                        originalCover=r.get("originalCover"),
                        rights=r.get("rights"), opens=r.get("opens"))
 
@@ -880,14 +911,16 @@ def _genre_of(title, author=""):
     return REAL_GENRE.get(title, "")
 
 
-# Home shelves, grouped on the Collections tab: Lectio (start here, ungrouped), then the
-# Western World (Great Books, Harvard, Beyond), then the Eastern World.
+# Home shelves, in reading order: Lectio (start here, ungrouped), then the two great
+# canons facing each other, then the further collections. Beyond is last on purpose —
+# it is the shelf you reach for once the canons are familiar.
 SERIES_ORDER = [
     LECTIO_ALL,
     "collection.great-books",
+    "collection.eastern-canon",
     "collection.harvard-classics",
     "collection.beyond",
-    "collection.eastern-canon",
+    "collection.bible",
 ]
 
 
@@ -936,8 +969,18 @@ def _west_home_refs():
     return out
 
 
+# Which testament each biblical book belongs to on the Bible shelf.
+BIBLE_PART = {
+    "work.bible.genesis": "The Old Testament",
+    "work.bible.mark": "The New Testament",
+}
+
+
 def build_collections(works):
     works = list(works)
+    # A published work must never also appear as a shell: the same book would sit twice on
+    # the shelf, once readable and once "coming soon".
+    published = {w.title for w in works}
 
     series = []
     for cid, meta in COLLECTIONS.items():
@@ -945,11 +988,13 @@ def build_collections(works):
         if kind not in ("series", "list"):
             continue   # themes are source-only; their books surface under Genres
         if meta.get("all_works"):
-            items = [CollectionItem(workId=w.id) for w in works]
-        else:
             items = [CollectionItem(workId=w.id) for w in works
-                     if cid in getattr(w, "collections", [])]
-        planned = [_ref(*r) for r in meta.get("refs", [])]
+                     if not w.id.startswith("work.bible.")]
+        else:
+            items = [CollectionItem(workId=w.id, part=BIBLE_PART.get(w.id, ""))
+                     for w in works if cid in getattr(w, "collections", [])]
+        planned = [p for p in (_ref(*r) for r in meta.get("refs", []))
+                   if p.title not in published]
         if not items and not planned:
             continue
         series.append(Collection(
@@ -970,8 +1015,11 @@ def build_collections(works):
 
     genres = []
     for name, blurb in GENRES:
-        gitems = [CollectionItem(workId=w.id) for w in works if _genre_of(w.title) == name]
-        gplanned = [_ref(t, a) for (t, a) in master if WORKS[(t, a)]["genre"] == name]
+        gitems = [CollectionItem(workId=w.id) for w in works
+                  if _genre_of(w.title) == name and not w.id.startswith("work.bible.")]
+        gplanned = [p for p in (_ref(t, a) for (t, a) in master
+                                if WORKS[(t, a)]["genre"] == name)
+                    if p.title not in published]
         if not gitems and not gplanned:
             continue
         genres.append(Collection(

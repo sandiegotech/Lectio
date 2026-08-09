@@ -8,6 +8,10 @@ struct ProvenanceSheet: View {
     let workTitle: String
     let pal: Palette
     var onShowInText: ((Edition.Divergence) -> Void)? = nil   // jump to the passage in the reader
+    var cast: [Enrichment.GlossEntry] = []   // the book's key players (who's who)
+    var chapterNote: String? = nil           // overview of the chapter being read
+    @State private var showDivergences = false
+    @State private var showAllCast = false
 
     var body: some View {
         ScrollView {
@@ -16,6 +20,16 @@ struct ProvenanceSheet: View {
                     Text(workTitle).font(.system(.title3, design: .serif)).foregroundColor(pal.ink)
                     Text(title).font(.subheadline).foregroundColor(pal.accent)
                 }
+
+                if let note = chapterNote, !note.isEmpty {
+                    block("Where you are") {
+                        Text(note).font(.footnote).foregroundColor(pal.ink)
+                            .lineSpacing(2)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+
+                if !cast.isEmpty { castBlock }
 
                 if let overview = edition.overview, !overview.isEmpty {
                     block("About this edition") {
@@ -33,7 +47,24 @@ struct ProvenanceSheet: View {
                                 Text("Places where the Lectio Edition departs from older translations, and why.")
                                     .font(.caption).foregroundColor(pal.inkSoft)
                                     .fixedSize(horizontal: false, vertical: true)
-                                ForEach(divergences, id: \.note) { d in divergenceRow(d) }
+                                // The full list is scholarly detail — folded away by default.
+                                if showDivergences {
+                                    ForEach(divergences, id: \.note) { d in divergenceRow(d) }
+                                }
+                                Button {
+                                    withAnimation(.easeInOut(duration: 0.2)) { showDivergences.toggle() }
+                                } label: {
+                                    HStack(spacing: 4) {
+                                        Text(showDivergences
+                                             ? "Show less"
+                                             : "Learn more — \(divergences.count) places")
+                                        Image(systemName: showDivergences ? "chevron.up" : "chevron.right")
+                                            .font(.caption2)
+                                    }
+                                    .font(.caption.weight(.medium))
+                                    .foregroundColor(pal.accent)
+                                }
+                                .buttonStyle(.plain)
                             }
                         }
                     }
@@ -104,6 +135,54 @@ struct ProvenanceSheet: View {
         VStack(alignment: .leading, spacing: 6) {
             Text(label.uppercased()).font(.caption2).tracking(1).foregroundColor(pal.inkSoft)
             content()
+        }
+    }
+
+    // Who's who: the key people, gods, and peoples of the book, from the curated
+    // glossary — so a reader always has somewhere to sort out who is who.
+    private var castBlock: some View {
+        block("Who's who") {
+            VStack(alignment: .leading, spacing: 12) {
+                ForEach(showAllCast ? cast : Array(cast.prefix(6)), id: \.term) { e in
+                    castRow(e)
+                }
+                if cast.count > 6 {
+                    Button {
+                        withAnimation(.easeInOut(duration: 0.2)) { showAllCast.toggle() }
+                    } label: {
+                        HStack(spacing: 4) {
+                            Text(showAllCast ? "Show fewer" : "All \(cast.count) names")
+                            Image(systemName: showAllCast ? "chevron.up" : "chevron.right")
+                                .font(.caption2)
+                        }
+                        .font(.caption.weight(.medium))
+                        .foregroundColor(pal.accent)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+    }
+
+    private func castRow(_ e: Enrichment.GlossEntry) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            HStack(spacing: 6) {
+                Text(e.term).font(.system(.subheadline, design: .serif)).foregroundColor(pal.accent)
+                if let k = e.kind, !k.isEmpty {
+                    Text(k.uppercased())
+                        .font(.system(size: 9, weight: .semibold)).tracking(0.6)
+                        .foregroundColor(pal.inkSoft)
+                        .padding(.horizontal, 6).padding(.vertical, 2)
+                        .background(Capsule().stroke(pal.rule))
+                }
+            }
+            Text(e.gloss).font(.footnote).foregroundColor(pal.ink)
+                .lineSpacing(2)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(.leading, 10)
+        .overlay(alignment: .leading) {
+            Rectangle().fill(pal.rule).frame(width: 2)
         }
     }
 

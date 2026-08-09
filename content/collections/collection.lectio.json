@@ -8,81 +8,66 @@
   "items": [
     {
       "workId": "work.marcus-aurelius.meditations",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.homer.iliad",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.homer.odyssey",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.virgil.aeneid",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.plato.republic",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.aristotle.nicomachean-ethics",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.machiavelli.the-prince",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.confucius.analects",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.augustine.confessions",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.shakespeare.hamlet",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.gilgamesh",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.dante.divine-comedy",
-      "note": ""
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "Genesis",
-      "author": "The Bible",
-      "era": "1200–500 BCE",
-      "part": "",
-      "note": "The Bible's first book — creation, the fall, the flood, and the patriarchs.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-genesis.jpg"
-    },
-    {
-      "title": "The Epic of Gilgamesh",
-      "author": "Anonymous · Sumer & Akkad",
-      "era": "2100–1200 BCE",
-      "part": "",
-      "note": "The oldest surviving epic: a king loses his friend, refuses his own death, and comes home wiser — the root beneath East and West.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-gilgamesh.jpg"
-    },
-    {
-      "title": "The Analects",
-      "author": "Confucius",
-      "era": "551–479 BCE",
-      "part": "",
-      "note": "The ground text of East Asian ethics — becoming fully human through ritual, learning, and human-heartedness.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-analects.jpg"
-    },
     {
       "title": "The Tao Te Ching",
       "author": "Laozi",
@@ -120,42 +105,6 @@
       "cover": "collections/book-covers/eastern-art-of-war.jpg"
     },
     {
-      "title": "Nicomachean Ethics",
-      "author": "Aristotle",
-      "era": "340 BCE",
-      "part": "",
-      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
-    },
-    {
-      "title": "Confessions",
-      "author": "Saint Augustine",
-      "era": "397–400 CE",
-      "part": "",
-      "note": "Augustine's first true autobiography of a soul — sin, restlessness, and conversion, addressed to God.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-confessions.jpg"
-    },
-    {
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "era": "1308–1320",
-      "part": "",
-      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
-    },
-    {
-      "title": "The Prince",
-      "author": "Niccolò Machiavelli",
-      "era": "1513",
-      "part": "",
-      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-prince.jpg"
-    },
-    {
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
       "era": "1605–1615",
@@ -163,15 +112,6 @@
       "note": "The first modern novel, entire — a mad knight, his earthbound squire, and the comedy of ideals meeting the world.",
       "tradition": "West",
       "cover": "collections/book-covers/lectio-don-quixote-part-i.jpg"
-    },
-    {
-      "title": "Hamlet",
-      "author": "William Shakespeare",
-      "era": "1600–1601",
-      "part": "",
-      "note": "Shakespeare's deepest tragedy — a prince, a murder, and the paralysis of thought.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-hamlet.jpg"
     },
     {
       "title": "One Thousand and One Nights",

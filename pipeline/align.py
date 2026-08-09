@@ -1,165 +1,200 @@
-"""Alignment spine (CONTENT_PIPELINE.md §4) — populate each Segment.spine so the
-reader can scroll-sync and cross-highlight matching passages across editions.
+"""Stage 5 — ALIGN (CONTENT_PIPELINE.md §4): attach spine ranges to segments.
 
-Every segment gets a fractional span [from, to] within its section (0..1 strings).
-Two segments in different editions correspond when their spans overlap — so the reader
-maps a passage to its counterpart by span overlap, in either direction.
+Every multi-edition work gets a shared coordinate system so the app can put the
+same moment of the poem side by side across a verse translation, a prose one,
+and the Lectio edition — and so bookmarks, highlights, art, and annotations can
+anchor to "Iliad 1.194" regardless of which edition the reader is in.
 
-Two regimes, decided per (work, section):
-  • equal segment counts  → uniform spans (index identity) — EXACT.
-    Holds for Hamlet (every act 1:1) and ~90% of Dante's cantos.
-  • unequal counts        → anchor-and-interpolate against the finest edition.
-    Distinctive tokens shared by both editions (proper nouns, numbers, rare words)
-    pin known correspondences; positions between anchors interpolate linearly, with a
-    proportional fallback where a stretch has no anchors. This is what fixes prose like
-    the Nicomachean Ethics (Lectio ~1 paragraph ≈ 3 of Chase's). Pure-Python, no AI.
+Three strategies, chosen by the work's reference scheme:
+
+- **Line schemes** (book.line): the scholarly-standard per-book line counts of
+  the original (the tables below). Each edition's body segments split the book's
+  lines proportionally by weight — verse lines for verse editions, characters
+  for prose. Front-matter apparatus (Pope's "ARGUMENT.", Butler's chapter
+  summaries) gets no spine.
+- **Unit schemes** (book.section, book.chapter): the canonical unit count per
+  book. For book.section works the canonical counts come from the bundled
+  original-language edition (Meditations' Greek); segments are allocated by
+  index, so near-1:1 editions align near-exactly. book.chapter works allocate
+  by character weight (their segments are paragraphs, not chapters).
+- **Section schemes** (cantica.canto, act.scene): the section itself is the
+  coordinate (Canto = section); every segment carries its section's ref.
+  Hamlet's acts subdivide into canonical scene counts by weight.
+
+Exactness varies by strategy; *consistency* is what makes sync work — every
+edition of a work draws from the same tables. Proportional allocation is the
+documented v1 ("AI-suggested alignment, human-confirmed" refines later).
 """
 from __future__ import annotations
 
-import re
-from collections import Counter, defaultdict
+from .model import Edition, SpineRange, Work
 
-from .model import Edition, SpineRange
+# ---------------------------------------------------------------------------
+# Canonical unit tables (scholarly-standard counts; the shared coordinates)
+# ---------------------------------------------------------------------------
 
-_STOP = {
-    "the", "and", "that", "this", "with", "from", "have", "has", "had", "for", "not",
-    "but", "are", "was", "were", "they", "them", "their", "then", "than", "what",
-    "which", "who", "whom", "whose", "when", "where", "will", "would", "should", "could",
-    "there", "here", "into", "upon", "such", "some", "more", "most", "much", "also",
-    "thus", "therefore", "because", "since", "while", "though", "although", "however",
-    "these", "those", "other", "another", "each", "every", "both", "either", "neither",
-    "about", "above", "after", "again", "against", "between", "before", "being", "been",
-    "does", "doing", "done", "itself", "himself", "herself", "themselves", "very",
-    "must", "shall", "may", "might", "can", "cannot", "one", "two", "any", "all",
-    "out", "off", "over", "under", "same", "like", "even", "only", "ever", "never",
-    "good", "thing", "things", "make", "made", "well", "many", "kind", "way", "part",
+# Lines per book of the Greek/Latin originals (standard modern texts).
+LINE_COUNTS = {
+    "work.homer.iliad": [
+        611, 877, 461, 544, 909, 529, 482, 565, 713, 579, 848, 471,
+        837, 522, 746, 867, 761, 617, 424, 503, 611, 515, 897, 804,
+    ],
+    "work.homer.odyssey": [
+        444, 434, 497, 847, 493, 331, 347, 586, 566, 574, 640, 453,
+        440, 533, 557, 481, 606, 428, 604, 394, 434, 501, 372, 548,
+    ],
+    "work.virgil.aeneid": [
+        756, 804, 718, 705, 871, 901, 817, 731, 818, 908, 915, 952,
+    ],
+}
+
+# Chapters per book (Nicomachean Ethics, Bekker-standard chaptering).
+CHAPTER_COUNTS = {
+    "work.aristotle.nicomachean-ethics": [13, 9, 12, 9, 11, 13, 14, 14, 12, 9],
+}
+
+# Scenes per act (Hamlet, Folger-standard).
+SCENE_COUNTS = {
+    "work.shakespeare.hamlet": [5, 2, 4, 7, 2],
 }
 
 
-def _tokens(text: str) -> set[str]:
-    """Distinctive tokens of a passage: proper nouns (mid-sentence capitals) and
-    longer non-stopword words. Lowercased for matching across editions."""
-    out: set[str] = set()
-    for w in re.findall(r"[A-Za-z]+", text):
-        lw = w.lower()
-        if lw in _STOP:
-            continue
-        if len(lw) >= 4:
-            out.add(lw)
-        if len(w) >= 3 and w[0].isupper():
-            out.add(lw)
-    return out
-
-
-def _overlap(a: set, b: set) -> float:
-    """Token-overlap (containment) coefficient 0..1 — rewards a fine paragraph whose
-    distinctive words are mostly contained in a coarse one (good for 1-to-many prose)."""
-    if not a or not b:
-        return 0.0
-    return len(a & b) / min(len(a), len(b))
-
-
-def _dp_anchors(C: list[set], F: list[set]) -> list[tuple[int, int]]:
-    """Monotonic content alignment of coarse paragraphs C to fine paragraphs F by token
-    overlap (Needleman–Wunsch with gaps). Returns confident (i, j) match pairs; a segment
-    with no real counterpart — e.g. an edition's per-book ARGUMENT/summary heading, or
-    trailing apparatus — falls through as a gap instead of dragging a real line out of
-    place. This is what keeps an opening invocation aligned to the other edition's
-    invocation rather than to its chapter title."""
-    m, n = len(C), len(F)
-    if m == 0 or n == 0:
-        return []
-    GAP = -0.06
-    dp = [[0.0] * (n + 1) for _ in range(m + 1)]
-    bt = [[2] * (n + 1) for _ in range(m + 1)]   # 0 = match, 1 = skip coarse, 2 = skip fine
-    for i in range(1, m + 1):
-        dp[i][0] = i * GAP; bt[i][0] = 1
-    for j in range(1, n + 1):
-        dp[0][j] = j * GAP; bt[0][j] = 2
-    for i in range(1, m + 1):
-        ci = C[i - 1]
-        for j in range(1, n + 1):
-            s = _overlap(ci, F[j - 1])
-            diag = dp[i - 1][j - 1] + (s if s > 0 else GAP)
-            up = dp[i - 1][j] + GAP
-            left = dp[i][j - 1] + GAP
-            if diag >= up and diag >= left:
-                dp[i][j] = diag; bt[i][j] = 0
-            elif up >= left:
-                dp[i][j] = up; bt[i][j] = 1
-            else:
-                dp[i][j] = left; bt[i][j] = 2
-    pairs: list[tuple[int, int]] = []
-    i, j = m, n
-    while i > 0 and j > 0:
-        b = bt[i][j]
-        if b == 0:
-            if _overlap(C[i - 1], F[j - 1]) > 0.15:   # keep only confident matches as anchors
-                pairs.append((i - 1, j - 1))
-            i -= 1; j -= 1
-        elif b == 1:
-            i -= 1
-        else:
-            j -= 1
-    pairs.reverse()
-    return pairs
-
-
-def _aligned_positions(seg_texts: list[str], ref_texts: list[str]) -> list[float | None]:
-    """Each segment's fractional position (0..1) on the reference edition's axis, or None
-    when it has no counterpart there — a leading argument/summary heading, trailing notes,
-    etc. Matched segments take their match's fraction; interior gaps interpolate between
-    their matched neighbours; leading and trailing gaps stay None, so a heading can never
-    become a sync target."""
-    n, m = len(ref_texts), len(seg_texts)
-    if n == 0:
-        return [None] * m
-
-    def f(j: int) -> float:
-        return (j + 0.5) / n
-
-    if seg_texts == ref_texts:                       # the reference edition itself
-        return [f(j) for j in range(m)]
-    pairs = _dp_anchors([_tokens(t) for t in seg_texts], [_tokens(t) for t in ref_texts])
-    if not pairs:                                    # no shared content (e.g. cross-language) → proportional
-        return [f(round(i * (n - 1) / max(1, m - 1))) for i in range(m)]
-    pos: list[float | None] = [None] * m
-    for i, j in pairs:
-        pos[i] = f(j)
-    matched = [i for i, _ in pairs]
-    for i in range(matched[0] + 1, matched[-1]):     # interior gaps interpolate
-        if pos[i] is None:
-            lo = max(k for k in matched if k < i)
-            hi = min(k for k in matched if k > i)
-            pos[i] = pos[lo] + (i - lo) / (hi - lo) * (pos[hi] - pos[lo])
-    return pos                                        # before matched[0] / after matched[-1] stay None
-
-
-def assign_spines(editions: list[Edition]) -> int:
-    """Populate Segment.spine across one work's editions, in place. The clean modern
-    (Lectio) edition — which opens on real text, not an argument heading — is the
-    reference axis; every other edition is content-aligned to it. Each segment carries a
-    point position on that axis; segments with no counterpart get no spine. Returns the
-    number of segments tagged. Sections are matched across editions by order."""
+def apply(work: Work, editions: list[Edition]) -> dict | None:
+    """Attach spine ranges in place. Returns the spine.json payload, or None
+    when the work isn't aligned (single edition, or no strategy for it)."""
     if len(editions) < 2:
-        return 0
-    orders = sorted({s.order for e in editions for s in e.sections})
-    tagged = 0
-    for order in orders:
-        es = [(e, s) for e in editions
-              for s in [next((s for s in e.sections if s.order == order), None)]
-              if s and s.segments]
-        if len(es) < 2:
+        return None
+
+    scheme = work.referenceScheme
+    if work.id in LINE_COUNTS:
+        counts = LINE_COUNTS[work.id]
+        for e in editions:
+            _allocate(e, counts, by_index=False)
+    elif scheme == "book.section":
+        canonical = _canonical_edition(editions)
+        counts = [len(s.segments) for s in canonical.sections]
+        for e in editions:
+            _allocate(e, counts, by_index=True)
+    elif work.id in CHAPTER_COUNTS:
+        counts = CHAPTER_COUNTS[work.id]
+        for e in editions:
+            _allocate(e, counts, by_index=False)
+    elif scheme == "cantica.canto":
+        counts = _align_cantos(editions)
+    elif work.id in SCENE_COUNTS:
+        counts = SCENE_COUNTS[work.id]
+        for e in editions:
+            _allocate(e, counts, by_index=False)
+    else:
+        return None
+
+    return {
+        "referenceScheme": scheme,
+        "unitsPerSection": counts,
+        "method": "pipeline.align v1 — canonical counts, proportional allocation",
+    }
+
+
+# ---------------------------------------------------------------------------
+# Allocation
+# ---------------------------------------------------------------------------
+
+def _allocate(edition: Edition, counts: list[int], by_index: bool) -> None:
+    """Split each section's canonical units across its body segments,
+    monotonically and exhaustively (first segment starts at unit 1, last ends
+    at unit N). Weight is 1/segment for unit schemes, verse lines or characters
+    for line schemes."""
+    verse = edition.form == "verse"
+    for bi, sec in enumerate(edition.sections):
+        if bi >= len(counts):
+            break
+        n = counts[bi]
+        body = _body_segments(sec.segments)
+        if not body or n <= 0:
             continue
-        # reference axis: the modern edition's section if present, else the longest one.
-        ref = next((s for e, s in es if e.kind == "modern"), None) \
-            or max((s for _, s in es), key=lambda s: len(s.segments))
-        ref_texts = [seg.text for seg in ref.segments]
-        for _, s in es:
-            for seg, p in zip(s.segments, _aligned_positions([sg.text for sg in s.segments], ref_texts)):
-                if p is None:
-                    seg.spine = None
-                else:
-                    seg.spine = SpineRange(fromRef=f"{p:.4f}", toRef=f"{p:.4f}")
-                    tagged += 1
-    return tagged
+        if by_index:
+            weights = [1.0] * len(body)
+        elif verse:
+            weights = [float(seg.text.count("\n") + 1) for seg in body]
+        else:
+            weights = [float(max(len(seg.text), 1)) for seg in body]
+        total = sum(weights)
+        book = str(sec.order)
+
+        acc = 0.0
+        prev_end = 0
+        for i, (seg, w) in enumerate(zip(body, weights)):
+            acc += w
+            if i == len(body) - 1:
+                end = n
+            else:
+                end = min(n, max(prev_end + 1, round(acc / total * n)))
+            start = min(n, prev_end + 1)
+            seg.spine = SpineRange(fromRef=f"{book}.{start}", toRef=f"{book}.{max(start, end)}")
+            prev_end = max(prev_end, end)
+
+
+def _align_cantos(editions: list[Edition]) -> list[int]:
+    """cantica.canto: each section is one canto; every segment carries its
+    canto's ref (e.g. "Inferno.5"). Returns cantos per cantica."""
+    per_cantica: dict[str, int] = {}
+    for e in editions:
+        counting: dict[str, int] = {}
+        for sec in e.sections:
+            cantica = sec.label.split(":")[0].strip() or "Canto"
+            counting[cantica] = counting.get(cantica, 0) + 1
+            ref = f"{cantica}.{counting[cantica]}"
+            for seg in sec.segments:
+                seg.spine = SpineRange(fromRef=ref, toRef=ref)
+        if len(counting) > len(per_cantica):
+            per_cantica = counting
+    return list(per_cantica.values())
+
+
+def _canonical_edition(editions: list[Edition]) -> Edition:
+    """The edition whose segmentation defines the unit numbering: the original
+    language if bundled, else the Lectio edition, else the first."""
+    for e in editions:
+        if e.kind == "original":
+            return e
+    for e in editions:
+        if e.kind == "modern":
+            return e
+    return editions[0]
+
+
+# ---------------------------------------------------------------------------
+# Apparatus detection (mirrors the app's bodySegments heuristic)
+# ---------------------------------------------------------------------------
+
+def _body_segments(segments: list) -> list:
+    """Segments minus leading apparatus — all-caps headings ("ARGUMENT."), the
+    prose block a heading introduces, and dash-chained chapter summaries — and
+    minus heading-kind segments anywhere. Apparatus gets no spine."""
+    start = 0
+    after_heading = False
+    while start < min(6, len(segments)):
+        t = segments[start].text.strip()
+        if len(t) < 80 and t.upper() == t and any(c.isalpha() for c in t):
+            after_heading = True
+            start += 1
+            continue
+        if start == 0 and len(t) < 600 and _chained_dashes(t) >= 1:
+            start += 1
+            continue
+        if after_heading:
+            after_heading = False
+            start += 1
+            continue
+        break
+    return [s for s in segments[start:] if s.kind != "heading"]
+
+
+def _chained_dashes(text: str) -> int:
+    """Em-dashes jammed between letters (word—word) — the signature of an old
+    edition's chapter-summary chain, never of body prose here."""
+    n = 0
+    for i, ch in enumerate(text):
+        if ch == "—" and 0 < i < len(text) - 1 and text[i - 1].isalpha() and text[i + 1].isalpha():
+            n += 1
+    return n

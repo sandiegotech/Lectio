@@ -1,0 +1,21 @@
+{
+  "id": "work.bible.genesis",
+  "title": "Genesis",
+  "author": "Anonymous · Ancient Israel",
+  "originalLang": "hbo",
+  "composed": "c. 900–500 BCE",
+  "type": "scripture",
+  "referenceScheme": "chapter.verse",
+  "defaultEditionId": "edition.bible-genesis.kjv-1611",
+  "blurb": "Where everything starts — creation, the garden, the flood, and the family quarrels of one wandering household that the rest of the Bible grows out of.",
+  "tradition": "West",
+  "collections": [
+    "collection.bible",
+    "collection.judaism",
+    "collection.christianity"
+  ],
+  "editionIds": [
+    "edition.bible-genesis.lectio-vernacular",
+    "edition.bible-genesis.kjv-1611"
+  ]
+}

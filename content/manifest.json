@@ -5,37 +5,42 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "3413a292bbb81b09"
+      "checksum": "e4a1f01139ccfc57"
     },
     {
       "id": "collection.great-books",
       "title": "Great Books of the Western World",
-      "checksum": "2d3c7eccfc233989"
-    },
-    {
-      "id": "collection.harvard-classics",
-      "title": "The Harvard Classics",
-      "checksum": "8a3bee904184b400"
-    },
-    {
-      "id": "collection.beyond",
-      "title": "Beyond the Collections",
-      "checksum": "0c0afd2fcdaf5401"
+      "checksum": "e31249faf054cac9"
     },
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
-      "checksum": "286a9415231129d4"
+      "checksum": "e18873fd3ba8a3cc"
+    },
+    {
+      "id": "collection.harvard-classics",
+      "title": "The Harvard Classics",
+      "checksum": "86df655b427f6d9c"
+    },
+    {
+      "id": "collection.beyond",
+      "title": "Beyond the Collections",
+      "checksum": "153f6bb78d66ac35"
+    },
+    {
+      "id": "collection.bible",
+      "title": "The Bible",
+      "checksum": "14c55abb5162e393"
     },
     {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "6a4abedbb8289252"
+      "checksum": "38d4b9b046f95e48"
     },
     {
       "id": "genre.philosophy",
       "title": "Philosophy",
-      "checksum": "4452c23665f8fff9"
+      "checksum": "d9b34818712008d5"
     },
     {
       "id": "genre.history-biography",
@@ -50,7 +55,7 @@
     {
       "id": "genre.politics-economics",
       "title": "Politics & Economics",
-      "checksum": "1cd108cc5f381aab"
+      "checksum": "12a6df283f2d0753"
     },
     {
       "id": "genre.fiction",
@@ -60,12 +65,12 @@
     {
       "id": "genre.poetry-epic",
       "title": "Poetry & Epic",
-      "checksum": "c59c884005e1a34b"
+      "checksum": "2cbca999984bec40"
     },
     {
       "id": "genre.drama",
       "title": "Drama",
-      "checksum": "b101f0b54e5bd813"
+      "checksum": "9b4592183ef7479e"
     },
     {
       "id": "genre.essays-letters",
@@ -92,7 +97,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "16555b60136138ed"
+          "checksum": "22c0d937909e9138"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -101,7 +106,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian standard — clear, dignified, widely read.",
-          "checksum": "f919a0b18475ffa1"
+          "checksum": "7bb86e9970ab1fd0"
         },
         {
           "id": "edition.meditations.casaubon-1634",
@@ -110,7 +115,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The first English Meditations — ornate, archaic, devotional.",
-          "checksum": "3733f2f2a9eb2776"
+          "checksum": "3ba9682b2f4174d5"
         },
         {
           "id": "edition.meditations.greek-original",
@@ -119,10 +124,10 @@
           "form": "prose",
           "kind": "original",
           "character": "The original Koine Greek — Marcus's private notebook (Τὰ εἰς ἑαυτόν).",
-          "checksum": "3afc58df6b90ae2a"
+          "checksum": "a23ef645a171f43e"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "cef4561fe6679902"
     },
     {
@@ -143,7 +148,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "e27ccde77d6d52f2"
+          "checksum": "98cc217692ab7392"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -152,7 +157,7 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — 18th-century grandeur.",
-          "checksum": "d2ac23f4216d73ee"
+          "checksum": "6914222725298e47"
         },
         {
           "id": "edition.iliad.butler-1898",
@@ -161,10 +166,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "da2babe8384b980d"
+          "checksum": "15a9824a79d390f7"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "280b7b82da65bb5f"
     },
     {
@@ -186,7 +191,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "a18e3ac0d50ed546"
+          "checksum": "ed6e488809a287dc"
         },
         {
           "id": "edition.odyssey.butler-1900",
@@ -195,10 +200,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "Plain, clear Victorian prose.",
-          "checksum": "b0fad51ce2066c01"
+          "checksum": "0932b15ab771dcfc"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "ae6f3ae41899084a"
     },
     {
@@ -220,7 +225,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "26989ee7338acdba"
+          "checksum": "820eeb35ac840ebf"
         },
         {
           "id": "edition.aeneid.dryden-1697",
@@ -229,10 +234,10 @@
           "form": "verse",
           "kind": "translation",
           "character": "Stately heroic couplets — the great English Virgil.",
-          "checksum": "2d5a5195a2ef1581"
+          "checksum": "7bfca2f025656056"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "3d798bfb07de7f3b"
     },
     {
@@ -252,7 +257,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "8450c84659df5bd1"
+          "checksum": "51ca810753acb7b9"
         },
         {
           "id": "edition.republic.jowett-1871",
@@ -261,10 +266,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian Republic — Jowett's lucid, hugely influential standard.",
-          "checksum": "92cb00f2bb2d042c"
+          "checksum": "77dc64119aa1b7aa"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "2c5cb4c2bdfb5ae7"
     },
     {
@@ -284,7 +289,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "19920cfd155761b4"
+          "checksum": "5f4a0ac0c9e5b07d"
         },
         {
           "id": "edition.nicomachean-ethics.chase-1911",
@@ -293,10 +298,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "The compact Everyman Ethics — Chase's plain, readable Victorian prose.",
-          "checksum": "73cbb4aae135f245"
+          "checksum": "8ef4afbf420d4050"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "e94b67144acbdebb"
     },
     {
@@ -317,7 +322,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "8609d47497a6a6fc"
+          "checksum": "1d1d36e480b58b2e"
         },
         {
           "id": "edition.the-prince.marriott-1908",
@@ -326,7 +331,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The standard public-domain Prince — Marriott's clear, faithful Edwardian English.",
-          "checksum": "e428565764dd27aa"
+          "checksum": "82bd1bcc78990e30"
         }
       ],
       "hasAlignment": false,
@@ -349,7 +354,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "7c8c678fadaaa9ea"
+          "checksum": "7d4b6327fed640e7"
         },
         {
           "id": "edition.analects.legge-1893",
@@ -358,7 +363,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
-          "checksum": "0d99a4cebe4f8f6e"
+          "checksum": "92f35e42dac51a77"
         }
       ],
       "hasAlignment": false,
@@ -382,7 +387,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "eef147bc9a271d27"
+          "checksum": "ed552bdf66f92360"
         },
         {
           "id": "edition.confessions.pusey-1838",
@@ -391,7 +396,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The devotional classic Confessions — Pusey's reverent, 'Thou'-keeping English.",
-          "checksum": "c0b8ab29e8b2c31b"
+          "checksum": "3f4c4c233b452e3b"
         }
       ],
       "hasAlignment": false,
@@ -414,7 +419,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "f32680f1f07f0f31"
+          "checksum": "4319da058ddc1f02"
         },
         {
           "id": "edition.hamlet.original",
@@ -423,10 +428,10 @@
           "form": "verse",
           "kind": "original",
           "character": "Shakespeare's text — the tragedy entire, in five acts.",
-          "checksum": "6ce44db3eceb1159"
+          "checksum": "ad6d1eaa03f192fc"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "1f311075fde62a70"
     },
     {
@@ -469,7 +474,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "3e5f52d834c14acf"
+          "checksum": "5a5dc1e4fe584ef0"
         },
         {
           "id": "edition.divine-comedy.longfellow-1867",
@@ -478,11 +483,78 @@
           "form": "verse",
           "kind": "translation",
           "character": "Longfellow's landmark American Dante — faithful blank verse, line for line.",
-          "checksum": "093fbae4db6449f8"
+          "checksum": "53cef1ebfa9872d3"
+        }
+      ],
+      "hasAlignment": true,
+      "checksum": "4a9e28ea83ba5a53"
+    },
+    {
+      "id": "work.bible.mark",
+      "title": "The Gospel of Mark",
+      "author": "Anonymous · attributed to Mark",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bible-mark.lectio-vernacular",
+      "collections": [
+        "collection.bible",
+        "collection.christianity"
+      ],
+      "editions": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "ee2cce92b4d4ac0b"
+        },
+        {
+          "id": "edition.bible-mark.kjv-1611",
+          "translator": "The King James translators",
+          "publishedYear": 1611,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The 1611 monument — the cadence that shaped English itself.",
+          "checksum": "01e5f00872f10a85"
         }
       ],
       "hasAlignment": false,
-      "checksum": "4a9e28ea83ba5a53"
+      "checksum": "8ae8c7ea6e8618c0"
+    },
+    {
+      "id": "work.bible.genesis",
+      "title": "Genesis",
+      "author": "Anonymous · Ancient Israel",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bible-genesis.kjv-1611",
+      "collections": [
+        "collection.bible",
+        "collection.judaism",
+        "collection.christianity"
+      ],
+      "editions": [
+        {
+          "id": "edition.bible-genesis.lectio-vernacular",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "bacc17ce260a137d"
+        },
+        {
+          "id": "edition.bible-genesis.kjv-1611",
+          "translator": "The King James translators",
+          "publishedYear": 1611,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The 1611 monument — the cadence that shaped English itself.",
+          "checksum": "09178d0049b384c3"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "898b9a5dafd04ac6"
     }
   ],
   "dictionaries": []

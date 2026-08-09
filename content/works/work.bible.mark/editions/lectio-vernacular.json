@@ -1,0 +1,1649 @@
+{
+  "id": "edition.bible-mark.lectio-vernacular",
+  "workId": "work.bible.mark",
+  "kind": "modern",
+  "language": "en",
+  "form": "prose",
+  "provenance": {
+    "source": "lectio",
+    "rightsStatus": "lectio-original",
+    "rightsNote": "Lectio Vernacular Edition (SDIT): a plain-modern-English rendering of the Gospel of Mark — all 16 chapters, 678 verses — made from public-domain sources and the Greek text. This is Lectio's own edition, derived from public-domain sources — not a historical translation. DRAFT: complete but not yet read end to end by a human reviewer; the King James Version remains this work's default edition until it has been.",
+    "retrievedDate": "2026-08-06",
+    "aiModel": "claude-opus-5",
+    "aiSourceEditionId": "edition.bible-mark.kjv-1611",
+    "aiProfile": "vernacular_bible",
+    "sourcesCited": [
+      "King James Version (1611) — public domain",
+      "American Standard Version (1901) — public domain",
+      "Young's Literal Translation (1898) — public domain",
+      "Greek New Testament, Westcott-Hort text (1881) — public domain"
+    ],
+    "vintage": 2026
+  },
+  "character": "Plain modern English — the sense of the original, made to read with ease today.",
+  "overview": "Mark is the earliest Gospel and the roughest: short, fast, and impatient, told in a Greek that keeps piling clause on clause and saying 'right away.' Every polished English Bible has smoothed that texture into something more dignified. This edition keeps it — because the roughness is the urgency, and American plain style happens to fit Mark better than it fits any other ancient book. It also keeps Mark's ending: the oldest manuscripts stop with three women running from an empty tomb, too frightened to speak. The verses that follow were added later, and this edition prints them saying so.",
+  "introduction": "Mark was written first, probably within a generation of the events it describes, for people who did not read Greek well. There is no birth story, no genealogy, no long sermon. It opens at a run — a voice in the wilderness, a man in the river, the sky torn open — and it does not slow down. The word translated 'right away' appears more than forty times in sixteen chapters, and this edition keeps every one of them, the way Homer's epithets are kept: the repetition is structure, not clumsiness.\n\nThe Vernacular renders Mark in the language a reader actually thinks in, on the principle the book itself demonstrates. Jesus taught in Aramaic, the everyday speech of Galilee; the Gospel that carries his words was written in Koine — 'common' — Greek, the dialect of markets and letters. Translating the message into the speech of ordinary people is not a departure from this tradition. It is the tradition.",
+  "divergences": [
+    {
+      "locus": "throughout",
+      "phrase": "εὐαγγέλιον (euangelion)",
+      "older": "“gospel” (KJV, and nearly every English Bible since)",
+      "lectio": "“good news”",
+      "note": "Before it hardened into a church word, euangelion was a herald's word — the announcement of a victory or an accession. 'Good news' is what a first hearer heard."
+    },
+    {
+      "locus": "1.15 and throughout",
+      "phrase": "μετάνοια / μετανοεῖτε (metanoia)",
+      "older": "“repent” (KJV)",
+      "lectio": "“turn back,” “turn your lives around”",
+      "note": "The Greek means a turning of the mind and the life. 'Repent' has collected two centuries of revival-tent baggage the Greek does not carry."
+    },
+    {
+      "locus": "throughout",
+      "phrase": "εὐθύς (euthys)",
+      "older": "“straightway,” “immediately,” often varied for elegance",
+      "lectio": "“right away,” every time",
+      "note": "Mark uses this word more than forty times in sixteen chapters. Translators who vary it for style are correcting an author who was not making a mistake — the drumbeat is the book's pulse."
+    },
+    {
+      "locus": "1.10",
+      "phrase": "σχιζομένους (schizomenous)",
+      "older": "“the heavens opened” (KJV)",
+      "lectio": "“the sky torn open”",
+      "note": "Mark's verb is violent — it is the word used for tearing cloth, and he uses it again for the temple curtain at the crucifixion. Matthew and Luke both softened it to 'opened.' The tear is deliberate, and it frames the book."
+    },
+    {
+      "locus": "1.1",
+      "phrase": "υἱοῦ θεοῦ (“the Son of God”)",
+      "older": "printed without comment in most English Bibles",
+      "lectio": "printed, with the variant recorded",
+      "note": "These words are missing from some of the earliest manuscripts of Mark. This edition prints the majority reading and says so, because manuscripts are provenance."
+    },
+    {
+      "locus": "1.41",
+      "phrase": "σπλαγχνισθείς / ὀργισθείς",
+      "older": "“moved with compassion” (KJV, majority text)",
+      "lectio": "“moved to the depths”, with the variant recorded",
+      "note": "A few important manuscripts read 'moved with anger' instead of 'moved with compassion' — and the harder reading is often the older one. The Greek word behind 'compassion' is visceral (it names the inward organs), so this edition renders the depth rather than the sentiment, and records the variant."
+    },
+    {
+      "locus": "4.39",
+      "phrase": "σιώπα, πεφίμωσο (siōpa, pephimōso)",
+      "older": "“Peace, be still” (KJV)",
+      "lectio": "“Quiet. Be muzzled.”",
+      "note": "Jesus does not soothe the storm; he muzzles it. The second verb is the same one he uses on the unclean spirit in 1:25 — the sea is being silenced the way a demon is. The KJV's beautiful 'Peace, be still' hides the connection Mark built."
+    },
+    {
+      "locus": "5.34 and throughout",
+      "phrase": "σῴζω (sōzō)",
+      "older": "“made thee whole” / “saved” — split between two English words",
+      "lectio": "“saved”, kept as one word",
+      "note": "Mark uses a single verb for being healed, being rescued, and being saved. English Bibles split it — 'made whole' for bodies, 'saved' for souls — and the split is a theology the Greek does not make. This edition keeps one word so the reader can see the connection Mark saw."
+    },
+    {
+      "locus": "8.29",
+      "phrase": "ὁ Χριστός (ho Christos)",
+      "older": "“Thou art the Christ” (KJV)",
+      "lectio": "“You are the Messiah”",
+      "note": "Christos translates the Hebrew for 'anointed one' — it is a title being claimed, not a surname. Modern English readers hear 'Christ' as Jesus' last name, which empties the scene of everything that makes it the hinge of the book."
+    },
+    {
+      "locus": "9.43–48",
+      "phrase": "γέεννα (Gehenna)",
+      "older": "“hell” (KJV)",
+      "lectio": "“Gehenna”",
+      "note": "Gehenna is a place: the Valley of Hinnom, a ravine outside Jerusalem with a grim history, used as an image of final ruin. 'Hell' imports a later cosmology of the afterlife that the Greek word does not carry."
+    },
+    {
+      "locus": "9.29, 9.44, 9.46, 11.26",
+      "phrase": "“and fasting”; the repeated refrain",
+      "older": "“by prayer and fasting”; the worm-and-fire refrain printed three times (KJV)",
+      "lectio": "“by prayer”; the refrain printed once, at 48",
+      "note": "The earliest manuscripts lack 'and fasting' at 9:29, lack verses 9:44 and 9:46 entirely (the refrain was copied up from 9:48 by later scribes), and lack 11:26. This edition follows the earliest witnesses and records what it left out."
+    },
+    {
+      "locus": "16.8 — the ending",
+      "phrase": "ἐφοβοῦντο γάρ (ephobounto gar)",
+      "older": "the longer ending (16:9–20) printed as scripture, unmarked (KJV)",
+      "lectio": "verse 8 stands as the ending; 16:9–20 printed, marked as a later addition",
+      "note": "The oldest and best manuscripts of Mark stop at verse 8 — the women running from the tomb, saying nothing to anyone, afraid. It is the most abrupt ending in the Bible, and its abruptness is almost certainly deliberate: the reader is the one left to go and tell. The longer ending was written later, in a different style and vocabulary, to supply the resurrection appearances Mark never wrote. This edition prints it — it is old, it is loved, and it is scripture to millions — and says plainly what it is."
+    },
+    {
+      "locus": "15.34",
+      "phrase": "Ελωι ελωι λεμα σαβαχθανι",
+      "older": "rendered, then explained (KJV keeps the Aramaic and glosses it)",
+      "lectio": "kept in Aramaic, with the gloss",
+      "note": "Mark preserves the actual sounds of the language Jesus spoke at the two moments that matter most — 'Abba' in the garden and this cry from the cross — and then translates them for his Greek readers. Keeping the Aramaic is keeping Mark's own decision, and it is the whole premise of a vernacular Bible: the words were once somebody's everyday speech."
+    }
+  ],
+  "sections": [
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-01",
+      "order": 1,
+      "label": "Chapter 1",
+      "title": "The Beginning of the Good News",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The beginning of the good news of Jesus Christ, the Son of God. As it stands written in the prophet Isaiah — “Look, I am sending my messenger ahead of you; he will prepare your road. A voice shouts in the wilderness: Get the road ready for the Lord. Make his paths straight.”",
+          "spine": {
+            "from": "1.1",
+            "to": "1.3"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "John appeared, baptizing in the wilderness and announcing a baptism of turning back, for the forgiveness of sins. The whole Judean countryside went out to him, and all the people of Jerusalem; they were baptized by him in the Jordan River, confessing their sins. John wore camel's hair with a leather belt at his waist, and he ate locusts and wild honey.",
+          "spine": {
+            "from": "1.4",
+            "to": "1.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And this is what he announced: “After me comes one stronger than I am. I'm not fit to stoop down and untie the strap of his sandals. I baptized you with water. He will baptize you with the Holy Spirit.”",
+          "spine": {
+            "from": "1.7",
+            "to": "1.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. And right away, as he came up out of the water, he saw the sky torn open and the Spirit coming down on him like a dove. And a voice came from the sky: “You are my Son, the one I love. In you I take delight.”",
+          "spine": {
+            "from": "1.9",
+            "to": "1.11"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And right away the Spirit drove him out into the wilderness. He was in the wilderness forty days, tested by Satan. He was with the wild animals, and angels looked after him.",
+          "spine": {
+            "from": "1.12",
+            "to": "1.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "After John was arrested, Jesus came into Galilee announcing the good news of God: “The time is up. The kingdom of God has come near. Turn your lives around, and trust the good news.”",
+          "spine": {
+            "from": "1.14",
+            "to": "1.15"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Passing along the Sea of Galilee, he saw Simon, and Simon's brother Andrew, casting a net into the sea — they were fishermen. Jesus said to them, “Follow me, and I will make you fishers of people.” And right away they left their nets and followed him. Going on a little farther, he saw James the son of Zebedee and his brother John in their boat, mending the nets. Right away he called them; and they left their father Zebedee in the boat with the hired men, and went after him.",
+          "spine": {
+            "from": "1.16",
+            "to": "1.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "They went into Capernaum, and as soon as the Sabbath came he went into the synagogue and taught. And the people were astonished at his teaching, because he taught them like someone with authority — not like the scribes. Just then a man with an unclean spirit was there in their synagogue, and he screamed: “What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know who you are — the Holy One of God.” Jesus cut him off: “Quiet. Come out of him.” The unclean spirit convulsed the man, shrieked, and came out of him. Everyone was stunned, and they argued about it: “What is this? A new teaching — with authority. He gives orders even to the unclean spirits, and they obey him.” And right away the report of him went out everywhere, through the whole surrounding country of Galilee.",
+          "spine": {
+            "from": "1.21",
+            "to": "1.28"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "As soon as they left the synagogue, they went to the house of Simon and Andrew, with James and John. Simon's mother-in-law was lying down with a fever, and right away they told him about her. He went to her, took her hand, and lifted her up. The fever left her, and she waited on them.",
+          "spine": {
+            "from": "1.29",
+            "to": "1.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "That evening, after sunset, they brought him everyone who was sick or held by demons — the whole town was gathered at the door. He healed many who were sick with every kind of disease, and drove out many demons. And he would not let the demons speak, because they knew him.",
+          "spine": {
+            "from": "1.32",
+            "to": "1.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "Very early, while it was still dark, he got up, went out to a deserted place, and prayed there. Simon and his companions hunted him down, and when they found him they said, “Everyone is looking for you.” He said to them, “Let's go somewhere else — to the neighboring towns — so I can preach there too. That's what I came out to do.” And he went through all of Galilee, preaching in their synagogues and driving out demons.",
+          "spine": {
+            "from": "1.35",
+            "to": "1.39"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-01.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "A leper came to him, begging him on his knees: “If you want to, you can make me clean.” Moved to the depths, Jesus stretched out his hand, touched him, and said, “I want to. Be clean.” Right away the leprosy left him, and he was clean. Jesus sent him off at once with a stern warning: “See that you say nothing to anyone. Just go show yourself to the priest, and offer for your cleansing what Moses commanded — as proof for them.” But the man went out and started talking freely, spreading the story — so that Jesus could no longer enter a town openly, but stayed out in deserted places. And people kept coming to him from everywhere.",
+          "spine": {
+            "from": "1.40",
+            "to": "1.45"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-02",
+      "order": 2,
+      "label": "Chapter 2",
+      "title": "Authority, and the Company He Keeps",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "A few days later he came back into Capernaum, and word got out that he was home. So many people gathered that there was no room left, not even at the door, and he was speaking the word to them. Some men came, carrying a paralyzed man — four of them had him. When they couldn't get near Jesus because of the crowd, they tore open the roof above him, dug through it, and lowered the mat the paralyzed man was lying on. Jesus saw their faith and said to the man, “Son, your sins are forgiven.”",
+          "spine": {
+            "from": "2.1",
+            "to": "2.5"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Some of the scribes were sitting there, turning it over in their minds: “Why does this man talk like that? It's blasphemy. Who can forgive sins but God alone?” Right away Jesus knew in his spirit what they were thinking, and he said to them, “Why are you turning this over in your minds? Which is easier — to say to a paralyzed man, ‘Your sins are forgiven,’ or to say, ‘Get up, pick up your mat, and walk’? But so you'll know that the Son of Man has authority on earth to forgive sins” — he said to the paralyzed man — “I'm telling you: get up, pick up your mat, and go home.” And the man got up, picked up his mat right away, and walked out in front of all of them. They were beside themselves, and they praised God: “We have never seen anything like this.”",
+          "spine": {
+            "from": "2.6",
+            "to": "2.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "He went out again beside the sea. The whole crowd came to him, and he taught them. As he was walking along he saw Levi son of Alphaeus sitting at the tax booth, and he said to him, “Follow me.” And he got up and followed him.",
+          "spine": {
+            "from": "2.13",
+            "to": "2.14"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Later, while Jesus was at the table in Levi's house, a lot of tax collectors and sinners were eating with him and his disciples — there were many of them, and they followed him. When the scribes of the Pharisees saw him eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” Jesus heard it and said to them, “It's not the healthy who need a doctor — it's the sick. I didn't come to call the righteous. I came to call sinners.”",
+          "spine": {
+            "from": "2.15",
+            "to": "2.17"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "John's disciples and the Pharisees were fasting. People came and asked him, “Why do John's disciples fast, and the Pharisees' disciples, but yours don't?” Jesus said to them, “Can the wedding guests fast while the groom is with them? As long as they have the groom with them, they can't fast. But the days are coming when the groom will be taken away from them, and on that day they will fast.”",
+          "spine": {
+            "from": "2.18",
+            "to": "2.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "“Nobody sews a patch of unshrunk cloth onto an old coat. If he does, the new patch pulls away from the old, and the tear gets worse. And nobody pours new wine into old wineskins. If he does, the wine will burst the skins, and both the wine and the skins are lost. New wine goes into new wineskins.”",
+          "spine": {
+            "from": "2.21",
+            "to": "2.22"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-02.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "One Sabbath he was going through the grainfields, and as they walked his disciples began picking heads of grain. The Pharisees said to him, “Look — why are they doing what isn't allowed on the Sabbath?” He said to them, “Have you never read what David did when he was in need and hungry, he and the men with him? How he went into the house of God, when Abiathar was high priest, and ate the bread of the Presence, which only the priests are allowed to eat, and gave some to the men with him?” And he said to them, “The Sabbath was made for people, not people for the Sabbath. So the Son of Man is Lord even of the Sabbath.”",
+          "spine": {
+            "from": "2.23",
+            "to": "2.28"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-03",
+      "order": 3,
+      "label": "Chapter 3",
+      "title": "The Twelve, and the Divided House",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "He went into the synagogue again, and a man with a withered hand was there. They were watching him closely to see whether he would heal the man on the Sabbath, so they could bring a charge against him. He said to the man with the withered hand, “Stand up, here in front.” Then he said to them, “Is it allowed on the Sabbath to do good, or to do harm? To save a life, or to kill?” They said nothing. He looked around at them in anger, grieved at how hard their hearts were, and he said to the man, “Stretch out your hand.” He stretched it out, and his hand was restored. And the Pharisees went straight out and started plotting with the Herodians how to destroy him.",
+          "spine": {
+            "from": "3.1",
+            "to": "3.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Jesus withdrew with his disciples to the sea, and a great crowd followed from Galilee. And from Judea, Jerusalem, Idumea, the far side of the Jordan, and the region around Tyre and Sidon — a great crowd came to him, because they had heard what he was doing. He told his disciples to keep a small boat ready for him, so the crowd wouldn't crush him. He had healed so many that everyone with an affliction was pushing forward to touch him. And whenever the unclean spirits saw him, they fell down in front of him and screamed, “You are the Son of God!” And he warned them sharply not to make him known.",
+          "spine": {
+            "from": "3.7",
+            "to": "3.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "He went up the mountain and called the ones he wanted, and they came to him. He appointed twelve — he named them apostles — to be with him, and to be sent out to preach, and to have authority to drive out demons. So he appointed the twelve: Simon, to whom he gave the name Peter; James son of Zebedee and his brother John, to whom he gave the name Boanerges, which means Sons of Thunder; Andrew, Philip, Bartholomew, Matthew, Thomas, James son of Alphaeus, Thaddaeus, Simon the Cananaean, and Judas Iscariot, the one who handed him over.",
+          "spine": {
+            "from": "3.13",
+            "to": "3.19"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then he went home, and the crowd gathered again, so that they couldn't even eat. When his family heard about it, they went out to take charge of him — people were saying he was out of his mind.",
+          "spine": {
+            "from": "3.20",
+            "to": "3.21"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And the scribes who had come down from Jerusalem were saying, “He has Beelzebul,” and, “He drives out demons by the ruler of the demons.” So he called them over and spoke to them in comparisons: “How can Satan drive out Satan? If a kingdom is divided against itself, that kingdom can't stand. And if a house is divided against itself, that house can't stand. If Satan has risen against himself and is divided, he can't stand — that's the end of him. But no one can walk into a strong man's house and take his things unless he first ties up the strong man. Then he can rob the house.”",
+          "spine": {
+            "from": "3.22",
+            "to": "3.27"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "“I'm telling you the truth: people will be forgiven everything — every sin, and whatever blasphemies they speak. But whoever blasphemes against the Holy Spirit never has forgiveness; he is guilty of a lasting sin.” He said this because they were saying, “He has an unclean spirit.”",
+          "spine": {
+            "from": "3.28",
+            "to": "3.30"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-03.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Then his mother and his brothers came. They stood outside and sent word in to him, calling for him. A crowd was sitting around him, and they told him, “Look — your mother and your brothers are outside, asking for you.” He answered them, “Who is my mother? Who are my brothers?” And looking around at the people sitting in a circle about him, he said, “Here is my mother, here are my brothers. Whoever does what God wants is my brother and sister and mother.”",
+          "spine": {
+            "from": "3.31",
+            "to": "3.35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-04",
+      "order": 4,
+      "label": "Chapter 4",
+      "title": "What the Sower Went Out to Do",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Again he began to teach beside the sea. A crowd gathered around him so large that he got into a boat and sat there on the water, with the whole crowd on the shore facing him. He taught them many things in parables, and in his teaching he said: “Listen. A sower went out to sow. And as he sowed, some seed fell along the path, and the birds came and ate it up. Some fell on rocky ground, where it didn't have much soil, and it came up right away because the soil wasn't deep — but when the sun rose it was scorched, and because it had no root it withered. Some fell among thorns, and the thorns came up and choked it, and it produced nothing. And some fell into good soil, and it came up, and grew, and produced a crop — thirty times over, sixty times over, a hundred times over.” And he said, “If you have ears to hear with, hear.”",
+          "spine": {
+            "from": "4.1",
+            "to": "4.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "When he was alone, the people around him and the twelve asked him about the parables. He said to them, “To you the secret of the kingdom of God has been given. To those outside, everything comes in parables, so that they may look and look and never see, and listen and listen and never understand — or they might turn back, and be forgiven.”",
+          "spine": {
+            "from": "4.10",
+            "to": "4.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And he said to them, “You don't understand this parable? Then how will you understand any of them? The sower sows the word. Some people are the path where the word is sown: as soon as they hear it, Satan comes right away and takes away the word that was sown in them. Others are the rocky ground: they hear the word and take it in gladly, right away — but they have no root in themselves, they last a short time, and as soon as pressure or persecution comes because of the word, they fall away right away. Others are the ones sown among thorns: they hear the word, but the worries of this life, the lie that wealth tells, and the craving for everything else come in and choke the word, and it produces nothing. And the ones sown in good soil are those who hear the word and take it in and bear a crop — thirty times over, sixty times over, a hundred times over.”",
+          "spine": {
+            "from": "4.13",
+            "to": "4.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "And he said to them, “Does anyone bring in a lamp to put it under a basket, or under the bed? Doesn't it go on a stand? Nothing is hidden except to be brought out; nothing is covered up except to come into the open. If you have ears to hear with, hear.”",
+          "spine": {
+            "from": "4.21",
+            "to": "4.23"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "And he said to them, “Pay attention to what you hear. The measure you use will be used on you, and more besides. Whoever has will be given more; whoever has nothing will lose even what he has.”",
+          "spine": {
+            "from": "4.24",
+            "to": "4.25"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he said, “The kingdom of God is like this. A man scatters seed on the ground. He sleeps and gets up, night after night, day after day, and the seed sprouts and grows — he has no idea how. The earth produces a crop on its own: first the shoot, then the head, then the full grain in the head. And as soon as the crop is ready, he puts in the sickle, because the harvest has come.”",
+          "spine": {
+            "from": "4.26",
+            "to": "4.29"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And he said, “What can we compare the kingdom of God to? What picture can we use for it? It's like a mustard seed. When it's sown in the ground it's the smallest of all the seeds on earth — but once it's sown it comes up and becomes the largest of all the garden plants, and puts out branches so big that the birds of the sky can nest in its shade.”",
+          "spine": {
+            "from": "4.30",
+            "to": "4.32"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "He spoke the word to them in many parables like these, as much as they could take in. He didn't speak to them without a parable, but privately, with his own disciples, he explained everything.",
+          "spine": {
+            "from": "4.33",
+            "to": "4.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-04.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "That day, when evening came, he said to them, “Let's cross over to the other side.” So they left the crowd and took him along, just as he was, in the boat. Other boats were with him. A fierce squall came up, and the waves were breaking over the boat, so that it was already filling. He was in the stern, asleep on the cushion. They woke him and said, “Teacher, don't you care that we're going down?” He got up, gave an order to the wind, and said to the sea: “Quiet. Be muzzled.” The wind dropped, and everything went dead calm. He said to them, “Why are you so afraid? Do you still have no faith?” And they were terrified, and said to each other, “Who is this? Even the wind and the sea do what he says.”",
+          "spine": {
+            "from": "4.35",
+            "to": "4.41"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-05",
+      "order": 5,
+      "label": "Chapter 5",
+      "title": "Legion, and the Girl Who Got Up",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "They came to the other side of the sea, to the region of the Gerasenes. As soon as he stepped out of the boat, a man with an unclean spirit came out of the tombs to meet him. He lived among the tombs, and nobody could restrain him anymore, not even with a chain. He had often been shackled hand and foot, and he had wrenched the chains apart and smashed the shackles. Nobody was strong enough to subdue him. Night and day, in the tombs and on the hills, he kept screaming and cutting himself with stones.",
+          "spine": {
+            "from": "5.1",
+            "to": "5.5"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "When he saw Jesus from a distance he ran and fell down in front of him, and screamed at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? Swear to God you won't torture me!” — because Jesus had been saying to him, “Come out of the man, you unclean spirit.” And Jesus asked him, “What is your name?” He said, “My name is Legion — there are many of us.” And he begged Jesus over and over not to send them out of the region. Now a big herd of pigs was feeding there on the hillside, and the spirits begged him, “Send us into the pigs. Let us go into them.” He let them. And the unclean spirits came out and went into the pigs, and the herd — about two thousand of them — stampeded down the bank into the sea and drowned there.",
+          "spine": {
+            "from": "5.6",
+            "to": "5.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The men herding them ran off and told it in the town and out in the country, and people came to see what had happened. They came to Jesus and saw the man who had been possessed, the one who had had Legion, sitting there dressed and in his right mind — and they were frightened. The ones who had seen it told them what had happened to the man, and about the pigs. And they started begging Jesus to leave their district.",
+          "spine": {
+            "from": "5.14",
+            "to": "5.17"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "As he was getting into the boat, the man who had been possessed begged to go with him. Jesus wouldn't let him. He said, “Go home to your own people and tell them what the Lord has done for you, and how he had mercy on you.” So the man went off and started telling it all over the Decapolis — what Jesus had done for him. And everyone was amazed.",
+          "spine": {
+            "from": "5.18",
+            "to": "5.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "When Jesus had crossed back over to the other side, a large crowd gathered around him while he was beside the sea. One of the synagogue leaders came — Jairus was his name — and when he saw Jesus he fell at his feet and begged him and begged him: “My little girl is dying. Come and put your hands on her, so she'll be saved and live.” Jesus went with him, and a large crowd followed and pressed in on him.",
+          "spine": {
+            "from": "5.21",
+            "to": "5.24"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "There was a woman who had been bleeding for twelve years. She had suffered a great deal under many doctors and spent everything she had, and she was no better — she had gotten worse. She had heard about Jesus, and she came up behind him in the crowd and touched his coat, because she was telling herself, “If I can just touch his clothes, I'll be saved.” And right away the flow of her blood dried up, and she felt in her body that she was healed of her affliction.",
+          "spine": {
+            "from": "5.25",
+            "to": "5.29"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "Right away Jesus knew in himself that power had gone out of him. He turned around in the crowd and said, “Who touched my clothes?” His disciples said to him, “You see this crowd pressing in on you, and you say, ‘Who touched me?’” But he kept looking around to see who had done it. The woman, frightened and shaking, knowing what had happened to her, came and fell down in front of him and told him the whole truth. He said to her, “Daughter, your faith has saved you. Go in peace, and be free of your affliction.”",
+          "spine": {
+            "from": "5.30",
+            "to": "5.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "He was still speaking when people came from the synagogue leader's house and said, “Your daughter is dead. Why bother the teacher any longer?” Jesus overheard what they said and told the synagogue leader, “Don't be afraid. Just keep trusting.” He let no one go with him except Peter, James, and James's brother John. They came to the house, and he saw the commotion — people weeping and wailing loudly. He went in and said to them, “Why all this commotion and crying? The child isn't dead. She's asleep.” And they laughed at him. But he put them all outside, and took the child's father and mother and the ones with him, and went in where the child was.",
+          "spine": {
+            "from": "5.35",
+            "to": "5.40"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-05.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "He took the child by the hand and said to her, “Talitha koum” — which means, “Little girl, I'm telling you, get up.” And right away the girl got up and started walking around; she was twelve years old. And they were completely beside themselves. He gave them strict orders that nobody should know about it, and told them to give her something to eat.",
+          "spine": {
+            "from": "5.41",
+            "to": "5.43"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-06",
+      "order": 6,
+      "label": "Chapter 6",
+      "title": "No Honor at Home; Bread in the Wilderness",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "He left there and went to his hometown, and his disciples followed him. When the Sabbath came he began teaching in the synagogue, and many who heard him were astonished. “Where does this man get all this? What's this wisdom he's been given, and these miracles his hands are doing? Isn't this the carpenter, Mary's son, the brother of James and Joses and Judas and Simon? Aren't his sisters here with us?” And they took offense at him. Jesus said to them, “A prophet is not without honor — except in his hometown, among his own relatives, and in his own house.” And he couldn't do any miracle there, except that he put his hands on a few sick people and healed them. He was amazed at their lack of trust. And he went around the villages teaching.",
+          "spine": {
+            "from": "6.1",
+            "to": "6.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "He called the twelve and began sending them out two by two, and he gave them authority over unclean spirits. He told them to take nothing for the road but a staff — no bread, no bag, no money in their belts — to wear sandals but not to put on a second shirt. And he said to them, “Wherever you go into a house, stay there until you leave that place. And if anywhere won't welcome you and won't listen to you, when you leave, shake the dust off your feet as a testimony against them.” So they went out and announced that people should turn their lives around. They drove out many demons, and anointed many sick people with oil and healed them.",
+          "spine": {
+            "from": "6.7",
+            "to": "6.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "King Herod heard about it, because Jesus' name had become well known. People were saying, “John the Baptizer has been raised from the dead — that's why these powers are at work in him.” Others said, “He's Elijah.” Others said, “He's a prophet, like one of the old prophets.” But when Herod heard it he said, “John, the one I beheaded — he's been raised.”",
+          "spine": {
+            "from": "6.14",
+            "to": "6.16"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Herod himself had sent men to arrest John and had him tied up in prison, because of Herodias, his brother Philip's wife, whom Herod had married. John had been telling Herod, “You're not allowed to have your brother's wife.” So Herodias had a grudge against him and wanted to kill him, and couldn't — because Herod was afraid of John. He knew John was a righteous and holy man, and he protected him. When he listened to him he was deeply disturbed, and yet he liked listening to him.",
+          "spine": {
+            "from": "6.17",
+            "to": "6.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The opportunity came on Herod's birthday, when he gave a banquet for his officials and officers and the leading men of Galilee. Herodias's daughter came in and danced, and she delighted Herod and his guests. The king said to the girl, “Ask me for anything you want, and I'll give it to you.” And he swore to her, “Whatever you ask me for, I'll give you — up to half my kingdom.” She went out and said to her mother, “What should I ask for?” And she said, “The head of John the Baptizer.” She hurried straight back in to the king and made her request: “I want you to give me, right now, the head of John the Baptizer on a platter.”",
+          "spine": {
+            "from": "6.21",
+            "to": "6.25"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "The king was heartsick. But because of his oaths and his guests he didn't want to refuse her. Right away the king sent an executioner with orders to bring John's head. The man went and beheaded him in the prison, brought his head on a platter, and gave it to the girl, and the girl gave it to her mother. When John's disciples heard about it, they came and took his body and laid it in a tomb.",
+          "spine": {
+            "from": "6.26",
+            "to": "6.29"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "The apostles gathered around Jesus and reported to him everything they had done and everything they had taught. He said to them, “Come away by yourselves to a deserted place and rest a while” — because so many people were coming and going that they didn't even have a chance to eat. So they went away in the boat to a deserted place by themselves. But people saw them going, and many recognized them, and they ran there on foot from all the towns and got there ahead of them. When Jesus came ashore he saw a huge crowd, and he was moved to the depths for them, because they were like sheep without a shepherd. And he began to teach them many things.",
+          "spine": {
+            "from": "6.30",
+            "to": "6.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "It was getting late, and his disciples came to him and said, “This is a deserted place, and it's already late. Send them away, so they can go to the farms and villages around here and buy themselves something to eat.” He answered them, “You give them something to eat.” They said to him, “Are we supposed to go and spend two hundred days' wages on bread and give it to them to eat?” He said to them, “How many loaves do you have? Go and see.” When they found out they said, “Five — and two fish.”",
+          "spine": {
+            "from": "6.35",
+            "to": "6.38"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "He told them to get everyone to sit down in groups on the green grass. So they sat down in rows, in hundreds and fifties. He took the five loaves and the two fish, looked up to the sky, gave thanks, broke the loaves, and kept giving them to his disciples to set in front of the people; and he divided the two fish among them all. Everyone ate and had enough. And they picked up twelve baskets full of broken pieces, and of the fish. There were five thousand men who had eaten the loaves.",
+          "spine": {
+            "from": "6.39",
+            "to": "6.44"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "Right away he made his disciples get into the boat and go on ahead of him to Bethsaida, while he sent the crowd away. After saying goodbye to them he went up the mountain to pray. When evening came the boat was out in the middle of the sea, and he was alone on land. He saw them straining at the oars, because the wind was against them. And somewhere around three in the morning he came toward them, walking on the sea. He meant to pass by them. But when they saw him walking on the sea they thought he was a ghost, and they cried out — all of them saw him, and they were terrified. Right away he spoke to them: “Take heart. It's me. Don't be afraid.” And he got into the boat with them, and the wind dropped. They were completely astounded, because they hadn't understood about the loaves; their hearts were hardened.",
+          "spine": {
+            "from": "6.45",
+            "to": "6.52"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-06.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "When they had crossed over they came ashore at Gennesaret and tied up. As soon as they got out of the boat, people recognized him. They ran all over that whole region and began carrying the sick on mats to wherever they heard he was. And wherever he went — villages, towns, farms — they laid the sick in the marketplaces and begged him to let them touch even the edge of his coat. And everyone who touched it was saved.",
+          "spine": {
+            "from": "6.53",
+            "to": "6.56"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-07",
+      "order": 7,
+      "label": "Chapter 7",
+      "title": "What Actually Makes a Person Unclean",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "The Pharisees and some of the scribes who had come from Jerusalem gathered around him, and they saw that some of his disciples were eating with defiled hands — that is, unwashed. (The Pharisees, and all the Jews, don't eat unless they wash their hands a certain way, keeping the tradition of the elders; and when they come from the market they don't eat unless they wash. There are many other traditions they keep — the washing of cups and jugs and copper pots.) So the Pharisees and the scribes asked him, “Why don't your disciples live according to the tradition of the elders, instead of eating with defiled hands?”",
+          "spine": {
+            "from": "7.1",
+            "to": "7.5"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "He said to them, “Isaiah was right about you hypocrites. As it stands written: ‘These people honor me with their lips, but their hearts are far away from me. What they teach as doctrine is nothing but human rules.’ You let go of God's command and hold on to human tradition.”",
+          "spine": {
+            "from": "7.6",
+            "to": "7.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And he said to them, “You have a fine way of setting aside God's command in order to keep your own tradition. Moses said, ‘Honor your father and your mother,’ and, ‘Anyone who speaks evil of father or mother must die.’ But you say that if a man tells his father or mother, ‘Whatever help you might have had from me is Corban’ — that is, an offering — then you no longer let him do anything for his father or mother. So you cancel God's word with the tradition you've handed down. And you do plenty of things like that.”",
+          "spine": {
+            "from": "7.9",
+            "to": "7.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "He called the crowd to him again and said, “All of you, listen to me, and understand. There is nothing outside a person that can make him unclean by going into him. What comes out of a person is what makes him unclean.”",
+          "spine": {
+            "from": "7.14",
+            "to": "7.16"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "When he had left the crowd and gone into the house, his disciples asked him about the comparison. He said to them, “Are you as slow as the rest? Don't you see that nothing that goes into a person from outside can make him unclean, because it doesn't go into his heart but into his stomach, and then out into the latrine?” (Saying this, he declared all foods clean.)",
+          "spine": {
+            "from": "7.17",
+            "to": "7.19"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he said, “What comes out of a person is what makes him unclean. From inside — out of the human heart — come the evil thoughts: sexual immorality, theft, murder, adultery, greed, malice, deceit, indecency, envy, slander, arrogance, folly. All these evils come from inside, and they make a person unclean.”",
+          "spine": {
+            "from": "7.20",
+            "to": "7.23"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "He got up and left there for the region of Tyre. He went into a house and didn't want anyone to know, but he couldn't stay hidden. Right away a woman whose little daughter had an unclean spirit heard about him and came and fell at his feet. The woman was Greek, Syrophoenician by birth, and she kept asking him to drive the demon out of her daughter.",
+          "spine": {
+            "from": "7.24",
+            "to": "7.26"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "He said to her, “Let the children eat their fill first. It isn't right to take the children's bread and throw it to the dogs.” She answered him, “Lord — even the dogs under the table eat the children's crumbs.” And he said to her, “For saying that, go — the demon has left your daughter.” She went home and found the child lying on the bed, and the demon gone.",
+          "spine": {
+            "from": "7.27",
+            "to": "7.30"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-07.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "Then he left the region of Tyre and went through Sidon to the Sea of Galilee, right through the middle of the Decapolis region. They brought him a man who was deaf and could barely speak, and they begged him to put his hand on him. He took the man away from the crowd, off by himself, put his fingers in the man's ears, spat, and touched his tongue. He looked up to the sky, groaned, and said to him, “Ephphatha” — that is, “Be opened.” And the man's ears were opened, the knot of his tongue was untied, and he began speaking clearly. Jesus ordered them not to tell anyone. But the more he ordered them, the more they kept spreading it. They were astounded beyond measure. “He has done everything well,” they said. “He even makes the deaf hear and the mute speak.”",
+          "spine": {
+            "from": "7.31",
+            "to": "7.37"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-08",
+      "order": 8,
+      "label": "Chapter 8",
+      "title": "Who Do You Say I Am",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "In those days there was another large crowd with nothing to eat. Jesus called his disciples and said to them, “I'm moved to the depths for these people. They've been with me three days now and they have nothing to eat. If I send them home hungry they'll collapse on the road — some of them have come a long way.” His disciples answered him, “Where out here in this wilderness could anyone get enough bread to feed them?” He asked them, “How many loaves do you have?” They said, “Seven.” He told the crowd to sit down on the ground. He took the seven loaves, gave thanks, broke them, and kept giving them to his disciples to set out, and they set them in front of the crowd. They also had a few small fish, and after blessing them he told the disciples to set those out too. The people ate and had enough, and they picked up seven basketfuls of leftover pieces. There were about four thousand of them. He sent them away.",
+          "spine": {
+            "from": "8.1",
+            "to": "8.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Right away he got into the boat with his disciples and went to the district of Dalmanutha. The Pharisees came out and started arguing with him. They were testing him, demanding a sign from heaven. He sighed from deep inside and said, “Why does this generation demand a sign? I'm telling you the truth: no sign will be given to this generation.” And he left them, got back in the boat, and went to the other side.",
+          "spine": {
+            "from": "8.10",
+            "to": "8.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The disciples had forgotten to bring bread; they had only one loaf with them in the boat. And he warned them, “Watch out — keep your eyes open for the yeast of the Pharisees and the yeast of Herod.” They started arguing with each other about having no bread. Jesus knew it and said to them, “Why are you arguing about having no bread? Do you still not see it? Do you still not understand? Are your hearts hardened? You have eyes — don't you see? You have ears — don't you hear? Don't you remember? When I broke the five loaves for the five thousand, how many basketfuls of pieces did you pick up?” They said, “Twelve.” “And when I broke the seven for the four thousand, how many basketfuls did you pick up?” They said, “Seven.” And he said to them, “Do you still not understand?”",
+          "spine": {
+            "from": "8.14",
+            "to": "8.21"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "They came to Bethsaida, and people brought him a blind man and begged Jesus to touch him. He took the blind man by the hand and led him outside the village. He spat on the man's eyes, put his hands on him, and asked him, “Do you see anything?” The man looked up and said, “I see people — they look like trees, walking around.” Then Jesus put his hands on the man's eyes again, and he looked hard, and his sight came back, and he saw everything clearly. Jesus sent him home and said, “Don't even go into the village.”",
+          "spine": {
+            "from": "8.22",
+            "to": "8.26"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Jesus went off with his disciples to the villages around Caesarea Philippi, and on the road he asked them, “Who do people say I am?” They told him, “John the Baptizer. Others say Elijah. Others say one of the prophets.” And he asked them, “But you — who do you say I am?” Peter answered, “You are the Messiah.” And he warned them not to tell anyone about him.",
+          "spine": {
+            "from": "8.27",
+            "to": "8.30"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And he began to teach them that the Son of Man had to suffer a great deal, and be rejected by the elders and the chief priests and the scribes, and be killed, and after three days rise. He said all this out in the open. And Peter took him aside and started correcting him. But Jesus turned around, looked at his disciples, and rebuked Peter: “Get behind me, Satan. You're not thinking God's thoughts — you're thinking human ones.”",
+          "spine": {
+            "from": "8.31",
+            "to": "8.33"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-08.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "He called the crowd to him, along with his disciples, and said to them, “If anyone wants to come after me, he has to say no to himself, and pick up his cross, and follow me. Whoever wants to save his life will lose it, and whoever loses his life for me and for the good news will save it. What good is it for a man to gain the whole world and forfeit his life? What could a man give in exchange for his life? If anyone is ashamed of me and my words in this unfaithful and sinful generation, the Son of Man will be ashamed of him too, when he comes in his Father's glory with the holy angels.”",
+          "spine": {
+            "from": "8.34",
+            "to": "8.38"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-09",
+      "order": 9,
+      "label": "Chapter 9",
+      "title": "The Mountain, and the Argument on the Road",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And he said to them, “I'm telling you the truth: some of the people standing here will not taste death before they see the kingdom of God come in power.” Six days later Jesus took Peter and James and John and led them up a high mountain by themselves, alone. And he was transformed in front of them. His clothes became a blinding white, whiter than anyone on earth could bleach them. And Elijah appeared to them, with Moses, and they were talking with Jesus. Peter spoke up and said to Jesus, “Rabbi, it's good that we're here. Let us put up three shelters — one for you, one for Moses, one for Elijah.” He didn't know what to say; they were terrified. Then a cloud came and overshadowed them, and a voice came out of the cloud: “This is my Son, the one I love. Listen to him.” And suddenly, looking around, they saw no one with them anymore — only Jesus.",
+          "spine": {
+            "from": "9.1",
+            "to": "9.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "On the way down the mountain he ordered them not to tell anyone what they had seen until the Son of Man had risen from the dead. They held on to that, arguing with each other about what rising from the dead could mean. And they asked him, “Why do the scribes say Elijah has to come first?” He said to them, “Elijah does come first, and he restores everything. Then why is it written that the Son of Man must suffer a great deal and be treated as nothing? But I'm telling you, Elijah has already come, and they did whatever they wanted to him — just as it is written about him.”",
+          "spine": {
+            "from": "9.9",
+            "to": "9.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "When they came back to the other disciples they saw a large crowd around them, and scribes arguing with them. Right away, as soon as the whole crowd saw Jesus, they were overcome with awe, and they ran to greet him. He asked them, “What are you arguing about with them?” Someone in the crowd answered him, “Teacher, I brought you my son. He has a spirit that has taken his speech. Wherever it seizes him it throws him down, and he foams at the mouth and grinds his teeth and goes rigid. I asked your disciples to drive it out, and they couldn't.” He answered them, “You faithless generation — how long do I have to be with you? How long do I have to put up with you? Bring him to me.” They brought the boy to him, and as soon as the spirit saw Jesus it convulsed him, and he fell on the ground and rolled around, foaming.",
+          "spine": {
+            "from": "9.14",
+            "to": "9.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Jesus asked his father, “How long has this been happening to him?” He said, “Since he was a child. It has often thrown him into fire and into water to destroy him. But if you can do anything, have pity on us and help us.” Jesus said to him, “‘If you can’ — everything is possible for the one who trusts.” Right away the boy's father cried out, “I do trust. Help me where I don't.”",
+          "spine": {
+            "from": "9.21",
+            "to": "9.24"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "When Jesus saw a crowd running together, he rebuked the unclean spirit: “You spirit that takes speech and hearing, I order you — come out of him, and never go into him again.” It shrieked, convulsed him violently, and came out. And the boy looked like a corpse, so that most of them said he was dead. But Jesus took him by the hand and lifted him up, and he stood. When Jesus had gone into the house, his disciples asked him privately, “Why couldn't we drive it out?” He said to them, “This kind can't be driven out by anything but prayer.”",
+          "spine": {
+            "from": "9.25",
+            "to": "9.29"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "They left there and went on through Galilee, and he didn't want anyone to know — because he was teaching his disciples. He was telling them, “The Son of Man is being handed over into human hands. They will kill him, and three days after he is killed he will rise.” But they didn't understand what he was saying, and they were afraid to ask him.",
+          "spine": {
+            "from": "9.30",
+            "to": "9.32"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "They came to Capernaum. When he was in the house he asked them, “What were you arguing about on the road?” They kept quiet — because on the road they had been arguing with each other about who was the greatest. He sat down, called the twelve, and said to them, “If anyone wants to be first, he has to be last of all, and the servant of all.” And he took a child and stood him in the middle of them, and he put his arms around the child and said to them, “Whoever welcomes one child like this in my name welcomes me; and whoever welcomes me isn't welcoming me but the one who sent me.”",
+          "spine": {
+            "from": "9.33",
+            "to": "9.37"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "John said to him, “Teacher, we saw someone driving out demons in your name, and we tried to stop him, because he wasn't following us.” Jesus said, “Don't stop him. Nobody who does a miracle in my name can turn around and speak evil of me. Whoever isn't against us is for us. And whoever gives you a cup of water to drink because you belong to the Messiah — I'm telling you the truth, he will not lose his reward.”",
+          "spine": {
+            "from": "9.38",
+            "to": "9.41"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-09.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "“And whoever trips up one of these little ones who trust me — it would be better for him if he were thrown into the sea with a millstone around his neck. If your hand trips you up, cut it off. It's better to enter life crippled than to have two hands and go into Gehenna, into the fire that never goes out. If your foot trips you up, cut it off. It's better to enter life lame than to have two feet and be thrown into Gehenna. And if your eye trips you up, tear it out. It's better to enter the kingdom of God with one eye than to have two eyes and be thrown into Gehenna, where their worm does not die and the fire is not put out. Everyone will be salted with fire. Salt is good — but if the salt goes flat, what will you season it with? Have salt in yourselves, and be at peace with each other.”",
+          "spine": {
+            "from": "9.42",
+            "to": "9.50"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-10",
+      "order": 10,
+      "label": "Chapter 10",
+      "title": "The Road Up to Jerusalem",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "He got up and left there for the region of Judea, and across the Jordan. Crowds gathered around him again, and as usual he taught them. Some Pharisees came up to test him, and asked whether a man is allowed to divorce his wife. He answered them, “What did Moses command you?” They said, “Moses allowed a man to write a certificate of dismissal and send her away.” Jesus said to them, “He wrote you that command because your hearts are hard. But from the beginning of creation, ‘God made them male and female.’ ‘For this reason a man will leave his father and mother and hold fast to his wife, and the two will become one flesh.’ So they are no longer two — they are one flesh. What God has joined together, no one should separate.”",
+          "spine": {
+            "from": "10.1",
+            "to": "10.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Back in the house the disciples asked him about this again. He said to them, “Whoever divorces his wife and marries another commits adultery against her. And if she divorces her husband and marries another, she commits adultery.”",
+          "spine": {
+            "from": "10.10",
+            "to": "10.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "People were bringing him little children so he could touch them, and the disciples scolded them. When Jesus saw it he was indignant, and said to them, “Let the children come to me. Don't stop them. The kingdom of God belongs to people like these. I'm telling you the truth: whoever doesn't welcome the kingdom of God the way a child does will never get in.” And he put his arms around them, laid his hands on them, and blessed them.",
+          "spine": {
+            "from": "10.13",
+            "to": "10.16"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "As he was setting out on the road, a man ran up, knelt in front of him, and asked him, “Good teacher, what do I have to do to inherit eternal life?” Jesus said to him, “Why do you call me good? Nobody is good but God alone. You know the commandments: don't murder, don't commit adultery, don't steal, don't give false testimony, don't defraud, honor your father and mother.” He said to him, “Teacher, I've kept all of these since I was a boy.” Jesus looked straight at him and loved him, and said, “You're short one thing. Go, sell what you have and give it to the poor, and you'll have treasure in heaven. Then come, follow me.” The man's face fell at that, and he went away grieving — because he owned a great deal.",
+          "spine": {
+            "from": "10.17",
+            "to": "10.22"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Jesus looked around and said to his disciples, “How hard it is for people with money to get into the kingdom of God.” The disciples were stunned at his words. But Jesus said to them again, “Children, how hard it is to get into the kingdom of God. It's easier for a camel to go through the eye of a needle than for a rich man to get into the kingdom of God.” They were completely astounded, and said to each other, “Then who can be saved?” Jesus looked at them and said, “For human beings it's impossible — but not for God. Everything is possible for God.”",
+          "spine": {
+            "from": "10.23",
+            "to": "10.27"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "Peter started in on him: “Look, we've left everything and followed you.” Jesus said, “I'm telling you the truth: there is no one who has left house or brothers or sisters or mother or father or children or fields for me and for the good news who will not get back a hundred times as much — now, in this present time, houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life. But many who are first will be last, and the last first.”",
+          "spine": {
+            "from": "10.28",
+            "to": "10.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "They were on the road going up to Jerusalem, and Jesus was walking ahead of them. They were bewildered, and the ones following were afraid. He took the twelve aside again and began telling them what was going to happen to him. “Look — we're going up to Jerusalem, and the Son of Man will be handed over to the chief priests and the scribes. They will condemn him to death and hand him over to the Gentiles. They will mock him and spit on him and flog him and kill him. And after three days he will rise.”",
+          "spine": {
+            "from": "10.32",
+            "to": "10.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "James and John, the sons of Zebedee, came up to him and said, “Teacher, we want you to do for us whatever we ask.” He said to them, “What do you want me to do for you?” They said, “Let us sit at your right and your left in your glory.” Jesus said to them, “You have no idea what you're asking. Can you drink the cup I'm drinking? Can you be baptized with the baptism I'm being baptized with?” They said to him, “We can.” Jesus said to them, “The cup I drink, you will drink; and the baptism I'm baptized with, you will be baptized with. But to sit at my right or my left isn't mine to give. It belongs to those it has been prepared for.”",
+          "spine": {
+            "from": "10.35",
+            "to": "10.40"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "When the ten heard about it they were furious with James and John. Jesus called them over and said to them, “You know that the ones who count as rulers over the nations lord it over them, and their great men throw their weight around. It isn't like that among you. Whoever wants to be great among you must be your servant, and whoever wants to be first among you must be everyone's slave. Because even the Son of Man didn't come to be served — he came to serve, and to give his life as a ransom for many.”",
+          "spine": {
+            "from": "10.41",
+            "to": "10.45"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-10.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "They came to Jericho. And as he was leaving Jericho with his disciples and a large crowd, a blind beggar was sitting by the road — Bartimaeus, son of Timaeus. When he heard it was Jesus of Nazareth, he started shouting, “Jesus, son of David, have mercy on me!” Plenty of people told him to be quiet, but he shouted all the louder, “Son of David, have mercy on me!” Jesus stopped and said, “Call him.” So they called the blind man: “Take heart. Get up. He's calling you.” He threw off his coat, jumped up, and came to Jesus. Jesus said to him, “What do you want me to do for you?” The blind man said, “Rabbi, let me see again.” Jesus said to him, “Go. Your faith has saved you.” And right away he could see, and he followed him down the road.",
+          "spine": {
+            "from": "10.46",
+            "to": "10.52"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-11",
+      "order": 11,
+      "label": "Chapter 11",
+      "title": "Into the City, and Into the Temple",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When they were getting close to Jerusalem, near Bethphage and Bethany at the Mount of Olives, he sent two of his disciples ahead and said to them, “Go into the village over there. As soon as you enter it you'll find a colt tied up that nobody has ever ridden. Untie it and bring it. And if anyone says to you, ‘Why are you doing that?’ — say, ‘The Lord needs it, and he'll send it back here right away.’” They went and found a colt out in the street, tied at a doorway, and they untied it. Some of the people standing there said, “What are you doing, untying that colt?” They said what Jesus had told them to say, and the people let them go.",
+          "spine": {
+            "from": "11.1",
+            "to": "11.6"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "They brought the colt to Jesus and threw their coats over it, and he sat on it. Many people spread their coats on the road, and others spread branches they had cut in the fields. And the ones in front and the ones behind were shouting: “Hosanna! Blessed is the one who comes in the name of the Lord! Blessed is the coming kingdom of our father David! Hosanna in the highest!” And he came into Jerusalem, into the temple. He looked around at everything, and since it was already late, he went out to Bethany with the twelve.",
+          "spine": {
+            "from": "11.7",
+            "to": "11.11"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The next day, as they were leaving Bethany, he was hungry. He saw a fig tree in the distance with leaves on it, and he went to see whether he could find anything on it. When he got there he found nothing but leaves — it wasn't the season for figs. And he said to it, “May no one ever eat fruit from you again.” And his disciples heard him.",
+          "spine": {
+            "from": "11.12",
+            "to": "11.14"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "They came to Jerusalem, and he went into the temple and began driving out the ones selling and buying there. He overturned the tables of the money changers and the seats of the ones selling doves, and he wouldn't let anyone carry goods through the temple. And he taught them: “Isn't it written, ‘My house will be called a house of prayer for all the nations’? But you have made it a hideout for bandits.” The chief priests and the scribes heard it, and they started looking for a way to destroy him — because they were afraid of him, since the whole crowd was astonished at his teaching. And when evening came, they went out of the city.",
+          "spine": {
+            "from": "11.15",
+            "to": "11.19"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "In the morning, as they were passing by, they saw the fig tree withered from the roots. Peter remembered and said to him, “Rabbi — look, the fig tree you cursed has withered.” And Jesus said to them, “Have faith in God. I'm telling you the truth: if anyone says to this mountain, ‘Get up and throw yourself into the sea,’ and doesn't doubt in his heart but trusts that what he says will happen — it will be done for him. So I'm telling you: whatever you ask for in prayer, trust that you have received it, and it will be yours. And whenever you stand praying, if you have anything against anyone, forgive — so that your Father in heaven will forgive you your wrongs too.”",
+          "spine": {
+            "from": "11.20",
+            "to": "11.26"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-11.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "They came into Jerusalem again, and as he was walking in the temple the chief priests and the scribes and the elders came up to him and said, “By what authority are you doing these things? Who gave you the authority to do them?” Jesus said to them, “I'll ask you one question. Answer me, and I'll tell you by what authority I do these things. John's baptism — was it from heaven, or from human beings? Answer me.” And they argued it out among themselves: “If we say ‘From heaven,’ he'll say, ‘Then why didn't you believe him?’ But if we say ‘From human beings’ —” they were afraid of the crowd, because everyone held that John was really a prophet. So they answered Jesus, “We don't know.” And Jesus said to them, “Then I won't tell you by what authority I do these things either.”",
+          "spine": {
+            "from": "11.27",
+            "to": "11.33"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-12",
+      "order": 12,
+      "label": "Chapter 12",
+      "title": "The Vineyard, the Coin, and the Widow",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "And he began to speak to them in parables. “A man planted a vineyard. He put a wall around it, dug a pit for the winepress, and built a watchtower. Then he leased it to tenant farmers and went abroad. At harvest time he sent a servant to the tenants to collect his share of the crop. They grabbed him, beat him, and sent him away with nothing. So he sent them another servant. That one they struck on the head and humiliated. He sent another, and that one they killed — and many others, beating some and killing some. He had one left to send, a son he loved. He sent him to them last of all, saying, ‘They'll respect my son.’ But those tenants said to each other, ‘This is the heir. Come on — let's kill him, and the inheritance will be ours.’ So they took him and killed him and threw him out of the vineyard. What will the owner of the vineyard do? He will come and destroy those tenants and give the vineyard to others.",
+          "spine": {
+            "from": "12.1",
+            "to": "12.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "“Haven't you read this scripture? ‘The stone the builders threw away has become the cornerstone. This is the Lord's doing, and it is a wonder in our eyes.’” They wanted to arrest him, because they knew he had told the parable against them — but they were afraid of the crowd. So they left him and went away.",
+          "spine": {
+            "from": "12.10",
+            "to": "12.12"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "They sent some of the Pharisees and Herodians to him, to trap him in something he said. They came and said to him, “Teacher, we know you're honest and that you don't defer to anyone, because you don't look at people's faces — you teach the way of God truthfully. Is it lawful to pay the tax to Caesar or not? Should we pay, or shouldn't we?” He saw through their act and said to them, “Why are you testing me? Bring me a denarius and let me look at it.” They brought one, and he said to them, “Whose image is this? Whose inscription?” They said to him, “Caesar's.” And Jesus said to them, “Give Caesar back what belongs to Caesar, and give God what belongs to God.” And they were amazed at him.",
+          "spine": {
+            "from": "12.13",
+            "to": "12.17"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "Then the Sadducees came to him — the ones who say there is no resurrection — and they asked him, “Teacher, Moses wrote for us that if a man's brother dies and leaves a wife but no child, the man should marry the widow and raise up offspring for his brother. There were seven brothers. The first married and died without leaving offspring. The second married her and died, leaving no offspring; and the third the same. None of the seven left offspring. Last of all the woman died too. In the resurrection, when they rise, whose wife will she be? All seven had her.” Jesus said to them, “Isn't this exactly why you're wrong — because you don't know the scriptures or the power of God? When people rise from the dead they don't marry and aren't given in marriage; they are like the angels in heaven. And about the dead being raised — haven't you read in the book of Moses, in the passage about the bush, how God said to him, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’? He is not the God of the dead but of the living. You are badly wrong.”",
+          "spine": {
+            "from": "12.18",
+            "to": "12.27"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "One of the scribes came up and heard them arguing. He saw that Jesus had answered them well, and he asked him, “Which commandment is first of all?” Jesus answered, “The first is: ‘Listen, Israel — the LORD our God, the LORD is one. And you shall love the LORD your God with all your heart and with all your soul and with all your mind and with all your strength.’ The second is this: ‘You shall love your neighbor as yourself.’ There is no commandment greater than these.”",
+          "spine": {
+            "from": "12.28",
+            "to": "12.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "And the scribe said to him, “Well said, teacher. You're right that he is one, and there is no other besides him — and to love him with all your heart and all your understanding and all your strength, and to love your neighbor as yourself, is worth far more than all the burnt offerings and sacrifices.” When Jesus saw that he had answered thoughtfully, he said to him, “You are not far from the kingdom of God.” And after that no one dared to ask him anything.",
+          "spine": {
+            "from": "12.32",
+            "to": "12.34"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "While he was teaching in the temple, Jesus said, “How can the scribes say that the Messiah is David's son? David himself, by the Holy Spirit, said: ‘The LORD said to my Lord, Sit at my right hand until I put your enemies under your feet.’ David himself calls him Lord — so how can he be his son?” And the large crowd listened to him gladly.",
+          "spine": {
+            "from": "12.35",
+            "to": "12.37"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "In his teaching he said, “Watch out for the scribes. They like to walk around in long robes, and to be greeted in the marketplaces, and to have the best seats in the synagogues and the places of honor at banquets. They eat up widows' houses and say long prayers for show. They will get a heavier sentence.”",
+          "spine": {
+            "from": "12.38",
+            "to": "12.40"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-12.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "He sat down across from the treasury and watched the crowd putting money into it. Many rich people put in a great deal. And one poor widow came and put in two lepta — the smallest coins there are. He called his disciples over and said to them, “I'm telling you the truth: this poor widow has put in more than everyone else putting money into the treasury. They all gave out of what they had left over. She, out of her need, gave everything she had — her whole living.”",
+          "spine": {
+            "from": "12.41",
+            "to": "12.44"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-13",
+      "order": 13,
+      "label": "Chapter 13",
+      "title": "Not One Stone Left on Another",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "As he was going out of the temple, one of his disciples said to him, “Teacher — look at these stones! Look at these buildings!” And Jesus said to him, “You see these great buildings? Not one stone will be left here on another. Every one will be thrown down.” While he was sitting on the Mount of Olives, facing the temple, Peter and James and John and Andrew asked him privately, “Tell us — when will these things happen? And what will be the sign that they're all about to be finished?”",
+          "spine": {
+            "from": "13.1",
+            "to": "13.4"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Jesus began to say to them: “Watch out that nobody leads you astray. Many will come using my name and saying, ‘I'm the one,’ and they will lead many astray. When you hear of wars and rumors of wars, don't be alarmed. It has to happen, but it isn't the end yet. Nation will rise against nation, and kingdom against kingdom. There will be earthquakes in place after place; there will be famines. These are the beginning of the birth pains.",
+          "spine": {
+            "from": "13.5",
+            "to": "13.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "“But watch out for yourselves. They will hand you over to the councils, and you'll be beaten in the synagogues, and you'll stand before governors and kings because of me, as a testimony to them. And the good news has to be announced first to all the nations. When they arrest you and hand you over, don't worry beforehand about what to say. Say whatever is given to you at that moment — because it isn't you speaking, it's the Holy Spirit. Brother will hand over brother to death, and a father his child; children will rise against their parents and have them put to death. And you will be hated by everyone because of my name. But whoever holds out to the end will be saved.",
+          "spine": {
+            "from": "13.9",
+            "to": "13.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "“When you see the abomination of desolation standing where it should not” — let the reader understand — “then the people in Judea must run for the hills. Anyone on the roof must not go down or go inside to take anything out of the house. Anyone out in the field must not turn back to get his coat. It will be terrible for women who are pregnant or nursing in those days. Pray that it doesn't happen in winter. Because those days will be a suffering like nothing since the beginning of the creation God made until now — and never will be again. If the Lord had not cut those days short, nobody at all would be saved; but for the sake of the chosen, the ones he chose, he cut those days short.",
+          "spine": {
+            "from": "13.14",
+            "to": "13.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "“And if anyone says to you then, ‘Look, here's the Messiah,’ or, ‘Look, there he is,’ don't believe it. False messiahs and false prophets will appear and produce signs and wonders to lead astray, if possible, even the chosen. So watch out. I've told you everything ahead of time.",
+          "spine": {
+            "from": "13.21",
+            "to": "13.23"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "“But in those days, after that suffering, the sun will go dark, and the moon won't give its light; the stars will be falling from the sky, and the powers in the heavens will be shaken. And then they will see the Son of Man coming in clouds with great power and glory. And then he will send out the angels and gather his chosen from the four winds, from the ends of the earth to the ends of the sky.",
+          "spine": {
+            "from": "13.24",
+            "to": "13.27"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "“Learn the lesson of the fig tree. As soon as its branch turns soft and puts out leaves, you know that summer is near. In the same way, when you see these things happening, you know that he is near, right at the door. I'm telling you the truth: this generation will not pass away until all these things have happened. Heaven and earth will pass away, but my words will not pass away.",
+          "spine": {
+            "from": "13.28",
+            "to": "13.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-13.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "“But about that day or that hour nobody knows — not the angels in heaven, not the Son, only the Father. Watch out. Stay awake. You don't know when the time is coming. It's like a man going abroad: he leaves his house and puts his servants in charge, each with his own work, and tells the doorkeeper to stay awake. So stay awake — because you don't know when the master of the house is coming: evening, or midnight, or when the rooster crows, or dawn. He might come suddenly and find you asleep. And what I say to you I say to everyone: stay awake.”",
+          "spine": {
+            "from": "13.32",
+            "to": "13.37"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-14",
+      "order": 14,
+      "label": "Chapter 14",
+      "title": "The Supper, the Garden, the Courtyard",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "It was two days before the Passover and the Festival of Unleavened Bread, and the chief priests and the scribes were looking for a way to arrest him by stealth and kill him. They kept saying, “Not during the festival — the people might riot.”",
+          "spine": {
+            "from": "14.1",
+            "to": "14.2"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "He was in Bethany, at the house of Simon the leper, reclining at the table, when a woman came in with an alabaster jar of pure nard, very costly. She broke the jar and poured it over his head. Some of them were furious with each other about it: “What was the point of wasting the perfume? It could have been sold for more than three hundred denarii and given to the poor.” And they scolded her. But Jesus said, “Leave her alone. Why are you giving her trouble? She has done a fine thing for me. You always have the poor with you, and you can do good for them whenever you want. You will not always have me. She did what she could. She anointed my body ahead of time, for burial. I'm telling you the truth: wherever the good news is announced in the whole world, what she has done will be told too, in memory of her.”",
+          "spine": {
+            "from": "14.3",
+            "to": "14.9"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And Judas Iscariot, one of the twelve, went off to the chief priests to hand him over to them. When they heard it they were delighted, and promised to give him money. And he started looking for the right moment to hand him over.",
+          "spine": {
+            "from": "14.10",
+            "to": "14.11"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "On the first day of Unleavened Bread, when the Passover lamb was killed, his disciples said to him, “Where do you want us to go and get things ready for you to eat the Passover?” He sent two of his disciples and said to them, “Go into the city, and a man carrying a jar of water will meet you. Follow him. Wherever he goes in, tell the owner of the house, ‘The Teacher says: Where is my guest room, where I can eat the Passover with my disciples?’ He'll show you a large upstairs room, furnished and ready. Get things ready for us there.” The disciples went out, came into the city, found everything just as he had told them, and got the Passover ready.",
+          "spine": {
+            "from": "14.12",
+            "to": "14.16"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "When evening came he arrived with the twelve. And while they were reclining at the table eating, Jesus said, “I'm telling you the truth: one of you is going to hand me over — one who is eating with me.” They started to grieve, and to say to him one after another, “Not me?” He said to them, “One of the twelve — one dipping into the bowl with me. The Son of Man goes as it is written about him. But it will be terrible for the man who hands the Son of Man over. It would have been better for him if he had never been born.”",
+          "spine": {
+            "from": "14.17",
+            "to": "14.21"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "While they were eating, he took bread, blessed it, broke it, and gave it to them, and said, “Take it. This is my body.” And he took a cup, gave thanks, and gave it to them, and they all drank from it. And he said to them, “This is my blood of the covenant, poured out for many. I'm telling you the truth: I will never drink from the fruit of the vine again until the day I drink it new in the kingdom of God.” And after singing the hymn they went out to the Mount of Olives.",
+          "spine": {
+            "from": "14.22",
+            "to": "14.26"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And Jesus said to them, “Every one of you will fall away, because it is written: ‘I will strike the shepherd, and the sheep will be scattered.’ But after I am raised, I will go ahead of you into Galilee.” Peter said to him, “Even if everyone else falls away, I won't.” And Jesus said to him, “I'm telling you the truth: today, tonight, before the rooster crows twice, you will disown me three times.” But Peter kept insisting, “Even if I have to die with you, I will never disown you.” And they all said the same.",
+          "spine": {
+            "from": "14.27",
+            "to": "14.31"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "They came to a place named Gethsemane, and he said to his disciples, “Sit here while I pray.” He took Peter and James and John with him, and he began to be shaken and deeply distressed. And he said to them, “My soul is crushed with grief, to the point of death. Stay here and keep watch.” He went on a little farther, fell on the ground, and prayed that if it were possible the hour might pass from him. And he said, “Abba — Father — everything is possible for you. Take this cup away from me. But not what I want. What you want.”",
+          "spine": {
+            "from": "14.32",
+            "to": "14.36"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0009",
+          "order": 9,
+          "kind": "paragraph",
+          "text": "He came back and found them sleeping, and said to Peter, “Simon, are you asleep? You couldn't keep watch for one hour? Stay awake and pray, so you won't come to the test. The spirit is willing, but the flesh is weak.” He went away again and prayed, saying the same words. And when he came back he found them sleeping again — their eyes were heavy — and they didn't know what to say to him. He came a third time and said to them, “Are you still sleeping and resting? That's enough. The hour has come. Look — the Son of Man is being handed over into the hands of sinners. Get up, let's go. Look, the one handing me over is here.”",
+          "spine": {
+            "from": "14.37",
+            "to": "14.42"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0010",
+          "order": 10,
+          "kind": "paragraph",
+          "text": "Right away, while he was still speaking, Judas came — one of the twelve — and with him a crowd carrying swords and clubs, sent from the chief priests and the scribes and the elders. The one handing him over had arranged a signal with them: “The one I kiss is the man. Arrest him and lead him away under guard.” As soon as he arrived he went straight up to Jesus and said, “Rabbi,” and kissed him. And they laid hands on him and arrested him. One of the bystanders drew a sword and struck the high priest's servant, cutting off his ear. And Jesus said to them, “Did you have to come out with swords and clubs to take me, as if I were a bandit? Day after day I was with you in the temple teaching, and you didn't arrest me. But let the scriptures be fulfilled.” And they all abandoned him and ran.",
+          "spine": {
+            "from": "14.43",
+            "to": "14.50"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0011",
+          "order": 11,
+          "kind": "paragraph",
+          "text": "One young man was following him, wearing nothing but a linen cloth. They grabbed him, and he left the linen cloth behind and ran away naked.",
+          "spine": {
+            "from": "14.51",
+            "to": "14.52"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0012",
+          "order": 12,
+          "kind": "paragraph",
+          "text": "They led Jesus away to the high priest, and all the chief priests and the elders and the scribes came together. Peter followed him at a distance, right into the high priest's courtyard, and he sat with the guards, warming himself at the fire. The chief priests and the whole council were looking for testimony against Jesus to put him to death, and they couldn't find any. Many gave false testimony against him, and their testimony didn't agree. Some stood up and gave false testimony against him: “We heard him say, ‘I will destroy this temple made with hands, and in three days I will build another, not made with hands.’” And even on that their testimony didn't agree.",
+          "spine": {
+            "from": "14.53",
+            "to": "14.59"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0013",
+          "order": 13,
+          "kind": "paragraph",
+          "text": "Then the high priest stood up in front of them all and questioned Jesus: “Have you no answer? What is this testimony they're bringing against you?” But he was silent and answered nothing. Again the high priest questioned him: “Are you the Messiah, the Son of the Blessed One?” And Jesus said, “I am. And you will see the Son of Man sitting at the right hand of the Power, and coming with the clouds of heaven.” The high priest tore his clothes and said, “What further need do we have of witnesses? You heard the blasphemy. What is your verdict?” And they all condemned him as deserving death. Some began to spit on him, and to cover his face and beat him and say, “Prophesy!” And the guards took him and struck him.",
+          "spine": {
+            "from": "14.60",
+            "to": "14.65"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-14.seg-0014",
+          "order": 14,
+          "kind": "paragraph",
+          "text": "While Peter was down in the courtyard, one of the high priest's servant girls came by. When she saw Peter warming himself she looked straight at him and said, “You were with Jesus too — the man from Nazareth.” But he denied it: “I don't know him. I don't understand what you're talking about.” And he went out to the entryway. The servant girl saw him and started telling the bystanders again, “This man is one of them.” And again he denied it. A little later the bystanders said to Peter again, “You really are one of them. You're a Galilean.” And he began to curse and swear, “I don't know this man you're talking about.” And right then a rooster crowed a second time. And Peter remembered what Jesus had said to him: “Before the rooster crows twice, you will disown me three times.” And he broke down and wept.",
+          "spine": {
+            "from": "14.66",
+            "to": "14.72"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-15",
+      "order": 15,
+      "label": "Chapter 15",
+      "title": "The Cross",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "Right away in the morning the chief priests held a council with the elders and the scribes and the whole Sanhedrin. They tied Jesus up, led him away, and handed him over to Pilate. And Pilate questioned him: “Are you the King of the Jews?” He answered him, “You say so.” The chief priests kept accusing him of many things. So Pilate questioned him again: “Have you no answer? Look how many charges they're bringing against you.” But Jesus said nothing more, and Pilate was amazed.",
+          "spine": {
+            "from": "15.1",
+            "to": "15.5"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "At the festival he used to release for them one prisoner, whichever one they asked for. There was a man called Barabbas, in prison with the rebels who had committed murder during the uprising. The crowd came up and began asking Pilate to do what he usually did for them. Pilate answered them, “Do you want me to release the King of the Jews for you?” — because he knew the chief priests had handed him over out of envy. But the chief priests stirred up the crowd to have him release Barabbas for them instead. Pilate answered them again, “Then what do you want me to do with the man you call the King of the Jews?” And they shouted back, “Crucify him!” Pilate said to them, “Why? What has he done wrong?” And they shouted all the louder, “Crucify him!” So Pilate, wanting to satisfy the crowd, released Barabbas for them; and after having Jesus flogged, he handed him over to be crucified.",
+          "spine": {
+            "from": "15.6",
+            "to": "15.15"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "The soldiers led him away into the courtyard — that is, the governor's headquarters — and called the whole company together. They dressed him in purple, twisted together a crown of thorns, and put it on him. And they started saluting him: “Hail, King of the Jews!” They kept striking his head with a reed and spitting on him, and they knelt down and bowed to him. And when they had finished mocking him, they took the purple off him and put his own clothes back on him. Then they led him out to crucify him.",
+          "spine": {
+            "from": "15.16",
+            "to": "15.20"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "They forced a passerby coming in from the fields to carry his cross — Simon of Cyrene, the father of Alexander and Rufus. And they brought him to the place called Golgotha, which means Place of the Skull. They offered him wine mixed with myrrh, but he wouldn't take it. And they crucified him, and divided up his clothes, casting lots for them to decide who would take what. It was nine in the morning when they crucified him. The inscription of the charge against him read: THE KING OF THE JEWS. And with him they crucified two bandits, one on his right and one on his left.",
+          "spine": {
+            "from": "15.21",
+            "to": "15.28"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "The people passing by hurled insults at him, shaking their heads and saying, “Ha! You who would destroy the temple and build it in three days — save yourself and come down from that cross!” In the same way the chief priests, with the scribes, mocked him among themselves: “He saved others. He can't save himself. Let the Messiah, the King of Israel, come down from the cross now, so we can see it and believe.” And the men crucified with him taunted him too.",
+          "spine": {
+            "from": "15.29",
+            "to": "15.32"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0006",
+          "order": 6,
+          "kind": "paragraph",
+          "text": "When noon came, darkness fell over the whole land until three in the afternoon. And at three Jesus cried out in a loud voice, “Eloi, Eloi, lema sabachthani?” — which means, “My God, my God, why have you abandoned me?” Some of the bystanders heard it and said, “Listen — he's calling Elijah.” Someone ran and filled a sponge with sour wine, put it on a stick, and gave it to him to drink, saying, “Let's see whether Elijah comes to take him down.” And Jesus let out a loud cry and breathed his last.",
+          "spine": {
+            "from": "15.33",
+            "to": "15.37"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0007",
+          "order": 7,
+          "kind": "paragraph",
+          "text": "And the curtain of the temple was torn in two, from top to bottom. And when the centurion standing there facing him saw the way he breathed his last, he said, “Truly this man was God's Son.” Some women were watching from a distance. Among them were Mary Magdalene, and Mary the mother of James the younger and of Joses, and Salome — who had followed him and looked after him when he was in Galilee — and many other women who had come up with him to Jerusalem.",
+          "spine": {
+            "from": "15.38",
+            "to": "15.41"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-15.seg-0008",
+          "order": 8,
+          "kind": "paragraph",
+          "text": "It was already evening, and since it was the day of Preparation — the day before the Sabbath — Joseph of Arimathea, a respected member of the council who was himself waiting for the kingdom of God, went boldly to Pilate and asked for the body of Jesus. Pilate was surprised that he was already dead. He summoned the centurion and asked him whether Jesus had been dead for long, and when he learned it from the centurion, he granted the body to Joseph. Joseph bought a linen cloth, took him down, wrapped him in the linen, and laid him in a tomb cut out of rock, and rolled a stone against the entrance of the tomb. And Mary Magdalene and Mary the mother of Joses were watching where he was laid.",
+          "spine": {
+            "from": "15.42",
+            "to": "15.47"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition.bible-mark.lectio-vernacular.chapter-16",
+      "order": 16,
+      "label": "Chapter 16",
+      "title": "The Empty Tomb",
+      "segments": [
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-16.seg-0001",
+          "order": 1,
+          "kind": "paragraph",
+          "text": "When the Sabbath was over, Mary Magdalene and Mary the mother of James and Salome bought spices so they could go and anoint him. And very early on the first day of the week, just after sunrise, they came to the tomb. They were saying to each other, “Who is going to roll the stone away from the entrance of the tomb for us?” And they looked up and saw that the stone had been rolled back — and it was very large.",
+          "spine": {
+            "from": "16.1",
+            "to": "16.4"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-16.seg-0002",
+          "order": 2,
+          "kind": "paragraph",
+          "text": "Going into the tomb, they saw a young man sitting on the right side, dressed in a white robe, and they were shaken. He said to them, “Don't be alarmed. You're looking for Jesus of Nazareth, the one who was crucified. He has been raised. He isn't here. Look — the place where they laid him. But go, tell his disciples and Peter that he's going ahead of you into Galilee. You'll see him there, just as he told you.”",
+          "spine": {
+            "from": "16.5",
+            "to": "16.7"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-16.seg-0003",
+          "order": 3,
+          "kind": "paragraph",
+          "text": "And they went out and ran from the tomb, shaking and beside themselves. And they said nothing to anyone, because they were afraid.",
+          "spine": {
+            "from": "16.8",
+            "to": "16.8"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-16.seg-0004",
+          "order": 4,
+          "kind": "paragraph",
+          "text": "[The earliest manuscripts of Mark end at verse 8. What follows was added later — see the note on the ending.] After he rose early on the first day of the week, he appeared first to Mary Magdalene, the one he had driven seven demons out of. She went and told the people who had been with him, while they were mourning and weeping. And when they heard that he was alive and that she had seen him, they didn't believe it. After that he appeared in a different form to two of them as they were walking out into the country. They went back and told the rest, and they didn't believe them either.",
+          "spine": {
+            "from": "16.9",
+            "to": "16.13"
+          }
+        },
+        {
+          "id": "edition.bible-mark.lectio-vernacular.chapter-16.seg-0005",
+          "order": 5,
+          "kind": "paragraph",
+          "text": "Later he appeared to the eleven themselves as they were reclining at the table. He rebuked them for their lack of trust and their hard hearts, because they hadn't believed the ones who saw him after he was raised. And he said to them, “Go into all the world and announce the good news to the whole creation. Whoever trusts and is baptized will be saved; whoever does not trust will be condemned. And these signs will go with those who trust: in my name they will drive out demons; they will speak in new languages; they will pick up snakes with their hands, and if they drink anything deadly it will not hurt them; they will lay their hands on the sick, and they will get well.” So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God. And they went out and preached everywhere, while the Lord worked with them and confirmed the message by the signs that went with it.",
+          "spine": {
+            "from": "16.14",
+            "to": "16.20"
+          }
+        }
+      ]
+    }
+  ]
+}

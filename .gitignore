@@ -13,6 +13,7 @@ venv/
 # Xcode / app build (project is generated from app/project.yml via XcodeGen)
 app/Lectio.xcodeproj/
 app/build/
+app/build-device/
 DerivedData/
 *.xcuserstate
 
@@ -20,3 +21,19 @@ DerivedData/
 # the ledger is the source of truth for frozen segment IDs and must travel with the repo.
 # Cover art ships compressed (JPEG) in content/; high-res masters live OUTSIDE the repo at
 # ~/Documents/Lectio-Masters (see CLAUDE.md "Cover assets").
+
+# Generated print editions — regenerable from content/ via print/build_book.py
+print/out/
+
+# Planned-shelf cover SVGs: ~180 MB of intermediate, derived automatically from the
+# masters by print/covers/build_planned.py. The committed artifact is the JPEG in
+# content/collections/book-covers/. The ten published covers ARE committed as SVG —
+# those are hand-tuned recipes, not derivable.
+print/covers/planned/
+
+# Audio: masters and delivery copies never enter git (100-400 MB per work).
+# audio/ holds manifests and scripts only — see audio/README.md
+audio/**/media/
+*.wav
+*.m4a
+*.mp3

@@ -21,13 +21,16 @@ struct ReaderView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var scenePhase
 
+    @StateObject private var docent = DocentService()
+    @State private var compareScrollTarget: String?
+    @State private var syncCmpSegId: String?
     @State private var panel: SidePanel?
-    @State private var expandedBooks: Set<String> = []
     @State private var currentBookIndex = 0
     @State private var currentEditionId: String?
     @State private var scrollTarget: String?
     @State private var introExpanded = true
     @State private var topSegmentId: String?
+    @State private var visibleSegIds: Set<String> = []
     @State private var didRestore = false
     @State private var animateScroll = true
     @State private var focusWord: String?
@@ -45,8 +48,6 @@ struct ReaderView: View {
     // Compare-sync: tap a passage in one column and its matching passage lights up (and
     // scrolls into view) in the other, via the alignment spine (ReaderView.counterpart).
     @State private var syncMainSegId: String?
-    @State private var syncCmpSegId: String?
-    @State private var compareScrollTarget: String?
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.horizontalSizeClass) private var hSize
 
@@ -54,42 +55,55 @@ struct ReaderView: View {
 
     // One right-side drawer, switchable between all the ways to interact with the book.
     enum SidePanel: String, CaseIterable, Identifiable {
-        case contents, compare, marks, info
+        case compare, marks, ask, info
         var id: String { rawValue }
         var icon: String {
             switch self {
-            case .contents: return "list.bullet"
             case .compare:  return "rectangle.split.2x1"
             case .marks:    return "lightbulb"
+            case .ask:      return "questionmark.bubble"
             case .info:     return "info.circle"
             }
         }
         var title: String {
             switch self {
-            case .contents: return "Contents"
             case .compare:  return "Compare"
             case .marks:    return "Margin"
-            case .info:     return "About"
+            case .ask:      return DocentFeature.name
+            case .info:     return "About this edition"
             }
         }
     }
     private var compare: Bool { panel == .compare }
     // Open the panel to a mode, or close it if that mode is already showing.
+    // No animation: animating the panel means animating a full re-layout of the
+    // token-flow reading column, which stutters on device.
     private func togglePanel(_ p: SidePanel) {
-        withAnimation(.easeInOut(duration: 0.2)) {
-            if panel == p { panel = nil }
-            else {
-                panel = p
-                if p == .compare, compareEditionId == nil || compareEditionId == currentEdition?.id {
-                    compareEditionId = editions.first { $0.id != currentEdition?.id }?.id
-                }
-                if p != .compare { syncMainSegId = nil; syncCmpSegId = nil }
-            }
+        if panel == p { panel = nil }
+        else {
+            panel = p
+            // Seed the reference with the passage being read, so the panel is
+            // never empty; tapping any passage in the text replaces it.
+            if p == .compare, syncMainSegId == nil { syncMainSegId = firstVisibleSegmentId }
+            if p != .compare { syncMainSegId = nil }
+            if p == .ask { anchorDocent() }
         }
     }
 
     // The one selection card, anchored near the held word / end of the drag: a single
     // word shows its meaning with Highlight/Note/Explore; a span offers Highlight/Note.
+
+    // The topmost on-screen passage — a far better "what I'm reading" anchor than
+    // the last row the LazyVStack materialized (which can sit below the fold).
+    private var firstVisibleSegmentId: String? {
+        guard let ed = currentEdition else { return nil }
+        for sec in ed.sections {
+            if let seg = sec.segments.first(where: { visibleSegIds.contains($0.id) }) {
+                return seg.id
+            }
+        }
+        return topSegmentId
+    }
     struct SelPopup { var segmentId: String; var range: ClosedRange<Int>; var text: String; var point: CGPoint }
 
     // Ordered: Lectio Modern Edition first, then translations latest-first, original last.
@@ -171,6 +185,7 @@ struct ReaderView: View {
                             Color.black.opacity(0.001)
                                 .onTapGesture { dismissPopups() }
                         }
+
                         if let sp = selPopup {
                             selectionCard(sp)
                                 .position(popupPosition(sp.point, in: rgeo.size,
@@ -187,8 +202,11 @@ struct ReaderView: View {
         .sheet(isPresented: compactPanelBinding) {
             if let p = panel {
                 sidePanel(p)
-                    .background(p == .marks ? pal.rail : pal.paper)
-                    .presentationDetents([.large])
+                    .background(pal.paper)
+                    // A half-height bottom panel first, so the text stays visible;
+                    // pull up for the full sheet.
+                    .presentationDetents([.medium, .large])
+                    .presentationBackgroundInteraction(.enabled(upThrough: .medium))
             }
         }
         // Write a note on a just-made highlight (the rail and Notes page have their own editors).
@@ -237,9 +255,10 @@ struct ReaderView: View {
                     }
                 }
             }
-            // Debug hook: LECTIO_DEBUG_CONTEXT shows the context rail (for screenshots).
+            // Debug hook: LECTIO_DEBUG_CONTEXT opens the Docent panel, where the
+            // marks now live (for screenshots).
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTEXT"] != nil {
-                panel = .marks
+                panel = .ask
             }
             // Debug hook: LECTIO_DEBUG_SEED_MARKS seeds a highlight with a note
             // (headless screenshots can't drag-select).
@@ -261,9 +280,7 @@ struct ReaderView: View {
             // Debug hook: LECTIO_DEBUG_COMPARE turns on side-by-side compare (for screenshots).
             if let c = ProcessInfo.processInfo.environment["LECTIO_DEBUG_COMPARE"] {
                 panel = .compare
-                if !c.isEmpty { compareEditionId = c }
-                else { compareEditionId = editions.first { $0.id != currentEdition?.id }?.id }
-                // Debug: pre-trigger a compare-sync highlight (headless screenshots can't tap).
+                // Debug: pre-select a reference passage (headless screenshots can't tap).
                 if ProcessInfo.processInfo.environment["LECTIO_DEBUG_SYNC"] != nil {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
                         if let segs = currentEdition?.sections.first?.segments, segs.count > 3 {
@@ -276,10 +293,17 @@ struct ReaderView: View {
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PROVENANCE"] != nil {
                 panel = .info
             }
-            // Debug hook: LECTIO_DEBUG_CONTENTS opens the contents with book 1 expanded.
-            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_CONTENTS"] != nil {
-                panel = .contents
-                if let first = currentEdition?.sections.first { expandedBooks = [first.id] }
+            // Debug hook: LECTIO_DEBUG_DOCENT opens the Docent panel. Pair with
+            // LECTIO_DEBUG_DOCENT_MOCK (canned provider, works on any host) and
+            // LECTIO_DEBUG_DOCENT_ASK=<question> to show an answer (for screenshots).
+            if ProcessInfo.processInfo.environment["LECTIO_DEBUG_DOCENT"] != nil {
+                panel = .ask
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    anchorDocent()
+                    if let q = ProcessInfo.processInfo.environment["LECTIO_DEBUG_DOCENT_ASK"], !q.isEmpty {
+                        docent.ask(q)
+                    }
+                }
             }
         }
         .onDisappear { persist() }
@@ -289,10 +313,13 @@ struct ReaderView: View {
 
     private func persist() {
         guard didRestore else { return }
+        // Save the passage at the TOP of the screen — the last-materialized row
+        // (topSegmentId) can sit below the fold, which restored the reader further
+        // along than they actually were.
         reading.savePosition(workId: work.id,
                              editionId: currentEditionId,
                              sectionId: currentSection?.id,
-                             segmentId: topSegmentId)
+                             segmentId: firstVisibleSegmentId ?? topSegmentId)
     }
 
     private func sectionIndex(containing anchorId: String) -> Int? {
@@ -308,8 +335,35 @@ struct ReaderView: View {
     }
 
     private func jumpToSegment(_ segmentId: String) {
-        if let idx = sectionIndex(containing: segmentId) { currentBookIndex = idx }
-        scrollTarget = segmentId
+        // A mark dropped in another edition resolves here through the spine, so
+        // bookmarks and highlights survive switching translations.
+        var target = segmentId
+        if sectionIndex(containing: segmentId) == nil,
+           let resolved = resolveAcrossEditions(segmentId) {
+            target = resolved
+        }
+        if let idx = sectionIndex(containing: target) { currentBookIndex = idx }
+        scrollTarget = target
+    }
+
+    // Map a segment id from any other edition onto the one being read: spine
+    // overlap when aligned, positional estimate otherwise.
+    private func resolveAcrossEditions(_ segId: String) -> String? {
+        guard let cur = currentEdition else { return nil }
+        for ed in editions where ed.id != cur.id && segId.hasPrefix(ed.id + ".") {
+            guard let seg = findSegment(segId, in: ed) else { continue }
+            if let sp = seg.spine, let match = spineMatch(sp, sourceText: seg.text, in: cur) { return match }
+            return counterpart(of: segId, from: ed, to: cur)
+        }
+        return nil
+    }
+
+    // The segment for an id, whichever edition owns it (for cross-edition marks).
+    private func findSegmentAnywhere(_ id: String) -> Segment? {
+        for ed in editions {
+            if let seg = findSegment(id, in: ed) { return seg }
+        }
+        return nil
     }
 
     private var savedWordSet: Set<String> {
@@ -471,6 +525,10 @@ struct ReaderView: View {
     // Falls back to positional only when the tapped segment itself has no spine.
     private func counterpart(of segId: String, from: Edition?, to: Edition?) -> String? {
         guard let from, let to else { return nil }
+        if let src = findSegment(segId, in: from), let range = src.spine,
+           let match = spineMatch(range, sourceText: src.text, in: to) {
+            return match
+        }
         guard let bi = from.sections.firstIndex(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }),
               to.sections.indices.contains(bi) else { return nil }
         let src = from.sections[bi].segments
@@ -486,23 +544,70 @@ struct ReaderView: View {
         return dst[min(max(j, 0), dst.count - 1)].id
     }
 
-    // Tapped a passage in the main column → light up its match in the compare column.
-    private func syncFromMain(_ segId: String) {
-        guard compare, hSize == .regular else { return }
-        syncMainSegId = segId
-        if let match = counterpart(of: segId, from: currentEdition, to: compareEdition) {
-            syncCmpSegId = match
-            compareScrollTarget = match
+    // A book's segments minus any leading apparatus: all-caps headings ("ARGUMENT.",
+    // "THE CONTENTION OF ACHILLES AND AGAMEMNON."), the prose block a heading
+    // introduces, and Butler-style chapter summaries — which chain clauses with
+    // unspaced em-dashes (word—word), something body text here never does.
+    private func bodySegments(_ segs: [Segment]) -> ArraySlice<Segment> {
+        var start = 0
+        var afterHeading = false
+        while start < min(6, segs.count) {
+            let t = segs[start].text.trimmingCharacters(in: .whitespacesAndNewlines)
+            if t.count < 80 && t.uppercased() == t {
+                afterHeading = true; start += 1; continue
+            }
+            if start == 0 && t.count < 600 && chainedDashCount(t) >= 1 {
+                start += 1; continue
+            }
+            if afterHeading {   // the content block belonging to a skipped heading
+                afterHeading = false; start += 1; continue
+            }
+            break
         }
+        return segs[start...]
     }
 
-    // Tapped a passage in the compare column → light up its match in the main column.
-    private func syncFromCompare(_ segId: String) {
-        syncCmpSegId = segId
-        if let match = counterpart(of: segId, from: compareEdition, to: currentEdition) {
-            syncMainSegId = match
-            scrollTarget = match
+    // Occurrences of an em-dash jammed between letters (word—word).
+    private func chainedDashCount(_ t: String) -> Int {
+        let chars = Array(t)
+        var n = 0
+        for i in chars.indices where chars[i] == "—" {
+            if i > 0, i + 1 < chars.count, chars[i - 1].isLetter, chars[i + 1].isLetter { n += 1 }
         }
+        return n
+    }
+
+    // Capitalized words minus common sentence-openers — a cheap proper-noun proxy
+    // for lining up the same moment across translations.
+    private static let nounStoplist: Set<String> = [
+        "The", "And", "But", "For", "Nor", "Yet", "She", "His", "Her", "They",
+        "Then", "There", "This", "That", "These", "Those", "When", "While",
+        "What", "Which", "Who", "How", "Now", "Come", "From", "With", "Not",
+        "You", "Your", "Their", "Them", "Him", "Have", "Had", "Was", "Were",
+    ]
+    private func properNouns(_ text: String) -> Set<String> {
+        var out = Set<String>()
+        for raw in text.split(whereSeparator: { $0 == " " || $0 == "\n" }) {
+            let t = raw.trimmingCharacters(in: .punctuationCharacters)
+            guard t.count >= 3, let first = t.first, first.isUppercase,
+                  !Self.nounStoplist.contains(t) else { continue }
+            out.insert(t)
+        }
+        return out
+    }
+
+    // Tapped a passage in the main column → make it the compare reference.
+    private func syncFromMain(_ segId: String) {
+        guard compare else { return }
+        syncMainSegId = segId
+    }
+
+    // The segment with this id, wherever it lives in the edition.
+    private func findSegment(_ id: String, in ed: Edition) -> Segment? {
+        for sec in ed.sections {
+            if let seg = sec.segments.first(where: { $0.id == id }) { return seg }
+        }
+        return nil
     }
 
     // MARK: header (small, always present)
@@ -512,15 +617,93 @@ struct ReaderView: View {
             iconButton("chevron.left") { dismiss() }
             editionMenu
             Spacer()
-            panelButton(.contents)
-            bookmarkButton
+            if hSize != .regular { chapterMenu }
+            bookmarkMenu
+            // The one persistent control row: these switch (and light up) the side
+            // panel; the panel itself carries only a title and a close button.
             if hSize == .regular, editions.count > 1 { panelButton(.compare) }
-            panelButton(.marks)
+            panelButton(.ask)
             panelButton(.info)
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 6)
         .background(pal.paper)
+        // The current chapter, centered, as the table of contents — a dropdown
+        // instead of a panel.
+        .overlay { if hSize == .regular { chapterMenu } }
+    }
+
+    // The table of contents as a centered dropdown: the chapter you're in, and a
+    // tap to jump anywhere.
+    private var chapterMenu: some View {
+        Menu {
+            Picker("Chapter", selection: chapterSelection) {
+                ForEach(currentEdition?.sections ?? []) { sec in
+                    Text(sec.title.map { "\(sec.label) — \($0)" } ?? sec.label).tag(sec.id)
+                }
+            }
+        } label: {
+            HStack(spacing: 5) {
+                Text(currentSection?.label ?? "Contents")
+                    .font(.subheadline.weight(.medium)).foregroundColor(pal.ink)
+                Image(systemName: "chevron.down").font(.caption2).foregroundColor(pal.inkSoft)
+            }
+        }
+    }
+
+    private var chapterSelection: Binding<String> {
+        Binding(
+            get: { currentSection?.id ?? "" },
+            set: { id in
+                if let sec = currentEdition?.sections.first(where: { $0.id == id }) { jumpTo(sec) }
+            }
+        )
+    }
+
+    // Bookmarks, plural: drop one wherever you are, and jump between them — for
+    // reading in several places at once, or finding your way back.
+    private var bookmarkMenu: some View {
+        let marks = reading.bookmarks(work.id)
+        let hereId = firstVisibleSegmentId
+        let hereMarked = hereId.map { marks.contains($0) } ?? false
+        return Menu {
+            Button {
+                if let id = hereId { reading.toggleBookmark(work.id, segmentId: id) }
+            } label: {
+                Label(hereMarked ? "Remove the bookmark here" : "Drop a bookmark here",
+                      systemImage: hereMarked ? "bookmark.slash" : "bookmark")
+            }
+            .disabled(hereId == nil)
+            if !marks.isEmpty {
+                Divider()
+                ForEach(marks, id: \.self) { id in
+                    Button { jumpToSegment(id) } label: {
+                        Text(bookmarkTitle(id))
+                        if let snip = bookmarkSnippet(id) { Text(snip) }
+                    }
+                }
+            }
+        } label: {
+            Image(systemName: marks.isEmpty ? "bookmark" : "bookmark.fill")
+                .font(.body.weight(.medium))
+                .foregroundColor(marks.isEmpty ? pal.inkSoft : pal.accent)
+        }
+    }
+
+    private func bookmarkTitle(_ segId: String) -> String {
+        for ed in editions {
+            if let sec = ed.sections.first(where: { segId == $0.id || segId.hasPrefix($0.id + ".") }) {
+                return sec.label
+            }
+        }
+        return "Bookmark"
+    }
+
+    private func bookmarkSnippet(_ segId: String) -> String? {
+        guard let seg = findSegmentAnywhere(segId) else { return nil }
+        let clean = seg.text.replacingOccurrences(of: "\n", with: " ")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        return "“" + String(clean.prefix(40)).trimmingCharacters(in: .whitespaces) + "…”"
     }
 
     // A header toggle for one drawer mode; lit when that mode is open.
@@ -538,38 +721,21 @@ struct ReaderView: View {
                 set: { if !$0 { panel = nil } })
     }
 
-    // Side-by-side translation compare (iPad). Reads the same book in two editions at once,
-    // following you book-to-book as you scroll the main column.
-    private var bookmarkButton: some View {
-        let bm = reading.bookmark(work.id)
-        return Button { bookmarkAction() } label: {
-            Image(systemName: bm != nil ? "bookmark.fill" : "bookmark")
-                .font(.body.weight(.medium))
-                .foregroundColor(bm != nil ? pal.accent : pal.inkSoft)
-        }
-        .buttonStyle(.plain)
-    }
-
-    // One bookmark per book. Press: create if none; otherwise go to it — unless you're
-    // already on its page, in which case clear it (so the same button can move it).
-    private func bookmarkAction() {
-        guard let bm = reading.bookmark(work.id) else {
-            reading.setBookmark(work.id, segmentId: topSegmentId)
-            return
-        }
-        if sectionIndex(containing: bm) == currentBookIndex {
-            reading.setBookmark(work.id, segmentId: nil)
-        } else {
-            jumpToSegment(bm)
-        }
-    }
-
     private var editionMenu: some View {
         Menu {
             Picker("Edition", selection: editionSelection) {
                 ForEach(editions) { ed in
                     Text(editionLabel(ed)).tag(ed.id)
                 }
+            }
+            Divider()
+            // The book you're reading has no overview page in the way — so My
+            // Collection is reachable right from the title.
+            Button {
+                saved.toggleCollection(SavedBook(title: work.title, author: work.author))
+            } label: {
+                Label(saved.isInCollection(work.title) ? "In your collection" : "Add to My Collection",
+                      systemImage: saved.isInCollection(work.title) ? "checkmark" : "plus")
             }
         } label: {
             HStack(spacing: 6) {
@@ -696,7 +862,7 @@ struct ReaderView: View {
                                     .padding(.horizontal, -6).padding(.vertical, -3)
                             )
                             .overlay(alignment: .topLeading) {
-                                if reading.bookmark(work.id) == segment.id {
+                                if reading.isBookmarked(work.id, segmentId: segment.id) {
                                     Image(systemName: "bookmark.fill")
                                         .font(.system(size: 15)).foregroundColor(pal.gold)
                                         .offset(x: -26, y: -2)
@@ -708,6 +874,7 @@ struct ReaderView: View {
                                 }
                             }
                             .onAppear {
+                                visibleSegIds.insert(segment.id)
                                 topSegmentId = segment.id
                                 // Track the book from segments too, not just headers — on a
                                 // restore the section header sits just off-screen above the
@@ -717,6 +884,7 @@ struct ReaderView: View {
                                     currentBookIndex = idx
                                 }
                             }
+                            .onDisappear { visibleSegIds.remove(segment.id) }
                         }
                     }
                 }
@@ -738,6 +906,7 @@ struct ReaderView: View {
                 }
             }
             .onChange(of: currentEditionId) { oldValue, _ in
+                visibleSegIds.removeAll()
                 // Stay on the same book when the user switches translation — but not on
                 // the initial nil -> default assignment, which would scroll past the intro.
                 guard oldValue != nil,
@@ -773,9 +942,178 @@ struct ReaderView: View {
         }
     }
 
-    // MARK: compare column — the same book in a second edition, book-level synced
+    // MARK: compare panel — one passage, every other edition
+
+    // Not a second full-text column: the passage the reader tapped (or is reading),
+    // rendered side by side across all the other editions as reference cards.
+    @ViewBuilder
+    private func compareCard(_ ed: Edition, refId: String, from src: Edition) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            if let match = counterpart(of: refId, from: src, to: ed),
+               let seg = findSegment(match, in: ed) {
+                HStack(spacing: 6) {
+                    Text(editionLabel(ed)).font(.caption.weight(.semibold)).foregroundColor(pal.accent)
+                    if let cite = spineText(seg.spine) {
+                        Text(cite).font(.caption2).foregroundColor(pal.inkSoft)
+                    }
+                }
+                Text(seg.text)
+                    .font(.system(size: 16, design: .serif))
+                    .lineSpacing(5)
+                    .foregroundColor(pal.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+            } else {
+                Text(editionLabel(ed)).font(.caption.weight(.semibold)).foregroundColor(pal.accent)
+                Text("This book isn't in this edition yet.")
+                    .font(.caption).foregroundColor(pal.inkSoft)
+            }
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 10).fill(pal.rail))
+        .overlay(RoundedRectangle(cornerRadius: 10).stroke(pal.rule))
+    }
+
+    private func compareSnippet(_ text: String) -> String {
+        let clean = text.replacingOccurrences(of: "\n", with: " ")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        return clean.count > 220 ? String(clean.prefix(220)).trimmingCharacters(in: .whitespaces) + "…" : clean
+    }
+
+    // MARK: the one right-side drawer (switchable: Contents · Compare · Marks · About)
 
     @ViewBuilder
+    private func sidePanel(_ p: SidePanel) -> some View {
+        VStack(spacing: 0) {
+            panelHeader(p)
+            Divider().overlay(pal.rule)
+            switch p {
+            case .compare:
+                if let cmp = compareEdition { compareColumn(cmp) }
+                else { emptyPanelNote("No other edition to compare yet.") }
+            case .marks:
+                MarginRail(work: work, section: currentSection, divergences: railDivergences,
+                           pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
+            case .ask:
+                DocentPanel(work: work, pal: pal, docent: docent, thread: docent.thread,
+                            onReanchor: { anchorDocent(to: firstVisibleSegmentId) },
+                            onJump: jumpToSegment, onWordJump: jumpToWord)
+            case .info:
+                if let ed = currentEdition {
+                    VStack(spacing: 0) {
+                        collectionBar
+                        Divider().overlay(pal.rule)
+                        ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal,
+                                        onShowInText: { showDivergenceInText($0) },
+                                        cast: castEntries,
+                                        chapterNote: currentSection.flatMap {
+                                            library.chapterOverview(workId: work.id, order: $0.order)
+                                        })
+                    }
+                } else { emptyPanelNote("No edition available.") }
+            }
+        }
+    }
+
+    // Just a title and a close button — switching panels lives in the header row,
+    // so the controls never appear twice.
+    private func panelHeader(_ p: SidePanel) -> some View {
+        HStack(spacing: 6) {
+            Text(p.title).font(.subheadline.weight(.semibold)).foregroundColor(pal.ink)
+            Spacer(minLength: 0)
+            Button { panel = nil } label: {
+                Image(systemName: "xmark").font(.system(size: 13, weight: .semibold))
+                    .foregroundColor(pal.inkSoft).frame(width: 28, height: 28)
+            }
+            .buttonStyle(.plain)
+        }
+        .padding(.horizontal, 12).padding(.vertical, 8)
+    }
+
+    // Check the open book in or out of My Collection, right from the About panel.
+    private var collectionBar: some View {
+        Button {
+            saved.toggleCollection(SavedBook(title: work.title, author: work.author))
+        } label: {
+            let inColl = saved.isInCollection(work.title)
+            HStack(spacing: 7) {
+                Image(systemName: inColl ? "checkmark" : "plus")
+                Text(inColl ? "In your collection" : "Add to My Collection")
+                    .font(.subheadline.weight(.medium))
+                Spacer(minLength: 0)
+            }
+            .foregroundColor(pal.accent)
+            .padding(.horizontal, 16).padding(.vertical, 10)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func emptyPanelNote(_ s: String) -> some View {
+        VStack(spacing: 10) {
+            Image(systemName: "book.closed").font(.title2).foregroundColor(pal.inkSoft.opacity(0.5))
+            Text(s).font(.callout).foregroundColor(pal.inkSoft).multilineTextAlignment(.center)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity).padding(28)
+    }
+
+    private func introBlock(_ text: String) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Button {
+                withAnimation(.easeInOut(duration: 0.2)) { introExpanded.toggle() }
+            } label: {
+                HStack(spacing: 6) {
+                    Text("Introduction")
+                        .font(.caption).tracking(2).foregroundColor(pal.inkSoft)
+                    Image(systemName: introExpanded ? "chevron.down" : "chevron.right")
+                        .font(.caption2).foregroundColor(pal.inkSoft)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+
+            if introExpanded {
+                ForEach(Array(text.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, para in
+                    Text(para)
+                        .font(.system(size: 16, design: .serif))
+                        .italic()
+                        .lineSpacing(5)
+                        .foregroundColor(pal.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            Rectangle().fill(pal.rule).frame(height: 1).padding(.top, 6)
+        }
+        .padding(.bottom, 4)
+    }
+
+    private func sectionHeader(_ section: Section) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(section.label.uppercased())
+                .font(.caption).tracking(2).foregroundColor(pal.accent)
+            if let title = section.title {
+                Text(title).font(.system(.title3, design: .serif)).italic().foregroundColor(pal.ink)
+            }
+        }
+        .padding(.top, 10)
+    }
+
+    // Jump to a chapter from the header dropdown (any open panel stays put).
+    private func jumpTo(_ section: Section) {
+        if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
+            currentBookIndex = idx
+        }
+        scrollTarget = section.id
+    }
+
+    // The book's key players — people, gods, and peoples from the curated
+    // glossary — surfaced in the About panel as a who's-who.
+    private var castEntries: [Enrichment.GlossEntry] {
+        (library.enrichment[work.id]?.glossary ?? [])
+            .filter { ["person", "god", "people"].contains($0.kind ?? "") }
+    }
+
     private func compareColumn(_ ed: Edition) -> some View {
         VStack(spacing: 0) {
             HStack(spacing: 6) {
@@ -835,7 +1173,7 @@ struct ReaderView: View {
             } else {
                 VStack(spacing: 10) {
                     Image(systemName: "book.closed").font(.title2).foregroundColor(pal.inkSoft.opacity(0.5))
-                    Text("This book isn't in the \(editionLabel(ed)) yet.")
+                    Text("This book isn't in this edition yet.")
                         .font(.callout).foregroundColor(pal.inkSoft).multilineTextAlignment(.center)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -843,203 +1181,115 @@ struct ReaderView: View {
             }
         }
     }
+    // Tapped a passage in the compare column → light up its match in the main column.
+    private func syncFromCompare(_ segId: String) {
+        syncCmpSegId = segId
+        if let match = counterpart(of: segId, from: compareEdition, to: currentEdition) {
+            syncMainSegId = match
+            scrollTarget = match
+        }
+    }
+    private func anchorDocent(to segmentId: String? = nil) {
+        guard docent.isAvailable, let ed = currentEdition else { return }
+        let anchor = segmentId ?? selSegmentId ?? firstVisibleSegmentId
+        if let ctx = docentContext(ed, anchor: anchor) { docent.anchor(ctx) }
+    }
+    // A human-readable citation for a spine range: "1.17–21", "Inferno.5".
+    private func spineText(_ r: SpineRange?) -> String? {
+        guard let r, let (major, lo) = parseRef(r.from), let (_, hi) = parseRef(r.to) else { return nil }
+        return hi > lo ? "\(major).\(lo)–\(hi)" : "\(major).\(lo)"
+    }
+    // The segment in `ed` whose spine range best covers `range`. Candidates come
+    // from spine overlap (with a few lines of slack, since v1 allocation is
+    // proportional); among them, shared proper nouns with the source text pick
+    // the exact moment, then midpoint, then overlap size.
+    private func spineMatch(_ range: SpineRange, sourceText: String? = nil, in ed: Edition) -> String? {
+        guard let (major, lo0) = parseRef(range.from), let (_, hi0) = parseRef(range.to) else { return nil }
+        let lo = min(lo0, hi0), hi = max(lo0, hi0)
+        let mid = Double(lo + hi) / 2
+        let names = sourceText.map(properNouns) ?? []
+        var best: (id: String, score: Double)? = nil
+        for sec in ed.sections {
+            for seg in sec.segments {
+                guard let sp = seg.spine,
+                      let (m, l0) = parseRef(sp.from), m == major,
+                      let (_, h0) = parseRef(sp.to) else { continue }
+                let l = min(l0, h0), h = max(l0, h0)
+                guard min(hi + 3, h) - max(lo - 3, l) >= 0 else { continue }   // slack window
+                let overlap = Double(min(hi, h) - max(lo, l))
+                let holdsMidpoint = Double(l) <= mid && mid <= Double(h)
+                let nouns = names.isEmpty ? 0 : names.intersection(properNouns(seg.text)).count
+                let score = Double(nouns) * 10_000 + (holdsMidpoint ? 1_000 : 0) + max(overlap, 0)
+                if best == nil || score > best!.score { best = (seg.id, score) }
+            }
+        }
+        return best?.id
+    }
 
+    // The grounding bundle for a passage: its text, a little of what surrounds it,
+    // and the curated editorial layer for that spot (glossary hits, passage notes,
+    // the chapter overview). Small by design — it must share the on-device model's
+    // 4k-token window with the conversation itself.
+    private func docentContext(_ ed: Edition, anchor: String?) -> DocentContext? {
+        var section: Section? = currentSection
+        var segment: Segment? = nil
+        if let anchor,
+           let sec = ed.sections.first(where: { anchor == $0.id || anchor.hasPrefix($0.id + ".") }) {
+            section = sec
+            segment = sec.segments.first { $0.id == anchor }
+        }
+        guard let sec = section, let seg = segment ?? sec.segments.first else { return nil }
+        let idx = sec.segments.firstIndex { $0.id == seg.id } ?? 0
+
+        func trimmed(_ s: String, to n: Int) -> String {
+            s.count > n ? String(s.prefix(n)) + "…" : s
+        }
+
+        var notes: [String] = []
+        let lowered = seg.text.lowercased()
+        for entry in library.enrichment[work.id]?.glossary ?? [] {
+            guard notes.count < 8 else { break }
+            let names = [entry.term] + (entry.aliases ?? [])
+            if names.contains(where: { lowered.contains($0.lowercased()) }) {
+                notes.append("\(entry.term): \(entry.gloss)")
+            }
+        }
+        if let p = library.passage(workId: work.id, sectionId: sec.id) {
+            for d in p.define ?? [] where notes.count < 12 {
+                notes.append("\(d.term): \(d.gloss)")
+            }
+            if let people = p.people, !people.isEmpty {
+                notes.append("Named elsewhere in this section (not necessarily in this passage): "
+                             + people.joined(separator: ", "))
+            }
+        }
+
+        return DocentContext(
+            segmentId: seg.id,
+            workTitle: work.title,
+            author: work.author,
+            composed: work.composed,
+            editionLabel: editionLabel(ed),
+            sectionLabel: sec.label,
+            sectionTitle: sec.title,
+            chapterOverview: library.chapterOverview(workId: work.id, order: sec.order)
+                .map { trimmed($0, to: 500) },
+            passage: trimmed(seg.text, to: 1600),
+            before: idx > 0 ? trimmed(sec.segments[idx - 1].text, to: 300) : nil,
+            after: idx + 1 < sec.segments.count ? trimmed(sec.segments[idx + 1].text, to: 300) : nil,
+            notes: notes
+        )
+    }
+    // "1.611" -> ("1", 611); "Inferno.5" -> ("Inferno", 5).
+    private func parseRef(_ s: String) -> (String, Int)? {
+        guard let dot = s.lastIndex(of: "."), let n = Int(s[s.index(after: dot)...]) else { return nil }
+        return (String(s[..<dot]), n)
+    }
     private var compareSelection: Binding<String> {
         Binding(
             get: { compareEdition?.id ?? "" },
             set: { compareEditionId = $0 }
         )
-    }
-
-    // MARK: the one right-side drawer (switchable: Contents · Compare · Marks · About)
-
-    @ViewBuilder
-    private func sidePanel(_ p: SidePanel) -> some View {
-        VStack(spacing: 0) {
-            panelTabBar(p)
-            Divider().overlay(pal.rule)
-            switch p {
-            case .contents:
-                contentsPanel
-            case .compare:
-                if let cmp = compareEdition { compareColumn(cmp) }
-                else { emptyPanelNote("No other edition to compare yet.") }
-            case .marks:
-                MarginRail(work: work, section: currentSection, divergences: railDivergences,
-                           pal: pal, onJump: jumpToSegment, onWordJump: jumpToWord)
-            case .info:
-                if let ed = currentEdition {
-                    ProvenanceSheet(edition: ed, workTitle: work.title, pal: pal,
-                                    onShowInText: { showDivergenceInText($0) })
-                } else { emptyPanelNote("No edition available.") }
-            }
-        }
-    }
-
-    private func panelTabBar(_ p: SidePanel) -> some View {
-        // On iPad the top header already switches panels, so the drawer just needs a
-        // title + close (one nav bar). On iPhone the header is hidden behind the bottom
-        // sheet, so we keep the switcher tabs here.
-        let tabs = SidePanel.allCases.filter { $0 != .compare || (hSize == .regular && editions.count > 1) }
-        return HStack(spacing: 6) {
-            Text(p.title).font(.subheadline.weight(.semibold)).foregroundColor(pal.ink)
-            Spacer(minLength: 0)
-            if hSize == .compact {
-                ForEach(tabs) { tab in
-                    Button { withAnimation(.easeInOut(duration: 0.15)) { panel = tab } } label: {
-                        Image(systemName: tab.icon)
-                            .font(.system(size: 15, weight: .medium))
-                            .foregroundColor(p == tab ? pal.paper : pal.inkSoft)
-                            .frame(width: 32, height: 28)
-                            .background(RoundedRectangle(cornerRadius: 7)
-                                .fill(p == tab ? pal.accent : pal.rule.opacity(0.35)))
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            Button { withAnimation(.easeInOut(duration: 0.2)) { panel = nil } } label: {
-                Image(systemName: "xmark").font(.system(size: 13, weight: .semibold))
-                    .foregroundColor(pal.inkSoft).frame(width: 28, height: 28)
-            }
-            .buttonStyle(.plain)
-            .padding(.leading, 2)
-        }
-        .padding(.horizontal, 12).padding(.vertical, 8)
-    }
-
-    private func emptyPanelNote(_ s: String) -> some View {
-        VStack(spacing: 10) {
-            Image(systemName: "book.closed").font(.title2).foregroundColor(pal.inkSoft.opacity(0.5))
-            Text(s).font(.callout).foregroundColor(pal.inkSoft).multilineTextAlignment(.center)
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity).padding(28)
-    }
-
-    private func introBlock(_ text: String) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Button {
-                withAnimation(.easeInOut(duration: 0.2)) { introExpanded.toggle() }
-            } label: {
-                HStack(spacing: 6) {
-                    Text("Introduction")
-                        .font(.caption).tracking(2).foregroundColor(pal.inkSoft)
-                    Image(systemName: introExpanded ? "chevron.down" : "chevron.right")
-                        .font(.caption2).foregroundColor(pal.inkSoft)
-                    Spacer()
-                }
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
-
-            if introExpanded {
-                ForEach(Array(text.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, para in
-                    Text(para)
-                        .font(.system(size: 16, design: .serif))
-                        .italic()
-                        .lineSpacing(5)
-                        .foregroundColor(pal.inkSoft)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-            Rectangle().fill(pal.rule).frame(height: 1).padding(.top, 6)
-        }
-        .padding(.bottom, 4)
-    }
-
-    private func sectionHeader(_ section: Section) -> some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(section.label.uppercased())
-                .font(.caption).tracking(2).foregroundColor(pal.accent)
-            if let title = section.title {
-                Text(title).font(.system(.title3, design: .serif)).italic().foregroundColor(pal.ink)
-            }
-        }
-        .padding(.top, 10)
-    }
-
-    // MARK: contents
-
-    // Which section currently holds the dropped bookmark (if any).
-    private var bookmarkSection: Section? {
-        guard let bm = reading.bookmark(work.id) else { return nil }
-        return currentEdition?.sections.first { bm == $0.id || bm.hasPrefix($0.id + ".") }
-    }
-
-    private var contentsPanel: some View {
-            List {
-                if let bm = reading.bookmark(work.id) {
-                    Button {
-                        jumpToSegment(bm); panel = nil
-                    } label: {
-                        Label("Return to your bookmark", systemImage: "bookmark.fill")
-                            .font(.subheadline.weight(.medium)).foregroundColor(pal.accent)
-                    }
-                    .listRowBackground(pal.rail)
-                }
-                ForEach(currentEdition?.sections ?? []) { section in
-                    let isCurrent = section.id == currentSection?.id
-                    let isBookmarked = section.id == bookmarkSection?.id
-                    DisclosureGroup(isExpanded: expandedBinding(section.id)) {
-                        VStack(alignment: .leading, spacing: 12) {
-                            if let ov = library.chapterOverview(workId: work.id, order: section.order),
-                               !ov.isEmpty {
-                                Text(ov)
-                                    .font(.callout)
-                                    .foregroundColor(pal.inkSoft)
-                                    .fixedSize(horizontal: false, vertical: true)
-                            }
-                            Button { jumpTo(section) } label: {
-                                HStack(spacing: 6) {
-                                    Image(systemName: "book")
-                                    Text("Read \(section.label)")
-                                }
-                                .font(.subheadline.weight(.medium))
-                                .foregroundColor(.white)
-                                .padding(.horizontal, 14).padding(.vertical, 8)
-                                .background(Capsule().fill(pal.accent))
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        .padding(.vertical, 4)
-                    } label: {
-                        HStack(spacing: 8) {
-                            Text(section.label)
-                                .font(.body.weight(isCurrent ? .semibold : .regular))
-                                .foregroundColor(pal.ink)
-                            if let title = section.title {
-                                Text(title).font(.caption).foregroundColor(.secondary).lineLimit(1)
-                            }
-                            Spacer()
-                            if isBookmarked {
-                                Image(systemName: "bookmark.fill").font(.caption2).foregroundColor(pal.gold)
-                            }
-                            if isCurrent {
-                                Image(systemName: "book.fill").font(.caption2).foregroundColor(pal.accent)
-                            }
-                        }
-                    }
-                    .tint(pal.accent)
-                }
-            }
-            .scrollContentBackground(.hidden)
-            .background(pal.paper)
-    }
-
-    private func expandedBinding(_ id: String) -> Binding<Bool> {
-        Binding(
-            get: { expandedBooks.contains(id) },
-            set: { open in
-                if open { expandedBooks.insert(id) } else { expandedBooks.remove(id) }
-            }
-        )
-    }
-
-    private func jumpTo(_ section: Section) {
-        if let idx = currentEdition?.sections.firstIndex(where: { $0.id == section.id }) {
-            currentBookIndex = idx
-        }
-        scrollTarget = section.id
-        panel = nil
     }
 
     // MARK: actions
@@ -1059,10 +1309,21 @@ struct ReaderView: View {
         if let h = hits.first { noteTarget = h }
     }
 
+    // Explore: the bubble already defined the word — the panel goes deeper, with
+    // the conversation anchored to the passage it was tapped in.
+    private func askDocentAboutWord(_ term: String, segmentId: String?) {
+        let sid = segmentId
+        dismissPopups()
+        panel = .ask
+        anchorDocent(to: sid)
+        docent.ask("Tell me more about “\(term)” — its meaning and importance in this passage.")
+    }
+
     // Tap-to-define resolution chain (BIBLE §8): curated in-context glossary first,
     // then any passage-level note. A nil def means the word is outside the curated
-    // corpus — the WordCard offers Apple's on-device dictionary, then Gloss. A curated
-    // entry may carry a conceptId linking to the shared cross-work Concept node.
+    // corpus — the WordCard streams a quick in-context definition from the on-device
+    // model (the Docent), falling back to Apple's dictionary when no model exists.
+    // A curated entry may carry a conceptId linking to the shared cross-work Concept node.
     private func resolveWord(_ word: String) -> (def: String?, kind: String?, conceptId: String?) {
         if let entry = library.glossEntry(workId: work.id, term: word) {
             return (entry.gloss, entry.kind, entry.conceptId)
@@ -1149,6 +1410,17 @@ struct ReaderView: View {
                     }
                     .buttonStyle(.plain)
                     .simultaneousGesture(TapGesture().onEnded { dismissPopups() })
+                }
+                if docent.isAvailable {
+                    Button {
+                        let sid = sp.segmentId
+                        dismissPopups()
+                        withAnimation(.easeInOut(duration: 0.2)) { panel = .ask }
+                        anchorDocent(to: sid)
+                    } label: {
+                        cardActionLabel("Ask", "questionmark.bubble")
+                    }
+                    .buttonStyle(.plain)
                 }
                 Spacer(minLength: 0)
                 Button { dismissPopups() } label: {

@@ -109,6 +109,7 @@ class CollectionItem:
     workId: str
     volume: Optional[int] = None
     note: str = ""
+    part: str = ""      # sub-section within a collection (e.g. "The New Testament")
 
 
 @dataclass

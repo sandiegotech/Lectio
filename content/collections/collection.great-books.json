@@ -9,39 +9,48 @@
   "items": [
     {
       "workId": "work.marcus-aurelius.meditations",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.homer.iliad",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.homer.odyssey",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.virgil.aeneid",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.plato.republic",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.aristotle.nicomachean-ethics",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.machiavelli.the-prince",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.augustine.confessions",
-      "note": ""
+      "note": "",
+      "part": ""
     },
     {
       "workId": "work.dante.divine-comedy",
-      "note": ""
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
@@ -71,15 +80,6 @@
       "note": "Thucydides on the war that broke Athens — history written cold, as a possession for all time.",
       "tradition": "West",
       "cover": "collections/book-covers/lectio-history-of-the-peloponnesian-war.jpg"
-    },
-    {
-      "title": "Nicomachean Ethics",
-      "author": "Aristotle",
-      "era": "340 BCE",
-      "part": "Greece & Rome",
-      "note": "Aristotle on virtue and the good life — happiness as the soul's activity in excellence.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-nicomachean-ethics.jpg"
     },
     {
       "title": "The Elements",
@@ -163,15 +163,6 @@
       "cover": "collections/book-covers/lectio-summa-theologica.jpg"
     },
     {
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "era": "1308–1320",
-      "part": "The Middle Ages",
-      "note": "Dante's journey through Hell, Purgatory, and Paradise — the summit of the medieval imagination.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-divine-comedy.jpg"
-    },
-    {
       "title": "The Canterbury Tales",
       "author": "Geoffrey Chaucer",
       "era": "1387–1400",
@@ -188,15 +179,6 @@
       "note": "Copernicus moves the earth — the book that began the scientific revolution.",
       "tradition": "West",
       "cover": "collections/book-covers/lectio-on-the-revolutions-of-the-heavenly-spheres.jpg"
-    },
-    {
-      "title": "The Prince",
-      "author": "Niccolò Machiavelli",
-      "era": "1513",
-      "part": "The Renaissance",
-      "note": "Machiavelli's unflinching handbook of power — how it is really won and kept.",
-      "tradition": "West",
-      "cover": "collections/book-covers/lectio-the-prince.jpg"
     },
     {
       "title": "Gargantua and Pantagruel",
