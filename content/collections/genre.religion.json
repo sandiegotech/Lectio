@@ -7,8 +7,20 @@
   "items": [
     {
       "workId": "work.augustine.confessions",
+<<<<<<< HEAD
       "note": "",
       "part": ""
+=======
+      "note": ""
+    },
+    {
+      "workId": "work.vyasa.bhagavad-gita",
+      "note": ""
+    },
+    {
+      "workId": "work.dhammapada",
+      "note": ""
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     }
   ],
   "planned": [

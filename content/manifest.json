@@ -5,7 +5,11 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
+<<<<<<< HEAD
       "checksum": "e4a1f01139ccfc57"
+=======
+      "checksum": "c4e358a2315ed00c"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     },
     {
       "id": "collection.great-books",
@@ -15,6 +19,7 @@
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
+<<<<<<< HEAD
       "checksum": "e18873fd3ba8a3cc"
     },
     {
@@ -31,16 +36,27 @@
       "id": "collection.bible",
       "title": "The Bible",
       "checksum": "14c55abb5162e393"
+=======
+      "checksum": "e036c91a14ac2ee9"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     },
     {
       "id": "genre.religion",
       "title": "Religion",
+<<<<<<< HEAD
       "checksum": "38d4b9b046f95e48"
+=======
+      "checksum": "f4e598857e8a4b44"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     },
     {
       "id": "genre.philosophy",
       "title": "Philosophy",
+<<<<<<< HEAD
       "checksum": "d9b34818712008d5"
+=======
+      "checksum": "15de00b272dcce20"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     },
     {
       "id": "genre.history-biography",
@@ -257,7 +273,11 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
+<<<<<<< HEAD
           "checksum": "51ca810753acb7b9"
+=======
+          "checksum": "e5afcfbd4ba9c1fc"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
         },
         {
           "id": "edition.republic.jowett-1871",
@@ -266,10 +286,17 @@
           "form": "prose",
           "kind": "translation",
           "character": "The classic Victorian Republic — Jowett's lucid, hugely influential standard.",
+<<<<<<< HEAD
           "checksum": "77dc64119aa1b7aa"
         }
       ],
       "hasAlignment": true,
+=======
+          "checksum": "f93d9ecee5077e60"
+        }
+      ],
+      "hasAlignment": false,
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
       "checksum": "2c5cb4c2bdfb5ae7"
     },
     {
@@ -322,7 +349,11 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
+<<<<<<< HEAD
           "checksum": "1d1d36e480b58b2e"
+=======
+          "checksum": "ae85afc761cec498"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
         },
         {
           "id": "edition.the-prince.marriott-1908",
@@ -331,7 +362,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The standard public-domain Prince — Marriott's clear, faithful Edwardian English.",
-          "checksum": "82bd1bcc78990e30"
+          "checksum": "7ee6aafb09b628fd"
         }
       ],
       "hasAlignment": false,
@@ -354,7 +385,11 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
+<<<<<<< HEAD
           "checksum": "7d4b6327fed640e7"
+=======
+          "checksum": "43771fa1f33fa7bd"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
         },
         {
           "id": "edition.analects.legge-1893",
@@ -363,7 +398,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
-          "checksum": "92f35e42dac51a77"
+          "checksum": "8b79ad88f0a456aa"
         }
       ],
       "hasAlignment": false,
@@ -387,7 +422,11 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
+<<<<<<< HEAD
           "checksum": "ed552bdf66f92360"
+=======
+          "checksum": "d1845ec4776e45f4"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
         },
         {
           "id": "edition.confessions.pusey-1838",
@@ -396,7 +435,7 @@
           "form": "prose",
           "kind": "translation",
           "character": "The devotional classic Confessions — Pusey's reverent, 'Thou'-keeping English.",
-          "checksum": "3f4c4c233b452e3b"
+          "checksum": "73a64591ca783ffc"
         }
       ],
       "hasAlignment": false,
@@ -520,6 +559,7 @@
         }
       ],
       "hasAlignment": false,
+<<<<<<< HEAD
       "checksum": "8ae8c7ea6e8618c0"
     },
     {
@@ -536,11 +576,28 @@
       "editions": [
         {
           "id": "edition.bible-genesis.lectio-vernacular",
+=======
+      "checksum": "4a9e28ea83ba5a53"
+    },
+    {
+      "id": "work.vyasa.bhagavad-gita",
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bhagavad-gita.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern",
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
           "translator": null,
           "publishedYear": null,
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
+<<<<<<< HEAD
           "checksum": "bacc17ce260a137d"
         },
         {
@@ -555,6 +612,86 @@
       ],
       "hasAlignment": false,
       "checksum": "898b9a5dafd04ac6"
+=======
+          "checksum": "6102e1e651fe938f"
+        },
+        {
+          "id": "edition.bhagavad-gita.arnold-1885",
+          "translator": "Edwin Arnold",
+          "publishedYear": 1885,
+          "form": "verse",
+          "kind": "translation",
+          "character": "The Song Celestial — Arnold's stately Victorian blank verse.",
+          "checksum": "da88d1f550ab2900"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "983f63fd58358d06"
+    },
+    {
+      "id": "work.dhammapada",
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.dhammapada.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.dhammapada.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "67a9f19773dfe818"
+        },
+        {
+          "id": "edition.dhammapada.muller-1881",
+          "translator": "F. Max Müller",
+          "publishedYear": 1881,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
+          "checksum": "152eee0afb096ff4"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "e2a0cfa893ec0f7d"
+    },
+    {
+      "id": "work.laozi.tao-te-ching",
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "referenceScheme": "chapter",
+      "defaultEditionId": "edition.tao-te-ching.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "e8696f11d7b5e896"
+        },
+        {
+          "id": "edition.tao-te-ching.legge-1891",
+          "translator": "James Legge",
+          "publishedYear": 1891,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Tao Te Ching — Legge's careful Victorian prose for the Sacred Books of the East.",
+          "checksum": "bf2c3bd00c8c2991"
+        }
+      ],
+      "hasAlignment": false,
+      "checksum": "865274ced8c7b1ea"
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     }
   ],
   "dictionaries": []

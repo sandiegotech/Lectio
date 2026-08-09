@@ -849,6 +849,151 @@ def bible_genesis():
     )
 
 
+def bhagavad_gita():
+    work_id = "work.vyasa.bhagavad-gita"
+    edition_id = "edition.bhagavad-gita.arnold-1885"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2388))
+    body = re.split(r"\n{3,}\[FN#?1\]", body)[0]   # drop the trailing footnote definitions
+    body = re.sub(r"\[FN#?\d+\]", "", body)         # strip inline footnote markers
+    raw = gutenberg.split_sections(body, heading_re=r"^[ \t]*CHAPTER [IVXL]+[ \t]*$")
+    if len(raw) != 18:
+        raise ValueError(f"Bhagavad Gita: expected 18 chapters, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"chapter-{i:02d}", i, f"Chapter {_ROMAN[i-1]}", text, form="verse")
+        for i, (_, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="verse",
+        translator="Edwin Arnold", translatorYears="1832–1904", publishedYear=1885,
+        character="The Song Celestial — Arnold's stately Victorian blank verse.",
+        overview=("Sir Edwin Arnold's 'The Song Celestial' (1885) was the translation that "
+                  "carried the Gita into the English-speaking world — Emerson, Thoreau, and later "
+                  "Gandhi read it. It renders Krishna's teaching in dignified blank verse: faithful "
+                  "to the arc of the argument if freer and more ornate than the Sanskrit. Read it "
+                  "for its music; for the plain sense, the Lectio Edition runs beside it."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Arnold's verse translation, 1885.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2388",
+                              sourceId="2388", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Bhagavad Gita", author="", originalLang="sa",
+        composed="200 BCE – 200 CE", type="religion", referenceScheme="chapter.verse",
+        defaultEditionId="edition.bhagavad-gita.lectio-modern", tradition="East",
+        blurb=("On the eve of battle a warrior refuses to fight, and a god answers him. Krishna's "
+               "teaching to Arjuna on duty, devotion, and acting without grasping at the fruit of "
+               "action — the heart of Hindu thought, set inside the great epic Mahabharata."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "bhagavad-gita", [edition]), edition], None
+
+
+# ---------------------------------------------------------------------------
+# The Dhammapada — F. Max Müller (1881, Sacred Books of the East) + Lectio
+# ---------------------------------------------------------------------------
+
+
+def dhammapada():
+    work_id = "work.dhammapada"
+    edition_id = "edition.dhammapada.muller-1881"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(2017))
+    raw = gutenberg.split_sections(body, heading_re=r"^Chapter [IVXL]+\..*$")
+    if len(raw) != 26:
+        raise ValueError(f"Dhammapada: expected 26 chapters, got {len(raw)}")
+    sections = [
+        build_section(edition_id, f"chapter-{i:02d}", i, head.strip(), text, form="prose")
+        for i, (head, text) in enumerate(raw, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="F. Max Müller", translatorYears="1823–1900", publishedYear=1881,
+        character="The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
+        overview=("Friedrich Max Müller, the great Oxford orientalist, translated the Dhammapada for "
+                  "his monumental Sacred Books of the East. His version made the Buddha's verses "
+                  "available in English for the first time to a wide readership — literal and exact, "
+                  "if Victorian in cadence. It keeps the numbered verses and their plain, proverbial "
+                  "force; the Lectio Edition renders the same sayings in living modern English."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Müller's translation, 1881.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/2017",
+                              sourceId="2017", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Dhammapada", author="Early Buddhist tradition", originalLang="pi",
+        composed="300–100 BCE", type="religion", referenceScheme="chapter.verse",
+        defaultEditionId="edition.dhammapada.lectio-modern", tradition="East",
+        blurb=("The Buddha's path at its plainest, in verses meant to be learned by heart: the mind "
+               "makes the world, craving makes the suffering, and a way out exists. The best-loved "
+               "and most quoted scripture of Buddhism."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "dhammapada", [edition]), edition], None
+
+
+# ---------------------------------------------------------------------------
+# The Tao Te Ching — James Legge (1891, Sacred Books of the East) + Lectio
+# ---------------------------------------------------------------------------
+
+
+def tao_te_ching():
+    work_id = "work.laozi.tao-te-ching"
+    edition_id = "edition.tao-te-ching.legge-1891"
+    body = gutenberg.strip_boilerplate(gutenberg.fetch(216))
+    body = body.split("End of the Project Gutenberg")[0]      # non-standard trailing colophon
+    idx = body.find("Translated by James Legge")              # drop the title block
+    if idx >= 0:
+        body = body[idx + len("Translated by James Legge"):]
+    body = body.replace("Ch. 1.", "1.", 1)                    # normalize the lone 'Ch. 1.' marker
+    # Legge numbers each of the 81 chapters inline; chapters are separated by blank-line
+    # gaps (3+ newlines), verses within a chapter by single blank lines. Walk the blocks,
+    # starting a new chapter whenever a block opens with the next expected chapter number.
+    chapters: list[str] = []
+    for blk in re.split(r"\n{3,}", body):
+        blk = blk.strip("\n")
+        if not blk.strip():
+            continue
+        m = re.match(r"^(\d+)\.", blk)
+        expected = len(chapters) + 1
+        if m and int(m.group(1)) == expected and expected <= 81:
+            chapters.append(blk[m.end():].lstrip(" "))
+        elif chapters:
+            chapters[-1] += "\n\n" + blk
+    if len(chapters) != 81:
+        raise ValueError(f"Tao Te Ching: expected 81 chapters, got {len(chapters)}")
+    sections = [
+        build_section(edition_id, f"chapter-{n:02d}", n, f"Chapter {n}", text, form="prose")
+        for n, text in enumerate(chapters, start=1)
+    ]
+    edition = Edition(
+        id=edition_id, workId=work_id, kind="translation", language="en", form="prose",
+        translator="James Legge", translatorYears="1815–1897", publishedYear=1891,
+        character="The scholar's Tao Te Ching — Legge's careful Victorian prose for the Sacred Books of the East.",
+        overview=("James Legge, the great Oxford sinologist, made the standard scholarly English "
+                  "Tao Te Ching for his Sacred Books of the East. His version is literal and careful, "
+                  "preserving the eighty-one short chapters and their paradoxes — the Tao that cannot "
+                  "be named, the power that works by yielding — if Victorian and sometimes knotty. "
+                  "The Lectio Edition renders the same chapters in clear modern English."),
+        provenance=Provenance(source="gutenberg", rightsStatus="public_domain",
+                              rightsNote="US public domain; Legge's translation, 1891.",
+                              sourceUrl="https://www.gutenberg.org/ebooks/216",
+                              sourceId="216", retrievedDate=RETRIEVED),
+        sections=sections,
+    )
+    work = Work(
+        id=work_id, title="The Tao Te Ching", author="Laozi", originalLang="lzh",
+        composed="400–301 BCE", type="philosophy", referenceScheme="chapter",
+        defaultEditionId="edition.tao-te-ching.lectio-modern", tradition="East",
+        blurb=("Eighty-one short chapters on the Way that cannot be named and the power that works "
+               "by yielding — water that wears down stone, the ruler who leads by stepping back. The "
+               "foundational text of Taoism, and the most translated book in the world after the Bible."),
+        collections=["collection.eastern-canon"],
+    )
+    return work, [_modern_edition(work_id, "tao-te-ching", [edition]), edition], None
+
+
 RECIPES = [meditations, iliad, odyssey, aeneid, republic,
            nicomachean_ethics, the_prince, analects, confessions, hamlet, gilgamesh,
-           divine_comedy, bible_mark, bible_genesis]
+           divine_comedy, bible_mark, bible_genesis,
+           bhagavad_gita, dhammapada, tao_te_ching]

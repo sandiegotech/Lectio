@@ -63,8 +63,24 @@
     },
     {
       "workId": "work.dante.divine-comedy",
+<<<<<<< HEAD
       "note": "",
       "part": ""
+=======
+      "note": ""
+    },
+    {
+      "workId": "work.vyasa.bhagavad-gita",
+      "note": ""
+    },
+    {
+      "workId": "work.dhammapada",
+      "note": ""
+    },
+    {
+      "workId": "work.laozi.tao-te-ching",
+      "note": ""
+>>>>>>> origin/claude/overnight-vernacular-translations-2yfvla
     }
   ],
   "planned": [
