@@ -55,6 +55,12 @@ STRINGS = {
                     "those public-domain sources — not a historical translation.",
         "rights_4": "Set from the Lectio content bundle. Text, book arguments and notes are "
                     "identical to those in the Lectio app.",
+        "rights_5": "Published by the San Diego Institute of Technology, a 501(c)(3) nonprofit · "
+                    "San Diego, California · sandiegotech.org/lectio",
+        "rights_6": "The Lectio Edition text is released under CC BY-NC 4.0 — free to read, share, "
+                    "quote, and teach from, with attribution; commercial rights reserved to the "
+                    "Institute, whose printed editions fund the work. "
+                    "creativecommons.org/licenses/by-nc/4.0",
         "note_edition": "A Note on This Edition",
         "how_made": "How it was made",
         "sources": "Sources consulted",
@@ -118,6 +124,11 @@ STRINGS = {
                     "dominio público. Esta versión es una edición propia de Lectio, derivada de esas "
                     "fuentes de dominio público — no es una traducción histórica.",
         "rights_4": "Compuesta a partir del corpus de contenido de Lectio.",
+        "rights_5": "Publicado por el San Diego Institute of Technology, organización sin fines de "
+                    "lucro 501(c)(3) · San Diego, California · sandiegotech.org/lectio",
+        "rights_6": "El texto de la Edición Lectio se publica bajo CC BY-NC 4.0 — libre para leer, "
+                    "compartir, citar y enseñar, con atribución; los derechos comerciales quedan "
+                    "reservados al Instituto. creativecommons.org/licenses/by-nc/4.0",
         "note_edition": "Nota sobre esta edición",
         "how_made": "Cómo se hizo",
         "sources": "Fuentes consultadas",
@@ -556,6 +567,10 @@ def build_typ(args) -> str:
     {mk(S["rights_3"])}
     #v(7pt)
     {mk(S["rights_4"])}
+    #v(7pt)
+    {mk(S["rights_5"])}
+    #v(7pt)
+    {mk(S["rights_6"])}
   ]
 ]
 ''')
