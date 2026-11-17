@@ -1,56 +1,25 @@
 import SwiftUI
 
-// Search the whole corpus — every work, readable or not. Ingested works open in the
-// reader; shells show as coming soon; in-copyright works appear greyed with the year
-// they enter the public domain. Reachable even when locked works are hidden on the shelves.
+// Search the library's works by title or author. Choosing one hands it back to the
+// library (`onOpen`), which closes this sheet and opens the book on its own stack.
 struct SearchView: View {
     @EnvironmentObject var library: Library
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.dismiss) private var dismiss
     @State private var query = ""
     private let seed: String
+    private let onOpen: (Work) -> Void
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
-    init(initialQuery: String = "") { seed = initialQuery }
-
-    private struct Hit: Identifiable {
-        let id: String
-        let title: String
-        let author: String
-        let era: String
-        let note: String
-        let work: Work?
-        let opens: Int?
-        var isLocked: Bool { opens != nil }
+    init(initialQuery: String = "", onOpen: @escaping (Work) -> Void) {
+        seed = initialQuery
+        self.onOpen = onOpen
     }
 
-    // Every work once: real works first, then unique shells across all collections.
-    private var corpus: [Hit] {
-        var out: [Hit] = []
-        var seen = Set<String>()
-        func key(_ t: String, _ a: String) -> String { (t + "|" + a).lowercased() }
-        for w in library.works {
-            seen.insert(key(w.title, w.author))
-            out.append(Hit(id: "w:" + w.id, title: w.title, author: w.author,
-                           era: w.composed, note: w.blurb, work: w, opens: nil))
-        }
-        for c in library.collections {
-            for p in c.planned ?? [] {
-                let k = key(p.title, p.author ?? "")
-                if seen.contains(k) { continue }
-                seen.insert(k)
-                out.append(Hit(id: "p:" + k, title: p.title, author: p.author ?? "",
-                               era: p.era ?? "", note: p.note ?? "", work: nil,
-                               opens: p.isLocked ? p.opens : nil))
-            }
-        }
-        return out
-    }
-
-    private var results: [Hit] {
+    private var results: [Work] {
         let q = query.trimmingCharacters(in: .whitespaces).lowercased()
         guard !q.isEmpty else { return [] }
-        return corpus
+        return library.works
             .filter { $0.title.lowercased().contains(q) || $0.author.lowercased().contains(q) }
             .sorted { $0.title < $1.title }
     }
@@ -67,7 +36,7 @@ struct SearchView: View {
                 } else {
                     ScrollView {
                         LazyVStack(alignment: .leading, spacing: 0) {
-                            ForEach(results) { hit in row(hit) }
+                            ForEach(results) { row($0) }
                         }
                         .padding(.vertical, 6)
                     }
@@ -80,10 +49,11 @@ struct SearchView: View {
             .onAppear {
                 if query.isEmpty {
                     if !seed.isEmpty { query = seed }
-                    else if let q = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEARCH"] { query = q }
+                    #if DEBUG
+                    if query.isEmpty, let q = ProcessInfo.processInfo.environment["LECTIO_DEBUG_SEARCH"] { query = q }
+                    #endif
                 }
             }
-            .navigationDestination(for: Work.self) { ReaderView(work: $0) }
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Done") { dismiss() }.foregroundColor(pal.accent)
@@ -109,54 +79,29 @@ struct SearchView: View {
         .padding(.horizontal, 18).padding(.vertical, 12)
     }
 
-    @ViewBuilder
-    private func row(_ hit: Hit) -> some View {
-        let content = HStack(alignment: .top, spacing: 12) {
-            VStack(alignment: .leading, spacing: 2) {
-                HStack(alignment: .firstTextBaseline, spacing: 6) {
-                    Text(hit.title).font(.system(.subheadline, design: .serif).weight(.medium))
-                        .foregroundColor(pal.ink)
-                    if !hit.era.isEmpty {
-                        Text(hit.era).font(.caption2).foregroundColor(pal.accent.opacity(0.85))
+    private func row(_ w: Work) -> some View {
+        Button { onOpen(w) } label: {
+            HStack(alignment: .top, spacing: 12) {
+                VStack(alignment: .leading, spacing: 2) {
+                    HStack(alignment: .firstTextBaseline, spacing: 6) {
+                        Text(w.title).font(.system(.subheadline, design: .serif).weight(.medium))
+                            .foregroundColor(pal.ink)
+                        Text(w.composed).font(.caption2).foregroundColor(pal.accent.opacity(0.85))
                     }
+                    Text(w.author).font(.caption).foregroundColor(pal.inkSoft)
                 }
-                if !hit.author.isEmpty {
-                    Text(hit.author).font(.caption).foregroundColor(pal.inkSoft)
-                }
-                statusLine(hit)
-            }
-            Spacer(minLength: 0)
-            if hit.work != nil {
+                Spacer(minLength: 0)
                 Image(systemName: "chevron.right").font(.caption2.weight(.semibold))
                     .foregroundColor(pal.inkSoft)
             }
+            .padding(.horizontal, 18).padding(.vertical, 11)
+            .contentShape(Rectangle())
         }
-        .padding(.horizontal, 18).padding(.vertical, 11)
-        .opacity(hit.isLocked ? 0.55 : 1)
-
-        if let w = hit.work {
-            NavigationLink(value: w) { content }.buttonStyle(.plain)
-        } else {
-            content
-        }
-    }
-
-    @ViewBuilder
-    private func statusLine(_ hit: Hit) -> some View {
-        if hit.work != nil {
-            Label("Read now", systemImage: "book")
-                .font(.caption2.weight(.medium)).foregroundColor(pal.accent)
-        } else if let y = hit.opens {
-            Label("Enters the public domain in \(String(y))", systemImage: "lock.fill")
-                .font(.caption2).foregroundColor(pal.inkSoft)
-        } else {
-            Label("Coming soon", systemImage: "hourglass")
-                .font(.caption2).foregroundColor(pal.inkSoft)
-        }
+        .buttonStyle(.plain)
     }
 
     private var hint: some View {
-        Text("Search every book in the library by title or author — including works still under copyright.")
+        Text("Search the library by title or author.")
             .font(.footnote).foregroundColor(pal.inkSoft)
             .multilineTextAlignment(.center)
             .fixedSize(horizontal: false, vertical: true)

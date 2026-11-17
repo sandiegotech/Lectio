@@ -6,7 +6,10 @@ struct SavedWord: Codable, Identifiable, Hashable {
     var definition: String
     var workTitle: String?
     var workId: String?
-    var id: String { term.lowercased() }
+    // One entry per book: the same word saved in two books is two entries. Computed, so
+    // entries stored under the old term-only key carry over unchanged.
+    var id: String { SavedWord.key(term, workId) }
+    static func key(_ term: String, _ workId: String?) -> String { (workId ?? "") + "|" + term.lowercased() }
 }
 
 // A highlighted range of words inside one segment (paragraph). Anchored by token
@@ -37,24 +40,13 @@ struct SavedHighlight: Codable, Identifiable, Hashable {
     }
 }
 
-// A book the reader has checked out into My Collection — saved to read or explore later.
-struct SavedBook: Codable, Identifiable, Hashable {
-    var title: String
-    var author: String
-    var id: String { title }
-}
-
-// Persists the reader's personal layer — saved words, highlights, and My Collection.
-// Storage is iCloud-backed (CloudStore: UserDefaults + NSUbiquitousKeyValueStore) so it
-// follows the reader across their devices; changes are also reported through the SDIT
-// account sync seam (AccountSync.swift) for cross-app sync once the unified account ships.
+// Persists the reader's personal layer — saved words and highlights (with their notes).
+// Storage is CloudStore: local first, mirrored to iCloud key–value storage.
 final class SavedStore: ObservableObject {
     @Published private(set) var items: [SavedWord] = []
     @Published private(set) var highlights: [SavedHighlight] = []
-    @Published private(set) var collection: [SavedBook] = []
     private let key = "savedWords.v1"
     private let highlightKey = "savedHighlights.v1"
-    private let collectionKey = "myCollection.v1"
 
     init() {
         load()
@@ -64,25 +56,11 @@ final class SavedStore: ObservableObject {
         }
     }
 
-    // MARK: My Collection
-
-    func isInCollection(_ title: String) -> Bool {
-        collection.contains { $0.id == title }
-    }
-
-    func toggleCollection(_ book: SavedBook) {
-        if let i = collection.firstIndex(where: { $0.id == book.id }) {
-            collection.remove(at: i)
-        } else {
-            collection.insert(book, at: 0)
-        }
-        saveCollection()
-    }
-
     // MARK: words
 
-    func isSaved(_ term: String) -> Bool {
-        items.contains { $0.id == term.lowercased() }
+    func isSaved(_ term: String, workId: String?) -> Bool {
+        let k = SavedWord.key(term, workId)
+        return items.contains { $0.id == k }
     }
 
     func toggle(_ word: SavedWord) {
@@ -94,8 +72,8 @@ final class SavedStore: ObservableObject {
         save()
     }
 
-    func remove(_ term: String) {
-        items.removeAll { $0.id == term.lowercased() }
+    func remove(_ word: SavedWord) {
+        items.removeAll { $0.id == word.id }
         save()
     }
 
@@ -147,17 +125,6 @@ final class SavedStore: ObservableObject {
            let decoded = try? JSONDecoder().decode([SavedHighlight].self, from: data) {
             highlights = decoded
         }
-        if let data = CloudStore.shared.data(forKey: collectionKey),
-           let decoded = try? JSONDecoder().decode([SavedBook].self, from: data) {
-            collection = decoded
-        }
-    }
-
-    private func saveCollection() {
-        if let data = try? JSONEncoder().encode(collection) {
-            CloudStore.shared.set(data, forKey: collectionKey)
-        }
-        SyncCoordinator.shared.localDidChange(.collection)
     }
 
     private func save() {
@@ -167,7 +134,5 @@ final class SavedStore: ObservableObject {
         if let data = try? JSONEncoder().encode(highlights) {
             CloudStore.shared.set(data, forKey: highlightKey)
         }
-        SyncCoordinator.shared.localDidChange(.savedWords)
-        SyncCoordinator.shared.localDidChange(.highlights)
     }
 }

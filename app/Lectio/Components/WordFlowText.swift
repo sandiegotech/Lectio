@@ -37,6 +37,7 @@ struct WordFlowText: View {
 
     let text: String
     let pal: Palette
+    var fontSize: CGFloat = 19                // the reader's text size; line spacing scales with it
     var space: String = "reader"
     var focusWord: String? = nil          // a saved word jumped-to from the panel: lightly highlighted
     var savedWords: Set<String> = []      // saved words: a light gold underline wherever they appear
@@ -47,6 +48,7 @@ struct WordFlowText: View {
     var onSelectDrag: (CGPoint) -> Void = { _ in }        // live drag point in reader space (edge auto-scroll)
     var onSelectCommit: (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in }
     var onSelectionActive: (Bool) -> Void = { _ in }      // true while a hold-select is in progress
+    var onSelectCancel: () -> Void = {}                   // the hold was cancelled/failed: drop the live selection
     var onTapHighlight: (Int) -> Void = { _ in }          // tapped inside a saved highlight (token index)
     var onTap: () -> Void = {}
 
@@ -58,7 +60,7 @@ struct WordFlowText: View {
     @State private var box = FrameBox()
     @Environment(\.colorScheme) private var scheme
 
-    init(text: String, pal: Palette, space: String = "reader",
+    init(text: String, pal: Palette, fontSize: CGFloat = 19, space: String = "reader",
          focusWord: String? = nil, savedWords: Set<String> = [],
          importantWords: Set<String> = [],
          savedRanges: [ClosedRange<Int>] = [], activeRange: ClosedRange<Int>? = nil,
@@ -66,10 +68,12 @@ struct WordFlowText: View {
          onSelectDrag: @escaping (CGPoint) -> Void = { _ in },
          onSelectCommit: @escaping (ClosedRange<Int>, String, CGPoint) -> Void = { _, _, _ in },
          onSelectionActive: @escaping (Bool) -> Void = { _ in },
+         onSelectCancel: @escaping () -> Void = {},
          onTapHighlight: @escaping (Int) -> Void = { _ in },
          onTap: @escaping () -> Void = {}) {
         self.text = text
         self.pal = pal
+        self.fontSize = fontSize
         self.space = space
         self.focusWord = focusWord
         self.savedWords = savedWords
@@ -80,6 +84,7 @@ struct WordFlowText: View {
         self.onSelectDrag = onSelectDrag
         self.onSelectCommit = onSelectCommit
         self.onSelectionActive = onSelectionActive
+        self.onSelectCancel = onSelectCancel
         self.onTapHighlight = onTapHighlight
         self.onTap = onTap
         self.tokens = Self.tokenize(text)
@@ -87,7 +92,7 @@ struct WordFlowText: View {
     }
 
     private var flow: FlowLayout {
-        FlowLayout(spacing: 0, lineSpacing: 7).reporting { [box] i, f in box.local[i] = f }
+        FlowLayout(spacing: 0, lineSpacing: 7 * fontSize / 19).reporting { [box] i, f in box.local[i] = f }
     }
 
     var body: some View {
@@ -99,7 +104,7 @@ struct WordFlowText: View {
                         .layoutValue(key: LineBreakKey.self, value: true)
                 } else {
                     Text(tokens[i])
-                        .font(.system(size: 19, design: .serif))
+                        .font(.system(size: fontSize, design: .serif))
                         .foregroundColor(pal.ink)
                         .underline(underlineColor(i) != nil, color: underlineColor(i) ?? .clear)
                         .background(tokenHighlight(i))
@@ -118,6 +123,7 @@ struct WordFlowText: View {
                 onHoldBegan: { p in beginSelection(local: p) },
                 onHoldChanged: { p in changeSelection(local: p) },
                 onHoldEnded: { p in endSelection(local: p) },
+                onHoldCancelled: { cancelSelection() },
                 onTap: { p in tapAt(local: p) }
             )
         )
@@ -183,6 +189,15 @@ struct WordFlowText: View {
         onSelectCommit(r, selectedText(r), readerPoint(local: p))
     }
 
+    // The system cancelled the hold (or it failed): nothing was chosen, so the
+    // in-progress selection is dropped rather than committed.
+    private func cancelSelection() {
+        guard box.selAnchor != nil else { return }
+        box.selAnchor = nil
+        onSelectionActive(false)
+        onSelectCancel()
+    }
+
     private func tapAt(local p: CGPoint) {
         guard let i = tokenIndex(local: p) else { onTap(); return }
         if savedRanges.contains(where: { $0.contains(i) }) {
@@ -235,13 +250,14 @@ struct WordFlowText: View {
 // A transparent UIKit layer hosting a long-press + tap recognizer over the word text.
 // It lives inside the ScrollView's content, so the scroll view's pan recognizer (an
 // ancestor) still evaluates every touch: a quick one-finger drag scrolls the page from
-// anywhere, while a deliberate 0.3s hold begins word selection. The long-press is NOT
+// anywhere, while a deliberate 0.6s hold begins word selection. The long-press is NOT
 // simultaneous with the pan (hold-still selects, move-first scrolls); the reader
 // additionally disables scroll for the duration of a live selection.
 private struct TextInteractionOverlay: UIViewRepresentable {
     var onHoldBegan: (CGPoint) -> Void
     var onHoldChanged: (CGPoint) -> Void
     var onHoldEnded: (CGPoint) -> Void
+    var onHoldCancelled: () -> Void
     var onTap: (CGPoint) -> Void
 
     func makeUIView(context: Context) -> UIView {
@@ -249,7 +265,9 @@ private struct TextInteractionOverlay: UIViewRepresentable {
         v.backgroundColor = .clear
         let hold = UILongPressGestureRecognizer(target: context.coordinator,
                                                 action: #selector(Coordinator.handleHold(_:)))
-        hold.minimumPressDuration = 0.3
+        // Deliberate hold: 0.3s fired on accidental rests of a finger while reading;
+        // definitions and selection should only appear when the reader means it.
+        hold.minimumPressDuration = 0.6
         hold.delegate = context.coordinator
         v.addGestureRecognizer(hold)
         let tap = UITapGestureRecognizer(target: context.coordinator,
@@ -274,7 +292,8 @@ private struct TextInteractionOverlay: UIViewRepresentable {
             switch g.state {
             case .began:  parent.onHoldBegan(p)
             case .changed: parent.onHoldChanged(p)
-            case .ended, .cancelled, .failed: parent.onHoldEnded(p)
+            case .ended: parent.onHoldEnded(p)
+            case .cancelled, .failed: parent.onHoldCancelled()
             default: break
             }
         }

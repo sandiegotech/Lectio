@@ -2,13 +2,20 @@ import Foundation
 import Combine
 
 // Loads the bundled content directory (a folder reference named "content") into
-// memory at launch. The bundle is small; loading is synchronous and cheap.
+// memory at launch. Work metadata is small and loads synchronously; edition texts
+// decode lazily on first open.
 final class Library: ObservableObject {
-    @Published var works: [Work] = []
-    @Published var collections: [BookCollection] = []
+    // The readable shelf: every work whose release date has arrived.
+    @Published private(set) var works: [Work] = []
     @Published var enrichment: [String: Enrichment] = [:]
     @Published var explore: [ExploreRecord] = []
     @Published var concepts: [String: Concept] = [:]   // concept.id -> node
+    // Series collections (Lectio, Harvard Classics, …), in manifest order — the Library's
+    // "Collection" sort groups readable works under these.
+    private(set) var collections: [BookCollection] = []
+
+    // Every work in the bundle, released or not; `works` is filtered from this.
+    private var allWorks: [Work] = []
 
     // workId -> normalized term/alias -> curated glossary entry. Built once at load so
     // a tap is an O(1) dictionary hit regardless of which edition's name was tapped.
@@ -16,22 +23,74 @@ final class Library: ObservableObject {
 
     // Editions decode lazily — the full texts are ~20 MB of JSON, far too much to parse
     // before the shelf appears. Launch records where each edition lives; the first open
-    // of a book pays its own (small) decode and the cache keeps it.
+    // of a book pays its own (small) decode and the cache keeps it. Guarded by a lock
+    // because word study scans editions off the main thread.
     private var editionDir: [String: String] = [:]     // editionId -> "content/works/<id>"
     private var editionCache: [String: Edition] = [:]
+    private var infoCache: [String: EditionInfo] = [:]
+    private var omitted: [String: String] = [:]   // omitted segment id -> next readable id
+    private let lock = NSLock()
 
+    // The edition as the app sees it: segments of kind "omit" (an editor's note or an
+    // invented line, kept in the bundle only because segment ids are frozen) are removed
+    // here, once, so the reader, Compare, progress, search, word study, Explore, the
+    // Docent and cross-edition matching never meet them.
     func edition(_ id: String) -> Edition? {
+        lock.lock(); defer { lock.unlock() }
         if let e = editionCache[id] { return e }
         guard let dir = editionDir[id] else { return nil }
-        let short = String(id.split(separator: ".").last ?? "")
-        guard let e = decode(Edition.self, short, in: "\(dir)/editions") else { return nil }
+        guard var e = decode(Edition.self, editionFile(id), in: "\(dir)/editions") else { return nil }
+        var pending: [String] = []
+        for si in e.sections.indices {
+            var kept: [Segment] = []
+            for seg in e.sections[si].segments {
+                if seg.kind == "omit" { pending.append(seg.id); continue }
+                for o in pending { omitted[o] = seg.id }
+                pending.removeAll()
+                kept.append(seg)
+            }
+            e.sections[si].segments = kept
+        }
+        if let last = e.sections.last?.segments.last?.id { for o in pending { omitted[o] = last } }
         editionCache[id] = e
         return e
     }
 
+    // A saved place may point at a segment that is now omitted: land on the next real one.
+    func readableAnchor(_ id: String) -> String {
+        lock.lock(); defer { lock.unlock() }
+        return omitted[id] ?? id
+    }
+
+    // An edition's name fields, without decoding its text when it isn't open yet.
+    func editionInfo(_ id: String) -> EditionInfo? {
+        lock.lock(); defer { lock.unlock() }
+        if let e = editionCache[id] { return e.info }
+        if let i = infoCache[id] { return i }
+        guard let dir = editionDir[id],
+              let i = decode(EditionInfo.self, editionFile(id), in: "\(dir)/editions") else { return nil }
+        infoCache[id] = i
+        return i
+    }
+
+    // A work's editions in reading order (Lectio first, the original last).
+    func editionInfos(for work: Work) -> [EditionInfo] {
+        work.editionIds.compactMap { editionInfo($0) }.sorted(by: EditionInfo.readingOrder)
+    }
+
+    private func editionFile(_ id: String) -> String { String(id.split(separator: ".").last ?? "") }
+
     private let decoder = JSONDecoder()
 
-    init() { load() }
+    init() {
+        load()
+        // A book appears on its release date without a relaunch: re-check at midnight
+        // while the app is open (LectioApp also re-checks on returning to the foreground).
+        NotificationCenter.default.addObserver(forName: .NSCalendarDayChanged, object: nil,
+                                               queue: .main) { [weak self] _ in
+            self?.refreshReleases()
+        }
+    }
 
     private func url(_ name: String, in sub: String) -> URL? {
         Bundle.main.url(forResource: name, withExtension: "json", subdirectory: sub)
@@ -44,18 +103,19 @@ final class Library: ObservableObject {
     }
 
     func load() {
+        #if DEBUG
         let t0 = Date()
         defer { print("LECTIO library load: \(Int(Date().timeIntervalSince(t0) * 1000))ms") }
+        #endif
         guard let manifest = decode(Manifest.self, "manifest", in: "content") else { return }
-
-        collections = manifest.collections.compactMap {
-            decode(BookCollection.self, $0.id, in: "content/collections")
-        }
+        collections = manifest.collections
+            .compactMap { decode(BookCollection.self, $0.id, in: "content/collections") }
+            .filter { $0.kind == "series" }
 
         for ref in manifest.works {
             let dir = "content/works/\(ref.id)"
             guard let work = decode(Work.self, "work", in: dir) else { continue }
-            works.append(work)
+            allWorks.append(work)
 
             for editionId in work.editionIds {
                 editionDir[editionId] = dir
@@ -74,6 +134,7 @@ final class Library: ObservableObject {
                 }
             }
         }
+        refreshReleases()
 
         if let data = decode(ExploreData.self, "explore", in: "content") {
             explore = data.records
@@ -84,50 +145,47 @@ final class Library: ObservableObject {
         }
     }
 
-    // Build a book-overview route from a title (real work or planned shell) — used by the
-    // Explore feed's connection links to jump between related books.
-    func bookOverview(title: String) -> BookOverview? {
-        if let w = works.first(where: { $0.title == title }) {
-            return BookOverview(title: w.title, author: w.author, era: w.composed,
-                                overview: w.blurb, workId: w.id, coverPath: nil, tradition: w.tradition)
-        }
-        for c in collections {
-            if let p = (c.planned ?? []).first(where: { $0.title == title }) {
-                return BookOverview(title: p.title, author: p.author ?? "", era: p.era ?? "",
-                                    overview: p.note ?? "", workId: nil, coverPath: p.cover, tradition: p.tradition)
-            }
-        }
-        return nil
+    // MARK: release dates
+
+    // Recompute the readable shelf for today. Publishes only when it changes.
+    func refreshReleases() {
+        let released = allWorks.filter { Self.isReleased($0.releaseDate) }
+        if released.map(\.id) != works.map(\.id) { works = released }
     }
 
-    func edition(for work: Work) -> Edition? { edition(work.defaultEditionId) }
+    // "YYYY-MM-DD" on or before today in the device's calendar. Absent means released;
+    // a malformed date keeps the work hidden rather than leaking it early.
+    private static func isReleased(_ date: String?) -> Bool {
+        #if DEBUG
+        if ProcessInfo.processInfo.environment["LECTIO_DEBUG_ALL_RELEASES"] != nil { return true }
+        #endif
+        guard let date else { return true }
+        let parts = date.split(separator: "-").compactMap { Int($0) }
+        guard parts.count == 3 else {
+            #if DEBUG
+            print("LECTIO malformed releaseDate: \(date)")
+            #endif
+            return false
+        }
+        let today = Calendar.current.dateComponents([.year, .month, .day], from: Date())
+        let t = [today.year ?? 0, today.month ?? 0, today.day ?? 0]
+        return parts.lexicographicallyPrecedes(t) || parts == t
+    }
+
+    // MARK: lookups
+
+    func work(id: String) -> Work? { works.first { $0.id == id } }
+
+    // The overview route for a readable work with this title; nil for anything else,
+    // so links to unreleased or unknown titles render as plain text.
+    func bookOverview(title: String) -> BookOverview? {
+        works.first { $0.title == title }.map(BookOverview.init)
+    }
 
     // A work's cover art, if one is bundled at content/works/<id>/cover.jpg.
     func coverURL(_ workId: String) -> URL? {
         Bundle.main.url(forResource: "cover", withExtension: "jpg",
                         subdirectory: "content/works/\(workId)")
-    }
-
-    // A planned work's cover art, if one is bundled under content/.
-    func plannedCoverURL(_ coverPath: String?) -> URL? {
-        guard let coverPath, !coverPath.isEmpty else { return nil }
-        let ns = coverPath as NSString
-        let ext = ns.pathExtension.isEmpty ? nil : ns.pathExtension
-        let name = ns.deletingPathExtension.components(separatedBy: "/").last ?? ns.deletingPathExtension
-        let dir = ns.deletingLastPathComponent
-        let subdirectory = dir.isEmpty ? "content" : "content/\(dir)"
-        return Bundle.main.url(forResource: name, withExtension: ext, subdirectory: subdirectory)
-    }
-
-    // A collection's featured introduction image, if bundled at
-    // content/collections/<collectionId>-intro.jpg.
-    func collectionImageURL(_ collectionId: String) -> URL? {
-        Bundle.main.url(forResource: "\(collectionId)-intro", withExtension: "jpg",
-                        subdirectory: "content/collections")
-    }
-
-    func works(in collection: BookCollection) -> [Work] {
-        collection.items.compactMap { item in works.first { $0.id == item.workId } }
     }
 
     // Passage enrichment is authored against one edition's section IDs (e.g.
@@ -161,46 +219,6 @@ final class Library: ObservableObject {
         return out
     }
 
-    // A definition resolved anywhere in the corpus, for the Gloss handoff
-    // (`lectio://define?term=…`). The reader isn't inside a book, so we search the
-    // shared concept graph first (original-language lemma/transliteration too), then
-    // every work's curated glossary. nil when the word isn't curated yet.
-    struct CorpusGloss {
-        var term: String
-        var gloss: String
-        var kind: String?
-        var concept: Concept?
-        var appearsIn: [(id: String, title: String)]
-    }
-
-    func lookupAnywhere(term: String) -> CorpusGloss? {
-        let n = WordDictionary.normalize(term)
-        guard !n.isEmpty else { return nil }
-
-        func matchesConcept(_ c: Concept) -> Bool {
-            if WordDictionary.normalize(c.term) == n { return true }
-            if let o = c.original {
-                if WordDictionary.normalize(o.lemma) == n { return true }
-                if let t = o.translit, WordDictionary.normalize(t) == n { return true }
-            }
-            return false
-        }
-        if let c = concepts.values.first(where: matchesConcept) {
-            let works = (c.appearsIn ?? []).compactMap { id in
-                workTitle(id: id).map { (id: id, title: $0) }
-            }
-            return CorpusGloss(term: c.term, gloss: c.gloss, kind: c.kind, concept: c, appearsIn: works)
-        }
-        for (workId, index) in glossIndex {
-            if let e = index[n] {
-                let concept = e.conceptId.flatMap { self.concept(id: $0) }
-                let works = workTitle(id: workId).map { [(id: workId, title: $0)] } ?? []
-                return CorpusGloss(term: e.term, gloss: e.gloss, kind: e.kind, concept: concept, appearsIn: works)
-            }
-        }
-        return nil
-    }
-
     func concept(id: String) -> Concept? { concepts[id] }
 
     // Every concept node, alphabetical — the Ideas doorway's source.
@@ -211,9 +229,31 @@ final class Library: ObservableObject {
         enrichment[workId]?.glossary?.first { $0.conceptId == conceptId }
     }
 
-    func workTitle(id: String) -> String? { works.first { $0.id == id }?.title }
+    func workTitle(id: String) -> String? { work(id: id)?.title }
 
     func chapterOverview(workId: String, order: Int) -> String? {
         enrichment[workId]?.chapters?[String(order)]
     }
 }
+
+extension Work {
+    // Rough sortable year from the composed string ("c. 800–200 BCE", "1513", "8th–9th c."…),
+    // so the library reads earliest to latest.
+    var sortYear: Int {
+        let s = composed.lowercased()
+        if s.hasPrefix("ancient") { return -2000 }
+        guard let start = s.firstIndex(where: { $0.isNumber }) else { return 3000 }
+        var j = start, n = 0
+        while j < s.endIndex, let d = s[j].wholeNumberValue { n = n * 10 + d; j = s.index(after: j) }
+        let after = s[j...]
+        let century = after.hasPrefix("st") || after.hasPrefix("nd")
+                   || after.hasPrefix("rd") || after.hasPrefix("th")
+        let bce = s.contains("bce") || s.contains(" bc")
+        if century { return bce ? -(n * 100) : (n - 1) * 100 }
+        return bce ? -n : n
+    }
+}
+
+// Off the main thread, only `edition(_:)` and `editionInfo(_:)` are called, and both hold
+// the lock; everything else is touched on the main thread.
+extension Library: @unchecked Sendable {}

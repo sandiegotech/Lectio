@@ -71,6 +71,7 @@ struct ProvenanceSheet: View {
                     row("Edition", "Lectio Edition" + (p.vintage.map { " · \($0)" } ?? ""))
                     if let m = p.aiModel { row("Model", m) }
                     if let d = p.retrievedDate { row("Produced", d) }
+                    if let r = p.revised.flatMap(monthYear) { row("Revised", r) }
                     if let t = p.tokensEstimated { row("Tokens used", "≈ \(formatted(t)) (estimated)") }
                     if let sources = p.sourcesCited, !sources.isEmpty {
                         block("Sources consulted") {
@@ -112,6 +113,17 @@ struct ProvenanceSheet: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(pal.paper)
+    }
+
+    // "2026-11-17" -> "November 2026".
+    private func monthYear(_ ymd: String) -> String? {
+        let parse = DateFormatter()
+        parse.locale = Locale(identifier: "en_US_POSIX")
+        parse.dateFormat = "yyyy-MM-dd"
+        guard let d = parse.date(from: ymd) else { return nil }
+        let out = DateFormatter()
+        out.setLocalizedDateFormatFromTemplate("MMMMyyyy")
+        return out.string(from: d)
     }
 
     private var title: String {

@@ -1,43 +1,31 @@
 import SwiftUI
 import UIKit
 
-// A navigable "learn more" page for any book — works already in the library and shells
-// not yet added. The status line tells you which it is; in-library books offer "Read now".
+// A book's own page: what it is, its editions, and the threads to other books.
+// Reached from a cover in the library; "Read now" opens the default edition (or resumes).
 struct BookOverview: Hashable {
-    var title: String
-    var author: String
-    var era: String
-    var overview: String
-    var workId: String?     // non-nil ⇒ in the library (readable)
-    var coverPath: String?  // planned-cover path for shells
-    var tradition: String? = nil
+    let work: Work
+    init(_ work: Work) { self.work = work }
 }
 
 struct BookOverviewView: View {
     let book: BookOverview
     @EnvironmentObject var library: Library
-    @EnvironmentObject var saved: SavedStore
+    @EnvironmentObject var reading: ReadingState
+    @EnvironmentObject var opener: BookOpener
     @Environment(\.colorScheme) private var colorScheme
     @State private var showCoverPreview = false
+    @State private var cover = CoverFrame()
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
     private let coverW: CGFloat = 132
     private let coverH: CGFloat = 196
 
-    private var inLibrary: Bool { book.workId != nil }
-    private var work: Work? { book.workId.flatMap { id in library.works.first { $0.id == id } } }
-    private var explore: ExploreRecord? { library.explore.first { $0.title == book.title } }
+    private var work: Work { book.work }
+    private var explore: ExploreRecord? { library.explore.first { $0.title == work.title } }
 
     private var sub: String {
-        [book.author, book.era].filter { !$0.isEmpty }.joined(separator: "  ·  ")
-    }
-
-    // Every shelf, list, and genre this book appears on — each tappable to browse it.
-    private var appearsIn: [BookCollection] {
-        library.collections.filter { c in
-            library.works(in: c).contains { $0.title == book.title }
-                || (c.planned ?? []).contains { $0.title == book.title }
-        }
+        [work.author, work.composed].filter { !$0.isEmpty }.joined(separator: "  ·  ")
     }
 
     var body: some View {
@@ -45,8 +33,10 @@ struct BookOverviewView: View {
             VStack(alignment: .leading, spacing: 18) {
                 HStack(alignment: .top, spacing: 18) {
                     coverView
+                        .onGeometryChange(for: CGRect.self) { $0.frame(in: .global) } action: { cover.frame = $0 }
+                        .opacity(opener.opening?.work.id == work.id ? 0 : 1)
                     VStack(alignment: .leading, spacing: 7) {
-                        Text(book.title)
+                        Text(work.title)
                             .font(.system(size: 26, weight: .semibold, design: .serif))
                             .foregroundColor(pal.ink)
                             .fixedSize(horizontal: false, vertical: true)
@@ -54,31 +44,23 @@ struct BookOverviewView: View {
                             Text(sub).font(.system(.subheadline, design: .serif)).italic()
                                 .foregroundColor(pal.inkSoft)
                         }
-                        statusBadge
+                        // Quiet tags: genre and tradition.
+                        HStack(spacing: 6) {
+                            ForEach([work.genre, work.tradition == "East" ? "Eastern" : "Western"], id: \.self) {
+                                Text($0).font(.caption2).foregroundColor(pal.inkSoft)
+                                    .padding(.horizontal, 8).padding(.vertical, 3)
+                                    .overlay(Capsule().stroke(pal.rule))
+                            }
+                        }
+                        .padding(.top, 2)
                     }
                     Spacer(minLength: 0)
                 }
 
-                HStack(spacing: 10) {
-                    if inLibrary, let w = work {
-                        NavigationLink(value: w) { actionButton("book", "Read now", filled: true) }
-                            .buttonStyle(.plain)
-                    }
-                    Button {
-                        saved.toggleCollection(SavedBook(title: book.title, author: book.author))
-                    } label: {
-                        let inColl = saved.isInCollection(book.title)
-                        actionButton(inColl ? "checkmark" : "plus",
-                                     inColl ? "In your collection" : "Check out", filled: false)
-                    }
-                    .buttonStyle(.plain)
+                Button { opener.open(work, from: cover.frame) } label: {
+                    actionButton("book", "Read now", filled: true)
                 }
-
-                Label(inLibrary ? "On your tablet · available offline"
-                                : "In the cloud · the full text arrives when this edition is published",
-                      systemImage: inLibrary ? "ipad" : "icloud")
-                    .font(.caption2).foregroundColor(pal.inkSoft)
-                    .fixedSize(horizontal: false, vertical: true)
+                .buttonStyle(.plain)
 
                 Rectangle().fill(pal.rule).frame(height: 1).padding(.vertical, 2)
 
@@ -89,8 +71,8 @@ struct BookOverviewView: View {
                     Text(ex.source).font(.caption2).foregroundColor(pal.inkSoft.opacity(0.8))
                 }
 
-                if !book.overview.isEmpty {
-                    ForEach(Array(book.overview.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, para in
+                if !work.blurb.isEmpty {
+                    ForEach(Array(work.blurb.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, para in
                         Text(para)
                             .font(.system(size: 17, design: .serif))
                             .lineSpacing(6)
@@ -99,14 +81,7 @@ struct BookOverviewView: View {
                     }
                 }
 
-                if !inLibrary {
-                    Text("This work isn't in the library yet. A clear modern Lectio edition — read by default, with the public-domain translations and the original a tap away — is on the way.")
-                        .font(.footnote).foregroundColor(pal.inkSoft)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .padding(14)
-                        .background(RoundedRectangle(cornerRadius: 12).fill(pal.rail))
-                        .overlay(RoundedRectangle(cornerRadius: 12).stroke(pal.rule))
-                }
+                editionsList
 
                 if let ex = explore, ex.original?.isEmpty == false || ex.translationNote?.isEmpty == false {
                     sectionLabel("ON THE TEXT")
@@ -118,14 +93,6 @@ struct BookOverviewView: View {
                     sectionLabel("THREADS")
                     ForEach(Array(ex.connections.enumerated()), id: \.offset) { _, c in threadRow(c) }
                 }
-
-                if !appearsIn.isEmpty {
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("APPEARS IN").font(.caption2).tracking(2).foregroundColor(pal.inkSoft)
-                        FlowChips(collections: appearsIn, pal: pal)
-                    }
-                    .padding(.top, 4)
-                }
             }
             .frame(maxWidth: 680, alignment: .leading)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -133,15 +100,47 @@ struct BookOverviewView: View {
             .padding(.vertical, 20)
         }
         .background(pal.paper.ignoresSafeArea())
-        .navigationTitle(book.title)
+        .navigationTitle(work.title)
         .navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(isPresented: $showCoverPreview) {
             if let img = coverUIImage { CoverPreview(image: img) }
         }
         .onAppear {
+            #if DEBUG
             if ProcessInfo.processInfo.environment["LECTIO_DEBUG_PREVIEW"] != nil, coverUIImage != nil {
                 showCoverPreview = true
             }
+            #endif
+        }
+    }
+
+    // Every edition of the work, labelled as the reader's edition menu labels them,
+    // Lectio first; each opens the reader in that edition.
+    @ViewBuilder
+    private var editionsList: some View {
+        let infos = library.editionInfos(for: work)
+        if !infos.isEmpty {
+            sectionLabel("EDITIONS")
+            VStack(spacing: 0) {
+                ForEach(Array(infos.enumerated()), id: \.element.id) { i, info in
+                    if i > 0 { Rectangle().fill(pal.rule).frame(height: 1).padding(.leading, 14) }
+                    NavigationLink(value: ReaderRoute(workId: work.id, target: .edition(info.id))) {
+                        HStack(spacing: 8) {
+                            Text(info.label)
+                                .font(.system(.subheadline, design: .serif))
+                                .foregroundColor(pal.ink)
+                            Spacer(minLength: 0)
+                            Image(systemName: "chevron.right")
+                                .font(.caption2.weight(.semibold)).foregroundColor(pal.inkSoft)
+                        }
+                        .padding(.horizontal, 14).padding(.vertical, 12)
+                        .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .background(RoundedRectangle(cornerRadius: 10).fill(pal.rail))
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(pal.rule))
         }
     }
 
@@ -171,17 +170,19 @@ struct BookOverviewView: View {
 
     @ViewBuilder
     private func threadRow(_ conn: ExploreRecord.Link) -> some View {
+        let target = library.bookOverview(title: conn.to)
         let row = HStack(alignment: .top, spacing: 8) {
             Image(systemName: threadIcon(conn.type)).font(.caption2).foregroundColor(pal.accent)
                 .padding(.top, 2).frame(width: 16)
             VStack(alignment: .leading, spacing: 1) {
-                Text(conn.to).font(.subheadline.weight(.medium)).foregroundColor(pal.accent)
+                Text(conn.to).font(.subheadline.weight(.medium))
+                    .foregroundColor(target == nil ? pal.ink : pal.accent)
                 Text(conn.note).font(.caption2).foregroundColor(pal.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
             }
             Spacer(minLength: 0)
         }
-        if let target = library.bookOverview(title: conn.to) {
+        if let target {
             NavigationLink(value: target) { row }.buttonStyle(.plain)
         } else { row }
     }
@@ -196,25 +197,7 @@ struct BookOverviewView: View {
         }
     }
 
-    private var statusBadge: some View {
-        HStack(spacing: 5) {
-            Image(systemName: inLibrary ? "checkmark.circle.fill" : "hourglass")
-                .font(.caption2)
-            Text(inLibrary ? "In the library" : "Coming soon")
-                .font(.caption.weight(.medium))
-        }
-        .foregroundColor(inLibrary ? pal.accent : pal.inkSoft)
-        .padding(.horizontal, 9).padding(.vertical, 4)
-        .background(Capsule().fill(inLibrary ? pal.accent.opacity(0.12) : pal.rail))
-        .overlay(Capsule().stroke(inLibrary ? pal.accent.opacity(0.3) : pal.rule))
-    }
-
-    // The cover's image, if one exists (real-work cover or planned-shell cover).
-    private var coverUIImage: UIImage? {
-        if let id = book.workId, let url = library.coverURL(id) { return UIImage(contentsOfFile: url.path) }
-        if let path = book.coverPath, let url = library.plannedCoverURL(path) { return UIImage(contentsOfFile: url.path) }
-        return nil
-    }
+    private var coverUIImage: UIImage? { CoverCache.image(at: library.coverURL(work.id)) }
 
     @ViewBuilder
     private var coverView: some View {
@@ -229,20 +212,8 @@ struct BookOverviewView: View {
                     }
             }
             .buttonStyle(.plain)
-        } else if let w = work {
-            SpineCard(work: w, height: coverH).frame(width: coverW)
         } else {
-            let isEast = book.tradition == "East"
-            let fill = isEast ? Color(hex: 0x071118).opacity(0.96) : pal.paper.opacity(0.5)
-            let stroke = isEast ? Color(hex: 0xB58A3B).opacity(0.72) : pal.rule
-            let icon = isEast ? Color(hex: 0xD3B06A).opacity(0.68) : pal.inkSoft.opacity(0.5)
-            RoundedRectangle(cornerRadius: 6)
-                .fill(fill)
-                .overlay(RoundedRectangle(cornerRadius: 6)
-                    .strokeBorder(stroke, style: StrokeStyle(lineWidth: 1, dash: [3, 3])))
-                .overlay(Image(systemName: "hourglass").font(.title2)
-                    .foregroundColor(icon))
-                .frame(width: coverW, height: coverH)
+            SpineCard(work: work, height: coverH).frame(width: coverW)
         }
     }
 
@@ -251,6 +222,7 @@ struct BookOverviewView: View {
             .frame(width: coverW, height: coverH)
             .clipShape(RoundedRectangle(cornerRadius: 6))
             .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color.black.opacity(0.18), lineWidth: 0.5))
+            .overlay { if let p = reading.state(work.id)?.progress, p > 0 { ProgressRibbon(progress: p) } }
             .shadow(color: .black.opacity(0.24), radius: 8, y: 4)
     }
 }
@@ -287,27 +259,6 @@ struct CoverPreview: View {
                     .padding(16)
             }
             .buttonStyle(.plain)
-        }
-    }
-}
-
-// A wrapping row of tappable collection chips — each opens that list/shelf.
-struct FlowChips: View {
-    let collections: [BookCollection]
-    let pal: Palette
-
-    var body: some View {
-        FlowLayout(spacing: 8, lineSpacing: 8) {
-            ForEach(collections, id: \.id) { c in
-                NavigationLink(value: c) {
-                    Text(c.title)
-                        .font(.caption).foregroundColor(pal.inkSoft)
-                        .padding(.horizontal, 10).padding(.vertical, 5)
-                        .background(Capsule().fill(pal.rail))
-                        .overlay(Capsule().stroke(pal.rule))
-                }
-                .buttonStyle(.plain)
-            }
         }
     }
 }

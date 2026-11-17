@@ -2,8 +2,6 @@ import SwiftUI
 
 // The reader's own marks across every book — saved words and highlights — gathered in
 // one place, off the library shelves. Tapping any one opens the book at that spot.
-// (Later this is where an SDIT account would sync notes with Gloss / Slate — see
-// AccountSync.swift; the Connect-an-app surface will live here, not on the shelves.)
 struct NotesView: View {
     @EnvironmentObject var saved: SavedStore
     @EnvironmentObject var library: Library
@@ -20,14 +18,7 @@ struct NotesView: View {
                     .font(.system(.largeTitle, design: .serif)).foregroundColor(pal.ink)
                     .padding(.top, 8)
 
-                if !saved.collection.isEmpty {
-                    sectionLabel("My Collection")
-                    VStack(alignment: .leading, spacing: 12) {
-                        ForEach(saved.collection) { collectionRow($0) }
-                    }
-                }
-
-                if words.isEmpty && highlights.isEmpty && saved.collection.isEmpty {
+                if words.isEmpty && highlights.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Nothing saved yet.")
                             .font(.system(.title3, design: .serif)).foregroundColor(pal.ink)
@@ -70,34 +61,6 @@ struct NotesView: View {
         Text(t.uppercased()).font(.caption2).tracking(1.5).foregroundColor(pal.inkSoft)
     }
 
-    private func collectionRow(_ b: SavedBook) -> some View {
-        let row = HStack(spacing: 11) {
-            Image(systemName: "books.vertical.fill").font(.subheadline)
-                .foregroundColor(pal.accent.opacity(0.8)).frame(width: 26)
-            VStack(alignment: .leading, spacing: 2) {
-                Text(b.title).font(.system(.headline, design: .serif)).foregroundColor(pal.ink)
-                if !b.author.isEmpty {
-                    Text(b.author).font(.caption).foregroundColor(pal.inkSoft)
-                }
-            }
-            Spacer(minLength: 0)
-            Image(systemName: "chevron.right").font(.caption2.weight(.semibold))
-                .foregroundColor(pal.inkSoft.opacity(0.6))
-        }
-        return Group {
-            if let ov = library.bookOverview(title: b.title) {
-                NavigationLink(value: ov) { row }.buttonStyle(.plain)
-            } else {
-                row
-            }
-        }
-        .contextMenu {
-            Button(role: .destructive) { saved.toggleCollection(b) } label: {
-                Label("Remove from collection", systemImage: "trash")
-            }
-        }
-    }
-
     private func wordChip(_ w: SavedWord) -> some View {
         let label = HStack(spacing: 5) {
             Image(systemName: "bookmark.fill").font(.system(size: 8)).foregroundColor(pal.gold)
@@ -108,7 +71,7 @@ struct NotesView: View {
         .overlay(Capsule().stroke(pal.rule))
 
         return Group {
-            if let wid = w.workId {
+            if let wid = w.workId, library.work(id: wid) != nil {
                 NavigationLink(value: ReaderRoute(workId: wid, target: .word(w.term))) { label }
                     .buttonStyle(.plain)
             } else {
@@ -116,7 +79,7 @@ struct NotesView: View {
             }
         }
         .contextMenu {
-            Button(role: .destructive) { saved.remove(w.term) } label: { Label("Remove", systemImage: "trash") }
+            Button(role: .destructive) { saved.remove(w) } label: { Label("Remove", systemImage: "trash") }
         }
     }
 
@@ -148,7 +111,7 @@ struct NotesView: View {
             .buttonStyle(.plain)
         }
         return Group {
-            if let wid = h.workId {
+            if let wid = h.workId, library.work(id: wid) != nil {
                 NavigationLink(value: ReaderRoute(workId: wid, target: .segment(h.segmentId))) { row }
                     .buttonStyle(.plain)
             } else {

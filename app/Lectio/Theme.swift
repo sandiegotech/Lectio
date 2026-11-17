@@ -72,8 +72,10 @@ final class AppTheme: ObservableObject {
     init() {
         let raw = UserDefaults.standard.string(forKey: key) ?? ""
         mode = AppearanceMode(rawValue: raw) ?? .system
+        #if DEBUG
         // Debug hook: LECTIO_DEBUG_DARK forces night mode (for screenshots).
         if ProcessInfo.processInfo.environment["LECTIO_DEBUG_DARK"] != nil { mode = .dark }
+        #endif
     }
 
     // nil = follow the system (Automatic); otherwise force the chosen scheme.

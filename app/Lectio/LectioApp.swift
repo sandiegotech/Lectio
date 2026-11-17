@@ -5,8 +5,8 @@ struct LectioApp: App {
     @StateObject private var library = Library()
     @StateObject private var saved = SavedStore()
     @StateObject private var reading = ReadingState()
-    @StateObject private var downloads = Downloads()
     @StateObject private var theme = AppTheme()
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some Scene {
         WindowGroup {
@@ -14,11 +14,12 @@ struct LectioApp: App {
                 .environmentObject(library)
                 .environmentObject(saved)
                 .environmentObject(reading)
-                .environmentObject(downloads)
                 .environmentObject(theme)
                 .preferredColorScheme(theme.preferredColorScheme)
-                // Inbound `lectio://define?term=…` from Gloss's "Open in Lectio".
-                .glossInbound(library: library, saved: saved)
+        }
+        // Back in the foreground on a later day: books released today appear.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { library.refreshReleases() }
         }
     }
 }

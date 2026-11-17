@@ -27,10 +27,10 @@ struct ConceptDetailView: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                if !(concept.connections ?? []).isEmpty {
+                if !threads.isEmpty {
                     sectionLabel("Threads")
                     VStack(alignment: .leading, spacing: 10) {
-                        ForEach(concept.connections ?? [], id: \.self) { edgeRow($0) }
+                        ForEach(threads, id: \.self) { edgeRow($0) }
                     }
                 }
 
@@ -80,6 +80,13 @@ struct ConceptDetailView: View {
 
     // MARK: threads — edges to other concepts and works
 
+    // Only edges that lead somewhere: a known concept, or a work in the library.
+    private var threads: [Concept.Edge] {
+        (concept.connections ?? []).filter { e in
+            e.to.hasPrefix("concept.") ? library.concept(id: e.to) != nil : library.work(id: e.to) != nil
+        }
+    }
+
     @ViewBuilder
     private func edgeRow(_ e: Concept.Edge) -> some View {
         let row = HStack(alignment: .top, spacing: 8) {
@@ -95,23 +102,15 @@ struct ConceptDetailView: View {
             }
             Spacer(minLength: 0)
         }
-        if e.to.hasPrefix("concept."), let c = library.concept(id: e.to) {
+        if let c = library.concept(id: e.to) {
             NavigationLink(value: c) { row }.buttonStyle(.plain)
-        } else if e.to.hasPrefix("work."),
-                  let title = library.workTitle(id: e.to),
-                  let target = library.bookOverview(title: title) {
-            NavigationLink(value: target) { row }.buttonStyle(.plain)
-        } else {
-            row
+        } else if let w = library.work(id: e.to) {
+            NavigationLink(value: BookOverview(w)) { row }.buttonStyle(.plain)
         }
     }
 
     private func edgeTitle(_ e: Concept.Edge) -> String {
-        if e.to.hasPrefix("concept.") {
-            return library.concept(id: e.to)?.term.capitalized
-                ?? e.to.replacingOccurrences(of: "concept.", with: "").capitalized
-        }
-        return library.workTitle(id: e.to) ?? e.to
+        library.concept(id: e.to)?.term.capitalized ?? library.workTitle(id: e.to) ?? e.to
     }
 
     private func edgeIcon(_ type: String) -> String {
@@ -172,17 +171,5 @@ struct ConceptDetailView: View {
     private func sectionLabel(_ t: String) -> some View {
         Text(t.uppercased())
             .font(.caption2.weight(.semibold)).tracking(2).foregroundColor(pal.accent)
-    }
-
-    private func languageName(_ code: String) -> String {
-        switch code {
-        case "grc", "el": return "Greek"
-        case "la", "lat": return "Latin"
-        case "zh": return "Chinese"
-        case "it": return "Italian"
-        case "akk": return "Akkadian"
-        case "en": return "English"
-        default: return code.uppercased()
-        }
     }
 }

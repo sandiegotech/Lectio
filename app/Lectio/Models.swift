@@ -17,6 +17,7 @@ struct Provenance: Codable, Hashable {
     var sourcesCited: [String]?
     var tokensEstimated: Int?
     var vintage: Int?
+    var revised: String?          // "YYYY-MM-DD": the last revision from review (Lectio editions)
     var creator: String?
     var holdingInstitution: String?
 }
@@ -80,6 +81,71 @@ struct Work: Codable, Hashable, Identifiable {
     var tradition: String?        // "West" | "East"
     var collections: [String]
     var editionIds: [String]
+    var releaseDate: String?      // "YYYY-MM-DD"; absent means released (Library.load hides later dates)
+}
+
+// The handful of fields that name an edition, decodable without the full text — the
+// overview's Editions list and the reader's menus label editions from these.
+struct EditionInfo: Codable, Hashable, Identifiable {
+    var id: String
+    var kind: String
+    var language: String
+    var translator: String?
+    var publishedYear: Int?
+    var provenance: Provenance
+
+    // "Lectio Edition · 2026", "George Long · 1862", "Greek original".
+    var label: String {
+        switch kind {
+        case "modern":
+            return provenance.vintage.map { "Lectio Edition · \($0)" } ?? "Lectio Edition"
+        case "original":
+            return language == "en" ? "Original text" : "\(languageName(language)) original"
+        default:
+            return "\(translator ?? "Unknown")" + (publishedYear.map { " · \($0)" } ?? "")
+        }
+    }
+
+    // Who the words are by, for a line quoted from this edition: "tr. Samuel Butler, 1898",
+    // "King James Version, 1611", "Greek original". nil for the Lectio edition.
+    var credit: String? {
+        switch kind {
+        case "modern": return nil
+        case "original": return label
+        default:
+            let year = publishedYear.map { ", \($0)" } ?? ""
+            guard let t = translator else { return nil }
+            if t.contains("King James") { return "King James Version" + year }
+            return "tr. \(t)" + year
+        }
+    }
+
+    // Lectio edition first, then translations latest-first, the original last.
+    static func readingOrder(_ a: EditionInfo, _ b: EditionInfo) -> Bool {
+        func rank(_ e: EditionInfo) -> Int { e.kind == "modern" ? 0 : e.kind == "original" ? 2 : 1 }
+        if rank(a) != rank(b) { return rank(a) < rank(b) }
+        return (a.publishedYear ?? 0) > (b.publishedYear ?? 0)
+    }
+}
+
+extension Edition {
+    var info: EditionInfo {
+        EditionInfo(id: id, kind: kind, language: language, translator: translator,
+                    publishedYear: publishedYear, provenance: provenance)
+    }
+    var label: String { info.label }
+}
+
+func languageName(_ code: String) -> String {
+    switch code {
+    case "grc", "el": return "Greek"
+    case "la", "lat": return "Latin"
+    case "zh": return "Chinese"
+    case "it": return "Italian"
+    case "akk": return "Akkadian"
+    case "en": return "English"
+    default: return code.uppercased()
+    }
 }
 
 struct CollectionItem: Codable, Hashable {
@@ -89,8 +155,10 @@ struct CollectionItem: Codable, Hashable {
     var part: String?   // sub-section within the collection (e.g. "The New Testament")
 }
 
+// Mirrors content/collections/*.json. In V1 a series collection is only a grouping for
+// the Library's "Collection" sort: its readable `items`. Planned shells never appear.
 struct BookCollection: Codable, Hashable, Identifiable {
-    // A shell on the shelf — a planned work not yet ingested.
+    // A planned work not yet ingested.
     struct Planned: Codable, Hashable {
         var title: String
         var author: String?
@@ -102,8 +170,6 @@ struct BookCollection: Codable, Hashable, Identifiable {
         var originalCover: String? // optional cover for the public-domain/source translation
         var rights: String?    // "in-copyright" when not yet free to read
         var opens: Int?        // year it enters the public domain
-
-        var isLocked: Bool { rights == "in-copyright" }
     }
     var id: String
     var title: String
@@ -115,11 +181,6 @@ struct BookCollection: Codable, Hashable, Identifiable {
     var group: String?         // optional umbrella header (e.g. "Religious Texts")
     var items: [CollectionItem]
     var planned: [Planned]?
-
-    var isGenre: Bool { kind == "genre" }
-
-    // Total readable works on the shelf (ingested works + planned shells).
-    var workCount: Int { items.count + (planned?.count ?? 0) }
 }
 
 // Editorial enrichment sidecar that powers the margin rail. Hand-authored seed
@@ -193,7 +254,7 @@ struct Concept: Codable, Hashable, Identifiable {
 
 // Just enough of manifest.json to enumerate what to load.
 struct Manifest: Codable {
-    struct CollRef: Codable { var id: String; var title: String }
+    struct CollRef: Codable { var id: String }
     struct WorkRef: Codable { var id: String }
     var collections: [CollRef]
     var works: [WorkRef]

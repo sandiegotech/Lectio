@@ -1,7 +1,6 @@
 import SwiftUI
 
-// A route to the in-app word study page — Gloss, folded into Lectio. Pushed from the
-// WordCard so the deep dive on a word no longer requires leaving the book.
+// A route to the word study page, pushed from the reader's selection card ("Explore").
 struct WordStudy: Hashable {
     var term: String
     var workId: String
@@ -9,13 +8,14 @@ struct WordStudy: Hashable {
 
 // The word's own page: its curated meaning in this book, the idea behind it (the
 // concept layer), where it appears across this work's editions, the other books in
-// the library that carry it, the system dictionary, and — for the full ecosystem
-// experience — the hand-off to the Gloss app as the quiet footer.
+// the library that carry it, and the system dictionary.
 struct WordStudyView: View {
     let study: WordStudy
     @EnvironmentObject var library: Library
     @EnvironmentObject var saved: SavedStore
     @Environment(\.colorScheme) private var colorScheme
+    // Where the word appears, per edition — scanned once, off the main thread.
+    @State private var occurrences: [EditionOccurrence] = []
     private var pal: Palette { Palette.forScheme(colorScheme) }
 
     private var work: Work? { library.works.first { $0.id == study.workId } }
@@ -121,6 +121,7 @@ struct WordStudyView: View {
         .background(pal.paper.ignoresSafeArea())
         .navigationTitle(study.term.capitalized)
         .navigationBarTitleDisplayMode(.inline)
+        .task { occurrences = await scanOccurrences() }
     }
 
     private var header: some View {
@@ -152,9 +153,10 @@ struct WordStudyView: View {
             saved.toggle(SavedWord(term: study.term, definition: entry?.gloss ?? "",
                                    workTitle: work?.title, workId: study.workId))
         } label: {
-            Image(systemName: saved.isSaved(study.term) ? "bookmark.fill" : "bookmark")
+            let isSaved = saved.isSaved(study.term, workId: study.workId)
+            Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
                 .font(.title3)
-                .foregroundColor(saved.isSaved(study.term) ? pal.gold : pal.inkSoft)
+                .foregroundColor(isSaved ? pal.gold : pal.inkSoft)
         }
         .buttonStyle(.plain)
     }
@@ -191,45 +193,23 @@ struct WordStudyView: View {
         .buttonStyle(.plain)
     }
 
-    // MARK: dictionary + Gloss footer
+    // MARK: dictionary
 
+    @ViewBuilder
     private var actionsFooter: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Rectangle().fill(pal.rule).frame(height: 1)
-            HStack(spacing: 10) {
-                if SystemDictionary.hasDefinition(study.term) {
-                    Button { SystemDictionary.lookUp(study.term) } label: {
-                        Label("Dictionary", systemImage: "character.book.closed")
-                            .font(.caption.weight(.medium))
-                            .padding(.horizontal, 12).padding(.vertical, 7)
-                            .foregroundColor(pal.accent)
-                            .overlay(RoundedRectangle(cornerRadius: 8).stroke(pal.rule))
-                    }
-                    .buttonStyle(.plain)
-                }
-                Button {
-                    if glossInstalled { GlossLink.open(term: study.term, sourceTitle: work?.title) }
-                    else { GlossLink.openWebsite() }
-                } label: {
-                    HStack(spacing: 6) {
-                        Image(systemName: "sparkle.magnifyingglass").font(.caption2)
-                        Text(glossInstalled ? "Open in Gloss" : "Go deeper with Gloss")
-                            .font(.caption.weight(.medium))
-                        Image(systemName: "arrow.up.forward").font(.system(size: 9, weight: .semibold))
-                    }
-                    .padding(.horizontal, 12).padding(.vertical, 7)
-                    .foregroundColor(pal.accent)
-                    .overlay(RoundedRectangle(cornerRadius: 8).stroke(pal.rule))
+        if SystemDictionary.hasDefinition(study.term) {
+            VStack(alignment: .leading, spacing: 10) {
+                Rectangle().fill(pal.rule).frame(height: 1)
+                Button { SystemDictionary.lookUp(study.term) } label: {
+                    Label("Dictionary", systemImage: "character.book.closed")
+                        .font(.caption.weight(.medium))
+                        .padding(.horizontal, 12).padding(.vertical, 7)
+                        .foregroundColor(pal.accent)
+                        .overlay(RoundedRectangle(cornerRadius: 8).stroke(pal.rule))
                 }
                 .buttonStyle(.plain)
-                Spacer(minLength: 0)
             }
         }
-    }
-
-    private var glossInstalled: Bool {
-        guard let u = URL(string: "gloss://define") else { return false }
-        return UIApplication.shared.canOpenURL(u)
     }
 
     // MARK: occurrences — where the word appears, per edition of this work
@@ -241,33 +221,28 @@ struct WordStudyView: View {
         var firstIn: String?
     }
 
-    private var occurrences: [EditionOccurrence] {
+    private func scanOccurrences() async -> [EditionOccurrence] {
         guard let w = work else { return [] }
-        let needles = ([study.term] + (entry?.aliases ?? [])).map { $0.lowercased() }
-        return w.editionIds.compactMap { eid -> EditionOccurrence? in
-            guard let ed = library.edition(eid), !ed.sections.isEmpty else { return nil }
-            var count = 0
-            var firstIn: String?
-            for sec in ed.sections {
-                for seg in sec.segments {
-                    let t = seg.text.lowercased()
-                    if needles.contains(where: { t.contains($0) }) {
-                        count += 1
-                        if firstIn == nil { firstIn = sec.label }
+        let needles = [study.term] + (entry?.aliases ?? [])
+        let library = library
+        return await withCheckedContinuation { done in
+            DispatchQueue.global(qos: .userInitiated).async {
+                let found = w.editionIds.compactMap { eid -> EditionOccurrence? in
+                    guard let ed = library.edition(eid), !ed.sections.isEmpty else { return nil }
+                    var count = 0
+                    var firstIn: String?
+                    for sec in ed.sections {
+                        for seg in sec.segments
+                        where needles.contains(where: { WordDictionary.containsWord($0, in: seg.text) }) {
+                            count += 1
+                            if firstIn == nil { firstIn = sec.label }
+                        }
                     }
+                    guard count > 0 else { return nil }
+                    return EditionOccurrence(editionId: eid, label: ed.label, count: count, firstIn: firstIn)
                 }
+                done.resume(returning: found)
             }
-            guard count > 0 else { return nil }
-            return EditionOccurrence(editionId: eid, label: editionShortLabel(ed),
-                                     count: count, firstIn: firstIn)
-        }
-    }
-
-    private func editionShortLabel(_ ed: Edition) -> String {
-        switch ed.kind {
-        case "modern": return "Lectio Edition"
-        case "original": return "Original"
-        default: return ed.translator ?? "Translation"
         }
     }
 

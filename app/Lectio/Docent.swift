@@ -44,15 +44,11 @@ enum DocentAvailability: Equatable {
 
 // The provider seam. Stateful: begin() anchors a conversation to a passage;
 // reply() streams cumulative text for one question, remembering prior turns.
-// define() is one-shot and out-of-conversation — the word popup's quick
-// in-context definition, on its own ephemeral session so the panel thread
-// stays untouched.
 @MainActor
 protocol DocentProvider: AnyObject {
     var label: String { get }    // provenance label shown to the reader
     func begin(_ context: DocentContext)
     func reply(to question: String) -> AsyncThrowingStream<String, Error>
-    func define(_ term: String, context: DocentContext) -> AsyncThrowingStream<String, Error>
 }
 
 enum DocentError: Error {
@@ -91,6 +87,7 @@ final class DocentService: ObservableObject {
     var providerLabel: String? { provider?.label }
 
     init() {
+        #if DEBUG
         // Debug hook: LECTIO_DEBUG_DOCENT_MOCK uses a canned provider (for
         // screenshots and for development on hosts without Apple Intelligence).
         if ProcessInfo.processInfo.environment["LECTIO_DEBUG_DOCENT_MOCK"] != nil {
@@ -99,6 +96,7 @@ final class DocentService: ObservableObject {
             availability = .available
             return
         }
+        #endif
         mockForced = false
         #if canImport(FoundationModels)
         if #available(iOS 26.0, *) {
@@ -176,12 +174,6 @@ final class DocentService: ObservableObject {
             thread.exchanges[last].done = true
         }
         thread.busy = false
-    }
-
-    // A quick in-context definition for the word popup — separate from the panel
-    // conversation. nil when no provider is available.
-    func define(_ term: String, context ctx: DocentContext) -> AsyncThrowingStream<String, Error>? {
-        provider?.define(term, context: ctx)
     }
 
     // Map provider errors to flat sentences a reader can act on.
@@ -281,30 +273,6 @@ final class AppleDocent: DocentProvider {
         }
     }
 
-    // Quick definition on a fresh, tiny session — cheap enough to spin up per tap.
-    func define(_ term: String, context ctx: DocentContext) -> AsyncThrowingStream<String, Error> {
-        let session = LanguageModelSession(instructions: """
-        You define words for a reader of the classics. In one or two short, plain \
-        sentences, say what the word means as it is used in the passage below — and \
-        if it names a person, god, or place, who or what that is here. No preamble; \
-        don't quote the passage back.
-
-        The passage, from \(ctx.workTitle):
-        \(String(ctx.passage.prefix(700)))
-        """)
-        return AsyncThrowingStream { continuation in
-            let work = Task { @MainActor in
-                do {
-                    try await Self.stream("Define “\(term)” as used here.", from: session, into: continuation)
-                    continuation.finish()
-                } catch {
-                    continuation.finish(throwing: error)
-                }
-            }
-            continuation.onTermination = { _ in work.cancel() }
-        }
-    }
-
     // All grounding lives in the instructions, so each question is just a prompt
     // and the session transcript carries the follow-up thread.
     private static func makeSession(for c: DocentContext) -> LanguageModelSession {
@@ -341,29 +309,13 @@ final class AppleDocent: DocentProvider {
 
 // MARK: - Mock provider (debug/dev only; enabled by LECTIO_DEBUG_DOCENT_MOCK)
 
+#if DEBUG
 @MainActor
 final class MockDocent: DocentProvider {
     let label = "preview (canned answer)"
     private var context: DocentContext?
 
     func begin(_ ctx: DocentContext) { context = ctx }
-
-    func define(_ term: String, context ctx: DocentContext) -> AsyncThrowingStream<String, Error> {
-        let text = "As used here, “\(term)” means keeping an even, self-commanded state of mind — the steadiness Marcus credits his grandfather with teaching him."
-        return AsyncThrowingStream { continuation in
-            let work = Task {
-                var sent = ""
-                for word in text.split(separator: " ", omittingEmptySubsequences: false) {
-                    guard !Task.isCancelled else { return }
-                    sent += (sent.isEmpty ? "" : " ") + word
-                    continuation.yield(sent)
-                    try? await Task.sleep(nanoseconds: 15_000_000)
-                }
-                continuation.finish()
-            }
-            continuation.onTermination = { _ in work.cancel() }
-        }
-    }
 
     func reply(to question: String) -> AsyncThrowingStream<String, Error> {
         let answer = "Marcus opens the Meditations with a ledger of debts: person by person, he names what each one taught him. From his grandfather Verus he took good temper; from his father's memory, modesty and strength of character; from his mother, reverence, generosity, and plain living. Before writing a single idea of his own, he credits every virtue he has to someone else — the book's first lesson in humility."
@@ -382,3 +334,4 @@ final class MockDocent: DocentProvider {
         }
     }
 }
+#endif
