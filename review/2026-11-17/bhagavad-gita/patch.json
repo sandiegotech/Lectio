@@ -1,0 +1,618 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0004",
+  "severity": "high",
+  "old": "Then, to lift the old king's heart, the eldest of the Kurus, Bhishma,",
+  "new": "Then, to lift Duryodhana's heart, Bhishma, the eldest of the Kurus and their grandsire,",
+  "why": "1.12 tasya samjanayan harsham kuruvriddhah pitamahah: Bhishma cheers 'him', Duryodhana, who has just spoken; 'the old king' points to Dhritarashtra, who is not on the field. Arnold's 'aged king' is his own slip."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "On the sacred plain of Kurukshetra, drawn up and hungry for battle — tell me, Sanjaya: what did my people do, and what did the sons of Pandu do?",
+  "new": "On the sacred plain of Kurukshetra my people and the sons of Pandu have gathered, hungry for battle. Tell me, Sanjaya: what did they do?",
+  "why": "1.1 samaveta yuyutsavah mamakah pandavas caiva: the participles dangle with no subject until the end; the poem's first line trips aloud."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "ready to do the bidding in war of the wicked-minded son of Dhritarashtra",
+  "new": "ready in this war to please the wicked-minded son of Dhritarashtra",
+  "why": "1.23 yuddhe priyacikirshavah, 'wishing to please in battle'; 'the bidding in war of' jams two prepositions and loses the stress."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "\"Behold, Arjuna,\" he said, \"the Kurus gathered here.\"",
+  "new": "\"Look, Arjuna,\" he said, \"at the Kurus gathered here.\"",
+  "why": "1.25 pashya, plain 'look'; 'Behold' is leftover archaism."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "every one of them a great warrior, mounted on his shining chariot.",
+  "new": "every one of them a great chariot-warrior.",
+  "why": "1.6 sarva eva maharathah, 'all great chariot-fighters'; 'shining' is from Arnold, not the Sanskrit."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "the mere letter of the scriptures",
+  "new": "the mere letter of the Vedas",
+  "why": "Vedas policy. 2.42 vedavadaratah: the text names the Vedas, and the argument of 2.42-46 depends on it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "The scriptures deal with the three qualities of nature",
+  "new": "The Vedas deal with the three qualities of nature",
+  "why": "Vedas policy. 2.45 traigunyavishaya vedah."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "the scriptures are worth no more than a well",
+  "new": "the Vedas are worth no more than a well",
+  "why": "Vedas policy. 2.46: the well simile is about the Vedas (sarveshu vedeshu)."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "so give yourself to this discipline, for skill in action is exactly this discipline.",
+  "new": "so give yourself to Yoga, for Yoga is skill in action.",
+  "why": "Yoga policy. 2.50 yogah karmasu kaushalam, one of the most quoted lines; the inversion and 'discipline' made it unrecognizable."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "to pass into the peace of God.",
+  "new": "to reach the nirvana of Brahman.",
+  "why": "Brahmanirvana policy. 2.72 brahmanirvanam ricchati; 'peace of God' is a Christian phrase and drops both terms."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0007",
+  "severity": "medium",
+  "old": "have seen the truth of both — they have learned to tell the abiding substance from the passing shadow.",
+  "new": "have seen the truth of both.",
+  "why": "2.16 ubhayor api drishto 'ntas tv anayos tattvadarshibhih: nothing about substance and shadow; commentary written into the sentence."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "It is unworthy of you, it shames a brave man, it shuts you out of the noble path.",
+  "new": "It is unworthy of a noble man; it closes the door to heaven and brings disgrace.",
+  "why": "2.2 anaryajushtam asvargyam akirtikaram: unworthy of the noble, not leading to heaven, disgraceful. 'Noble path' put arya in the heaven slot. Arnold: 'it shuts the gate of heaven'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "stand up, and be yourself again, scourge of your enemies.",
+  "new": "stand up, scourge of your enemies.",
+  "why": "2.3 uttishtha parantapa; 'be yourself again' is added."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "Krishna, the lord of hearts;",
+  "new": "Krishna, the lord of the senses;",
+  "why": "2.9 Hrishikesha, 'lord of the senses'; 'hearts' is another epithet."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "unchanging, present everywhere, steady and sure.",
+  "new": "unchanging, present everywhere, steady, unmoving, everlasting.",
+  "why": "2.24 nityah sarvagatah sthanur acalo 'yam sanatanah; 'sure' drops 'immovable' and 'eternal'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "the wisdom of analysis, of Sankhya.",
+  "new": "the wisdom of Sankhya.",
+  "why": "Sankhya policy. 2.39 esha te 'bhihita sankhye: keep the name, drop the gloss."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": " But these are not finally two.",
+  "new": "",
+  "why": "3.3-4: Krishna names the two paths and goes straight to 'not by abstaining from action'; their unity is argued at 5.4-5 and is not pre-announced here."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "Know that action springs from the sacred order itself, and that the sacred, all-pervading, is forever present in every offering.",
+  "new": "Know that action arises from Brahman, and Brahman from the Imperishable; so Brahman, pervading all things, is forever present in sacrifice.",
+  "why": "Brahman policy. 3.15 karma brahmodbhavam viddhi brahmakshara-samudbhavam: a two-step chain; the Imperishable was dropped and Brahman blurred to 'the sacred order'."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0007",
+  "severity": "medium",
+  "old": "let the wise make such work attractive.",
+  "new": "let the wise lead them to take joy in all their work.",
+  "why": "3.26 joshayet sarvakarmani yuktah samacaran: the wise, working with discipline themselves, should lead the ignorant to delight in their work; 'make attractive' sounds like marketing and loses the example."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "is fooling no one but himself; he is a hypocrite.",
+  "new": "is deluded, and he is rightly called a hypocrite.",
+  "why": "3.6 vimudhatma mithyacarah sa ucyate."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "turns his powers to honest work",
+  "new": "turns his powers of action to the discipline of work",
+  "why": "3.7 karmendriyaih karmayogam: the yoga of action with the organs of action; 'honest' moralizes."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "he is whole, and everything he does is done in the right spirit.",
+  "new": "he is disciplined, even while he does every kind of work.",
+  "why": "4.18 sa yuktah kritsnakarmakrit: he is a yogi and performs all action; 'whole' and 'right spirit' are invented."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "This undying discipline, this deep union, I once taught to Vivasvat, the lord of light;",
+  "new": "This undying Yoga I once taught to Vivasvat, the sun;",
+  "why": "Yoga policy. 4.1 imam vivasvate yogam proktavan aham avyayam: one phrase doubled, and 'lord of light' is a gloss."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "Now I declare that same ancient discipline to you",
+  "new": "Now I declare that same ancient Yoga to you",
+  "why": "Yoga policy. 4.3 sa evayam maya te 'dya yogah proktah puratanah: the teaching named in 4.1 is named again."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "Age after age I come into the world, in visible form, to protect the good",
+  "new": "Age after age I am born, to protect the good",
+  "why": "4.8 sambhavami yuge yuge; 'in visible form' is added."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "for the workings of action run deep and dark.",
+  "new": "for the way of action is hard to fathom.",
+  "why": "4.17 gahana karmano gatih; 'and dark' is added for rhythm."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "knowing me for the one who receives all offering and all worship",
+  "new": "knowing me for the one who enjoys every sacrifice and every austerity",
+  "why": "5.29 bhoktaram yajnatapasam: tapas is austerity, not worship."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "speak of the way of knowledge and the way of action as two separate things",
+  "new": "speak of Sankhya and Yoga as two separate things",
+  "why": "Sankhya/Yoga policy (raised as work-wide pattern, not in 05.md). 5.4 sankhyayogau prithag balah pravadanti: the two schools are named."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "The state that the followers of knowledge reach is reached by the followers of action as well; whoever sees that the two ways are one sees truly.",
+  "new": "The state that the followers of Sankhya reach is reached by the followers of Yoga as well; whoever sees that Sankhya and Yoga are one sees truly.",
+  "why": "Sankhya/Yoga policy. 5.5 yat sankhyaih prapyate sthanam tad yogair api gamyate / ekam sankhyam ca yogam ca yah pashyati sa pashyati."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "comes to the peace of Brahman, the great extinction. The seers come to that peace,",
+  "new": "reaches the nirvana of Brahman. The seers win the nirvana of Brahman,",
+  "why": "Brahmanirvana policy. 5.24-25 brahmanirvanam ... adhigacchati / labhante brahmanirvanam rishayah; 'great' is added. The Sanskrit repeats the term on purpose."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "the peace of Brahman lies near",
+  "new": "the nirvana of Brahman lies near",
+  "why": "Brahmanirvana policy. 5.26 abhito brahmanirvanam vartate."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "has become one with the eternal.",
+  "new": "has become Brahman.",
+  "why": "Brahman policy. 6.27 brahmabhutam."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "the boundless happiness of touching the eternal.",
+  "new": "the boundless happiness of contact with Brahman.",
+  "why": "Brahman policy. 6.28 brahmasamsparsham."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "lost on the road to the eternal?",
+  "new": "lost on the road to Brahman?",
+  "why": "Brahman policy (pattern, not in 06.md). 6.38 vimudho brahmanah pathi."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "rises beyond the bare word of the scriptures.",
+  "new": "rises beyond the letter of the Vedas.",
+  "why": "Vedas policy (pattern, not in 06.md). 6.44 shabdabrahmativartate: the 'word-Brahman' is the Veda."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "every desire born of his own scheming",
+  "new": "every desire born of his own imagining",
+  "why": "6.24 sankalpaprabhavan kaman: desires born of intention or fancy; 'scheming' adds malice."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "comes at last to the peace that is the highest of all, the peace that abides in me.",
+  "new": "comes at last to the peace whose end is nirvana, the peace that abides in me.",
+  "why": "Brahmanirvana policy. 6.15 shantim nirvanaparamam matsamstham: nirvana was dropped."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0007",
+  "severity": "medium",
+  "old": "knowing that all this is the divine, that all this is God.",
+  "new": "knowing that Vasudeva is all that is.",
+  "why": "7.19 vasudevah sarvam iti: the name is the point of the line; the doubled abstraction is filler."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "the lucid, the passionate, and the dark",
+  "new": "goodness, passion, and darkness",
+  "why": "Gunas policy. 7.12 sattvika rajasas tamasah: same English names as XIV and XVII."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "Earth, water, fire, air, and ether;",
+  "new": "Earth, water, fire, air, and space;",
+  "why": "Akasha policy (pattern). 7.4 kham: the same element the edition calls 'space' in IX and now XIII."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "the sound in the air,",
+  "new": "the sound in space,",
+  "why": "Akasha policy (pattern). 7.8 shabdah khe: kha is space, not air (vayu); sound is the quality of space in Sankhya."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "uttering the single sacred syllable OM — the sound of Brahman — keeps me in mind",
+  "new": "uttering OM, the single syllable that is Brahman, keeps me in mind",
+  "why": "8.13 om ity ekaksharam brahma: OM is Brahman, not its sound."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "scourge of your enemies — for every offering is made to me.",
+  "new": "scourge of your enemies.",
+  "why": "8.4 adhiyajno 'ham evatra dehe: the dash clause is an added explanation."
+ },
+ {
+  "section": 9,
+  "seg": null
+ },
+ {
+  "section": 10,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "Among the storm-spirits I am Shankara; among the lords of wealth I am Kubera;",
+  "new": "Among the Rudras I am Shankara; among the Yakshas and Rakshasas I am Kubera, lord of wealth;",
+  "why": "10.23 rudranam shankarash casmi vitteso yaksharakshasam: the Rudras (named in XI) are not the storm-gods (Maruts) of 10.21; the Yakshas and Rakshasas are named, per the named-things policy."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "Of the chants of the Veda I am the great hymn;",
+  "new": "Of the Sama chants I am the Brihat Saman;",
+  "why": "10.35 brihatsama tatha samnam: a named chant."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "and I am come forth to annihilate these people.",
+  "new": "and I have come forth to annihilate these people.",
+  "why": "11.32: 'I am come' is leftover archaism in the chapter's most famous line."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "master of every discipline",
+  "new": "lord of Yoga",
+  "why": "Yoga policy. 11.4 yogeshvara."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "the great lord of all discipline, Krishna,",
+  "new": "the great lord of Yoga, Krishna,",
+  "why": "Yoga policy. 11.9 mahayogeshvaro harih."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "For knowledge is better than blind practice",
+  "new": "For knowledge is better than practice",
+  "why": "12.12 shreyo hi jnanam abhyasat; 'blind' belittles the practice recommended at 12.9-10."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "who is pure within and capable without, untroubled and unconcerned, who has let go of every anxious undertaking",
+  "new": "who is pure and capable, untroubled and unconcerned, who has let go of every undertaking",
+  "why": "12.16 shucir daksha udasino gatavyathah sarvarambhaparityagi: 'within/without' and 'anxious' are decoration."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "As the all-pervading air, for its very subtlety, is never tainted by what it moves through,",
+  "new": "As all-pervading space, for its very subtlety, is never tainted by anything it holds,",
+  "why": "Akasha policy. 13.32 yatha sarvagatam saukshmyad akasham nopalipyate: akasha is space, not air (vayu); the simile needs what contains all and is untouched."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "the body as a whole, the power that holds awareness together, and the will to keep on being",
+  "new": "the body as a whole, awareness, and steadfastness",
+  "why": "13.6 sanghatash cetana dhritih: aggregate, consciousness, steadfastness; the paraphrases say what the text does not."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "the one who knows it — who watches over it — is called",
+  "new": "the one who knows it is called",
+  "why": "13.1 etad yo vetti: 'who watches over it' is a gloss."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "without the three strands of nature, and yet it experiences them.",
+  "new": "free of the three qualities of nature, and yet it experiences them.",
+  "why": "Gunas policy. 13.14 nirgunam gunabhoktri ca."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "and the three strands they are woven from, are born of nature.",
+  "new": "and the three qualities, are born of nature.",
+  "why": "Gunas policy. 13.19 vikarams ca gunams caiva viddhi prakritisambhavan; 'they are woven from' is a gloss."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "undergoes the strands that nature brings forth; and its clinging to these strands",
+  "new": "undergoes the qualities that nature brings forth; and its clinging to these qualities",
+  "why": "Gunas policy. 13.21 bhunkte prakritijan gunan / karanam gunasango 'sya."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "nature with its three strands",
+  "new": "nature with its three qualities",
+  "why": "Gunas policy. 13.23 prakritim ca gunaih saha."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "others reach it by the discipline of clear reflection,",
+  "new": "others reach it by the discipline of Sankhya,",
+  "why": "Sankhya policy. 13.24 anye sankhyena yogena: the school is named."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "free of the three strands, does not act",
+  "new": "free of the three qualities, does not act",
+  "why": "Gunas policy. 13.31 anaditvan nirgunatvat."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0003",
+  "severity": "high",
+  "old": "goodness, passion, and ignorance — are the three qualities",
+  "new": "goodness, passion, and darkness — are the three qualities",
+  "why": "Gunas policy. 14.5: tamas is darkness; ignorance is what it is born of (14.8). Naming it 'ignorance' sets up the inversion below and makes 14.16-17 circular."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0003",
+  "severity": "high",
+  "old": "But tamas, born of darkness, deludes",
+  "new": "But tamas, born of ignorance, deludes",
+  "why": "14.8 tamas tv ajnanajam viddhi: tamas is born of ignorance; the edition reversed source and product."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "the fruit of ignorance is more ignorance still.",
+  "new": "the fruit of darkness is ignorance.",
+  "why": "14.16 ajnanam tamasah phalam: ignorance is the fruit of tamas; the tautology came from the mislabel."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "gives light and brings health, and it binds",
+  "new": "gives light, and it binds",
+  "why": "14.6 nirmalatvat prakashakam anamayam: 'untroubled' already carries anamayam; 'brings health' doubles it and reads as medical."
+ },
+ {
+  "section": 15,
+  "seg": null
+ },
+ {
+  "section": 16,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "the divine endowment, the daivi nature.",
+  "new": "the divine endowment.",
+  "why": "The untranslated tag gives a reader no help and does not match its partner in seg-0002."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "the demonic endowment, the asura nature.",
+  "new": "the demonic endowment.",
+  "why": "Partner of the seg-0001 fix; 'asura' tag dropped likewise."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "and a hard, honest discipline of the self; uprightness",
+  "new": "and austerity; uprightness",
+  "why": "16.1 tapa arjavam: austerity, uprightness; 'honest' anticipated arjava, which is then said again."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "Know them for men whose resolve is set on what is dark.",
+  "new": "Know them for men of demonic resolve.",
+  "why": "17.6 tan viddhy asuranishcayan: demonic resolve; 'dark' files them under tamas and drops the link to XVI."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "worship the spirits and demons of power;",
+  "new": "worship the Yakshas and Rakshasas;",
+  "why": "Named-things policy. 17.4 yaksharakshamsi: named classes of beings; 'of power' is invented. Capitalized as in XI."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "the priests, the scriptures, and the sacrifices",
+  "new": "the brahmins, the Vedas, and the sacrifices",
+  "why": "Vedas policy. 17.23 brahmanas tena vedas ca yajnas ca."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "words that are true, kind, and to the good",
+  "new": "words that are true, kind, and helpful",
+  "why": "17.15 satyam priyahitam: true, pleasing, beneficial; 'to the good' is not idiomatic."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "as the teaching of analysis lays them out",
+  "new": "as the Sankhya teaching lays them out",
+  "why": "Sankhya policy. 18.13 sankhye kritante."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "that is the renunciation of light, the only true one.",
+  "new": "that is the renunciation of light.",
+  "why": "18.9 sa tyagah sattviko matah; 'the only true one' is added emphasis."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "The resolve of light is the unwavering steadiness with which a man holds his mind, his breath, and his senses in hand, fixed in the discipline of devotion.",
+  "new": "The resolve of light is the steadiness with which a man holds his mind, his breath, and his senses in hand through a discipline that never wavers.",
+  "why": "18.33 yogenavyabhicarinya: by unwavering yoga; 'of devotion' narrows it to bhakti, and 'unwavering' belongs to the discipline, not the steadiness."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "this highest secret, this discipline of devotion, told by Krishna, the lord of all discipline,",
+  "new": "this highest secret, this Yoga, told by Krishna, the lord of Yoga,",
+  "why": "Yoga policy. 18.75 guhyam etat param yogam yogeshvarat krishnat: 'of devotion' narrows it to bhakti."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0026",
+  "severity": "low",
+  "old": "Wherever Krishna is, the lord of all discipline,",
+  "new": "Wherever Krishna is, the lord of Yoga,",
+  "why": "Yoga policy. 18.78 yatra yogeshvarah krishnah; Arnold too: 'Lord of Yoga'."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "and faith in things unseen",
+  "new": "and religious faith",
+  "why": "18.42 astikyam: belief in the sacred teaching; 'things unseen' echoes Hebrews 11:1."
+ }
+]

@@ -1,0 +1,2266 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "\"It's a shameful thing — how badly you need Odysseus home",
+  "new": "\"Oh, how badly you need Odysseus home",
+  "why": "Greek ὢ πόποι (1.253) is a cry of dismay, not a verdict that the thing is shameful; as written Athena seems to rebuke Telemachus. Butler: 'Is that so?'"
+ },
+ {
+  "section": 1,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "for he was a man who got around among people, in his time.",
+  "new": "for he went about among men a great deal, in his time.",
+  "why": "Greek ἐπίστροφος ἦν ἀνθρώπων (1.177): he had dealings with many men (Butler: 'went about much himself'). 'Got around' is slang and carries an unwanted sexual sense."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0024",
+  "severity": "medium",
+  "old": "always remembering him — a head whose fame fills",
+  "new": "always remembering him — so dear a man, whose fame fills",
+  "why": "τοίην κεφαλήν (1.343) is the Homeric 'head' for a dear person; carried over literally it reads oddly. House policy: render as the person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "why begrudge the loyal singer for lifting our hearts however his spirit moves him?",
+  "new": "why grudge the loyal singer the right to delight us however his spirit moves him?",
+  "why": "'Begrudge ... for' is not idiomatic; Greek (1.346-7) is 'why grudge the singer to delight us as his mind moves him'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "who hands out fortune to working men however he pleases",
+  "new": "who hands out fortune to mortal men however he pleases",
+  "why": "ἀνδράσιν ἀλφηστῇσιν (1.349) is a stock word for mortals (bread-eaters); 'working men' imports a labor sense. Butler: 'mankind'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "He'd come back then from Ephyra",
+  "new": "He had just come back from Ephyra then",
+  "why": "Greek ἐρχόμενον ἐξ Ἐφύρης (1.259): he was coming from Ephyra when she first saw him; 'He'd' is heard as 'he would' right after the wish."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "or you may catch a word from Zeus, the kind that so often carries word to men.",
+  "new": "or you may catch a rumor sent by Zeus, the kind that most often brings men news.",
+  "why": "Greek ὄσσαν ἐκ Διός, ἥ τε μάλιστα φέρει κλέος ἀνθρώποισι (1.282-3): a rumor from Zeus, which most often brings men news; 'word ... word' repeats."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "Telemachus climbed to his own bedroom, built high in the beautiful court, with a clear view all around — and he went up to bed, his mind churning with thoughts.",
+  "new": "Telemachus went to his own bedroom, built high in the beautiful court, with a clear view all around — and there he lay down, his mind churning with thoughts.",
+  "why": "Says the same climb twice; Greek (1.425-7): where his chamber was built high ... there he went to his bed, pondering."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "the bravest of the Argives went",
+  "new": "the bravest of the Greeks went",
+  "why": "Policy: Ἀργεῖοι/Ἀχαιοί/Δαναοί as the army are 'Greeks' (107 uses); this is the edition's only 'Argives'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "whose fame fills all of Greece and the heart of Argos.",
+  "new": "whose fame fills Hellas and the heart of Argos.",
+  "why": "Formula καθ' Ἑλλάδα καὶ μέσον Ἄργος (1.344) is 'through Hellas and the heart of Argos' in IV seg-0059 and seg-0066 (4.726, 4.816); one rendering."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "on Aigisthos,",
+  "new": "on Aegisthus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "noble Aigisthos whom",
+  "new": "noble Aegisthus whom",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "at Aigisthos.",
+  "new": "at Aegisthus.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "not Aigisthos I'm",
+  "new": "not Aegisthus I'm",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "him: \"Father of us all, son of Kronos, highest of the mighty — that",
+  "new": "him: \"Father of us all, son of Cronus, highest of the mighty — that",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "blinded: Polyphemos,",
+  "new": "blinded: Polyphemus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "of Phorkys,",
+  "new": "of Phorcys,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "the earthshaker won't",
+  "new": "the earth-shaker won't",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "of Phemios,",
+  "new": "of Phemius,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "son of wise Anchialos, and I",
+  "new": "son of wise Anchialus, and I",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "wooded Zakynthos —",
+  "new": "wooded Zacynthus —",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "in Doulichion,",
+  "new": "in Dulichium,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "of Mermeros,",
+  "new": "of Mermerus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "killing Aigisthos,",
+  "new": "killing Aegisthus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "of Ikarios,",
+  "new": "of Icarius,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "\"Phemios, you",
+  "new": "\"Phemius, you",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "Then Antinoos,",
+  "new": "Then Antinous,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "of Kronos never",
+  "new": "of Cronus never",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "him: \"Antinoos, you",
+  "new": "him: \"Antinous, you",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "Then Eurymachos,",
+  "new": "Then Eurymachus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "of Polybos,",
+  "new": "of Polybus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "him: \"Eurymachos, the",
+  "new": "him: \"Eurymachus, the",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "wise Anchialos,",
+  "new": "wise Anchialus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "Loyal Eurykleia walked",
+  "new": "Loyal Eurycleia walked",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "— Eurykleia,",
+  "new": "— Eurycleia,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "\"Be ashamed before your own neighbors, then; be ashamed before the people who live around us.",
+  "new": "\"Feel the outrage of it yourselves, then, and be ashamed before the people who live around us.",
+  "why": "Greek νεμεσσήθητε καὶ αὐτοί, ἄλλους τ' αἰδέσθητε περικτίονας (2.64-5): two appeals, their own indignation and shame before neighbors; the first was dropped and the second said twice."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "and what a man he was at finishing what he set out to do.",
+  "new": "and what a man he was at seeing through whatever he said or set his hand to.",
+  "why": "Greek τελέσαι ἔργον τε ἔπος τε (2.272): both word and deed; 'word' was dropped. Butler: 'never broke his word nor left his work half done'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "and they won't go the honest way, to her father",
+  "new": "and they shrink from going to her father",
+  "why": "Greek ἀπερρίγασι (2.52): they shrink from going; 'the honest way' adds a moral the line does not state."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "I'll loose every ruin I can on you",
+  "new": "I'll do all I can to bring ruin down on you",
+  "why": "Greek πειρήσω ὥς κ' ὔμμι κακὰς ἐπὶ κῆρας ἰήλω (2.316); 'loose ... ruin' does not land in English."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "and watch over it, night and day, was kept by the housekeeper Eurykleia,",
+  "new": "and night and day the housekeeper kept watch over it: Eurycleia,",
+  "why": "Inverted passive puts the subject last and the sentence sags. Name per house list (Eurycleia)."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "Aigyptios spoke",
+  "new": "Aegyptius spoke",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "third, Eurynomos,",
+  "new": "third, Eurynomus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "sons, Antiphos,",
+  "new": "sons, Antiphus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "over Antiphos,",
+  "new": "over Antiphus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "father Ikarios,",
+  "new": "father Icarius,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "to Aigyptios first:",
+  "new": "to Aegyptius first:",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "but Antinoos,",
+  "new": "but Antinous,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "fair-crowned Mykene,",
+  "new": "fair-crowned Mycenae,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "or Alkmene or",
+  "new": "or Alcmene or",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "him: \"Antinoos, how",
+  "new": "him: \"Antinous, how",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "back Ikarios the",
+  "new": "back Icarius the",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "Then Eurymachos,",
+  "new": "Then Eurymachus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "of Polybos,",
+  "new": "of Polybus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "\"Eurymachos —",
+  "new": "\"Eurymachus —",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "Then Leokritos,",
+  "new": "Then Leocritus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "fire. Antinoos came",
+  "new": "fire. Antinous came",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "answered: \"Antinoos, there",
+  "new": "answered: \"Antinous, there",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "from Antinoos'",
+  "new": "from Antinous'",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "nurse Eurykleia cried",
+  "new": "nurse Eurycleia cried",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "of Phronios,",
+  "new": "of Phronius,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0035",
+  "severity": "high",
+  "old": "and there, near the end of the road, the powerful horses carried them on.",
+  "new": "and there they drove on to their journey's end, so well did the swift horses carry them. And the sun went down and the roads grew dark.",
+  "why": "Greek 3.495-7: ἔνθα δ' ἔπειτα ἦνον ὁδόν· τοῖον γὰρ ὑπέκφερον ὠκέες ἵπποι. δύσετό τ' ἠέλιος σκιόωντό τε πᾶσαι ἀγυιαί. They finished the journey (Butler: 'completed their journey, so well did their steeds take them'); the last line 3.497 was missing from both Book III and Book IV. Restored in the same words the edition gives 3.487 earlier in this segment."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0011",
+  "severity": "medium",
+  "old": "and the gods could barely let it end.",
+  "new": "and the son of Cronus barely brought it to an end.",
+  "why": "Greek μόγις δ' ἐτέλεσσε Κρονίων (3.119): the son of Cronus barely brought it to fulfillment; 'could barely let it end' reverses the sense (gods reluctant to stop)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "I don't dare even let myself imagine it. Not even if the gods themselves should will it.",
+  "new": "Wonder takes hold of me at the thought. Hope as I might, it would never happen for me — not even if the gods themselves willed it.",
+  "why": "Greek 3.227-8: ἄγη μ' ἔχει· οὐκ ἂν ἐμοί γε ἐλπομένῳ τὰ γένοιτ', οὐδ' εἰ θεοὶ ὣς ἐθέλοιεν. The last fragment hung off 'imagine' and read as nonsense."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "or was lost at sea in the waves. So I come",
+  "new": "or was lost at sea in the waves of Amphitrite. So I come",
+  "why": "Greek ἐν κύμασιν Ἀμφιτρίτης (3.91); Butler keeps 'the waves of Amphitrite'."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "He was a man born to suffering, his mother bore him for grief.",
+  "new": "He was a man born to suffering; his mother bore him for grief.",
+  "why": "Comma splice; the stress falls flat aloud."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "working away at Agamemnon's wife with his endless flattery.",
+  "new": "beguiling Agamemnon's wife with his endless flattery.",
+  "why": "Greek θέλγεσκ' ἐπέεσσιν (3.264): he beguiled her with words; 'working away at' is workshop slang."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "and a wave of awe ran through them all who watched.",
+  "new": "and awe took hold of all who saw it.",
+  "why": "'Them all who watched' is ungrammatical; Greek θάμβος δ' ἕλε πάντας ἰδόντας (3.372)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "I'll lay her gold upon her horns and offer her to you.",
+  "new": "I'll sheathe her horns in gold and offer her to you.",
+  "why": "Greek χρυσὸν κέρασιν περιχεύας (3.384): gold poured round the horns (Butler: 'gild her horns'); 'lay her gold' is unclear."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "to Geraistos,",
+  "new": "to Geraestus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "how Aigisthos murdered",
+  "new": "how Aegisthus murdered",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "how Aigisthos paid",
+  "new": "how Aegisthus paid",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "sly Aigisthos,",
+  "new": "sly Aegisthus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "of Aigisthos and",
+  "new": "of Aegisthus and",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "did Aigisthos contrive",
+  "new": "did Aegisthus contrive",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "that Aigisthos took",
+  "new": "that Aegisthus took",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "found Aigisthos alive",
+  "new": "found Aegisthus alive",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "ruin, Aigisthos took",
+  "new": "ruin, Aegisthus took",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "of Aigisthos.",
+  "new": "of Aegisthus.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "while Aigisthos was",
+  "new": "while Aegisthus was",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "sly Aigisthos.",
+  "new": "sly Aegisthus.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "coward Aigisthos —",
+  "new": "coward Aegisthus —",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "toward Phaistos —",
+  "new": "toward Phaestus —",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "who carries the storm-shield",
+  "new": "who holds the storm-shield",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "the Dawn will rise soon enough — there is no harm, then, in mourning",
+  "new": "the Dawn will rise soon enough — and then there is no harm in mourning",
+  "why": "Greek 4.194-6: Dawn will come, and then I do not begrudge weeping. 'There is no harm, then' read as 'therefore', so Pisistratus seemed to argue for weeping now, the reverse of his point."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0047",
+  "severity": "low",
+  "old": "must be wearing thin",
+  "new": "must be growing restless",
+  "why": "Greek ἀνιάζουσιν (4.598): they are growing weary/restless. A crew does not 'wear thin'."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "so that Agamemnon couldn't pass unseen and seize the first blow.",
+  "new": "so that Agamemnon couldn't slip past unseen and call up his fighting strength.",
+  "why": "Greek μνήσαιτο δὲ θούριδος ἀλκῆς (4.527): and call to mind his furious strength; 'seize the first blow' adds a tactic."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0070",
+  "severity": "low",
+  "old": "There the Greeks lay in wait for him.",
+  "new": "There the suitors lay in wait for him.",
+  "why": "Ἀχαιοί (4.847) here are the suitors' crew; with 'Greeks' as the house word for the army it reads as the Greek host."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "That son, Megapenthes, was the strong child of a slave woman,",
+  "new": "That son, strong Megapenthes, was born to him late, of a slave woman,",
+  "why": "Drops τηλύγετος (4.11): born to Menelaus late in life."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0026",
+  "severity": "low",
+  "old": "They'd find their lives cut short and their marriage turned bitter.",
+  "new": "Every one of them would find a quick death and a bitter wedding.",
+  "why": "Formula πάντες κ' ὠκύμοροί τε γενοίατο πικρόγαμοί τε (1.266 = 4.346 = 17.137); one rendering, as in Book I seg-0018."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "When rosy-fingered Dawn, child of morning, appeared, Menelaus,",
+  "new": "When the child of morning, rosy-fingered Dawn, appeared, Menelaus,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0034",
+  "severity": "low",
+  "old": "breaking shore. When rosy-fingered Dawn, child of morning, appeared, I",
+  "new": "breaking shore. When the child of morning, rosy-fingered Dawn, appeared, I",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "where Aigisthos,",
+  "new": "where Aegisthus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "man Aigisthos had",
+  "new": "man Aegisthus had",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "and Aigisthos at",
+  "new": "and Aegisthus at",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "of Aigisthos'",
+  "new": "of Aegisthus'",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0045",
+  "severity": "low",
+  "old": "When rosy-fingered Dawn, child of morning, appeared",
+  "new": "When the child of morning, rosy-fingered Dawn, appeared",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0056",
+  "severity": "low",
+  "old": "of Kronos never",
+  "new": "of Cronus never",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0060",
+  "severity": "low",
+  "old": "nurse Eurykleia answered",
+  "new": "nurse Eurycleia answered",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "the chattering sea-crows that do their business out on the water.",
+  "new": "the chattering sea-crows whose work is on the water.",
+  "why": "Greek τῇσίν τε θαλάσσια ἔργα μέμηλεν (5.67): the sea is their work. 'Do their business' now reads as a euphemism."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "and choice hundred-beasts?",
+  "new": "and choice hecatombs?",
+  "why": "Policy: ἑκατόμβη is 'hecatomb' (six other uses); 'hundred-beasts' is a coinage found nowhere else."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "Go, then, and good luck to you.",
+  "new": "Go, then, and I wish you well, even so.",
+  "why": "Greek σὺ δὲ χαῖρε καὶ ἔμπης (5.205): a sincere farewell in spite of all; 'good luck to you' now sounds sarcastic."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "But I think I can still drive him his fill of trouble yet.",
+  "new": "But I think I can still give him his fill of trouble.",
+  "why": "'Still ... yet' doubles and 'drive him his fill' does not parse; Greek ἅδην ἐλάαν κακότητος (5.290)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "Instead it's a wretched death I'm fated to be taken by.",
+  "new": "Instead it is my fate to be taken by a wretched death.",
+  "why": "Ends on a preposition and loses its stress; Greek νῦν δέ με λευγαλέῳ θανάτῳ εἵμαρτο ἁλῶναι (5.312)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "looking for a beach that shelves easy,",
+  "new": "looking for a gently shelving beach,",
+  "why": "'Easy' as an adverb is too casual here; Greek ἠϊόνας ... παραπλῆγας (5.418)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "looking for a beach that shelved easy or",
+  "new": "looking for a beach that shelved gently or",
+  "why": "Same as seg-0027 (5.440)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "Zeus the cloud-gatherer",
+  "new": "Zeus who gathers the clouds",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "slip past the will of Zeus who carries the storm-shield, or set it aside. He",
+  "new": "slip past the will of Zeus who holds the storm-shield, or set it aside. He",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "who carries the storm-shield",
+  "new": "who holds the storm-shield",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "shuddered as he heard her, and his words came winged:",
+  "new": "shuddered as he heard her, and spoke to her with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "Then Nausicaa took the whip and the bright reins and cracked them to start the mules.",
+  "new": "Then Nausicaa took the whip and the bright reins, and cracked the whip to start the mules.",
+  "why": "'Cracked them' makes her crack the reins too; Greek μάστιξεν δ' ἐλάαν (6.82)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "for I don't think my troubles are over yet, but the gods have much in store for me before that.",
+  "new": "for I don't think my troubles are over yet; the gods have much still in store for me before they end.",
+  "why": "'Before that' had no antecedent; Greek 6.174 οὐ γὰρ ὀΐω παύσεσθ', ἀλλ' ἔτι πολλὰ θεοὶ τελέουσι πάροιθεν."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "close-fenced steading",
+  "new": "close-fenced fold",
+  "why": "Policy: 'steading' is archaic; Eumaeus' σταθμός is 'the farm' (a fold for flocks)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "and the men whose wives are her friends she helps to settle even their own quarrels.",
+  "new": "and for those she favors she settles quarrels, even the quarrels of men.",
+  "why": "Greek οἷσίν τ' εὖ φρονέῃσι καὶ ἀνδράσι νείκεα λύει (7.74): she settles quarrels for those she favors, even men's; the strained reading and inverted syntax made the line hard to follow."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "So she said to him, winged words:",
+  "new": "So she spoke to him with winged words:",
+  "why": "Garbled (a word missing); house formula for ἔπεα πτερόεντα is 'spoke ... with winged words'."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "who walks beside every suppliant who comes in honor.",
+  "new": "who walks beside suppliants, whom all must honor.",
+  "why": "Greek ὅς θ' ἱκέτῃσιν ἅμ' αἰδοίοισιν ὀπηδεῖ (7.165): suppliants are owed reverence; 'who comes in honor' is unclear."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "the protector of all suppliants who come in honor.",
+  "new": "the protector of suppliants, whom all must honor.",
+  "why": "Same line as seg-0015 (7.181), rendered the same way."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "sorrow as I am.",
+  "new": "grieving as I am.",
+  "why": "Ungrammatical; Greek καὶ ἀχνύμενός περ (8.478)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "as they sat at the gods' feast.",
+  "new": "as they sat at a rich feast in honor of the gods.",
+  "why": "Greek θεῶν ἐν δαιτὶ θαλείῃ (8.76) is a sacrificial feast for the gods; as written the gods themselves seem to dine."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "make your play, so that",
+  "new": "begin the dance, so that",
+  "why": "Greek παίσατε (8.251): dance, play; 'make your play' carries a sports-and-gambling sense."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "for it was you, girl, who gave me back my life.",
+  "new": "for it was you, my lady, who gave me back my life.",
+  "why": "Vocative κούρη (8.468) is respectful; a bare 'girl' to a princess now sounds curt."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "compete. Acroneos rose,",
+  "new": "compete. Acroneus rose,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "and so too did the cunning Aeaean witch, Circe, who wanted me for hers.",
+  "new": "and so too did Circe of Aeaea, full of guile, who wanted me for hers.",
+  "why": "Greek Κίρκη Αἰαίη δολόεσσα (9.32): 'witch' is a gloss; elsewhere the text calls her a goddess."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "It would have been far better if we had. But I would not listen — though it would have served us well — for",
+  "new": "But I would not listen — though it would have been far better if I had — for",
+  "why": "The same regret twice; Greek once (9.228-9 ἀλλ' ἐγὼ οὐ πιθόμην, ἦ τ' ἂν πολὺ κέρδιον ἦεν)."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "of Zeus who holds the storm-cloud, started",
+  "new": "of Zeus who holds the storm-shield, started",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "when rosy-fingered Dawn appeared again,",
+  "new": "when the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "leather wallet with",
+  "new": "leather bag with",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "who holds the storm-cloud",
+  "new": "who holds the storm-shield",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "\"And their winged answer came:",
+  "new": "\"And they answered him with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "great Earth-Shaker to",
+  "new": "great earth-shaker to",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "the Earth-Shaker will",
+  "new": "the earth-shaker will",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0043",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "own sister to Aeetes, the wizard whose mind runs to ruin.",
+  "new": "own sister to Aeetes, whose mind runs to ruin.",
+  "why": "'Wizard' is added; Greek gives only Αἰήταο ὀλοόφρονος (10.137)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "sharp sword from my thigh,",
+  "new": "sharp sword from beside my thigh,",
+  "why": "Greek παρὰ μηροῦ: from beside the thigh. Read literally, 'from my thigh' draws the sword out of his leg; the edition already says 'from beside my thigh' in X seg-0032 and XI seg-0020."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "when rosy-fingered Dawn appeared, the child of morning,",
+  "new": "when the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "the sharp sword from your thigh and rush",
+  "new": "the sharp sword from beside your thigh and rush",
+  "why": "Greek παρὰ μηροῦ: from beside the thigh. Read literally, 'from my thigh' draws the sword out of his leg; the edition already says 'from beside my thigh' in X seg-0032 and XI seg-0020."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "sword from my thigh",
+  "new": "sword from beside my thigh",
+  "why": "Greek παρὰ μηροῦ: from beside the thigh. Read literally, 'from my thigh' draws the sword out of his leg; the edition already says 'from beside my thigh' in X seg-0032 and XI seg-0020."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "\"Odysseus, son of Laertes, born of the gods — go",
+  "new": "\"Royal son of Laertes, Odysseus of the many schemes — go",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "\"Odysseus, son of Laertes, born of the gods — no",
+  "new": "\"Royal son of Laertes, Odysseus of the many schemes — no",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "Odysseus, son of Laertes, born of the gods —",
+  "new": "Royal son of Laertes, Odysseus of the many schemes —",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "sword from your thigh",
+  "new": "sword from beside your thigh",
+  "why": "Greek παρὰ μηροῦ: from beside the thigh. Read literally, 'from my thigh' draws the sword out of his leg; the edition already says 'from beside my thigh' in X seg-0032 and XI seg-0020."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0023",
+  "severity": "medium",
+  "old": "who in the blindness of her heart did a monstrous thing",
+  "new": "who did a monstrous thing without knowing it",
+  "why": "Greek ἀϊδρείῃσι νόοιο (11.272): in ignorance, not knowing who he was; 'blindness of her heart' implies moral fault, against the point of the story."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "and sits at the feasts a man who deals out justice is asked to share,",
+  "new": "and sits at the public feasts that a man who deals out justice should attend,",
+  "why": "Missing relative and the sentence trips; Greek 11.185-6 δαῖτας ἐΐσας ... ἃς ἐπέοικε δικασπόλον ἄνδρ' ἀλεγύνειν."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0045",
+  "severity": "low",
+  "old": "for it laid in the earth that great head, Ajax,",
+  "new": "for it laid in the earth so great a man, Ajax,",
+  "why": "Policy: Homeric κεφαλή for a person is rendered as the person (11.549)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "sword from my thigh",
+  "new": "sword from beside my thigh",
+  "why": "Greek παρὰ μηροῦ: from beside the thigh. Read literally, 'from my thigh' draws the sword out of his leg; the edition already says 'from beside my thigh' in X seg-0032 and XI seg-0020."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "me, and I spoke to him, my words flying: 'Elpenor,",
+  "new": "me, and I spoke to him with winged words: 'Elpenor,",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "groan: 'Royal son of Laertes, Odysseus of the many turns — a",
+  "new": "groan: 'Royal son of Laertes, Odysseus of the many schemes — a",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "spoke: 'Royal son of Laertes, Odysseus of the many turns — why",
+  "new": "spoke: 'Royal son of Laertes, Odysseus of the many schemes — why",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "the Earthshaker,",
+  "new": "the earth-shaker,",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "and I spoke to her, my words flying:",
+  "new": "and I spoke to her with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "the Earthshaker.'",
+  "new": "the earth-shaker.'",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "and I spoke to him, my words flying:",
+  "new": "and I spoke to him with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "once: 'Royal son of Laertes, Odysseus of the many turns — no,",
+  "new": "once: 'Royal son of Laertes, Odysseus of the many schemes — no,",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "flying: 'Royal son of Laertes, Odysseus of the many turns — reckless",
+  "new": "flying: 'Royal son of Laertes, Odysseus of the many schemes — reckless",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "grieving he spoke to me, his words flying:",
+  "new": "grieving he spoke to me with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0051",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0051",
+  "severity": "low",
+  "old": "Royal son of Laertes, Odysseus of the many turns",
+  "new": "Royal son of Laertes, Odysseus of the many schemes",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 11,
+  "seg": "seg-0051",
+  "severity": "low",
+  "old": "grieving he spoke, his words flying:",
+  "new": "grieving he spoke winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "where his fine broad-browed cattle grazed and his many flocks of sheep belonging to Helios who walks above us.",
+  "new": "where the fine broad-browed cattle grazed, and the many fat flocks of Helios who walks above us.",
+  "why": "Names the owner twice; Greek 12.262-3 καλαὶ βόες εὐρυμέτωποι, πολλὰ δὲ ἴφια μῆλα Ὑπερίονος Ἠελίοιο."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "the island of the Sun, who gives men their light.",
+  "new": "the island of the Sun, who gives men their joy.",
+  "why": "Same epithet τερψιμβρότου (12.269, 12.274) rendered two ways in one paragraph; keep the first."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "when rosy-fingered Dawn appeared at last,",
+  "new": "when the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "the Earthshaker could",
+  "new": "the earth-shaker could",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "height, Zeus the cloud-gatherer raised",
+  "new": "height, Zeus who gathers the clouds raised",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "When rosy-fingered Dawn appeared again,",
+  "new": "When the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "Zeus the cloud-gatherer",
+  "new": "Zeus who gathers the clouds",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 12,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "of Kronos set",
+  "new": "of Cronus set",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "“What am I now? Whose country have I come to?",
+  "new": "“Poor wretch that I am — whose country have I come to now?",
+  "why": "Greek ὤ μοι ἐγώ, τέων αὖτε βροτῶν ἐς γαῖαν ἱκάνω; (13.200): a cry of dismay; 'What am I now?' reads as an identity crisis Homer does not have."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0027",
+  "severity": "medium",
+  "old": "endlessly clever, never full of your own scheming.",
+  "new": "endlessly clever, never tired of scheming.",
+  "why": "'Never full of' reads as 'not full of', the opposite of Greek δόλων ἆτ' (13.293), insatiable for tricks."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "begged some Phoenicians aboard — gave them a good share of my plunder — to carry me off and set me down",
+  "new": "begged some Phoenicians — I paid them well from my plunder — to take me aboard and set me down",
+  "why": "The run trips aloud (13.272-4)."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "hard, however they fought it, and brought us here",
+  "new": "hard, however they fought it — they had no wish to cheat me — and brought us here",
+  "why": "Restores οὐδ' ἤθελον ἐξαπατῆσαι (13.277): the lie clears its Phoenicians just after Odysseus has blamed the Phaeacians."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "lord of the wide earth, shaker of the ground?",
+  "new": "shaker of the earth, so wide in strength?",
+  "why": "The epithet is εὐρυσθενές (13.140), 'wide in strength', not 'of the wide earth'."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "the punishment is always yours to take, after, as you see fit.",
+  "new": "you are always free to punish him, now or later, as you see fit.",
+  "why": "'To take, after,' stumbles; Greek σοὶ δ' ἔστιν καὶ ὀπίσσω τείσασθαι (13.144)."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "help you hide the treasure they sent you home with,",
+  "new": "help you hide the treasure that the Phaeacians, by my design, sent you home with,",
+  "why": "Drops ἐμῇ βουλῇ τε νόῳ τε (13.305), Athena's claim that the gift was her doing, which is her point."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "When rosy-fingered Dawn came up at last,",
+  "new": "When the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "and said to her, his words flying:",
+  "new": "and spoke to her with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "went straight up to her, his words flying.",
+  "new": "went straight up to her and spoke to her with winged words.",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "the Epeians rule.",
+  "new": "the Epeans rule.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "who carries the storm-shield",
+  "new": "who holds the storm-shield",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "Laertes’ son, born of Zeus, Odysseus of the many schemes",
+  "new": "Royal son of Laertes, Odysseus of the many schemes",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 13,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "battered wallet",
+  "new": "battered beggar's bag",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "The men were flung out into the sea; black-hulled and helpless, they were swept past the ship on the swell like sea-crows on the waves,",
+  "new": "The men were flung out into the sea, and like sea-crows they were tossed on the waves around the black ship,",
+  "why": "'Black' belongs to the ship: κορώνῃσιν ἴκελοι περὶ νῆα μέλαιναν κύμασιν ἐμφορέοντο (14.308-9)."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "Instead the storm-winds have snatched him away, and no man knows where.",
+  "new": "Instead the storm-winds have snatched him away without glory, and no man knows where.",
+  "why": "Drops ἀκλειῶς (14.371), which answers the 'great glory for his son' just before."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "led me here, to the steading of a wise man's door",
+  "new": "led me here, to the farm of a man who knows what is right",
+  "why": "Greek σταθμὸν ἀνδρὸς ἐπισταμένου (14.359); 'steading' is archaic and 'steading of a ... door' garbles the image."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "I can hardly bring myself to say his name, stranger, he is not here, and yet he loved me and cared for me so well that I call him the master of my heart, far away as he is.",
+  "new": "even though he is not here, stranger, I shrink from speaking his name, so dearly did he love me and care for me; I call him my dear master still, far away as he is.",
+  "why": "Comma splices lost the sense; Greek 14.145-7: he shrinks from naming him even though absent, for he loved him; he calls him ἠθεῖον, dear master, though far away."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "who above all the gods is angry at cruelty.",
+  "new": "who is angered most of all by cruel deeds.",
+  "why": "Read as 'angrier than the other gods'; Greek μάλιστα δὲ νεμεσσᾷ κακὰ ἔργα (14.284)."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "and a bright kilt.",
+  "new": "and a bright war-belt.",
+  "why": "Greek ζῶμα φαεινόν (14.482), a warrior's belt or loin-guard; 'kilt' brings a Scot to mind."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0026",
+  "severity": "low",
+  "old": "a man the swineherd had bought for himself while his master was away, with his own goods, telling neither his mistress nor old Laertes, paying for him out of the Taphians' hands.",
+  "new": "a man the swineherd had bought from the Taphians with his own goods while his master was away, telling neither his mistress nor old Laertes.",
+  "why": "'Bought ... paying for him' said the same thing twice (14.449-52)."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "Eat, my strange friend,",
+  "new": "Eat, my poor friend,",
+  "why": "δαιμόνιε ξείνων (14.443); 'strange friend' reads as 'odd friend'."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "hoping to wipe the name of Arceisius clean off the earth, out of Ithaca forever.",
+  "new": "hoping to wipe the line of godlike Arceisius out of Ithaca and leave it without a name.",
+  "why": "Greek ὅπως ἀπὸ φῦλον ὄληται νώνυμον ἐξ Ἰθάκης Ἀρκεισίου ἀντιθέοιο (14.181-2): the line perishing nameless; 'off the earth' and 'out of Ithaca' doubled."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "spoke to him, his words flying:",
+  "new": "spoke to him with winged words:",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "of Kronos hung",
+  "new": "of Cronus hung",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "'Odysseus,' I whispered, 'royal son of Laertes, man of many turns —",
+  "new": "'Royal son of Laertes,' I whispered, 'Odysseus of the many schemes —",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 14,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "in this steading",
+  "new": "here at the farm",
+  "why": "Policy: 'steading' is archaic; Eumaeus' σταθμός is 'the farm' (a fold for flocks)."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0030",
+  "severity": "medium",
+  "old": "Still, it is the cruel belly that drives men to all their wretched troubles, the man who knows want and grief and the long road.",
+  "new": "Still, for the sake of the cursed belly men bear hard troubles — any man on whom wandering comes, and want, and grief.",
+  "why": "The second clause hung from nothing. Greek 15.344-5: ἀλλ' ἕνεκ' οὐλομένης γαστρὸς κακὰ κήδε' ἔχουσιν ἀνέρες, ὅν τιν' ἵκηται ἄλη καὶ πῆμα καὶ ἄλγος."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "a circuit through Hellas, or down through the Peloponnese,",
+  "new": "a circuit through Hellas and the heart of Argos,",
+  "why": "'Peloponnese' is not in the text: ἀν' Ἑλλάδα καὶ μέσον Ἄργος (15.80), the same formula the edition renders 'Hellas and the heart of Argos' in Book IV."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "comes in time to take a strange pleasure in his griefs",
+  "new": "comes in time to take pleasure even in his griefs",
+  "why": "'Strange' is commentary; Greek μετὰ γάρ τε καὶ ἄλγεσι τέρπεται ἀνήρ (15.400) says it plainly."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "with a black ship full of trinkets and trumpery.",
+  "new": "with a black ship full of countless trinkets.",
+  "why": "'Trumpery' is leftover archaism; Greek μυρί' ἄγοντες ἀθύρματα (15.416)."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "\"Strange, then — you must have been only a small child,",
+  "new": "\"Think of it — you were only a small child,",
+  "why": "For ὢ πόποι (15.381), an exclamation of surprise and pity, 'Strange, then' reads as a non-sequitur."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "When Dawn came with her rose-red fingers,",
+  "new": "When the child of morning, rosy-fingered Dawn, appeared,",
+  "why": "Repeated line ἦμος δ' ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς: one rendering everywhere, the edition's majority form ('When the child of morning, rosy-fingered Dawn, appeared'). No 'again' or 'at last' in the Greek."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "at the steading,",
+  "new": "at the farm,",
+  "why": "Policy: 'steading' is archaic; Eumaeus' σταθμός is 'the farm' (a fold for flocks)."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 15,
+  "seg": "seg-0048",
+  "severity": "low",
+  "old": "the steading",
+  "new": "the farm",
+  "why": "Policy: 'steading' is archaic; Eumaeus' σταθμός is 'the farm' (a fold for flocks)."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "and eat and drink with his hands when the mood was on him.",
+  "new": "and eat and drink with the servants in the house when he had a mind to.",
+  "why": "Greek μετὰ δμώων ἐνὶ οἴκῳ πῖνε καὶ ἦσθ' (16.140-1): with the servants in the house; 'with his hands' reads as eating with his fingers."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "\"Stranger,\" he said, \"you are changed — a moment ago, and now you are not the same man.",
+  "new": "\"Stranger,\" he said, \"you are not the man you were a moment ago.",
+  "why": "The syntax broke; Greek ἀλλοῖός μοι, ξεῖνε, φάνης νέον ἠὲ πάροιθεν (16.181)."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "\"Odysseus, son of Laertes, born to many turns — now is the time.",
+  "new": "\"Royal son of Laertes, Odysseus of the many schemes — now is the time.",
+  "why": "Formula διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ (16.167); merged two epithets and lost 'Zeus-born'. House rendering, as V seg-0014."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "the man it falls to to win her.",
+  "new": "the man who is fated to win her.",
+  "why": "'To to' trips aloud; Greek ὅς κε πλεῖστα πόροι καὶ μόρσιμος ἔλθοι (16.392)."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "He kissed his head and both his shining eyes and wept for joy.",
+  "new": "He kissed his head and both his shining eyes and both his hands, and wept for joy.",
+  "why": "Drops χεῖράς τ' ἀμφοτέρας (16.16)."
+ },
+ {
+  "section": 16,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "Eurymachus, son of Polybus, answered her smoothly:",
+  "new": "Eurymachus, son of Polybus, answered her:",
+  "why": "No adverb in the Greek (16.434); 'smoothly' gives away the twist Homer saves for the end of the speech."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "Servants lose half their worth the moment there is no master's hand over them; Zeus takes the better half of a man away",
+  "new": "Servants stop doing honest work the moment their masters are no longer over them; for Zeus takes away half a man's worth",
+  "why": "Two sayings were merged. Greek 17.320-3: servants no longer care to do their proper work when masters no longer rule them; Zeus takes away half a man's worth the day slavery takes him."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0024",
+  "severity": "medium",
+  "old": "though he had never lived to get any use of him.",
+  "new": "though he sailed before he had any joy of him.",
+  "why": "'Never lived to' says Odysseus died. Greek οὐδ' ἀπόνητο (17.293): he never had the joy of him, because he sailed first."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0051",
+  "severity": "medium",
+  "old": "The rest I will leave to me and to heaven.",
+  "new": "All the rest will be my concern, and the gods'.",
+  "why": "Ungrammatical; Greek αὐτὰρ ἐμοὶ τάδε πάντα καὶ ἀθανάτοισι μελήσει (17.601)."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "'So these cowards would creep into a brave man's bed? A deer might as well lay her newborn fawns to sleep in a lion's den and wander off to graze the glens and the grassy hollows — and the lion, coming home to his lair, makes a bloody end of both. Just so will Odysseus make an end of these suitors. By Father Zeus, by Athena and Apollo — if Odysseus is still the man he was that day on Lesbos, when he stood up to wrestle Philomeleides and threw him so hard the whole army roared — if he came among these suitors still that man, they would find their wedding short and their death quick. As for what you ask me, I will not turn it aside or soften it: what the old man of the sea told me, all of it, I will tell you.",
+  "new": "'Shameless cowards — to think they'd lie down in the bed of a man like that! It's as if a deer had laid her newborn fawns to sleep in a lion's den and gone off to graze the wooded glens, and the lion came home to his lair and tore them apart, both of them, in a moment — that's how Odysseus will deal with those men, and bring their ugly fate on them. Father Zeus, and Athena, and Apollo — if only the Odysseus who once stood up in lovely Lesbos and wrestled the son of Philomeleides and threw him down so hard that all the Greeks cheered — if only that Odysseus could meet these suitors now. Every one of them would find a quick death and a bitter wedding. But as for what you ask me and beg me to tell — I won't twist it aside or deceive you. Of all the old sea-god told me, I'll hide nothing.",
+  "why": "Telemachus repeats Menelaus word for word (17.124-41 = 4.333-50); the edition rendered it twice, differently, and garbled the formula 'swift death and bitter wedding' ('wedding short'). Repeat IV seg-0026 as patched."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "did not so much as rock him on his feet.",
+  "new": "did not so much as stagger him.",
+  "why": "'Rock' twice in one sentence."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "one of the high-born young men spoke up:",
+  "new": "one of the arrogant young men spoke up:",
+  "why": "Greek ὑπερηνορεόντων (17.481), overbearing; 'high-born' softens it."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "to eat him out of house.",
+  "new": "to eat him out of house and home.",
+  "why": "The idiom is cut short (Greek ὃς τρύξει αὐτόν, 17.387)."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0044",
+  "severity": "low",
+  "old": "their own corn and wine",
+  "new": "their own grain and wine",
+  "why": "An American reader takes 'corn' for maize; Greek σῖτος (17.533)."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0050",
+  "severity": "low",
+  "old": "to look after the property — yours and what is mine.",
+  "new": "to look after things there — your living and mine.",
+  "why": "Awkward; Greek κεῖνα φυλάξων, σὸν καὶ ἐμὸν βίοτον (17.597)."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "God forbid.",
+  "new": "Heaven forbid.",
+  "why": "A monotheist idiom; Greek μὴ τοῦτο θεὸς τελέσειε (17.399), 'may a god not bring it about'."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "Old Euryclea,",
+  "new": "Old Eurycleia,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "the steading",
+  "new": "the farm",
+  "why": "Policy: 'steading' is archaic; Eumaeus' σταθμός is 'the farm' (a fold for flocks)."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "torn old wallet",
+  "new": "torn old beggar's bag",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "old wallet at",
+  "new": "old bag at",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "his wallet with",
+  "new": "his bag with",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "full wallet at",
+  "new": "full bag at",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 17,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "his wallet;",
+  "new": "his bag;",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "for anyone who sent him — a man's twist on Iris, the runner of the gods.",
+  "new": "for anyone who sent him.",
+  "why": "The clause after the dash explains the joke; Homer gives only the reason (18.6-7 οὕνεκ' ἀπαγγέλλεσκε κιών). If wanted, the Iris note belongs in the enrichment sidecar."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "who used to go cadging all over the town",
+  "new": "who used to beg his way all over the town",
+  "why": "'Cadging' is British slang many readers will not know; Greek πτωχεύεσκ' (18.2)."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "I will make you pay, mouthing off like that in front of everyone,",
+  "new": "I will make you pay for talking like that in front of everyone,",
+  "why": "Current slang that dates fast, in Eurymachus' mouth; Greek ἦ τάχα τοι δώσω κακόν, οἷ' ἀγορεύεις (18.389)."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "will fall to a miserable woman whose happiness Zeus has stripped away.",
+  "new": "will fall on me, cursed as I am, whose happiness Zeus has stripped away.",
+  "why": "The shift to third person leaves the reader wondering who is meant; Greek οὐλομένης ἐμέθεν, τῆς τε Ζεὺς ὄλβον ἀπηύρα (18.273)."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "But I do take in everything now,",
+  "new": "But I see and understand everything now,",
+  "why": "Stiff; Greek αὐτὰρ ἐγὼ θυμῷ νοέω καὶ οἶδα ἕκαστα (18.228)."
+ },
+ {
+  "section": 18,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "torn old wallet",
+  "new": "torn old beggar's bag",
+  "why": "Policy: 'wallet' in its old sense (πήρη, a beggar's bag) now means a billfold; 'beggar's bag' at first mention, then 'bag'."
+ },
+ {
+  "section": 19,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "Many another likely tale he told her, and Penelope wept",
+  "new": "So he went on, telling lie after lie that sounded like the truth; and Penelope wept",
+  "why": "The famous line ἴσκε ψεύδεα πολλὰ λέγων ἐτύμοισιν ὁμοῖα (19.203) was flattened: he made his many lies seem like the truth."
+ },
+ {
+  "section": 19,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "for steel within a man's reach has a way of drawing his hand to it.",
+  "new": "for the iron itself draws a man on.",
+  "why": "Same Greek line as 16.294 (αὐτὸς γὰρ ἐφέλκεται ἄνδρα σίδηρος, 19.13), rendered 'for the iron itself draws a man on' in XVI seg-0024; Homer repeats it, so the edition does. 'Steel' is also anachronistic."
+ },
+ {
+  "section": 19,
+  "seg": "seg-0034",
+  "severity": "low",
+  "old": "that come up out of the water to eat the soaked grain,",
+  "new": "that eat their grain soaked in water,",
+  "why": "Greek πυρὸν ἔδουσιν ἐξ ὕδατος (19.536-7): they eat wheat out of water; they do not come up out of a pond."
+ },
+ {
+  "section": 19,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "and the East and South winds breathe upon it,",
+  "new": "and the East Wind thaws it,",
+  "why": "The South wind is added; Greek ἥν τ' Εὖρος κατέτηξεν, ἐπὴν Ζέφυρος καταχεύῃ (19.206)."
+ },
+ {
+  "section": 19,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "'Young men, my suitors — since noble Odysseus is dead, hold back from this marriage, eager as you are, until I have finished this cloth, so the threads will not be wasted. It is a shroud for the hero Laertes, against the day death takes him down in its long sleep — for I would not have the women of this land reproach me, if a man who won so much should lie without a shroud.'",
+  "new": "'Young men, my suitors, since noble Odysseus is dead, you are eager for the wedding, I know; but wait, be patient, until I finish this cloth — I don't want all my spinning to go to waste — a shroud for the hero Laertes, against the day that death's long grief comes and takes him. The women of Ithaca would never forgive me if a man who won so much should lie in his grave without a shroud.'",
+  "why": "Penelope's shroud speech is the same Greek at 2.96-102, 19.139-47 and 24.131-7; the edition gave three versions ('long grief', 'long sleep', 'long sorrow'). All three now repeat Book II seg-0007."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "Let this be the last supper they ever eat.",
+  "new": "Let this be the last meal they ever eat.",
+  "why": "'Last supper' brings the Gospels into a pagan poem; Greek ὕστατα καὶ πύματα δειπνήσειαν (20.119)."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "God forbid I should.",
+  "new": "Heaven forbid I should.",
+  "why": "Monotheist idiom; Greek μὴ τοῦτο θεὸς τελέσειεν (20.344)."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "This is no public house.",
+  "new": "This house is not common property.",
+  "why": "Many readers hear 'pub'; Greek οὔ τοι δήμιός ἐστιν ὅδ' οἶκος (20.264-5), a house belonging to the people."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "to load the cattle and go off to some other country,",
+  "new": "to drive the cattle off to some other country,",
+  "why": "You do not 'load' cattle to drive them overland; Greek ἄλλων δῆμον ἱκέσθαι αὐτῇσιν βόεσσιν (20.219)."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "to Euryclea:",
+  "new": "to Eurycleia:",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "wise Euryclea answered.",
+  "new": "wise Eurycleia answered.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 20,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "And Euryclea,",
+  "new": "And Eurycleia,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "\"It is here. The man himself. It is I.",
+  "new": "\"He is here — the man himself. It is I.",
+  "why": "'It is here' has no referent, at the moment of revelation; Greek ἔνδον μὲν δὴ ὅδ' αὐτὸς ἐγώ (21.207)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0026",
+  "severity": "medium",
+  "old": "So he spoke, and his words stayed unwinged on her lips: she went and bolted",
+  "new": "So he spoke, and she answered not a word, but went and bolted",
+  "why": "Pronouns mixed ('his words ... on her lips'). Greek τῇ δ' ἄπτερος ἔπλετο μῦθος (21.386): her word was wingless — she made no reply and obeyed."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "But Odysseus, the man of many turns, once he had lifted the great bow and looked it over end to end — easily, as a man skilled in the lyre and in song slips a new string onto its peg,",
+  "new": "But Odysseus, the man of many turns, lifted the great bow and looked it over end to end. And as a man skilled in the lyre and in song easily slips a new string onto its peg,",
+  "why": "The opening subject was left hanging and Odysseus named twice in the climactic sentence (21.404-9)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "girt his sharp sword about him,",
+  "new": "slung his sharp sword over his shoulder,",
+  "why": "'Girt' is leftover archaism; Greek ἀμφὶ δὲ ξίφος ὀξὺ βάλετ' (21.431). Same wording as XX seg-0010."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "not in all Achaean land",
+  "new": "not in all the land of the Greeks",
+  "why": "Policy: Ἀχαιοί/Ἀργεῖοι/Δαναοί and their adjectives are 'Greeks'/'Greek' (107 uses), except in ethnic lists (XIX seg-0015 keeps 'Achaeans' beside Cretans and Dorians)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "some other fine Achaean woman",
+  "new": "some other fine Greek woman",
+  "why": "Policy: Ἀχαιοί/Ἀργεῖοι/Δαναοί and their adjectives are 'Greeks'/'Greek' (107 uses), except in ethnic lists (XIX seg-0015 keeps 'Achaeans' beside Cretans and Dorians)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "other Achaean women enough",
+  "new": "other Greek women enough",
+  "why": "Policy: Ἀχαιοί/Ἀργεῖοι/Δαναοί and their adjectives are 'Greeks'/'Greek' (107 uses), except in ethnic lists (XIX seg-0015 keeps 'Achaeans' beside Cretans and Dorians)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "great-hearted Peirithous,",
+  "new": "great-hearted Pirithous,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "under Peirithous's",
+  "new": "under Pirithous's",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "some lesser Achaean",
+  "new": "some lesser man among the Greeks",
+  "why": "Policy: Ἀχαιοί/Ἀργεῖοι/Δαναοί and their adjectives are 'Greeks'/'Greek' (107 uses), except in ethnic lists (XIX seg-0015 keeps 'Achaeans' beside Cretans and Dorians)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "no Achaean has more right",
+  "new": "no Greek has more right",
+  "why": "Policy: Ἀχαιοί/Ἀργεῖοι/Δαναοί and their adjectives are 'Greeks'/'Greek' (107 uses), except in ethnic lists (XIX seg-0015 keeps 'Achaeans' beside Cretans and Dorians)."
+ },
+ {
+  "section": 21,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "crooked-counseling Kronos had",
+  "new": "crooked-counseling Cronus had",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "Odysseus posted Philoetius to guard it, since only one man could come at it at a time.",
+  "new": "Odysseus posted the noble swineherd to guard it, standing close by, since there was only one way in.",
+  "why": "Greek 22.129-30: Ὀδυσεὺς φράζεσθαι ἀνώγει δῖον ὑφορβόν ... οἴη δ' ἔχεν ἔμβασις αὐτῆς. Philoetius is Butler's slip, copied here."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "And as hawks with hooked beaks",
+  "new": "And as vultures with hooked beaks",
+  "why": "Greek αἰγυπιοὶ γαμψώνυχες (22.302): vultures, not hawks."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "and the hawks fall on them and kill, and there is no help and no escape —",
+  "new": "and the vultures fall on them and kill, and there is no help and no escape, and men look on and delight in the chase —",
+  "why": "Drops the last cruel touch of the simile, χαίρουσι δέ τ' ἀνέρες ἄγρῃ (22.306)."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "And the swineherd Eumaeus stood over him and jeered:",
+  "new": "And you, Eumaeus, swineherd, stood over him and jeered:",
+  "why": "Homer addresses Eumaeus here (τὸν δ' ἐπικερτομέων προσέφης, Εὔμαιε συβῶτα, 22.194); the edition keeps the device everywhere else."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "to card the wool and carry the load of the household.",
+  "new": "to card the wool and to bear their lot as slaves.",
+  "why": "Greek δουλοσύνης ἀνέχεσθαι (22.423); softening it blurs what the hanging means."
+ },
+ {
+  "section": 22,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "\"Odysseus, son of Laertes, there he goes",
+  "new": "\"Royal son of Laertes, Odysseus of the many schemes, there he goes",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 23,
+  "seg": "seg-0019",
+  "severity": "high",
+  "old": "There are so many cruel and scheming men in the world. But now you have spoken the secret of our bed, the sign no living soul has seen but you and I, and the one maid my father gave me when I came here,",
+  "new": "There are so many cruel and scheming men in the world. Helen of Argos herself, daughter of Zeus, would never have lain in love with a man from a foreign land if she had known that the warlike sons of the Greeks would bring her home again to her own country. It was a god who drove her to that shameful act; she had not taken to heart, before, the blindness that was the start of sorrow for us too. But now you have told the sure signs of our bed, which no living soul has seen but you and I, and Actoris, the maid my father gave me when I came here,",
+  "why": "23.218-24 (the Helen lines) were dropped without note: οὐδέ κεν Ἀργείη Ἑλένη, Διὸς ἐκγεγαυῖα ... τὴν δ' ἄτην οὐ πρόσθεν ἑῷ ἐγκάτθετο θυμῷ λυγρήν, ἐξ ἧς πρῶτα καὶ ἡμέας ἵκετο πένθος. Doubted by ancient critics but in the standard text and in Butler; restored. Also restores the maid's name Ἀκτορίς (23.228) and 'signs' for σήματα (23.225)."
+ },
+ {
+  "section": 23,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "There is a secret built into it,",
+  "new": "There is a great sign built into it,",
+  "why": "Greek μέγα σῆμα τέτυκται (23.188): 'sign', the word of 23.110 and the book's title; 'secret' breaks the thread."
+ },
+ {
+  "section": 23,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "That is my secret.",
+  "new": "That is the sign I give you.",
+  "why": "Greek οὕτω τοι τόδε σῆμα πιφαύσκομαι (23.202)."
+ },
+ {
+  "section": 23,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "who destroyed his ships and his men, every one but himself;",
+  "new": "who destroyed his ships and their crews, all of them — only Odysseus escaped, in his black ship;",
+  "why": "Greek Ὀδυσσεὺς δ' οἶος ὑπέκφυγε νηῒ μελαίνῃ (23.320): he escaped with his black ship."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "'Young men, my suitors — since Odysseus is dead, I know you are eager for the wedding, but wait until I have finished this work, so my weaving will not lie wasted. It is a shroud for the hero Laertes, against the day death takes him in its long sorrow. The women of the country would shame me if a man so rich lay buried without a shroud.'",
+  "new": "'Young men, my suitors, since noble Odysseus is dead, you are eager for the wedding, I know; but wait, be patient, until I finish this cloth — I don't want all my spinning to go to waste — a shroud for the hero Laertes, against the day that death's long grief comes and takes him. The women of Ithaca would never forgive me if a man who won so much should lie in his grave without a shroud.'",
+  "why": "Same Greek as 2.96-102 and 19.139-47 (24.131-7); repeat Book II seg-0007 word for word."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "and filled out his limbs, the shepherd of his people, and made him taller",
+  "new": "and filled out the limbs of the shepherd of his people, and made him taller",
+  "why": "The apposition landed on 'limbs'; Greek μέλε' ἤλδανε ποιμένι λαῶν (24.368)."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "Zeus who holds the storm-cloud at",
+  "new": "Zeus who holds the storm-shield at",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "of Kronos.",
+  "new": "of Cronus.",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "son of Kronos, highest",
+  "new": "son of Cronus, highest",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0034",
+  "severity": "low",
+  "old": "he cried back to Odysseus, his words flying,",
+  "new": "he called back to Odysseus with winged words,",
+  "why": "House formula ἔπεα πτερόεντα = 'winged words' (11 uses); 'his words flying' reads as a mistake."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "of Zeus who holds the storm-cloud, cried",
+  "new": "of Zeus who holds the storm-shield, cried",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "the bright-eyed goddess",
+  "new": "the grey-eyed goddess",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "the bright-eyed maiden",
+  "new": "the grey-eyed maiden",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "of Kronos hurled",
+  "new": "of Cronus hurled",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "of Kronos,",
+  "new": "of Cronus,",
+  "why": "House name list: the familiar Latinized English spelling of each Greek name, the form the edition already uses for nearly every name (Telemachus, Alcinous, Antinous 52x) and the form of the Lectio Iliad (Cronus). One spelling per person."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "the bright-eyed daughter",
+  "new": "the grey-eyed daughter",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "Royal son of Laertes, resourceful Odysseus,",
+  "new": "Royal son of Laertes, Odysseus of the many schemes,",
+  "why": "Repeated vocative διογενὲς Λαερτιάδη, πολυμήχαν' Ὀδυσσεῦ: one rendering, as V seg-0014 ('Royal son of Laertes, Odysseus of the many schemes'). πολυμήχανος is 'of many schemes'; 'many turns' is the edition's word for πολύτροπος (1.1)."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "who holds the storm-cloud",
+  "new": "who holds the storm-shield",
+  "why": "House formula list: αἰγίοχος Ζεύς = 'Zeus who holds the storm-shield' (as the Lectio Iliad); γλαυκῶπις = 'grey-eyed' (the introduction's stated rendering, 40 uses); ἐνοσίχθων = 'earth-shaker'; νεφεληγερέτα = 'Zeus who gathers the clouds'."
+ }
+]

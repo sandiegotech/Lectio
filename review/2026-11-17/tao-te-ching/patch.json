@@ -1,0 +1,654 @@
+[
+  {
+    "section": 1,
+    "seg": null
+  },
+  {
+    "section": 2,
+    "seg": "seg-0004",
+    "severity": "high",
+    "old": "the sage claims nothing as his own. The work is done",
+    "new": "the sage claims nothing as his own. He acts, but does not rely on what he has done. The work is done",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 生而不有，為而不恃，功成而弗居 — 為而不恃 is missing. Legge: \"they go through their processes, and there is no expectation (of a reward)\". Wording matches the edition's own ch. 77 rendering of the same four characters."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "before and after follow each other. This is how it always is.",
+    "new": "before and after follow each other.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled) has no 恆也 here (it is the Mawangdui reading); Legge has nothing. The edition otherwise follows the received text."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "that the credit never leaves him",
+    "new": "that it never leaves him",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 夫唯弗居，是以不去 — \"it does not leave\"; \"credit\" explains the 功 of seg-0004. Legge keeps it bare."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0002",
+    "severity": "high",
+    "old": "so that the clever ones never dare to force their hand",
+    "new": "so that the clever never dare to act",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 使夫智者不敢為也, the clever dare not act. \"Force someone's hand\" means pressuring another; Legge: \"to keep them from presuming to act\". The next sentence (\"Act without forcing\") picks up 為."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "free of cunning and free of craving",
+    "new": "without knowledge and without craving",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 常使民無知無欲. \"Cunning\" moralizes 無知 into something easier to accept. Legge: \"without knowledge and without desire\"."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Do not make a show of honoring the worthy",
+    "new": "Do not exalt the worthy",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 不尚賢. \"Make a show of\" adds hypocrisy the text does not charge."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "It is so deep — the wellspring from which the ten thousand things flow.",
+    "new": "It is so deep — it seems to be the ancestor of the ten thousand things.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 淵兮似萬物之宗 — the hedge 似 \"seems\" was dropped, and 宗 is the ancestral source, which seg-0003 (\"whose child it is\") picks up. Legge: \"as if it were the Honoured Ancestor\"."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "So still, so hidden, and yet it is always there.",
+    "new": "So still, so hidden, yet it seems to be there.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 湛兮似或存, \"seems perhaps to exist\"; \"always there\" asserts what the text only glimpses."
+  },
+  {
+    "section": 5,
+    "seg": null
+  },
+  {
+    "section": 6,
+    "seg": null
+  },
+  {
+    "section": 7,
+    "seg": null
+  },
+  {
+    "section": 8,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "In where it dwells,",
+    "new": "In dwelling,",
+    "why": "\"In where\" is ungrammatical at the head of the list (居善地); matches \"In giving\", \"In moving\"."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Keep filling a cup to the brim, and you would have done better to stop in time.",
+    "new": "Better to stop in time than to fill a cup to the brim.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 持而盈之，不如其已 — \"holding and filling it is not as good as stopping\". The shift to \"would have done\" muddles a plain maxim."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "can you keep to the female, the yielding, receptive part?",
+    "new": "can you play the part of the female?",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 天門開闔，能為雌乎 — only \"play the female\"; \"the yielding, receptive part\" is a gloss. Legge: \"as a female bird\"."
+  },
+  {
+    "section": 11,
+    "seg": null
+  },
+  {
+    "section": 12,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "He lets the one go and takes hold of the other.",
+    "new": "He lets that go and takes hold of this.",
+    "why": "去彼取此, \"rejects that, takes this\"; \"the one ... the other\" leaves the ear unsure which is kept. Same fix in chs. 12, 38, 72."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "honors the world as their own body can be given the world to hold; the one who loves the world as their own body",
+    "new": "honors the world as his own body can be given the world to hold; the one who loves the world as his own body",
+    "why": "Policy: the ideal person is \"he\", as for the sage throughout; singular \"their\" here is the only such shift in the chapter."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "Favor is a thing from above, and to win it is to dread losing it; to lose it is to dread something worse.",
+    "new": "Favor is a lowly thing: to win it is alarming, and to lose it is alarming.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 寵為下，得之若驚，失之若驚. \"From above\" follows a variant, and \"dread something worse\" is added; the text repeats 若驚, which the chapter renders \"alarming\". (Legge's base has 辱為下; the Wang Bi line has no disgrace half.)"
+  },
+  {
+    "section": 14,
+    "seg": null
+  },
+  {
+    "section": 15,
+    "seg": "seg-0003",
+    "severity": "high",
+    "old": "Who can stay still until the moment to stir?",
+    "new": "Who can stir what has long been at rest and slowly bring it to life?",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 孰能安以久動之徐生 — by movement, bring what has long been at rest slowly to life; the parallel of the muddy-water question. The edition turns it into waiting. Legge: \"Let movement go on, and the condition of rest will gradually arise.\""
+  },
+  {
+    "section": 15,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "like someone alert to enemies on every side",
+    "new": "like someone who fears the neighbors on every side",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 猶兮若畏四鄰, fearing the neighbors on four sides; \"enemies\" sharpens it. (\"Wary\" avoided: it opens the previous sentence.)"
+  },
+  {
+    "section": 16,
+    "seg": null
+  },
+  {
+    "section": 17,
+    "seg": null
+  },
+  {
+    "section": 18,
+    "seg": null
+  },
+  {
+    "section": 19,
+    "seg": null
+  },
+  {
+    "section": 20,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "— for I am nourished by the Mother, the Way.",
+    "new": "— I prize being fed by the Mother.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 而貴食母. \"The Way\" is a gloss (Legge's parenthesis) and 貴 \"prize\" was dropped. The divergence note that defends \"the Way\" needs revising."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "a respectful \"yes\" and a careless \"yeah,\"",
+    "new": "a respectful \"yes\" and a careless one,",
+    "why": "\"Yeah\" is slang. 唯之與阿 are both ways of saying yes; letting one \"yes\" serve both makes the point that there is little between them."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "I drift like the restless sea;",
+    "new": "I drift like the wide sea;",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 澹兮其若海; 澹 is calm and vast, \"restless\" reverses it. Legge: \"carried about as on the sea\"."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "like a country bumpkin",
+    "new": "like a rustic",
+    "why": "\"Bumpkin\" is comic; 頑似鄙 is plain \"rustic\" (Legge: \"a rude borderer\")."
+  },
+  {
+    "section": 21,
+    "seg": null
+  },
+  {
+    "section": 22,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "Truly it keeps a person whole, and brings them home.",
+    "new": "Truly it keeps you whole, and brings you home.",
+    "why": "Pronoun policy; the chapter's maxims (\"Yield, and remain whole\") already address \"you\". 誠全而歸之."
+  },
+  {
+    "section": 22,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "He does not justify himself, and so he is known.",
+    "new": "He does not insist he is right, and so he stands out.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 不自是，故彰 — he does not think himself right, so he is conspicuous; \"is known\" is weaker than 彰. Pairs with the ch. 24 fix."
+  },
+  {
+    "section": 23,
+    "seg": null
+  },
+  {
+    "section": 24,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "Insist you are right, and you are not seen for what you are.",
+    "new": "Insist you are right, and you do not stand out.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 自是者不彰 (Legge: \"is not distinguished\"). Echoes ch. 22."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "the Way follows what is natural — what is so of itself.",
+    "new": "the Way follows what is so of itself.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 道法自然. Two renderings of 自然 side by side, the second glossing the first; \"so of itself\" is the edition's word for 自然 in chs. 17 and 51. Divergence note quotes the old wording."
+  },
+  {
+    "section": 26,
+    "seg": null
+  },
+  {
+    "section": 27,
+    "seg": null
+  },
+  {
+    "section": 28,
+    "seg": "title",
+    "severity": "low",
+    "old": "Return to the Uncarved Block",
+    "new": "Know the Masculine, Keep to the Feminine",
+    "why": "Same title as ch. 19; the contents list shows two identical entries. New title is the chapter's first line. Title field, not a segment."
+  },
+  {
+    "section": 29,
+    "seg": null
+  },
+  {
+    "section": 30,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "because there was no other choice",
+    "new": "because there is no other choice",
+    "why": "Tense slips in a run of present-tense maxims (果而不得已)."
+  },
+  {
+    "section": 31,
+    "seg": null
+  },
+  {
+    "section": 32,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "what the rivers and streams are to the sea",
+    "new": "what the sea is to the rivers and streams",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 譬道之在天下，猶川谷之於江海 — the Way is the great water the valley streams run into (Legge: \"like that of the great rivers and seas to the streams from the valleys\"). As written the Way is the streams, yet \"everything flows down to it\"."
+  },
+  {
+    "section": 33,
+    "seg": null
+  },
+  {
+    "section": 34,
+    "seg": null
+  },
+  {
+    "section": 35,
+    "seg": null
+  },
+  {
+    "section": 36,
+    "seg": null
+  },
+  {
+    "section": 37,
+    "seg": null
+  },
+  {
+    "section": 38,
+    "seg": "title",
+    "severity": "medium",
+    "old": "Virtue and Its Decline",
+    "new": "Power and Its Decline",
+    "why": "Policy 德 = \"power\" (see rejected.md). Title of section 38 (a field of the section, not a segment; apply.py's replace reaches it)."
+  },
+  {
+    "section": 38,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "The highest virtue is not virtuous, and that is why it has virtue. The lowest virtue never lets go of being virtuous, and that is why it has none.",
+    "new": "The highest power makes no claim to power, and that is why it has power. The lowest power never lets go of its power, and that is why it has none.",
+    "why": "Policy 德 = \"power\" (see rejected.md). 上德不德，是以有德；下德不失德，是以無德: highest de does not claim de; lowest de never lets go of de. Keeps the paradox, and ties 38 to 21's \"great power\" and 28's \"constant power\"."
+  },
+  {
+    "section": 38,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "The highest virtue acts without forcing, and acts from no motive. The lowest virtue acts,",
+    "new": "The highest power acts without forcing, and acts from no motive. The lowest power acts,",
+    "why": "Policy 德 = \"power\" (see rejected.md). 上德無為而無以為；下德為之而有以為."
+  },
+  {
+    "section": 38,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "So when the Way is lost, virtue appears. When virtue is lost,",
+    "new": "So when the Way is lost, power appears. When power is lost,",
+    "why": "Policy 德 = \"power\" (see rejected.md). 失道而後德，失德而後仁."
+  },
+  {
+    "section": 38,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "He lets the one go and takes hold of the other.",
+    "new": "He lets that go and takes hold of this.",
+    "why": "去彼取此, \"rejects that, takes this\"; \"the one ... the other\" leaves the ear unsure which is kept. Same fix in chs. 12, 38, 72."
+  },
+  {
+    "section": 39,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "left to find. The highest renown is to have no renown. So do not",
+    "new": "left to find. So do not",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 故致數輿無輿 is one line, read here as \"carriage\" (Wang Bi, Legge). The \"renown\" sentence renders the emended 譽 reading of the same line, so the line is given twice."
+  },
+  {
+    "section": 40,
+    "seg": null
+  },
+  {
+    "section": 41,
+    "seg": null
+  },
+  {
+    "section": 42,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "orphaned, lonely, or unworthy",
+    "new": "orphaned, widowed, or unworthy",
+    "why": "孤寡不穀 is \"orphaned, widowed, unworthy\" in ch. 39; the same royal self-names should read the same. Divergence note quotes \"lonely\"."
+  },
+  {
+    "section": 43,
+    "seg": null
+  },
+  {
+    "section": 44,
+    "seg": "title",
+    "severity": "low",
+    "old": "Knowing When to Stop",
+    "new": "Your Name or Your Self",
+    "why": "Same title as ch. 9 (and \"What Is Enough\" would crowd ch. 46, \"Knowing You Have Enough\"). New title is the chapter's first line. Title field, not a segment."
+  },
+  {
+    "section": 45,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "yet its use is never used up",
+    "new": "yet its use never runs out",
+    "why": "\"Use ... used up\" chimes clumsily; keeps 其用 (其用不窮)."
+  },
+  {
+    "section": 46,
+    "seg": null
+  },
+  {
+    "section": 47,
+    "seg": null
+  },
+  {
+    "section": 48,
+    "seg": null
+  },
+  {
+    "section": 49,
+    "seg": null
+  },
+  {
+    "section": 50,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "yet move the whole way toward the ground of death",
+    "new": "yet move into the place of death",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 動之死地, \"move into the place of death\"; \"the whole way toward the ground of\" pads."
+  },
+  {
+    "section": 51,
+    "seg": "title",
+    "severity": "medium",
+    "old": "The Way Gives Life, Virtue Nurtures",
+    "new": "The Way Gives Life, Power Nurtures",
+    "why": "Policy 德 = \"power\" (see rejected.md). Title of section 51."
+  },
+  {
+    "section": 51,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "and its virtue nurtures them. Matter gives them their shapes, and circumstance brings them to completion. So there is nothing among all things that does not honor the Way and value its virtue.",
+    "new": "and its power nurtures them. Matter gives them their shapes, and circumstance brings them to completion. So there is nothing among all things that does not honor the Way and value its power.",
+    "why": "Policy 德 = \"power\" (see rejected.md). 道生之，德畜之 … 尊道而貴德."
+  },
+  {
+    "section": 51,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "valuing of its virtue",
+    "new": "valuing of its power",
+    "why": "Policy 德 = \"power\" (see rejected.md). 道之尊，德之貴."
+  },
+  {
+    "section": 51,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "life and its virtue nurtures them:",
+    "new": "life and its power nurtures them:",
+    "why": "Policy 德 = \"power\" (see rejected.md). 道生之，德畜之."
+  },
+  {
+    "section": 51,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "This is what is called the mysterious virtue.",
+    "new": "This is what is called the mysterious power.",
+    "why": "Policy 德 = \"power\" (see rejected.md). 是謂玄德, the same sentence that closes ch. 10 and ch. 65 as \"the mysterious power\"."
+  },
+  {
+    "section": 52,
+    "seg": "seg-0005",
+    "severity": "medium",
+    "old": "Use the outer light, but turn back to the inner light, and you will leave no harm behind you.",
+    "new": "Use the light, but turn back to clarity, and you will bring no harm upon yourself.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 用其光，復歸其明，無遺身殃. \"Outer\"/\"inner\" are glosses; 明 is \"clarity\" as in seg-0004; 身殃 is harm to one's own person (Legge: \"from his body ward all blight\")."
+  },
+  {
+    "section": 53,
+    "seg": null
+  },
+  {
+    "section": 54,
+    "seg": null
+  },
+  {
+    "section": 55,
+    "seg": "title",
+    "severity": "medium",
+    "old": "Full of Virtue, Like a Newborn Child",
+    "new": "Full of Power, Like a Newborn Child",
+    "why": "Policy 德 = \"power\" (see rejected.md). Title of section 55."
+  },
+  {
+    "section": 55,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "One full of virtue is like a newborn child.",
+    "new": "One full of power is like a newborn child.",
+    "why": "Policy 德 = \"power\" (see rejected.md). 含德之厚，比於赤子; the paradox of power held by the weakest creature is the chapter's point."
+  },
+  {
+    "section": 56,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "And so they are honored by all the world.",
+    "new": "And so such a one is honored by all the world.",
+    "why": "\"Such a one\" turns into \"they\" in the next sentence; hold the subject."
+  },
+  {
+    "section": 57,
+    "seg": null
+  },
+  {
+    "section": 58,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "straight but never severe",
+    "new": "straight but never overbearing",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 直而不肆; 肆 is unrestrained, presumptuous (Legge: \"allows himself no license\"); \"severe\" is a different fault."
+  },
+  {
+    "section": 59,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "storing up an ever deeper store",
+    "new": "building up an ever deeper store",
+    "why": "\"Storing up ... store\" repeats the word (重積德)."
+  },
+  {
+    "section": 60,
+    "seg": null
+  },
+  {
+    "section": 61,
+    "seg": null
+  },
+  {
+    "section": 62,
+    "seg": null
+  },
+  {
+    "section": 63,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "Repay resentment with virtue.",
+    "new": "Repay resentment with kindness.",
+    "why": "Policy 德, stated exception: 報怨以德 is the proverb Confucius answers in Analects 14.34, which the Lectio Analects renders \"repaying injury with kindness\"; \"Repay resentment with power\" would read as retaliation. Legge here: \"kindness\". Retires \"virtue\" for 德 without using \"power\"."
+  },
+  {
+    "section": 64,
+    "seg": null
+  },
+  {
+    "section": 65,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "the Great Harmony",
+    "new": "the great accord",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 然後乃至大順; 順 is accord (Legge: \"a great conformity\"). \"Harmony\" is the edition's word for 和 (chs. 42, 55). Divergence note uses \"Great Harmony\"."
+  },
+  {
+    "section": 66,
+    "seg": null
+  },
+  {
+    "section": 67,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "Compassion wins when it attacks",
+    "new": "Compassion wins when it fights",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 以戰則勝 — \"in battle it wins\"; \"attacks\" sharpens it against the defensive tenor of chs. 68-69."
+  },
+  {
+    "section": 68,
+    "seg": "title",
+    "severity": "medium",
+    "old": "The Virtue of Not Contending",
+    "new": "The Power of Not Contending",
+    "why": "Policy 德 = \"power\" (see rejected.md). Title of section 68."
+  },
+  {
+    "section": 68,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "This is the virtue of not contending. This is the power that comes of using the strength of others.",
+    "new": "This is the power of not contending. This is using the strength of others.",
+    "why": "Policy 德 = \"power\" (see rejected.md). 是謂不爭之德，是謂用人之力: 德 gets \"power\"; 用人之力 is only \"using the strength of others\" (力 is not 德)."
+  },
+  {
+    "section": 69,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "underestimating your enemy; to underestimate your enemy",
+    "new": "underestimating the enemy; to underestimate the enemy",
+    "why": "\"Your enemy ... my treasures\" switches person mid-sentence; 輕敵 has no pronoun."
+  },
+  {
+    "section": 70,
+    "seg": null
+  },
+  {
+    "section": 71,
+    "seg": null
+  },
+  {
+    "section": 72,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "He lets the one go and takes hold of the other.",
+    "new": "He lets that go and takes hold of this.",
+    "why": "去彼取此, \"rejects that, takes this\"; \"the one ... the other\" leaves the ear unsure which is kept. Same fix in chs. 12, 38, 72."
+  },
+  {
+    "section": 72,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "do not bear down on the life that keeps them alive",
+    "new": "do not bear down on what they live by",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 無厭其所生, \"do not crush what they live by\"; the edition's phrase circles on itself."
+  },
+  {
+    "section": 73,
+    "seg": null
+  },
+  {
+    "section": 74,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "But suppose you could make them always fear death, so that whenever someone did wrong",
+    "new": "But suppose the people always feared death, and whenever someone did wrong",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 若使民常畏死，而為奇者，吾得執而殺之 keeps \"I\"; \"you could make them ... I could seize\" changes speaker."
+  },
+  {
+    "section": 75,
+    "seg": "seg-0004",
+    "severity": "high",
+    "old": "It is only the one who does not strain after living who truly knows how to value life.",
+    "new": "It is the one who does not strain after living who is wiser than the one who prizes life.",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 夫唯無以生為者，是賢於貴生 — wiser (賢) than one who prizes life (貴生). Prizing life is what seg-0003 condemns (those above \"grasp so hard at life\"); the edition made it the reward. Legge: \"is better than to set a high value on it.\" The divergence note for this line must be rewritten."
+  },
+  {
+    "section": 76,
+    "seg": null
+  },
+  {
+    "section": 77,
+    "seg": null
+  },
+  {
+    "section": 78,
+    "seg": null
+  },
+  {
+    "section": 79,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "the left half of the tally, the creditor's record, and yet",
+    "new": "the left half of the tally, and yet",
+    "why": "Received Wang Bi text, judged from my own knowledge (no Chinese bundled): 執左契而不責於人. \"The creditor's record\" is a gloss; \"never presses his claim\" already carries it."
+  },
+  {
+    "section": 80,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Though they had tools",
+    "new": "Though they have tools",
+    "why": "Tense: seg-0002 has \"Though they have\" for the same 雖有 construction."
+  },
+  {
+    "section": 81,
+    "seg": null
+  }
+]

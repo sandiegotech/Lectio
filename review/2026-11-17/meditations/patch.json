@@ -1,0 +1,1242 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "high",
+    "old": "not raised too long by my father's mistress",
+    "new": "not brought up any longer than I was by my grandfather's mistress",
+    "why": "Greek μὴ ἐπὶ πλέον τραφῆναι παρὰ τῇ παλλακῇ τοῦ πάππου: his grandfather's concubine, and 'not longer' (Long: 'not longer brought up with my grandfather's concubine'). 'Father's' is a factual error about Marcus's family."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "high",
+    "old": "when to press hard and when to ease off. He thought of himself",
+    "new": "when to press hard and when to ease off. He put a stop to love affairs with boys. He thought of himself",
+    "why": "Dropped clause: καὶ τὸ παῦσαι τὰ περὶ τοὺς ἔρωτας τῶν μειρακίων (Long: 'had overcome all passion for boys'). Restored as plainly as the Greek, which leaves open whose affairs are meant."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "high",
+    "old": "and was indifferent to his food and to the cut and color of his clothes.",
+    "new": "and was indifferent to his food, to the cut and color of his clothes, and to the good looks of his slaves. His clothes came up from his house at Lorium on the coast, and most of his things from Lanuvium. There was the way he treated the tax collector at Tusculum who begged his pardon; and that was his manner in everything.",
+    "why": "Dropped: οὐ περὶ σωμάτων ὥρας; ἡ ἀπὸ Λωρίου στολὴ ἀνάγουσα ἀπὸ τῆς κάτω ἐπαύλεως· καὶ τῶν ἐν Λανουβίῳ τὰ πολλά· τῷ τελώνῃ ἐν Τούσκλοις παραιτουμένῳ ὡς ἐχρήσατο καὶ πᾶς ὁ τοιοῦτος τρόπος. The Greek is damaged but readable; Long carries all of it."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "fine writing; to write plainly,",
+    "new": "fine writing; not to walk around the house in formal dress, or do anything of that kind; to write plainly,",
+    "why": "Dropped: τὸ μὴ ἐν στολίῳ κατ' οἶκον περιπατεῖν μηδὲ τὰ τοιαῦτα ποιεῖν (Long: 'not to walk about in the house in my outdoor dress')."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "medium",
+    "old": "never breaking off too soon, satisfied with first impressions.",
+    "new": "never breaking off his inquiry early because first impressions seemed good enough.",
+    "why": "As written it says he was satisfied with first impressions. Greek: οὐ προαπέστη τῆς ἐρεύνης, ἀρκεσθεὶς ταῖς προχείροις φαντασίαις, he did not quit the inquiry early, content with first appearances."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "but to work the correct form smoothly into my reply, or by confirming the point, or by some other tactful prompt.",
+    "new": "but to slip in the right expression myself, by way of an answer, or of agreeing with the point, or of discussing the matter itself rather than the wording, or by some other tactful reminder.",
+    "why": "Greek: ἐν τρόπῳ ἀποκρίσεως ἢ συνεπιμαρτυρήσεως ἢ συνδιαλήψεως περὶ αὐτοῦ τοῦ πράγματος, οὐχὶ περὶ τοῦ ῥήματος. The third way (discussing the thing, not the word) was dropped and the list lost its parallel."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "tend to be rather short on ordinary human warmth.",
+    "new": "tend to be somewhat lacking in natural affection.",
+    "why": "ἀστοργότεροι: lacking στοργή, the natural affection of kin (Long: 'paternal affection'), not general warmth."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "deformed; and the good sense not to get further in rhetoric and poetry and other studies that might have absorbed me had I felt I was excelling.",
+    "new": "deformed. I did not get any further in rhetoric and poetry and the other studies that might well have absorbed me, had I felt I was making good progress in them.",
+    "why": "τὸ μὴ ἐπὶ πλέον με προκόψαι: Marcus thanks the gods that he did not progress further (a gift of luck), not for his own good sense."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "that I never lost my temper and wronged any of them",
+    "new": "that I never slipped into wronging any of them",
+    "why": "προέπεσον πλημμελῆσαι: to blunder or rush into offending; 'lost my temper' adds anger the Greek does not have."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "and not to take up fashionable hobbies like breeding fighting quails.",
+    "new": "and not to keep quails for fighting, or get excited about such things.",
+    "why": "τὸ μὴ ὀρτυγοκοπεῖν μηδὲ περὶ τὰ τοιαῦτα ἐπτοῆσθαι. 'Fashionable hobbies' is an added gloss; the second clause was dropped."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "not to take sides among the racing teams at the Circus or the rival gladiators in the arena",
+    "new": "not to back the Greens or the Blues at the races, or the small-shield or the big-shield fighters in the arena",
+    "why": "Πρασιανὸς ἢ Βενετιανὸς … Παλμουλάριος ἢ Σκουτάριος: the Greek names the factions (Greens, Blues) and the two kinds of gladiator (parma vs scutum). Proper names kept."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "including ones for spitting blood and for dizziness.",
+    "new": "including ones for spitting blood and for dizziness, and the one at Caieta, given as if by an oracle.",
+    "why": "Dropped the damaged but readable καὶ τὸ τοῦ ἐν Καιήτῃ 'ὥσπερ χρήσῃ' (Long prints an ellipsis here). Rendered at the sense most editors give it."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "He was neither superstitious toward the gods nor a courter of popular favor;",
+    "new": "He was not superstitious toward the gods, and he never courted the people with favors, flattery, or playing to the crowd;",
+    "why": "'Courter' is awkward; the Greek names the three ways: δημοκοπικὸν ἢ ἀρεσκευτικὸν ἢ ὀχλοχαρές."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "balanced and unbeatable",
+    "new": "complete and unconquerable",
+    "why": "ἄρτιον καὶ ἀήττητον ψυχήν: a complete, unconquered soul; 'unbeatable' sounds like sport."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "or waste my time on historical writers, on untangling logical puzzles, or on speculating about the heavens",
+    "new": "or sit down to analyzing treatises or untangling logical puzzles, or busy myself with speculating about the heavens",
+    "why": "Sweep of Long's brackets: 'historical writers' is Long's bracketed guess '[of histories]'. Greek: μηδὲ ἀποκαθίσαι ἐπὶ τοῦ συγγραφὰς ἢ συλλογισμοὺς ἀναλύειν, sit down to analyze writings or syllogisms."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "As for leaving the company of people,",
+    "new": "As for departing from among the living,",
+    "why": "τὸ ἐξ ἀνθρώπων ἀπελθεῖν is dying; read cold, 'leaving the company of people' sounds like withdrawing from society."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "pain and pleasure—all of these come equally to good men and bad, and they make us neither better nor worse.",
+    "new": "pain and pleasure, wealth and poverty—all of these come equally to good men and bad, and they are neither noble nor shameful.",
+    "why": "Dropped πλοῦτος καὶ πενία from the list, and replaced οὔτε καλὰ ὄντα οὔτε αἰσχρά (neither noble nor shameful) with a different claim; the next sentence ('So they are neither good nor evil') draws its conclusion from the Greek one."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "govern every action and thought accordingly",
+    "new": "govern every action, word, and thought accordingly",
+    "why": "ἕκαστα ποιεῖν καὶ λέγειν καὶ διανοεῖσθαι: doing, saying, thinking; 'word' dropped."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "with a kind of pain and an unwilling flinch",
+    "new": "with a kind of pain and a flinch he hardly notices",
+    "why": "λεληθυίας συστολῆς: a contraction that escapes notice (Long: 'unconscious contraction'), not an unwilling one."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "more lacking in self-control, more weak-willed in his wrongdoing",
+    "new": "more lacking in self-control and more unmanly in his wrongdoing",
+    "why": "Policy (womanish): θηλύτερος is rendered 'unmanly' throughout, as IV.28 already has it; 'weak-willed' only repeated 'lacking self-control'."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "So none of them can truly harm me, since no one can force me into anything ugly",
+    "new": "So none of them can harm me, since no one can entangle me in what is ugly",
+    "why": "'Truly' is added; αἰσχρῷ γάρ με οὐδεὶς περιβαλεῖ is 'no one can wrap me in what is shameful', not force."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "to live a calm life, like the life of the gods",
+    "new": "to live a smoothly flowing life, like the life of the gods",
+    "why": "εὔρουν … βίον: a life that flows well (Long: 'flows in quiet'); the stream image recurs through the work."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "Every person gets just one life, and yours is nearly over",
+    "new": "Each man's life is brief, and yours is nearly over",
+    "why": "Sweep of Long's corruption marks: Long prints 'Every man's life is sufficient.+' as doubtful and Lectio guessed. The bundled Greek reads ἀκαριαῖος ὁ βίος ἑκάστῳ, each one's life is momentary."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "it is enough to attend to the spirit within himself and to revere it sincerely. To revere that spirit means",
+    "new": "it is enough to attend to the divinity within himself and to revere it sincerely. To revere it means",
+    "why": "Policy (daimon): τῷ ἔνδον ἑαυτοῦ δαίμονι is 'the divinity within' everywhere."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "prying into what lies beneath the earth, as the poet says,",
+    "new": "prying into \"the things beneath the earth,\" as the poet says,",
+    "why": "Policy (quotations): the Greek quotes Pindar, “τὰ νέρθεν γᾶς”; mark it."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "keeping the spirit within him free from violence",
+    "new": "keeping the divinity within him free from violence",
+    "why": "Policy (daimon): τὸν ἔνδον δαίμονα."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0003",
+    "severity": "high",
+    "old": "no longer a slave to this vessel, the body, which is as far inferior to what it serves as a servant is to its master. For the one is intelligence and divinity, the other is earth and decay.",
+    "new": "no longer a slave to this vessel, the body, a master as far beneath its servant as the servant is above it. For the servant is intelligence and divinity; the master is earth and gore.",
+    "why": "λατρεύων τοσούτῳ χείρονι τῷ ἀγγείῳ ὅσῳ περίεστι τὸ ὑπηρετοῦν: slaving for a vessel as much worse as the part that serves it is better. Lectio made the body the servant, reversing the irony. λύθρος is gore, not decay."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "So you, I say, must simply and freely choose the better and hold to it. But the useful is the better. Well then,",
+    "new": "So you, I say, must simply and freely choose the better and hold to it. \"But the useful is the better,\" you say. Well then,",
+    "why": "Policy (speakers): the Greek sets the objection in quotation marks, “κρεῖττον δὲ τὸ συμφέρον”; unmarked, it reads as Marcus contradicting himself."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "All these things, even if they seem to fit in only slightly, suddenly gain the upper hand and sweep us away.",
+    "new": "All these things may seem to sit comfortably beside the good for a little while; then suddenly they take over and sweep us away.",
+    "why": "κἂν πρὸς ὀλίγον ἐναρμόζειν δόξῃ: even if they seem to fit in for a little while. 'Fit in only slightly' is opaque."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "such as the praise of the crowd, or power, or the enjoyment of pleasure,",
+    "new": "such as the praise of the crowd, or power, or wealth, or the enjoyment of pleasure,",
+    "why": "Dropped πλοῦτον from the list (ἔπαινον ἢ ἀρχὰς ἢ πλοῦτον ἢ ἀπολαύσεις ἡδονῶν)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "Ask what each thing is, what it is made of, how long it is in its nature to last, this thing that now makes an impression on me, and what virtue I need to meet it, such as",
+    "new": "Of whatever is now making an impression on me I must ask: what is it, what is it made of, how long is it its nature to last, and what virtue do I need to meet it, such as",
+    "why": "Long's word order carried over; the trailing 'this thing…' trips aloud and the sentence switches person. Greek: τί ἐστὶ … τοῦτο τὸ τὴν φαντασίαν μοι νῦν ποιοῦν."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "using too the divinity seated within him",
+    "new": "and makes use as well of the divinity seated within him",
+    "why": "'Using too' is a calque of Long ('using too the [deity]'); χρώμενος καὶ τῷ ἔνδον ἱδρυμένῳ."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "what sort of people they are at home and abroad, by night and by day, and what they are, and with what company they lead their impure lives",
+    "new": "what sort of people they are at home and out of doors, by night and by day, and what sort of company they keep in their impure lives",
+    "why": "'What sort of people they are … and what they are' doubles itself; Greek ὁποῖοί τινες … οἷοι μεθ' οἵων φύρονται."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "A person like this, who no longer puts off",
+    "new": "A man like this, who no longer puts off",
+    "why": "Policy (pronouns): ὁ ἀνὴρ ὁ τοιοῦτος, and the paragraph continues 'him … his'."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "keeping your divine part pure",
+    "new": "keeping the divinity within you pure",
+    "why": "Policy (daimon): τὸν ἑαυτοῦ δαίμονα."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "political community; and be at peace at last.",
+    "new": "political community.",
+    "why": "Sweep of Long's brackets: the Greek has παύου ποτέ once, after the first answer; Long supplies the later ones only as '[and be quiet at last]'. Remove the second of the three repeats."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "about pain and pleasure; and be at peace at last.",
+    "new": "about pain and pleasure.",
+    "why": "As above: the third repeat is Long's bracketed supplement, not Marcus."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "or there are only atoms, a chance jumble of things;",
+    "new": "or there are atoms;",
+    "why": "Sweep of Long's brackets: 'a chance jumble of things' is Long's gloss '[fortuitous concurrence of things]'. Greek: ἤτοι πρόνοια ἢ ἄτομοι."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "You too long for such things very much.",
+    "new": "And you too are in the habit of longing for such places.",
+    "why": "Stiff calque of Long; Greek εἴωθας δὲ καὶ σὺ τὰ τοιαῦτα μάλιστα ποθεῖν, you are in the habit of longing for them."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "after their mutual hostility, suspicion, hatred, and fighting, have been laid out dead and reduced to ashes",
+    "new": "after feuding, suspecting, hating, and spearing one another, have been laid out dead and burned to ashes",
+    "why": "διαδορατισθέντες: running each other through with spears; 'fighting' loses the picture."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "my watery part from another element, and my hot, fiery part",
+    "new": "my watery part from another element, my airy part from some source, and my hot, fiery part",
+    "why": "Dropped τὸ πνευματικὸν ἀπὸ πηγῆς τινος, the third of the four elements (Long drops it too; the bundled Greek has it)."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0019",
+    "severity": "medium",
+    "old": "that it may be just and pure. As Agathon says, do not glance around at the corrupt characters of others",
+    "new": "that it may be just and holy, as befits a good man. Do not glance around at the dark characters of others",
+    "why": "Sweep of Long's corruption marks: 'Agathon+' is Long's doubtful reading. The bundled Greek has κατὰ τὸν ἀγαθὸν (as befits the good man) and μέλαν ἦθος (a black, dark character, as in IV.28); δίκαιον καὶ ὅσιον is just and holy."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0020",
+    "severity": "medium",
+    "old": "For now you are unreasonably rejecting the gift of nature, clinging instead to something else.",
+    "new": "For now you are wrongly neglecting nature's gift, which does not hang on what anyone else says.",
+    "why": "Sweep of Long's ellipses: Long's '… clinging to something else … +' follows a corrupt text. The bundled Greek reads παρίης … τὴν φυσικὴν δόσιν ἄλλου τινὸς ‹οὐκ› ἐχομένην λόγου: you neglect nature's gift, which does not depend on another's word."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0032",
+    "severity": "medium",
+    "old": "\"and still I hold to reason\"; and I get no living from my learning, yet still I hold to my reason.",
+    "new": "\"and still I hold to reason.\" And I, who have the nourishment my studies give, do not hold to it.",
+    "why": "The bundled Greek reads ἐγὼ δὲ τροφὰς τὰς ἐκ τῶν μαθημάτων ἔχω καὶ οὐκ ἐμμένω: I have the nourishment of learning and do not abide by it, a self-reproach. Lectio followed Long's different text and his bracket '[by my reason]'. (The reviewer's proposed fix kept Long's sense; corrected here to the Greek.)"
+  },
+  {
+    "section": 4,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "farming, flattering, stubbornly arrogant, suspicious, scheming,",
+    "new": "farming, flattering, putting on airs, suspecting, scheming,",
+    "why": "The list of participles (κολακεύοντας, αὐθαδιζομένους, ὑποπτεύοντας, ἐπιβουλεύοντας) slid into adjectives and tripped aloud."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0035",
+    "severity": "medium",
+    "old": "And to settle the matter, what even is an eternal memory? Nothing at all.",
+    "new": "And after all, what is everlasting remembrance? Utterly empty.",
+    "why": "'What even is' is current slang; τί δὲ καὶ ἔστιν ὅλως τὸ ἀείμνηστον; ὅλον κενόν."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "Volesus, Leonnatus,",
+    "new": "Volesus, Dentatus,",
+    "why": "The bundled Greek names Δεντάτος (Dentatus); 'Leonnatus' is Long's reading."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "the moment they have breathed their last they are gone, and no one speaks of them.",
+    "new": "the moment they have breathed their last they are \"unseen, unheard of.\"",
+    "why": "Policy (quotations): the Greek quotes Homer, “ἄιστοι, ἄπυστοι”; Lectio paraphrased it unmarked."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "Clotho, one of the Fates, and let her",
+    "new": "Clotho, and let her",
+    "why": "Sweep of Long's brackets: 'one of the Fates' is Long's '[one of the fates]', a gloss written into the sentence. Leave it to the enrichment layer."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "But this is more pleasant. So were you made",
+    "new": "\"But this is more pleasant.\" So were you made",
+    "why": "Policy (speakers): the Greek quotes the objector, “ἀλλὰ τοῦτο ἥδιον”."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "But I need rest too. You do.",
+    "new": "\"But I need rest too.\" You do.",
+    "why": "Policy (speakers): “ἀλλὰ δεῖ καὶ ἀναπαύεσθαι”."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "So must a person be one of those who act this way without taking notice of it? Yes. But surely it is necessary to be aware of what one is doing, for it is said to be the mark of the social creature to perceive that it is acting for society, and indeed to want its fellow to perceive it too. What you say is true,",
+    "new": "So we must be among those who do this, in a way, without noticing it. \"Yes,\" he says, \"but one has to be aware of this very thing, for it is the mark of the social creature to perceive that it is acting for society, and indeed to want its fellow to perceive it too.\" What you say is true,",
+    "why": "Policy (speakers): three voices ran together. The bundled Greek has Marcus's statement (ἐν τούτοις οὖν δεῖ εἶναι…), then the objector in quotation marks, “ναί· ἀλλ' αὐτὸ τοῦτο δεῖ παρακολουθεῖν…” φησί, then Marcus's reply. The bare 'Yes' belongs to the objector."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "As a horse runs, a dog tracks game, a bee makes honey, so a man",
+    "new": "Like a horse that has run its race, a dog that has tracked its game, a bee that has made its honey, so a man",
+    "why": "ἵππος δραμών, κύων ἰχνεύσας, μέλισσα μέλι ποιήσασα: aorist participles; the point is what each does after finishing."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "and put it to so many uses",
+    "new": "and misuse it in so many ways",
+    "why": "καταχρώμενον: use up, abuse (Long: 'abuse it'); the self-reproach was lost."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": "The nature of nothing whatever brings about anything unsuited to what it governs.",
+    "new": "For not even an ordinary nature brings about anything unsuited to what it governs.",
+    "why": "Tangled aloud; οὐδὲ γὰρ ἡ τυχοῦσα φύσις φέρει τι, ὃ μὴ τῷ διοικουμένῳ ὑπ' αὐτῆς κατάλληλόν ἐστιν: not even any chance nature."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "the well-being and good fortune of Zeus, the universe itself.",
+    "new": "the well-being and good fortune of Zeus.",
+    "why": "Sweep of Long's brackets: 'the universe itself' is Long's '[the universe]'. Greek: τὴν τοῦ Διὸς εὐοδίαν καὶ εὐπραγίαν."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "disease, or loss of a limb, or loss of something, or anything else of the kind",
+    "new": "disease, or maiming, or loss, or anything else of the kind",
+    "why": "νόσον ἢ πήρωσιν ἢ ἀποβολὴν: 'loss of something' was vague and echoed 'loss of a limb'."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "a filthy wretch, a prostitute, or a thief",
+    "new": "a debauchee, a prostitute, or a thief",
+    "why": "κιναίδου ἢ πόρνης ἢ λῃστοῦ: κίναιδος names a sexual debauchee, not a 'filthy wretch'."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "my god and the guiding spirit within me",
+    "new": "my god and the divinity within me",
+    "why": "Policy (daimon): τῷ ἐμῷ θεῷ καὶ δαίμονι."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "that is why such acts are called right acts, a word that signifies they proceed by the right road.",
+    "new": "that is why such acts are called katorthoseis, \"straight-goings,\" a word that signifies the straightness of their road.",
+    "why": "Policy (puns): the etymology belongs to κατορθώσεις; said of English 'right acts' it explains nothing. Name the Greek word."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "Reason and the art of reasoning, philosophy, are powers sufficient unto themselves and their own works.",
+    "new": "Reason and the art of reasoning are powers sufficient for themselves and for their own works.",
+    "why": "Sweep of Long's brackets: 'philosophy' is Long's '[philosophy]'; Greek ὁ λόγος καὶ ἡ λογικὴ τέχνη. Also drops the archaic 'unto'."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "and of destiny, of which you are how tiny a portion.",
+    "new": "and of destiny, and what a tiny part of it you are.",
+    "why": "Inverted and unidiomatic."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "all that the guiding spirit wishes, the spirit that Zeus has given",
+    "new": "all that the divinity within him wishes, the divinity that Zeus has given",
+    "why": "Policy (daimon): ὁ δαίμων, ὃν ἑκάστῳ προστάτην καὶ ἡγεμόνα ὁ Ζεὺς ἔδωκεν."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "Never has he wronged a man in deed or word.",
+    "new": "\"Never has he wronged a man in deed or word.\"",
+    "why": "Policy (quotations): a line of Homer (Od. 4.690); unmarked it reads as Marcus's own."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": " But loyalty and modesty and justice and truth have fled away,",
+    "new": "",
+    "why": "Form: Hesiod's line (Πίστις δὲ καὶ Αἰδὼς καὶ Δίκη καὶ Ἀλήθεια πρὸς Ὄλυμπον ἀπὸ χθονὸς εὐρυοδείης) was split across this segment and the next, leaving seg-0036 a fragment. Move the half-line into seg-0036 (see next entry); no segment is added or removed."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "up to Olympus from the wide-spread earth.",
+    "new": "\"Loyalty and modesty and justice and truth have fled up to Olympus from the wide-spread earth.\"",
+    "why": "Form and quotations: the whole Hesiod line, whole and marked, in the segment that held its second half."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0040",
+    "severity": "medium",
+    "old": "give help to all according to your ability and their need;",
+    "new": "give help to all as far as you can and as they deserve;",
+    "why": "κατὰ δύναμιν καὶ κατ' ἀξίαν: according to what they merit (Long: 'their fitness'), not their need."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0041",
+    "severity": "low",
+    "old": "When you are out there declaiming on the public platform,",
+    "new": "When you find yourself crying out on the Rostra,",
+    "why": "The Greek names the Rostra (ἐπὶ τῶν ἐμβόλων); the bundled text reads κλαίων, crying, which 'declaiming' drops."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0041",
+    "severity": "low",
+    "old": "Yes, but they matter greatly to these people. Will you",
+    "new": "\"Yes, but they matter greatly to these people.\" Will you",
+    "why": "Policy (speakers): the Greek quotes the objector, “ναί· ἀλλὰ τούτοις περισπούδαστα”."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0041",
+    "severity": "low",
+    "old": "I was once a fortunate man, but I lost it, I don't know how. But fortunate means a man who has assigned himself a good lot, and a good lot is",
+    "new": "\"I was once a fortunate man, but I lost it, I don't know how.\" But to be fortunate means to have given yourself a good fortune, and a good fortune is",
+    "why": "Policy (speakers, puns): the Greek quotes the complaint; the reply turns on εὔμοιρος / μοῖρα, which English 'fortunate / fortune' carries without the Greek word, where 'lot' broke it."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0016",
+    "severity": "medium",
+    "old": "Will you not stop valuing so many other things? Then you will be neither free, nor self-sufficient for your own happiness, nor free from passion.",
+    "new": "Will you not stop valuing so many other things? If you do not, you will never be free, or sufficient for your own happiness, or free from passion.",
+    "why": "As written, 'Then' follows stopping, the reverse of the sense (οὐκοῦν … if not, then you will not be free)."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "like flocks and herds. The things admired by men still better instructed are held together by a rational soul, though not a universal one, only a soul skilled in some craft or expert in some other way, or simply rational in the sense of owning a number of slaves. But the man who values a rational soul, one that is universal and fitted for life in society,",
+    "new": "like flocks and herds, or else they simply admire owning a crowd of slaves. The things admired by men still better instructed are held together by a rational soul, though valued not as rational but as skilled in some craft or clever in some other way. But the man who values a rational soul, one fitted for life in society,",
+    "why": "The bundled Greek puts the slaves in the second rank (ποίμνας, ἀγέλας ἢ κατὰ ψιλὸν τὸ πλῆθος ἀνδραπόδων κεκτῆσθαι) and reads οὐ μέντοι καθὸ λογική, ἀλλὰ καθὸ τεχνική, 'not as rational but as skilled'; 'universal' is Long's text (καθολική), and ψυχὴν λογικὴν καὶ πολιτικήν has no 'universal'. (The reviewer's fix kept the slaves in the third rank; corrected to the Greek.)"
+  },
+  {
+    "section": 6,
+    "seg": "seg-0015",
+    "severity": "medium",
+    "old": "For just as it is to draw in the air once and give it back, which we do every moment, so it is with the whole power of breathing that you received at your birth, only yesterday or the day before, and give back to the element from which you first drew it.",
+    "new": "For as we draw in a breath and give it back every moment, so it is with the whole power of breathing that you received at birth, only yesterday or the day before: you will give it back to the element you first drew it from.",
+    "why": "Long's construction carried over; it trips, and 'and give back' had no subject."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0041",
+    "severity": "medium",
+    "old": "because we draw a distinction over these things",
+    "new": "because we care so much how these things turn out",
+    "why": "διὰ τὴν πρὸς ταῦτα διαφοράν: because these things make a difference to us; 'draw a distinction' is opaque."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "Look within. Do not let",
+    "new": "Look beneath the surface. Do not let",
+    "why": "Ἔσω βλέπε here means look inside things; 'Look within' reads as introspection, which the next sentence contradicts."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "Does the sun take on the work of the rain, or Asclepius the work of the earth that bears fruit?",
+    "new": "Does the Sun take on the work of the Rain-Giver, or Asclepius the work of the Fruit-Bearer?",
+    "why": "τὰ τοῦ Ὑετίου … τὰ τῆς Καρποφόρου: two divine titles (Zeus the Rain-Giver, Demeter the Fruit-Bearer) set against two gods; Long's '[the earth]' flattened the parallel."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0029",
+    "severity": "low",
+    "old": "It is a shame for the soul to give way first in this life, while your body does not give way.",
+    "new": "It is a disgrace for your soul to give out first in this life, while your body still holds out.",
+    "why": "Person shifted from 'the soul' to 'your body', and the repeated 'give way' was flat."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "Transpiration, as in plants, is nothing to be valued; nor is breathing, as in tame animals and wild beasts;",
+    "new": "The breathing of plants is nothing to be valued, nor the breathing of tame animals and wild beasts;",
+    "why": "'Transpiration' is a botany-class word; τὸ διαπνεῖσθαι ὡς τὰ φυτά."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0041",
+    "severity": "high",
+    "old": "Earth must be given back to earth; then life, for all, must be reaped like the harvest, as necessity commands.",
+    "new": "\"One stands, and another falls.\"",
+    "why": "Sweep of Long's notes: this segment is Long's footnote, Cicero's Latin ('Reddenda terrae est terra…'), translated and printed as Marcus. The bundled Greek has nothing of it. The segment cannot be removed, so it takes the second verse of VII.40 (καὶ τὸν μὲν εἶναι, τὸν δὲ μή), which Lectio had paraphrased as 'One man is born; another dies' at the end of seg-0040."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0040",
+    "severity": "high",
+    "old": "Life must be reaped like ripe ears of grain. One man is born; another dies.",
+    "new": "\"Life must be reaped like a ripe ear of grain.\"",
+    "why": "First verse of the Euripides couplet βίον θερίζειν ὥστε κάρπιμον στάχυν; its second verse moves to seg-0041 (see that entry). Quoted, and worded as XI.6 quotes it."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0061",
+    "severity": "medium",
+    "old": "and remember...",
+    "new": "and remember both: that what you do matters, and that the material you work on does not.",
+    "why": "Lectio copied Long's trailing ellipsis; the bundled Greek completes the sentence: μέμνησο ἀμφοτέρων, ὅτι καὶ διάφορον ‹ὃ πράσσεις καὶ ἀδιάφορον› ἐφ' οὗ ἡ πρᾶξις."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "In the one, look at once to the end it is aiming at; in the other, watch carefully for what is really meant.",
+    "new": "In what is done, look at once to the end it aims at; in what is said, watch carefully for what is meant.",
+    "why": "After 'what is said … what is done', 'the one … the other' pairs words with an aim and actions with a meaning, backwards. The sense of τοῦ ἑτέρου … τοῦ ἑτέρου is actions → aim, words → meaning."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0035",
+    "severity": "medium",
+    "old": "From Plato: Do you suppose it possible for a man with an elevated mind, who takes in the whole of time and the whole of substance, to think human life is anything great? It is not possible, he said. Then such a man will think that death too is no evil. Certainly not.",
+    "new": "From Plato: \"Do you suppose it possible for a man with an elevated mind, who takes in the whole of time and the whole of substance, to think human life is anything great?\" \"It is not possible,\" he said. \"Then will such a man think death anything to fear?\" \"Not at all.\"",
+    "why": "As written, 'Certainly not' denies that such a man thinks death no evil, the opposite of Plato. Greek: οὐκοῦν καὶ θάνατον οὐ δεινόν τι ἡγήσεται ὁ τοιοῦτος; ἥκιστά γε. Also quoted, as the Greek marks it."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0031",
+    "severity": "medium",
+    "old": "The poet says that law rules all, and it is enough to remember that law rules all.",
+    "new": "That man says, \"All things are by law, and in truth there are only the elements.\" It is enough to remember that all things are by law. Very little now remains.",
+    "why": "Sweep of Long's corruption marks: Long's 'The poet says that law rules all—+' follows a broken text. The bundled Greek quotes Democritus (not a poet): ἐκεῖνος μέν φησιν ὅτι “πάντα νομιστί, ἐτεῇ δὲ μόνα τὰ στοιχεῖα”· ἀρκεῖ δὲ μεμνῆσθαι ὅτι τὰ πάντα νομιστὶ ἔχει· ἤδη λίαν ὀλίγα. Lectio dropped the second half of the quotation and the closing words."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0049",
+    "severity": "low",
+    "old": "This is a fine saying of Plato's: that whoever is discussing human beings should also look",
+    "new": "Whoever is discussing human beings should also look",
+    "why": "The attribution 'a fine saying of Plato' is in Long's text but not in the bundled Greek, which opens Καὶ δὴ περὶ ἀνθρώπων τοὺς λόγους ποιούμενον ἐπισκοπεῖν [δεῖ]. Follow the authority."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "From Antisthenes: It is kingly to do good and to be abused for it.",
+    "new": "From Antisthenes: \"It is kingly to do good and to be spoken ill of.\"",
+    "why": "Policy (quotations); κακῶς ἀκούειν is to be badly spoken of."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0038",
+    "severity": "low",
+    "old": "It is no use being angry at events, for they care nothing about it.",
+    "new": "\"We must not be angry at things, for they care nothing about it.\"",
+    "why": "Policy (quotations, repeated verses): Euripides, τοῖς πράγμασιν γὰρ οὐχὶ θυμοῦσθαι χρεών (we must not), quoted again in XI.6 in the same words."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "To the immortal gods and to us give joy.",
+    "new": "\"To the immortal gods and to us give joy.\"",
+    "why": "Policy (quotations): a verse Marcus copied; unmarked it reads as his own aphorism."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0042",
+    "severity": "low",
+    "old": "If the gods care nothing for me and my children, there is a reason for it.",
+    "new": "\"If the gods care nothing for me and my children, there is a reason for this too.\"",
+    "why": "Policy (quotations, repeated verses): ἔχει λόγον καὶ τοῦτο, 'this too'; XI.6 quotes it in the same words."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "For the good is with me, and the just.",
+    "new": "\"For the good is with me, and the just.\"",
+    "why": "Policy (quotations): a verse fragment Marcus copied."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "No joining others in their wailing, no violent passion.",
+    "new": "\"No joining others in their wailing, no violent passion.\"",
+    "why": "Policy (quotations): a verse fragment Marcus copied."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0045",
+    "severity": "low",
+    "old": "From Plato: But I would give this man a sufficient answer, which is this. You speak wrongly",
+    "new": "From Plato: \"But I would give this man a sufficient answer, which is this: you speak wrongly",
+    "why": "Policy (quotations): the Greek sets VII.44–46 (Apology 28b, 28d; Gorgias 512d) in quotation marks."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0045",
+    "severity": "low",
+    "old": "the work of a good man or of a bad one.",
+    "new": "the work of a good man or of a bad one.\"",
+    "why": "Closes the Plato quotation opened in the previous entry."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0046",
+    "severity": "low",
+    "old": "For the truth is this, men of Athens:",
+    "new": "\"For the truth is this, men of Athens:",
+    "why": "Policy (quotations): Plato, Apology 28d."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0046",
+    "severity": "low",
+    "old": "ahead of disgrace.",
+    "new": "ahead of disgrace.\"",
+    "why": "Closes the quotation."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0047",
+    "severity": "low",
+    "old": "But, my good friend, consider",
+    "new": "\"But, my good friend, consider",
+    "why": "Policy (quotations): Plato, Gorgias 512d–e."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0047",
+    "severity": "low",
+    "old": "how he may best live the time he has to live.",
+    "new": "how he may best live the time he has to live.\"",
+    "why": "Closes the quotation."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0051",
+    "severity": "low",
+    "old": "What has grown from the earth returns to the earth; but what has sprung from heavenly seed returns to the realms of heaven.",
+    "new": "\"What has grown from the earth returns to the earth; but what has sprung from heavenly seed returns to the realms of heaven.\"",
+    "why": "Policy (quotations): Euripides, Chrysippus."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0053",
+    "severity": "medium",
+    "old": "With food and drink and cunning magic arts, turning the channel's course to escape death. The breeze that heaven has sent we must endure, and toil without complaint.",
+    "new": "\"With food and drink and cunning magic arts they turn the channel's course, to escape death.\" \"The breeze that heaven has sent we must endure, and toil without complaint.\"",
+    "why": "Two verse fragments (καὶ σίτοισι καὶ ποτοῖσι … ὥστε μὴ θανεῖν. θεόθεν δὲ πνέοντ' οὖρον …). Unmarked, the first was not a sentence at all."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0066",
+    "severity": "low",
+    "old": "Every soul, the philosopher says, is robbed of the truth against its will;",
+    "new": "\"Every soul,\" the philosopher says, \"is robbed of the truth against its will\";",
+    "why": "Policy (quotations): “Πᾶσα ψυχή, φησίν, ἄκουσα στέρεται ἀληθείας”."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "Happiness is a good spirit, or a good thing.",
+    "new": "Happiness—eudaimonia—is a good daimon, a good divinity within, or something good and divine.",
+    "why": "Policy (puns): Εὐδαιμονία ἐστὶ δαίμων ἀγαθὸς ἢ ‹δαιμόνιον› ἀγαθόν turns on the word itself; name it once so the reader can see the sense. 'A good thing' was Long's text; the bundled Greek supplies δαιμόνιον."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "all comeliness dies away",
+    "new": "all its grace dies away",
+    "why": "'Comeliness' is leftover archaism."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0077",
+    "severity": "low",
+    "old": "No one tires of receiving what is useful. But acting according to nature is useful. So do not tire of receiving what is useful by doing it for others.",
+    "new": "No one tires of being helped; and help is action according to nature. So do not tire of being helped, when it is by helping others that you are helped.",
+    "why": "'Doing it' had no clear object. Greek: οὐδεὶς κάμνει ὠφελούμενος, ὠφέλεια δὲ πρᾶξις κατὰ φύσιν· μὴ οὖν κάμνε ὠφελούμενος, ἐν ᾧ ὠφελεῖς."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "And how does a person do this? By holding to principles from which their feelings and actions flow.",
+    "new": "And how does a man do this? By holding to principles from which his impulses and actions flow.",
+    "why": "Policy (pronouns): Book VIII alone used 'a person … they'; the work says 'a man … he'. Also αἱ ὁρμαί are impulses, not feelings."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "nothing is good for a person unless it makes them just",
+    "new": "nothing is good for a man unless it makes him just",
+    "why": "Policy (pronouns): οὐδενὸς ἀγαθοῦ ὄντος ἀνθρώπῳ."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "not even one person with themselves",
+    "new": "not even one man with himself",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "to every person, whoever they may be,",
+    "new": "to anyone at all,",
+    "why": "Policy (pronouns): πρὸς πάνθ' ὁντινοῦν."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0036",
+    "severity": "medium",
+    "old": "that is what a person makes of themselves, as far as they can, who is not content with what happens, who cuts themselves off from others",
+    "new": "that is what a man makes of himself, as far as he can, who is not content with what happens, who cuts himself off from others",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "he has given a person the power",
+    "new": "he has given man the power",
+    "why": "Policy (pronouns): τὸν ἄνθρωπον."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "to resume their place as a part",
+    "new": "to resume his place as a part",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0049",
+    "severity": "low",
+    "old": "at peace even with the things that obstruct them",
+    "new": "at peace even with the things that obstruct him",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0049",
+    "severity": "medium",
+    "old": "But some insurmountable obstacle is in the way. Then",
+    "new": "\"But something stands in the way that I cannot get past.\" Then",
+    "why": "Policy (speakers): the Greek quotes the objector, “ἀλλὰ ἰσχυρότερόν τι ἐνίσταται”; unmarked, the dialogue is hard to follow."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0049",
+    "severity": "medium",
+    "old": "But it is not worth living if I cannot do this. Then",
+    "new": "\"But life is not worth living if I cannot do this.\" Then",
+    "why": "Policy (speakers): “ἀλλὰ οὐκ ἄξιον ζῆν μὴ ἐνεργουμένου τούτου”."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0050",
+    "severity": "low",
+    "old": "a mind free from passions is a fortress, for a person has nothing",
+    "new": "a mind free from passions is a citadel, for a man has nothing",
+    "why": "ἀκρόπολις: the inner citadel one flees to, which the sentence's 'flee to for refuge' depends on; and policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0055",
+    "severity": "medium",
+    "old": "does not know where they are.",
+    "new": "does not know where he is.",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0055",
+    "severity": "low",
+    "old": "does not know who they are, nor",
+    "new": "does not know who he is, nor",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0055",
+    "severity": "low",
+    "old": "for what purpose they themselves exist",
+    "new": "for what purpose he himself exists",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0056",
+    "severity": "low",
+    "old": "Does a person please himself",
+    "new": "Does a man please himself",
+    "why": "Policy (pronouns): the segment already says 'himself … he'."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0058",
+    "severity": "medium",
+    "old": "one person's wickedness does no harm to another. It is only harmful to the one who possesses it, who has it in their own power to be free of it the moment they choose.",
+    "new": "one man's wickedness does no harm to another. It is only harmful to the one who possesses it, who has it in his own power to be free of it the moment he chooses.",
+    "why": "Policy (pronouns)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0060",
+    "severity": "medium",
+    "old": "that is why its beams are called extensions, because they are extended.",
+    "new": "that is why its rays are called aktines, from ekteinesthai, \"to be extended.\"",
+    "why": "Policy (puns): ἀκτῖνες … ἀπὸ τοῦ ἐκτείνεσθαι. No one calls sunbeams 'extensions', so as written the sentence is false."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "and their guiding principles were aligned with their pursuits.",
+    "new": "and their ruling minds were their own.",
+    "why": "Sweep of Long's brackets: 'aligned with their pursuits' is Long's '[or conformable to their pursuits]', and 'aligned' is office vocabulary. Greek: καὶ τὰ ἡγεμονικὰ ἦν αὐτῶν αὐτά."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "Receive wealth or prosperity without arrogance, and be ready to let it go.",
+    "new": "Receive without arrogance; let go without reluctance.",
+    "why": "Sweep of Long's brackets: 'wealth or prosperity' is Long's '[wealth or prosperity]'. Greek: Ἀτύφως μὲν λαβεῖν, εὐλύτως δὲ ἀφεῖναι."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "unconditionally, with no reservation,",
+    "new": "without reservation,",
+    "why": "Long's bracket doubled the one word ἀνυπεξαιρέτως."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "can touch it in any way. Once it has been made a sphere, it remains a sphere.",
+    "new": "can touch it in any way, once it has become a sphere, \"all round, and resting in its own joyous repose.\"",
+    "why": "Policy (quotations): ὅταν γένηται “σφαῖρος κυκλοτερής μονίῃ…”, the Empedocles line Lectio quotes in XII.3; 'it remains a sphere' is not in the Greek."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "But some external thing will get in the way.",
+    "new": "\"But some external thing will get in the way.\"",
+    "why": "Policy (speakers): “ἀλλ' ‹ἐν›στήσεταί τι ἔξωθεν”."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "But perhaps some other capacity for action will be hindered.",
+    "new": "\"But perhaps some other capacity for action will be hindered.\"",
+    "why": "Policy (speakers): “ἄλλο δέ τι ἴσως ἐνεργητικὸν κωλυθήσεται”."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0042",
+    "severity": "low",
+    "old": "Who is this self? The reason. But I am not just reason. Very well.",
+    "new": "\"Who is this self?\" The reason. \"But I am not just reason.\" Very well.",
+    "why": "Policy (speakers): “τίς αὐτός;” ὁ λόγος. “ἀλλ' οὐκ εἰμὶ λόγος.”"
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "For he does fight against it who, of his own accord, moves toward what is contrary to truth,",
+    "new": "For whoever is carried, in spite of himself, toward what is contrary to truth is fighting against it,",
+    "why": "The sentence explains the man who lies without meaning to; παρ' ἑαυτόν is 'in spite of himself', so 'of his own accord' contradicts it."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "And when I say universal nature uses them equally, I mean that they happen alike to those produced in continuous succession and to those who come after them, by virtue of a certain original movement of Providence, by which it moved from a certain beginning toward this ordering of things, having conceived certain principles of the things that were to be, and having determined the powers that produce beings and changes and such successions.",
+    "new": "When I say universal nature uses them equally, I mean that they happen alike, in due sequence, to all that comes into being and all that follows after. This comes from a first movement of Providence, by which, from some beginning, it set out to make this ordered world: it gathered up the patterns of all that was to be, and marked out the powers that bring forth beings, their changes, and their successions.",
+    "why": "Fifty-eight words and three 'certain's; broken up while keeping each element of ὁρμῇ τινι ἀρχαίᾳ τῆς προνοίας … συλλαβοῦσά τινας λόγους τῶν ἐσομένων καὶ δυνάμεις γονίμους ἀφορίσασα ὑποστάσεών τε καὶ μεταβολῶν καὶ διαδοχῶν."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "the next best voyage",
+    "new": "the next best course",
+    "why": "δεύτερος πλοῦς is a proverb for the second-best course; 'voyage' sends the reader looking for a ship."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "do not you too be ruled by it.",
+    "new": "do not act at random yourself.",
+    "why": "Archaic word order; and the Greek is εἰ εἰκῇ, μὴ καὶ σὺ εἰκῇ, if things go at random, do not you also."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0042",
+    "severity": "low",
+    "old": "Epicurus says: In my illness, my conversation was not about my bodily sufferings, nor, he says, did I talk of such things to those who visited me; instead I went on discussing the nature of things as before, keeping to this main point—how the mind, while sharing in such disturbances as go on in the poor flesh, can stay free of upheaval and keep hold of its own proper good. Nor, he says, did I give the doctors the chance to put on solemn looks, as if they were doing something great; my life went on well and happily.",
+    "new": "Epicurus says: \"In my illness my conversation was not about my bodily sufferings, nor,\" he says, \"did I talk of such things to those who visited me; instead I went on discussing the nature of things as before, keeping to this main point: how the mind, while sharing in such disturbances as go on in the poor flesh, can stay free of upheaval and keep hold of its own proper good. Nor,\" he says, \"did I give the doctors the chance to put on solemn looks, as if they were doing something great; my life went on well and happily.\"",
+    "why": "Policy (quotations): the Greek quotes Epicurus to εὖ καὶ καλῶς; unmarked, the reader cannot see where he stops and Marcus resumes ('Do the same, then')."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "feeble spirits carrying corpses about",
+    "new": "\"little souls carrying corpses about\"",
+    "why": "Policy (quotations): the Greek quotes Epictetus, “πνευμάτια νεκροὺς βαστάζοντα”, the phrase Lectio gives as 'a little soul carrying around a corpse' in IV.41."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0008",
+    "severity": "high",
+    "old": " To help you remember these names, it will greatly help to remember the gods, and that they do not wish to be flattered but wish all reasonable beings to become like themselves; and to remember that what does the work of a fig tree is a fig tree, what does the work of a dog is a dog, what does the work of a bee is a bee, and what does the work of a man is a man.",
+    "new": "",
+    "why": "With the next entry: seg-0009 is Long's footnote (Odyssey 4.565–568 on the Islands of the Blessed) printed as Marcus; the bundled Greek goes from X.8 straight to Μῖμος, πόλεμος (X.9). Segments are frozen, so the last sentence of X.8 (πρὸς μέντοι τὸ μεμνῆσθαι τῶν ὀνομάτων …, a fresh thought in the Greek) moves out of this segment into seg-0009, replacing the Homer."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0009",
+    "severity": "high",
+    "old": "\"For there, indeed, man's life is easiest: no snow, no raging storm, no rain is there, but always Ocean sends up the gently breathing breezes of the West Wind to refresh mankind.\"",
+    "new": "To keep these names in mind, it will help you greatly to remember the gods, and that they do not wish to be flattered but wish all reasonable beings to become like themselves; and to remember that what does the work of a fig tree is a fig tree, what does the work of a dog is a dog, what does the work of a bee is a bee, and what does the work of a man is a man.",
+    "why": "Long's footnote (Homer) out; the closing sentence of X.8 in. If the Homer gloss is wanted, it belongs in enrichment as a note on 'Islands of the Blessed' in seg-0008. 'To help … greatly help' smoothed."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "War, amazement, sluggishness, slavery, and the mime-shows of life will day by day wipe out those holy principles of yours—principles you picture without studying nature, and just as many that you neglect.",
+    "new": "Farce, war, panic, torpor, slavery: day by day these will wipe out those sacred principles of yours, all those you entertain without studying nature and then let slip.",
+    "why": "Μῖμος, πόλεμος, πτοία, νάρκα, δουλεία: the list opens with the farce, and πτοία is agitated alarm, not amazement. ὁπόσα ἀφυσιολογήτως φαντάζῃ καὶ παραπέμπεις is one group, not two."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "and a good guiding spirit.",
+    "new": "and a good divinity within.",
+    "why": "Policy (daimon): ἀγαθὸς δαίμων."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "And is this not also why we say that this or that 'loves'—is wont—to come about?",
+    "new": "And is this not also why we say that a thing philei, \"loves,\" to happen, meaning that it tends to?",
+    "why": "Policy (puns): φιλεῖ γίνεσθαι, 'loves to happen' = 'usually happens', is Greek idiom; 'is wont' is Long's bracket and archaic."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "For you will find exactly what Plato says: dwelling within the walls of a city as in a shepherd's fold on a mountain.",
+    "new": "For you will find exactly what Plato describes: \"penned in a fold on the mountain and milking his bleating flock.\"",
+    "why": "Sweep of Long's notes: Long's '[The three last words are omitted in the translation]'. The bundled Greek quotes Theaetetus 174e as “σηκὸν ἐν ὄρει, φησί, περιβαλλόμενος καὶ βδάλλων βληχήματα”; 'within the walls of a city' is not in Marcus's quotation."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "especially lines like this one: \"If the gods neglect me and my children, this too has its reason.\" And again: \"We must not chafe and fret at what happens.\" And: \"Reap life's harvest like a ripe ear of wheat.\"",
+    "new": "especially lines like this one: \"If the gods care nothing for me and my children, there is a reason for this too.\" And again: \"We must not be angry at things.\" And: \"Life must be reaped like a ripe ear of grain.\"",
+    "why": "Policy (repeated verses): the Greek repeats VII.41, VII.38 (first half) and VII.40 (first verse) word for word; the reader should recognize them. Worded as the VII entries."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0049",
+    "severity": "medium",
+    "old": "Socrates used to ask: What do you want—the souls of rational beings, or of irrational ones? Of rational ones. Of what kind of rational beings—sound or unsound? Sound. Then why do you not look for them? Because we already have them. Then why do you fight and quarrel?",
+    "new": "Socrates used to ask: \"What do you want—the souls of rational beings, or of irrational ones?\" \"Of rational ones.\" \"Rational beings of what kind—sound or unsound?\" \"Sound.\" \"Then why do you not look for them?\" \"Because we already have them.\" \"Then why do you fight and quarrel?\"",
+    "why": "Policy (speakers): the Greek marks each turn of the exchange; unmarked, the reader must work out who answers."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0036",
+    "severity": "medium",
+    "old": "In the writings of the Ephesians",
+    "new": "In the writings of the Epicureans",
+    "why": "The bundled Greek reads τῶν Ἐπικουρείων; 'Ephesians' is a conjecture Long prints in square brackets. Follow the authority."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0047",
+    "severity": "low",
+    "old": "and as for sensual desire, he should keep away from it altogether",
+    "new": "and as for desire, he should keep away from it altogether",
+    "why": "ὀρέξεως μὲν παντάπασιν ἀπέχεσθαι: desire in general (Epictetus's rule); 'sensual' narrows it."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "from the leader of the Muses, Apollo:",
+    "new": "from the leader of the Muses:",
+    "why": "Sweep of Long's brackets: 'Apollo' is Long's '[Apollo]'; the Greek gives only the title, τοῦ Μουσηγέτου."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "To look for a fig in winter is a madman's act; and so is the man who looks for his child when it is no longer permitted.",
+    "new": "To look for a fig in winter is madness; so is looking for your child when that is no longer granted.",
+    "why": "The comparison paired an act with a man."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "If anyone has wronged you, consider this first: what is my relation to other people?",
+    "new": "First: what is my relation to other people?",
+    "why": "Sweep of Long's brackets: 'If anyone has wronged you, consider' is Long's heading '[If any have offended against thee, consider first]'. The Greek begins Πρῶτον· τίς ἡ πρὸς αὐτοὺς σχέσις."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "But a put-on simplicity is like a crooked stick.",
+    "new": "But a put-on simplicity is a hidden knife.",
+    "why": "ἐπιτήδευσις δὲ ἁπλότητος σκάλμη ἐστίν: σκάλμη is a (Thracian) knife; 'crooked stick' follows a different reading in Long."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "But those are words of bad omen.",
+    "new": "\"But those are words of bad omen.\"",
+    "why": "Policy (speakers): the Greek quotes the objection, “δύσφημα ταῦτα”, and Epictetus's reply is already quoted."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0009",
+    "severity": "medium",
+    "old": "be like the all-in fighter, not the swordsman; for the swordsman drops the sword he uses and is killed, but the fighter always has his hand and need do nothing but use it.",
+    "new": "be like the bare-handed fighter, not the gladiator; for the gladiator puts down the sword he uses and is killed, but the fighter always has his hand and needs only to make a fist.",
+    "why": "'All-in fighter' is a British wrestling term most readers will not know. παγκρατιαστῇ, οὐχὶ μονομάχῳ: the pancratiast fought bare-handed; μονομάχος is the gladiator; συστρέψαι is to clench (the reviewer's 'boxer' narrows the pancratiast)."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "So if you separate from yourself,",
+    "new": "So separate from yourself,",
+    "why": "Read-aloud: a 190-word conditional with a resumptive 'if you separate, I say'. Broken into three sentences, keeping the conditional for the final clause only."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "speaking the truth; if you separate, I say, from this ruling faculty",
+    "new": "speaking the truth. Separate from this ruling faculty",
+    "why": "Continues the previous entry."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "\"all round, and resting in its own joyous repose\"; and if you strive to live",
+    "new": "\"all round, and resting in its own joyous repose.\" If you do this, and strive to live",
+    "why": "Continues the previous entries."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "free from disturbance, nobly, and obedient to the god that is within you.",
+    "new": "free from disturbance, kindly, and at peace with the divinity within you.",
+    "why": "Sweep of Long's brackets: 'obedient to the god that is within you' is Long's '[to the god that is within thee]'. Greek ἀταράκτως καὶ εὐμενῶς καὶ ἵλεως τῷ σαυτοῦ δαίμονι: untroubled, kindly, at peace with your own divinity."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0036",
+    "severity": "medium",
+    "old": "in this great city, the world; what does it matter to you whether for five years or three?",
+    "new": "in this great city; what does it matter to you whether for five years or fifty?",
+    "why": "Sweep of Long's brackets: '[the world]' is Long's gloss and 'or three' is his bracketed '[or three]'. The bundled Greek reads ἐν τῇ μεγάλῃ ταύτῃ πόλει … εἰ πέντε ἔτεσιν ‹ἢ πεντήκοντα›."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "Fabius Catellinus",
+    "new": "Fabius Catullinus",
+    "why": "The bundled Greek names Φάβιος Κατουλλῖνος; 'Catellinus' is Long's spelling."
+  }
+]

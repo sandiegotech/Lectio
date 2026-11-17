@@ -166,11 +166,15 @@ def _modern_edition(work_id: str, slug: str, sources: list) -> Edition:
     for book in books:
         output_chars += sum(len(p) for p in book["paragraphs"])
         body = "\n\n".join(book["paragraphs"])
-        sections.append(
-            build_section(edition_id, f"book-{book['order']:02d}", book["order"],
-                          book["label"], body, form=data.get("form", "prose"),
-                          title=book.get("title"))
-        )
+        section = build_section(edition_id, f"book-{book['order']:02d}", book["order"],
+                                book["label"], body, form=data.get("form", "prose"),
+                                title=book.get("title"))
+        # "omit": [n, …] names paragraphs that are not the author's text (an editor's note
+        # that was drafted into the book). Ids are frozen, so the segment stays in place
+        # and is marked; the reader, print and audio pass over it.
+        for n in book.get("omit", []):
+            section.segments[n - 1].kind = "omit"
+        sections.append(section)
     return Edition(
         id=edition_id, workId=work_id, kind="modern", language="en",
         form=data.get("form", "prose"),
@@ -185,7 +189,7 @@ def _modern_edition(work_id: str, slug: str, sources: list) -> Edition:
             aiSourceEditionId=(data.get("sourceEditionIds") or [None])[0],
             aiProfile="plain_modern", retrievedDate=data.get("date"),
             sourcesCited=data.get("sourcesCited"),
-            vintage=data.get("vintage"),
+            vintage=data.get("vintage"), revised=data.get("revised"),
             tokensEstimated=_estimate_tokens(*sources, output_chars=output_chars),
         ),
         sections=sections,
@@ -786,6 +790,7 @@ def _bible_vernacular_edition(work_id: str, slug: str) -> Edition:
             source="lectio", rightsStatus="lectio-original",
             rightsNote=data.get("rightsNote"),
             retrievedDate=data.get("date"), vintage=data.get("vintage"),
+            revised=data.get("revised"),
             aiModel=data.get("model"), aiProfile="vernacular_bible",
             aiSourceEditionId=(data.get("sourceEditionIds") or [None])[0],
             sourcesCited=data.get("sourcesCited")),

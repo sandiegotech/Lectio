@@ -1,0 +1,346 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "either by fortune or by virtù — a man's own skill and nerve.",
+    "new": "either by fortune or by virtù.",
+    "why": "Italian ends on the bare pair 'o per fortuna o per virtù' (Marriott: 'by fortune or by ability'); the definition is the editor's and belongs in the glossary, not the sentence. Editor: add a 'virtù' glossary entry to enrichment and update the Chapter I divergence note ('glossed once at this first use')."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "my lady of Forli,",
+    "new": "my lady of Forlì,",
+    "why": "Spelling standardized to 'Forlì' as in XX (Italian Furlì/Forlì); work-wide name consistency."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "being all slaves, and bound men, are corrupted",
+    "new": "being all slaves and beholden to him, are corrupted",
+    "why": "Italian 'sendo tutti stiavi e obligati' is one phrase: slaves and bound by obligation to the lord. 'Bondmen' (report's fix) would misread obligati as serfdom; 'beholden to him' is both truer and smoother."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "the repeated rebellions of Spain, of France, and of Greece against the Romans",
+    "new": "the repeated rebellions of Spain, of Gaul, and of Greece against the Romans",
+    "why": "Italian 'Francia' here is Roman Gaul; 'France' sets the kingdom of the previous paragraph rebelling against Rome."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "the moment the crowd began not to believe him",
+    "new": "the moment the crowd stopped believing him",
+    "why": "Italian 'cominciò a non crederli'; the literal 'began not to believe' trips aloud. Same sense."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "from there he earned his promotion to prince",
+    "new": "from there he earned the right to be made their prince",
+    "why": "Italian 'da quivi meritò d'essere fatto loro principe'; 'promotion' has an office ring and drops 'their'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "and partly insured against present dangers",
+    "new": "and partly secured against present dangers",
+    "why": "Italian 'in parte assicurato de' presenti periculi'; 'insured' now reads as a policy."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0009",
+    "severity": "medium",
+    "old": "he pounced on Pisa. After that, Lucca and Siena would fold at once",
+    "new": "he would have pounced on Pisa. After that, Lucca and Siena would have folded at once",
+    "why": "Italian imperfects 'saltava in Pisa ... Lucca e Siena cedeva subito' are counterfactual, the plan cut off by Alexander's death (Borgia never took Pisa); 'pounced' reports it as done, then the sentence slides into 'would'."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "he lived a criminal life at every stage of his career",
+    "new": "he lived a criminal life at every age",
+    "why": "Italian 'per li gradi della sua età', the stages of his life, not his career; 'career' also anticipates the soldiering that follows."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "after entering the militia, he rose through its ranks",
+    "new": "after joining the army, he rose through its ranks",
+    "why": "Italian 'voltosi alla milizia' is the military life; a modern 'militia' is a citizen reserve or irregular band, wrong for Agathocles."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "up through the ranks of the militia",
+    "new": "up through the ranks of the army",
+    "why": "Same 'milizia' as seg-0002 ('per li gradi della milizia'); keep the two consistent."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "but converted into the greatest usefulness to the subjects that they can be.",
+    "new": "but turned, as far as possible, to the subjects' benefit.",
+    "why": "Italian 'si convertiscono in più utilità de' sudditi che si può'; the trailing 'that they can be' buries the point. Same sense."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "out of faint-heartedness — a natural shortage of spine — then",
+    "new": "out of faint-heartedness and a natural lack of courage, then",
+    "why": "Italian is a plain pair, 'pusillanimità e defetto naturale d'animo'; the dash makes the second half read as an editor's gloss, and 'shortage of spine' is colloquial."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "he ruins you in the ordinary way — by losing.",
+    "new": "he ruins you in the ordinary way.",
+    "why": "Italian 'ti rovina per l'ordinario' stops there; 'by losing' explains the joke into the text."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "as happened later at Vaila,",
+    "new": "as happened later at Vailà,",
+    "why": "Machiavelli's 'Vailà'; standardized with XX."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "took Imola and Forli.",
+    "new": "took Imola and Forlì.",
+    "why": "Spelling standardized to 'Forlì' as in XX."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "he should live in the hunt, hardening",
+    "new": "he should always be out hunting, hardening",
+    "why": "Italian 'debbe stare sempre in sulle caccie'; 'live in the hunt' is a calque, and it also drops 'sempre'."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "another a miser — I use the Tuscan word, since in our tongue an avaricious man is still one who craves to get by plunder, while we call a miser the man who holds back too hard from using what is his own; one is a giver",
+    "new": "another a miser (I use the Tuscan word, since in our tongue an avaricious man is still one who craves to get by plunder, while we call a miser the man who holds back too hard from using what is his own); one is a giver",
+    "why": "The Italian sets 'usando uno termine toscano ...' in parentheses; the dash here never closes, so the list resumes inside the aside."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "he may let those go with less concern",
+    "new": "he may indulge in them with less concern",
+    "why": "Italian 'vi si può con meno respetto lasciare andare' = he may give himself over to those lesser vices; 'let those go' reads as giving them up, the opposite."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "Res dura, et regni novitas me talia cogunt moliri, et late fines custode tueri.",
+    "new": "Res dura, et regni novitas me talia cogunt\nmoliri, et late fines custode tueri.",
+    "why": "Aeneid I.563-64, two hexameters, break after 'cogunt'; verse keeps its line (newline is how other Lectio editions carry verse). Note: the build currently collapses newlines in this prose-form work (XXVI's Petrarch is already lined in pipeline/modern but prints as one line), so this shows only once that is fixed."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "men being wretched, is broken",
+    "new": "men being wicked, is broken",
+    "why": "Italian 'per essere gli uomini tristi': tristi is wicked/base; 'wretched' now first means miserable and turns contempt into pity."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "taught to princes under cover by the ancient writers",
+    "new": "taught to princes in veiled form by the ancient writers",
+    "why": "Italian 'copertamente', figuratively; 'under cover' now suggests spying."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "because they are wretched, and would not keep",
+    "new": "because they are wicked, and would not keep",
+    "why": "Italian 'perché sono tristi'; same word and fix as XVII."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "the Parlement — the high court — and its authority",
+    "new": "the Parlement and its authority",
+    "why": "Italian 'el parlamento e l'autorità sua'; the gloss is the editor's. Editor: gloss 'Parlement' in enrichment."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "Julianus the emperor being known for his slackness, Severus persuaded",
+    "new": "Knowing how slack the emperor Julianus was, Severus persuaded",
+    "why": "Italian 'Conosciuto Severo la ignavia di Iuliano imperatore': Severus is the one who knows; the absolute construction is stiff and hides that. ('Sluggard' in the report is archaic.)"
+  },
+  {
+    "section": 19,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "He then went to find him in France,",
+    "new": "He then went to find him in Gaul,",
+    "why": "Italian 'in Francia' is Roman Gaul (Albinus, AD 197); consistent with IV."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "mercenary soldiery, which is what was said of it above;",
+    "new": "mercenary soldiery, which is of the kind described above;",
+    "why": "Italian 'la quale è di quella qualità che di sopra è detto'; the current clause attaches to nothing."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "Such methods, besides, argue weakness in the prince",
+    "new": "Such methods, besides, betray weakness in the prince",
+    "why": "Italian 'Arguiscono ... debolezza'; 'argue' for 'indicate' is a calque few readers still carry."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "newly taken a state by means of inside support from within it",
+    "new": "newly taken a state with help from inside it",
+    "why": "Italian 'mediante e' favori intrinsechi di quello'; 'inside ... from within' doubles."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "and you will have no defense to offer and no reason anyone should give you one, and no one will take you in.",
+    "new": "and you will have no claim and nothing else to defend you or take you in.",
+    "why": "Italian 'non arai ragione né cosa alcuna che ti defenda né che ti riceva': one phrase, no claim and nothing to defend or shelter you; the three 'and' clauses also shift the sense."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "a lover of excellence, giving a place to able men",
+    "new": "a lover of virtù, giving a place to able men",
+    "why": "Virtù policy: Italian 'amatore delle virtù, dando recapito alli uomini virtuosi'. Noun kept as virtù; the adjective stays English ('able')."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "for fear of the taxman.",
+    "new": "for fear of taxes.",
+    "why": "Italian 'per paura delle taglie', levies; 'the taxman' is breezy. ('Open a business' for 'aprire uno traffico' is fine and kept.)"
+  },
+  {
+    "section": 24,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "on you yourself and on your own strength.",
+    "new": "on you yourself and on your own virtù.",
+    "why": "Virtù policy: Italian 'che dependino da te proprio e dalla virtù tua'. This closing line sets up XXV's virtù-against-fortune; missed by the report."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "where no ordered strength stands ready to resist her",
+    "new": "where no ordered virtù stands ready to resist her",
+    "why": "Italian 'dove non è ordinata virtù a resisterle'; the chapter that pits virtù against fortune must not drop the word."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "protected by proper strength,",
+    "new": "protected by proper virtù,",
+    "why": "Italian 'riparata da conveniente virtù'; same policy."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "for the power in Moses to show itself",
+    "new": "for the virtù of Moses to show itself",
+    "why": "Italian 'a volere conoscere la virtù di Moisè'; callback to VI, which uses virtù for Moses."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "for the worth of one Italian spirit to be known",
+    "new": "for the virtù of one Italian spirit to be known",
+    "why": "Italian 'volendo conoscere la virtù d'uno spirito italiano'."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "with its fortune and its ability,",
+    "new": "with its fortune and its virtù,",
+    "why": "Italian 'con la fortuna e virtù sua'."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "as if military virtue were spent",
+    "new": "as if military virtù were spent",
+    "why": "Italian 'sia spenta la virtù militare'; same policy (low: 'military virtue' already near)."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "Here there is great strength in the limbs",
+    "new": "Here there is great virtù in the limbs",
+    "why": "Italian 'Qui è virtù grande nelle membra'. ('Superior in strength' below is 'con le forze' and stays.)"
+  },
+  {
+    "section": 26,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "by ability or by fortune,",
+    "new": "by virtù or by fortune,",
+    "why": "Italian 'e per virtù e per fortuna'."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "then Allesandria, Capua, Genoa, Vaila, Bologna, Mestri.",
+    "new": "then Alessandria, Capua, Genoa, Vailà, Bologna, Mestri.",
+    "why": "'Allesandria' is a misprint carried from Marriott's text (his own note spells Alessandria); 'Vailà' standardized with XII and XX."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": "with Italian strength we can defend ourselves",
+    "new": "with Italian virtù we can defend ourselves",
+    "why": "Italian 'per potere con la virtù italica defendersi'; missed by the report, same policy."
+  }
+]

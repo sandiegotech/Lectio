@@ -24,18 +24,14 @@
       "workId": "work.confucius.analects",
       "note": "",
       "part": ""
+    },
+    {
+      "workId": "work.laozi.tao-te-ching",
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "The Tao Te Ching",
-      "author": "Laozi",
-      "era": "400–301 BCE",
-      "part": "",
-      "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
-    },
     {
       "title": "On the Nature of Things",
       "author": "Lucretius",

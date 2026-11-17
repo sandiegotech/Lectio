@@ -1,0 +1,594 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0037",
+    "severity": "medium",
+    "old": "For in your sight, what was fouler by then than I was?",
+    "new": "For in their eyes, what was fouler by then than I was?",
+    "why": "Latin (own knowledge) nam in illis iam quid me foedius fuit: 'among them', not God's sight; Pusey: 'Before them'. The point is he disgusted even people like himself."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0026",
+    "severity": "medium",
+    "old": "\"golden shower,\"",
+    "new": "\"shower of gold,\"",
+    "why": "Latin imbrem aureum; 'golden shower' now carries a sexual slang sense that makes readers laugh at the wrong moment. Pairs with seg-0027."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0027",
+    "severity": "medium",
+    "old": "once sent a golden shower into",
+    "new": "once sent a shower of gold into",
+    "why": "Terence, Eunuchus 585 (imbrem aureum); same reason as seg-0026, same wording in both."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "let him love to find you by not finding the answer, rather than find the answer and not find you.",
+    "new": "let him love to find you by not finding, rather than find and not find you.",
+    "why": "Latin non inveniendo invenire potius quam inveniendo non invenire te: the paradox is bare; 'the answer' (twice) is a gloss."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "I would be laughed at and told off, and rightly. So what I did then deserved a telling-off; but since I could not have understood one, custom and common sense forbade my being told off.",
+    "new": "I would be laughed at and scolded, and rightly. So what I did then deserved a scolding; but since I could not have understood one, custom and common sense forbade my being scolded.",
+    "why": "Latin reprehenderer / reprehensione dignum / reprehendi; 'told off' is British and casual, three times in two sentences."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "they charm it away with remedies of their own.",
+    "new": "they charm it away with some remedy or other.",
+    "why": "Latin expiare ... nescio quibus remediis: the shrug ('I don't know what remedies') was lost. 'Charm' kept: expiare is ritual, so the reviewer's 'cure' would lose that."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "with no drum-beat of punishment driving me on",
+    "new": "with no weight of punishment driving me on",
+    "why": "Latin sine poenali onere urgentium: a burden, not a drum-beat; the added image goes."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "barely manage to cross?",
+    "new": "can barely get across?",
+    "why": "Read-aloud: 'the wood of the cross barely manage to cross' trips; Latin vix transeunt."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "But how horrible you are, you river of human custom!",
+    "new": "But woe to you, you river of human custom!",
+    "why": "Work-wide interjection policy. Latin Sed vae tibi, flumen moris humani! (Pusey: 'woe is thee'); the vae was softened into a description."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "to play at a cripple's freedom",
+    "new": "to play at a maimed freedom",
+    "why": "Latin mancam libertatem captivus imitarer (Pusey: 'a maimed liberty'); 'cripple' is not in the Latin and reads as a slur."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "the one true and good landlord of that field",
+    "new": "the one true and good Lord of that field",
+    "why": "Latin veri et boni domini agri tui: owner and master of the field, not a rent-collector; Pusey 'Lord of Thy field'."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "and I handed it both my hands?",
+    "new": "and I surrendered to it completely?",
+    "why": "Latin totas manus dedi is the idiom of surrender (dare manus); the literal rendering reads like a slip."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "Misery! Do I dare",
+    "new": "Woe is me! Do I dare",
+    "why": "Work-wide interjection policy. Latin Ei mihi! (Pusey: 'Woe is me!'); 'Misery!' is not an exclamation anyone uses."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "and misery on me for having it",
+    "new": "and woe to me for having it",
+    "why": "Work-wide interjection policy. Latin et vae mihi, qui habebam (Pusey: 'woe was me')."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "For they are beautiful; they do become us;",
+    "new": "For they are beautiful and fitting;",
+    "why": "Latin speciosa sunt atque decora: beautiful and seemly; 'become us' adds 'us'."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "Envy litigates over excellence",
+    "new": "Envy quarrels over excellence",
+    "why": "Latin invidentia de excellentia litigat: litigare is everyday 'quarrel' in Latin; 'litigates' is legal jargon in English."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0020",
+    "severity": "medium",
+    "old": "I confess to you, Lord, what I remember of it — and I have told it often: that answer of yours through my wide-awake mother — that she was not rattled by my false reading, plausible as it was, and saw in an instant what had to be seen, which I certainly had not seen until she said it — even then that moved me more than the dream itself, in which the joy of that devout woman, to be fulfilled so long afterward, was foretold so long in advance to console her present anguish.",
+    "new": "I confess to you, Lord, as far as I remember — and I have told it often — that this answer of yours through my mother, wide awake, moved me even then more than the dream itself, in which the joy of that devout woman, to be fulfilled so long afterward, was foretold so long in advance to console her present anguish. She was not thrown by my false reading, plausible as it was; she saw in an instant what had to be seen, which I certainly had not seen until she said it.",
+    "why": "Latin Confiteor tibi, domine, et quantum recolo ... amplius me isto per matrem vigilantem responso tuo, quod ... turbata non est ... etiam tum commotum esse quam ipso somnio: three dashed insertions before the main verb lose the ear; 'rattled' too casual for turbata. Same content, main clause first."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "Go now, leave me — and as you live, it cannot be",
+    "new": "Go now, leave me. As surely as you live, it cannot be",
+    "why": "Latin Vade a me, ita vivas; fieri non potest: ita vivas is an asseveration, and 'and as you live' reads as a condition in one of the famous lines."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "when, in private pride, some single false thing is loved in the part.",
+    "new": "when private pride fastens its love on one false thing, a mere part of the whole.",
+    "why": "Latin privata superbia diligitur in parte unum falsum, set against tu ... rector universitatis just before: 'in the part' means a part instead of the whole; as printed it is opaque."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": "and I had been left to myself an unhappy place",
+    "new": "and I had remained, to myself, an unhappy place",
+    "why": "Latin ego mihi remanseram infelix locus; the printed clause does not parse."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "isn’t it breaking faith with you",
+    "new": "isn’t it whoring away from you",
+    "why": "Latin fornicatur abs te (Pusey 'commit fornication against Thee'); Book I seg-0021 keeps the image ('whoring away from you'), and the thread runs through the work."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "And what good did it do me that at about twenty, when a certain work of Aristotle fell into my hands — they call it the Ten Categories, and at the bare name of it I would stand open-mouthed, as before something great and divine, whenever my rhetoric master at Carthage, and others reckoned learned, pronounced it with their cheeks bursting with pride — I read it alone, and understood it?",
+    "new": "When I was about twenty, a certain work of Aristotle fell into my hands. They call it the Ten Categories, and at the bare name of it I would stand open-mouthed, as before something great and divine, whenever my rhetoric master at Carthage, and others reckoned learned, pronounced it with their cheeks bursting with pride. And what good did it do me that I read it alone, and understood it?",
+    "why": "Read-aloud: a 50-word dashed insertion separates the question from its answer. Content unchanged, order follows the Latin's narrative."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "I was going ugly, sacrilegiously wrong",
+    "new": "I was going foully, sacrilegiously wrong",
+    "why": "Latin nefarie turpiter errabam: turpiter is 'foully'; 'going ugly' is not idiomatic."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "It will not drop you where it descends, but will stand with you",
+    "new": "They will not drop you where they descend, but will stand with you",
+    "why": "Latin non te deponent quo descendunt: plural, the fleeting parts of you just named; 'it' has no antecedent."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "the most elegant of waiters",
+    "new": "the most elegant of cup-bearers",
+    "why": "Latin pocillator: cup-bearer (Book III's word); 'waiter' brings in a restaurant."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "was fed, all right, by the energy",
+    "new": "was indeed fed by the energy",
+    "why": "'all right' is a conversational tic not found elsewhere in the voice; Latin has only a concessive."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "a young man — one of the students, and the real thief —",
+    "new": "a young man — a lawyer, and the real thief —",
+    "why": "Latin adulescens quidam ex advocatis (Pusey 'a young man, a lawyer'); the irony of a lawyer robbing the court is lost."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "And when I discovered that man made by you in your own image was not understood by your spiritual children — the ones you have brought to second birth by grace, out of our Catholic mother — as though they believed you penned inside the shape of a human body (even though what a spiritual substance might be I could not conceive, even faintly, even in shadow), I blushed, and gladly:",
+    "new": "And I discovered that your spiritual children — the ones you have brought to second birth by grace, out of our Catholic mother — did not take \"man made by you in your own image\" to mean that you are penned inside the shape of a human body. What a spiritual substance might be I still could not conceive, even faintly, even in shadow; but I blushed, and gladly:",
+    "why": "Latin cum ... comperi 'hominem ab te factum ad imaginem tuam' a spiritalibus filiis tuis ... non sic intellegi: the quoted phrase was unmarked and the 'was not understood ... as though' construction garbles the sense before the verb arrives. Quotation in double quotes per policy."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "by men who knew — and",
+    "new": "by men who knew they were lies — and",
+    "why": "Latin et mentiens a scientibus laudaretur: those who knew the lies were lies; 'who knew' dangles."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "glad or scared",
+    "new": "glad or afraid",
+    "why": "Latin exsultare an metuere; 'scared' is too casual beside 'glad'."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "no license to soak",
+    "new": "no chance to gorge themselves",
+    "why": "Latin ne ulla occasio se ingurgitandi daretur ebriosis: 'soak' is slang."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "on furlough from the din",
+    "new": "free for a while from the din",
+    "why": "Latin feriatum ab strepitu: 'furlough' is military."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "So gross was my heart",
+    "new": "So thick and dull was my heart",
+    "why": "Latin incrassatus corde (Pusey 'gross-hearted'): thick, dull; today 'gross' means disgusting."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "the whitewashed roads of the world",
+    "new": "the brighter roads of the world",
+    "why": "Latin per dealbatiores vias saeculi: the brighter, more distinguished paths; 'whitewashed' now suggests a cover-up."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0027",
+    "severity": "medium",
+    "old": "those old girlfriends of mine",
+    "new": "those old loves of mine",
+    "why": "Latin antiquae amicae meae (Pusey 'my ancient mistresses'); 'girlfriends' is glib."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "How high you are in the highest",
+    "new": "Woe is me! How high you are in the highest",
+    "why": "Work-wide interjection policy. Latin Ei mihi! Quam excelsus es in excelsis (Pusey 'Woe is me!'); the sigh was dropped."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "Twelve years and more of my life had run out since my nineteenth year",
+    "new": "Many years of my life, perhaps twelve, had run out since my nineteenth year",
+    "why": "Latin multi mei anni mecum effluxerant (forte duodecim anni); Pusey 'many of my years (some twelve)'. The hedge was firmed up and then added to."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "Give me chastity and self-control — but not yet.",
+    "new": "Give me chastity and continence — but not yet.",
+    "why": "continentia policy: Latin da mihi castitatem et continentiam, sed noli modo. Sexual sense, and the same Continence appears in person in seg-0028; the famous line should keep its familiar word."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "fallacies and frauds after the elements of this world",
+    "new": "fallacies and frauds according to the elements of this world",
+    "why": "Col 2:8 secundum elementa huius mundi; 'after' in the sense 'according to' no longer carries."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "not in beds and indecencies",
+    "new": "not in debauchery and indecency",
+    "why": "Rom 13:13 non in cubilibus et impudicitiis: 'beds' is literal for cubilibus and makes the most famous verse of the book stumble."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "not so much brave as lucky",
+    "new": "not so much brave as fortunate",
+    "why": "Latin non fortior quam felicior: he had found his occasion to be free for God; 'lucky' is off-hand."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "Go deaf to those unclean members",
+    "new": "Shut your ears to those unclean members",
+    "why": "Latin obsurdesce adversus: 'go deaf to' is not an English phrase."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "Anubis the barking dog-god, and monster gods of every breed, weapons leveled against Neptune, against Venus, against Minerva —",
+    "new": "Anubis the barking dog-god,\nand monster gods of every breed,\nweapons leveled against Neptune, against Venus, against Minerva —",
+    "why": "Quoted-verse policy. Virgil, Aen. 8.698-700 (Pusey sets it as verse); wording unchanged, line breaks only."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0002",
+    "severity": "high",
+    "old": "consumes you out of love",
+    "new": "consumes us out of love",
+    "why": "Latin (own knowledge) linguam subdolam ... sicut cibum assolet amando consumentem, the tongue that devours us (Pusey: 'would out of love devour us, as it doth its meat'). The printed pronoun turns the flatterer against God."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "comforting Verecundus in his sadness, as far as friendship allowed, since our conversion had not broken it,",
+    "new": "comforting Verecundus, who was saddened by our conversion, with our friendship still unbroken,",
+    "why": "Latin Verecundum consolantes tristem salva amicitia de tali conversione nostra: he was sad about the conversion; the friendship stayed intact. The printed clause reverses the logic."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0033",
+    "severity": "medium",
+    "old": "\"God, creator of all things, ruler of the sky: you clothe the day in beautiful light, the night in the grace of sleep, so that rest may hand our slackened limbs back to the use of work, and lift up minds when they are tired, and loosen the knots of anxious grief.\"",
+    "new": "\"God, creator of all things,\nruler of the sky: you clothe\nthe day in beautiful light,\nthe night in the grace of sleep,\nso that rest may hand our slackened limbs\nback to the use of work,\nand lift up minds when they are tired,\nand loosen the knots of anxious grief.\"",
+    "why": "Quoted-verse policy. Ambrose, Deus creator omnium, two stanzas of four lines (Pusey sets it as verse); the line breaks follow the Latin lines, wording unchanged."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "fixed deep in our gut",
+    "new": "fixed deep within us",
+    "why": "Latin in visceribus: 'gut' is coarse for God's words lodged within."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "You had made him well.",
+    "new": "You had made him a fine boy.",
+    "why": "Latin Tu bene feceras eum (Pusey 'Excellently hadst Thou made him'); 'made him well' reads as 'cured him'."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "the kind of stuff that",
+    "new": "the kind of thing that",
+    "why": "'stuff' drops the register in a sustained period."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "And it would go badly even with the most praiseworthy human life, if you set mercy aside and examined it.",
+    "new": "And woe even to the most praiseworthy human life, if you set mercy aside and examined it!",
+    "why": "Work-wide interjection policy. Latin vae etiam laudabili vitae hominum (Pusey 'woe be even unto the commendable life')."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0042",
+    "severity": "medium",
+    "old": "not just someday, but now, at my present age",
+    "new": "not only within this life, but now, at my present age",
+    "why": "Latin non solum in hac vita sed etiam in hac aetate (Pusey 'not only during life, but even at my present age'): God can do it before death, not 'someday'."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0034",
+    "severity": "medium",
+    "old": "They love truth when it gives light; they hate it when it gives evidence.",
+    "new": "They love truth when it shines; they hate it when it accuses them.",
+    "why": "Latin amant eam lucentem, oderunt eam redarguentem (Pusey 'when she reproves'); 'gives evidence' is vague and spoils the antithesis."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "What misery! Lord, have mercy on me. My evil",
+    "new": "Woe is me! Lord, have mercy on me. My evil",
+    "why": "Work-wide interjection policy. Latin Ei mihi! Domine, miserere mei!"
+  },
+  {
+    "section": 10,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "What misery! Lord, have mercy on me. Look —",
+    "new": "Woe is me! Lord, have mercy on me. Woe is me! Look —",
+    "why": "Latin Ei mihi! Domine, miserere mei! Ei mihi! Ecce vulnera mea non abscondo: the third cry was dropped."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "Grief upon grief for the world's good fortunes",
+    "new": "Woe, and woe again, to the world's good fortunes",
+    "why": "Latin Vae prosperitatibus saeculi semel et iterum: a pronounced woe, not a feeling."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "And grief upon grief upon grief for the world's adversities",
+    "new": "Woe, and woe again, and woe a third time to the world's adversities",
+    "why": "Latin Vae adversitatibus saeculi semel et iterum et tertio."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "no having-enough can pull apart",
+    "new": "no satiety can pull apart",
+    "why": "Latin quod non divellit satietas; 'having-enough' is a coinage that stops the ear at the climax. Reviewer's 'fullness' loses the cloying sense of satietas."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0026",
+    "severity": "low",
+    "old": "a deep, borderless manyness",
+    "new": "a deep and boundless multiplicity",
+    "why": "Latin profunda et infinita multiplicitas; 'manyness' sounds coined."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0055",
+    "severity": "low",
+    "old": "come the freak shows exhibited in the theater",
+    "new": "come the marvels exhibited in the theater",
+    "why": "Latin in spectaculis exhibentur quaeque miracula: 'freak shows' imports a carnival sideshow."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0057",
+    "severity": "low",
+    "old": "becomes the bin for things like these",
+    "new": "becomes the receptacle for things like these",
+    "why": "Latin receptaculum; 'bin' is slight and household. Reviewer's 'storehouse' suggests things of value, against the sense."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0039",
+    "severity": "medium",
+    "old": "my life is a stretching-apart",
+    "new": "my life is a stretching-out",
+    "why": "distentio policy. Latin ecce distentio est vita mea: the same word as the definition of time in seg-0030 and seg-0033 ('a stretching-out'); the book's conclusion lands only if it is heard as the same word."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0039",
+    "severity": "medium",
+    "old": "strained not apart toward the things that will come and pass away, but forward toward what lies ahead — moving not by distension but by intention",
+    "new": "not stretched out toward the things that will come and pass away, but stretched forward toward what lies ahead — moving not by stretching-out but by stretching-forward",
+    "why": "distentio policy. Latin non distentus sed extentus, non secundum distentionem sed secundum intentionem: keep the one stem, so the reader hears distentio again."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0041",
+    "severity": "medium",
+    "old": "without any stretching-apart of your action",
+    "new": "without any stretching-out of your action",
+    "why": "distentio policy. Latin sine distentione actionis tuae."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "except because it is tending toward is not.",
+    "new": "except because it tends not to be.",
+    "why": "Latin nisi quia tendit non esse; 'tending toward is not' reads as a typo aloud."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "the innermost guts of my soul",
+    "new": "the innermost depths of my soul",
+    "why": "Latin intima viscera animae meae; 'guts' is coarse here."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "in the mold of me that is your truth",
+    "new": "in your truth, the mold that shapes me",
+    "why": "Latin in forma mea, veritate tua: the knotted phrase cannot be parsed aloud."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "Hold on, my mind, and press hard.",
+    "new": "Keep at it, my mind, and press hard.",
+    "why": "Latin insiste, anime meus: 'hold on' now usually means 'wait a moment'."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "What a state I am in — I do not even know what I do not know!",
+    "new": "Woe is me — I do not even know what I do not know!",
+    "why": "Work-wide interjection policy. Latin Ei mihi, qui nescio saltem quid nesciam! (Pusey 'Woe is me, that do not even know')."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "For that to which it is always good to hold fast to God outstrips",
+    "new": "For it holds fast to God, as it is always good for it to do, and so it outstrips",
+    "why": "Carries over Pusey's 'For that, to which it is ever good to cleave fast to God, surpasses'; cannot be parsed aloud. Sense: because it is always good for it to cling to God, it outstrips all time."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "what by choice, and what by origin",
+    "new": "what by value, and what by origin",
+    "why": "Latin electione: priority in worth; 'choice' reads as a decision someone makes. One of three."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "by choice, as the fruit is before the flower",
+    "new": "by value, as the fruit is before the flower",
+    "why": "Latin electione, as above."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "Not prior in choice:",
+    "new": "Not prior in value:",
+    "why": "Latin electione, as above; the following clause ('sound is not better than song') confirms the sense."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "under the squeeze of necessity",
+    "new": "under the compulsion of necessity",
+    "why": "Latin necessitate compulsum; 'squeeze' too casual."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0048",
+    "severity": "low",
+    "old": "by the strength of continence",
+    "new": "by the strength of self-mastery",
+    "why": "continentia policy: the general virtue of the tamed affections, as at seg-0037 in this book and in Book X ('self-mastery')."
+  }
+]

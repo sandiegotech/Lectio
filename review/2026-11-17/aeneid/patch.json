@@ -1,0 +1,1154 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0001",
+    "severity": "high",
+    "old": "carry his gods into Latium — the gods from whom the Latin people came, the Alban fathers, and the high walls of Rome.",
+    "new": "carry his gods into Latium. From him came the Latin people, the Alban fathers, and the high walls of Rome.",
+    "why": "1.6-7 'genus unde Latinum': unde refers to Aeneas (the man), not the gods; Dryden 'From whence the race of Alban fathers come' likewise of his line. Latin from own knowledge."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "Hard was the road that battered him over sea and land, for Juno's relentless rage hounded him at every turn;",
+    "new": "He was battered hard over sea and land by the power of the gods, for cruel Juno's unforgetting rage hounded him at every turn;",
+    "why": "1.3-4 'multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram': 'vi superum' was dropped; also removes the inverted 'Hard was the road'."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "The winds, as if formed into a column,",
+    "new": "The winds, like an army on the march,",
+    "why": "1.82 'velut agmine facto': a military image; 'formed into a column' reads stiffly."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "Three times, four times luckier were the men",
+    "new": "Three times, four times blessed were the men",
+    "why": "1.94 'o terque quaterque beati': blessed, not lucky."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "Pull yourselves together and let go of this fear and grief. Someday, perhaps, even this will be something we look back on and enjoy remembering.",
+    "new": "Call back your courage, and put away this fear and grief. Someday, perhaps, it will be a joy to remember even this.",
+    "why": "1.202-203 'revocate animos, maestumque timorem mittite; forsan et haec olim meminisse iuvabit': famous line restored to its own length; 'pull yourselves together' is modern and scolding."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "betrayed (it's unbelievable) for the anger of one goddess",
+    "new": "betrayed — a thing not to be spoken — to the anger of one goddess",
+    "why": "1.251 'navibus (infandum!) amissis unius ob iram prodimur': infandum is an outcry, 'unspeakable', not a chatty aside."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0019",
+    "severity": "medium",
+    "old": "Faith and Vesta, and Romulus with his brother Remus, will lay down the law.",
+    "new": "Faith and Vesta, and Romulus with his brother Remus, will give the laws.",
+    "why": "1.292-293 'iura dabunt': 'lay down the law' is now an idiom for scolding."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0019",
+    "severity": "medium",
+    "old": "monstrous Rage, perched on a heap of weapons",
+    "new": "godless Rage, sitting on a heap of savage weapons",
+    "why": "1.294-296 'Furor impius ... saeva sedens super arma': 'impius' is the point in a poem built on pietas (Dryden 'impious')."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "or like one of those Thracian women who outrun the swift rivers.",
+    "new": "or like Thracian Harpalyce, who rides her horses to exhaustion and outruns the swift river Hebrus.",
+    "why": "1.316-317 'qualis equos Threissa fatigat Harpalyce volucremque fuga praevertitur Hebrum': the named huntress and her horses were dropped (Dryden names Harpalyce)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "which is why it's called Byrsa, 'the Hide.'",
+    "new": "which is why it's called Byrsa.",
+    "why": "1.367 'facti de nomine Byrsam': Virgil gives the name; the translation of it is a gloss for the enrichment layer (names policy)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "a name known, once, above the clouds.",
+    "new": "my fame known above the sky.",
+    "why": "1.379 'fama super aethera notus': present claim; the added 'once' softens it."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "And yet Pallas Athena could burn",
+    "new": "And yet Pallas could burn",
+    "why": "1.39 'Pallasne exurere classem': Virgil's name is Pallas; 'Athena' is added (names policy)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "walking to the temple of Athena, who would not be appeased,",
+    "new": "walking to the temple of Pallas, who would not be appeased,",
+    "why": "1.479 'ad templum non aequae Palladis': Pallas, not Athena (names policy)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "I remember — I was only a child — when Teucer came to Sidon",
+    "new": "\"I remember — I was only a child — when Teucer came to Sidon",
+    "why": "Dido's speech continues from seg-0034 into a new paragraph; the paragraph must reopen the quotation (quotation policy)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "Even Troy's enemy used to praise the Trojans",
+    "new": "Teucer himself, Troy's enemy, used to praise the Trojans",
+    "why": "1.625 'ipse hostis Teucros insigni laude ferebat': the enemy is Teucer himself; that is the irony."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0038",
+    "severity": "medium",
+    "old": "the poor queen, already doomed, with her eye on the coming ruin,",
+    "new": "the poor queen, already doomed, given over to the ruin to come,",
+    "why": "1.712 'pesti devota futurae': she is devoted to ruin, she does not foresee it."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0038",
+    "severity": "low",
+    "old": "began little by little to wipe out Sychaeus",
+    "new": "began little by little to blot out Sychaeus",
+    "why": "1.720 'abolere Sychaeum': 'wipe out' reads as killing."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "\"The grief you ask me to bring back to life, my queen",
+    "new": "The grief you ask me to bring back to life, my queen",
+    "why": "Quotation policy: Aeneas's narration (II-III) prints without outer quotation marks, framed by II seg-0001 and III seg-0037; inner speeches keep double quotes."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0049",
+    "severity": "medium",
+    "old": "made for the mountains.\"",
+    "new": "made for the mountains.",
+    "why": "Quotation policy: removes the outer closing quote of Aeneas's narration (Book III had none, so the speech never closed consistently)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "That was the first crack in my ruin.",
+    "new": "\"That was the first crack in my ruin.",
+    "why": "Sinon's speech continues from seg-0010; the new paragraph must reopen the quotation."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "Now the man of Ithaca made his move.",
+    "new": "\"Now the man of Ithaca made his move.",
+    "why": "Sinon's speech continues from seg-0012; reopen the quotation."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "Every hope the Greeks had, all their confidence in this war,",
+    "new": "\"Every hope the Greeks had, all their confidence in this war,",
+    "why": "Sinon's speech continues from seg-0014; reopen the quotation."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "Warned by him, they built this image",
+    "new": "\"Warned by him, they built this image",
+    "why": "Sinon's speech continues from seg-0015; reopen the quotation."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "the craft of Pallas Athena guiding the work",
+    "new": "the craft of Pallas guiding the work",
+    "why": "2.15 'divina Palladis arte': Pallas, not Athena (names policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "the help of Pallas Athena.",
+    "new": "the help of Pallas.",
+    "why": "2.163 'Palladis auxiliis': names policy."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "Pallas Athena has taken the high citadel",
+    "new": "Tritonian Pallas has taken the high citadel",
+    "why": "2.615 'Tritonia, respice, Pallas insedit': Virgil's epithet and name, not 'Athena' (names policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "We thought they were gone — gone with the wind, bound for Mycenae.",
+    "new": "We thought they had gone, sailing with the wind for Mycenae.",
+    "why": "2.25 'abiisse rati et vento petiisse Mycenas': 'gone with the wind' calls up the film at a tragic moment (idioms policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "Is this what Ulysses is known for?",
+    "new": "Is that all you know of Ulysses?",
+    "why": "2.44 'sic notus Ulixes?': 'is that how well you know Ulysses?'; the edition turns the question the wrong way."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "and Troy would be standing still, and you, high tower of Priam, would still be standing.",
+    "new": "and Troy would be standing now, and you, high citadel of Priam, would remain.",
+    "why": "2.56 'Troiaque nunc staret, Priamique arx alta maneres': removes the echo and the 'standing still' ambiguity."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "If all you Greeks are the same to you,",
+    "new": "If all Greeks are the same to you,",
+    "why": "2.102 'si omnes uno ordine habetis Achivos': Sinon is speaking to Trojans; 'you Greeks' garbles it."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "God, the sight of him — how changed he was",
+    "new": "Ah, the sight of him — how changed he was",
+    "why": "2.274 'ei mihi, qualis erat': a cry of grief, not a monotheist oath (oaths policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "with the fire god towering over it",
+    "new": "with Vulcan towering over it",
+    "why": "2.311 'Volcano superante': keep the name Virgil gives (names policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0036",
+    "severity": "medium",
+    "old": "Remember to tell him about his grim son Neoptolemus, and all my ugly deeds.",
+    "new": "Remember to tell him of my grim deeds, and how his son Neoptolemus has fallen short of his father.",
+    "why": "2.549 'illi mea tristia facta degeneremque Neoptolemum narrare memento': 'tristia' goes with the deeds; 'degenerem' (unworthy of his line) is the sneer and was lost."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0045",
+    "severity": "low",
+    "old": "climb up onto my neck.",
+    "new": "climb onto my back.",
+    "why": "2.707 'cervici imponere nostrae': 'neck' is too literal and repeats the next clause's shoulders."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0049",
+    "severity": "low",
+    "old": "I gave it up, lifted my father",
+    "new": "I yielded, lifted my father",
+    "why": "2.804 'cessi': a yielding to fate, the last beat of the book; 'gave it up' reads as despair."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0001",
+    "severity": "high",
+    "old": "brought down the kingdom of Troy and Priam's throne — undeserving as it was — when",
+    "new": "seen fit to bring down the power of Asia and Priam's people, who had not deserved it, when",
+    "why": "3.1-2 'res Asiae Priamique evertere gentem immeritam visum superis': 'immeritam' is Priam's people, who did not deserve their fate; the edition reads as if the throne were unworthy."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Spring had barely begun — the first warmth, my father Anchises giving the word to trust ourselves to fate and the sea.",
+    "new": "Summer had barely begun when my father Anchises gave the word to trust our sails to fate.",
+    "why": "3.8-9 'vix prima inceperat aestas et pater Anchises dare fatis vela iubebat': a fragment in the edition; 'prima aestas' is early summer."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "once ruled by fierce Lycurgus — an old friend to Troy,",
+    "new": "once ruled by fierce Lycurgus, and long a friend to Troy,",
+    "why": "3.14-15 'hospitium antiquum Troiae': the land, not Lycurgus, was Troy's old friend."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "The sacred images of my gods, the household gods of Troy — the Penates — that I had carried",
+    "new": "The sacred images of the gods, the household gods of Troy, which I had carried",
+    "why": "3.148-149 'effigies sacrae divum Phrygiique penates': one naming, not three stacked glosses."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "the Strophades — \"the Turning Islands,\" the Greeks call them —",
+    "new": "the Strophades, as the Greeks name them,",
+    "why": "3.210-211 'Strophades Graio stant nomine dictae': Virgil only says the name is Greek; the translation is a gloss (names policy)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "and left a sickening stench behind in the screaming.",
+    "new": "and through the sickening stench came their dreadful screams.",
+    "why": "3.228 'tum vox taetrum dira inter odorem': a dreadful cry amid the foul stench; the edition's phrase is garbled."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "Or has any fortune kind enough found you again, worthy of you — Hector's Andromache, still wife to Pyrrhus?",
+    "new": "Or has a fortune worthy of you found you again? Hector's Andromache — are you still the wife of Pyrrhus?",
+    "why": "3.318-319 'quae digna satis fortuna revisit, Hectoris Andromache? Pyrrhin conubia servas?': two questions; the second read as a statement."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "Happiest of all was Priam's daughter Polyxena,",
+    "new": "Happiest of all was Priam's virgin daughter,",
+    "why": "3.321 'felix una ante alias Priameia virgo': Virgil does not name Polyxena (names policy)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0020",
+    "severity": "low",
+    "old": "deals out the fates this way and rolls the wheel of fortune so —",
+    "new": "deals out the fates this way and rolls events through their turns; such is the order of things —",
+    "why": "3.375-376 'sic fata deum rex sortitur volvitque vices, is vertitur ordo': 'wheel of fortune' adds an image and calls up the game show."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0022",
+    "severity": "medium",
+    "old": "a body of wolves and dolphins joined to a belly of howling dogs.",
+    "new": "with dolphins' tails joined to a belly ringed with wolves.",
+    "why": "3.427-428 'postrema immani corpore pistrix delphinum caudas utero commissa luporum': the anatomy was scrambled."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0027",
+    "severity": "medium",
+    "old": "you whose fortune is already made and behind you.",
+    "new": "you whose destiny is already complete.",
+    "why": "3.493-494 'quibus est fortuna peracta iam sua': fulfilled destiny; 'fortune is made' reads as money."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0029",
+    "severity": "medium",
+    "old": "the holy power of Pallas Athena, who first welcomed us with the sound of her name,",
+    "new": "the holy power of Pallas of the clashing arms, who was the first to receive us in our joy,",
+    "why": "3.544 'Palladis armisonae, quae prima accepit ovantis': the edition's 'sound of her name' is invented, and 'Athena' is added."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "and I wish to god I had stayed poor at home.",
+    "new": "and I wish I had stayed poor at home.",
+    "why": "3.615 '(mansissetque utinam fortuna!)': no oath in the Latin (oaths policy)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0035",
+    "severity": "high",
+    "old": "But Helenus had warned us to hold a course between Scylla and Charybdis, a hair's breadth either way from death; we resolved to turn back.",
+    "new": "But Helenus had warned us not to steer between Scylla and Charybdis, where either way runs a hair's breadth from death; so we resolved to turn back.",
+    "why": "3.684-686 'contra iussa monent Heleni, Scyllam atque Charybdin inter, utramque viam leti discrimine parvo, ni teneant cursus; certum est dare lintea retro': the warning is not to run between them, which is why they turn back (Dryden 'nor dare to Scylla run'). The edition reverses it."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "taking the deserving stranger who had earned it aboard,",
+    "new": "taking aboard the stranger, who had earned it,",
+    "why": "3.667 'recepto supplice sic merito': the phrase said the same thing twice."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "Cretans and Scythians and painted folk crowding and shouting",
+    "new": "Cretans and Dryopes and the painted Agathyrsi crowding and shouting",
+    "why": "4.146 'Cretesque Dryopesque fremunt pictique Agathyrsi': keep the peoples Virgil names (names policy)."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0024",
+    "severity": "medium",
+    "old": "I wouldn't feel so utterly used and abandoned.",
+    "new": "I wouldn't feel so utterly deceived and deserted.",
+    "why": "4.330 'non equidem omnino capta ac deserta viderer': 'used' now carries a sexual or therapy-talk sense."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "so deep its roots go down toward hell",
+    "new": "so deep its roots go down toward Tartarus",
+    "why": "4.446 'tantum radice in Tartara tendit': keep Virgil's name; 'hell' carries a Christian sense (names policy)."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0032",
+    "severity": "medium",
+    "old": "hunted across the stage on stage,",
+    "new": "hunted across the stage,",
+    "why": "4.471 'scaenis agitatus Orestes': duplicated phrase left from an edit."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "you've loaded me down with this for the enemy to find.",
+    "new": "you've loaded me down with these troubles and thrown me to the enemy.",
+    "why": "4.548-549 'his, germana, malis oneras atque obicis hosti': 'obicis hosti', you throw me to the enemy."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0038",
+    "severity": "low",
+    "old": "ordered me to cut and run, to cut the twisted cables.",
+    "new": "ordered us to hurry our flight and cut the twisted cables.",
+    "why": "4.575 'festinare fugam tortosque incidere funis': 'cut and run' is flippant and doubles 'cut'."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0039",
+    "severity": "medium",
+    "old": "\"God in heaven — is he to go?",
+    "new": "\"Jupiter — is he to go?",
+    "why": "4.590 'pro Iuppiter! ibit hic': Virgil names the god (oaths policy)."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "who fight bare-fisted with the leather gloves;",
+    "new": "who fight with rawhide gloves;",
+    "why": "5.69 'crudo ... caestu': 'bare-fisted' contradicts the gloves."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "they believed they could win, and so they nearly did.",
+    "new": "they could win, because they believed they could.",
+    "why": "5.231 'possunt, quia posse videntur': a famous maxim; the added 'nearly' breaks it. The next sentence ('They might have come in together') already carries the near miss."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "though only by a length — not a whole length, his stern",
+    "new": "though not by a whole length, his stern",
+    "why": "5.186-187 'nec tota tamen ille prior praeeunte carina': the edition contradicts itself."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "so heavy that two servants could barely lift it",
+    "new": "so heavy that the servants Phegeus and Sagaris could barely lift it",
+    "why": "5.263 'vix illam famuli Phegeus Sagarisque ferebant': keep the names (names policy)."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "and Diores third, undone by two men's bad luck.",
+    "new": "and Diores third.",
+    "why": "5.339 'tertia palma Diores': Diores is not undone; the falls lift him to third."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "and my sponsor Acestes agrees",
+    "new": "and Acestes, who urged me into this, agrees",
+    "why": "5.418 'probat auctor Acestes': 'sponsor' now sounds commercial."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0023",
+    "severity": "medium",
+    "old": "\"Eryx, I give you this in Dares' place — a better life for yours. Here I lay down the gloves,",
+    "new": "\"Eryx, I pay you this better life in place of Dares' death. Here, the victor, I lay down the gloves,",
+    "why": "5.483-484 'hanc tibi, Eryx, meliorem animam pro morte Daretis persolvo; hic victor caestus artemque repono': the offering was muddled and 'victor' dropped."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "Aeneas did not pretend it had not happened; but he took it for a good sign.",
+    "new": "Great Aeneas did not refuse the omen; he took it for a good sign.",
+    "why": "5.530-531 'nec maximus omen abnuit Aeneas'."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "So far the games for Anchises went well and holy.",
+    "new": "So far the sacred games for Anchises had kept their holy course.",
+    "why": "5.603 'hactenus Ancisae celebrata est certamine sacro': the edition's phrase is awkward."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0029",
+    "severity": "medium",
+    "old": "\"Poor us — that the Greeks didn't kill us",
+    "new": "\"We poor women! The Greeks didn't kill us",
+    "why": "5.623 'o miserae, quas non manus ... Achaica bello traxerit ad letum': 'Poor us' is chatty for the lament."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0029",
+    "severity": "medium",
+    "old": "Poor us, that fate has kept alive for this.",
+    "new": "Unhappy people — for what ruin is Fortune keeping us alive?",
+    "why": "5.624-625 'o gens infelix, cui te exitio Fortuna reservat?'"
+  },
+  {
+    "section": 5,
+    "seg": "seg-0035",
+    "severity": "medium",
+    "old": "Take the counsel old Nautes gives you. Leave the cowards and the women behind; carry only the chosen, only the bravest hearts, to Italy.",
+    "new": "Take the counsel old Nautes gives you: carry only the chosen young men, the bravest hearts, to Italy.",
+    "why": "5.728-731 'consiliis pare quae nunc pulcherrima Nautes dat senior; lectos iuvenes, fortissima corda, defer in Italiam': 'cowards' is a sharpening Anchises does not make (Dryden 'The chosen youth')."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "bringing a doomed sleep, an innocent man.",
+    "new": "bringing grim dreams to a man who had done no wrong.",
+    "why": "5.840-841 'tibi somnia tristia portans insonti': the appositive dangled."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "then the Athenians made to pay the price each year — seven of their sons — the dread urn standing there with the lots already drawn.",
+    "new": "then the Athenians, ordered to pay for it each year with seven of their sons; there stood the urn, the lots already drawn.",
+    "why": "6.20-22 'tum pendere poenas Cecropidae iussi (miserum!) septena quotannis corpora natorum; stat ductis sortibus urna': the edition's sentence has no verb."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "the princess Ariadne, untangled the maze's tricks and its blind turns, guiding Theseus' blind feet with a thread.",
+    "new": "the princess, untangled the maze's tricks and its windings, guiding blind footsteps with a thread.",
+    "why": "6.28-30 'magnum reginae sed enim miseratus amorem ... caeca regens filo vestigia': Virgil names neither Ariadne nor Theseus (names policy); 'blind' was doubled."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0004",
+    "severity": "high",
+    "old": "Until you are, the great mouths of the awestruck house will not gape open.",
+    "new": "Not until you pray will the great mouths of this awestruck house gape open.",
+    "why": "6.51-53 'cessas in vota precesque ... cessas? neque enim ante dehiscent attonitae magna ora domus': the doors will not open until he prays. 'Until you are [slow]' inverts it."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "And he made an end of speaking.",
+    "new": "And he said no more.",
+    "why": "6.76 'finem dedit ore loquendi': leftover archaism."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "the black depths of hell",
+    "new": "the black depths of Tartarus",
+    "why": "6.134-135 'bis nigra videre Tartara': the edition says Tartarus elsewhere in this book (names policy)."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0009",
+    "severity": "medium",
+    "old": "the brave man had attached himself to Aeneas, a no lesser lord.",
+    "new": "the brave man had joined Aeneas, following no lesser lord.",
+    "why": "6.169-170 'Aeneae sese fortissimus heros addiderat socium, non inferiora secutus': ungrammatical."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "mighty in heaven and in hell.",
+    "new": "mighty in heaven and in Erebus.",
+    "why": "6.247 'caeloque Ereboque potentem': keep Virgil's name (names policy)."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0020",
+    "severity": "low",
+    "old": "With the guard out cold,",
+    "new": "With the guard buried in sleep,",
+    "why": "6.424 'custode sepulto': 'out cold' is slang."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0031",
+    "severity": "medium",
+    "old": "Each of us suffers his own spirit-death;",
+    "new": "Each of us suffers the punishment that is his own;",
+    "why": "6.743 'quisque suos patimur manis': 'spirit-death' is an unreadable coinage."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "the fortress of Monaco,",
+    "new": "the citadel of Monoecus,",
+    "why": "6.830 'arce Monoeci': modern name is an anachronism (names policy)."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "You, Roman — your art is to rule the nations with your power. Remember it. These will be your skills:",
+    "new": "You, Roman, remember: rule the nations with your power. These will be your arts:",
+    "why": "6.851-852 'tu regere imperio populos, Romane, memento (hae tibi erunt artes)': famous lines padded ('art' then 'skills')."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": "These answers his father Faunus gave him, this warning out of the silent night, Latinus did not keep shut in his own mouth;",
+    "new": "Latinus did not keep to himself these answers his father Faunus gave him, this warning out of the silent night;",
+    "why": "7.102-103 'haec responsa patris Fauni monitusque silenti nocte datos non ipse suo premit ore Latinus': Latin word order kept; subject arrived last (word-order policy)."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "just not because we are forced to it or held to any law,",
+    "new": "righteous not because we are forced to it or held by any law,",
+    "why": "7.203-204 'Saturni gentem haud vinclo nec legibus aequam': 'just' reads as 'only'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0015",
+    "severity": "medium",
+    "old": "even the man has heard of it who lives shut off at the far edge of the world, where Ocean curls back, and the man cut off",
+    "new": "even the man who lives shut off at the far edge of the world, where Ocean curls back, has heard of it, and so has the man cut off",
+    "why": "7.225-227: relative clause separated from its noun (word-order policy)."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "a stranger is being sought to heir the kingdom.",
+    "new": "a stranger is being sought as heir to the kingdom.",
+    "why": "7.424 'externusque in regnum quaeritur heres': 'heir' is not a current verb."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0023",
+    "severity": "medium",
+    "old": "making a fool of a prophetess afraid of nothing among the wars of kings.",
+    "new": "making a fool of a prophetess with false fears among the wars of kings.",
+    "why": "7.442 'arma regum inter falsa vatem formidine ludit': false fears; 'afraid of nothing' reads as 'fearless', the opposite."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0028",
+    "severity": "medium",
+    "old": "the weapons chance first stained are wet with fresh blood.",
+    "new": "the weapons chance first put in their hands are wet with fresh blood.",
+    "why": "7.554 'quae fors prima dedit, sanguis novus imbuit arma'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "When the elders have voted certainly for war,",
+    "new": "When the elders have firmly decided on war,",
+    "why": "7.611 'sic, ubi certa sedet patribus sententia pugnae'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "the glass water of Fucinus",
+    "new": "the glassy water of Fucinus",
+    "why": "7.759 'vitrea ... unda'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0040",
+    "severity": "high",
+    "old": "That is why horned horses are kept far from the temple",
+    "new": "That is why hoofed horses are kept far from the temple",
+    "why": "7.778-779 'cornipedes arcentur equi': cornipes is 'horn-footed', i.e. hoofed. Horses with horns is a mistranslation."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "Here is my great house. From here my waters will one day wash the walls of mighty Rome.",
+    "new": "Here is my great house; my source rises among lofty cities.",
+    "why": "8.65 'hic mihi magna domus, celsis caput urbibus exit': the reading is debated (source among hill cities, or a capital to come), but neither says the river will wash Rome's walls; the edition invents the image. Taking the common reading."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0009",
+    "severity": "high",
+    "old": "Aeneas had been watching the man's face and his eyes all the while he spoke, the whole of him. When he finished Evander answered, short and warm:",
+    "new": "Aeneas finished. All the while he spoke, Evander had been watching his face and his eyes, taking in the whole of him. Now he answered, short and warm:",
+    "why": "8.152-154 'Dixerat Aeneas. ille os oculosque loquentis iamdudum et totum lustrabat lumine corpus. tum sic pauca refert': ille is Evander, studying Aeneas as he speaks. The edition gives the look to the wrong man."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "his dead-out eyes",
+    "new": "his terrible eyes",
+    "why": "8.265 'terribilis oculos': 'dead-out' is not English."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "lay hell bare to heaven,",
+    "new": "lay the house of the dead bare to heaven,",
+    "why": "8.244 'infernas reseret sedes': not 'hell' (names policy)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "the three-throated hound of hell lay fawning at his feet,",
+    "new": "the doorkeeper of Orcus trembled before him in his bloody cave,",
+    "why": "8.296-297 'te ianitor Orci ossa super recubans antro semesa cruento' (with 'tremuere'): the guard trembled; 'fawning' is invented, and 'hell' replaces Virgil's Orcus. Found on verification, not in the report."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0014",
+    "severity": "high",
+    "old": "and Evander between young Pallas and the old king led the way, easing the road with talk.",
+    "new": "and the old king, weighed down with years, walked with Aeneas and his son on either side of him, easing the road with talk.",
+    "why": "8.307-309 'ibat rex obsitus aevo, et comitem Aenean iuxta natumque tenebat ingrediens': the old king is Evander himself, flanked by Aeneas and Pallas. The edition splits him into two people and drops Aeneas."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0016",
+    "severity": "medium",
+    "old": "But Venus, frightened for her son — for the new war, and the rising threats, were no idle fear —",
+    "new": "But Venus, a mother frightened for her son, and not without cause, shaken by the Laurentines' threats and the fierce uprising,",
+    "why": "8.370-371 'at Venus haud animo nequiquam exterrita mater Laurentumque minis et duro mota tumultu': the parenthesis made the war a 'fear' and broke agreement."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0016",
+    "severity": "medium",
+    "old": "sword and fire ready to destroy my people — to conquer Venus a second time, in conquering them again.",
+    "new": "what walls behind shut gates are sharpening the sword against me, to destroy my people.",
+    "why": "8.385-386 'quae moenia clausis ferrum acuant portis in me excidiumque meorum': the 'conquer Venus a second time' clause is invented."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0023",
+    "severity": "medium",
+    "old": "to carry the news to Ascanius and his father's plans.",
+    "new": "to bring Ascanius news of his father and of how things stood.",
+    "why": "8.550 'nuntia ventura Ascanio rerumque patrisque': as written the news went to 'his father's plans'."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "the high gates of hell,",
+    "new": "the high gates of Dis,",
+    "why": "8.667 'alta ostia Ditis' (names policy)."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "calling the beaten home with all his garment into his blue lap",
+    "new": "spreading his whole robe wide and calling the beaten home into his blue lap",
+    "why": "8.712-713 'pandentemque sinus et tota veste vocantem caeruleum in gremium': 'with all his garment' is clumsy."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "the turning day has handed you for free.",
+    "new": "the turning day has brought you unasked.",
+    "why": "9.7 'volvenda dies en attulit ultro': 'for free' is shop talk (idioms policy)."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "\"No,\" said Ascanius —",
+    "new": "\"More than that,\" said Ascanius —",
+    "why": "9.257 'immo ego vos, cui sola salus genitore reducto': immo here caps Aletes's promise; 'No' makes Ascanius contradict him."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "But Euryalus couldn't resist Rhamnes's gear — the gold studs of the sword-belt;",
+    "new": "But Euryalus took Rhamnes's medallions and his belt studded with gold — a gift rich Caedicus once sent to Remulus of Tibur to seal their friendship from afar; Remulus left it to his grandson when he died, and after his death the Rutulians took it in war;",
+    "why": "9.359-364 'Rhamnetis phaleras et aurea bullis cingula, Tiburti Remulo ditissimus olim quae mittit dona, hospitio cum iungeret absens, Caedicus; ille suo moriens dat habere nepoti; post mortem bello Rutuli pugnaque potiti': the belt's history was cut."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "in the half-light of the early dawn,",
+    "new": "in the dim shadow of the night,",
+    "why": "9.373 'sublustri noctis in umbra': still night; 'dawn' clashes with the moonlight in the same sentence."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "sent to Troy against the rules, lightly armed",
+    "new": "sent to Troy in arms forbidden to one of his birth, lightly armed",
+    "why": "9.547 'vetitisque ad Troiam miserat armis': slave-born, he was barred from arms."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0029",
+    "severity": "low",
+    "old": "when the rainy Kids are rising,",
+    "new": "when the rainy stars of the Kids are rising,",
+    "why": "9.668 'pluvialibus Haedis': readers will not know the Kids are stars."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0031",
+    "severity": "medium",
+    "old": "that the enemy was hot with fresh slaughter and had thrown his own men open to the gates.",
+    "new": "that the enemy, hot with fresh slaughter, had thrown the gates wide open.",
+    "why": "9.693 'fervere caede nova et portas praebere': the edition's clause does not make sense."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0031",
+    "severity": "medium",
+    "old": "not with a spear, no spear would have stopped a man that size, but a whirling lance, a great javelin that came roaring in like a thunderbolt.",
+    "new": "not with a javelin — no javelin would have taken that man's life — but with a great siege-spear, hurled whirling, that came roaring in like a thunderbolt.",
+    "why": "9.704-706 'non iaculo (neque enim iaculo vitam ille dedisset), sed magnum stridens contorta phalarica venit fulminis acta modo': the edition contradicts itself (spear vs. lance and javelin)."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "that took the head clean off, helmet and all, at sword's length.",
+    "new": "that sent the head flying far, helmet and all.",
+    "why": "9.771 'longe cum casside': the head flies far; not 'at sword's length'."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "You were allowed to pull your son out of the fight — to draw the coward back from danger and leave a hollow phantom in his place.",
+    "new": "You can snatch Aeneas out of the hands of the Greeks, and set fog and empty wind where the man had stood.",
+    "why": "10.81-82 'tu potes Aenean manibus subducere Graium proque viro nebulam et ventos obtendere inanis': 'coward' is Juno's sneer added by the edition."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "Whether it's the camp's defenders who are held in by fate or the Trojans' own blunders,",
+    "new": "Whether the camp lies besieged because fate favors the Italians, or through Troy's own blunder and misleading oracles,",
+    "why": "10.109-110 'seu fatis Italum castra obsidione tenentur sive errore malo Troiae monitisque sinistris': the edition's clause is garbled."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0005",
+    "severity": "medium",
+    "old": "Asius and the brave brothers of Sarpedon's blood, both the Assaraci, young Haemon who was ready to die young, Clarus and Thymoetes, Tibris and Castor of Lycia.",
+    "new": "Asius son of Imbrasus and Thymoetes son of Hicetaon, the two Assaraci, and old Thymbris with Castor, in the front rank; and with them both brothers of Sarpedon, Clarus and Thaemon, from high Lycia.",
+    "why": "10.123-126 'Asius Imbrasides Hicetaoniusque Thymoetes Assaracique duo et senior cum Castore Thymbris, prima acies; hos germani Sarpedonis ambo et Clarus et Thaemon Lycia comitantur ab alta': the roster was scrambled, 'Haemon' and 'ready to die young' invented."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0005",
+    "severity": "high",
+    "old": "as strong as his brother Mnestheus or as Aeneas's own father.",
+    "new": "no less than his father Clytius or his brother Mnestheus.",
+    "why": "10.129 'nec Clytio genitore minor nec fratre Menestheo': Acmon's father is Clytius, not Anchises. The edition pins the comparison to the wrong man."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "like a gem set in gold against dark jet.",
+    "new": "like a gem set in yellow gold, or ivory gleaming inlaid in boxwood.",
+    "why": "10.134-137 'qualis gemma micat fulvum quae dividit aurum ... vel quale per artem inclusum buxo ... lucet ebur': 'jet' is invented; the ivory half of the simile was dropped."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "First Massicus, riding the Tiger over the foaming sea,",
+    "new": "First Massicus, cutting the foaming sea in the bronze-beaked Tiger,",
+    "why": "10.166 'Massicus aerata princeps secat aequora Tigri': readers will not know the Tiger is a ship."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "from the towers they let their spears fly with doubled force, like cranes against a dark southern storm, blackening the whole sky as they came on.",
+    "new": "from the towers they let their spears fly, and their shout was like the cry of cranes from the Strymon calling under black clouds as they sweep across the sky, flying before the south winds.",
+    "why": "10.264-266 'quales sub nubibus atris Strymoniae dant signa grues atque aethera tranant cum sonitu, fugiuntque Notos clamore secundo': the simile is for the shout, not spears blackening the sky."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "rolling from his car to spurn the ground",
+    "new": "rolling from his chariot to beat the ground with his heels",
+    "why": "10.404 'volvitur ... humumque calcibus tundit': 'car' is leftover archaism."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "to die under Evander's spear.",
+    "new": "to die under the spear of Evander's son.",
+    "why": "10.421 'telisque sacrarunt Evandri': Evander's arms in his son's hand; Evander is not on the field, and the edition reads as if he were."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0023",
+    "severity": "medium",
+    "old": "No good mother will bury you; no birds of the air will wait for your bones. You'll be left for the carrion and the fish — or you'll drift to the bottom of the sea, and the hungry monsters will lick your wounds.",
+    "new": "No loving mother will lay you in the earth or weigh your limbs down with your fathers' tomb. You'll be left to the wild birds — or the flood will sink you and carry you off, and hungry fish will lick your wounds.",
+    "why": "10.557-560 'non te optima mater condet humi patriove onerabit membra sepulchro: alitibus linquere feris, aut gurgite mersum unda feret piscesque impasti vulnera lambent': the edition contradicts itself (no birds, then carrion) and drops the fathers' tomb."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "pitched him from the car to the ground.",
+    "new": "pitched him from the chariot to the ground.",
+    "why": "'car' is leftover archaism."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0031",
+    "severity": "medium",
+    "old": "you'll be the trophy of Aeneas.",
+    "new": "you yourself will be my trophy over Aeneas.",
+    "why": "10.775-776 'ipsum te, Lause, tropaeum Aeneae': trophy won over Aeneas; 'trophy of Aeneas' reads as his."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "and I spared none of your gods.",
+    "new": "and I have no regard for any god.",
+    "why": "10.880 'nec divum parcimus ulli': any god, not 'your gods'."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "while we walk back to him in this useless funeral pomp, owing nothing more to anyone but the powers below, and carry him his son, a dead thing that can pay no other debt.",
+    "new": "while we walk back to him in this useless funeral pomp, grieving, bringing him his lifeless son, who owes nothing now to any god above.",
+    "why": "11.51-52 'nos iuvenem exanimum et nil iam caelestibus ullis debentem vano maesti comitamur honore': the dead young man owes nothing to the gods above; the edition put the debt on the mourners."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "The gods had backed the better cause; the fresh graves and the undried tears all said so.",
+    "new": "The anger of the gods and the fresh graves before his eyes told him so.",
+    "why": "11.232-233 'admonet ira deum tumulique ante ora recentes': the moral verdict was invented."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "— God, the cruelty of it —",
+    "new": "— oh, the cruel punishment of my men! —",
+    "why": "11.273 'heu, dira meorum supplicia!': no oath in a Greek's mouth (oaths policy)."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "and not be holding a council now,",
+    "new": "rather than holding a council now,",
+    "why": "11.302-303: verb did not agree."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "The man’s a fraud, and his pretended dread of crossing me is the same fraud —",
+    "new": "And you, master of tricks, pretend to tremble at my anger to make your charge sting more —",
+    "why": "11.406-407 'vel cum se pavidum contra mea iurgia fingit, artificis scelus, et formidine crimen acerbat': aimed at Drances; 'the man' sounds like Aeneas."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "he shan’t pay",
+    "new": "he won’t pay",
+    "why": "'shan't' is out of the edition's register."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0025",
+    "severity": "medium",
+    "old": "How many did you stretch on the earth as you died?",
+    "new": "How many dying men did you stretch on the earth?",
+    "why": "11.665 'quot humi morientia corpora fundis?': the bodies are dying, not Camilla."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0026",
+    "severity": "low",
+    "old": "where the helmet ends and the gorget begins,",
+    "new": "where the helmet ends and the breastplate begins,",
+    "why": "11.692 'loricam galeamque inter': 'gorget' is archaic."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "snapped the head off his own spear,",
+    "new": "snapped the head off the man’s own spear,",
+    "why": "11.748 'summa ipsius ab hasta defringit ferrum': Venulus's own spear, not Tarchon's."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "all the while shaking, his spear balanced and certain.",
+    "new": "all the while shaking his sure spear, relentless.",
+    "why": "11.767 'et certam quatit improbus hastam': Arruns shakes his spear; he does not tremble."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0029",
+    "severity": "medium",
+    "old": "and her soul fled with a groan, in anger, down to the shades.",
+    "new": "and life fled with a groan, resentful, down to the shades.",
+    "why": "11.831 = 12.952 'vitaque cum gemitu fugit indignata sub umbras': the poem's last line echoes Camilla's death word for word; both books now render it identically (shared-line policy)."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "send the Trojan deserter down to hell",
+    "new": "send the Trojan deserter down to Tartarus",
+    "why": "12.14-15 'sub Tartara mittam desertorem Asiae' (names policy)."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "my father Latinus will keep his arms",
+    "new": "my father-in-law Latinus will keep his arms",
+    "why": "12.192 'socer arma Latinus habeto': father-in-law."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "No day will break this peace for Italy, no peace however the world goes;",
+    "new": "No day will break this peace or this treaty for Italy, however things may fall;",
+    "why": "12.202-203 'nulla dies pacem hanc Italis nec foedera rumpet, quo res cumque cadent'."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "melt the sky down into hell.",
+    "new": "melt the sky down into Tartarus.",
+    "why": "12.205 'caelumque in Tartara solvat' (names policy)."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": "The poor foreigners frighten you like birds, and ravage your shores; but they'll run for the open sea in a pack, like that eagle.",
+    "new": "The shameless stranger frightens you with war as if you were helpless birds, and ravages your shores; but he will take to flight and spread his sails far out to sea, like that eagle.",
+    "why": "12.261-264 'quos improbus advena bello territat invalidas ut avis, et litora vestra vi populat. petet ille fugam penitusque vela dabit ponto': one hostile stranger, Aeneas; the Rutulians are the weak birds."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "Let me at it —",
+    "new": "Leave it to me —",
+    "why": "12.316 'me sinite': 'let me at it' is slang in Aeneas's mouth."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "out of the car between the reins,",
+    "new": "out of the chariot, between the reins,",
+    "why": "12.469-470 'media inter lora ... excutit': 'car' is leftover archaism."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "fenced by the crimson feathers of a hunt",
+    "new": "fenced in by the hunters' line of crimson feathers",
+    "why": "12.750 'puniceae saeptum formidine pennae': the scare-line of feathers."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0035",
+    "severity": "medium",
+    "old": "and I blessed her daring more for his life",
+    "new": "and I allowed her to dare greater things to save his life",
+    "why": "12.814 'et pro vita maiora audere probavi'."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0041",
+    "severity": "medium",
+    "old": "and his life fled with a groan, resentful, down to the shades.",
+    "new": "and life fled with a groan, resentful, down to the shades.",
+    "why": "12.952 = 11.831 'vitaque cum gemitu fugit indignata sub umbras': identical in both books (shared-line policy); no pronoun, as in the Latin."
+  }
+]

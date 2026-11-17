@@ -4,6 +4,7 @@
   "model": "claude-opus-4-8",
   "date": "2026-06-26",
   "vintage": 2026,
+  "revised": "2026-11-17",
   "sourceEditionIds": [
     "edition.dhammapada.muller-1881"
   ],
@@ -18,10 +19,10 @@
   "divergences": [
     {
       "locus": "verses 1–2",
-      "phrase": "All that we are is shaped by what we have thought; the mind goes before everything",
+      "phrase": "All that we are is shaped by what we have thought. The mind goes before everything; the mind is chief of all; everything is made of the mind",
       "older": "Müller (1881): \"All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.\"",
-      "lectio": "We keep Müller's famous opening cadence but restore the literal force of the Pali manopubbangama (\"mind goes first / mind precedes\"), making explicit that the mind leads, makes, and composes all things rather than only that we are a \"result.\"",
-      "note": "The Pali manopubbangama dhamma manomaya literally says the mind goes before the dhammas and they are mind-made. Müller's beloved \"all that we are is the result of what we have thought\" is interpretive; we preserve its music while adding the active sense that the mind goes before and makes everything."
+      "lectio": "We keep Müller's famous opening cadence, then give the Pali's three claims in its own order: the mind goes before (manopubbaṅgamā), the mind is chief (manoseṭṭhā), everything is made of the mind (manomayā). We do not say that the mind \"makes\" everything; the Pali does not say it.",
+      "note": "The Pali manopubbaṅgamā dhammā manoseṭṭhā manomayā says that the mind goes before the dhammas, is chief of them, and that they are mind-made. Müller's beloved \"all that we are is the result of what we have thought\" is interpretive; we keep its music as the opening line, because it is the verse most readers know, and let the three Pali terms follow it word for word, so the famous line stays recognizable without adding a claim the verse does not make."
     },
     {
       "locus": "verse 5",
@@ -48,21 +49,21 @@
       "locus": "throughout (21–32)",
       "phrase": "earnestness / thoughtlessness",
       "older": "earnestness … thoughtlessness (Müller, 1881)",
-      "lectio": "heedfulness … heedlessness / carelessness",
-      "note": "This whole chapter turns on the single Pali word appamada (and its opposite pamada), a key term that recurs across the book. It means vigilance, diligence, an unbroken wakefulness of mind — not Müller's Victorian 'earnestness,' which sounds like mere sincerity. We render it 'heedfulness' consistently so the reader can track the term."
+      "lectio": "heedfulness … heedlessness",
+      "note": "This whole chapter turns on the single Pali word appamada (and its opposite pamada), a key term that recurs across the book. It means vigilance, diligence, an unbroken wakefulness of mind — not Müller's Victorian 'earnestness,' which sounds like mere sincerity. We render it 'heedfulness,' and pamada 'heedlessness,' never 'carelessness,' here and throughout the book, so the reader can track the pair as the Pali's one word and its negation."
     },
     {
       "locus": "29",
       "phrase": "like a racer, leaving behind the hack",
       "older": "the wise man advances like a racer, leaving behind the hack (Müller, 1881)",
-      "lectio": "the wise leave them far behind, like a swift horse leaving a slow one in its dust",
-      "note": "The Pali image (abalassam va sighasso) is a fast horse outrunning a weak or worn-out one. 'Hack' is now obscure slang for a tired nag, so we make the picture plain — swift horse against slow — while keeping the racing energy of the line."
+      "lectio": "the wise leave them far behind, like a swift horse that leaves a weak one behind",
+      "note": "The Pali image (abalassam va sighasso) is a fast horse outrunning a weak or worn-out one. 'Hack' is now obscure slang for a tired nag, so we make the picture plain — a swift horse and a weak one, as the Pali has it — and add no stock idiom (\"in its dust\") to the line."
     },
     {
       "locus": "33",
       "phrase": "his trembling and unsteady thought",
       "older": "a wise man makes straight his trembling and unsteady thought (Müller 1881)",
-      "lectio": "the wise straighten the mind — restless and unsteady",
+      "lectio": "the wise straighten the mind—restless and unsteady",
       "note": "Müller renders Pali citta as 'thought' throughout this chapter, but citta is the mind/heart as a whole — the seat of intention and feeling, not a single passing thought. The Lectio edition reads it as 'the mind' consistently, so the chapter's argument (the untamed mind versus the tamed) holds together; the arrow-maker simile is kept intact."
     },
     {
@@ -88,10 +89,10 @@
     },
     {
       "locus": "51-52",
-      "phrase": "full of color but with no scent … the fine words of one who speaks well but does not act",
+      "phrase": "full of color but with no scent … fine words that bear no fruit in one who does not act on them",
       "older": "Müller (1881): \"Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.\"",
-      "lectio": "We render subhāsitā (well-spoken) as \"fine words\" and akubbato (not doing) as \"does not act,\" and let the contrast of the two verses carry the point — color without scent is fine words that bear no fruit; color with scent is fine words that bear fruit.",
-      "note": "The crux is that the flower's beauty (color) is the speech, and its scent is the action that makes the speech bear fruit. Müller's \"fruitless words\" is interpretive; we hold the flower-image steady across both verses (color, scent) and let \"does not act\" / \"acts on them, and they bear fruit\" supply the meaning the Pali draws from the same picture."
+      "lectio": "We follow the Pali subhāsitā vācā aphalā hoti akubbato: fine words \"bear no fruit in one who does not act on them\" (51), and \"bear fruit in one who acts on them\" (52), so the two verses mirror each other as the Pali's aphalā and saphalā do.",
+      "note": "The crux is that the flower's beauty (color) is the speech, and its scent is the action that makes the speech bear fruit. The Pali itself calls the words fruitless (aphalā) in the one who does not act, so Müller's \"fruitless words\" is closer than it looks. We keep the fruit, put it where the Pali puts it, and hold the flower image steady across both verses (color, scent), so that \"does not act on them\" and \"acts on them\" carry the whole difference."
     },
     {
       "locus": "54",
@@ -216,8 +217,8 @@
       "locus": "134",
       "phrase": "like a gong that is cracked and gives no sound",
       "older": "Müller (1881): \"If, like a shattered metal plate (gong), thou utter not, then thou hast reached Nirvana.\"",
-      "lectio": "We keep Müller's gong but free its diction—\"a gong that is cracked and gives no sound\" for \"a shattered metal plate\"—and render esa patto'si nibbanam as having \"come close to Nirvana,\" the verse's promise to the one who answers anger with silence.",
-      "note": "The Pali kamso upahato yatha is a struck bronze gong that has been flattened or cracked so that it no longer rings—dull and silent. The image is exact: the person who will not retaliate, who absorbs a harsh word and gives back no sound, has stilled the strife (sarambha) in himself and stands at the threshold of Nirvana. \"Cracked and gives no sound\" keeps the picture concrete where \"shattered metal plate\" goes vague."
+      "lectio": "We keep Müller's gong but free its diction—\"a gong that is cracked and gives no sound\" for \"a shattered metal plate\"—and render esa patto'si nibbānaṃ as \"then you have reached Nirvana,\" as the Pali says, the verse's promise to the one who answers anger with silence.",
+      "note": "The Pali kamso upahato yatha is a struck bronze gong that has been flattened or cracked so that it no longer rings—dull and silent. The image is exact: the person who will not retaliate, who absorbs a harsh word and gives back no sound, has stilled the strife (sarambha) in himself and has reached Nirvana: patto'si is \"you have reached,\" not \"you have come close.\" \"Cracked and gives no sound\" keeps the picture concrete where \"shattered metal plate\" goes vague."
     },
     {
       "locus": "137",
@@ -235,10 +236,10 @@
     },
     {
       "locus": "154",
-      "phrase": "my mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving",
+      "phrase": "My mind has reached the unconditioned; I have come to the end of craving",
       "older": "Müller (1881): \"the mind, approaching the Eternal (visankhara, nirvana), has attained to the extinction of all desires.\"",
-      "lectio": "We render visaṅkhāragataṃ cittaṃ taṇhānaṃ khayam ajjhagā as \"my mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving,\" choosing \"the unconditioned\" for visaṅkhāra rather than Müller's \"the Eternal,\" and \"the end of craving\" for taṇhānaṃ khaya rather than the vaguer \"extinction of all desires.\"",
-      "note": "Visaṅkhāra is the \"un-constructed\" or unconditioned — that which is not put together out of formations (saṅkhāra), a standard epithet of Nibbāna; \"the Eternal\" smuggles in a different metaphysic. And taṇhā is specifically craving, the very \"house-builder\" of the verse before, so the climax names its end exactly: the mind has reached the unmade, and craving is finished. We keep \"Nirvana\" alongside, as the Pali tradition glosses it."
+      "lectio": "We render visaṅkhāragataṃ cittaṃ taṇhānaṃ khayam ajjhagā as \"My mind has reached the unconditioned; I have come to the end of craving,\" choosing \"the unconditioned\" for visaṅkhāra rather than Müller's \"the Eternal,\" and \"the end of craving\" for taṇhānaṃ khaya rather than the vaguer \"extinction of all desires.\"",
+      "note": "Visaṅkhāra is the \"un-constructed\" or unconditioned — that which is not put together out of formations (saṅkhāra), a standard epithet of Nibbāna; \"the Eternal\" smuggles in a different metaphysic. And taṇhā is specifically craving, the very \"house-builder\" of the verse before, so the climax names its end exactly: the mind has reached the unmade, and craving is finished. Visaṅkhāra is one word, so the line gives it one: \"Nirvana\" in Müller's parenthesis is a gloss, and it stays out of the verse."
     },
     {
       "locus": "150",
@@ -291,10 +292,10 @@
     },
     {
       "locus": "188-192",
-      "phrase": "the safe refuge—the Buddha, the Dhamma, the Sangha, and the Four Noble Truths",
+      "phrase": "The one who takes refuge in the Buddha, in the teaching, and in the Order, and who sees with right wisdom the Four Noble Truths",
       "older": "Müller (1881): \"He who takes refuge with Buddha, the Law, and the Church; he who, with clear understanding, sees the four holy truths:—viz. pain, the origin of pain, the destruction of pain, and the eightfold holy way that leads to the quieting of pain;—that is the safe refuge.\"",
-      "lectio": "We keep the famous structure intact but restore the Buddhist terms the Pali names directly: the Dhamma (the Law) and the Sangha (the Order) for Müller's vaguer \"the Law and the Church,\" and render the Four Noble Truths as suffering, its cause, its ending, and the Noble Eightfold Path—not the abstract \"pain\" and \"quieting of pain.\"",
-      "note": "The Pali (Buddhaṃ dhammaṃ ca saṅghaṃ ca … cattāri ariyasaccāni) names the three refuges and the four truths that are the doctrinal heart of the whole tradition. \"Church\" wrongly imports a Christian institution for saṅgha, the monastic community; \"Order\" is the standard rendering. Müller's dukkha as \"pain\" is too narrow—dukkha is suffering, unsatisfactoriness, the whole ache of conditioned existence. We hold the refuge verses and the four truths complete and explicit, since this is the passage the chapter exists for."
+      "lectio": "We keep the famous structure intact and give each refuge one English name: the Buddha, \"the teaching\" for dhamma, and \"the Order\" for saṅgha, in place of Müller's \"the Law and the Church\"; and we render the Four Noble Truths as suffering, its cause, its ending, and the Noble Eightfold Path—not the abstract \"pain\" and \"quieting of pain.\"",
+      "note": "The Pali (Buddhaṃ dhammaṃ ca saṅghaṃ ca … cattāri ariyasaccāni) names the three refuges and the four truths that are the doctrinal heart of the whole tradition. \"Church\" wrongly imports a Christian institution for saṅgha, the monastic community; \"Order\" is the standard rendering. Dhamma here is the Buddha's doctrine, so it is \"the teaching,\" as everywhere in the book; a doubled name (\"the Dhamma—the Law\") would break the refuge formula. Müller's dukkha as \"pain\" is too narrow—dukkha is suffering, unsatisfactoriness, the whole ache of conditioned existence. We hold the refuge verses and the four truths complete and explicit, since this is the passage the chapter exists for."
     },
     {
       "locus": "183",
@@ -368,10 +369,10 @@
     },
     {
       "locus": "229-230",
-      "phrase": "worthy as a coin of the purest river-gold",
+      "phrase": "like a coin of gold from the Jambu river",
       "older": "Müller (1881): \"like a coin made of gold from the Gambu river? Even the gods praise him, he is praised even by Brahman.\"",
-      "lectio": "We render nikkhaṃ jambonadassa as \"a coin of the purest river-gold,\" dropping Müller's transliterated \"Gambu river,\" which means nothing to a modern reader, while keeping the image of finest gold and the closing line that even the gods—and Brahman himself—praise such a person.",
-      "note": "Jambonada (jambūnada) gold is the legendary finest gold, said to come from the Jambu river; a nikkha is a weight or ornament or coin of it. Müller's \"Gambu river\" is a bare transliteration that conveys nothing; the point is simply gold of the highest purity, beyond all blame. We keep \"river-gold\" to preserve the image's origin without the opaque proper noun, and preserve Brahman by name, as the verse climaxes on the praise of the gods and of Brahman himself."
+      "lectio": "We render nikkhaṃ jambonadassa as \"a coin of gold from the Jambu river,\" keeping the river that Müller transliterates as \"Gambu,\" and give the verse its question whole: who would dare to blame such a one? The close names the god Brahmā, \"Brahma\": even the gods praise him, and even Brahma.",
+      "note": "Jambonada (jambūnada) gold is the legendary finest gold, said to come from the Jambu river; a nikkha is a weight or ornament or coin of it. The river's name is in the Pali, so we keep it, in its usual modern spelling, rather than reduce it to \"river-gold.\" Brahmunāpi pasaṃsito names the god Brahmā, not Brahman, the impersonal absolute; Müller's \"Brahman\" now reads as the second, so the edition says \"Brahma\" here, as in verse 105."
     },
     {
       "locus": "240",
@@ -398,8 +399,8 @@
       "locus": "256-257",
       "phrase": "You are not just because you settle a case in haste",
       "older": "Müller (1881): \"A man is not just if he carries a matter by violence; no, he who distinguishes both right and wrong... not by violence, but by law and equity... he is called just.\"",
-      "lectio": "We render the Pali yenatthaṃ sahasā naye as \"settle a case in haste\" rather than Müller's \"carries a matter by violence,\" and keep dhamma as \"what is right\" / \"established in dhamma\" rather than the legalistic \"law and equity.\"",
-      "note": "The Pali sahasā means rashly, hastily, arbitrarily—deciding a lawsuit on impulse rather than weighing it; the verse was spoken of corrupt judges. Müller's \"violence\" reaches for the rarer sense of sahasa (force) and misses the point, which is that hasty, partial judgment is what makes a judge unjust. Dhammaṭṭha is \"one who stands in dhamma,\" so we keep \"established in dhamma\" to chime with the chapter's title (Dhammaṭṭhavagga) rather than flattening dhamma to civil \"law.\""
+      "lectio": "We render the Pali yenatthaṃ sahasā naye as \"settle a case in haste\" rather than Müller's \"carries a matter by violence,\" and, where dhamma means justice, render it \"law\" each time: the just judge leads others \"fairly and by law,\" is \"guarded by the law,\" and is \"one who stands in the law.\"",
+      "note": "The Pali sahasā means rashly, hastily, arbitrarily—deciding a lawsuit on impulse rather than weighing it; the verse was spoken of corrupt judges. Müller's \"violence\" reaches for the rarer sense of sahasa (force) and misses the point, which is that hasty, partial judgment is what makes a judge unjust. Dhamma here is justice, not the Buddha's teaching: dhammena samena neti pare, dhammassa gutto medhāvī, dhammaṭṭho. The Pali repeats one word three times, so we use one English word three times, \"law,\" rather than leave dhamma untranslated or alternate it with \"what is right.\" \"One who stands in the law\" still echoes the chapter's title (Dhammaṭṭhavagga)."
     },
     {
       "locus": "261",
@@ -419,8 +420,8 @@
       "locus": "277–279",
       "phrase": "All conditioned things are impermanent … suffering … without a self—when you see this with wisdom, you turn away from suffering",
       "older": "Müller (1881): \"'All created things perish' … 'All created things are grief and pain' … 'All forms are unreal,' he who knows and sees this becomes passive in pain; this is the way to purity.\"",
-      "lectio": "We restore the three marks as the Pali names them and keeps them parallel: sabbe sankhara anicca (impermanent), sabbe sankhara dukkha (suffering), sabbe dhamma anatta (without self), each closing on the refrain \"you turn away from suffering; this is the path to purity.\"",
-      "note": "These three verses are the doctrinal core of the chapter—the tilakkhana, the three marks of existence. Müller's \"all forms are unreal\" for sabbe dhamma anatta is wrong: anatta is \"without self,\" not \"unreal,\" and dhamma here is all things, not \"forms.\" His \"becomes passive in pain\" mistranslates atha nibbindati dukkhe—nibbindati is to grow weary of, to turn away in disenchantment from, suffering. We keep the Pali terms in parentheses and the refrain identical across all three so the marks read as the matched triad the Pali makes them."
+      "lectio": "We restore the three marks as the Pali names them and keeps them parallel: impermanent (sabbe sankhara anicca), suffering (sabbe sankhara dukkha), without a self (sabbe dhamma anatta), each closing on the refrain \"you turn away from suffering. This is the path to purity.\"",
+      "note": "These three verses are the doctrinal core of the chapter—the tilakkhana, the three marks of existence. Müller's \"all forms are unreal\" for sabbe dhamma anatta is wrong: anatta is \"without self,\" not \"unreal,\" and dhamma here is all things, not \"forms.\" His \"becomes passive in pain\" mistranslates atha nibbindati dukkhe—nibbindati is to grow weary of, to turn away in disenchantment from, suffering. We keep the refrain identical across all three so the marks read as the matched triad the Pali makes them. The Pali terms stay here in the note, not in the verse."
     },
     {
       "locus": "273",
@@ -480,17 +481,17 @@
     },
     {
       "locus": "323",
-      "phrase": "the untrodden country, Nirvana",
+      "phrase": "the untrodden country",
       "older": "Müller (1881): \"For with these animals does no man reach the untrodden country (Nirvana), where a tamed man goes on a tamed animal, viz. on his own well-tamed self.\"",
-      "lectio": "We keep Müller's vivid \"untrodden country\" for the Pali agataṁ disaṁ and hold the wordplay of the last line intact—\"tamed, riding his own well-tamed self\"—while smoothing his clogged \"viz. on his own well-tamed self.\"",
+      "lectio": "We keep Müller's vivid \"untrodden country\" for the Pali agataṁ disaṁ, without his parenthetical \"(Nirvana),\" which the Pali does not have, and hold the wordplay of the last line intact—\"tamed, riding his own well-tamed self\"—while smoothing his clogged \"viz. on his own well-tamed self.\"",
       "note": "The Pali agataṁ disaṁ is literally \"the region not gone to,\" the place no ordinary traveler has ever reached, a standing image for Nibbana; danto dantena gacchati turns on danta (tamed), so the self-tamed person rides to the goal on the only mount that can carry anyone there—his own tamed self. \"Untrodden country\" keeps that picture; we drop the Victorian \"viz.\" so the verse reads as one clean line."
     },
     {
       "locus": "324",
-      "phrase": "his temples streaming in must",
+      "phrase": "in rut, his temples streaming",
       "older": "Müller (1881): \"his temples running with sap, and difficult to hold, does not eat a morsel when bound; the elephant longs for the elephant grove.\"",
-      "lectio": "We render the Pali kaṭukabhedano (the rut-fluid breaking from the temples) as \"his temples streaming in must,\" the proper term for a bull elephant in heat, rather than Müller's vague \"running with sap,\" and keep Dhanapalaka by name and the elephant's longing for the grove exact.",
-      "note": "A male elephant in musth (Pali: the temporal glands breaking and flowing) is wild and uncontrollable; the captured Dhanapalaka refuses food, pining for the freedom of the elephant-grove. \"Running with sap\" obscures the image, since the fluid is the elephant's own rut, not tree-sap. \"Must/musth\" is the exact English word for the condition and keeps the verse's picture of a powerful creature that cannot be held and will not be consoled in captivity."
+      "lectio": "We render the Pali kaṭukabhedano (the rut-fluid breaking from the temples) as \"in rut, his temples streaming,\" rather than Müller's vague \"running with sap,\" and keep Dhanapalaka by name and the elephant's longing for the grove exact.",
+      "note": "A male elephant in musth (Pali: the temporal glands breaking and flowing) is wild and uncontrollable; the captured Dhanapalaka refuses food, pining for the freedom of the elephant-grove. \"Running with sap\" obscures the image, since the fluid is the elephant's own rut, not tree-sap. \"Must\" is the exact English word for the condition, but in the line it reads as the verb; \"in rut\" says the same plainly and keeps the verse's picture of a powerful creature that cannot be held and will not be consoled in captivity."
     },
     {
       "locus": "329-330",
@@ -522,10 +523,10 @@
     },
     {
       "locus": "354",
-      "phrase": "The gift of the Dhamma surpasses all gifts … the end of craving conquers all sorrow",
+      "phrase": "The gift of the teaching surpasses all gifts … the end of craving conquers all sorrow",
       "older": "Müller (1881): \"The gift of the law exceeds all gifts; the sweetness of the law exceeds all sweetness; the delight in the law exceeds all delights; the extinction of thirst overcomes all pain.\"",
-      "lectio": "We restore the term Dhamma for Müller's flattened \"the law,\" render rasa as \"taste\" rather than \"sweetness,\" and translate taṇhakkhayo as \"the end of craving\" overcoming \"all sorrow\" rather than \"the extinction of thirst\" over \"pain.\"",
-      "note": "This is the chapter's most quoted verse (sabbadānaṃ dhammadānaṃ jināti…). Dhamma is the teaching itself, not civil \"law\"; we keep the proper term as we do throughout the book. Rasa is taste/flavor, so \"the taste of the Dhamma surpasses all tastes\" holds the fourfold parallel exact (gift, taste, delight, conquest). And taṇhakkhaya is precisely \"the end of craving,\" the goal the whole chapter drives at, conquering dukkha—sorrow, suffering—not merely \"pain.\""
+      "lectio": "We render dhamma as \"the teaching\" for Müller's flattened \"the law,\" render rasa as \"taste\" rather than \"sweetness,\" and translate taṇhakkhayo as \"the end of craving\" overcoming \"all sorrow\" rather than \"the extinction of thirst\" over \"pain.\"",
+      "note": "This is the chapter's most quoted verse (sabbadānaṃ dhammadānaṃ jināti…). Dhamma is the teaching itself, not civil \"law\"; we say \"the teaching,\" as we do throughout the book. Rasa is taste/flavor, so \"the taste of the teaching surpasses all tastes\" holds the fourfold parallel exact (gift, taste, delight, conquest). And taṇhakkhaya is precisely \"the end of craving,\" the goal the whole chapter drives at, conquering dukkha—sorrow, suffering—not merely \"pain.\""
     },
     {
       "locus": "370",
@@ -550,10 +551,10 @@
     },
     {
       "locus": "383",
-      "phrase": "Knowing the destruction of all that is made, you will know the Uncreated, Nirvana",
+      "phrase": "Once you have understood the destruction of all that is made, you will know the Uncreated",
       "older": "Müller (1881): \"When you have understood the destruction of all that was made, you will understand that which was not made.\"",
-      "lectio": "We keep Müller's made/unmade antithesis but name the unmade plainly as the Uncreated, Nirvana, so the chapter—and the whole book—opens its finale on the goal itself rather than an abstraction the modern reader will miss.",
-      "note": "The Pali saṅkhārānaṃ khayaṃ ñatvā akataññū'si brāhmaṇa turns on saṅkhāra (the made, the conditioned, all that is put together) against akata (the un-made, the unconditioned)—a standard epithet of Nibbāna. Müller's bare \"that which was not made\" is faithful but opaque; we keep the contrast and let \"the Uncreated, Nirvana\" carry the meaning, as the Pali tradition glosses akata. \"Cut off the stream\" keeps chinda sotaṃ, the stream of craving whose cutting makes one a stream-enterer."
+      "lectio": "We keep Müller's made/unmade antithesis but name the unmade plainly as \"the Uncreated,\" so the chapter opens its finale on the goal itself rather than an abstraction the modern reader will miss. \"Nirvana\" is not added to the line.",
+      "note": "The Pali saṅkhārānaṃ khayaṃ ñatvā akataññū'si brāhmaṇa turns on saṅkhāra (the made, the conditioned, all that is put together) against akata (the un-made, the unconditioned)—a standard epithet of Nibbāna. Müller's bare \"that which was not made\" is faithful but opaque; we keep the contrast and let \"the Uncreated\" carry it. The tradition reads akata as Nibbāna, but the verse does not name it, so the name stays out of the line. \"Cut off the stream\" keeps chinda sotaṃ, the stream of craving whose cutting makes one a stream-enterer."
     },
     {
       "locus": "393",
@@ -576,18 +577,18 @@
       "order": 1,
       "label": "Chapter I. The Twin-Verses",
       "paragraphs": [
-        "1. All that we are is shaped by what we have thought. The mind goes before everything; the mind makes everything; everything is made of the mind. If you speak or act with a corrupted mind, suffering follows you, as the wheel follows the foot of the ox that pulls the cart.",
-        "2. All that we are is shaped by what we have thought. The mind goes before everything; the mind makes everything; everything is made of the mind. If you speak or act with a clear mind, happiness follows you, like a shadow that never leaves.",
-        "3. \"He insulted me, he struck me, he beat me, he robbed me\"—in those who hold on to such thoughts, hatred never ends.",
-        "4. \"He insulted me, he struck me, he beat me, he robbed me\"—in those who let go of such thoughts, hatred comes to an end.",
+        "1. All that we are is shaped by what we have thought. The mind goes before everything; the mind is chief of all; everything is made of the mind. If you speak or act with a corrupted mind, suffering follows you, as the wheel follows the foot of the ox that pulls the cart.",
+        "2. All that we are is shaped by what we have thought. The mind goes before everything; the mind is chief of all; everything is made of the mind. If you speak or act with a clear mind, happiness follows you, like a shadow that never leaves.",
+        "3. \"He insulted me, he struck me, he got the better of me, he robbed me\"—in those who hold on to such thoughts, hatred never ends.",
+        "4. \"He insulted me, he struck me, he got the better of me, he robbed me\"—in those who let go of such thoughts, hatred comes to an end.",
         "5. Hatred is never ended by hatred. Hatred ends only by love—this is the ancient and unchanging law.",
         "6. Most people never grasp that we are all bound to die here. But those who do grasp it lay down their quarrels at once.",
-        "7. Whoever lives chasing only pleasures, with his senses unguarded, eating without limit, lazy and weak—Mara, the tempter, will overthrow him as the wind overthrows a frail tree.",
+        "7. Whoever lives chasing only pleasures, with his senses unguarded, eating without limit, lazy and weak—Mara will overthrow him as the wind overthrows a frail tree.",
         "8. Whoever lives without chasing pleasures, with his senses well guarded, eating in moderation, faithful and strong—Mara will no more overthrow him than the wind can overthrow a mountain of rock.",
         "9. Whoever puts on the saffron robe before he has cleansed himself of his own corruption, who has no self-restraint and no truth in him, is not worthy of the robe.",
         "10. But whoever has cleansed himself of corruption, is firmly rooted in virtue, and holds to self-restraint and truth, he is truly worthy of the robe.",
-        "11. Those who take the false for the true, and see the true as false, never reach the truth; they wander after empty desires.",
-        "12. Those who know the true as true, and the false as false, do reach the truth; they follow desires that are real.",
+        "11. Those who take the false for the true, and see the true as false, never reach the truth; they wander after wrong intentions.",
+        "12. Those who know the true as true, and the false as false, do reach the truth; they follow right intentions.",
         "13. As rain breaks through a poorly thatched house, so craving breaks through an undisciplined mind.",
         "14. As rain cannot break through a well-thatched house, so craving cannot break through a well-disciplined mind.",
         "15. The wrongdoer grieves in this world and grieves in the next; in both he grieves. He grieves and suffers when he sees the harm his own deeds have done.",
@@ -606,15 +607,15 @@
         "21. Heedfulness is the path to the deathless; heedlessness is the path to death. The heedful do not die; the heedless are as if already dead.",
         "22. Seeing this clearly, the wise hold heedfulness above all else. They take their joy in heedfulness, delighting in the ground the Noble Ones walk.",
         "23. These are the meditators, steady, unrelenting in their effort; and these are the ones, strong and clear-minded, who reach Nirvana, the highest freedom, the highest peace.",
-        "24. The one who has roused himself and stays awake, whose deeds are clean, who acts with care, who holds himself in check and lives by what is right and heedful — his good name only grows.",
+        "24. The one who has roused himself and stays awake, whose deeds are clean, who acts with care, who holds himself in check and lives by what is right and heedful—his good name only grows.",
         "25. By rousing himself, by heedfulness, by self-mastery and self-control, let the wise build an island that no flood can wash away.",
-        "26. Fools, the slow-witted, give themselves over to carelessness. The wise guard their heedfulness as their most precious treasure.",
-        "27. Do not give yourself to carelessness; do not give yourself to the pleasures of desire. Heedful and absorbed in meditation, you will come into ample joy.",
-        "28. When the wise drive out carelessness by heedfulness, they climb the high terraces of wisdom and, free of sorrow, look down on the sorrowing crowd — as one standing on a mountain looks down on those who stand on the plain.",
-        "29. Heedful among the heedless, wide awake among the sleeping, the wise leave them far behind, like a swift horse leaving a slow one in its dust.",
-        "30. By heedfulness Indra rose to be lord of the gods. Heedfulness is forever praised; carelessness is forever blamed.",
-        "31. The monk who delights in heedfulness and dreads carelessness moves like a fire, burning away every fetter, small or great.",
-        "32. The monk who delights in heedfulness and dreads carelessness cannot fall back — he stands close upon Nirvana."
+        "26. Fools, the slow-witted, give themselves over to heedlessness. The wise guard their heedfulness as their most precious treasure.",
+        "27. Do not give yourself to heedlessness; do not give yourself to sensual delight. Heedful and absorbed in meditation, you will come into ample joy.",
+        "28. When the wise drive out heedlessness by heedfulness, they climb the high terraces of wisdom and, free of sorrow, look down on the sorrowing crowd—as one standing on a mountain looks down on those who stand on the plain.",
+        "29. Heedful among the heedless, wide awake among the sleeping, the wise leave them far behind, like a swift horse that leaves a weak one behind.",
+        "30. By heedfulness Maghavan rose to be lord of the gods. Heedfulness is forever praised; heedlessness is forever blamed.",
+        "31. The monk who delights in heedfulness and dreads heedlessness moves like a fire, burning away every fetter, small or great.",
+        "32. The monk who delights in heedfulness and dreads heedlessness cannot fall back—he is close to Nirvana."
       ],
       "title": "Heedfulness"
     },
@@ -622,17 +623,17 @@
       "order": 3,
       "label": "Chapter III. Thought",
       "paragraphs": [
-        "33. As an arrow-maker straightens his arrow, the wise straighten the mind — restless and unsteady, hard to guard, hard to hold back.",
+        "33. As an arrow-maker straightens his arrow, the wise straighten the mind—restless and unsteady, hard to guard, hard to hold back.",
         "34. Like a fish pulled from the water and thrown on dry land, the mind thrashes and quivers as it struggles to escape the grip of Mara.",
         "35. The mind is hard to hold down, light and quick, settling wherever it pleases. Good it is to tame it; a tamed mind brings happiness.",
         "36. Let the wise watch over the mind, so hard to see, so subtle, settling wherever it pleases. A mind well guarded brings happiness.",
         "37. The mind travels far, wanders alone, has no body, and hides in the cave of the heart. Those who keep it in check will be freed from the bonds of Mara.",
         "38. If the mind is unsteady, if a person does not know the true teaching, if their peace is shaken, their wisdom will never come to fullness.",
         "39. But for one whose mind is unshaken, untroubled, who has let go of both good and evil and stays awake, there is no fear.",
-        "40. Knowing this body to be fragile as a clay jar, make the mind a fortress, and with the weapon of wisdom go to war against Mara — then guard what you have won, and never rest at ease.",
+        "40. Knowing this body to be fragile as a clay jar, make the mind a fortress, and with the weapon of wisdom go to war against Mara—then guard what you have won, and never rest at ease.",
         "41. Before long, alas, this body will lie on the ground, cast aside, empty of awareness, like a useless log.",
         "42. Whatever harm an enemy may do to an enemy, or a hater to one he hates, a misdirected mind will do you far worse.",
-        "43. Not a mother, not a father, not any kin can do for you what a rightly directed mind can do — far greater is its gift."
+        "43. Not a mother, not a father, not any kin can do for you what a rightly directed mind can do—far greater is its gift."
       ],
       "title": "The Mind"
     },
@@ -640,18 +641,18 @@
       "order": 4,
       "label": "Chapter IV. Flowers",
       "paragraphs": [
-        "44. Who will master this earth, and the realm of Death, and the world of the gods? Who will gather the well-taught path of virtue, as a skilled hand chooses the right flower?",
-        "45. The disciple in training will master this earth, and the realm of Death, and the world of the gods. The disciple will gather the well-taught path of virtue, as a skilled hand chooses the right flower.",
+        "44. Who will master this earth, and the realm of Yama, and the world of the gods? Who will gather the well-taught path of virtue, as a skilled hand chooses the right flower?",
+        "45. The disciple in training will master this earth, and the realm of Yama, and the world of the gods. The disciple will gather the well-taught path of virtue, as a skilled hand chooses the right flower.",
         "46. Whoever knows that this body is like foam, and sees that it is as fleeting as a mirage, will snap the flower-tipped arrows of Mara and pass beyond the sight of the King of Death.",
-        "47. Death sweeps away the one who is busy gathering flowers, his mind elsewhere, as a flood sweeps away a sleeping village.",
-        "48. Death overpowers the one who is busy gathering flowers, his mind elsewhere, before he has had his fill of pleasure.",
+        "47. Death sweeps away the one who is busy gathering flowers, his mind caught up in them, as a flood sweeps away a sleeping village.",
+        "48. Death overpowers the one who is busy gathering flowers, his mind caught up in them, before he has had his fill of pleasure.",
         "49. As the bee takes the nectar and flies off without harming the flower, its color, or its scent, so let the sage move through the village.",
         "50. Let the sage not dwell on the faults of others, on what they have done or left undone, but only on what he himself has done or left undone.",
-        "51. Like a lovely flower, full of color but with no scent, are the fine words of one who speaks well but does not act.",
-        "52. But like a lovely flower, full of color and full of scent, are the fine words of one who speaks well and acts on them, and they bear fruit.",
+        "51. Like a lovely flower, full of color but with no scent, are fine words that bear no fruit in one who does not act on them.",
+        "52. But like a lovely flower, full of color and full of scent, are fine words that bear fruit in one who acts on them.",
         "53. As many garlands can be woven from a heap of flowers, so should a mortal, once born, do many good things with this life.",
-        "54. The scent of flowers does not travel against the wind, nor the scent of sandalwood, of tagara, or of jasmine; but the fragrance of the good travels even against the wind. A good person reaches every quarter.",
-        "55. Sandalwood and tagara, the lotus and the jasmine — sweet as all these perfumes are, the fragrance of virtue surpasses them all.",
+        "54. The scent of flowers does not travel against the wind, nor the scent of sandalwood, of tagara, or of jasmine; but the fragrance of the good travels even against the wind. The fragrance of the good spreads in every direction.",
+        "55. Sandalwood and tagara, the lotus and the jasmine—sweet as all these perfumes are, the fragrance of virtue surpasses them all.",
         "56. Faint is the scent of tagara and sandalwood; but the fragrance of those who keep virtue is the finest of all, and it rises even to the gods.",
         "57. Mara never finds the path of those who keep these virtues, who live in heedfulness, and who are set free by true knowledge.",
         "58, 59. As on a heap of rubbish tossed by the roadside a lotus may grow, sweet-scented and a delight to the heart, so among the rubbish of blind and ordinary people the disciple of the truly awakened Buddha shines out in wisdom."
@@ -670,12 +671,12 @@
         "65. But if a clear-minded man keeps company with a wise man for even a moment, he grasps the truth at once, as the tongue tastes the flavor of the soup.",
         "66. Fools, dull of understanding, are their own worst enemies, for they do evil deeds that bear bitter fruit.",
         "67. That deed is not well done which a man regrets afterward, whose fruit he receives weeping, with tears on his face.",
-        "68. But that deed is well done which a man does not regret, whose fruit he receives gladly and with a glad heart.",
+        "68. But that deed is well done which a man does not regret, whose fruit he receives with delight and a happy heart.",
         "69. As long as the evil deed has not yet ripened, the fool thinks it sweet as honey; but when it ripens, the fool comes to grief.",
         "70. Month after month a fool may eat his food with the tip of a blade of kusa grass, like an ascetic—yet he is not worth a sixteenth part of those who have truly understood the teaching.",
         "71. An evil deed does not curdle at once, like fresh milk; it follows the fool smoldering, like a fire hidden under ashes.",
         "72. And when at last it comes to light, that evil deed brings the fool only sorrow; it shatters his good fortune and splits his very head.",
-        "73. Let the fool crave a reputation he has not earned, precedence among the monks, authority in the monasteries, and honor from people everywhere.",
+        "73. The fool wants a reputation he has not earned, precedence among the monks, authority in the monasteries, and honor from people everywhere.",
         "74. \"Let both layfolk and monks think this was done by me; let them defer to me in all things, great and small\"—such is the mind of the fool, and his craving and his pride only swell.",
         "75. One road leads to worldly gain, another leads to Nirvana. Knowing this, let the monk, the follower of the Buddha, take no delight in honor, but give himself to solitude instead."
       ],
@@ -693,7 +694,7 @@
         "81. As a solid rock is not shaken by the wind, so the wise are not moved by praise or blame.",
         "82. When the wise have listened to the teaching, they grow clear and still, like a lake that is deep, smooth, and undisturbed.",
         "83. Good people let go wherever they are; they do not chatter on, hungry for pleasure. Touched by happiness or by sorrow, the wise show neither swelling joy nor sinking despair.",
-        "84. The one who would not, for his own sake or another's, crave a son, or wealth, or power, and who would not seek his own success by wrong means—that one is good, and wise, and upright.",
+        "84. The one who would not, for his own sake or another's, crave a son, or wealth, or a kingdom, and who would not seek his own success by wrong means—that one is good, and wise, and upright.",
         "85. Few among people ever cross to the other shore; the rest run up and down the near bank.",
         "86. But those who follow the teaching, when it has been well taught to them, will cross beyond the reach of death, hard as that crossing is to make.",
         "87. Leaving the dark way behind, let the wise take up the bright way. Let him go from home into homelessness, into the solitude that few find easy to enjoy.",
@@ -708,10 +709,10 @@
       "paragraphs": [
         "90. For the one who has finished the journey, who has let go of grief, who is free on every side and has thrown off every chain, there is no more fever of pain.",
         "91. The mindful keep moving; they take no comfort in settling down. Like swans that rise and leave the lake, they leave one resting place after another behind them.",
-        "92. They store up nothing; they understand the food they eat for what it is; their aim is emptiness, the freedom that depends on nothing—Nirvana. Their track cannot be followed, like the path of birds across the sky.",
-        "93. The one whose cravings are stilled, who is not caught in any pleasure, whose aim is emptiness, the freedom that depends on nothing—Nirvana—his track cannot be followed, like the path of birds across the sky.",
+        "92. They store up nothing; they understand the food they eat for what it is; they range in the freedom that is empty and without sign. Their track cannot be followed, like the path of birds across the sky.",
+        "93. The one whose cravings are stilled, who is not caught in any pleasure, whose range is the freedom that is empty and without sign, his track cannot be followed, like the path of birds across the sky.",
         "94. Even the gods envy the one whose senses are calmed, like horses well broken by their driver, who has shed all pride and is free of every craving.",
-        "95. Such a one bears all things and resents nothing, like the earth; he stands firm, like the great threshold-pillar at the city gate; he is clear, like a deep pool with no mud to cloud it. For him there are no more births to come.",
+        "95. Such a one, true to his vows, bears all things and resents nothing, like the earth; he stands firm, like the great threshold-pillar at the city gate; he is clear, like a deep pool with no mud to cloud it. For him there are no more births to come.",
         "96. Quiet is the mind of such a one, quiet his words, quiet his deeds, for he has won his freedom through true knowledge and come to rest.",
         "97. The one who takes nothing on blind faith but knows the uncreated for himself, who has cut every tie, ended every chance of rebirth, and thrown off every desire—he is the greatest of all.",
         "98. In a village or in the forest, in the valley or on the hill, wherever the venerable ones dwell—there the ground is a delight.",
@@ -728,7 +729,7 @@
         "102. Better than reciting a hundred verses empty of sense is the one word of the teaching that brings peace to whoever hears it.",
         "103. Though a man should conquer a thousand thousand men in battle, the one who conquers himself is the greatest conqueror of all.",
         "104. Victory over oneself is better than victory over anyone else. The man who has mastered himself and lives always under restraint—",
-        "105. not a god, not a Gandharva, not Mara, not even Brahman could turn his victory into defeat.",
+        "105. not a god, not a Gandharva, not Mara, not even Brahma could turn his victory into defeat.",
         "106. Though month after month for a hundred years a man should offer a thousand sacrifices, if for a single moment he honors one who has perfected himself, that homage is worth more than a hundred years of sacrifice.",
         "107. Though for a hundred years a man should tend the sacred fire in the forest, if for a single moment he honors one who has perfected himself, that homage is worth more than a hundred years of worship.",
         "108. Whatever a man offers or sacrifices in this world for a whole year to gain merit, all of it is not worth a quarter of the reverence shown to the upright; reverence to the upright is better.",
@@ -757,7 +758,7 @@
         "124. A hand with no wound on it may carry poison unharmed, for poison cannot enter where there is no wound. In the same way, no evil touches the one who does no evil.",
         "125. Whoever wrongs an innocent person—one who is harmless, pure, and blameless—the evil falls back on that fool, like fine dust thrown against the wind.",
         "126. Some are born again into the womb; those who do evil go to hell; those who do right go to heaven; and those who are free of every desire reach Nirvana.",
-        "127. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed."
+        "127, 128. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where death cannot overtake you."
       ],
       "title": "Evil"
     },
@@ -769,18 +770,18 @@
         "130. Everyone trembles at the rod; everyone holds life dear. Knowing that others are just like yourself, do not kill, and do not make others kill.",
         "131. Whoever, hunting his own happiness, harms with the rod other beings who long for happiness too, will find no happiness hereafter.",
         "132. But whoever, hunting his own happiness, does not harm with the rod other beings who long for happiness too, will find happiness hereafter.",
-        "133. Speak harshly to no one, or those you wound will answer you in kind. Angry words are painful, and blow will fall on blow.",
-        "134. But if you can stay silent, like a gong that is cracked and gives no sound, then you have come close to Nirvana, for there is no more strife in you.",
+        "133. Speak harshly to no one, or those you wound will answer you in kind. Angry words are painful, and the rod will come back on you.",
+        "134. But if you can stay silent, like a gong that is cracked and gives no sound, then you have reached Nirvana, for there is no more strife in you.",
         "135. As a cowherd with his staff drives the cattle out to pasture, so do old age and death drive the life of every living thing.",
         "136. Even while he is doing it, the fool does not see the harm in his evil deeds; but later he is scorched by what he has done, as if burned by fire.",
         "137. Whoever takes up the rod against those who are unarmed and harmless, who wrongs the innocent, will quickly come to one of these ten states:",
         "138. sharp pain, or disaster, or injury to the body, or grave illness, or loss of his mind;",
         "139. or trouble from those in power, or a terrible accusation, or the loss of his family, or the ruin of all he owns;",
         "140. or fire will burn his house to the ground. And when his body breaks apart, the fool is reborn in hell.",
-        "141. Not going naked, not matted hair, not filth, not fasting, not sleeping on the bare ground, not smearing the body with dust, not crouching motionless—none of these can cleanse a person who has not gone beyond his cravings.",
+        "141. Not going naked, not matted hair, not filth, not fasting, not sleeping on the bare ground, not smearing the body with dust, not crouching motionless—none of these can cleanse a person who has not gone beyond doubt.",
         "142. But the one who is calm even though finely dressed, who is still, restrained, and self-controlled, who lives a pure life and has laid down the rod against every living thing—he is the true Brahmin, the true ascetic, the true monk.",
         "143. Is there anywhere in the world a person so restrained by his own sense of shame that he gives no cause for blame, as a fine horse gives no cause for the whip?",
-        "144. Be like a fine horse that breaks into a run at the touch of the whip: be eager and alive. By faith, by virtue, by effort, by deep meditation, by clear judgment of the truth, by right knowledge and right conduct, with full awareness, you will leave this great suffering behind.",
+        "144. Be like a fine horse that breaks into a run at the touch of the whip: be ardent and full of urgency. By faith, by virtue, by effort, by deep meditation, by clear judgment of the truth, by right knowledge and right conduct, with full awareness, you will leave this great suffering behind.",
         "145. Farmers channel the water where they want it; arrow-makers straighten the shaft; carpenters shape the wood; and the good shape themselves."
       ],
       "title": "The Rod"
@@ -790,13 +791,13 @@
       "label": "Chapter XI. Old Age",
       "paragraphs": [
         "146. What laughter, what joy, when the world is forever burning? Wrapped in darkness as you are, why do you not seek a light?",
-        "147. Look at this body, all dressed up — a mass of wounds, a thing of patched-together parts, sickly, full of cravings, with nothing in it that lasts.",
+        "147. Look at this body, all dressed up—a mass of wounds, a thing of patched-together parts, sickly, full of many thoughts, with nothing in it that lasts.",
         "148. This body is worn out, a nest of disease, ready to fall apart. This rotting heap breaks to pieces; life ends in death.",
-        "149. These white bones, scattered like gourds thrown away in autumn — what pleasure is there in looking at them?",
+        "149. These white bones, scattered like gourds thrown away in autumn—what pleasure is there in looking at them?",
         "150. The body is a fortress built of bones and plastered over with flesh and blood, and inside it live old age and death, pride and deceit.",
-        "151. Even the gleaming chariots of kings wear out, and the body too is wearing toward its end. But the virtue of the good never wears out — so the good pass it on, one to another.",
+        "151. Even the gleaming chariots of kings wear out, and the body too is wearing toward its end. But the virtue of the good never wears out—so the good teach it to the good.",
         "152. The person who has learned little grows old like an ox: his body grows heavier, but his wisdom does not grow.",
-        "153, 154. Through many births I ran on, seeking and never finding the builder of this house — and painful is birth, again and again. House-builder, now you are seen! You shall not build this house again. Your rafters are all broken, your ridgepole shattered. My mind has reached the unmade, the unconditioned, Nirvana; I have come to the end of craving.",
+        "153, 154. Through many births I ran on, seeking and never finding the builder of this house—and painful is birth, again and again. House-builder, now you are seen! You shall not build this house again. Your rafters are all broken, your ridgepole shattered. My mind has reached the unconditioned; I have come to the end of craving.",
         "155. Those who have kept no discipline, and have gathered no treasure in their youth, waste away like old herons beside a lake that has no fish.",
         "156. Those who have kept no discipline, and have gathered no treasure in their youth, lie like worn-out bows, sighing over the past."
       ],
@@ -808,12 +809,12 @@
       "paragraphs": [
         "157. If you hold yourself dear, then guard yourself well. Through at least one of the three watches of the night, let the wise stay awake and watchful.",
         "158. First set yourself in what is right; only then teach others. The wise who do this bring no blame upon themselves.",
-        "159. Do for yourself what you would have others do; train yourself before you train anyone else, for the self is the hardest of all to master. Only the well-mastered are fit to master others.",
+        "159. Do yourself what you teach others to do. Master yourself first, and you may master others; for the self is the hardest of all to master.",
         "160. You are your own master; who else could be? With yourself well mastered, you have found a master few ever find.",
         "161. The evil you do is your own; it is born of you, bred by you, and it grinds the fool down as a diamond grinds the gem it was cut from.",
         "162. The one whose wickedness runs deep drags himself down to the very ruin his enemy would wish for him, as a strangling vine drags down the tree it has wrapped.",
         "163. Things that harm you, and that do you no good, are all too easy to do. What is good and brings you benefit is the hardest thing of all to do.",
-        "164. The fool who scorns the teaching of the worthy ones, the Noble Ones, the upright, and follows a false doctrine instead, bears fruit only to his own destruction, like the reed that dies the year it flowers.",
+        "164. The fool who scorns the teaching of the worthy ones, the Noble Ones, the upright, and follows a false doctrine instead, bears fruit only to his own destruction, like the reed whose fruiting is its own death.",
         "165. By yourself the wrong is done; by yourself you are stained. By yourself the wrong is left undone; by yourself you are made pure. Purity and impurity are your own; no one can purify another.",
         "166. However great another's good may be, do not neglect your own true good for it. Once you have seen clearly what your own good is, give yourself to it."
       ],
@@ -824,8 +825,8 @@
       "label": "Chapter XIII. The World",
       "paragraphs": [
         "167. Do not follow the low way. Do not live in heedlessness. Do not take up false views. Do not be a friend of the world.",
-        "168. Rouse yourself! Do not be idle! Follow the path of virtue. The virtuous rest in peace, in this world and the next.",
-        "169. Follow the path of virtue, not the way of wrongdoing. The virtuous rest in peace, in this world and the next.",
+        "168. Rouse yourself! Do not be idle! Follow the path of virtue. The virtuous live at ease, in this world and the next.",
+        "169. Follow the path of virtue, not the way of wrongdoing. The virtuous live at ease, in this world and the next.",
         "170. Look on the world as a bubble; look on it as a mirage. The King of Death never sees the one who sees the world this way.",
         "171. Come, look at this glittering world, like a painted royal chariot. Fools sink into it, but the wise take no hold of it.",
         "172. The one who was heedless before, and afterward grows heedful, lights up this world like the moon set free from a cloud.",
@@ -845,20 +846,20 @@
         "179. The one whose conquest cannot be undone, into whose conquest no craving in this world can enter—by what track will you trace him, the Awakened One, whose knowing is endless, who leaves no trail at all?",
         "180. The one whom no desire, with all its nets and poisons, can lead anywhere astray—by what track will you trace him, the Awakened One, whose knowing is endless, who leaves no trail at all?",
         "181. Even the gods envy the wise—those who are awake and never heedless, who give themselves to meditation, who delight in the peace of letting the world go.",
-        "182. Hard it is to be born a human being; hard is the life of mortals; hard it is to hear the true teaching; and hardest of all, rare beyond rare, is the arising of a Buddha, an Awakened One.",
+        "182. Hard it is to be born a human being; hard is the life of mortals; hard it is to hear the true teaching; and hard is the arising of a Buddha, an Awakened One.",
         "183. Not to do any evil; to cultivate good; to purify one's own mind—this is the teaching of all the Buddhas, the Awakened Ones.",
-        "184. Patience and endurance are the highest austerity; \"Nirvana is the highest,\" say the Buddhas. The one who strikes another is no true renouncer; the one who wounds another is no true seeker.",
+        "184. Patience and endurance are the highest austerity; \"Nirvana is the highest,\" say the Buddhas. The one who strikes another is no true renouncer; the one who wounds another is no true ascetic.",
         "185. To speak no blame and do no harm; to live restrained under the rule of the teaching; to eat in moderation; to keep to a solitary bed and seat; and to give the mind to the highest things—this is the teaching of the Awakened.",
         "186. There is no satisfying the craving for pleasure, not even with a downpour of gold. \"Pleasures are sweet for a moment and end in pain\"—the wise know this.",
         "187. So the disciple who is fully awake takes no delight even in the pleasures of heaven; he delights only in the ending of all craving.",
         "188. Driven by fear, people run for refuge to many places—to mountains and forests, to groves and sacred trees.",
         "189. But that is not the safe refuge, that is not the highest refuge; taking refuge there, you are not freed from all suffering.",
-        "190. The one who takes refuge in the Buddha, in the Dhamma—the Law—and in the Sangha—the Order—and who sees with right wisdom the Four Noble Truths:",
+        "190. The one who takes refuge in the Buddha, in the teaching, and in the Order, and who sees with right wisdom the Four Noble Truths:",
         "191. that there is suffering; that suffering has a cause; that suffering can be brought to an end; and that there is the Noble Eightfold Path that leads to the end of suffering—",
         "192. that is the safe refuge, that is the highest refuge; taking that refuge, you are freed from all suffering.",
         "193. A great one, a Buddha, is hard to find; he is not born just anywhere. But wherever such a sage is born, that people flourishes.",
-        "194. Happy is the arising of the Awakened; happy is the teaching of the true Law; happy is the harmony of the Order; happy is the practice of those who live in harmony.",
-        "195, 196. Whoever honors those worthy of honor—whether the Awakened Buddhas or their disciples—who have left every obstacle behind and crossed beyond all grief and longing; whoever honors such ones, set free and past all fear, his merit is beyond all measuring; no one can reckon how great it is."
+        "194. Happy is the arising of the Awakened; happy is the proclaiming of the true teaching; happy is the harmony of the Order; happy is the practice of those who live in harmony.",
+        "195, 196. Whoever honors those worthy of honor—whether the Awakened Buddhas or their disciples—who have left every obstacle behind and crossed beyond all grief and lament; whoever honors such ones, set free and past all fear, his merit is beyond all measuring; no one can reckon how great it is."
       ],
       "title": "The Awakened One"
     },
@@ -876,8 +877,8 @@
         "204. Health is the greatest gift, contentment the greatest wealth, a trusted friend the best of kin, and Nirvana the highest happiness.",
         "205. Having tasted the sweetness of solitude and of peace, you are freed of fear and freed of wrong, drinking in the sweetness of the truth.",
         "206. Good it is to see the Noble Ones; to live with them is always happiness. Keep clear of fools, and you will be happy indeed.",
-        "207. Whoever keeps company with fools grieves a long road; company with fools is painful, like company with an enemy, while company with the wise is a joy, like the welcome of kin.",
-        "208. So follow the good and the wise, the steadfast, the learned, the enduring, the faithful, the Noble — follow such a one, good and wise, as the moon follows the path of the stars."
+        "207. Whoever keeps company with fools grieves for a long time; company with fools is painful, like company with an enemy, while company with the wise is a joy, like the welcome of kin.",
+        "208. So follow the good and the wise, the steadfast, the learned, the enduring, the faithful, the Noble—follow such a one, good and wise, as the moon follows the path of the stars."
       ],
       "title": "Happiness"
     },
@@ -894,7 +895,7 @@
         "215. From lust comes grief; from lust comes fear. To one free of lust there is no grief, so where would fear come from?",
         "216. From craving comes grief; from craving comes fear. To one free of craving there is no grief, so where would fear come from?",
         "217. The one who is perfect in virtue and in insight, who is just, who speaks the truth, and who does the work that is his own to do—him the world holds dear.",
-        "218. The one in whom a longing for the Ineffable, Nirvana, has awakened, whose mind is filled with it, and whose thoughts are no longer caught by the pleasures of the senses—that one is called a swimmer against the stream.",
+        "218. The one in whom a longing for the Ineffable has awakened, whose mind is filled with it, and whose thoughts are no longer caught by the pleasures of the senses—that one is called a swimmer against the stream.",
         "219. When a man long away from home returns safe from afar, his kinsmen, his friends, and those who love him welcome him back with joy.",
         "220. In just this way, when one who has done good passes from this world to the next, his good deeds welcome him home—as kinsmen welcome a loved one come back at last."
       ],
@@ -908,11 +909,11 @@
         "222. The one who holds back rising anger as a driver reins in a runaway chariot—him I call a true charioteer. The rest merely hold the reins.",
         "223. Overcome anger by calm, evil by good; overcome the miser by giving, the liar by truth.",
         "224. Speak the truth, do not give way to anger, give when you are asked, even if you have little. By these three steps you draw near to the gods.",
-        "225. The sages who harm no one, who keep their bodies always under control, go to the unchanging place, Nirvana, and once they have gone there, they suffer no more.",
+        "225. The sages who harm no one, who keep their bodies always under control, go to the unchanging place, and once they have gone there, they suffer no more.",
         "226. For those who are always wakeful, who train themselves day and night, whose whole aim is Nirvana, every craving comes to an end.",
         "227. This is an old saying, Atula, not something new: they blame the one who sits silent, they blame the one who talks a great deal, and they blame the one who speaks in moderation. There is no one in the world who is not blamed.",
         "228. There never was, and never will be, and is not now, anyone who is only blamed or only praised.",
-        "229, 230. But the one whom the discerning praise day after day—flawless, wise, rich in understanding and in virtue—who would dare to blame, worthy as a coin of the purest river-gold? Even the gods praise such a one; even Brahman praises him.",
+        "229, 230. But who would dare to blame the one whom the discerning praise day after day—flawless, wise, rich in understanding and in virtue, like a coin of gold from the Jambu river? Even the gods praise such a one; even Brahma praises him.",
         "231. Guard against the anger of the body; keep your body under control. Give up the wrongs of the body, and with your body do what is good.",
         "232. Guard against the anger of speech; keep your speech under control. Give up the wrongs of speech, and with your speech do what is good.",
         "233. Guard against the anger of the mind; keep your mind under control. Give up the wrongs of the mind, and with your mind do what is good.",
@@ -930,7 +931,7 @@
         "238. Make an island of yourself. Strive hard; be wise. Once you have blown away your impurities and are free of all stain, you will not enter again into birth and decay.",
         "239. Let the wise blow away their own impurities, one by one, little by little, moment by moment, as a smith blows the dross from silver.",
         "240. Just as rust, springing from the iron itself, eats away the very iron that bred it, so a transgressor's own deeds lead him down to ruin.",
-        "241. Scriptures decay when they go unrecited; houses decay when they go unrepaired; beauty decays through sloth; a watchman decays through carelessness.",
+        "241. Scripture is tainted when it goes unrecited, a house when it goes unrepaired; sloth is the taint of beauty, and heedlessness the taint of a watchman.",
         "242. Misconduct is the taint of a woman; stinginess is the taint of a giver. Tainted are all evil ways, in this world and the next.",
         "243. But there is a taint worse than all these: ignorance is the greatest taint of all. Cast off that taint, monks, and become taintless.",
         "244. Life is easy for the shameless one, brazen as a crow, a meddler, a slanderer, insolent and corrupt.",
@@ -943,8 +944,8 @@
         "251. There is no fire like craving, no grip like hatred, no snare like delusion, no torrent like greed.",
         "252. The faults of others are easy to see; our own are hard to see. We winnow the faults of our neighbors like chaff, but hide our own, as a cheat hides the losing throw from the gambler.",
         "253. Whoever watches for the faults of others, forever taking offense, only feeds his own cravings; he comes no nearer to their end.",
-        "254. There is no path through the sky; outward acts do not make a holy man. People delight in what holds them back, but the Tathagatas, the Buddhas, are free of all such hindrance.",
-        "255. There is no path through the sky; outward acts do not make a holy man. Nothing made of conditions lasts, but the Buddhas are never shaken."
+        "254. There is no path through the sky; there is no true ascetic outside this teaching. People delight in what holds them back, but the Tathagatas are free of all such hindrance.",
+        "255. There is no path through the sky; there is no true ascetic outside this teaching. Nothing made of conditions lasts, but the Buddhas are never shaken."
       ],
       "title": "Impurity"
     },
@@ -953,7 +954,7 @@
       "label": "Chapter XIX. The Just",
       "paragraphs": [
         "256. You are not just because you settle a case in haste. The wise weigh both sides, the right and the wrong, before they decide.",
-        "257. The one who judges others not by force but fairly, by what is right, who is guided by what is right and is discerning—that one is called just, established in dhamma.",
+        "257. The one who judges others not by force but fairly and by law, who is guarded by the law and discerning—that one is called just, one who stands in the law.",
         "258. You are not wise because you talk a great deal. The one who is patient, free of hatred, free of fear—that one is called wise.",
         "259. You do not uphold the teaching because you talk a great deal. Even one who has learned only a little, but sees the truth in his own person, truly upholds the teaching—he is the one who never turns his back on it.",
         "260. You are not an elder because your head is gray. To be ripe in years and no more than that is to be old in vain.",
@@ -974,21 +975,21 @@
       "order": 20,
       "label": "Chapter XX. The Way",
       "paragraphs": [
-        "273. Of all paths, the Eightfold Path is the best; of all truths, the Four Noble Truths; of all states, freedom from craving; and of all who have eyes, the one who truly sees—the Buddha.",
-        "274. This is the Way; there is no other that leads to the purifying of vision. Follow it, and you will bewilder Mara, the tempter.",
-        "275. Walk this Way and you will make an end of suffering. This is the Way I taught, once I had learned to draw out the arrow of craving.",
+        "273. Of all paths, the Eightfold Path is the best; of all truths, the Four Noble Truths; of all states, freedom from craving; and of all beings on two feet, the one who has eyes to see.",
+        "274. This is the Way; there is no other that leads to the purifying of vision. Follow it, and you will bewilder Mara.",
+        "275. Walk this Way and you will make an end of suffering. This is the Way I taught, once I had learned to draw out the arrow.",
         "276. You yourself must make the effort. The Buddhas only point the way. Those who take up the path and walk it, deep in meditation, are freed from the bonds of Mara.",
-        "277. \"All conditioned things are impermanent\" (sabbe sankhara anicca)—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
-        "278. \"All conditioned things are suffering\" (sabbe sankhara dukkha)—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
-        "279. \"All things are without a self\" (sabbe dhamma anatta)—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
+        "277. \"All conditioned things are impermanent\"—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
+        "278. \"All conditioned things are suffering\"—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
+        "279. \"All things are without a self\"—when you see this with wisdom, you turn away from suffering. This is the path to purity.",
         "280. The one who will not rouse himself when it is time to rise, who is young and strong but full of sloth, weak in will and weak in thought, that lazy and idle man never finds the way to wisdom.",
         "281. Guard your speech, hold your mind in check, and do no wrong with your body. Keep these three roads of action clean, and you will win the way the wise have taught.",
         "282. From effort wisdom grows; without effort it withers away. Knowing this double path—the one that gains and the one that loses—set yourself so that wisdom grows.",
         "283. Cut down the whole forest of desire, not just one tree—for out of that forest comes fear. Clear away the forest and the undergrowth, monks, and you will be free.",
         "284. As long as the least desire of a man for a woman is not cut away, his mind is tied down, like a suckling calf to its mother.",
-        "285. Cut out the love of self, as you would pluck an autumn lotus with your hand. Tend the road of peace—the Nirvana the Buddha has shown.",
+        "285. Cut out the love of self, as you would pluck an autumn lotus with your hand. Tend the road to peace, to Nirvana, which the Buddha has shown.",
         "286. \"Here I will live through the rains, and here through winter and summer\"—so the fool plans, never thinking of his death.",
-        "287. But death comes and sweeps that man away—proud of his children and his herds, his mind on other things—as a flood sweeps away a sleeping village.",
+        "287. But death comes and sweeps that man away—proud of his children and his herds, his mind caught up in them—as a flood sweeps away a sleeping village.",
         "288. Sons are no help then, nor a father, nor any of your kin; once death has seized you, there is no help in family.",
         "289. Knowing this, the wise and disciplined should clear the road at once—the road that leads to Nirvana."
       ],
@@ -1003,14 +1004,14 @@
         "292. What ought to be done is left undone, and what ought not to be done is done; in those who are unruly and heedless the taints keep on growing.",
         "293. But in those who are always mindful of the body, who do not do what ought not to be done and steadily do what ought to be done, the taints, in such mindful and clear-seeing people, come to an end.",
         "294. Having killed mother and father and two warrior kings, and having destroyed a kingdom along with its treasurer, the true Brahmin goes on his way unharmed.",
-        "295. Having killed mother and father and two learned kings, and having destroyed a kingdom along with its tiger, the true Brahmin goes on his way unharmed.",
+        "295. Having killed mother and father and two learned kings, and a tiger as the fifth, the true Brahmin goes on his way unharmed.",
         "296. The followers of Gotama are always wide awake; day and night their thoughts are set on the Buddha.",
         "297. The followers of Gotama are always wide awake; day and night their thoughts are set on the teaching.",
-        "298. The followers of Gotama are always wide awake; day and night their thoughts are set on the community.",
+        "298. The followers of Gotama are always wide awake; day and night their thoughts are set on the Order.",
         "299. The followers of Gotama are always wide awake; day and night their thoughts are set on the body.",
         "300. The followers of Gotama are always wide awake; day and night their minds delight in doing no harm.",
         "301. The followers of Gotama are always wide awake; day and night their minds delight in meditation.",
-        "302. Hard it is to leave the world; hard it is to enjoy the world. Hard is life in the monastery, and painful is life in a house; painful it is to live among those who are not your equals. And painful it is to keep wandering on through the round of birth and death—so do not be a wanderer who is hounded by that pain.",
+        "302. Hard it is to leave the world; hard it is to delight in that life. Hard and painful is life in a household; painful it is to live among those who are not your equals. And painful it is to keep wandering on through the round of birth and death—so do not be a wanderer who is hounded by that pain.",
         "303. The one who has faith and virtue, who has a good name and means of his own, is honored wherever he goes.",
         "304. The good are seen from far off, like the snowy peaks of the Himalayas; the bad pass unseen, like arrows shot in the night.",
         "305. Sitting alone, sleeping alone, walking alone, never weary, taming himself alone—he will find his joy at the edge of the forest."
@@ -1022,7 +1023,7 @@
       "label": "Chapter XXII. The Downward Course",
       "paragraphs": [
         "306. Whoever says what is not so goes to hell, and so does the one who, having done a thing, says, \"I did not do it.\" After death both are alike—they are people who carry their wrongdoing into the next world.",
-        "307. Many a man whose shoulders are wrapped in the yellow robe is undisciplined and out of control; by their own wrongdoing such wrongdoers go to hell.",
+        "307. Many who wear the yellow robe around their shoulders are undisciplined and out of control; by their own wrongdoing such wrongdoers go to hell.",
         "308. Better to swallow a red-hot iron ball, blazing like fire, than to live on the alms of the land while being immoral and undisciplined.",
         "309. Four things come to the reckless man who goes after his neighbor's wife: he earns disgrace, his sleep is broken, third comes punishment, and last comes hell.",
         "310. There is disgrace, and the road that leads downward, and only the brief pleasure of one frightened soul in the arms of another, and the king's heavy punishment. So let no man set his heart on his neighbor's wife.",
@@ -1045,16 +1046,16 @@
         "320. I will bear abuse in silence, as the elephant in battle bears the arrow shot from the bow; for many people are ill-natured.",
         "321. They lead a tamed elephant into battle; the king mounts a tamed elephant. The one who is tamed, who bears abuse in silence, is the best among people.",
         "322. Good are tamed mules, and thoroughbred horses of Sindh, and great tusked elephants; but better than any of them is the one who has tamed himself.",
-        "323. For on none of these animals can you reach the untrodden country, Nirvana. Only the one who has tamed himself goes there—tamed, riding his own well-tamed self.",
-        "324. The elephant called Dhanapalaka, his temples streaming in must and hard to hold, will not eat a mouthful once he is tied up: the elephant is longing for the elephant-grove.",
+        "323. For on none of these animals can you reach the untrodden country. Only the one who has tamed himself goes there—tamed, riding his own well-tamed self.",
+        "324. The elephant called Dhanapalaka, in rut, his temples streaming, and hard to hold, will not eat a mouthful once he is tied up: the elephant is longing for the elephant-grove.",
         "325. The man who is slack and overeats, who is drowsy and rolls about like a great hog fattened on slop, that fool is born again and again.",
         "326. In the past this mind of mine wandered wherever it wished, wherever it liked, wherever it pleased. Now I will hold it firmly in check, as the trainer with his hook holds in a raging elephant.",
-        "327. Take heed; guard your own mind. Pull yourself out of the wrong path, as an elephant pulls itself out of the mud.",
+        "327. Delight in heedfulness; guard your own mind. Pull yourself out of the wrong path, as an elephant pulls itself out of the mud.",
         "328. If you find a wise companion to walk with you, one who is prudent and lives well, then walk with them, glad and mindful, overcoming every danger.",
         "329. If you find no wise companion to walk with you, none who is prudent and lives well, then walk alone—like a king who has left behind the kingdom he had won, like a Matanga elephant roaming the forest.",
         "330. It is better to walk alone; there is no companionship with a fool. Walk alone and do no wrong, wanting little, like a Matanga elephant in the forest.",
         "331. Friends are a joy when the need for them arises. Contentment is a joy, whatever brings it. A good deed done is a joy at the hour of death. And the laying down of all sorrow is a joy.",
-        "332. To be a good mother in this world is a joy, and to be a good father is a joy; to live as one who has gone forth is a joy, and to live as a holy one is a joy.",
+        "332. To honor your mother is a joy in this world, and to honor your father is a joy; to honor ascetics is a joy, and to honor Brahmins is a joy.",
         "333. A joy is virtue that lasts into old age; a joy is faith firmly rooted; a joy is the winning of wisdom; and a joy is to do no evil."
       ],
       "title": "The Elephant"
@@ -1066,13 +1067,13 @@
         "334. The craving of a heedless person grows like a creeping vine. He leaps from one life to the next, like a monkey swinging through the forest after fruit.",
         "335. Whomever this fierce, poisonous craving overcomes in this world, his sorrows grow thick and fast, like wild grass after rain.",
         "336. But whoever masters this fierce craving, so hard to overcome, finds his sorrows fall away from him, like water-drops sliding off a lotus leaf.",
-        "337. So here is the good word I give to all of you gathered here: dig up craving by the root, as one who wants the fragrant root digs up the grass above it—so that Mara, the tempter, may not break you again and again, as a flood breaks the reeds.",
+        "337. So here is the good word I give to all of you gathered here: dig up craving by the root, as one who wants the fragrant root digs up the grass above it—so that Mara may not break you again and again, as a flood breaks the reeds.",
         "338. As a tree that has been cut down will grow again if its root is sound and deep, so suffering returns again and again until you dig out the very root of craving.",
         "339. The man whose thirty-six streams of craving run strong toward pleasure is swept away: the flood of his own passionate longings carries him off.",
         "340. These streams run everywhere; the vine of craving keeps springing up. When you see it sprouting, cut it at the root with wisdom.",
         "341. People delight in pleasures, lavish and sweet. Sunk in their longing, chasing their pleasures, they go through birth and decay again and again.",
         "342. Driven on by craving, people run round and round like a snared hare. Caught in fetters and bonds, they suffer, again and again, for a long time.",
-        "343. Driven on by craving, people run round and round like a snared hare. So let the seeker drive out craving, by working toward freedom from craving for himself.",
+        "343. Driven on by craving, people run round and round like a snared hare. So let the monk drive out craving, by working toward freedom from craving for himself.",
         "344. Look at the man who has cut his way out of the thicket of craving, only to run straight back into it—who, set free, runs back into bondage of his own accord.",
         "345. The wise do not call the strongest chain the one made of iron, or wood, or rope. Far stronger is the pull of jewels and rings, of children and wife—",
         "346. that is the chain the wise call strong: it drags you down, it gives a little but will not let go. Yet even this they cut, and go forth, wanting nothing, leaving every pleasure behind.",
@@ -1083,7 +1084,7 @@
         "351. The one who has reached the goal, who is fearless, free of craving and free of fault, has broken off every thorn of life. This is his last body.",
         "352. The one free of craving and free of clinging, who is skilled in language and its meanings, who knows how words are formed and ordered—he wears his last body. He is called the great sage, the great person.",
         "353. \"I have conquered all and I know all. In every state of life I am untouched. I have let go of everything, and through the end of craving I am free. Knowing this for myself, whom should I call my teacher?\"",
-        "354. The gift of the Dhamma surpasses all gifts; the taste of the Dhamma surpasses all tastes; the delight in the Dhamma surpasses all delights; the end of craving conquers all sorrow.",
+        "354. The gift of the teaching surpasses all gifts; the taste of the teaching surpasses all tastes; the delight in the teaching surpasses all delights; the end of craving conquers all sorrow.",
         "355. Wealth destroys the fool who does not look for the far shore. Through his thirst for wealth the fool destroys himself, as if he were his own enemy.",
         "356. Weeds ruin a field; craving ruins those who give in to it. So a gift to those who are free of craving bears great fruit.",
         "357. Weeds ruin a field; hatred ruins those who give in to it. So a gift to those who are free of hatred bears great fruit.",
@@ -1098,26 +1099,26 @@
       "paragraphs": [
         "360. Restraint of the eye is good; good is restraint of the ear; good is restraint of the nose; good is restraint of the tongue.",
         "361. Restraint of the body is good; good is restraint of speech; good is restraint of the mind; good is restraint in all things. The monk who is restrained in all things is freed from all suffering.",
-        "362. The one who controls his hands, who controls his feet, who controls his speech, who is master of himself; who takes his delight inwardly, who is composed, who is content alone — him they call a monk.",
+        "362. The one who controls his hands, who controls his feet, who controls his speech, who is master of himself; who takes his delight inwardly, who is composed, who is content alone—him they call a monk.",
         "363. Sweet is the speech of the monk who masters his tongue, who speaks with wisdom and without pride, who makes plain the meaning and the teaching.",
         "364. The monk who dwells in the teaching, who delights in the teaching, who meditates on the teaching, who keeps the teaching in mind, will never fall away from the true teaching.",
         "365. Let him not despise what he himself has received, nor go about envying what others receive. The monk who envies others never comes to stillness of mind.",
-        "366. Though a monk receive but little, if he does not despise what he has received, even the gods will praise him — so long as his life is pure and he is not slack.",
-        "367. The one who never takes name and form to be himself, and does not grieve over what has passed away — he indeed is called a monk.",
-        "368. The monk who lives in loving-kindness, who has faith in the teaching of the Buddha, will reach the place of peace — Nirvana — where all that is conditioned is stilled, and there find happiness.",
+        "366. Though a monk receives little, if he does not despise what he has received, even the gods will praise him—so long as his life is pure and he is not slack.",
+        "367. The one who never takes name and form to be himself, and does not grieve over what has passed away—he indeed is called a monk.",
+        "368. The monk who lives in loving-kindness, who has faith in the teaching of the Buddha, will reach the place of peace, where all that is conditioned is stilled, and there find happiness.",
         "369. Empty this boat, O monk! Once emptied, it will move swiftly. Cut off craving and hatred, and you will come to Nirvana.",
         "370. Cut off five, let go of five, and cultivate five more. The monk who has risen above the five attachments is called one who has crossed the flood.",
-        "371. Meditate, O monk, and do not be careless. Do not let your mind whirl after the pleasures of the senses. Be careless, and you may have to swallow the iron ball in hell, and cry out as you burn, \"This is suffering!\"",
-        "372. There is no meditation for one without wisdom, and no wisdom for one who does not meditate. The one in whom both meditation and wisdom are found stands close upon Nirvana.",
+        "371. Meditate, O monk, and do not be heedless. Do not let your mind whirl after the pleasures of the senses. Be heedless, and you may have to swallow the iron ball in hell, and cry out as you burn, \"This is suffering!\"",
+        "372. There is no meditation for one without wisdom, and no wisdom for one who does not meditate. The one in whom both meditation and wisdom are found is close to Nirvana.",
         "373. The monk who has gone into an empty house, whose mind is at peace, who sees the teaching clearly, knows a joy that is more than human.",
         "374. As soon as he grasps how the elements of body and mind rise and pass away, he finds the happiness and gladness that belong to those who know the deathless.",
         "375. And here is where the wise monk begins: guarding the senses, contentment, restraint within the rule of the teaching. Let him keep noble friends whose lives are pure and who are not slack.",
         "376. Let him be generous and warm-hearted, faultless in how he conducts himself; then, filled with gladness, he will make an end of suffering.",
         "377. As the jasmine sheds its withered flowers, so, O monks, shed craving and hatred.",
-        "378. The monk whose body is stilled, whose speech is stilled, whose mind is stilled, who is composed, who has spat out the lures of the world — he is rightly called one who is at peace.",
+        "378. The monk whose body is stilled, whose speech is stilled, whose mind is stilled, who is composed, who has spat out the lures of the world—he is rightly called one who is at peace.",
         "379. Rouse yourself by yourself; examine yourself by yourself. Guarding yourself and keeping watch, O monk, you will live in happiness.",
         "380. For you are your own master, you are your own refuge. So hold yourself in check, as a horse-dealer reins in a fine horse.",
-        "381. The monk who is full of gladness, who has faith in the teaching of the Buddha, will reach the place of peace — Nirvana — where all that is conditioned is stilled, and there find happiness.",
+        "381. The monk who is full of gladness, who has faith in the teaching of the Buddha, will reach the place of peace, where all that is conditioned is stilled, and there find happiness.",
         "382. The monk who, though still young, gives himself to the teaching of the Buddha lights up this whole world, as the moon does when it breaks free of the clouds."
       ],
       "title": "The Monk"
@@ -1126,8 +1127,8 @@
       "order": 26,
       "label": "Chapter XXVI. The Brahmana (Arhat)",
       "paragraphs": [
-        "383. Cut off the stream of craving, Brahmin, and drive out your desires. Once you have understood the destruction of all that is made, you will know the Uncreated, Nirvana.",
-        "384. When the Brahmin has crossed to the far shore of both teachings—restraint and meditation—then for him who has reached this knowledge every bond falls away.",
+        "383. Cut off the stream of craving, Brahmin, and drive out your desires. Once you have understood the destruction of all that is made, you will know the Uncreated.",
+        "384. When the Brahmin has crossed to the far shore in both states, then for him who has reached this knowledge every bond falls away.",
         "385. The one for whom there is no near shore, no far shore, nor any shore between, who is free of fear and free of every chain—him I call a true Brahmin.",
         "386. The one who sits in meditation, free of dust, his work done, his passions gone, who has reached the highest goal—him I call a true Brahmin.",
         "387. The sun is bright by day, the moon shines by night, the warrior is bright in his armor, the Brahmin is bright in his meditation; but the Buddha, the Awakened One, shines with splendor both day and night.",
@@ -1138,8 +1139,8 @@
         "392. From whomever you have learned the teaching of the Awakened One, honor that person with all your heart, as a Brahmin honors the sacred fire.",
         "393. Not by matted hair, not by lineage, not by birth does one become a Brahmin. The one in whom there is truth and righteousness—he is the pure one, he is the Brahmin.",
         "394. What good is your matted hair, you fool? What good your cloak of goatskins? Outside you keep yourself clean, but inside you are a tangle of craving.",
-        "395. The one who wears cast-off rags, worn thin to the bone, who lives alone in the forest and meditates—him I call a true Brahmin.",
-        "396. I do not call anyone a Brahmin merely because of the mother who bore him or the family he came from. If he is full of pride and clings to his possessions, he is only a man who says \"sir\" to himself. But the one who owns nothing and clings to nothing—him I call a true Brahmin.",
+        "395. The one who wears cast-off rags, lean, his veins standing out, who lives alone in the forest and meditates—him I call a true Brahmin.",
+        "396. I do not call anyone a Brahmin merely because of the mother who bore him or the family he came from. If he is full of pride and clings to his possessions, he is a Brahmin in name only, one who says \"sir\" to others. But the one who owns nothing and clings to nothing—him I call a true Brahmin.",
         "397. The one who has cut every fetter, who never trembles, who is beyond all ties and free of every chain—him I call a true Brahmin.",
         "398. The one who has cut the strap and the rein, the rope and the harness with it, who has thrown off the bar across the gate and is awake—him I call a true Brahmin.",
         "399. The one who endures abuse, blows, and prison without anger, though he has done no wrong, whose strength is his patience and whose army is his endurance—him I call a true Brahmin.",

@@ -1,0 +1,1650 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "To secure it for one person is something; to secure it for a whole people and for communities is finer and more godlike.",
+  "new": "To secure it for one person is worth having; to secure it for a whole people and for communities is nobler and more godlike.",
+  "why": "Greek agapēton ('worth being content with'), not a shrug; kallion is kalon, so 'nobler' under the glossary."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "not final enough",
+  "new": "not complete enough",
+  "why": "Greek atelestera, teleios; Glossary: 'complete' throughout, so the function argument's conclusion ('complete virtue') answers the question."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "(God, or intelligence)",
+  "new": "(the god, or intellect)",
+  "why": "Greek ho theos kai ho nous: no monotheist capital; nous as the highest part = 'intellect' (Glossary)."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0014",
+  "severity": "low",
+  "old": "as sight is to the body, intelligence is to the soul",
+  "new": "as sight is to the body, intellect is to the soul",
+  "why": "Greek nous; Glossary: 'intellect' where nous names the highest part of us."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "so plainly not all ends are final. But the highest good is clearly something final. So if there is only one final end, that is what we are seeking; and if there are several, the most final of them.",
+  "new": "so plainly not all ends are complete. But the highest good is clearly something complete. So if there is only one complete end, that is what we are seeking; and if there are several, the most complete of them.",
+  "why": "Greek teleios; Glossary: 'complete' throughout Book I (as seg-0019, 0026, 0034 already have). 'Final' in this sense is not one a reader carries."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "We call an end that is pursued for its own sake more final than one pursued for the sake of something else; and we call an end never chosen for the sake of anything else more final than",
+  "new": "We call an end that is pursued for its own sake more complete than one pursued for the sake of something else; and we call an end never chosen for the sake of anything else more complete than",
+  "why": "Greek teleioteron; Glossary: 'complete'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "is final without qualification",
+  "new": "is complete without qualification",
+  "why": "Greek teleion haplōs; Glossary: 'complete'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "to belong to the final good",
+  "new": "to belong to the complete good",
+  "why": "Greek to teleion agathon; Glossary: 'complete'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "since a human being is by nature made for a community",
+  "new": "since a human being is by nature a political animal, made for life in a community",
+  "why": "Greek physei politikon ho anthrōpos, the famous line; Chase 'adapted to a social existence'. Matches IX seg-0035 and VIII seg-0041."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "something final and self-sufficient",
+  "new": "something complete and self-sufficient",
+  "why": "Greek teleion kai autarkes; Glossary: 'complete'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "by grasping the work, the characteristic function, of a human being",
+  "new": "by grasping the function of a human being",
+  "why": "Doubled gloss in the sentence; Greek to ergon, rendered 'function' everywhere after."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "an activity of the soul in accordance with excellence, and if there are several excellences,",
+  "new": "an activity of the soul in accordance with excellence, or virtue, and if there are several,",
+  "why": "Greek kat' aretēn: the craft sense ('excellence') crosses here into the moral sense ('virtue', seg-0022); mark the crossover once so the reader sees one term (Glossary: aretē)."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "some a kind of theoretical wisdom",
+  "new": "some a kind of philosophic wisdom",
+  "why": "Greek sophia; Glossary: 'philosophic wisdom', as throughout Book VI."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "precious and final",
+  "new": "precious and complete",
+  "why": "Greek timion kai teleion; Glossary: 'complete'."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "the one who fails at self-control alike",
+  "new": "the one who lacks self-control alike",
+  "why": "Greek akratēs/akrasia; Glossary policy (rejected.md): the man who lacks self-control / lack of self-control."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "means to move them right, swerve",
+  "new": "means to move them to the right, swerve",
+  "why": "Read aloud, 'move them right' sounds like 'correctly'; Greek eis ta dexia."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "theoretical wisdom, understanding, and practical wisdom are intellectual",
+  "new": "philosophic wisdom, understanding, and practical wisdom are intellectual",
+  "why": "Greek sophia; Glossary: 'philosophic wisdom', as in Book VI."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0003",
+  "severity": "high",
+  "old": "self-controlled by doing acts of self-control",
+  "new": "temperate by doing temperate acts",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0005",
+  "severity": "high",
+  "old": "some people become self-controlled and even-tempered, others uncontrolled and hot-tempered",
+  "new": "some people become temperate and even-tempered, others self-indulgent and hot-tempered",
+  "why": "Greek sōphrones kai praoi / akolastoi kai orgiloi; Glossary: temperate / self-indulgent."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0008",
+  "severity": "high",
+  "old": "It is the same with self-control and courage",
+  "new": "It is the same with temperance and courage",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0008",
+  "severity": "high",
+  "old": "becomes dissipated, while the man who shuns all pleasure, like a boor, becomes a kind of insensible blank. So self-control and courage",
+  "new": "becomes self-indulgent, while the man who shuns all pleasure, like a boor, becomes insensible, as it were. So temperance and courage",
+  "why": "Greek akolastos (Glossary: self-indulgent) and sōphrosynē (temperance); 'blank' is added color — Greek anaisthētos tis, 'an insensible sort'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0009",
+  "severity": "high",
+  "old": "By abstaining from pleasures we become self-controlled, and once we are self-controlled",
+  "new": "By abstaining from pleasures we become temperate, and once we are temperate",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0010",
+  "severity": "high",
+  "old": "is self-controlled; the man who abstains but resents it is not.",
+  "new": "is temperate; the man who abstains but resents it is self-indulgent.",
+  "why": "Greek sōphrōn / ho d' achthomenos akolastos. As written the resenter is 'not self-controlled', when he is exactly Book VII's self-controlled man."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "we shrink from what is fine",
+  "new": "we shrink from what is noble",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "the fine, the advantageous, and the pleasant",
+  "new": "the noble, the advantageous, and the pleasant",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "since both the fine and the advantageous",
+  "new": "since both the noble and the advantageous",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0014",
+  "severity": "high",
+  "old": "to become self-controlled we must do acts of self-control. \"For,\" he would say, \"if people are already doing just and self-controlled acts, then they are already just and self-controlled",
+  "new": "to become temperate we must do temperate acts. \"For,\" he would say, \"if people are already doing just and temperate acts, then they are already just and temperate",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0015",
+  "severity": "high",
+  "old": "are not done justly or with self-control merely",
+  "new": "are not done justly or temperately merely",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0015",
+  "severity": "high",
+  "old": "by doing just and self-controlled acts again and again that we come to meet them. So acts are called just and self-controlled when they are the kind of acts a just or self-controlled person would do; but the person who does them is not yet just or self-controlled unless he also does them as the just and self-controlled do. We are right, then, to say that a person becomes just by doing just acts and self-controlled by doing self-controlled ones;",
+  "new": "by doing just and temperate acts again and again that we come to meet them. So acts are called just and temperate when they are the kind of acts a just or temperate person would do; but the person who does them is not yet just or temperate unless he also does them as the just and temperate do. We are right, then, to say that a person becomes just by doing just acts and temperate by doing temperate ones;",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "longing, jealousy, pity",
+  "new": "longing, emulation, pity",
+  "why": "Greek zēlos is emulation (Chase 'emulation'); beside 'envy', 'jealousy' reads as a repeat."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "\"Good in one way only, bad in every way.\"",
+  "new": "\"Good in one way only, bad in all sorts of ways.\"",
+  "why": "Greek pantodapōs, 'in all sorts of ways'; 'in every way' says 'wholly bad'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0023",
+  "severity": "high",
+  "old": "or in cowardice, or in dissipation",
+  "new": "or in cowardice, or in self-indulgence",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0023",
+  "severity": "high",
+  "old": "no excess or deficiency of self-control or courage",
+  "new": "no excess or deficiency of temperance or courage",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0026",
+  "severity": "high",
+  "old": "the mean is self-control, and the excess is dissipation",
+  "new": "the mean is temperance, and the excess is self-indulgence",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart. Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0037",
+  "severity": "high",
+  "old": "the self-controlled man looks dissipated next to the insensible man and insensible next to the dissipated",
+  "new": "the temperate man looks self-indulgent next to the insensible man and insensible next to the self-indulgent",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart. Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0038",
+  "severity": "high",
+  "old": "but dissipation, the excess, is more opposed to self-control than insensibility",
+  "new": "but self-indulgence, the excess, is more opposed to temperance than insensibility",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart. Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0038",
+  "severity": "high",
+  "old": "slide more readily into dissipation than into decorum",
+  "new": "slide more readily into self-indulgence than into decorum",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0038",
+  "severity": "high",
+  "old": "which is why dissipation, the excess, is more contrary than insensibility to self-control.",
+  "new": "which is why self-indulgence, the excess, is more contrary than insensibility to temperance.",
+  "why": "Greek sōphrōn/sōphrosynē; Glossary policy (rejected.md): temperate/temperance (Chase: self-mastery). 'Self-control' is reserved for enkrateia, the trait Book VII sets apart. Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0039",
+  "severity": "medium",
+  "old": "and praiseworthy, and fine.",
+  "new": "and praiseworthy, and noble.",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "or for some honorable reason",
+  "new": "or for some noble reason",
+  "why": "Greek dia kalon ti; Glossary policy (rejected.md): noble."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "for no fine end",
+  "new": "for no noble end",
+  "why": "Greek mēthenos kalou; the same segment already says 'nothing noble'. Glossary policy (rejected.md)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "We don't usually blame a drunk man's or an angry man's ignorance for what he does; we blame the drink or the anger. He acts not knowingly, but in ignorance.",
+  "new": "A man who is drunk or angry is thought to act not because of ignorance but because of his drink or his anger; yet he acts not knowingly, but in ignorance.",
+  "why": "Greek ou dokei di' agnoian prattein alla dia ti tōn eirēmenōn: Aristotle assigns the cause, not blame; seg-0021 makes the drunk pay double."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "Take it as true and, first, no animal but a human being would ever act voluntarily, and neither would children.",
+  "new": "If that were so, then first of all no animal but a human being would ever act voluntarily, and neither would children.",
+  "why": "The conditional is buried and the sentence trips (Greek prōton men gar ouden eti tōn allōn zōiōn hekousiōs praxei)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "with opinion flat out",
+  "new": "with opinion outright",
+  "why": "Voice: spoken filler in a book that must match I and II (Greek haplōs)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "choice is a deliberate reaching for something in our power: we deliberate, then settle on it, then reach for it in line with the result.",
+  "new": "choice is a deliberate desire for something in our power: we deliberate, then settle on it, then desire it in line with what we deliberated.",
+  "why": "Greek orexis bouleutikē, the textbook definition; 'reaching' loses the word readers look for (ek tou bouleusasthai krinantes oregometha kata tēn bouleusin)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "Same with bitter and sweet, hot and heavy, and the rest.",
+  "new": "So too with what is bitter or sweet, heavy or hot, and the rest.",
+  "why": "Greek pikra kai glyka kai therma kai barea; 'hot and heavy' is a current idiom with a sexual sense."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "its own range of fine and pleasant things",
+  "new": "its own range of noble and pleasant things",
+  "why": "Greek kala kai hēdea; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "so if doing the fine thing is in our power",
+  "new": "so if doing the noble thing is in our power",
+  "why": "Greek kalon; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "If doing and not doing the fine or base thing",
+  "new": "If doing and not doing the noble or base thing",
+  "why": "Greek ta kala kai ta aischra; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0021",
+  "severity": "medium",
+  "old": "And here's a stronger point:",
+  "new": "And there is a stronger point:",
+  "why": "Voice: conversational aside (Book III reads like a different writer from I-II)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "Suppose someone is the kind of person who can't pay attention. Well, people make themselves that kind of person by living carelessly, and they make themselves unjust or undisciplined",
+  "new": "Suppose someone is the kind of person who cannot pay attention. But people make themselves that kind of person by living carelessly, and they make themselves unjust or self-indulgent",
+  "why": "Greek akolastous (Glossary: self-indulgent; 'undisciplined' was a third word for it); 'Well,' is a spoken filler."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0022",
+  "severity": "high",
+  "old": "In the same way the unjust man and the man without self-control could have avoided",
+  "new": "In the same way the unjust man and the self-indulgent man could have avoided",
+  "why": "Greek tōi adikōi kai tōi akolastōi (1114a20), not the akratēs; the same segment says 'self-indulgent' two sentences earlier."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "the greatest and finest thing",
+  "new": "the greatest and noblest thing",
+  "why": "Greek megiston kai kalliston; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0029",
+  "severity": "medium",
+  "old": "The brave man isn't thrown off balance — only so far as he's human, of course.",
+  "new": "The brave man is as undaunted as a human being can be.",
+  "why": "Greek anekplēktos hōs anthrōpos: as undaunted as a man can be; as punctuated it sounds like a limit on his courage."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0029",
+  "severity": "high",
+  "old": "Honor, then, is what moves the brave man to stand fast against terror and to do what courage demands.",
+  "new": "It is for the sake of the noble, then, that the brave man stands fast against terror and does what courage demands.",
+  "why": "Greek kalou dē heneka ho andreios hypomenei; 'honor' is the motive of citizen courage (seg-0032), which the chapter ranks below true courage."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "on down the line",
+  "new": "and so on",
+  "why": "Voice: conversational filler."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0033",
+  "severity": "medium",
+  "old": "what moves them is fear, not a sense of honor,",
+  "new": "what moves them is fear, not a sense of shame,",
+  "why": "Greek ou di' aidō alla dia phobon; seg-0032 has 'from shame' for the same aidōs. 'Honor' is reserved for timē."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0033",
+  "severity": "high",
+  "old": "But a man should be brave from a sense of honor, not under compulsion.",
+  "new": "But a man should be brave because it is noble, not under compulsion.",
+  "why": "Greek dei d' ou di' anankēn andreion einai, all' hoti kalon."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0035",
+  "severity": "high",
+  "old": "But the truly brave act from a sense of honor, with spirit as their ally;",
+  "new": "But the truly brave act because it is noble, with spirit as their ally;",
+  "why": "Greek hoi andreioi dia to kalon prattousin, ho de thymos synergei."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "and dissolute men do plenty of bold things out of lust.",
+  "new": "and adulterers do plenty of bold things out of lust.",
+  "why": "Greek hoi moichoi; concrete and sharper, and 'dissolute' was another stray word for akolastos."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0035",
+  "severity": "high",
+  "old": "not from a sense of honor and not as reason directs.",
+  "new": "not because it is noble and not as reason directs.",
+  "why": "Greek ou dia to kalon oud' hōs ho logos."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "Next, temperance — self-mastery — which seems",
+  "new": "Next, temperance, which seems",
+  "why": "Doubled gloss inside the sentence, adding a third name to sōphrosynē."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0041",
+  "severity": "low",
+  "old": "Same with hearing:",
+  "new": "So too with hearing:",
+  "why": "Voice: spoken clip, matched to seg-0018."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0046",
+  "severity": "medium",
+  "old": "since no one craves to become an addict.",
+  "new": "since no one craves to become self-indulgent.",
+  "why": "Greek oudeis gar epithymei akolastos einai; 'addict' is clinical vocabulary and changes the claim."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "nor in the matters that show self-control",
+  "new": "nor in the matters of temperance",
+  "why": "Greek oud' en hois ho sōphrōn; Glossary policy (rejected.md): temperance."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "since people are likelier to hold tight to their own than to reach for what isn't theirs",
+  "new": "since people part with their own less readily than they refrain from taking what is another's",
+  "why": "Greek hētton gar proientai to oikeion ē ou lambanousi to allotrion: the comparison was reversed."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "and doing what is fine more than merely refraining from what is base — and plainly the doing of good and the doing of fine things",
+  "new": "and doing what is noble more than merely refraining from what is base — and plainly the doing of good and the doing of noble things",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "Every action that accords with excellence is fine and done for the sake of what is fine. So the generous person, too, will give for the sake of what is fine,",
+  "new": "Every action that accords with excellence is noble and done for the sake of what is noble. So the generous person, too, will give for the sake of what is noble,",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "or for some motive other than what is fine,",
+  "new": "or for some motive other than what is noble,",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "than done the fine thing",
+  "new": "than done the noble thing",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "as something necessary rather than fine,",
+  "new": "as something necessary rather than noble,",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "and where giving is fine.",
+  "new": "and where giving is noble.",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "because they do not care about what is fine,",
+  "new": "because they do not care about what is noble,",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "being neither fine nor disinterested",
+  "new": "being neither noble nor disinterested",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "That is why most of them have no self-restraint at all:",
+  "new": "That is why most of them are self-indulgent:",
+  "why": "Greek dio kai akolastoi autōn eisin hoi polloi; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "with an eye to what is fine. So the wasteful",
+  "new": "with an eye to what is noble. So the wasteful",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "the man who strips the dead,",
+  "new": "the petty thief who steals clothes,",
+  "why": "Greek lōpodytēs, a clothes thief (at the baths), not a stripper of corpses; the argument is about small gains."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0011",
+  "severity": "medium",
+  "old": "for the sake of what is fine, which is common to all the excellences",
+  "new": "for the sake of what is noble, which is common to all the excellences",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "he lavishes much and shows off out of taste:",
+  "new": "he lavishes much and makes a tasteless show:",
+  "why": "Greek ekmelōs lamprynetai; 'out of taste' is not idiomatic."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "dresses the actors in purple for the opening scene",
+  "new": "brings the chorus on in purple at their entrance",
+  "why": "Greek kōmōidois chorēgōn en tēi parodōi porphyran eispherōn: the comic chorus, at its entrance."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "not for the sake of what is fine but to flaunt",
+  "new": "not for the sake of what is noble but to flaunt",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "the prize set on the finest deeds",
+  "new": "the prize set on the noblest deeds",
+  "why": "Greek to tois kallistois athlon; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0015",
+  "severity": "low",
+  "old": "and at a certain rate.",
+  "new": "and worthy of in proportion to their worth.",
+  "why": "Greek kat' axian; 'at a certain rate' is opaque."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "hold back from fine actions and pursuits",
+  "new": "hold back from noble actions and pursuits",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "for not even wanting honor for fine things. But sometimes we praise the ambitious person as manly and a lover of what is fine, and the unambitious one as moderate and self-restrained",
+  "new": "for not even wanting honor for noble things. But sometimes we praise the ambitious person as manly and a lover of what is noble, and the unambitious one as moderate and temperate",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III. Also Greek metrion kai sōphrona: 'temperate' (Glossary)."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "Mildness is the mean concerning anger.",
+  "new": "Even temper is the mean concerning anger.",
+  "why": "Greek praotēs; Book II seg-0031 already named this mean 'even temper'."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "we give the name mildness to the one in the mean",
+  "new": "we give the name even temper to the one in the mean",
+  "why": "Greek praotēs; match Book II seg-0031."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "The excess might be called irascibility,",
+  "new": "The excess might be called hot temper,",
+  "why": "Greek orgilotēs; Book II seg-0031 named it 'hot temper'."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "so this person is mild, since mildness is praised. The mild person means",
+  "new": "so this person is even-tempered, since even temper is praised. The even-tempered person means",
+  "why": "Greek praos/praotēs; match Book II."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0021",
+  "severity": "medium",
+  "old": "To mildness we oppose the excess",
+  "new": "To even temper we oppose the excess",
+  "why": "Greek praotēs; match Book II."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0021",
+  "severity": "medium",
+  "old": "and call them mild,",
+  "new": "and call them even-tempered,",
+  "why": "Greek praous; match Book II."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "would be dishonorable, or even harmful",
+  "new": "would be ignoble, or even harmful",
+  "why": "Greek mē kalon; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "always with an eye to what is fine and beneficial.",
+  "new": "always with an eye to what is noble and beneficial.",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "by what is fine and beneficial, whichever weighs more",
+  "new": "by what is noble and beneficial, whichever weighs more",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "while the false-modest person, on the contrary,",
+  "new": "while the self-deprecating person, on the contrary,",
+  "why": "Greek eirōn; Book II seg-0033 and IV seg-0017 say 'self-deprecating'."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0023",
+  "severity": "medium",
+  "old": "and truth fine and praiseworthy",
+  "new": "and truth noble and praiseworthy",
+  "why": "Greek kalon; Glossary policy (rejected.md): noble, as in Books I and III."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "a fool rather than a knave.",
+  "new": "a fool rather than a scoundrel.",
+  "why": "'Knave' is leftover archaism."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "The false-modest, who play down",
+  "new": "The self-deprecating, who play down",
+  "why": "Greek eirōnes; match Book II seg-0033."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0026",
+  "severity": "medium",
+  "old": "the rest of social intercourse.",
+  "new": "the rest of social life.",
+  "why": "Register: for a young reader 'intercourse' has one sense."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "most lawful acts are just the acts that naturally flow",
+  "new": "most lawful acts are simply the acts that naturally flow",
+  "why": "In a book on justice the adverb 'just' reads first as the adjective."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "justice come alive — justice given a face.",
+  "new": "justice come alive.",
+  "why": "Greek dikaion empsychon is one image; the second phrase is an added flourish."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0017",
+  "severity": "high",
+  "old": "Let a house be worth five minae and a bed worth a tenth of that;",
+  "new": "Let a house be worth five minae and a bed one mina;",
+  "why": "Arithmetic: in Aristotle the bed is a tenth of B (ten minae), i.e. one mina, so five beds equal the house (Chase: 'C a bed worth 1/10th of B'). As written a bed is half a mina and the house equals ten beds."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "\"My mother he has slain; the tale is short — either he killed her willing and himself willing, or with her will but against his own\"?",
+  "new": "\"My mother he has slain; the tale is short — he willing, and she willing; or she willing, and he against his will\"?",
+  "why": "Greek (Euripides, Alcmaeon) hekōn hekousan, ē thelousan ouch hekōn: 'himself willing' reads as if he killed himself. Kept inline, as every verse quotation in this prose edition is."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0032",
+  "severity": "medium",
+  "old": "the one is having less than the mean, the other having more, like health in medicine and good condition in training.",
+  "new": "the one is having less than the mean, the other more — the mean being here what health is in medicine and fitness is in training.",
+  "why": "The comparison hung on the two evils; in Greek it is the mean that is like health and good condition."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0026",
+  "severity": "low",
+  "old": "and the man without self-control does not do",
+  "new": "and the man who lacks self-control does not do",
+  "why": "Greek akratēs/akrasia; Glossary policy (rejected.md): the man who lacks self-control / lack of self-control."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "what is just and fine and good for a human being",
+  "new": "what is just and noble and good for a human being",
+  "why": "Greek ta dikaia kai kala kai agatha; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "more apt to do fine and just things",
+  "new": "more apt to do noble and just things",
+  "why": "Greek kala kai dikaia; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "If the aim is fine, the cleverness",
+  "new": "If the aim is noble, the cleverness",
+  "why": "Greek ean men oun ho skopos ēi kalos; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "the mean is fixed by the right principle. It is time to spell out what that principle is.",
+  "new": "the mean is fixed by right reason. It is time to spell out what right reason is.",
+  "why": "Greek orthos logos; Book II seg-0006 promised 'later we will say what right reason is' — this is the payoff (Glossary: 'right reason')."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "and accord with the right principle.",
+  "new": "and accord with right reason.",
+  "why": "Greek orthos logos; Glossary."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "as the right principle directs.",
+  "new": "as right reason directs.",
+  "why": "Greek orthos logos; Glossary."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "the mean lies where the right principle says it does; we have to lay down what the right principle actually is",
+  "new": "the mean lies where right reason says it does; we have to lay down what right reason actually is",
+  "why": "Greek orthos logos; Glossary."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "craft and the reasoned state apt for making true things are the same.",
+  "new": "craft is the same as a state apt for making that involves true reasoning.",
+  "why": "Greek hexis meta logou alēthous poiētikē: the truth is in the reasoning, not in the things made."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "It is also why we give self-mastery the name we do in Greek, a word that means \"what preserves practical wisdom\" — for what self-mastery preserves",
+  "new": "It is also why temperance has the name it does in Greek, a word that means \"what preserves practical wisdom\" — for what temperance preserves",
+  "why": "Greek sōphrosynē (sōzousa tēn phronēsin); fourth English name for it. Glossary policy (rejected.md)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "or about anything that has no end, and an end that is some good attainable by action.",
+  "new": "or about anything that does not lead to an end — an end that is some good attainable by action.",
+  "why": "Greek oud' hosōn mē telos ti esti, kai touto prakton agathon; the clause trailed off."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0011",
+  "severity": "medium",
+  "old": "It stands opposite to intuitive understanding: understanding takes in the principles",
+  "new": "It stands opposite to intuitive understanding, which takes in the principles",
+  "why": "Greek nous; bare 'understanding' is the edition's word for synesis (seg-0013), so the faculties merged."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "The weak-willed person, or the bad one,",
+  "new": "The person who lacks self-control, or the bad one,",
+  "why": "Greek akratēs/akrasia; Glossary policy (rejected.md): the man who lacks self-control / lack of self-control."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "by which we call people understanding or not.",
+  "new": "by which we call people men of understanding or not.",
+  "why": "Greek synetous; 'understanding' as an adjective now suggests 'sympathetic'."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "whom we call practically wise and understanding.",
+  "new": "whom we call practically wise and men of understanding.",
+  "why": "Greek synetous; as seg-0013."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "A person is understanding, and has good judgment,",
+  "new": "A person has understanding, and good judgment,",
+  "why": "Greek synetos; as seg-0013."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "are grasped by understanding and not by reasoning. In demonstration, understanding takes in",
+  "new": "are grasped by intuitive understanding, not by reasoning. In demonstration, intuitive understanding takes in",
+  "why": "Greek nous, not synesis: bare 'understanding' merged the two faculties just where they are being distinguished."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "justice, self-mastery, and courage",
+  "new": "justice, temperance, and courage",
+  "why": "Greek sōphronikoi; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "adds \"in accordance with the right principle\" — and the right principle is the one set by practical wisdom.",
+  "new": "adds \"in accordance with right reason\" — and right reason is the one that accords with practical wisdom.",
+  "why": "Greek kata ton orthon logon; orthos d' ho kata tēn phronēsin. Glossary: 'right reason'."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "not merely accords with the right principle but actually involves it — and the right principle in such matters",
+  "new": "not merely accords with right reason but actually involves it — and right reason in such matters",
+  "why": "Greek orthos logos; Glossary."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "since the one supplies the right end and the other makes us do what leads to it.",
+  "new": "since goodness of character supplies the right end, and practical wisdom makes us do what leads to it.",
+  "why": "Greek hē men gar to telos hē de ta pros to telos poiei prattein; read in order 'the one' was practical wisdom, reversing seg-0016."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0002",
+  "severity": "medium",
+  "old": "along with its near relations softness and self-indulgence,",
+  "new": "along with its near relations softness and luxuriousness,",
+  "why": "Greek malakia kai tryphē; 'self-indulgence' is the Glossary word for akolasia."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0003",
+  "severity": "high",
+  "old": "the man without self-control the one who abandons it. The man without self-control acts",
+  "new": "the man who lacks self-control the one who abandons it. The man who lacks self-control acts",
+  "why": "Greek akratēs/akrasia; Glossary policy (rejected.md): the man who lacks self-control / lack of self-control."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0003",
+  "severity": "high",
+  "old": "Some people run together the man with no self-control at all and the merely weak-willed man; others keep them apart.",
+  "new": "Some people run together the self-indulgent man and the man who lacks self-control — the weak-willed man; others keep them apart.",
+  "why": "Greek ton akolaston akratē kai ton akratē akolaston: 'no self-control at all' and 'without self-control' are near-identical English for the two characters the book separates. Glossary: akolastos = self-indulgent; akratēs = lacks self-control, short form 'weak-willed' (fixed here)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "Those are about the common opinions.",
+  "new": "Those, roughly, are the common opinions.",
+  "why": "Garbled closing sentence (Greek ta men oun legomena tauta estin)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0004",
+  "severity": "high",
+  "old": "When a man fails of self-control,",
+  "new": "When a man lacks self-control,",
+  "why": "Greek akratēs/akrasia; Glossary policy (rejected.md): the man who lacks self-control / lack of self-control."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "it is not knowledge the weak man yields against",
+  "new": "it is not knowledge the weak-willed man yields against",
+  "why": "Greek akratēs; 'weak' alone collides with astheneia, the 'weak' form of seg-0019."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "and the weak man recovers his knowledge",
+  "new": "and the weak-willed man recovers his knowledge",
+  "why": "Greek akratēs; as seg-0005."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "whether the weak man acts with knowledge",
+  "new": "whether the weak-willed man acts with knowledge",
+  "why": "Greek akratēs; as seg-0005."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0012",
+  "severity": "high",
+  "old": "We put this man, the man with no self-control at all, the self-controlled man,",
+  "new": "We put this man, the self-indulgent man, the self-controlled man,",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "So we should count the man more wholly given over to his passions who chases excessive pleasures and flees moderate pains while feeling little or no real desire, than the man driven by overwhelming desire",
+  "new": "So we would sooner call self-indulgent the man who chases excessive pleasures and flees moderate pains with little or no desire, than the man who does so from violent desire",
+  "why": "Greek dio mallon akolaston hostis mē epithymōn ē ērema diōkei tas hyperbolas: does not parse as written, and the Greek names the self-indulgent man."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0013",
+  "severity": "high",
+  "old": "the field that the temperate man and the man with no self-control share",
+  "new": "the field that the temperate man and the self-indulgent man share",
+  "why": "Greek peri ha hē sōphrosynē kai hē akolasia; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "eating coal or dirt. Where nature is truly the cause, no one would call a man weak-willed, any more than for the diseased states; he is simply outside that frame.",
+  "new": "eating coal or dirt, and sex between men — in some by nature, in others from habit, as in those abused from childhood. Where nature is the cause, no one would call such people weak-willed, any more than one would call women so because in sex they are passive rather than active; nor those made morbid by habit. They are simply outside that frame.",
+  "why": "Greek 1148b29-33 (pros de toutois hē tōn aphrodisiōn tois arresin ... hōsper oude tas gynaikas, hoti ouk opyiousin all' opyiontai): Chase cut these silently (ellipsis) and the edition inherited the cut unmarked. Restored plainly, in-segment; the editor should read this one."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0016",
+  "severity": "high",
+  "old": "the field of temperance and the utter lack of self-control,",
+  "new": "the field of temperance and self-indulgence,",
+  "why": "Greek sōphrosynē kai akolasia; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0017",
+  "severity": "high",
+  "old": "is the man with no self-control at all — incapable of regret,",
+  "new": "is the self-indulgent man — incapable of regret,",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "is soft and self-indulgent —",
+  "new": "is soft and pampered —",
+  "why": "Greek malakos kai tryphōn; 'self-indulgent' is the Glossary word for akolastos."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "like those who tickle themselves first to be ready for it,",
+  "new": "like people who tickle first and so are not tickled themselves,",
+  "why": "Greek hōsper hoi progargalisantes ou gargalizontai."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0019",
+  "severity": "high",
+  "old": "And the man with no self-control at all, as we said,",
+  "new": "And the self-indulgent man, as we said,",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0020",
+  "severity": "high",
+  "old": "the man with no self-control does hold such a conviction",
+  "new": "the self-indulgent man does hold such a conviction",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0020",
+  "severity": "high",
+  "old": "the man with no self-control is his contrary.",
+  "new": "the self-indulgent man is his contrary.",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0020",
+  "severity": "high",
+  "old": "better than the man with no self-control and not simply bad",
+  "new": "better than the self-indulgent man and not simply bad",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0021",
+  "severity": "medium",
+  "old": "the finer thing.",
+  "new": "the nobler thing.",
+  "why": "Greek kalon; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "the weak man falls away through a little too much",
+  "new": "the weak-willed man falls away through a little too much",
+  "why": "Greek akratēs; as seg-0005."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0022",
+  "severity": "high",
+  "old": "just as temperance is treated as the opposite of the utter lack of self-control alone.",
+  "new": "just as temperance is treated as the opposite of self-indulgence alone.",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0022",
+  "severity": "high",
+  "old": "the weak-willed man and the man with no self-control resemble each other",
+  "new": "the weak-willed man and the self-indulgent man resemble each other",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0029",
+  "severity": "high",
+  "old": "the very ones the man with no self-control is given over to",
+  "new": "the very ones the self-indulgent man is given over to",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0032",
+  "severity": "high",
+  "old": "the field of the man with no self-control.",
+  "new": "the field of the self-indulgent man.",
+  "why": "Greek akolastos/akolasia; Glossary policy (rejected.md): self-indulgent/self-indulgence, as Book III names it."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0034",
+  "severity": "high",
+  "old": "and this is how men come to have no self-control, to be bad.",
+  "new": "and this is how men become self-indulgent and bad.",
+  "why": "Greek dia tauta ginontai akolastoi kai phauloi; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0035",
+  "severity": "low",
+  "old": "This is why God enjoys",
+  "new": "This is why the god enjoys",
+  "why": "Greek ho theos: the capital brings in a monotheist reading (as Book I seg-0012)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "until they have eaten the proverbial salt together",
+  "new": "until they have eaten the salt together",
+  "why": "The proverb was flagged twice in one sentence."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "People tied otherwise are friends in the way that something good and some likeness arises to them",
+  "new": "The others are friends only so far as there is something good in their bond, and some likeness to the true kind",
+  "why": "Does not parse aloud; Greek kath' hoson agathou tinos kai homoiou."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "nor useful for honorable ends",
+  "new": "nor useful for noble ends",
+  "why": "Greek pros ta kala; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0041",
+  "severity": "medium",
+  "old": "for man is by nature more given to pairing than to political life,",
+  "new": "for man is by nature more a pairing animal than a political one,",
+  "why": "Greek synduastikon mallon ē politikon: keeps the famous 'political animal' recognizable (Book I seg-0017, IX seg-0035)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0044",
+  "severity": "low",
+  "old": "when people contract and discharge obligations in different keys",
+  "new": "when people take on an obligation in one spirit and settle it in another",
+  "why": "The musical image is not in the Greek (mē kata tēn autēn)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0044",
+  "severity": "low",
+  "old": "must abide the outcome.",
+  "new": "must live with the result.",
+  "why": "Leftover archaism."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0045",
+  "severity": "low",
+  "old": "because he does not get the obligation discharged in the same key in which he contracted it.",
+  "new": "because he does not get it settled in the same spirit in which he entered into it.",
+  "why": "As seg-0044: no musical image in the Greek."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0045",
+  "severity": "medium",
+  "old": "wish for what is honorable but, when it comes to the test, choose what is profitable; and doing good disinterestedly is honorable,",
+  "new": "wish for what is noble but, when it comes to the test, choose what is profitable; and doing good disinterestedly is noble,",
+  "why": "Greek boulontai ta kala ... kalon de to eu poiein; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0045",
+  "severity": "medium",
+  "old": "One should act, that is, as having made a mistake at the outset in taking a kindness from one from whom one should not have taken it — he being no friend, and not acting disinterestedly — and should discharge oneself as though one had received a kindness on stated terms.",
+  "new": "You should behave as if you had made a mistake at the start, by accepting a kindness from someone you should not have taken it from — someone who was no friend and was not acting for your sake — and settle the matter as if the kindness had been given on stated terms.",
+  "why": "Stacked 'one ... one ... oneself' trips at 'from one from whom one' and is stiffer than the rest of the work (Book VIII voice)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0046",
+  "severity": "low",
+  "old": "that being more honorable.",
+  "new": "that being nobler.",
+  "why": "Greek kallion; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "If that had been the deal both intended, fine.",
+  "new": "If both had meant that to be the bargain, all would have been well.",
+  "why": "Greek kalōs an eichen; a spoken shrug."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "no one would pay a cent for what they know",
+  "new": "no one would pay anything for what they know",
+  "why": "'Cent' brings in American currency."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "when he aches for the beloved when she is gone and longs for her presence.",
+  "new": "when he aches for the beloved in absence and longs for the beloved's presence.",
+  "why": "Greek ho pothei apont(a) kai tēs parousias epithymēi: the beloved has no gender, and 'she' is an addition."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "when one man strikes another as fine, or brave,",
+  "new": "when one man strikes another as noble, or brave,",
+  "why": "Greek kalos; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "to do what is just, or self-controlled, or in any way virtuous",
+  "new": "to do what is just, or temperate, or in any way virtuous",
+  "why": "Greek sōphrona; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "strained to do what is finest",
+  "new": "strained to do what is noblest",
+  "why": "Greek ta kallista; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0035",
+  "severity": "medium",
+  "old": "Man is a social animal, made by nature to live with others;",
+  "new": "Man is a political animal, made by nature to live with others;",
+  "why": "Greek politikon gar ho anthrōpos kai syzēn pephykos; match Book I seg-0017."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "Life alone is a heavy thing,",
+  "new": "Life is hard for the man who lives alone,",
+  "why": "Greek monōtēi men oun chalepos ho bios; 'Life alone' can be heard as 'life by itself'."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0046",
+  "severity": "medium",
+  "old": "choosing that sense above all the others because love \"is kindled by the eyes and fed by gazing,\"",
+  "new": "choosing that sense above all the others because it is chiefly through sight that love comes to be and lives,",
+  "why": "Not a quotation in Aristotle (hōs malista kata tautēn ontos tou erōtos kai ginomenou); Chase inserted Shakespeare ('engendered in the eyes, / With gazing fed') and the edition kept it as if Aristotle quoted it."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "he was thought a model of self-command,",
+  "new": "he was thought a man of exceptional temperance,",
+  "why": "Greek sōphrōn einai diapherontōs; 'self-command' was a fourth name for sōphrosynē. Glossary policy (rejected.md)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "no one ever asks what a man is pleased *for* —",
+  "new": "no one ever asks to what end a man is pleased —",
+  "why": "Literal Markdown asterisks; the app does not render them. Greek tinos heneka hēdetai: the stress carried in the wording."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "to a just act, to self-command —",
+  "new": "to a just act, to a temperate one —",
+  "why": "Greek tōi dikaiopragein kai sōphronein; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "since *every* good",
+  "new": "since every good",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "pleasure is *not* the chief good",
+  "new": "pleasure is not the chief good",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "we say *is so*;",
+  "new": "we say is so;",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0005",
+  "severity": "medium",
+  "old": "not a *quality*:",
+  "new": "not a quality:",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "A man may *become* pleased quickly, as he may grow angry quickly, but he cannot *be* pleased quickly,",
+  "new": "A man may become pleased quickly, as he may grow angry quickly, but he cannot be pleased quickly,",
+  "why": "Literal Markdown asterisks; the become/be contrast stands without them."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0006",
+  "severity": "medium",
+  "old": "states of the *body*,",
+  "new": "states of the body,",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0007",
+  "severity": "medium",
+  "old": "only not from *those* sources",
+  "new": "only not from those sources",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0008",
+  "severity": "medium",
+  "old": "crossing a line *in a place*,",
+  "new": "crossing a line in a particular place,",
+  "why": "Literal Markdown asterisks; 'particular' carries the stress."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0011",
+  "severity": "medium",
+  "old": "but as a kind of bloom laid over the top — the bloom on those in the flush of youth.",
+  "new": "but as an end that supervenes on it, like the bloom of youth on those in their prime.",
+  "why": "Greek hōs epiginomenon ti telos, hoion tois akmaiois hē hōra: dropping 'end' loses the claim; the bloom is the comparison."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "what *is* the case is what strikes",
+  "new": "what really is the case is what strikes",
+  "why": "Literal Markdown asterisks; 'really' carries the stress."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0015",
+  "severity": "medium",
+  "old": "strike *him* as pleasures, and the pleasant things are the ones *he* takes pleasure in.",
+  "new": "strike him as pleasures, and the pleasant things are the ones he himself takes pleasure in.",
+  "why": "Literal Markdown asterisks; 'himself' carries the stress."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "call *the* pleasure of man?",
+  "new": "call the pleasure proper to man?",
+  "why": "Literal Markdown asterisks; 'proper to' carries the stress."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "in order to *play*.",
+  "new": "in order to play.",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "Call that best thing intelligence,",
+  "new": "Call that best thing intellect,",
+  "why": "Greek nous as the highest part of us; Glossary: 'intellect' (as IX seg-0032-0033)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "since intelligence is the highest thing in us",
+  "new": "since intellect is the highest thing in us",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "those who *have* knowledge",
+  "new": "those who already have knowledge",
+  "why": "Literal Markdown asterisks; 'already' carries the stress."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "the activity of intelligence, being contemplative,",
+  "new": "the activity of intellect, being contemplative,",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "then *this* must be",
+  "new": "then this must be",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0022",
+  "severity": "low",
+  "old": "If intelligence is divine compared with a human being, then the life of intelligence is divine",
+  "new": "If intellect is divine compared with a human being, then the life of intellect is divine",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0023",
+  "severity": "medium",
+  "old": "the life of intelligence — since this, more than anything, *is* the man.",
+  "new": "the life of intellect — since this, more than anything, is the man.",
+  "why": "Literal Markdown asterisks; Greek nous (Glossary: intellect)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "The happiness of intelligence stands apart",
+  "new": "The happiness of intellect stands apart",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0024",
+  "severity": "medium",
+  "old": "pretend they *wish* to act justly",
+  "new": "pretend they wish to act justly",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "what sort of *actions* shall we",
+  "new": "what sort of actions shall we",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0026",
+  "severity": "medium",
+  "old": "and having lived with self-command —",
+  "new": "and having lived temperately —",
+  "why": "Greek bebiōkotas sōphronōs; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "The man who works with his intelligence and tends it,",
+  "new": "The man who works with his intellect and tends it,",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "which must be intelligence —",
+  "new": "which must be intellect —",
+  "why": "Greek nous; Glossary."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0028",
+  "severity": "medium",
+  "old": "not by nature obedient to a sense of honor but only to fear,",
+  "new": "not by nature obedient to a sense of shame but only to fear,",
+  "why": "Greek ou gar pephykasin aidoi peitharchein: aidōs is shame; 'honor' is reserved for timē."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0028",
+  "severity": "medium",
+  "old": "but to *do*;",
+  "new": "but to do;",
+  "why": "Literal Markdown asterisks."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0030",
+  "severity": "medium",
+  "old": "for a life of self-command and endurance",
+  "new": "for a life of temperance and endurance",
+  "why": "Greek to sōphronōs kai karterikōs zēn; Glossary policy (rejected.md)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0030",
+  "severity": "medium",
+  "old": "penalties sooner than the sense of what is fine. Hence some hold that lawgivers should call on the sense of honor to urge men toward virtue,",
+  "new": "penalties sooner than the noble. Hence some hold that lawgivers should urge men toward virtue for the sake of the noble,",
+  "why": "Greek zēmiais ē tōi kalōi; parakalein epi tēn aretēn kai protrepesthai tou kalou charin. 'Honor' is the lower motive (Book III, citizen courage)."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0030",
+  "severity": "medium",
+  "old": "the good man, who lives by a sense of honor, will heed reason",
+  "new": "the good man, who lives with his eye on the noble, will heed reason",
+  "why": "Greek ton men epieikē kai pros to kalon zōnta."
+ }
+]

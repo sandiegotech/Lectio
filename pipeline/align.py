@@ -86,7 +86,18 @@ def apply(work: Work, editions: list[Edition]) -> dict | None:
         for e in editions:
             _allocate(e, counts, by_index=False)
     else:
-        return None
+        # No canonical table for this work: place each segment by its position in the
+        # section, a fraction from 0 to 1. Coarse, but it keeps Compare and cross-edition
+        # bookmarks working, and a real table can replace it without changing the contract.
+        # A recipe that set its own ranges (the Bible, by verse) is left alone.
+        if any(seg.spine for e in editions for sec in e.sections for seg in sec.segments):
+            return None
+        for e in editions:
+            for sec in e.sections:
+                body = _body_segments(sec.segments)
+                for i, seg in enumerate(body):
+                    seg.spine = SpineRange(fromRef=f"{i / len(body):.4f}", toRef=f"{(i + 1) / len(body):.4f}")
+        counts = []
 
     return {
         "referenceScheme": scheme,
@@ -187,7 +198,7 @@ def _body_segments(segments: list) -> list:
             start += 1
             continue
         break
-    return [s for s in segments[start:] if s.kind != "heading"]
+    return [s for s in segments[start:] if s.kind not in ("heading", "omit")]
 
 
 def _chained_dashes(text: str) -> int:

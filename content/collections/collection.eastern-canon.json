@@ -17,6 +17,21 @@
       "workId": "work.gilgamesh",
       "note": "",
       "part": ""
+    },
+    {
+      "workId": "work.vyasa.bhagavad-gita",
+      "note": "",
+      "part": ""
+    },
+    {
+      "workId": "work.dhammapada",
+      "note": "",
+      "part": ""
+    },
+    {
+      "workId": "work.laozi.tao-te-ching",
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
@@ -75,15 +90,6 @@
       "cover": "collections/book-covers/eastern-mahabharata.jpg"
     },
     {
-      "title": "The Bhagavad Gita",
-      "author": "",
-      "era": "200–101 BCE",
-      "part": "India",
-      "note": "On the eve of battle a warrior refuses to fight; a god answers him — act without grasping at the fruit of action.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-bhagavad-gita.jpg"
-    },
-    {
       "title": "The Ramayana",
       "author": "Valmiki",
       "era": "500–301 BCE",
@@ -91,15 +97,6 @@
       "note": "The exile of a prince and the war to win back his abducted wife — order tested against grief; living scripture across Asia.",
       "tradition": "East",
       "cover": "collections/book-covers/eastern-ramayana.jpg"
-    },
-    {
-      "title": "The Dhammapada",
-      "author": "Early Buddhist tradition",
-      "era": "300–201 BCE",
-      "part": "India",
-      "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-dhammapada.jpg"
     },
     {
       "title": "The Arthashastra",
@@ -226,15 +223,6 @@
       "note": "Mozi's case against Confucius — impartial love, plain living, and the first logic in China.",
       "tradition": "East",
       "cover": "collections/book-covers/eastern-mozi.jpg"
-    },
-    {
-      "title": "The Tao Te Ching",
-      "author": "Laozi",
-      "era": "400–301 BCE",
-      "part": "China",
-      "note": "Eighty-one chapters on the way that cannot be named and the power that works by yielding.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-tao-te-ching.jpg"
     },
     {
       "title": "The Doctrine of the Mean",

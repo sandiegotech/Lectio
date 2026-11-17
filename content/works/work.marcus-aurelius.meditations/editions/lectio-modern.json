@@ -17,33 +17,34 @@
       "Méric Casaubon, translation (1634)",
       "Greek original — Τὰ εἰς ἑαυτόν (Wikisource)"
     ],
-    "tokensEstimated": 242930,
-    "vintage": 2026
+    "tokensEstimated": 242982,
+    "vintage": 2026,
+    "revised": "2026-11-17"
   },
   "character": "Plain modern English — the sense of the original, made to read with ease today.",
-  "overview": "The Lectio Edition renders Marcus's notebook in clear, living modern English — the sense and force of the Stoic original without the Victorian stiffness of George Long or the archaism of Méric Casaubon. It is synthesised from the public-domain translations and cross-checked against the Greek, then reviewed for fidelity, aiming to read as Marcus's own plain, urgent voice to himself.",
-  "introduction": "Marcus Aurelius never meant these notes to be read. He was the most powerful man in the world — emperor of Rome — yet he wrote them at night, on campaign, as private reminders to himself about how to live: with reason, justice, and steadiness in the face of death. That is why the book has no argument and no audience. It is a mind talking to itself.\n\nThis Lectio Edition renders his Greek into clear, contemporary English — grounded in the public-domain translations of George Long (1862) and Méric Casaubon (1634) and checked against the original. Read it straight through, or tap any line to compare a historical translation or the Greek.",
+  "overview": "The Lectio Edition renders Marcus's notebook in clear, living modern English—the sense and force of the Stoic original without the Victorian stiffness of George Long or the archaism of Méric Casaubon. It is synthesised from the public-domain translations and cross-checked against the Greek, then reviewed for fidelity, aiming to read as Marcus's own plain, urgent voice to himself.",
+  "introduction": "Marcus Aurelius never meant these notes to be read. He was the most powerful man in the world—emperor of Rome—yet he wrote them at night, on campaign, as private reminders to himself about how to live: with reason, justice, and steadiness in the face of death. That is why the book has no argument and no audience. It is a mind talking to itself.\n\nThis Lectio Edition renders his Greek into clear, contemporary English—grounded in the public-domain translations of George Long (1862) and Méric Casaubon (1634) and checked against the original. Read it straight through, or set any passage beside a historical translation or the Greek—every Lectio edition carries them.",
   "divergences": [
     {
       "locus": "The title",
       "phrase": "Τὰ εἰς ἑαυτόν",
       "older": "“Meditations” (traditional editorial title)",
       "lectio": "kept as “Meditations,” read as “To Himself”",
-      "note": "Marcus gave the work no title; ‘Meditations’ is a later editor’s label. The Greek means ‘To Himself’ — a private notebook, not a treatise. Lectio keeps the familiar name but reads the text as the self-address it actually is."
+      "note": "Marcus gave the work no title; ‘Meditations’ is a later editor’s label. The Greek means ‘To Himself’—a private notebook, not a treatise. Lectio keeps the familiar name but reads the text as the self-address it actually is."
     },
     {
       "locus": "throughout",
       "phrase": "τὸ ἡγεμονικόν (to hēgemonikon)",
-      "older": "“the ruling faculty,” “the governing part” (Long)",
-      "lectio": "“the mind that governs you,” “your directing mind”",
-      "note": "Long’s literal ‘ruling faculty’ is accurate but opaque. The hēgemonikon is the Stoic term for the rational command-centre of the self; Lectio renders its function plainly rather than transliterating the philosophy."
+      "older": "“the ruling faculty” (Long)",
+      "lectio": "“the ruling faculty” (also “the ruling power,” “the governing part,” “guiding principles”)",
+      "note": "The hēgemonikon is the Stoic term for the rational command-centre of the self, and it runs through the whole notebook. Lectio keeps Long’s ‘ruling faculty’ as the standing term, so a reader can follow one idea from book to book, and varies it only where the sentence needs it—the ‘ruling power’ of the universe, other men’s ‘guiding principles,’ the ‘governing part’ beside flesh and breath in II.2."
     },
     {
       "locus": "e.g. 2.13, 3.3, 5.27",
       "phrase": "δαίμων (daimōn)",
-      "older": "“the daemon,” “the divinity within” (Long)",
-      "lectio": "“the spirit within you,” “your inner guide”",
-      "note": "‘Daemon’ misleads a modern reader toward ‘demon.’ For the Stoics it is the divine spark of reason each person carries; Lectio renders the idea, not the loaded word."
+      "older": "“the daemon” (Long)",
+      "lectio": "“the divinity within you” (him, me), everywhere",
+      "note": "‘Daemon’ misleads a modern reader toward ‘demon.’ For the Stoics it is the divine spark of reason each person carries, and Marcus treats it as a god: in V.27 it is the one Zeus has given each of us as guardian and guide. Lectio gives it one phrase throughout, so the reader can see it is the same thing each time, and the phrase keeps the word divine, which ‘spirit’ or ‘inner guide’ would lose. Only in VII.17, where the sentence turns on the word itself (eudaimonia is a good daimon), is the Greek named."
     }
   ],
   "sections": [
@@ -87,7 +88,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "From my great-grandfather, I learned the value of not relying on public schools but having good teachers at home — and that this is something worth spending freely on.",
+          "text": "From my great-grandfather, I learned the value of not relying on public schools but having good teachers at home—and that this is something worth spending freely on.",
           "spine": {
             "from": "1.4",
             "to": "1.4"
@@ -97,7 +98,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "From my tutor, I learned not to take sides among the racing teams at the Circus or the rival gladiators in the arena; to endure hard work, to want little, to do things with my own hands, to mind my own business, and to refuse to listen to gossip.",
+          "text": "From my tutor, I learned not to back the Greens or the Blues at the races, or the small-shield or the big-shield fighters in the arena; to endure hard work, to want little, to do things with my own hands, to mind my own business, and to refuse to listen to gossip.",
           "spine": {
             "from": "1.5",
             "to": "1.5"
@@ -107,7 +108,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "From Diognetus, I learned not to waste myself on trivial things; not to believe the claims of magicians and quacks about spells and exorcisms; and not to take up fashionable hobbies like breeding fighting quails. He taught me to put up with plain speaking and to take philosophy seriously; he led me to hear the philosophers Bacchius, Tandasis, and Marcianus, to write dialogues as a boy, and to choose the simple camp-bed and animal skins of the Greek discipline.",
+          "text": "From Diognetus, I learned not to waste myself on trivial things; not to believe the claims of magicians and quacks about spells and exorcisms; and not to keep quails for fighting, or get excited about such things. He taught me to put up with plain speaking and to take philosophy seriously; he led me to hear the philosophers Bacchius, Tandasis, and Marcianus, to write dialogues as a boy, and to choose the simple camp-bed and animal skins of the Greek discipline.",
           "spine": {
             "from": "1.6",
             "to": "1.6"
@@ -117,7 +118,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0007",
           "order": 7,
           "kind": "paragraph",
-          "text": "From Rusticus, I came to see that my character needed work and discipline. He kept me from chasing clever showmanship, from writing on abstract theories, from delivering little sermons, and from showing off as a model of self-discipline or charity. He taught me to give up ornate rhetoric, poetry, and fine writing; to write plainly, like the simple letter he sent my mother from Sinuessa; to make peace readily with anyone who had wronged me, the moment they were willing; to read closely rather than settle for a superficial grasp; and not to nod along with people who only talk a lot. It was Rusticus who introduced me to Epictetus' teachings, lending me his own copy.",
+          "text": "From Rusticus, I came to see that my character needed work and discipline. He kept me from chasing clever showmanship, from writing on abstract theories, from delivering little sermons, and from showing off as a model of self-discipline or charity. He taught me to give up ornate rhetoric, poetry, and fine writing; not to walk around the house in formal dress, or do anything of that kind; to write plainly, like the simple letter he sent my mother from Sinuessa; to make peace readily with anyone who had wronged me, the moment they were willing; to read closely rather than settle for a superficial grasp; and not to nod along with people who only talk a lot. It was Rusticus who introduced me to Epictetus' teachings, lending me his own copy.",
           "spine": {
             "from": "1.7",
             "to": "1.7"
@@ -127,7 +128,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0008",
           "order": 8,
           "kind": "paragraph",
-          "text": "From Apollonius, I learned independence of mind and steady purpose — relying on reason and nothing else, even for a moment — and to stay the same person in sharp pain, in the loss of a child, and in long illness. In him I saw a living example of a man who could be both utterly firm and gentle, never irritable in teaching, who treated his real gift — his skill in explaining philosophy — as the least of his merits. From him I also learned how to accept favors from friends without feeling diminished or letting them pass unacknowledged.",
+          "text": "From Apollonius, I learned independence of mind and steady purpose—relying on reason and nothing else, even for a moment—and to stay the same person in sharp pain, in the loss of a child, and in long illness. In him I saw a living example of a man who could be both utterly firm and gentle, never irritable in teaching, who treated his real gift—his skill in explaining philosophy—as the least of his merits. From him I also learned how to accept favors from friends without feeling diminished or letting them pass unacknowledged.",
           "spine": {
             "from": "1.8",
             "to": "1.8"
@@ -137,7 +138,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0009",
           "order": 9,
           "kind": "paragraph",
-          "text": "From Sextus, I learned kindness, and the example of a household run the way a good father runs his family; the idea of living in agreement with nature; dignity without pretense; and genuine care for my friends. He bore patiently with ignorant people and with those who hold opinions without thinking them through. He could get along with anyone — his company was more pleasant than any flattery, and yet people held him in the deepest respect. He had a gift for working out and arranging, clearly and methodically, the principles a life needs. He never showed anger or any other passion; he was at once completely calm and deeply affectionate. He gave praise quietly and carried great learning without ever parading it.",
+          "text": "From Sextus, I learned kindness, and the example of a household run the way a good father runs his family; the idea of living in agreement with nature; dignity without pretense; and genuine care for my friends. He bore patiently with ignorant people and with those who hold opinions without thinking them through. He could get along with anyone—his company was more pleasant than any flattery, and yet people held him in the deepest respect. He had a gift for working out and arranging, clearly and methodically, the principles a life needs. He never showed anger or any other passion; he was at once completely calm and deeply affectionate. He gave praise quietly and carried great learning without ever parading it.",
           "spine": {
             "from": "1.9",
             "to": "1.9"
@@ -147,7 +148,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0010",
           "order": 10,
           "kind": "paragraph",
-          "text": "From Alexander the grammarian, I learned not to pounce on mistakes — not to embarrass someone for a slip in grammar or pronunciation, but to work the correct form smoothly into my reply, or by confirming the point, or by some other tactful prompt.",
+          "text": "From Alexander the grammarian, I learned not to pounce on mistakes—not to embarrass someone for a slip in grammar or pronunciation, but to slip in the right expression myself, by way of an answer, or of agreeing with the point, or of discussing the matter itself rather than the wording, or by some other tactful reminder.",
           "spine": {
             "from": "1.10",
             "to": "1.10"
@@ -157,7 +158,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0011",
           "order": 11,
           "kind": "paragraph",
-          "text": "From Fronto, I learned how much envy, cunning, and hypocrisy come with absolute power, and that the people we call aristocrats tend to be rather short on ordinary human warmth.",
+          "text": "From Fronto, I learned how much envy, cunning, and hypocrisy come with absolute power, and that the people we call aristocrats tend to be somewhat lacking in natural affection.",
           "spine": {
             "from": "1.11",
             "to": "1.11"
@@ -167,7 +168,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0012",
           "order": 12,
           "kind": "paragraph",
-          "text": "From Alexander the Platonist, I learned not to say or write to people, often or without real need, that I am 'too busy,' and not to keep dodging my obligations to those around me by always pleading urgent business.",
+          "text": "From Alexander the Platonist, I learned not to say or write to people, often or without real need, that I am \"too busy,\" and not to keep dodging my obligations to those around me by always pleading urgent business.",
           "spine": {
             "from": "1.12",
             "to": "1.12"
@@ -187,7 +188,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0014",
           "order": 14,
           "kind": "paragraph",
-          "text": "From my brother Severus, I learned to love my family, the truth, and justice. Through him I came to know Thrasea, Helvidius, Cato, Dion, and Brutus; and from him I got the idea of a society governed by one law for all, administered with equal rights and freedom of speech, and of a kingship that values above all the liberty of those it governs. He taught me a steady, undistracted devotion to philosophy; a readiness to do good and to give generously; optimism; and trust that my friends loved me. He never hid what he thought of those he disapproved of, so his friends never had to guess his wishes — it was simply plain.",
+          "text": "From my brother Severus, I learned to love my family, the truth, and justice. Through him I came to know Thrasea, Helvidius, Cato, Dion, and Brutus; and from him I got the idea of a society governed by one law for all, administered with equal rights and freedom of speech, and of a kingship that values above all the liberty of those it governs. He taught me a steady, undistracted devotion to philosophy; a readiness to do good and to give generously; optimism; and trust that my friends loved me. He never hid what he thought of those he disapproved of, so his friends never had to guess his wishes—it was simply plain.",
           "spine": {
             "from": "1.14",
             "to": "1.14"
@@ -197,7 +198,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0015",
           "order": 15,
           "kind": "paragraph",
-          "text": "From Maximus, I learned self-mastery and not to be thrown off course by anything; good cheer in every circumstance, including illness; a character that mixed sweetness with dignity; and doing whatever lay before me without grumbling. Everyone trusted that he meant what he said and acted with good intentions. He was never astonished, never in a hurry, never put things off; he was never at a loss, never downcast, never forced a laugh to cover irritation, and never flew into anger or suspicion. He was generous, forgiving, and honest, and gave the impression of a man who had always been upright rather than one who had had to be corrected. No one could ever feel looked down on by him, or imagine himself the better man — and he had a gift for being agreeably funny.",
+          "text": "From Maximus, I learned self-mastery and not to be thrown off course by anything; good cheer in every circumstance, including illness; a character that mixed sweetness with dignity; and doing whatever lay before me without grumbling. Everyone trusted that he meant what he said and acted with good intentions. He was never astonished, never in a hurry, never put things off; he was never at a loss, never downcast, never forced a laugh to cover irritation, and never flew into anger or suspicion. He was generous, forgiving, and honest, and gave the impression of a man who had always been upright rather than one who had had to be corrected. No one could ever feel looked down on by him, or imagine himself the better man—and he had a gift for being agreeably funny.",
           "spine": {
             "from": "1.15",
             "to": "1.15"
@@ -207,7 +208,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0016",
           "order": 16,
           "kind": "paragraph",
-          "text": "In my adoptive father, Antoninus, I saw gentleness and an unshakable commitment to decisions made after careful thought. He was indifferent to the so-called honors people crave; he loved hard work and persistence, and was open to anyone with a proposal for the common good. He gave every man exactly what he deserved, and he knew from experience when to press hard and when to ease off. He thought of himself as no more than an ordinary citizen, and he freed his friends from any obligation to dine with him or attend him on his travels; those kept away by other duties always found him unchanged. In council he examined matters carefully and patiently, never breaking off too soon, satisfied with first impressions. He kept his friends without tiring of them and without being extravagantly attached. He was content in every situation, cheerful, and farsighted, attending to the smallest details without fuss. He put a stop to flattery and applause aimed at himself. He watched constantly over what the empire needed, managed its spending well, and patiently bore the criticism this drew. He was neither superstitious toward the gods nor a courter of popular favor; he was sober and steady in everything, never vulgar, never chasing novelty. The comforts that fortune supplied in abundance he used without arrogance and without apology — enjoying them naturally when they were there, and not missing them when they were gone. No one could call him a sophist, a glib servant, or a pedant; everyone recognized him as a mature, complete man, beyond flattery, able to govern himself and others. He honored genuine philosophers and did not reproach the false ones, though he was never taken in by them. He was easy in conversation and charming without being tiresome. He cared for his health sensibly — not clinging to life or fussing over his looks, yet not neglecting himself — so that he rarely needed a doctor. He was quick to make way for those with real talent, in eloquence, law, ethics, or anything else, and helped each win the recognition he deserved. He followed his country's traditions without making a show of it. He disliked change and restlessness, preferring the same places and pursuits, and after his bouts of headache he came back fresh and vigorous to his work. He kept few secrets, and only about public affairs. He was prudent and economical in staging public shows, putting up buildings, and making gifts to the people — a man who looked to what ought to be done, not to the reputation it would earn. He did not bathe at odd hours, did not build for the sake of building, and was indifferent to his food and to the cut and color of his clothes. There was nothing harsh in him, nothing relentless or violent, nothing 'driven to the sweating point'; he examined everything calmly, as if he had all the time in the world — orderly, steady, and consistent. What was said of Socrates fits him: he could go without the things most people cannot do without, and enjoy in moderation the things most people cannot enjoy without overdoing it. To be strong enough for both — to do without, and to enjoy with restraint — is the mark of a man whose soul is balanced and unbeatable, exactly as he showed during Maximus' illness.",
+          "text": "In my adoptive father, Antoninus, I saw gentleness and an unshakable commitment to decisions made after careful thought. He was indifferent to the so-called honors people crave; he loved hard work and persistence, and was open to anyone with a proposal for the common good. He gave every man exactly what he deserved, and he knew from experience when to press hard and when to ease off. He put a stop to love affairs with boys. He thought of himself as no more than an ordinary citizen, and he freed his friends from any obligation to dine with him or attend him on his travels; those kept away by other duties always found him unchanged. In council he examined matters carefully and patiently, never breaking off his inquiry early because first impressions seemed good enough. He kept his friends without tiring of them and without being extravagantly attached. He was content in every situation, cheerful, and farsighted, attending to the smallest details without fuss. He put a stop to flattery and applause aimed at himself. He watched constantly over what the empire needed, managed its spending well, and patiently bore the criticism this drew. He was not superstitious toward the gods, and he never courted the people with favors, flattery, or playing to the crowd; he was sober and steady in everything, never vulgar, never chasing novelty. The comforts that fortune supplied in abundance he used without arrogance and without apology—enjoying them naturally when they were there, and not missing them when they were gone. No one could call him a sophist, a glib servant, or a pedant; everyone recognized him as a mature, complete man, beyond flattery, able to govern himself and others. He honored genuine philosophers and did not reproach the false ones, though he was never taken in by them. He was easy in conversation and charming without being tiresome. He cared for his health sensibly—not clinging to life or fussing over his looks, yet not neglecting himself—so that he rarely needed a doctor. He was quick to make way for those with real talent, in eloquence, law, ethics, or anything else, and helped each win the recognition he deserved. He followed his country's traditions without making a show of it. He disliked change and restlessness, preferring the same places and pursuits, and after his bouts of headache he came back fresh and vigorous to his work. He kept few secrets, and only about public affairs. He was prudent and economical in staging public shows, putting up buildings, and making gifts to the people—a man who looked to what ought to be done, not to the reputation it would earn. He did not bathe at odd hours, did not build for the sake of building, and was indifferent to his food, to the cut and color of his clothes, and to the good looks of his slaves. His clothes came up from his house at Lorium on the coast, and most of his things from Lanuvium. There was the way he treated the tax collector at Tusculum who begged his pardon; and that was his manner in everything. There was nothing harsh in him, nothing relentless or violent, nothing \"driven to the sweating point\"; he examined everything calmly, as if he had all the time in the world—orderly, steady, and consistent. What was said of Socrates fits him: he could go without the things most people cannot do without, and enjoy in moderation the things most people cannot enjoy without overdoing it. To be strong enough for both—to do without, and to enjoy with restraint—is the mark of a man whose soul is complete and unconquerable, exactly as he showed during Maximus' illness.",
           "spine": {
             "from": "1.16",
             "to": "1.16"
@@ -217,7 +218,7 @@
           "id": "edition.meditations.lectio-modern.book-01.seg-0017",
           "order": 17,
           "kind": "paragraph",
-          "text": "To the gods I owe good grandfathers, good parents, a good sister, good teachers, good companions, good relatives and friends — almost everything good. I owe it to them, too, that I never lost my temper and wronged any of them, though my nature was such that, given the chance, I might have; by their grace, the circumstances that would have tested me never came together. I am grateful that I was not raised too long by my father's mistress; that I kept my innocence and did not become a man before my time, but if anything waited longer than I needed to. I lived under a ruler and father who stripped away my pride and showed me that one can live in a palace without bodyguards, fine clothes, torches, statues, and such display, and can bring oneself nearly to the level of a private citizen without becoming, for that reason, any smaller in spirit or any slacker in the public duties a ruler must perform. The gods gave me a brother whose character spurred me to watch over myself, and whose respect and affection gladdened me; children who were not born dull or deformed; and the good sense not to get further in rhetoric and poetry and other studies that might have absorbed me had I felt I was excelling. I was quick to give those who raised me the honors they seemed to want, instead of putting them off with promises because they were still young. I came to know Apollonius, Rusticus, and Maximus. I formed clear and frequent pictures of what it means to live according to nature, so that, as far as the gods and their gifts and help and inspiration were concerned, nothing kept me from living that way at once — though I still fall short through my own fault, by not heeding their reminders and almost explicit instructions. My body has held out this long in such a life. I never laid a hand on Benedicta or Theodotus, and when I later fell into infatuations, I recovered. Though I was often annoyed with Rusticus, I never went so far as to do something I would regret. My mother, though fated to die young, spent her last years with me. Whenever I wanted to help someone in need, I was never told there was no money for it — and I myself never had to ask such help from anyone. I have a wife so obedient, affectionate, and unaffected; and I had no shortage of good teachers for my children. Remedies were shown to me in dreams, including ones for spitting blood and for dizziness. And when I was drawn to philosophy, I did not fall into the hands of some sophist, or waste my time on historical writers, on untangling logical puzzles, or on speculating about the heavens. For all of these, I needed the help of the gods and of fortune.",
+          "text": "To the gods I owe good grandfathers, good parents, a good sister, good teachers, good companions, good relatives and friends—almost everything good. I owe it to them, too, that I never slipped into wronging any of them, though my nature was such that, given the chance, I might have; by their grace, the circumstances that would have tested me never came together. I am grateful that I was not brought up any longer than I was by my grandfather's mistress; that I kept my innocence and did not become a man before my time, but if anything waited longer than I needed to. I lived under a ruler and father who stripped away my pride and showed me that one can live in a palace without bodyguards, fine clothes, torches, statues, and such display, and can bring oneself nearly to the level of a private citizen without becoming, for that reason, any smaller in spirit or any slacker in the public duties a ruler must perform. The gods gave me a brother whose character spurred me to watch over myself, and whose respect and affection gladdened me; children who were not born dull or deformed. I did not get any further in rhetoric and poetry and the other studies that might well have absorbed me, had I felt I was making good progress in them. I was quick to give those who raised me the honors they seemed to want, instead of putting them off with promises because they were still young. I came to know Apollonius, Rusticus, and Maximus. I formed clear and frequent pictures of what it means to live according to nature, so that, as far as the gods and their gifts and help and inspiration were concerned, nothing kept me from living that way at once—though I still fall short through my own fault, by not heeding their reminders and almost explicit instructions. My body has held out this long in such a life. I never laid a hand on Benedicta or Theodotus, and when I later fell into infatuations, I recovered. Though I was often annoyed with Rusticus, I never went so far as to do something I would regret. My mother, though fated to die young, spent her last years with me. Whenever I wanted to help someone in need, I was never told there was no money for it—and I myself never had to ask such help from anyone. I have a wife so obedient, affectionate, and unaffected; and I had no shortage of good teachers for my children. Remedies were shown to me in dreams, including ones for spitting blood and for dizziness, and the one at Caieta, given as if by an oracle. And when I was drawn to philosophy, I did not fall into the hands of some sophist, or sit down to analyzing treatises or untangling logical puzzles, or busy myself with speculating about the heavens. For all of these, I needed the help of the gods and of fortune.",
           "spine": {
             "from": "1.17",
             "to": "1.17"
@@ -234,7 +235,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "Begin each morning by telling yourself: today I will meet people who are meddling, ungrateful, arrogant, dishonest, envious, and unsociable. They are like this because they cannot tell good from evil. But I have seen that the nature of the good is beautiful and the nature of the bad is ugly, and that the one who does wrong is related to me—not by blood or birth, but because we share the same mind and the same fragment of the divine. So none of them can truly harm me, since no one can force me into anything ugly, and I cannot be angry with a relative or hate him. We were made to work together, like the feet, the hands, the eyelids, the rows of upper and lower teeth. To work against one another, then, is against nature—and resentment and turning away are exactly that.",
+          "text": "Begin each morning by telling yourself: today I will meet people who are meddling, ungrateful, arrogant, dishonest, envious, and unsociable. They are like this because they cannot tell good from evil. But I have seen that the nature of the good is beautiful and the nature of the bad is ugly, and that the one who does wrong is related to me—not by blood or birth, but because we share the same mind and the same fragment of the divine. So none of them can harm me, since no one can entangle me in what is ugly, and I cannot be angry with a relative or hate him. We were made to work together, like the feet, the hands, the eyelids, the rows of upper and lower teeth. To work against one another, then, is against nature—and resentment and turning away are exactly that.",
           "spine": {
             "from": "2.1",
             "to": "2.1"
@@ -274,7 +275,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "Every moment, set yourself firmly, as a Roman and a man, to do the task in front of you with perfect and simple dignity, with affection, freedom, and justice, and to free yourself from every other thought. You will free yourself if you do each act of your life as if it were your last—setting aside all carelessness, all passionate resistance to what reason commands, all hypocrisy, all self-love, and all discontent with the lot you have been given. See how few things a man needs to master in order to live a calm life, like the life of the gods; for the gods themselves will ask nothing more from anyone who keeps to these things.",
+          "text": "Every moment, set yourself firmly, as a Roman and a man, to do the task in front of you with perfect and simple dignity, with affection, freedom, and justice, and to free yourself from every other thought. You will free yourself if you do each act of your life as if it were your last—setting aside all carelessness, all passionate resistance to what reason commands, all hypocrisy, all self-love, and all discontent with the lot you have been given. See how few things a man needs to master in order to live a smoothly flowing life, like the life of the gods; for the gods themselves will ask nothing more from anyone who keeps to these things.",
           "spine": {
             "from": "2.5",
             "to": "2.5"
@@ -284,7 +285,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "You wrong yourself, you wrong yourself, my soul—and soon you will no longer have the chance to honor yourself. Every person gets just one life, and yours is nearly over, yet you still do not respect yourself; instead you stake your happiness on the souls of other people.",
+          "text": "You wrong yourself, you wrong yourself, my soul—and soon you will no longer have the chance to honor yourself. Each man's life is brief, and yours is nearly over, yet you still do not respect yourself; instead you stake your happiness on the souls of other people.",
           "spine": {
             "from": "2.6",
             "to": "2.6"
@@ -324,7 +325,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0010",
           "order": 10,
           "kind": "paragraph",
-          "text": "When Theophrastus compares wrongdoings—the kind of comparison one would make according to ordinary human ideas—he says, like a true philosopher, that offenses committed out of desire are more blameworthy than those committed out of anger. For the man stirred by anger seems to turn away from reason with a kind of pain and an unwilling flinch; but the man who offends out of desire is overcome by pleasure and seems somehow more lacking in self-control, more weak-willed in his wrongdoing. Rightly, then, and in a way worthy of philosophy, he said that the offense committed with pleasure deserves more blame than the one committed with pain. On the whole, the angry man is like someone who was first wronged and is driven by pain into anger, while the other moves on his own impulse to do wrong, carried into action by desire.",
+          "text": "When Theophrastus compares wrongdoings—the kind of comparison one would make according to ordinary human ideas—he says, like a true philosopher, that offenses committed out of desire are more blameworthy than those committed out of anger. For the man stirred by anger seems to turn away from reason with a kind of pain and a flinch he hardly notices; but the man who offends out of desire is overcome by pleasure and seems somehow more lacking in self-control and more unmanly in his wrongdoing. Rightly, then, and in a way worthy of philosophy, he said that the offense committed with pleasure deserves more blame than the one committed with pain. On the whole, the angry man is like someone who was first wronged and is driven by pain into anger, while the other moves on his own impulse to do wrong, carried into action by desire.",
           "spine": {
             "from": "2.10",
             "to": "2.10"
@@ -334,7 +335,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0011",
           "order": 11,
           "kind": "paragraph",
-          "text": "Since it is possible that you may leave this life at any moment, govern every action and thought accordingly. As for leaving the company of people, if there are gods, there is nothing to fear—they will not let you fall into evil. And if there are no gods, or if they take no interest in human affairs, then why would I want to live in a universe with no gods and no providence? But in truth they do exist, and they do care about human things, and they have placed everything within a man's power so that he need not fall into real evils. As for anything else, if it were truly evil, they would have arranged that too, so that it would be entirely in a man's power to avoid it. And anything that does not make a man worse—how could it make his life worse? It is not possible that the nature of the universe overlooked these things out of ignorance, nor out of knowing them while lacking the power to guard against or correct them. Nor is it possible that it made so great a mistake, through weakness or lack of skill, that good and evil should fall on the good and the bad alike. But death and life, honor and dishonor, pain and pleasure—all of these come equally to good men and bad, and they make us neither better nor worse. So they are neither good nor evil.",
+          "text": "Since it is possible that you may leave this life at any moment, govern every action, word, and thought accordingly. As for departing from among the living, if there are gods, there is nothing to fear—they will not let you fall into evil. And if there are no gods, or if they take no interest in human affairs, then why would I want to live in a universe with no gods and no providence? But in truth they do exist, and they do care about human things, and they have placed everything within a man's power so that he need not fall into real evils. As for anything else, if it were truly evil, they would have arranged that too, so that it would be entirely in a man's power to avoid it. And anything that does not make a man worse—how could it make his life worse? It is not possible that the nature of the universe overlooked these things out of ignorance, nor out of knowing them while lacking the power to guard against or correct them. Nor is it possible that it made so great a mistake, through weakness or lack of skill, that good and evil should fall on the good and the bad alike. But death and life, honor and dishonor, pain and pleasure, wealth and poverty—all of these come equally to good men and bad, and they are neither noble nor shameful. So they are neither good nor evil.",
           "spine": {
             "from": "2.11",
             "to": "2.11"
@@ -354,7 +355,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0013",
           "order": 13,
           "kind": "paragraph",
-          "text": "Nothing is more pitiable than a man who circles around everything, prying into what lies beneath the earth, as the poet says, and trying to guess by conjecture what is in his neighbors' minds, never realizing that it is enough to attend to the spirit within himself and to revere it sincerely. To revere that spirit means keeping it free from passion and thoughtlessness, and from discontent with what comes from gods and men. What comes from the gods deserves reverence for its excellence; what comes from men should be dear to us because they are our kin—and sometimes, in a way, they even move us to pity because they do not know good from bad, a defect no smaller than the one that robs a person of the power to tell white from black.",
+          "text": "Nothing is more pitiable than a man who circles around everything, prying into \"the things beneath the earth,\" as the poet says, and trying to guess by conjecture what is in his neighbors' minds, never realizing that it is enough to attend to the divinity within himself and to revere it sincerely. To revere it means keeping it free from passion and thoughtlessness, and from discontent with what comes from gods and men. What comes from the gods deserves reverence for its excellence; what comes from men should be dear to us because they are our kin—and sometimes, in a way, they even move us to pity because they do not know good from bad, a defect no smaller than the one that robs a person of the power to tell white from black.",
           "spine": {
             "from": "2.13",
             "to": "2.13"
@@ -394,7 +395,7 @@
           "id": "edition.meditations.lectio-modern.book-02.seg-0017",
           "order": 17,
           "kind": "paragraph",
-          "text": "In human life, time is a mere point, the substance is in constant flux, perception is dim, the whole body is matter bound to rot, the soul is a whirl, fortune is hard to predict, and fame is mindless. In a word, everything of the body is a flowing stream, everything of the soul is dream and vapor, life is a war and a stranger's brief stay, and lasting fame is oblivion. What, then, can guide a man? One thing, and one thing only: philosophy. And this means keeping the spirit within him free from violence and unharmed, above pleasures and pains, doing nothing without a purpose and nothing falsely or with pretense, not depending on whether another man does or does not do something; and besides this, accepting everything that happens and everything allotted to him as coming from wherever he himself came; and, finally, awaiting death with a cheerful mind, since it is nothing but the breaking up of the elements that make up every living being. But if it does no harm to the elements themselves to be continually changing one into another, why should a man dread the change and dissolution of them all? It is in keeping with nature, and nothing that is in keeping with nature is evil.",
+          "text": "In human life, time is a mere point, the substance is in constant flux, perception is dim, the whole body is matter bound to rot, the soul is a whirl, fortune is hard to predict, and fame is mindless. In a word, everything of the body is a flowing stream, everything of the soul is dream and vapor, life is a war and a stranger's brief stay, and lasting fame is oblivion. What, then, can guide a man? One thing, and one thing only: philosophy. And this means keeping the divinity within him free from violence and unharmed, above pleasures and pains, doing nothing without a purpose and nothing falsely or with pretense, not depending on whether another man does or does not do something; and besides this, accepting everything that happens and everything allotted to him as coming from wherever he himself came; and, finally, awaiting death with a cheerful mind, since it is nothing but the breaking up of the elements that make up every living being. But if it does no harm to the elements themselves to be continually changing one into another, why should a man dread the change and dissolution of them all? It is in keeping with nature, and nothing that is in keeping with nature is evil.",
           "spine": {
             "from": "2.17",
             "to": "2.17"
@@ -431,7 +432,7 @@
           "id": "edition.meditations.lectio-modern.book-03.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "Hippocrates cured many diseases, then fell sick and died himself. The Chaldean astrologers foretold the deaths of many, and then fate caught up with them too. Alexander, Pompey, and Gaius Caesar, after wiping out whole cities again and again and cutting to pieces tens of thousands of cavalry and infantry in battle, themselves at last departed from life. Heraclitus, after all his theories about the universe going up in flames, filled up with water inside and died smeared all over with mud. Lice killed Democritus, and other vermin killed Socrates. What does all this mean? You boarded the ship, you made the voyage, you have reached shore: get off. If it is to another life, there is no lack of gods even there; and if it is to a state without sensation, you will no longer be held by pains and pleasures, no longer a slave to this vessel, the body, which is as far inferior to what it serves as a servant is to its master. For the one is intelligence and divinity, the other is earth and decay.",
+          "text": "Hippocrates cured many diseases, then fell sick and died himself. The Chaldean astrologers foretold the deaths of many, and then fate caught up with them too. Alexander, Pompey, and Gaius Caesar, after wiping out whole cities again and again and cutting to pieces tens of thousands of cavalry and infantry in battle, themselves at last departed from life. Heraclitus, after all his theories about the universe going up in flames, filled up with water inside and died smeared all over with mud. Lice killed Democritus, and other vermin killed Socrates. What does all this mean? You boarded the ship, you made the voyage, you have reached shore: get off. If it is to another life, there is no lack of gods even there; and if it is to a state without sensation, you will no longer be held by pains and pleasures, no longer a slave to this vessel, the body, a master as far beneath its servant as the servant is above it. For the servant is intelligence and divinity; the master is earth and gore.",
           "spine": {
             "from": "3.3",
             "to": "3.3"
@@ -441,7 +442,7 @@
           "id": "edition.meditations.lectio-modern.book-03.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "Do not waste what remains of your life in thoughts about other people, unless you are relating those thoughts to some common good. For you lose the chance to do something else when you let your mind run on things like this: what is so-and-so doing, and why, and what is he saying, and what is he thinking, and what is he scheming, and everything of that kind that pulls you away from watching your own ruling power. So in the run of your thoughts you should cut out everything aimless and useless, and above all the over-curious and the spiteful. Train yourself to think only of things such that, if someone suddenly asked you, 'What are you thinking about right now?', you could answer at once and openly, 'This' or 'That', and it would be plain from your words that everything in you is straightforward and kind, the thoughts of a social creature, one with no concern for pleasure or sensual indulgence at all, no rivalry, no envy, no suspicion, nothing you would blush to admit was on your mind. A person like this, who no longer puts off being among the best, is a kind of priest and servant of the gods, using too the divinity seated within him, which keeps a man uncontaminated by pleasure, unhurt by any pain, untouched by any insult, immune to wrong, a fighter in the noblest of fights, one who cannot be overpowered by any passion, steeped deep in justice, welcoming with his whole soul everything that happens and is assigned to him as his share. He rarely, and only out of great necessity and for the common good, lets himself imagine what someone else is saying or doing or thinking. He takes only what is his own as the material for his action; he keeps in mind what has been allotted to him out of the sum of things; he makes his own conduct fair; and he is convinced that his own portion is good. For the lot assigned to each person is carried along with him and carries him along with it. He also remembers that every rational being is his kin, that caring for all people is in keeping with human nature, and that he should hold on to the opinions not of everyone, but only of those who admittedly live according to nature. As for those who do not live so, he keeps in mind what sort of people they are at home and abroad, by night and by day, and what they are, and with what company they lead their impure lives. So he sets no value at all on the praise of such men, since they are not even satisfied with themselves.",
+          "text": "Do not waste what remains of your life in thoughts about other people, unless you are relating those thoughts to some common good. For you lose the chance to do something else when you let your mind run on things like this: what is so-and-so doing, and why, and what is he saying, and what is he thinking, and what is he scheming, and everything of that kind that pulls you away from watching your own ruling power. So in the run of your thoughts you should cut out everything aimless and useless, and above all the over-curious and the spiteful. Train yourself to think only of things such that, if someone suddenly asked you, \"What are you thinking about right now?\", you could answer at once and openly, \"This\" or \"That\", and it would be plain from your words that everything in you is straightforward and kind, the thoughts of a social creature, one with no concern for pleasure or sensual indulgence at all, no rivalry, no envy, no suspicion, nothing you would blush to admit was on your mind. A man like this, who no longer puts off being among the best, is a kind of priest and servant of the gods, and makes use as well of the divinity seated within him, which keeps a man uncontaminated by pleasure, unhurt by any pain, untouched by any insult, immune to wrong, a fighter in the noblest of fights, one who cannot be overpowered by any passion, steeped deep in justice, welcoming with his whole soul everything that happens and is assigned to him as his share. He rarely, and only out of great necessity and for the common good, lets himself imagine what someone else is saying or doing or thinking. He takes only what is his own as the material for his action; he keeps in mind what has been allotted to him out of the sum of things; he makes his own conduct fair; and he is convinced that his own portion is good. For the lot assigned to each person is carried along with him and carries him along with it. He also remembers that every rational being is his kin, that caring for all people is in keeping with human nature, and that he should hold on to the opinions not of everyone, but only of those who admittedly live according to nature. As for those who do not live so, he keeps in mind what sort of people they are at home and out of doors, by night and by day, and what sort of company they keep in their impure lives. So he sets no value at all on the praise of such men, since they are not even satisfied with themselves.",
           "spine": {
             "from": "3.4",
             "to": "3.4"
@@ -461,7 +462,7 @@
           "id": "edition.meditations.lectio-modern.book-03.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "If you find in human life anything better than justice, truth, self-control, and courage; in short, anything better than your own mind's contentment in the things it lets you do according to right reason, and in your contentment with the lot assigned to you without your own choosing; if, I say, you see anything better than this, then turn to it with all your soul and enjoy what you have found to be best. But if nothing appears better than the divinity planted within you, which has brought all your appetites under its control, which scrutinizes every impression, which has, as Socrates said, detached itself from the persuasions of the senses, submitted itself to the gods, and made the welfare of mankind its care; if you find everything else smaller and of less worth than this, then give way to nothing else. For once you swerve and lean toward something else, you will no longer be able, without distraction, to give first place to that good thing that is properly and uniquely your own. It is not right that anything of a different kind, such as the praise of the crowd, or power, or the enjoyment of pleasure, should compete with what is good in the rational and social sense. All these things, even if they seem to fit in only slightly, suddenly gain the upper hand and sweep us away. So you, I say, must simply and freely choose the better and hold to it. But the useful is the better. Well then, if it is useful to you as a rational being, keep to it; but if it is useful only to you as an animal, say so, and hold to your judgment without arrogance, only taking care to make the inquiry by a sound method.",
+          "text": "If you find in human life anything better than justice, truth, self-control, and courage; in short, anything better than your own mind's contentment in the things it lets you do according to right reason, and in your contentment with the lot assigned to you without your own choosing; if, I say, you see anything better than this, then turn to it with all your soul and enjoy what you have found to be best. But if nothing appears better than the divinity planted within you, which has brought all your appetites under its control, which scrutinizes every impression, which has, as Socrates said, detached itself from the persuasions of the senses, submitted itself to the gods, and made the welfare of mankind its care; if you find everything else smaller and of less worth than this, then give way to nothing else. For once you swerve and lean toward something else, you will no longer be able, without distraction, to give first place to that good thing that is properly and uniquely your own. It is not right that anything of a different kind, such as the praise of the crowd, or power, or wealth, or the enjoyment of pleasure, should compete with what is good in the rational and social sense. All these things may seem to sit comfortably beside the good for a little while; then suddenly they take over and sweep us away. So you, I say, must simply and freely choose the better and hold to it. \"But the useful is the better,\" you say. Well then, if it is useful to you as a rational being, keep to it; but if it is useful only to you as an animal, say so, and hold to your judgment without arrogance, only taking care to make the inquiry by a sound method.",
           "spine": {
             "from": "3.6",
             "to": "3.6"
@@ -511,7 +512,7 @@
           "id": "edition.meditations.lectio-modern.book-03.seg-0011",
           "order": 11,
           "kind": "paragraph",
-          "text": "To the aids already mentioned let this one be added: make for yourself a definition or description of whatever is presented to you, so that you can see clearly what kind of thing it is in its essence, stripped bare, in its full reality, and can name it properly, and name the parts of which it is composed and into which it will dissolve. Nothing lifts the mind so much as being able to examine, methodically and truthfully, every object that comes up in life, and always to look at things in such a way as to see at the same time what kind of universe this is, what purpose each thing serves in it, what value it has in relation to the whole and what value in relation to man, who is a citizen of the highest city, of which all other cities are like households. Ask what each thing is, what it is made of, how long it is in its nature to last, this thing that now makes an impression on me, and what virtue I need to meet it, such as gentleness, courage, truthfulness, loyalty, simplicity, self-sufficiency, and the rest. So on every occasion a man should say: this comes from god; and this comes by the apportioning and spinning of the thread of destiny, by such coincidence and chance; and this comes from one of my own kind, a kinsman and partner, who does not know, however, what accords with his nature. But I know; and for that reason I treat him, according to the natural law of fellowship, with kindness and justice. At the same time, in things that are neither good nor bad, I try to gauge the worth of each.",
+          "text": "To the aids already mentioned let this one be added: make for yourself a definition or description of whatever is presented to you, so that you can see clearly what kind of thing it is in its essence, stripped bare, in its full reality, and can name it properly, and name the parts of which it is composed and into which it will dissolve. Nothing lifts the mind so much as being able to examine, methodically and truthfully, every object that comes up in life, and always to look at things in such a way as to see at the same time what kind of universe this is, what purpose each thing serves in it, what value it has in relation to the whole and what value in relation to man, who is a citizen of the highest city, of which all other cities are like households. Of whatever is now making an impression on me I must ask: what is it, what is it made of, how long is it its nature to last, and what virtue do I need to meet it, such as gentleness, courage, truthfulness, loyalty, simplicity, self-sufficiency, and the rest. So on every occasion a man should say: this comes from god; and this comes by the apportioning and spinning of the thread of destiny, by such coincidence and chance; and this comes from one of my own kind, a kinsman and partner, who does not know, however, what accords with his nature. But I know; and for that reason I treat him, according to the natural law of fellowship, with kindness and justice. At the same time, in things that are neither good nor bad, I try to gauge the worth of each.",
           "spine": {
             "from": "3.11",
             "to": "3.11"
@@ -521,7 +522,7 @@
           "id": "edition.meditations.lectio-modern.book-03.seg-0012",
           "order": 12,
           "kind": "paragraph",
-          "text": "If you work at the task before you, following right reason in earnest, with vigor and calm, letting nothing else distract you, but keeping your divine part pure as though you might have to give it back at any moment; if you hold to this, expecting nothing, fearing nothing, but content with your present activity in accordance with nature, and with heroic truthfulness in every word and sound you utter, then you will live happily. And there is no one who can stop you.",
+          "text": "If you work at the task before you, following right reason in earnest, with vigor and calm, letting nothing else distract you, but keeping the divinity within you pure as though you might have to give it back at any moment; if you hold to this, expecting nothing, fearing nothing, but content with your present activity in accordance with nature, and with heroic truthfulness in every word and sound you utter, then you will live happily. And there is no one who can stop you.",
           "spine": {
             "from": "3.12",
             "to": "3.12"
@@ -598,7 +599,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "People look for places to get away to: country houses, beaches, mountains. You too long for such things very much. But this is the mark of the most ordinary kind of person, since it is in your power, whenever you choose, to retreat into yourself. Nowhere can you find a more peaceful or untroubled retreat than in your own soul, especially when you have within you the kind of thoughts that, by simply looking into them, put you at once into complete tranquillity. And by tranquillity I mean nothing other than a well-ordered mind. So give yourself this retreat constantly, and renew yourself. Keep your principles brief and basic, so that the moment you turn to them they are enough to wash the soul clean and send you back free of all discontent with the things you are returning to. For what is it you are discontented with? With people's wickedness? Then call to mind the conclusion that rational beings exist for one another, that patience is a part of justice, and that people do wrong without meaning to. Consider how many, after their mutual hostility, suspicion, hatred, and fighting, have been laid out dead and reduced to ashes; and be at peace at last. Or perhaps you are dissatisfied with the portion the universe has assigned you. Then recall the alternative: either there is providence, or there are only atoms, a chance jumble of things; or remember the arguments that have proved the world to be a kind of political community; and be at peace at last. Or perhaps bodily things still take hold of you. Then consider further that the mind does not mingle with the breath, whether it moves gently or violently, once it has drawn itself apart and discovered its own power; and remember all you have heard and agreed to about pain and pleasure; and be at peace at last. Or perhaps the desire for what is called fame will torment you. Then see how quickly everything is forgotten; look at the chaos of infinite time on either side of the present, at the emptiness of applause, at the fickleness and poor judgment of those who pretend to give praise, and at the narrowness of the space within which praise is confined. For the whole earth is a mere point, and how tiny a corner of it is this home of yours, and how few people are in it, and what kind of people are those who will praise you.",
+          "text": "People look for places to get away to: country houses, beaches, mountains. And you too are in the habit of longing for such places. But this is the mark of the most ordinary kind of person, since it is in your power, whenever you choose, to retreat into yourself. Nowhere can you find a more peaceful or untroubled retreat than in your own soul, especially when you have within you the kind of thoughts that, by simply looking into them, put you at once into complete tranquillity. And by tranquillity I mean nothing other than a well-ordered mind. So give yourself this retreat constantly, and renew yourself. Keep your principles brief and basic, so that the moment you turn to them they are enough to wash the soul clean and send you back free of all discontent with the things you are returning to. For what is it you are discontented with? With people's wickedness? Then call to mind the conclusion that rational beings exist for one another, that patience is a part of justice, and that people do wrong without meaning to. Consider how many, after feuding, suspecting, hating, and spearing one another, have been laid out dead and burned to ashes; and be at peace at last. Or perhaps you are dissatisfied with the portion the universe has assigned you. Then recall the alternative: either there is providence, or there are atoms; or remember the arguments that have proved the world to be a kind of political community. Or perhaps bodily things still take hold of you. Then consider further that the mind does not mingle with the breath, whether it moves gently or violently, once it has drawn itself apart and discovered its own power; and remember all you have heard and agreed to about pain and pleasure. Or perhaps the desire for what is called fame will torment you. Then see how quickly everything is forgotten; look at the chaos of infinite time on either side of the present, at the emptiness of applause, at the fickleness and poor judgment of those who pretend to give praise, and at the narrowness of the space within which praise is confined. For the whole earth is a mere point, and how tiny a corner of it is this home of yours, and how few people are in it, and what kind of people are those who will praise you.",
           "spine": {
             "from": "4.3",
             "to": "4.3"
@@ -618,7 +619,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0005",
           "order": 5,
           "kind": "paragraph",
-          "text": "If the thinking part of us is shared, then so is the reason that makes us rational beings. If that is so, then the reason which commands us what to do and what not to do is also shared. If that is so, there is a common law as well. If that is so, we are fellow citizens. If that is so, we are members of some political community. If that is so, the world is in a way a state. For what other common community could anyone claim that the whole human race belongs to? And it is from this common community that our very power of thought, our reasoning, and our capacity for law come; or where else would they come from? Just as my earthly part is a portion given to me from a certain earth, my watery part from another element, and my hot, fiery part from some particular source (for nothing comes out of nothing, just as nothing returns to non-existence), so too the thinking part comes from some source.",
+          "text": "If the thinking part of us is shared, then so is the reason that makes us rational beings. If that is so, then the reason which commands us what to do and what not to do is also shared. If that is so, there is a common law as well. If that is so, we are fellow citizens. If that is so, we are members of some political community. If that is so, the world is in a way a state. For what other common community could anyone claim that the whole human race belongs to? And it is from this common community that our very power of thought, our reasoning, and our capacity for law come; or where else would they come from? Just as my earthly part is a portion given to me from a certain earth, my watery part from another element, my airy part from some source, and my hot, fiery part from some particular source (for nothing comes out of nothing, just as nothing returns to non-existence), so too the thinking part comes from some source.",
           "spine": {
             "from": "4.5",
             "to": "4.5"
@@ -758,7 +759,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0019",
           "order": 19,
           "kind": "paragraph",
-          "text": "How much trouble a man avoids who does not look to see what his neighbor says or does or thinks, but only to what he himself does, that it may be just and pure. As Agathon says, do not glance around at the corrupt characters of others, but run straight along the line without swerving from it.",
+          "text": "How much trouble a man avoids who does not look to see what his neighbor says or does or thinks, but only to what he himself does, that it may be just and holy, as befits a good man. Do not glance around at the dark characters of others, but run straight along the line without swerving from it.",
           "spine": {
             "from": "4.19",
             "to": "4.19"
@@ -768,7 +769,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0020",
           "order": 20,
           "kind": "paragraph",
-          "text": "The man who has a fierce desire for fame after death does not consider that every one of those who remember him will himself soon die, and then those who succeed them, until the whole memory of him is snuffed out as it passes through people who admire foolishly and then perish. But suppose that those who remember you were even immortal, and the memory itself immortal: what is that to you? And I do not even ask what it is to the dead, but what it is to the living. What is praise, except so far as it has some practical use? For now you are unreasonably rejecting the gift of nature, clinging instead to something else.",
+          "text": "The man who has a fierce desire for fame after death does not consider that every one of those who remember him will himself soon die, and then those who succeed them, until the whole memory of him is snuffed out as it passes through people who admire foolishly and then perish. But suppose that those who remember you were even immortal, and the memory itself immortal: what is that to you? And I do not even ask what it is to the dead, but what it is to the living. What is praise, except so far as it has some practical use? For now you are wrongly neglecting nature's gift, which does not hang on what anyone else says.",
           "spine": {
             "from": "4.20",
             "to": "4.20"
@@ -888,7 +889,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0032",
           "order": 32,
           "kind": "paragraph",
-          "text": "One philosopher is without a tunic, another without a book; here is yet another half naked. \"I have no bread,\" he says, \"and still I hold to reason\"; and I get no living from my learning, yet still I hold to my reason.",
+          "text": "One philosopher is without a tunic, another without a book; here is yet another half naked. \"I have no bread,\" he says, \"and still I hold to reason.\" And I, who have the nourishment my studies give, do not hold to it.",
           "spine": {
             "from": "4.32",
             "to": "4.32"
@@ -908,7 +909,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0034",
           "order": 34,
           "kind": "paragraph",
-          "text": "Consider, for instance, the times of Vespasian. You will see all the same things: people marrying, raising children, falling sick, dying, making war, feasting, trading, farming, flattering, stubbornly arrogant, suspicious, scheming, wishing some people dead, grumbling about the present, in love, hoarding treasure, craving a consulship, craving royal power. Well, that life of theirs no longer exists at all. Move on to the times of Trajan. Again, everything is the same; their life too is gone. In the same way look at the other ages of time and whole nations, and see how many, after great efforts, soon fell and dissolved into the elements. Above all you should think of those you have known yourself who wore themselves out over trivial things and neglected to do what their own nature required, to hold firmly to that and be content with it. And here you must remember that the attention given to each thing has its proper value and proportion. For thus you will not be dissatisfied, if you give to lesser matters no more attention than is fitting.",
+          "text": "Consider, for instance, the times of Vespasian. You will see all the same things: people marrying, raising children, falling sick, dying, making war, feasting, trading, farming, flattering, putting on airs, suspecting, scheming, wishing some people dead, grumbling about the present, in love, hoarding treasure, craving a consulship, craving royal power. Well, that life of theirs no longer exists at all. Move on to the times of Trajan. Again, everything is the same; their life too is gone. In the same way look at the other ages of time and whole nations, and see how many, after great efforts, soon fell and dissolved into the elements. Above all you should think of those you have known yourself who wore themselves out over trivial things and neglected to do what their own nature required, to hold firmly to that and be content with it. And here you must remember that the attention given to each thing has its proper value and proportion. For thus you will not be dissatisfied, if you give to lesser matters no more attention than is fitting.",
           "spine": {
             "from": "4.34",
             "to": "4.34"
@@ -918,7 +919,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0035",
           "order": 35,
           "kind": "paragraph",
-          "text": "The words that were once familiar are now obsolete; and so too the names of those famous in old times are now in a way obsolete: Camillus, Caeso, Volesus, Leonnatus, and a little later Scipio and Cato, then Augustus, then Hadrian and Antoninus. For all things soon pass away and become a mere story, and complete oblivion soon buries them. And I say this of those who shone in some remarkable way. As for the rest, the moment they have breathed their last they are gone, and no one speaks of them. And to settle the matter, what even is an eternal memory? Nothing at all. What, then, is it that we ought to spend our serious effort on? This one thing: just thoughts, actions that serve the common good, words that never lie, and a disposition that gladly welcomes everything that happens, as necessary, as familiar, as flowing from a source and principle of the same kind.",
+          "text": "The words that were once familiar are now obsolete; and so too the names of those famous in old times are now in a way obsolete: Camillus, Caeso, Volesus, Dentatus, and a little later Scipio and Cato, then Augustus, then Hadrian and Antoninus. For all things soon pass away and become a mere story, and complete oblivion soon buries them. And I say this of those who shone in some remarkable way. As for the rest, the moment they have breathed their last they are \"unseen, unheard of.\" And after all, what is everlasting remembrance? Utterly empty. What, then, is it that we ought to spend our serious effort on? This one thing: just thoughts, actions that serve the common good, words that never lie, and a disposition that gladly welcomes everything that happens, as necessary, as familiar, as flowing from a source and principle of the same kind.",
           "spine": {
             "from": "4.35",
             "to": "4.35"
@@ -928,7 +929,7 @@
           "id": "edition.meditations.lectio-modern.book-04.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "Willingly give yourself up to Clotho, one of the Fates, and let her spin your thread into whatever she pleases.",
+          "text": "Willingly give yourself up to Clotho, and let her spin your thread into whatever she pleases.",
           "spine": {
             "from": "4.36",
             "to": "4.36"
@@ -1125,7 +1126,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "When you wake reluctantly in the morning, keep this thought ready: I am rising to do the work of a human being. Why should I be unhappy, if I am going to do the very things I exist for, the things I was brought into the world to do? Or was I made for this, to lie under the blankets and keep myself warm? But this is more pleasant. So were you made to take your pleasure, and not at all for action and effort? Don't you see the little plants, the little birds, the ants, the spiders, the bees all working together to put their own parts of the universe in order? And you are unwilling to do the work of a human being, and don't hurry to do what your own nature calls for? But I need rest too. You do. Yet nature has set limits to that, just as she has set limits to eating and drinking; and still you go past those limits, past what is enough, while in your work you do the opposite and stop short of what you could do. So you don't really love yourself, for if you did, you would love your nature and what it wants. People who love their crafts wear themselves out working at them, forgetting to wash or eat; but you value your own nature less than the metalworker values his craft, or the dancer his dancing, or the money-lover his money, or the vain man his scrap of glory. When such people are gripped by a passion for something, they would rather not eat or sleep than fall short of perfecting what they care about. Are the acts that serve society so worthless in your eyes, so much less worthy of your effort?",
+          "text": "When you wake reluctantly in the morning, keep this thought ready: I am rising to do the work of a human being. Why should I be unhappy, if I am going to do the very things I exist for, the things I was brought into the world to do? Or was I made for this, to lie under the blankets and keep myself warm? \"But this is more pleasant.\" So were you made to take your pleasure, and not at all for action and effort? Don't you see the little plants, the little birds, the ants, the spiders, the bees all working together to put their own parts of the universe in order? And you are unwilling to do the work of a human being, and don't hurry to do what your own nature calls for? \"But I need rest too.\" You do. Yet nature has set limits to that, just as she has set limits to eating and drinking; and still you go past those limits, past what is enough, while in your work you do the opposite and stop short of what you could do. So you don't really love yourself, for if you did, you would love your nature and what it wants. People who love their crafts wear themselves out working at them, forgetting to wash or eat; but you value your own nature less than the metalworker values his craft, or the dancer his dancing, or the money-lover his money, or the vain man his scrap of glory. When such people are gripped by a passion for something, they would rather not eat or sleep than fall short of perfecting what they care about. Are the acts that serve society so worthless in your eyes, so much less worthy of your effort?",
           "spine": {
             "from": "5.1",
             "to": "5.1"
@@ -1155,7 +1156,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "I make my way through the things that happen according to nature until I fall and come to rest, breathing out my breath into the same element I draw it from each day, and falling onto the same earth from which my father gathered the seed, my mother the blood, and my nurse the milk; the earth that for so many years has supplied me with food and drink, and that bears me up as I tread on it and put it to so many uses.",
+          "text": "I make my way through the things that happen according to nature until I fall and come to rest, breathing out my breath into the same element I draw it from each day, and falling onto the same earth from which my father gathered the seed, my mother the blood, and my nurse the milk; the earth that for so many years has supplied me with food and drink, and that bears me up as I tread on it and misuse it in so many ways.",
           "spine": {
             "from": "5.4",
             "to": "5.4"
@@ -1175,7 +1176,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "One man, when he has done another a service, is quick to put it on the books as a favor owed to him. Another doesn't go that far, but still privately counts the man as his debtor and is well aware of what he has done. A third, in a way, isn't even aware of what he has done; he is like a vine that has produced grapes and looks for nothing more once it has yielded its proper fruit. As a horse runs, a dog tracks game, a bee makes honey, so a man who has done a good deed doesn't call out for others to come and see, but moves on to the next deed, as the vine moves on to bear grapes again in season. So must a person be one of those who act this way without taking notice of it? Yes. But surely it is necessary to be aware of what one is doing, for it is said to be the mark of the social creature to perceive that it is acting for society, and indeed to want its fellow to perceive it too. What you say is true, but you misunderstand the point being made, and for that very reason you will become one of those I described earlier, for even they are led astray by a certain show of reason. But if you will choose to grasp the real meaning of what is said, don't be afraid that you will therefore neglect any social act.",
+          "text": "One man, when he has done another a service, is quick to put it on the books as a favor owed to him. Another doesn't go that far, but still privately counts the man as his debtor and is well aware of what he has done. A third, in a way, isn't even aware of what he has done; he is like a vine that has produced grapes and looks for nothing more once it has yielded its proper fruit. Like a horse that has run its race, a dog that has tracked its game, a bee that has made its honey, so a man who has done a good deed doesn't call out for others to come and see, but moves on to the next deed, as the vine moves on to bear grapes again in season. So we must be among those who do this, in a way, without noticing it. \"Yes,\" he says, \"but one has to be aware of this very thing, for it is the mark of the social creature to perceive that it is acting for society, and indeed to want its fellow to perceive it too.\" What you say is true, but you misunderstand the point being made, and for that very reason you will become one of those I described earlier, for even they are led astray by a certain show of reason. But if you will choose to grasp the real meaning of what is said, don't be afraid that you will therefore neglect any social act.",
           "spine": {
             "from": "5.6",
             "to": "5.6"
@@ -1195,7 +1196,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0008",
           "order": 8,
           "kind": "paragraph",
-          "text": "Just as we understand what it means when we say that Asclepius prescribed for a man horseback riding, or cold baths, or going barefoot, so we must understand it when we say that the nature of the universe prescribed for a man disease, or loss of a limb, or loss of something, or anything else of the kind. In the first case, prescribed means roughly this: he ordered this for this man as something suited to bring about health; and in the second it means that what happens to each man is in some way fixed for him to fit his destiny. This is what we mean when we say that things suit us, just as builders say of the squared stones in walls or pyramids that they suit one another, when they fit together in some connection. For there is altogether one fitness, one harmony. And just as the universe is made up out of all bodies to be the body it is, so out of all the existing causes destiny is made up to be the cause it is. Even people who understand nothing of this grasp my meaning, for they say, Fate brought this on him. So this was brought to him, this was prescribed for him. Let us then accept these things as we accept what Asclepius prescribes. Many of his prescriptions, too, are unpleasant, yet we accept them in hope of health. Let the carrying-out and completion of the things that the common nature judges good be regarded by you as on the same footing as your health. And so accept everything that happens, even if it seems unpleasant, because it leads to this: the health of the universe and the well-being and good fortune of Zeus, the universe itself. For he would not have brought on anyone what he has brought, if it were not useful for the whole. The nature of nothing whatever brings about anything unsuited to what it governs. So for two reasons you should be content with what happens to you: first, because it was done for you, prescribed for you, and in a way had reference to you, spun together with your destiny from the most ancient causes; and second, because even what comes to each man separately is, for the power that administers the universe, a cause of its well-being and completion, and indeed of its very continuance. For the integrity of the whole is maimed if you cut off anything at all from the connection and continuity of its parts or of its causes. And you do cut it off, as far as you can, when you are discontented, and in a way you try to do away with it.",
+          "text": "Just as we understand what it means when we say that Asclepius prescribed for a man horseback riding, or cold baths, or going barefoot, so we must understand it when we say that the nature of the universe prescribed for a man disease, or maiming, or loss, or anything else of the kind. In the first case, prescribed means roughly this: he ordered this for this man as something suited to bring about health; and in the second it means that what happens to each man is in some way fixed for him to fit his destiny. This is what we mean when we say that things suit us, just as builders say of the squared stones in walls or pyramids that they suit one another, when they fit together in some connection. For there is altogether one fitness, one harmony. And just as the universe is made up out of all bodies to be the body it is, so out of all the existing causes destiny is made up to be the cause it is. Even people who understand nothing of this grasp my meaning, for they say, Fate brought this on him. So this was brought to him, this was prescribed for him. Let us then accept these things as we accept what Asclepius prescribes. Many of his prescriptions, too, are unpleasant, yet we accept them in hope of health. Let the carrying-out and completion of the things that the common nature judges good be regarded by you as on the same footing as your health. And so accept everything that happens, even if it seems unpleasant, because it leads to this: the health of the universe and the well-being and good fortune of Zeus. For he would not have brought on anyone what he has brought, if it were not useful for the whole. For not even an ordinary nature brings about anything unsuited to what it governs. So for two reasons you should be content with what happens to you: first, because it was done for you, prescribed for you, and in a way had reference to you, spun together with your destiny from the most ancient causes; and second, because even what comes to each man separately is, for the power that administers the universe, a cause of its well-being and completion, and indeed of its very continuance. For the integrity of the whole is maimed if you cut off anything at all from the connection and continuity of its parts or of its causes. And you do cut it off, as far as you can, when you are discontented, and in a way you try to do away with it.",
           "spine": {
             "from": "5.8",
             "to": "5.8"
@@ -1215,7 +1216,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0010",
           "order": 10,
           "kind": "paragraph",
-          "text": "Things are so wrapped up and obscure that they have seemed to philosophers, and not a few of them, nor commonplace ones, altogether unintelligible; indeed even to the Stoics themselves they seem hard to understand. And every judgment we make is liable to change, for where is the man who never changes his mind? Turn your thoughts, then, to the objects themselves, and consider how short-lived and worthless they are, and how they may be owned by a filthy wretch, a prostitute, or a thief. Then turn to the characters of those who live with you, and you can hardly bear even the most agreeable of them, let alone bear yourself. In such darkness and filth, then, and in such a ceaseless flow of substance and time, of motion and things moved, I cannot imagine what there is worth prizing highly or even pursuing seriously. On the contrary, a man's duty is to comfort himself and wait for his natural dissolution without fretting at the delay, resting only in these principles: first, that nothing will happen to me that is not in keeping with the nature of the universe; and second, that it is in my power never to act against my god and the guiding spirit within me, for no one can force me to do so.",
+          "text": "Things are so wrapped up and obscure that they have seemed to philosophers, and not a few of them, nor commonplace ones, altogether unintelligible; indeed even to the Stoics themselves they seem hard to understand. And every judgment we make is liable to change, for where is the man who never changes his mind? Turn your thoughts, then, to the objects themselves, and consider how short-lived and worthless they are, and how they may be owned by a debauchee, a prostitute, or a thief. Then turn to the characters of those who live with you, and you can hardly bear even the most agreeable of them, let alone bear yourself. In such darkness and filth, then, and in such a ceaseless flow of substance and time, of motion and things moved, I cannot imagine what there is worth prizing highly or even pursuing seriously. On the contrary, a man's duty is to comfort himself and wait for his natural dissolution without fretting at the delay, resting only in these principles: first, that nothing will happen to me that is not in keeping with the nature of the universe; and second, that it is in my power never to act against my god and the divinity within me, for no one can force me to do so.",
           "spine": {
             "from": "5.10",
             "to": "5.10"
@@ -1255,7 +1256,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0014",
           "order": 14,
           "kind": "paragraph",
-          "text": "Reason and the art of reasoning, philosophy, are powers sufficient unto themselves and their own works. They set out from a starting point of their own and make their way to the goal set before them; and that is why such acts are called right acts, a word that signifies they proceed by the right road.",
+          "text": "Reason and the art of reasoning are powers sufficient for themselves and for their own works. They set out from a starting point of their own and make their way to the goal set before them; and that is why such acts are called katorthoseis, \"straight-goings,\" a word that signifies the straightness of their road.",
           "spine": {
             "from": "5.14",
             "to": "5.14"
@@ -1355,7 +1356,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0024",
           "order": 24,
           "kind": "paragraph",
-          "text": "Think of the universal substance, of which you are a very small part; and of universal time, of which a brief, indivisible moment has been allotted to you; and of destiny, of which you are how tiny a portion.",
+          "text": "Think of the universal substance, of which you are a very small part; and of universal time, of which a brief, indivisible moment has been allotted to you; and of destiny, and what a tiny part of it you are.",
           "spine": {
             "from": "5.24",
             "to": "5.24"
@@ -1385,7 +1386,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0027",
           "order": 27,
           "kind": "paragraph",
-          "text": "Live with the gods. And he lives with the gods who constantly shows them that his soul is satisfied with what is assigned to him, and that it does all that the guiding spirit wishes, the spirit that Zeus has given to each man as his guardian and guide, a portion of himself. And this is each man's understanding and reason.",
+          "text": "Live with the gods. And he lives with the gods who constantly shows them that his soul is satisfied with what is assigned to him, and that it does all that the divinity within him wishes, the divinity that Zeus has given to each man as his guardian and guide, a portion of himself. And this is each man's understanding and reason.",
           "spine": {
             "from": "5.27",
             "to": "5.27"
@@ -1435,7 +1436,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0032",
           "order": 32,
           "kind": "paragraph",
-          "text": "Never has he wronged a man in deed or word.",
+          "text": "\"Never has he wronged a man in deed or word.\"",
           "spine": {
             "from": "5.32",
             "to": "5.32"
@@ -1465,7 +1466,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0035",
           "order": 35,
           "kind": "paragraph",
-          "text": "Soon, very soon, you will be ashes or a skeleton, and either a name or not even a name; and a name is mere sound and echo. The things much prized in life are empty and rotten and trivial, like little dogs snapping at one another, or little children quarreling, laughing, and the next moment in tears. But loyalty and modesty and justice and truth have fled away,",
+          "text": "Soon, very soon, you will be ashes or a skeleton, and either a name or not even a name; and a name is mere sound and echo. The things much prized in life are empty and rotten and trivial, like little dogs snapping at one another, or little children quarreling, laughing, and the next moment in tears.",
           "spine": {
             "from": "5.35",
             "to": "5.35"
@@ -1475,7 +1476,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "up to Olympus from the wide-spread earth.",
+          "text": "\"Loyalty and modesty and justice and truth have fled up to Olympus from the wide-spread earth.\"",
           "spine": {
             "from": "5.36",
             "to": "5.36"
@@ -1515,7 +1516,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0040",
           "order": 40,
           "kind": "paragraph",
-          "text": "Do not be carried away thoughtlessly by the appearance of things, but give help to all according to your ability and their need; and if they have suffered loss in matters that are indifferent, do not imagine this to be real damage, for that is a bad habit. But just as the old man, when he was leaving, asked back his foster-child's top, remembering all the while that it was only a top, so do you act in this case too.",
+          "text": "Do not be carried away thoughtlessly by the appearance of things, but give help to all as far as you can and as they deserve; and if they have suffered loss in matters that are indifferent, do not imagine this to be real damage, for that is a bad habit. But just as the old man, when he was leaving, asked back his foster-child's top, remembering all the while that it was only a top, so do you act in this case too.",
           "spine": {
             "from": "5.37",
             "to": "5.37"
@@ -1525,7 +1526,7 @@
           "id": "edition.meditations.lectio-modern.book-05.seg-0041",
           "order": 41,
           "kind": "paragraph",
-          "text": "When you are out there declaiming on the public platform, have you forgotten, man, what these things really are? Yes, but they matter greatly to these people. Will you then let yourself be made a fool of along with them? I was once a fortunate man, but I lost it, I don't know how. But fortunate means a man who has assigned himself a good lot, and a good lot is a good disposition of the soul, good impulses, good actions.",
+          "text": "When you find yourself crying out on the Rostra, have you forgotten, man, what these things really are? \"Yes, but they matter greatly to these people.\" Will you then let yourself be made a fool of along with them? \"I was once a fortunate man, but I lost it, I don't know how.\" But to be fortunate means to have given yourself a good fortune, and a good fortune is a good disposition of the soul, good impulses, good actions.",
           "spine": {
             "from": "5.37",
             "to": "5.37"
@@ -1562,7 +1563,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "Look within. Do not let the particular quality of anything, or its worth, escape you.",
+          "text": "Look beneath the surface. Do not let the particular quality of anything, or its worth, escape you.",
           "spine": {
             "from": "6.3",
             "to": "6.3"
@@ -1672,7 +1673,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0014",
           "order": 14,
           "kind": "paragraph",
-          "text": "Most of the things the crowd admires belong to the most general categories, things held together by mere cohesion or natural growth, such as stones, wood, fig trees, vines, olives. The things admired by men a little more reasonable are held together by a living principle, like flocks and herds. The things admired by men still better instructed are held together by a rational soul, though not a universal one, only a soul skilled in some craft or expert in some other way, or simply rational in the sense of owning a number of slaves. But the man who values a rational soul, one that is universal and fitted for life in society, regards nothing else; above all he keeps his own soul in a state and activity in keeping with reason and social life, and he works toward this end together with others of his own kind.",
+          "text": "Most of the things the crowd admires belong to the most general categories, things held together by mere cohesion or natural growth, such as stones, wood, fig trees, vines, olives. The things admired by men a little more reasonable are held together by a living principle, like flocks and herds, or else they simply admire owning a crowd of slaves. The things admired by men still better instructed are held together by a rational soul, though valued not as rational but as skilled in some craft or clever in some other way. But the man who values a rational soul, one fitted for life in society, regards nothing else; above all he keeps his own soul in a state and activity in keeping with reason and social life, and he works toward this end together with others of his own kind.",
           "spine": {
             "from": "6.14",
             "to": "6.14"
@@ -1682,7 +1683,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0015",
           "order": 15,
           "kind": "paragraph",
-          "text": "Some things are hurrying into existence, others hurrying out of it; and of what is coming into being, part is already gone. Motions and changes are continually renewing the world, just as the unbroken passage of time is always renewing the infinite stretch of ages. In this flowing stream, where there is no firm footing, what is there among the things rushing by that anyone should prize highly? It would be like falling in love with one of the sparrows flying past, when it has already passed out of sight. Something like this is the very life of each of us, like the rising of vapor from the blood and the breathing of air. For just as it is to draw in the air once and give it back, which we do every moment, so it is with the whole power of breathing that you received at your birth, only yesterday or the day before, and give back to the element from which you first drew it.",
+          "text": "Some things are hurrying into existence, others hurrying out of it; and of what is coming into being, part is already gone. Motions and changes are continually renewing the world, just as the unbroken passage of time is always renewing the infinite stretch of ages. In this flowing stream, where there is no firm footing, what is there among the things rushing by that anyone should prize highly? It would be like falling in love with one of the sparrows flying past, when it has already passed out of sight. Something like this is the very life of each of us, like the rising of vapor from the blood and the breathing of air. For as we draw in a breath and give it back every moment, so it is with the whole power of breathing that you received at birth, only yesterday or the day before: you will give it back to the element you first drew it from.",
           "spine": {
             "from": "6.15",
             "to": "6.15"
@@ -1692,7 +1693,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0016",
           "order": 16,
           "kind": "paragraph",
-          "text": "Transpiration, as in plants, is nothing to be valued; nor is breathing, as in tame animals and wild beasts; nor receiving impressions through the appearances of things; nor being pulled about by desires like a puppet by strings; nor herding together; nor being nourished by food, which is just like getting rid of the useless part of what we eat. What, then, is worth valuing? To be applauded? No. Nor should we value the applause of tongues, for the praise of the many is just a clapping of tongues. So suppose you have given up this worthless thing called fame; what remains worth valuing? This, in my opinion: to move yourself and to hold yourself back in keeping with your own constitution, the end to which all employments and arts lead. For every art aims at this, that the thing made should be fit for the work it was made for; and the vine grower tending his vine, the horse breaker, and the dog trainer all seek this end. And the education and teaching of the young aim at something too. Here, then, lies the value of education and teaching. And if this is sound, you will not seek anything else. Will you not stop valuing so many other things? Then you will be neither free, nor self-sufficient for your own happiness, nor free from passion. For you must of necessity be envious, jealous, and suspicious of those who can take those things away, and you will plot against those who have what you value. Anyone who wants any of these things must necessarily be in a state of inner turmoil, and besides, he must often find fault with the gods. But to reverence and honor your own mind will make you content with yourself, in harmony with society, and in agreement with the gods, that is, praising all that they give and have ordained.",
+          "text": "The breathing of plants is nothing to be valued, nor the breathing of tame animals and wild beasts; nor receiving impressions through the appearances of things; nor being pulled about by desires like a puppet by strings; nor herding together; nor being nourished by food, which is just like getting rid of the useless part of what we eat. What, then, is worth valuing? To be applauded? No. Nor should we value the applause of tongues, for the praise of the many is just a clapping of tongues. So suppose you have given up this worthless thing called fame; what remains worth valuing? This, in my opinion: to move yourself and to hold yourself back in keeping with your own constitution, the end to which all employments and arts lead. For every art aims at this, that the thing made should be fit for the work it was made for; and the vine grower tending his vine, the horse breaker, and the dog trainer all seek this end. And the education and teaching of the young aim at something too. Here, then, lies the value of education and teaching. And if this is sound, you will not seek anything else. Will you not stop valuing so many other things? If you do not, you will never be free, or sufficient for your own happiness, or free from passion. For you must of necessity be envious, jealous, and suspicious of those who can take those things away, and you will plot against those who have what you value. Anyone who wants any of these things must necessarily be in a state of inner turmoil, and besides, he must often find fault with the gods. But to reverence and honor your own mind will make you content with yourself, in harmony with society, and in agreement with the gods, that is, praising all that they give and have ordained.",
           "spine": {
             "from": "6.16",
             "to": "6.16"
@@ -1822,7 +1823,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0029",
           "order": 29,
           "kind": "paragraph",
-          "text": "It is a shame for the soul to give way first in this life, while your body does not give way.",
+          "text": "It is a disgrace for your soul to give out first in this life, while your body still holds out.",
           "spine": {
             "from": "6.29",
             "to": "6.29"
@@ -1942,7 +1943,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0041",
           "order": 41,
           "kind": "paragraph",
-          "text": "Whatever of the things not in your power you suppose to be good or evil for you, then necessarily, if such an evil befalls you or you lose such a good, you will blame the gods and hate other people too, those who caused the misfortune or the loss, or those suspected of being likely to cause it; and indeed we do much wrong because we draw a distinction over these things. But if we judge only what is in our power to be good or bad, no reason remains either for finding fault with God or for taking a hostile stance toward any human being.",
+          "text": "Whatever of the things not in your power you suppose to be good or evil for you, then necessarily, if such an evil befalls you or you lose such a good, you will blame the gods and hate other people too, those who caused the misfortune or the loss, or those suspected of being likely to cause it; and indeed we do much wrong because we care so much how these things turn out. But if we judge only what is in our power to be good or bad, no reason remains either for finding fault with God or for taking a hostile stance toward any human being.",
           "spine": {
             "from": "6.41",
             "to": "6.41"
@@ -1962,7 +1963,7 @@
           "id": "edition.meditations.lectio-modern.book-06.seg-0043",
           "order": 43,
           "kind": "paragraph",
-          "text": "Does the sun take on the work of the rain, or Asclepius the work of the earth that bears fruit? And what of each of the stars: are they not different, and yet do they not work together toward the same end?",
+          "text": "Does the Sun take on the work of the Rain-Giver, or Asclepius the work of the Fruit-Bearer? And what of each of the stars: are they not different, and yet do they not work together toward the same end?",
           "spine": {
             "from": "6.43",
             "to": "6.43"
@@ -2169,7 +2170,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0004",
           "order": 4,
           "kind": "paragraph",
-          "text": "In conversation you must pay attention to what is being said, and in every action you must watch what is being done. In the one, look at once to the end it is aiming at; in the other, watch carefully for what is really meant.",
+          "text": "In conversation you must pay attention to what is being said, and in every action you must watch what is being done. In what is done, look at once to the end it aims at; in what is said, watch carefully for what is meant.",
           "spine": {
             "from": "7.4",
             "to": "7.4"
@@ -2299,7 +2300,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0017",
           "order": 17,
           "kind": "paragraph",
-          "text": "Happiness is a good spirit, or a good thing. So what are you doing here, imagination? Go away, I beg you by the gods, the same way you came, for I have no need of you. But you have come in your old habitual way. I am not angry with you; only go away.",
+          "text": "Happiness—eudaimonia—is a good daimon, a good divinity within, or something good and divine. So what are you doing here, imagination? Go away, I beg you by the gods, the same way you came, for I have no need of you. But you have come in your old habitual way. I am not angry with you; only go away.",
           "spine": {
             "from": "7.17",
             "to": "7.17"
@@ -2369,7 +2370,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0024",
           "order": 24,
           "kind": "paragraph",
-          "text": "A scowling look is entirely unnatural; when it is often put on, the result is that all comeliness dies away, and at last is so completely extinguished that it cannot be rekindled at all. Try to draw from this very fact the conclusion that it is contrary to reason. For if even the awareness of doing wrong should leave you, what reason is there to go on living?",
+          "text": "A scowling look is entirely unnatural; when it is often put on, the result is that all its grace dies away, and at last is so completely extinguished that it cannot be rekindled at all. Try to draw from this very fact the conclusion that it is contrary to reason. For if even the awareness of doing wrong should leave you, what reason is there to go on living?",
           "spine": {
             "from": "7.24",
             "to": "7.24"
@@ -2439,7 +2440,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0031",
           "order": 31,
           "kind": "paragraph",
-          "text": "Adorn yourself with simplicity and modesty, and with indifference toward the things that lie between virtue and vice. Love humankind. Follow God. The poet says that law rules all, and it is enough to remember that law rules all.",
+          "text": "Adorn yourself with simplicity and modesty, and with indifference toward the things that lie between virtue and vice. Love humankind. Follow God. That man says, \"All things are by law, and in truth there are only the elements.\" It is enough to remember that all things are by law. Very little now remains.",
           "spine": {
             "from": "7.31",
             "to": "7.31"
@@ -2479,7 +2480,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0035",
           "order": 35,
           "kind": "paragraph",
-          "text": "From Plato: Do you suppose it possible for a man with an elevated mind, who takes in the whole of time and the whole of substance, to think human life is anything great? It is not possible, he said. Then such a man will think that death too is no evil. Certainly not.",
+          "text": "From Plato: \"Do you suppose it possible for a man with an elevated mind, who takes in the whole of time and the whole of substance, to think human life is anything great?\" \"It is not possible,\" he said. \"Then will such a man think death anything to fear?\" \"Not at all.\"",
           "spine": {
             "from": "7.35",
             "to": "7.35"
@@ -2489,7 +2490,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "From Antisthenes: It is kingly to do good and to be abused for it.",
+          "text": "From Antisthenes: \"It is kingly to do good and to be spoken ill of.\"",
           "spine": {
             "from": "7.36",
             "to": "7.36"
@@ -2509,7 +2510,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0038",
           "order": 38,
           "kind": "paragraph",
-          "text": "It is no use being angry at events, for they care nothing about it.",
+          "text": "\"We must not be angry at things, for they care nothing about it.\"",
           "spine": {
             "from": "7.38",
             "to": "7.38"
@@ -2519,7 +2520,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0039",
           "order": 39,
           "kind": "paragraph",
-          "text": "To the immortal gods and to us give joy.",
+          "text": "\"To the immortal gods and to us give joy.\"",
           "spine": {
             "from": "7.39",
             "to": "7.39"
@@ -2529,7 +2530,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0040",
           "order": 40,
           "kind": "paragraph",
-          "text": "Life must be reaped like ripe ears of grain. One man is born; another dies.",
+          "text": "\"Life must be reaped like a ripe ear of grain.\"",
           "spine": {
             "from": "7.40",
             "to": "7.40"
@@ -2539,7 +2540,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0041",
           "order": 41,
           "kind": "paragraph",
-          "text": "Earth must be given back to earth; then life, for all, must be reaped like the harvest, as necessity commands.",
+          "text": "\"One stands, and another falls.\"",
           "spine": {
             "from": "7.41",
             "to": "7.41"
@@ -2549,7 +2550,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0042",
           "order": 42,
           "kind": "paragraph",
-          "text": "If the gods care nothing for me and my children, there is a reason for it.",
+          "text": "\"If the gods care nothing for me and my children, there is a reason for this too.\"",
           "spine": {
             "from": "7.42",
             "to": "7.42"
@@ -2559,7 +2560,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0043",
           "order": 43,
           "kind": "paragraph",
-          "text": "For the good is with me, and the just.",
+          "text": "\"For the good is with me, and the just.\"",
           "spine": {
             "from": "7.43",
             "to": "7.43"
@@ -2569,7 +2570,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0044",
           "order": 44,
           "kind": "paragraph",
-          "text": "No joining others in their wailing, no violent passion.",
+          "text": "\"No joining others in their wailing, no violent passion.\"",
           "spine": {
             "from": "7.44",
             "to": "7.44"
@@ -2579,7 +2580,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0045",
           "order": 45,
           "kind": "paragraph",
-          "text": "From Plato: But I would give this man a sufficient answer, which is this. You speak wrongly if you think that a man worth anything at all ought to weigh the risk of life or death, and not rather look to this one thing in everything he does: whether he is doing what is just or unjust, the work of a good man or of a bad one.",
+          "text": "From Plato: \"But I would give this man a sufficient answer, which is this: you speak wrongly if you think that a man worth anything at all ought to weigh the risk of life or death, and not rather look to this one thing in everything he does: whether he is doing what is just or unjust, the work of a good man or of a bad one.\"",
           "spine": {
             "from": "7.45",
             "to": "7.45"
@@ -2589,7 +2590,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0046",
           "order": 46,
           "kind": "paragraph",
-          "text": "For the truth is this, men of Athens: wherever a man has stationed himself, thinking it the best place for him, or has been stationed by his commander, there, in my opinion, he ought to stay and face the danger, reckoning nothing, neither death nor anything else, ahead of disgrace.",
+          "text": "\"For the truth is this, men of Athens: wherever a man has stationed himself, thinking it the best place for him, or has been stationed by his commander, there, in my opinion, he ought to stay and face the danger, reckoning nothing, neither death nor anything else, ahead of disgrace.\"",
           "spine": {
             "from": "7.46",
             "to": "7.46"
@@ -2599,7 +2600,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0047",
           "order": 47,
           "kind": "paragraph",
-          "text": "But, my good friend, consider whether what is noble and good is not something other than saving your life and being saved. As for a man's living a certain length of time, at least if he is truly a man, consider whether this is not something to be put out of mind; there must be no clinging to life. A man must entrust these matters to the Deity and believe what the women say, that no one can escape his destiny, and the next question is how he may best live the time he has to live.",
+          "text": "\"But, my good friend, consider whether what is noble and good is not something other than saving your life and being saved. As for a man's living a certain length of time, at least if he is truly a man, consider whether this is not something to be put out of mind; there must be no clinging to life. A man must entrust these matters to the Deity and believe what the women say, that no one can escape his destiny, and the next question is how he may best live the time he has to live.\"",
           "spine": {
             "from": "7.47",
             "to": "7.47"
@@ -2619,7 +2620,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0049",
           "order": 49,
           "kind": "paragraph",
-          "text": "This is a fine saying of Plato's: that whoever is discussing human beings should also look at earthly things as if viewing them from some higher place, looking at them in their gatherings, armies, farm labor, marriages, treaties, births, deaths, the uproar of the law courts, lonely places, the various tribes of barbarians, festivals, mournings, marketplaces, a mixture of all things and an orderly weaving together of opposites.",
+          "text": "Whoever is discussing human beings should also look at earthly things as if viewing them from some higher place, looking at them in their gatherings, armies, farm labor, marriages, treaties, births, deaths, the uproar of the law courts, lonely places, the various tribes of barbarians, festivals, mournings, marketplaces, a mixture of all things and an orderly weaving together of opposites.",
           "spine": {
             "from": "7.49",
             "to": "7.49"
@@ -2639,7 +2640,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0051",
           "order": 51,
           "kind": "paragraph",
-          "text": "What has grown from the earth returns to the earth; but what has sprung from heavenly seed returns to the realms of heaven.",
+          "text": "\"What has grown from the earth returns to the earth; but what has sprung from heavenly seed returns to the realms of heaven.\"",
           "spine": {
             "from": "7.51",
             "to": "7.51"
@@ -2659,7 +2660,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0053",
           "order": 53,
           "kind": "paragraph",
-          "text": "With food and drink and cunning magic arts, turning the channel's course to escape death. The breeze that heaven has sent we must endure, and toil without complaint.",
+          "text": "\"With food and drink and cunning magic arts they turn the channel's course, to escape death.\" \"The breeze that heaven has sent we must endure, and toil without complaint.\"",
           "spine": {
             "from": "7.53",
             "to": "7.53"
@@ -2739,7 +2740,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0061",
           "order": 61,
           "kind": "paragraph",
-          "text": "In everything that happens, keep before your eyes those to whom the same things happened, and how they were vexed, and treated them as strange, and found fault with them. And now, where are they? Nowhere. Why, then, do you choose to act the same way? Why not leave these agitations, which are foreign to nature, to those who stir them up and those who are stirred by them? Why not be wholly intent on the right use of the things that happen to you? For then you will use them well, and they will be material for you to work on. Only attend to yourself, and resolve to be a good man in everything you do; and remember...",
+          "text": "In everything that happens, keep before your eyes those to whom the same things happened, and how they were vexed, and treated them as strange, and found fault with them. And now, where are they? Nowhere. Why, then, do you choose to act the same way? Why not leave these agitations, which are foreign to nature, to those who stir them up and those who are stirred by them? Why not be wholly intent on the right use of the things that happen to you? For then you will use them well, and they will be material for you to work on. Only attend to yourself, and resolve to be a good man in everything you do; and remember both: that what you do matters, and that the material you work on does not.",
           "spine": {
             "from": "7.61",
             "to": "7.61"
@@ -2789,7 +2790,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0066",
           "order": 66,
           "kind": "paragraph",
-          "text": "Every soul, the philosopher says, is robbed of the truth against its will; and in the same way it is robbed of justice and self-control and kindness and everything of the sort. It is most necessary to keep this constantly in mind, for then you will be gentler toward everyone.",
+          "text": "\"Every soul,\" the philosopher says, \"is robbed of the truth against its will\"; and in the same way it is robbed of justice and self-control and kindness and everything of the sort. It is most necessary to keep this constantly in mind, for then you will be gentler toward everyone.",
           "spine": {
             "from": "7.66",
             "to": "7.66"
@@ -2899,7 +2900,7 @@
           "id": "edition.meditations.lectio-modern.book-07.seg-0077",
           "order": 77,
           "kind": "paragraph",
-          "text": "No one tires of receiving what is useful. But acting according to nature is useful. So do not tire of receiving what is useful by doing it for others.",
+          "text": "No one tires of being helped; and help is action according to nature. So do not tire of being helped, when it is by helping others that you are helped.",
           "spine": {
             "from": "7.76",
             "to": "7.76"
@@ -2926,7 +2927,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "This reflection also helps remove the craving for empty fame: it is no longer in your power to have lived your whole life, or even your life from youth onward, as a philosopher. It is plain, both to many others and to yourself, that you are far from being a philosopher. You have fallen into a confused way of living, so it is no longer easy for you to gain the reputation of a philosopher, and your manner of life works against it too. So if you have truly seen how matters stand, let go of the question of how you will appear to others, and be content to live the rest of your life as your nature wills. Notice, then, what it wills, and let nothing else distract you. You have wandered far and wide and found happiness nowhere: not in logical arguments, not in wealth, not in reputation, not in pleasure, nowhere. Where is it, then? In doing what human nature requires. And how does a person do this? By holding to principles from which their feelings and actions flow. What principles? Those about good and bad: the belief that nothing is good for a person unless it makes them just, self-controlled, courageous, and free, and that nothing is bad unless it produces the opposite of these.",
+          "text": "This reflection also helps remove the craving for empty fame: it is no longer in your power to have lived your whole life, or even your life from youth onward, as a philosopher. It is plain, both to many others and to yourself, that you are far from being a philosopher. You have fallen into a confused way of living, so it is no longer easy for you to gain the reputation of a philosopher, and your manner of life works against it too. So if you have truly seen how matters stand, let go of the question of how you will appear to others, and be content to live the rest of your life as your nature wills. Notice, then, what it wills, and let nothing else distract you. You have wandered far and wide and found happiness nowhere: not in logical arguments, not in wealth, not in reputation, not in pleasure, nowhere. Where is it, then? In doing what human nature requires. And how does a man do this? By holding to principles from which his impulses and actions flow. What principles? Those about good and bad: the belief that nothing is good for a man unless it makes him just, self-controlled, courageous, and free, and that nothing is bad unless it produces the opposite of these.",
           "spine": {
             "from": "8.1",
             "to": "8.1"
@@ -2946,7 +2947,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "Alexander, Caesar, and Pompey, what are they compared to Diogenes, Heraclitus, and Socrates? Those philosophers understood the realities of things, their causes, their substance, and their guiding principles were aligned with their pursuits. But as for the others, how many things they had to worry about, and to how many things they were enslaved!",
+          "text": "Alexander, Caesar, and Pompey, what are they compared to Diogenes, Heraclitus, and Socrates? Those philosophers understood the realities of things, their causes, their substance, and their ruling minds were their own. But as for the others, how many things they had to worry about, and to how many things they were enslaved!",
           "spine": {
             "from": "8.3",
             "to": "8.3"
@@ -3136,7 +3137,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0022",
           "order": 22,
           "kind": "paragraph",
-          "text": "Short-lived are both the one who praises and the one praised, the one who remembers and the one remembered, and all of this in a small corner of this part of the world; and even here people do not all agree, no, not even one person with themselves; and the whole earth too is but a point.",
+          "text": "Short-lived are both the one who praises and the one praised, the one who remembers and the one remembered, and all of this in a small corner of this part of the world; and even here people do not all agree, no, not even one man with himself; and the whole earth too is but a point.",
           "spine": {
             "from": "8.22",
             "to": "8.22"
@@ -3236,7 +3237,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0032",
           "order": 32,
           "kind": "paragraph",
-          "text": "Speak in the senate and to every person, whoever they may be, appropriately and without affectation; use plain speech.",
+          "text": "Speak in the senate and to anyone at all, appropriately and without affectation; use plain speech.",
           "spine": {
             "from": "8.32",
             "to": "8.32"
@@ -3256,7 +3257,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0034",
           "order": 34,
           "kind": "paragraph",
-          "text": "It is your duty to order your life well in every single act; and if every act does its duty as far as possible, be content; and no one can prevent each act from doing its duty. But some external thing will get in the way. Nothing will get in the way of your acting justly, soberly, and thoughtfully. But perhaps some other capacity for action will be hindered. Well then, by accepting the hindrance and being content to redirect your efforts to what is permitted, another opportunity for action is immediately set before you in place of the one that was blocked, one that fits the very ordering of life we are speaking of.",
+          "text": "It is your duty to order your life well in every single act; and if every act does its duty as far as possible, be content; and no one can prevent each act from doing its duty. \"But some external thing will get in the way.\" Nothing will get in the way of your acting justly, soberly, and thoughtfully. \"But perhaps some other capacity for action will be hindered.\" Well then, by accepting the hindrance and being content to redirect your efforts to what is permitted, another opportunity for action is immediately set before you in place of the one that was blocked, one that fits the very ordering of life we are speaking of.",
           "spine": {
             "from": "8.34",
             "to": "8.34"
@@ -3266,7 +3267,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0035",
           "order": 35,
           "kind": "paragraph",
-          "text": "Receive wealth or prosperity without arrogance, and be ready to let it go.",
+          "text": "Receive without arrogance; let go without reluctance.",
           "spine": {
             "from": "8.35",
             "to": "8.35"
@@ -3276,7 +3277,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "If you ever saw a hand cut off, or a foot, or a head, lying somewhere apart from the rest of the body, that is what a person makes of themselves, as far as they can, who is not content with what happens, who cuts themselves off from others, or who does anything unsocial. Suppose you have detached yourself from the natural unity, for by nature you were made a part, but now you have cut yourself off; yet here is a beautiful provision: it is in your power to unite yourself again. God has granted this to no other part, that after being severed and cut off it may come together again. But consider the kindness with which he has honored humanity, for he has given a person the power not to be severed from the whole at all, and, once severed, to return, to be reunited, and to resume their place as a part.",
+          "text": "If you ever saw a hand cut off, or a foot, or a head, lying somewhere apart from the rest of the body, that is what a man makes of himself, as far as he can, who is not content with what happens, who cuts himself off from others, or who does anything unsocial. Suppose you have detached yourself from the natural unity, for by nature you were made a part, but now you have cut yourself off; yet here is a beautiful provision: it is in your power to unite yourself again. God has granted this to no other part, that after being severed and cut off it may come together again. But consider the kindness with which he has honored humanity, for he has given man the power not to be severed from the whole at all, and, once severed, to return, to be reunited, and to resume his place as a part.",
           "spine": {
             "from": "8.36",
             "to": "8.36"
@@ -3336,7 +3337,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0042",
           "order": 42,
           "kind": "paragraph",
-          "text": "If you take away your opinion about what seems to give you pain, you yourself stand in perfect safety. Who is this self? The reason. But I am not just reason. Very well. Then let the reason not trouble itself. And if any other part of you suffers, let it hold its own opinion about itself.",
+          "text": "If you take away your opinion about what seems to give you pain, you yourself stand in perfect safety. \"Who is this self?\" The reason. \"But I am not just reason.\" Very well. Then let the reason not trouble itself. And if any other part of you suffers, let it hold its own opinion about itself.",
           "spine": {
             "from": "8.42",
             "to": "8.42"
@@ -3346,7 +3347,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0043",
           "order": 43,
           "kind": "paragraph",
-          "text": "Obstruction to the perceptions of the senses is an evil to the animal nature. Obstruction to its impulses is equally an evil to the animal nature. And something else likewise is an obstruction and an evil to the makeup of plants. So in the same way, whatever obstructs the intelligence is an evil to the intelligent nature. Now apply all of this to yourself. Does pain or sensual pleasure affect you? The senses will deal with that. Has some obstacle blocked you in your efforts toward a goal? If you were pursuing that goal unconditionally, with no reservation, then yes, this obstacle is an evil to you considered as a rational being. But if you take into account the usual course of things, you have not yet been harmed, or even hindered. As for the things that properly belong to the understanding, no other person is able to hinder them, for neither fire, nor iron, nor a tyrant, nor abuse can touch it in any way. Once it has been made a sphere, it remains a sphere.",
+          "text": "Obstruction to the perceptions of the senses is an evil to the animal nature. Obstruction to its impulses is equally an evil to the animal nature. And something else likewise is an obstruction and an evil to the makeup of plants. So in the same way, whatever obstructs the intelligence is an evil to the intelligent nature. Now apply all of this to yourself. Does pain or sensual pleasure affect you? The senses will deal with that. Has some obstacle blocked you in your efforts toward a goal? If you were pursuing that goal without reservation, then yes, this obstacle is an evil to you considered as a rational being. But if you take into account the usual course of things, you have not yet been harmed, or even hindered. As for the things that properly belong to the understanding, no other person is able to hinder them, for neither fire, nor iron, nor a tyrant, nor abuse can touch it in any way, once it has become a sphere, \"all round, and resting in its own joyous repose.\"",
           "spine": {
             "from": "8.43",
             "to": "8.43"
@@ -3406,7 +3407,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0049",
           "order": 49,
           "kind": "paragraph",
-          "text": "If you are pained by some external thing, it is not that thing that disturbs you, but your own judgment about it. And it is in your power to wipe out this judgment right now. But if something in your own disposition gives you pain, who prevents you from correcting your view? And even if you are pained because you are not doing something that seems right to you, why not act instead of complaining? But some insurmountable obstacle is in the way. Then do not be distressed, for the cause of its not being done lies not with you. But it is not worth living if I cannot do this. Then depart from life contentedly, just as one dies who is in full activity, and at peace even with the things that obstruct them.",
+          "text": "If you are pained by some external thing, it is not that thing that disturbs you, but your own judgment about it. And it is in your power to wipe out this judgment right now. But if something in your own disposition gives you pain, who prevents you from correcting your view? And even if you are pained because you are not doing something that seems right to you, why not act instead of complaining? \"But something stands in the way that I cannot get past.\" Then do not be distressed, for the cause of its not being done lies not with you. \"But life is not worth living if I cannot do this.\" Then depart from life contentedly, just as one dies who is in full activity, and at peace even with the things that obstruct him.",
           "spine": {
             "from": "8.49",
             "to": "8.49"
@@ -3416,7 +3417,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0050",
           "order": 50,
           "kind": "paragraph",
-          "text": "Remember that the ruling faculty is invincible when, gathered within itself, it is satisfied with itself, doing nothing it does not choose to do, even if its resistance comes from mere stubbornness. What, then, will it be like when it forms a judgment about something with the aid of reason and deliberation? For this reason a mind free from passions is a fortress, for a person has nothing more secure to flee to for refuge and to be forever unassailable. Whoever has not seen this is ignorant; but whoever has seen it and does not flee to this refuge is wretched.",
+          "text": "Remember that the ruling faculty is invincible when, gathered within itself, it is satisfied with itself, doing nothing it does not choose to do, even if its resistance comes from mere stubbornness. What, then, will it be like when it forms a judgment about something with the aid of reason and deliberation? For this reason a mind free from passions is a citadel, for a man has nothing more secure to flee to for refuge and to be forever unassailable. Whoever has not seen this is ignorant; but whoever has seen it and does not flee to this refuge is wretched.",
           "spine": {
             "from": "8.50",
             "to": "8.50"
@@ -3466,7 +3467,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0055",
           "order": 55,
           "kind": "paragraph",
-          "text": "Whoever does not know what the world is does not know where they are. And whoever does not know the purpose for which the world exists does not know who they are, nor what the world is. But whoever has failed to grasp any one of these could not even say for what purpose they themselves exist. What, then, do you make of someone who chases the praise of those who applaud, of people who know neither where they are nor who they are?",
+          "text": "Whoever does not know what the world is does not know where he is. And whoever does not know the purpose for which the world exists does not know who he is, nor what the world is. But whoever has failed to grasp any one of these could not even say for what purpose he himself exists. What, then, do you make of someone who chases the praise of those who applaud, of people who know neither where they are nor who they are?",
           "spine": {
             "from": "8.55",
             "to": "8.55"
@@ -3476,7 +3477,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0056",
           "order": 56,
           "kind": "paragraph",
-          "text": "Do you wish to be praised by someone who curses himself three times an hour? Would you wish to please someone who does not please himself? Does a person please himself who regrets nearly everything he does?",
+          "text": "Do you wish to be praised by someone who curses himself three times an hour? Would you wish to please someone who does not please himself? Does a man please himself who regrets nearly everything he does?",
           "spine": {
             "from": "8.56",
             "to": "8.56"
@@ -3496,7 +3497,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0058",
           "order": 58,
           "kind": "paragraph",
-          "text": "In general, wickedness does no harm at all to the universe; and in particular, one person's wickedness does no harm to another. It is only harmful to the one who possesses it, who has it in their own power to be free of it the moment they choose.",
+          "text": "In general, wickedness does no harm at all to the universe; and in particular, one man's wickedness does no harm to another. It is only harmful to the one who possesses it, who has it in his own power to be free of it the moment he chooses.",
           "spine": {
             "from": "8.58",
             "to": "8.58"
@@ -3516,7 +3517,7 @@
           "id": "edition.meditations.lectio-modern.book-08.seg-0060",
           "order": 60,
           "kind": "paragraph",
-          "text": "The sun seems to be poured down and is indeed diffused in all directions, yet it is not poured away. For this diffusion is an extension; that is why its beams are called extensions, because they are extended. You can judge what kind of thing a ray is by looking at the sun's light passing through a narrow opening into a darkened room, for it is extended in a straight line, and is, as it were, divided when it meets any solid body that stands in its way and blocks the air beyond; yet there the light remains fixed and does not slide off or fall away. Such, then, should be the outpouring and diffusion of the understanding: in no way a pouring away, but an extension, making no violent or forceful collision with the obstacles in its path, and not falling down, but staying fixed and illuminating whatever receives it. For a body deprives itself of the light if it does not let it in.",
+          "text": "The sun seems to be poured down and is indeed diffused in all directions, yet it is not poured away. For this diffusion is an extension; that is why its rays are called aktines, from ekteinesthai, \"to be extended.\" You can judge what kind of thing a ray is by looking at the sun's light passing through a narrow opening into a darkened room, for it is extended in a straight line, and is, as it were, divided when it meets any solid body that stands in its way and blocks the air beyond; yet there the light remains fixed and does not slide off or fall away. Such, then, should be the outpouring and diffusion of the understanding: in no way a pouring away, but an extension, making no violent or forceful collision with the obstacles in its path, and not falling down, but staying fixed and illuminating whatever receives it. For a body deprives itself of the light if it does not let it in.",
           "spine": {
             "from": "8.60",
             "to": "8.60"
@@ -3573,7 +3574,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0001",
           "order": 1,
           "kind": "paragraph",
-          "text": "Whoever acts unjustly acts irreverently toward the divine. Since universal nature made rational beings for one another's sake, to help each other as each deserves and never to harm one another, anyone who breaks her will is plainly guilty of irreverence toward the highest divinity. The liar, too, is guilty of irreverence toward that same divinity, for universal nature is the nature of all things that exist, and existing things are related to everything that comes into being. Furthermore, this universal nature is named truth, and is the first cause of all things that are true. So the man who lies on purpose is guilty of irreverence, since by deceiving he acts unjustly; and the man who lies without meaning to is also guilty, since he is out of step with universal nature and disturbs the order of things by fighting against the world's nature. For he does fight against it who, of his own accord, moves toward what is contrary to truth, since he had received from nature the powers which, by neglecting them, he can no longer use to tell falsehood from truth. And the man who chases pleasure as good and runs from pain as evil is likewise guilty of irreverence. For such a man must constantly find fault with universal nature, complaining that it hands out things to the bad and the good unfairly, because the bad so often enjoy pleasure and own the things that produce it, while the good get pain as their lot and the things that cause it. Again, the man who is afraid of pain will sometimes also be afraid of things that are bound to happen in the world, and that itself is irreverence. And the man who chases pleasure will not hold back from injustice, and that is plainly irreverence. Now toward those things to which universal nature is equally disposed—for it would not have made both unless it were equally disposed toward both—those who wish to follow nature should be of the same mind and equally disposed. So with regard to pain and pleasure, death and life, honor and dishonor, all of which universal nature uses equally, whoever is not equally disposed is clearly acting irreverently. And when I say universal nature uses them equally, I mean that they happen alike to those produced in continuous succession and to those who come after them, by virtue of a certain original movement of Providence, by which it moved from a certain beginning toward this ordering of things, having conceived certain principles of the things that were to be, and having determined the powers that produce beings and changes and such successions.",
+          "text": "Whoever acts unjustly acts irreverently toward the divine. Since universal nature made rational beings for one another's sake, to help each other as each deserves and never to harm one another, anyone who breaks her will is plainly guilty of irreverence toward the highest divinity. The liar, too, is guilty of irreverence toward that same divinity, for universal nature is the nature of all things that exist, and existing things are related to everything that comes into being. Furthermore, this universal nature is named truth, and is the first cause of all things that are true. So the man who lies on purpose is guilty of irreverence, since by deceiving he acts unjustly; and the man who lies without meaning to is also guilty, since he is out of step with universal nature and disturbs the order of things by fighting against the world's nature. For whoever is carried, in spite of himself, toward what is contrary to truth is fighting against it, since he had received from nature the powers which, by neglecting them, he can no longer use to tell falsehood from truth. And the man who chases pleasure as good and runs from pain as evil is likewise guilty of irreverence. For such a man must constantly find fault with universal nature, complaining that it hands out things to the bad and the good unfairly, because the bad so often enjoy pleasure and own the things that produce it, while the good get pain as their lot and the things that cause it. Again, the man who is afraid of pain will sometimes also be afraid of things that are bound to happen in the world, and that itself is irreverence. And the man who chases pleasure will not hold back from injustice, and that is plainly irreverence. Now toward those things to which universal nature is equally disposed—for it would not have made both unless it were equally disposed toward both—those who wish to follow nature should be of the same mind and equally disposed. So with regard to pain and pleasure, death and life, honor and dishonor, all of which universal nature uses equally, whoever is not equally disposed is clearly acting irreverently. When I say universal nature uses them equally, I mean that they happen alike, in due sequence, to all that comes into being and all that follows after. This comes from a first movement of Providence, by which, from some beginning, it set out to make this ordered world: it gathered up the patterns of all that was to be, and marked out the powers that bring forth beings, their changes, and their successions.",
           "spine": {
             "from": "9.1",
             "to": "9.1"
@@ -3583,7 +3584,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0002",
           "order": 2,
           "kind": "paragraph",
-          "text": "It would be a man's happiest fate to leave the human race without ever having tasted lying and hypocrisy and excess and pride. But to breathe out one's life when one has had quite enough of these things is, as the saying goes, the next best voyage. Have you decided to stay on with vice? Has experience not yet persuaded you to flee this plague? For the ruin of the understanding is a plague—far more so, in fact, than any corruption or change in the air around us. That corruption is a plague to animals insofar as they are animals; but this other one is a plague to human beings insofar as they are human.",
+          "text": "It would be a man's happiest fate to leave the human race without ever having tasted lying and hypocrisy and excess and pride. But to breathe out one's life when one has had quite enough of these things is, as the saying goes, the next best course. Have you decided to stay on with vice? Has experience not yet persuaded you to flee this plague? For the ruin of the understanding is a plague—far more so, in fact, than any corruption or change in the air around us. That corruption is a plague to animals insofar as they are animals; but this other one is a plague to human beings insofar as they are human.",
           "spine": {
             "from": "9.2",
             "to": "9.2"
@@ -3663,7 +3664,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0010",
           "order": 10,
           "kind": "paragraph",
-          "text": "Both man and God and the universe bear fruit; each does so in its proper season. And if common usage has fixed the word 'fruit' especially to the vine and such things, that is nothing. Reason bears fruit both for all and for itself, and from it come other things of the same kind as reason itself.",
+          "text": "Both man and God and the universe bear fruit; each does so in its proper season. And if common usage has fixed the word \"fruit\" especially to the vine and such things, that is nothing. Reason bears fruit both for all and for itself, and from it come other things of the same kind as reason itself.",
           "spine": {
             "from": "9.10",
             "to": "9.10"
@@ -3803,7 +3804,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0024",
           "order": 24,
           "kind": "paragraph",
-          "text": "The squabbles and games of little children, and feeble spirits carrying corpses about—such is everything; so that what is shown in the picture of the underworld strikes the eye more sharply.",
+          "text": "The squabbles and games of little children, and \"little souls carrying corpses about\"—such is everything; so that what is shown in the picture of the underworld strikes the eye more sharply.",
           "spine": {
             "from": "9.24",
             "to": "9.24"
@@ -3843,7 +3844,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0028",
           "order": 28,
           "kind": "paragraph",
-          "text": "The periodic movements of the universe are the same, up and down, from age to age. Either the universal intelligence sets itself in motion for each separate effect—and if so, be content with what results from its activity; or it set itself in motion once, and everything else follows as a kind of consequence; or indivisible elements are the origin of all things. In short, if there is a god, all is well; and if chance rules, do not you too be ruled by it.",
+          "text": "The periodic movements of the universe are the same, up and down, from age to age. Either the universal intelligence sets itself in motion for each separate effect—and if so, be content with what results from its activity; or it set itself in motion once, and everything else follows as a kind of consequence; or indivisible elements are the origin of all things. In short, if there is a god, all is well; and if chance rules, do not act at random yourself.",
           "spine": {
             "from": "9.28",
             "to": "9.28"
@@ -3983,7 +3984,7 @@
           "id": "edition.meditations.lectio-modern.book-09.seg-0042",
           "order": 42,
           "kind": "paragraph",
-          "text": "Epicurus says: In my illness, my conversation was not about my bodily sufferings, nor, he says, did I talk of such things to those who visited me; instead I went on discussing the nature of things as before, keeping to this main point—how the mind, while sharing in such disturbances as go on in the poor flesh, can stay free of upheaval and keep hold of its own proper good. Nor, he says, did I give the doctors the chance to put on solemn looks, as if they were doing something great; my life went on well and happily. Do the same, then, that he did, both in sickness, if you fall sick, and in any other circumstance. For never to abandon philosophy whatever happens to us, and not to chatter idly with an ignorant man or one who knows nothing of nature, is a principle of all schools of philosophy; and so is being intent only on what you are doing now and on the instrument with which you do it.",
+          "text": "Epicurus says: \"In my illness my conversation was not about my bodily sufferings, nor,\" he says, \"did I talk of such things to those who visited me; instead I went on discussing the nature of things as before, keeping to this main point: how the mind, while sharing in such disturbances as go on in the poor flesh, can stay free of upheaval and keep hold of its own proper good. Nor,\" he says, \"did I give the doctors the chance to put on solemn looks, as if they were doing something great; my life went on well and happily.\" Do the same, then, that he did, both in sickness, if you fall sick, and in any other circumstance. For never to abandon philosophy whatever happens to us, and not to chatter idly with an ignorant man or one who knows nothing of nature, is a principle of all schools of philosophy; and so is being intent only on what you are doing now and on the instrument with which you do it.",
           "spine": {
             "from": "9.42",
             "to": "9.42"
@@ -4080,7 +4081,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0008",
           "order": 8,
           "kind": "paragraph",
-          "text": "Once you have taken on these names—good, modest, truthful, rational, even-tempered, high-minded—take care never to exchange them for others; and if you ever lose them, return to them quickly. Remember that 'rational' was meant to signify a discriminating attention to each particular thing and a freedom from carelessness; that 'even-tempered' means the willing acceptance of whatever the common nature assigns to you; and that 'high-minded' means the elevation of the thinking part above the pleasant or painful sensations of the flesh, above that poor thing called fame, and above death and all such things. If, then, you keep hold of these names without craving to be called by them by others, you will be a different person and will enter a different life. For to go on being what you have been until now—torn to pieces and defiled in such a life—is the mark of a very stupid man, far too fond of his life, like those half-devoured fighters in the arena who, though covered in wounds and gore, still beg to be kept until the next day, when they will be thrown out in the same state to the same claws and teeth. So plant yourself firmly in these few names, and if you are able to abide in them, abide as if you had been carried off to the Islands of the Blessed. But if you find that you are falling away from them and cannot keep your hold, then go bravely off into some corner where you can keep them—or even depart from life altogether, not in passion, but with simplicity and freedom and modesty, having at least done this one praiseworthy thing in your life, to have left it in this way. To help you remember these names, it will greatly help to remember the gods, and that they do not wish to be flattered but wish all reasonable beings to become like themselves; and to remember that what does the work of a fig tree is a fig tree, what does the work of a dog is a dog, what does the work of a bee is a bee, and what does the work of a man is a man.",
+          "text": "Once you have taken on these names—good, modest, truthful, rational, even-tempered, high-minded—take care never to exchange them for others; and if you ever lose them, return to them quickly. Remember that \"rational\" was meant to signify a discriminating attention to each particular thing and a freedom from carelessness; that \"even-tempered\" means the willing acceptance of whatever the common nature assigns to you; and that \"high-minded\" means the elevation of the thinking part above the pleasant or painful sensations of the flesh, above that poor thing called fame, and above death and all such things. If, then, you keep hold of these names without craving to be called by them by others, you will be a different person and will enter a different life. For to go on being what you have been until now—torn to pieces and defiled in such a life—is the mark of a very stupid man, far too fond of his life, like those half-devoured fighters in the arena who, though covered in wounds and gore, still beg to be kept until the next day, when they will be thrown out in the same state to the same claws and teeth. So plant yourself firmly in these few names, and if you are able to abide in them, abide as if you had been carried off to the Islands of the Blessed. But if you find that you are falling away from them and cannot keep your hold, then go bravely off into some corner where you can keep them—or even depart from life altogether, not in passion, but with simplicity and freedom and modesty, having at least done this one praiseworthy thing in your life, to have left it in this way.",
           "spine": {
             "from": "10.8",
             "to": "10.8"
@@ -4090,7 +4091,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0009",
           "order": 9,
           "kind": "paragraph",
-          "text": "\"For there, indeed, man's life is easiest: no snow, no raging storm, no rain is there, but always Ocean sends up the gently breathing breezes of the West Wind to refresh mankind.\"",
+          "text": "To keep these names in mind, it will help you greatly to remember the gods, and that they do not wish to be flattered but wish all reasonable beings to become like themselves; and to remember that what does the work of a fig tree is a fig tree, what does the work of a dog is a dog, what does the work of a bee is a bee, and what does the work of a man is a man.",
           "spine": {
             "from": "10.9",
             "to": "10.9"
@@ -4100,7 +4101,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0010",
           "order": 10,
           "kind": "paragraph",
-          "text": "War, amazement, sluggishness, slavery, and the mime-shows of life will day by day wipe out those holy principles of yours—principles you picture without studying nature, and just as many that you neglect. Yet it is your duty to look at and to do everything in such a way that, at one and the same time, your power to deal with circumstances is brought to perfection, your contemplative faculty is exercised, and the confidence that comes from knowing each particular thing is kept—not displayed, but not concealed either. For when will you ever enjoy simplicity, when gravity, when the knowledge of each particular thing—what it is in substance, what place it holds in the universe, how long it is formed to last, what it is made of, to whom it can belong, and who can both give it and take it away?",
+          "text": "Farce, war, panic, torpor, slavery: day by day these will wipe out those sacred principles of yours, all those you entertain without studying nature and then let slip. Yet it is your duty to look at and to do everything in such a way that, at one and the same time, your power to deal with circumstances is brought to perfection, your contemplative faculty is exercised, and the confidence that comes from knowing each particular thing is kept—not displayed, but not concealed either. For when will you ever enjoy simplicity, when gravity, when the knowledge of each particular thing—what it is in substance, what place it holds in the universe, how long it is formed to last, what it is made of, to whom it can belong, and who can both give it and take it away?",
           "spine": {
             "from": "10.10",
             "to": "10.10"
@@ -4150,7 +4151,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0015",
           "order": 15,
           "kind": "paragraph",
-          "text": "You have not forgotten, I trust, that those who put on arrogant airs in dealing out their praise or blame to others are just what they are at bed and at table; you have not forgotten what they do, what they avoid, what they pursue, and how they steal and rob—not with hands and feet, but with their most valuable part, the part by which a man, when he chooses, produces fidelity, modesty, truth, law, and a good guiding spirit.",
+          "text": "You have not forgotten, I trust, that those who put on arrogant airs in dealing out their praise or blame to others are just what they are at bed and at table; you have not forgotten what they do, what they avoid, what they pursue, and how they steal and rob—not with hands and feet, but with their most valuable part, the part by which a man, when he chooses, produces fidelity, modesty, truth, law, and a good divinity within.",
           "spine": {
             "from": "10.15",
             "to": "10.15"
@@ -4230,7 +4231,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0023",
           "order": 23,
           "kind": "paragraph",
-          "text": "\"The earth loves the rain,\" and \"the majestic sky loves\"—and the universe loves to bring about whatever is about to be. So I say to the universe: I love along with you. And is this not also why we say that this or that 'loves'—is wont—to come about?",
+          "text": "\"The earth loves the rain,\" and \"the majestic sky loves\"—and the universe loves to bring about whatever is about to be. So I say to the universe: I love along with you. And is this not also why we say that a thing philei, \"loves,\" to happen, meaning that it tends to?",
           "spine": {
             "from": "10.23",
             "to": "10.23"
@@ -4250,7 +4251,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0025",
           "order": 25,
           "kind": "paragraph",
-          "text": "Always keep it clear to yourself that this patch of land is like any other, and that everything here is the same as on a mountaintop, or by the seashore, or wherever you choose to be. For you will find exactly what Plato says: dwelling within the walls of a city as in a shepherd's fold on a mountain.",
+          "text": "Always keep it clear to yourself that this patch of land is like any other, and that everything here is the same as on a mountaintop, or by the seashore, or wherever you choose to be. For you will find exactly what Plato describes: \"penned in a fold on the mountain and milking his bleating flock.\"",
           "spine": {
             "from": "10.25",
             "to": "10.25"
@@ -4400,7 +4401,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0040",
           "order": 40,
           "kind": "paragraph",
-          "text": "A healthy eye ought to look at everything visible and not say, 'I want only green things'—for that is the condition of a diseased eye. Healthy hearing and smell ought to be ready to perceive all that can be heard and smelled. A healthy stomach ought to be toward all food just as a mill is toward all that it is made to grind. And so a healthy understanding ought to be ready for everything that happens; but the understanding that says, 'Let my dear children live, and let all men praise whatever I do,' is an eye that wants only green things, or teeth that want only soft food.",
+          "text": "A healthy eye ought to look at everything visible and not say, \"I want only green things\"—for that is the condition of a diseased eye. Healthy hearing and smell ought to be ready to perceive all that can be heard and smelled. A healthy stomach ought to be toward all food just as a mill is toward all that it is made to grind. And so a healthy understanding ought to be ready for everything that happens; but the understanding that says, \"Let my dear children live, and let all men praise whatever I do,\" is an eye that wants only green things, or teeth that want only soft food.",
           "spine": {
             "from": "10.39",
             "to": "10.39"
@@ -4410,7 +4411,7 @@
           "id": "edition.meditations.lectio-modern.book-10.seg-0041",
           "order": 41,
           "kind": "paragraph",
-          "text": "There is no man so fortunate that, when he is dying, there will not be some standing by who are pleased at what is about to happen. Suppose he was a good and wise man: will there not be at least someone to say to himself, 'Let us at last breathe freely, now that we are relieved of this schoolmaster? True, he was harsh to none of us, but I sensed that he silently condemned us'? That is what is said of a good man. But in our own case, how many other reasons are there why so many wish to be rid of us? Consider this, then, when you are dying, and you will depart more contentedly by reflecting thus: I am leaving a life in which even my own companions—those for whom I strove so much, prayed, and cared—themselves wish me gone, hoping perhaps to gain some small advantage by it. Why, then, should a man cling to a longer stay here? Yet do not on that account leave them any less kindly disposed; keep your own character, friendly and benevolent and gentle, and do not depart as if you were being torn away. Rather, just as when a man dies a quiet death the poor soul is easily separated from the body, so too should your departure from men be. For nature bound you to them and joined you with them—and now she dissolves the union. I am separated as from kinsmen, yet not dragged off resisting, but going without compulsion; for this too is one of the things in keeping with nature.",
+          "text": "There is no man so fortunate that, when he is dying, there will not be some standing by who are pleased at what is about to happen. Suppose he was a good and wise man: will there not be at least someone to say to himself, \"Let us at last breathe freely, now that we are relieved of this schoolmaster? True, he was harsh to none of us, but I sensed that he silently condemned us\"? That is what is said of a good man. But in our own case, how many other reasons are there why so many wish to be rid of us? Consider this, then, when you are dying, and you will depart more contentedly by reflecting thus: I am leaving a life in which even my own companions—those for whom I strove so much, prayed, and cared—themselves wish me gone, hoping perhaps to gain some small advantage by it. Why, then, should a man cling to a longer stay here? Yet do not on that account leave them any less kindly disposed; keep your own character, friendly and benevolent and gentle, and do not depart as if you were being torn away. Rather, just as when a man dies a quiet death the poor soul is easily separated from the body, so too should your departure from men be. For nature bound you to them and joined you with them—and now she dissolves the union. I am separated as from kinsmen, yet not dragged off resisting, but going without compulsion; for this too is one of the things in keeping with nature.",
           "spine": {
             "from": "10.39",
             "to": "10.39"
@@ -4497,7 +4498,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0006",
           "order": 6,
           "kind": "paragraph",
-          "text": "Tragedies were first brought onto the stage to remind people of the things that happen to them, and that it is according to nature for such things to happen, and that if you enjoy watching them on the stage you should not be distressed when they take place on the larger stage of life. For you see that these things must turn out this way, and that even those who cry out \"O Cithaeron!\" still have to bear them. And indeed the dramatists do say some things well, especially lines like this one: \"If the gods neglect me and my children, this too has its reason.\" And again: \"We must not chafe and fret at what happens.\" And: \"Reap life's harvest like a ripe ear of wheat.\" And other things of the same kind. After tragedy came the old comedy, with its blunt freedom of speech, useful by its very plainness in reminding people to beware of arrogance—which is also why Diogenes drew on these writers. As for the middle comedy that came next, look at what it was; and consider, too, what the new comedy was introduced for, which gradually sank into mere mimicry and stage trickery. Everyone knows that even these writers say some good things—but the whole aim of such poetry and drama, what does it ultimately come to?",
+          "text": "Tragedies were first brought onto the stage to remind people of the things that happen to them, and that it is according to nature for such things to happen, and that if you enjoy watching them on the stage you should not be distressed when they take place on the larger stage of life. For you see that these things must turn out this way, and that even those who cry out \"O Cithaeron!\" still have to bear them. And indeed the dramatists do say some things well, especially lines like this one: \"If the gods care nothing for me and my children, there is a reason for this too.\" And again: \"We must not be angry at things.\" And: \"Life must be reaped like a ripe ear of grain.\" And other things of the same kind. After tragedy came the old comedy, with its blunt freedom of speech, useful by its very plainness in reminding people to beware of arrogance—which is also why Diogenes drew on these writers. As for the middle comedy that came next, look at what it was; and consider, too, what the new comedy was introduced for, which gradually sank into mere mimicry and stage trickery. Everyone knows that even these writers say some good things—but the whole aim of such poetry and drama, what does it ultimately come to?",
           "spine": {
             "from": "11.6",
             "to": "11.6"
@@ -4587,7 +4588,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0015",
           "order": 15,
           "kind": "paragraph",
-          "text": "How false and insincere is the man who says, \"I have made up my mind to deal honestly with you!\" What are you doing, man? There is no need to announce it. It will show itself soon enough in your actions. The truth ought to be plainly written on your forehead. A person's character shows at once in his eyes, just as someone who is loved reads everything in the eyes of those who love him. A man who is honest and good ought to be like a man with a strong smell, so that anyone who comes near him cannot help noticing it whether he wants to or not. But a put-on simplicity is like a crooked stick. Nothing is more disgraceful than a wolfish, false friendship. Avoid that above all. The good, simple, kindly man shows all this in his eyes; there is no mistaking it.",
+          "text": "How false and insincere is the man who says, \"I have made up my mind to deal honestly with you!\" What are you doing, man? There is no need to announce it. It will show itself soon enough in your actions. The truth ought to be plainly written on your forehead. A person's character shows at once in his eyes, just as someone who is loved reads everything in the eyes of those who love him. A man who is honest and good ought to be like a man with a strong smell, so that anyone who comes near him cannot help noticing it whether he wants to or not. But a put-on simplicity is a hidden knife. Nothing is more disgraceful than a wolfish, false friendship. Avoid that above all. The good, simple, kindly man shows all this in his eyes; there is no mistaking it.",
           "spine": {
             "from": "11.15",
             "to": "11.15"
@@ -4617,7 +4618,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0018",
           "order": 18,
           "kind": "paragraph",
-          "text": "If anyone has wronged you, consider this first: what is my relation to other people? We are made for one another; and, in another sense, I was made to be set over them, as a ram over the flock or a bull over the herd. But examine the matter from first principles, this way: if all things are not mere atoms, then it is nature that orders everything; and if that is so, the lesser things exist for the sake of the greater, and these for the sake of one another.",
+          "text": "First: what is my relation to other people? We are made for one another; and, in another sense, I was made to be set over them, as a ram over the flock or a bull over the herd. But examine the matter from first principles, this way: if all things are not mere atoms, then it is nature that orders everything; and if that is so, the lesser things exist for the sake of the greater, and these for the sake of one another.",
           "spine": {
             "from": "11.18",
             "to": "11.18"
@@ -4717,7 +4718,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0028",
           "order": 28,
           "kind": "paragraph",
-          "text": "And if you will, take a tenth gift as well, from the leader of the Muses, Apollo: that to expect bad men not to do wrong is madness, for that is to want the impossible. But to allow them to behave so toward others while expecting them not to wrong you is irrational and tyrannical.",
+          "text": "And if you will, take a tenth gift as well, from the leader of the Muses: that to expect bad men not to do wrong is madness, for that is to want the impossible. But to allow them to behave so toward others while expecting them not to wrong you is irrational and tyrannical.",
           "spine": {
             "from": "11.28",
             "to": "11.28"
@@ -4797,7 +4798,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "In the writings of the Ephesians there was this precept: to keep thinking of someone from earlier times who practiced virtue.",
+          "text": "In the writings of the Epicureans there was this precept: to keep thinking of someone from earlier times who practiced virtue.",
           "spine": {
             "from": "11.36",
             "to": "11.36"
@@ -4867,7 +4868,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0043",
           "order": 43,
           "kind": "paragraph",
-          "text": "To look for a fig in winter is a madman's act; and so is the man who looks for his child when it is no longer permitted.",
+          "text": "To look for a fig in winter is madness; so is looking for your child when that is no longer granted.",
           "spine": {
             "from": "11.39",
             "to": "11.39"
@@ -4877,7 +4878,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0044",
           "order": 44,
           "kind": "paragraph",
-          "text": "When a man kisses his child, said Epictetus, he should whisper to himself, \"Perhaps tomorrow you will die.\" But those are words of bad omen. \"No word is of bad omen,\" said Epictetus, \"that names a work of nature; or, if it is, then it is also of bad omen to speak of the ears of corn being reaped.\"",
+          "text": "When a man kisses his child, said Epictetus, he should whisper to himself, \"Perhaps tomorrow you will die.\" \"But those are words of bad omen.\" \"No word is of bad omen,\" said Epictetus, \"that names a work of nature; or, if it is, then it is also of bad omen to speak of the ears of corn being reaped.\"",
           "spine": {
             "from": "11.39",
             "to": "11.39"
@@ -4907,7 +4908,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0047",
           "order": 47,
           "kind": "paragraph",
-          "text": "Epictetus also said that a man must work out an art, or set of rules, for giving his assent; and in his impulses to act he must take care that they suit the circumstances, serve the common interest, and match the worth of their object; and as for sensual desire, he should keep away from it altogether; and as for aversion, he should not direct it at anything that is not in our power.",
+          "text": "Epictetus also said that a man must work out an art, or set of rules, for giving his assent; and in his impulses to act he must take care that they suit the circumstances, serve the common interest, and match the worth of their object; and as for desire, he should keep away from it altogether; and as for aversion, he should not direct it at anything that is not in our power.",
           "spine": {
             "from": "11.39",
             "to": "11.39"
@@ -4927,7 +4928,7 @@
           "id": "edition.meditations.lectio-modern.book-11.seg-0049",
           "order": 49,
           "kind": "paragraph",
-          "text": "Socrates used to ask: What do you want—the souls of rational beings, or of irrational ones? Of rational ones. Of what kind of rational beings—sound or unsound? Sound. Then why do you not look for them? Because we already have them. Then why do you fight and quarrel?",
+          "text": "Socrates used to ask: \"What do you want—the souls of rational beings, or of irrational ones?\" \"Of rational ones.\" \"Rational beings of what kind—sound or unsound?\" \"Sound.\" \"Then why do you not look for them?\" \"Because we already have them.\" \"Then why do you fight and quarrel?\"",
           "spine": {
             "from": "11.39",
             "to": "11.39"
@@ -4964,7 +4965,7 @@
           "id": "edition.meditations.lectio-modern.book-12.seg-0003",
           "order": 3,
           "kind": "paragraph",
-          "text": "There are three things you are made of: a little body, a little breath, and intelligence. The first two are yours only in the sense that it is your duty to take care of them, but the third alone is truly yours. So if you separate from yourself, that is, from your understanding, whatever others do or say, and whatever you yourself have done or said, and whatever future things trouble you because they might happen, and whatever in the body that wraps you or in the breath naturally joined to it is attached to you independent of your will, and whatever the external swirling current whirls around you, so that your intellectual power, exempt from the things of fate, can live pure and free by itself, doing what is just, accepting what happens, and speaking the truth; if you separate, I say, from this ruling faculty the things that cling to it through the impressions of the senses, and the things of time to come and time past, and make yourself like Empedocles' sphere, \"all round, and resting in its own joyous repose\"; and if you strive to live only what is really your life, that is, the present, then you will be able to spend whatever portion of life remains to you, right up to your death, free from disturbance, nobly, and obedient to the god that is within you.",
+          "text": "There are three things you are made of: a little body, a little breath, and intelligence. The first two are yours only in the sense that it is your duty to take care of them, but the third alone is truly yours. So separate from yourself, that is, from your understanding, whatever others do or say, and whatever you yourself have done or said, and whatever future things trouble you because they might happen, and whatever in the body that wraps you or in the breath naturally joined to it is attached to you independent of your will, and whatever the external swirling current whirls around you, so that your intellectual power, exempt from the things of fate, can live pure and free by itself, doing what is just, accepting what happens, and speaking the truth. Separate from this ruling faculty the things that cling to it through the impressions of the senses, and the things of time to come and time past, and make yourself like Empedocles' sphere, \"all round, and resting in its own joyous repose.\" If you do this, and strive to live only what is really your life, that is, the present, then you will be able to spend whatever portion of life remains to you, right up to your death, free from disturbance, kindly, and at peace with the divinity within you.",
           "spine": {
             "from": "12.3",
             "to": "12.3"
@@ -5024,7 +5025,7 @@
           "id": "edition.meditations.lectio-modern.book-12.seg-0009",
           "order": 9,
           "kind": "paragraph",
-          "text": "In applying your principles, be like the all-in fighter, not the swordsman; for the swordsman drops the sword he uses and is killed, but the fighter always has his hand and need do nothing but use it.",
+          "text": "In applying your principles, be like the bare-handed fighter, not the gladiator; for the gladiator puts down the sword he uses and is killed, but the fighter always has his hand and needs only to make a fist.",
           "spine": {
             "from": "12.9",
             "to": "12.9"
@@ -5204,7 +5205,7 @@
           "id": "edition.meditations.lectio-modern.book-12.seg-0027",
           "order": 27,
           "kind": "paragraph",
-          "text": "Constantly call to mind those who have complained loudly about something, those who were most conspicuous for the greatest fame, misfortunes, feuds, or fortunes of any kind, and then ask: where are they all now? Smoke and ash and a tale, or not even a tale. Bring to mind too every example of this sort: how Fabius Catellinus lived on his country estate, Lucius Lupus in his gardens, Stertinius at Baiae, Tiberius at Capri, and Velius Rufus, and in short the eager pursuit of anything joined with pride, and how worthless everything is that people violently strain after, and how much more philosophical it is for a person, in the opportunities given to him, to show himself just, self-controlled, and obedient to the gods, and to do this in all simplicity; for the pride that prides itself on having no pride is the most unbearable pride of all.",
+          "text": "Constantly call to mind those who have complained loudly about something, those who were most conspicuous for the greatest fame, misfortunes, feuds, or fortunes of any kind, and then ask: where are they all now? Smoke and ash and a tale, or not even a tale. Bring to mind too every example of this sort: how Fabius Catullinus lived on his country estate, Lucius Lupus in his gardens, Stertinius at Baiae, Tiberius at Capri, and Velius Rufus, and in short the eager pursuit of anything joined with pride, and how worthless everything is that people violently strain after, and how much more philosophical it is for a person, in the opportunities given to him, to show himself just, self-controlled, and obedient to the gods, and to do this in all simplicity; for the pride that prides itself on having no pride is the most unbearable pride of all.",
           "spine": {
             "from": "12.27",
             "to": "12.27"
@@ -5294,7 +5295,7 @@
           "id": "edition.meditations.lectio-modern.book-12.seg-0036",
           "order": 36,
           "kind": "paragraph",
-          "text": "Man, you have been a citizen in this great city, the world; what does it matter to you whether for five years or three? For what accords with its laws is just for all alike. Where is the hardship, then, if you are sent out of the city not by a tyrant or an unjust judge, but by nature, who brought you into it, just as a director who hired an actor dismisses him from the stage? \"But I have not finished the five acts, only three.\" You are right, but in life three acts are the whole play; for the one who once caused its composition and now causes its dissolution decides what counts as a complete drama, and you are the cause of neither. So depart contented, for the one who releases you is also contented.",
+          "text": "Man, you have been a citizen in this great city; what does it matter to you whether for five years or fifty? For what accords with its laws is just for all alike. Where is the hardship, then, if you are sent out of the city not by a tyrant or an unjust judge, but by nature, who brought you into it, just as a director who hired an actor dismisses him from the stage? \"But I have not finished the five acts, only three.\" You are right, but in life three acts are the whole play; for the one who once caused its composition and now causes its dissolution decides what counts as a complete drama, and you are the cause of neither. So depart contented, for the one who releases you is also contented.",
           "spine": {
             "from": "12.35",
             "to": "12.35"

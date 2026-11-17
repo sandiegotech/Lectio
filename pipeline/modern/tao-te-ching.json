@@ -4,6 +4,7 @@
   "model": "claude-opus-4-8",
   "date": "2026-06-27",
   "vintage": 2026,
+  "revised": "2026-11-17",
   "sourceEditionIds": [
     "edition.tao-te-ching.legge-1891"
   ],
@@ -53,10 +54,10 @@
     },
     {
       "locus": "Chapter 2, close",
-      "phrase": "It is just because he does not rest in it that the credit never leaves him",
+      "phrase": "It is just because he does not rest in it that it never leaves him.",
       "older": "The work is done, but how no one can see; 'Tis this that makes the power not cease to be (Legge 1891)",
-      "lectio": "It is just because he does not rest in it that the credit never leaves him",
-      "note": "Legge turns the closing line (夫唯弗居，是以不去) into a rhyming couplet of his own. The Chinese is a single conditional turn: precisely because the sage takes no credit, the credit is never lost to him. We keep that logic plain — the reward of yielding is that nothing has to be defended, so nothing slips away."
+      "lectio": "It is just because he does not rest in it that it never leaves him.",
+      "note": "Legge turns the closing line (夫唯弗居，是以不去) into a rhyming couplet of his own. The Chinese is a single conditional turn, and it names no object: precisely because the sage does not rest in his work, it does not leave him. We keep that logic plain and keep the line as bare as the Chinese. To say what never leaves him (\"the credit\") would explain the 功 of the line before, and an explanation belongs in a note, not in the sentence. The reward of yielding is that nothing has to be defended, so nothing slips away."
     },
     {
       "locus": "Chapter 3, closing line",
@@ -81,10 +82,10 @@
     },
     {
       "locus": "Chapter 4, line 1",
-      "phrase": "the wellspring from which the ten thousand things flow",
+      "phrase": "it seems to be the ancestor of the ten thousand things",
       "older": "Legge (1891): \"as if it were the Honoured Ancestor of all things!\"",
-      "lectio": "the wellspring from which the ten thousand things flow",
-      "note": "The text reads wan wu zhi zong (萬物之宗) — literally the \"ancestor\" or clan-source of the ten thousand things — paired with yuan (淵), a deep pool or abyss. Legge's \"Honoured Ancestor\" is faithful but stiff; we keep the image of depth alive by rendering zong as a wellspring or source, the deep place everything pours out of, while preserving \"the ten thousand things,\" the classic Chinese phrase for all that exists."
+      "lectio": "It is so deep — it seems to be the ancestor of the ten thousand things.",
+      "note": "The text reads 淵兮似萬物之宗: yuan (淵), a deep pool or abyss; si (似), \"it seems\"; and wan wu zhi zong (萬物之宗), the \"ancestor\" or clan-source of the ten thousand things. Legge's \"as if it were the Honoured Ancestor\" is faithful but stiff. We keep the ancestor, because the chapter comes back to it in its last lines (\"I do not know whose child it is\"), and we keep the hedge, because the Chinese only says that it seems so. \"The ten thousand things,\" the classic Chinese phrase for all that exists, stays as it is."
     },
     {
       "locus": "Chapter 4, line 3",
@@ -158,9 +159,9 @@
     },
     {
       "locus": "the seven excellences",
-      "phrase": "In where it dwells, it holds to the ground. In the heart, it holds to depth...",
+      "phrase": "In dwelling, it holds to the ground. In the heart, it holds to depth...",
       "older": "Legge (1891): \"The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness...\"",
-      "lectio": "In where it dwells, it holds to the ground. In the heart, it holds to depth. In giving, it holds to kindness. In speech, it holds to truth. In governing, it holds to good order. In handling affairs, it holds to skill. In moving, it holds to the right moment.",
+      "lectio": "In dwelling, it holds to the ground. In the heart, it holds to depth. In giving, it holds to kindness. In speech, it holds to truth. In governing, it holds to good order. In handling affairs, it holds to skill. In moving, it holds to the right moment.",
       "note": "The Chinese is a tight chant of seven matched clauses (居善地，心善淵，與善仁，言善信，正善治，事善能，動善時), each pairing a domain of life with the kind of goodness proper to it — and each repeating shan (善), \"good,\" the word that opened the chapter. Legge unrolls them into long abstract phrases (\"the suitability of the place,\" \"abysmal stillness\") that break the rhythm and lose the drumbeat of the repeated word. We keep the parallel form and the recurring \"holds to,\" so the list reads as it sounds in Chinese: a steady, water-like settling of each thing into its true place."
     },
     {
@@ -186,10 +187,10 @@
     },
     {
       "locus": "the gate of heaven (天門開闔，能為雌乎)",
-      "phrase": "can you keep to the female, the yielding, receptive part",
+      "phrase": "can you play the part of the female?",
       "older": "Legge (1891): \"In the opening and shutting of his gates of heaven, cannot he do so as a female bird?\"",
-      "lectio": "When the gate of heaven opens and shuts, can you keep to the female, the yielding, receptive part?",
-      "note": "天門開闔，能為雌乎 asks whether, as the \"gate of heaven\" opens and closes — the rhythm of action and stillness, coming and going — you can play the part of 雌 (cí), the female. Legge's \"as a female bird\" is over-literal (雌 is the hen as opposed to the cock) and obscures the point. Throughout the book the female stands for the receptive, yielding power that prevails by softness, not force; here it answers the same motion the male would meet with assertion. We render 雌 as the female, the yielding, receptive part, keeping the gender image that runs through the Way while making its meaning plain."
+      "lectio": "When the gate of heaven opens and shuts, can you play the part of the female?",
+      "note": "天門開闔，能為雌乎 asks whether, as the \"gate of heaven\" opens and closes — the rhythm of action and stillness, coming and going — you can play the part of 雌 (cí), the female. Legge's \"as a female bird\" is over-literal (雌 is the hen as opposed to the cock) and obscures the point. Throughout the book the female stands for the receptive, yielding power that prevails by softness, not force; here it answers the same motion the male would meet with assertion. We render 為雌 as \"play the part of the female\" and stop there. The Chinese names only the female; what she stands for is for the book to show, not for the line to explain."
     },
     {
       "locus": "the close (生而不有，為而不恃，長而不宰，是謂玄德)",
@@ -242,10 +243,10 @@
     },
     {
       "locus": "the close (貴/愛以身為天下)",
-      "phrase": "the one who honors the world as their own body can be given the world to hold",
+      "phrase": "the one who honors the world as his own body can be given the world to hold",
       "older": "Legge (1891): \"he who would administer the kingdom, honouring it as he honours his own person, may be employed to govern it, and he who would administer it with the love which he bears to his own person may be entrusted with it.\"",
-      "lectio": "So the one who honors the world as their own body can be given the world to hold; the one who loves the world as their own body can be trusted with the world.",
-      "note": "The Chinese (貴以身為天下，若可寄天下；愛以身為天下，若可託天下) pairs gui (貴, to honor, hold precious) with ai (愛, to love), and tian xia (天下, \"all under heaven\") — the world, not just one kingdom. The argument completes the chapter's turn on shen (身, body/self): only someone who treats the world with the same care they give their own body — neither clutching it for favor nor flinching from its troubles — is fit to be entrusted with it. Legge's \"administer the kingdom\" and \"his own person\" are faithful but stiff, and narrow tian xia to a single realm. We keep \"the world\" and the plain body/self echo, so the famous lesson stands clear: power belongs to the one who holds the world as dearly, and as lightly, as their own life."
+      "lectio": "So the one who honors the world as his own body can be given the world to hold; the one who loves the world as his own body can be trusted with the world.",
+      "note": "The Chinese (貴以身為天下，若可寄天下；愛以身為天下，若可託天下) pairs gui (貴, to honor, hold precious) with ai (愛, to love), and tian xia (天下, \"all under heaven\") — the world, not just one kingdom. The argument completes the chapter's turn on shen (身, body/self): only someone who treats the world with the same care he gives his own body — neither clutching it for favor nor flinching from its troubles — is fit to be entrusted with it. Legge's \"administer the kingdom\" and \"his own person\" are faithful but stiff, and narrow tian xia to a single realm. We keep \"the world\" and the plain body/self echo, so the famous lesson stands clear: power belongs to the one who holds the world as dearly, and as lightly, as his own life. The edition calls this person \"he,\" as it calls the sage throughout the book."
     },
     {
       "locus": "the three names (夷, 希, 微)",
@@ -354,17 +355,17 @@
     },
     {
       "locus": "the rude borderer",
-      "phrase": "like a country bumpkin",
+      "phrase": "like a rustic",
       "older": "Legge (1891): \"like a rude borderer.\"",
-      "lectio": "I alone am awkward and useless, like a country bumpkin.",
-      "note": "The Chinese 頑且鄙 describes someone stubborn, slow, and coarse — a rustic. Legge's \"rude borderer\" (a crude frontier-dweller) is now archaic and obscure; \"country bumpkin\" carries the same self-mocking sense of an unpolished simpleton, which is the tone Laozi adopts throughout the chapter as he sets his dull plainness against the crowd's brightness."
+      "lectio": "I alone am awkward and useless, like a rustic.",
+      "note": "The Chinese 頑似鄙 describes someone stubborn, slow, and coarse — a rustic. Legge's \"rude borderer\" (a crude frontier-dweller) is now archaic and obscure. \"Country bumpkin\" would be plain, but it is comic, and the line is not a joke. \"Rustic\" keeps the self-deprecating sense of an unpolished simpleton without the laugh, which is the tone Laozi takes throughout the chapter as he sets his dull plainness against the crowd's brightness."
     },
     {
       "locus": "closing image",
-      "phrase": "for I am nourished by the Mother, the Way",
+      "phrase": "I prize being fed by the Mother",
       "older": "Legge (1891): \"but I value the nursing-mother (the Tao).\"",
-      "lectio": "I alone am different from all the rest — for I am nourished by the Mother, the Way.",
-      "note": "The Chinese 而貴食母 turns on 食 (to feed, to be fed) and 母 (mother). Legge reads it as \"value the nursing-mother\"; we keep both the valuing and the feeding by rendering it \"nourished by the Mother,\" since the line's force is that Laozi, cut off from the crowd's comforts, draws his sustenance directly from the source — the Way itself, named here as the Mother who feeds all things (echoing Chapter 1's \"mother of all things\")."
+      "lectio": "I alone am different from all the rest — I prize being fed by the Mother.",
+      "note": "The Chinese 而貴食母 turns on three words: 貴 (to prize, to value), 食 (to feed, to be fed), and 母 (mother). Legge reads it as \"value the nursing-mother\" and adds \"(the Tao)\" in brackets. We keep both the prizing and the feeding, \"I prize being fed by the Mother,\" and leave the Mother unnamed, as the Chinese does. The reader has met her already, as the \"mother of all things\" in Chapter 1, and will know her; to name her \"the Way\" in the line would write Legge's bracket into the text. The force of the line is that Laozi, cut off from the crowd's comforts, values one thing only: the source that feeds all things."
     },
     {
       "locus": "opening line (孔德之容，唯道是從)",
@@ -406,7 +407,7 @@
       "phrase": "one who follows the Way becomes one with the Way; one who follows its power becomes one with that power; one who follows loss becomes one with loss",
       "older": "Legge (1891): \"when one is making the Tao his business, those who are also pursuing it, agree with him in it, and those who are making the manifestation of its course their object agree with him in that; while even those who are failing in both these things agree with him where they fail.\"",
       "lectio": "So one who follows the Way becomes one with the Way; one who follows its power becomes one with that power; and one who follows loss becomes one with loss.",
-      "note": "The Chinese (從事於道者，同於道；德者，同於德；失者，同於失) is a clean threefold parallel: whoever gives himself to the Way is made one with the Way, whoever to its te (power/virtue) is made one with that power, whoever to loss is made one with loss. Legge bent the lines into a sentence about people agreeing with the sage, which buries the parallel and its point — that you become whatever you devote yourself to. We restore the plain triad, the reading Walter Gorn Old (1904) and modern scholars share, and keep te as 'power' to match the rest of this edition."
+      "note": "The Chinese (從事於道者，同於道；德者，同於德；失者，同於失) is a clean threefold parallel: whoever gives himself to the Way is made one with the Way, whoever to its te (power) is made one with that power, whoever to loss is made one with loss. Legge bent the lines into a sentence about people agreeing with the sage, which buries the parallel and its point — that you become whatever you devote yourself to. We restore the plain triad, the reading Walter Gorn Old (1904) and modern scholars share, and keep te as 'power' to match the rest of this edition."
     },
     {
       "locus": "verse 1, the storm images",
@@ -431,10 +432,10 @@
     },
     {
       "locus": "the closing line (道法自然)",
-      "phrase": "the Way follows what is natural — what is so of itself",
+      "phrase": "the Way follows what is so of itself",
       "older": "Legge (1891): \"Heaven takes its law from the Tao. The law of the Tao is its being what it is.\"",
-      "lectio": "heaven follows the Way; and the Way follows what is natural — what is so of itself.",
-      "note": "The chapter ends on 道法自然 (dào fǎ zìrán). 自然 (zìrán) is the book's great word — literally \"self-so,\" what is naturally so without being made or forced; it does not mean nature as in the outdoors. Legge's \"its being what it is\" catches the sense but flattens the word the whole edition keeps alive elsewhere. We render it \"what is natural — what is so of itself,\" so the climax of the ladder lands: the Way does not answer to anything above it, because it follows only its own nature."
+      "lectio": "heaven follows the Way; and the Way follows what is so of itself.",
+      "note": "The chapter ends on 道法自然 (dào fǎ zìrán). 自然 (zìrán) is the book's great word — literally \"self-so,\" what is naturally so without being made or forced; it does not mean nature as in the outdoors. Legge's \"its being what it is\" catches the sense but flattens the word the whole edition keeps alive elsewhere. We render it \"what is so of itself,\" as in Chapter 51, and give it once, with no second rendering beside it to explain the first. So the climax of the ladder lands: the Way does not answer to anything above it, because it follows only its own nature."
     },
     {
       "locus": "closing line (輕則失本，躁則失君)",
@@ -592,10 +593,10 @@
     },
     {
       "locus": "the title of the chapter",
-      "phrase": "The highest virtue is not virtuous, and that is why it has virtue.",
+      "phrase": "The highest power makes no claim to power, and that is why it has power.",
       "older": "Legge (1891): \"(Those who) possessed in highest degree the attributes (of the Tao) did not (seek) to show them, and therefore they possessed them (in fullest measure).\"",
-      "lectio": "The highest virtue is not virtuous, and that is why it has virtue.",
-      "note": "The Chinese is 上德不德，是以有德 (shàng dé bù dé, shì yǐ yǒu dé). The word throughout is 德 (dé) — te, the virtue or power that this whole second half of the book is named for. Legge renders it \"the attributes (of the Tao),\" which is accurate but buries the paradox under brackets. The line is a single tight reversal: the truly virtuous person does not perform virtue, makes no display of it, and is virtuous precisely for that reason; the one who clings to virtue and shows it off has already lost the thing itself. We keep the bare paradox, since it is the hinge of the chapter and of the descent that follows."
+      "lectio": "The highest power makes no claim to power, and that is why it has power.",
+      "note": "The Chinese is 上德不德，是以有德 (shàng dé bù dé, shì yǐ yǒu dé). The word throughout is 德 (dé) — te, the power that this whole second half of the book is named for, which the edition renders \"power\" everywhere (as in Chapters 10, 21, 28, 51 and 55). Legge renders it \"the attributes (of the Tao),\" which is accurate but buries the paradox under brackets. The line is a single tight reversal: the highest power makes no claim to be power, makes no display of it, and has it for exactly that reason; the lowest power never lets go of it, and so has none. We keep the bare paradox, and one English word for all four uses of 德, since this is the hinge of the chapter and of the descent that follows."
     },
     {
       "locus": "the descending chain of values",
@@ -662,10 +663,10 @@
     },
     {
       "locus": "the names kings take",
-      "phrase": "orphaned, lonely, or unworthy",
+      "phrase": "orphaned, widowed, or unworthy",
       "older": "Legge (1891): \"to be orphans, to have little virtue, to be as carriages without naves.\"",
-      "lectio": "orphaned, lonely, or unworthy",
-      "note": "The Chinese is 孤寡不穀: 孤 \"orphaned,\" 寡 \"alone\" or \"widowed,\" 不穀 literally \"not grain\" — an old self-deprecating title a ruler used to mean \"unworthy\" or \"of no account.\" Legge rendered 不穀 as \"carriages without naves,\" reading it through a different gloss, which turns a king's humble self-name into a puzzling image. We keep all three as the lowly titles rulers gave themselves, which is what makes the next line — that things gain by being made less — land."
+      "lectio": "orphaned, widowed, or unworthy",
+      "note": "The Chinese is 孤寡不穀: 孤 \"orphaned,\" 寡 \"alone\" or \"widowed,\" 不穀 literally \"not grain\" — an old self-deprecating title a ruler used to mean \"unworthy\" or \"of no account.\" Legge rendered 不穀 as \"carriages without naves,\" reading it through a different gloss, which turns a king's humble self-name into a puzzling image. We keep all three as the lowly titles rulers gave themselves, in the same words as Chapter 39, where the same titles appear, so the reader knows them again. That is what makes the next line — that things gain by being made less — land."
     },
     {
       "locus": "the softest thing in the world",
@@ -760,10 +761,10 @@
     },
     {
       "locus": "verses 1 and 3 (德畜之)",
-      "phrase": "its virtue nurtures them",
+      "phrase": "its power nurtures them",
       "older": "Legge (1891): \"and nourished by its outflowing operation\" (德, de, rendered as \"its outflowing operation\")",
-      "lectio": "and its virtue nurtures them",
-      "note": "The chapter is built on a pair: 道生之，德畜之 — the Way (道, dào) gives life, and de (德) nurtures. De is the te the book is named for, the inner power the Way lends to each thing so that it can grow into itself. Legge renders de here as \"its outflowing operation,\" an abstraction that hides the key word and breaks the link to Chapter 10 and Chapter 38, where the same de appears. We render it \"virtue\" — its older English sense of the active power in a thing, not mere goodness — so the reader hears the book's title word and feels the two forces work as one: the Way bears each thing, its virtue feeds it."
+      "lectio": "and its power nurtures them",
+      "note": "The chapter is built on a pair: 道生之，德畜之 — the Way (道, dào) gives life, and de (德) nurtures. De is the te the book is named for, the inner power the Way lends to each thing so that it can grow into itself. Legge renders de here as \"its outflowing operation,\" an abstraction that hides the key word and breaks the link to Chapter 10 and Chapter 38, where the same de appears. We render it \"power,\" as everywhere in the edition, so the reader hears the book's title word and feels the two forces work as one: the Way bears each thing, its power feeds it. The chapter's close, 是謂玄德, is \"the mysterious power,\" in the same words as Chapters 10 and 65."
     },
     {
       "locus": "verse 2 (莫之命而常自然)",
@@ -777,7 +778,7 @@
       "phrase": "Stop up the openings, shut the gates, and to the end of your days your strength will never run out.",
       "older": "Legge (1891): \"Let him keep his mouth closed, and shut up the portals (of his nostrils), and all his life he will be exempt from laborious exertion.\"",
       "lectio": "Stop up the openings, shut the gates, and to the end of your days your strength will never run out.",
-      "note": "The Chinese is 塞其兌，閉其門，終身不勤. 兌 (duì) literally means an aperture or opening, and Legge fixed it as the mouth, with 門 (mén, \"gate\") read narrowly as the nostrils. But the image is deliberately general — the senses and desires as openings through which a person's vitality drains out. Reading it as \"the mouth\" alone narrows a figure that the rest of the chapter (the inner light, the soft) keeps wide open. 不勤 we render \"never run out (of strength)\" rather than Legge's \"exempt from laborious exertion\": the point is undepleted vitality, not avoiding hard work."
+      "note": "The Chinese is 塞其兌，閉其門，終身不勤. 兌 (duì) literally means an aperture or opening, and Legge fixed it as the mouth, with 門 (mén, \"gate\") read narrowly as the nostrils. But the image is deliberately general — the senses and desires as openings through which a person's vitality drains out. Reading it as \"the mouth\" alone narrows a figure that the rest of the chapter (the small, the soft, the light turned back to clarity) keeps wide open. 不勤 we render \"never run out (of strength)\" rather than Legge's \"exempt from laborious exertion\": the point is undepleted vitality, not avoiding hard work."
     },
     {
       "locus": "the robber's boast",
@@ -802,10 +803,10 @@
     },
     {
       "locus": "opening line (含德之厚，比於赤子)",
-      "phrase": "One full of virtue is like a newborn child.",
+      "phrase": "One full of power is like a newborn child.",
       "older": "Legge (1891): \"He who has in himself abundantly the attributes (of the Tao) is like an infant.\"",
-      "lectio": "One full of virtue is like a newborn child.",
-      "note": "The Chinese is 含德之厚，比於赤子. De (德) is the te the book is named for — the inner power of the Way, which we render \"virtue\" throughout the edition, in its old sense of the power proper to a thing (cf. Chapters 38, 51). Legge unpacks it into \"the attributes (of the Tao),\" which is faithful but clutters the line and hides the single word the chapter turns on. The child is 赤子 (chizi), literally the \"red child,\" the newborn still flushed at birth; we keep \"newborn child\" so the image lands plain and the chapter opens on the one figure it is built around — the infant whose softness is its safety."
+      "lectio": "One full of power is like a newborn child.",
+      "note": "The Chinese is 含德之厚，比於赤子. De (德) is the te the book is named for — the inner power of the Way, which we render \"power\" throughout the edition (cf. Chapters 38, 51). The paradox is the chapter's point: the fullest power is held by the weakest creature. Legge unpacks it into \"the attributes (of the Tao),\" which is faithful but clutters the line and hides the single word the chapter turns on. The child is 赤子 (chizi), literally the \"red child,\" the newborn still flushed at birth; we keep \"newborn child\" so the image lands plain and the chapter opens on the one figure it is built around — the infant whose softness is its safety."
     },
     {
       "locus": "the close (物壯則老，謂之不道，不道早已)",
@@ -858,10 +859,10 @@
     },
     {
       "locus": "the close (方而不割，廉而不劌，直而不肆，光而不燿)",
-      "phrase": "square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling",
+      "phrase": "square-edged but cuts no one, sharp-cornered but wounds no one, straight but never overbearing, bright but not dazzling",
       "older": "Legge (1891): \"the sage is (like) a square which cuts no one (with its angles); (like) a corner which injures no one (with its sharpness). He is straightforward, but allows himself no license; he is bright, but does not dazzle.\"",
-      "lectio": "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling.",
-      "note": "The chapter ends in four matched clauses, each a quality that could harm held back from harming: 方而不割 (square, yet does not cut), 廉而不劌 (sharp-cornered, yet does not gash — 廉 is the keen edge or angle of a thing, 劌 to wound on it), 直而不肆 (straight, yet not unbridled), 光而不燿 (bright, yet does not dazzle). Legge unrolls the first two into bracketed similes (\"like a square which cuts no one (with its angles)\") that slow the drumbeat and clutter the parallel; his \"allows himself no license\" for 不肆 reaches for a moral gloss the spare Chinese does not spell out. We keep all four as tight, parallel pairs so the rhythm holds and the point stands clear: the sage has every edge — squareness, sharpness, straightness, brightness — yet turns none of it against others. The last clause, \"bright but not dazzling\" (光而不燿), is the line the chapter is remembered for, and we keep it nearly word for word."
+      "lectio": "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never overbearing, bright but not dazzling.",
+      "note": "The chapter ends in four matched clauses, each a quality that could harm held back from harming: 方而不割 (square, yet does not cut), 廉而不劌 (sharp-cornered, yet does not gash — 廉 is the keen edge or angle of a thing, 劌 to wound on it), 直而不肆 (straight, yet not unbridled), 光而不燿 (bright, yet does not dazzle). Legge unrolls the first two into bracketed similes (\"like a square which cuts no one (with its angles)\") that slow the drumbeat and clutter the parallel; For 不肆 his \"allows himself no license\" has the sense right: 肆 is unrestrained, presuming. We say it in one plain word, \"never overbearing\"; \"severe\" would name a different fault. We keep all four as tight, parallel pairs so the rhythm holds and the point stands clear: the sage has every edge — squareness, sharpness, straightness, brightness — yet turns none of it against others. The last clause, \"bright but not dazzling\" (光而不燿), is the line the chapter is remembered for, and we keep it nearly word for word."
     },
     {
       "locus": "the two kinds of rule (其政悶悶，其民淳淳；其政察察，其民缺缺)",
@@ -882,7 +883,7 @@
       "phrase": "by restraint you yield early to the Way",
       "older": "Legge (1891): \"It is only by this moderation that there is effected an early return (to man's normal state).\"",
       "lectio": "It is only by restraint that you yield early to the Way.",
-      "note": "The phrase is zao fu (早服). Fu (服) carries the senses of submitting, yielding, and giving oneself over — and by extension preparing in good time. Legge reads it as an \"early return (to man's normal state),\" supplying a destination the bare words do not name. We keep fu as an early yielding or submitting to the Way: the one who spares himself bends to the grain of things early, before he is forced to, and so begins gathering te (德, virtue, power) before any crisis comes — which is exactly the \"deep store of power\" the next line builds on."
+      "note": "The phrase is zao fu (早服). Fu (服) carries the senses of submitting, yielding, and giving oneself over — and by extension preparing in good time. Legge reads it as an \"early return (to man's normal state),\" supplying a destination the bare words do not name. We keep fu as an early yielding or submitting to the Way: the one who spares himself bends to the grain of things early, before he is forced to, and so begins gathering te (德, power) before any crisis comes — which is exactly the \"deep store of power\" the next line builds on."
     },
     {
       "locus": "the spirits lose their power",
@@ -896,7 +897,7 @@
       "phrase": "the power of each flows back and gathers in the people",
       "older": "Legge (1891): \"their good influences converge in the virtue (of the Tao).\"",
       "lectio": "the power of each flows back and gathers in the people",
-      "note": "The closing line is 夫兩不相傷，故德交歸焉. The word is 德 (dé, te) — virtue, the quiet power of acting without forcing — and 交歸 means it crosses over and returns, gathers and comes home. Legge folded the destination into \"the virtue (of the Tao),\" but most readers take 焉 (yān, \"there, in that\") to point at the people, who are where both the spirits' restraint and the sage's restraint converge. We name that resting place plainly: when neither the unseen powers nor the ruler do harm, the te of each settles back into the people themselves."
+      "note": "The closing line is 夫兩不相傷，故德交歸焉. The word is 德 (dé, te) — power, the edition's word for it throughout, the quiet power of acting without forcing — and 交歸 means it crosses over and returns, gathers and comes home. Legge folded the destination into \"the virtue (of the Tao),\" but most readers take 焉 (yān, \"there, in that\") to point at the people, who are where both the spirits' restraint and the sage's restraint converge. We name that resting place plainly: when neither the unseen powers nor the ruler do harm, the te of each settles back into the people themselves."
     },
     {
       "locus": "opening image",
@@ -935,10 +936,10 @@
     },
     {
       "locus": "repaying resentment (報怨以德)",
-      "phrase": "Repay resentment with virtue.",
+      "phrase": "Repay resentment with kindness.",
       "older": "Legge (1891): \"to recompense injury with kindness.\"",
-      "lectio": "Repay resentment with virtue.",
-      "note": "The Chinese 報怨以德 answers yuan (怨, resentment, grievance) with de (德) — the te the book is named for, the inner power of the Way that Confucius famously kept distinct from kindness (he asked, in the Analects, \"then with what will you repay virtue?\"). Legge softens de to \"kindness,\" which loses the charged word and the quarrel behind it. We render de as \"virtue\" here so the reader hears Laozi's deliberate answer: meet a grievance not with payback, and not merely with niceness, but with the quiet power that does not contend."
+      "lectio": "Repay resentment with kindness.",
+      "note": "The Chinese 報怨以德 answers yuan (怨, resentment, grievance) with de (德), the word the edition renders \"power\" everywhere else. Here it makes its one exception. 報怨以德 is the proverb Confucius answers in the Analects (14.34), and the Lectio Analects renders it \"repaying injury with kindness\"; the two books should let the reader hear the same saying. \"Repay resentment with power\" would read in English as revenge, the opposite of what Laozi means: meet a grievance not with payback but with the quiet good that does not contend. Legge, too, has \"kindness\" here."
     },
     {
       "locus": "the sage and greatness (是以聖人終不為大，故能成其大)",
@@ -970,10 +971,10 @@
     },
     {
       "locus": "the close (玄德 / 大順)",
-      "phrase": "the mysterious power ... until they come round to the Great Harmony",
+      "phrase": "the mysterious power ... until they come round to the great accord",
       "older": "Legge (1891): \"what we call the mysterious excellence (of a governor). Deep and far-reaching is such mysterious excellence, showing indeed its possessor as opposite to others, but leading them to a great conformity to him.\"",
-      "lectio": "Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the Great Harmony.",
-      "note": "The chapter ends on 玄德 (xuán dé), the same \"dark virtue\" that crowns Chapters 10 and 51. De (德) is the te the book is named for, the inner power of the Way, which we render \"power\" throughout. Legge's \"mysterious excellence (of a governor)\" narrows it to a ruler's trait and adds the bracketed gloss. We keep the bare signature phrase, the mysterious power. The closing image is 與物反矣，然後乃至大順: the power 反 (fǎn) returns or turns back together with all things, and only then reaches 大順 (dà shùn), the Great Harmony, the deep accord of all things following their own grain. Legge reads 反 as the sage standing \"opposite to others\" and 大順 as their \"conformity to him,\" making it a lesson in winning followers; but the word is the book's great 反, the returning to the root (Chapter 16, 40), and 順 is yielding with the way things go, not bending others to a person. We keep the cosmic turn: the mysterious power goes back, with everything, to the Great Harmony."
+      "lectio": "Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the great accord.",
+      "note": "The chapter ends on 玄德 (xuán dé), the same \"dark virtue\" that crowns Chapters 10 and 51. De (德) is the te the book is named for, the inner power of the Way, which we render \"power\" throughout. Legge's \"mysterious excellence (of a governor)\" narrows it to a ruler's trait and adds the bracketed gloss. We keep the bare signature phrase, the mysterious power. The closing image is 與物反矣，然後乃至大順: the power 反 (fǎn) returns or turns back together with all things, and only then reaches 大順 (dà shùn), the great accord, all things following their own grain. We say \"accord\" because \"harmony\" is the edition's word for 和 (Chapters 42, 55). Legge reads 反 as the sage standing \"opposite to others\" and 大順 as their \"conformity to him,\" making it a lesson in winning followers; but the word is the book's great 反, the returning to the root (Chapter 16, 40), and 順 is yielding with the way things go, not bending others to a person. We keep the cosmic turn: the mysterious power goes back, with everything, to the great accord."
     },
     {
       "locus": "opening (非以明民，將以愚之)",
@@ -1019,17 +1020,17 @@
     },
     {
       "locus": "the close (是謂不爭之德)",
-      "phrase": "This is the virtue of not contending.",
+      "phrase": "This is the power of not contending.",
       "older": "Legge (1891): \"Thus we say, 'He ne'er contends, / And therein is his might.'\"",
-      "lectio": "This is the virtue of not contending. This is the power that comes of using the strength of others.",
-      "note": "The chapter turns on two readings of de (德), the te the book is named for. 不爭之德 is the de of bu zheng — not contending — where 爭 (zhēng) is the same word we render \"contend\" throughout (Chapters 8, 22, 66): the power gained by never pushing against. Then 用人之力 names the strength (力, lì) of others, which the one who stands below them is able to draw on. Legge spins the close into rhyming couplets about \"might\" and bending men's wills; we keep the two plain claims side by side — the virtue of not contending, and the power of using others' strength — so the paradox stands as the original frames it. The chapter ends by calling this 配天 (pèi tiān), a match for heaven itself, 古之極 (gǔ zhī jí), the highest reach the ancients knew."
+      "lectio": "This is the power of not contending. This is using the strength of others.",
+      "note": "The chapter closes on two matched sayings, 是謂不爭之德，是謂用人之力. 不爭之德 is the de of bu zheng — not contending — where 爭 (zhēng) is the same word we render \"contend\" throughout (Chapters 8, 22, 66), and de is \"power,\" as everywhere in the edition: the power gained by never pushing against. 用人之力 is simply using the strength (力, lì) of others, which the one who stands below them is able to draw on; 力 is not 德, so we do not call it a power too. Legge spins the close into rhyming couplets about \"might\" and bending men's wills; we keep the two plain claims side by side, as the original frames them. The chapter ends by calling this 配天 (pèi tiān), a match for heaven itself, 古之極 (gǔ zhī jí), the highest reach the ancients knew."
     },
     {
       "locus": "near losing the treasures (輕敵幾喪吾寶)",
-      "phrase": "to underestimate your enemy is to come close to losing my treasures",
+      "phrase": "to underestimate the enemy is to come close to losing my treasures",
       "older": "Legge (1891): \"To do that is near losing (the gentleness) which is so precious.\"",
-      "lectio": "to underestimate your enemy is to come close to losing my treasures",
-      "note": "The Chinese 輕敵幾喪吾寶 says that to take the enemy lightly is ji sang wu bao (幾喪吾寶) — nearly to lose my treasures (寶, bao). The treasures are the three named in Chapter 67: compassion, frugality, and not daring to be first in the world, with compassion the chief. Legge fills in the blank with a bracketed \"(the gentleness),\" which is a fair guess at which treasure is meant but hides the back-reference. We keep the bare \"my treasures,\" so the line points back to Chapter 67 as the original does: the one who scorns the enemy has already let go of compassion, the very thing that wins."
+      "lectio": "to underestimate the enemy is to come close to losing my treasures",
+      "note": "The Chinese 輕敵幾喪吾寶 says that to take the enemy lightly is ji sang wu bao (幾喪吾寶) — nearly to lose my treasures (寶, bao). The treasures are the three named in Chapter 67: compassion, frugality, and not daring to be first in the world, with compassion the chief. Legge fills in the blank with a bracketed \"(the gentleness),\" which is a fair guess at which treasure is meant but hides the back-reference. We keep the bare \"my treasures,\" and \"the enemy\" with no pronoun, as 輕敵 has none, so the line points back to Chapter 67 as the original does: the one who scorns the enemy has already let go of compassion, the very thing that wins."
     },
     {
       "locus": "closing line (哀者勝矣)",
@@ -1054,10 +1055,10 @@
     },
     {
       "locus": "the second verse",
-      "phrase": "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
+      "phrase": "Do not hem them into cramped quarters; do not bear down on what they live by.",
       "older": "Legge (1891): \"Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.\"",
-      "lectio": "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
-      "note": "The Chinese is 無狎其所居，無厭其所生. Legge took the verbs as a warning to the people about themselves — do not indulge, do not weary. But 狎 (xiá) carries the sense of crowding or hemming in, and 厭 here means to press down on or oppress, and the lines are addressed to the ruler, not the ruled: do not crowd the people in their dwellings, do not bear down on their livelihood. That reading, which Walter Gorn Old (1904) follows and modern scholars share, makes the verse the hinge of the chapter — the dread of verse one comes when rulers oppress — so we keep it."
+      "lectio": "Do not hem them into cramped quarters; do not bear down on what they live by.",
+      "note": "The Chinese is 無狎其所居，無厭其所生. Legge took the verbs as a warning to the people about themselves — do not indulge, do not weary. But 狎 (xiá) carries the sense of crowding or hemming in, and 厭 here means to press down on or oppress, and the lines are addressed to the ruler, not the ruled: do not crowd the people in their dwellings, do not bear down on what they live by (其所生). That reading, which Walter Gorn Old (1904) follows and modern scholars share, makes the verse the hinge of the chapter — the dread of verse one comes when rulers oppress — so we keep it."
     },
     {
       "locus": "the two kinds of courage",
@@ -1096,10 +1097,10 @@
     },
     {
       "locus": "the closing line",
-      "phrase": "It is only the one who does not strain after living who truly knows how to value life.",
+      "phrase": "It is the one who does not strain after living who is wiser than the one who prizes life.",
       "older": "Legge (1891): \"Thus it is that to leave the subject of living altogether out of view is better than to set a high value on it.\"",
-      "lectio": "It is only the one who does not strain after living who truly knows how to value life.",
-      "note": "The Chinese is 夫唯無以生為者，是賢於貴生 — literally, the one who does not make a project of living is wiser (賢) than the one who prizes life (貴生). Legge's \"leave the subject of living altogether out of view\" reads as cold withdrawal. But the paradox is sharper than that: the person who does not clutch at life is the one who actually treasures it. We keep that turn so the chapter lands where the original does — grasping at life is what cheapens it."
+      "lectio": "It is the one who does not strain after living who is wiser than the one who prizes life.",
+      "note": "The Chinese is 夫唯無以生為者，是賢於貴生 — literally, the one who does not make a project of living is wiser (賢) than the one who prizes life (貴生). Legge's \"leave the subject of living altogether out of view\" reads as cold withdrawal, but he keeps the comparison, and the comparison is the point: the line ranks two people, and the one who prizes life comes second. That is the chapter's own argument. Its third verse has just blamed those above for grasping \"so hard at life\"; prizing life is that grasping, not its reward. So we keep \"wiser than the one who prizes life,\" and do not turn the line into a promise that the one who lets go treasures life best."
     },
     {
       "locus": "the stiff tree (verse 3)",
@@ -1162,13 +1163,13 @@
       "phrase": "The one who has power attends to his own side of the bargain; the one without it attends to collecting what others owe.",
       "older": "Legge (1891): \"he who has the attributes (of the Tao) regards (only) the conditions of the engagement, while he who has not those attributes regards only the conditions favourable to himself.\"",
       "lectio": "The one who has power attends to his own side of the bargain; the one without it attends to collecting what others owe.",
-      "note": "The crux is a matched pair: you de si qi (有德司契) against wu de si che (無德司徹). De (德) is the te the book is named for, which we render \"power\" throughout — here the inner virtue that gives without grasping. Si (司) is to take charge of, to attend to. The contrast is between qi (契), the tally or contract one owes on, and che (徹), the tithe or due that one exacts from others. Legge softens che into \"the conditions favourable to himself,\" hiding that the second steward is a collector pressing for payment. We restore the sharp opposition the tally-stick sets up: the one with power minds his own obligation; the one without it duns everyone else."
+      "note": "The crux is a matched pair: you de si qi (有德司契) against wu de si che (無德司徹). De (德) is the te the book is named for, which we render \"power\" throughout — here the inner power that gives without grasping. Si (司) is to take charge of, to attend to. The contrast is between qi (契), the tally or contract one owes on, and che (徹), the tithe or due that one exacts from others. Legge softens che into \"the conditions favourable to himself,\" hiding that the second steward is a collector pressing for payment. We restore the sharp opposition the tally-stick sets up: the one with power minds his own obligation; the one without it duns everyone else."
     },
     {
       "locus": "the tools of ten and a hundred (使有什伯之器而不用)",
       "phrase": "tools that could do the work of ten or a hundred hands",
       "older": "Legge (1891): \"though there were individuals with the abilities of ten or a hundred men, there should be no employment of them\"",
-      "lectio": "Though they had tools that could do the work of ten or a hundred hands, let no one use them.",
+      "lectio": "Though they have tools that could do the work of ten or a hundred hands, let no one use them.",
       "note": "The crux is 什伯之器 (shí bó zhī qì). Legge read 什伯 as men with the abilities of ten or a hundred — gifted individuals left unemployed. But 器 (qì) is a tool or implement, and most readers take 什伯之器 as labor-saving devices, machines that do the work of ten or a hundred laborers. The chapter is about a contented, low-tech village that leaves its powerful tools idle, not one that wastes its talented people, so we keep the plain image of unused machines."
     },
     {
@@ -1218,10 +1219,10 @@
       "label": "Chapter 2",
       "paragraphs": [
         "When everyone in the world recognizes beauty as beauty, ugliness has already appeared. When everyone recognizes good as good, what is not good has already appeared.",
-        "So it is that being and non-being give rise to each other; the difficult and the easy complete each other; the long and the short measure each other; the high and the low lean on each other; note and voice harmonize with each other; before and after follow each other. This is how it always is.",
+        "So it is that being and non-being give rise to each other; the difficult and the easy complete each other; the long and the short measure each other; the high and the low lean on each other; note and voice harmonize with each other; before and after follow each other.",
         "And so the sage goes about the work without forcing it, and teaches without using words.",
-        "All things arise, and the sage does not turn any away. They are brought to life, and the sage claims nothing as his own. The work is done, and he does not rest in it as an achievement.",
-        "It is just because he does not rest in it that the credit never leaves him."
+        "All things arise, and the sage does not turn any away. They are brought to life, and the sage claims nothing as his own. He acts, but does not rely on what he has done. The work is done, and he does not rest in it as an achievement.",
+        "It is just because he does not rest in it that it never leaves him."
       ],
       "title": "The Mutual Arising of Opposites"
     },
@@ -1229,8 +1230,8 @@
       "order": 3,
       "label": "Chapter 3",
       "paragraphs": [
-        "Do not make a show of honoring the worthy, and the people will not compete with one another. Do not prize goods that are hard to come by, and the people will not turn to theft. Do not put on display the things that stir desire, and the heart of the people will stay calm.",
-        "And so, when the sage governs, he empties their minds and fills their bellies, weakens their ambition and strengthens their bones. He keeps the people free of cunning and free of craving, so that the clever ones never dare to force their hand. Act without forcing, and nothing is left ungoverned."
+        "Do not exalt the worthy, and the people will not compete with one another. Do not prize goods that are hard to come by, and the people will not turn to theft. Do not put on display the things that stir desire, and the heart of the people will stay calm.",
+        "And so, when the sage governs, he empties their minds and fills their bellies, weakens their ambition and strengthens their bones. He keeps the people without knowledge and without craving, so that the clever never dare to act. Act without forcing, and nothing is left ungoverned."
       ],
       "title": "Keeping the Heart Unstirred"
     },
@@ -1238,8 +1239,8 @@
       "order": 4,
       "label": "Chapter 4",
       "paragraphs": [
-        "The Way is empty, yet however much you use it, it is never used up. It is so deep — the wellspring from which the ten thousand things flow.",
-        "It blunts the sharp edges, unties the knots, softens the glare, settles down with the dust. So still, so hidden, and yet it is always there.",
+        "The Way is empty, yet however much you use it, it is never used up. It is so deep — it seems to be the ancestor of the ten thousand things.",
+        "It blunts the sharp edges, unties the knots, softens the glare, settles down with the dust. So still, so hidden, yet it seems to be there.",
         "I do not know whose child it is. It seems to be older than God."
       ],
       "title": "The Bottomless Well"
@@ -1278,7 +1279,7 @@
       "label": "Chapter 8",
       "paragraphs": [
         "The highest good is like water. Water benefits all things and does not contend with them; it settles in the low places that everyone else scorns. And so it is close to the Way.",
-        "In where it dwells, it holds to the ground. In the heart, it holds to depth. In giving, it holds to kindness. In speech, it holds to truth. In governing, it holds to good order. In handling affairs, it holds to skill. In moving, it holds to the right moment.",
+        "In dwelling, it holds to the ground. In the heart, it holds to depth. In giving, it holds to kindness. In speech, it holds to truth. In governing, it holds to good order. In handling affairs, it holds to skill. In moving, it holds to the right moment.",
         "It is just because it does not contend that it is without fault."
       ],
       "title": "Like Water"
@@ -1287,7 +1288,7 @@
       "order": 9,
       "label": "Chapter 9",
       "paragraphs": [
-        "Keep filling a cup to the brim, and you would have done better to stop in time. Hammer a blade to its sharpest edge, and the edge will not last.",
+        "Better to stop in time than to fill a cup to the brim. Hammer a blade to its sharpest edge, and the edge will not last.",
         "Fill your hall with gold and jade, and no one can keep them safe. Grow proud of wealth and rank, and you bring ruin on yourself.",
         "When the work is done and your name is rising, withdraw. This is the Way of heaven."
       ],
@@ -1298,7 +1299,7 @@
       "label": "Chapter 10",
       "paragraphs": [
         "Can you hold body and soul in a single embrace and never let them part? Can you gather your breath and make it soft and supple, soft as a newborn child's? Can you cleanse the dark mirror of your mind until it is without a flaw?",
-        "Can you love the people and govern the state, and do it without scheming? When the gate of heaven opens and shuts, can you keep to the female, the yielding, receptive part? Can your understanding reach into every corner, and yet seem to know nothing at all?",
+        "Can you love the people and govern the state, and do it without scheming? When the gate of heaven opens and shuts, can you play the part of the female? Can your understanding reach into every corner, and yet seem to know nothing at all?",
         "To give life and to nourish it; to give life and not possess it; to do the work and not lay claim to it; to lead, and not to lord it over what you lead — this is what is called the mysterious power."
       ],
       "title": "Mysterious Power"
@@ -1319,7 +1320,7 @@
       "label": "Chapter 12",
       "paragraphs": [
         "The five colors blind the eye. The five notes deafen the ear. The five flavors numb the palate. Racing and hunting drive the heart wild, and goods that are hard to come by knock a life off its course.",
-        "And so the sage goes by the belly, not the eye. He lets the one go and takes hold of the other."
+        "And so the sage goes by the belly, not the eye. He lets that go and takes hold of this."
       ],
       "title": "The Belly, Not the Eye"
     },
@@ -1328,8 +1329,8 @@
       "label": "Chapter 13",
       "paragraphs": [
         "Favor and disgrace are both alarming. Honor great trouble as you honor your own body.",
-        "What does it mean that favor and disgrace are both alarming? Favor is a thing from above, and to win it is to dread losing it; to lose it is to dread something worse. This is what it means that favor and disgrace are both alarming. And what does it mean to honor great trouble as you honor your own body? The reason I can suffer great trouble is that I have a body; if I had no body, what trouble could reach me?",
-        "So the one who honors the world as their own body can be given the world to hold; the one who loves the world as their own body can be trusted with the world."
+        "What does it mean that favor and disgrace are both alarming? Favor is a lowly thing: to win it is alarming, and to lose it is alarming. This is what it means that favor and disgrace are both alarming. And what does it mean to honor great trouble as you honor your own body? The reason I can suffer great trouble is that I have a body; if I had no body, what trouble could reach me?",
+        "So the one who honors the world as his own body can be given the world to hold; the one who loves the world as his own body can be trusted with the world."
       ],
       "title": "Favor and Disgrace"
     },
@@ -1348,8 +1349,8 @@
       "label": "Chapter 15",
       "paragraphs": [
         "The masters of the Way in ancient times were subtle, mysterious, and deep beyond all knowing. Because they could not be known, I can only describe how they appeared.",
-        "Wary, like someone crossing a frozen stream in winter. Watchful, like someone alert to enemies on every side. Reserved, like a guest. Yielding, like ice on the point of melting. Plain, like an uncarved block of wood. Open, like a valley. And murky, like muddy water.",
-        "Who can let the muddy water settle and slowly grow clear? Who can stay still until the moment to stir? Whoever holds to this Way does not crave to be full; and because he is never full, he can wear out and be made new again."
+        "Wary, like someone crossing a frozen stream in winter. Watchful, like someone who fears the neighbors on every side. Reserved, like a guest. Yielding, like ice on the point of melting. Plain, like an uncarved block of wood. Open, like a valley. And murky, like muddy water.",
+        "Who can let the muddy water settle and slowly grow clear? Who can stir what has long been at rest and slowly bring it to life? Whoever holds to this Way does not crave to be full; and because he is never full, he can wear out and be made new again."
       ],
       "title": "The Ancient Masters"
     },
@@ -1394,10 +1395,10 @@
       "order": 20,
       "label": "Chapter 20",
       "paragraphs": [
-        "Give up learning, and you will have no more worries. Between a respectful \"yes\" and a careless \"yeah,\" how much difference is there really? Between what people call good and what they call bad, how wide is the gulf that separates them?",
+        "Give up learning, and you will have no more worries. Between a respectful \"yes\" and a careless one, how much difference is there really? Between what people call good and what they call bad, how wide is the gulf that separates them?",
         "What everyone fears must indeed be feared. But how vast and endless this all is, with no place to come to rest!",
         "The crowd is merry and content, as if feasting at a great banquet, as if climbing a tower in spring. I alone am still, giving no sign, my desires not yet stirring, like an infant that has not yet learned to smile. I am weary and forlorn, like one with no home to return to. Everyone else has more than enough; I alone seem to have lost everything. Mine is the mind of a fool, muddled and dim.",
-        "Ordinary people are bright and clever; I alone am dull. Ordinary people are sharp and sure; I alone am clouded and confused. I drift like the restless sea; I am blown about, as if I had nowhere to settle. Everyone else has their work and their purpose; I alone am awkward and useless, like a country bumpkin. I alone am different from all the rest — for I am nourished by the Mother, the Way."
+        "Ordinary people are bright and clever; I alone am dull. Ordinary people are sharp and sure; I alone am clouded and confused. I drift like the wide sea; I am blown about, as if I had nowhere to settle. Everyone else has their work and their purpose; I alone am awkward and useless, like a rustic. I alone am different from all the rest — I prize being fed by the Mother."
       ],
       "title": "Alone and Adrift"
     },
@@ -1416,8 +1417,8 @@
       "label": "Chapter 22",
       "paragraphs": [
         "Yield, and remain whole. Bend, and stay straight. Empty yourself, and be filled. Wear out, and be made new. Have little, and you will gain; have much, and you will be confused.",
-        "And so the sage holds to the One, and becomes a model for the world. He does not display himself, and so he shines. He does not justify himself, and so he is known. He does not boast, and so he is given credit. He is not proud, and so he endures. It is because he does not contend that no one in the world can contend with him.",
-        "The old saying — yield, and remain whole — how could that be empty words? Truly it keeps a person whole, and brings them home."
+        "And so the sage holds to the One, and becomes a model for the world. He does not display himself, and so he shines. He does not insist he is right, and so he stands out. He does not boast, and so he is given credit. He is not proud, and so he endures. It is because he does not contend that no one in the world can contend with him.",
+        "The old saying — yield, and remain whole — how could that be empty words? Truly it keeps you whole, and brings you home."
       ],
       "title": "Yield and Remain Whole"
     },
@@ -1436,7 +1437,7 @@
       "label": "Chapter 24",
       "paragraphs": [
         "Stand on tiptoe, and you cannot keep your balance. Take great striding steps, and you cannot keep walking.",
-        "Show yourself off, and you do not shine. Insist you are right, and you are not seen for what you are. Boast of what you have done, and the credit is not given you. Be proud of yourself, and you do not last.",
+        "Show yourself off, and you do not shine. Insist you are right, and you do not stand out. Boast of what you have done, and the credit is not given you. Be proud of yourself, and you do not last.",
         "Seen in the light of the Way, all this is leftover food and a tumor on the body — things that everyone finds repulsive. And so whoever holds to the Way will have nothing to do with them."
       ],
       "title": "Standing on Tiptoe"
@@ -1448,7 +1449,7 @@
         "There was something formed out of the formless, complete in itself, that came to be before heaven and earth. Silent, and without shape, it stands alone and never changes; it moves through everything and is never worn away. It can be taken for the mother of all the world.",
         "I do not know its name. Pressed to name it, I call it the Way; and straining further, I call it Great.",
         "Great means flowing on without end; flowing on without end means reaching far; reaching far means returning. So the Way is great, heaven is great, earth is great, and the human being is great too. In all the world there are four that are great, and the human being is one of them.",
-        "The human being follows the earth; the earth follows heaven; heaven follows the Way; and the Way follows what is natural — what is so of itself."
+        "The human being follows the earth; the earth follows heaven; heaven follows the Way; and the Way follows what is so of itself."
       ],
       "title": "Something Formed Before Heaven and Earth"
     },
@@ -1480,7 +1481,7 @@
         "Know honor, but keep to disgrace, and be the valley of the world. Be the valley of the world, and the constant power will be complete in you; you return to the uncarved block.",
         "When the uncarved block is split, it is made into vessels. The sage, put to use, becomes the chief of officials. And so the greatest carving cuts nothing away."
       ],
-      "title": "Return to the Uncarved Block"
+      "title": "Know the Masculine, Keep to the Feminine"
     },
     {
       "order": 29,
@@ -1498,7 +1499,7 @@
       "paragraphs": [
         "Whoever helps a ruler of men by the Way does not use weapons to force his will on the world. Such a course comes back on the one who takes it.",
         "Where armies have camped, thorns and brambles grow. In the wake of great wars come years of famine.",
-        "The good commander strikes his blow and stops; he does not dare to press on and take the world by force. He strikes the blow, but does not boast of it; he strikes it, but does not brag; he strikes it, but is not proud. He strikes only because there was no other choice; he strikes, but not to force his mastery.",
+        "The good commander strikes his blow and stops; he does not dare to press on and take the world by force. He strikes the blow, but does not boast of it; he strikes it, but does not brag; he strikes it, but is not proud. He strikes only because there is no other choice; he strikes, but not to force his mastery.",
         "Things in their full strength grow old. This is what it means to be against the Way, and what is against the Way comes early to its end."
       ],
       "title": "Against Force of Arms"
@@ -1520,7 +1521,7 @@
         "The Way is eternal and has no name. The uncarved block, though small, is something no one in the world can master. If kings and lords could only hold to it, all things would come to them of their own accord.",
         "Heaven and earth would join and let fall a sweet dew, and the people, with no one to command them, would fall into order by themselves.",
         "Once things are cut and shaped, there are names. And once there are names, you must know when to stop. Knowing when to stop is how you come to no harm.",
-        "The Way is to the world what the rivers and streams are to the sea — everything flows down to it and home."
+        "The Way is to the world what the sea is to the rivers and streams — everything flows down to it and home."
       ],
       "title": "The Uncarved Block"
     },
@@ -1577,14 +1578,14 @@
       "order": 38,
       "label": "Chapter 38",
       "paragraphs": [
-        "The highest virtue is not virtuous, and that is why it has virtue. The lowest virtue never lets go of being virtuous, and that is why it has none.",
-        "The highest virtue acts without forcing, and acts from no motive. The lowest virtue acts, and acts from a motive.",
+        "The highest power makes no claim to power, and that is why it has power. The lowest power never lets go of its power, and that is why it has none.",
+        "The highest power acts without forcing, and acts from no motive. The lowest power acts, and acts from a motive.",
         "The highest humaneness acts, but from no motive. The highest righteousness acts, and from a motive. The highest ritual acts, and when no one answers it, it bares the arm and drags them along by force.",
-        "So when the Way is lost, virtue appears. When virtue is lost, humaneness appears. When humaneness is lost, righteousness appears. When righteousness is lost, ritual appears.",
+        "So when the Way is lost, power appears. When power is lost, humaneness appears. When humaneness is lost, righteousness appears. When righteousness is lost, ritual appears.",
         "Ritual is the thin husk of loyalty and good faith, and the beginning of disorder. Foreknowledge is only the flower of the Way, and the beginning of folly.",
-        "And so the great person dwells in the substance, not in the husk; dwells in the fruit, not in the flower. He lets the one go and takes hold of the other."
+        "And so the great person dwells in the substance, not in the husk; dwells in the fruit, not in the flower. He lets that go and takes hold of this."
       ],
-      "title": "Virtue and Its Decline"
+      "title": "Power and Its Decline"
     },
     {
       "order": 39,
@@ -1592,7 +1593,7 @@
       "paragraphs": [
         "From of old, these are the things that attained the One: heaven attained it and became clear; earth attained it and became firm; the spirits attained it and became holy; the valleys attained it and became full; all living things attained it and lived; rulers and kings attained it and became the standard for the world. It is the One that made them so.",
         "Without it, heaven would have nothing to keep it clear, and would crack. Earth would have nothing to keep it firm, and would quake. The spirits would have nothing to make them holy, and would fade. The valleys would have nothing to keep them full, and would run dry. All living things would have nothing to keep them alive, and would die out. Rulers and kings would have nothing to keep them high, and would fall.",
-        "So the noble takes the humble as its root, and the high takes the low as its foundation. That is why rulers and kings call themselves orphaned, widowed, unworthy. Is this not because they hold the humble to be their root? Take a carriage apart piece by piece, and there is no carriage left to find. The highest renown is to have no renown. So do not wish to glitter like jade; be plain like common stone."
+        "So the noble takes the humble as its root, and the high takes the low as its foundation. That is why rulers and kings call themselves orphaned, widowed, unworthy. Is this not because they hold the humble to be their root? Take a carriage apart piece by piece, and there is no carriage left to find. So do not wish to glitter like jade; be plain like common stone."
       ],
       "title": "Those That Attained the One"
     },
@@ -1620,7 +1621,7 @@
       "label": "Chapter 42",
       "paragraphs": [
         "The Way bore the One; the One bore the Two; the Two bore the Three; and the Three bore the ten thousand things. All things carry yin on their backs and hold yang in their arms, and the blending of these breaths makes their harmony.",
-        "There is nothing people hate more than to be called orphaned, lonely, or unworthy — yet these are the very names that kings and lords take for themselves. For some things gain by being made less, and some things lose by being made more.",
+        "There is nothing people hate more than to be called orphaned, widowed, or unworthy — yet these are the very names that kings and lords take for themselves. For some things gain by being made less, and some things lose by being made more.",
         "What others teach, I also teach: the violent and overbearing do not die a natural death. I take this as the father of my teaching."
       ],
       "title": "The Way Bore the One"
@@ -1642,13 +1643,13 @@
         "So the more you love, the more it costs you; the more you hoard, the heavier the loss when it goes.",
         "Know what is enough, and you meet no disgrace. Know when to stop, and you meet no danger. And so you endure."
       ],
-      "title": "Knowing When to Stop"
+      "title": "Your Name or Your Self"
     },
     {
       "order": 45,
       "label": "Chapter 45",
       "paragraphs": [
-        "Great perfection seems flawed, yet its use never wears out. Great fullness seems empty, yet its use is never used up. Great straightness seems bent. Great skill seems clumsy. Great eloquence seems to stammer.",
+        "Great perfection seems flawed, yet its use never wears out. Great fullness seems empty, yet its use never runs out. Great straightness seems bent. Great skill seems clumsy. Great eloquence seems to stammer.",
         "Movement overcomes the cold; stillness overcomes the heat. Purity and stillness set the world right."
       ],
       "title": "Great Perfection Seems Flawed"
@@ -1695,7 +1696,7 @@
       "label": "Chapter 50",
       "paragraphs": [
         "We come out into life and go back into death.",
-        "Three in ten are companions of life. Three in ten are companions of death. And three in ten are those who live, yet move the whole way toward the ground of death. Why? Because they clutch too hard at living.",
+        "Three in ten are companions of life. Three in ten are companions of death. And three in ten are those who live, yet move into the place of death. Why? Because they clutch too hard at living.",
         "But I have heard that one who truly knows how to live can cross the land without meeting rhinoceros or tiger, and pass through battle without armor or weapon. The rhinoceros finds no place to gore him, the tiger no place to sink its claws, the blade no place to drive its point. Why? Because in him there is no room for death."
       ],
       "title": "No Room for Death"
@@ -1704,12 +1705,12 @@
       "order": 51,
       "label": "Chapter 51",
       "paragraphs": [
-        "The Way gives all things their life, and its virtue nurtures them. Matter gives them their shapes, and circumstance brings them to completion. So there is nothing among all things that does not honor the Way and value its virtue.",
-        "This honoring of the Way and valuing of its virtue is commanded by no one. It is always so of itself.",
-        "For the Way gives all things life and its virtue nurtures them: it rears them and raises them, it shelters them and ripens them, it feeds them and shields them.",
-        "It gives them life and does not possess them; it does the work and lays no claim to it; it leads, and does not lord it over what it leads. This is what is called the mysterious virtue."
+        "The Way gives all things their life, and its power nurtures them. Matter gives them their shapes, and circumstance brings them to completion. So there is nothing among all things that does not honor the Way and value its power.",
+        "This honoring of the Way and valuing of its power is commanded by no one. It is always so of itself.",
+        "For the Way gives all things life and its power nurtures them: it rears them and raises them, it shelters them and ripens them, it feeds them and shields them.",
+        "It gives them life and does not possess them; it does the work and lays no claim to it; it leads, and does not lord it over what it leads. This is what is called the mysterious power."
       ],
-      "title": "The Way Gives Life, Virtue Nurtures"
+      "title": "The Way Gives Life, Power Nurtures"
     },
     {
       "order": 52,
@@ -1719,7 +1720,7 @@
         "Once you have found the mother, you know her children. Once you know that you are her child, and hold fast to the mother in you, then to the end of your life you will meet no danger.",
         "Stop up the openings, shut the gates, and to the end of your days your strength will never run out. Open the openings, pile up your affairs, and to the end of your days there is no saving you.",
         "To see the small is clarity. To keep to the soft is strength.",
-        "Use the outer light, but turn back to the inner light, and you will leave no harm behind you. This is what it means to live by the constant Way."
+        "Use the light, but turn back to clarity, and you will bring no harm upon yourself. This is what it means to live by the constant Way."
       ],
       "title": "The Mother and Her Children"
     },
@@ -1748,12 +1749,12 @@
       "order": 55,
       "label": "Chapter 55",
       "paragraphs": [
-        "One full of virtue is like a newborn child. Stinging insects do not sting it, fierce beasts do not seize it, birds of prey do not strike it.",
+        "One full of power is like a newborn child. Stinging insects do not sting it, fierce beasts do not seize it, birds of prey do not strike it.",
         "Its bones are soft and its sinews weak, yet its grip is firm. It does not yet know the union of female and male, yet its little member stirs — such is the perfection of its vital essence. It can cry all day without growing hoarse — such is the perfection of its harmony.",
         "To know harmony is to know the constant. To know the constant is clarity. To force more life is to court ill omen. For the mind to drive the breath is to overstrain.",
         "Things in their full strength grow old. This is what it means to be against the Way, and what is against the Way comes early to its end."
       ],
-      "title": "Full of Virtue, Like a Newborn Child"
+      "title": "Full of Power, Like a Newborn Child"
     },
     {
       "order": 56,
@@ -1761,7 +1762,7 @@
       "paragraphs": [
         "Those who know do not speak; those who speak do not know.",
         "Block the openings, shut the gates. Blunt the sharp edges, untie the tangles, soften the glare, settle into the dust. This is called the mysterious union.",
-        "Such a one cannot be drawn close or held at a distance, cannot be helped or harmed, cannot be honored or disgraced. And so they are honored by all the world."
+        "Such a one cannot be drawn close or held at a distance, cannot be helped or harmed, cannot be honored or disgraced. And so such a one is honored by all the world."
       ],
       "title": "Those Who Know Do Not Speak"
     },
@@ -1781,7 +1782,7 @@
       "paragraphs": [
         "When the government is dull and unobtrusive, the people stay honest and whole. When the government is sharp and prying, the people grow crafty and broken.",
         "Misfortune is what fortune leans on; fortune is where misfortune hides. Who knows where it all ends? There is no fixed standard. What is right turns strange, and what is good turns monstrous. Long, long has mankind been lost in this.",
-        "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never severe, bright but not dazzling."
+        "So the sage is square-edged but cuts no one, sharp-cornered but wounds no one, straight but never overbearing, bright but not dazzling."
       ],
       "title": "Fortune and Misfortune"
     },
@@ -1790,7 +1791,7 @@
       "label": "Chapter 59",
       "paragraphs": [
         "In governing people and in serving heaven, nothing is better than restraint.",
-        "It is only by restraint that you yield early to the Way; and yielding early means storing up an ever deeper store of power. With that deep store of power, there is nothing you cannot overcome; and when there is nothing you cannot overcome, no one can know your limit. The one whose limit no one knows is fit to hold the state.",
+        "It is only by restraint that you yield early to the Way; and yielding early means building up an ever deeper store of power. With that deep store of power, there is nothing you cannot overcome; and when there is nothing you cannot overcome, no one can know your limit. The one whose limit no one knows is fit to hold the state.",
         "Hold to the mother of the state, and you may last long. This is what it means to have deep roots and a firm base — the way of long life and lasting vision."
       ],
       "title": "Sparing"
@@ -1831,7 +1832,7 @@
       "order": 63,
       "label": "Chapter 63",
       "paragraphs": [
-        "Act without forcing. Work without fuss. Taste what has no flavor. Make the small great and the few many. Repay resentment with virtue.",
+        "Act without forcing. Work without fuss. Taste what has no flavor. Make the small great and the few many. Repay resentment with kindness.",
         "Tackle the hard thing while it is still easy; do the great thing while it is still small. Every hard thing in the world begins easy, and every great thing begins small. So the sage never reaches for greatness, and that is how he achieves greatness.",
         "A promise given lightly wins little trust, and treating everything as easy ends in much hardship. So the sage treats even easy things as hard, and in the end nothing is hard to him."
       ],
@@ -1854,7 +1855,7 @@
       "paragraphs": [
         "The ancients who were good at the Way did not use it to make the people clever, but to keep them simple.",
         "People are hard to govern because they know too much. So to rule a state by cleverness is to rob the state; to rule a state without cleverness is its blessing.",
-        "To know these two is to know the pattern. Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the Great Harmony."
+        "To know these two is to know the pattern. Always to know the pattern is what is called the mysterious power. The mysterious power runs deep, it reaches far, and it turns back with all things until they come round to the great accord."
       ],
       "title": "Ruling Without Cleverness"
     },
@@ -1875,7 +1876,7 @@
         "All the world says my Way is great — so great it seems good for nothing. It is precisely because it is great that it seems good for nothing. Had it looked useful, it would long ago have dwindled into something small.",
         "But I hold three treasures, and I guard them and keep them. The first is compassion. The second is restraint. The third is not daring to put myself ahead of the world.",
         "Because I am compassionate, I can be brave; because I am restrained, I can be generous; because I do not dare to put myself ahead of the world, I can become the leader of all. But to throw away compassion and reach for bravery, throw away restraint and reach for generosity, throw away the last place and reach for the first — that is death.",
-        "Compassion wins when it attacks and holds firm when it defends. Heaven itself comes to a man's rescue, and it is with compassion that it guards him."
+        "Compassion wins when it fights and holds firm when it defends. Heaven itself comes to a man's rescue, and it is with compassion that it guards him."
       ],
       "title": "The Three Treasures"
     },
@@ -1884,16 +1885,16 @@
       "label": "Chapter 68",
       "paragraphs": [
         "The best warrior is not warlike. The best fighter shows no anger. The greatest conqueror does not join the battle. The one who best makes use of others puts himself beneath them.",
-        "This is the virtue of not contending. This is the power that comes of using the strength of others. This is to be matched with heaven — the highest reach of the ancients."
+        "This is the power of not contending. This is using the strength of others. This is to be matched with heaven — the highest reach of the ancients."
       ],
-      "title": "The Virtue of Not Contending"
+      "title": "The Power of Not Contending"
     },
     {
       "order": 69,
       "label": "Chapter 69",
       "paragraphs": [
         "There is a saying among soldiers: \"I dare not be the host, but would rather be the guest; I dare not advance an inch, but would rather fall back a foot.\" This is called marching forward where there is no march to make, rolling up the sleeve where there is no arm to bare, taking up the weapon where there is no weapon to grasp, facing the enemy where there is no enemy to face.",
-        "There is no disaster greater than underestimating your enemy; to underestimate your enemy is to come close to losing my treasures. So when armies are drawn up against each other and the weapons cross, it is the side that grieves that wins."
+        "There is no disaster greater than underestimating the enemy; to underestimate the enemy is to come close to losing my treasures. So when armies are drawn up against each other and the weapons cross, it is the side that grieves that wins."
       ],
       "title": "The Side That Grieves Wins"
     },
@@ -1921,9 +1922,9 @@
       "label": "Chapter 72",
       "paragraphs": [
         "When the people no longer fear what they ought to fear, then a far greater dread comes down upon them.",
-        "Do not hem them into cramped quarters; do not bear down on the life that keeps them alive.",
+        "Do not hem them into cramped quarters; do not bear down on what they live by.",
         "It is only because you do not press them down that they do not grow weary of you.",
-        "And so the sage knows himself, but does not display himself; he values himself, but does not exalt himself. He lets the one go and takes hold of the other."
+        "And so the sage knows himself, but does not display himself; he values himself, but does not exalt himself. He lets that go and takes hold of this."
       ],
       "title": "When the People Stop Fearing"
     },
@@ -1940,7 +1941,7 @@
       "order": 74,
       "label": "Chapter 74",
       "paragraphs": [
-        "If the people do not fear death, why threaten them with it? But suppose you could make them always fear death, so that whenever someone did wrong I could seize him and put him to death — who then would dare?",
+        "If the people do not fear death, why threaten them with it? But suppose the people always feared death, and whenever someone did wrong I could seize him and put him to death — who then would dare?",
         "There is always the great executioner whose place it is to kill. To kill in place of that great executioner is to hew wood in place of the master carpenter — and whoever hews in the master carpenter's place will hardly fail to cut his own hand."
       ],
       "title": "The Master Carpenter"
@@ -1952,7 +1953,7 @@
         "The people go hungry because those above them devour too much in taxes. That is why they go hungry.",
         "The people are hard to govern because those above them are always meddling. That is why they are hard to govern.",
         "The people make light of death because those above them grasp so hard at life. That is why they make light of death.",
-        "It is only the one who does not strain after living who truly knows how to value life."
+        "It is the one who does not strain after living who is wiser than the one who prizes life."
       ],
       "title": "Why the People Go Hungry"
     },
@@ -1994,7 +1995,7 @@
       "label": "Chapter 79",
       "paragraphs": [
         "When a great grievance is patched up, some resentment is always left behind. How can this be called good?",
-        "And so the sage keeps the left half of the tally, the creditor's record, and yet never presses his claim against anyone. The one who has power attends to his own side of the bargain; the one without it attends to collecting what others owe.",
+        "And so the sage keeps the left half of the tally, and yet never presses his claim against anyone. The one who has power attends to his own side of the bargain; the one without it attends to collecting what others owe.",
         "The Way of heaven plays no favorites; it is always on the side of the good."
       ],
       "title": "Holding the Left of the Tally"
@@ -2003,7 +2004,7 @@
       "order": 80,
       "label": "Chapter 80",
       "paragraphs": [
-        "A small country with few people. Though they had tools that could do the work of ten or a hundred hands, let no one use them. Make the people take death seriously, and they will not move far away.",
+        "A small country with few people. Though they have tools that could do the work of ten or a hundred hands, let no one use them. Make the people take death seriously, and they will not move far away.",
         "Though they have boats and carts, let no one ride in them. Though they have weapons and armor, let no one parade them.",
         "Make the people go back to knotting cords to keep their records.",
         "Let them find their food sweet, their clothes beautiful, their homes restful, their plain ways a delight.",

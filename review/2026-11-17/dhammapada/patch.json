@@ -1,0 +1,670 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "the mind makes everything; everything is made of the mind. If you speak or act with a corrupted",
+    "new": "the mind is chief of all; everything is made of the mind. If you speak or act with a corrupted",
+    "why": "Pali from the verifier's own knowledge (not bundled); manoseṭṭhā = mind is chief; 'makes everything' is not in the text. Müller's opening cadence kept as recorded in the edition's divergences (update that note's wording)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "the mind makes everything; everything is made of the mind. If you speak or act with a clear",
+    "new": "the mind is chief of all; everything is made of the mind. If you speak or act with a clear",
+    "why": "Pali from the verifier's own knowledge (not bundled); manoseṭṭhā = mind is chief; 'makes everything' is not in the text. Müller's opening cadence kept as recorded in the edition's divergences (update that note's wording)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "he struck me, he beat me, he robbed me\"—in those who hold on",
+    "new": "he struck me, he got the better of me, he robbed me\"—in those who hold on",
+    "why": "Pali from the verifier's own knowledge (not bundled); akkocchi avadhi ajini ahāsi: abused, struck, defeated, robbed; Müller 'defeated'. 'Beat' after 'struck' loses the defeat."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "he struck me, he beat me, he robbed me\"—in those who let go",
+    "new": "he struck me, he got the better of me, he robbed me\"—in those who let go",
+    "why": "Pali from the verifier's own knowledge (not bundled); akkocchi avadhi ajini ahāsi: abused, struck, defeated, robbed; Müller 'defeated'. 'Beat' after 'struck' loses the defeat."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "Mara, the tempter, will overthrow",
+    "new": "Mara will overthrow",
+    "why": "Gloss policy: Pali taṃ ve pasahati māro; 'the tempter' is added. Mara is in the glossary."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "they wander after empty desires.",
+    "new": "they wander after wrong intentions.",
+    "why": "Pali from the verifier's own knowledge (not bundled); micchāsaṅkappagocarā, ranging in wrong intention; mirrors v12."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "they follow desires that are real.",
+    "new": "they follow right intentions.",
+    "why": "Pali from the verifier's own knowledge (not bundled); sammāsaṅkappagocarā, ranging in right intention; 'desires that are real' reads oddly."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "give themselves over to carelessness",
+    "new": "give themselves over to heedlessness",
+    "why": "Term policy: pamāda = heedlessness throughout (v21 and v29 already); Pali from the verifier's own knowledge (not bundled)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "Do not give yourself to carelessness; do not give yourself to the pleasures of desire.",
+    "new": "Do not give yourself to heedlessness; do not give yourself to sensual delight.",
+    "why": "Term policy (pamāda = heedlessness); Pali from the verifier's own knowledge (not bundled); kāmarati = delight in sensual pleasure, Müller 'love and lust'."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": "drive out carelessness by heedfulness",
+    "new": "drive out heedlessness by heedfulness",
+    "why": "Term policy: pamāda = heedlessness; Pali pamādaṃ appamādena nudati."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "like a swift horse leaving a slow one in its dust.",
+    "new": "like a swift horse that leaves a weak one behind.",
+    "why": "Pali from the verifier's own knowledge (not bundled); sīghasso abalassaṃ hitvā: a swift horse leaving a weak one; 'in its dust' is an added stock idiom."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": "By heedfulness Indra rose to be lord of the gods. Heedfulness is forever praised; carelessness is forever blamed.",
+    "new": "By heedfulness Maghavan rose to be lord of the gods. Heedfulness is forever praised; heedlessness is forever blamed.",
+    "why": "Term policy (pamāda = heedlessness). Pali from the verifier's own knowledge (not bundled); the text names Maghavā; 'Indra' is Müller's parenthetical gloss. Proper noun kept without a gloss (gloss policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "dreads carelessness moves like a fire",
+    "new": "dreads heedlessness moves like a fire",
+    "why": "Term policy: pamāda = heedlessness; Pali pamāde bhayadassī."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": "dreads carelessness cannot fall back",
+    "new": "dreads heedlessness cannot fall back",
+    "why": "Term policy: pamāda = heedlessness."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "he stands close upon Nirvana.",
+    "new": "he is close to Nirvana.",
+    "why": "'Close upon' is dated (same fix as v372); Pali nibbānasseva santike."
+  },
+  {
+    "section": 3,
+    "seg": null
+  },
+  {
+    "section": 4,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Who will master this earth, and the realm of Death,",
+    "new": "Who will master this earth, and the realm of Yama,",
+    "why": "Pali from the verifier's own knowledge (not bundled); yamalokaṃ, Yama's world; Müller keeps Yama. Proper noun restored without a gloss (gloss policy); downgraded from medium, meaning was not wrong."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "in training will master this earth, and the realm of Death,",
+    "new": "in training will master this earth, and the realm of Yama,",
+    "why": "Same as v44."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "his mind elsewhere, as a flood",
+    "new": "his mind caught up in them, as a flood",
+    "why": "Pali from the verifier's own knowledge (not bundled); byāsattamanasaṃ, mind clinging/entangled, not absent."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "his mind elsewhere, before he",
+    "new": "his mind caught up in them, before he",
+    "why": "Same as v47."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "are the fine words of one who speaks well but does not act.",
+    "new": "are fine words that bear no fruit in one who does not act on them.",
+    "why": "Pali from the verifier's own knowledge (not bundled); v51 subhāsitā vācā aphalā hoti akubbato: fine words are fruitless in one who does not act; restores the 51/52 mirror."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "are the fine words of one who speaks well and acts on them, and they bear fruit.",
+    "new": "are fine words that bear fruit in one who acts on them.",
+    "why": "Pali from the verifier's own knowledge (not bundled); v52 saphalā hoti kubbato; mirrors v51."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "A good person reaches every quarter.",
+    "new": "The fragrance of the good spreads in every direction.",
+    "why": "Pali from the verifier's own knowledge (not bundled); sabbā disā sappuriso pavāyati: the good person's scent blows in every direction; keeps the verse's image."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "whose fruit he receives gladly and with a glad heart.",
+    "new": "whose fruit he receives with delight and a happy heart.",
+    "why": "Pali from the verifier's own knowledge (not bundled); haṭṭho sumano: delighted, happy-minded; 'gladly ... glad' doubles one word."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "Let the fool crave a reputation he has not earned,",
+    "new": "The fool wants a reputation he has not earned,",
+    "why": "Pali from the verifier's own knowledge (not bundled); asantaṃ bhāvanam iccheyya describes the fool's wish; Müller's archaic 'Let the fool wish' now reads as permission."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "crave a son, or wealth, or power,",
+    "new": "crave a son, or wealth, or a kingdom,",
+    "why": "Pali from the verifier's own knowledge (not bundled); na puttam icche na dhanaṃ na raṭṭhaṃ; raṭṭha = kingdom, Müller 'lordship'."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "their aim is emptiness, the freedom that depends on nothing—Nirvana.",
+    "new": "they range in the freedom that is empty and without sign.",
+    "why": "Pali from the verifier's own knowledge (not bundled); suññato animitto ca vimokkho yassa gocaro: empty and signless liberation is their range, not aim; 'depends on nothing' misreads animitta; 'Nirvana' is Müller's parenthetical (gloss policy)."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "whose aim is emptiness, the freedom that depends on nothing—Nirvana—his track",
+    "new": "whose range is the freedom that is empty and without sign, his track",
+    "why": "Same as v92."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "Such a one bears all things",
+    "new": "Such a one, true to his vows, bears all things",
+    "why": "Pali from the verifier's own knowledge (not bundled); subbato, 'of good vows' (Müller 'who does his duty') was dropped."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "not even Brahman could",
+    "new": "not even Brahma could",
+    "why": "Müller-error policy: Pali saha Brahmunā names the god Brahmā; 'Brahman' now means the impersonal absolute."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0012",
+    "severity": "high",
+    "old": "127. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed.",
+    "new": "127, 128. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where you can escape your own evil deed. Not in the sky, not in the middle of the sea, not deep in a mountain cave—nowhere in all the world is there a place where death cannot overtake you.",
+    "why": "Pali from the verifier's own knowledge (not bundled); v128 na antalikkhe ... yatthaṭṭhitaṃ nappasaheyya maccu (no place where death would not overpower one) was missing; Chapter X opens at 129. Restored inside the chapter's last segment with the edition's own joint-number form ('153, 154.'); no segment added. Bundled Müller prints the death verse as 127 and has no 128."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "and blow will fall on blow.",
+    "new": "and the rod will come back on you.",
+    "why": "Pali from the verifier's own knowledge (not bundled); paṭidaṇḍā phuseyyu taṃ: retaliation would touch you; keeps the chapter's 'rod' (daṇḍa)."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0006",
+    "severity": "high",
+    "old": "then you have come close to Nirvana,",
+    "new": "then you have reached Nirvana,",
+    "why": "Pali from the verifier's own knowledge (not bundled); esa patto'si nibbānaṃ, you have reached Nirvana; Müller 'thou hast reached Nirvana'."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "who has not gone beyond his cravings.",
+    "new": "who has not gone beyond doubt.",
+    "why": "Müller-error policy: Pali avitiṇṇakaṅkhaṃ, one who has not crossed doubt; Müller's 'desires' is a mistranslation."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "be eager and alive.",
+    "new": "be ardent and full of urgency.",
+    "why": "Pali from the verifier's own knowledge (not bundled); ātāpino saṃvegino: ardent, stirred to urgency."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "sickly, full of cravings,",
+    "new": "sickly, full of many thoughts,",
+    "why": "Pali from the verifier's own knowledge (not bundled); bahusaṅkappaṃ, full of many thoughts (Müller same)."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "so the good pass it on, one to another.",
+    "new": "so the good teach it to the good.",
+    "why": "Pali from the verifier's own knowledge (not bundled); santo have sabbhi pavedayanti: the good declare it to the good; 'pass it on' suggests virtue is handed down."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "My mind has reached the unmade, the unconditioned, Nirvana;",
+    "new": "My mind has reached the unconditioned;",
+    "why": "Gloss policy: Pali visaṅkhāragataṃ cittaṃ is one term; 'Nirvana' is Müller's parenthetical."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "Do for yourself what you would have others do; train yourself before you train anyone else, for the self is the hardest of all to master. Only the well-mastered are fit to master others.",
+    "new": "Do yourself what you teach others to do. Master yourself first, and you may master others; for the self is the hardest of all to master.",
+    "why": "Pali from the verifier's own knowledge (not bundled); attānañce tathā kayirā yathāññam anusāsati; sudanto vata dametha, attā hi kira duddamo. The old wording echoes the Golden Rule and says the second clause twice."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "like the reed that dies the year it flowers.",
+    "new": "like the reed whose fruiting is its own death.",
+    "why": "Pali from the verifier's own knowledge (not bundled); phalāni kaṭṭhakasseva attaghātāya phallati; give the image, not an explanation of the plant."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "Follow the path of virtue. The virtuous rest in peace,",
+    "new": "Follow the path of virtue. The virtuous live at ease,",
+    "why": "Pali from the verifier's own knowledge (not bundled); dhammacārī sukhaṃ seti, lives/sleeps happily; 'rest in peace' is the epitaph formula."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "not the way of wrongdoing. The virtuous rest in peace,",
+    "new": "not the way of wrongdoing. The virtuous live at ease,",
+    "why": "Same as v168."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "and hardest of all, rare beyond rare, is the arising of a Buddha,",
+    "new": "and hard is the arising of a Buddha,",
+    "why": "Pali from the verifier's own knowledge (not bundled); kiccho buddhānaṃ uppādo is the fourth of four parallel 'hard' clauses, unranked."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "the one who wounds another is no true seeker.",
+    "new": "the one who wounds another is no true ascetic.",
+    "why": "Term policy: samaṇa = ascetic; 'seeker' carries a modern spiritual sense."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": "in the Buddha, in the Dhamma—the Law—and in the Sangha—the Order—and who sees",
+    "new": "in the Buddha, in the teaching, and in the Order, and who sees",
+    "why": "Gloss and term policy: one name each (dhamma = the teaching, saṅgha = the Order); the dashed glosses break the refuge formula."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "happy is the teaching of the true Law;",
+    "new": "happy is the proclaiming of the true teaching;",
+    "why": "Term policy: dhamma = the teaching; Pali saddhammadesanā."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "all grief and longing;",
+    "new": "all grief and lament;",
+    "why": "Pali from the verifier's own knowledge (not bundled); tiṇṇasokapariddave: pariddava = lamentation."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "grieves a long road;",
+    "new": "grieves for a long time;",
+    "why": "Pali from the verifier's own knowledge (not bundled); dīghaddhānaṃ socati, grieves a long while; 'grieves a long road' is not English."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "a longing for the Ineffable, Nirvana, has awakened",
+    "new": "a longing for the Ineffable has awakened",
+    "why": "Gloss policy: Pali anakkhāta stands alone; 'Nirvana' is Müller's parenthetical."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "go to the unchanging place, Nirvana, and",
+    "new": "go to the unchanging place, and",
+    "why": "Gloss policy: Pali accutaṃ ṭhānaṃ; 'Nirvana' is Müller's parenthetical."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0009",
+    "severity": "medium",
+    "old": "But the one whom the discerning praise day after day—flawless, wise, rich in understanding and in virtue—who would dare to blame, worthy as a coin of the purest river-gold? Even the gods praise such a one; even Brahman praises him.",
+    "new": "But who would dare to blame the one whom the discerning praise day after day—flawless, wise, rich in understanding and in virtue, like a coin of gold from the Jambu river? Even the gods praise such a one; even Brahma praises him.",
+    "why": "Pali from the verifier's own knowledge (not bundled); nikkhaṃ jambonadasseva ko taṃ ninditum arahati ... brahmunāpi pasaṃsito. The question lacked an object, the river's name was dropped, and Brahmā was 'Brahman' (Müller-error policy)."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "Scriptures decay when they go unrecited; houses decay when they go unrepaired; beauty decays through sloth; a watchman decays through carelessness.",
+    "new": "Scripture is tainted when it goes unrecited, a house when it goes unrepaired; sloth is the taint of beauty, and heedlessness the taint of a watchman.",
+    "why": "Pali from the verifier's own knowledge (not bundled); asajjhāyamalā mantā, anuṭṭhānamalā gharā, malaṃ vaṇṇassa kosajjaṃ, pamādo rakkhato malaṃ: 241-243 are one chain on mala (taint); pamāda = heedlessness (term policy)."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0020",
+    "severity": "medium",
+    "old": "outward acts do not make a holy man. People delight in what holds them back, but the Tathagatas, the Buddhas, are free",
+    "new": "there is no true ascetic outside this teaching. People delight in what holds them back, but the Tathagatas are free",
+    "why": "Müller-error policy: Pali samaṇo natthi bāhire, no ascetic outside (this teaching); 'outward acts' is Müller's reading. 'the Buddhas' is his parenthetical (gloss policy)."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "outward acts do not make a holy man. Nothing made",
+    "new": "there is no true ascetic outside this teaching. Nothing made",
+    "why": "Same as v254."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "not by force but fairly, by what is right, who is guided by what is right and is discerning—that one is called just, established in dhamma.",
+    "new": "not by force but fairly and by law, who is guarded by the law and discerning—that one is called just, one who stands in the law.",
+    "why": "Pali from the verifier's own knowledge (not bundled); dhammena samena neti pare, dhammassa gutto medhāvī, dhammaṭṭho: 'by what is right' came twice and 'dhamma' was left untranslated (term policy: law where dhamma means justice)."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "and of all who have eyes, the one who truly sees—the Buddha.",
+    "new": "and of all beings on two feet, the one who has eyes to see.",
+    "why": "Pali from the verifier's own knowledge (not bundled); dipadānañca cakkhumā: of two-footed beings, the one with eyes; 'the Buddha' is an added gloss."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "you will bewilder Mara, the tempter.",
+    "new": "you will bewilder Mara.",
+    "why": "Gloss policy: Pali mārass' etaṃ pamohanaṃ."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "to draw out the arrow of craving.",
+    "new": "to draw out the arrow.",
+    "why": "Pali from the verifier's own knowledge (not bundled); sallakantanaṃ, the removal of the arrow; 'of craving' is a gloss."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0005",
+    "severity": "medium",
+    "old": "\"All conditioned things are impermanent\" (sabbe sankhara anicca)—",
+    "new": "\"All conditioned things are impermanent\"—",
+    "why": "Parenthesis policy: Pali transliteration is apparatus, not text."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "\"All conditioned things are suffering\" (sabbe sankhara dukkha)—",
+    "new": "\"All conditioned things are suffering\"—",
+    "why": "Parenthesis policy."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "\"All things are without a self\" (sabbe dhamma anatta)—",
+    "new": "\"All things are without a self\"—",
+    "why": "Parenthesis policy."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "Tend the road of peace—the Nirvana the Buddha has shown.",
+    "new": "Tend the road to peace, to Nirvana, which the Buddha has shown.",
+    "why": "Pali from the verifier's own knowledge (not bundled); santimaggam eva brūhaya, nibbānaṃ sugatena desitaṃ (Nirvana is in the Pali); 'the Nirvana' stumbles."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "his mind on other things",
+    "new": "his mind caught up in them",
+    "why": "Pali from the verifier's own knowledge (not bundled); byāsattamanasaṃ, as in v47-48 (kept consistent)."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "two learned kings, and having destroyed a kingdom along with its tiger,",
+    "new": "two learned kings, and a tiger as the fifth,",
+    "why": "Pali from the verifier's own knowledge (not bundled); veyagghapañcamaṃ hantvā: with a tiger as the fifth; v295 has no kingdom, carried over from v294."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "set on the community.",
+    "new": "set on the Order.",
+    "why": "Term policy: saṅgha = the Order (as v190, v194)."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "hard it is to enjoy the world. Hard is life in the monastery, and painful is life in a house;",
+    "new": "hard it is to delight in that life. Hard and painful is life in a household;",
+    "why": "Müller-error policy: Pali from the verifier's own knowledge (not bundled); duppabbajjaṃ durabhiramaṃ, durāvāsā gharā dukkhā: going forth is hard, delighting in it is hard, the household is hard and painful; 'monastery' is Müller's."
+  },
+  {
+    "section": 22,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "Many a man whose shoulders are wrapped in the yellow robe is undisciplined",
+    "new": "Many who wear the yellow robe around their shoulders are undisciplined",
+    "why": "Pali from the verifier's own knowledge (not bundled); kāsāvakaṇṭhā bahavo (many); fixes the shift from 'many a man ... is' to 'their'."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "reach the untrodden country, Nirvana.",
+    "new": "reach the untrodden country.",
+    "why": "Gloss policy: Pali agataṃ disaṃ; 'Nirvana' is Müller's parenthetical."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "his temples streaming in must and hard to hold,",
+    "new": "in rut, his temples streaming, and hard to hold,",
+    "why": "Pali from the verifier's own knowledge (not bundled); kaṭukabhedano, the rutting discharge; 'must' reads as the verb."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "Take heed; guard your own mind.",
+    "new": "Delight in heedfulness; guard your own mind.",
+    "why": "Pali from the verifier's own knowledge (not bundled); appamādaratā hotha; restores the work's keyword."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0013",
+    "severity": "high",
+    "old": "To be a good mother in this world is a joy, and to be a good father is a joy; to live as one who has gone forth is a joy, and to live as a holy one is a joy.",
+    "new": "To honor your mother is a joy in this world, and to honor your father is a joy; to honor ascetics is a joy, and to honor Brahmins is a joy.",
+    "why": "Müller-error policy: Pali from the verifier's own knowledge (not bundled); matteyyatā, petteyyatā, sāmaññatā, brahmaññatā = reverence toward mother, father, ascetics, brahmins; Müller's 'the state of a mother' misled the edition."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "so that Mara, the tempter, may not",
+    "new": "so that Mara may not",
+    "why": "Gloss policy: Pali mā vo naḷaṃva sotova māro bhañji punappunaṃ."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "So let the seeker drive out craving",
+    "new": "So let the monk drive out craving",
+    "why": "Term policy: bhikkhu = monk."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "The gift of the Dhamma surpasses all gifts; the taste of the Dhamma surpasses all tastes; the delight in the Dhamma surpasses",
+    "new": "The gift of the teaching surpasses all gifts; the taste of the teaching surpasses all tastes; the delight in the teaching surpasses",
+    "why": "Term policy: dhamma = the teaching."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "Though a monk receive but little,",
+    "new": "Though a monk receives little,",
+    "why": "Archaic subjunctive."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "loving-kindness, who has faith in the teaching of the Buddha, will reach the place of peace — Nirvana — where",
+    "new": "loving-kindness, who has faith in the teaching of the Buddha, will reach the place of peace, where",
+    "why": "Gloss policy: Pali padaṃ santaṃ; 'Nirvana' is Müller's parenthetical. Apply before the dash pass."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "and do not be careless.",
+    "new": "and do not be heedless.",
+    "why": "Term policy: Pali mā ca pamādo."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "Be careless, and you may",
+    "new": "Be heedless, and you may",
+    "why": "Term policy: Pali mā lohaguḷaṃ gilī pamatto."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "stands close upon Nirvana.",
+    "new": "is close to Nirvana.",
+    "why": "'Close upon' is dated; Pali nibbānasantike."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "full of gladness, who has faith in the teaching of the Buddha, will reach the place of peace — Nirvana — where",
+    "new": "full of gladness, who has faith in the teaching of the Buddha, will reach the place of peace, where",
+    "why": "Same as v368."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "you will know the Uncreated, Nirvana.",
+    "new": "you will know the Uncreated.",
+    "why": "Gloss policy: Pali akataññū; 'Nirvana' added."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "crossed to the far shore of both teachings—restraint and meditation—then",
+    "new": "crossed to the far shore in both states, then",
+    "why": "Pali from the verifier's own knowledge (not bundled); dvayesu dhammesu, 'in two states' (traditionally calm and insight); the dashed gloss is not in the text."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "wears cast-off rags, worn thin to the bone,",
+    "new": "wears cast-off rags, lean, his veins standing out,",
+    "why": "Pali from the verifier's own knowledge (not bundled); kisaṃ dhamanisanthataṃ describes the man, not the rags."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "he is only a man who says \"sir\" to himself.",
+    "new": "he is a Brahmin in name only, one who says \"sir\" to others.",
+    "why": "Pali from the verifier's own knowledge (not bundled); bhovādī nāma so hoti: one who addresses others as 'bho', a Brahmin by name; 'says sir to himself' is not in the text."
+  }
+]

@@ -1,0 +1,1178 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0090",
+  "severity": "high",
+  "old": "but I have that within which goes beyond all show—",
+  "new": "but I have that within which passes show;",
+  "why": "Source \"which passeth show\"; the only friction is -eth. Famous line restored."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0090",
+  "severity": "medium",
+  "old": "No, it is. I don't know \"seems.\"",
+  "new": "No, it is. I know not \"seems.\"",
+  "why": "Source \"I know not seems\"; clear and famous, the retort loses its snap as \"I don't know\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0113",
+  "severity": "medium",
+  "old": "take him all in all.",
+  "new": "take him for all in all,",
+  "why": "Source \"take him for all in all,\" runs on into \"I shall not look upon his like again\"; the edition misquotes and end-stops it."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0136",
+  "severity": "medium",
+  "old": "An expression more in sorrow",
+  "new": "A countenance more in sorrow",
+  "why": "Source \"A countenance more in sorrow than in anger\"; \"countenance\" is current, the phrase is proverbial."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0202",
+  "severity": "medium",
+  "old": "and born to it, it is a custom",
+  "new": "and to the manner born, it is a custom",
+  "why": "Source \"And to the manner born\"; a phrase still in use, lost in the rewrite."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0202",
+  "severity": "medium",
+  "old": "more honored in the breaking than the keeping.",
+  "new": "more honored in the breach than the observance.",
+  "why": "Source \"More honour'd in the breach than the observance\"; both words current, famous line."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0202",
+  "severity": "low",
+  "old": "Yes, indeed it is;",
+  "new": "Ay, indeed it is;",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it. Source \"Ay marry is't\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0298",
+  "severity": "medium",
+  "old": "Rest, rest, troubled spirit.",
+  "new": "Rest, rest, perturbed spirit.",
+  "why": "Source \"perturbed spirit\"; current word, famous phrase."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0096",
+  "severity": "medium",
+  "old": "as a sun-god to a satyr;",
+  "new": "Hyperion to a satyr;",
+  "why": "Source \"Hyperion to a satyr\"; a proper noun replaced by its gloss while its partner \"satyr\" stays. The edition keeps \"Hyperion's curls\" in III.iv."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0252",
+  "severity": "medium",
+  "old": "in this distracted head.",
+  "new": "in this distracted globe.",
+  "why": "Source \"this distracted globe\": head, world and the Globe theatre at once; \"head\" writes the gloss in and kills the pun."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0252",
+  "severity": "low",
+  "old": "Yes, you poor ghost",
+  "new": "Ay, you poor ghost",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it. Source \"Ay, thou poor ghost\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0252",
+  "severity": "low",
+  "old": "Oh, all you host of heaven!",
+  "new": "O all you host of heaven!",
+  "why": "Policy (O/Oh): \"O\" for direct address. Source \"O all you host of heaven!\"; the edition mixes \"Oh, all you host\" with \"O earth!\" in one line."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0292",
+  "severity": "medium",
+  "old": "Hic et ubique? [Here and everywhere?] Then",
+  "new": "_Hic et ubique?_ Then",
+  "why": "Source \"_Hic et ubique?_\": a bracketed gloss is pasted into the spoken line and the italics are lost. Gloss belongs in the margin."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0296",
+  "severity": "medium",
+  "old": "to put on an antic, madman's manner),",
+  "new": "to put an antic disposition on),",
+  "why": "Source \"To put an antic disposition on\"; \"madman's manner\" is a gloss smuggled into the verse."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0050",
+  "severity": "medium",
+  "old": "that same frown, once, when in a furious parley",
+  "new": "so he frowned once, when in an angry parley",
+  "why": "Source \"So frown'd he once, when in an angry parle\"; the edition's line has no verb and leaves a fragment."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0075",
+  "severity": "medium",
+  "old": "the imperial widow of this warlike state,",
+  "new": "the imperial partner in this warlike state,",
+  "why": "Source \"Th'imperial jointress to this warlike state\": joint holder of the crown, Claudius's legitimizing point. \"Widow\" names her past, not her title."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0056",
+  "severity": "medium",
+  "old": "and the moist moon,\nwhose pull governs Neptune's ocean empire,",
+  "new": "and the moist star,\nupon whose influence Neptune's empire stands,",
+  "why": "Source \"the moist star, / Upon whose influence Neptune's empire stands\"; two glosses (moon, pull governs ... ocean) written into the verse. \"Influence\" is current."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0058",
+  "severity": "medium",
+  "old": "which, by good luck, foreknowing might avoid—",
+  "new": "which, perhaps, foreknowing might avoid—",
+  "why": "Source \"Which, happily, foreknowing may avoid\": happily = haply, perhaps. \"By good luck\" is a wrong gloss."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0180",
+  "severity": "medium",
+  "old": "made many offers",
+  "new": "made many tenders",
+  "why": "Source \"many tenders\". Restored so Polonius's three-way pun on \"tender\" (seg-0183) has its set-up; \"tender\" = offer is still current (legal tender, tender an offer)."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0181",
+  "severity": "medium",
+  "old": "Do you believe his offers, as you call them?",
+  "new": "Do you believe his tenders, as you call them?",
+  "why": "Source \"his tenders, as you call them\"; \"as you call them\" only makes sense if Ophelia's word is the odd one Polonius then plays on."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0183",
+  "severity": "medium",
+  "old": "that you have taken these offers for true coin,\nwhich are not sterling. Hold yourself more dear—\nor (not to wear out the poor word,\nrunning it like this) you'll show me up a fool.",
+  "new": "that you have taken these tenders for true coin,\nwhich are not sterling. Tender yourself more dearly—\nor (not to wear out the poor word,\nrunning it like this) you'll tender me a fool.",
+  "why": "Source \"these tenders ... Tender yourself more dearly ... you'll tender me a fool\": the speech is a pun on \"tender\", and \"not to wear out the poor word\" points at a word the edition removed. \"Show me up\" also misreads the last line."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0170",
+  "severity": "low",
+  "old": "to your own self be true,",
+  "new": "to thine own self be true,",
+  "why": "Policy (thou in famous lines): one of the closed list of proverbial lines that keep their pronoun. Source \"to thine own self be true\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0170",
+  "severity": "low",
+  "old": "for the clothes often proclaim the man,",
+  "new": "for the apparel oft proclaims the man,",
+  "why": "Source \"For the apparel oft proclaims the man\"; famous line, no friction."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0163",
+  "severity": "low",
+  "old": "but as this body matures,",
+  "new": "but as this temple grows,",
+  "why": "Source \"as this temple waxes\": only \"waxes\" is dead; the temple image is flattened to \"body\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "tell them to hurry.",
+  "new": "bid them make haste.",
+  "why": "Source \"bid them make haste\"; plain and current. Light-touch rule."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "Nonsense, nonsense, it won't appear.",
+  "new": "Tut, tut, it won't appear.",
+  "why": "Source \"Tush, tush\"; \"Tut, tut\" is the living form of the same scoff, keeping Horatio's tone."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "and let us once again besiege your ears,\nso fortified against our story,\nwith what we two have seen these last two nights.",
+  "new": "and let us once again assail your ears,\nso fortified against our story,\nwith what we two nights have seen.",
+  "why": "Source \"assail your ears ... What we two nights have seen\"; \"besiege\" shifts the sense and the last line is padded with a repeated \"two\"."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "Exactly like.",
+  "new": "Most like.",
+  "why": "Source \"Most like.\"; plain English, no friction."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0137",
+  "severity": "low",
+  "old": "Pale, or flushed?",
+  "new": "Pale, or red?",
+  "why": "Source \"Pale, or red?\"; no friction."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0140",
+  "severity": "low",
+  "old": "Most steadily.",
+  "new": "Most constantly.",
+  "why": "Source \"Most constantly.\"; current word."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0208",
+  "severity": "low",
+  "old": "courteous gesture",
+  "new": "courteous action",
+  "why": "Source \"courteous action\"; current word."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0216",
+  "severity": "low",
+  "old": "Take your hands off.",
+  "new": "Hold off your hands.",
+  "why": "Source \"Hold off your hands.\"; plain English."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0274",
+  "severity": "low",
+  "old": "These are only wild",
+  "new": "These are but wild",
+  "why": "Source \"but wild and whirling words\"; \"but\" = only is still current, and the line is famous."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0247",
+  "severity": "low",
+  "old": "as thought, or the imaginings of love,",
+  "new": "as meditation or the thoughts of love,",
+  "why": "Source \"As meditation or the thoughts of love\"; clear as written."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0205",
+  "severity": "low",
+  "old": "revisit the moonlight like this,",
+  "new": "revisit thus the glimpses of the moon,",
+  "why": "Source \"Revisit'st thus the glimpses of the moon\"; only the -st ending is friction, the image is flattened."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0088",
+  "severity": "low",
+  "old": "Yes, madam, it is common.",
+  "new": "Ay, madam, it is common.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0185",
+  "severity": "low",
+  "old": "Yes, fashion, you may call it.",
+  "new": "Ay, fashion, you may call it.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0187",
+  "severity": "low",
+  "old": "Yes—snares to catch",
+  "new": "Ay—snares to catch",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0250",
+  "severity": "low",
+  "old": "Yes, that incestuous, that adulterous beast,",
+  "new": "Ay, that incestuous, that adulterous beast,",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0270",
+  "severity": "low",
+  "old": "Yes, by heaven, my lord.",
+  "new": "Ay, by heaven, my lord.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0157",
+  "severity": "high",
+  "old": "What a piece of work is a man!",
+  "new": "What a piece of work is man!",
+  "why": "Source \"What a piece of work is man\"; one of the most quoted lines in the play, no friction."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0157",
+  "severity": "high",
+  "old": "the model of all animals!",
+  "new": "the paragon of animals!",
+  "why": "Source \"the paragon of animals\"; \"paragon\" is current, and the phrase is proverbial."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0157",
+  "severity": "high",
+  "old": "Man does not delight me—",
+  "new": "Man delights not me—",
+  "why": "Source \"Man delights not me\"; famous, clear, and echoed verbatim in seg-0159."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0157",
+  "severity": "low",
+  "old": "this fine structure, the earth, seems to me a barren headland;",
+  "new": "this goodly frame, the earth, seems to me a sterile promontory;",
+  "why": "Source \"this goodly frame the earth, seems to me a sterile promontory\"; every word still understood."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0159",
+  "severity": "high",
+  "old": "\"Man does not delight me\"",
+  "new": "\"Man delights not me\"",
+  "why": "Echo of seg-0157; must match the restored line. Source \"'Man delights not me'\"."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0230",
+  "severity": "medium",
+  "old": "Oh, what a rogue and peasant slave I am!",
+  "new": "Oh, what a rogue and peasant slave am I!",
+  "why": "Source \"O what a rogue and peasant slave am I!\"; exclamatory inversion is still natural English. The famous opening restored."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0230",
+  "severity": "medium",
+  "old": "Why, what an ass I am!",
+  "new": "Why, what an ass am I!",
+  "why": "Source \"Why, what an ass am I!\"; matches the opening of the speech."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0230",
+  "severity": "medium",
+  "old": "all the region's vultures",
+  "new": "all the kites of the air",
+  "why": "Source \"all the region kites\": region = the sky, not a possessive, and kites are not vultures. \"Kites of the air\" clears the dead sense of \"region\" and keeps the bird."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0230",
+  "severity": "low",
+  "old": "Get to work, my brain! Hmm—I have heard",
+  "new": "Get to work, my brain! I have heard",
+  "why": "Source \"About, my brain! I have heard\"; \"Hmm\" is added filler."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0230",
+  "severity": "low",
+  "old": "Yes, so. God be with you.",
+  "new": "Ay, so. God be with you.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "Honestly, we're her private parts.",
+  "new": "Honestly, we're her privates.",
+  "why": "Source \"Faith, her privates we\": privates = intimates / common soldiers / genitals. \"Private parts\" keeps only the crude sense and makes Hamlet's \"secret parts\" reply redundant."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0210",
+  "severity": "medium",
+  "old": "the muffled queen—",
+  "new": "the mobled queen—",
+  "why": "Source \"the mobled queen\". Hamlet and Polonius react to the word as odd (seg-0211, seg-0212); \"muffled\" is ordinary, so their exchange is pointless. Gloss \"mobled\" in the margin; the recorded divergence for this phrase needs revising."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0211",
+  "severity": "medium",
+  "old": "\"The muffled queen\"?",
+  "new": "\"The mobled queen\"?",
+  "why": "As seg-0210. Source \"'The mobled queen'?\""
+ },
+ {
+  "section": 2,
+  "seg": "seg-0212",
+  "severity": "medium",
+  "old": "\"Muffled queen\" is good.",
+  "new": "\"Mobled queen\" is good.",
+  "why": "As seg-0210. Source \"'Mobled queen' is good.\""
+ },
+ {
+  "section": 2,
+  "seg": "seg-0072",
+  "severity": "medium",
+  "old": "More substance, with less art.",
+  "new": "More matter, with less art.",
+  "why": "Source \"More matter, with less art\"; famous line, \"matter\" in this sense is current."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0110",
+  "severity": "low",
+  "old": "I mean the substance of what you read, my lord.",
+  "new": "I mean the matter that you read, my lord.",
+  "why": "Source \"I mean the matter that you read\"; Hamlet's reply plays on \"matter\" and the edition breaks the repetition."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0079",
+  "severity": "medium",
+  "old": "into the madness that now has him raving,\nand all of us grieving.",
+  "new": "into the madness he now raves in,\nwhich all of us mourn.",
+  "why": "Source \"Into the madness wherein now he raves, / And all we wail for\"; the edition's last line has no verb."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0075",
+  "severity": "low",
+  "old": "doubt that truth is a liar,",
+  "new": "doubt truth to be a liar,",
+  "why": "Source \"Doubt truth to be a liar\"; plain English, and keeps the poem's grammar parallel to its own source."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0174",
+  "severity": "low",
+  "old": "Yes, that they do, my lord—Hercules and his globe and all.",
+  "new": "Ay, that they do, my lord—Hercules and his load too.",
+  "why": "Source \"Ay, that they do, my lord. Hercules and his load too.\"; \"globe\" writes in the gloss (the Globe's sign). Ay per policy."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0183",
+  "severity": "low",
+  "old": "out of his diapers yet.",
+  "new": "out of his swaddling clothes yet.",
+  "why": "Source \"swaddling clouts\"; \"diapers\" is out of period, \"swaddling clothes\" is still understood."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0201",
+  "severity": "low",
+  "old": "my cutoff comes.",
+  "new": "my interruption comes.",
+  "why": "Source \"my abridgement comes\": the thing that cuts me short. \"Cutoff\" is an odd noun for it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "by indirect means find directions out.",
+  "new": "by indirections find directions out.",
+  "why": "Source \"By indirections find directions out\"; the jingle is the point of the line."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "—yes, indeed!",
+  "new": "—ay, indeed!",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it. Source \"ay, marry!\"."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0141",
+  "severity": "low",
+  "old": "I could be shut up in a nutshell and count myself king of infinite space",
+  "new": "I could be bounded in a nutshell and count myself a king of infinite space",
+  "why": "Source \"bounded in a nutshell, and count myself a king of infinite space\"; famous, no friction."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0191",
+  "severity": "low",
+  "old": "on his donkey—",
+  "new": "on his ass—",
+  "why": "Source \"on his ass\", quoting a ballad; current word."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0008",
+  "severity": "low",
+  "old": "Yes, very well, my lord.",
+  "new": "Ay, very well, my lord.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "Yes, or drinking, fencing, swearing,",
+  "new": "Ay, or drinking, fencing, swearing,",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0016",
+  "severity": "low",
+  "old": "Yes, my lord, I'd like to know that.",
+  "new": "Ay, my lord, I'd like to know that.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0053",
+  "severity": "low",
+  "old": "Yes, amen.",
+  "new": "Ay, amen.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0101",
+  "severity": "low",
+  "old": "Yes, sir; to be honest",
+  "new": "Ay, sir; to be honest",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0137",
+  "severity": "high",
+  "old": "The lady protests too much, I think.",
+  "new": "The lady protests too much, methinks.",
+  "why": "Source \"methinks\"; the line is known with it and \"methinks\" is universally understood. The recorded divergence for this line needs revising."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0025",
+  "severity": "high",
+  "old": "To sleep, perhaps to dream—ay, there's the catch,",
+  "new": "To sleep, perchance to dream—ay, there's the rub,",
+  "why": "Source \"perchance to dream—ay, there's the rub\"; both are fixed phrases in current English."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "of great pitch and moment,",
+  "new": "of great pith and moment,",
+  "why": "Base text reads \"pith\" (the familiar phrase); \"pitch\" silently switches to the Q2 reading."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0237",
+  "severity": "medium",
+  "old": "it stinks to heaven;",
+  "new": "it smells to heaven;",
+  "why": "Source \"it smells to heaven\"; famous line, current word."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0310",
+  "severity": "medium",
+  "old": "blown up with his own bomb;",
+  "new": "hoist with his own petard;",
+  "why": "Source \"Hoist with his own petard\"; a living idiom, thrown away by the rewrite."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0310",
+  "severity": "low",
+  "old": "when two plots meet head-on in a single line.",
+  "new": "when in one line two plots directly meet.",
+  "why": "Found in verification: source \"When in one line two crafts directly meet\" rhymes with \"sweet\"; the edition breaks the couplet."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0223",
+  "severity": "low",
+  "old": "the very witching hour of night,",
+  "new": "the very witching time of night,",
+  "why": "Source \"the very witching time of night\"; the famous line is misquoted."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0087",
+  "severity": "medium",
+  "old": "to kill so fine a calf there.",
+  "new": "to kill so capital a calf there.",
+  "why": "Source \"so capital a calf\": puns on the Capitol in Polonius's line just before. \"Fine\" kills the joke."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0097",
+  "severity": "medium",
+  "old": "Do you think I meant something coarse?",
+  "new": "Do you think I meant country matters?",
+  "why": "Source \"country matters\": the bawdy pun is spelled out as its meaning."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0208",
+  "severity": "medium",
+  "old": "though you can vex me, you cannot play upon me.",
+  "new": "though you can fret me, you cannot play upon me.",
+  "why": "Source \"you can fret me\": frets of an instrument and \"to vex\"; the speech's closing pun is lost."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0126",
+  "severity": "medium",
+  "old": "and, lucky, one as kind",
+  "new": "and perhaps one as kind",
+  "why": "Source \"and haply one as kind\": haply = perhaps. \"Lucky\" is wrong in meaning and grammar."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0119",
+  "severity": "medium",
+  "old": "here bowing to your mercy,\n we beg your patient hearing.",
+  "new": "here stooping to your clemency,\n we beg your hearing patiently.",
+  "why": "Source \"Here stooping to your clemency, / We beg your hearing patiently\": a rhymed triplet (tragedy/clemency/patiently). The Mousetrap's stiff rhyme is the point; nothing here is dead."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0125",
+  "severity": "medium",
+  "old": "it must in nothing discomfort you, my lord:",
+  "new": "discomfort you, my lord, it never must:",
+  "why": "Source \"Discomfort you, my lord, it nothing must\": rhymes with \"distrust\"; the edition breaks the couplet."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0125",
+  "severity": "medium",
+  "old": "for a woman's fear and love hold equal measure,\neither nothing at all, or to the extreme.",
+  "new": "for women's fear and love keep parity,\nin nothing at all, or in extremity.",
+  "why": "Source \"For women's fear and love holds quantity, / In neither aught, or in extremity\": a couplet, broken by the edition. \"Holds quantity\" (are in proportion) cleared as \"keep parity\" to keep the rhyme."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "but falls unshaken once it's ripe and free.",
+  "new": "but falls unshaken when it ripe shall be.",
+  "why": "Source \"But fall unshaken when they mellow be\"; the edition pads the line (\"and free\") to force a rhyme. Rhymes with \"tree\" again, with only the dead \"mellow be\" construction cleared; the play-within-the-play is meant to sound old-fashioned."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "What in our passion we propose to do,\nthe passion ending, lets the purpose go.",
+  "new": "What to ourselves in passion we propose,\nthe passion ending, does the purpose lose.",
+  "why": "Source \"What to ourselves in passion we propose, / The passion ending, doth the purpose lose\"; rhyme restored (propose/lose)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "The great man falls, you see his favorite flee;",
+  "new": "The great man down, you see his favorite flies;",
+  "why": "Source \"The great man down, you mark his favourite flies\"; rhymes with \"enemies\" in the next line."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "And so far love does upon fortune wait;",
+  "new": "And so far love does upon fortune tend;",
+  "why": "Source \"doth love on fortune tend\"; rhymes with \"friend\" in the next line."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0130",
+  "severity": "medium",
+  "old": "and whoever in want tries out a hollow friend\nat once converts him to an enemy.",
+  "new": "and who in want a hollow friend does try\nat once converts him to an enemy.",
+  "why": "Source \"And who in want a hollow friend doth try, / Directly seasons him his enemy\"; rhyme restored (try/enemy)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0076",
+  "severity": "medium",
+  "old": "with the very keenest of your soul",
+  "new": "with the very closest watching of your soul",
+  "why": "Source \"the very comment of thy soul\" (= close observation); \"keenest\" does not work as a noun."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0188",
+  "severity": "medium",
+  "old": "amazement? Out with it.",
+  "new": "amazement?",
+  "why": "\"Out with it\" is added; the source ends at \"this mother's admiration?\""
+ },
+ {
+  "section": 3,
+  "seg": "seg-0150",
+  "severity": "low",
+  "old": "So do women take their husbands—for better, for worse.",
+  "new": "So you mis-take your husbands.",
+  "why": "Source \"So you mistake your husbands\", punning on Ophelia's \"Still better, and worse\" and the marriage vow; the edition writes the gloss into the line."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0218",
+  "severity": "low",
+  "old": "They lead me on to the very top of my folly.",
+  "new": "They make me play the fool to the top of my bent.",
+  "why": "Source \"They fool me to the top of my bent\" = make me play the fool as far as I can go; the edition mis-glosses it."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0078",
+  "severity": "low",
+  "old": "I must seem idle.",
+  "new": "I must act mad.",
+  "why": "Source \"I must be idle\": idle = mad, a dead sense. \"Seem idle\" reads as \"look unoccupied\", the wrong way."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0279",
+  "severity": "low",
+  "old": "and glut yourself on this swamp?",
+  "new": "and gorge yourself on this moor?",
+  "why": "Source \"batten on this moor\"; \"batten\" cleared, but a moor is not a swamp and \"moor\" is current."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0302",
+  "severity": "low",
+  "old": "flattering ointment",
+  "new": "flattering unction",
+  "why": "Source \"flattering unction\"; a phrase still in use."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0302",
+  "severity": "low",
+  "old": "spread the manure on the weeds",
+  "new": "spread the compost on the weeds",
+  "why": "Source \"spread the compost on the weeds\"; current word."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0304",
+  "severity": "low",
+  "old": "Put on a virtue, if you have it not.",
+  "new": "Assume a virtue, if you have it not.",
+  "why": "Source \"Assume a virtue, if you have it not\"; famous, current."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0304",
+  "severity": "low",
+  "old": "That monster, habit, who devours all sense,\nthe devil of our evil ways, is yet",
+  "new": "That monster, custom, who devours all sense\nof evil habits, is yet",
+  "why": "Base text \"That monster custom, who all sense doth eat, / Of habits evil, is angel yet\"; the edition silently adopts the editorial conjecture \"devil\"."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0109",
+  "severity": "low",
+  "old": "Anon comes in a fellow,",
+  "new": "Soon a man comes in,",
+  "why": "Dumb-show direction left in Early Modern English, unlike every other direction the edition touches."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0109",
+  "severity": "low",
+  "old": "She seems loth and unwilling awhile,",
+  "new": "She seems reluctant for a while,",
+  "why": "As above; \"loth\" is dead."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0235",
+  "severity": "high",
+  "old": "that eases by hurting.",
+  "new": "that hurts by easing.",
+  "why": "Meaning reversed. Source \"That hurts by easing\": a sigh relieves grief but was thought to draw blood from the heart."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0235",
+  "severity": "medium",
+  "old": "What we mean to do,\nwe should do when we mean it; for this 'mean to' changes,",
+  "new": "What we would do,\nwe should do when we would; for this 'would' changes,",
+  "why": "Source \"That we would do, / We should do when we would; for this 'would' changes\": the would/should pair is the core of the speech, and the edition keeps \"should\" but drops \"would\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0235",
+  "severity": "low",
+  "old": "But to the heart of the matter:",
+  "new": "But to the quick of the ulcer:",
+  "why": "Source \"to the quick o' th' ulcer\"; the play's disease imagery is flattened to a cliché."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0009",
+  "severity": "medium",
+  "old": "It would have been so with me, had I been there.",
+  "new": "It would have been so with us, had we been there.",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"It had been so with us, had we been there.\""
+ },
+ {
+  "section": 4,
+  "seg": "seg-0009",
+  "severity": "medium",
+  "old": "to you yourself, to me, to everyone.",
+  "new": "to you yourself, to us, to everyone.",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"to us\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0009",
+  "severity": "medium",
+  "old": "It will be laid on me, whose foresight",
+  "new": "It will be laid on us, whose foresight",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"laid to us, whose providence\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0009",
+  "severity": "medium",
+  "old": "But my love was so great\nI would not face",
+  "new": "But our love was so great\nwe would not face",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"so much was our love / We would not understand\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "Yet I must not bring",
+  "new": "Yet we must not bring",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"Yet must not we put the strong law on him\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0152",
+  "severity": "medium",
+  "old": "Do not fear for me.",
+  "new": "Do not fear for our person.",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"Do not fear our person\": Claudius invokes the sanctity of the royal person, which the next lines (\"such divinity doth hedge a king\") build on."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0182",
+  "severity": "medium",
+  "old": "they find me touched by this, I'll give my kingdom,\nmy crown, my life, and all that I call mine,",
+  "new": "they find us touched by this, we will give our kingdom,\nour crown, our life, and all that we call ours,",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"They find us touch'd, we will our kingdom give, / Our crown, our life, and all that we call ours\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0182",
+  "severity": "medium",
+  "old": "be content to lend me your patience,\nand I'll work alongside your soul",
+  "new": "be content to lend your patience to us,\nand we shall work alongside your soul",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"lend your patience to us, / And we shall jointly labour with your soul\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0206",
+  "severity": "medium",
+  "old": "that I'm made of such flat and dull stuff\nthat I can let danger pluck at my beard",
+  "new": "that we are made of stuff so flat and dull\nthat we can let danger pluck at our beard",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"That we are made of stuff so flat and dull / That we can let our beard be shook with danger\"; the edition keeps \"we love ourself\" two lines later, so the speech now contradicts itself."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0133",
+  "severity": "low",
+  "old": "won't scruple to accuse my own person,",
+  "new": "won't scruple to accuse our person,",
+  "why": "Policy (royal we): Claudius keeps the plural wherever Shakespeare gives it to him. Source \"Will nothing stick our person to arraign\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0133",
+  "severity": "medium",
+  "old": "they come not as single spies,\nbut in whole battalions.",
+  "new": "they come not single spies,\nbut in battalions.",
+  "why": "Source \"they come not single spies, / But in battalions\"; the famous line is padded with \"as\" and \"whole\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0098",
+  "severity": "medium",
+  "old": "let my thoughts be bloody, or be worth nothing!",
+  "new": "let my thoughts be bloody, or be nothing worth!",
+  "why": "Source \"My thoughts be bloody or be nothing worth\": the soliloquy's closing couplet (forth/worth) loses its rhyme."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0098",
+  "severity": "low",
+  "old": "but to find great quarrel in a straw",
+  "new": "but greatly to find quarrel in a straw",
+  "why": "Source \"But greatly to find quarrel in a straw\" (greatly = nobly), answering \"great argument\" in the line before."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0098",
+  "severity": "low",
+  "old": "that capability and godlike mind",
+  "new": "that capability and godlike reason",
+  "why": "Source \"godlike reason\"; current word, no friction."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0151",
+  "severity": "medium",
+  "old": "That drop of blood in me that stays calm\nproclaims me a bastard, cries 'cuckold' to my father,\nbrands the word 'whore' here, between the chaste, unstained brow\nof my true mother.",
+  "new": "That drop of blood that's calm proclaims me bastard,\ncries 'cuckold' to my father, brands 'harlot'\neven here, between the chaste, unstained brow\nof my true mother.",
+  "why": "Re-lineated: the source breaks after \"bastard\", \"harlot\" and \"brow\". Restored line for line; \"harlot\" is current."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0239",
+  "severity": "medium",
+  "old": "that might hold if the first should fall apart in the trial.\nSoft—let me think. We'll lay a solemn wager\non your skill—I have it!\nWhen, in the bout, you're hot and dry",
+  "new": "that might hold if the first should fail in trial. Soft—let me think.\nWe'll lay a solemn wager on your skill—\nI have it! When, in the bout, you're hot and dry",
+  "why": "Re-lineated: the speech ran 15 lines against the source's 14. Restores the breaks \"...blast in proof. Soft, let me see. / We'll make a solemn wager on your cunnings,— / I ha't! When in your motion you are hot and dry\"."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0225",
+  "severity": "low",
+  "old": "that it seemed he'd merged and become half-natured\nwith the brave beast.",
+  "new": "as if he'd been made one body, sharing half his nature,\nwith the brave beast.",
+  "why": "Source \"As had he been incorps'd and demi-natur'd / With the brave beast\"; \"half-natured\" is not a word a reader knows."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0172",
+  "severity": "low",
+  "old": "This nothing means more than sense itself.",
+  "new": "This nothing's more than sense.",
+  "why": "Source \"This nothing's more than matter.\"; the edition pads it."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0112",
+  "severity": "low",
+  "old": "and his sandal shoon.",
+  "new": "and his sandal shoes.",
+  "why": "\"Shoon\" (old plural) is the one dead word in the song and the edition left it."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0123",
+  "severity": "low",
+  "old": "all in the early morning,",
+  "new": "all in the morning betime,",
+  "why": "Source \"All in the morning betime\" rhymes with \"Valentine\"; the ballad's rhyme is broken. Gloss \"betime\" (early) in the margin."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0244",
+  "severity": "low",
+  "old": "as one unaware of her own peril,",
+  "new": "as one incapable of her own distress,",
+  "why": "Source \"As one incapable of her own distress\"; clear in context, and the edition's own best lines in this speech keep the source."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0204",
+  "severity": "low",
+  "old": "convert his chains to honors;",
+  "new": "convert his fetters to graces;",
+  "why": "Source \"Convert his gyves to graces\": \"gyves\" cleared, and \"fetters to graces\" keeps the pairing the edition dropped."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0030",
+  "severity": "low",
+  "old": "Yes, sir—one that soaks",
+  "new": "Ay, sir—one that soaks",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0064",
+  "severity": "low",
+  "old": "Yes, Hamlet.",
+  "new": "Ay, Hamlet.",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0220",
+  "severity": "low",
+  "old": "Yes, my lord—",
+  "new": "Ay, my lord—",
+  "why": "Policy (Ay): Shakespeare's \"Ay\" restored, as Acts III and V already keep it."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0287",
+  "severity": "high",
+  "old": "stay away from death's release a while,",
+  "new": "absent thee from felicity awhile,",
+  "why": "Policy (thou in famous lines). Source \"Absent thee from felicity awhile\": one of the play's great lines, replaced by a gloss (\"death's release\")."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0293",
+  "severity": "medium",
+  "old": "sing you to your rest.",
+  "new": "sing thee to thy rest.",
+  "why": "Policy (thou in famous lines). Source \"flights of angels sing thee to thy rest\", the most quoted farewell in English."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0003",
+  "severity": "medium",
+  "old": "when she willfully sought her own death?",
+  "new": "when she willfully seeks her own salvation?",
+  "why": "Source \"seeks her own salvation\": the Clown's malapropism for damnation. The edition corrects the joke away while keeping his other blunders (se offendendo, argal)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0165",
+  "severity": "medium",
+  "old": "Sir, his description loses nothing in your telling—though I know that to inventory him piece by piece would dizzy the arithmetic of memory, and even then come up short, against the swiftness of his sail. But, in true praise of him, I take him to be a soul of rare worth, and his essence of such scarcity and rareness that, to speak truly of him, his only likeness is his mirror, and whoever else would follow him is merely his shadow, nothing more.",
+  "new": "Sir, his definement suffers no perdition in you—though I know that to divide him inventorially would dizzy the arithmetic of memory, and yet but yaw neither, in respect of his quick sail. But, in the verity of extolment, I take him to be a soul of great article, and his infusion of such dearth and rareness that, to make true diction of him, his semblable is his mirror, and whoever else would trace him, his umbrage, nothing more.",
+  "why": "Hamlet mocks Osric by out-inflating him; Horatio's next line (seg-0169, \"understood in plainer speech\") only works if this speech is absurd. The inkhorn words are friction the author put there: restored with modern grammar, glosses to the margin."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0167",
+  "severity": "medium",
+  "old": "The relevance, sir?",
+  "new": "The concernancy, sir?",
+  "why": "Source \"The concernancy, sir?\"; part of the same parody as seg-0165."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0182",
+  "severity": "medium",
+  "old": "has staked, as I take it,",
+  "new": "has imponed, as I take it,",
+  "why": "Source \"imponed\": Osric's affected word, which Hamlet mocks in seg-0186 (\"as you call it\")."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0186",
+  "severity": "medium",
+  "old": "Why is all this staked, as you call it?",
+  "new": "Why is all this imponed, as you call it?",
+  "why": "Source \"imponed, as you call it\"; with \"staked\" the jibe points at an ordinary word."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0230",
+  "severity": "medium",
+  "old": "and into the cup he'll throw a pearl",
+  "new": "and into the cup he'll throw a union",
+  "why": "Source \"an union\": a large pearl, and a marriage. Hamlet's \"Is thy union here?\" (seg-0281) forces the poisoned union on the man who married his mother. Gloss \"union\" = pearl in the margin."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0281",
+  "severity": "medium",
+  "old": "Is your pearl here?",
+  "new": "Is your union here?",
+  "why": "As seg-0230. Source \"Is thy union here?\""
+ },
+ {
+  "section": 5,
+  "seg": "seg-0103",
+  "severity": "medium",
+  "old": "my sister shall be a ministering angel\nwhen you lie howling.",
+  "new": "a ministering angel shall my sister be\nwhen you lie howling.",
+  "why": "Source \"A minist'ring angel shall my sister be\"; famous line, the inversion is clear, nothing to clear."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0093",
+  "severity": "medium",
+  "old": "should patch a wall to shut out winter's draft.",
+  "new": "should patch a wall to expel the winter's flaw.",
+  "why": "Source \"t'expel the winter's flaw\": rhymes with \"awe\"; the couplet is broken. Gloss \"flaw\" (gust) in the margin."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0212",
+  "severity": "low",
+  "old": "Since no man has any knowledge of what he leaves behind,",
+  "new": "Since no man owns any of what he leaves,",
+  "why": "Base text \"Since no man has aught of what he leaves\" (owns nothing of it); \"knowledge\" imports the Folio's \"knows\"."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0178",
+  "severity": "low",
+  "old": "by those over him,",
+  "new": "by those in his pay,",
+  "why": "Source \"by them in his meed\" (meed = wages): those in his service, not his superiors. Judged from standard glosses."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0084",
+  "severity": "low",
+  "old": "Quite downcast?",
+  "new": "Quite chapfallen?",
+  "why": "Source \"chop-fallen\" = jawless, and the skull has no jaw; \"downcast\" keeps only the figurative sense and loses the joke."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0095",
+  "severity": "medium",
+  "old": "And with such cut-short rites? This shows the body\nthey follow took its own life with a desperate hand.\nIt was someone of rank. Let's hide ourselves\na while, and watch.",
+  "new": "And with such maimed rites? This shows\nthe corpse they follow, with a desperate hand,\nundid its own life. It was someone of rank.\nLet's hide a while and watch.",
+  "why": "Re-lineated: restores the source breaks (\"...This doth betoken / The corse they follow did with desperate hand / Fordo it own life. 'Twas of some estate. / Couch we awhile and mark.\") and \"maimed rites\", still understood."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0144",
+  "severity": "medium",
+  "old": "grows from their own meddling. It is dangerous\nwhen the lesser sort come between the thrusts\nand fierce, enraged sword-points\nof mighty opponents.",
+  "new": "grows from their own meddling.\nIt's dangerous when the lesser sort come in\nbetween the thrusts and fierce, enraged points\nof mighty opposites.",
+  "why": "Re-lineated: restores the source breaks (\"...grow. / 'Tis dangerous when the baser nature comes / Between the pass and fell incensed points / Of mighty opposites.\") and \"mighty opposites\"."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0126",
+  "severity": "low",
+  "old": "This grave shall have a lasting monument.",
+  "new": "This grave shall have a living monument.",
+  "why": "Source \"a living monument\": lasting, and (Claudius's double meaning) paid for with Hamlet's life."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0138",
+  "severity": "low",
+  "old": "it did me good honest service.",
+  "new": "it did me yeoman's service.",
+  "why": "Source \"It did me yeoman's service\"; an idiom still in use."
+ }
+]

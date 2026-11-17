@@ -1,0 +1,586 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "I leaned my forehead against it, and they helped me, and I lifted it at last",
+    "new": "I loved it the way a man loves his wife; I held it close. I leaned my forehead against it, and they helped me, and I lifted it at last",
+    "why": "SB I: in the first dream Gilgamesh loves the rock 'like a wife', caresses and embraces it; Ninsun's reading and the axe dream both answer that image, which the edition had dropped. Added, nothing else changed. unverified against a bundled source."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0015",
+    "severity": "medium",
+    "old": "You leaned on him the way a man leans on his wife, and he will never leave you.",
+    "new": "You loved him the way a man loves his wife, and held him close, and he will never leave you.",
+    "why": "SB I: Ninsun's reading repeats the dream's 'you loved it like a wife, caressed and embraced it'; matches the restored line in seg-0014. unverified against a bundled source."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "and the open ground of Ishtar's temple — three square miles and a half",
+    "new": "and half a square mile for Ishtar's temple — three square miles and a half",
+    "why": "SB I 22-23: one sar city, one sar date grove, one sar clay pit, half a sar Ishtar's temple, three and a half sar is Uruk. Without the half the sum does not add up. Same fix in XI seg-0019. unverified against a bundled source."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "hard as the war-god himself",
+    "new": "hard as the war-god Ninurta himself",
+    "why": "SB I: 'knit strong by Ninurta'. Restores the proper noun in one word and keeps the reviewer's best line intact. unverified against a bundled source."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "You have grown wise, Enkidu. You have become like a god.",
+    "new": "You are handsome, Enkidu. You are like a god.",
+    "why": "SB I 207 damqāta Enkidu: 'you are handsome / fine', not 'wise'; his widened understanding is already in the narration just before. unverified against a bundled source."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "So he read his dreams.",
+    "new": "So Gilgamesh told his dreams.",
+    "why": "Ninsun reads the dreams; Gilgamesh tells them. The tablet closes on the dreams being told; 'read' points at the wrong person."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": " There is no shame in this. You are what they say you are.",
+    "new": "",
+    "why": "Enkidu's speech ends with Enlil granting Gilgamesh the kingship; the two closing sentences are added commentary on how to take the fight (work-wide policy: commentary is cut). unverified against a bundled source."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "beasts. Now there will never be quiet in Uruk again.” And the men were glad, in spite of themselves:",
+    "new": "beasts.” And the men rejoiced:",
+    "why": "The crowd rejoices that a match for Gilgamesh has come; 'never be quiet again' and 'in spite of themselves' are added and undercut the rejoicing. unverified against a bundled source."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "the bed was laid for the goddess and the bride;",
+    "new": "the bed was laid for the goddess Ishhara;",
+    "why": "SB II: 'for Ishhara the bed was laid'. Proper-noun policy: restore the name where one phrase does it. unverified against a bundled source."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": " — the friend who saves his friend, the companion who will never let the other stand alone.",
+    "new": ".",
+    "why": "Not in this passage; an echo of Ninsun's words in Tablet I added as commentary (work-wide policy)."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "There is a crying in my throat and nothing to fight. My arms have gone slack. The life is draining out of me from doing nothing.",
+    "new": "Grief has closed my throat, my friend. My arms have gone slack; my strength has turned to weakness.",
+    "why": "Source: cries of grief have constricted my throat, my arms are slack, my strength has turned to weakness. 'Nothing to fight' and 'from doing nothing' supply a motive the text leaves to the slack arms. unverified against a bundled source."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "What hard road has you out at this pace?",
+    "new": "What hard road are you on?",
+    "why": "Read-aloud: 'has you out at this pace' stumbles. Kept the source's 'hard journey' rather than the report's 'Why are you running so hard?', which loses it."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0010",
+    "severity": "medium",
+    "old": " She did not weep where they could see her, for she was a goddess and the mother of the king; but her heart had said what a mother's heart says.",
+    "new": "",
+    "why": "The tablet says only that she put out the censer and came down from the roof; the hidden tears and their explanation are invented (work-wide policy: added emotion is cut). unverified against a bundled source."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "After this much is lost — some lines broken away from the clay, so that we cannot follow every word. When the tablet can be read again, the heroes are making their last preparations, and Gilgamesh is leaving word for the keeping of Uruk while he is gone.",
+    "new": "[Some lines are lost here. When the text resumes, Gilgamesh is leaving instructions for the city while he is away.]",
+    "why": "Lacuna policy: a gap is reported once, in square brackets, outside the story's voice. This note was in the narrator's voice."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": " — and here the tablet breaks off, with the gate of the city behind them and the mountain still far ahead.",
+    "new": ".",
+    "why": "Lacuna policy: the break is reported again, in the narrator's voice, right before the bracketed note in seg-0015. One report, bracketed."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "[A long stretch of Tablet III is missing — perhaps sixty lines, and the closing lines as well. What survives of the departure, and the road itself, is taken up in Tablet IV.]",
+    "new": "[The rest of Tablet III, perhaps sixty lines, is lost.]",
+    "why": "Lacuna policy: one short bracketed form; the forward pointer is not needed, the next tablet follows."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "and every storm wind there is. Set them on him so that Gilgamesh and Enkidu can stand against his face. Let the winds be the weapons of my son.”",
+    "new": "the whistling wind, the piercing wind, the blizzard, the evil wind, the wind of Simurru, the demon wind, the ice wind, the storm, the sandstorm — thirteen winds. Let them rise and darken Humbaba's face, so that the weapons of Gilgamesh can reach him.”",
+    "why": "SB III: Ninsun asks Shamash for thirteen named winds to darken Humbaba's face so that Gilgamesh's weapons reach him. The names are taken word for word from the edition's own list in V seg-0006, so prayer and answer match. unverified against a bundled source."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": " — the kind the temple-women wear, the sign of those who belong to the god —",
+    "new": ",",
+    "why": "Gloss explaining the token, written into the sentence (work-wide commentary policy)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": " And the holy women answered her, and they did what was done at such a time.",
+    "new": "",
+    "why": "Vague filler standing in for broken lines; the gap is reported in the bracketed note that follows (seg-0013)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": ", as men say a thing twice when they mean it:",
+    "new": ":",
+    "why": "Commentary on the repetition; the repetition speaks for itself."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0010",
+    "severity": "high",
+    "old": " And the warm wind of Shamash blew at Humbaba's face, so that he could not move, and could not go forward, and could not go back.",
+    "new": "",
+    "why": "The winds that pin Humbaba belong to the fight in Tablet V (where the edition gives them in full, V seg-0006); here they spend the climax early. Only part of the high issue: the warning itself also sits too early (SB: at the forest's edge, after all the dreams), and moving it needs a segment reorder; see 'Needs the editor'. unverified against a bundled source."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "And as Gilgamesh prayed once more to the sun-god, Shamash heard him out of heaven",
+    "new": "And Gilgamesh wept before Shamash, and Shamash heard him out of heaven",
+    "why": "SB IV: Gilgamesh weeps before Shamash and Shamash hears him; he has not prayed to Shamash earlier in this tablet, so 'once more' points at nothing. unverified against a bundled source."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "There were more dreams along the road, and not all of them can be read now, for the clay is broken. But the shape of them was always the same: a terror in the night, and Enkidu in the morning turning the terror inside out, until the worst of the signs had become the best of the omens, and the road grew shorter under their feet.",
+    "new": "[More dreams follow on the road, but the clay is broken, and they cannot be read whole.]",
+    "why": "Lacuna policy plus commentary policy: a gap note in the narrator's voice and an editorial summary of the dreams. Reduced to a bracketed note. The fourth dream, which is largely legible, is listed under 'Needs the editor'. unverified against a bundled source."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": " They saw the cedar mountain, the home of the gods, the throne of Irnini. From the face of the mountain the cedars threw down their shade, and the shade was rich and full of rest, and the path that ran up into the wood was thick with brush, and it was good to walk.",
+    "new": "",
+    "why": "SB: the view of the cedar mountain, throne of Irnini, and its shade opens Tablet V, where the edition gives it again in full (V seg-0001). Cutting it here removes the duplicated arrival (V report, medium) and the self-contradictory 'thick with brush ... good to walk' (IV report, low)."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "Beside the two of us we were no bigger than reeds in a marsh.",
+    "new": "The two of us were like little flies in the reed-beds.",
+    "why": "SB IV first dream: the mountain falls and the two are like flies of the reed-beds. Also mends the garbled 'Beside the two of us we were'. unverified against a bundled source."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "And Enkidu, who was born in the wild and knew the meaning of such things, said to him:",
+    "new": "And Enkidu said to him:",
+    "why": "Explanation added to the narration (commentary policy)."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": " For a long time Gilgamesh could not speak; the dream had frightened him to the bone.",
+    "new": "",
+    "why": "Added emotion, not in the source (commentary policy). unverified against a bundled source."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": " For the door was to be a gift for Enlil's own house in Nippur — a thing made from the forest, given back to the god who had set Humbaba to guard the forest.",
+    "new": "",
+    "why": "An editor's comment on the irony written into the story; Enkidu's speech already says where the door goes."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": " For this was the garden Humbaba walked in, and the noise of it was his pleasure, and he listened to it the way a king listens to musicians at his table.",
+    "new": "",
+    "why": "Source compares the noise to musicians and drummers playing daily before Humbaba, which the sentence before already says; the king at his table is added. unverified against a bundled source."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "up,” one said.",
+    "new": "up,” they said to each other.",
+    "why": "'One said' leaves the speech without a speaker; the source has the two encourage each other."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "Hermon split, and Lebanon split.",
+    "new": "Sirion split, and Lebanon split.",
+    "why": "SB V: Sirion and Lebanon split apart. Proper-noun policy: keep the epic's name, not the modern identification. unverified against a bundled source."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "did the thing Ninsun had asked of him on the temple roof. Out of heaven he loosed",
+    "new": "loosed out of heaven",
+    "why": "A cross-reference the text does not make (commentary policy)."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "And Humbaba turned then to Enkidu, since it was Enkidu who held the king's ear, and his pleading turned to something sharper.",
+    "new": "And Humbaba turned then to Enkidu.",
+    "why": "Added motive and stage direction (commentary policy)."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "May the two of you never grow old together. May Enkidu have no portion of life beyond his friend Gilgamesh — let him not outlive this day's work.",
+    "new": "May the two of you never grow old. And may Enkidu find no one to bury him but his friend Gilgamesh.",
+    "why": "SB V: may the pair not grow old; besides his friend Gilgamesh may no one bury Enkidu. The edition's version blurs a curse the epic later fulfils exactly. unverified against a bundled source."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "And a great fullness came down over the mountain, twice over — abundance poured down over the mountain.",
+    "new": "And abundance rained down on the mountain.",
+    "why": "Read-aloud: the sentence doubles back on itself. Source: abundance rained down on the mountain. unverified against a bundled source."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "And he rose from his bed, and turned to his friend to tell him what he had seen. Here Tablet VI breaks off, and the dream he carries to Gilgamesh — the great gods sitting in judgment — is taken up at the head of Tablet VII.",
+    "new": "And he rose to tell the dream, and said to his friend:",
+    "why": "SB VI ends whole, on Enkidu rising to tell his dream to his friend; the dream opens Tablet VII. The cut sentence is apparatus in the narrator's voice, wrong (the tablet does not break off), and gives away the next tablet. unverified against a bundled source."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "Put out your hand; touch me here.",
+    "new": "Put out your hand and touch my sex.",
+    "why": "SB VI: Ishtar tells Ishullanu to put out his hand and touch her vulva. 'Here' softens the proposition Gilgamesh is condemning. unverified against a bundled source."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "The Bull lashed its tail and threw its slaver in Enkidu's face.",
+    "new": "The Bull spat in Enkidu's face, and with its thick tail it flung its dung at him.",
+    "why": "SB VI: the Bull spits in his face and flings its dung at him with its tail; the insult was dropped. unverified against a bundled source."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "A palace that caves in on the soldiers inside it. Pitch",
+    "new": "A palace that caves in on the soldiers inside it. An elephant that throws off its covering. Pitch",
+    "why": "SB VI: the catalogue includes an elephant that throws off its covering, between the palace and the pitch. One item restored in its place. unverified against a bundled source."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "I dreamed it in the night.” And this was the dream he told. Anu and Enlil and Ea, and Shamash of the bright sky, sat down together to judge. Because the two of us killed Humbaba, and because we struck down the Bull of Heaven, one of us must die. So the gods had decided, and now they were deciding which. Enlil said, “Let Enkidu die. Gilgamesh shall not die.” Then Shamash spoke up for Enkidu: “Was it not at my word that they killed the Bull of Heaven and killed Humbaba? Shall innocent Enkidu die for that?” But Enlil turned on him in anger: “You went down with them, day after day, as if you were one of their company. That is why you speak for them.” And the council held, and the doom stood, and the dream broke off there.",
+    "new": "I dreamed it in the night. Anu and Enlil and Ea, and Shamash of the bright sky, sat down together to judge. Because the two of us killed Humbaba, and because we struck down the Bull of Heaven, one of us must die. So the gods had decided, and now they were deciding which. Enlil said, ‘Let Enkidu die. Gilgamesh shall not die.’ Then Shamash spoke up for me: ‘Was it not at my word that they killed the Bull of Heaven and killed Humbaba? Shall innocent Enkidu die for that?’ But Enlil turned on him in anger: ‘You went down with them, day after day, as if you were one of their company. That is why you speak for them.’ And the council held, and the doom stood, and then I woke.”",
+    "why": "The dream starts in third person and slides into Enkidu's 'the two of us' with no quotation mark. Kept wholly inside Enkidu's speech, as in the Hittite prose summary that supplies this opening; inner speeches take single quotes; wording otherwise unchanged except 'spoke up for me' and 'then I woke'. unverified against a bundled source."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "; let you be honored, and let you be the mother of a great household.”",
+    "new": ". Let the wife, the mother of seven, be left for your sake.”",
+    "why": "SB VII: the blessing ends 'for your sake the wife, the mother of seven, shall be abandoned', a courtesan's glory; the edition reversed it into domestic honor. unverified against a bundled source."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": " So he undid his curse and made it a blessing, with the same breath that had cursed her.",
+    "new": "",
+    "why": "Repeats the framing already given at the start of the speech ('with as much weight as he had cursed'); adds nothing."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "He tore the door down in his heart, though he had built it up with his hands, and he wept.",
+    "new": "Gilgamesh heard what his friend said, and his tears ran down.",
+    "why": "The sentence is invented. SB VII: Gilgamesh hears the door speech and his tears flow. His spoken answer that follows in the source (the gods have left grief to the living; he will pray for Enkidu and make his image in gold) is a larger restoration, listed under 'Needs the editor'. unverified against a bundled source."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "He held me down under him —” and here the words break in the telling, and a few are lost.",
+    "new": "He held me down under him.” [A few lines are lost.]",
+    "why": "Lacuna policy: the gap note was in the narrator's voice after a mid-speech closing mark. One bracketed form; seg-0009 reopens the speech."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "She lifted her head, and she looked at me —” and there the dream broke off, and the rest of it is lost from the clay.",
+    "new": "She lifted her head, and she looked at me.” [The rest of the dream is lost.]",
+    "why": "Lacuna policy: one short bracketed form, outside the narrator's voice."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "[Here the seventh tablet runs out, and the last of its lines are broken away. The count of the days Enkidu lay sick — and his death — are taken up at the head of Tablet VIII, where Gilgamesh begins to mourn him.]",
+    "new": "[The last lines of Tablet VII are broken: the days of Enkidu's sickness, and his death.]",
+    "why": "Lacuna policy: one short bracketed form. Also fixes the grammar ('The count ... are')."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "the face of the storm-bird",
+    "new": "the face of the Anzu bird",
+    "why": "SB VII: his face was like an Anzu bird's. Proper-noun policy; names are kept elsewhere in the tablet (Irkalla, Belet-seri). unverified against a bundled source."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": " For the dead must be welcomed below, and a man goes better among them when the gods who keep that country have been given their honor. So Gilgamesh set out a gift for Shamash, and for the queen of the dead, and for the gods who govern the house of dust — that each in turn would receive Enkidu kindly, take him by the hand, and let him stand well among the shades, and not be a stranger there.",
+    "new": " He set out a gift for the queen of the dead, and for the gods who govern the house of dust, and showed each one to Shamash, so that they would welcome his friend and walk at his side.",
+    "why": "The first sentence explains funeral practice in the narration (commentary policy). SB VIII: each gift is shown to Shamash with the prayer that the god 'welcome my friend and walk at his side'; the gifts are for the netherworld powers, not for Shamash. unverified against a bundled source."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": " Only fragments survive on the clay: a flask, a throwing-stick of fine wood, vessels of carnelian and lapis, weapons and ornaments, each presented to a named netherworld power so that Enkidu will be received and well treated below. The full list cannot be recovered, and Lectio does not invent it; the broken clay is left broken.]",
+    "new": " Parts of it survive: a flask, a throwing-stick of fine wood, vessels of carnelian and lapis, weapons and ornaments, each presented to a named netherworld power. The full list cannot be read.]",
+    "why": "An editorial note should not praise the edition; 'only fragments' understates what survives. Rendering the legible entries is listed under 'Needs the editor'."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "[The close of Tablet VIII — the last of the funeral rites and Gilgamesh's leaving of the city — is lost in the break, and is taken up at the head of Tablet IX, where Gilgamesh is already roaming the open country, grieving for Enkidu and afraid, for the first time, of his own death.]",
+    "new": "[The close of Tablet VIII, the last of the funeral rites, is lost.]",
+    "why": "Lacuna policy: one short bracketed form. The cut part narrated Tablet IX in advance and interpreted it ('afraid, for the first time')."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "“I am going to die,” he said to himself, “the same as Enkidu died, and the dread of it has gotten into me.",
+    "new": "“I will die too,” he said to himself, “and will I not be like Enkidu? Grief has come into my heart.",
+    "why": "SB IX 3-4: 'I shall die, and shall I not then be like Enkidu? Sorrow has entered my heart.' The question is the line readers know. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "I am afraid of death, and so I roam the open land.” He had come to the road that has no turning, and he could not stand still on it.",
+    "new": "I am afraid of death, and so I roam the open land. I will take the road to Uta-napishti, the son of Ubar-Tutu, and I will go quickly.”",
+    "why": "SB IX 5-7: the resolve to seek Uta-napishti, son of Ubar-Tutu, comes here, in Gilgamesh's own words, right after his fear of death. The closing sentence was added. Pairs with the cut in seg-0003. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "All the while one thought worked in him and would not let him go. Enkidu had died, and the body of his friend had gone back to clay. So Gilgamesh thought of Uta-napishti — Uta-napishti the Distant, the one man who had lived through the Flood and not died, whom the gods had taken up and given life that has no end. If any living being knew how a man escapes death, it was he. “I will go to Uta-napishti,” Gilgamesh said. “I will go to him, far off as he is, and ask him how he found the everlasting life, and how I may have it too.” And he",
+    "new": "And he",
+    "why": "Narrator's reasoning in place of the source's resolve, which now stands in seg-0001; 'gone back to clay' is borrowed from Tablet X. The segment keeps its last sentence. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "[Here a stretch of the tablet is broken away — some two dozen lines — and we lose the words of his roaming and his grief before the text can be read again.]",
+    "new": "[About two dozen lines are lost.]",
+    "why": "Lacuna policy: one short bracketed form."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "[The next lines are lost — some sixteen of them — and we cannot follow the whole of the exchange.]",
+    "new": "[About sixteen lines are lost.]",
+    "why": "Lacuna policy: one short bracketed form."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "[A long passage follows here that the clay has lost — the rest of the warning, and Gilgamesh's pleading — perhaps sixty lines, broken away. When the text returns, he has won them over.]",
+    "new": "[About sixty lines are lost: the rest of the warning, and Gilgamesh's answer.]",
+    "why": "Lacuna policy: one short bracketed form. Dropping 'he has won them over' lets the next speech stand in order (see seg-0008)."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "“My heart is heavy,” Gilgamesh had said,",
+    "new": "“My heart is heavy,” Gilgamesh said,",
+    "why": "Read-aloud: the past perfect made the reader double back; with the bracket in seg-0007 trimmed, the speech stands in order."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "it would not let him see what lay ahead of him or what lay behind.",
+    "new": "it would not let him see ahead or behind.",
+    "why": "SB IX repeats one formula at each double-hour; the edition's own formula (two double-hours) used throughout. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "At three double-hours the dark was thick, and there was no light: he could see nothing before him and nothing behind. At four double-hours the dark was thick, and there was no light: nothing before, nothing behind. He kept on going. At five double-hours the dark was thick, and there was no light, and it let him see neither ahead nor behind. At six double-hours the dark was thick, the same thick dark, and he went on through it.",
+    "new": "At three double-hours the dark was thick, and there was no light: it would not let him see ahead or behind. At four double-hours the dark was thick, and there was no light: it would not let him see ahead or behind. He kept on going. At five double-hours the dark was thick, and there was no light: it would not let him see ahead or behind. At six double-hours the dark was thick, and there was no light: it would not let him see ahead or behind. He kept on going.",
+    "why": "SB IX repeats the formula word for word; the variations weaken the litany. Only the formula changes. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "it would not let him see what lay before him or behind him.",
+    "new": "it would not let him see ahead or behind.",
+    "why": "Same formula at seven double-hours. Eight and nine, where the source itself varies, are left as they are. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "and the lapis lay blue as bramble.",
+    "new": "and lapis lazuli grew where brambles would be.",
+    "why": "Bramble is not blue; the source sets the gems in place of thorns and briars, as the sentences around it already do. unverified against a bundled source."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "[The end of the tablet is broken: a few more lines on the trees of the garden, and the first sight of the one who keeps the edge of the sea, are lost, and are taken up at the head of Tablet X.]",
+    "new": "[The end of the tablet is broken, and a few lines are lost.]",
+    "why": "Lacuna policy: one short bracketed form."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": " — the crew without which the boat cannot cross the deadly water, the ones whose touch the Waters of Death cannot harm.",
+    "new": ".",
+    "why": "Explanation of the Stone Ones added to the narration, telling the reader what Ur-shanabi tells Gilgamesh in seg-0010. The source simply has him smash them. unverified against a bundled source."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "And Siduri said to him: \"Why are your cheeks so hollow, your face so cast down? Why is there such grief in your heart? You look like a man worn out by a long, hard road, your face scorched by cold and heat, ranging the open country looking for the wind. Who are you?\"",
+    "new": "And Siduri said to him: \"Who are you?\"",
+    "why": "SB X: Siduri asks about the hollow cheeks only after he names himself ('If you are Gilgamesh...', seg-0004). Asked twice, it blurs the three-fold pattern (Siduri, Ur-shanabi, Uta-napishti). unverified against a bundled source."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "And so it was done: each pole driven once into the deadly water and then thrown away, never used twice, so that his hand never touched it.",
+    "new": "And so it was done.",
+    "why": "Explanatory gloss; Ur-shanabi's count already shows the method (commentary policy)."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0019",
+    "severity": "high",
+    "old": " This is the wall he came home to, the one thing that would stand. He had gone to the ends of the earth and come back with empty hands; the plant was gone, and the secret of the gods was a secret still, and a man must die. But the city would not die. The brick he had fired, the wall he had raised — that was the life that would outlast him, the only kind a man is given to keep. And so the story ends where it began, on the wall of Uruk, looking down at the work of his hands.",
+    "new": "",
+    "why": "SB XI ends on Gilgamesh's words about the wall, repeating the prologue. Everything after them is the editor's moral written in as the epic's last lines. The segment keeps the journey home and the speech. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0019",
+    "severity": "medium",
+    "old": "and the open ground of Ishtar's temple — three square miles and a half",
+    "new": "and half a square mile for Ishtar's temple — three square miles and a half",
+    "why": "SB XI 325-26, as I 22-23: half a sar for Ishtar's temple; same fix as I seg-0002 so the closing echo matches the prologue. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "its sides rose ten times the height of a man; the top of each side ran a hundred and twenty cubits across, and it was a square.",
+    "new": "its walls rose a hundred and twenty cubits high, and each side of its deck ran a hundred and twenty cubits: as high as it was long and wide.",
+    "why": "SB XI 58-59: ten rods (120 cubits) the height of its walls, ten rods each edge of its deck; the boat is a cube. 'Ten times the height of a man' is about half that. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0013",
+    "severity": "medium",
+    "old": "at the source of the rivers.' And they took me, and they settled me far away, at the mouth of the rivers, where the waters begin.",
+    "new": "at the mouth of the rivers.' And they took me, and they settled me far away, at the mouth of the rivers.",
+    "why": "SB XI 205-206: 'at the mouth of the rivers' in both lines. 'Source' and 'where the waters begin' contradict 'mouth'. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "And Ea, the clever one, had sworn the oath with them, so he could not warn me himself. But he said the words to the reed wall of my house. He spoke to the fence of reeds, so that he had not broken his oath to a man, and yet I heard him through the reeds.",
+    "new": "And Ea, the clever one, had sworn the oath with them, but he repeated their words to the reed wall of my house.",
+    "why": "SB XI 19-20: Ea was under oath with them, and repeated their words to the reed fence. The edition explains the trick twice; Ea's speech that follows shows it. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "the sweet-voiced Lady of the gods wailed aloud",
+    "new": "sweet-voiced Belet-ili, the Lady of the gods, wailed aloud",
+    "why": "SB XI 117-18: Ishtar and sweet-voiced Belet-ili in parallel. Proper-noun policy; she is the goddess who lifts the lapis flies in seg-0011. unverified against a bundled source."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "It was still as still.",
+    "new": "Everything was still.",
+    "why": "Reads as a slip, not an idiom."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0015",
+    "severity": "medium",
+    "old": "\"So she baked the loaves and set them by his head, and she marked the wall for each day he slept. The first loaf had gone hard as a stone. The second was like leather. The third was soggy. The crust of the fourth had turned white. The fifth was gray with mold. The sixth was still fresh. And the seventh — he was still asleep when Uta-napishti reached out and touched him, and Gilgamesh woke. And Gilgamesh said to him: 'Sleep had hardly poured over me, and you reached out and touched me and woke me!' But Uta-napishti said: 'Look at the loaves, Gilgamesh. Count them. Your first loaf is a stone; your second is leather; the third is soggy; the fourth has gone white; the fifth is gray with mold; the sixth is still fresh — and the seventh, you were sleeping when I touched you.' And Gilgamesh said: 'Uta-napishti, what am I to do now? Where am I to go? A thief has taken hold of my body. Death is sitting in my bedroom, and wherever I set my foot, there death is.'",
+    "new": "So she baked the loaves and set them by his head, and she marked the wall for each day he slept. The first loaf had gone hard as a stone. The second was like leather. The third was soggy. The crust of the fourth had turned white. The fifth was gray with mold. The sixth was still fresh. And the seventh — he was still asleep when Uta-napishti reached out and touched him, and Gilgamesh woke. And Gilgamesh said to him: \"Sleep had hardly poured over me, and you reached out and touched me and woke me!\" But Uta-napishti said: \"Look at the loaves, Gilgamesh. Count them. Your first loaf is a stone; your second is leather; the third is soggy; the fourth has gone white; the fifth is gray with mold; the sixth is still fresh — and the seventh, you were sleeping when I touched you.\" And Gilgamesh said: \"Uta-napishti, what am I to do now? Where am I to go? A thief has taken hold of my body. Death is sitting in my bedroom, and wherever I set my foot, there death is.\"",
+    "why": "Uta-napishti's tale ends in seg-0014; this segment is narration but opened with a double quotation mark, so the speech inside dropped to single quotes. Opening mark removed and inner speech given double quotes, matching seg-0014 and seg-0016 (straight here; the quote policy curls them with the rest of X-XI)."
+  }
+]

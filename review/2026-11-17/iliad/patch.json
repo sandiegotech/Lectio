@@ -1,0 +1,1310 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0026",
+    "severity": "high",
+    "old": "A scepter-bearing king, whom Zeus has glorified, never shares in the common honor.",
+    "new": "A king who holds the scepter, to whom Zeus has given glory, has never had an ordinary share of honor.",
+    "why": "Greek 1.278-9 οὔ ποθ' ὁμοίης ἔμμορε τιμῆς σκηπτοῦχος βασιλεύς: his honor is above the common share. Butler: no sceptred king 'has like honour'. As printed it says he lacks honor."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0026",
+    "severity": "medium",
+    "old": "And I was of their company, and they listened to my advice.",
+    "new": "And I was of their company: I came from Pylos, from a far-off land, because they summoned me, and I fought on my own account. No one alive on earth today could fight those men. And they listened to my advice and heeded my word.",
+    "why": "Greek 1.269-73 (ἐκ Πύλου ἐλθὼν τηλόθεν ... κείνοισι δ' ἂν οὔ τις τῶν οἳ νῦν βροτοί εἰσιν ... μαχέοιτο); Butler keeps it. Theseus (1.265) left out, as most editors bracket it."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0033",
+    "severity": "high",
+    "old": "Remind him: you once saved him, alone among the gods, when the others wanted to bind him. Go now, clasp his knees,",
+    "new": "Often in my father's house I heard you boast that you alone among the gods saved the son of Cronus from shameful ruin, when the other Olympians wanted to put him in chains — Hera, and Poseidon, and Pallas Athena. You came, goddess, and freed him from the chains: you quickly called the hundred-handed one to high Olympus, the one the gods call Briareus and men call Aegaeon, stronger even than his father. He sat down beside the son of Cronus, glorying in his strength, and the blessed gods were afraid of him and did not bind Zeus. Remind him of that now. Sit beside him, clasp his knees,",
+    "why": "Greek 1.396-407 restored: the would-be binders and the hundred-handed Briareus/Aegaeon (Butler seg-0036) were cut. Achilles' retelling (1.365-92), still summarized, goes to the editor (rejected.md)."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "why Apollo is so enraged. Maybe a vow, or a sacrifice, will buy us back from ruin.",
+    "new": "why Apollo is so enraged: whether he blames us for some vow or sacrifice, and whether the smoke of lambs and full-grown goats might move him to keep ruin from us.",
+    "why": "Greek 1.65-7 εἴτ' ἄρ' ὅ γ' εὐχωλῆς ἐπιμέμφεται εἴθ' ἑκατόμβης, αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τε τελείων ...: a question about blame, with the savor of lambs and goats; Butler the same."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0027",
+    "severity": "medium",
+    "old": "You gave her; take her back.",
+    "new": "You gave her, and now you take her away.",
+    "why": "Greek 1.299 ἐπεί μ' ἀφέλεσθέ γε δόντες: a bitter statement, not a command; Butler 'those that take were those also that gave'."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0018",
+    "severity": "medium",
+    "old": "You shameless, scheming greed —",
+    "new": "You, wrapped in shamelessness, always scheming for gain —",
+    "why": "Greek 1.149 ἀναιδείην ἐπιειμένε, κερδαλεόφρον addresses the man, not an abstraction; 'you ... greed' does not land aloud."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0047",
+    "severity": "medium",
+    "old": "and no one's hunger went unsatisfied at the shared feast — not for the gorgeous lyre Apollo held, nor for the Muses,",
+    "new": "and no one's heart went without its share of the feast, or of the beautiful lyre Apollo held, or of the Muses,",
+    "why": "Greek 1.602-4 οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης, οὐ μὲν φόρμιγγος ...: the heart lacked neither feast nor lyre; 'hunger ... for the lyre' garbles it; 'gorgeous' is fashionable."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "while I'm alive and have my eyes",
+    "new": "while I'm alive and see the light of day",
+    "why": "Greek 1.88 ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο; Butler 'while I yet live to look upon the face of the earth'."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "Don't try it, clever as you are, Achilles",
+    "new": "Don't try it, Achilles, brave and godlike as you are",
+    "why": "Greek 1.131 ἀγαθός περ ἐών, θεοείκελ' Ἀχιλλεῦ; Butler 'valiant though you be'. 'Clever' shifts the taunt."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "with some small thing, worn out from war",
+    "new": "with some small thing, small but my own, worn out from war",
+    "why": "Greek 1.167 ὀλίγον τε φίλον τε: small but dear."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0015",
+    "severity": "low",
+    "old": "you've never spoken or carried out a single kind word",
+    "new": "you've never once said a good word, or made one come true",
+    "why": "Greek 1.108 οὐδέ τί πω μοι ἐσθλὸν εἶπας ἔπος οὐδ' ἐτέλεσσας; 'carried out a word' trips."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "my untouchable hands",
+    "new": "my invincible hands",
+    "why": "Greek 1.567 ἀάπτους χεῖρας: hands none can withstand; 'untouchable' now reads as immunity."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "who had guided the Greek ships to Troy by his prophecy",
+    "new": "who had guided the Greek ships to Troy by the gift of prophecy Phoebus Apollo gave him",
+    "why": "Greek 1.72 ἣν διὰ μαντοσύνην, τήν οἱ πόρε Φοῖβος Ἀπόλλων; Butler 'the prophetic gift with which Phoebus Apollo had inspired him'."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "“Achilles, you tell me",
+    "new": "“Achilles, dear to Zeus, you tell me",
+    "why": "Greek 1.74 ὦ Ἀχιλεῦ, κέλεαί με, Διῒ φίλε."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0018",
+    "severity": "medium",
+    "old": "Thersites kept on, a man with no measure to his tongue, his head full of words, reckless ones, set against the kings, in no good order, anything he thought would make the Greeks laugh.",
+    "new": "Thersites kept on, a man with no measure to his tongue. His head was full of words, reckless and disorderly, for quarreling with kings — anything he thought would make the Greeks laugh.",
+    "why": "Read-aloud: five tacked-on phrases lose the thread. Greek 2.213-15; Butler 'a man of many words, and those unseemly'."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "that foul-spoken blowhard",
+    "new": "that foul-mouthed slanderer",
+    "why": "Policy (slang). Greek 2.275 λωβητῆρα ἐπεσβόλον: word-flinging abuser."
+  },
+  {
+    "section": 2,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "Now the other gods and the charioteers of the plain slept",
+    "new": "Now the other gods and the men who fought from chariots slept",
+    "why": "Greek 2.1 θεοί τε καὶ ἀνέρες ἱπποκορυσταί: 'men' dropped, 'of the plain' added."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "you Trojans go on living here in the rich land of Troy, and the Greeks sail home to Argos and the green country of Achaea",
+    "new": "you Trojans go on living here in the rich land of Troy, and the Greeks sail home to Argos, where the horses graze, and to Achaea of the lovely women",
+    "why": "Greek 3.75 Ἄργος ἐς ἱππόβοτον καὶ Ἀχαιΐδα καλλιγύναικα; 'green country' is invented and the women are lost."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0023",
+    "severity": "medium",
+    "old": "we Trojans live on here in the rich land of Troy, and the Greeks sail home to Argos and the green country of Achaea",
+    "new": "we Trojans live on here in the rich land of Troy, and the Greeks sail home to Argos, where the horses graze, and to Achaea of the lovely women",
+    "why": "Same formula, 3.258; see seg-0006."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "Your heart is like an axe a shipwright drives through a beam, and the man's own strength gives the stroke its weight — that's how hard the edge of your scorn cuts.",
+    "new": "Your heart is always unbending, like an axe a shipwright drives through a beam, the man's own strength giving the stroke its weight — that's how fearless the heart in your chest is.",
+    "why": "Greek 3.60-63 αἰεί τοι κραδίη πέλεκυς ὥς ἐστιν ἀτειρής ... ὣς σοὶ ἐνὶ στήθεσσιν ἀτάρβητος νόος ἐστί: the simile is Hector's unyielding heart, not his scorn."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "taking the shape of her sister-in-law — the wife of Antenor's son, for Helicaon had married Laodice, the loveliest of Priam's daughters.",
+    "new": "taking the shape of her sister-in-law Laodice, the loveliest of Priam's daughters, wife of Antenor's son, lord Helicaon.",
+    "why": "Greek 3.122-4 εἰδομένη γαλόῳ, Ἀντηνορίδαο δάμαρτι ... Λαοδίκην: name the shape Iris takes first."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "three and four pieces",
+    "new": "into three, four pieces",
+    "why": "Greek 3.363 τριχθά τε καὶ τετραχθά; missing preposition trips."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "with wings in their words",
+    "new": "in winged words",
+    "why": "Greek 3.155 ἔπεα πτερόεντ' ἀγόρευον; the edition's usual rendering is 'winged words' (e.g. II seg-0001)."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "the splendid car, and",
+    "new": "the splendid chariot, and",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "Zeus, who holds the keys of war and peace for men,",
+    "new": "Zeus, who deals out war to men,",
+    "why": "Greek 4.84 Ζεύς, ὅς τ' ἀνθρώπων ταμίης πολέμοιο τέτυκται: steward of war; 'and peace' is added."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0033",
+    "severity": "medium",
+    "old": "hacked at one another's shields, at the round bucklers and the light hide targets",
+    "new": "hacked at one another's shields, the great round ones and the light, fluttering ones of hide",
+    "why": "Policy (archaism). Greek 5.452-3 ἀσπίδας εὐκύκλους λαισήϊά τε πτερόεντα; 'targets' now means archery targets."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "who owned much corn land",
+    "new": "who owned much grain land",
+    "why": "Policy (archaism). Greek 5.613 πολυλήϊος; 'corn' reads as maize to an American reader."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "who did not shrink from his sins",
+    "new": "who thought nothing of doing wrong",
+    "why": "Policy (biblical idiom). Greek 5.403 ὃς οὐκ ὄθετ' αἴσυλα ῥέζων."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "through the rings of his shirt",
+    "new": "through his plaited tunic",
+    "why": "Greek 5.113 διὰ στρεπτοῖο χιτῶνος; 'rings' suggests medieval mail."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "from the car. Idaeus",
+    "new": "from the chariot. Idaeus",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "toppled from the car; and Idomeneus'",
+    "new": "toppled from the chariot; and Idomeneus'",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "from the car and pulled",
+    "new": "from the chariot and pulled",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "from the car for all",
+    "new": "from the chariot for all",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0018",
+    "severity": "low",
+    "old": "fine new cars stand in",
+    "new": "fine new chariots stand in",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "into the car — I'll",
+    "new": "into the chariot — I'll",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0026",
+    "severity": "low",
+    "old": "his own car again, gripped",
+    "new": "his own chariot again, gripped",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "into the car, sick",
+    "new": "into the chariot, sick",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0041",
+    "severity": "low",
+    "old": "the car headfirst,",
+    "new": "the chariot headfirst,",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0049",
+    "severity": "low",
+    "old": "side; the car was woven",
+    "new": "side; the chariot was woven",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0055",
+    "severity": "low",
+    "old": "mounted the car herself, beside",
+    "new": "mounted the chariot herself, beside",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0055",
+    "severity": "low",
+    "old": "up over the car, to fly",
+    "new": "up over the chariot, to fly",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0025",
+    "severity": "medium",
+    "old": "Brother — brother of a hateful bitch of a woman, who brings on this horror.",
+    "new": "Brother — brother-in-law to me, a hateful bitch of a woman, who brings on this horror.",
+    "why": "Greek 6.344 δᾶερ ἐμεῖο κυνὸς κακομηχάνου ὀκρυοέσσης: Helen calls herself the bitch; as printed, Hector seems brother to some third woman."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "\"You strange woman — don't grieve too much",
+    "new": "\"My dearest — don't grieve too much",
+    "why": "Policy (δαιμόνιε). Greek 6.486 δαιμονίη in Hector's gentlest moment, just after he strokes her; 'You strange woman' reads cold."
+  },
+  {
+    "section": 7,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "the long cuts of the chine to honor him",
+    "new": "the long cuts of the back to honor him",
+    "why": "Policy (archaism). Greek 7.321 νώτοισιν ... διηνεκέεσσι γέραιρεν."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "you reckless, brazen thing",
+    "new": "you shameless bitch",
+    "why": "Greek 8.423 αἰνοτάτη, κύον ἀδεές; the edition keeps Helen's 'bitch' in VI and should keep it here."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "the hound of hell",
+    "new": "the hound of hateful Hades",
+    "why": "Policy (biblical/Christian frame). Greek 8.368 κύνα στυγεροῦ Ἀΐδαο."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "I won’t care a whit how angry you are",
+    "new": "I won’t care in the least how angry you are",
+    "why": "Policy (archaism). 'A whit'."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "from the car. Grief",
+    "new": "from the chariot. Grief",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "under the car, and",
+    "new": "under the chariot, and",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "forward from the car.",
+    "new": "forward from the chariot.",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "headlong from the car, and the",
+    "new": "headlong from the chariot, and the",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "them out, and smash the car to pieces. Ten full years",
+    "new": "them out, and smash the chariot to pieces. Ten full years",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "you out, and smash the car to pieces. Ten full years",
+    "new": "you out, and smash the chariot to pieces. Ten full years",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 8,
+    "seg": "seg-0037",
+    "severity": "low",
+    "old": "set the car on its",
+    "new": "set the chariot on its",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0019",
+    "severity": "medium",
+    "old": "I hate that man like the gates of death who says one thing and hides another in his heart.",
+    "new": "I hate like the gates of death the man who hides one thing in his heart and says another.",
+    "why": "Greek 9.312-13 ἐχθρὸς γάρ μοι κεῖνος ὁμῶς Ἀΐδαο πύλῃσιν ὅς χ' ἕτερον μὲν κεύθῃ ἐνὶ φρεσίν, ἄλλο δὲ εἴπῃ; the relative clause landed on 'death'."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "“All hail — and welcome. You must come on some pressing need.",
+    "new": "“Welcome, both of you. You come as friends — there must be some great need.",
+    "why": "Greek 9.197 χαίρετον· ἦ φίλοι ἄνδρες ἱκάνετον· ἦ τι μάλα χρεώ; 'All hail' is stage archaism and 'as friends' was dropped."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0009",
+    "severity": "low",
+    "old": "since the day — yes, royal as you are — that you went",
+    "new": "since the day, my king, that you went",
+    "why": "Greek 9.106 διογενές is a respectful vocative; the parenthesis reads as sarcasm."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0016",
+    "severity": "low",
+    "old": "the chine of a hog rich with fat",
+    "new": "the backbone of a hog, rich with fat",
+    "why": "Policy (archaism). Greek 9.208 συὸς σιάλοιο ῥάχιν τεθαλυῖαν ἀλοιφῇ."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "the son of Aeacus would",
+    "new": "the grandson of Aeacus would",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 10,
+    "seg": null
+  },
+  {
+    "section": 11,
+    "seg": "seg-0032",
+    "severity": "medium",
+    "old": "never filled with cunning or with toil",
+    "new": "who can never get enough of tricks and toil",
+    "why": "Greek 11.430 δόλων ἆτ' ἠδὲ πόνοιο: insatiable of tricks; 'never filled with cunning' is heard as 'never cunning'."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0026",
+    "severity": "low",
+    "old": "Here comes great Hector, rolling down on us — we're for it.",
+    "new": "Here comes great Hector — disaster rolling down on us.",
+    "why": "Greek 11.347 νῶϊν δὴ τόδε πῆμα κυλίνδεται; 'we're for it' is British slang."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0050",
+    "severity": "low",
+    "old": "two men bit the dust on my spear",
+    "new": "two men bit the earth on my spear",
+    "why": "Policy (slang): Homer's own image is ὀδὰξ ἕλον οὖδας, bit the ground; II seg-0027 already has 'bitten the earth'. (11.749)"
+  },
+  {
+    "section": 11,
+    "seg": "seg-0052",
+    "severity": "medium",
+    "old": "Achilles, son of Aeacus.",
+    "new": "Achilles, grandson of Aeacus.",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0011",
+    "severity": "medium",
+    "old": "old Ilus, son of Dardanus, in",
+    "new": "old Ilus, of the line of Dardanus, in",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0028",
+    "severity": "medium",
+    "old": "for Ilus, son of Dardanus, a",
+    "new": "for Ilus, of the line of Dardanus, a",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "him from the car. He stripped",
+    "new": "him from the chariot. He stripped",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "from the car and begged:",
+    "new": "from the chariot and begged:",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "around the car splashed with",
+    "new": "around the chariot splashed with",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "fought on without let",
+    "new": "fought on without pause",
+    "why": "Policy (archaism). 'Without let'."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "whom the great tawny horses of the Selleis breed had carried from Arisbe",
+    "new": "whom his great sorrel horses had carried from Arisbe, from the river Selleis",
+    "why": "Greek 12.96-7 οὓς Ἀρίσβηθεν φέρον ἵπποι αἴθωνες μεγάλοι, ποταμοῦ ἄπο Σελλήεντος; there is no Selleis breed (II seg-0069 has it right)."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "the proud Hippemolgi who milk their mares, and the Abians, the justest men alive, who live on milk and shed no blood.",
+    "new": "the proud Hippemolgi, who live on milk, and the Abians, the justest men alive.",
+    "why": "Greek 13.5-6 Ἱππημολγῶν γλακτοφάγων Ἀβίων τε δικαιοτάτων ἀνθρώπων: 'milk their mares' glosses the name, 'shed no blood' is invented, and the milk belongs to the Hippemolgi (Butler)."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0017",
+    "severity": "low",
+    "old": "Meriones, his sturdy aide",
+    "new": "Meriones, his sturdy squire",
+    "why": "Greek θεράπων; the edition's word elsewhere is squire (XVII seg-0019, XXIII seg-0050); 'aide' sounds like a staffer."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "him and his aide",
+    "new": "him and his squire",
+    "why": "As seg-0017."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0038",
+    "severity": "medium",
+    "old": "bound the hand up in a twist of well-spun wool, a sling the aide of that shepherd of the people carried.",
+    "new": "bound the hand up in a sling of well-spun wool that his squire carried for him, the shepherd of the people.",
+    "why": "Greek 13.599-600 σφενδόνῃ, ἣν ἄρα οἱ θεράπων φέρε ποιμένι λαῶν; the inverted clause stacked two titles and tripped."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "Strange man, come stand and face me yourself",
+    "new": "Madman, come stand and face me yourself",
+    "why": "Policy (δαιμόνιε). Greek 13.448, a battle taunt."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0047",
+    "severity": "low",
+    "old": "\"You strange man, come closer.",
+    "new": "\"You madman, come closer.",
+    "why": "Policy (δαιμόνιε). Greek 13.810, a battle taunt."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "but you, I am furious with.",
+    "new": "but with you I am furious.",
+    "why": "Greek 13.119 ὑμῖν δὲ νεμεσσῶμαι περὶ κῆρι; the inverted ending lost its stress."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0045",
+    "severity": "low",
+    "old": "Paris, you misery, fine to look at, woman-mad, smooth talker",
+    "new": "Cursed Paris, fine to look at, woman-mad seducer",
+    "why": "Greek 13.769 Δύσπαρι ... γυναιμανές, ἠπεροπευτά (the same line as III, rendered there 'you cursed, pretty Paris'); 'you misery' is not English."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0027",
+    "severity": "medium",
+    "old": "Priam, son of Dardanus,",
+    "new": "Priam, of the line of Dardanus,",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0015",
+    "severity": "medium",
+    "old": "they took me in and raised me in their own house",
+    "new": "they took me from Rhea and raised me in their own house",
+    "why": "Greek 14.202-3 δεξάμενοι Ῥείας; Butler 'having taken me over from Rhaea'."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "the Trojans driving them before it.",
+    "new": "the Trojans driving them on from behind.",
+    "why": "Greek 14.14-15 κλονέοντας ὄπισθε Τρῶας; 'before it' made the wall the subject."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "without let or pause",
+    "new": "without rest or pause",
+    "why": "Policy (archaism). 'Without let'."
+  },
+  {
+    "section": 14,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "the painted car. They",
+    "new": "the painted chariot. They",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0032",
+    "severity": "high",
+    "old": "The Greeks held firm against the Trojans' attack, and though the Trojans were the fewer, they could not drive the Greeks back from the ships;",
+    "new": "The Greeks held firm against the Trojans' attack, but though the Trojans were the fewer, the Greeks could not drive them back from the ships;",
+    "why": "Subject reversed. Greek 15.405-7 Ἀχαιοὶ δὲ Τρῶας ἐπερχομένους μένον ἔμπεδον, οὐδ' ἐδύναντο παυροτέρους περ ἐόντας ἀπώσασθαι παρὰ νηῶν: the Greeks could not push back the fewer Trojans."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0046",
+    "severity": "medium",
+    "old": "thrown into godlike panic",
+    "new": "thrown into a wild, unearthly panic",
+    "why": "Greek 15.637 θεσπεσίως ἐφόβηθεν: the adverb means wondrously, terribly; Butler 'utterly panic-stricken'."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0046",
+    "severity": "low",
+    "old": "From that poor father came a far better son",
+    "new": "From that far meaner father came a far better son",
+    "why": "Greek 15.641 ἐκ πατρὸς πολὺ χείρονος υἱὸς ἀμείνων; 'poor' reads as pitiable."
+  },
+  {
+    "section": 15,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "the empty car. Polydamas",
+    "new": "the empty chariot. Polydamas",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0046",
+    "severity": "high",
+    "old": "you are only the third to take my armor.",
+    "new": "you come only third in the killing of me.",
+    "why": "Greek 16.850 σὺ δέ με τρίτος ἐξεναρίζεις: third to slay me (Butler 'third only in the killing of me'). Apollo stripped the armor, Euphorbus took none, so the printed line contradicts itself."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "God keep me from a rage like the one you nurse",
+    "new": "May no rage like the one you nurse ever take hold of me",
+    "why": "Policy (biblical idiom). Greek 16.30 μὴ ἐμέ γ' οὗτός γε λάβοι χόλος ὃν σὺ φυλάσσεις."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0035",
+    "severity": "medium",
+    "old": "who was no worst among the Myrmidons",
+    "new": "who was far from the worst of the Myrmidons",
+    "why": "Ungrammatical. Greek 16.570 οὔ τι κάκιστος."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "as if I were some nobody with no honor at all",
+    "new": "as if I were some drifter with no honor at all",
+    "why": "Greek 16.59 ὡς εἴ τιν' ἀτίμητον μετανάστην: a dishonored vagrant (Butler 'a vagrant')."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0007",
+    "severity": "medium",
+    "old": "the swift-footed son of Aeacus, starry",
+    "new": "the swift-footed grandson of Aeacus, starry",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0008",
+    "severity": "medium",
+    "old": "the swift-footed son of Aeacus, and",
+    "new": "the swift-footed grandson of Aeacus, and",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0046",
+    "severity": "medium",
+    "old": "the son of Aeacus.”",
+    "new": "the grandson of Aeacus.”",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0047",
+    "severity": "medium",
+    "old": "the swift-footed son of Aeacus, eager",
+    "new": "the swift-footed grandson of Aeacus, eager",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0019",
+    "severity": "low",
+    "old": "tumbled from the car, and the",
+    "new": "tumbled from the chariot, and the",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "masters' cars behind.",
+    "new": "masters' chariots behind.",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0023",
+    "severity": "low",
+    "old": "from their cars, and",
+    "new": "from their chariots, and",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "rail of the car — the way",
+    "new": "rail of the chariot — the way",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0042",
+    "severity": "low",
+    "old": "well-wrought car like",
+    "new": "well-wrought chariot like",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0010",
+    "severity": "low",
+    "old": "That great name of yours is wasted; you're a runner.",
+    "new": "That great name of yours is wasted on a man who runs away.",
+    "why": "Greek 17.143 φύξηλιν ἐόντα: a runaway; 'runner' reads as an athlete."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "strips the win from him",
+    "new": "strips the victory from him",
+    "why": "Policy (sports-page 'win'). Greek 17.177 ἀφείλετο νίκην."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0006",
+    "severity": "medium",
+    "old": "proud son of Aeacus.",
+    "new": "proud grandson of Aeacus.",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "the sacred car, both",
+    "new": "the sacred chariot, both",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "from the car and fight.”",
+    "new": "from the chariot and fight.”",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0029",
+    "severity": "high",
+    "old": "They moved to hold him up as he came near Thetis, sat her on a fine chair, took her hand, and said:",
+    "new": "They moved busily to hold their master up, and he limped near to where Thetis was, sat down on a shining chair, took her hand, and said:",
+    "why": "Speaker wrong. Greek 18.421-4 αἳ μὲν ὕπαιθα ἄνακτος ἐποίπνυον· αὐτὰρ ὁ ἔρρων πλησίον ... ἐπὶ θρόνου ἷζε φαεινοῦ, ἔν τ' ἄρα οἱ φῦ χειρί: Hephaestus himself sits, takes her hand and speaks (Butler likewise). Charis had already seated Thetis (seg-0028); the speech's 'Tell me ... my heart says do it' is his."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0029",
+    "severity": "low",
+    "old": "the huge, sooty creature",
+    "new": "the huge, hulking god",
+    "why": "Greek 18.410 πέλωρ αἴητον: a huge, monstrous figure; 'sooty' is added (Butler 'the mighty monster')."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0018",
+    "severity": "medium",
+    "old": "the son of Aeacus.",
+    "new": "the grandson of Aeacus.",
+    "why": "Policy (patronymics): Greek Αἰακίδης, descendant of Aeacus; Achilles is Peleus's son. The edition already says 'grandson of Aeacus' in II and XVII."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0004",
+    "severity": "medium",
+    "old": "had run him through with a spear in the battle",
+    "new": "had wounded him with a spear in the battle",
+    "why": "Greek 19.53 οὔτασε: wounded. In XI (11.252-3) the spear went through his forearm, not his body; Butler 'had wounded him'."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "I will not take the name of the gods in vain",
+    "new": "I will not swear falsely before the gods",
+    "why": "Policy (biblical idiom). Greek 19.188 οὐδ' ἐπιορκήσω πρὸς δαίμονος."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "his spirit may be willing, but his body fails him before he knows it",
+    "new": "however much his heart is set on fighting, his limbs grow heavy before he knows it",
+    "why": "Policy (biblical idiom). Greek 19.164-5 εἴ περ γὰρ θυμῷ γε μενοινάᾳ πολεμίζειν, ἀλλά τε λάθρῃ γυῖα βαρύνεται."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "Sigh broke from him after sigh",
+    "new": "Sigh after sigh broke from him",
+    "why": "Inverted order trips aloud."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "would not have bitten the dust",
+    "new": "would not have bitten the earth",
+    "why": "Policy (slang): Homer's own image is ὀδὰξ ἕλον οὖδας, bit the ground; II seg-0027 already has 'bitten the earth'. (19.61)"
+  },
+  {
+    "section": 19,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "leapt into the car, and behind",
+    "new": "leapt into the chariot, and behind",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0034",
+    "severity": "medium",
+    "old": "This too has been found sharp before now.",
+    "new": "My spear too has been found sharp before now.",
+    "why": "Greek 20.437 ἐπεὶ ἦ καὶ ἐμὸν βέλος ὀξὺ πάροιθεν; 'this' had no antecedent."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "fool that he was, his mind missing it: that the glorious gifts",
+    "new": "fool that he was, not to see in his heart that the glorious gifts",
+    "why": "Greek 20.264-5 νήπιος, οὐδ' ἐνόησε κατὰ φρένα καὶ κατὰ θυμόν ὡς ...; the colon splice tangled the aside."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0037",
+    "severity": "low",
+    "old": "headlong from his car; and as",
+    "new": "headlong from his chariot; and as",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0038",
+    "severity": "low",
+    "old": "around the car, struck",
+    "new": "around the chariot, struck",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "hand Poseidon the win outright",
+    "new": "hand Poseidon the victory outright",
+    "why": "Policy (sports-page 'win'). Greek 21.473 Ποσειδάωνι δὲ νίκην."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0026",
+    "severity": "low",
+    "old": "turned on Artemis in anger and let her have it:",
+    "new": "turned on Artemis in anger and rebuked her:",
+    "why": "Greek 21.480 νείκεσεν; 'let her have it' is too casual."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "who lied me to sleep with promises",
+    "new": "who beguiled me with lies",
+    "why": "Greek 21.276 ἥ με ψεύδεσσιν ἔθελγεν; the coinage trips."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "where the others are running, the rout,",
+    "new": "where the others are running in panic,",
+    "why": "Greek 21.554 τῇ περ οἱ ἄλλοι ἀτύζονται; the appositive stalls the sentence."
+  },
+  {
+    "section": 21,
+    "seg": "seg-0029",
+    "severity": "low",
+    "old": "saw monstrous Achilles below",
+    "new": "saw huge Achilles below",
+    "why": "Greek 21.527 Ἀχιλῆα πελώριον: gigantic; 'monstrous' now suggests wickedness."
+  },
+  {
+    "section": 22,
+    "seg": "seg-0017",
+    "severity": "medium",
+    "old": "\"You missed. So godlike Achilles did not know my fate from Zeus after all — though you spoke as if he had.",
+    "new": "\"You missed, godlike Achilles. So you did not know my fate from Zeus after all — though you spoke as if you did.",
+    "why": "Greek 22.279-80 ἤμβροτες, οὐδ' ἄρα πώ τι, θεοῖς ἐπιείκελ' Ἀχιλλεῦ, ἐκ Διὸς ἠείδης τὸν ἐμὸν μόρον: second person throughout."
+  },
+  {
+    "section": 22,
+    "seg": "seg-0002",
+    "severity": "low",
+    "old": "would still be biting the dust before he reached Ilium",
+    "new": "would still have bitten the earth before he reached Ilium",
+    "why": "Policy (slang): Homer's own image is ὀδὰξ ἕλον οὖδας, bit the ground; II seg-0027 already has 'bitten the earth'. (22.17)"
+  },
+  {
+    "section": 22,
+    "seg": "seg-0021",
+    "severity": "medium",
+    "old": "Priam, son of Dardanus,",
+    "new": "Priam, of the line of Dardanus,",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0045",
+    "severity": "medium",
+    "old": "\"Damn it — the goddess fouled my running.",
+    "new": "\"Ah, no — the goddess fouled my running.",
+    "why": "Policy (slang/profanity). Greek 23.782 ὢ πόποι, ἦ μ' ἔβλαψε θεὰ πόδας; Butler 'Alas'."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0028",
+    "severity": "medium",
+    "old": "To hell with you —",
+    "new": "Go to ruin —",
+    "why": "Policy (slang; Christian hell). Greek 23.440 ἔρρ'."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0046",
+    "severity": "medium",
+    "old": "and yet they call him green old age.",
+    "new": "and yet they say his is a green old age.",
+    "why": "Greek 23.791 ὠμογέροντα δέ μίν φασ' ἔμμεναι; the idiom was garbled."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "I had killed another child —",
+    "new": "I had killed the son of Amphidamas —",
+    "why": "Greek 23.87 παῖδα κατέκτανον Ἀμφιδάμαντος; the name was dropped (Butler keeps it)."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "Echepolus had given the mare",
+    "new": "Echepolus, son of Anchises, had given the mare",
+    "why": "Greek 23.296 Ἐχέπωλος Ἀγχισιάδης."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "there is a time to mourn, and a time to have done with mourning.",
+    "new": "men can have their fill even of mourning.",
+    "why": "Policy (biblical idiom; Ecclesiastes cadence). Greek 23.157 γόοιο μὲν ἔστι καὶ ἆσαι."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "straining for the win and the tripod",
+    "new": "straining for victory and the tripod",
+    "why": "Policy (sports-page 'win')."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "The win is with you both.",
+    "new": "Victory goes to you both.",
+    "why": "Policy (sports-page 'win'). Greek 23.736 νίκη δ' ἀμφοτέροισιν."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0045",
+    "severity": "low",
+    "old": "as he strained for the win.",
+    "new": "as he strained to win.",
+    "why": "Policy (sports-page 'win')."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "this is reckless driving!",
+    "new": "you're driving like a madman!",
+    "why": "Greek 23.426 ἀφραδέως ἱππάζεαι; 'reckless driving' sounds like a traffic citation."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0020",
+    "severity": "low",
+    "old": "strong-built car.\"",
+    "new": "strong-built chariot.\"",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "and his car swings out",
+    "new": "and his chariot swings out",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "left in the car, and call",
+    "new": "left in the chariot, and call",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "smash the car to pieces,",
+    "new": "smash the chariot to pieces,",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0024",
+    "severity": "low",
+    "old": "moment the cars seemed to",
+    "new": "moment the chariots seemed to",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "into his car, their",
+    "new": "into his chariot, their",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "from the car beside the",
+    "new": "from the chariot beside the",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "there. Foul my car, and you'll",
+    "new": "there. Foul my chariot, and you'll",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "and the cars go over,",
+    "new": "and the chariots go over,",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "broke his car, and",
+    "new": "broke his chariot, and",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0031",
+    "severity": "low",
+    "old": "on the car holding the",
+    "new": "on the chariot holding the",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "and the car, inlaid",
+    "new": "and the chariot, inlaid",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0033",
+    "severity": "low",
+    "old": "the gleaming car and leaned",
+    "new": "the gleaming chariot and leaned",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "and his car at full",
+    "new": "and his chariot at full",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0034",
+    "severity": "low",
+    "old": "his fine car, driving",
+    "new": "his fine chariot, driving",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0035",
+    "severity": "low",
+    "old": "think Eumelus's car and horses",
+    "new": "think Eumelus's chariot and horses",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0037",
+    "severity": "low",
+    "old": "and your car, take",
+    "new": "and your chariot, take",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0037",
+    "severity": "low",
+    "old": "foul my car on purpose,",
+    "new": "foul my chariot on purpose,",
+    "why": "Policy (archaism): 'car' for chariot (δίφρος, ἅρμα, ὄχεα); today it means an automobile."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0024",
+    "severity": "medium",
+    "old": "\"Look hard, son of Dardanus —",
+    "new": "\"Look hard, Priam of Dardanus' line —",
+    "why": "Policy (patronymics). Greek 24.354 φράζεο Δαρδανίδη; Priam is Laomedon's son (XX, and III seg-0023 'son of Laomedon')."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "and I would sin against the command of Zeus",
+    "new": "and I would break the command of Zeus",
+    "why": "Policy (biblical idiom). Greek 24.570 Διὸς δ' ἀλίτωμαι ἐφετμάς."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "and sin against the command of Zeus",
+    "new": "and break the command of Zeus",
+    "why": "As seg-0039 (24.586)."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0003",
+    "severity": "low",
+    "old": "that sense of shame that ruins a man, or saves him, depending on how he heeds it",
+    "new": "that sense of shame that does men great harm, and great good",
+    "why": "Greek 24.44-5 αἰδώς ... ἥ τ' ἄνδρας μέγα σίνεται ἠδ' ὀνίνησι; 'depending on how he heeds it' is a gloss."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0037",
+    "severity": "low",
+    "old": "bounded by Lesbos out to sea",
+    "new": "bounded by Lesbos, Macar's seat, out to sea",
+    "why": "Greek 24.544 Λέσβος ἄνω, Μάκαρος ἕδος; proper noun dropped."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0049",
+    "severity": "low",
+    "old": "many a Greek bit the dust",
+    "new": "many a Greek bit the earth",
+    "why": "Policy (slang): Homer's own image is ὀδὰξ ἕλον οὖδας, bit the ground; II seg-0027 already has 'bitten the earth'. (24.738)"
+  },
+  {
+    "section": 24,
+    "seg": "seg-0012",
+    "severity": "medium",
+    "old": "Priam, son of Dardanus,\"",
+    "new": "Priam, of the line of Dardanus,\"",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0042",
+    "severity": "medium",
+    "old": "drink, Priam, son of Dardanus, gazed",
+    "new": "drink, Priam, of the line of Dardanus, gazed",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0042",
+    "severity": "medium",
+    "old": "at Priam, son of Dardanus, at",
+    "new": "at Priam, of the line of Dardanus, at",
+    "why": "Policy (patronymics): Greek Δαρδανίδης, of Dardanus's line; Priam is Laomedon's son, Ilus is Tros's. Matches III seg-0027 'Priam of the line of Dardanus'."
+  }
+]

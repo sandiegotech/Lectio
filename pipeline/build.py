@@ -16,6 +16,23 @@ from .recipes import RECIPES
 OUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "content"))
 
 
+HELD = "2999-12-31"   # in the bundle, not yet given a date
+
+
+def stamp_releases(works) -> None:
+    """Release dates come from the register (catalog/books.json), not from recipes."""
+    import json
+    path = os.path.join(os.path.dirname(OUT_DIR), "catalog", "books.json")
+    if not os.path.exists(path):
+        return
+    register = {b["workId"]: b.get("release") for b in json.load(open(path)) if b.get("workId")}
+    for w in works:
+        release = register.get(w.id)
+        w.releaseDate = None if release == "launch" else (release or HELD)
+        if w.releaseDate:
+            print(f"  release {w.id}: {'held' if w.releaseDate == HELD else w.releaseDate}")
+
+
 def main() -> int:
     works, editions = [], []
     spines: dict[str, dict] = {}
@@ -33,6 +50,7 @@ def main() -> int:
               f"{sum(len(s.segments) for e in eds for s in e.sections)} segments"
               + (f", {aligned} spine-aligned" if aligned else ""))
 
+    stamp_releases(works)
     collections = build_collections(works)
 
     problems = publish.validate(works, editions, collections)

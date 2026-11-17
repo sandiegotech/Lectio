@@ -1,0 +1,210 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "plants that seed themselves, and every kind",
+  "new": "seed-bearing plants, and every kind",
+  "why": "Hebrew deshe esev mazria zera, 'plants yielding seed' (KJV 'herb yielding seed'); 'seed themselves' says self-sowing. 1:12 and 1:29 already say 'seed-bearing'. Hebrew from own knowledge."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "Let them mark the seasons, the days, and the years",
+  "new": "Let them be signs, and mark the seasons, the days, and the years",
+  "why": "Hebrew vehayu le'otot ulemo'adim uleyamim veshanim: 'signs' (otot) is dropped (KJV 'let them be for signs, and for seasons, and for days, and years'). Hebrew from own knowledge. Mirror in the pilot."
+ },
+ {
+  "section": 2,
+  "seg": null
+ },
+ {
+  "section": 3,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "Now he must not be allowed to reach out his hand and take from the tree of life too, and eat, and live forever.”",
+  "new": "And now — what if he reaches out his hand and takes from the tree of life too, and eats, and lives forever —”",
+  "why": "Hebrew ve'attah pen-yishlach yado... vachai le'olam breaks off unfinished and the narrative acts (KJV 'And now, lest he put forth his hand... and live for ever:'); the rendering completed it as a rule. Hebrew from own knowledge. Mirror in the pilot."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0007",
+  "severity": "low",
+  "old": "named him Seth — “because God has set",
+  "new": "named him Seth — “because,” she said, “God has set",
+  "why": "Hebrew ki shat-li elohim is Eve's speech (KJV 'For God, said she, hath appointed me'); as printed the quotation has no speaker. Hebrew from own knowledge."
+ },
+ {
+  "section": 5,
+  "seg": null
+ },
+ {
+  "section": 6,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "an ark of cypress wood",
+  "new": "an ark of gopher wood",
+  "why": "Hebrew atsei-gopher is unidentified (KJV 'gopher wood'); 'cypress' is a scholarly guess printed as text. Same rule the edition applies to Nephilim and El Shaddai. Hebrew from own knowledge."
+ },
+ {
+  "section": 7,
+  "seg": null
+ },
+ {
+  "section": 8,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "seed time and harvest",
+  "new": "seedtime and harvest",
+  "why": "Hebrew zera vekatsir; KJV 'seedtime and harvest'. 'seedtime' is one English word; split, it misreads aloud."
+ },
+ {
+  "section": 9,
+  "seg": null
+ },
+ {
+  "section": 10,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "And sons were born to Shem as well — the father of all the sons of Eber, the older brother of Japheth.",
+  "new": "And sons were born to Shem as well — Shem, the older brother of Japheth, the father of all the sons of Eber.",
+  "why": "As punctuated the appositive attaches to Eber. Hebrew avi kol-benei-ever achi yefet hagadol both describe Shem (KJV 'the father of all the children of Eber, the brother of Japheth the elder'). Hebrew from own knowledge."
+ },
+ {
+  "section": 11,
+  "seg": null
+ },
+ {
+  "section": 12,
+  "seg": null
+ },
+ {
+  "section": 13,
+  "seg": null
+ },
+ {
+  "section": 14,
+  "seg": "seg-0004",
+  "severity": "low",
+  "old": "And Abram gave him a tenth of everything.",
+  "new": "And he gave him a tenth of everything.",
+  "why": "Hebrew vayyitten-lo ma'aser mikkol has no named subject (KJV 'And he gave him tithes of all'); who paid whom is a known crux, and the text should leave it open. Hebrew from own knowledge."
+ },
+ {
+  "section": 15,
+  "seg": null
+ },
+ {
+  "section": 16,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "“Have I really seen him here, and lived, after he saw me?”",
+  "new": "“Have I really seen here the one who sees me?”",
+  "why": "Received Hebrew hagam halom ra'iti acharei ro'i (KJV 'Have I also here looked after him that seeth me?'); 'and lived' comes from an emendation (elohim ra'iti va'echi), not the Masoretic text. Hebrew from own knowledge."
+ },
+ {
+  "section": 17,
+  "seg": null
+ },
+ {
+  "section": 18,
+  "seg": null
+ },
+ {
+  "section": 19,
+  "seg": null
+ },
+ {
+  "section": 20,
+  "seg": null
+ },
+ {
+  "section": 21,
+  "seg": "seg-0005",
+  "severity": "low",
+  "old": "As I have kept faith with you, so you will keep faith with me",
+  "new": "As I have shown you kindness, so you will show kindness to me",
+  "why": "Hebrew kachesed asher-asiti immekha ta'aseh immadi (KJV 'according to the kindness that I have done unto thee'); the charter fixes hesed as 'kindness', and 19:19, 20:13, 24:12 use it. Hebrew from own knowledge."
+ },
+ {
+  "section": 22,
+  "seg": null
+ },
+ {
+  "section": 23,
+  "seg": null
+ },
+ {
+  "section": 24,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "God of the sky and God of the earth",
+  "new": "God of heaven and God of the earth",
+  "why": "Hebrew elohei hashamayim velohei ha'arets (KJV 'the God of heaven, and the God of the earth'): a divine title, not weather; cf. 'maker of heaven and earth' at 14:19, 14:22. Policy: shamayim as title or God's place = heaven. Hebrew from own knowledge."
+ },
+ {
+  "section": 24,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "The LORD, God of the sky, who took me",
+  "new": "The LORD, God of heaven, who took me",
+  "why": "Hebrew YHWH elohei hashamayim (24:7; KJV 'The LORD God of heaven'); same title as 24:3. Hebrew from own knowledge."
+ },
+ {
+  "section": 25,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "He settled alongside all his kin.",
+  "new": "He settled at odds with all his kin.",
+  "why": "Hebrew al-penei khol-echav nafal repeats the oracle of 16:12 (al-penei khol-echav yishkon), which the edition renders 'live at odds with all his brothers'; 'alongside' drops the hostility and the echo. Hebrew from own knowledge."
+ },
+ {
+  "section": 26,
+  "seg": null
+ },
+ {
+  "section": 27,
+  "seg": null
+ },
+ {
+  "section": 28,
+  "seg": "seg-0004",
+  "severity": "medium",
+  "old": "and this is the gate of the sky.",
+  "new": "and this is the gate of heaven.",
+  "why": "Hebrew sha'ar hashamayim, KJV 'this is the gate of heaven': God's dwelling, not the atmosphere, and the line must stay recognizable. Policy: shamayim as title or God's place = heaven. Hebrew from own knowledge."
+ },
+ {
+  "section": 29,
+  "seg": null
+ },
+ {
+  "section": 30,
+  "seg": null
+ },
+ {
+  "section": 31,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "that you have come after me so hot?",
+  "new": "that you have come after me in hot pursuit?",
+  "why": "Hebrew ki dalaqta acharai (KJV 'that thou hast so hotly pursued after me'); 'come after me so hot' is not idiomatic and stalls the line. Hebrew from own knowledge."
+ },
+ {
+  "section": 32,
+  "seg": null
+ },
+ {
+  "section": 33,
+  "seg": null
+ },
+ {
+  "section": 34,
+  "seg": null
+ },
+ {
+  "section": 41,
+  "seg": null
+ }
+]

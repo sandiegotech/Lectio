@@ -1,0 +1,630 @@
+[
+ {
+  "section": 35,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "so worthy in his look of reverence",
+  "new": "so worthy of reverence in his look",
+  "why": "degno di tanta reverenza in vista: worthy of reverence in appearance, not a reverent look. Longfellow agrees."
+ },
+ {
+  "section": 35,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "brought back the delight to my eyes",
+  "new": "brought delight back to my eyes",
+  "why": "a li occhi miei ricominciò diletto; the stray article trips the line."
+ },
+ {
+  "section": 35,
+  "seg": "seg-0032",
+  "severity": "low",
+  "old": "every stain that hell has left on it",
+  "new": "every stain that clings to it",
+  "why": "sì ch'ogne sucidume quindi stinghe: 'that hell has left' is an added gloss."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0016",
+  "severity": "medium",
+  "old": "\"In exitu Israel de Aegypto\" —\nWhen Israel went out of Egypt — all of them\nsang it together, in one voice, to the end,",
+  "new": "\"In exitu Israel de Aegypto,\"\nthey all sang together, in one voice,\nwith everything that psalm sets down thereafter.",
+  "why": "Policy T (tercet realignment, Canto II): Dante 46-48 leaves the psalm in Latin; the English gloss line is removed and the tercet closes on 'scripto'."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0017",
+  "severity": "medium",
+  "old": "with everything that psalm sets down thereafter.\nThen he traced the holy cross above them,\nand they flung themselves, every one, onto the strand,",
+  "new": "Then he traced the holy cross above them,\nand they flung themselves, every one, onto the strand,\nand he was gone, as swiftly as he had come.",
+  "why": "Policy T (tercet realignment, Canto II): back on Dante 49-51 (Poi fece il segno ... veloce); line moved up from seg-0018."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0018",
+  "severity": "medium",
+  "old": "and he was gone, as swiftly as he had come.\nThe crowd left standing there seemed strangers\nto the place, looking all around them,",
+  "new": "The crowd left standing there seemed strangers\nto the place, looking all around them,\nlike someone testing out new things.",
+  "why": "Policy T (tercet realignment, Canto II): back on Dante 52-54 (La turba ... assaggia); line moved up from seg-0019."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "like someone testing out new things.\nOn every side the day was breaking now —\nthe sun, with his bright shafts, had chased",
+  "new": "On every side the day was breaking now —\nthe sun, with his bright shafts, had chased\nthe Capricorn down out of the high middle sky —",
+  "why": "Policy T (tercet realignment, Canto II): back on Dante 55-57 (Da tutte parti ... Capricorno); line moved up from seg-0020."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0020",
+  "severity": "medium",
+  "old": "the Capricorn down out of the high middle sky —\nwhen the new people lifted their faces toward us\nand said: \"If you know it, show us the way",
+  "new": "when the new people lifted their faces toward us\nand said: \"If you know it, show us the way\nto go up the mountain.\"",
+  "why": "Policy T (tercet realignment, Canto II): back on Dante 58-60, ending on 'gire al monte'."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0021",
+  "severity": "medium",
+  "old": "to go up the mountain.\" And Virgil answered:\n\"You think, perhaps, that we know this place,\nbut we are strangers here, the same as you.",
+  "new": "And Virgil answered: \"Perhaps you think\nwe know our way about this place;\nbut we are strangers here, the same as you.",
+  "why": "Policy T (tercet realignment, Canto II): back on Dante 61-63 (E Virgilio rispuose: 'Voi credete / forse che siamo esperti d'esto loco; / ma noi siam peregrin come voi siete'); wording otherwise kept."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0044",
+  "severity": "medium",
+  "old": "like people going who don't know where; nor was our own leaving",
+  "new": "like people going who don't know where;\nnor was our own leaving",
+  "why": "Policy C (closing line): Dante 133 'né la nostra partita fu men tosta' is the canto's closing line; the edition has no 45th segment, so it is restored as its own line at the end of seg-0044."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "how were so many years taken from you?",
+  "new": "how was so much time taken from you?",
+  "why": "Ma a te com' era tanta ora tolta?: 'so much time', the delay; 'years' is added."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "fanning the air with feathers that never fall,\nthat do not molt away",
+  "new": "fanning the air with his eternal feathers\nthat do not molt away",
+  "why": "trattando l'aere con l'etterne penne: 'never fall' and 'do not molt' said the same thing twice."
+ },
+ {
+  "section": 36,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "so all those lucky spirits",
+  "new": "so all those fortunate spirits",
+  "why": "anime fortunate; 'lucky' is too casual."
+ },
+ {
+  "section": 37,
+  "seg": "seg-0023",
+  "severity": "high",
+  "old": "That people was still as far from us —\na thousand of our steps, I'd say —\nas a good arm could throw a stone,",
+  "new": "Even after we had gone a thousand steps,\nthat people was still as far from us\nas a good arm could throw a stone,",
+  "why": "Ancora era quel popol di lontano, / i' dico dopo i nostri mille passi, / quanto un buon gittator trarria con mano: the thousand steps are what they had walked; the distance is still a stone's throw."
+ },
+ {
+  "section": 37,
+  "seg": "seg-0013",
+  "severity": "medium",
+  "old": "Be content with the because, humankind.",
+  "new": "Be content, humankind, with knowing that it is.",
+  "why": "State contenti, umana gente, al quia: the scholastic quia is the bare fact, set against the why; 'the because' says the opposite."
+ },
+ {
+  "section": 37,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "and you have watched men long without end —",
+  "new": "and you have seen men long for it in vain —",
+  "why": "e disïar vedeste sanza frutto: desire 'without fruit', not without end."
+ },
+ {
+  "section": 37,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "the leader of that lucky flock",
+  "new": "the leader of that fortunate flock",
+  "why": "mandra fortunata; same word as Canto II, same fix."
+ },
+ {
+  "section": 38,
+  "seg": null
+ },
+ {
+  "section": 39,
+  "seg": "seg-0030",
+  "severity": "high",
+  "old": "Giovanna, no one — no one cares for me;",
+  "new": "Neither Giovanna nor anyone else cares for me;",
+  "why": "Giovanna o altri non ha di me cura: Giovanna (his widow) is the subject, not someone addressed. Longfellow: 'Giovanna, nor none other cares for me'."
+ },
+ {
+  "section": 39,
+  "seg": "seg-0022",
+  "severity": "medium",
+  "old": "as long as can't doesn't cut off will.",
+  "new": "so long as \"I cannot\" does not cut off \"I will.\"",
+  "why": "pur che 'l voler nonpossa non ricida: the two words are quoted nouns; bare they read as verbs."
+ },
+ {
+  "section": 40,
+  "seg": "seg-0044",
+  "severity": "medium",
+  "old": "Many carry justice in their hearts, but the shot\ncomes slow, so it won't leave the bow unconsidered;",
+  "new": "Many hold justice in their hearts, but loose it slowly,\nso it won't leave the bow without thought;",
+  "why": "Molti han giustizia in cuore, e tardi scocca / per non venir sanza consiglio a l'arco: the archery image untangled."
+ },
+ {
+  "section": 41,
+  "seg": "seg-0042",
+  "severity": "medium",
+  "old": "Pedro, who sings with him —\nfor whom Provence and Apulia already grieve.",
+  "new": "Pedro, who sings with him;\nand so Provence and Apulia grieve already.",
+  "why": "onde Puglia e Proenza già si dole: they grieve because of the large-nosed Charles's heir, not for Pedro."
+ },
+ {
+  "section": 41,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "Before the little sun goes down to its nest",
+  "new": "Before what little sun is left goes to its nest",
+  "why": "Prima che 'l poco sole omai s'annidi: what little sun remains."
+ },
+ {
+  "section": 42,
+  "seg": null
+ },
+ {
+  "section": 43,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "\"See you wash these wounds",
+  "new": "\"Be sure you wash these wounds",
+  "why": "Fa che lavi ... queste piaghe; 'See you' first reads as a farewell."
+ },
+ {
+  "section": 43,
+  "seg": "seg-0001",
+  "severity": "low",
+  "old": "was glowing white at the eastern rail,",
+  "new": "was glowing white on the balcony of the east,",
+  "why": "al balco d'orïente; 'rail' reads as a fence."
+ },
+ {
+  "section": 43,
+  "seg": "seg-0045",
+  "severity": "low",
+  "old": "bars of heavy, ringing metal —",
+  "new": "which are of heavy, ringing metal —",
+  "why": "li spigoli ... che di metallo son sonanti e forti: the pivots are the metal; 'bars' adds an object."
+ },
+ {
+  "section": 44,
+  "seg": "seg-0028",
+  "severity": "medium",
+  "old": "\"Lord, give me justice\nfor my dead son.",
+  "new": "\"Lord, avenge me\nfor my dead son.",
+  "why": "Segnor, fammi vendetta: she asks for vengeance; Trajan's 'justice' answer (seg-0031) depends on the difference."
+ },
+ {
+  "section": 44,
+  "seg": "seg-0032",
+  "severity": "medium",
+  "old": "made this speech you could see —",
+  "new": "made this visible speech —",
+  "why": "visibile parlare: the known phrase restored."
+ },
+ {
+  "section": 44,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "the peace that broke Heaven's long embargo,",
+  "new": "the peace that opened Heaven after its long ban,",
+  "why": "ch'aperse il ciel del suo lungo divieto; 'embargo' is a trade-policy word."
+ },
+ {
+  "section": 44,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "if you let your own slide?\"",
+  "new": "if you forget your own?\"",
+  "why": "se la tua metti in oblio: put out of mind; 'let slide' is too casual."
+ },
+ {
+  "section": 44,
+  "seg": "seg-0019",
+  "severity": "low",
+  "old": "why men dread an office not given them to hold.",
+  "new": "for which men dread an office not given them to hold.",
+  "why": "per che si teme officio non commesso: the line hangs on the ark (Uzzah); 'why' reads as a stray fragment."
+ },
+ {
+  "section": 45,
+  "seg": "seg-0031",
+  "severity": "medium",
+  "old": "unless a coarse age follows and dims the rest.",
+  "new": "unless a cruder age comes after it.",
+  "why": "se non è giunta da l'etati grosse: 'and dims the rest' is added and changes the sense."
+ },
+ {
+  "section": 45,
+  "seg": "seg-0046",
+  "severity": "low",
+  "old": "to beg — to tremble in every vein.",
+  "new": "to tremble in every vein.",
+  "why": "si condusse a tremar per ogne vena: 'to beg' is a gloss; the begging is implied by the Campo scene."
+ },
+ {
+  "section": 46,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "made the fatal necklace cost his mother\nso dearly for what she wore.",
+  "new": "made his mother pay so dearly\nfor the ill-starred necklace she wore.",
+  "why": "come Almeon a sua madre fé caro / parer lo sventurato addornamento; the line limped on a repeat."
+ },
+ {
+  "section": 46,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "long enough to see how lost your road has gone!",
+  "new": "long enough to see the evil road you're on!",
+  "why": "sì che veggiate il vostro mal sentiero."
+ },
+ {
+  "section": 46,
+  "seg": "seg-0037",
+  "severity": "low",
+  "old": "voices were singing \"Blessed are the poor in spirit\" —",
+  "new": "voices were singing \"Beati pauperes spiritu\" —",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XII.110 has the beatitude in Latin, as the edition does for every other terrace."
+ },
+ {
+  "section": 47,
+  "seg": "seg-0034",
+  "severity": "low",
+  "old": "looking the part — and if you ask me how,",
+  "new": "by the look of it — and if you ask me how,",
+  "why": "un'ombra ch'aspettava / in vista: her look was one of waiting; 'looking the part' means seeming suitable."
+ },
+ {
+  "section": 47,
+  "seg": "seg-0010",
+  "severity": "low",
+  "old": "said out loud, \"They have no wine\" —",
+  "new": "said out loud, \"Vinum non habent\" —",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XIII.29 'Vinum non habent' is Latin."
+ },
+ {
+  "section": 48,
+  "seg": "seg-0038",
+  "severity": "low",
+  "old": "now that your family has cleared out",
+  "new": "now that your family is gone",
+  "why": "poi che gita se n'è la tua famiglia; 'cleared out' is casual, near comic."
+ },
+ {
+  "section": 48,
+  "seg": "seg-0051",
+  "severity": "low",
+  "old": "strikes you down.\"",
+  "new": "strikes you.\"",
+  "why": "onde vi batte chi tutto discerne: beats or chastises; 'down' suggests death. Closing line otherwise kept."
+ },
+ {
+  "section": 49,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "remained to the sun above us still to run.",
+  "new": "was left for the sun above us to run.",
+  "why": "essere al sol del suo corso rimaso; 'remained ... still' doubled."
+ },
+ {
+  "section": 50,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "You lie, though free, beneath a greater power",
+  "new": "Though free, you are subject to a greater power",
+  "why": "liberi soggiacete; aloud, 'You lie' lands as an accusation."
+ },
+ {
+  "section": 51,
+  "seg": "seg-0045",
+  "severity": "medium",
+  "old": "There is another good that brings no joy;",
+  "new": "There is another good that does not make us happy;",
+  "why": "Altro ben è che non fa l'uom felice: such goods please (hence 'too far' next) but do not bless."
+ },
+ {
+  "section": 51,
+  "seg": "seg-0023",
+  "severity": "medium",
+  "old": "and a fanning across my face, and a voice:\n\"Beati pacifici — blessed are they\nwho are free of evil anger.\"",
+  "new": "and a fanning across my face, and a voice: \"Beati\npacifici, who are free of evil anger!\"",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XVII.68-69 'Beati / pacifici, che son sanz' ira mala!'; the English gloss 'blessed are they' removed, and the tercet is three lines again."
+ },
+ {
+  "section": 51,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "either love of nature or love of the mind;\nand this you know.",
+  "new": "either of nature or of the mind; and this you know.",
+  "why": "o naturale o d'animo; e tu 'l sai: one line in Dante; the stray fourth line rejoined."
+ },
+ {
+  "section": 52,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "its book of Ethics.",
+  "new": "its moral teaching.",
+  "why": "però moralità lasciaro al mondo: the title is read in by the edition."
+ },
+ {
+  "section": 52,
+  "seg": "seg-0021",
+  "severity": "low",
+  "old": "Now, so that every other desire can be measured against this one,",
+  "new": "Now, so that every other wish may fall in with this one,",
+  "why": "perché a questa ogn' altra si raccoglia: gathered into accord, not measured."
+ },
+ {
+  "section": 53,
+  "seg": "seg-0018",
+  "severity": "low",
+  "old": "\"What is it with you, that",
+  "new": "\"What troubles you, that",
+  "why": "Che hai che pur inver' la terra guati?; 'What is it with you' jars in Virgil's mouth."
+ },
+ {
+  "section": 53,
+  "seg": "seg-0020",
+  "severity": "low",
+  "old": "the one for whom, above us, they still weep?",
+  "new": "the one for whom alone, above us, they now weep?",
+  "why": "che sola sovr' a noi omai si piagne: 'sola' and 'omai' were lost."
+ },
+ {
+  "section": 53,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "declaring that those who mourn are blessed,",
+  "new": "declaring \"Qui lugent\" to be blessed,",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XIX.50 ''Qui lugent' affermando esser beati'."
+ },
+ {
+  "section": 53,
+  "seg": "seg-0025",
+  "severity": "low",
+  "old": "\"My soul has clung to the dust,\"",
+  "new": "\"Adhaesit pavimento anima mea,\"",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XIX.73 is the Latin psalm verse."
+ },
+ {
+  "section": 53,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "know this: that I was once the successor of Peter.",
+  "new": "scias quod ego fui successor Petri.",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XIX.99 Adrian speaks this line in Latin."
+ },
+ {
+  "section": 54,
+  "seg": "seg-0040",
+  "severity": "medium",
+  "old": "as the feeling that spurs our going moves us\nnow to a quicker, now to a slower pace.",
+  "new": "as the feeling that spurs us to speak\ndrives us now to a quicker, now a slower pace.",
+  "why": "secondo l'affezion ch'a dir ci sprona: the pace is of speaking; these souls lie prone. Longfellow: 'desire of speech, that spurs us'."
+ },
+ {
+  "section": 54,
+  "seg": "seg-0046",
+  "severity": "low",
+  "old": "\"Glory to God in the highest\" — that was what",
+  "new": "\"Gloria in excelsis Deo\" — that was what",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): Dante XX.136 ''Gloria in excelsis' tutti 'Deo''."
+ },
+ {
+  "section": 55,
+  "seg": "seg-0033",
+  "severity": "low",
+  "old": "a single gram.",
+  "new": "a single dram.",
+  "why": "non fermai peso di dramma; 'gram' is metric."
+ },
+ {
+  "section": 55,
+  "seg": "seg-0024",
+  "severity": "low",
+  "old": "may he speed them up soon.\"",
+  "new": "may he soon send them upward.\"",
+  "why": "che tosto sù li 'nvii: send them up, not make them faster."
+ },
+ {
+  "section": 56,
+  "seg": "seg-0014",
+  "severity": "medium",
+  "old": "'To what, O cursed hunger for gold,\ndo you not drive the appetites of men?'",
+  "new": "'Why, O holy hunger for gold,\ndo you not rule the appetites of men?'",
+  "why": "Per che non reggi tu, o sacra fame / de l'oro, l'appetito de' mortali?: Statius reads Aeneid III.56-57 as a call to measure, which is what convicts him of prodigality. Longfellow follows Virgil instead."
+ },
+ {
+  "section": 56,
+  "seg": "seg-0034",
+  "severity": "low",
+  "old": "and in what ditch.\"",
+  "new": "and in what quarter.\"",
+  "why": "in qual vico: a street or quarter; 'ditch' suggests the Malebolge."
+ },
+ {
+  "section": 56,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "the word \"sitio\"",
+  "new": "the word \"sitiunt\"",
+  "why": "Dante XXII.6 'con \"sitiunt\", sanz' altro': the beatitude's 'sitiunt' (they thirst), not 'sitio'. Found on verification; the reviewer's English rendering is rejected under Policy L."
+ },
+ {
+  "section": 57,
+  "seg": "seg-0012",
+  "severity": "medium",
+  "old": "and the smell of water — with no way to reach either?",
+  "new": "and the smell of water — not knowing how?",
+  "why": "e quel d'un'acqua, non sappiendo como: who would believe it, not knowing the cause; reaching the food is not said here."
+ },
+ {
+  "section": 58,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "and crying up toward the leaves I-don't-know-what,",
+  "new": "and crying I don't know what up toward the leaves,",
+  "why": "gridar non so che verso le fronde; the hyphenated compound reads oddly aloud."
+ },
+ {
+  "section": 58,
+  "seg": "seg-0040",
+  "severity": "low",
+  "old": "So said a voice I-don't-know-whose among the boughs;",
+  "new": "So said a voice among the boughs, I don't know whose;",
+  "why": "non so chi, tra le frasche; same mannerism."
+ },
+ {
+  "section": 60,
+  "seg": "seg-0028",
+  "severity": "medium",
+  "old": "Our own offense was of both kinds at once;",
+  "new": "Our own sin was between man and woman;",
+  "why": "Nostro peccato fu ermafrodito: heterosexual, against the Sodomites; 'both kinds at once' suggests both sins."
+ },
+ {
+  "section": 60,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "starting again, \"who for a better life\ntake on a cargo of our borderlands.",
+  "new": "starting again, \"who, so as to die better,\ntake on board the knowledge of our borderlands.",
+  "why": "de le nostre marche ... per morir meglio, esperïenza imbarche: to die better; 'for a better life' follows Longfellow, not Dante."
+ },
+ {
+  "section": 60,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "was a better craftsman of the mother tongue.",
+  "new": "was the better smith of the mother tongue.",
+  "why": "il miglior fabbro del parlar materno: the known phrase."
+ },
+ {
+  "section": 60,
+  "seg": "seg-0047",
+  "severity": "low",
+  "old": "Freely he began to speak — in his own tongue:",
+  "new": "Freely he began to speak:",
+  "why": "Policy L (Latin/Occitan stays in the original, no in-line English): El cominciò liberamente a dire: 'in his own tongue' is an in-line gloss announcing the Occitan."
+ },
+ {
+  "section": 61,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "stands only this wall.\"",
+  "new": "stands this wall.\"",
+  "why": "tra Bëatrice e te è questo muro: 'only' is added."
+ },
+ {
+  "section": 62,
+  "seg": "seg-0011",
+  "severity": "low",
+  "old": "though it moves under a dark, dark current\nin a shade that never breaks —",
+  "new": "though it moves on dark, dark,\nunder a shade that never breaks —",
+  "why": "si mova bruna bruna / sotto l'ombra perpetüa: the water itself is dark, under the shade."
+ },
+ {
+  "section": 63,
+  "seg": "seg-0039",
+  "severity": "medium",
+  "old": "No splendid car like this ever gladdened\nAfricanus, or Augustus — not even Rome's;\nbeside it, the Sun's own chariot would be poor,",
+  "new": "Rome never gladdened Africanus,\nor even Augustus, with a car so splendid;\nbeside it, the Sun's own chariot would be poor,",
+  "why": "Non che Roma di carro così bello / rallegrasse Affricano, o vero Augusto: 'not even Rome's' dangled."
+ },
+ {
+  "section": 64,
+  "seg": "seg-0012",
+  "severity": "low",
+  "old": "had not been brought to stand and shake before her,\nhad not stood trembling in her presence —",
+  "new": "had not been broken down with awe,\ntrembling in her presence —",
+  "why": "ch'a la sua presenza / non era di stupor, tremando, affranto: one idea said twice; 'stupor' restored as awe."
+ },
+ {
+  "section": 64,
+  "seg": "seg-0029",
+  "severity": "low",
+  "old": "among the living rafters of beams",
+  "new": "among the living rafters",
+  "why": "tra le vive travi: the rafters are the trees; 'of beams' muddles it."
+ },
+ {
+  "section": 65,
+  "seg": "seg-0003",
+  "severity": "low",
+  "old": "that the voice moved, and yet went out",
+  "new": "that the voice moved, and yet died",
+  "why": "pria si spense: it died out; 'went out' first reads as 'came out'."
+ },
+ {
+  "section": 65,
+  "seg": "seg-0028",
+  "severity": "low",
+  "old": "farther than she had outshone all others here.",
+  "new": "farther than she outshone all others when she was on earth.",
+  "why": "vincer che l'altre qui, quand' ella c'era: 'here' is earth; in Eden it pointed wrong."
+ },
+ {
+  "section": 66,
+  "seg": "seg-0050",
+  "severity": "low",
+  "old": "Sure of itself as a fortress on a high peak,",
+  "new": "Secure as a fortress on a high peak,",
+  "why": "Sicura (feminine): the harlot is secure, not the chariot."
+ },
+ {
+  "section": 66,
+  "seg": "seg-0002",
+  "severity": "low",
+  "old": "a wall of not-caring",
+  "new": "a wall of indifference",
+  "why": "di non caler parete; plain English has the word."
+ },
+ {
+  "section": 66,
+  "seg": "seg-0054",
+  "severity": "low",
+  "old": "made a shield, hiding from me the harlot\nand the strange new beast.",
+  "new": "made a shield between me and the harlot and the strange new beast.",
+  "why": "Policy C (closing line): Dante XXXII.160 'a la puttana e a la nova belva' is one closing line; the segment had it broken over two."
+ },
+ {
+  "section": 67,
+  "seg": "seg-0023",
+  "severity": "low",
+  "old": "the stone-stilling water of Elsa",
+  "new": "the petrifying water of Elsa",
+  "why": "acqua d'Elsa: its water coats things in stone; 'stone-stilling' is opaque."
+ },
+ {
+  "section": 67,
+  "seg": "seg-0048",
+  "severity": "low",
+  "old": "remade — the way new plants are renewed\nwith new leaves —\npure and ready",
+  "new": "remade, the way young plants are made new\nwhen they put out new leaves,\npure and ready",
+  "why": "Policy C (closing line): Dante XXXIII.142-145: the last tercet is three full lines again and the closing line 'puro e disposto a salire a le stelle' stands alone, unchanged, as the segment's last line (no 49th segment exists)."
+ },
+ {
+  "section": 59,
+  "seg": null
+ }
+]

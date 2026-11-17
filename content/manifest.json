@@ -5,7 +5,7 @@
     {
       "id": "collection.lectio",
       "title": "The Lectio Collection",
-      "checksum": "e4a1f01139ccfc57"
+      "checksum": "5a1eb49a24d6eb20"
     },
     {
       "id": "collection.great-books",
@@ -15,7 +15,7 @@
     {
       "id": "collection.eastern-canon",
       "title": "Great Books of the Eastern World",
-      "checksum": "e18873fd3ba8a3cc"
+      "checksum": "877d4415428fc35b"
     },
     {
       "id": "collection.harvard-classics",
@@ -35,12 +35,12 @@
     {
       "id": "genre.religion",
       "title": "Religion",
-      "checksum": "38d4b9b046f95e48"
+      "checksum": "ad3f83ab51ab4d78"
     },
     {
       "id": "genre.philosophy",
       "title": "Philosophy",
-      "checksum": "d9b34818712008d5"
+      "checksum": "1617a8afe88023c9"
     },
     {
       "id": "genre.history-biography",
@@ -97,7 +97,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "22c0d937909e9138"
+          "checksum": "b6fcea0f786e7ab3"
         },
         {
           "id": "edition.meditations.long-1862",
@@ -148,7 +148,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "98cc217692ab7392"
+          "checksum": "9c4f229a446a8d89"
         },
         {
           "id": "edition.iliad.pope-1715",
@@ -191,7 +191,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "ed6e488809a287dc"
+          "checksum": "79bebca260da279e"
         },
         {
           "id": "edition.odyssey.butler-1900",
@@ -225,7 +225,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "820eeb35ac840ebf"
+          "checksum": "60b17d352728c739"
         },
         {
           "id": "edition.aeneid.dryden-1697",
@@ -257,7 +257,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "51ca810753acb7b9"
+          "checksum": "61cf613163e120eb"
         },
         {
           "id": "edition.republic.jowett-1871",
@@ -289,7 +289,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "5f4a0ac0c9e5b07d"
+          "checksum": "5a3ee88346ca1e12"
         },
         {
           "id": "edition.nicomachean-ethics.chase-1911",
@@ -322,7 +322,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "1d1d36e480b58b2e"
+          "checksum": "ffb4d2eec9bdab7a"
         },
         {
           "id": "edition.the-prince.marriott-1908",
@@ -331,10 +331,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "The standard public-domain Prince — Marriott's clear, faithful Edwardian English.",
-          "checksum": "7ee6aafb09b628fd"
+          "checksum": "3f4e26b1040023c2"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "c6a2ef2d50400c22"
     },
     {
@@ -354,7 +354,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "7d4b6327fed640e7"
+          "checksum": "7473d55e08170df7"
         },
         {
           "id": "edition.analects.legge-1893",
@@ -363,10 +363,10 @@
           "form": "prose",
           "kind": "translation",
           "character": "The scholar's Analects — Legge's careful, literal Victorian standard.",
-          "checksum": "8b79ad88f0a456aa"
+          "checksum": "da049efc1ec81460"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "093da14d6de882f2"
     },
     {
@@ -387,7 +387,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "ed552bdf66f92360"
+          "checksum": "ca826fa32ed0dd5a"
         },
         {
           "id": "edition.confessions.pusey-1838",
@@ -399,7 +399,7 @@
           "checksum": "73a64591ca783ffc"
         }
       ],
-      "hasAlignment": false,
+      "hasAlignment": true,
       "checksum": "2d01d63bb81d51e4"
     },
     {
@@ -419,7 +419,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "4319da058ddc1f02"
+          "checksum": "3426d47b96190260"
         },
         {
           "id": "edition.hamlet.original",
@@ -451,7 +451,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "770b5aa1d07e7f95"
+          "checksum": "bf5009dbdadd4a4e"
         }
       ],
       "hasAlignment": false,
@@ -474,7 +474,7 @@
           "form": "verse",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "5a5dc1e4fe584ef0"
+          "checksum": "41109060ae774e8e"
         },
         {
           "id": "edition.divine-comedy.longfellow-1867",
@@ -507,7 +507,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "ee2cce92b4d4ac0b"
+          "checksum": "cee72cf263cbbacb"
         },
         {
           "id": "edition.bible-mark.kjv-1611",
@@ -541,7 +541,7 @@
           "form": "prose",
           "kind": "modern",
           "character": "Plain modern English — the sense of the original, made to read with ease today.",
-          "checksum": "bacc17ce260a137d"
+          "checksum": "cd9aedd3db113548"
         },
         {
           "id": "edition.bible-genesis.kjv-1611",
@@ -555,6 +555,102 @@
       ],
       "hasAlignment": false,
       "checksum": "898b9a5dafd04ac6"
+    },
+    {
+      "id": "work.vyasa.bhagavad-gita",
+      "title": "The Bhagavad Gita",
+      "author": "",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.bhagavad-gita.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.bhagavad-gita.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "b27f33e3ef76c623"
+        },
+        {
+          "id": "edition.bhagavad-gita.arnold-1885",
+          "translator": "Edwin Arnold",
+          "publishedYear": 1885,
+          "form": "verse",
+          "kind": "translation",
+          "character": "The Song Celestial — Arnold's stately Victorian blank verse.",
+          "checksum": "2578427b0b9f1496"
+        }
+      ],
+      "hasAlignment": true,
+      "checksum": "983f63fd58358d06"
+    },
+    {
+      "id": "work.dhammapada",
+      "title": "The Dhammapada",
+      "author": "Early Buddhist tradition",
+      "referenceScheme": "chapter.verse",
+      "defaultEditionId": "edition.dhammapada.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.dhammapada.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "55c84e758608bd48"
+        },
+        {
+          "id": "edition.dhammapada.muller-1881",
+          "translator": "F. Max Müller",
+          "publishedYear": 1881,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Dhammapada — Müller's careful Victorian prose for the Sacred Books of the East.",
+          "checksum": "409d92a0ce2468ce"
+        }
+      ],
+      "hasAlignment": true,
+      "checksum": "e2a0cfa893ec0f7d"
+    },
+    {
+      "id": "work.laozi.tao-te-ching",
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "referenceScheme": "chapter",
+      "defaultEditionId": "edition.tao-te-ching.lectio-modern",
+      "collections": [
+        "collection.eastern-canon"
+      ],
+      "editions": [
+        {
+          "id": "edition.tao-te-ching.lectio-modern",
+          "translator": null,
+          "publishedYear": null,
+          "form": "prose",
+          "kind": "modern",
+          "character": "Plain modern English — the sense of the original, made to read with ease today.",
+          "checksum": "321916f6048502e1"
+        },
+        {
+          "id": "edition.tao-te-ching.legge-1891",
+          "translator": "James Legge",
+          "publishedYear": 1891,
+          "form": "prose",
+          "kind": "translation",
+          "character": "The scholar's Tao Te Ching — Legge's careful Victorian prose for the Sacred Books of the East.",
+          "checksum": "3257184f938dd21a"
+        }
+      ],
+      "hasAlignment": true,
+      "checksum": "865274ced8c7b1ea"
     }
   ],
   "dictionaries": []

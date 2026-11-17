@@ -9,27 +9,19 @@
       "workId": "work.augustine.confessions",
       "note": "",
       "part": ""
+    },
+    {
+      "workId": "work.vyasa.bhagavad-gita",
+      "note": "",
+      "part": ""
+    },
+    {
+      "workId": "work.dhammapada",
+      "note": "",
+      "part": ""
     }
   ],
   "planned": [
-    {
-      "title": "The Bhagavad Gita",
-      "author": "",
-      "era": "200–101 BCE",
-      "part": "",
-      "note": "On the eve of battle a warrior refuses to fight; a god answers him — act without grasping at the fruit of action.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-bhagavad-gita.jpg"
-    },
-    {
-      "title": "The Dhammapada",
-      "author": "Early Buddhist tradition",
-      "era": "300–201 BCE",
-      "part": "",
-      "note": "The Buddha's path at its plainest: the mind makes the world, craving makes the suffering, and a way out exists.",
-      "tradition": "East",
-      "cover": "collections/book-covers/eastern-dhammapada.jpg"
-    },
     {
       "title": "The City of God",
       "author": "Saint Augustine",

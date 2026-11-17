@@ -1,0 +1,486 @@
+[
+  {
+    "section": 1,
+    "seg": "seg-0002",
+    "severity": "medium",
+    "old": "unrelenting\nthe fear comes back",
+    "new": "unrelenting\nthat the fear comes back",
+    "why": "Inf. I 5-6 'esta selva selvaggia e aspra e forte / che nel pensier rinova la paura'; without the connective the two lines run on (Longfellow: 'Which in the very thought renews the fear')."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0021",
+    "severity": "low",
+    "old": "faint, hoarse from long silence",
+    "new": "faint from long silence",
+    "why": "Inf. I 63 'chi per lungo silenzio parea fioco': one word; giving both readings is a doubled gloss."
+  },
+  {
+    "section": 1,
+    "seg": "seg-0036",
+    "severity": "low",
+    "old": "that low Italy",
+    "new": "that humble Italy",
+    "why": "Inf. I 106 'umile Italia', after Aeneid III 522 humilem Italiam: humble, low-lying; in current English 'low' alone reads as a value judgment."
+  },
+  {
+    "section": 2,
+    "seg": null
+  },
+  {
+    "section": 3,
+    "seg": "seg-0028",
+    "severity": "low",
+    "old": "you ruined souls!",
+    "new": "you wicked souls!",
+    "why": "Inf. III 84 'Guai a voi, anime prave!' (Longfellow: 'ye souls depraved'); 'ruined' makes them victims."
+  },
+  {
+    "section": 3,
+    "seg": "seg-0039",
+    "severity": "low",
+    "old": "throw themselves down from that bank",
+    "new": "casts itself down from that bank",
+    "why": "Collective 'seed' with plural verb trips aloud; Dante 'gittansi' (III 116) is plural by sense, English wants agreement."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0026",
+    "severity": "medium",
+    "old": "The honored name of them\nthat still rings of them up in your life\nwins grace in Heaven,",
+    "new": "The honor of their name,\nwhich still resounds up there in your life,\nwins grace in Heaven,",
+    "why": "Inf. IV 76-78 'L'onrata nominanza / che di lor suona sù ne la tua vita, / grazia acquista nel ciel che sì li avanza'; 'of them … of them' tangles the line."
+  },
+  {
+    "section": 4,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "because they were not baptized,\nthe gateway into the faith you hold.",
+    "new": "because they had no baptism,\nwhich is the gateway to the faith you hold.",
+    "why": "Inf. IV 35-36 'ch'ei non ebber battesmo, / ch'è porta de la fede che tu credi': baptism is the gate; the appositive dangled off a verb."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0020",
+    "severity": "low",
+    "old": "that she followed Ninus",
+    "new": "that she succeeded Ninus",
+    "why": "Inf. V 59 'che succedette a Nino' (Longfellow: 'succeeded Ninus'); 'followed' reads as trailing after him."
+  },
+  {
+    "section": 5,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "wheeling and battering, it gives them no peace.",
+    "new": "and wheeling and battering them, gives them no peace.",
+    "why": "Comma splice; Dante V 33 'voltando e percotendo li molesta' is one clause."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "it had shut down before the pity",
+    "new": "it had closed before the pity",
+    "why": "Inf. VI 2 'che si chiuse dinanzi a la pietà'; 'shut down' now reads as machinery or therapy-speak."
+  },
+  {
+    "section": 6,
+    "seg": "seg-0022",
+    "severity": "low",
+    "old": "the party from the woods",
+    "new": "the rustic party",
+    "why": "Inf. VI 65 'la parte selvaggia', the country-bred Whites (Longfellow: 'the rustic party'); 'from the woods' literalizes a political label into a place."
+  },
+  {
+    "section": 7,
+    "seg": null
+  },
+  {
+    "section": 8,
+    "seg": "seg-0030",
+    "severity": "low",
+    "old": "\"You come alone. Let him go —",
+    "new": "\"You come alone, and let him go away —",
+    "why": "Inf. VIII 89 'Vien tu solo, e quei sen vada'; 'Let him go' now reads as 'release him'."
+  },
+  {
+    "section": 9,
+    "seg": "seg-0006",
+    "severity": "low",
+    "old": "\"Down into this sad pit of a shell,",
+    "new": "\"Down into the bottom of this sad hollow,",
+    "why": "Inf. IX 16 'In questo fondo de la trista conca' (Longfellow: 'this bottom of the dismal shell'); 'pit of a shell' stacks two images and catches aloud."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0008",
+    "severity": "low",
+    "old": "speaking so plainly,",
+    "new": "speaking so courteously,",
+    "why": "Inf. X 23 'parlando così onesto' is decorously, courteously (Longfellow: 'modestly'); Farinata praises Dante's manners, not his plainness."
+  },
+  {
+    "section": 10,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "and you yourself have inclined me to that.\"",
+    "new": "and not only now have you inclined me to that.\"",
+    "why": "Inf. X 21 'e tu m'hai non pur mo a ciò disposto': 'not only now' (cf. III 76-78) was dropped."
+  },
+  {
+    "section": 11,
+    "seg": "seg-0014",
+    "severity": "medium",
+    "old": "there is no help for it — he must repent,",
+    "new": "he must repent, and all to no avail,",
+    "why": "Inf. XI 42 'convien che sanza pro si penta' (Longfellow: 'Must needs without avail repent'); 'no help for it' reads as 'unavoidably' and loses the futility."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0029",
+    "severity": "medium",
+    "old": "\"Yes, he's alive, and alive alone\nit's my task",
+    "new": "\"Yes, he's alive, and he is all alone;\nit's my task",
+    "why": "Inf. XII 85-86 'Ben è vivo, e sì soletto / mostrar li mi convien la valle buia'; 'alive alone' is garbled."
+  },
+  {
+    "section": 12,
+    "seg": "seg-0007",
+    "severity": "low",
+    "old": "schooled by your sister and her thread.",
+    "new": "schooled by your sister.",
+    "why": "Inf. XII 20 'ammaestrato da la tua sorella': 'and her thread' is an explanatory gloss added to the line."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0039",
+    "severity": "medium",
+    "old": "naked and clawed,",
+    "new": "naked and scratched,",
+    "why": "Inf. XIII 116 'nudi e graffiati' (Longfellow: 'naked and scratched'); 'clawed' reads as having claws, like the Harpies just described."
+  },
+  {
+    "section": 13,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "When the savage soul tears itself loose\nfrom the body it ripped itself away from,",
+    "new": "When the savage soul departs\nfrom the body it has torn itself away from,",
+    "why": "Inf. XIII 94-95 'Quando si parte l'anima feroce / dal corpo ond' ella stessa s'è disvelta': departs, then uprooted; the Lectio says the tearing twice."
+  },
+  {
+    "section": 14,
+    "seg": null
+  },
+  {
+    "section": 15,
+    "seg": "seg-0019",
+    "severity": "low",
+    "old": "\"Follow your star,\nand you cannot fail",
+    "new": "\"If you follow your star,\nyou cannot fail",
+    "why": "Inf. XV 55 'Se tu segui tua stella' is conditional (Longfellow: 'If thou thy star do follow'); the imperative makes Brunetto preach where he predicts."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0004",
+    "severity": "low",
+    "old": "God, the wounds I saw",
+    "new": "Ah, the wounds I saw",
+    "why": "Inf. XVI 10 'Ahimè'. Policy: Dante's Ahi/Ahimè is 'Ah', as the edition already renders it elsewhere; 'God,' is a modern casual oath."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "God, how careful a man should be",
+    "new": "Ah, how careful a man should be",
+    "why": "Inf. XVI 118 'Ahi quanto cauti li uomini esser dienno'. Policy: Ahi = 'Ah'."
+  },
+  {
+    "section": 16,
+    "seg": "seg-0027",
+    "severity": "low",
+    "old": "\"lucky you, free to speak your mind.",
+    "new": "\"happy are you, to speak your mind so freely.",
+    "why": "Inf. XVI 81 'felice te se sì parli a tua posta!' is a blessing (Longfellow: 'Happy art thou'); 'lucky you' is chatty and edges toward sarcasm."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0030",
+    "severity": "medium",
+    "old": "But his threat shamed me into courage,\nthe way a good master makes a servant brave.",
+    "new": "But shame made its threats to me,\nas it makes a servant brave before a good master.",
+    "why": "Inf. XVII 89-90 'ma vergogna mi fé le sue minacce, / che innanzi a buon segnor fa servo forte': shame threatens; Virgil made no threat."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "\"Damn it, you're dropping\"",
+    "new": "\"Oh, you're coming down!\"",
+    "why": "Inf. XVII 129 'Omè, tu cali!' (Longfellow: 'Ah me, thou stoopest'); 'Damn it' is a modern oath, off register."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "\"Behold the beast",
+    "new": "\"Look at the beast",
+    "why": "Inf. XVII 1 'Ecco la fiera'. Policy: leftover archaism; Ecco = 'Look'."
+  },
+  {
+    "section": 17,
+    "seg": "seg-0001",
+    "severity": "low",
+    "old": "behold the one whose stench",
+    "new": "look at the one whose stench",
+    "why": "Inf. XVII 3 'ecco colei che tutto 'l mondo appuzza'. Policy: Ecco = 'look'."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "God, how they made them lift their heels",
+    "new": "Ah, how they made them lift their heels",
+    "why": "Inf. XVIII 37 'Ahi come facean lor levar le berze'. Policy: Ahi = 'Ah'."
+  },
+  {
+    "section": 18,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "filthy, disheveled slut down there,",
+    "new": "filthy, disheveled creature down there,",
+    "why": "Inf. XVIII 130 'sozza e scapigliata fante': a low but not sexual word; Dante saves 'puttana' for the next tercet and 'slut' spends it early."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0003",
+    "severity": "medium",
+    "old": "We had already climbed onto the next tomb,",
+    "new": "We had already climbed, above the next ditch,",
+    "why": "Inf. XIX 7 'a la seguente tomba' means the next bolgia; English 'tomb' sends the reader back to the heretics' sepulchres of IX-X."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0025",
+    "severity": "low",
+    "old": "Beneath my head are dragged the others down,",
+    "new": "Beneath my head the others are dragged down,",
+    "why": "Half-archaic inversion that trips aloud; Dante XIX 73 'Di sotto al capo mio son li altri tratti'."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0013",
+    "severity": "low",
+    "old": "\"Whatever you want is good with me.",
+    "new": "\"Whatever pleases you pleases me.",
+    "why": "Inf. XIX 37 'Tanto m'è bel, quanto a te piace' (Longfellow: 'What pleases thee, to me is pleasing'); 'is good with me' is current small talk."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0041",
+    "severity": "medium",
+    "old": "I do believe it pleased my guide:\nhe stood and listened the whole time\nwith such a satisfied look on his lips,",
+    "new": "I do believe it pleased my guide,\nso satisfied was the look on his lips\nthe whole time he listened to the sound of those true words.",
+    "why": "Realign on Dante's tercets: XIX 121-123 'I' credo ben ch'al mio duca piacesse, / con sì contenta labbia sempre attese / lo suon de le parole vere espresse.' Lectio spread 121-122 over three lines and pushed 123 into seg-0042."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0042",
+    "severity": "medium",
+    "old": "hearing the sound of those true words spoken.\nSo he took me up in both his arms,\nand once he had me gathered to his chest,",
+    "new": "So he took me up in both his arms,\nand once he had me gathered to his chest,\nclimbed back up the way he'd come down.",
+    "why": "Realign: XIX 124-126 'Però con ambo le braccia mi prese; / e poi che tutto su mi s'ebbe al petto, / rimontò per la via onde discese.' Line moved up from seg-0043."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0043",
+    "severity": "medium",
+    "old": "climbed back up the way he'd come down.\nHe didn't tire of holding me clasped to him,\nbut carried me up to the crest of the arch",
+    "new": "He didn't tire of holding me clasped to him,\nbut carried me up to the crest of the arch\nthat crosses from the fourth bank to the fifth.",
+    "why": "Realign: XIX 127-129 'Né si stancò … / sì men portò sovra 'l colmo de l'arco / che dal quarto al quinto argine è tragetto.' Line moved up from seg-0044."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0044",
+    "severity": "medium",
+    "old": "that crosses from the fourth bank to the fifth.\nThere he set his burden down with care,\nwith care, on the crag so steep and rough",
+    "new": "There he set his burden down with care,\nwith care, on the crag so steep and rough\nit would have been hard going even for goats.",
+    "why": "Realign: XIX 130-132 'Quivi soavemente spuose il carco, / soave per lo scoglio sconcio ed erto / che sarebbe a le capre duro varco.' Line moved up from seg-0045."
+  },
+  {
+    "section": 19,
+    "seg": "seg-0045",
+    "severity": "medium",
+    "old": "it would have been hard going even for goats —\nand from there another valley opened to me.",
+    "new": "And from there another valley opened to me.",
+    "why": "Realign: XIX 133 'Indi un altro vallon mi fu scoperto.' Policy: the canto's closing line stands alone in its own segment."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "and we walked on the while.",
+    "new": "and meanwhile we walked on.",
+    "why": "Inf. XX 130 'e andavamo introcque'. Policy: leftover archaism ('the while')."
+  },
+  {
+    "section": 20,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "twisted back toward the kidneys,",
+    "new": "twisted round toward the small of the back,",
+    "why": "Inf. XX 13 'da le reni era tornato 'l volto': reni is the loins, the lower back; 'kidneys' is anatomical and odd."
+  },
+  {
+    "section": 21,
+    "seg": null
+  },
+  {
+    "section": 22,
+    "seg": null
+  },
+  {
+    "section": 23,
+    "seg": "seg-0009",
+    "severity": "medium",
+    "old": "If I were a pane of leaded glass",
+    "new": "If I were a mirror",
+    "why": "Inf. XXIII 25 'S'i' fossi di piombato vetro': lead-backed glass, a mirror; a modern reader sees a stained-glass window and loses the reflection."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "because of us — fooled, hurt, made fools of —",
+    "new": "because of us, and hurt as well,",
+    "why": "Inf. XXIII 14 'con danno e con beffa': injury and mockery; 'mocked' already stands in the line before, and 'fooled … made fools of' says it twice more."
+  },
+  {
+    "section": 23,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "more than a shift;",
+    "new": "more than a nightgown;",
+    "why": "Inf. XXIII 42 'una camiscia': she flees from bed; 'shift' is no longer common usage."
+  },
+  {
+    "section": 24,
+    "seg": "seg-0016",
+    "severity": "medium",
+    "old": "lying on down, or tucked under a quilt",
+    "new": "sitting on feather cushions, or tucked under a quilt",
+    "why": "Inf. XXIV 47 'seggendo in piuma' (Longfellow: 'sitting upon down'); aloud, 'lying on down' is heard as 'lying down'."
+  },
+  {
+    "section": 25,
+    "seg": "seg-0042",
+    "severity": "medium",
+    "old": "drew his back toward the temples,",
+    "new": "drew his muzzle back toward the temples,",
+    "why": "Inf. XXV 124 'Quel ch'era dritto, il trasse ver' le tempie': 'il' is the muzzle (muso, line 122); 'his back' reads as his spine."
+  },
+  {
+    "section": 26,
+    "seg": "seg-0040",
+    "severity": "low",
+    "old": "to live like animals, dumb and grazing,",
+    "new": "to live like beasts,",
+    "why": "Inf. XXVI 119 'fatti non foste a viver come bruti': 'dumb and grazing' is added to one of the most quoted lines in the poem."
+  },
+  {
+    "section": 27,
+    "seg": "seg-0032",
+    "severity": "low",
+    "old": "sought me out as the specialist",
+    "new": "sought me out as his physician",
+    "why": "Inf. XXVII 96 'così mi chiese questi per maestro / a guarir de la sua febbre superba': master in the sense of doctor; 'specialist' is modern clinical vocabulary."
+  },
+  {
+    "section": 28,
+    "seg": null
+  },
+  {
+    "section": 29,
+    "seg": null
+  },
+  {
+    "section": 30,
+    "seg": "seg-0014",
+    "severity": "low",
+    "old": "that one going yonder dared",
+    "new": "that one going off over there dared",
+    "why": "Inf. XXX 43 'come l'altro che là sen va'. Policy: leftover archaism ('yonder')."
+  },
+  {
+    "section": 30,
+    "seg": "seg-0012",
+    "severity": "low",
+    "old": "\"so the other one\ndoesn't set its teeth in you — be so kind,",
+    "new": "\"as you hope the other one\nnever sets its teeth in you, be so kind,",
+    "why": "Inf. XXX 34-35 'se l'altro non ti ficchi / li denti a dosso' is an adjuration, 'so may the other not'; Lectio reads as a realization or purpose clause."
+  },
+  {
+    "section": 31,
+    "seg": null
+  },
+  {
+    "section": 32,
+    "seg": "seg-0005",
+    "severity": "low",
+    "old": "better for you if here you'd been sheep or goats.",
+    "new": "better for you had you been sheep or goats on earth.",
+    "why": "Inf. XXXII 15 'mei foste state qui pecore o zebe': 'qui' is here in the world where the poet writes; in this tercet 'here' reads as here in Hell."
+  },
+  {
+    "section": 32,
+    "seg": "seg-0011",
+    "severity": "low",
+    "old": "out of the water — back when\nthe peasant girl is dreaming of her gleaning",
+    "new": "out of the water, in the season\nwhen the peasant girl dreams of her gleaning",
+    "why": "Inf. XXXII 31-33 'quando sogna di spigolar sovente la villana': a season (early summer), not a past moment as 'back when' suggests."
+  },
+  {
+    "section": 33,
+    "seg": null
+  },
+  {
+    "section": 34,
+    "seg": "seg-0001",
+    "severity": "medium",
+    "old": "\"Vexilla regis prodeunt inferni —\nthe banners of the king of Hell advance\ntoward us.",
+    "new": "\"Vexilla regis prodeunt inferni\ntoward us.",
+    "why": "Inf. XXXIV 1-2 'Vexilla regis prodeunt inferni / verso di noi' (Longfellow: 'Vexilla Regis prodeunt Inferni / Towards us'). Policy: Latin stays Latin with no in-line gloss; the added English line made the tercet four lines."
+  },
+  {
+    "section": 34,
+    "seg": "seg-0041",
+    "severity": "low",
+    "old": "out of terror of him, drew the sea across itself",
+    "new": "out of terror of him, made the sea its veil",
+    "why": "Realign on Dante's tercets: XXXIV 121-123 end 'per paura di lui fé del mar velo'; 'for a veil' had spilled into seg-0042."
+  },
+  {
+    "section": 34,
+    "seg": "seg-0042",
+    "severity": "low",
+    "old": "for a veil, and fled to our hemisphere;\nand maybe it was to escape from him\nthat what shows on this side left its place down here",
+    "new": "and fled to our hemisphere; and maybe it was\nto escape from him that what shows on this side\nleft its place here empty, and rushed back up.\"",
+    "why": "Realign: XXXIV 124-126 'e venne a l'emisperio nostro; e forse / per fuggir lui lasciò qui loco vòto / quella ch'appar di qua, e sù ricorse.' Virgil's speech now closes with the tercet; 'rushed back' moved up from seg-0043."
+  },
+  {
+    "section": 34,
+    "seg": "seg-0043",
+    "severity": "low",
+    "old": "and rushed back, leaving the hollow behind it.\"\nThere is a place down there, as far from Beelzebub\nas the limit of his tomb, made known to no one",
+    "new": "There is a place down there, as far from Beelzebub\nas the limit of his tomb, made known to no one\nby sight, but only by the sound",
+    "why": "Realign: XXXIV 127-129 'Luogo è là giù da Belzebù remoto / tanto quanto la tomba si distende, / che non per vista, ma per suono è noto'. Narration now begins its own segment."
+  },
+  {
+    "section": 34,
+    "seg": "seg-0044",
+    "severity": "low",
+    "old": "by sight, but only by the sound that comes\nfrom a small stream that trickles down through it,\nthrough the rock it has eaten away with its winding, gently-falling course.",
+    "new": "of a little stream that trickles down there\nthrough a hollow in the rock it has worn away\nin its winding course, and it falls gently.",
+    "why": "Realign: XXXIV 130-132 'd'un ruscelletto che quivi discende / per la buca d'un sasso, ch'elli ha roso, / col corso ch'elli avvolge, e poco pende.' Also breaks up the nineteen-syllable last line the report flagged."
+  }
+]

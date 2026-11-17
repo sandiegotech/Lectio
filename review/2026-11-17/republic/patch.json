@@ -1,0 +1,1434 @@
+[
+ {
+  "section": 1,
+  "seg": "seg-0001",
+  "severity": "medium",
+  "old": "to the goddess — Bendis, the Thracian Artemis — and to see",
+  "new": "to the goddess, and to see",
+  "why": "Gloss in the text. Greek has only τῇ θεῷ; 'Bendis, the Thracian Artemis' is Jowett's parenthetical note. Move to enrichment."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0032",
+  "severity": "medium",
+  "old": "Wealth does a great deal to keep a man from cheating or lying, even against his will",
+  "new": "Wealth does a great deal to keep a man from cheating or lying to anyone, even unintentionally",
+  "why": "Greek μηδὲ ἄκοντά τινα ἐξαπατῆσαι ἢ ψεύσασθαι: not deceiving anyone even unintentionally; Jowett 'either intentionally or unintentionally'. 'Against his will' attached to the wrong thing."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0054",
+  "severity": "low",
+  "old": "Then in god's name, I said",
+  "new": "Then by Zeus, I said",
+  "why": "Greek πρὸς Διός. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0119",
+  "severity": "low",
+  "old": "God, no, he said.",
+  "new": "No, by Zeus, he said.",
+  "why": "Greek Οὐ μὰ τὸν Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0288",
+  "severity": "low",
+  "old": "God forbid, I said — not that.",
+  "new": "No, by Zeus, I said — not that.",
+  "why": "Greek Μὰ Δί', ἦν δ' ἐγώ, μὴ σύ γε (from my knowledge of the Greek). Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0289",
+  "severity": "low",
+  "old": "By God, I know it.",
+  "new": "By Zeus, I know it.",
+  "why": "Greek Οὐ μὰ Δί', ἀλλ' εὖ οἶδα. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0406",
+  "severity": "low",
+  "old": "Nothing, by God, I said.",
+  "new": "Nothing, by Zeus, I said.",
+  "why": "Greek Οὐδὲν μὰ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0184",
+  "severity": "low",
+  "old": "As it was, I had glanced at him just as",
+  "new": "As it was, I had looked at him first, just as",
+  "why": "Greek προσέβλεψα αὐτὸν πρότερος: 'first' pays off the wolf belief in the sentence before; dropped."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0281",
+  "severity": "low",
+  "old": "you can't even tell her sheep from her shepherd",
+  "new": "thanks to her, you can't even tell sheep from shepherd",
+  "why": "Greek ὅς γε αὐτῇ οὐδὲ πρόβατα οὐδὲ ποιμένα γιγνώσκεις: 'thanks to her' you don't know sheep from shepherd; they are not the nurse's."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0262",
+  "severity": "low",
+  "old": "An art, so long as it is strictly and wholly what it is, remains unblemished and pure — being correct.",
+  "new": "An art, so long as it is strictly and wholly what it is, is correct, and so remains unblemished and pure.",
+  "why": "Read-aloud: the dangling 'being correct' (ὀρθὴ οὖσα) trips; same sense, reordered."
+ },
+ {
+  "section": 1,
+  "seg": "seg-0329",
+  "severity": "low",
+  "old": "How sweet you are, he said. Likely, too — when I am telling you",
+  "new": "Very likely, my sweet friend, he said — when I am telling you",
+  "why": "Greek Εἰκός γ', ὦ ἥδιστε: 'Likely, too' was a fragment that lost the sarcasm aloud."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0162",
+  "severity": "medium",
+  "old": "My god, I said",
+  "new": "By Zeus, I said",
+  "why": "Greek Νὴ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0177",
+  "severity": "medium",
+  "old": "By god, he said",
+  "new": "By Zeus, he said",
+  "why": "Greek Μὰ Δί'. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0210",
+  "severity": "medium",
+  "old": "Then by god, my dear Adeimantus",
+  "new": "Then by Zeus, my dear Adeimantus",
+  "why": "Greek Νὴ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0245",
+  "severity": "medium",
+  "old": "God, no, he said.",
+  "new": "No, by Zeus, he said.",
+  "why": "Greek Οὐδὲ μὰ τὸν Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0313",
+  "severity": "medium",
+  "old": "God forbid, he said.",
+  "new": "Heaven forbid, he said.",
+  "why": "No Zeus oath here; keep the wish, drop the monotheistic 'God'. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0019",
+  "severity": "medium",
+  "old": "Good lord, my dear Glaucon",
+  "new": "Good heavens, my dear Glaucon",
+  "why": "Greek Βαβαί, an exclamation, not an oath; 'Good lord' is monotheistic. Same rendering as V seg-0172."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "even racier goods than these",
+  "new": "even headier rewards than these",
+  "why": "Greek νεανικώτερα, bolder/more lavish; 'racier' now suggests sex."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0031",
+  "severity": "low",
+  "old": "Others stretch the gods' payroll even longer",
+  "new": "Others stretch the gods' wages further still",
+  "why": "Greek μισθοὺς ἀποτείνουσιν; 'payroll' is office vocabulary, and the sentence before already says 'wage'."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0013",
+  "severity": "low",
+  "old": "charmed by your voice like a snake by a piper",
+  "new": "charmed by you like a snake",
+  "why": "Greek ὥσπερ ὄφις κηληθῆναι ὑπὸ σοῦ: no piper, no voice."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0017",
+  "severity": "low",
+  "old": "made of stuff so adamant that",
+  "new": "made of such iron that",
+  "why": "Greek ἀδαμάντινος is 'of adamant', the hardest metal; adjectival 'adamant' now means 'insistent' and misleads."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0298",
+  "severity": "low",
+  "old": "Then on that side, the god is the last thing in the world to take many shapes.",
+  "new": "Then from outside, at least, the god is the last thing in the world to be forced into many shapes.",
+  "why": "Read-aloud: 'on that side' does not say which side; the argument (380e-381b) is change imposed from outside."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0126",
+  "severity": "low",
+  "old": "beds of strewn briony and myrtle",
+  "new": "beds strewn with bindweed and myrtle",
+  "why": "Greek σμῖλαξ; 'briony' is a word few readers carry."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0032",
+  "severity": "medium",
+  "old": "chant that self-restraint and justice",
+  "new": "chant that self-command and justice",
+  "why": "Greek σωφροσύνη. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0214",
+  "severity": "low",
+  "old": "gymnastics for the body",
+  "new": "physical training for the body",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0216",
+  "severity": "low",
+  "old": "before gymnastics?",
+  "new": "before physical training?",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0224",
+  "severity": "low",
+  "old": "set them to gymnastics.",
+  "new": "set them to physical training.",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 2,
+  "seg": "seg-0226",
+  "severity": "low",
+  "old": "music before gymnastics.",
+  "new": "music before physical training.",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0025",
+  "severity": "medium",
+  "old": "Cocytus, the river of wailing; Styx, the river of hate;",
+  "new": "Cocytus and Styx;",
+  "why": "Gloss in the text. Greek Κωκυτούς τε καὶ Στύγας gives only the names; the meanings belong in enrichment."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0326",
+  "severity": "medium",
+  "old": "a Corinthian girlfriend",
+  "new": "a Corinthian mistress",
+  "why": "Greek Κορινθία κόρη, a byword for a courtesan; 'girlfriend' is anachronistic and softens the point (luxury)."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0414",
+  "severity": "medium",
+  "old": "until it's trigger-touchy: flaring at trifles, then guttering out just as fast. Instead of spirited, such men come out short-fused and irritable",
+  "new": "until it's quick-tempered: flaring at trifles, then guttering out just as fast. Instead of spirited, such men come out hot-tempered and irritable",
+  "why": "Greek ὀξύθυμον … ἀκράχολοι καὶ ὀργίλοι: plain words; 'trigger-touchy' and 'short-fused' are slang."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0367",
+  "severity": "low",
+  "old": "Sharp fellows, he said, these sons of Asclepius",
+  "new": "Statesmen too, he said, these sons of Asclepius",
+  "why": "Greek Ὡς πολιτικούς … τοὺς Ἀσκληπιοῦ παῖδας: Glaucon repeats 'statesman' from seg-0363; the echo is the joke."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0468",
+  "severity": "low",
+  "old": "auxiliaries: enforcers of what the rulers decide.",
+  "new": "auxiliaries, who help carry out what the rulers decide.",
+  "why": "Greek ἐπικούρους τε καὶ βοηθοὺς τοῖς τῶν ἀρχόντων δόγμασιν; 'enforcers' suggests gang muscle."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0208",
+  "severity": "low",
+  "old": "crown him with wool like a holy image",
+  "new": "crown him with a wreath of wool",
+  "why": "Greek ἐρίῳ στέψαντες; 'like a holy image' is interpretation written into the sentence."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0057",
+  "severity": "low",
+  "old": "And they shouldn't be men who crack up laughing, either. When a man surrenders to a violent fit of laughter, it tends to trigger just as violent a swing in him.",
+  "new": "And they shouldn't be lovers of laughter, either. When a man surrenders to a violent fit of laughter, it tends to bring on just as violent a swing in him.",
+  "why": "Greek φιλογέλωτας … ἰσχυρὰν καὶ μεταβολὴν ζητεῖ; 'crack up' and 'trigger' are colloquial and current."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0390",
+  "severity": "low",
+  "old": "Even his workouts and his exertions",
+  "new": "Even his exercises and his exertions",
+  "why": "Greek τὰ γυμνάσια καὶ τοὺς πόνους; 'workouts' is fitness-magazine talk."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0416",
+  "severity": "low",
+  "old": "a man who works himself hard in the gym and eats like a champion",
+  "new": "a man who works his body hard and feasts well",
+  "why": "Greek πολλὰ πονῇ καὶ εὐωχῆται εὖ μάλα; 'the gym', 'eats like a champion' are modern idiom."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0188",
+  "severity": "low",
+  "old": "Or is that nothing?",
+  "new": "Or am I talking nonsense?",
+  "why": "Greek ἢ οὐδὲν λέγω;: Socrates checks himself, he does not dismiss his point."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0098",
+  "severity": "medium",
+  "old": "called his own heart to heel",
+  "new": "rebuked his own heart",
+  "why": "Odyssey 20.17 κραδίην ἠνίπαπε, 'rebuked'. Book IV seg-0365 quotes the same line as 'the line we quoted earlier' and seg-0366 builds on 'rebuke'; one wording for both."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0073",
+  "severity": "high",
+  "old": "need self-discipline?",
+  "new": "need self-command?",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0075",
+  "severity": "high",
+  "old": "doesn't self-discipline come down",
+  "new": "doesn't self-command come down",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0087",
+  "severity": "high",
+  "old": "a young man's self-discipline",
+  "new": "a young man's self-command",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0172",
+  "severity": "high",
+  "old": "brave, self-disciplined, pious",
+  "new": "brave, self-commanded, pious",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0234",
+  "severity": "high",
+  "old": "moving with self-discipline and measure",
+  "new": "moving with self-command and measure",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0234",
+  "severity": "high",
+  "old": "the self-disciplined man's",
+  "new": "the self-commanded man's",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0264",
+  "severity": "high",
+  "old": "a self-disciplined and good character",
+  "new": "a self-commanded and good character",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0274",
+  "severity": "high",
+  "old": "the forms of self-discipline, courage",
+  "new": "the forms of self-command, courage",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0282",
+  "severity": "high",
+  "old": "in common with self-discipline?",
+  "new": "in common with self-command?",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0332",
+  "severity": "high",
+  "old": "breeds self-discipline in souls",
+  "new": "breeds self-command in souls",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0386",
+  "severity": "high",
+  "old": "which we said breeds self-discipline",
+  "new": "which we said breeds self-command",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0408",
+  "severity": "high",
+  "old": "the soul is self-disciplined and brave?",
+  "new": "the soul is self-commanded and brave?",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 3,
+  "seg": "seg-0496",
+  "severity": "high",
+  "old": "self-disciplined and brave",
+  "new": "self-commanded and brave",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0365",
+  "severity": "medium",
+  "old": "\"He struck his chest and rebuked his own heart,\"",
+  "new": "'He struck his chest and rebuked his own heart,'",
+  "why": "Same line as Book III seg-0098 (now matched to this wording); only verse quotation set in double quotes."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0061",
+  "severity": "low",
+  "old": "\"the newest song that hovers about the singers' lips,\"",
+  "new": "'the newest song that hovers about the singers' lips,'",
+  "why": "Verse quotations take single quotes in every other book; see Policies."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0416",
+  "severity": "medium",
+  "old": "He sets his own house in order — literally his own.",
+  "new": "He sets his own house in order — his own in the truest sense.",
+  "why": "Greek εὖ θέμενον τὰ οἰκεῖα τῷ ὄντι: 'truly' his own; 'literally' is wrong for a figurative house and sounds like the modern intensifier."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0086",
+  "severity": "low",
+  "old": "In god's name, are we going",
+  "new": "By the gods, are we going",
+  "why": "Greek πρὸς θεῶν. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0097",
+  "severity": "low",
+  "old": "By god, no.",
+  "new": "By Zeus, no.",
+  "why": "Greek μὰ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0351",
+  "severity": "low",
+  "old": "No, by god, he said.",
+  "new": "No, by Zeus, he said.",
+  "why": "Greek μὰ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0364",
+  "severity": "low",
+  "old": "Beautifully put, by god, I said.",
+  "new": "Beautifully put, by Zeus, I said.",
+  "why": "Greek ναὶ μὰ Δί' (from my knowledge of the Greek; Jowett drops the oath). Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0411",
+  "severity": "low",
+  "old": "No, by god, he said — not I.",
+  "new": "No, by Zeus, he said — not I.",
+  "why": "Greek μὰ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0419",
+  "severity": "low",
+  "old": "By god, no, he said.",
+  "new": "By Zeus, no, he said.",
+  "why": "Greek μὰ Δία. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0285",
+  "severity": "low",
+  "old": "No way.",
+  "new": "Not at all.",
+  "why": "Greek οὐδαμῶς; 'No way' is slang."
+ },
+ {
+  "section": 4,
+  "seg": "seg-0006",
+  "severity": "low",
+  "old": "with the wheel parked at their elbow",
+  "new": "with the wheel set beside them",
+  "why": "Greek παραθεμένους τὸν τροχόν; 'parked' brings in the car."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0172",
+  "severity": "low",
+  "old": "Ye gods, my dear friend",
+  "new": "Good heavens, my dear friend",
+  "why": "Greek Βαβαί; 'Ye gods' is the only archaism of its kind. Same rendering as II seg-0019."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0302",
+  "severity": "low",
+  "old": "with hands-on experience and a full view of what their work will be?",
+  "new": "with real experience and a full view of what their work will be?",
+  "why": "Greek ἐν ἐμπειρίᾳ τε καὶ θέᾳ; 'hands-on' is job-listing language."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0447",
+  "severity": "low",
+  "old": "the oddest people to file among philosophers",
+  "new": "the oddest people to count among philosophers",
+  "why": "Office vocabulary; 'count among' is plain."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0036",
+  "severity": "low",
+  "old": "The men were given music and gymnastics.",
+  "new": "The men were given music and physical training.",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0044",
+  "severity": "low",
+  "old": "a change like this hitting the gymnastics, and the music, and not least the bearing of arms",
+  "new": "a change like this in physical training, and in music, and not least in the bearing of arms",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport). Greek περὶ τὰ γυμνάσια καὶ περὶ μουσικὴν."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0096",
+  "severity": "low",
+  "old": "And one for gymnastics and war, while another is unwarlike and no lover of the gym?",
+  "new": "And one fit for physical training and war, while another is unwarlike and has no love of exercise?",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport). Greek γυμναστικὴ … οὐ φιλογυμναστική; 'the gym' is modern."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0108",
+  "severity": "low",
+  "old": "wives music and gymnastics.",
+  "new": "wives music and physical training.",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 5,
+  "seg": "seg-0132",
+  "severity": "low",
+  "old": "music and gymnastics, applied",
+  "new": "music and physical training, applied",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0199",
+  "severity": "medium",
+  "old": " (Heraclitus said the sun is put out each evening and kindled new each morning.)",
+  "new": "",
+  "why": "Jowett's explanatory note printed as Socrates' speech; Plato has no such sentence. Move to enrichment."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0387",
+  "severity": "medium",
+  "old": " (Ouranos, the heavens; horatos, the visible.)",
+  "new": "",
+  "why": "Philological gloss (Jowett's note) spliced into the dialogue; the line already says he is playing on the word. Pun to enrichment."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0380",
+  "severity": "medium",
+  "old": "Glaucon burst out laughing. Apollo! he said.",
+  "new": "And Glaucon said, quite comically: Apollo!",
+  "why": "Greek Καὶ ὁ Γλαύκων μάλα γελοίως, Ἄπολλον, ἔφη: he spoke comically; he did not laugh."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0265",
+  "severity": "medium",
+  "old": "the most exacting guardians must be philosophers.",
+  "new": "the guardians in the strictest sense must be philosophers.",
+  "why": "Greek τοὺς ἀκριβεστάτους φύλακας: guardians in the most precise sense, not demanding ones."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0073",
+  "severity": "low",
+  "old": "Not even Momus, he said — the god of faultfinding himself — could",
+  "new": "Not even Momus himself, he said, could",
+  "why": "Gloss in the text; Momus to the glossary."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0144",
+  "severity": "low",
+  "old": "the necessity of Diomede — no choice at all — to produce",
+  "new": "the necessity of Diomede to produce",
+  "why": "Gloss in the text; the proverb's sense goes in a note."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0122",
+  "severity": "low",
+  "old": "more the enemy of what's good than of what's merely middling.",
+  "new": "more the enemy of the good than of what is not good.",
+  "why": "Greek κακὸν γὰρ ἀγαθῷ ἐναντιώτερον ἢ τῷ μὴ ἀγαθῷ: 'the not-good', not 'the middling'."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0219",
+  "severity": "low",
+  "old": "to look down into the little wars of men, and fight them,",
+  "new": "to look down on the affairs of men, and fight with them,",
+  "why": "Greek εἰς ἀνθρώπων πραγματείας … μαχόμενος αὐτοῖς: 'affairs', and he would fight the men; 'little wars' sharpens the image."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0152",
+  "severity": "low",
+  "old": "by the private operators who hang",
+  "new": "by the private men who hang",
+  "why": "'Operators' carries a slangy sense of schemer; Greek ἰδιῶται."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0407",
+  "severity": "low",
+  "old": "imaging — the reading of shadows and likenesses.",
+  "new": "imaging.",
+  "why": "Gloss in the text; εἰκασία alone. The term 'imaging' is kept and matched in Book VII seg-0267/0268."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0039",
+  "severity": "high",
+  "old": "will be temperate, and the last man",
+  "new": "will have self-command, and be the last man",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0072",
+  "severity": "high",
+  "old": "courage, and temperance?",
+  "new": "courage, and self-command?",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0106",
+  "severity": "high",
+  "old": "with temperance following",
+  "new": "with self-command following",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0116",
+  "severity": "high",
+  "old": "courage, temperance, all the things",
+  "new": "courage, self-command, all the things",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0223",
+  "severity": "high",
+  "old": "craftsman of temperance and justice",
+  "new": "craftsman of self-command and justice",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0231",
+  "severity": "high",
+  "old": "just and beautiful and temperate and",
+  "new": "just and beautiful and self-commanded and",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0279",
+  "severity": "high",
+  "old": "what justice, temperance, courage, and wisdom",
+  "new": "what justice, self-command, courage, and wisdom",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 6,
+  "seg": "seg-0322",
+  "severity": "high",
+  "old": "through justice and temperance and",
+  "new": "through justice and self-command and",
+  "why": "Greek σωφροσύνη/σώφρων. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0039",
+  "severity": "low",
+  "old": "Then come agree with me on this too",
+  "new": "Then agree with me on this too",
+  "why": "Read-aloud: 'come agree' trips."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0077",
+  "severity": "low",
+  "old": "is not a matter of flipping a shell, as in the children's game; it is",
+  "new": "is not the flip of a shell; it is",
+  "why": "Greek ὀστράκου μεταστροφή; 'as in the children's game' is Jowett's note shortened into the text."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0275",
+  "severity": "low",
+  "old": "as the incommensurable lines the geometers talk about.",
+  "new": "as incommensurable lines.",
+  "why": "Greek ἀλόγους ὥσπερ γραμμάς; 'the geometers talk about' is an added explanation."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0272",
+  "severity": "low",
+  "old": "How could I not deny it? he said.",
+  "new": "How could I say he had? he said.",
+  "why": "Greek Πῶς γὰρ ἄν … φαίην;: he agrees; the double negative makes the listener stop."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0353",
+  "severity": "low",
+  "old": "they crash — fast and hard — into believing",
+  "new": "they fall, fast and hard, into believing",
+  "why": "Greek σφόδρα καὶ ταχὺ εἰς τὸ μηδὲν ἡγεῖσθαι: 'fall into'; one crashes into a thing, not into believing."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0265",
+  "severity": "low",
+  "old": "literally buried",
+  "new": "truly buried",
+  "why": "Greek τῷ ὄντι κατορωρυγμένον: 'truly'; 'literally' is wrong for a metaphor."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0265",
+  "severity": "medium",
+  "old": "Somewhere earlier we settled on 'understanding.'",
+  "new": "Somewhere earlier we settled on 'thought.'",
+  "why": "Greek διάνοιαν … ἐν τῷ πρόσθεν ὡρισάμεθα: Book VI seg-0406/0407 named it 'thought'; the back-reference must match."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0267",
+  "severity": "medium",
+  "old": "the second understanding, the third belief, and the fourth the imaging of shadows — the last two together opinion, the first two together intellect; opinion concerned with becoming, intellect with being.",
+  "new": "the second thought, the third conviction, and the fourth imaging — the last two together opinion, the first two together intelligence; opinion concerned with becoming, intelligence with being.",
+  "why": "'What we called them before': VI seg-0407 has intelligence/thought/conviction/imaging (νόησις, διάνοια, πίστις, εἰκασία). ἐπιστήμη 'science' for the first is Plato's own change and stays."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0268",
+  "severity": "medium",
+  "old": "so intellect is to opinion; and as intellect is to opinion, so science is to belief, and understanding is to the imaging of shadows.",
+  "new": "so intelligence is to opinion; and as intelligence is to opinion, so science is to conviction, and thought is to imaging.",
+  "why": "Same terms as seg-0267 and Book VI seg-0407."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0297",
+  "severity": "high",
+  "old": "with respect to temperance",
+  "new": "with respect to self-command",
+  "why": "Greek σωφροσύνη. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0089",
+  "severity": "low",
+  "old": "And gymnastics is busy",
+  "new": "And physical training is busy",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0094",
+  "severity": "low",
+  "old": "the counterpart of gymnastics.",
+  "new": "the counterpart of physical training.",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0096",
+  "severity": "medium",
+  "old": "if music and gymnastics are out, and the crafts are out, what is left?",
+  "new": "if music and physical training are out, and the crafts are out, what's left?",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport). Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0287",
+  "severity": "low",
+  "old": "than in gymnastics:",
+  "new": "than in physical training:",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0293",
+  "severity": "low",
+  "old": "loves gymnastics and hunting",
+  "new": "loves physical training and hunting",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0317",
+  "severity": "low",
+  "old": "the required gymnastics, I said",
+  "new": "the required physical training, I said",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0317",
+  "severity": "low",
+  "old": "shows up in the gymnastics is",
+  "new": "shows up in physical training is",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0026",
+  "severity": "medium",
+  "old": "Clearly, he said, that is where he would come next.",
+  "new": "Clearly, he said, that's where he would come next.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0044",
+  "severity": "medium",
+  "old": "That is a fair way to put it, he said.",
+  "new": "That's a fair way to put it, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0070",
+  "severity": "medium",
+  "old": "No, by Zeus, I do not, he said.",
+  "new": "No, by Zeus, I don't, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0074",
+  "severity": "medium",
+  "old": "No one else, he replied. Those are the men I will choose.",
+  "new": "No one else, he replied. Those are the men I'll choose.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0083",
+  "severity": "medium",
+  "old": "Then the study we are looking for needs one more quality.",
+  "new": "Then the study we're looking for needs one more quality.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0091",
+  "severity": "medium",
+  "old": "So that cannot be the study we are looking for.",
+  "new": "So that can't be the study we're looking for.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0097",
+  "severity": "medium",
+  "old": "Well, I said, if we cannot take anything outside those, let us take something that runs through all of them.",
+  "new": "Well, I said, if we can't take anything outside those, let's take something that runs through all of them.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0106",
+  "severity": "medium",
+  "old": "A strange one, he said, if that is true.",
+  "new": "A strange one, he said, if that's true.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0121",
+  "severity": "medium",
+  "old": "And assume I am talking about them seen up close. Now consider this about them.",
+  "new": "And assume I'm talking about them seen up close. Now consider this about them.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0124",
+  "severity": "medium",
+  "old": "No, it does not.",
+  "new": "No, it doesn't.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0125",
+  "severity": "medium",
+  "old": "So a perception like that, I said, naturally does not summon or wake the understanding.",
+  "new": "So a perception like that, I said, naturally doesn't summon or wake the understanding.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0141",
+  "severity": "medium",
+  "old": "And isn't it from here that the question first comes to us — what is the big, then, and what is the small?",
+  "new": "And isn't it from here that the question first comes to us — what's the big, then, and what's the small?",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0143",
+  "severity": "medium",
+  "old": "And that is how we came to call one thing the intelligible and the other the visible.",
+  "new": "And that's how we came to call one thing the intelligible and the other the visible.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0148",
+  "severity": "medium",
+  "old": "I cannot tell, he replied.",
+  "new": "I can't tell, he replied.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0151",
+  "severity": "medium",
+  "old": "And if that is true of the one, I said, isn't it true of all number?",
+  "new": "And if that's true of the one, I said, isn't it true of all number?",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0158",
+  "severity": "medium",
+  "old": "That is so.",
+  "new": "That's so.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0168",
+  "severity": "medium",
+  "old": "This, I think: that they are talking about numbers which can only be thought — numbers there is no other way to handle.",
+  "new": "This, I think: that they're talking about numbers which can only be thought — numbers there's no other way to handle.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0172",
+  "severity": "medium",
+  "old": "That is so, he said.",
+  "new": "That's so, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0173",
+  "severity": "medium",
+  "old": "And I think you will not easily find many studies that cost the learner and the practicer more labor.",
+  "new": "And I think you won't easily find many studies that cost the learner and the practicer more labor.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0177",
+  "severity": "medium",
+  "old": "Let that stand, then, as our first subject, I said. Second, let us consider whether the study that borders on it suits us.",
+  "new": "Let that stand, then, as our first subject, I said. Second, let's consider whether the study that borders on it suits us.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0183",
+  "severity": "medium",
+  "old": "So if geometry forces the soul to look at being, it suits us; if at becoming, it does not.",
+  "new": "So if geometry forces the soul to look at being, it suits us; if at becoming, it doesn't.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0192",
+  "severity": "medium",
+  "old": "That is easy to agree to, he said. Geometry is knowledge of what always is.",
+  "new": "That's easy to agree to, he said. Geometry is knowledge of what always is.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0204",
+  "severity": "medium",
+  "old": "That is what I choose, he said: to speak, ask, and answer mostly for my own sake.",
+  "new": "That's what I choose, he said: to speak, ask, and answer mostly for my own sake.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0208",
+  "severity": "medium",
+  "old": "That is true, Socrates, he said. But those questions do not seem to have been worked out yet.",
+  "new": "That's true, Socrates, he said. But those questions don't seem to have been worked out yet.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0215",
+  "severity": "medium",
+  "old": "Then let us put astronomy fourth, I said, assuming the study we are passing over will exist the moment a city takes it up.",
+  "new": "Then let's put astronomy fourth, I said, assuming the study we're passing over will exist the moment a city takes it up.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0217",
+  "severity": "medium",
+  "old": "Obvious to everyone but me, perhaps, I said — because that is not how I see it.",
+  "new": "Obvious to everyone but me, perhaps, I said — because that isn't how I see it.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0219",
+  "severity": "medium",
+  "old": "The way it is handled now, by the men who would raise it into philosophy, it makes us look straight down.",
+  "new": "The way it's handled now, by the men who would raise it into philosophy, it makes us look straight down.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0230",
+  "severity": "medium",
+  "old": "The task you are laying down, he said, is many times heavier than anything astronomy does now.",
+  "new": "The task you're laying down, he said, is many times heavier than anything astronomy does now.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0246",
+  "severity": "medium",
+  "old": "That is likely, he said.",
+  "new": "That's likely, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0248",
+  "severity": "medium",
+  "old": "So I would prophesy too, he said. But it is an enormous work you are describing, Socrates.",
+  "new": "So I'd prophesy too, he said. But it's an enormous work you're describing, Socrates.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0250",
+  "severity": "medium",
+  "old": "No, by Zeus, he said — except a very few of the ones I have met.",
+  "new": "No, by Zeus, he said — except a very few of the ones I've met.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0266",
+  "severity": "medium",
+  "old": "No indeed, he said — any name will do, so long as it says clearly what is meant.",
+  "new": "No indeed, he said — any name will do, so long as it says clearly what's meant.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0274",
+  "severity": "medium",
+  "old": "Yes, by Zeus, he said — I will say all of that, and emphatically.",
+  "new": "Yes, by Zeus, he said — I'll say all of that, and emphatically.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0278",
+  "severity": "medium",
+  "old": "I will lay it down, he said — with you.",
+  "new": "I'll lay it down, he said — with you.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0281",
+  "severity": "medium",
+  "old": "Then what remains for you, I said, is the distribution: to whom we will give these studies, and how.",
+  "new": "Then what remains for you, I said, is the distribution: to whom we'll give these studies, and how.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0298",
+  "severity": "medium",
+  "old": "That is exactly how it goes, he said.",
+  "new": "That's exactly how it goes, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0320",
+  "severity": "medium",
+  "old": "At least, he said, that is the only learning that holds firm in the ones who take it in.",
+  "new": "At least, he said, that's the only learning that holds firm in the ones who take it in.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0332",
+  "severity": "medium",
+  "old": "I would rather hear it, he said.",
+  "new": "I'd rather hear it, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0342",
+  "severity": "medium",
+  "old": "He cannot possibly, he said, go on honoring and obeying them as before.",
+  "new": "He can't possibly, he said, go on honoring and obeying them as before.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0344",
+  "severity": "medium",
+  "old": "There is not, he said.",
+  "new": "There isn't, he said.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0345",
+  "severity": "medium",
+  "old": "And so, I suppose, he will appear to have become an outlaw, where he was law-abiding before.",
+  "new": "And so, I suppose, he'll appear to have become an outlaw, where he was law-abiding before.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0349",
+  "severity": "medium",
+  "old": "Then so that you will not have to pity your thirty-year-olds, mustn't every kind of care be taken in how they take up arguments?",
+  "new": "Then so that you won't have to pity your thirty-year-olds, mustn't every kind of care be taken in how they take up arguments?",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0364",
+  "severity": "medium",
+  "old": "Like a sculptor, Socrates, he said, you have finished your rulers — and they are beautiful.",
+  "new": "Like a sculptor, Socrates, he said, you've finished your rulers — and they're beautiful.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0366",
+  "severity": "medium",
+  "old": "Rightly so, he said, if they are to share everything equally with the men, as we described.",
+  "new": "Rightly so, he said, if they're to share everything equally with the men, as we described.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0370",
+  "severity": "medium",
+  "old": "Much the quickest, he said. And I think you have described well how it would come into being, Socrates — if it ever does.",
+  "new": "Much the quickest, he said. And I think you've described well how it would come into being, Socrates — if it ever does.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0372",
+  "severity": "medium",
+  "old": "It is clear, he replied. And as for your question — I think we have reached the end.",
+  "new": "It's clear, he replied. And as for your question — I think we've reached the end.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 7,
+  "seg": "seg-0010",
+  "severity": "medium",
+  "old": "They would have to.",
+  "new": "They'd have to.",
+  "why": "Voice policy: Book VII dialogue brought to the contraction norm of Books VI and VIII; long expository speeches left as they are."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0027",
+  "severity": "high",
+  "old": " [Trans. note: This is the famous ‘nuptial number,’ the most disputed passage in Plato. The Greek is deliberately oracular — the Muses are half-teasing — and no reconstruction of the arithmetic has ever won the field. Lectio renders the riddle as a riddle.]",
+  "new": "",
+  "why": "Editor's note in brackets inside the Muses' speech; Plato has nothing after 'so the Muses declare'. Move to enrichment as a passage note on seg-0027."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0027",
+  "severity": "low",
+  "old": "and gymnastic after it",
+  "new": "and physical training after it",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0043",
+  "severity": "low",
+  "old": "honored gymnastic above music",
+  "new": "honored physical training above music",
+  "why": "Term policy: γυμναστική is 'physical training' throughout, as in Books III-IV ('gymnastics' now means the sport)."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0187",
+  "severity": "medium",
+  "old": "the parent sum, they make the drone",
+  "new": "the parent sum. So they make the drone",
+  "why": "Sentence lost its grammar ('keep injecting … and collecting …, they make'); Greek 555e-556a ends the clause and begins a new one."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0090",
+  "severity": "low",
+  "old": "It does.",
+  "new": "So it is.",
+  "why": "Greek Οὕτω; 'It does' does not fit a two-clause statement."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0215",
+  "severity": "low",
+  "old": "carries every breed of constitution in stock. Anyone wanting to found a city, as we've just been doing, should probably go to a democratic city first and browse the bazaar of constitutions, and pick out whichever style suits him",
+  "new": "has every kind of constitution in it. Anyone wanting to found a city, as we've just been doing, should probably go to a democratic city first, as to a general store of constitutions, and pick out whichever pattern suits him",
+  "why": "Greek ὥσπερ εἰς παντοπώλιον … τὸν ἀρέσκοντα τρόπον: one shop image, not a pile of retail talk."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0349",
+  "severity": "low",
+  "old": "stripping the haves of their property",
+  "new": "stripping the men of property of what they own",
+  "why": "'The haves' is a political catchphrase; Greek τοὺς ἔχοντας τὰς οὐσίας."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0219",
+  "severity": "low",
+  "old": "like a hero come back from the dead,",
+  "new": "like a hero,",
+  "why": "Greek ὥσπερ ἥρως περινοστεῖ; the explanation of 'hero' is added."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0156",
+  "severity": "low",
+  "old": "a blind god, wealth, at the head",
+  "new": "a blind god at the head",
+  "why": "Greek τυφλὸν ἡγεμόνα; ', wealth,' is a gloss on Plutus."
+ },
+ {
+  "section": 8,
+  "seg": "seg-0119",
+  "severity": "low",
+  "old": "merely a consumer of whatever was at hand",
+  "new": "merely a spender of whatever was at hand",
+  "why": "Greek ἀναλωτής; 'consumer' brings in modern economics."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0055",
+  "severity": "medium",
+  "old": "But in God’s name, Adeimantus",
+  "new": "But by Zeus, Adeimantus",
+  "why": "Greek πρὸς Διός. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0055",
+  "severity": "medium",
+  "old": "for the sake of a girlfriend of a week",
+  "new": "for the sake of a mistress he took up last week",
+  "why": "Greek νεωστὶ φίλης … ἑταίρας, a newly taken courtesan; 'girlfriend' is modern and softens it."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0344",
+  "severity": "medium",
+  "old": " (729 is close to the number of days and nights in a year.)",
+  "new": "",
+  "why": "Jowett's note carried into Socrates' speech. Move to enrichment."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0056",
+  "severity": "low",
+  "old": "Yes, he said. Honestly, I believe he would.",
+  "new": "Yes, by Zeus, he said, I believe he would.",
+  "why": "Greek Ναὶ μὰ Δί', ἦ δ' ὅς, ἔγωγε (from my knowledge of the Greek). Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0272",
+  "severity": "low",
+  "old": "Honestly, he said, I don’t see",
+  "new": "By Zeus, he said, I don’t see",
+  "why": "Greek Μὰ Δί' (from my knowledge of the Greek). Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0009",
+  "severity": "low",
+  "old": "satisfy its own instincts",
+  "new": "satisfy its own nature",
+  "why": "Greek τὰ αὑτοῦ ἤθη; 'instincts' is a modern psychological term."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0187",
+  "severity": "low",
+  "old": "unless some of it converts to cash",
+  "new": "unless they bring in money",
+  "why": "Greek ἐὰν μὴ αὐτῶν ἀργύριον ποιῇ; banking idiom."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0011",
+  "severity": "high",
+  "old": "healthy and temperate,",
+  "new": "healthy and in command of himself,",
+  "why": "Greek σωφροσύνη/σωφρόνως. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0023",
+  "severity": "high",
+  "old": "purged him of temperance",
+  "new": "purged him of self-command",
+  "why": "Greek σωφροσύνη/σωφρόνως. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0390",
+  "severity": "high",
+  "old": "wins temperance and justice",
+  "new": "wins self-command and justice",
+  "why": "Greek σωφροσύνη/σωφρόνως. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 9,
+  "seg": "seg-0394",
+  "severity": "high",
+  "old": "unless temperance comes with them",
+  "new": "unless self-command comes with them",
+  "why": "Greek σωφροσύνη/σωφρόνως. Term policy: σωφροσύνη is 'self-command' (adj. 'self-commanded') throughout, as in Book IV where the virtue is defined."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0314",
+  "severity": "high",
+  "old": "The rim of the largest is spangled — these are the fixed stars; the seventh, the sun, is brightest; the eighth, the moon, takes its color from the seventh's light falling on it; the second and fifth, Saturn and Mercury, are like each other, and yellower than the others; the third, Venus, carries the whitest light; the fourth, Mars, is reddish; the sixth, Jupiter, is second in whiteness.",
+  "new": "The rim of the largest is spangled; the seventh is brightest; the eighth takes its color from the seventh's light falling on it; the second and fifth are like each other, and yellower than the others; the third carries the whitest light; the fourth is reddish; the sixth is second in whiteness.",
+  "why": "Plato (616e-617a) names no star or planet; the identifications are Jowett's bracketed notes, here with Roman names, written into Er's vision. Planet key to enrichment."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0096",
+  "severity": "medium",
+  "old": "Homer's own companion Creophylus — the name means something like 'son of the Meat-clan,' and people laugh at it — would look",
+  "new": "Homer's own companion Creophylus would look",
+  "why": "Gloss in the text: Plato lets the name carry the joke ('more laughable for his education than for his name'). Etymology to a note."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0137",
+  "severity": "low",
+  "old": "Then tell me, in heaven's name:",
+  "new": "Then tell me, by Zeus:",
+  "why": "Greek πρὸς Διός. Oath policy: Greek oaths by Zeus print as 'by Zeus' throughout, as Books III, V-VIII and X already do; no monotheistic 'God' as an interjection."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0189",
+  "severity": "low",
+  "old": "set our affairs against the way they have fallen, however reason picks out as best.",
+  "new": "arrange our affairs to suit the throw, in whatever way reason judges best.",
+  "why": "Read-aloud: 'however reason picks out' does not parse on first hearing; Greek ὅπῃ ὁ λόγος αἱρεῖ βέλτιστ' ἂν ἔχειν."
+ },
+ {
+  "section": 10,
+  "seg": "seg-0316",
+  "severity": "low",
+  "old": "and traded into the life of an eagle.",
+  "new": "and exchanged it for the life of an eagle.",
+  "why": "'Traded into' is not idiomatic; Greek ἀλλάξασθαι."
+ }
+]

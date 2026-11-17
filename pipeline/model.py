@@ -33,6 +33,7 @@ class Provenance:
     sourcesCited: Optional[list] = None   # named sources synthesized (translations, scholarship)
     tokensEstimated: Optional[int] = None # est. tokens used to produce (input sources + output)
     vintage: Optional[int] = None         # edition year, for citable vintages
+    revised: Optional[str] = None     # date of the last revision within this vintage (YYYY-MM-DD)
     # Museum images:
     creator: Optional[str] = None
     holdingInstitution: Optional[str] = None
@@ -54,7 +55,7 @@ class SpineRange:
 class Segment:
     id: str                           # frozen once published, e.g. edition...book-01.seg-0007
     order: int
-    kind: str                         # paragraph | verse_block | heading | epigraph
+    kind: str                         # paragraph | verse_block | heading | epigraph | omit
     text: str                         # may contain '\n' for verse line breaks
     spine: Optional[SpineRange] = None
 
@@ -102,6 +103,9 @@ class Work:
     tradition: str = "West"           # West | East — drives broad shelf identity and cover theme
     collections: list[str] = field(default_factory=list)
     editionIds: list[str] = field(default_factory=list)
+    # "YYYY-MM-DD" from catalog/books.json; absent = already out. The app hides a work
+    # until this day (app/Lectio/Library.swift).
+    releaseDate: Optional[str] = None
 
 
 @dataclass
