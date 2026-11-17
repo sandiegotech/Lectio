@@ -96,7 +96,7 @@ STRINGS = {
         "original_head": "The original",
         "editions": "The Other Editions in Lectio",
         "editions_lede": "Every work in Lectio carries its modern edition and the public-domain texts "
-                         "behind it. One tap in the reader moves between them; they are listed here as "
+                         "behind it. The reader moves freely between them; they are listed here as "
                          "they stand in the library.",
         "threads": "Where This Book Leads",
         "threads_lede": "The threads Lectio draws from this work to others in the library.",
@@ -164,7 +164,7 @@ STRINGS = {
         "original_head": "El original griego",
         "editions": "Las otras ediciones en Lectio",
         "editions_lede": "Cada obra de Lectio lleva su edición moderna y los textos de dominio público "
-                         "que hay detrás. Un toque en el lector pasa de una a otra; aquí se enumeran "
+                         "que hay detrás. El lector pasa libremente de una a otra; aquí se enumeran "
                          "tal como están en la biblioteca.",
         "threads": "Adónde lleva este libro",
         "threads_lede": "Los hilos que Lectio tiende desde esta obra hacia otras de la biblioteca.",
@@ -269,21 +269,62 @@ def overlaps(seg, lo, hi) -> bool:
     return not (spine_key(sp["to"]) < lo or spine_key(sp["from"]) > hi)
 
 
+_STOP = frozenset("""
+    the and of to a in that is it for with as be are will not or but on at from
+    which what into unto upon shall may can his her their there then than this
+    these those thou thy thee hath doth were was have has had they them your you
+""".split())
+
+
+def content_words(text: str) -> set:
+    """Longish lexical words — a cheap fingerprint for 'is this the same passage?'."""
+    return {w for w in re.findall(r"[a-z']+", text.lower())
+            if len(w) >= 5 and w not in _STOP}
+
+
+def near_spine(seg, key, slack: int) -> bool:
+    """Within `slack` minor units of `key` in the same major unit (book/canto)."""
+    sp = seg.get("spine")
+    if not sp:
+        return False
+    a, b = spine_key(sp["from"]), spine_key(sp["to"])
+    if a[:-1] != key[:-1] or b[:-1] != key[:-1]:
+        return False
+    lo, hi, n = a[-1], b[-1], key[-1]
+    if not all(isinstance(v, int) for v in (lo, hi, n)):
+        return False
+    return lo - slack <= n <= hi + slack
+
+
 def passage_across_editions(editions, ed_id, locus):
-    """The same passage in every edition, matched by the alignment spine."""
-    lo = hi = spine_key(locus)
+    """The same passage in every edition: spine overlap first, refined by shared
+    vocabulary with the printed edition's text — the v1 spine is proportional, so a
+    historical edition's segment for a locus can sit a section or two off."""
+    key = lo = hi = spine_key(locus)
     rows = []
+    ref_words: set = set()
     order = [ed_id] + [i for i in editions if i != ed_id]
     for eid in order:
         ed = editions.get(eid)
         if not ed:
             continue
-        hits = [g for s in ed["sections"] for g in s["segments"] if overlaps(g, lo, hi)]
+        segs = [g for s in ed["sections"] for g in s["segments"]]
+        hits = [g for g in segs if overlaps(g, lo, hi)]
+        # Other editions: among nearby segments, prefer the one that actually shares
+        # the passage's vocabulary (skipped when nothing scores — e.g. the Greek).
+        if eid != ed_id and ref_words:
+            cands = [g for g in segs if near_spine(g, key, 3)] or hits
+            scored = max(cands, default=None,
+                         key=lambda g: len(ref_words & content_words(g["text"])))
+            if scored is not None and len(ref_words & content_words(scored["text"])) >= 3:
+                hits = [scored]
         if not hits:
             continue
         text = " ".join(h["text"] for h in hits)
         if len(text) > 900:  # a spine cell that swallowed a run of paragraphs
             text = text[:900].rsplit(" ", 1)[0] + "…"
+        if eid == ed_id:
+            ref_words = content_words(text)
         rows.append((ed, text))
     return rows
 
@@ -666,7 +707,9 @@ def build_typ(args) -> str:
         if note:
             add(f'#argument[{mk(note)}]\n')
         # Sections: paragraphs numbered in the order they are read, as in the app.
-        for i, g in enumerate(s["segments"], start=1):
+        # A segment marked "omit" is an editor's note kept only for its id; it is not printed.
+        readable = [g for g in s["segments"] if g.get("kind") != "omit"]
+        for i, g in enumerate(readable, start=1):
             add(f'#sec({i}, ({tqs(g["text"])},))\n')
 
     # ------------------------------------------------------------ back matter

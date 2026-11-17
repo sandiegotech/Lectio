@@ -169,6 +169,121 @@ thing that ships). Print is not a separate product; it is **another rendering of
 
 ---
 
+## 7c. The Lexicon — the dictionary under the editions (idea, August 2026)
+
+**Naming (settled).** **The Lexicon** is the project and the data layer. ***Lectio Modern Dictionary, 2026***
+is the printed edition — the year is part of the title, as with every Lectio Edition (§7b). One is the corpus;
+the other is the artifact rendered from it that year.
+
+**The register rule (settled).** A Lectio Modern Edition must read for anyone from roughly fifteen to ninety.
+That rules out words that are too new or too trendy to be common property — a word half the readership has to
+look up is a failure of the edition, whatever its pedigree. Plain and current, never fashionable.
+
+This produces the governing split, and it is the thing to keep straight:
+
+- **The Lexicon records the whole range**, including slang and words that will date badly. That is what a
+  record of a year *is*. Documenting a word is not endorsing it.
+- **The editions draw from a restricted register** — the durable middle of the language, readable across three
+  generations.
+
+So the dictionary is descriptive and the edition's word choice is deliberately conservative. The Lexicon's job
+for the editions is not to supply fashionable words; it is to mark which words have **moved**, so a rendering
+does not use a familiar word in a sense the reader no longer carries.
+
+**The observation.** Old translations don't only use old words. They use words we still use, in senses we no
+longer mean — which is why a 1909 file reads as forbidding even when every word in it is familiar. And the
+drift runs forward as well as back: the English a Lectio Modern Edition is written *in* is itself moving. That
+is the real reason editions carry vintages (§2).
+
+**What it is.** A record of how words are actually used, by year — sitting between a historical dictionary (how
+a word's sense traveled) and a record of living usage (what a word means right now, in the culture using it).
+Not a lookup utility. A reference work with editions, like everything else here: *The Lexicon, 2026*.
+
+Two halves, one entry:
+- **Sense history** — how the word arrived and where its meaning moved. This already exists in the
+  architecture: `senseHistory` on the `Concept` node (`CONTENT_PIPELINE.md §7`), authored offline from
+  Webster's 1913. The idea promotes that field from a footnote into a first-class artifact.
+- **Living usage** — words in current common use, carrying the sense they hold *at the date of the edition*,
+  attested with real citations. Slang included, without embarrassment and without pretending to stay current.
+
+**Why it belongs to Lectio and not to Gloss.** Gloss explains one word to one reader in context, on demand; its
+rule is *explanation, not definition or translation*. The Lexicon is the opposite kind of object — a corpus,
+not a surface. It is a **data layer** the Margin and Gloss can read, and a **printed artifact** in its own
+right. The moment it becomes a lookup app it has broken both tools' one-thing-well rule.
+
+**Why it is load-bearing, not a side project.** The Modern Edition's whole claim is that it renders a work into
+the English people actually read *now*. "Now" is an assertion, and it needs a source. The Lexicon is that
+source: the instrument that decides how a word gets rendered this vintage, and the record of why the 2028
+edition differs from the 2026 one. It turns vintages from a curiosity into a documented practice.
+
+**Scope, honestly.** "Every word ever used" is the OED — a century and a half and hundreds of lexicographers.
+Not that. The Lexicon is scoped to **the corpus**: words appearing in the works Lectio publishes, plus the
+modern words needed to render them. Bounded, useful, in direct service of the editions, and it grows with the
+shelf.
+
+**Staleness is the design, not the flaw.** A printed slang entry is dated the year after it prints. That is
+fatal for a usage guide and correct for a record. The 2026 edition is a snapshot of 2026, and its value
+increases as it ages. This only holds if the framing is *record of a year* and never *current reference*.
+
+**The unresolved part — who verifies a living entry.** Sense history is checkable against published sources.
+Current usage is not: it is held by the people inside the culture using the word, most of whom hold no
+credential for it. This is the master problem from the institutional bible (§II) in miniature, and the same
+test applies — the work, the record over time, and the judgment of peers who cannot be fooled. An entry on
+current usage that has not passed a speaker of that usage is a guess with a colophon on it. The review gate
+(§2, §7b) has to cover this before anything prints.
+
+**Rights.** Same discipline as §6: usage and meaning are facts and are not protected; specific expression is.
+Citations are attributed; contemporary copyrighted text is a research input, never reproduced.
+
+### 7c-i. Scale — what this actually costs
+
+Published counts are solid; byte and labor figures are modelled order-of-magnitude estimates, marked *est.*
+
+**Entry depth is tiered, not uniform.** There is no standard size, and forcing one would be wrong:
+
+| Tier | What it carries | Share | Size *est.* |
+|---|---|---|---|
+| **Marked** | headword, POS, current sense, drift flag | ~70% | 0.2–0.5 KB |
+| **Standard** | + etymology chain, dated senses, 80–150 word sense-history note, 2–3 attested citations, register note, rendering decision | ~25% | 1.5–3 KB |
+| **Concept** | + original-language block, translator divergence, `appearsIn`, graph edges, 300–600 word essay | ~5% | 8–20 KB |
+
+**The depth goes to the common words, not the rare ones.** This inverts the intuition. An archaic word you
+have never seen is easy — you know you do not know it, and you look it up. The dangerous words are the
+familiar ones whose sense moved underneath them: *nice* (foolish → precise → pleasant), *silly* (blessed →
+harmless → foolish), *awful* (awe-inspiring → bad), *virtue*, *wit*, *conversation*, *prevent*. A reader
+sails past these with the wrong meaning and never knows. The top ~3,000 lemmas carry ~85–90% of running text
+and take the deepest entries; the long tail is mostly Marked.
+
+**Three concentric scopes.** Only the first should be attempted.
+
+| Scope | Entries | Raw *est.* | Shipped *est.* | Labor |
+|---|---|---|---|---|
+| **1. Lectio corpus** (English, corpus-bound) | 12–18k | ~35 MB | **10–15 MB** | Falls out of edition work already being done |
+| **2. English complete** (OED-scale) | ~250–300k headwords | ~600 MB | ~150–200 MB | Decades. OED1 took ~70 years and ~2,000 volunteer readers; OED3 began 1993 and is unfinished |
+| **3. All living languages** | ~7,100 languages | ~200+ GB | ~60 GB | Not authorable. Derivable only |
+
+Scope 1 is bounded because it is bound to the shelf: ~10M running words across the Harvard Classics *est.*
+yields ~100k distinct forms and ~40–50k lemmas, of which only the drifted ones need an entry. It grows with
+the corpus and never with the language.
+
+**Scope 3 is a derivation problem, not an authoring problem.** The multilingual layer already exists in open
+form and must be inherited rather than rebuilt: **Wiktionary** (~9–10M entries across 4,000+ languages,
+CC-BY-SA), **PanLex** (~25M lexemes, ~5,700 languages, built for cross-lingual linking), **Open Multilingual
+WordNet**, and **Universal Dependencies** (~150–200 languages) for structure. The data thins out fast: of
+~7,100 living languages, only a few hundred have anything like a comprehensive dictionary, and thousands are
+attested by a wordlist of a few hundred items. What SDIT would add is the part that does not exist anywhere —
+sense history written for a reader, and the rendering decision.
+
+**Cross-language linking happens at the concept, not the word.** Words do not map 1:1 across languages, so a
+word-to-word graph encodes a falsehood. Lectio's existing `Concept` node is already the right abstraction
+(`CONTENT_PIPELINE.md §7`): `original: {lang, lemma, translit, literal}` hangs many languages off one idea.
+Note that generative syntax is the wrong instrument here — it describes sentence structure, not lexical
+relation. The usable spines are Universal Dependencies for structure, WordNet synsets for sense relations, and
+reconstructed Proto-Indo-European roots (~2,000 of them) for the etymological web under most of the languages
+this corpus touches.
+
+---
+
 ## 8. Ecosystem, AI & Business Model
 
 **Ecosystem.** Lectio is one of several apps sharing an account-level identity and a tuned AI ("the
@@ -294,3 +409,10 @@ Lectio Edition is the product that funds SDIT. Proven on three works.
 - How much of the Modern Edition is acceptable to generate vs. how much human review per work.
 - Exact free/Student/Philosopher boundaries and pricing.
 - Original-language depth (display only, or interlinear/lexical for Greek/Latin).
+- The Lexicon: who constitutes the peer group for a current-usage entry, and how they are credited. Narrowed
+  by the register rule (§7c) — the editions no longer depend on current-usage entries, so this now gates only
+  the record half, not the editions.
+- The Lexicon: where the drift flag comes from. Marking which words have moved is the whole product, and it
+  is the one input that cannot be derived from Webster's 1913 alone.
+- The Lexicon: whether the *Century Dictionary* (1889–91, ~500k entries, public domain) is worth ingesting
+  alongside Webster's 1913 as a second authoring source.
