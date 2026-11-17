@@ -1,0 +1,39 @@
+{
+  "order": 8,
+  "label": "Chapter VIII",
+  "title": "The Nine Changes",
+  "paragraphs": [
+    "Master Sun said: The rule in war is this. The general receives his orders from the ruler, brings the army together and gathers the troops.",
+    "On rough ground, do not camp. On crossroads ground, join with your allies. On cut-off ground, do not linger. On hemmed-in ground, use strategy. On death ground, fight.",
+    "There are roads not to be taken, armies not to be struck, cities not to be attacked, ground not to be contested, and orders from the ruler not to be accepted.",
+    "So the general who sees through to the advantages of the nine changes knows how to wage war. The general who does not see through to the advantages of the nine changes, though he knows the terrain, cannot get the advantage of the ground. One who commands troops and does not know the art of the nine changes, though he knows the advantages of the ground, cannot get the use of his men.",
+    "That is why the wise man, in his thinking, always mixes advantage and harm. With the advantage mixed in, his work can be carried through. With the harm mixed in, his troubles can be undone.",
+    "That is why you bend the other princes with harm, keep them busy with tasks, and make them run with gain.",
+    "So the rule in war is this. Do not count on the enemy's not coming; count on our being ready for him. Do not count on his not attacking; count on our having made ourselves impossible to attack.",
+    "So there are five dangers in a general. If he is bent on dying, he can be killed. If he is bent on living, he can be captured. If he is quick to anger, he can be goaded. If he is proud of his clean name, he can be shamed. If he loves his people, he can be harried.",
+    "These five are faults in a general and disasters in war. When an army is overturned and its general killed, it is always by these five dangers. They must be examined."
+  ],
+  "divergences": [
+    {
+      "locus": "the title, and VIII.2–6",
+      "phrase": "the nine changes",
+      "older": "Giles (1910): title \"Variation of Tactics\"; \"The general who thoroughly understands the advantages that accompany variation of tactics knows how to handle his troops.\"",
+      "lectio": "So the general who sees through to the advantages of the nine changes knows how to wage war.",
+      "note": "The title is 九變, \"the nine changes\", and the text speaks of them three times without ever saying which nine they are. What stands before the phrase is a list of five kinds of ground and a list of five things not to do, ten items in all; the opening sentence repeats the opening of Chapter VII; and the five grounds reappear in Chapter XI. The chapter has clearly been damaged or patched. Giles decided that \"nine\" meant only \"many\" and translated the number away. We keep the number, as the Chinese does, and do not try to find the nine."
+    },
+    {
+      "locus": "VIII.6",
+      "phrase": "though he knows the advantages of the ground",
+      "older": "Giles (1910): \"So, the student of war who is unversed in the art of war of varying his plans, even though he be acquainted with the Five Advantages, will fail to make the best use of his men.\"",
+      "lectio": "One who commands troops and does not know the art of the nine changes, though he knows the advantages of the ground, cannot get the use of his men.",
+      "note": "The cached text reads 雖知地利, \"though he knows the advantages of the ground\". Giles's text read 五利, \"the five advantages\", which the commentators refer back to the five things not to do. The difference is one character and the sense of the sentence is the same either way: knowing the fixed rules is not enough without knowing when they change."
+    },
+    {
+      "locus": "VIII.12, the five dangers",
+      "phrase": "If he is proud of his clean name, he can be shamed. If he loves his people, he can be harried.",
+      "older": "Giles (1910): \"(4) a delicacy of honour which is sensitive to shame; (5) over-solicitude for his men, which exposes him to worry and trouble.\"",
+      "lectio": "If he is bent on dying, he can be killed. If he is bent on living, he can be captured. If he is quick to anger, he can be goaded. If he is proud of his clean name, he can be shamed. If he loves his people, he can be harried.",
+      "note": "必死，可殺也；必生，可虜也；忿速，可侮也；廉潔，可辱也；愛民，可煩也. Five clauses of one shape: a quality, then what an enemy can do to a man who has it. Three of the five (readiness to die, integrity, love of the people) are virtues, and that is the point: any fixed trait is a handle. 廉潔 is being upright and clean-handed. 愛民 is \"loving the people\", which may mean his soldiers or the population he is defending; the English leaves it as wide as the Chinese."
+    }
+  ]
+}

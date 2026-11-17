@@ -1,0 +1,48 @@
+{
+  "order": 13,
+  "label": "Chapter XIII",
+  "title": "The Use of Spies",
+  "paragraphs": [
+    "Master Sun said: When an army of a hundred thousand is raised and sent out a thousand li, what the common people spend and what the government provides come to a thousand pieces of gold a day. There is turmoil at home and in the field, people are worn out on the roads, and seven hundred thousand households cannot do their work.",
+    "The two sides hold each other for years to contend for the victory of a single day. To begrudge titles, pay and a hundred pieces of gold, and so not know the enemy's condition, is the height of inhumanity. Such a man is no general of men, no help to his ruler, no master of victory.",
+    "So what lets the clear-sighted ruler and the able general move and beat the enemy, and achieve more than the crowd, is foreknowledge.",
+    "Foreknowledge cannot be had from ghosts and spirits. It cannot be drawn from the likeness of past events. It cannot be proved by measurement. It must be had from people, people who know the enemy's condition.",
+    "So there are five kinds of spy to use: local spies, inside spies, turned spies, dead spies and living spies.",
+    "When all five are at work and no one knows their ways, it is called \"the godlike thread,\" and it is the ruler's treasure.",
+    "Local spies are people of the enemy's countryside, put to use. Inside spies are the enemy's officials, put to use. Turned spies are the enemy's spies, put to use.",
+    "For dead spies, we put out false information, let our own spies learn of it, and have them pass it to the enemy's spies. Living spies are those who come back and report.",
+    "So in all the business of the whole army, no one is closer than the spy, no reward is richer than the spy's, and no business is more secret than the spy's.",
+    "Without a sage's wisdom you cannot use spies. Without humanity and a sense of what is right you cannot direct spies. Without subtlety you cannot get the truth from spies.",
+    "Subtle, subtle! There is nowhere that spies are not used.",
+    "If a spy's business is heard of before its time, the spy and those he told all die.",
+    "Whatever army you want to strike, whatever city you want to attack, whatever man you want to kill, you must first know the names of the general in charge, his attendants, his ushers, his gatekeepers and his household men. Order your spies to find them out without fail.",
+    "You must seek out the enemy's spies who have come to spy on you. Offer them gain, guide them, give them lodging. In this way turned spies can be had and used.",
+    "Through what the turned spy tells you, local spies and inside spies can be had and directed. Through what he tells you, the dead spy's false information can be carried to the enemy. Through what he tells you, the living spy can be sent out and brought back on time.",
+    "The ruler must know the business of all five kinds of spy, and knowing it depends on the turned spy. So the turned spy must be treated generously.",
+    "In ancient times, when the Yin rose, I Chih was in Hsia. When the Chau rose, Lü Ya was in Yin.",
+    "So the clear-sighted ruler and the able general who can make spies of the wisest men are sure to achieve great things. This is the essential thing in war. It is what the whole army relies on to move."
+  ],
+  "divergences": [
+    {
+      "locus": "XIII.7, the five kinds of spy",
+      "phrase": "local spies, inside spies, turned spies, dead spies and living spies",
+      "older": "Giles (1910): \"(1) Local spies; (2) inward spies; (3) converted spies; (4) doomed spies; (5) surviving spies.\"",
+      "lectio": "So there are five kinds of spy to use: local spies, inside spies, turned spies, dead spies and living spies.",
+      "note": "鄉間, 內間, 反間, 死間, 生間. The last two are named with the plainest pair in the language, 死 and 生, death and life, and the English keeps the pair: the dead spy is the one fed false information and sent where he will be caught and killed for it, the living spy the one who comes home. 反 is \"turned round\": an enemy spy now working for us. For the first, the cached text reads 鄉間, \"village spies\", which is what Giles translated; many editions print 因間 here, a reading the definition that follows (因其鄉人) shows to be a slip."
+    },
+    {
+      "locus": "XIII.5",
+      "phrase": "It cannot be proved by measurement.",
+      "older": "Giles (1910): \"Now this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation.\"",
+      "lectio": "Foreknowledge cannot be had from ghosts and spirits. It cannot be drawn from the likeness of past events. It cannot be proved by measurement.",
+      "note": "不可取於鬼神，不可象於事，不可驗於度. Three ways of knowing the future are ruled out. The first is asking the spirits. The second, 象於事, is reasoning by likeness from other events. The third, 驗於度, is \"verifying by measures\", which the commentators explain as the measured movements of sun, moon and stars, that is, astrology; Giles's \"deductive calculation\" makes it a point of logic. The English says \"measurement\" and leaves the heavens to this note, since naming them in the line would put the commentators' explanation into Sun Tzu's sentence; \"calculation\" is kept for 計."
+    },
+    {
+      "locus": "XIII.26",
+      "phrase": "I Chih was in Hsia … Lü Ya was in Yin",
+      "older": "Giles (1910): \"Of old, the rise of the Yin dynasty was due to I Chih who had served under the Hsia. Likewise, the rise of the Chou dynasty was due to Lü Ya who had served under the Yin.\"",
+      "lectio": "In ancient times, when the Yin rose, I Chih was in Hsia. When the Chau rose, Lü Ya was in Yin.",
+      "note": "昔殷之興也，伊摯在夏；周之興也，呂牙在殷. The Chinese says only that each man \"was in\" the state that was about to fall, and lets the reader draw the conclusion; \"was due to\" is Giles's. I Chih is I Yin, the minister of T'ang, founder of the Yin (Shang); the Lectio Analects calls him I Yin, and this edition keeps the name the text uses. Lü Ya is Lü Shang, known as T'ai Kung, adviser to the founders of the Chau, spelled here as the Lectio Analects spells that dynasty. Giles's sentence is quoted from the 1910 text, not from the cached working copy, where a bracket fault cuts it short."
+    }
+  ]
+}

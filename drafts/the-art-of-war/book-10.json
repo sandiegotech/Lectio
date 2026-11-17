@@ -1,0 +1,52 @@
+{
+  "order": 10,
+  "label": "Chapter X",
+  "title": "Terrain",
+  "paragraphs": [
+    "Master Sun said: Terrain may be open, snaring, a standoff, narrow, steep or distant.",
+    "Where we can go and he can come, it is called open. On open terrain, be first to take the high and sunny ground and keep your supply roads clear. Then to fight is to your advantage.",
+    "Where it is possible to go and hard to come back, it is called snaring. On snaring terrain, if the enemy is unprepared, go out and beat him. If the enemy is prepared and you go out and do not beat him, it is hard to come back, and that is against you.",
+    "Where it is against us to go out and against him to go out, it is called a standoff. On standoff terrain, even if the enemy holds out a gain to us, we do not go out. We draw back and leave, and when half the enemy has come out we strike. That is to our advantage.",
+    "On narrow terrain, if we take it first, we must fill it and wait for the enemy. If the enemy takes it first, do not follow him in if he has filled it. Follow him in if he has not.",
+    "On steep terrain, if we take it first, we must hold the high and sunny ground and wait for the enemy. If the enemy takes it first, draw back and leave. Do not follow him.",
+    "On distant terrain, when the two sides are evenly matched, it is hard to provoke a battle, and to fight is against you.",
+    "These six are the way of the ground. They are the general's highest charge. They must be examined.",
+    "So an army may run, go slack, sink, collapse, fall into disorder or be routed. These six are not disasters from heaven. They are the general's faults.",
+    "When the two sides are evenly matched and one is sent to strike ten, it is called running. When the soldiers are strong and the officers weak, it is called going slack. When the officers are strong and the soldiers weak, it is called sinking.",
+    "When the senior officers are angry and will not obey, and on meeting the enemy fight on their own out of resentment, and the general does not know what they can do, it is called collapse.",
+    "When the general is weak and not strict, when his teaching is not clear, when officers and soldiers have no settled duties and the troops are drawn up every which way, it is called disorder.",
+    "When the general cannot read the enemy, sends few against many and the weak to strike the strong, and the army has no picked men at its front, it is called rout.",
+    "These six are the way to defeat. They are the general's highest charge. They must be examined.",
+    "Terrain is the army's helper. To read the enemy and shape the victory, to calculate what is steep and narrow, far and near: this is the way of the highest general. One who knows this and fights is sure to win. One who does not know it and fights is sure to lose.",
+    "So if the way of the battle is sure victory and the ruler says not to fight, you may fight all the same. If the way of the battle is not victory and the ruler says you must fight, you may decline to fight.",
+    "That is why the general who advances without seeking a name and retreats without dodging blame, whose only care is to protect the people and whose gain is his ruler's gain, is the treasure of the state.",
+    "Look on your soldiers as infants, and they will go with you into the deepest gorges. Look on your soldiers as your own beloved sons, and they will die with you.",
+    "But if you are generous and cannot make them work, loving and cannot give them orders, and when they are disorderly cannot bring them to order, they are like spoiled children and cannot be used.",
+    "To know that our soldiers can strike, and not know that the enemy cannot be struck, is half a victory. To know that the enemy can be struck, and not know that our soldiers cannot strike, is half a victory. To know that the enemy can be struck, and know that our soldiers can strike, and not know that the terrain is not one to fight on, is half a victory.",
+    "So one who knows war moves and does not lose his way, acts and is never at a loss.",
+    "So it is said: Know the other side and know yourself, and victory will not be in danger. Know heaven and know earth, and victory can be whole."
+  ],
+  "divergences": [
+    {
+      "locus": "X.1–12, the six kinds of terrain",
+      "phrase": "open, snaring, a standoff, narrow, steep or distant",
+      "older": "Giles (1910): \"(1) Accessible ground; (2) entangling ground; (3) temporising ground; (4) narrow passes; (5) precipitous heights; (6) positions at a great distance from the enemy.\"",
+      "lectio": "Terrain may be open, snaring, a standoff, narrow, steep or distant.",
+      "note": "The six are single words in Chinese: 通, 掛, 支, 隘, 險, 遠. 通 is \"going through\", ground both sides can cross freely. 掛 is \"to hang\" or \"catch on a hook\": ground you can go down into and cannot easily get back from. 支 is \"to prop\", two sides holding each other up, neither able to move first without loss. Each is given one plain English word and Sun Tzu's own definition, which follows at once, does the rest."
+    },
+    {
+      "locus": "X.23",
+      "phrase": "you may fight all the same … you may decline to fight",
+      "older": "Giles (1910): \"If fighting is sure to result in victory, then you must fight, even though the ruler forbid it; if fighting will not result in victory, then you must not fight even at the ruler's bidding.\"",
+      "lectio": "So if the way of the battle is sure victory and the ruler says not to fight, you may fight all the same. If the way of the battle is not victory and the ruler says you must fight, you may decline to fight.",
+      "note": "主曰無戰，必戰可也 … 主曰必戰，無戰可也. The last two words of each half are 可也, \"it is permissible\". Sun Tzu gives the general leave to disobey; he does not command him to. Giles's \"must\" twice makes it a duty. The milder wording matters, because the next sentence praises the general who acts this way without thought for his own name or safety, and Chapter VIII has already said there are orders from the ruler that are not to be accepted."
+    },
+    {
+      "locus": "X.25",
+      "phrase": "Look on your soldiers as infants",
+      "older": "Giles (1910): \"Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.\"",
+      "lectio": "Look on your soldiers as infants, and they will go with you into the deepest gorges. Look on your soldiers as your own beloved sons, and they will die with you.",
+      "note": "視卒如嬰兒 … 視卒如愛子. 嬰兒 is a baby, a child at the breast, which is a step tenderer than \"children\"; the second clause rises to \"beloved sons\". 與之俱死 is \"die together with him\", the same thought as the first chapter's \"they will die with them and live with them\", and it is put as plainly here."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+ "order": 10,
+ "label": "The Hymn of Cleanthes",
+ "title": "The Hymn of Cleanthes",
+ "paragraphs": [
+  "Most glorious of the immortals, you of many names, all-powerful forever, Zeus, first cause of nature, who steer all things by law: hail! For it is right for all mortals to call upon you. We are your offspring, and alone of all mortal things that live and move upon the earth we have been given a likeness of God. So I will sing your praise, and sing of your power always.",
+  "This whole universe, wheeling around the earth, obeys you wherever you lead, and willingly submits to your rule; such is the servant you hold in your unconquerable hands, the two-edged, fiery, ever-living thunderbolt. For under its stroke all the works of nature are brought to pass. With it you direct the universal reason, which runs through all things, mingling with the great light and the lesser lights; and through it you are what you are, the highest king for all time.",
+  "Nothing is done on earth apart from you, O god, nor in the divine vault of heaven, nor in the sea, except what bad men do in their own folly. But you know how to make the odd even, and to bring order to what is without order; and what is unloved is loved by you. For you have so fitted all things into one, the good with the bad, that there is one reason for all things, existing forever. The bad among mortals flee it and let it go, wretched men, who always long to possess good things, yet neither see nor hear God's universal law, though if they obeyed it with understanding they would have a good life. Instead they rush off without sense, each after a different thing: some in a quarrelsome zeal for fame, some turned to gain without any decency, others to slackness and the pleasures of the body. They are carried now this way and now that, and work hard to bring about the very opposite of what they want.",
+  "But Zeus, giver of all, wrapped in dark cloud, lord of the bright lightning, save men from their ruinous ignorance. Scatter it, father, from the soul, and grant that they may find the understanding on which you rely to steer all things with justice; so that, being honored, we may honor you in return, singing of your works without ceasing, as a mortal should. For there is no greater privilege for mortals, or for gods, than to sing forever, as is right, of the universal law."
+ ],
+ "divergences": [
+  {
+   "locus": "the section as a whole",
+   "phrase": "the form",
+   "older": "thirty-six English hexameters in four stanzas, with \"Thou\" and \"Thee\" (Crossley)",
+   "lectio": "four prose paragraphs, one for each of Crossley's stanzas",
+   "note": "The Lectio editions of this shelf are prose and their paragraphs do not hold line breaks, so the hymn is given as plain prose, unrhymed and unmetered, translated from Cleanthes' Greek and not from Crossley's verse. Zeus is \"you\". The poem is not by Epictetus; Crossley added it because Epictetus quotes Cleanthes' other prayer, \"Lead me, Zeus, and you, Destiny\", more than once (CXIX, CLXXXIV). λόγος is \"reason\" and κοινὸς νόμος \"the universal law\", as in the sayings."
+  },
+  {
+   "locus": "lines 4 and 14",
+   "phrase": "θεοῦ μίμημα λαχόντες; ὃς τόσσος γεγαὼς ὕπατος βασιλεὺς διὰ παντός",
+   "older": "\"all that in myriad motion lives for its day on the earth bears one impress—Thy likeness—upon it\"; \"E'en as beseemeth its birth, High King through ages unending\" (Crossley)",
+   "lectio": "\"alone of all mortal things … we have been given a likeness of God\"; \"through it you are what you are, the highest king for all time\"",
+   "note": "The hymn survives in one damaged manuscript of Stobaeus and these two lines are editors' repairs. In line 4 the manuscript has a word that will not scan (ἤχου, \"of sound\"); \"of God\" is one of several conjectures. The Greek says that human beings alone (μοῦνοι) have the likeness; Crossley gave it to every living thing. Line 14 is printed in angle brackets in the cached text as a supplement; its sense is uncertain and the English is kept loose on purpose."
+  },
+  {
+   "locus": "lines 26–29",
+   "phrase": "αὐτοὶ δ' αὖθ' ὁρμῶσιν … οἱ μὲν ὑπὲρ δόξης σπουδὴν δυσέριστον ἔχοντες",
+   "older": "\"turn each to his own way, / Here, a heart fired with ambition, in strife and straining unhallowed\" (Crossley)",
+   "lectio": "\"Instead they rush off without sense, each after a different thing: some in a quarrelsome zeal for fame\"",
+   "note": "The cached Wikisource copy of the Greek is two lines short here: it goes straight from the good life (line 25) to the men turned to gain, and marks a gap further on. The two missing lines, on the rush in all directions and the zeal for fame, stand in the standard text (von Arnim, SVF I.537) and in Crossley. Lectio includes them, rendered from the standard text as remembered and controlled by Crossley; they must be checked against a full text when the Greek is bundled. The last sentence follows the supplement the cached text prints in angle brackets."
+  }
+ ]
+}

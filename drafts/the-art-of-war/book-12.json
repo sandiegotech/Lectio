@@ -1,0 +1,46 @@
+{
+  "order": 12,
+  "label": "Chapter XII",
+  "title": "Attack by Fire",
+  "paragraphs": [
+    "Master Sun said: There are five kinds of attack by fire. The first is to burn men; the second, to burn stores; the third, to burn baggage trains; the fourth, to burn storehouses; the fifth, to burn columns on the march.",
+    "To use fire there must be the right conditions, and the materials for fire must always be ready.",
+    "There is a season for setting fires and there are days for starting them. The season is when the weather is dry. The days are when the moon is in the Winnowing Basket, the Wall, the Wings or the Chariot Board. These four constellations mark the days when the wind rises.",
+    "In attack by fire you must answer each of the five changes of fire as it comes.",
+    "When fire breaks out inside, answer it early from outside.",
+    "When fire breaks out and the enemy's troops stay quiet, wait and do not attack. Let the fire reach its height. Then follow it up if you can, and if you cannot, stop.",
+    "When fire can be set from outside, do not wait for it inside. Set it when the time is right.",
+    "When fire is set upwind, do not attack from downwind.",
+    "A wind by day lasts long. A wind by night dies down.",
+    "Every army must know the five changes of fire and keep watch for them by calculation.",
+    "So one who uses fire to help an attack is clear-sighted. One who uses water to help an attack is strong. Water can cut an enemy off; it cannot take what he has.",
+    "To win battles and take what you attack, and not follow up what you have achieved, is ill-omened. It is named \"waste and delay.\"",
+    "So it is said: the clear-sighted ruler thinks it through, and the good general follows it up. Do not move unless there is advantage. Do not use troops unless there is something to gain. Do not fight unless you are in danger.",
+    "A ruler must not raise an army out of anger. A general must not give battle out of resentment. Move when it is to your advantage; when it is not, stay where you are.",
+    "Anger can turn back to joy, and resentment can turn back to gladness. But a state that has perished cannot be brought back, and the dead cannot be brought back to life.",
+    "So the clear-sighted ruler is careful, and the good general is on his guard. This is the way to keep the state safe and the army whole."
+  ],
+  "divergences": [
+    {
+      "locus": "XII.1",
+      "phrase": "to burn columns on the march",
+      "older": "Giles (1910): \"the fifth is to hurl dropping fire amongst the enemy.\"",
+      "lectio": "the fifth, to burn columns on the march",
+      "note": "五曰火隊. The first four objects are plain: men, stores, baggage trains, storehouses. The fifth, 隊, is a body of troops in line, so \"burn the columns\"; some commentators read the character as 隧, a road or tunnel, and take it as burning the enemy's supply routes. Giles followed Tu Yu, who explained it as shooting fire arrows into the enemy's ranks. We translate the word and leave the method out."
+    },
+    {
+      "locus": "XII.4",
+      "phrase": "the Winnowing Basket, the Wall, the Wings or the Chariot Board",
+      "older": "Giles (1910): \"the special days are those when the moon is in the constellations of the Sieve, the Wall, the Wing or the Cross-bar\"",
+      "lectio": "The days are when the moon is in the Winnowing Basket, the Wall, the Wings or the Chariot Board.",
+      "note": "箕、壁、翼、軫 are four of the twenty-eight \"lodges\", the star groups through which the moon passes in the course of a month. They lie roughly in Sagittarius, Pegasus, Crater and Corvus. A night when the moon stood in one of them was held to bring wind. The names are translated, not transliterated: 箕 is a winnowing basket, 壁 a wall, 翼 wings, and 軫 the board at the back of a chariot."
+    },
+    {
+      "locus": "XII.15",
+      "phrase": "It is named \"waste and delay.\"",
+      "older": "Giles (1910): \"Unhappy is the fate of one who tries to win his battles and succeed in his attacks without cultivating the spirit of enterprise; for the result is waste of time and general stagnation.\"",
+      "lectio": "To win battles and take what you attack, and not follow up what you have achieved, is ill-omened. It is named \"waste and delay.\"",
+      "note": "夫戰勝攻取，而不修其功者凶，命曰「費留」. The victories in this sentence have already been won; what is condemned is failing to 修其功, to tend or secure the result, whether by rewarding the men, as Ts'ao Ts'ao thought, or by turning the victory to account. Giles put the fault before the victory and brought in \"the spirit of enterprise\". 費留 is given as a name, a term of the trade, and the English keeps it in quotation marks as the Chinese text does: 費 is expense, 留 is staying on."
+    }
+  ]
+}

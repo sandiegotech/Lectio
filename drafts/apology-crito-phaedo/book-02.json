@@ -1,0 +1,35 @@
+{
+ "order": 2,
+ "label": "Apology · The Counter-Penalty",
+ "title": "The Counter-Penalty",
+ "paragraphs": [
+  "Many things, men of Athens, keep me from being indignant at what has happened, at your having voted against me, and one of them is that it did not come to me unexpected. I am much more surprised at the number of votes on each side. I did not think the margin would be so small; I thought it would be large. As it is, it seems that if only thirty votes had gone the other way, I would have been acquitted. Meletus, as I see it, I have escaped even now; and not only have I escaped him, but it is plain to everyone that if Anytus and Lycon had not come up here to accuse me, he would have owed a fine of a thousand drachmas for not winning a fifth of the votes.",
+  "So the man proposes death as my penalty. Very well. And what shall I propose to you in return, men of Athens? Clearly, what I deserve. What is that, then? What do I deserve to suffer or to pay, because I took it into my head not to lead a quiet life? I neglected the things most people care about — making money, managing an estate, commands in the army, speeches to the people, and the other offices and the clubs and factions that arise in the city — because I thought myself really too honest a man to go into those things and stay alive. I did not go where I would have been of no use either to you or to myself. I went instead to each of you in private, to do him what I say is the greatest of all services. I tried to persuade each of you not to care for anything that belongs to him before caring for himself, and how to become as good and as wise as possible; nor to care for what belongs to the city before caring for the city itself; and to care for everything else in the same way. What then do I deserve, being such a man? Something good, men of Athens, if I am really to propose what I deserve; and a good thing, moreover, of a kind that would suit me. And what suits a poor man, your benefactor, who needs leisure to urge you on? There is nothing, men of Athens, that suits such a man so well as to be given his meals in the Prytaneum — much more than if one of you has won at Olympia with a horse or a pair or a team of four. For he makes you seem to be happy, and I make you be happy; and he needs no feeding, and I do. So if I must propose what I justly deserve, I propose this: meals in the Prytaneum.",
+  "Perhaps you think that in saying this I am speaking out of stubbornness, much as when I spoke about pity and pleading. It is not so, men of Athens. It is rather like this. I am convinced that I never willingly wrong any human being; but I cannot convince you of it, because we have talked together only a short time. If you had a law, as other people do, that a trial for a man's life should take not one day but many, I believe you would be convinced. As it is, it is not easy to clear away great slanders in a short time. And being convinced that I wrong no one, I am far from intending to wrong myself, and to say of myself that I deserve something bad, and to propose a penalty of that kind for myself. What should I be afraid of? Suffering what Meletus proposes for me, when I say I do not know whether it is a good thing or a bad one? Am I to choose instead something that I know very well to be bad, and propose that? Prison? Why should I live in prison, a slave to whichever officers are appointed, the Eleven? A fine, then, and prison until I pay it? That comes to the same thing I just said, since I have no money to pay with. Shall I propose exile, then? Perhaps you would accept that. I would have to be very much in love with life, men of Athens, to be so unreasoning that I could not reason this out: you, who are my fellow citizens, could not bear my company and my talk; they became too heavy for you and too hateful, so that you now seek to be rid of them. And will others bear them easily? Far from it, men of Athens. A fine life that would be for me, to go into exile at my age, and live moving from one city to another, always being driven out! For I know very well that wherever I go, the young will listen to me talking, just as they do here. If I drive them away, they themselves will persuade their elders to drive me out; and if I do not drive them away, their fathers and families will do it for their sake.",
+  "Perhaps someone might say: But Socrates, once you have left us, can you not live quietly and hold your tongue? This is the hardest thing of all to make some of you believe. If I say that this would be to disobey the god, and that for that reason I cannot keep quiet, you will not believe me; you will think I am not being serious. And if I say that this is in fact the greatest good for a human being, to talk every day about virtue and the other things you hear me discussing as I examine myself and others, and that the unexamined life is not worth living for a human being, you will believe me even less. Yet it is as I say, gentlemen, though it is not easy to persuade you. And besides, I am not used to thinking of myself as deserving anything bad. If I had money, I would have proposed a fine as large as I could pay, for that would have done me no harm. As it is, I have none — unless you are willing to set the fine at what I could pay. I could perhaps pay you about a mina of silver. So that is what I propose.",
+  "But Plato here, men of Athens, and Crito and Critobulus and Apollodorus tell me to propose thirty minas, and they will stand surety for it. So I propose that amount, and these men will be sureties to you for the money, good for the sum."
+ ],
+ "divergences": [
+  {
+   "locus": "Apology 38a",
+   "phrase": "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+   "older": "the unexamined life is not worth living",
+   "lectio": "the unexamined life is not worth living for a human being",
+   "note": "Jowett's famous wording is kept and the last word he dropped is restored. Socrates' claim is about what a human life is, which is why he has just called examination the greatest good for a human being."
+  },
+  {
+   "locus": "Apology 36d–37a",
+   "phrase": "ἐν πρυτανείῳ σιτεῖσθαι",
+   "older": "maintenance in the Prytaneum",
+   "lectio": "to be given his meals in the Prytaneum",
+   "note": "The Prytaneum was the city's hearth, where Olympic victors and public benefactors ate at public expense. The name stays, as the style sheet requires, and the sentence itself says what the honor was: meals."
+  },
+  {
+   "locus": "Apology 36b",
+   "phrase": "τιμᾶται δ' οὖν μοι ὁ ἀνὴρ θανάτου … ἀντιτιμήσομαι",
+   "older": "And so he proposes death as the penalty. And what shall I propose on my part",
+   "lectio": "So the man proposes death as my penalty. Very well. And what shall I propose to you in return",
+   "note": "In this kind of trial the law fixed no penalty. Each side proposed one and the court had to choose between the two. The verbs are rendered the same way each time so the reader can follow the procedure without a note."
+  }
+ ]
+}

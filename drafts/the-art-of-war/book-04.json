@@ -1,0 +1,44 @@
+{
+  "order": 4,
+  "label": "Chapter IV",
+  "title": "Form",
+  "paragraphs": [
+    "Master Sun said: The skilled fighters of old first made themselves impossible to beat, and then waited for the enemy to be beatable. Being impossible to beat lies with yourself. Being beatable lies with the enemy.",
+    "So the skilled fighter can make himself impossible to beat, but he cannot make the enemy certain to be beaten. So it is said: victory can be known, but it cannot be made.",
+    "Not being beaten is a matter of defense; beating the enemy is a matter of attack. You defend when your strength falls short; you attack when you have strength to spare.",
+    "One skilled in defense hides beneath the nine layers of the earth. One skilled in attack moves above the nine heights of heaven. So he can keep himself safe and win a whole victory.",
+    "To see a victory no further than everyone else can see is not the best of the best. To win a battle and have the whole world say \"Well done\" is not the best of the best.",
+    "Lifting a hair of autumn fur does not count as great strength. Seeing the sun and moon does not count as sharp eyes. Hearing thunder does not count as keen ears.",
+    "Those the ancients called skilled fighters won where winning was easy. So the victories of the skilled fighter bring him no name for wisdom and no credit for courage.",
+    "So he wins his battles without a slip. Without a slip, because whatever he sets in place is sure to win: he beats an enemy who has already lost.",
+    "So the skilled fighter stands on ground where he cannot lose, and does not miss the moment when the enemy can.",
+    "That is why the winning army wins first and then looks for the battle. The losing army fights first and then looks for the win.",
+    "One skilled in war cultivates the Way and keeps the rules. So he can be the one who governs victory and defeat.",
+    "The rules of war: first, measuring; second, amounts; third, numbers; fourth, weighing; fifth, victory. The ground gives rise to measuring, measuring to amounts, amounts to numbers, numbers to weighing, and weighing to victory.",
+    "So a winning army is like a pound weighed against a grain. A losing army is like a grain weighed against a pound.",
+    "When the winner sends his people into battle, it is like letting pent-up water loose into a gorge a thousand fathoms deep. That is form."
+  ],
+  "divergences": [
+    {
+      "locus": "the title, and the last line (IV.20)",
+      "phrase": "That is form.",
+      "older": "Giles (1910): title \"Tactical Dispositions\"; \"The onrush of a conquering force is like the bursting of pent-up waters into a chasm a thousand fathoms deep. So much for tactical dispositions.\"",
+      "lectio": "When the winner sends his people into battle, it is like letting pent-up water loose into a gorge a thousand fathoms deep. That is form.",
+      "note": "The chapter's one-word title is 形, and its last word is 形也, \"this is 形\". The word means shape or form: the visible arrangement of an army and, behind it, the whole shape of its strength. The chapter's image for it is water held back behind a dam: nothing has moved yet, and the outcome is already settled. Giles made the word a technical term and the last sentence a chapter ending. We print \"form\" everywhere, so that Chapter VI can say that the height of form is to be formless."
+    },
+    {
+      "locus": "IV.4",
+      "phrase": "victory can be known, but it cannot be made",
+      "older": "Giles (1910): \"Hence the saying: One may know how to conquer without being able to do it.\"",
+      "lectio": "So it is said: victory can be known, but it cannot be made.",
+      "note": "勝可知，而不可為. The subject is victory, not the general: you can see that a victory is there to be had, but you cannot manufacture one, because the opening has to come from the enemy. In Chapter VI the text says the opposite in the same words, 勝可為也, \"victory can be made\", speaking there of an enemy who has been divided. The two lines are left to stand against each other, as they do in the Chinese."
+    },
+    {
+      "locus": "IV.6",
+      "phrase": "You defend when your strength falls short; you attack when you have strength to spare.",
+      "older": "Giles (1910): \"Standing on the defensive indicates insufficient strength; attacking, a superabundance of strength.\"",
+      "lectio": "You defend when your strength falls short; you attack when you have strength to spare.",
+      "note": "守則不足，攻則有餘 in the received text, which we follow, as Giles did. The bamboo-slip text found at Yinqueshan in 1972 has the terms the other way round (守則有餘，攻則不足: \"defend, and you have more than enough; attack, and you fall short\"), and many scholars now think that is the older reading. It is not the text this edition is made from. In the next sentence, 九地 and 九天 are \"the ninth earth\" and \"the ninth heaven\", the deepest and the highest places there are."
+    }
+  ]
+}

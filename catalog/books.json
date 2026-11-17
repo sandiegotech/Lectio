@@ -1,0 +1,3122 @@
+[
+ {
+  "slug": "meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "era": "170–180 CE",
+  "tradition": "West",
+  "workId": "work.marcus-aurelius.meditations",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "iliad",
+  "title": "The Iliad",
+  "author": "Homer",
+  "era": "800–701 BCE",
+  "tradition": "West",
+  "workId": "work.homer.iliad",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "odyssey",
+  "title": "The Odyssey",
+  "author": "Homer",
+  "era": "800–701 BCE",
+  "tradition": "West",
+  "workId": "work.homer.odyssey",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "republic",
+  "title": "The Republic",
+  "author": "Plato",
+  "era": "375 BCE",
+  "tradition": "West",
+  "workId": "work.plato.republic",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "aeneid",
+  "title": "The Aeneid",
+  "author": "Virgil",
+  "era": "29–19 BCE",
+  "tradition": "West",
+  "workId": "work.virgil.aeneid",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-prince",
+  "title": "The Prince",
+  "author": "Niccolò Machiavelli",
+  "era": "1513",
+  "tradition": "West",
+  "workId": "work.machiavelli.the-prince",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "analects",
+  "title": "The Analects",
+  "author": "Confucius",
+  "era": "479–221 BCE",
+  "tradition": "East",
+  "workId": "work.confucius.analects",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "tao-te-ching",
+  "title": "The Tao Te Ching",
+  "author": "Laozi",
+  "era": "400–301 BCE",
+  "tradition": "East",
+  "workId": "work.laozi.tao-te-ching",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "dhammapada",
+  "title": "The Dhammapada",
+  "author": "Early Buddhist tradition",
+  "era": "300–100 BCE",
+  "tradition": "East",
+  "workId": "work.dhammapada",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "bhagavad-gita",
+  "title": "The Bhagavad Gita",
+  "author": "",
+  "era": "200 BCE – 200 CE",
+  "tradition": "East",
+  "workId": "work.vyasa.bhagavad-gita",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "gilgamesh",
+  "title": "The Epic of Gilgamesh",
+  "author": "Anonymous · Sumer & Akkad",
+  "era": "2100–1200 BCE",
+  "tradition": "East",
+  "workId": "work.gilgamesh",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "nicomachean-ethics",
+  "title": "Nicomachean Ethics",
+  "author": "Aristotle",
+  "era": "340 BCE",
+  "tradition": "West",
+  "workId": "work.aristotle.nicomachean-ethics",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "confessions",
+  "title": "Confessions",
+  "author": "Saint Augustine",
+  "era": "397–400 CE",
+  "tradition": "West",
+  "workId": "work.augustine.confessions",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "divine-comedy",
+  "title": "The Divine Comedy",
+  "author": "Dante Alighieri",
+  "era": "1308–1320",
+  "tradition": "West",
+  "workId": "work.dante.divine-comedy",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "hamlet",
+  "title": "Hamlet",
+  "author": "William Shakespeare",
+  "era": "1600–1601",
+  "tradition": "West",
+  "workId": "work.shakespeare.hamlet",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection"
+  ]
+ },
+ {
+  "slug": "bible-mark",
+  "title": "The Gospel of Mark",
+  "author": "Anonymous · attributed to Mark",
+  "era": "c. 65–75 CE",
+  "tradition": "West",
+  "workId": "work.bible.mark",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Bible"
+  ]
+ },
+ {
+  "slug": "bible-genesis",
+  "title": "Genesis",
+  "author": "Anonymous · Ancient Israel",
+  "era": "c. 900–500 BCE",
+  "tradition": "West",
+  "workId": "work.bible.genesis",
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Bible"
+  ]
+ },
+ {
+  "slug": "apology-crito-phaedo",
+  "title": "Apology, Crito & Phaedo",
+  "author": "Plato",
+  "era": "399–387 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-art-of-war",
+  "title": "The Art of War",
+  "author": "Sun Tzu",
+  "era": "500–401 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-golden-sayings",
+  "title": "The Golden Sayings",
+  "author": "Epictetus",
+  "era": "108 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": "launch",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-rubaiyat",
+  "title": "The Rubaiyat",
+  "author": "Omar Khayyam",
+  "era": "1048–1131",
+  "tradition": "East",
+  "workId": null,
+  "release": "2027-01-04",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "on-friendship-on-old-age",
+  "title": "On Friendship & On Old Age",
+  "author": "Cicero",
+  "era": "44 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-01-11",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "candide",
+  "title": "Candide",
+  "author": "Voltaire",
+  "era": "1759",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-01-18",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-consolation-of-philosophy",
+  "title": "The Consolation of Philosophy",
+  "author": "Boethius",
+  "era": "524 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-01-25",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "utopia",
+  "title": "Utopia",
+  "author": "Sir Thomas More",
+  "era": "1516",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-02-01",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "in-praise-of-folly",
+  "title": "In Praise of Folly",
+  "author": "Erasmus",
+  "era": "1511",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-02-08",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-imitation-of-christ",
+  "title": "The Imitation of Christ",
+  "author": "Thomas à Kempis",
+  "era": "1418–1427",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-02-15",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "discourse-on-method",
+  "title": "Discourse on Method",
+  "author": "René Descartes",
+  "era": "1637",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-02-22",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-social-contract",
+  "title": "The Social Contract",
+  "author": "Jean-Jacques Rousseau",
+  "era": "1762",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-03-01",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-poems-of-sappho",
+  "title": "The Poems of Sappho",
+  "author": "Sappho",
+  "era": "600 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": "2027-03-08",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-enuma-elish",
+  "title": "The Enuma Elish",
+  "author": "Babylon",
+  "era": "1200–1100 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": "2027-03-15",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-yoga-sutras",
+  "title": "The Yoga Sutras",
+  "author": "Patanjali",
+  "era": "200 BCE–400 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": "2027-03-22",
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "don-quixote",
+  "title": "Don Quixote",
+  "author": "Miguel de Cervantes",
+  "era": "1605–1615",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "one-thousand-and-one-nights",
+  "title": "One Thousand and One Nights",
+  "author": "",
+  "era": "800–1400",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-tale-of-genji",
+  "title": "The Tale of Genji",
+  "author": "Murasaki Shikibu",
+  "era": "1008",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "pride-and-prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "era": "1813",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-brothers-karamazov",
+  "title": "The Brothers Karamazov",
+  "author": "Fyodor Dostoevsky",
+  "era": "1880",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "frankenstein",
+  "title": "Frankenstein",
+  "author": "Mary Shelley",
+  "era": "1818",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Lectio Collection",
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-greek-tragedies",
+  "title": "The Greek Tragedies",
+  "author": "Aeschylus, Sophocles & Euripides",
+  "era": "472–405 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-histories",
+  "title": "The Histories",
+  "author": "Herodotus",
+  "era": "440 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "history-of-the-peloponnesian-war",
+  "title": "History of the Peloponnesian War",
+  "author": "Thucydides",
+  "era": "400 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-elements",
+  "title": "The Elements",
+  "author": "Euclid",
+  "era": "300 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-works-of-archimedes",
+  "title": "The Works of Archimedes",
+  "author": "Archimedes",
+  "era": "250 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "on-the-nature-of-things",
+  "title": "On the Nature of Things",
+  "author": "Lucretius",
+  "era": "50 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "lives",
+  "title": "Lives",
+  "author": "Plutarch",
+  "era": "100–120 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-annals",
+  "title": "The Annals",
+  "author": "Tacitus",
+  "era": "110–120 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-almagest",
+  "title": "The Almagest",
+  "author": "Ptolemy",
+  "era": "150 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-enneads",
+  "title": "The Enneads",
+  "author": "Plotinus",
+  "era": "250–270 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-city-of-god",
+  "title": "The City of God",
+  "author": "Saint Augustine",
+  "era": "413–426 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "summa-theologica",
+  "title": "Summa Theologica",
+  "author": "Thomas Aquinas",
+  "era": "1265–1274",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-canterbury-tales",
+  "title": "The Canterbury Tales",
+  "author": "Geoffrey Chaucer",
+  "era": "1387–1400",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "on-the-revolutions-of-the-heavenly-spheres",
+  "title": "On the Revolutions of the Heavenly Spheres",
+  "author": "Nicolaus Copernicus",
+  "era": "1543",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "gargantua-and-pantagruel",
+  "title": "Gargantua and Pantagruel",
+  "author": "François Rabelais",
+  "era": "1532–1564",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-essays",
+  "title": "The Essays",
+  "author": "Michel de Montaigne",
+  "era": "1580",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-plays-and-sonnets",
+  "title": "The Plays and Sonnets",
+  "author": "William Shakespeare",
+  "era": "1590–1613",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-new-organon",
+  "title": "The New Organon",
+  "author": "Francis Bacon",
+  "era": "1620",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "on-the-motion-of-the-heart-and-blood",
+  "title": "On the Motion of the Heart and Blood",
+  "author": "William Harvey",
+  "era": "1628",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "two-new-sciences",
+  "title": "Two New Sciences",
+  "author": "Galileo Galilei",
+  "era": "1638",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "leviathan",
+  "title": "Leviathan",
+  "author": "Thomas Hobbes",
+  "era": "1651",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "paradise-lost",
+  "title": "Paradise Lost",
+  "author": "John Milton",
+  "era": "1667",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "pens-es",
+  "title": "Pensées",
+  "author": "Blaise Pascal",
+  "era": "1670",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "ethics",
+  "title": "Ethics",
+  "author": "Baruch Spinoza",
+  "era": "1677",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "two-treatises-of-government",
+  "title": "Two Treatises of Government",
+  "author": "John Locke",
+  "era": "1689",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-principia",
+  "title": "The Principia",
+  "author": "Isaac Newton",
+  "era": "1687",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "gullivers-travels",
+  "title": "Gulliver's Travels",
+  "author": "Jonathan Swift",
+  "era": "1726",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-spirit-of-the-laws",
+  "title": "The Spirit of the Laws",
+  "author": "Montesquieu",
+  "era": "1748",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-wealth-of-nations",
+  "title": "The Wealth of Nations",
+  "author": "Adam Smith",
+  "era": "1776",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-decline-and-fall-of-the-roman-empire",
+  "title": "The Decline and Fall of the Roman Empire",
+  "author": "Edward Gibbon",
+  "era": "1776–1789",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-critique-of-pure-reason",
+  "title": "The Critique of Pure Reason",
+  "author": "Immanuel Kant",
+  "era": "1781",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-federalist-papers",
+  "title": "The Federalist Papers",
+  "author": "Hamilton, Madison & Jay",
+  "era": "1788",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "faust",
+  "title": "Faust",
+  "author": "Johann Wolfgang von Goethe",
+  "era": "1808–1832",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "democracy-in-america",
+  "title": "Democracy in America",
+  "author": "Alexis de Tocqueville",
+  "era": "1835–1840",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-philosophy-of-history",
+  "title": "The Philosophy of History",
+  "author": "G. W. F. Hegel",
+  "era": "1837",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "fear-and-trembling",
+  "title": "Fear and Trembling",
+  "author": "Søren Kierkegaard",
+  "era": "1843",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "moby-dick",
+  "title": "Moby-Dick",
+  "author": "Herman Melville",
+  "era": "1851",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "on-liberty",
+  "title": "On Liberty",
+  "author": "John Stuart Mill",
+  "era": "1859",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-origin-of-species",
+  "title": "The Origin of Species",
+  "author": "Charles Darwin",
+  "era": "1859",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World",
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "great-expectations",
+  "title": "Great Expectations",
+  "author": "Charles Dickens",
+  "era": "1861",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "capital",
+  "title": "Capital",
+  "author": "Karl Marx",
+  "era": "1867",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "war-and-peace",
+  "title": "War and Peace",
+  "author": "Leo Tolstoy",
+  "era": "1869",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "middlemarch",
+  "title": "Middlemarch",
+  "author": "George Eliot",
+  "era": "1871–1872",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-adventures-of-huckleberry-finn",
+  "title": "The Adventures of Huckleberry Finn",
+  "author": "Mark Twain",
+  "era": "1884",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "beyond-good-and-evil",
+  "title": "Beyond Good and Evil",
+  "author": "Friedrich Nietzsche",
+  "era": "1886",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "a-dolls-house",
+  "title": "A Doll's House",
+  "author": "Henrik Ibsen",
+  "era": "1879",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-principles-of-psychology",
+  "title": "The Principles of Psychology",
+  "author": "William James",
+  "era": "1890",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "heart-of-darkness",
+  "title": "Heart of Darkness",
+  "author": "Joseph Conrad",
+  "era": "1899",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-interpretation-of-dreams",
+  "title": "The Interpretation of Dreams",
+  "author": "Sigmund Freud",
+  "era": "1899",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-waste-land",
+  "title": "The Waste Land",
+  "author": "T. S. Eliot",
+  "era": "1922",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "ulysses",
+  "title": "Ulysses",
+  "author": "James Joyce",
+  "era": "1922",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-trial",
+  "title": "The Trial",
+  "author": "Franz Kafka",
+  "era": "1925",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Western World"
+  ]
+ },
+ {
+  "slug": "the-code-of-hammurabi",
+  "title": "The Code of Hammurabi",
+  "author": "Babylon",
+  "era": "1754 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-egyptian-book-of-the-dead",
+  "title": "The Egyptian Book of the Dead",
+  "author": "Anonymous · Egypt",
+  "era": "1550–1070 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-rig-veda",
+  "title": "The Rig Veda",
+  "author": "Anonymous",
+  "era": "1500–1100 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-upanishads",
+  "title": "The Upanishads",
+  "author": "Anonymous",
+  "era": "800–200 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-mahabharata",
+  "title": "The Mahabharata",
+  "author": "Attributed to Vyasa",
+  "era": "400 BCE–400 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-ramayana",
+  "title": "The Ramayana",
+  "author": "Valmiki",
+  "era": "500–301 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-arthashastra",
+  "title": "The Arthashastra",
+  "author": "Kautilya",
+  "era": "300 BCE–100 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-panchatantra",
+  "title": "The Panchatantra",
+  "author": "Anonymous",
+  "era": "300 BCE–300 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-lotus-sutra",
+  "title": "The Lotus Sutra",
+  "author": "Mahayana Buddhist tradition",
+  "era": "100–200 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-kama-sutra",
+  "title": "The Kama Sutra",
+  "author": "Vatsyayana",
+  "era": "200–300 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-tirukkural",
+  "title": "The Tirukkural",
+  "author": "Tiruvalluvar",
+  "era": "450–500 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-plays-poems-of-kalidasa",
+  "title": "The Plays & Poems of Kalidasa",
+  "author": "Kalidasa",
+  "era": "301–500 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-gita-govinda",
+  "title": "The Gita Govinda",
+  "author": "Jayadeva",
+  "era": "1200",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-songs-of-kabir",
+  "title": "The Songs of Kabir",
+  "author": "Kabir",
+  "era": "1440–1518",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "gitanjali",
+  "title": "Gitanjali",
+  "author": "Rabindranath Tagore",
+  "era": "1910",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-book-of-songs",
+  "title": "The Book of Songs",
+  "author": "Anonymous",
+  "era": "1000–600 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-i-ching",
+  "title": "The I Ching",
+  "author": "Anonymous",
+  "era": "800–200 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-mozi",
+  "title": "The Mozi",
+  "author": "Mozi",
+  "era": "470–391 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-doctrine-of-the-mean",
+  "title": "The Doctrine of the Mean",
+  "author": "Attributed to Zisi",
+  "era": "400 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-mencius",
+  "title": "The Mencius",
+  "author": "Mencius",
+  "era": "300–250 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-zhuangzi",
+  "title": "The Zhuangzi",
+  "author": "Zhuangzi",
+  "era": "369–286 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-han-feizi",
+  "title": "The Han Feizi",
+  "author": "Han Fei",
+  "era": "280–233 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "records-of-the-grand-historian",
+  "title": "Records of the Grand Historian",
+  "author": "Sima Qian",
+  "era": "145–86 BCE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-platform-sutra",
+  "title": "The Platform Sutra",
+  "author": "Huineng",
+  "era": "700–800 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-poems-of-the-tang",
+  "title": "The Poems of the Tang",
+  "author": "Li Bai, Du Fu, Wang Wei",
+  "era": "701–900 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-song-lyrics",
+  "title": "The Song Lyrics",
+  "author": "Su Shi & Li Qingzhao",
+  "era": "1050–1150",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-romance-of-the-west-chamber",
+  "title": "The Romance of the West Chamber",
+  "author": "Wang Shifu",
+  "era": "1295–1307",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "romance-of-the-three-kingdoms",
+  "title": "Romance of the Three Kingdoms",
+  "author": "Luo Guanzhong",
+  "era": "1321–1400",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-water-margin",
+  "title": "The Water Margin",
+  "author": "Shi Nai'an",
+  "era": "1368–1400",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "journey-to-the-west",
+  "title": "Journey to the West",
+  "author": "Wu Cheng'en",
+  "era": "1592",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-peony-pavilion",
+  "title": "The Peony Pavilion",
+  "author": "Tang Xianzu",
+  "era": "1598",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "dream-of-the-red-chamber",
+  "title": "Dream of the Red Chamber",
+  "author": "Cao Xueqin",
+  "era": "1750–1791",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-quran",
+  "title": "The Qur'an",
+  "author": "",
+  "era": "610–632 CE",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-virtuous-city",
+  "title": "The Virtuous City",
+  "author": "Al-Farabi",
+  "era": "940",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-shahnameh",
+  "title": "The Shahnameh",
+  "author": "Ferdowsi",
+  "era": "940–1020",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-canon-of-medicine",
+  "title": "The Canon of Medicine",
+  "author": "Avicenna",
+  "era": "1025",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-revival-of-the-religious-sciences",
+  "title": "The Revival of the Religious Sciences",
+  "author": "Al-Ghazali",
+  "era": "1058–1111",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-maqamat",
+  "title": "The Maqamat",
+  "author": "Al-Hariri",
+  "era": "1100–1110",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-conference-of-the-birds",
+  "title": "The Conference of the Birds",
+  "author": "Attar",
+  "era": "1177",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-decisive-treatise",
+  "title": "The Decisive Treatise",
+  "author": "Averroes",
+  "era": "1180",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "layla-and-majnun",
+  "title": "Layla and Majnun",
+  "author": "Nizami",
+  "era": "1192",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-masnavi",
+  "title": "The Masnavi",
+  "author": "Rumi",
+  "era": "1258–1273",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-gulistan",
+  "title": "The Gulistan",
+  "author": "Saadi",
+  "era": "1258",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-divan",
+  "title": "The Divan",
+  "author": "Hafez",
+  "era": "1320–1390",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-travels-of-ibn-battuta",
+  "title": "The Travels of Ibn Battuta",
+  "author": "Ibn Battuta",
+  "era": "1355",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-muqaddimah",
+  "title": "The Muqaddimah",
+  "author": "Ibn Khaldun",
+  "era": "1377",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-kojiki",
+  "title": "The Kojiki",
+  "author": "Ō no Yasumaro",
+  "era": "712",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-manyoshu",
+  "title": "The Manyoshu",
+  "author": "Compiled",
+  "era": "759",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-kokinshu",
+  "title": "The Kokinshu",
+  "author": "Compiled",
+  "era": "905",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-pillow-book",
+  "title": "The Pillow Book",
+  "author": "Sei Shōnagon",
+  "era": "1002",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-tale-of-the-heike",
+  "title": "The Tale of the Heike",
+  "author": "Anonymous",
+  "era": "1300–1330",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "essays-in-idleness",
+  "title": "Essays in Idleness",
+  "author": "Yoshida Kenkō",
+  "era": "1330–1332",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "on-the-art-of-the-noh-drama",
+  "title": "On the Art of the Noh Drama",
+  "author": "Zeami",
+  "era": "1400–1420",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-narrow-road-to-the-deep-north",
+  "title": "The Narrow Road to the Deep North",
+  "author": "Bashō",
+  "era": "1644–1694",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-book-of-five-rings-hagakure",
+  "title": "The Book of Five Rings & Hagakure",
+  "author": "Musashi & Tsunetomo",
+  "era": "1645 & 1716",
+  "tradition": "East",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Great Books of the Eastern World"
+  ]
+ },
+ {
+  "slug": "the-autobiography-of-benjamin-franklin",
+  "title": "The Autobiography of Benjamin Franklin",
+  "author": "Benjamin Franklin",
+  "era": "1771–1790",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "journal",
+  "title": "Journal",
+  "author": "John Woolman",
+  "era": "1774",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "fruits-of-solitude",
+  "title": "Fruits of Solitude",
+  "author": "William Penn",
+  "era": "1693",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "essays-civil-and-moral",
+  "title": "Essays, Civil and Moral",
+  "author": "Francis Bacon",
+  "era": "1597–1625",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "areopagitica",
+  "title": "Areopagitica",
+  "author": "John Milton",
+  "era": "1644",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "religio-medici",
+  "title": "Religio Medici",
+  "author": "Sir Thomas Browne",
+  "era": "1643",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-complete-english-poems",
+  "title": "The Complete English Poems",
+  "author": "John Milton",
+  "era": "1645–1671",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "essays-english-traits",
+  "title": "Essays & English Traits",
+  "author": "Ralph Waldo Emerson",
+  "era": "1841–1856",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "poems-and-songs",
+  "title": "Poems and Songs",
+  "author": "Robert Burns",
+  "era": "1786–1796",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "nine-greek-dramas",
+  "title": "Nine Greek Dramas",
+  "author": "Aeschylus, Sophocles, Euripides, Aristophanes",
+  "era": "472–405 BCE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "letters",
+  "title": "Letters",
+  "author": "Pliny the Younger",
+  "era": "100–112 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-pilgrims-progress",
+  "title": "The Pilgrim's Progress",
+  "author": "John Bunyan",
+  "era": "1678",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-lives-of-donne-and-herbert",
+  "title": "The Lives of Donne and Herbert",
+  "author": "Izaak Walton",
+  "era": "1640–1670",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "folklore-and-fable",
+  "title": "Folklore and Fable",
+  "author": "Aesop, Grimm & Andersen",
+  "era": "600 BCE–1850",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "doctor-faustus",
+  "title": "Doctor Faustus",
+  "author": "Christopher Marlowe",
+  "era": "1592",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-betrothed",
+  "title": "The Betrothed",
+  "author": "Alessandro Manzoni",
+  "era": "1827",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "two-years-before-the-mast",
+  "title": "Two Years Before the Mast",
+  "author": "Richard Henry Dana",
+  "era": "1840",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "reflections-on-the-revolution-in-france",
+  "title": "Reflections on the Revolution in France",
+  "author": "Edmund Burke",
+  "era": "1790",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "characteristics-inaugural-address",
+  "title": "Characteristics & Inaugural Address",
+  "author": "Thomas Carlyle",
+  "era": "1831–1866",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "english-essays-sidney-to-macaulay",
+  "title": "English Essays: Sidney to Macaulay",
+  "author": "",
+  "era": "1580–1840",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "essays-english-and-american",
+  "title": "Essays: English and American",
+  "author": "",
+  "era": "1600–1900",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-voyage-of-the-beagle",
+  "title": "The Voyage of the Beagle",
+  "author": "Charles Darwin",
+  "era": "1839",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "scientific-papers-physics-chemistry",
+  "title": "Scientific Papers: Physics & Chemistry",
+  "author": "Faraday, Helmholtz, Kelvin & others",
+  "era": "1800–1900",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "the-autobiography-of-benvenuto-cellini",
+  "title": "The Autobiography of Benvenuto Cellini",
+  "author": "Benvenuto Cellini",
+  "era": "1558–1563",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "literary-and-philosophical-essays",
+  "title": "Literary and Philosophical Essays",
+  "author": "Montaigne, Sainte-Beuve, Renan",
+  "era": "1580–1900",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "voyages-and-travels",
+  "title": "Voyages and Travels",
+  "author": "",
+  "era": "400 BCE–1900",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "letters-on-england",
+  "title": "Letters on England",
+  "author": "Voltaire",
+  "era": "1733",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "a-discourse-on-inequality",
+  "title": "A Discourse on Inequality",
+  "author": "Jean-Jacques Rousseau",
+  "era": "1755",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "chronicle-and-romance",
+  "title": "Chronicle and Romance",
+  "author": "Froissart, Malory, Holinshed",
+  "era": "1370–1580",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "ninety-five-theses-addresses",
+  "title": "Ninety-Five Theses & Addresses",
+  "author": "Martin Luther",
+  "era": "1517–1520",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "an-essay-concerning-human-understanding",
+  "title": "An Essay Concerning Human Understanding",
+  "author": "John Locke",
+  "era": "1689",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "principles-of-human-knowledge",
+  "title": "Principles of Human Knowledge",
+  "author": "George Berkeley",
+  "era": "1710",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "an-enquiry-concerning-human-understanding",
+  "title": "An Enquiry Concerning Human Understanding",
+  "author": "David Hume",
+  "era": "1748",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "scientific-papers-medicine-biology",
+  "title": "Scientific Papers: Medicine & Biology",
+  "author": "Harvey, Jenner, Lister, Pasteur",
+  "era": "1628–1878",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "prefaces-and-prologues",
+  "title": "Prefaces and Prologues",
+  "author": "",
+  "era": "1580–1900",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "english-poetry-i-chaucer-to-gray",
+  "title": "English Poetry I: Chaucer to Gray",
+  "author": "",
+  "era": "1370–1750",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "english-poetry-ii-collins-to-fitzgerald",
+  "title": "English Poetry II: Collins to Fitzgerald",
+  "author": "",
+  "era": "1745–1860",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "english-poetry-iii-tennyson-to-whitman",
+  "title": "English Poetry III: Tennyson to Whitman",
+  "author": "",
+  "era": "1830–1892",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "american-historical-documents",
+  "title": "American Historical Documents",
+  "author": "",
+  "era": "1000–1904",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "sacred-writings-i",
+  "title": "Sacred Writings I",
+  "author": "Confucian, Hebrew, Christian",
+  "era": "1000 BCE–100 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "sacred-writings-ii",
+  "title": "Sacred Writings II",
+  "author": "Buddhist, Hindu, Mohammedan",
+  "era": "500 BCE–650 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "elizabethan-drama-i",
+  "title": "Elizabethan Drama I",
+  "author": "Marlowe & Shakespeare",
+  "era": "1590–1610",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "elizabethan-drama-ii",
+  "title": "Elizabethan Drama II",
+  "author": "Jonson, Webster, Massinger & others",
+  "era": "1600–1630",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "epic-and-saga",
+  "title": "Epic and Saga",
+  "author": "Beowulf, Roland, the Nibelungenlied",
+  "era": "700–1300",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "The Harvard Classics"
+  ]
+ },
+ {
+  "slug": "metamorphoses",
+  "title": "Metamorphoses",
+  "author": "Ovid",
+  "era": "8 CE",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-decameron",
+  "title": "The Decameron",
+  "author": "Giovanni Boccaccio",
+  "era": "1353",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "tartuffe-the-misanthrope",
+  "title": "Tartuffe & The Misanthrope",
+  "author": "Molière",
+  "era": "1664–1666",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "robinson-crusoe",
+  "title": "Robinson Crusoe",
+  "author": "Daniel Defoe",
+  "era": "1719",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "poems-the-reply-to-sor-filotea",
+  "title": "Poems & The Reply to Sor Filotea",
+  "author": "Sor Juana Inés de la Cruz",
+  "era": "1690",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "a-vindication-of-the-rights-of-woman",
+  "title": "A Vindication of the Rights of Woman",
+  "author": "Mary Wollstonecraft",
+  "era": "1792",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "songs-of-innocence-and-of-experience",
+  "title": "Songs of Innocence and of Experience",
+  "author": "William Blake",
+  "era": "1789–1794",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "lyrical-ballads",
+  "title": "Lyrical Ballads",
+  "author": "Wordsworth & Coleridge",
+  "era": "1798",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "eugene-onegin",
+  "title": "Eugene Onegin",
+  "author": "Alexander Pushkin",
+  "era": "1833",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-red-and-the-black",
+  "title": "The Red and the Black",
+  "author": "Stendhal",
+  "era": "1830",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "madame-bovary",
+  "title": "Madame Bovary",
+  "author": "Gustave Flaubert",
+  "era": "1857",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "les-mis-rables",
+  "title": "Les Misérables",
+  "author": "Victor Hugo",
+  "era": "1862",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "walden",
+  "title": "Walden",
+  "author": "Henry David Thoreau",
+  "era": "1854",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "leaves-of-grass",
+  "title": "Leaves of Grass",
+  "author": "Walt Whitman",
+  "era": "1855",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-poems-of-emily-dickinson",
+  "title": "The Poems of Emily Dickinson",
+  "author": "Emily Dickinson",
+  "era": "1860–1886",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "narrative-of-the-life-of-frederick-douglass",
+  "title": "Narrative of the Life of Frederick Douglass",
+  "author": "Frederick Douglass",
+  "era": "1845",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "jane-eyre",
+  "title": "Jane Eyre",
+  "author": "Charlotte Brontë",
+  "era": "1847",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "wuthering-heights",
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë",
+  "era": "1847",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "in-search-of-lost-time",
+  "title": "In Search of Lost Time",
+  "author": "Marcel Proust",
+  "era": "1913–1927",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "mrs-dalloway",
+  "title": "Mrs Dalloway",
+  "author": "Virginia Woolf",
+  "era": "1925",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "tractatus-logico-philosophicus",
+  "title": "Tractatus Logico-Philosophicus",
+  "author": "Ludwig Wittgenstein",
+  "era": "1921",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "seven-pillars-of-wisdom",
+  "title": "Seven Pillars of Wisdom",
+  "author": "T. E. Lawrence",
+  "era": "1926",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ]
+ },
+ {
+  "slug": "the-stranger",
+  "title": "The Stranger",
+  "author": "Albert Camus",
+  "era": "1942",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2038
+ },
+ {
+  "slug": "the-second-sex",
+  "title": "The Second Sex",
+  "author": "Simone de Beauvoir",
+  "era": "1949",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2045
+ },
+ {
+  "slug": "1984",
+  "title": "1984",
+  "author": "George Orwell",
+  "era": "1949",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2045
+ },
+ {
+  "slug": "the-old-man-and-the-sea",
+  "title": "The Old Man and the Sea",
+  "author": "Ernest Hemingway",
+  "era": "1952",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2048
+ },
+ {
+  "slug": "waiting-for-godot",
+  "title": "Waiting for Godot",
+  "author": "Samuel Beckett",
+  "era": "1953",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2049
+ },
+ {
+  "slug": "things-fall-apart",
+  "title": "Things Fall Apart",
+  "author": "Chinua Achebe",
+  "era": "1958",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2054
+ },
+ {
+  "slug": "one-hundred-years-of-solitude",
+  "title": "One Hundred Years of Solitude",
+  "author": "Gabriel García Márquez",
+  "era": "1967",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2063
+ },
+ {
+  "slug": "beloved",
+  "title": "Beloved",
+  "author": "Toni Morrison",
+  "era": "1987",
+  "tradition": "West",
+  "workId": null,
+  "release": null,
+  "approved": false,
+  "print": null,
+  "shelves": [
+   "Beyond the Collections"
+  ],
+  "rights": "in-copyright",
+  "opens": 2083
+ }
+]

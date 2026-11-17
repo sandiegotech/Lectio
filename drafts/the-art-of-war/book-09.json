@@ -1,0 +1,61 @@
+{
+  "order": 9,
+  "label": "Chapter IX",
+  "title": "The Army on the March",
+  "paragraphs": [
+    "Master Sun said: On placing an army and reading the enemy. Cross mountains by keeping to the valleys. Face the sunlit side and camp high. If the fight is on a height, do not climb up to it. This is for an army in the mountains.",
+    "After crossing a river, be sure to move far from it. When an invader crosses a river toward you, do not meet him in the water. Let half his men get across and then strike; that is to your advantage.",
+    "If you want to fight, do not meet the invader close beside the water. Face the sunlit side and camp high. Do not face against the current. This is for an army by the water.",
+    "In crossing salt marshes, only get out quickly and do not linger. If you meet an army in the middle of a salt marsh, keep close to the water and grass and put the trees at your back. This is for an army in the salt marshes.",
+    "On level land, camp where the going is easy, with high ground to your right and rear, death in front and life behind. This is for an army on level land.",
+    "The advantages of these four ways of placing an army are how the Yellow Emperor defeated the four emperors.",
+    "An army likes the high and hates the low. It prizes the sunny side and thinks little of the shade. It looks after its health and camps on solid ground. An army free of the hundred sicknesses is called sure to win.",
+    "On hills and embankments, be sure to take the sunny side, with the slope to your right and rear. This is an advantage for the army and a help from the ground.",
+    "When it has rained upstream and the water comes down foaming, if you mean to wade across, wait until it settles.",
+    "Where the ground has sheer ravines, heaven's wells, heaven's prisons, heaven's nets, heaven's pits and heaven's cracks, leave quickly and do not go near. We keep far from them and let the enemy be near them. We face them and let the enemy have them at his back.",
+    "When there are steep and blocked places beside the army, ponds and hollows, reeds and rushes, woods and thick undergrowth, search them carefully, again and again. These are where ambushes and spies hide.",
+    "When the enemy is near and quiet, he is relying on his steep ground. When he is far and challenges you to battle, he wants you to advance. When he is camped on easy ground, there is some advantage in it for him.",
+    "When the trees move, he is coming. When there are many screens set up in the grass, he means to make you doubt. When birds fly up, there is an ambush. When animals bolt, a hidden force is on its way.",
+    "When the dust rises high and sharp, chariots are coming. When it is low and wide, foot soldiers are coming. When it is scattered in thin lines, they are gathering firewood. When it is slight and comes and goes, they are making camp.",
+    "When his words are humble and his preparations increase, he will advance. When his words are fierce and he drives forward, he will retreat. When the light chariots come out first and take the sides, he is forming for battle. When he asks for peace with nothing agreed beforehand, he is plotting. When his men run about and the troops fall into line, the appointed moment has come. When half advance and half fall back, he is luring you.",
+    "When they stand leaning on their weapons, they are hungry. When those who draw water drink first, they are thirsty. When they see an advantage and do not go for it, they are worn out.",
+    "Where birds gather, the place is empty. When they call out in the night, they are afraid. When the army is unsettled, the general has no weight. When the flags and banners shift about, there is disorder. When the officers are angry, the men are tired.",
+    "When they feed grain to the horses and eat meat, when the army no longer hangs up its cooking pots and the men do not go back to their quarters, they are a desperate enemy.",
+    "When the general talks to his men slowly, in a low and anxious voice, he has lost them. When rewards come often, he is in a tight corner. When punishments come often, he is in distress. To be harsh with the men first and afraid of them afterward is the height of poor judgment.",
+    "When his envoys come with gifts and apologies, he wants a rest. When his troops come out to face you in anger, and for a long time neither join battle nor withdraw, watch him with great care.",
+    "In war more men are not better. Only do not advance on force alone. It is enough to gather your strength, read the enemy and take him; that is all. Whoever does not think ahead and makes light of the enemy is sure to be captured by him.",
+    "If you punish soldiers before they are attached to you, they will not submit, and if they do not submit they are hard to use. If the soldiers are attached to you and punishments are not carried out, they cannot be used.",
+    "So command them by gentle means and bring them into line by force. This is called being sure to win.",
+    "If orders are always carried out and the people are taught by them, the people submit. If orders are not always carried out and the people are taught by them, the people do not submit. When orders are always carried out, the general and his men are at one."
+  ],
+  "divergences": [
+    {
+      "locus": "IX.2 and IX.6",
+      "phrase": "Face the sunlit side and camp high.",
+      "older": "Giles (1910): \"Camp in high places, facing the sun.\" and \"Moor your craft higher up than the enemy, and facing the sun.\"",
+      "lectio": "Face the sunlit side and camp high.",
+      "note": "視生處高, four words, said twice in the same form. 視生 is literally \"look toward life\"; the commentators explain 生 as the sunny, open, south-facing side, the side of growing things, as against the dark side, which is 死, death. The chapter uses the same pair again for level land: 前死後生, \"death in front and life behind\". Giles translated the phrase one way for mountains and another way, with boats that are not in the Chinese, for rivers. It is given here in the same words both times."
+    },
+    {
+      "locus": "IX.35",
+      "phrase": "When the general talks to his men slowly, in a low and anxious voice, he has lost them.",
+      "older": "Giles (1910): \"The sight of men whispering together in small knots or speaking in subdued tones points to disaffection amongst the rank and file.\"",
+      "lectio": "When the general talks to his men slowly, in a low and anxious voice, he has lost them.",
+      "note": "諄諄翕翕，徐與人言者，失衆也. The two doubled words describe a manner of speaking, earnest and subdued; 徐與人言 is \"slowly speaking with the men\"; 失衆 is \"has lost the many\". Giles made the soldiers the speakers. But the one who can \"lose the many\" is the commander, and the signs on either side of this one (too many rewards, too many punishments, harshness followed by fear of the men) are all about him. So the general is taken as the speaker, as most of the Chinese commentators take him."
+    },
+    {
+      "locus": "IX.40",
+      "phrase": "gather your strength, read the enemy and take him",
+      "older": "Giles (1910): \"If our troops are no more in number than the enemy, that is amply sufficient; it only means that no direct attack can be made. What we can do is simply to concentrate all our available strength, keep a close watch on the enemy, and obtain reinforcements.\"",
+      "lectio": "In war more men are not better. Only do not advance on force alone. It is enough to gather your strength, read the enemy and take him; that is all.",
+      "note": "兵非貴益多也，惟無武進，足以併力、料敵、取人而已. The first clause says that in war numbers are not what is prized. 武進 is advancing on mere fighting strength, without thought. 取人, \"take men\", is the difficulty: it has been read as \"take the enemy\", as \"win the trust of your own men\", and by Giles as getting reinforcements. We read \"take the enemy\", because the next sentence answers it: the careless general is 擒於人, \"taken by the enemy\". The second reading is also possible and leads well into the paragraph that follows."
+    },
+    {
+      "locus": "IX.43",
+      "phrase": "command them by gentle means and bring them into line by force",
+      "older": "Giles (1910): \"Therefore soldiers must be treated in the first instance with humanity, but kept under control by means of iron discipline. This is a certain road to victory.\"",
+      "lectio": "So command them by gentle means and bring them into line by force. This is called being sure to win.",
+      "note": "故令之以文，齊之以武. 文 and 武 are the old pair \"civil\" and \"martial\": on one side teaching, courtesy and reward, on the other arms and punishment. The sentence has the same build as Analects II.3, where the Lectio edition has \"Lead them with virtue and level them with ritual\". \"Humanity\" is kept in this edition for 仁, which is not the word here, and \"iron\" is Giles's own."
+    }
+  ]
+}

@@ -32,7 +32,7 @@ Three parts, connected by one contract:
 |---|---|
 | [`pipeline/`](pipeline/) | Offline Python tool (stdlib only) that turns public-domain books into a portable JSON content bundle. |
 | [`content/`](content/) | The generated bundle — committed, because it's the app's input. |
-| [`app/`](app/) | The SwiftUI reader (target `Lectio`, bundle `com.sdit.Lectio`) that reads the bundle. |
+| [`app/`](app/) | The SwiftUI reader (target `Lectio`, bundle `org.sandiegotech.Lectio`) that reads the bundle. |
 
 **The pipeline → bundle → app contract.** `pipeline/model.py` dataclasses define the JSON shape;
 `app/Lectio/Models.swift` is the Swift mirror. They must stay in sync. Every readable unit is a `Segment`
@@ -63,7 +63,7 @@ Run in the simulator (the debug hook opens straight into the reader):
 ```sh
 xcrun simctl install booted app/build/Build/Products/Debug-iphonesimulator/Lectio.app
 SIMCTL_CHILD_LECTIO_OPEN_WORK=work.marcus-aurelius.meditations \
-  xcrun simctl launch --terminate-running-process booted com.sdit.Lectio
+  xcrun simctl launch --terminate-running-process booted org.sandiegotech.Lectio
 ```
 
 ## Adding a book

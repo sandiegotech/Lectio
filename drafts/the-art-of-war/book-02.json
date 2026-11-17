@@ -1,0 +1,43 @@
+{
+  "order": 2,
+  "label": "Chapter II",
+  "title": "Waging War",
+  "paragraphs": [
+    "Master Sun said: The rule in war is this. With a thousand fast four-horse chariots, a thousand leather-covered wagons, a hundred thousand men in armor, and grain carried a thousand li, the costs at home and in the field, the entertaining of guests, the glue and lacquer, the upkeep of chariots and armor will come to a thousand pieces of gold a day. Only then can an army of a hundred thousand be raised.",
+    "When you fight, what counts is winning. If it goes on long, weapons grow dull and the men lose their edge. Attack walled cities and your strength is spent. Keep the army long in the field and the state's means will not be enough.",
+    "When your weapons are dull and your edge is gone, your strength spent and your wealth used up, the other princes will rise to take advantage of your weakness. Then even a wise man cannot make what follows come out well.",
+    "So in war one has heard of clumsy haste, but has never seen a clever delay. No state has ever gained from a long war.",
+    "So whoever does not know all the harm in waging war cannot know all the advantage in it.",
+    "One skilled in war does not call up his men a second time or haul grain a third time. He brings his equipment from home and takes his grain from the enemy. So the army has enough to eat.",
+    "A state is made poor by its army when supplies are carried far; carry supplies far and the common people grow poor. Near an army prices rise; when prices rise the people's money runs out, and when their money runs out they are pressed hard for levies.",
+    "Strength is spent and wealth used up in the field, and at home the houses stand empty. Of what the common people have, seven parts in ten are gone. Of what the government has, six parts in ten are gone, on broken chariots and worn-out horses, armor and helmets, arrows and crossbows, halberds and shields and siege screens, oxen and heavy wagons.",
+    "So the wise general makes a point of feeding on the enemy. One measure of the enemy's grain is worth twenty of our own; one load of his fodder is worth twenty of ours.",
+    "What makes men kill the enemy is anger. What makes them take the enemy's goods is reward.",
+    "So in a chariot fight, when ten chariots or more are captured, reward the man who took the first. Change the flags and banners on them, mix the chariots in with your own and ride them. Treat the captured soldiers well and keep them. This is called beating the enemy and growing stronger.",
+    "So in war what counts is winning, not lasting long.",
+    "So the general who understands war is the master of the people's fate, the one on whom the safety or danger of the state depends."
+  ],
+  "divergences": [
+    {
+      "locus": "II.5",
+      "phrase": "clumsy haste … a clever delay",
+      "older": "Giles (1910): \"Thus, though we have heard of stupid haste in war, cleverness has never been seen associated with long delays.\"",
+      "lectio": "So in war one has heard of clumsy haste, but has never seen a clever delay.",
+      "note": "故兵聞拙速，未睹巧之久也. 拙 is clumsy or unpolished, the opposite of 巧, skilled. The point is not that haste is good in itself but that a quick, rough campaign has at least been known to work, and a long, artful one never has. The English keeps the two words as a pair and the two verbs, \"heard\" and \"seen\"."
+    },
+    {
+      "locus": "II.13–14",
+      "phrase": "seven parts in ten are gone … six parts in ten are gone",
+      "older": "Giles (1910): \"three-tenths of their incomes will be dissipated; while Government expenses … will amount to four-tenths of its total revenue.\"",
+      "lectio": "Of what the common people have, seven parts in ten are gone. Of what the government has, six parts in ten are gone",
+      "note": "The received text says 百姓之費，十去其七 and 公家之費 … 十去其六: \"of ten, seven are gone\" and \"of ten, six are gone\". Giles turned the first figure round (seven-tenths lost became three-tenths) and gave the second as four-tenths. We translate the figures as they stand. The first clause, 力屈財殫，中原內虛於家, is cramped and probably damaged; we take 中原 as the field and 內 as home, which is how most commentators divide it."
+    },
+    {
+      "locus": "II.16",
+      "phrase": "What makes them take the enemy's goods is reward.",
+      "older": "Giles (1910): \"Now in order to kill the enemy, our men must be roused to anger; that there may be advantage from defeating the enemy, they must have their rewards.\"",
+      "lectio": "What makes men kill the enemy is anger. What makes them take the enemy's goods is reward.",
+      "note": "故殺敵者，怒也；取敵之利者，貨也. Two matched clauses of the form \"what does X is Y\". The second explains the rule that follows about captured chariots: men seize the enemy's goods when they are paid to. Giles's version says the same at twice the length and turns two observations into two orders."
+    }
+  ]
+}

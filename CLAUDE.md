@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **Lectio** — an iPad-first reader whose goal is to let anyone today read a great work of the Western canon
 (the Harvard Classics) with ease. The headline feature is the **Lectio Modern Edition**: a fresh, plain-modern-
 English edition of each work produced by deep research, read by default — with one tap to any public-domain
-translation or the original language. Initial corpus: **3 works** — Meditations, The Iliad, and Plato/Aristotle.
+translation or the original language. The bundle holds 17 works; V1 ships whichever have cleared review (`PLAN.md` §1).
 
 One text, three editions of it — the reader, the printed book, the recording — all anchored to the
 same segment ids:
@@ -16,7 +16,7 @@ same segment ids:
 | --- | --- | --- |
 | `pipeline/` | offline Python; turns public-domain books into the content bundle | committed |
 | `content/` | the generated bundle — **the app's input, and the source every edition reads** | committed |
-| `app/` | the SwiftUI app (target `Lectio`, bundle `com.sdit.Lectio`) | committed |
+| `app/` | the SwiftUI app (target `Lectio`, bundle `org.sandiegotech.Lectio`) | committed |
 | `print/` | the printed editions: one generator, cover engine, cover masters | committed; `print/out/` is not |
 | `audio/` | recordings: manifests and scripts only, never media (see `audio/README.md`) | committed |
 | `tools/` | dev utilities that belong to no edition (`overnight/`) | committed |
@@ -56,7 +56,7 @@ xcrun simctl install booted app/build/Build/Products/Debug-iphonesimulator/Lecti
 # Debug hook opens straight into the reader. Env MUST use the SIMCTL_CHILD_ prefix —
 # `simctl launch <dev> <bundle> KEY=VALUE` passes KEY=VALUE as an ARGUMENT, not an env var.
 SIMCTL_CHILD_LECTIO_OPEN_WORK=work.marcus-aurelius.meditations \
-  xcrun simctl launch --terminate-running-process booted com.sdit.Lectio
+  xcrun simctl launch --terminate-running-process booted org.sandiegotech.Lectio
 xcrun simctl io booted screenshot /tmp/shot.png
 ```
 
@@ -78,10 +78,16 @@ There is no test suite yet.
 
 ## App specifics
 
-- SwiftUI, iOS 17+, `SWIFT_VERSION = 5.0` (Swift 5 language mode), target family iPhone+iPad.
-- Design language is **"The Margin"**: warm parchment palette in `Theme.swift` (single `Palette.natural`), serif reading text (`.system(design: .serif)`, no bundled fonts), one rubrication-red accent. The living layer sits in the reader's right-hand drawer — three panels (Docent · Compare · About) switched from the header row; the Docent panel also holds the reader's marks (`Views/MarginRail.swift`, embedded), and About carries Where-you-are + Who's-Who from the enrichment glossary. Contents is a centered header dropdown, and bookmarks (plural) live in a header menu.
-- The content bundle is included as a folder reference (`../content` in `project.yml`) and read at runtime via `Bundle.main.url(..., subdirectory: "content")` in `Library.swift`.
-- **Cover assets.** A cover is now **vector**, and the SVG is the master: `print/covers/<slug>.svg`, built by `print/covers/build_covers.py` from a recipe. `content/works/<id>/cover.jpg` is *generated* from it (`print/covers/export_app_covers.py`, ~1400px q82, ~120 KB) because SwiftUI has no runtime SVG decoder. The original raster artwork each cover is traced from lives in `print/covers/source/<workId>.jpg` — **never trace `content/.../cover.jpg`, which is the pipeline's own output; that loop silently degrades the art.** Planned-shelf covers (`content/collections/book-covers/`, 196 files) are **derived, not hand-tuned**: `print/covers/build_planned.py` reads each master in `~/Documents/Slate Shared/Lectio-Masters/collections/book-covers/`, detects the seam, board tone and medallion, and renders it through the same `LAYOUT` as a published cover, taking title/author from the collection JSON — so the whole shelf is one design. Their SVGs (~105 MB) are gitignored intermediates; only the 1000px q80 JPEGs are committed. Build only what a shelf references: covers with no `planned` entry pointing at them are dead weight and get deleted. Covers are referenced as `.jpg` in `Library.swift` (`coverURL`, `collectionImageURL`) and `pipeline/collections.py` (`PLANNED_COVERS`).
-- **Delivery is not decided.** Today the whole bundle ships inside the app (~50 MB: 18 MB text for 12 works, 31 MB of planned-shelf covers). Text grows ~1.5 MB per work; audio would be 100–400 MB per work and must never be bundled. The candidate is Apple-hosted asset packs (Background Assets, iOS 26+, 200 GB free with the Developer Program, packs uploadable without an app release); Cloudflare R2 is the fallback if it ever needs to serve non-Apple clients. Do not build a server for this without a reason.
-- `enrichment.json` per work feeds the rail and is hand-authored editorial seed; the pipeline does not overwrite it.
-- **The Docent** lives in the reader's side drawer (`SidePanel.ask` in `ReaderView.swift`, UI in `Views/DocentPanel.swift`) and in the selection popup ("Ask"). Its name is one constant (`DocentFeature.name`). Debug hooks for headless screenshots: `LECTIO_DEBUG_DOCENT` opens the panel, `LECTIO_DEBUG_DOCENT_ASK=<q>` asks a question, `LECTIO_DEBUG_DOCENT_MOCK` swaps in a canned provider (works on hosts without Apple Intelligence). The simulator runs the real on-device model when the host Mac has Apple Intelligence enabled.
+- SwiftUI, iOS 17+, `SWIFT_VERSION = 5.0` (Swift 5 language mode), iPhone and iPad.
+- Design language is **"The Margin"**: warm parchment palette in `Theme.swift` (day and night), serif text (`.system(design: .serif)`, no bundled fonts), one rubrication-red accent.
+- **Home** (`Views/LibraryView.swift`) has three sections. **My Books**: the books this reader has opened, most recent first and featured large; a first launch shows one starter book (`StarterBook.workId`, Meditations) as a presentation rule, not a saved position. **Library**: every released work on shelves, sorted by Timeline, Genre, Collection (series collections, readable works only), Title or Author. **Explore** (`Views/ExploreView.swift`): one famous line per page from a readable book, with "Read this passage". A red ribbon on a cover shows reading progress.
+- Opening a book from My Books, "Read now" or Explore plays the cover-opening animation (`Components/BookOpening.swift`, an overlay above the NavigationStack); DEBUG hooks push straight in.
+- **No placeholders.** Collections' `planned` shells stay decodable in `Models.swift` but nothing displays them. A work with `releaseDate` (YYYY-MM-DD) later than today is hidden; `Library.refreshReleases()` re-checks at midnight and on foreground.
+- The book overview (`Views/BookOverviewView.swift`) lists every edition (labels from `EditionInfo.label`, shared with the reader's menus). The reader (`Views/ReaderView.swift`) has a right-hand drawer (Docent · Compare · About; a bottom sheet on iPhone), a centered chapter dropdown, bookmarks in a header menu, and a five-step text size in About.
+- Personal data (reading places, saved words keyed by work + term, highlights and notes) goes through `CloudStore`: the local copy is authoritative, iCloud key–value storage is a mirror, and a newer cloud value is adopted only from the change notification.
+- The content bundle is a folder reference (`../content` in `project.yml`), read via `Bundle.main.url(..., subdirectory: "content")` in `Library.swift`. Edition texts decode lazily; `Library.edition` is lock-guarded so word study and the opening animation can decode off the main thread.
+- **Cover assets.** The SVG is the master: `print/covers/<slug>.svg`, built by `print/covers/build_covers.py`. `content/works/<id>/cover.jpg` is generated from it (`print/covers/export_app_covers.py`) because SwiftUI has no runtime SVG decoder; the raster each cover is traced from lives in `print/covers/source/<workId>.jpg` — **never trace `content/.../cover.jpg`**. Planned-shelf covers (`content/collections/book-covers/`) are not shown in V1, and `project.yml` strips them from the app bundle.
+- **Delivery is not decided.** Today the whole text bundle ships inside the app; audio (100–400 MB per work) must never be bundled. The candidate is Apple-hosted asset packs (Background Assets, iOS 26+); Cloudflare R2 is the fallback. Do not build a server for this without a reason.
+- `enrichment.json` per work feeds the reader's margin and is hand-authored editorial seed; the pipeline does not overwrite it.
+- **The Docent** lives in the reader's drawer (`SidePanel.ask` in `ReaderView.swift`, UI in `Views/DocentPanel.swift`) and in the selection card ("Ask"); it hides where the on-device model can't run. Its name is one constant (`DocentFeature.name`).
+- **DEBUG hooks** (env vars with the `SIMCTL_CHILD_` prefix; none compile into Release): `LECTIO_OPEN_WORK=<workId>`, `LECTIO_DEBUG_BOOK=<title>`, `LECTIO_DEBUG_LIBRARY`, `LECTIO_DEBUG_EXPLORE`, `LECTIO_DEBUG_FIRST_LAUNCH`, `LECTIO_DEBUG_SEARCH=<q>`, `LECTIO_DEBUG_SEED_READING=<workId>`, `LECTIO_DEBUG_ALL_RELEASES`, `LECTIO_DEBUG_STUDY=<workId>|<term>`, `LECTIO_DEBUG_CONCEPT=<id>`, `LECTIO_DEBUG_EDITION=<editionId>`, `LECTIO_DEBUG_SELECT=<word>`, `LECTIO_DEBUG_COMPARE` (+`_SYNC`), `LECTIO_DEBUG_PROVENANCE`, `LECTIO_DEBUG_CONTEXT`, `LECTIO_DEBUG_SEED_MARKS` (+`_NOTE_EDITOR`), `LECTIO_DEBUG_DOCENT` (+`_ASK=<q>`, `_MOCK`), `LECTIO_DEBUG_PREVIEW`, `LECTIO_DEBUG_DARK`, `LECTIO_DEBUG_BOTTOM`.

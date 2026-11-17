@@ -1,0 +1,54 @@
+{
+ "order": 9,
+ "label": "Fragments",
+ "title": "Fragments Attributed to Epictetus",
+ "paragraphs": [
+  "I. A life tangled up with fortune is like a river in flood: turbulent, full of mud, hard to cross, overbearing, noisy, and soon over.",
+  "II. A soul that keeps company with virtue is like a spring that never fails: its water is clean, untroubled, good to drink, sweet, shared by all, plentiful, harmless, and never lost.",
+  "III. It is shameful to sweeten what you swallow with the gifts of the bees and to embitter reason, the gift of the gods, with vice.",
+  "IV. Crows peck out the eyes of the dead, when the dead no longer need them; but flatterers ruin the souls of the living and blind their eyes.",
+  "V. Keep neither a blunt knife nor an undisciplined freedom of speech.",
+  "VI. Nature has given men one tongue and two ears, so that we may hear from others twice as much as we say.",
+  "VII. Do not sit as judge in any other court until you have first been judged yourself in the court of Justice.",
+  "VIII. It is shameful for the judge to be judged by others.",
+  "IX. A shorter and better life is in every way to be preferred to a longer and worse one.",
+  "X. Freedom and slavery: the one is a name for virtue, the other for vice. No one is a slave who is free in his will.",
+  "XI. Of pleasant things, those that come most rarely give the most delight.",
+  "XII. If a man goes beyond the measure, the most delightful things become the least delightful.",
+  "XIII. The anger of an ape and the threat of a flatterer deserve the same regard.",
+  "XIV. Punish your passions, so that you are not punished by them.",
+  "XV. No one is free who is not master of himself.",
+  "XVI. A ship should not be moored by a single anchor, nor a life by a single hope.",
+  "XVII. Fortify yourself with contentment; it is a stronghold that cannot be taken.",
+  "XVIII. No one who loves money, or pleasure, or fame loves mankind; only the man who loves what is noble.",
+  "XIX. Think of God more often than you breathe.",
+  "XX. Choose the best life; habit will make it pleasant.",
+  "XXI. Let your talk of God be renewed every day, sooner than your food.",
+  "XXII. As the sun does not wait for prayers and spells before it rises, but shines at once and is greeted by everyone, so you too should not wait for clapping and shouting and praise before you do good. Do good of your own accord, and you will be loved as the sun is.",
+  "XXIII. Let no one think he is loved by anyone, if he loves no one.",
+  "XXIV. If you always remember that God stands by as a witness of whatever you do, in soul or in body, you will not go wrong in any prayer or any act, and you will have God living with you."
+ ],
+ "divergences": [
+  {
+   "locus": "the section as a whole",
+   "phrase": "Crossley's Appendix A",
+   "older": "twenty-four maxims chosen by Crossley from the 181 fragments in Schweighäuser's edition",
+   "lectio": "the same twenty-four, in his order",
+   "note": "Twelve are in Schenkl's edition and are translated from his Greek: I, II, III, VII, VIII, XIV, XVIII, XXII from the maxims Stobaeus passes down under Epictetus's name (the Gnomologium), XI, XII, XV, XVI from Schenkl's doubtful fragments 33, 34, 35, 30. The other twelve (IV, V, VI, IX, X, XIII, XVII, XIX, XX, XXI, XXIII, XXIV) come from the Byzantine anthologies of Antonius and Maximus; Schenkl leaves them out as not Epictetus's, and no Greek for them was to hand. They are made from Crossley's English, checked against George Long's independent version of the same fragments (1877). They need the Greek before the edition is called ready. Almost none of the twenty-four is likely to be by Epictetus; Crossley says as much in his note."
+  },
+  {
+   "locus": "I",
+   "phrase": "ἔοικε χειμάρρῳ ποταμῷ· καὶ γὰρ ταραχώδης καὶ ἰλύος ἀνάμεστος καὶ δυσέμβατος καὶ τυραννικὸς καὶ πολύηχος καὶ ὀλιγοχρόνιος",
+   "older": "\"is like a torrent. It is turbulent and muddy; hard to pass and masterful of mood: noisy and of brief continuance.\" (Crossley)",
+   "lectio": "\"is like a river in flood: turbulent, full of mud, hard to cross, overbearing, noisy, and soon over.\"",
+   "note": "A χειμάρρους is a stream that runs only in the winter rains, which is the point of the last word: it is violent and then it is gone. Six adjectives in the Greek, six in the English, in the same order. II is its twin, and its eight adjectives describe the water of the spring (they are neuter), not the soul."
+  },
+  {
+   "locus": "V, X",
+   "phrase": "(no Greek to hand)",
+   "older": "V \"an ill-disciplined looseness of tongue\"; X \"None is a slave whose acts are free\" (Crossley)",
+   "lectio": "V \"an undisciplined freedom of speech\"; X \"No one is a slave who is free in his will\"",
+   "note": "In these two Long's version shows what Crossley's wording hides. In V the noun is frankness, freedom of speech (Long: \"a freedom of speech which is ill managed\"), not loose talk. In X the last word is the will (Long: \"free in his will\"), the term this whole book turns on, and Lectio restores it. Crossley's X is the first and last sentences of a longer fragment, with dots between; Lectio joins them without dots."
+  }
+ ]
+}

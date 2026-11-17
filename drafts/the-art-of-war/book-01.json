@@ -1,0 +1,54 @@
+{
+  "order": 1,
+  "label": "Chapter I",
+  "title": "First Calculations",
+  "paragraphs": [
+    "Master Sun said: War is the great business of the state, the ground of life and death, the road to survival or ruin. It must be examined.",
+    "So measure it by five things, and compare the two sides by calculation, to find out how matters really stand. The first is the Way; the second, heaven; the third, earth; the fourth, the general; the fifth, the rules.",
+    "The Way is what brings the people to one mind with those above them, so that they will die with them and live with them and not fear danger.",
+    "Heaven is dark and light, cold and heat, and the turning of the seasons.",
+    "Earth is high and low, far and near, rough and easy, wide and narrow, ground where you die and ground where you live.",
+    "The general is wisdom, good faith, humanity, courage and strictness.",
+    "The rules are the ordering of the units, the ranks of the officers, and the charge of supplies.",
+    "There is no general who has not heard of these five. The one who knows them wins; the one who does not know them does not win.",
+    "So compare the two sides by seven calculations, to find out how matters really stand. Ask: Which ruler has the Way? Which general has the ability? Which side has heaven and earth? Whose rules and orders are carried out? Whose army is stronger? Whose officers and men are better trained? Whose rewards and punishments are clearer? By these I know who will win and who will lose.",
+    "The general who heeds my calculations will win if he is given the command: keep him. The general who does not heed my calculations will lose if he is given the command: dismiss him.",
+    "When the calculations show an advantage and have been heeded, build momentum on them, to help them from outside. Momentum is using what is to your advantage to tip the balance.",
+    "War is the way of deception.",
+    "So when you are able, appear unable. When you are about to use your troops, appear not to be. When you are near, appear far; when you are far, appear near.",
+    "If he wants gain, lure him. If he is in disorder, take him. If he is solid, prepare for him. If he is strong, avoid him. If he is angry, provoke him. If he is humble, make him proud. If he is rested, wear him out. If his men are close to one another, divide them.",
+    "Attack where he is unprepared. Appear where he does not expect you.",
+    "This is how those who know war win, and it cannot be handed on beforehand.",
+    "The one who wins the count in the temple before the battle has more points on his side. The one who loses the count in the temple before the battle has fewer. Many points win and few points do not; how much less, then, with no points at all? When I look at it this way, victory and defeat are plain to see."
+  ],
+  "divergences": [
+    {
+      "locus": "I.4–6, the first of the five factors",
+      "phrase": "The Way is what brings the people to one mind with those above them",
+      "older": "Giles (1910): \"The Moral Law causes the people to be in complete accord with their ruler, so that they will follow him regardless of their lives, undismayed by any danger.\"",
+      "lectio": "The Way is what brings the people to one mind with those above them, so that they will die with them and live with them and not fear danger.",
+      "note": "The Chinese is 道者，令民與上同意，可與之死，可與之生，而不畏危也. The word is 道, the same word the Lectio Tao Te Ching and Analects print as \"the Way\", and we keep it. Sun Tzu defines it himself in the next breath, in purely practical terms: whatever makes a people of one mind with its rulers. Giles's \"Moral Law\" brings in a Western idea the text does not have, and his \"follow him regardless of their lives\" flattens the two balanced clauses, \"die with them\" and \"live with them\"."
+    },
+    {
+      "locus": "I.15",
+      "phrase": "The general who heeds my calculations",
+      "older": "Giles (1910): \"The general that hearkens to my counsel and acts upon it, will conquer:—let such a one be retained in command! The general that hearkens not to my counsel nor acts upon it, will suffer defeat:—let such a one be dismissed!\"",
+      "lectio": "The general who heeds my calculations will win if he is given the command: keep him. The general who does not heed my calculations will lose if he is given the command: dismiss him.",
+      "note": "將聽吾計，用之必勝，留之. The first word, 將, can be the noun \"general\" or the particle \"if\". On the second reading Sun Tzu is speaking to the king of Wu about himself: \"If you heed my plans and use me, you will win, and I will stay; if not, I will go.\" Many commentators prefer that. We read \"general\" with Giles, because 將 has just been named as one of the five factors and the sentence then needs no unstated \"you\" and \"I\". The other reading is live and the editor may prefer it."
+    },
+    {
+      "locus": "I.18",
+      "phrase": "War is the way of deception.",
+      "older": "Giles (1910): \"All warfare is based on deception.\"",
+      "lectio": "War is the way of deception.",
+      "note": "兵者，詭道也: four words, \"war: a deceiving way\". Giles's sentence is the famous one in English, but \"all\" and \"is based on\" are his. The Chinese uses 道 again, here in its ordinary sense of a way of doing things, so the English keeps \"way\" in lower case and lets the reader hear the echo of the first factor."
+    },
+    {
+      "locus": "I.26, the close",
+      "phrase": "the count in the temple",
+      "older": "Giles (1910): \"Now the general who wins a battle makes many calculations in his temple ere the battle is fought. The general who loses a battle makes but few calculations beforehand.\"",
+      "lectio": "The one who wins the count in the temple before the battle has more points on his side.",
+      "note": "未戰而廟算勝者，得算多也. Before a campaign the ruler and his ministers met in the ancestral temple and reckoned the two sides' chances with counting rods, one rod for each point in a side's favor. 算 is both the reckoning and the rods. So the sentence says that whoever comes out ahead in that count has more of the factors on his side, not, as Giles has it, that the winner does more arithmetic. The seven questions above are the count."
+    }
+  ]
+}

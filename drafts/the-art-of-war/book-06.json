@@ -1,0 +1,60 @@
+{
+  "order": 6,
+  "label": "Chapter VI",
+  "title": "The Hollow and the Solid",
+  "paragraphs": [
+    "Master Sun said: Whoever is first on the field and waits for the enemy is rested. Whoever comes late to the field and hurries into battle is worn out. So the skilled fighter makes the enemy come to him and is not made to go to the enemy.",
+    "What makes the enemy come of his own accord is the gain held out to him. What keeps the enemy from coming is the harm put in his way. So if the enemy is rested, he can wear him out; if well fed, he can starve him; if settled, he can make him move.",
+    "Appear where he cannot hurry to meet you. Hurry to where he does not expect you.",
+    "To march a thousand li without tiring, march where there is no one. To be sure of taking what you attack, attack what he does not defend. To be sure of holding what you defend, defend what he does not attack.",
+    "So against one skilled in attack, the enemy does not know what to defend. Against one skilled in defense, the enemy does not know what to attack.",
+    "Subtle, subtle, to the point of having no form! Godlike, godlike, to the point of making no sound! So he can be the master of the enemy's fate.",
+    "To advance so that he cannot stop you, strike at his hollows. To withdraw so that he cannot pursue you, be too quick for him to catch.",
+    "So when we want to fight, the enemy, though he has high walls and deep ditches, has no choice but to fight us, because we attack what he must rescue. When we do not want to fight, though we defend nothing but a line drawn on the ground, the enemy cannot fight us, because we turn him away from where he is going.",
+    "So if we make him show his form while we have none, we stay together and the enemy divides. We are together as one and the enemy is divided into ten, so that with ten we attack his one. Then we are many and the enemy is few.",
+    "If we can strike few with many, those we have to fight are hard pressed.",
+    "The place where we mean to fight must not be known. If it is not known, the enemy must prepare in many places; and if he prepares in many places, those we have to fight are few.",
+    "So if he prepares in front, he has few behind. If he prepares behind, he has few in front. If he prepares on the left, he has few on the right. If he prepares on the right, he has few on the left. If he prepares everywhere, he has few everywhere.",
+    "Being few comes from having to prepare against others. Being many comes from making others prepare against you.",
+    "So if you know the place of the battle and the day of the battle, you can march a thousand li and meet for the fight. If you know neither the place nor the day, the left cannot help the right, the right cannot help the left, the front cannot help the rear, and the rear cannot help the front. How much less when the farthest are tens of li away and the nearest are several li!",
+    "By my reckoning, though the soldiers of Yüeh are many, what good will that do them in winning or losing? So I say: victory can be made. Though the enemy is many, he can be kept from fighting.",
+    "So reckon him up, to know what his plans will gain and lose. Stir him, to learn the pattern of his moving and his keeping still. Make him show his form, to learn the ground where he lives or dies. Test him, to learn where he has more than enough and where he falls short.",
+    "So the height of giving an army form is to arrive at no form. With no form, the deepest spy cannot see in and the wisest man cannot plan against you.",
+    "By form victory is set before the crowd, and the crowd cannot understand it. Everyone knows the form by which I won. No one knows the form by which I shaped the victory.",
+    "So a way of winning a battle is not used twice. It answers to form, without end.",
+    "The form of an army is like water. Water in its course avoids the high and runs to the low. An army in its victory avoids the solid and strikes the hollow.",
+    "Water shapes its course by the ground. An army shapes its victory by the enemy.",
+    "So an army has no settled momentum and no lasting form. One who can win by changing as the enemy changes is called godlike.",
+    "So none of the five elements always wins, and none of the four seasons keeps its place. The days grow short and long. The moon dies and is born again."
+  ],
+  "divergences": [
+    {
+      "locus": "the title, and VI.29–30",
+      "phrase": "avoids the solid and strikes the hollow",
+      "older": "Giles (1910): title \"Weak Points and Strong\"; \"So in war, the way is to avoid what is strong and to strike at what is weak.\"",
+      "lectio": "An army in its victory avoids the solid and strikes the hollow.",
+      "note": "The title is 虛實, \"empty and full\". 實 is where the enemy is present in force, supplied and ready; 虛 is where he is absent, thin or unready. \"Strong and weak\" is close, but the Chinese has other words for those (強, 弱) and uses them elsewhere for something different. \"Hollow\" and \"solid\" keep the picture the chapter is built on: water finding the low, empty places, and the grindstone and the egg of Chapter V."
+    },
+    {
+      "locus": "VI.5",
+      "phrase": "Appear where he cannot hurry to meet you.",
+      "older": "Giles (1910): \"Appear at points which the enemy must hasten to defend; march swiftly to places where you are not expected.\"",
+      "lectio": "Appear where he cannot hurry to meet you. Hurry to where he does not expect you.",
+      "note": "The received text reads 出其所不趨, \"come out where he does not [cannot] hurry\". Giles adopted an emendation, 必趨, \"where he must hurry\", on the strength of the line in VI.11 about attacking what the enemy must rescue. We translate the text as it stands; it fits the next sentence, about marching where there is no one. Likewise in VI.7 we keep 守其所不攻, \"defend what he does not attack\", where Giles has \"positions that cannot be attacked\"."
+    },
+    {
+      "locus": "VI.21",
+      "phrase": "victory can be made",
+      "older": "Giles (1910): \"Though according to my estimate the soldiers of Yüeh exceed our own in number, that shall advantage them nothing in the matter of victory. I say then that victory can be achieved.\"",
+      "lectio": "By my reckoning, though the soldiers of Yüeh are many, what good will that do them in winning or losing? So I say: victory can be made.",
+      "note": "故曰：勝可為也. Chapter IV says 勝可知，而不可為, \"victory can be known, but it cannot be made\". Here, having shown how an enemy can be divided until he is few at every point, Sun Tzu says it can. The same two words, 可為, are given the same English in both places so that the reader can see the turn. Yüeh was the southern neighbor and enemy of Wu, the state Sun Tzu is said to have served; this is one of only two places where the book names Yüeh; the other is the boat crossed by the men of Wu and the men of Yüeh in Chapter XI. The cached text notes a variant, 擅 for 為; we read 為 with the received editions."
+    },
+    {
+      "locus": "VI.32",
+      "phrase": "an army has no settled momentum and no lasting form",
+      "older": "Giles (1910): \"Therefore, just as water retains no constant shape, so in warfare there are no constant conditions.\"",
+      "lectio": "So an army has no settled momentum and no lasting form.",
+      "note": "The text followed here reads 故兵無成勢，無恒形, with both halves said of the army. Giles's text read 兵無常勢，水無常形, \"an army has no constant momentum, water has no constant form\", which is the common reading in later editions and is why his sentence brings the water back. In the next sentence 謂之神 is \"is called 神\", spirit-like, more than human; Giles's \"heaven-born captain\" adds a captain the Chinese does not mention."
+    }
+  ]
+}

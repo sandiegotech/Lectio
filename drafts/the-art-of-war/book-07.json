@@ -1,0 +1,60 @@
+{
+  "order": 7,
+  "label": "Chapter VII",
+  "title": "The Contest of Armies",
+  "paragraphs": [
+    "Master Sun said: The rule in war is this. The general receives his orders from the ruler, brings the army together and gathers the troops, and makes camp face to face with the enemy. After that, nothing is harder than the contest of armies.",
+    "What is hard in the contest of armies is making the roundabout road the direct one, and turning trouble into advantage.",
+    "So take the roundabout road and lure the enemy off with gain. Set out after him and arrive before him. This is knowing the calculation of the roundabout and the direct.",
+    "So the contest of armies brings advantage, and the contest of armies brings danger.",
+    "Move the whole army to contend for an advantage and you will not get there in time. Leave the army behind to contend for it and the baggage train is lost.",
+    "That is why, if you roll up your armor and hurry on, not stopping day or night, covering twice the distance at a stretch, and go a hundred li to contend for an advantage, the generals of all three of your armies will be captured. The strong get there first, the tired fall behind, and the rule is that one man in ten arrives.",
+    "Go fifty li to contend for an advantage and the general of your leading army will fall, and the rule is that half arrive. Go thirty li to contend for an advantage and two in three arrive.",
+    "That is why an army without its baggage train is lost, without grain and food is lost, without stores is lost.",
+    "So whoever does not know the plans of the other princes cannot make alliances beforehand. Whoever does not know the form of the mountains and forests, the steep and blocked places, the marshes and swamps, cannot march an army. Whoever does not use local guides cannot get the advantage of the ground.",
+    "So war is founded on deceit, set in motion by advantage, and changed by dividing and joining.",
+    "So be swift as the wind and unhurried as the forest. Raid and plunder like fire; stand unmoving like a mountain. Be as hard to know as the dark, and move like a clap of thunder.",
+    "When you plunder the countryside, share it among your men. When you widen your territory, share out the gains. Weigh things in the balance, then move.",
+    "The one who first knows the calculation of the roundabout and the direct wins. This is the rule for the contest of armies.",
+    "The Book of Army Management says: \"Because words cannot be heard, gongs and drums are made. Because eyes cannot see one another, flags and banners are made.\"",
+    "Gongs and drums, flags and banners are the means of making the men's ears and eyes one. Once the men are one, the brave cannot advance alone and the fearful cannot fall back alone. This is the rule for using many men.",
+    "So in fighting at night use many gongs and drums, and in fighting by day many flags and banners, to suit the men's ears and eyes.",
+    "A whole army can be robbed of its spirit. A general can be robbed of his mind.",
+    "For in the morning spirit is keen, by day it slackens, and at evening it turns toward home.",
+    "So one skilled in war avoids the enemy when his spirit is keen and strikes when it has slackened and turned toward home. This is mastery of spirit.",
+    "With order, wait for disorder. With quiet, wait for clamor. This is mastery of the mind.",
+    "Near the field, wait for those who come from far. Rested, wait for the weary. Fed, wait for the hungry. This is mastery of strength.",
+    "Do not cut off flags that come on in perfect order. Do not strike a formation that stands in full array. This is mastery of change.",
+    "So the rule in war is this. Do not face an enemy on high ground. Do not meet one who has a hill at his back. Do not follow one who pretends to run. Do not attack his keenest troops. Do not swallow the bait he offers. Do not block an army on its way home. When you surround an army, leave a gap. Do not press a desperate enemy. This is the rule in war."
+  ],
+  "divergences": [
+    {
+      "locus": "VII.2",
+      "phrase": "makes camp face to face with the enemy",
+      "older": "Giles (1910): \"Having collected an army and concentrated his forces, he must blend and harmonise the different elements thereof before pitching his camp.\"",
+      "lectio": "brings the army together and gathers the troops, and makes camp face to face with the enemy",
+      "note": "交和而舍. Giles took 和 in its common sense of harmony and got a sentence about blending the army's parts. Ts'ao Ts'ao and most later commentators explain 和 here as the name for the gate of a camp: 交和 is \"gates facing\", the two armies encamped opposite each other. That reading gives the chapter its starting point, two armies in place and the race for position about to begin, and we follow it."
+    },
+    {
+      "locus": "the title, and VII.3–4, VII.22",
+      "phrase": "the roundabout and the direct",
+      "older": "Giles (1910): title \"Manœuvring\"; \"The difficulty of tactical manœuvering consists in turning the devious into the direct, and misfortune into gain.\"",
+      "lectio": "What is hard in the contest of armies is making the roundabout road the direct one, and turning trouble into advantage.",
+      "note": "The title, 軍爭, is \"armies contending\": the race between two armies for the better position before any battle is fought. \"Manoeuvring\" names the means and loses the contest. The pair in this sentence is 迂 and 直, the winding and the straight road. The English says \"roundabout\" and \"direct\" so that \"the straight\" is kept for 正, the partner of surprise in Chapter V, which is a different word and a different idea."
+    },
+    {
+      "locus": "VII.20",
+      "phrase": "share it among your men",
+      "older": "Giles (1910): \"When you plunder a countryside, let the spoil be divided amongst your men; when you capture new territory, cut it up into allotments for the benefit of the soldiery.\"",
+      "lectio": "When you plunder the countryside, share it among your men. When you widen your territory, share out the gains.",
+      "note": "掠鄉分衆，廓地分利. Each half is four words and each can be read two ways: \"divide [the spoil among] the many\" or \"divide your troops [to do the plundering]\"; \"divide the gains\" or \"divide [your forces to hold] the points of advantage\". We read both as sharing out, with Giles, because the two halves are built alike and the second most naturally means sharing. Giles's \"cut it up into allotments\" is more than the Chinese says. Some old editions read 指向分衆 in the first half, \"to point the way, divide your troops\"."
+    },
+    {
+      "locus": "VII.26",
+      "phrase": "use many gongs and drums",
+      "older": "Giles (1910): \"In night-fighting, then, make much use of signal-fires and drums, and in fighting by day, of flags and banners, as a means of influencing the ears and eyes of your army.\"",
+      "lectio": "So in fighting at night use many gongs and drums, and in fighting by day many flags and banners, to suit the men's ears and eyes.",
+      "note": "The cached text reads 夜戰多金鼓, \"gongs and drums\", repeating the pair from the quotation; Giles's text read 火鼓, \"fires and drums\". The last clause, 所以變人之耳目也, is literally \"the means of changing men's ears and eyes\". It can mean changing the signal to suit what one's own men can hear and see, which is how we take it, or confusing the ears and eyes of the enemy."
+    }
+  ]
+}

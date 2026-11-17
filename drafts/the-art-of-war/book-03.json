@@ -1,0 +1,52 @@
+{
+  "order": 3,
+  "label": "Chapter III",
+  "title": "Attack by Strategy",
+  "paragraphs": [
+    "Master Sun said: The rule in war is this. To take a state whole is best; to break it is second best. To take an army whole is best; to break it is second best. To take a battalion whole is best; to break it is second best. To take a company whole is best; to break it is second best. To take a squad of five whole is best; to break it is second best.",
+    "That is why a hundred victories in a hundred battles is not the best of the best. To subdue the enemy's army without a battle is the best of the best.",
+    "So the highest kind of war attacks the enemy's strategy. The next attacks his alliances. The next attacks his army. The lowest attacks his walled cities.",
+    "The rule for attacking cities is to do it only when there is no other choice. To build the great shields and the covered assault wagons and make the gear ready takes three months. To pile the earth ramps against the walls takes three months more.",
+    "The general, unable to master his anger, sends his men swarming up the walls like ants. A third of them are killed and the city still does not fall. This is the disaster of attacking cities.",
+    "So one skilled in war subdues the enemy's army, but not by battle. He takes the enemy's cities, but not by assault. He destroys the enemy's state, but not by a long war. He always contends for the world by keeping things whole. So his weapons are not blunted and his gain can be kept whole. This is the rule for attack by strategy.",
+    "So the rule in war is this. With ten to his one, surround him. With five to his one, attack him. With two to his one, divide him. If you are his equal, be able to fight him. If you are fewer, be able to hold out against him. If you are no match for him, be able to keep away from him.",
+    "So a small force that stands fast becomes the captive of a large one.",
+    "The general is the brace of the state. If the brace fits tight, the state will surely be strong. If there is a gap in it, the state will surely be weak.",
+    "So there are three ways a ruler brings trouble on his army. Not knowing that the army cannot advance, he tells it to advance; not knowing that it cannot retreat, he tells it to retreat. This is called hobbling the army.",
+    "Not knowing the army's business, he takes a share in running it. Then the officers and men are confused.",
+    "Not knowing how an army weighs its chances, he takes a share in its command. Then the officers and men are full of doubt.",
+    "Once the whole army is confused and doubting, trouble will come from the other princes. This is called throwing his own army into disorder and giving the victory away.",
+    "So there are five ways to know who will win. The one who knows when to fight and when not to fight wins. The one who understands the use of many and of few wins. The one whose high and low want the same thing wins. The one who is prepared and waits for the unprepared wins. The one whose general is able and whose ruler does not interfere wins. These five are the way to know victory.",
+    "So it is said: Know the other side and know yourself, and in a hundred battles you will not be in danger. Know yourself but not the other side, and you will win one and lose one. Know neither the other side nor yourself, and in every battle you will be in danger."
+  ],
+  "divergences": [
+    {
+      "locus": "III.2",
+      "phrase": "To subdue the enemy's army without a battle is the best of the best.",
+      "older": "Giles (1910): \"Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting.\"",
+      "lectio": "That is why a hundred victories in a hundred battles is not the best of the best. To subdue the enemy's army without a battle is the best of the best.",
+      "note": "是故百戰百勝，非善之善者也；不戰而屈人之兵，善之善者也. The Chinese says \"a hundred battles, a hundred victories\", and the number is kept because the chapter ends on \"a hundred battles\" again. 善之善者 is \"the good of the good\"; \"the best of the best\" is the same phrase in ordinary English and is used again in Chapter IV. 屈 is to bend or make submit, and its object is 兵, the enemy's army, not his \"resistance\"."
+    },
+    {
+      "locus": "III.3",
+      "phrase": "The next attacks his alliances.",
+      "older": "Giles (1910): \"Thus the highest form of generalship is to baulk the enemy's plans; the next best is to prevent the junction of the enemy's forces\"",
+      "lectio": "So the highest kind of war attacks the enemy's strategy. The next attacks his alliances. The next attacks his army. The lowest attacks his walled cities.",
+      "note": "故上兵伐謀，其次伐交，其次伐兵，其下攻城. One verb, 伐, \"attack\", is used three times, and the English keeps it three times. 交 is relations between states: most of the Chinese commentators take 伐交 as breaking up the enemy's alliances, and that is how the word is used in Chapters VII, VIII and XI. Giles took it as the joining of the enemy's forces in the field."
+    },
+    {
+      "locus": "III.8",
+      "phrase": "With two to his one, divide him.",
+      "older": "Giles (1910): \"if twice as numerous, to divide our army into two.\"",
+      "lectio": "With two to his one, divide him.",
+      "note": "倍則分之. The 之 at the end of each clause in this list is the enemy: surround him, attack him, divide him. Giles, following Ts'ao Ts'ao, read this one clause as dividing one's own army, so that one half meets the enemy and the other falls on his rear. We keep the pronoun the same through the list. In the fifth clause the cached text reads 守之, \"hold out against him\"; other editions read 逃之, \"get away from him\", which Giles translated (\"we can avoid the enemy\")."
+    },
+    {
+      "locus": "III.18, the close",
+      "phrase": "in a hundred battles you will not be in danger",
+      "older": "Giles (1910): \"If you know the enemy and know yourself, you need not fear the result of a hundred battles.\"",
+      "lectio": "Know the other side and know yourself, and in a hundred battles you will not be in danger.",
+      "note": "知彼知己，百戰不殆. The saying is usually quoted in English as a promise of a hundred victories. The Chinese promises less: 殆 is danger, and 不殆 is \"not imperiled\". The words 彼 and 己 are \"that one\" and \"oneself\"; \"the other side\" keeps the plainness of 彼. The same sentence returns at the end of Chapter X and is given there in the same words."
+    }
+  ]
+}

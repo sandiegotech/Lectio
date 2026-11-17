@@ -1,0 +1,44 @@
+{
+  "order": 5,
+  "label": "Chapter V",
+  "title": "Momentum",
+  "paragraphs": [
+    "Master Sun said: Managing many is like managing few. It is a matter of dividing them into units. Fighting with many is like fighting with few. It is a matter of signs and signals.",
+    "That the whole army can take the enemy's blow and not be beaten is a matter of surprise and the straight. That the army lands where it strikes like a grindstone thrown at an egg is a matter of the hollow and the solid.",
+    "In every battle you meet the enemy with the straight and win with surprise.",
+    "So one who is good at bringing out surprise is as endless as heaven and earth, as unfailing as the great rivers and the sea. He ends and begins again, like the sun and moon. He dies and comes back to life, like the four seasons.",
+    "There are only five notes, yet the changes of the five notes are more than can ever be heard. There are only five colors, yet the changes of the five colors are more than can ever be seen. There are only five tastes, yet the changes of the five tastes are more than can ever be tasted.",
+    "The momentum of battle is only surprise and the straight, yet the changes of surprise and the straight can never be followed to the end. Surprise and the straight give birth to each other, like a ring that has no end. Who can come to the end of them?",
+    "When rushing water is swift enough to carry boulders along, that is momentum. When a hawk's strike is swift enough to break its prey, that is timing.",
+    "So the skilled fighter's momentum is steep and his timing is short. Momentum is like a crossbow drawn full. Timing is like the release of the trigger.",
+    "In the swirl and tangle the fighting is in disorder, yet he cannot be thrown into disorder. In the churn and blur his form is round, yet he cannot be beaten.",
+    "Disorder is born of order, fear is born of courage, weakness is born of strength. Order and disorder are a matter of units. Courage and fear are a matter of momentum. Strength and weakness are a matter of form.",
+    "So one who is good at moving the enemy shows him a form, and the enemy is sure to follow it. He offers him something, and the enemy is sure to take it. He moves him with gain and waits for him with troops.",
+    "So the skilled fighter looks for victory in momentum and does not demand it of his men. So he can choose his men and rely on momentum.",
+    "One who relies on momentum sends his men into battle like rolling logs and stones. It is the nature of logs and stones to lie still on level ground and to move on a slope, to stop if they are square and to roll if they are round.",
+    "So the momentum of men well led into battle is like round stones rolled down a mountain a thousand fathoms high. That is momentum."
+  ],
+  "divergences": [
+    {
+      "locus": "the title, and V.12–15, V.21–23",
+      "phrase": "momentum",
+      "older": "Giles (1910): title \"Energy\"; \"The onset of troops is like the rush of a torrent which will even roll stones along in its course.\"",
+      "lectio": "When rushing water is swift enough to carry boulders along, that is momentum.",
+      "note": "The chapter's title and key word is 勢, and it ends on the word: 勢也. It is the force a thing has because of where it stands and how it is moving: water coming down a channel, a drawn crossbow, a round stone on a mountainside. Giles used \"energy\" in most places, \"onset\" here and \"momentum\" once, in the last line. We use \"momentum\" every time, here and in Chapter I, so that the reader can see it is one idea. The companion word 節, which Giles gives as \"decision\", is the short, exact moment of the strike, and we print \"timing\"."
+    },
+    {
+      "locus": "V.3, V.5, V.10–11",
+      "phrase": "you meet the enemy with the straight and win with surprise",
+      "older": "Giles (1910): \"In all fighting, the direct method may be used for joining battle, but indirect methods will be needed in order to secure victory.\"",
+      "lectio": "In every battle you meet the enemy with the straight and win with surprise.",
+      "note": "凡戰者，以正合，以奇勝. 正 is what is straight, regular, expected; 奇 is what is odd, irregular, unexpected. Giles's \"direct and indirect\" makes them sound like two routes on a map. They are two kinds of force, and each turns into the other: a surprise the enemy has learned to expect has become the straight. The Lectio Tao Te Ching already renders the same pair in its Chapter 57 as \"what is straight\" and \"surprise\" (\"Wage war with surprise\"), and this edition agrees with it."
+    },
+    {
+      "locus": "V.17",
+      "phrase": "Disorder is born of order",
+      "older": "Giles (1910): \"Simulated disorder postulates perfect discipline; simulated fear postulates courage; simulated weakness postulates strength.\"",
+      "lectio": "Disorder is born of order, fear is born of courage, weakness is born of strength.",
+      "note": "亂生於治，怯生於勇，弱生於強. The Chinese says only that each thing \"is born from\" its opposite. Giles, following the commentators Tu Mu and Chang Yü, took it as advice about pretending: to feign disorder you must first be well ordered. That may be what is meant, since the next paragraph is about showing the enemy a false form. It may also be a warning that order slides into disorder. The Chinese does not choose, and the English does not choose for it."
+    }
+  ]
+}
