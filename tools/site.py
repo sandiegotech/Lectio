@@ -405,6 +405,8 @@ def edition_record(b: dict) -> dict:
     pdf = pdf_for(b)
     if pdf:
         rec["pdf"] = BASE + pdf["href"]
+    rec["text"] = [{"label": c["label"], "title": c["title"], "url": BASE + c["path"],
+                    "markdown": BASE + c["path"] + "index.md"} for c in chapters_of(b)]
     return rec
 
 
@@ -536,7 +538,7 @@ def to_markdown(page_html: str, path: str) -> str:
                 self.open("label" if "lx-sec" in cls else tag)
             elif tag == "div":
                 self.close()
-                if "lx-passage" in cls:
+                if "lx-passage" in cls and "lx-read" not in cls:   # a whole section is the page, not a quotation
                     self.quote += 1
                 if "status" in cls.split():
                     self.buf, self.kind = [], "p"
@@ -696,6 +698,7 @@ def llms_txt(library: list[dict], index_desc: str, mission_desc: str) -> str:
               f"- [Lectio, full text of these pages]({BASE}/llms-full.txt): the overview, the mission and every edition page as one Markdown file",
               f"- [Editions as data]({BASE}/lectio/editions.json): each edition's public record as JSON",
               f"- [Feed]({BASE}/lectio/feed.xml): new and revised editions, as Atom",
+              "- The whole text of every edition is on the web, one page per book or chapter, listed under Read it on each edition page and under text in its edition.json",
               "- Every Lectio page has a Markdown twin at the same address with index.md added", ""]
     return "\n".join(lines)
 
@@ -1034,7 +1037,8 @@ def book_page(b: dict, prev: dict | None, nxt: dict | None, cover_dims: tuple[in
             f'<a href="/lectio/{x["url"]}/">{esc(x["work"]["title"])}</a>' for x in rel) + "</p>"
     sec_print = article("In print", "PDF and book", pr + "\n          " + nav, "print", tail=True)
 
-    body = hero + sec_why + sec_open + sec_choices + sec_others + sec_made + sec_print
+    chs = chapters_of(b)
+    body = hero + sec_why + sec_open + contents_html(b, chs) + sec_choices + sec_others + sec_made + sec_print
 
     page_url = f"{BASE}{path}"
     person = real_author(b)
@@ -1067,9 +1071,12 @@ def book_page(b: dict, prev: dict | None, nxt: dict | None, cover_dims: tuple[in
         edition_ld["translator"] = ORG_REF
     else:
         edition_ld["editor"] = ORG_REF
+    # The whole text is on the web, one page per section, so free to read is true of every edition.
+    edition_ld["isAccessibleForFree"] = True
+    edition_ld["hasPart"] = [{"@type": "Chapter", "position": n + 1, "url": BASE + c["path"],
+                              "name": c["label"] + (f": {c['title']}" if c["title"] else "")}
+                             for n, c in enumerate(chs)]
     if pdf:
-        # Free to read is claimed only where the whole text can actually be had: a PDF today.
-        edition_ld["isAccessibleForFree"] = True
         edition_ld["encoding"] = {"@type": "MediaObject", "contentUrl": BASE + pdf["href"],
                                   "encodingFormat": "application/pdf", "name": pdf["label"]}
     ld = {"@context": "https://schema.org", "@graph": org_nodes() + [
@@ -1106,6 +1113,179 @@ def book_page(b: dict, prev: dict | None, nxt: dict | None, cover_dims: tuple[in
     alternates = '\n  <link rel="alternate" type="application/json" href="edition.json">'
     return page(title=seo_title, desc=seo_desc, path=path, body=body, jsonld=ld, og_type="book",
                 image=image, head_extra=head_extra, alternates=alternates)
+
+
+# ---------------------------------------------------------------- the whole text, one page per section
+
+ROMAN = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100}
+
+
+def _roman(tok: str) -> int | None:
+    if not re.fullmatch(r"c{0,3}(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})", tok) or not tok:
+        return None
+    total = 0
+    for a, b in zip(tok, tok[1:] + " "):
+        v = ROMAN[a]
+        total += -v if b in ROMAN and ROMAN[b] > v else v
+    return total
+
+
+def sec_label(sec: dict) -> str:
+    """'Chapter I. The Twin-Verses' is shown as 'Chapter I'; the edition's own title follows it."""
+    return sec["label"].split(". ")[0]
+
+
+def sec_slug(sec: dict) -> str:
+    out = []
+    for tok in re.findall(r"[a-z0-9]+", sec_label(sec).lower()):
+        n = _roman(tok)
+        out.append(str(n) if n else tok)
+    return "-".join(out)
+
+
+def chapters_of(b: dict) -> list[dict]:
+    """Every section of the Lectio edition that has text, with its address."""
+    out, seen = [], set()
+    for sec in b["lectio"]["sections"]:
+        segs = [g for g in sec["segments"] if g.get("kind") != "omit"]
+        if not segs:
+            continue
+        slug = sec_slug(sec)
+        if not slug or slug in seen:
+            sys.exit(f"site.py: {b['slug']}: section address {slug!r} is empty or used twice")
+        seen.add(slug)
+        out.append(dict(sec=sec, segs=segs, slug=slug, label=sec_label(sec), title=sec.get("title"),
+                        path=f"/lectio/{b['url']}/{slug}/"))
+    return out
+
+
+def seg_text(text: str) -> str:
+    """Segment text as shown: the source's _italic_ marks are dropped, nothing else."""
+    return text.replace("_", "")
+
+
+def seg_html(seg: dict) -> str:
+    anchor = seg["id"].rsplit(".", 1)[-1]
+    lines = seg["text"].split("\n")
+    cls = []
+    if seg.get("kind") == "verse_block":
+        cls.append("lx-verse")
+    if len(lines) == 1 and re.match(r"SCENE [IVX]+\.", lines[0]):
+        cls.append("lx-scene")
+    parts = []
+    for i, l in enumerate(lines):
+        h = re.sub(r"_([^_]+)_", r"<em>\1</em>", esc(l))
+        if i == 0 and len(lines) > 1 and l == l.upper() and re.search(r"[A-Z]", l) and len(l) < 40:
+            h = f'<span class="lx-speaker">{h}</span>'
+        parts.append(h)
+    c = f' class="{" ".join(cls)}"' if cls else ""
+    return f'<p id="{anchor}"{c}>' + "<br>".join(parts) + "</p>"
+
+
+def chapter_seo(b: dict, ch: dict) -> tuple[str, str]:
+    title, person = b["work"]["title"], real_author(b)
+    head = f"{title}, {ch['label']}"
+    kind = "translation" if is_translation(b) else "edition"
+    cands = []
+    if ch["title"]:
+        cands += [f"{head}: {ch['title']} · Lectio Edition", f"{head}: {ch['title']} · Lectio"]
+    cands += [f"{head} · Lectio modern {kind}", f"{head} · Lectio Edition", f"{head} · Lectio"]
+    seo_title = next((c for c in cands if len(c) <= 65), cands[-1])
+    lead = f"{ch['label']} of {title}{' by ' + person if person else ''}, in plain modern English. "
+    flat = " ".join(seg_text(g["text"]).replace("[", "").replace("]", "").split() and
+                    " ".join(seg_text(g["text"]).replace("[", "").replace("]", "").split()) for g in ch["segs"][:12])
+    room = 158 - len(lead)
+    if len(flat) > room:
+        flat = flat[:room].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
+    desc = lead + flat
+    if len(desc) < 110:
+        desc = (lead + f"The full text of the Lectio Edition, free to read. " + flat)[:160]
+    return seo_title, desc
+
+
+def chapter_page(b: dict, chs: list[dict], i: int, share: tuple[int, int] | None) -> str:
+    ch, w, ed = chs[i], b["work"], b["lectio"]
+    prov = ed["provenance"]
+    title, author, person = w["title"], author_of(b), real_author(b)
+    book_path = f"/lectio/{b['url']}/"
+    book_url, url = BASE + book_path, BASE + ch["path"]
+    revised = prov.get("revised")
+    one, _many = unit_of(ch["label"])
+    seo_title, seo_desc = chapter_seo(b, ch)
+
+    hero = f"""
+    <section class="charter lx-chapter">
+      <div class="frame">
+        {crumbs([("San Diego Institute of Technology", "/"), ("Lectio", "/lectio/"), (title, book_path), (ch['label'], None)])}
+        <p class="eyebrow">{esc(author + ' · ' if author else '')}Lectio Edition · {esc(str(prov.get('vintage', '')))}</p>
+        <h1>{esc(title)}, {esc(ch['label'])}</h1>
+        {f'<p class="standfirst">{esc(ch["title"])}</p>' if ch['title'] else ''}
+      </div>
+    </section>"""
+
+    text = "\n            ".join(seg_html(g) for g in ch["segs"])
+    prev, nxt = (chs[i - 1] if i else None), (chs[i + 1] if i + 1 < len(chs) else None)
+    nav = '<p class="lx-next">'
+    nav += (f'<a href="{prev["path"]}" rel="prev">← {esc(prev["label"])}</a>' if prev
+            else f'<a href="{book_path}">← About this edition</a>')
+    nav += (f'<a href="{nxt["path"]}" rel="next">{esc(nxt["label"])} →</a>' if nxt
+            else f'<a href="{book_path}">About this edition →</a>')
+    nav += "</p>"
+    status = ("Release. Reviewed by its readers and read in full by the editor." if b["reg"].get("approved") else
+              f'Beta text, revised {esc(long_date(revised))}. If a line reads wrong, '
+              f'<a href="/lectio/#scholars">the review is open</a>.')
+    body = hero + article(ch["label"], f"{i + 1} of {len(chs)}", f"""          <div class="lx-passage lx-read" data-edition="{esc(ed['id'])}" data-section="{esc(ch['sec']['id'])}">
+            {text}
+          </div>
+          {nav}
+          <div class="lx-status lx-foot">{status} <a href="{book_path}">About this edition</a> · <a href="{book_path}#read">Contents</a></div>""",
+                          "text", tail=True)
+
+    part = {"@type": "Book", "@id": book_url + "#edition", "name": f"{title}: Lectio Edition", "url": book_url}
+    chapter_ld = {
+        "@type": "Chapter", "@id": url + "#chapter", "url": url,
+        "name": f"{title}, {ch['label']}" + (f": {ch['title']}" if ch["title"] else ""),
+        "position": i + 1, "isPartOf": part, "inLanguage": ed.get("language", "en"),
+        "publisher": ORG_REF, "license": LICENSE_URL, "isAccessibleForFree": True,
+        "dateModified": revised, "creativeWorkStatus": "Release" if b["reg"].get("approved") else "Beta",
+        "wordCount": sum(words(g["text"]) for g in ch["segs"]),
+    }
+    if person:
+        chapter_ld["author"] = {"@type": "Person", "name": person}
+    if is_translation(b):
+        chapter_ld["translator"] = ORG_REF
+    ld = {"@context": "https://schema.org", "@graph": org_nodes() + [
+        chapter_ld,
+        {"@type": "WebPage", "@id": url, "url": url, "name": seo_title, "description": seo_desc, "inLanguage": "en",
+         "isPartOf": {"@id": SITE_ID}, "mainEntity": {"@id": url + "#chapter"},
+         "breadcrumb": {"@id": url + "#breadcrumb"}, "dateModified": revised},
+        {**crumbs_ld([("Home", "/"), ("Lectio", "/lectio/"), (title, book_path), (ch["label"], ch["path"])]),
+         "@id": url + "#breadcrumb"},
+    ]}
+    image = ((book_url + "share.jpg", share[0], share[1], f"{title}{' by ' + person if person else ''}: Lectio Edition")
+             if share else None)
+    links = ""
+    if prev:
+        links += f'\n  <link rel="prev" href="{prev["path"]}">'
+    if nxt:
+        links += f'\n  <link rel="next" href="{nxt["path"]}">'
+    links += f'\n  <meta property="article:modified_time" content="{revised}T00:00:00Z">'
+    return page(title=seo_title, desc=seo_desc, path=ch["path"], body=body, jsonld=ld, og_type="article",
+                image=image, head_extra=links)
+
+
+def contents_html(b: dict, chs: list[dict]) -> str:
+    one, many = unit_of(chs[0]["label"])
+    n = len(chs)
+    items = "\n".join(
+        f'            <li><a href="{c["path"]}">{esc(c["label"])}</a>'
+        + (f' <span>{esc(c["title"])}</span>' if c["title"] else "") + "</li>" for c in chs)
+    return article("Read it", "The whole text", f"""          <h2>The whole edition is here to read.</h2>
+          <p class="lede">{'All ' + count_word(n, one, many) if n > 1 else 'The one ' + one}, free, one page each. It is the same text the app reads, and it is a beta, so it will be corrected as the review goes on.</p>
+          <a class="cta" href="{chs[0]['path']}">Start at {esc(chs[0]['label'])} →</a>
+          <ol class="lx-toc{' is-long' if n > 30 else ''}">
+{items}
+          </ol>""", "read")
 
 
 # ---------------------------------------------------------------- shared inserts
@@ -1263,6 +1443,9 @@ def copy_cover(b: dict) -> tuple[int, int]:
     return jpeg_size(dest)
 
 
+n_chapters = [0]
+
+
 def build(force_cards: bool = False) -> tuple[list[dict], list[dict]]:
     register, library = load_books()
     dims = {b["slug"]: copy_cover(b) for b in library}
@@ -1288,6 +1471,18 @@ def build(force_cards: bool = False) -> tuple[list[dict], list[dict]]:
             ("status", "release" if b["reg"].get("approved") else "beta"),
             ("publisher", ORG), ("license", f"{LICENSE_NAME} ({LICENSE_URL})"), ("canonical", url)]) + md)
         full.append((f"{b['work']['title']}: Lectio Edition", url, md))
+        chs = chapters_of(b)
+        for n, ch in enumerate(chs):
+            ch_html = chapter_page(b, chs, n, share)
+            write(os.path.join(folder, ch["slug"], "index.html"), ch_html)
+            write(os.path.join(folder, ch["slug"], "index.md"), front_block([
+                ("title", f"{b['work']['title']}, {ch['label']}" + (f": {ch['title']}" if ch["title"] else "")),
+                ("author", b["work"].get("author") or ""), ("edition", "Lectio Edition"),
+                ("vintage", str(prov.get("vintage"))), ("revised", prov.get("revised")),
+                ("status", "release" if b["reg"].get("approved") else "beta"),
+                ("publisher", ORG), ("license", f"{LICENSE_NAME} ({LICENSE_URL})"),
+                ("canonical", BASE + ch["path"])]) + to_markdown(ch_html, ch["path"]))
+        n_chapters[0] += len(chs)
         rec = edition_record(b)
         records.append(rec)
         write(os.path.join(folder, "edition.json"), json.dumps(rec, ensure_ascii=False, indent=2) + "\n")
@@ -1612,6 +1807,18 @@ def check(library: list[dict]) -> None:
                         piece = _norm(piece.replace(" / ", " ").replace("*", "")).strip(" .")
                         if piece and piece not in text:
                             bad(rel, f"divergence wording not found in the edition: {piece[:60]!r}")
+        book = by_url.get(os.path.basename(os.path.dirname(os.path.dirname(f))))
+        if book and slug not in by_url:
+            ch = next((c for c in chapters_of(book) if c["slug"] == slug), None)
+            shown = [x["text"] for x in p.passage]
+            if not ch:
+                bad(rel, "a page of text for no section in the bundle")
+            elif shown != [seg_text(g["text"]) for g in ch["segs"]]:
+                bad(rel, "the text is not the bundle text")
+    for b in library:
+        for c in chapters_of(b):
+            if not os.path.isfile(os.path.join(SITE, c["path"].strip("/"), "index.html")):
+                problems.append(f"{c['path']}: no page for this section")
     for what, seen in (("title", titles), ("description", descs)):
         for k, v in seen.items():
             if len(v) > 1:
@@ -1683,7 +1890,7 @@ def main() -> None:
     _, library = build(args.cards)
     if not args.no_sitemap:
         sitemap()
-    print(f"site.py: {len(library)} editions, {len(library) + 2} pages in {os.path.relpath(OUT, ROOT)}; "
+    print(f"site.py: {len(library)} editions, {len(library) + 2} pages and {n_chapters[0]} pages of text in {os.path.relpath(OUT, ROOT)}; "
           f"{len(written)} file(s) changed")
     for w in written[:40]:
         print("  wrote", w)
