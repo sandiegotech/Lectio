@@ -1,0 +1,85 @@
+{
+  "description": "The Lectio Edition of Aristotle's Nicomachean Ethics: the argument in plain current English with one word for each key term, its opening, and its review record.",
+  "what": "Aristotle's inquiry into how to live well. Happiness is the activity of a whole life lived with excellence. Virtue is a mean, formed by habit. Friendship and contemplation complete a human life. The book is his lecture notes, in ten books.",
+  "why_title": "An argument cannot be followed if its terms keep changing.",
+  "why": [
+    "The Ethics is compressed and technical, and it doubles back. That is hard enough. D. P. Chase's translation, the public-domain version in the bundle, adds Victorian terms of art: \"Perfected Self-Mastery\", \"Imperfect Self-Control\", \"Great-mindedness\".",
+    "The first Lectio draft had the opposite fault. It was plain, but each book was drafted alone, and the key terms drifted. The review found four English words for temperance.",
+    "The edition now keeps every distinction Aristotle makes and gives each term one English word in all ten books. Chase stays in the app beside it."
+  ],
+  "choices_lede": "This edition took more correction than any other: 206 fixes, most of them to make the vocabulary hold. The review wrote a glossary and applied it.",
+  "choices": [
+    "One English word for each Greek term, in every book. *Sophrosyne* is \"temperance\". *Akolasia* is \"self-indulgence\". *Enkrateia* is \"self-control\". *Akrasia* is \"lack of self-control\". These are four different conditions and Aristotle keeps them apart.",
+    "*To kalon*, as a motive for action, is \"the noble\". The draft had \"fine\", \"honor\" and \"honorable\". \"Honor\" is now kept for *time* alone.",
+    "*Eudaimonia* stays \"happiness\", and Aristotle's own argument is left to say what he means by it.",
+    "*Arete* is \"virtue\" in the moral sense and \"excellence\" where he means being good at a function.",
+    "*Nous* is \"intuitive understanding\" as the faculty that grasps first principles, and \"intellect\" as the highest part of us.",
+    "No contractions. Book III had 189 and read in a different voice from the rest.",
+    "Chase's own insertions came out, including a line of Shakespeare in Book IX. Two examples in Book VII that Chase had silently cut were restored."
+  ],
+  "divergences": [
+    {
+      "where": "Book I and throughout",
+      "phrase": "εὐδαιμονία (*eudaimonia*)",
+      "older": "\"happiness\" (Chase)",
+      "lectio": "happiness",
+      "why": "Here the edition keeps the old word. *Eudaimonia* is a whole life that has gone well, not a mood, and some translators prefer \"flourishing\". The edition keeps the word readers expect and lets the argument redefine it."
+    },
+    {
+      "where": "Book I, chapter 7",
+      "phrase": "ἀρετή (*arete*)",
+      "older": "\"virtue\" (Chase)",
+      "lectio": "excellence",
+      "why": "A good knife cuts well. A good harpist plays well. *Arete* is that, before it is anything moral. \"Excellence\" lets the function argument read as an argument."
+    },
+    {
+      "where": "Book III, chapters 10 to 12",
+      "phrase": "σωφροσύνη, ἀκολασία",
+      "older": "\"Perfected Self-Mastery\", \"absence of self-control\" (Chase)",
+      "lectio": "temperance",
+      "why": "Chase's second term suggests the man who knows better and fails, which is a different condition treated in Book VII. The self-indulgent man does not think he is failing."
+    },
+    {
+      "where": "Book IV, chapter 3",
+      "phrase": "μεγαλοψυχία (*megalopsychia*)",
+      "older": "\"Great-mindedness\" (Chase)",
+      "lectio": "greatness of soul",
+      "why": "The Greek is built from the words for great and soul, not mind. It is the soul Aristotle is measuring."
+    },
+    {
+      "where": "Book VI",
+      "phrase": "φρόνησις (*phronesis*)",
+      "older": "\"Practical Wisdom\" (Chase), \"prudence\"",
+      "lectio": "practical wisdom",
+      "why": "\"Prudence\" has shrunk to caution. *Phronesis* is the settled ability to work out what is good to do and to do it."
+    },
+    {
+      "where": "Book VII",
+      "phrase": "ἀκρασία (*akrasia*)",
+      "older": "\"Imperfect Self-Control\" (Chase), \"incontinence\"",
+      "lectio": "lack of self-control",
+      "why": "The state of a person who knows the better course and takes the worse. \"Incontinence\" now means something medical."
+    },
+    {
+      "where": "Book VIII",
+      "phrase": "φιλία (*philia*)",
+      "older": "\"friendship\" (Chase)",
+      "lectio": "friendship",
+      "why": "Kept, with a caution. *Philia* covers parent and child, husband and wife, fellow citizens, host and guest. It is wider than the English word, and the edition says so in its notes instead of inventing a term."
+    },
+    {
+      "where": "Book X, chapters 7 and 8",
+      "phrase": "θεωρία (*theoria*)",
+      "older": "\"Contemplative Speculation\" (Chase)",
+      "lectio": "contemplation",
+      "why": "Chase makes it sound mystical. *Theoria* is active looking: the mind fully at work on the highest things."
+    }
+  ],
+  "checked": "Chase (1911). The Greek is not in the bundle, so readings of the Bekker text came from the reviewing model's own knowledge of it.",
+  "open": [
+    "The editor's own read of all ten books.",
+    "Book IV still says \"excellence\" 26 times for the moral virtues, where Books III and V say \"virtue\". Bringing it into line is a separate pass of about twenty changes.",
+    "Book VII, chapter 5: the examples Chase had cut are restored. They are faithful and plainly worded. Because they add content readers of Chase never saw, the editor should read the passage himself.",
+    "One sentence in Book VII uses \"weak\" alone for the man who lacks self-control, against the edition's own rule."
+  ]
+}

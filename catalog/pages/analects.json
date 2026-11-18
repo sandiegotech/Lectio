@@ -1,0 +1,84 @@
+{
+  "description": "The Lectio Edition of the Analects of Confucius: short sayings in plain current English, with the terms it fixes, its opening, and its review record.",
+  "what": "The sayings and conversations of Confucius, written down by his students after his death. Twenty short books on learning, ritual, family, government, and what it takes to become fully human.",
+  "why_title": "The sayings are short. The Victorian English is not.",
+  "why": [
+    "James Legge's translation of 1893 is the scholar's standard and it is careful. It is also wordy where the Chinese is brief. Two plain words in the original become \"to be true to the principles of our nature and the benevolent exercise of them to others\".",
+    "Legge also renders the book's central word, *ren*, as a general \"virtue\", so a reader cannot follow it. And his \"superior man\" sounds like rank, which is the opposite of what Confucius meant.",
+    "The Lectio Edition keeps each saying about the size the Chinese keeps it, and gives each key term one English word. Legge stays in the app beside it."
+  ],
+  "choices_lede": "The review graded fourteen of twenty books as needing no change. Most of its fixes were to punctuation. The edition's main choices are in its terms.",
+  "choices": [
+    "*Ren* is \"human-heartedness\" everywhere. \"Virtue\" is kept for *de*, moral force, so the reader can watch the two ideas separately.",
+    "*Junzi* is \"the gentleman\": a man defined by conduct, not birth.",
+    "*Li* is \"ritual\", one word throughout.",
+    "Explanations are not written into the Master's sentences. Glosses the draft had added in Books V, XI and XIV were removed.",
+    "Proper names follow Legge's romanization, so the edition and the 1893 text can be read side by side.",
+    "One style of quotation mark across all twenty books. Books VI to X had used a different one."
+  ],
+  "divergences": [
+    {
+      "where": "Book I and throughout",
+      "phrase": "仁 (*ren*)",
+      "older": "\"true virtue\", \"perfect virtue\", \"benevolent actions\" (Legge)",
+      "lectio": "human-heartedness",
+      "why": "*Ren* is the particular excellence of being fully human toward other people, and it is the book's central word. Legge folds it into \"virtue\" and it disappears."
+    },
+    {
+      "where": "Book I and throughout",
+      "phrase": "君子 (*junzi*)",
+      "older": "\"the superior man\" (Legge)",
+      "lectio": "the gentleman",
+      "why": "The word once meant a lord's son. Confucius remade it to mean a formed character, open to anyone who does the work. \"Gentleman\" has made the same journey in English."
+    },
+    {
+      "where": "Book III and throughout",
+      "phrase": "禮 (*li*)",
+      "older": "\"the rules of propriety\" (Legge)",
+      "lectio": "ritual",
+      "why": "Legge makes it sound like a code of etiquette. *Li* is rite, ceremony and the learned forms respect takes, all as one thing."
+    },
+    {
+      "where": "Book IV",
+      "phrase": "忠恕 (*zhong shu*)",
+      "older": "\"to be true to the principles of our nature and the benevolent exercise of them to others\" (Legge)",
+      "lectio": "loyalty, and putting yourself in the other man's place",
+      "why": "The one thread through the Master's Way is two plain words. The edition keeps it that size."
+    },
+    {
+      "where": "Book VII, 20",
+      "phrase": "子不語怪，力，亂，神",
+      "older": "\"extraordinary things, feats of strength, disorder, and spiritual beings\" (Legge)",
+      "lectio": "The Master did not speak of marvels, feats of strength, rebellion, or the spirits.",
+      "why": "Four bare words in the Chinese. *Luan* in this company is political violence, not untidiness."
+    },
+    {
+      "where": "Book XI",
+      "phrase": "過猶不及",
+      "older": "\"To go beyond is as wrong as to fall short\" (Legge)",
+      "lectio": "Too far is no better than not far enough.",
+      "why": "The proverb weighs the same on both sides and uses no moral word. Legge's \"wrong\" adds a judgment the Chinese leaves out.",
+      "verbatim": false
+    },
+    {
+      "where": "Book XII",
+      "phrase": "己所不欲，勿施於人",
+      "older": "\"not to do to others as you would not wish done to yourself\" (Legge)",
+      "lectio": "What you do not want done to you, do not do to others.",
+      "why": "The golden rule in its negative form, five centuries before the positive one. In the Chinese it is a free-standing command of eight characters, and it returns in Book XV."
+    },
+    {
+      "where": "Book XIII",
+      "phrase": "君子和而不同",
+      "older": "\"The superior man is affable, but not adulatory\" (Legge)",
+      "lectio": "The gentleman is in harmony without being in unison.",
+      "why": "These are music words. Harmony is different notes agreeing. Unison is one note doubled. Legge moves the saying into drawing-room manners."
+    }
+  ],
+  "checked": "Legge (1893). The Chinese is not in the bundle, so readings of the Chinese came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all twenty books.",
+    "Glosses taken out of Books V, XI and XIV need margin notes, if they are wanted.",
+    "Two of the edition's notes quote a saying without the \"said the Master\" that interrupts it in the text. Harmless, but not exact."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "description": "The Lectio Edition of the Bhagavad Gita: Krishna's teaching to Arjuna in plain current English prose, with its term sheet, its opening, and its review record.",
+  "what": "On the eve of a battle against his own family, the warrior Arjuna lays down his bow. His charioteer, the god Krishna, answers him. The answer is eighteen chapters on duty, devotion, and how to act without clinging to the result. It sits inside the epic Mahabharata.",
+  "why_title": "The teaching is direct. Victorian verse is not.",
+  "why": [
+    "The public-domain Gita is Edwin Arnold's *The Song Celestial* of 1885, in blank verse with lyric stanzas. It is graceful and it is ornate. \"I am Time\" becomes \"Time who kills, Time who brings all to doom, the Slayer Time, Ancient of Days\".",
+    "Arnold also changes the names of things from line to line, so a reader cannot tell that the Gita has a fixed set of terms and uses them exactly.",
+    "The Lectio Edition is prose. It says what Krishna says in the order he says it, and holds each Sanskrit term to one English form. Arnold stays in the app beside it."
+  ],
+  "choices_lede": "The review wrote a term sheet for the whole work and brought every chapter into line with it.",
+  "choices": [
+    "*Yoga* is \"discipline\" in running text. Where the text names or defines the teaching it is \"Yoga\", with a capital.",
+    "The three *gunas* are \"the three qualities\". Their names are kept: *sattva*, *rajas*, *tamas*. Their English is goodness, passion, darkness. *Tamas* is never \"ignorance\". Ignorance is what it comes from.",
+    "Where the Sanskrit has *brahman*, the English says Brahman. It is not turned into \"God\" or \"the eternal\". Brahma the creator god is a different word and stays Brahma.",
+    "*Dharma*, Sankhya and the Vedas keep their names, with no gloss in the sentence.",
+    "*Akasha* is \"space\", not \"air\" or \"ether\"."
+  ],
+  "divergences": [
+    {
+      "where": "2.47",
+      "phrase": "*karmany evadhikaras te*",
+      "older": "\"Let right deeds be thy motive, not the fruit which comes from them\" (Arnold)",
+      "lectio": "So your concern is with the action itself, never with its fruits.",
+      "why": "The best-known verse in the Gita. The Sanskrit has four clauses and the fourth matters: do not cling to inaction either. Arnold lets it dissolve. The edition keeps all four."
+    },
+    {
+      "where": "2.22",
+      "phrase": "*vasamsi jirnani*",
+      "older": "\"Nay, but as when one layeth / His worn-out robes away\" (Arnold)",
+      "lectio": "As a person casts off worn-out clothes and puts on others that are new",
+      "why": "Death as a change of clothes. Arnold sets it as a sing-song stanza. In plain prose the comparison keeps its weight."
+    },
+    {
+      "where": "3.35",
+      "phrase": "*shreyan svadharmo vigunah*",
+      "older": "\"this is better, that one do / His own task as he may, even though he fail\" (Arnold)",
+      "lectio": "It is better to do your own duty imperfectly than to do another's duty well",
+      "why": "The Sanskrit goes on to say that another's duty is dangerous. Arnold softens that. The edition keeps the edge."
+    },
+    {
+      "where": "4.7 and 4.8",
+      "phrase": "*yada yada hi dharmasya*",
+      "older": "\"When Righteousness / Declines, O Bharata! when Wickedness / Is strong, I rise, from age to age\" (Arnold)",
+      "lectio": "For whenever dharma declines and the wrong prevails, Arjuna, I bring myself into being.",
+      "why": "The teaching of divine descent. *Dharma* is kept as the term. \"Righteousness\" and \"Virtue\" are two English words for one Sanskrit one."
+    },
+    {
+      "where": "11.32",
+      "phrase": "*kalo 'smi lokakshayakrit*",
+      "older": "\"Thou seest Me as Time who kills, Time who brings all to doom\" (Arnold)",
+      "lectio": "I am Time, grown mighty, the destroyer of worlds",
+      "why": "The Sanskrit is one blow: I am Time. Arnold makes it three soft ones."
+    },
+    {
+      "where": "14.5 to 14.8",
+      "phrase": "*sattvam rajas tama iti*",
+      "older": "\"'Soothfastness,' 'Passion,' and 'Ignorance'\" (Arnold)",
+      "lectio": "goodness, passion, and darkness",
+      "why": "\"Soothfastness\" was never living English. And *tamas* is darkness and inertia. The draft had followed Arnold's \"ignorance\", and the review corrected it."
+    },
+    {
+      "where": "18.66",
+      "phrase": "*sarvadharman parityajya*",
+      "older": "\"And let go those— / Rites and writ duties! Fly to Me alone!\" (Arnold)",
+      "lectio": "Abandon all duties and come to me alone for refuge.",
+      "why": "The verse the devotional tradition holds to contain the whole. The Sanskrit says all duties. Arnold narrows it to ritual ones."
+    }
+  ],
+  "checked": "Arnold (1885). The Sanskrit is not in the bundle, so readings of the Sanskrit came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all eighteen chapters.",
+    "The review left no other item for the editor on this work."
+  ]
+}

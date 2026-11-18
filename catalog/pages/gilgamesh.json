@@ -1,0 +1,79 @@
+{
+  "description": "The Lectio Edition of the Epic of Gilgamesh: the eleven tablets in plain current English, with what it restores, what is still missing, and its review record.",
+  "what": "The oldest long story we have. Gilgamesh, king of Uruk, and Enkidu, a man raised among animals, become friends. When Enkidu dies, Gilgamesh refuses his own death and goes looking for a way to live forever. It was written in Akkadian on clay tablets and was lost for two thousand years.",
+  "why_title": "There is no old translation to fall back on.",
+  "why": [
+    "Every other book here has a readable public-domain translation behind it. Gilgamesh does not. The tablets were dug up in the 1850s and are still being pieced together. The first English versions, by Smith and Thompson, are free to use and are halting and incomplete. Every complete, readable English Gilgamesh is modern and under copyright.",
+    "So for this work the Lectio Edition is the primary text and not a modernizing of an older one. It follows the Standard Babylonian version in eleven tablets, drawn from the public-domain scholarly record.",
+    "This also makes it the edition with the least to check against. No comparison text is in the bundle. The review says so, and so should this page."
+  ],
+  "others_note": "No older translation of Gilgamesh is in the bundle. The public-domain versions are fragmentary, and the complete modern ones are under copyright and are not reproduced.",
+  "choices_lede": "The first draft added to the story. It explained, moralized and supplied feelings the tablets do not give. Most of the review's work was taking that out.",
+  "choices": [
+    "A sentence that explains, interprets or moralizes is cut, not reworded. So is a feeling the tablet does not state.",
+    "A gap in the tablets is reported once, in square brackets, outside the story's voice: what is lost, and where the text resumes. The narrator never comments on the edition.",
+    "Where the tablet gives a name the draft had dropped, the name is restored: Ninurta, Ishhara, Anzu, Belet-ili.",
+    "The edition follows the Standard Babylonian version and does not import passages from the older one, however famous.",
+    "Shamhat is named, and her office is stated plainly. She is not \"the harlot\"."
+  ],
+  "divergences": [
+    {
+      "where": "Tablet I, line 1",
+      "phrase": "*sha naqba imuru*",
+      "older": "\"who saw everything\" (early translators)",
+      "lectio": "who saw the deep, the country's foundation",
+      "why": "*Naqbu* is the deep water under the earth and, by extension, the whole of things. \"Everything\" keeps the breadth and loses the depth Gilgamesh later goes down to."
+    },
+    {
+      "where": "Tablet I",
+      "phrase": "Shamhat",
+      "older": "\"the harlot\", \"the temple-harlot\"",
+      "lectio": "Shamhat, one of the women of the temple",
+      "why": "Shamhat is a name. A woman of Ishtar's temple held a recognized office. She is the one who makes Enkidu a human being."
+    },
+    {
+      "where": "Tablet I",
+      "phrase": "Enkidu's change",
+      "older": "stress on his having \"grown weak\"",
+      "lectio": "his mind had widened; now he understood",
+      "why": "When the gazelles run from him, the Akkadian says he had gained reason. The scene is a loss, and before that it is a birth."
+    },
+    {
+      "where": "Tablet IV",
+      "phrase": "*melammu*",
+      "older": "\"seven splendors\", \"seven coats of armor\"",
+      "lectio": "seven cloaks of terror",
+      "why": "Humbaba's *melammu* are an aura that spreads dread. They are not cloth or metal. The phrase keeps a thing worn and what it gives off."
+    },
+    {
+      "where": "Tablet VIII",
+      "phrase": "*kima kallati*",
+      "older": "\"he covered the face of his friend\"",
+      "lectio": "he covered his friend's face, the way a man veils the face of a bride",
+      "why": "The Akkadian says Gilgamesh veiled Enkidu like a bride. Older versions sometimes give the act and drop the comparison. The strangeness is the meaning."
+    },
+    {
+      "where": "Tablet X",
+      "phrase": "Siduri's counsel",
+      "older": "the well-known speech telling Gilgamesh to eat, be merry and cherish his wife and child",
+      "lectio": "Siduri gives no such speech in this edition",
+      "verbatim": false,
+      "why": "That speech belongs to the Old Babylonian version. The Standard Babylonian text, which this edition follows, does not have it. Here Siduri questions him and sends him on to the boatman."
+    },
+    {
+      "where": "Tablet XI",
+      "phrase": "*kikkish kikkish, igar igar*",
+      "older": "\"O reed-hut, reed-hut! O wall, wall!\" (Smith and after)",
+      "lectio": "Reed wall, reed wall!",
+      "why": "Ea has sworn with the other gods not to warn anyone. So he speaks to the wall of the house while the man listens behind it. The edition keeps the oath and the cry together so the trick shows."
+    }
+  ],
+  "checked": "nothing in the bundle, because no comparison edition is bundled. The reviewing model judged each section against the Standard Babylonian epic from its own knowledge, and every fix that rests on that is marked as unverified against a bundled source.",
+  "open": [
+    "The editor's own read of all eleven tablets, with a printed scholarly edition in hand. This work needs it more than any other.",
+    "Passages the tablets preserve and the edition skips or shortens: the hymn to the king in Tablet I, the forging of the weapons in Tablet II, the fourth dream in Tablet IV, Gilgamesh's answer to Enkidu in Tablet VII, the list of grave goods in Tablet VIII, and Ea's cover story in Tablet XI. Restoring them is new writing.",
+    "Shamash's warning in Tablet IV stands in the wrong place. Moving it means swapping two segments.",
+    "One segment in Tablet VIII was an editor's summary and is set aside. It needs the tablet's own text or a bracketed note in its place.",
+    "A note on the killing of Humbaba describes his speech differently from how the text now has it."
+  ]
+}

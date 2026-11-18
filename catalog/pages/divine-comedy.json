@@ -1,0 +1,87 @@
+{
+  "description": "The Lectio Edition of Dante's Divine Comedy: all one hundred cantos, tercet by tercet, in plain current English, with its choices and its review record.",
+  "what": "Dante's journey through Hell, Purgatory and Paradise, led first by Virgil and then by Beatrice. One hundred cantos in three-line stanzas, written in Italian between about 1308 and 1320.",
+  "why_title": "Longfellow kept Dante's lines and lost his speed.",
+  "why": [
+    "The public-domain Dante in the bundle is Longfellow's of 1867. It is faithful, line for line. It is also full of the inverted word order of its century: \"a forest dark\", \"All hope abandon, ye who enter in\".",
+    "Dante's Italian is concrete and quick. It was the spoken language of his city, chosen over Latin so that people could read it.",
+    "The Lectio Edition keeps Dante's form, one tercet at a time, on his lines, and puts the words in the order English uses now. Longfellow stays in the app beside it, and because both follow Dante's lines the two can be compared stanza by stanza."
+  ],
+  "choices_lede": "Three reviewers took one canticle each and wrote their rules separately. They were then applied as one rule across all hundred cantos.",
+  "choices": [
+    "One tercet to a segment, on Dante's lines. Where the English had slipped a line, the lines were moved back.",
+    "Each canto ends on a single line, and that line stands alone.",
+    "Latin stays Latin. Where Dante quotes a hymn, a psalm or scripture in Latin, the edition prints the Latin and puts no English beside it in the verse. The draft had translated or glossed many of these.",
+    "Dante's \"Ahi\" is \"Ah\". It is never \"God\".",
+    "Leftover archaism came out: \"Behold\", \"yonder\", \"the while\".",
+    "A word that would mislead a modern reader is replaced by the thing Dante means. The draft had \"specialist\" for a physician."
+  ],
+  "divergences": [
+    {
+      "where": "Inferno I, line 2",
+      "phrase": "*selva oscura*",
+      "older": "\"a forest dark\" (Longfellow)",
+      "lectio": "a dark wood",
+      "why": "The Italian is plainly noun then adjective, and English wants it the other way round. It is the canto's governing image and should be bare."
+    },
+    {
+      "where": "Inferno III, line 9",
+      "phrase": "*Lasciate ogne speranza, voi ch'intrate*",
+      "older": "\"All hope abandon, ye who enter in!\" (Longfellow)",
+      "lectio": "Abandon every hope, you who enter here.",
+      "why": "A plain and terrible command: verb, object, address. \"Every\" because Dante counts each hope given up."
+    },
+    {
+      "where": "Inferno III, line 60",
+      "phrase": "*il gran rifiuto*",
+      "older": "\"Who made through cowardice the great refusal\" (Longfellow)",
+      "lectio": "who out of cowardice made the great refusal",
+      "why": "Dante does not name this shade. The edition does not name him either, and does not explain the phrase. The withholding is the point."
+    },
+    {
+      "where": "Inferno V, lines 100 to 106",
+      "phrase": "*Amor, ch'al cor gentil ratto s'apprende*",
+      "older": "\"Love, that on gentle heart doth swiftly seize\" (Longfellow)",
+      "lectio": "Love, which is quick to seize the gentle heart",
+      "why": "Francesca begins three tercets in a row with \"Love\". All three openings are kept so the repetition is heard."
+    },
+    {
+      "where": "Inferno XXVI, lines 118 to 120",
+      "phrase": "*fatti non foste a viver come bruti*",
+      "older": "\"Ye were not made to live like unto brutes\" (Longfellow)",
+      "lectio": "Consider where you came from.",
+      "why": "Ulysses to his crew before the last voyage. The tercet goes on: you were not made to live like beasts, but to follow after virtue and knowledge."
+    },
+    {
+      "where": "Inferno XXXIV, line 1",
+      "phrase": "*Vexilla regis prodeunt inferni*",
+      "older": "left in Latin (Longfellow)",
+      "lectio": "Vexilla regis prodeunt inferni",
+      "why": "The only line of Latin in the Inferno, a Good Friday hymn with one word added to turn it toward Satan. The draft had put an English version in the verse. The review took it out, as Dante and Longfellow have it."
+    },
+    {
+      "where": "Inferno XXXIV, line 139",
+      "phrase": "*a riveder le stelle*",
+      "older": "\"Thence we came forth to rebehold the stars\" (Longfellow)",
+      "lectio": "to see again the stars",
+      "why": "Each of the three canticles ends on the word \"stars\". After Hell the line has to open and lift, and a simple verb does it."
+    },
+    {
+      "where": "Paradiso XXXIII, line 145",
+      "phrase": "*l'amor che move il sole e l'altre stelle*",
+      "older": "\"The Love which moves the sun and the other stars\" (Longfellow)",
+      "lectio": "by the Love that moves the sun and the other stars.",
+      "why": "The last line of the poem. Here there is almost nothing to change, and the edition changes almost nothing."
+    }
+  ],
+  "checked": "Longfellow (1867), which follows Dante line for line. The Italian is not in the bundle, so readings of the Italian came from the reviewing models' own knowledge of the text.",
+  "open": [
+    "The editor's own read of all one hundred cantos.",
+    "In seven cantos the closing line shares the last segment with the tercet before it, because segment numbers are frozen. One ruling is needed for all seven.",
+    "Purgatorio XXII is one line off from its twelfth tercet to the end. Realigning it would move every later stanza number in that canto. Paradiso XXX had the same fault and was realigned. Decide whether Purgatorio XXII gets the same.",
+    "Arnaut Daniel's Occitan in Purgatorio XXVI: three segments that held an English version in brackets are set aside. Decide whether to retire them.",
+    "Three Latin phrases that Dante sets inside an Italian sentence are still in English. The canticles' rules differ on this.",
+    "\"Behold\" survives seven times in the Purgatorio and Paradiso. The rule against it was applied only to the Inferno.",
+    "Fourteen of the edition's notes paraphrase the text instead of quoting it."
+  ]
+}

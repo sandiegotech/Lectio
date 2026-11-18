@@ -1,0 +1,79 @@
+{
+  "description": "The Lectio Edition of Hamlet: a light-touch companion that keeps Shakespeare's lines and clears only dead words and tangled grammar. Shakespeare's text stays the default.",
+  "what": "Shakespeare's tragedy of a prince, a murdered father, and a mind that cannot stop thinking. Five acts, written about 1600. More of its lines have passed into ordinary speech than those of any other play.",
+  "why_title": "With Shakespeare the English is the art. So this edition does very little.",
+  "why": [
+    "Hamlet is the one work here that was written in English. There is no original behind it to get closer to. A full rewrite would throw away the thing itself.",
+    "But Early Modern English stops many readers. Words have died or changed their meaning. \"Fardels\" are burdens. \"Fancy\" meant imagination. Some clauses run backward.",
+    "The Lectio Edition keeps the verse lines and nearly all of Shakespeare's words. It steps in only where the language itself blocks a modern reader: a dead word replaced, an inverted clause set straight. It is a way in, to be read beside the original and then left behind."
+  ],
+  "status": "Shakespeare's own text is what opens by default for Hamlet, and it will stay the default. The Lectio Edition is a companion, one tap away.",
+  "choices_lede": "The first draft changed too much. Most of the review's 147 fixes put Shakespeare's wording back.",
+  "choices": [
+    "The verse lines are kept, line for line. Prose stays prose.",
+    "\"Thou\" and \"thee\" become \"you\", except in a short closed list of lines known by heart: \"to thine own self be true\", \"Get thee to a nunnery\", \"flights of angels sing thee to thy rest\".",
+    "\"Ay\" is kept. Every reader takes it as \"aye\".",
+    "Claudius keeps the royal \"we\" wherever Shakespeare gives it to him.",
+    "A rare word the scene itself discusses is kept. Hamlet and Polonius stop to talk about \"mobled\", so it stays.",
+    "Songs, the letter, the Players' speeches and the play within the play keep their own setting.",
+    "The famous lines are not touched."
+  ],
+  "divergences": [
+    {
+      "where": "Act II, scene 2",
+      "phrase": "\"Buzz, buzz\"",
+      "older": "Buzz, buzz. (Shakespeare)",
+      "lectio": "Bah, bah.",
+      "why": "Hamlet's answer to stale news. \"Buzz\" was a noise of contempt. Today it reads as a sound effect."
+    },
+    {
+      "where": "Act II, scene 2",
+      "phrase": "\"the mobled queen\"",
+      "older": "the mobled queen (Shakespeare)",
+      "lectio": "the mobled queen",
+      "why": "Kept. The draft had \"muffled\". But Hamlet stops on the word and Polonius approves of it, and with an ordinary word their exchange is about nothing. The review put it back."
+    },
+    {
+      "where": "Act III, scene 1",
+      "phrase": "\"his quietus make / With a bare bodkin\"",
+      "older": "his quietus make / With a bare bodkin (Shakespeare)",
+      "lectio": "settle his account",
+      "why": "\"To be, or not to be\" is kept almost word for word. Four dead words are cleared, each in the meter. A bodkin is a dagger and fardels are burdens."
+    },
+    {
+      "where": "Act III, scene 2",
+      "phrase": "\"methinks\"",
+      "older": "The lady protests too much, methinks. (Shakespeare)",
+      "lectio": "The lady protests too much, methinks.",
+      "why": "Kept word for word. The draft had removed \"methinks\". Every reader still understands it, and the line is known with it."
+    },
+    {
+      "where": "Act V, scene 1",
+      "phrase": "\"argal\" and \"se offendendo\"",
+      "older": "argal, she drowned herself wittingly (Shakespeare)",
+      "lectio": "she drowned herself on purpose",
+      "why": "The gravedigger's law Latin is wrong on purpose, and that is the joke. His blunders are kept. Only the plain words around them are eased."
+    },
+    {
+      "where": "Act V, scene 1",
+      "phrase": "\"of most excellent fancy\"",
+      "older": "a fellow of infinite jest, of most excellent fancy (Shakespeare)",
+      "lectio": "of most excellent imagination",
+      "why": "\"Fancy\" then meant the power of imagination. Now it means a whim. \"Infinite jest\" is untouched."
+    },
+    {
+      "where": "Act V, scene 2",
+      "phrase": "\"The rest is silence\"",
+      "older": "The rest is silence. (Shakespeare)",
+      "lectio": "The rest is silence.",
+      "why": "Hamlet's last words, left exactly as written. So are \"the readiness is all\" and \"there's a divinity that shapes our ends\"."
+    }
+  ],
+  "checked": "Shakespeare's text in the bundle, the conflated Second Quarto and First Folio Hamlet.",
+  "open": [
+    "The editor's own read of all five acts, beside the original.",
+    "The letter, Hamlet's poem, the Players' speeches and the songs should be set in italics as in the source. Act II still has them in quotation marks and Act IV's songs have lost their indent.",
+    "A handful of \"O\" and \"Oh\" exclamations were left for the editor's ear.",
+    "Two of the edition's notes quote the text with slightly different punctuation from how it reads."
+  ]
+}

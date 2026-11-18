@@ -238,6 +238,10 @@ judge, not a second reader to maintain.
 Build it as `tools/site.py` writing into `../website/lectio/`, run with the monthly bundle
 rebuild, deployed with the site's own `infra/deploy.sh`. Start with the launch shelf.
 
+Built 2026-11-17: `python3 tools/site.py --check` writes `/lectio/`, `/lectio/mission/` and a page
+per book, then verifies them. Hand-written copy is in `catalog/pages/`; the rest is derived.
+For now the method page is `/lectio/mission/` and each book's edition detail is on its own page.
+
 ## 7. Where things live
 
     BIBLE.md  PLAN.md  CLAUDE.md      what it is · what is next · how to work here

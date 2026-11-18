@@ -1,0 +1,68 @@
+{
+  "description": "The Lectio Edition of Marcus Aurelius's Meditations: what it is for, how it opens, the choices it makes, and the record of its drafting and review.",
+  "what": "The private notebook of a Roman emperor. Marcus Aurelius wrote it in Greek, at night and on campaign, to remind himself how to live: with reason, with justice, and without fear of death. He did not mean anyone to read it.",
+  "why_title": "A man talking to himself should sound like one.",
+  "why": [
+    "Most readers meet Marcus in George Long's translation of 1862. It is accurate and it is stiff. \"Begin the morning by saying to thyself\" is not how anyone speaks to himself, and the book is nothing but a man speaking to himself.",
+    "The older English also carries its own furniture. Long's brackets, footnotes and conjectures sit in and around the text, and a reader cannot always tell where Marcus stops and his translator begins.",
+    "The Lectio Edition gives the twelve books in plain current English, with nothing in the text that the Greek does not have. Long, Casaubon's English of 1634 and the Greek itself stay in the app beside it. The aim is that you read Marcus straight through, and go to the older versions when a line makes you curious."
+  ],
+  "choices_lede": "The review of November 2026 set these rules for the whole work and applied them. The authority is the Greek. Long and Casaubon are witnesses to it, not sources of text.",
+  "choices": [
+    "Long's apparatus stays out. Nothing from his square brackets, footnotes, conjectures or ellipses is printed unless the Greek has it. The review found two places where a footnote of Long's had been printed as Marcus's own words: a line of Homer in Book X and Cicero's Latin in Book VII. Both are gone.",
+    "The inner *daimon* is \"the divinity within you\" every time, so a reader can see it is one thing. Only in VII.17, where the sentence turns on the Greek word, is the word itself named.",
+    "A generic person is \"a man\" and \"he\", with \"people\" for the plural, as the Greek has it. Book VIII had drifted to \"a person\" and \"they\" and was brought back.",
+    "Where Marcus quotes the same verse twice, the English is the same twice.",
+    "Where a sentence depends on a Greek pun that English cannot carry, the Greek word is named once inside the sentence. Where English can carry the play, it stays English.",
+    "Quoted speech takes double quotation marks. Quoted verse runs on as prose, because this is a prose edition."
+  ],
+  "divergences": [
+    {
+      "where": "The title",
+      "phrase": "Τὰ εἰς ἑαυτόν",
+      "older": "\"Meditations\", the traditional title",
+      "lectio": "Kept as \"Meditations\", read as \"To Himself\"",
+      "verbatim": false,
+      "why": "Marcus gave the work no title. \"Meditations\" is a later editor's label. The Greek means \"to himself\". The edition keeps the familiar name and treats the text as what it is, a private notebook."
+    },
+    {
+      "where": "Books II, III, V and elsewhere",
+      "phrase": "δαίμων (*daimon*)",
+      "older": "\"the daemon\" (Long)",
+      "lectio": "the divinity within you",
+      "why": "\"Daemon\" sends a modern reader toward \"demon\". For the Stoics it is the share of divine reason each person carries, and Marcus treats it as a god. One phrase throughout lets the reader follow it, and the phrase keeps the word divine."
+    },
+    {
+      "where": "Throughout",
+      "phrase": "τὸ ἡγεμονικόν (*to hegemonikon*)",
+      "older": "\"the ruling faculty\" (Long)",
+      "lectio": "the ruling faculty",
+      "why": "This is the Stoic name for the part of the self that reasons and commands. Here the edition agrees with Long and keeps his term as the standing one, varying it only where the sentence needs it. The editor has still to decide whether an agreement belongs in a list of divergences."
+    },
+    {
+      "where": "Book I, section 17",
+      "phrase": "τῇ παλλακῇ τοῦ πάππου",
+      "older": "\"my grandfather's concubine\" (Long)",
+      "lectio": "my grandfather's mistress",
+      "why": "The first draft had \"my father's mistress\". The Greek says grandfather, and so does Long. It is one of the errors of meaning the review caught, and an example of why every section is read against its sources.",
+      "from_review": true
+    }
+  ],
+  "checked": "the Greek in the bundle, with Long (1862) and Casaubon (1634) as witnesses.",
+  "open": [
+    "The readers' review, which is open now, and the editor's own read of all twelve books. Meditations is first in line for both.",
+    "The note on *hegemonikon* now records agreement with Long. Keep it or drop it.",
+    "The notes and front matter use curly quotation marks and the text uses straight ones. One house style across all editions is planned and not yet applied.",
+    "The place-notes at the ends of Books I and II (\"Among the Quadi at the Granua\") are not in the Greek as bundled and are not printed. They belong in the margin notes, which are not yet written."
+  ],
+  "pdf": {
+    "source": "print/out/meditations-lectio-modern.pdf",
+    "name": "meditations-lectio-edition-2026-11.pdf",
+    "label": "PDF, beta, revised November 2026"
+  },
+  "pdf_fallback": {
+    "href": "/lectio/meditations-lectio-edition-beta.pdf",
+    "label": "PDF, beta, typeset before the November 2026 revision"
+  },
+  "print_note": "Meditations is the first book Lectio has set for print: 5.5 by 8.5 inches, the app's serif, the translation notes at the back. One proof exists. Only a release is printed. The readers' review and the editor's read come first. Then the editor reads the proof on paper and signs it."
+}

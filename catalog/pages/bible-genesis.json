@@ -1,0 +1,79 @@
+{
+  "description": "The Lectio Edition of Genesis: the plainest prose in the Bible, in plain current English that keeps its refrains and leaves its puzzles open.",
+  "what": "The first book of the Bible. Eleven chapters about everyone: creation, a garden, a murder, a flood, a tower. Then thirty-nine about one family: Abraham and Sarah, Isaac and Rebekah, Jacob, Leah and Rachel, Joseph and his brothers.",
+  "why_title": "The Hebrew is plain. Four hundred years of English have made it grand.",
+  "why": [
+    "Genesis is spare. The Hebrew has a small vocabulary, repeats itself on purpose, and almost never explains. It says what happened and leaves the judgment to the reader.",
+    "The King James Version of 1611 is one of the great works of English, and it adds a solemnity the Hebrew does not have. It also varies words the Hebrew repeats. Abraham answers \"Here I am\" three times in one chapter, to God, to his son, and to the messenger who stops the knife. The King James gives it three ways.",
+    "The Lectio Edition keeps the refrains word for word, keeps more of the Hebrew's \"and\" than modern taste likes, and leaves a puzzle as a puzzle. The King James stays in the app beside it."
+  ],
+  "status": "In the app, the King James is still what opens by default for Genesis. The Lectio Edition is complete, all fifty chapters. It is a beta, and it becomes the default after the readers' review and the editor's read.",
+  "choices_lede": "These rules come from the charter written for the biblical books and from the review.",
+  "choices": [
+    "Where the Hebrew is unknown or can be read two ways, the edition prints the received text and leaves it open. A scholar's guess goes in a note, not in the verse. \"Gopher wood\" stays \"gopher wood\". Nobody knows what it was.",
+    "Refrains and repeated words are the same each time.",
+    "The divine name is \"the LORD\" in capitals, the convention English Bibles have used since Tyndale. It marks that a substitution is being made.",
+    "*Shamayim* is \"sky\" for the physical sky and \"heaven\" where it is God's place or title.",
+    "*Hesed* is \"kindness\".",
+    "The poems inside Genesis are verse and should be set as lines. The build cannot do that yet. See below."
+  ],
+  "divergences": [
+    {
+      "where": "1:1",
+      "phrase": "בְּרֵאשִׁית בָּרָא (*bereshit bara*)",
+      "older": "\"In the beginning God created the heaven and the earth.\" (King James)",
+      "lectio": "When God began to create the heavens and the earth",
+      "why": "The Hebrew most likely opens a clause that runs on to \"God said, Let there be light\". Creation starts with a scene already dark and wet. Rashi read it this way in the eleventh century."
+    },
+    {
+      "where": "1:2",
+      "phrase": "תֹהוּ וָבֹהוּ (*tohu wabohu*)",
+      "older": "\"without form, and void\" (King James)",
+      "lectio": "a shapeless waste",
+      "why": "The Hebrew is a rhyming pair. In the same verse *ruach* is breath, wind and spirit at once, and the edition has \"the breath of God hovered\"."
+    },
+    {
+      "where": "2:18",
+      "phrase": "עֵזֶר כְּנֶגְדּוֹ (*ezer kenegdo*)",
+      "older": "\"an help meet for him\" (King James)",
+      "lectio": "a partner who matches him",
+      "why": "*Ezer* is used most often of God and implies no lower rank. *Kenegdo* means his counterpart."
+    },
+    {
+      "where": "12:1",
+      "phrase": "לֶךְ־לְךָ (*lekh lekha*)",
+      "older": "\"Get thee out of thy country\" (King James)",
+      "lectio": "out of your country",
+      "why": "Two blunt Hebrew words. The verse begins \"Go\". Everything after it follows from a man obeying an order that gives no reason."
+    },
+    {
+      "where": "15:18",
+      "phrase": "כָּרַת בְּרִית (*karat berit*)",
+      "older": "\"the LORD made a covenant with Abram\" (King James)",
+      "lectio": "the LORD cut a covenant with Abram",
+      "why": "The Hebrew idiom is to cut a covenant, and here it is literal. Animals are cut in half and fire passes between the pieces. \"Made\" hides the knife."
+    },
+    {
+      "where": "22:1, 22:7, 22:11",
+      "phrase": "הִנֵּנִי (*hineni*)",
+      "older": "\"Behold, here I am\", \"Here am I\" (King James)",
+      "lectio": "Here I am",
+      "why": "One word, three times. It is the spine of the chapter. Varying it breaks it."
+    },
+    {
+      "where": "28:12",
+      "phrase": "סֻלָּם (*sullam*)",
+      "older": "\"a ladder\" (King James)",
+      "lectio": "a stairway",
+      "why": "The word occurs only here. The picture is most likely the ramp of a temple tower, a fixed way between the sky and a stone in open country."
+    }
+  ],
+  "checked": "the King James Version (1611). The Hebrew is not in the bundle, so readings of the Hebrew came from the reviewing model's own knowledge of the text.",
+  "review_note": "The figures above cover chapters 1 to 34, which were reviewed with the other works. Chapters 35 to 50 were drafted the same night and read by one reader: 15 graded A and 1 graded B, with six small fixes applied. That reader asked that its Hebrew readings be confirmed against a printed text.",
+  "open": [
+    "The editor's own read of all fifty chapters. Until then the King James remains the default.",
+    "The poems (2:23, 3:14 to 19, 4:23 to 24, 9:25 to 27, 25:23, 27:27 to 29, 27:39 to 40, and chapter 49) are still set as prose. The build has to learn to keep line breaks inside a paragraph first.",
+    "Notes for the places left open: gopher wood, who gave the tenth at 14:20, the reading at 16:13, Joseph's coat, the traders at 37:28, \"until Shiloh comes\" at 49:10, and others. They have not been written.",
+    "The Hebrew readings for chapters 35 to 50 should be confirmed against a printed text."
+  ]
+}

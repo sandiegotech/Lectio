@@ -1,0 +1,79 @@
+{
+  "description": "The Lectio Edition of Homer's Iliad: a prose Iliad in plain current English, with its choices, its opening, and the record of its review.",
+  "what": "Homer's poem of a few weeks in the tenth year of the war at Troy. It is about what a man does with anger, with grief, and with the certainty that he will die. The Greeks sang it for centuries before anyone wrote it down.",
+  "why_title": "Homer is fast. The old English versions are slow.",
+  "why": [
+    "The two public-domain Iliads most people find are Pope's couplets of 1715 and Butler's prose of 1898. Pope is a great English poem and not much like Homer. Butler is plain, but he gives the gods their Roman names and writes \"car\" for chariot.",
+    "A reader who starts either one tends to stop in Book II. The story is not the obstacle. The English is.",
+    "The Lectio Edition is a prose Iliad in current English, all twenty-four books. It keeps the repeated epithets, because the repetition is how the poem is built. It restores the Greek names. Pope and Butler stay in the app beside it."
+  ],
+  "choices_lede": "These are the rules the review settled for the whole poem.",
+  "choices": [
+    "The first word, *menis*, is \"rage\". The hot human anger Achilles later curses, *cholos*, is \"anger\". The two are kept apart, as Homer keeps them.",
+    "The army is mostly \"the Greeks\". Homer's three names for it, Achaeans, Argives and Danaans, mean the same coalition and were chosen to fit the meter.",
+    "Gods and heroes have their Greek names: Zeus, Hera, Athena, Odysseus.",
+    "Fixed epithets are kept each time they recur: swift-footed Achilles, Hector breaker of horses.",
+    "A patronymic that names a remote ancestor is given as descent. Achilles is \"grandson of Aeacus\", not his son.",
+    "No Biblical or Christian idiom in a pagan poem, and no modern slang. The draft had \"the spirit may be willing\", \"a time to mourn\" and \"blowhard\". All were replaced with what the Greek says.",
+    "\"Car\" became \"chariot\" in 53 places, and leftover archaisms such as \"chine\" and \"a whit\" were replaced."
+  ],
+  "divergences": [
+    {
+      "where": "Book I, line 1",
+      "phrase": "μῆνις (*menis*)",
+      "older": "\"wrath\" (Pope), \"anger\" (Butler)",
+      "lectio": "rage",
+      "why": "The poem's first word. Homer uses it almost only for the anger of gods. \"Rage\" is the current word nearest to its size."
+    },
+    {
+      "where": "Throughout",
+      "phrase": "Ἀχαιοί, Ἀργεῖοι, Δαναοί",
+      "older": "Achaeans, Argives, Danaans",
+      "lectio": "the Greeks",
+      "why": "Three names for one army. Keeping all three puzzles a new reader and tells him nothing. The introduction records the variety."
+    },
+    {
+      "where": "Book VI, lines 146 to 149",
+      "phrase": "οἵη περ φύλλων γενεή",
+      "older": "\"Like leaves on trees the race of man is found\" (Pope)",
+      "lectio": "The generations of men are like the leaves of the trees.",
+      "why": "The most quoted lines in the book. Butler has the forest bud with \"fresh vines\", which is a slip. The Greek is leaves falling and the same tree leafing again."
+    },
+    {
+      "where": "Book IX, lines 408 to 409",
+      "phrase": "οὐ ληϊστή, οὐδ' ἑλετή",
+      "older": "\"it can neither be bought nor harried back again\" (Butler)",
+      "lectio": "a man's life cannot be raided back",
+      "why": "Achilles uses of his life the same words he has just used of cattle and tripods. Everything Agamemnon offers can be replaced. A life cannot. The edition keeps the raiding words."
+    },
+    {
+      "where": "Book XVIII, lines 107 to 110",
+      "phrase": "χόλος (*cholos*)",
+      "older": "\"anger\" or \"wrath\" (Butler, Pope)",
+      "lectio": "\"anger\", never \"rage\"",
+      "verbatim": false,
+      "why": "When Achilles curses the passion that rose in him against Agamemnon, Homer does not use the word of line one. The edition reserves \"rage\" for *menis* so the reader can feel the difference."
+    },
+    {
+      "where": "Book XXI, line 106",
+      "phrase": "ἀλλὰ φίλος, θάνε καὶ σύ",
+      "older": "\"Therefore, my friend, you too shall die\" (Butler)",
+      "lectio": "So die, friend",
+      "why": "Achilles calls the boy he is about to kill *philos*, one of his own. He is not being kind. He is counting Lycaon among the doomed, himself included. The address is kept bare."
+    },
+    {
+      "where": "Book XXIV, line 804",
+      "phrase": "Ἕκτορος ἱπποδάμοιο",
+      "older": "\"And peaceful slept the mighty Hector's shade\" (Pope, who rewrites the ending)",
+      "lectio": "Such was the funeral of Hector, breaker of horses.",
+      "why": "The poem ends on Hector, on a burial, and on an epithet. The edition ends where Homer ends."
+    }
+  ],
+  "checked": "Butler (1898) and Pope (1715). The Greek is not in the bundle, so the Greek readings came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all twenty-four books.",
+    "Book I: Achilles' retelling of the quarrel to Thetis is 28 lines of speech in Homer. The edition still gives it as a short narrated list. It has to be restored as speech, and that is new writing the editor should read.",
+    "Three segments are set aside, in Books V, X and XXIII. The editor has to decide whether to retire them for good or replace them with Homer's own closing lines.",
+    "The note that stood at the end of Book XXIII should move to the margin notes."
+  ]
+}

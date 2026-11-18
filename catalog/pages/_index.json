@@ -1,0 +1,148 @@
+{
+  "title": "Lectio — San Diego Institute of Technology",
+  "description": "Lectio is the first project of the San Diego Institute of Technology: a clear modern edition of each great book, with the older translations beside it.",
+  "eyebrow": "Lectio · The First Project",
+  "h1": "Let any person read a great work. <em>With genuine ease.</em>",
+  "standfirst": [
+    "Lectio is a reader for the great books. Each one gets a new edition in plain current English, faithful to the original, with the historical translations and the original language one tap away.",
+    "It is the first project of the San Diego Institute of Technology. {{n_works}} editions are in beta. The app is not out yet. This page says where everything stands."
+  ],
+  "compare": {
+    "slug": "meditations",
+    "section": 2,
+    "older": "long-1862",
+    "sentences": 2
+  },
+  "sections": [
+    {
+      "id": "question",
+      "label": "The Problem",
+      "num": "Reading",
+      "h2": "The greatest books ever written are almost entirely unread.",
+      "body": [
+        "!People are capable of reading them. What stops them is the way in.",
+        "The great works are free and in the public domain: <em>The Iliad</em>, <em>Meditations</em>, <em>The Divine Comedy</em>, the <em>Tao Te Ching</em>. Almost nobody reads them.",
+        "The free copy of each is a translation a century or more old. Its English puts even a native speaker at a distance, and its names and references assume a classical schooling few people have now. Most reading apps hand over the same 1909 file and leave you to it.",
+        "Lectio gives each book a clear modern edition and keeps the old ones beside it. It is the whole book, made for the reader it has now. Nothing is cut and nothing is summarized."
+      ]
+    },
+    {
+      "id": "library",
+      "label": "The Library",
+      "num": "{{n_works}} editions",
+      "h2": "The books that have a Lectio edition today.",
+      "body": [
+        "!Each cover opens a page on that edition: what the book is, why the edition was made, how it begins, the choices it makes, and the record of how it was drafted and checked.",
+        {
+          "insert": "library"
+        },
+        {
+          "status": "Where these stand",
+          "beta": true,
+          "text": "All {{n_works}} are beta. They were drafted by AI models. In {{revised_month}} every section had a first review by machine readers, and the confirmed fixes were applied. An edition becomes a release through <a href=\"#scholars\">the review of its readers</a> together with the editor's own full read. Neither has happened yet for any edition. <a href=\"/lectio/mission/\">How an edition is made.</a>"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "The Reading",
+      "num": "Side by side",
+      "h2": "What readable means.",
+      "body": [
+        "!The opening of <em>Meditations</em>, Book II. A Roman emperor is telling himself how to face the morning.",
+        {
+          "insert": "compare"
+        },
+        "The first is the edition most people meet. It is accurate, and it was written for readers who died a century ago. The second is the same two sentences as they stand in the Lectio Edition today. In the app, Long, Casaubon's English of 1634 and the Greek stay beside it."
+      ]
+    },
+    {
+      "id": "edition",
+      "label": "The Edition",
+      "num": "How it is made",
+      "h2": "How an edition is made.",
+      "body": [
+        "!A Lectio edition is a new rendering of the whole work. It is drafted by an AI model and it says so.",
+        "The public-domain translations and, where we have it, the original are brought into one bundle. A model drafts the edition section by section. A second reader, also a model, then reads every section against those sources and reports what is wrong. A further pass tries to prove each finding false, and only the fixes that survive are applied. At that point the edition is a beta. It becomes a release when its readers have reviewed it and the editor has read the whole of it himself. Neither has happened yet for any book.",
+        "Each edition is stamped with the year it was drafted and the date it was last revised, and it carries its sources and the places where it departs from the older English.",
+        {
+          "cta": "The translation mission, in full",
+          "href": "/lectio/mission/"
+        }
+      ]
+    },
+    {
+      "id": "coming",
+      "label": "What Is Coming",
+      "num": "The schedule",
+      "h2": "About twenty books at launch. Then one each Monday.",
+      "body": [
+        "!This is the plan. Dates can slip. The launch books go out as betas. A book that is not finished does not go out.",
+        "The launch shelf is {{n_launch}} books: the {{n_works}} above and {{n_pending}} more that are drafted and not yet in the library, {{pending_names}}.",
+        "After launch, one new book appears each Monday from {{first_monday}}, announced in <a href=\"/daily.html\">the Daily</a>. The first {{n_dated}} are dated. The register behind them holds {{n_register}} books in all.",
+        {
+          "insert": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "label": "The App",
+      "num": "Not yet released",
+      "h2": "The app is built and not yet released.",
+      "body": [
+        "!Lectio is being prepared for the App Store. The Institute's Apple developer enrollment is in review, and nothing can be submitted until it clears. When the app is out it will be free.",
+        "It runs on iPhone and iPad. It opens to the books you have been reading. Every book lists its editions, and switching between them keeps your place. You can set a passage beside the same passage in another edition, and keep bookmarks, highlights, notes and saved words.",
+        "There is no link here because there is nothing to install yet. The Daily will say when there is."
+      ]
+    },
+    {
+      "id": "print",
+      "label": "In Print",
+      "num": "One proof",
+      "h2": "Printed editions are planned. One proof exists.",
+      "body": [
+        "!The printed book is set from the same bundle the app reads, so the page and the screen carry the same text.",
+        "The only printed artifact today is a proof of <em>Meditations</em>. Only a release is printed, and the editor reads the proof on paper before it is sold. The plan after that is one printed edition a month, shortest works first.",
+        "The text will be free to read, in the app and as a PDF. The bound book is what is sold, and what it earns goes to the Institute. One PDF exists today, of <em>Meditations</em>: {{pdf_link}}.",
+        "Editions in other languages are planned, Spanish first. None exists yet beyond a trial setting of <em>Meditations</em>."
+      ]
+    },
+    {
+      "id": "scholars",
+      "label": "The Scholars",
+      "num": "Beta → Release",
+      "h2": "Every edition is beta until its readers make it a release.",
+      "body": [
+        "!A Lectio edition is labeled beta from the day it is made. It earns its release stamp through the review of its readers, students and scholars alike, together with the editor's own full read.",
+        "This is review by care, not by credential. A scholar here is anyone who will read closely. You hold the Lectio edition against the older translations, or against the original if you have the language. You flag where a passage loses the sense or reads badly, and you say so plainly.",
+        "Every flagged passage anchors to an exact segment of the text. An accepted correction lands in the next revision with its reason recorded. A released edition names its reviewers in the colophon. Only releases go to print.",
+        "There is a precedent. The Oxford English Dictionary began with an appeal to the public, and volunteer readers spent decades mailing quotation slips to its editors. Lectio works the same way, with better instruments.",
+        "The machine review of {{revised_month}} was a first pass. It does not replace this one. No edition has had its readers' review yet.",
+        {
+          "cta": "Join the review",
+          "href": "mailto:brandon@sandiegotech.org?subject=Lectio%20Scholars&amp;body=I%27d%20like%20to%20join%20the%20review.%0A%0AA%20work%20I%27d%20want%20to%20read%20closely%3A%20"
+        },
+        {
+          "status": "Open now",
+          "beta": true,
+          "text": "The first open review is <em>Meditations</em>. The beta is on <a href=\"/lectio/meditations/\">its edition page</a>, and the whole text is here to read: {{pdf_link}}."
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "label": "The Record",
+      "num": "Open",
+      "h2": "The method and the record are public.",
+      "body": [
+        "!Each edition's page carries its own record: the model that drafted it, its sources, what the review found and fixed, and what is still open.",
+        "If you read a passage and think it is wrong, write to <a href=\"mailto:brandon@sandiegotech.org?subject=Lectio\">brandon@sandiegotech.org</a> and say where.",
+        {
+          "status": "Source",
+          "text": "<a href=\"https://github.com/sandiegotech/Lectio\" target=\"_blank\" rel=\"noopener\">github.com/sandiegotech/Lectio</a> · Code MIT · Lectio Editions CC BY-NC 4.0"
+        }
+      ]
+    }
+  ]
+}

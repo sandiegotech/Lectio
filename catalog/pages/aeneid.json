@@ -1,0 +1,78 @@
+{
+  "description": "The Lectio Edition of Virgil's Aeneid: a prose Aeneid in plain current English, with its rules for names and famous lines, its opening, and its review record.",
+  "what": "Virgil's epic of Rome. Aeneas carries his father and his household gods out of burning Troy and goes to found the people who will become Rome. It is a poem about duty and about what duty costs.",
+  "why_title": "Dryden is a monument. He is not an on-ramp.",
+  "why": [
+    "The public-domain Aeneid is John Dryden's verse of 1697. It is one of the great English translations, and it is in couplets more than three centuries old. Dryden also paraphrases freely. \"I fear the Greeks even when they bring gifts\" becomes \"Trust not their presents, nor admit the horse\".",
+    "The Lectio Edition gives the twelve books as prose in current English. It keeps Virgil's names and keeps each famous line at its own length and shape. Dryden stays in the app beside it."
+  ],
+  "choices_lede": "The review set these rules and applied them across the twelve books.",
+  "choices": [
+    "Names are the ones Virgil gives, in his Latin forms: Minerva, never Athena. Tartarus, Erebus and Dis, where the draft had put \"hell\". No name is added that Virgil leaves out, and none is dropped.",
+    "No oaths to one God in a poem with many gods. A character swears by Jupiter or simply cries out.",
+    "No modern idiom that calls up something outside the poem. The draft had \"gone with the wind\" and \"for free\".",
+    "The poet's narration does not use contractions. Direct speech may, when the speaker is talking in the moment. Prayers, oaths and prophecy do not.",
+    "Famous lines keep their own length and shape.",
+    "The last line of Book XI and the last line of the poem are the same line in Latin, and are now the same in English."
+  ],
+  "divergences": [
+    {
+      "where": "Throughout",
+      "phrase": "*pietas*",
+      "older": "\"piety\", \"pious Aeneas\"",
+      "lectio": "\"duty\", \"dutiful Aeneas\"",
+      "verbatim": false,
+      "why": "*Pietas* is what a man owes to gods, country and family. \"Piety\" now means religious feeling. \"Duty\" is what drives Aeneas, and what the poem counts the cost of."
+    },
+    {
+      "where": "Book II, line 49",
+      "phrase": "*timeo Danaos et dona ferentis*",
+      "older": "\"Trust not their presents, nor admit the horse\" (Dryden)",
+      "lectio": "I fear the Greeks even when they come bearing gifts",
+      "why": "The line is a proverb in English already. The edition keeps it close to the shape people know."
+    },
+    {
+      "where": "Book IV, line 23",
+      "phrase": "*agnosco veteris vestigia flammae*",
+      "older": "\"Too like the sparkles of my former flame\" (Dryden)",
+      "lectio": "I recognize the marks of the old flame",
+      "why": "Dido admits she loves again. *Vestigia* are traces, footprints, a scar. Dryden's \"sparkles\" is prettier than the Latin."
+    },
+    {
+      "where": "Book VI, lines 126 to 129",
+      "phrase": "*hoc opus, hic labor est*",
+      "older": "\"In this the task and mighty labour lies\" (Dryden)",
+      "lectio": "that is the labor, that is the task",
+      "why": "Anyone can go down. Coming back is the hard part. The descent to the underworld is built on that contrast, and the doubled close is kept."
+    },
+    {
+      "where": "Book VI, lines 851 to 853",
+      "phrase": "*parcere subiectis et debellare superbos*",
+      "older": "\"To tame the proud, the fetter'd slave to free\" (Dryden)",
+      "lectio": "to spare the conquered, and to crush the proud",
+      "why": "Virgil's statement of what Rome is for. Dryden softens the second half. The edition leaves the cost where Virgil put it."
+    },
+    {
+      "where": "Book VII, line 312",
+      "phrase": "*flectere si nequeo superos, Acheronta movebo*",
+      "older": "\"Hell shall the pow'r of Heav'n and Jove supply\" (Dryden)",
+      "lectio": "If I cannot bend the gods above, I will stir up Hell",
+      "why": "Juno's vow in two plain halves. Note that this line still says \"Hell\", against the edition's own rule on names. It is on the editor's list below."
+    },
+    {
+      "where": "Book XII, line 952",
+      "phrase": "*vitaque cum gemitu fugit indignata sub umbras*",
+      "older": "\"And the disdainful soul came rushing through the wound\" (Dryden)",
+      "lectio": "and life fled with a groan, resentful, down to the shades",
+      "why": "The last line. The poem ends on the kill, with no funeral and no peace. The same line closes Camilla's death in Book XI and is rendered the same way there."
+    }
+  ],
+  "checked": "Dryden (1697). The Latin is not in the bundle, so the Latin readings came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all twelve books.",
+    "Books II and III are Aeneas telling his own story. They still have contractions. Decide whether his tale follows the rule for speech or for narration.",
+    "\"Hell\" is still in Book VII in three places, and one note argues for it. The rule on names says otherwise.",
+    "Three of the edition's notes quote wording the text no longer has, including the notes on the first line and on *sunt lacrimae rerum*. They need rewriting.",
+    "Prayers and speeches of state in Books IX to XII have not been checked one by one for contractions."
+  ]
+}

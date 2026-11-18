@@ -1,0 +1,83 @@
+{
+  "description": "The Lectio Edition of the Gospel of Mark: the earliest Gospel in plain current English that keeps its speed, its roughness and its abrupt ending.",
+  "what": "The earliest of the four Gospels and the shortest. It has no birth story and no long sermon. It opens with a voice in the wilderness and moves fast, in the everyday Greek of markets and letters, to an empty tomb.",
+  "why_title": "Mark is rough and in a hurry. English Bibles have made him dignified.",
+  "why": [
+    "The King James Version of 1611 gave English its sacred register, and Mark does not write in a sacred register. He piles clause on clause with \"and\". He says \"right away\" more than forty times in sixteen chapters. Translators have varied the word for elegance since the beginning.",
+    "The smoothing also hides what Mark built. At the baptism the sky is torn, the same verb he uses for the temple curtain at the crucifixion. The King James has \"opened\".",
+    "The Lectio Edition keeps the pace and the repetition, and keeps the hard words hard. It ends where the oldest manuscripts end. The King James stays in the app beside it."
+  ],
+  "choices_lede": "These rules were set before drafting, in a charter for the biblical books, and the review held the text to them.",
+  "choices": [
+    "*Euthys* is \"right away\", every time. The review checked all 41 places and corrected 13 that had been varied.",
+    "Biblical units and hours stay: denarii, the third hour, the fourth watch. They are not converted.",
+    "Hard words stay hard: \"rebuking\", \"deny himself\", \"eternal sin\".",
+    "*Parabole* is \"parable\" wherever it names the form.",
+    "Where Jesus is moved by a crowd, \"his heart went out\". At 1:41, where manuscripts differ between compassion and anger, the edition has \"Moved to the depths\" and records the variant.",
+    "The base Greek text is Westcott and Hort's of 1881, which is in the public domain."
+  ],
+  "divergences": [
+    {
+      "where": "Throughout",
+      "phrase": "εὐαγγέλιον (*euangelion*)",
+      "older": "\"gospel\" (King James)",
+      "lectio": "good news",
+      "why": "Before it became a church word it was a herald's word, for news of a victory. \"Good news\" is what a first hearer heard."
+    },
+    {
+      "where": "Throughout",
+      "phrase": "εὐθύς (*euthys*)",
+      "older": "\"straightway\", \"immediately\", \"anon\", \"forthwith\" (King James)",
+      "lectio": "right away",
+      "why": "Mark repeats it on purpose. A translator who varies it is correcting an author who made no mistake."
+    },
+    {
+      "where": "1:10",
+      "phrase": "σχιζομένους",
+      "older": "\"he saw the heavens opened\" (King James)",
+      "lectio": "torn open",
+      "why": "The verb is the one for tearing cloth. Mark uses it again of the temple curtain. The tear frames the book."
+    },
+    {
+      "where": "1:41",
+      "phrase": "σπλαγχνισθείς or ὀργισθείς",
+      "older": "\"moved with compassion\" (King James)",
+      "lectio": "Moved to the depths",
+      "why": "A few important manuscripts read \"moved with anger\". The Greek word behind \"compassion\" names the inward organs. The edition gives the depth and records the variant in a note."
+    },
+    {
+      "where": "4:39",
+      "phrase": "σιώπα, πεφίμωσο",
+      "older": "\"Peace, be still\" (King James)",
+      "lectio": "Quiet. Be muzzled.",
+      "why": "Jesus does not soothe the storm. He silences it with the verb he used on an unclean spirit in chapter 1. The King James line is beautiful and hides the connection."
+    },
+    {
+      "where": "8:29",
+      "phrase": "ὁ Χριστός",
+      "older": "\"Thou art the Christ\" (King James)",
+      "lectio": "You are the Messiah",
+      "why": "It is a title being claimed. Modern readers hear \"Christ\" as a surname, and the scene loses its weight."
+    },
+    {
+      "where": "9:43 to 9:48",
+      "phrase": "γέεννα",
+      "older": "\"hell\" (King James)",
+      "lectio": "Gehenna",
+      "why": "Gehenna is a place, the Valley of Hinnom outside Jerusalem. \"Hell\" brings in a later picture of the afterlife."
+    },
+    {
+      "where": "16:8",
+      "phrase": "ἐφοβοῦντο γάρ",
+      "older": "verses 9 to 20 printed as part of the Gospel (King James)",
+      "lectio": "Verse 8 is the ending. Verses 9 to 20 are printed and marked as a later addition.",
+      "verbatim": false,
+      "why": "The oldest manuscripts stop with the women running from the tomb, afraid, saying nothing. The longer ending was written later in a different style. The edition prints it and says what it is."
+    }
+  ],
+  "checked": "the King James Version (1611). The Greek is not in the bundle, so readings of the Greek came from the reviewing model's own knowledge of the critical text.",
+  "open": [
+    "The editor's own read of all sixteen chapters.",
+    "The review left no other item for the editor on this work."
+  ]
+}

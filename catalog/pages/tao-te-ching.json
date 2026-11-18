@@ -1,0 +1,85 @@
+{
+  "description": "The Lectio Edition of the Tao Te Ching: eighty-one chapters in plain current English, with te rendered as power, its opening, and its review record.",
+  "what": "Eighty-one short chapters, part poem and part proverb, ascribed to Laozi. They teach the Way that cannot be named and the power that works by yielding. It is the founding text of Taoism.",
+  "why_title": "A book this short should not need brackets.",
+  "why": [
+    "James Legge's translation of 1891 is exact and hard to read. He explains inside the line, in brackets: \"The highest excellence is like (that of) water.\" He reads the famous first line as a path one can walk, which loses its argument about speech and names.",
+    "The Chinese is spare, and it hedges where it is unsure. A translation that explains and decides for it is a different book.",
+    "The Lectio Edition gives each chapter in a few plain sentences, with no gloss inside the line, and keeps the hedges where the Chinese has them. Legge stays in the app beside it."
+  ],
+  "choices_lede": "The review set these rules. The first is the one a reader will notice.",
+  "choices": [
+    "*Te*, the second word of the title, is \"power\" everywhere. \"Virtue\" is retired, because in current English it means moral goodness and *te* does not. The one exception is in Chapter 63, where \"repay resentment with power\" would read as revenge. There it is \"kindness\". The editor may overrule this.",
+    "*Wu wei* is acting without forcing, not doing nothing.",
+    "No explanation inside the line. What a term means goes in a note.",
+    "Hedges stay hedged. Where the Chinese says \"seems\" or \"perhaps\", so does the English.",
+    "The ideal person is \"he\", as the sage is throughout. A general maxim may say \"you\".",
+    "The base is the received text of Wang Bi. A variant reading is used only where a note records it.",
+    "A phrase the Chinese repeats is repeated. \"He lets that go and takes hold of this\" closes Chapters 12, 38 and 72 in the same words."
+  ],
+  "divergences": [
+    {
+      "where": "Chapter 1",
+      "phrase": "道可道，非常道",
+      "older": "\"The Tao that can be trodden is not the enduring and unchanging Tao.\" (Legge)",
+      "lectio": "The Way that can be spoken is not the eternal Way.",
+      "why": "The second *dao* is a verb, and in the oldest usage it means to say. The whole chapter is about speaking and naming. Legge's \"trodden\" is possible grammar and loses the point."
+    },
+    {
+      "where": "Chapter 3",
+      "phrase": "為無為，則無不治",
+      "older": "\"When there is this abstinence from action, good order is universal.\" (Legge)",
+      "lectio": "Act without forcing, and nothing is left ungoverned.",
+      "why": "The Chinese is an active paradox: do the not-doing. It is not idleness. The edition keeps it as a command."
+    },
+    {
+      "where": "Chapter 5",
+      "phrase": "芻狗",
+      "older": "\"the dogs of grass\" (Legge)",
+      "lectio": "straw dogs",
+      "why": "A straw dog was made for a sacrifice, handled with honor during the rite, and thrown away after. Heaven and earth treat all things so, without malice and without favor."
+    },
+    {
+      "where": "Chapter 8",
+      "phrase": "上善若水",
+      "older": "\"The highest excellence is like (that of) water.\" (Legge)",
+      "lectio": "The highest good is like water.",
+      "why": "Four characters, five English words. The same word for \"good\" then runs down the chapter's list, and the reader should hear it as one idea."
+    },
+    {
+      "where": "Chapter 37",
+      "phrase": "道常無為而無不為",
+      "older": "\"The Tao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.\" (Legge)",
+      "lectio": "The Way never forces anything, yet nothing is left undone.",
+      "why": "The book's central paradox. Legge hedges it with a bracket and it reads as inaction."
+    },
+    {
+      "where": "Chapter 55",
+      "phrase": "含德之厚，比於赤子",
+      "older": "\"He who has in himself abundantly the attributes (of the Tao) is like an infant.\" (Legge)",
+      "lectio": "One full of power is like a newborn child.",
+      "why": "The fullest power is held by the weakest creature. Legge unpacks *te* into a phrase and hides the one word the chapter turns on."
+    },
+    {
+      "where": "Chapter 63",
+      "phrase": "報怨以德",
+      "older": "\"to recompense injury with kindness\" (Legge)",
+      "lectio": "Repay resentment with kindness.",
+      "why": "The edition's one exception to \"power\" for *te*. Confucius answers this same proverb in the Analects, and the Lectio Analects says \"kindness\" there. The two books should let the reader hear one saying."
+    },
+    {
+      "where": "Chapter 78",
+      "phrase": "天下莫柔弱於水",
+      "older": "\"There is nothing in the world more soft and weak than water\" (Legge)",
+      "lectio": "Nothing in the world is softer or weaker than water",
+      "why": "Legge goes on to add a bracketed \"(so effectual)\". The Chinese closes more simply: nothing can take water's place."
+    }
+  ],
+  "checked": "Legge (1891). The Chinese is not in the bundle, so readings of the received Wang Bi text came from the reviewing model's own knowledge of it.",
+  "open": [
+    "The editor's own read of all eighty-one chapters.",
+    "The ruling on Chapter 63: \"kindness\" as the one exception, or \"power\" with no exception.",
+    "Six of the edition's notes quote the text loosely. They predate the review and were left.",
+    "The note on the royal titles in Chapter 39 explains a word as \"of little worth\" where the text says \"widowed\"."
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "title": "The Translation Mission · Lectio — San Diego Institute of Technology",
+  "description": "Why Lectio makes new editions of the great books, what modern means here, how an edition is drafted and reviewed, and what is not done yet.",
+  "eyebrow": "Lectio · The Translation Mission",
+  "h1": "A new edition of each great book, and an account of how it was made.",
+  "standfirst": [
+    "This page is the method, told once. It covers why Lectio makes new editions at all, what they are held to, the stages each goes through, what the first full review found, and what is still undone.",
+    "It describes things as they are on {{revised}}."
+  ],
+  "sections": [
+    {
+      "id": "why",
+      "label": "Why",
+      "num": "A new edition",
+      "h2": "Why make a new edition at all.",
+      "body": [
+        "!Most of these books were never English. Every English reader has only ever met Homer, Plato or Laozi in translation, and a translation belongs to its time.",
+        "The translations that are free to print are old. Pope's Iliad is from 1715. Long's Marcus Aurelius is from 1862. They are good, and some are great. But their English has moved away from us. Old translations use old words, and they also use words we still use in senses we no longer mean. \"Temperance\" now suggests not drinking. \"Piety\" suggests church. \"Idea\" suggests a thought in someone's head.",
+        "The good modern translations are under copyright. They cannot be given away, and they cannot be set beside each other in one reader.",
+        "So the choice for a free reader was to hand people the 1909 file, or to make something new. Lectio makes a new edition and keeps the old ones next to it. The older translations and the original are not replaced. They are there to be read, and the new edition is how most people will get to them."
+      ]
+    },
+    {
+      "id": "modern",
+      "label": "Modern",
+      "num": "The register",
+      "h2": "What \"modern\" means here.",
+      "body": [
+        "!A Lectio edition must read for anyone from about fifteen to ninety.",
+        "That rule decides the vocabulary. The English is plain and current, and it is never fashionable. A word half the readers would have to look up is a failure, and so is a word that will sound dated in ten years. The editions draw on the durable middle of the language, the part three generations share.",
+        "It cuts both ways. The first review took out \"girlfriend\", \"the haves\" and \"for free\". It also took out \"car\" for chariot, \"chine\" and \"yonder\".",
+        "Modern does not mean casual, and it does not mean simplified. Aristotle's distinctions are all still there. Machiavelli is as cold as he was."
+      ]
+    },
+    {
+      "id": "faithful",
+      "label": "Faithful",
+      "num": "Not a summary",
+      "h2": "Faithful to the original, and complete.",
+      "body": [
+        "!A Lectio edition is the whole work, in order, at its own length. It is a translation in the ordinary sense. The claim is that someone who has read the Lectio <em>Iliad</em> has read the <em>Iliad</em>.",
+        "Fidelity is checked clause by clause: anything added, dropped, softened, sharpened, or explained. An explanation written into the author's sentence counts as an error even when it is correct. What a reader needs to know goes in a note beside the text.",
+        "Names stay. Famous lines stay recognizable. Verse keeps its lines. Where an author repeats a phrase on purpose, the English repeats it.",
+        "Shakespeare is the exception that shows the rule. He wrote in English, so there the edition changes very little and his own text stays the default."
+      ]
+    },
+    {
+      "id": "sources",
+      "label": "Sources",
+      "num": "And rights",
+      "h2": "What is reproduced, and what is only consulted.",
+      "body": [
+        "!Public-domain texts are reproduced in full. Copyrighted work is never reproduced.",
+        {
+          "list": [
+            "<strong>Public-domain translations</strong> are included whole in the app, with translator and year: Pope, Butler, Dryden, Jowett, Long, Legge, Longfellow, the King James translators and others.",
+            "<strong>Original-language texts</strong> are included where we have brought them in. Today that is the Greek of <em>Meditations</em> and Shakespeare's own <em>Hamlet</em>. The rest are still to come.",
+            "<strong>Modern translations and scholarship under copyright</strong> are named in an edition's provenance where they were consulted. Their text is not quoted or reproduced, in the app or on this site.",
+            "<strong>The Lectio edition</strong> is the Institute's own text, released under CC BY-NC 4.0."
+          ]
+        },
+        "Copyright protects a translator's wording. It does not protect what a passage means. That is the line the editions keep to, and it is the same line any scholar keeps.",
+        "Every edition carries a provenance record: the model that drafted it, the date, the sources, and the method. An edition without one does not ship. A Lectio edition is never presented as a historical translation."
+      ]
+    },
+    {
+      "id": "stages",
+      "label": "The Stages",
+      "num": "Six",
+      "h2": "The six stages an edition goes through.",
+      "body": [
+        "!The first four are done by machine and produce a beta. The fifth belongs to people and cannot be handed to a model.",
+        {
+          "tag": "ol",
+          "list": [
+            "<strong>Ingest.</strong> The public-domain translations and the original are brought into the bundle, each with its source and rights recorded.",
+            "<strong>Draft.</strong> An AI model writes the Lectio rendering, one section at a time.",
+            "<strong>Review.</strong> A second reader takes each section and reads it against every other edition of that section. It checks fidelity first, then register, voice, how the sentences read aloud, and form. It grades the section A, B or C and lists each fault with the source reading and a proposed fix.",
+            "<strong>Fix.</strong> A further pass takes each reported fault and tries to prove it wrong. Only what holds is kept. The fix is written to change as little of the sentence as it needs.",
+            "<strong>Readers' review and the editor's read.</strong> Readers hold the beta against the older translations or the original and flag what is wrong. The editor reads the whole edition and the list of fixes, and strikes what he does not want.",
+            "<strong>Release.</strong> The corrections are applied, the bundle is rebuilt, and the edition is stamped a release. Only a release is printed."
+          ]
+        },
+        {
+          "status": "Where the {{n_works}} editions are",
+          "beta": true,
+          "text": "All {{n_works}} are beta. They have been through the first four stages. In this first run the editor chose to apply every confirmed fix before reading, so the corrected text is what the bundle now holds. The fifth stage has not been done for any of them: no readers' review has closed and the editor has not yet read any edition in full. {{n_approved}} of {{n_works}} are releases."
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "The First Review",
+      "num": "{{revised_month}}",
+      "h2": "What the first full review found.",
+      "body": [
+        "!In {{revised_month}} every drafted edition was read against its sources: {{n_works}} works, {{n_sections}} sections, {{words_total}}.",
+        "No section had to be redone. {{n_a}} sections were graded A, meaning no changes proposed. {{n_b}} were graded B, meaning small fixes. None was graded C. The readers found 51 errors of meaning, about 480 places where a reader would stumble, and roughly twice as many points of polish.",
+        "After each finding was re-checked, {{n_fixes}} fixes were applied: {{n_high}} high, {{n_medium}} medium and {{n_low}} low. High means the meaning was wrong or missing. Medium means a reader would stumble. Low is polish. The count of high fixes is larger than the count of errors because one decision, such as a single English word for a key term, becomes many entries.",
+        {
+          "insert": "review_table"
+        },
+        "The readers were AI models, up to twenty working at once. For most works the original language is not yet in the bundle, so the reader compared the draft with the public-domain translation and judged the original from its own knowledge of it. Each edition's page says which was the case. That is a real limit, and it is one reason the editor's read matters.",
+        {
+          "sub": "The five causes"
+        },
+        "The same five causes account for most of what was found.",
+        {
+          "tag": "ol",
+          "list": [
+            "<strong>The older translator's notes printed as the author.</strong> Footnotes and bracketed glosses from the base translation had been carried into the text. In <em>Meditations</em>, a footnote of George Long's quoting Homer was printed as Marcus's own words. A translator's note sat inside the Muses' speech in the <em>Republic</em>.",
+            "<strong>Drafted from the English, not the original.</strong> Where the base translation was wrong or coy, so was the draft. Marcus's grandfather's mistress had become his father's.",
+            "<strong>No style sheet.</strong> Each section was drafted alone, so names and key terms changed from book to book. The <em>Ethics</em> had four English words for temperance. <em>The Prince</em> kept \"virtù\" in some chapters and translated it in others.",
+            "<strong>Explanation written into the sentence.</strong> A gloss after a name. A moral after an ending.",
+            "<strong>Single words in the wrong register.</strong> Too new on one side, too old on the other."
+          ]
+        },
+        {
+          "sub": "What changed in the method"
+        },
+        {
+          "list": [
+            "A style sheet is written before the first section: names, the dozen key terms and the one English word for each, oaths, quotation and verse style, what stays in the original language. The rules the reviewers wrote for each work, which are on each edition's page, are the first of these.",
+            "New editions are drafted from the original, with the public-domain translation as a check on meaning and not as the text to modernize. The original is to be bundled for every work so that review can check against it.",
+            "The build gets a mechanical gate: no brackets or translator's notes in a Lectio segment, one quotation style per work.",
+            "{{n_omit}} segments that turned out to be an editor's note or an invented sentence are now marked so the app, print and audio skip them. Segment numbers are frozen, so they could not simply be deleted.",
+            "Quoted verse inside prose is to keep its line breaks. The build does not do this yet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "readers",
+      "label": "The Readers' Review",
+      "num": "Beta → Release",
+      "h2": "The readers' review.",
+      "body": [
+        "!Every edition is beta until its readers make it a release. The review is open to anyone who will read closely, students and scholars alike. It is review by care, not by credential.",
+        "A reviewer holds the Lectio edition against the older translations or the original, flags where a passage loses the sense or reads badly, and says so plainly. Each flag anchors to an exact segment. An accepted correction lands in the next revision with its reason recorded, and a released edition names its reviewers in the colophon.",
+        "The machine review described above came first and does not replace this. The first open review is <em>Meditations</em>.",
+        {
+          "cta": "The Scholars, and how to join",
+          "href": "/lectio/#scholars"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "label": "The Models",
+      "num": "Which, and why",
+      "h2": "Which models, and why.",
+      "body": [
+        "!Each edition names the model that drafted it. The first review also gave a way to compare them.",
+        {
+          "insert": "model_table"
+        },
+        "The works differ, so this is suggestive and not proof. But the stronger model made about a third as many faults and a fifth as many errors of meaning, and errors of meaning are the ones that matter. The table covers fifteen works. The other {{n_other_models}}, Genesis and Mark, were drafted by a different model ({{other_models}}) under their own charter and are not in the comparison.",
+        "From this the plan follows. Draft with the best model available, because drafting is done once and read by everyone after. Do the first review with a model that reads closely and can run many sections at once. Do the fix pass on the best model, because it decides what prints.",
+        "The changes to the method matter more than any change of model."
+      ]
+    },
+    {
+      "id": "vintages",
+      "label": "Vintages",
+      "num": "And revisions",
+      "h2": "One edition, stamped, with revisions.",
+      "body": [
+        "!An edition carries a vintage, the year it was drafted, and a revision date. All {{n_works}} editions are vintage {{vintage}}, revised {{revised}}, and beta.",
+        "Fixes from review are revisions. The vintage stays the same, the revision date changes, and each change is logged. An edition is revised in the open. It is not quietly regenerated.",
+        "A new vintage is a full redraft, and it is made only when it is measurably better. Three sections are redrafted as a trial and reviewed blind against the current text. The trial has to win on faults per ten thousand words and on the editor's own reading. Otherwise the current edition stands. The trial is run about once a year, when a new generation of models arrives. Some years nothing will change.",
+        "Old vintages are kept with their provenance, so a passage can still be cited from the edition it came from. The printed book carries its vintage and revision in the colophon."
+      ]
+    },
+    {
+      "id": "record",
+      "label": "The Record",
+      "num": "Where to see it",
+      "h2": "The review record, and where to read it.",
+      "body": [
+        "!For every work the review left a record: a report on each section, the list of fixes with the reason for each, the rules chosen for the work, the findings that were rejected and why, and what was left for the editor.",
+        "Each edition's page on this site gives the substance of it: the model and drafting date, the sources, what the edition was checked against, the grades, the fixes by severity, the rules, and a plain list of what is still open. Start from <a href=\"/lectio/#library\">the library</a>.",
+        "The files themselves are in the Lectio repository under <code>review/</code>. If you find an error in an edition, write to <a href=\"mailto:brandon@sandiegotech.org?subject=Lectio\">brandon@sandiegotech.org</a> with the passage."
+      ]
+    },
+    {
+      "id": "languages",
+      "label": "Other Languages",
+      "num": "Spanish first",
+      "h2": "Other languages.",
+      "body": [
+        "!Translation has always carried these books from one language and one century into the next. English is the first language Lectio works in. It is not meant to be the only one.",
+        "Spanish comes first. A translation starts only from an edition that is a release. It is made from the original, with the Lectio English as the guide to register. It needs its own reader at the read stage, a native speaker. It is a new edition of the same work under the same rules.",
+        "A Spanish <em>Meditations</em> has been set as a print trial and is not finished. There will be no second language until the first has a reader."
+      ]
+    },
+    {
+      "id": "notyet",
+      "label": "Not Done Yet",
+      "num": "Plainly",
+      "h2": "What is not done yet.",
+      "body": [
+        "!An account of a method should say where it stops.",
+        {
+          "list": [
+            "The readers' review and the editor's read. No edition has had either in full, so all {{n_works}} are beta. Each edition's page lists what waits for the editor. <em>Meditations</em> is first.",
+            "One house style across works. Each edition is now consistent within itself, but they differ from each other in quotation marks and dashes.",
+            "The originals. Only two works have their original text in the bundle.",
+            "The margin notes. Explanations that were taken out of the text have mostly not yet been written as notes.",
+            "The launch shelf. {{n_pending}} drafted books still have to be brought into the library and reviewed.",
+            "The app's release, which waits on Apple.",
+            "Print, beyond one proof. Other languages, beyond one trial."
+          ]
+        },
+        {
+          "cta": "Back to the library",
+          "href": "/lectio/#library"
+        }
+      ]
+    }
+  ]
+}

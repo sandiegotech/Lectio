@@ -1,0 +1,78 @@
+{
+  "description": "The Lectio Edition of Plato's Republic: the dialogue in plain current English, with the terms it fixes, its opening, and its review record.",
+  "what": "Plato's dialogue on justice. Socrates asks what justice is and whether it is worth having, and to answer he builds a city in words. The Cave, the divided line and the philosopher-king all come from this book.",
+  "why_title": "It is a conversation, and it should read like one.",
+  "why": [
+    "Benjamin Jowett's translation of 1871 is lucid and long-lived. It is also Victorian. His speakers swear \"By heaven\", his Cave is a \"den\", and his key words have moved since he chose them. \"Temperance\" now means not drinking. \"Idea\" now means a thought in someone's head.",
+    "The Lectio Edition renders all ten books as talk between people, in current English, and fixes one English word for each term the argument turns on. Jowett stays in the app beside it."
+  ],
+  "choices_lede": "The review found that this edition's terms drifted from book to book. These are the rules that now hold.",
+  "choices": [
+    "Explanations are never printed as Plato's text. A gloss on a name, a pun or an allusion comes out of the sentence and goes to the margin notes. The review found a translator's note inside the Muses' speech in Book VIII.",
+    "The four virtues are wisdom, courage, self-command and justice. *Sophrosyne* had been \"self-discipline\", \"self-restraint\" and \"temperance\" in different books.",
+    "*Gymnastike* is \"physical training\". \"Gymnastics\" now means a sport.",
+    "When the Greek swears by Zeus, the English says \"by Zeus\". \"God\" and \"Good lord\" are not used as exclamations.",
+    "A line of Homer quoted twice has one wording.",
+    "Words that date the text came out: \"girlfriend\", \"the haves\", \"consumer\", \"payroll\", \"the gym\"."
+  ],
+  "divergences": [
+    {
+      "where": "Book I, 338c",
+      "phrase": "τὸ τοῦ κρείττονος συμφέρον",
+      "older": "\"justice is nothing else than the interest of the stronger\" (Jowett)",
+      "lectio": "justice is nothing other than the advantage of the stronger",
+      "why": "\"Interest\" has drifted toward finance and polite concern. \"Advantage\" keeps Thrasymachus as blunt as Plato makes him."
+    },
+    {
+      "where": "Book III, 414b",
+      "phrase": "γενναῖόν τι ἓν ψευδομένους",
+      "older": "\"just one royal lie\" (Jowett)",
+      "lectio": "One noble lie",
+      "why": "*Gennaios* means well-born. Plato's phrase is a contradiction on purpose, a lie of good family. \"Royal\" names who hears the lie. \"Noble\" keeps the discomfort."
+    },
+    {
+      "where": "Book IV and throughout",
+      "phrase": "σωφροσύνη (*sophrosyne*)",
+      "older": "\"temperance\" (Jowett)",
+      "lectio": "self-command",
+      "why": "Plato explains the word by the phrase \"stronger than himself\": the better part of a man holding the worse. \"Self-command\" keeps that in view each time."
+    },
+    {
+      "where": "Book V, 473c",
+      "phrase": "ἐὰν μὴ οἱ φιλόσοφοι βασιλεύσωσιν",
+      "older": "\"Until philosophers are kings\" (Jowett)",
+      "lectio": "Unless philosophers become kings in our cities",
+      "why": "The Greek is a hard condition and promises nothing. \"Until\" tells the reader the day is coming. Plato does not say so."
+    },
+    {
+      "where": "Book VII, 514a",
+      "phrase": "καταγείῳ οἰκήσει σπηλαιώδει",
+      "older": "\"an underground den\" (Jowett)",
+      "lectio": "a kind of cave",
+      "why": "A den is where an animal lives. The image depends on its being a place where people live and which they take for the world."
+    },
+    {
+      "where": "Book VII",
+      "phrase": "ἡ τοῦ ἀγαθοῦ ἰδέα",
+      "older": "\"the idea of good\" (Jowett)",
+      "lectio": "the form of the good",
+      "why": "To a modern ear an idea is a thought. Plato means the opposite: the thing most real, seen last and with effort."
+    },
+    {
+      "where": "Book X, 617e",
+      "phrase": "δαίμων (*daimon*)",
+      "older": "\"genius\" (Jowett)",
+      "lectio": "guardian spirit",
+      "why": "\"Genius\" now means talent. The *daimon* is the spirit that goes with a life. In the myth of Er the soul chooses its own, which is why the blame is the chooser's."
+    }
+  ],
+  "checked": "Jowett (1871). The Greek is not in the bundle, so the Greek readings came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all ten books.",
+    "Book VII: short replies now use contractions, as in the books around it. The long speeches do not. The rest needs to be settled by ear.",
+    "Three places where \"Honestly\" may stand for an oath in the Greek. The Greek has not been checked.",
+    "One gloss is still in the text at 392d, and a note defends it. Decide whether it stays.",
+    "The explanations taken out of the text (Bendis, the nuptial number, the 729 calculation and others) have not yet been written into the margin notes.",
+    "One note quotes \"the turning around of the soul\" where the text has \"of a soul\"."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "description": "The Lectio Edition of Machiavelli's The Prince: plain current English that keeps the word virtù, with its opening, its choices, and its review record.",
+  "what": "A short handbook on power, written in 1513 by a Florentine diplomat who had lost his post. Machiavelli sets aside how rulers ought to behave and describes what they must do to keep a state.",
+  "why_title": "One word carries the book, and the old translation hides it.",
+  "why": [
+    "The standard free translation is W. K. Marriott's of 1908. It is clear and faithful. But Machiavelli runs his whole argument on one word, *virtù*, and Marriott turns it into a different English word almost every time: ability, valour, energy, talent.",
+    "A reader of Marriott cannot see that the book is one argument about one quality set against fortune. A reader of the Italian cannot miss it.",
+    "The Lectio Edition renders the twenty-six chapters in current English and leaves *virtù* in Italian wherever Machiavelli uses it in this sense. Marriott stays in the app beside it."
+  ],
+  "choices_lede": "The review graded twenty of twenty-six chapters as needing no change. The rules it set are few.",
+  "choices": [
+    "*Virtù* stays untranslated from Chapter I to Chapter XXVI. It means skill, force and nerve together, with no moral content. No single English word holds it, and five different English words hide that it is one idea. The draft had kept it in some chapters and translated it in others.",
+    "The adjective *virtuoso* is \"able\". The ordinary moral plural, virtues set against vices, stays English.",
+    "*Spegnere*, to put out a flame, is \"snuff out\" each time Machiavelli uses it of a family or a republic.",
+    "No explanation is written into Machiavelli's sentence. The draft defined *virtù* inside Chapter I and glossed the Parlement of Paris inside Chapter XIX. Both glosses were removed.",
+    "Roman Gaul is Gaul, not France. Names carry their accents: Forlì, Vailà."
+  ],
+  "divergences": [
+    {
+      "where": "Chapter I",
+      "phrase": "*o per fortuna o per virtù*",
+      "older": "\"or else by fortune or by ability\" (Marriott)",
+      "lectio": "either by fortune or by virtù",
+      "why": "The first appearance of the pair the whole book is built on. The Italian word is kept here and at every later use."
+    },
+    {
+      "where": "Chapter III",
+      "phrase": "*o vezzeggiare o spegnere*",
+      "older": "\"either to be well treated or crushed\" (Marriott)",
+      "lectio": "men should be either treated well or snuffed out",
+      "why": "The verb is the one for putting out a flame. Keeping the image, and keeping it the same each time, lets the reader hear the maxim return."
+    },
+    {
+      "where": "Chapter VIII",
+      "phrase": "*Non si può ancora chiamare virtù*",
+      "older": "\"Yet it cannot be called talent to slay fellow-citizens\" (Marriott)",
+      "lectio": "it cannot be called virtù to kill your fellow citizens",
+      "why": "The one sentence where Machiavelli refuses his own word to a man who seems to have earned it. \"Talent\" loses the refusal."
+    },
+    {
+      "where": "Chapter XV",
+      "phrase": "*la verità effettuale della cosa*",
+      "older": "\"the real truth of the matter\" (Marriott)",
+      "lectio": "the effectual truth of the thing",
+      "why": "Machiavelli coined the phrase: truth measured by what works. \"Real truth\" makes it ordinary emphasis. The edition keeps it strange."
+    },
+    {
+      "where": "Chapter XV",
+      "phrase": "*imparare a potere essere non buono*",
+      "older": "\"to know how to do wrong\" (Marriott)",
+      "lectio": "to learn how not to be good",
+      "why": "Marriott moralizes. Machiavelli says the prince must be able to be not good, and use that or not as need requires."
+    },
+    {
+      "where": "Chapter XXV",
+      "phrase": "*la fortuna è donna*",
+      "older": "\"it is necessary to beat and ill-use her\" (Marriott)",
+      "lectio": "fortune is a woman, and if you mean to keep her down you must beat her and shove her",
+      "why": "The most notorious sentence in the book, at full force. Softening it would misreport the writer. The reader should meet it as written and judge him."
+    },
+    {
+      "where": "Chapter XIX",
+      "phrase": "*il parlamento e la sua autorità*",
+      "older": "\"the parliament and its authority\" (Marriott)",
+      "lectio": "the Parlement and its authority",
+      "why": "He means the Parlement of Paris, a court of law. \"Parliament\" suggests a legislature, which it was not. The French name marks the difference."
+    }
+  ],
+  "checked": "Marriott (1908). The Italian is not in the bundle, so the Italian readings came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all twenty-six chapters.",
+    "The text now leaves *virtù* unexplained and points to the margin. The margin entry for it has not been written.",
+    "Chapter VI: \"He abolished the old militia\" may have the same fault that was fixed in Chapter VIII. It is a judgment call and was left.",
+    "The lines of Virgil in Chapter XVII and of Petrarch in Chapter XXVI are verse. The build runs them together as prose. The fix is in the pipeline, not the text.",
+    "Several of the edition's notes quote the text loosely. They need one pass to match it exactly."
+  ]
+}

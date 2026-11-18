@@ -1,0 +1,82 @@
+{
+  "description": "The Lectio Edition of Augustine's Confessions: one long prayer in plain current English, with its choices, its opening, and its review record.",
+  "what": "Augustine tells God the story of his life and lets the reader overhear. A restless youth, a long struggle of mind and will, a conversion in a garden. Then he turns to memory, to time, and to the first verses of Genesis. Thirteen books, written in Latin about the year 400.",
+  "why_title": "A prayer in \"Thou\" and \"hast\" keeps the reader outside it.",
+  "why": [
+    "E. B. Pusey's translation of 1838 is reverent and exact, and every sentence is in the English of the King James Bible. \"Too late loved I Thee, O Thou Beauty of ancient days.\" A modern reader hears church, not a man.",
+    "Augustine's Latin is direct, quick and often funny. He prays for chastity, but not yet. He says he stole pears for no reason at all.",
+    "The Lectio Edition gives all thirteen books in current English, with \"you\" for God, and keeps the cries and the wordplay. Pusey stays in the app beside it."
+  ],
+  "choices_lede": "The review set these rules for the whole work.",
+  "choices": [
+    "*Distentio*, Augustine's word for what time is, is \"stretching-out\" every time. Pusey splits it into two unrelated words and the thread is lost.",
+    "*Continentia* is chosen by its sense. For sexual restraint it is \"continence\", so that the famous prayer matches the figure of Continence who appears in the garden. For the general virtue it is \"self-mastery\".",
+    "A cry is translated as a cry. *Ei mihi* is \"Woe is me\". It is never dropped or turned into a description.",
+    "Quoted verse keeps its lines.",
+    "One spelling, Manichaean, and one style of quotation mark across the thirteen books.",
+    "Single words in the wrong register were fixed one at a time."
+  ],
+  "divergences": [
+    {
+      "where": "Book I",
+      "phrase": "*inquietum est cor nostrum, donec requiescat in te*",
+      "older": "\"our heart is restless, until it repose in Thee\" (Pusey)",
+      "lectio": "you made us for yourself, and our heart is restless until it rests in you",
+      "why": "The Latin ties restless to rest in one breath. \"Repose\" breaks the echo."
+    },
+    {
+      "where": "Book II",
+      "phrase": "*ut essem gratis malus*",
+      "older": "\"that I should be gratuitously evil\" (Pusey)",
+      "lectio": "that I should be evil for free",
+      "why": "*Gratis* is a word from the market: no payment. Augustine's point about the pears is that there was nothing to gain. \"Gratuitously\" has drifted toward \"excessively\"."
+    },
+    {
+      "where": "Book VIII",
+      "phrase": "*tolle lege, tolle lege*",
+      "older": "\"Take up and read; Take up and read.\" (Pusey)",
+      "lectio": "Take it and read. Take it and read.",
+      "why": "A child's chant over a garden wall, four syllables. It has to be something a child would sing."
+    },
+    {
+      "where": "Book VIII",
+      "phrase": "*da mihi castitatem et continentiam, sed noli modo*",
+      "older": "\"Give me chastity and continency, only not yet.\" (Pusey)",
+      "lectio": "Give me chastity and continence",
+      "why": "The line ends \"but not yet\". The draft had \"self-control\". The review restored \"continence\", the word the line is known by, which also ties it to the scene that follows."
+    },
+    {
+      "where": "Book X, chapter 27",
+      "phrase": "*sero te amavi*",
+      "older": "\"Too late loved I Thee, O Thou Beauty of ancient days, yet ever new!\" (Pusey)",
+      "lectio": "Late have I loved you, Beauty so old and so new",
+      "why": "*Sero* is \"late\", not \"too late\". It is grief at the delay, spoken after arriving. Pusey turns it into a verdict."
+    },
+    {
+      "where": "Book X, chapter 29",
+      "phrase": "*da quod iubes et iube quod vis*",
+      "older": "\"Give what Thou enjoinest, and enjoin what Thou wilt.\" (Pusey)",
+      "lectio": "Give what you command, and command what you will.",
+      "why": "The sentence that provoked Pelagius. God must supply the obedience he demands. \"Enjoin\" makes it polite."
+    },
+    {
+      "where": "Book XI",
+      "phrase": "*quid est ergo tempus?*",
+      "older": "\"If no one asks me, I know: if I wish to explain it to one that asketh, I know not.\" (Pusey)",
+      "lectio": "What then is time? If no one asks me, I know",
+      "why": "Pusey is nearly plain here already. The edition only removes \"asketh\" and \"I know not\"."
+    },
+    {
+      "where": "Book XI",
+      "phrase": "*distentio*",
+      "older": "\"protraction\", and later \"distraction\" (Pusey)",
+      "lectio": "a stretching-out",
+      "why": "One coined term for what time is, used again at the book's close. One English word each time lets the reader follow it."
+    }
+  ],
+  "checked": "Pusey (1838). The Latin is not in the bundle, so readings of the Latin came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all thirteen books.",
+    "Lines of Virgil in Book VIII and of Ambrose's hymn in Book IX are marked as verse. The build still runs them together as prose. The fix is in the pipeline."
+  ]
+}

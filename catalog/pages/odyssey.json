@@ -1,0 +1,71 @@
+{
+  "description": "The Lectio Edition of Homer's Odyssey: the homecoming in plain current English, with the edition's rules, its opening, and its review record.",
+  "what": "Homer's poem of the long way home. Odysseus spends ten years getting back from Troy to his wife, his son and his island. Under the monsters and the gods it is about cunning, endurance and the pull of home.",
+  "why_title": "The story is easy. The 1900 file is not.",
+  "why": [
+    "The free Odyssey is Samuel Butler's prose of 1900. Butler is readable, but he calls the hero Ulysses and the goddess Minerva, and he flattens the repeated lines that give the poem its sound.",
+    "The Lectio Edition tells all twenty-four books in current English. It keeps the Greek names and the fixed epithets, and where Homer repeats a line word for word, so does the English. Butler stays in the app beside it.",
+    "It was made to be read alongside the Lectio Iliad. The two share their names, their epithets and their spelling."
+  ],
+  "choices_lede": "The review swept all twenty-four books for each of these and corrected every departure it found.",
+  "choices": [
+    "Gods and heroes keep their Greek names, in the familiar Latinized spelling: Odysseus, Athena, Telemachus, Eurycleia. The draft had mixed spellings such as Antinoos and Antinous. One form now holds.",
+    "The army is \"the Greeks\", as in the Iliad.",
+    "Fixed epithets have one form each: \"winged words\", \"gray-eyed Athena\", \"Zeus who gathers the clouds\", \"earth-shaker\".",
+    "Lines Homer repeats word for word are rendered word for word. Penelope's shroud speech is the same in Books II, XIX and XXIV.",
+    "Homeric idioms are kept where English can carry them and translated where it cannot.",
+    "Modern idioms with the wrong sense came out: \"make your play\", \"good luck to you\", \"last supper\". So did leftover archaisms such as \"trumpery\" and \"steading\"."
+  ],
+  "divergences": [
+    {
+      "where": "Book I, line 1",
+      "phrase": "πολύτροπος (*polytropos*)",
+      "older": "\"that ingenious hero\" (Butler)",
+      "lectio": "the man of many turns",
+      "why": "The word means both much-traveled and quick to turn in thought. Older versions pick one sense. The phrase holds both."
+    },
+    {
+      "where": "Throughout",
+      "phrase": "πολύτλας δῖος Ὀδυσσεύς",
+      "older": "\"the much-enduring noble Odysseus\"",
+      "lectio": "long-suffering Odysseus",
+      "why": "His standing epithet. Endurance is what defines him, and the reader should hear it each time Homer says it."
+    },
+    {
+      "where": "Book IX, lines 366 to 414",
+      "phrase": "Οὖτις (*Outis*)",
+      "older": "\"Noman\" (Butler, Pope)",
+      "lectio": "Nobody",
+      "why": "Odysseus names himself Nobody, so that when the Cyclops shouts that Nobody is killing him, his neighbors go home. The name has to be the same word in the cave and in the cry, and it has to be ordinary English."
+    },
+    {
+      "where": "Book XI, lines 489 to 491",
+      "phrase": "ἐπάρουρος ἐὼν θητευέμεν ἄλλῳ",
+      "older": "\"a paid servant in a poor man's house\" (Butler)",
+      "lectio": "I would rather be a hired hand, working another man's land",
+      "why": "Achilles among the dead takes back the creed of the Iliad. The Greek is exact: a hired field hand serving a man who has no land of his own. He is free, and he is at the bottom. \"Servant\" is too vague."
+    },
+    {
+      "where": "Book XX, line 18",
+      "phrase": "τέτλαθι δή, κραδίη",
+      "older": "\"Heart, be still, you had worse than this to bear\" (Butler)",
+      "lectio": "Endure, my heart. You have borne worse than this.",
+      "why": "The verb is from the same root as his epithet. He is ordering himself to be what his name says he is."
+    },
+    {
+      "where": "Throughout",
+      "phrase": "ἔπεα πτερόεντα",
+      "older": "varied",
+      "lectio": "winged words",
+      "why": "The draft gave this formula several ways. Homer gives it one way. Eleven places were corrected.",
+      "from_review": true
+    }
+  ],
+  "checked": "Butler (1900). The Greek is not in the bundle, so the Greek readings came from the reviewing model's own knowledge of the text.",
+  "open": [
+    "The editor's own read of all twenty-four books.",
+    "Seven lines about Helen in Penelope's speech (Book XXIII) were missing and have been restored. Ancient critics doubted these lines. The edition has no note saying so yet.",
+    "Two translator's notes that had been printed as Homer's text, in Books V and XIV, are set aside. The first belongs in the margin notes. The second made a false claim and must be reworded before it goes anywhere.",
+    "A passage in Book XVII repeats one in Book IV and is still worded differently. Matching them is optional."
+  ]
+}
