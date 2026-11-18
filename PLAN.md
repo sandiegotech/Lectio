@@ -241,6 +241,9 @@ rebuild, deployed with the site's own `infra/deploy.sh`. Start with the launch s
 Built 2026-11-17: `python3 tools/site.py --check` writes `/lectio/`, `/lectio/mission/` and a page
 per book, then verifies them. Hand-written copy is in `catalog/pages/`; the rest is derived.
 For now the method page is `/lectio/mission/` and each book's edition detail is on its own page.
+Since 2026-11-17 it also writes, for every page: search title and description (`seo` in the page
+file), linked data, a share card, `index.md`, and for editions `edition.json`; and once: `feed.xml`,
+`editions.json`, `/llms.txt`, `/llms-full.txt`. A new book gets all of it from its page file.
 
 ## 7. Where things live
 

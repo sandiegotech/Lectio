@@ -64,5 +64,18 @@
     "href": "/lectio/meditations-lectio-edition-beta.pdf",
     "label": "PDF, beta, typeset before the November 2026 revision"
   },
-  "print_note": "Meditations is the first book Lectio has set for print: 5.5 by 8.5 inches, the app's serif, the translation notes at the back. One proof exists. Only a release is printed. The readers' review and the editor's read come first. Then the editor reads the proof on paper and signs it."
+  "print_note": "Meditations is the first book Lectio has set for print: 5.5 by 8.5 inches, the app's serif, the translation notes at the back. One proof exists. Only a release is printed. The readers' review and the editor's read come first. Then the editor reads the proof on paper and signs it.",
+  "seo": {
+    "title": "Meditations by Marcus Aurelius: a modern translation · Lectio",
+    "description": "A new plain-English translation of the Stoic emperor's private notebook, with Long, Casaubon and the Greek beside it. Beta, open for review.",
+    "author_sameas": [
+      "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+      "https://www.wikidata.org/wiki/Q1430"
+    ]
+  },
+  "related": [
+    "nicomachean-ethics",
+    "republic",
+    "tao-te-ching"
+  ]
 }

@@ -80,5 +80,18 @@
     "The editor's own read of all twenty books.",
     "Glosses taken out of Books V, XI and XIV need margin notes, if they are wanted.",
     "Two of the edition's notes quote a saying without the \"said the Master\" that interrupts it in the text. Harmless, but not exact."
+  ],
+  "seo": {
+    "title": "The Analects of Confucius: a modern translation · Lectio",
+    "description": "The sayings of Confucius on learning, ritual and becoming fully human, in a new plain-English translation with Legge's version beside it. Beta.",
+    "author_sameas": [
+      "https://en.wikipedia.org/wiki/Confucius",
+      "https://www.wikidata.org/wiki/Q4604"
+    ]
+  },
+  "related": [
+    "tao-te-ching",
+    "dhammapada",
+    "nicomachean-ethics"
   ]
 }

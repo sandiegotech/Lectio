@@ -78,5 +78,18 @@
   "open": [
     "The editor's own read of all thirteen books.",
     "Lines of Virgil in Book VIII and of Ambrose's hymn in Book IX are marked as verse. The build still runs them together as prose. The fix is in the pipeline."
+  ],
+  "seo": {
+    "title": "Confessions by Augustine: a modern translation · Lectio",
+    "description": "Augustine's account of his restless youth and conversion, and of memory and time, in a new plain-English translation with Pusey's beside it. Beta.",
+    "author_sameas": [
+      "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+      "https://www.wikidata.org/wiki/Q8018"
+    ]
+  },
+  "related": [
+    "bible-mark",
+    "meditations",
+    "divine-comedy"
   ]
 }
